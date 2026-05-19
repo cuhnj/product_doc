@@ -1,0 +1,124 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 66,
+  "model": "gpt-5.5",
+  "created_at": "2026-05-13T17:40:28",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=66。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.933, 0.077],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.193, 0.102, 0.817, 0.134],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.157, 0.773, 0.204],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.072, 0.218, 0.900, 0.493],\n      \"confidence\": 0.93,\n      \"image_alt\": \"两台 SDVC341-M 控制器以主从方式连接到振动送料设备的示意图。左侧为 Master Controller 和 Slave Controller，两者之间标注 Sync Signal Wire；各自连接输出电缆与振动传感器到右侧振动盘/直线送料机构，振动盘上方有表示碰撞或振动冲突的闪电与禁止符号。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.505, 0.934, 0.925],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.969, 0.932, 0.994],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页不是纯扫描件，文字清晰且与文本层基本对应。页面结构为典型应用章节首页，上半部分包含较大的连接示意图，下半部分为说明段落和编号步骤；无表格。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.052,
+          0.933,
+          0.077
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.193,
+          0.102,
+          0.817,
+          0.134
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.157,
+          0.773,
+          0.204
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.072,
+          0.218,
+          0.9,
+          0.493
+        ],
+        "confidence": 0.93,
+        "image_alt": "两台 SDVC341-M 控制器以主从方式连接到振动送料设备的示意图。左侧为 Master Controller 和 Slave Controller，两者之间标注 Sync Signal Wire；各自连接输出电缆与振动传感器到右侧振动盘/直线送料机构，振动盘上方有表示碰撞或振动冲突的闪电与禁止符号。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.505,
+          0.934,
+          0.925
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.969,
+          0.932,
+          0.994
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "本页不是纯扫描件，文字清晰且与文本层基本对应。页面结构为典型应用章节首页，上半部分包含较大的连接示意图，下半部分为说明段落和编号步骤；无表格。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-Df0MbPdsBy5tnhYU9VFgQOOSfsyrE",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1778665217,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.933, 0.077],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.193, 0.102, 0.817, 0.134],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.157, 0.773, 0.204],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.072, 0.218, 0.900, 0.493],\n      \"confidence\": 0.93,\n      \"image_alt\": \"两台 SDVC341-M 控制器以主从方式连接到振动送料设备的示意图。左侧为 Master Controller 和 Slave Controller，两者之间标注 Sync Signal Wire；各自连接输出电缆与振动传感器到右侧振动盘/直线送料机构，振动盘上方有表示碰撞或振动冲突的闪电与禁止符号。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.505, 0.934, 0.925],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.969, 0.932, 0.994],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页不是纯扫描件，文字清晰且与文本层基本对应。页面结构为典型应用章节首页，上半部分包含较大的连接示意图，下半部分为说明段落和编号步骤；无表格。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4212,
+      "completion_tokens": 740,
+      "total_tokens": 4952,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 254,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

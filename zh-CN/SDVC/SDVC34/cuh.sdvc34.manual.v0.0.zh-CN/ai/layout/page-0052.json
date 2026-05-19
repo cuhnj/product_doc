@@ -1,0 +1,171 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 52,
+  "model": "gpt-5.5",
+  "created_at": "2026-05-13T17:40:00",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=52。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.052, 0.934, 0.075],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.129, 0.150, 0.146],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.152, 0.931, 0.436],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.446, 0.932, 0.480],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.512, 0.365, 0.529],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.536, 0.933, 0.611],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.646, 0.330, 0.662],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.669, 0.934, 0.704],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.220, 0.725, 0.730, 0.816],\n      \"confidence\": 0.96,\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.960, 0.934, 0.982],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n  \"notes\": \"本页为电子版 PDF 渲染页，文本清晰且有可提取文本层，不像扫描件。页面以文字步骤说明为主，底部有一个两列表格；背景可见浅色 CUH 水印，不影响主要阅读结构。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.052,
+          0.934,
+          0.075
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.129,
+          0.15,
+          0.146
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.152,
+          0.931,
+          0.436
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.446,
+          0.932,
+          0.48
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.512,
+          0.365,
+          0.529
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.536,
+          0.933,
+          0.611
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.646,
+          0.33,
+          0.662
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.669,
+          0.934,
+          0.704
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.22,
+          0.725,
+          0.73,
+          0.816
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.073,
+          0.96,
+          0.934,
+          0.982
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "notes": "本页为电子版 PDF 渲染页，文本清晰且有可提取文本层，不像扫描件。页面以文字步骤说明为主，底部有一个两列表格；背景可见浅色 CUH 水印，不影响主要阅读结构。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-Df0M5sg2Vc97w9jyc0Uh74OV39zTj",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1778665185,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.052, 0.934, 0.075],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.129, 0.150, 0.146],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.152, 0.931, 0.436],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.446, 0.932, 0.480],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.512, 0.365, 0.529],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.536, 0.933, 0.611],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.646, 0.330, 0.662],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.669, 0.934, 0.704],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.220, 0.725, 0.730, 0.816],\n      \"confidence\": 0.96,\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.960, 0.934, 0.982],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n  \"notes\": \"本页为电子版 PDF 渲染页，文本清晰且有可提取文本层，不像扫描件。页面以文字步骤说明为主，底部有一个两列表格；背景可见浅色 CUH 水印，不影响主要阅读结构。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3868,
+      "completion_tokens": 1115,
+      "total_tokens": 4983,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

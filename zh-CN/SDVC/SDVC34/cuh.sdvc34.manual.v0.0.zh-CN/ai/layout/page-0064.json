@@ -1,0 +1,148 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 64,
+  "model": "gpt-5.5",
+  "created_at": "2026-05-13T17:40:34",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=64。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.054, 0.934, 0.078],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.133, 0.435, 0.156],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.166, 0.923, 0.207],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.098, 0.218, 0.905, 0.383],\n      \"confidence\": 0.96,\n      \"caption\": null\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.532, 0.665, 0.556],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.567, 0.94, 0.642],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.321, 0.672, 0.623, 0.881],\n      \"confidence\": 0.95,\n      \"image_alt\": \"控制器状态监控界面示意图，屏幕显示 RUN 状态、A/C/D/E/F/G/N/J 与 A0 标识，以及 Voltage、Frequenc、SpeedNow、VoltgOut、EffectCu 等监控参数行。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.981, 0.934, 0.999],\n      \"confidence\": 0.9\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的数字版 PDF 渲染图，不是纯扫描件。页面以说明文字和参数含义表为主，下半部分包含一个控制器监控界面的示意图；背景有浅色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.054,
+          0.934,
+          0.078
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.133,
+          0.435,
+          0.156
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.166,
+          0.923,
+          0.207
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.098,
+          0.218,
+          0.905,
+          0.383
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.532,
+          0.665,
+          0.556
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.567,
+          0.94,
+          0.642
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.321,
+          0.672,
+          0.623,
+          0.881
+        ],
+        "confidence": 0.95,
+        "image_alt": "控制器状态监控界面示意图，屏幕显示 RUN 状态、A/C/D/E/F/G/N/J 与 A0 标识，以及 Voltage、Frequenc、SpeedNow、VoltgOut、EffectCu 等监控参数行。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.981,
+          0.934,
+          0.999
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "notes": "本页为带文本层的数字版 PDF 渲染图，不是纯扫描件。页面以说明文字和参数含义表为主，下半部分包含一个控制器监控界面的示意图；背景有浅色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-Df0Ma3zErTom1v2ihVQq09DU8UY1d",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1778665216,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.054, 0.934, 0.078],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.133, 0.435, 0.156],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.166, 0.923, 0.207],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.098, 0.218, 0.905, 0.383],\n      \"confidence\": 0.96,\n      \"caption\": null\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.532, 0.665, 0.556],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.567, 0.94, 0.642],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.321, 0.672, 0.623, 0.881],\n      \"confidence\": 0.95,\n      \"image_alt\": \"控制器状态监控界面示意图，屏幕显示 RUN 状态、A/C/D/E/F/G/N/J 与 A0 标识，以及 Voltage、Frequenc、SpeedNow、VoltgOut、EffectCu 等监控参数行。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.981, 0.934, 0.999],\n      \"confidence\": 0.9\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的数字版 PDF 渲染图，不是纯扫描件。页面以说明文字和参数含义表为主，下半部分包含一个控制器监控界面的示意图；背景有浅色 CUH 水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3735,
+      "completion_tokens": 1076,
+      "total_tokens": 4811,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

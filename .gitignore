@@ -1,0 +1,131 @@
+.DS_Store
+
+# 日志文件
+logs/
+*.log 
+
+# 虚拟环境
+.venv/
+venv/
+.env/
+env/
+
+# IDE 配置文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.code-workspace
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 上传文件夹
+uploads/
+
+# 临时文件
+temp/
+tmp/
+*.tmp
+*.bak
+
+# 系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# SSL 证书和密钥
+*.key
+*.pem
+*.crt
+*.csr
+
+# 配置文件中的敏感信息
+config.ini
+.env
+
+# 版本管理
+.svn/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.settings/
+.project
+.classpath
+bin/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.netbeans/
+
+# Java
+*.class
+*.nar
+hs_err_pid*
+
+# # Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+

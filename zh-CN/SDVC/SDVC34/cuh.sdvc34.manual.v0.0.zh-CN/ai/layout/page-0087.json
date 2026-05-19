@@ -1,0 +1,117 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 87,
+  "model": "gpt-5.5",
+  "created_at": "2026-05-13T17:41:13",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=87。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.052, 0.934, 0.077],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.207, 0.174, 0.787, 0.350],\n      \"confidence\": 0.95,\n      \"image_alt\": \"485 通信端口 F 的输入输出电路示意图，左侧为带 120Ω 终端电阻的差分通信线路，右侧标注 F2/A+、F3/GND、F4/B- 等端子。\",\n      \"caption\": \"485 Communication Port F\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.207, 0.399, 0.787, 0.653],\n      \"confidence\": 0.95,\n      \"image_alt\": \"计数/速度预置端口 N 的电路示意图，包含 0V(NPN)、24V(PNP)、2.4kΩ 电阻、24V Output，以及 N1/GND、G/Count-Speed A、N/Count-Speed B、N4/24V Output 等端子说明。\",\n      \"caption\": \"Count/Speed Preset Port N\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.207, 0.707, 0.787, 0.883],\n      \"confidence\": 0.95,\n      \"image_alt\": \"数字同步端口 T 的电路示意图，两侧列出 Sync+、GND、Sync- 与 T1、T2、T3 端子，中间包含同步线路、接地符号和 120Ω 电阻。\",\n      \"caption\": \"Digital Sync Port T\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.980, 0.934, 0.999],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为数字 PDF 渲染图，文本层可识别但主要内容为电路示意图。页面以图为主，包含三个端口电路图及其英文图题，背景有淡色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.052,
+          0.934,
+          0.077
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.207,
+          0.174,
+          0.787,
+          0.35
+        ],
+        "confidence": 0.95,
+        "image_alt": "485 通信端口 F 的输入输出电路示意图，左侧为带 120Ω 终端电阻的差分通信线路，右侧标注 F2/A+、F3/GND、F4/B- 等端子。",
+        "caption": "485 Communication Port F",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.207,
+          0.399,
+          0.787,
+          0.653
+        ],
+        "confidence": 0.95,
+        "image_alt": "计数/速度预置端口 N 的电路示意图，包含 0V(NPN)、24V(PNP)、2.4kΩ 电阻、24V Output，以及 N1/GND、G/Count-Speed A、N/Count-Speed B、N4/24V Output 等端子说明。",
+        "caption": "Count/Speed Preset Port N",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.207,
+          0.707,
+          0.787,
+          0.883
+        ],
+        "confidence": 0.95,
+        "image_alt": "数字同步端口 T 的电路示意图，两侧列出 Sync+、GND、Sync- 与 T1、T2、T3 端子，中间包含同步线路、接地符号和 120Ω 电阻。",
+        "caption": "Digital Sync Port T",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.98,
+          0.934,
+          0.999
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "本页为数字 PDF 渲染图，文本层可识别但主要内容为电路示意图。页面以图为主，包含三个端口电路图及其英文图题，背景有淡色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-Df0NHaPpwR3InE67lKU2muJsbho3f",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1778665259,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.052, 0.934, 0.077],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.207, 0.174, 0.787, 0.350],\n      \"confidence\": 0.95,\n      \"image_alt\": \"485 通信端口 F 的输入输出电路示意图，左侧为带 120Ω 终端电阻的差分通信线路，右侧标注 F2/A+、F3/GND、F4/B- 等端子。\",\n      \"caption\": \"485 Communication Port F\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.207, 0.399, 0.787, 0.653],\n      \"confidence\": 0.95,\n      \"image_alt\": \"计数/速度预置端口 N 的电路示意图，包含 0V(NPN)、24V(PNP)、2.4kΩ 电阻、24V Output，以及 N1/GND、G/Count-Speed A、N/Count-Speed B、N4/24V Output 等端子说明。\",\n      \"caption\": \"Count/Speed Preset Port N\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.207, 0.707, 0.787, 0.883],\n      \"confidence\": 0.95,\n      \"image_alt\": \"数字同步端口 T 的电路示意图，两侧列出 Sync+、GND、Sync- 与 T1、T2、T3 端子，中间包含同步线路、接地符号和 120Ω 电阻。\",\n      \"caption\": \"Digital Sync Port T\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.980, 0.934, 0.999],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为数字 PDF 渲染图，文本层可识别但主要内容为电路示意图。页面以图为主，包含三个端口电路图及其英文图题，背景有淡色 CUH 水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3616,
+      "completion_tokens": 882,
+      "total_tokens": 4498,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 318,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

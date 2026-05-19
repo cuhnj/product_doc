@@ -1,0 +1,63 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 91,
+  "model": "gpt-5.5",
+  "created_at": "2026-05-13T17:41:10",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=91。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0, 0, 1, 1],\n      \"confidence\": 0.72\n    }\n  ],\n  \"reading_order\": [0],\n  \"notes\": \"本页未见正文、标题、表格、图题或页脚等可读内容，仅有浅色重复的“CUH”水印背景。文本层节选也主要对应水印字符；页面不像扫描件，更像数字 PDF 的空白/水印页。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "confidence": 0.72,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0
+    ],
+    "notes": "本页未见正文、标题、表格、图题或页脚等可读内容，仅有浅色重复的“CUH”水印背景。文本层节选也主要对应水印字符；页面不像扫描件，更像数字 PDF 的空白/水印页。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-Df0NNTe21lEBMEqHgmIjnCMAe0wYX",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1778665265,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0, 0, 1, 1],\n      \"confidence\": 0.72\n    }\n  ],\n  \"reading_order\": [0],\n  \"notes\": \"本页未见正文、标题、表格、图题或页脚等可读内容，仅有浅色重复的“CUH”水印背景。文本层节选也主要对应水印字符；页面不像扫描件，更像数字 PDF 的空白/水印页。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3457,
+      "completion_tokens": 246,
+      "total_tokens": 3703,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 112,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}
