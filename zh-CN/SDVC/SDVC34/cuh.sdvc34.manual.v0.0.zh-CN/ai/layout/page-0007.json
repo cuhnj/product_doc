@@ -4,103 +4,99 @@
   "lang": "zh-CN",
   "page_index": 7,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:38:20",
-  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=7。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 ",
-  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.052, 0.935, 0.075],\n      \"confidence\": 0.93,\n      \"text_excerpt\": \"Automatic Frequency Controller for Vibratory Feeder    SDVC341-M\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.413, 0.112, 0.587, 0.141],\n      \"confidence\": 0.96,\n      \"text_excerpt\": \"Contents\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.080, 0.162, 0.914, 0.943],\n      \"confidence\": 0.94,\n      \"caption\": \"Contents list with dotted leaders and page numbers\",\n      \"text_excerpt\": \"Chapter Ⅰ Instructions Before Use ... Chapter Ⅱ Product Introduction ... Chapter Ⅲ Power Wiring and Basic Operation ... Chapter Ⅳ Detailed Function Introduction ... 4.2.1 Frequency Search Interface\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.929, 0.978],\n      \"confidence\": 0.95,\n      \"text_excerpt\": \"2026-02    SDVC341SMSEN_4.01\"\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.000, 0.000, 1.000, 1.000],\n      \"confidence\": 0.55,\n      \"text_excerpt\": \"Faint diagonal CUH watermark/background pattern\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3],\n  \"notes\": \"本页为目录页，主要由可选文本构成，非扫描件特征明显。页面以文字和目录表式结构为主，带页眉、页脚和浅色斜向 CUH 水印背景；无设备图、接线图或参数表格。\"\n}",
+  "created_at": "2026-05-20T14:00:48",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=7。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2.2 控制器外观说明（第 15 页）\n  - 2.3 振动传",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.932, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.0, 0.0, 1.0, 1.0],\n      \"confidence\": 0.72,\n      \"image_alt\": \"整页浅灰色斜向重复的 CUH 背景水印\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.422, 0.108, 0.578, 0.146],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.079, 0.164, 0.912, 0.958],\n      \"confidence\": 0.96,\n      \"caption\": \"目录条目：第一章至第四章部分小节，右侧为页码\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.970, 0.922, 0.992],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 2, 3, 4],\n  \"notes\": \"本页为目录页，主要由文本型目录条目和页码引导线组成，背景带有浅灰 CUH 水印；不是以图片为主的页面。根据提供的文本层可见，本页应为数字排版 PDF 渲染而非纯扫描件。\"\n}",
   "layout_parse_ok": true,
   "layout_json": {
     "regions": [
       {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.072,
-          0.052,
-          0.935,
-          0.075
-        ],
-        "confidence": 0.93,
-        "text_excerpt": "Automatic Frequency Controller for Vibratory Feeder    SDVC341-M",
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "heading",
-        "bbox_0_1": [
-          0.413,
-          0.112,
-          0.587,
-          0.141
-        ],
-        "confidence": 0.96,
-        "text_excerpt": "Contents",
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "table",
-        "bbox_0_1": [
-          0.08,
-          0.162,
-          0.914,
-          0.943
-        ],
-        "confidence": 0.94,
-        "caption": "Contents list with dotted leaders and page numbers",
-        "text_excerpt": "Chapter Ⅰ Instructions Before Use ... Chapter Ⅱ Product Introduction ... Chapter Ⅲ Power Wiring and Basic Operation ... Chapter Ⅳ Detailed Function Introduction ... 4.2.1 Frequency Search Interface",
-        "bbox_parse_ok": true
-      },
-      {
         "type": "footer",
         "bbox_0_1": [
           0.072,
-          0.953,
-          0.929,
-          0.978
+          0.052,
+          0.932,
+          0.075
         ],
-        "confidence": 0.95,
-        "text_excerpt": "2026-02    SDVC341SMSEN_4.01",
+        "confidence": 0.92,
         "bbox_parse_ok": true
       },
       {
-        "type": "unknown",
+        "type": "figure",
         "bbox_0_1": [
           0.0,
           0.0,
           1.0,
           1.0
         ],
-        "confidence": 0.55,
-        "text_excerpt": "Faint diagonal CUH watermark/background pattern",
+        "confidence": 0.72,
+        "image_alt": "整页浅灰色斜向重复的 CUH 背景水印",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.422,
+          0.108,
+          0.578,
+          0.146
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.079,
+          0.164,
+          0.912,
+          0.958
+        ],
+        "confidence": 0.96,
+        "caption": "目录条目：第一章至第四章部分小节，右侧为页码",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.97,
+          0.922,
+          0.992
+        ],
+        "confidence": 0.94,
         "bbox_parse_ok": true
       }
     ],
     "reading_order": [
       0,
-      1,
       2,
-      3
+      3,
+      4
     ],
-    "notes": "本页为目录页，主要由可选文本构成，非扫描件特征明显。页面以文字和目录表式结构为主，带页眉、页脚和浅色斜向 CUH 水印背景；无设备图、接线图或参数表格。",
+    "notes": "本页为目录页，主要由文本型目录条目和页码引导线组成，背景带有浅灰 CUH 水印；不是以图片为主的页面。根据提供的文本层可见，本页应为数字排版 PDF 渲染而非纯扫描件。",
     "bbox_schema": "xyxy_0_1"
   },
   "raw": {
-    "id": "chatcmpl-Df0KSGUg99HCT9VwHoPzh83diAG4R",
+    "id": "chatcmpl-DhUGkDbHKaWo4TwihhevvuhCusybW",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665084,
+    "created": 1779256830,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.052, 0.935, 0.075],\n      \"confidence\": 0.93,\n      \"text_excerpt\": \"Automatic Frequency Controller for Vibratory Feeder    SDVC341-M\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.413, 0.112, 0.587, 0.141],\n      \"confidence\": 0.96,\n      \"text_excerpt\": \"Contents\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.080, 0.162, 0.914, 0.943],\n      \"confidence\": 0.94,\n      \"caption\": \"Contents list with dotted leaders and page numbers\",\n      \"text_excerpt\": \"Chapter Ⅰ Instructions Before Use ... Chapter Ⅱ Product Introduction ... Chapter Ⅲ Power Wiring and Basic Operation ... Chapter Ⅳ Detailed Function Introduction ... 4.2.1 Frequency Search Interface\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.929, 0.978],\n      \"confidence\": 0.95,\n      \"text_excerpt\": \"2026-02    SDVC341SMSEN_4.01\"\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.000, 0.000, 1.000, 1.000],\n      \"confidence\": 0.55,\n      \"text_excerpt\": \"Faint diagonal CUH watermark/background pattern\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3],\n  \"notes\": \"本页为目录页，主要由可选文本构成，非扫描件特征明显。页面以文字和目录表式结构为主，带页眉、页脚和浅色斜向 CUH 水印背景；无设备图、接线图或参数表格。\"\n}"
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.932, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.0, 0.0, 1.0, 1.0],\n      \"confidence\": 0.72,\n      \"image_alt\": \"整页浅灰色斜向重复的 CUH 背景水印\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.422, 0.108, 0.578, 0.146],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.079, 0.164, 0.912, 0.958],\n      \"confidence\": 0.96,\n      \"caption\": \"目录条目：第一章至第四章部分小节，右侧为页码\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.970, 0.922, 0.992],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 2, 3, 4],\n  \"notes\": \"本页为目录页，主要由文本型目录条目和页码引导线组成，背景带有浅灰 CUH 水印；不是以图片为主的页面。根据提供的文本层可见，本页应为数字排版 PDF 渲染而非纯扫描件。\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 3844,
-      "completion_tokens": 981,
-      "total_tokens": 4825,
+      "prompt_tokens": 4106,
+      "completion_tokens": 911,
+      "total_tokens": 5017,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0

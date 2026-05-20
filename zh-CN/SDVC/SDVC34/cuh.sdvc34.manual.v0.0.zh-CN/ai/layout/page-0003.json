@@ -4,30 +4,30 @@
   "lang": "zh-CN",
   "page_index": 3,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:38:22",
-  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=3。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 ",
-  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.052, 0.930, 0.073],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.426, 0.110, 0.572, 0.141],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.159, 0.916, 0.268],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.291, 0.921, 0.424],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.447, 0.868, 0.486],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.091, 0.503, 0.912, 0.753],\n      \"confidence\": 0.96,\n      \"caption\": \"Safety/precaution symbol meanings\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.812, 0.789, 0.833],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.077, 0.850, 0.906, 0.869],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.953, 0.932, 0.973],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.000, 0.000, 1.000, 1.000],\n      \"confidence\": 0.72,\n      \"image_alt\": \"Light gray diagonal CUH watermark pattern in the page background\",\n      \"caption\": null\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页不是纯扫描件，存在可提取文本层，主要由文本段落和一个安全提示符号说明表组成。页面背景有淡灰色 CUH 水印，属于装饰性背景，不影响主体阅读顺序。\"\n}",
+  "created_at": "2026-05-20T14:00:54",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=3。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2.2 控制器外观说明（第 15 页）\n  - 2.3 振动传",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.050, 0.930, 0.074],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.432, 0.109, 0.568, 0.139],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.159, 0.932, 0.259],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.274, 0.934, 0.343],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.120, 0.382, 0.650, 0.401],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.094, 0.455, 0.910, 0.654],\n      \"confidence\": 0.98,\n      \"caption\": \"危险、警告、小心、注意、要点等符号含义说明\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.128, 0.718, 0.535, 0.739],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.126, 0.759, 0.586, 0.773],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.953, 0.932, 0.973],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为“序言”页，包含可选文本层，非纯扫描件。页面以正文段落和一个安全提示符号说明表为主，背景有浅色 CUH 水印；顶部有页眉线与产品/型号信息，底部有日期和文档编号。\"\n}",
   "layout_parse_ok": true,
   "layout_json": {
     "regions": [
       {
-        "type": "footer",
+        "type": "unknown",
         "bbox_0_1": [
-          0.071,
-          0.052,
+          0.072,
+          0.05,
           0.93,
-          0.073
+          0.074
         ],
-        "confidence": 0.94,
+        "confidence": 0.86,
         "bbox_parse_ok": true
       },
       {
         "type": "heading",
         "bbox_0_1": [
-          0.426,
-          0.11,
-          0.572,
-          0.141
+          0.432,
+          0.109,
+          0.568,
+          0.139
         ],
         "confidence": 0.98,
         "bbox_parse_ok": true
@@ -35,68 +35,68 @@
       {
         "type": "paragraph",
         "bbox_0_1": [
-          0.072,
+          0.071,
           0.159,
-          0.916,
-          0.268
-        ],
-        "confidence": 0.98,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.072,
-          0.291,
-          0.921,
-          0.424
-        ],
-        "confidence": 0.98,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.072,
-          0.447,
-          0.868,
-          0.486
+          0.932,
+          0.259
         ],
         "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.274,
+          0.934,
+          0.343
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.12,
+          0.382,
+          0.65,
+          0.401
+        ],
+        "confidence": 0.95,
         "bbox_parse_ok": true
       },
       {
         "type": "table",
         "bbox_0_1": [
-          0.091,
-          0.503,
-          0.912,
-          0.753
+          0.094,
+          0.455,
+          0.91,
+          0.654
         ],
-        "confidence": 0.96,
-        "caption": "Safety/precaution symbol meanings",
+        "confidence": 0.98,
+        "caption": "危险、警告、小心、注意、要点等符号含义说明",
         "bbox_parse_ok": true
       },
       {
         "type": "paragraph",
         "bbox_0_1": [
-          0.072,
-          0.812,
-          0.789,
-          0.833
+          0.128,
+          0.718,
+          0.535,
+          0.739
         ],
-        "confidence": 0.97,
+        "confidence": 0.96,
         "bbox_parse_ok": true
       },
       {
         "type": "paragraph",
         "bbox_0_1": [
-          0.077,
-          0.85,
-          0.906,
-          0.869
+          0.126,
+          0.759,
+          0.586,
+          0.773
         ],
-        "confidence": 0.96,
+        "confidence": 0.95,
         "bbox_parse_ok": true
       },
       {
@@ -107,19 +107,7 @@
           0.932,
           0.973
         ],
-        "confidence": 0.95,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "figure",
-        "bbox_0_1": [
-          0.0,
-          0.0,
-          1.0,
-          1.0
-        ],
-        "confidence": 0.72,
-        "image_alt": "Light gray diagonal CUH watermark pattern in the page background",
+        "confidence": 0.94,
         "bbox_parse_ok": true
       }
     ],
@@ -134,29 +122,29 @@
       7,
       8
     ],
-    "notes": "本页不是纯扫描件，存在可提取文本层，主要由文本段落和一个安全提示符号说明表组成。页面背景有淡灰色 CUH 水印，属于装饰性背景，不影响主体阅读顺序。",
+    "notes": "本页为“序言”页，包含可选文本层，非纯扫描件。页面以正文段落和一个安全提示符号说明表为主，背景有浅色 CUH 水印；顶部有页眉线与产品/型号信息，底部有日期和文档编号。",
     "bbox_schema": "xyxy_0_1"
   },
   "raw": {
-    "id": "chatcmpl-Df0KT7jQ7RBYAvsoIC8IOrDKlvjAi",
+    "id": "chatcmpl-DhUGnTSs9No2uhR8r82hlzeglchZi",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665085,
+    "created": 1779256833,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.052, 0.930, 0.073],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.426, 0.110, 0.572, 0.141],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.159, 0.916, 0.268],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.291, 0.921, 0.424],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.447, 0.868, 0.486],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.091, 0.503, 0.912, 0.753],\n      \"confidence\": 0.96,\n      \"caption\": \"Safety/precaution symbol meanings\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.812, 0.789, 0.833],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.077, 0.850, 0.906, 0.869],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.953, 0.932, 0.973],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.000, 0.000, 1.000, 1.000],\n      \"confidence\": 0.72,\n      \"image_alt\": \"Light gray diagonal CUH watermark pattern in the page background\",\n      \"caption\": null\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页不是纯扫描件，存在可提取文本层，主要由文本段落和一个安全提示符号说明表组成。页面背景有淡灰色 CUH 水印，属于装饰性背景，不影响主体阅读顺序。\"\n}"
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.050, 0.930, 0.074],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.432, 0.109, 0.568, 0.139],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.159, 0.932, 0.259],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.274, 0.934, 0.343],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.120, 0.382, 0.650, 0.401],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.094, 0.455, 0.910, 0.654],\n      \"confidence\": 0.98,\n      \"caption\": \"危险、警告、小心、注意、要点等符号含义说明\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.128, 0.718, 0.535, 0.739],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.126, 0.759, 0.586, 0.773],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.953, 0.932, 0.973],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为“序言”页，包含可选文本层，非纯扫描件。页面以正文段落和一个安全提示符号说明表为主，背景有浅色 CUH 水印；顶部有页眉线与产品/型号信息，底部有日期和文档编号。\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 3774,
-      "completion_tokens": 1137,
-      "total_tokens": 4911,
+      "prompt_tokens": 4023,
+      "completion_tokens": 1089,
+      "total_tokens": 5112,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0

@@ -4,44 +4,44 @@
   "lang": "zh-CN",
   "page_index": 12,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:43:08",
-  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=12。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufa",
-  "assistant_text": "{\n  \"page_markdown\": \"## 1.2 Manufacturer Nameplate Illustrate\\n\\n[[vcrop:12:0]]\\n\\nNameplate information shown in the illustration:\\n\\n- Product model: **Model: SDVC341-M**\\n- Product name: **Automatic Frequency Controller for Vibratory Feeder**\\n- Specifications:\\n  - Input Voltage Range: **85~250VAC**\\n  - Output Frequency Range: **5.0~999.9Hz**\\n  - Max Output Current: **3.0A**\\n  - Max Output Power: **660VA**\\n  - For use at altitude **2000m or lower**\\n- Manufacturer and address:\\n  - **Nanjing CUH Science & Technology Co., Ltd**\\n  - Add.: **Building 2, Xueyan Tech Park, Tuscity, No.9 Zhineng Rd, Jiangning, Nanjing, China**\\n- Serial Number Description: **INS01-202111026db6-010067032BF**\\n  - Date of manufacturer: **20211102**\\n\\n## 1.3 Controller Usage Conditions\\n\\nThe controller is powered by AC 85V~250V and is connected to a protective ground through the plug of the power cord. Please use a standard mains power supply and ensure that the protective ground wire is correctly connected.\\n\\n> ⚠️ **Warn**  \\n> Never connect the controller to 380V AC power, this will cause irreversible serious damage to the controller, possibly resulting in explosion, fire and other safety incidents.\\n\\n> ⚠️ **Warn**  \\n> Ensure that the power supply side is reliably grounded. The metal casing of the controller is directly connected to the protective grounding wire. Poor grounding will cause the controller casing to be electrified and cause an electric shock accident.\\n\\n> **Notice**  \\n> Long time running will generate heat and cause the temperature of the casing to rise. Please install the controller in a well-ventilated environment and fix it well, away from vibration sources.\\n\\n> **Notice**  \\n> This product is a controller used to drive the electromagnet. It must not be connected to a piezoelectric vibratory feeder.\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.065,\n        0.168,\n        0.94,\n        0.472\n      ],\n      \"alt\": \"Manufacturer nameplate illustration with arrows, QR code, serial number, specifications, and manufacturer address\",\n      \"reason\": \"The nameplate is a complex visual diagram containing layout arrows and a QR code; a bitmap crop preserves the original appearance.\"\n    }\n  ],\n  \"notes\": \"Page is clear; faint CUH watermark is present in the background and not transcribed.\"\n}",
+  "created_at": "2026-05-20T14:07:18",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=12。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2",
+  "assistant_text": "{\n  \"page_markdown\": \"自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n## 1.2 控制器铭牌说明\\n\\n[[vcrop:12:0]]\\n\\n**铭牌标注说明：**\\n\\n- 产品型号\\n- 产品基本参数\\n- 制造单位及地址\\n- 产品序列号\\n- 产品序列号说明\\n- 生产日期\\n\\n**铭牌内容：**\\n\\n| 项目 | 内容 |\\n|---|---|\\n| 产品名称 | 自动调频振动送料控制器 |\\n| 型号 | SDVC341-M |\\n| 输入电压范围 | 85～250VAC |\\n| 输出频率范围 | 5.0～999.9Hz |\\n| 最大输出电流 | 3.0A |\\n| 最大输出功率 | 660VA |\\n| 使用限制 | 限海拔2000米以下地区使用 |\\n| 制造单位及地址 | 南京创优科技有限责任公司　地址:南京市江宁区智能路9号启迪城学研园2幢 |\\n| 产品序列号 | INS01-202111026db6-010067032BF |\\n\\n## 1.3 控制器使用条件\\n\\n本产品是使用交流85V~250V供电的设备，且通过电源线三爪插头进行保护接地连接，请使用符合标准的市电供电，并确保保护地线已正确连接。\\n\\n> ⚠️ **警告**　切不可将控制器连接到380V交流电，这将造成控制器不可恢复的严重损坏，有可能导致爆炸、火灾等安全事故。\\n\\n> ⚠️ **警告**　确保供电侧可靠接地，控制器的金属外壳是与保护接地线直接连接的，接地不良会导致控制器外壳带电，引发触电事故。\\n\\n> **注意**　控制器长时间工作会产生热量致使外壳温度升高，当温度超过65℃后控制器将过热保护，停止主输出，请将控制器安装在通风良好的环境中，并将其固定好，远离振动源。\\n\\n> **注意**　本产品是用来驱动电磁铁的控制器，切不可连接压电振动盘。\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　- 2 -　　　　　　　　　　　　　　　SDVC341SMSCN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.0703,\n        0.1871,\n        0.9349,\n        0.4778\n      ],\n      \"alt\": \"控制器铭牌说明示意图，包含铭牌外观、二维码、产品型号/基本参数/制造单位及地址/产品序列号等箭头标注。\",\n      \"reason\": \"该区域为带二维码、箭头引注和铭牌版式的复杂示意图，需保留位图以呈现原始视觉布局。\"\n    }\n  ],\n  \"notes\": \"页面清晰；背景有浅色 CUH 水印。\"\n}",
   "vision_parse_ok": true,
-  "page_markdown": "## 1.2 Manufacturer Nameplate Illustrate\n\n[[vcrop:12:0]]\n\nNameplate information shown in the illustration:\n\n- Product model: **Model: SDVC341-M**\n- Product name: **Automatic Frequency Controller for Vibratory Feeder**\n- Specifications:\n  - Input Voltage Range: **85~250VAC**\n  - Output Frequency Range: **5.0~999.9Hz**\n  - Max Output Current: **3.0A**\n  - Max Output Power: **660VA**\n  - For use at altitude **2000m or lower**\n- Manufacturer and address:\n  - **Nanjing CUH Science & Technology Co., Ltd**\n  - Add.: **Building 2, Xueyan Tech Park, Tuscity, No.9 Zhineng Rd, Jiangning, Nanjing, China**\n- Serial Number Description: **INS01-202111026db6-010067032BF**\n  - Date of manufacturer: **20211102**\n\n## 1.3 Controller Usage Conditions\n\nThe controller is powered by AC 85V~250V and is connected to a protective ground through the plug of the power cord. Please use a standard mains power supply and ensure that the protective ground wire is correctly connected.\n\n> ⚠️ **Warn**  \n> Never connect the controller to 380V AC power, this will cause irreversible serious damage to the controller, possibly resulting in explosion, fire and other safety incidents.\n\n> ⚠️ **Warn**  \n> Ensure that the power supply side is reliably grounded. The metal casing of the controller is directly connected to the protective grounding wire. Poor grounding will cause the controller casing to be electrified and cause an electric shock accident.\n\n> **Notice**  \n> Long time running will generate heat and cause the temperature of the casing to rise. Please install the controller in a well-ventilated environment and fix it well, away from vibration sources.\n\n> **Notice**  \n> This product is a controller used to drive the electromagnet. It must not be connected to a piezoelectric vibratory feeder.",
+  "page_markdown": "自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M\n\n---\n\n## 1.2 控制器铭牌说明\n\n[[vcrop:12:0]]\n\n**铭牌标注说明：**\n\n- 产品型号\n- 产品基本参数\n- 制造单位及地址\n- 产品序列号\n- 产品序列号说明\n- 生产日期\n\n**铭牌内容：**\n\n| 项目 | 内容 |\n|---|---|\n| 产品名称 | 自动调频振动送料控制器 |\n| 型号 | SDVC341-M |\n| 输入电压范围 | 85～250VAC |\n| 输出频率范围 | 5.0～999.9Hz |\n| 最大输出电流 | 3.0A |\n| 最大输出功率 | 660VA |\n| 使用限制 | 限海拔2000米以下地区使用 |\n| 制造单位及地址 | 南京创优科技有限责任公司　地址:南京市江宁区智能路9号启迪城学研园2幢 |\n| 产品序列号 | INS01-202111026db6-010067032BF |\n\n## 1.3 控制器使用条件\n\n本产品是使用交流85V~250V供电的设备，且通过电源线三爪插头进行保护接地连接，请使用符合标准的市电供电，并确保保护地线已正确连接。\n\n> ⚠️ **警告**　切不可将控制器连接到380V交流电，这将造成控制器不可恢复的严重损坏，有可能导致爆炸、火灾等安全事故。\n\n> ⚠️ **警告**　确保供电侧可靠接地，控制器的金属外壳是与保护接地线直接连接的，接地不良会导致控制器外壳带电，引发触电事故。\n\n> **注意**　控制器长时间工作会产生热量致使外壳温度升高，当温度超过65℃后控制器将过热保护，停止主输出，请将控制器安装在通风良好的环境中，并将其固定好，远离振动源。\n\n> **注意**　本产品是用来驱动电磁铁的控制器，切不可连接压电振动盘。\n\n---\n\n2026-02　　　　　　　　　　　　　　　　　- 2 -　　　　　　　　　　　　　　　SDVC341SMSCN_4.01",
   "crop_suggestions": [
     {
       "bbox_0_1": [
-        0.065,
-        0.168,
-        0.94,
-        0.472
+        0.0703,
+        0.1871,
+        0.9349,
+        0.4778
       ],
-      "alt": "Manufacturer nameplate illustration with arrows, QR code, serial number, specifications, and manufacturer address",
-      "reason": "The nameplate is a complex visual diagram containing layout arrows and a QR code; a bitmap crop preserves the original appearance."
+      "alt": "控制器铭牌说明示意图，包含铭牌外观、二维码、产品型号/基本参数/制造单位及地址/产品序列号等箭头标注。",
+      "reason": "该区域为带二维码、箭头引注和铭牌版式的复杂示意图，需保留位图以呈现原始视觉布局。"
     }
   ],
-  "notes": "Page is clear; faint CUH watermark is present in the background and not transcribed.",
+  "notes": "页面清晰；背景有浅色 CUH 水印。",
   "raw": {
-    "id": "chatcmpl-Df0Omz3sWA1VHm9EEgaYarYxV4Fbw",
+    "id": "chatcmpl-DhUMl8CUb3gi9ZtSA5uTPOlNrGLyU",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665352,
+    "created": 1779257203,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"page_markdown\": \"## 1.2 Manufacturer Nameplate Illustrate\\n\\n[[vcrop:12:0]]\\n\\nNameplate information shown in the illustration:\\n\\n- Product model: **Model: SDVC341-M**\\n- Product name: **Automatic Frequency Controller for Vibratory Feeder**\\n- Specifications:\\n  - Input Voltage Range: **85~250VAC**\\n  - Output Frequency Range: **5.0~999.9Hz**\\n  - Max Output Current: **3.0A**\\n  - Max Output Power: **660VA**\\n  - For use at altitude **2000m or lower**\\n- Manufacturer and address:\\n  - **Nanjing CUH Science & Technology Co., Ltd**\\n  - Add.: **Building 2, Xueyan Tech Park, Tuscity, No.9 Zhineng Rd, Jiangning, Nanjing, China**\\n- Serial Number Description: **INS01-202111026db6-010067032BF**\\n  - Date of manufacturer: **20211102**\\n\\n## 1.3 Controller Usage Conditions\\n\\nThe controller is powered by AC 85V~250V and is connected to a protective ground through the plug of the power cord. Please use a standard mains power supply and ensure that the protective ground wire is correctly connected.\\n\\n> ⚠️ **Warn**  \\n> Never connect the controller to 380V AC power, this will cause irreversible serious damage to the controller, possibly resulting in explosion, fire and other safety incidents.\\n\\n> ⚠️ **Warn**  \\n> Ensure that the power supply side is reliably grounded. The metal casing of the controller is directly connected to the protective grounding wire. Poor grounding will cause the controller casing to be electrified and cause an electric shock accident.\\n\\n> **Notice**  \\n> Long time running will generate heat and cause the temperature of the casing to rise. Please install the controller in a well-ventilated environment and fix it well, away from vibration sources.\\n\\n> **Notice**  \\n> This product is a controller used to drive the electromagnet. It must not be connected to a piezoelectric vibratory feeder.\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.065,\n        0.168,\n        0.94,\n        0.472\n      ],\n      \"alt\": \"Manufacturer nameplate illustration with arrows, QR code, serial number, specifications, and manufacturer address\",\n      \"reason\": \"The nameplate is a complex visual diagram containing layout arrows and a QR code; a bitmap crop preserves the original appearance.\"\n    }\n  ],\n  \"notes\": \"Page is clear; faint CUH watermark is present in the background and not transcribed.\"\n}"
+          "content": "{\n  \"page_markdown\": \"自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n## 1.2 控制器铭牌说明\\n\\n[[vcrop:12:0]]\\n\\n**铭牌标注说明：**\\n\\n- 产品型号\\n- 产品基本参数\\n- 制造单位及地址\\n- 产品序列号\\n- 产品序列号说明\\n- 生产日期\\n\\n**铭牌内容：**\\n\\n| 项目 | 内容 |\\n|---|---|\\n| 产品名称 | 自动调频振动送料控制器 |\\n| 型号 | SDVC341-M |\\n| 输入电压范围 | 85～250VAC |\\n| 输出频率范围 | 5.0～999.9Hz |\\n| 最大输出电流 | 3.0A |\\n| 最大输出功率 | 660VA |\\n| 使用限制 | 限海拔2000米以下地区使用 |\\n| 制造单位及地址 | 南京创优科技有限责任公司　地址:南京市江宁区智能路9号启迪城学研园2幢 |\\n| 产品序列号 | INS01-202111026db6-010067032BF |\\n\\n## 1.3 控制器使用条件\\n\\n本产品是使用交流85V~250V供电的设备，且通过电源线三爪插头进行保护接地连接，请使用符合标准的市电供电，并确保保护地线已正确连接。\\n\\n> ⚠️ **警告**　切不可将控制器连接到380V交流电，这将造成控制器不可恢复的严重损坏，有可能导致爆炸、火灾等安全事故。\\n\\n> ⚠️ **警告**　确保供电侧可靠接地，控制器的金属外壳是与保护接地线直接连接的，接地不良会导致控制器外壳带电，引发触电事故。\\n\\n> **注意**　控制器长时间工作会产生热量致使外壳温度升高，当温度超过65℃后控制器将过热保护，停止主输出，请将控制器安装在通风良好的环境中，并将其固定好，远离振动源。\\n\\n> **注意**　本产品是用来驱动电磁铁的控制器，切不可连接压电振动盘。\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　- 2 -　　　　　　　　　　　　　　　SDVC341SMSCN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.0703,\n        0.1871,\n        0.9349,\n        0.4778\n      ],\n      \"alt\": \"控制器铭牌说明示意图，包含铭牌外观、二维码、产品型号/基本参数/制造单位及地址/产品序列号等箭头标注。\",\n      \"reason\": \"该区域为带二维码、箭头引注和铭牌版式的复杂示意图，需保留位图以呈现原始视觉布局。\"\n    }\n  ],\n  \"notes\": \"页面清晰；背景有浅色 CUH 水印。\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 4145,
-      "completion_tokens": 1925,
-      "total_tokens": 6070,
+      "prompt_tokens": 4358,
+      "completion_tokens": 2007,
+      "total_tokens": 6365,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0
@@ -49,7 +49,7 @@
       "completion_tokens_details": {
         "accepted_prediction_tokens": 0,
         "audio_tokens": 0,
-        "reasoning_tokens": 1294,
+        "reasoning_tokens": 1271,
         "rejected_prediction_tokens": 0
       }
     }

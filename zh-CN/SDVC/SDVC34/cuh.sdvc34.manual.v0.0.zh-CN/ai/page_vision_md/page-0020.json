@@ -4,54 +4,54 @@
   "lang": "zh-CN",
   "page_index": 20,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:42:57",
-  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=20。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufa",
-  "assistant_text": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n### Step Three:\\n\\nConnect the Connector of the Input Power Cable to the Input Power Socket of the controller.\\n\\n[[vcrop:20:0]]\\n\\n### Step Four:\\n\\nAfter confirming that the switch is in the off position, connect the plug of the Input Power Cable to the mains jack.\\n\\n[[vcrop:20:1]]\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　- 10 -　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.17,\n        0.17,\n        0.85,\n        0.51\n      ],\n      \"alt\": \"Step Three wiring illustration: connect the input power cable connector to the controller input power socket first.\",\n      \"reason\": \"Line drawing illustrates the physical connection order and connector position on the controller.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.36,\n        0.66,\n        0.77,\n        0.91\n      ],\n      \"alt\": \"Step Four wiring illustration: connect the input power cable plug to the mains jack after confirming the switch is off.\",\n      \"reason\": \"Line drawing shows the plug being inserted into the mains socket.\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "created_at": "2026-05-20T14:07:24",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=20。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2",
+  "assistant_text": "{\n  \"page_markdown\": \"自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n### 第三步：\\n\\n将输入电源线航空插头插入控制器电源输入插座，并锁紧螺母。\\n\\n[[vcrop:20:0]]\\n\\n图示标注：先插航空插头\\n\\n### 第四步：\\n\\n确认开关处于关闭位置后，将电源线三爪插头插在供电电源插座上。\\n\\n[[vcrop:20:1]]\\n\\n---\\n\\n2026-02　　　　　　　　　-10-　　　　　　　　　SDVC341SMSCN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.169,\n        0.191,\n        0.868,\n        0.52\n      ],\n      \"alt\": \"第三步接线示意图：先将输入电源线航空插头插入控制器电源输入插座并锁紧螺母\",\n      \"reason\": \"包含控制器、电源线、航空插头及手势等细线示意图，需保留位图以准确呈现。\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.357,\n        0.657,\n        0.835,\n        0.937\n      ],\n      \"alt\": \"第四步接线示意图：确认开关关闭后，将三爪插头插入供电电源插座\",\n      \"reason\": \"包含插座、三爪插头、电源线及手势等细线示意图，需保留位图以准确呈现。\"\n    }\n  ],\n  \"notes\": \"页面清晰；主要插图以截图占位保留。\"\n}",
   "vision_parse_ok": true,
-  "page_markdown": "Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M\n\n---\n\n### Step Three:\n\nConnect the Connector of the Input Power Cable to the Input Power Socket of the controller.\n\n[[vcrop:20:0]]\n\n### Step Four:\n\nAfter confirming that the switch is in the off position, connect the plug of the Input Power Cable to the mains jack.\n\n[[vcrop:20:1]]\n\n---\n\n2026-02　　　　　　　　　　　　　　　　　- 10 -　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01",
+  "page_markdown": "自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　SDVC341-M\n\n---\n\n### 第三步：\n\n将输入电源线航空插头插入控制器电源输入插座，并锁紧螺母。\n\n[[vcrop:20:0]]\n\n图示标注：先插航空插头\n\n### 第四步：\n\n确认开关处于关闭位置后，将电源线三爪插头插在供电电源插座上。\n\n[[vcrop:20:1]]\n\n---\n\n2026-02　　　　　　　　　-10-　　　　　　　　　SDVC341SMSCN_4.01",
   "crop_suggestions": [
     {
       "bbox_0_1": [
-        0.17,
-        0.17,
-        0.85,
-        0.51
+        0.169,
+        0.191,
+        0.868,
+        0.52
       ],
-      "alt": "Step Three wiring illustration: connect the input power cable connector to the controller input power socket first.",
-      "reason": "Line drawing illustrates the physical connection order and connector position on the controller."
+      "alt": "第三步接线示意图：先将输入电源线航空插头插入控制器电源输入插座并锁紧螺母",
+      "reason": "包含控制器、电源线、航空插头及手势等细线示意图，需保留位图以准确呈现。"
     },
     {
       "bbox_0_1": [
-        0.36,
-        0.66,
-        0.77,
-        0.91
+        0.357,
+        0.657,
+        0.835,
+        0.937
       ],
-      "alt": "Step Four wiring illustration: connect the input power cable plug to the mains jack after confirming the switch is off.",
-      "reason": "Line drawing shows the plug being inserted into the mains socket."
+      "alt": "第四步接线示意图：确认开关关闭后，将三爪插头插入供电电源插座",
+      "reason": "包含插座、三爪插头、电源线及手势等细线示意图，需保留位图以准确呈现。"
     }
   ],
-  "notes": "",
+  "notes": "页面清晰；主要插图以截图占位保留。",
   "raw": {
-    "id": "chatcmpl-Df0OttQNj1zGmAXu8ZJ5ukycG6ntW",
+    "id": "chatcmpl-DhUN6WyijRScG4gFj34HD9CTvQ9TQ",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665359,
+    "created": 1779257224,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n### Step Three:\\n\\nConnect the Connector of the Input Power Cable to the Input Power Socket of the controller.\\n\\n[[vcrop:20:0]]\\n\\n### Step Four:\\n\\nAfter confirming that the switch is in the off position, connect the plug of the Input Power Cable to the mains jack.\\n\\n[[vcrop:20:1]]\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　- 10 -　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.17,\n        0.17,\n        0.85,\n        0.51\n      ],\n      \"alt\": \"Step Three wiring illustration: connect the input power cable connector to the controller input power socket first.\",\n      \"reason\": \"Line drawing illustrates the physical connection order and connector position on the controller.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.36,\n        0.66,\n        0.77,\n        0.91\n      ],\n      \"alt\": \"Step Four wiring illustration: connect the input power cable plug to the mains jack after confirming the switch is off.\",\n      \"reason\": \"Line drawing shows the plug being inserted into the mains socket.\"\n    }\n  ],\n  \"notes\": \"\"\n}"
+          "content": "{\n  \"page_markdown\": \"自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n### 第三步：\\n\\n将输入电源线航空插头插入控制器电源输入插座，并锁紧螺母。\\n\\n[[vcrop:20:0]]\\n\\n图示标注：先插航空插头\\n\\n### 第四步：\\n\\n确认开关处于关闭位置后，将电源线三爪插头插在供电电源插座上。\\n\\n[[vcrop:20:1]]\\n\\n---\\n\\n2026-02　　　　　　　　　-10-　　　　　　　　　SDVC341SMSCN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.169,\n        0.191,\n        0.868,\n        0.52\n      ],\n      \"alt\": \"第三步接线示意图：先将输入电源线航空插头插入控制器电源输入插座并锁紧螺母\",\n      \"reason\": \"包含控制器、电源线、航空插头及手势等细线示意图，需保留位图以准确呈现。\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.357,\n        0.657,\n        0.835,\n        0.937\n      ],\n      \"alt\": \"第四步接线示意图：确认开关关闭后，将三爪插头插入供电电源插座\",\n      \"reason\": \"包含插座、三爪插头、电源线及手势等细线示意图，需保留位图以准确呈现。\"\n    }\n  ],\n  \"notes\": \"页面清晰；主要插图以截图占位保留。\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 3829,
-      "completion_tokens": 835,
-      "total_tokens": 4664,
+      "prompt_tokens": 4051,
+      "completion_tokens": 1280,
+      "total_tokens": 5331,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0
@@ -59,7 +59,7 @@
       "completion_tokens_details": {
         "accepted_prediction_tokens": 0,
         "audio_tokens": 0,
-        "reasoning_tokens": 512,
+        "reasoning_tokens": 850,
         "rejected_prediction_tokens": 0
       }
     }

@@ -1,0 +1,77 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 87,
+  "model": "gpt-5.5",
+  "created_at": "2026-05-13T17:45:20",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=87。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufa",
+  "assistant_text": "{\"page_markdown\":\"[[vcrop:87:0]]\\n\\n**485 Communication Port F**\\n\\n| Terminal | Signal |\\n|---|---|\\n| F2 | A+ |\\n| F3 | GND |\\n| F4 | B- |\\n\\n[[vcrop:87:1]]\\n\\n**Count/Speed Preset Port N**\\n\\n| Terminal | Signal |\\n|---|---|\\n| N1 | GND |\\n| G | Count/Speed A |\\n| N | Count/Speed B |\\n| N4 | 24V Output |\\n\\n[[vcrop:87:2]]\\n\\n**Digital Sync Port T**\\n\\n| Terminal | Signal |\\n|---|---|\\n| T1 | Sync+ |\\n| T2 | GND |\\n| T3 | Sync- |\",\"crop_suggestions\":[{\"bbox_0_1\":[0.19,0.16,0.81,0.35],\"alt\":\"485 Communication Port F circuit diagram with F2 A+, F3 GND, F4 B- and 120Ω resistor\",\"reason\":\"细线电路图需保留原始连接关系和符号。\"},{\"bbox_0_1\":[0.19,0.38,0.81,0.65],\"alt\":\"Count/Speed Preset Port N circuit diagram with NPN/PNP inputs, 2.4kΩ resistors, N1/G/N/N4 terminals\",\"reason\":\"细线输入端口原理图需保留原始连接关系和电阻/电源标注。\"},{\"bbox_0_1\":[0.19,0.68,0.81,0.87],\"alt\":\"Digital Sync Port T circuit diagram with T1 Sync+, T2 GND, T3 Sync- and 120Ω resistor\",\"reason\":\"细线同步端口原理图需保留原始连接关系和符号。\"}],\"notes\":\"本页主要为端口电路示意图；已提取端子定义表，并建议裁剪保留完整电路图。\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "[[vcrop:87:0]]\n\n**485 Communication Port F**\n\n| Terminal | Signal |\n|---|---|\n| F2 | A+ |\n| F3 | GND |\n| F4 | B- |\n\n[[vcrop:87:1]]\n\n**Count/Speed Preset Port N**\n\n| Terminal | Signal |\n|---|---|\n| N1 | GND |\n| G | Count/Speed A |\n| N | Count/Speed B |\n| N4 | 24V Output |\n\n[[vcrop:87:2]]\n\n**Digital Sync Port T**\n\n| Terminal | Signal |\n|---|---|\n| T1 | Sync+ |\n| T2 | GND |\n| T3 | Sync- |",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.19,
+        0.16,
+        0.81,
+        0.35
+      ],
+      "alt": "485 Communication Port F circuit diagram with F2 A+, F3 GND, F4 B- and 120Ω resistor",
+      "reason": "细线电路图需保留原始连接关系和符号。"
+    },
+    {
+      "bbox_0_1": [
+        0.19,
+        0.38,
+        0.81,
+        0.65
+      ],
+      "alt": "Count/Speed Preset Port N circuit diagram with NPN/PNP inputs, 2.4kΩ resistors, N1/G/N/N4 terminals",
+      "reason": "细线输入端口原理图需保留原始连接关系和电阻/电源标注。"
+    },
+    {
+      "bbox_0_1": [
+        0.19,
+        0.68,
+        0.81,
+        0.87
+      ],
+      "alt": "Digital Sync Port T circuit diagram with T1 Sync+, T2 GND, T3 Sync- and 120Ω resistor",
+      "reason": "细线同步端口原理图需保留原始连接关系和符号。"
+    }
+  ],
+  "notes": "本页主要为端口电路示意图；已提取端子定义表，并建议裁剪保留完整电路图。",
+  "raw": {
+    "id": "chatcmpl-Df0REX9p35lF4BMFH6NnYUu6Rd7Op",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1778665504,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"page_markdown\":\"[[vcrop:87:0]]\\n\\n**485 Communication Port F**\\n\\n| Terminal | Signal |\\n|---|---|\\n| F2 | A+ |\\n| F3 | GND |\\n| F4 | B- |\\n\\n[[vcrop:87:1]]\\n\\n**Count/Speed Preset Port N**\\n\\n| Terminal | Signal |\\n|---|---|\\n| N1 | GND |\\n| G | Count/Speed A |\\n| N | Count/Speed B |\\n| N4 | 24V Output |\\n\\n[[vcrop:87:2]]\\n\\n**Digital Sync Port T**\\n\\n| Terminal | Signal |\\n|---|---|\\n| T1 | Sync+ |\\n| T2 | GND |\\n| T3 | Sync- |\",\"crop_suggestions\":[{\"bbox_0_1\":[0.19,0.16,0.81,0.35],\"alt\":\"485 Communication Port F circuit diagram with F2 A+, F3 GND, F4 B- and 120Ω resistor\",\"reason\":\"细线电路图需保留原始连接关系和符号。\"},{\"bbox_0_1\":[0.19,0.38,0.81,0.65],\"alt\":\"Count/Speed Preset Port N circuit diagram with NPN/PNP inputs, 2.4kΩ resistors, N1/G/N/N4 terminals\",\"reason\":\"细线输入端口原理图需保留原始连接关系和电阻/电源标注。\"},{\"bbox_0_1\":[0.19,0.68,0.81,0.87],\"alt\":\"Digital Sync Port T circuit diagram with T1 Sync+, T2 GND, T3 Sync- and 120Ω resistor\",\"reason\":\"细线同步端口原理图需保留原始连接关系和符号。\"}],\"notes\":\"本页主要为端口电路示意图；已提取端子定义表，并建议裁剪保留完整电路图。\"}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3883,
+      "completion_tokens": 977,
+      "total_tokens": 4860,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

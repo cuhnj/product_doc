@@ -4,44 +4,44 @@
   "lang": "zh-CN",
   "page_index": 68,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:45:43",
-  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=68。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufa",
-  "assistant_text": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder  \\nSDVC341-M\\n\\n## 5.3 How to turn on/off two controllers simultaneously?\\n\\n[[vcrop:68:0]]\\n\\nThis section introduces a direct vibration controller (using SDVC311) and a disc controller (using SDVC341), start and stop in sync. Different series of controllers can also complete the function of synchronous start and stop.\\n\\n1. The controller correctly connects the power cord and output cord.\\n\\n2. Open the device wiring compartment cover, connect D1 of SDVC341 to C2 of SDVC311, and connect D3 of SDVC341 to C1 of SDVC311.\\n\\n3. After the two devices are powered on, press press▲ and ◀ hold enter the parameter setting interface by short pressing ◀ or ▶ switch to the control output parameter group.\\n\\n4. In the control output parameter group, set the parameters as follows:\\n\\n\\\"PotDLogc\\\" is set to \\\"Or\\\", \\\"PotDSor1\\\" is set to \\\"Main\\\", \\\"PotDType\\\" is set to \\\"Ou_PNP\\\", and other defaults remain unchanged.\\n\\nAbove, the settings are completed to implement a direct vibration controller (using SDVC311) and a vibratory feeder controller (using SDVC341) maintains synchronized start and stop.\\n\\n---\\n\\n2026-02　　　　-58-　　　　SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.09,\n        0.165,\n        0.93,\n        0.455\n      ],\n      \"alt\": \"Wiring diagram showing a master controller and slave controller connected to a vibratory feeder with output power cables.\",\n      \"reason\": \"Complex line drawing and wiring/installation diagram should be preserved as an image.\"\n    }\n  ],\n  \"notes\": \"Page is clear. The instruction sentence in item 3 appears to contain a duplicated word/awkward phrasing as printed.\"\n}",
+  "created_at": "2026-05-20T14:09:40",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=68。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2",
+  "assistant_text": "{\n  \"page_markdown\": \"自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n## 5.3 如何实现一台直振控制器和圆盘控制器保持同步启停？\\n\\n[[vcrop:68:0]]\\n\\n本小节介绍一台直振控制器（使用SDVC311）与圆盘控制器（使用SDVC341）保持同步启停。实现不同系列控制器也能完成同步启停的功能。\\n\\n1：控制器正确地连接电源线及输出线。\\n\\n2：打开设备接线仓盖，将SDVC341的D1连接SDVC311的C2，将SDVC341的D3连接SDVC311的C1。\\n\\n3：两台设备通电后，长按SDVC341 ▲ 加 ◀ 进入参数设置界面，通过短按 ◀ 或 ▶ 切换至切换至控制输出参数组。\\n\\n4：在控制输出参数组，设置参数如下：\\n\\n“D口逻辑”设置为“或”，“D口源1”设置为“主”（主输出状态），“D口类型”设置为“PNP”，其他默认不变。\\n\\n以上，设置完毕，实现一台直振控制器（使用SDVC311）与圆盘控制器（使用SDVC341）保持同步启停。\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　-58-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.085,\n        0.195,\n        0.925,\n        0.455\n      ],\n      \"alt\": \"一台直振控制器和圆盘控制器保持同步启停的接线示意图，标注从控制器电源输出线和主控制器电源输出线。\",\n      \"reason\": \"该区域为复杂设备接线示意图，包含控制器、圆盘机构、电缆走向及标签，适合保留为截图。\"\n    }\n  ],\n  \"notes\": \"页面带有浅色 CUH 水印；正文清晰。\"\n}",
   "vision_parse_ok": true,
-  "page_markdown": "Automatic Frequency Controller for Vibratory Feeder  \nSDVC341-M\n\n## 5.3 How to turn on/off two controllers simultaneously?\n\n[[vcrop:68:0]]\n\nThis section introduces a direct vibration controller (using SDVC311) and a disc controller (using SDVC341), start and stop in sync. Different series of controllers can also complete the function of synchronous start and stop.\n\n1. The controller correctly connects the power cord and output cord.\n\n2. Open the device wiring compartment cover, connect D1 of SDVC341 to C2 of SDVC311, and connect D3 of SDVC341 to C1 of SDVC311.\n\n3. After the two devices are powered on, press press▲ and ◀ hold enter the parameter setting interface by short pressing ◀ or ▶ switch to the control output parameter group.\n\n4. In the control output parameter group, set the parameters as follows:\n\n\"PotDLogc\" is set to \"Or\", \"PotDSor1\" is set to \"Main\", \"PotDType\" is set to \"Ou_PNP\", and other defaults remain unchanged.\n\nAbove, the settings are completed to implement a direct vibration controller (using SDVC311) and a vibratory feeder controller (using SDVC341) maintains synchronized start and stop.\n\n---\n\n2026-02　　　　-58-　　　　SDVC341SMSEN_4.01",
+  "page_markdown": "自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M\n\n---\n\n## 5.3 如何实现一台直振控制器和圆盘控制器保持同步启停？\n\n[[vcrop:68:0]]\n\n本小节介绍一台直振控制器（使用SDVC311）与圆盘控制器（使用SDVC341）保持同步启停。实现不同系列控制器也能完成同步启停的功能。\n\n1：控制器正确地连接电源线及输出线。\n\n2：打开设备接线仓盖，将SDVC341的D1连接SDVC311的C2，将SDVC341的D3连接SDVC311的C1。\n\n3：两台设备通电后，长按SDVC341 ▲ 加 ◀ 进入参数设置界面，通过短按 ◀ 或 ▶ 切换至切换至控制输出参数组。\n\n4：在控制输出参数组，设置参数如下：\n\n“D口逻辑”设置为“或”，“D口源1”设置为“主”（主输出状态），“D口类型”设置为“PNP”，其他默认不变。\n\n以上，设置完毕，实现一台直振控制器（使用SDVC311）与圆盘控制器（使用SDVC341）保持同步启停。\n\n---\n\n2026-02　　　　　　　　　　　　　　　　　-58-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01",
   "crop_suggestions": [
     {
       "bbox_0_1": [
-        0.09,
-        0.165,
-        0.93,
+        0.085,
+        0.195,
+        0.925,
         0.455
       ],
-      "alt": "Wiring diagram showing a master controller and slave controller connected to a vibratory feeder with output power cables.",
-      "reason": "Complex line drawing and wiring/installation diagram should be preserved as an image."
+      "alt": "一台直振控制器和圆盘控制器保持同步启停的接线示意图，标注从控制器电源输出线和主控制器电源输出线。",
+      "reason": "该区域为复杂设备接线示意图，包含控制器、圆盘机构、电缆走向及标签，适合保留为截图。"
     }
   ],
-  "notes": "Page is clear. The instruction sentence in item 3 appears to contain a duplicated word/awkward phrasing as printed.",
+  "notes": "页面带有浅色 CUH 水印；正文清晰。",
   "raw": {
-    "id": "chatcmpl-Df0RYp1OJQpDtEHkDpw6IUzJgedTm",
+    "id": "chatcmpl-DhUPJRtsw3EcJjGgUYYjSM9CCaXyS",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665524,
+    "created": 1779257361,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder  \\nSDVC341-M\\n\\n## 5.3 How to turn on/off two controllers simultaneously?\\n\\n[[vcrop:68:0]]\\n\\nThis section introduces a direct vibration controller (using SDVC311) and a disc controller (using SDVC341), start and stop in sync. Different series of controllers can also complete the function of synchronous start and stop.\\n\\n1. The controller correctly connects the power cord and output cord.\\n\\n2. Open the device wiring compartment cover, connect D1 of SDVC341 to C2 of SDVC311, and connect D3 of SDVC341 to C1 of SDVC311.\\n\\n3. After the two devices are powered on, press press▲ and ◀ hold enter the parameter setting interface by short pressing ◀ or ▶ switch to the control output parameter group.\\n\\n4. In the control output parameter group, set the parameters as follows:\\n\\n\\\"PotDLogc\\\" is set to \\\"Or\\\", \\\"PotDSor1\\\" is set to \\\"Main\\\", \\\"PotDType\\\" is set to \\\"Ou_PNP\\\", and other defaults remain unchanged.\\n\\nAbove, the settings are completed to implement a direct vibration controller (using SDVC311) and a vibratory feeder controller (using SDVC341) maintains synchronized start and stop.\\n\\n---\\n\\n2026-02　　　　-58-　　　　SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.09,\n        0.165,\n        0.93,\n        0.455\n      ],\n      \"alt\": \"Wiring diagram showing a master controller and slave controller connected to a vibratory feeder with output power cables.\",\n      \"reason\": \"Complex line drawing and wiring/installation diagram should be preserved as an image.\"\n    }\n  ],\n  \"notes\": \"Page is clear. The instruction sentence in item 3 appears to contain a duplicated word/awkward phrasing as printed.\"\n}"
+          "content": "{\n  \"page_markdown\": \"自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n## 5.3 如何实现一台直振控制器和圆盘控制器保持同步启停？\\n\\n[[vcrop:68:0]]\\n\\n本小节介绍一台直振控制器（使用SDVC311）与圆盘控制器（使用SDVC341）保持同步启停。实现不同系列控制器也能完成同步启停的功能。\\n\\n1：控制器正确地连接电源线及输出线。\\n\\n2：打开设备接线仓盖，将SDVC341的D1连接SDVC311的C2，将SDVC341的D3连接SDVC311的C1。\\n\\n3：两台设备通电后，长按SDVC341 ▲ 加 ◀ 进入参数设置界面，通过短按 ◀ 或 ▶ 切换至切换至控制输出参数组。\\n\\n4：在控制输出参数组，设置参数如下：\\n\\n“D口逻辑”设置为“或”，“D口源1”设置为“主”（主输出状态），“D口类型”设置为“PNP”，其他默认不变。\\n\\n以上，设置完毕，实现一台直振控制器（使用SDVC311）与圆盘控制器（使用SDVC341）保持同步启停。\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　-58-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.085,\n        0.195,\n        0.925,\n        0.455\n      ],\n      \"alt\": \"一台直振控制器和圆盘控制器保持同步启停的接线示意图，标注从控制器电源输出线和主控制器电源输出线。\",\n      \"reason\": \"该区域为复杂设备接线示意图，包含控制器、圆盘机构、电缆走向及标签，适合保留为截图。\"\n    }\n  ],\n  \"notes\": \"页面带有浅色 CUH 水印；正文清晰。\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 4223,
-      "completion_tokens": 1335,
-      "total_tokens": 5558,
+      "prompt_tokens": 4517,
+      "completion_tokens": 1008,
+      "total_tokens": 5525,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0
@@ -49,7 +49,7 @@
       "completion_tokens_details": {
         "accepted_prediction_tokens": 0,
         "audio_tokens": 0,
-        "reasoning_tokens": 875,
+        "reasoning_tokens": 512,
         "rejected_prediction_tokens": 0
       }
     }

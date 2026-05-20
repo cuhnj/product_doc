@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 18,
+  "model": "gpt-5.5",
+  "created_at": "2026-05-13T17:42:52",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=18。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufa",
+  "assistant_text": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder                                                             SDVC341-M\\n\\n---\\n\\n## 2.6 Keypad Operation\\n\\na. This controller uses a 128 * 128 dot matrix screen to display parameter content.\\n\\nb. According to the time of pressing the button, the button actions are divided into short press, long press, first level acceleration, and second level acceleration.\\n\\n[Short press]: Press for more than 0.1 seconds but less than 0.5 seconds.\\n\\n[Long press]: Press for more than 2 seconds.\\n\\n[Level 1 acceleration]: Press for more than 0.5 seconds but less than 2 seconds.\\n\\n[Level 2 acceleration]: Press for more than 2 seconds.\\n\\nc. ⊕ and ⊖ its main function is to modify parameter values.\\n\\nd. Switch between the upper and lower parameter groups in the parameter settings interface by short pressing ◀ or ▶.\\n\\ne. Switch between the upper and lower parameters of this group in the parameter setting interface by short pressing ▲ or ▼.\\n\\nf. Short press ⏻ to start/stop main output, long press ⏻ to lock/unlock keyboard.\\n\\ng. Enter different parameter groups through the following combination of buttons:\\n\\nLong press ▲+▼, Enter or exit the frequency search interface.\\n\\nLong press ▲+◀, Enter or exit the parameter setting interface.\\n\\nLong press ▲+▶, Enter or exit the log interface.\\n\\n## 2.7 Operation Interface Rotation Diagram\\n\\nUnder any interface, Long press **▲+▶** enter **Log Interface**, long press again to exit to **Main interface**.\\n\\nUnder any interface, Long press **▲+▼** enter **Frequency Search Interface**, short press the stop button to exit to **Main interface**.\\n\\nUnder any interface, Long press **▲+◀** enter **Parameter Setting Interface**, long press again to exit to **Main interface**.\\n\\nUnder any interface, there is no action for more than 5 minutes, enter **Standby Interface** and press any key again to **Main interface**.\\n\\n---\\n\\n2026-02                                                 - 8 -                                                 SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "Automatic Frequency Controller for Vibratory Feeder                                                             SDVC341-M\n\n---\n\n## 2.6 Keypad Operation\n\na. This controller uses a 128 * 128 dot matrix screen to display parameter content.\n\nb. According to the time of pressing the button, the button actions are divided into short press, long press, first level acceleration, and second level acceleration.\n\n[Short press]: Press for more than 0.1 seconds but less than 0.5 seconds.\n\n[Long press]: Press for more than 2 seconds.\n\n[Level 1 acceleration]: Press for more than 0.5 seconds but less than 2 seconds.\n\n[Level 2 acceleration]: Press for more than 2 seconds.\n\nc. ⊕ and ⊖ its main function is to modify parameter values.\n\nd. Switch between the upper and lower parameter groups in the parameter settings interface by short pressing ◀ or ▶.\n\ne. Switch between the upper and lower parameters of this group in the parameter setting interface by short pressing ▲ or ▼.\n\nf. Short press ⏻ to start/stop main output, long press ⏻ to lock/unlock keyboard.\n\ng. Enter different parameter groups through the following combination of buttons:\n\nLong press ▲+▼, Enter or exit the frequency search interface.\n\nLong press ▲+◀, Enter or exit the parameter setting interface.\n\nLong press ▲+▶, Enter or exit the log interface.\n\n## 2.7 Operation Interface Rotation Diagram\n\nUnder any interface, Long press **▲+▶** enter **Log Interface**, long press again to exit to **Main interface**.\n\nUnder any interface, Long press **▲+▼** enter **Frequency Search Interface**, short press the stop button to exit to **Main interface**.\n\nUnder any interface, Long press **▲+◀** enter **Parameter Setting Interface**, long press again to exit to **Main interface**.\n\nUnder any interface, there is no action for more than 5 minutes, enter **Standby Interface** and press any key again to **Main interface**.\n\n---\n\n2026-02                                                 - 8 -                                                 SDVC341SMSEN_4.01",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-Df0OsiwUPJ10lezg4SIOT7ASHavBn",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1778665358,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder                                                             SDVC341-M\\n\\n---\\n\\n## 2.6 Keypad Operation\\n\\na. This controller uses a 128 * 128 dot matrix screen to display parameter content.\\n\\nb. According to the time of pressing the button, the button actions are divided into short press, long press, first level acceleration, and second level acceleration.\\n\\n[Short press]: Press for more than 0.1 seconds but less than 0.5 seconds.\\n\\n[Long press]: Press for more than 2 seconds.\\n\\n[Level 1 acceleration]: Press for more than 0.5 seconds but less than 2 seconds.\\n\\n[Level 2 acceleration]: Press for more than 2 seconds.\\n\\nc. ⊕ and ⊖ its main function is to modify parameter values.\\n\\nd. Switch between the upper and lower parameter groups in the parameter settings interface by short pressing ◀ or ▶.\\n\\ne. Switch between the upper and lower parameters of this group in the parameter setting interface by short pressing ▲ or ▼.\\n\\nf. Short press ⏻ to start/stop main output, long press ⏻ to lock/unlock keyboard.\\n\\ng. Enter different parameter groups through the following combination of buttons:\\n\\nLong press ▲+▼, Enter or exit the frequency search interface.\\n\\nLong press ▲+◀, Enter or exit the parameter setting interface.\\n\\nLong press ▲+▶, Enter or exit the log interface.\\n\\n## 2.7 Operation Interface Rotation Diagram\\n\\nUnder any interface, Long press **▲+▶** enter **Log Interface**, long press again to exit to **Main interface**.\\n\\nUnder any interface, Long press **▲+▼** enter **Frequency Search Interface**, short press the stop button to exit to **Main interface**.\\n\\nUnder any interface, Long press **▲+◀** enter **Parameter Setting Interface**, long press again to exit to **Main interface**.\\n\\nUnder any interface, there is no action for more than 5 minutes, enter **Standby Interface** and press any key again to **Main interface**.\\n\\n---\\n\\n2026-02                                                 - 8 -                                                 SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4148,
+      "completion_tokens": 1047,
+      "total_tokens": 5195,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

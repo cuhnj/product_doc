@@ -4,76 +4,41 @@
   "lang": "zh-CN",
   "page_index": 40,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:39:41",
-  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=40。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第",
-  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.052, 0.933, 0.075],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.129, 0.448, 0.151],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.160, 0.917, 0.208],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.209, 0.219, 0.730, 0.357],\n      \"confidence\": 0.94,\n      \"caption\": \"Figure 4.5\",\n      \"image_alt\": \"Port signal flow diagram showing Port C2 and Port E2 passing through port type selection, logic direction, and on/off delay blocks.\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.365, 0.874, 0.381],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.087, 0.413, 0.404, 0.615],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.566, 0.404, 0.866, 0.607],\n      \"confidence\": 0.94,\n      \"image_alt\": \"Controller parameter setting screen showing RUN status and the 5On&Off parameter group with items such as PortType, PortCDir, PtCUpDly, PtCDnDly, and PortEDir.\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.087, 0.642, 0.887, 0.676],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.699, 0.371, 0.718],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.728, 0.928, 0.760],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.099, 0.772, 0.906, 0.932],\n      \"confidence\": 0.96,\n      \"caption\": \"Sensor Type parameter meaning table\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.954, 0.933, 0.976],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],\n  \"notes\": \"本页为可识别文本与矢量/位图图形混排的说明书页面，不像纯扫描件。页面包含信号流程图、参数设置界面示意和一个参数说明表，图文并重。\"\n}",
+  "created_at": "2026-05-20T14:02:28",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=40。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2.2 控制器外观说明（第 15 页）\n  - 2.3 振动",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.052, 0.93, 0.075],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.135, 0.46, 0.163],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.07, 0.168, 0.87, 0.207],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.18, 0.218, 0.84, 0.345],\n      \"confidence\": 0.93,\n      \"caption\": \"图 4.5\",\n      \"image_alt\": \"端口信号流示意图，分为端口C2与端口E2两路，包含端口类型、逻辑方向、开延时、关延时等模块。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.12, 0.358, 0.52, 0.378],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.384, 0.93, 0.629],\n      \"confidence\": 0.92,\n      \"image_alt\": \"信号输入参数设置方法的说明框，左侧为三条按键操作步骤，右侧为控制器参数界面示意，显示“5信号输入”参数组及端口类型、C口方向、C开延时、C关延时、E口方向等项目。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.12, 0.647, 0.84, 0.669],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.687, 0.36, 0.711],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.08, 0.716, 0.93, 0.754],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.098, 0.766, 0.906, 0.94],\n      \"confidence\": 0.96,\n      \"caption\": \"端口类型参数名与含义表\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.954, 0.93, 0.977],\n      \"confidence\": 0.9\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n  \"notes\": \"本页为可识别文本层的说明书页面，不是纯扫描件。页面以文字说明、流程示意图、操作示意框和参数表为主，背景有淡色水印。\"\n}",
   "layout_parse_ok": true,
   "layout_json": {
     "regions": [
       {
         "type": "footer",
         "bbox_0_1": [
-          0.071,
+          0.07,
           0.052,
-          0.933,
+          0.93,
           0.075
         ],
-        "confidence": 0.95,
+        "confidence": 0.88,
         "bbox_parse_ok": true
       },
       {
         "type": "heading",
         "bbox_0_1": [
-          0.072,
-          0.129,
-          0.448,
-          0.151
+          0.07,
+          0.135,
+          0.46,
+          0.163
         ],
-        "confidence": 0.98,
+        "confidence": 0.96,
         "bbox_parse_ok": true
       },
       {
         "type": "paragraph",
         "bbox_0_1": [
-          0.072,
-          0.16,
-          0.917,
-          0.208
-        ],
-        "confidence": 0.98,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "figure",
-        "bbox_0_1": [
-          0.209,
-          0.219,
-          0.73,
-          0.357
-        ],
-        "confidence": 0.94,
-        "caption": "Figure 4.5",
-        "image_alt": "Port signal flow diagram showing Port C2 and Port E2 passing through port type selection, logic direction, and on/off delay blocks.",
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.072,
-          0.365,
-          0.874,
-          0.381
-        ],
-        "confidence": 0.98,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.087,
-          0.413,
-          0.404,
-          0.615
+          0.07,
+          0.168,
+          0.87,
+          0.207
         ],
         "confidence": 0.95,
         "bbox_parse_ok": true
@@ -81,69 +46,93 @@
       {
         "type": "figure",
         "bbox_0_1": [
-          0.566,
-          0.404,
-          0.866,
-          0.607
+          0.18,
+          0.218,
+          0.84,
+          0.345
         ],
-        "confidence": 0.94,
-        "image_alt": "Controller parameter setting screen showing RUN status and the 5On&Off parameter group with items such as PortType, PortCDir, PtCUpDly, PtCDnDly, and PortEDir.",
+        "confidence": 0.93,
+        "caption": "图 4.5",
+        "image_alt": "端口信号流示意图，分为端口C2与端口E2两路，包含端口类型、逻辑方向、开延时、关延时等模块。",
         "bbox_parse_ok": true
       },
       {
         "type": "paragraph",
         "bbox_0_1": [
-          0.087,
-          0.642,
-          0.887,
-          0.676
+          0.12,
+          0.358,
+          0.52,
+          0.378
         ],
-        "confidence": 0.98,
+        "confidence": 0.91,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.07,
+          0.384,
+          0.93,
+          0.629
+        ],
+        "confidence": 0.92,
+        "image_alt": "信号输入参数设置方法的说明框，左侧为三条按键操作步骤，右侧为控制器参数界面示意，显示“5信号输入”参数组及端口类型、C口方向、C开延时、C关延时、E口方向等项目。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.12,
+          0.647,
+          0.84,
+          0.669
+        ],
+        "confidence": 0.95,
         "bbox_parse_ok": true
       },
       {
         "type": "heading",
         "bbox_0_1": [
-          0.072,
-          0.699,
-          0.371,
-          0.718
+          0.07,
+          0.687,
+          0.36,
+          0.711
         ],
-        "confidence": 0.98,
+        "confidence": 0.96,
         "bbox_parse_ok": true
       },
       {
         "type": "paragraph",
         "bbox_0_1": [
-          0.072,
-          0.728,
-          0.928,
-          0.76
+          0.08,
+          0.716,
+          0.93,
+          0.754
         ],
-        "confidence": 0.98,
+        "confidence": 0.95,
         "bbox_parse_ok": true
       },
       {
         "type": "table",
         "bbox_0_1": [
-          0.099,
-          0.772,
+          0.098,
+          0.766,
           0.906,
-          0.932
+          0.94
         ],
         "confidence": 0.96,
-        "caption": "Sensor Type parameter meaning table",
+        "caption": "端口类型参数名与含义表",
         "bbox_parse_ok": true
       },
       {
         "type": "footer",
         "bbox_0_1": [
-          0.071,
+          0.07,
           0.954,
-          0.933,
-          0.976
+          0.93,
+          0.977
         ],
-        "confidence": 0.96,
+        "confidence": 0.9,
         "bbox_parse_ok": true
       }
     ],
@@ -158,32 +147,31 @@
       7,
       8,
       9,
-      10,
-      11
+      10
     ],
-    "notes": "本页为可识别文本与矢量/位图图形混排的说明书页面，不像纯扫描件。页面包含信号流程图、参数设置界面示意和一个参数说明表，图文并重。",
+    "notes": "本页为可识别文本层的说明书页面，不是纯扫描件。页面以文字说明、流程示意图、操作示意框和参数表为主，背景有淡色水印。",
     "bbox_schema": "xyxy_0_1"
   },
   "raw": {
-    "id": "chatcmpl-Df0LgY0elAnhmqLMvQ7nfZFvWxI2T",
+    "id": "chatcmpl-DhUILje25uauyYdmbubgAdFqh8HCy",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665160,
+    "created": 1779256929,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.052, 0.933, 0.075],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.129, 0.448, 0.151],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.160, 0.917, 0.208],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.209, 0.219, 0.730, 0.357],\n      \"confidence\": 0.94,\n      \"caption\": \"Figure 4.5\",\n      \"image_alt\": \"Port signal flow diagram showing Port C2 and Port E2 passing through port type selection, logic direction, and on/off delay blocks.\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.365, 0.874, 0.381],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.087, 0.413, 0.404, 0.615],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.566, 0.404, 0.866, 0.607],\n      \"confidence\": 0.94,\n      \"image_alt\": \"Controller parameter setting screen showing RUN status and the 5On&Off parameter group with items such as PortType, PortCDir, PtCUpDly, PtCDnDly, and PortEDir.\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.087, 0.642, 0.887, 0.676],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.699, 0.371, 0.718],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.728, 0.928, 0.760],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.099, 0.772, 0.906, 0.932],\n      \"confidence\": 0.96,\n      \"caption\": \"Sensor Type parameter meaning table\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.954, 0.933, 0.976],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],\n  \"notes\": \"本页为可识别文本与矢量/位图图形混排的说明书页面，不像纯扫描件。页面包含信号流程图、参数设置界面示意和一个参数说明表，图文并重。\"\n}"
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.052, 0.93, 0.075],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.135, 0.46, 0.163],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.07, 0.168, 0.87, 0.207],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.18, 0.218, 0.84, 0.345],\n      \"confidence\": 0.93,\n      \"caption\": \"图 4.5\",\n      \"image_alt\": \"端口信号流示意图，分为端口C2与端口E2两路，包含端口类型、逻辑方向、开延时、关延时等模块。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.12, 0.358, 0.52, 0.378],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.384, 0.93, 0.629],\n      \"confidence\": 0.92,\n      \"image_alt\": \"信号输入参数设置方法的说明框，左侧为三条按键操作步骤，右侧为控制器参数界面示意，显示“5信号输入”参数组及端口类型、C口方向、C开延时、C关延时、E口方向等项目。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.12, 0.647, 0.84, 0.669],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.687, 0.36, 0.711],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.08, 0.716, 0.93, 0.754],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.098, 0.766, 0.906, 0.94],\n      \"confidence\": 0.96,\n      \"caption\": \"端口类型参数名与含义表\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.954, 0.93, 0.977],\n      \"confidence\": 0.9\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n  \"notes\": \"本页为可识别文本层的说明书页面，不是纯扫描件。页面以文字说明、流程示意图、操作示意框和参数表为主，背景有淡色水印。\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 3965,
-      "completion_tokens": 1311,
-      "total_tokens": 5276,
+      "prompt_tokens": 4201,
+      "completion_tokens": 1295,
+      "total_tokens": 5496,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0

@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 80,
+  "model": "gpt-5.5",
+  "created_at": "2026-05-13T17:45:02",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=80。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufa",
+  "assistant_text": "{\"page_markdown\":\"Automatic Frequency Controller for Vibratory Feeder  SDVC341-M\\n\\n## 7.4.7 Counting Parameter Group\\n\\n| Function | Parameter | Display | Value Range/Enumeration Item | Default value |\\n|---|---|---|---|---|\\n| P7.01 | Total Count | 01.TotaCout | 0~9999 | 10 |\\n| P7.02 | Terminal Feed Rate<br>Percentage | 02.PrcntTrm | 0~100 % | 50 |\\n| P7.03 | Ahead of Counting End | 03.CotAhead | 0~9999 | 3 |\\n| P7.04 | Counting Automatic Reset<br>Time | 04.CotRstTm | 0.0~999.9 s | 0.0 |\\n| P7.05 | Counting Port Selection | 05.CotPotSe | None, Valid | None |\\n| P7.06 | RS-Trigger-Port-Priority | 06.RSPriori | Same, Reset, Set, Revers | Same |\\n\\n---\\n\\n2026-02  -70-  SDVC341SMSEN_4.01\",\"crop_suggestions\":[],\"notes\":\"\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "Automatic Frequency Controller for Vibratory Feeder  SDVC341-M\n\n## 7.4.7 Counting Parameter Group\n\n| Function | Parameter | Display | Value Range/Enumeration Item | Default value |\n|---|---|---|---|---|\n| P7.01 | Total Count | 01.TotaCout | 0~9999 | 10 |\n| P7.02 | Terminal Feed Rate<br>Percentage | 02.PrcntTrm | 0~100 % | 50 |\n| P7.03 | Ahead of Counting End | 03.CotAhead | 0~9999 | 3 |\n| P7.04 | Counting Automatic Reset<br>Time | 04.CotRstTm | 0.0~999.9 s | 0.0 |\n| P7.05 | Counting Port Selection | 05.CotPotSe | None, Valid | None |\n| P7.06 | RS-Trigger-Port-Priority | 06.RSPriori | Same, Reset, Set, Revers | Same |\n\n---\n\n2026-02  -70-  SDVC341SMSEN_4.01",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-Df0QySqtuQUkv9GQCLUJZT3brUOE3",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1778665488,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"page_markdown\":\"Automatic Frequency Controller for Vibratory Feeder  SDVC341-M\\n\\n## 7.4.7 Counting Parameter Group\\n\\n| Function | Parameter | Display | Value Range/Enumeration Item | Default value |\\n|---|---|---|---|---|\\n| P7.01 | Total Count | 01.TotaCout | 0~9999 | 10 |\\n| P7.02 | Terminal Feed Rate<br>Percentage | 02.PrcntTrm | 0~100 % | 50 |\\n| P7.03 | Ahead of Counting End | 03.CotAhead | 0~9999 | 3 |\\n| P7.04 | Counting Automatic Reset<br>Time | 04.CotRstTm | 0.0~999.9 s | 0.0 |\\n| P7.05 | Counting Port Selection | 05.CotPotSe | None, Valid | None |\\n| P7.06 | RS-Trigger-Port-Priority | 06.RSPriori | Same, Reset, Set, Revers | Same |\\n\\n---\\n\\n2026-02  -70-  SDVC341SMSEN_4.01\",\"crop_suggestions\":[],\"notes\":\"\"}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3927,
+      "completion_tokens": 695,
+      "total_tokens": 4622,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 411,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

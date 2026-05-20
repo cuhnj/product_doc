@@ -4,33 +4,44 @@
   "lang": "zh-CN",
   "page_index": 64,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:44:33",
-  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=64。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufa",
-  "assistant_text": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n## 4.9.5 Remote Control Data\\n\\nUsers can choose to send data sources to the synchronization network, and can choose manual voltage, remote control voltage, manual speed, and remote control speed.\\n\\n| Parameter | Meaning |\\n|---|---|\\n| ManVol | Manual voltage refers to the voltage set by the user panel |\\n| RemVol | Remote control voltage refers to the voltage adjusted through the remote speed control port |\\n| ManSpd | Manual speed refers to the feeding speed set by the user panel |\\n| RemSpd | Remote control speed refers to the feeding speed adjusted through the remote speed control port |\\n\\n## 4.10 Controller Status Monitoring\\n\\nIn the monitoring parameter group, the controller operating status and parameter values can be read in real time.\\n\\nFor readable parameter entries, please refer to the \\\"Parameter List\\\" chapter, Parameter Group 10, Monitoring Parameter Group.\\n\\n```text\\n┌────────────────────────────┐\\n│ RUN                        │\\n│ A C D E F G N J      A0   │\\n│ 01.Voltage        150  V   │\\n│ 02.Frequenc       50.0 Hz  │\\n│ 03.SpeedNow          0     │\\n│ 04.VoltgOut     223.8 V   │\\n│ 05.EffectCu      0.00 A   │\\n│ +    10Monitor        −   │\\n└────────────────────────────┘\\n```\\n\\n2026-02　　　　　　　　　　　　　　　-54-　　　　　　　　　　　　　　　SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "created_at": "2026-05-20T14:09:28",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=64。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2",
+  "assistant_text": "{\"page_markdown\":\"## 4.9.5 遥控数据\\n\\n用户可以选择发送至同步网络上数据源，可选择手动电压，遥控电压，手动速度，遥控速度。\\n\\n| 参数名 | 含义 |\\n|---|---|\\n| ManVol | 手动电压，指用户面板设定的电压 |\\n| RemVol | 遥控电压，指通过遥控调速端口调节的电压 |\\n| ManSpd | 手动速度，指用户面板设定的送料速度 |\\n| RemSpd | 遥控速度，指通过遥控调速端口调节的送料速度 |\\n\\n## 4.10 系统运行监控功能\\n\\n在监控参数组内可以实时读取控制器运行状态及参数值。\\n\\n可读取参数条目参考《参数列表》章节，参数组十，监控参数组。\\n\\n[[vcrop:64:0]]\",\"crop_suggestions\":[{\"bbox_0_1\":[0.32,0.62,0.63,0.83],\"alt\":\"系统运行监控功能的运行界面示意图，显示输出电压、输出频率、当前料速、测量电压、有效电流等监控参数。\",\"reason\":\"该区域为控制器屏幕界面示意图，包含边框、状态栏、反白数值等视觉布局，适合保留为位图。\"}],\"notes\":\"\"}",
   "vision_parse_ok": true,
-  "page_markdown": "Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M\n\n## 4.9.5 Remote Control Data\n\nUsers can choose to send data sources to the synchronization network, and can choose manual voltage, remote control voltage, manual speed, and remote control speed.\n\n| Parameter | Meaning |\n|---|---|\n| ManVol | Manual voltage refers to the voltage set by the user panel |\n| RemVol | Remote control voltage refers to the voltage adjusted through the remote speed control port |\n| ManSpd | Manual speed refers to the feeding speed set by the user panel |\n| RemSpd | Remote control speed refers to the feeding speed adjusted through the remote speed control port |\n\n## 4.10 Controller Status Monitoring\n\nIn the monitoring parameter group, the controller operating status and parameter values can be read in real time.\n\nFor readable parameter entries, please refer to the \"Parameter List\" chapter, Parameter Group 10, Monitoring Parameter Group.\n\n```text\n┌────────────────────────────┐\n│ RUN                        │\n│ A C D E F G N J      A0   │\n│ 01.Voltage        150  V   │\n│ 02.Frequenc       50.0 Hz  │\n│ 03.SpeedNow          0     │\n│ 04.VoltgOut     223.8 V   │\n│ 05.EffectCu      0.00 A   │\n│ +    10Monitor        −   │\n└────────────────────────────┘\n```\n\n2026-02　　　　　　　　　　　　　　　-54-　　　　　　　　　　　　　　　SDVC341SMSEN_4.01",
-  "crop_suggestions": [],
+  "page_markdown": "## 4.9.5 遥控数据\n\n用户可以选择发送至同步网络上数据源，可选择手动电压，遥控电压，手动速度，遥控速度。\n\n| 参数名 | 含义 |\n|---|---|\n| ManVol | 手动电压，指用户面板设定的电压 |\n| RemVol | 遥控电压，指通过遥控调速端口调节的电压 |\n| ManSpd | 手动速度，指用户面板设定的送料速度 |\n| RemSpd | 遥控速度，指通过遥控调速端口调节的送料速度 |\n\n## 4.10 系统运行监控功能\n\n在监控参数组内可以实时读取控制器运行状态及参数值。\n\n可读取参数条目参考《参数列表》章节，参数组十，监控参数组。\n\n[[vcrop:64:0]]",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.32,
+        0.62,
+        0.63,
+        0.83
+      ],
+      "alt": "系统运行监控功能的运行界面示意图，显示输出电压、输出频率、当前料速、测量电压、有效电流等监控参数。",
+      "reason": "该区域为控制器屏幕界面示意图，包含边框、状态栏、反白数值等视觉布局，适合保留为位图。"
+    }
+  ],
   "notes": "",
   "raw": {
-    "id": "chatcmpl-Df0QWbxuFgaxLY3RBxPLGrnPhGmB8",
+    "id": "chatcmpl-DhUPCtBd3MwbQdbcV8TPdirbRvZrV",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665460,
+    "created": 1779257354,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n## 4.9.5 Remote Control Data\\n\\nUsers can choose to send data sources to the synchronization network, and can choose manual voltage, remote control voltage, manual speed, and remote control speed.\\n\\n| Parameter | Meaning |\\n|---|---|\\n| ManVol | Manual voltage refers to the voltage set by the user panel |\\n| RemVol | Remote control voltage refers to the voltage adjusted through the remote speed control port |\\n| ManSpd | Manual speed refers to the feeding speed set by the user panel |\\n| RemSpd | Remote control speed refers to the feeding speed adjusted through the remote speed control port |\\n\\n## 4.10 Controller Status Monitoring\\n\\nIn the monitoring parameter group, the controller operating status and parameter values can be read in real time.\\n\\nFor readable parameter entries, please refer to the \\\"Parameter List\\\" chapter, Parameter Group 10, Monitoring Parameter Group.\\n\\n```text\\n┌────────────────────────────┐\\n│ RUN                        │\\n│ A C D E F G N J      A0   │\\n│ 01.Voltage        150  V   │\\n│ 02.Frequenc       50.0 Hz  │\\n│ 03.SpeedNow          0     │\\n│ 04.VoltgOut     223.8 V   │\\n│ 05.EffectCu      0.00 A   │\\n│ +    10Monitor        −   │\\n└────────────────────────────┘\\n```\\n\\n2026-02　　　　　　　　　　　　　　　-54-　　　　　　　　　　　　　　　SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}"
+          "content": "{\"page_markdown\":\"## 4.9.5 遥控数据\\n\\n用户可以选择发送至同步网络上数据源，可选择手动电压，遥控电压，手动速度，遥控速度。\\n\\n| 参数名 | 含义 |\\n|---|---|\\n| ManVol | 手动电压，指用户面板设定的电压 |\\n| RemVol | 遥控电压，指通过遥控调速端口调节的电压 |\\n| ManSpd | 手动速度，指用户面板设定的送料速度 |\\n| RemSpd | 遥控速度，指通过遥控调速端口调节的送料速度 |\\n\\n## 4.10 系统运行监控功能\\n\\n在监控参数组内可以实时读取控制器运行状态及参数值。\\n\\n可读取参数条目参考《参数列表》章节，参数组十，监控参数组。\\n\\n[[vcrop:64:0]]\",\"crop_suggestions\":[{\"bbox_0_1\":[0.32,0.62,0.63,0.83],\"alt\":\"系统运行监控功能的运行界面示意图，显示输出电压、输出频率、当前料速、测量电压、有效电流等监控参数。\",\"reason\":\"该区域为控制器屏幕界面示意图，包含边框、状态栏、反白数值等视觉布局，适合保留为位图。\"}],\"notes\":\"\"}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 4002,
-      "completion_tokens": 909,
-      "total_tokens": 4911,
+      "prompt_tokens": 4221,
+      "completion_tokens": 700,
+      "total_tokens": 4921,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0
@@ -38,7 +49,7 @@
       "completion_tokens_details": {
         "accepted_prediction_tokens": 0,
         "audio_tokens": 0,
-        "reasoning_tokens": 512,
+        "reasoning_tokens": 357,
         "rejected_prediction_tokens": 0
       }
     }

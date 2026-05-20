@@ -4,44 +4,44 @@
   "lang": "zh-CN",
   "page_index": 44,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:43:57",
-  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=44。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufa",
-  "assistant_text": "{\"page_markdown\":\"Automatic Frequency Controller for Vibratory Feeder  \\nSDVC341-M\\n\\n---\\n\\n## 4.6.2 Target Quantity\\n\\nAfter the \\\"current count value\\\" reaches the limit, the count full signal is valid until the counter is reset. After entering the counting full state, if the counting pulse is continued to be sent, the counting will continue, but the counting full signal remains valid. For signal flow diagram, refer to Figure 4.6.\\n\\nThe total count range is 0~9999, the default value is 10, and the adjustment accuracy is 1.\\n\\n## 4.6.3 Terminal Speed\\n\\n**Terminal Speed**, means that when counting enters the final deceleration state, the controller's feeding speed and voltage will drop to the percentage of the initial speed and voltage, see Figure 4.6.3.\\n\\nWhen the counting number is close to the total number, the counting process is about to be completed. In order to prevent the high-speed movement of the material from being unable to stop in time and causing counting overshoot, the controller automatically reduces the speed to the end set speed (the counting deceleration signal is valid) by the user when the remaining number is less than the end number. When the count value reaches the total count (the full count signal is valid), the controller immediately stops output, and the feeder can obtain precise counting control.\\n\\nThe terminal speed range is 0~100%, the default value is 50%, and the adjustment accuracy is 1%.\\n\\n[[vcrop:44:0]]\\n\\n---\\n\\n2026-02 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -34- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SDVC341SMSEN_4.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.16,0.595,0.84,0.86],\"alt\":\"Figure 4.6.3: counting terminal speed diagram showing Feeding Speed versus Count Number, 100% speed before End Count, drop to Terminal Speed around 50%, then stop at Count Total.\",\"reason\":\"Line diagram with axes, dashed limit lines, arrows, and labels is best preserved as a cropped image.\"}],\"notes\":\"\"}",
+  "created_at": "2026-05-20T14:08:38",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=44。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2",
+  "assistant_text": "{\n  \"page_markdown\": \"## 4.6.2 计数总数\\n\\n在“当前计数值”达到限值后，计数满信号有效，直到计数器被复位。进入计数满状态后，如果继续发送计数脉冲，则计数还会继续，但计数满信号一直保持为有效。信号流示意图参考图4.6。\\n\\n计数总数范围0~9999，默认值10，调整精度1。\\n\\n## 4.6.3 末段速度\\n\\n**末段速度**，指当计数进入末段减速状态时，控制器的送料速度和电压将降为初始速度和电压的百分比，见图4.6.3。\\n\\n在计数个数接近计数总数时，计数过程即将完成，为了防止物料高速运动不能及时停止而造成计数过冲，控制器在计数剩余数量小于末端数量时，自动把速度降为用户设定的末段速度（计数减速信号有效）。当计数数值达到计数总数后（计数满信号有效），控制器立刻停止输出，送料器就可以获得精确的计数控制。\\n\\n末段速度范围0~100%，默认值50%，调整精度1%。\\n\\n[[vcrop:44:0]]\\n\\n**图 4.6.3**\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.201,\n        0.553,\n        0.767,\n        0.813\n      ],\n      \"alt\": \"图4.6.3：计数总数、末段数量与送料速度/末段速度关系示意图\",\n      \"reason\": \"包含坐标轴、虚线、箭头及多处标注的示意图，使用截图保留原始布局更准确。\"\n    }\n  ],\n  \"notes\": \"\"\n}",
   "vision_parse_ok": true,
-  "page_markdown": "Automatic Frequency Controller for Vibratory Feeder  \nSDVC341-M\n\n---\n\n## 4.6.2 Target Quantity\n\nAfter the \"current count value\" reaches the limit, the count full signal is valid until the counter is reset. After entering the counting full state, if the counting pulse is continued to be sent, the counting will continue, but the counting full signal remains valid. For signal flow diagram, refer to Figure 4.6.\n\nThe total count range is 0~9999, the default value is 10, and the adjustment accuracy is 1.\n\n## 4.6.3 Terminal Speed\n\n**Terminal Speed**, means that when counting enters the final deceleration state, the controller's feeding speed and voltage will drop to the percentage of the initial speed and voltage, see Figure 4.6.3.\n\nWhen the counting number is close to the total number, the counting process is about to be completed. In order to prevent the high-speed movement of the material from being unable to stop in time and causing counting overshoot, the controller automatically reduces the speed to the end set speed (the counting deceleration signal is valid) by the user when the remaining number is less than the end number. When the count value reaches the total count (the full count signal is valid), the controller immediately stops output, and the feeder can obtain precise counting control.\n\nThe terminal speed range is 0~100%, the default value is 50%, and the adjustment accuracy is 1%.\n\n[[vcrop:44:0]]\n\n---\n\n2026-02 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -34- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SDVC341SMSEN_4.01",
+  "page_markdown": "## 4.6.2 计数总数\n\n在“当前计数值”达到限值后，计数满信号有效，直到计数器被复位。进入计数满状态后，如果继续发送计数脉冲，则计数还会继续，但计数满信号一直保持为有效。信号流示意图参考图4.6。\n\n计数总数范围0~9999，默认值10，调整精度1。\n\n## 4.6.3 末段速度\n\n**末段速度**，指当计数进入末段减速状态时，控制器的送料速度和电压将降为初始速度和电压的百分比，见图4.6.3。\n\n在计数个数接近计数总数时，计数过程即将完成，为了防止物料高速运动不能及时停止而造成计数过冲，控制器在计数剩余数量小于末端数量时，自动把速度降为用户设定的末段速度（计数减速信号有效）。当计数数值达到计数总数后（计数满信号有效），控制器立刻停止输出，送料器就可以获得精确的计数控制。\n\n末段速度范围0~100%，默认值50%，调整精度1%。\n\n[[vcrop:44:0]]\n\n**图 4.6.3**",
   "crop_suggestions": [
     {
       "bbox_0_1": [
-        0.16,
-        0.595,
-        0.84,
-        0.86
+        0.201,
+        0.553,
+        0.767,
+        0.813
       ],
-      "alt": "Figure 4.6.3: counting terminal speed diagram showing Feeding Speed versus Count Number, 100% speed before End Count, drop to Terminal Speed around 50%, then stop at Count Total.",
-      "reason": "Line diagram with axes, dashed limit lines, arrows, and labels is best preserved as a cropped image."
+      "alt": "图4.6.3：计数总数、末段数量与送料速度/末段速度关系示意图",
+      "reason": "包含坐标轴、虚线、箭头及多处标注的示意图，使用截图保留原始布局更准确。"
     }
   ],
   "notes": "",
   "raw": {
-    "id": "chatcmpl-Df0Puzp8SBtweu9FtgvylW0Q5wk6i",
+    "id": "chatcmpl-DhUOIHj1oASFzfwqbb4YoIVMsEuuL",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665422,
+    "created": 1779257298,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\"page_markdown\":\"Automatic Frequency Controller for Vibratory Feeder  \\nSDVC341-M\\n\\n---\\n\\n## 4.6.2 Target Quantity\\n\\nAfter the \\\"current count value\\\" reaches the limit, the count full signal is valid until the counter is reset. After entering the counting full state, if the counting pulse is continued to be sent, the counting will continue, but the counting full signal remains valid. For signal flow diagram, refer to Figure 4.6.\\n\\nThe total count range is 0~9999, the default value is 10, and the adjustment accuracy is 1.\\n\\n## 4.6.3 Terminal Speed\\n\\n**Terminal Speed**, means that when counting enters the final deceleration state, the controller's feeding speed and voltage will drop to the percentage of the initial speed and voltage, see Figure 4.6.3.\\n\\nWhen the counting number is close to the total number, the counting process is about to be completed. In order to prevent the high-speed movement of the material from being unable to stop in time and causing counting overshoot, the controller automatically reduces the speed to the end set speed (the counting deceleration signal is valid) by the user when the remaining number is less than the end number. When the count value reaches the total count (the full count signal is valid), the controller immediately stops output, and the feeder can obtain precise counting control.\\n\\nThe terminal speed range is 0~100%, the default value is 50%, and the adjustment accuracy is 1%.\\n\\n[[vcrop:44:0]]\\n\\n---\\n\\n2026-02 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -34- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SDVC341SMSEN_4.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.16,0.595,0.84,0.86],\"alt\":\"Figure 4.6.3: counting terminal speed diagram showing Feeding Speed versus Count Number, 100% speed before End Count, drop to Terminal Speed around 50%, then stop at Count Total.\",\"reason\":\"Line diagram with axes, dashed limit lines, arrows, and labels is best preserved as a cropped image.\"}],\"notes\":\"\"}"
+          "content": "{\n  \"page_markdown\": \"## 4.6.2 计数总数\\n\\n在“当前计数值”达到限值后，计数满信号有效，直到计数器被复位。进入计数满状态后，如果继续发送计数脉冲，则计数还会继续，但计数满信号一直保持为有效。信号流示意图参考图4.6。\\n\\n计数总数范围0~9999，默认值10，调整精度1。\\n\\n## 4.6.3 末段速度\\n\\n**末段速度**，指当计数进入末段减速状态时，控制器的送料速度和电压将降为初始速度和电压的百分比，见图4.6.3。\\n\\n在计数个数接近计数总数时，计数过程即将完成，为了防止物料高速运动不能及时停止而造成计数过冲，控制器在计数剩余数量小于末端数量时，自动把速度降为用户设定的末段速度（计数减速信号有效）。当计数数值达到计数总数后（计数满信号有效），控制器立刻停止输出，送料器就可以获得精确的计数控制。\\n\\n末段速度范围0~100%，默认值50%，调整精度1%。\\n\\n[[vcrop:44:0]]\\n\\n**图 4.6.3**\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.201,\n        0.553,\n        0.767,\n        0.813\n      ],\n      \"alt\": \"图4.6.3：计数总数、末段数量与送料速度/末段速度关系示意图\",\n      \"reason\": \"包含坐标轴、虚线、箭头及多处标注的示意图，使用截图保留原始布局更准确。\"\n    }\n  ],\n  \"notes\": \"\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 4085,
-      "completion_tokens": 1063,
-      "total_tokens": 5148,
+      "prompt_tokens": 4281,
+      "completion_tokens": 975,
+      "total_tokens": 5256,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0

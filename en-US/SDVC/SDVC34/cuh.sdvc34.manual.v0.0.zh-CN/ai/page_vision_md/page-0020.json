@@ -1,0 +1,67 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 20,
+  "model": "gpt-5.5",
+  "created_at": "2026-05-13T17:42:57",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=20。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufa",
+  "assistant_text": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n### Step Three:\\n\\nConnect the Connector of the Input Power Cable to the Input Power Socket of the controller.\\n\\n[[vcrop:20:0]]\\n\\n### Step Four:\\n\\nAfter confirming that the switch is in the off position, connect the plug of the Input Power Cable to the mains jack.\\n\\n[[vcrop:20:1]]\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　- 10 -　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.17,\n        0.17,\n        0.85,\n        0.51\n      ],\n      \"alt\": \"Step Three wiring illustration: connect the input power cable connector to the controller input power socket first.\",\n      \"reason\": \"Line drawing illustrates the physical connection order and connector position on the controller.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.36,\n        0.66,\n        0.77,\n        0.91\n      ],\n      \"alt\": \"Step Four wiring illustration: connect the input power cable plug to the mains jack after confirming the switch is off.\",\n      \"reason\": \"Line drawing shows the plug being inserted into the mains socket.\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M\n\n---\n\n### Step Three:\n\nConnect the Connector of the Input Power Cable to the Input Power Socket of the controller.\n\n[[vcrop:20:0]]\n\n### Step Four:\n\nAfter confirming that the switch is in the off position, connect the plug of the Input Power Cable to the mains jack.\n\n[[vcrop:20:1]]\n\n---\n\n2026-02　　　　　　　　　　　　　　　　　- 10 -　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.17,
+        0.17,
+        0.85,
+        0.51
+      ],
+      "alt": "Step Three wiring illustration: connect the input power cable connector to the controller input power socket first.",
+      "reason": "Line drawing illustrates the physical connection order and connector position on the controller."
+    },
+    {
+      "bbox_0_1": [
+        0.36,
+        0.66,
+        0.77,
+        0.91
+      ],
+      "alt": "Step Four wiring illustration: connect the input power cable plug to the mains jack after confirming the switch is off.",
+      "reason": "Line drawing shows the plug being inserted into the mains socket."
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-Df0OttQNj1zGmAXu8ZJ5ukycG6ntW",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1778665359,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n### Step Three:\\n\\nConnect the Connector of the Input Power Cable to the Input Power Socket of the controller.\\n\\n[[vcrop:20:0]]\\n\\n### Step Four:\\n\\nAfter confirming that the switch is in the off position, connect the plug of the Input Power Cable to the mains jack.\\n\\n[[vcrop:20:1]]\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　- 10 -　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.17,\n        0.17,\n        0.85,\n        0.51\n      ],\n      \"alt\": \"Step Three wiring illustration: connect the input power cable connector to the controller input power socket first.\",\n      \"reason\": \"Line drawing illustrates the physical connection order and connector position on the controller.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.36,\n        0.66,\n        0.77,\n        0.91\n      ],\n      \"alt\": \"Step Four wiring illustration: connect the input power cable plug to the mains jack after confirming the switch is off.\",\n      \"reason\": \"Line drawing shows the plug being inserted into the mains socket.\"\n    }\n  ],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3829,
+      "completion_tokens": 835,
+      "total_tokens": 4664,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -4,55 +4,56 @@
   "lang": "zh-CN",
   "page_index": 8,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:38:22",
-  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=8。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 ",
-  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.0716, 0.0527, 0.9323, 0.0738],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.138, 0.1608, 0.9128, 0.9148],\n      \"confidence\": 0.97,\n      \"caption\": \"Contents continuation listing sections 4.3 to 4.6 with subsection titles and page numbers\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.0716, 0.9534, 0.9323, 0.9763],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0, 0, 1, 1],\n      \"confidence\": 0.55\n    }\n  ],\n  \"reading_order\": [0, 1, 2],\n  \"notes\": \"本页为目录续页，主要内容是带虚线引导线和页码的目录表，列出 4.3 Constant Feed Speed、4.4 Output Parameters、4.5 Signal Control、4.6 Material Quantity Counting 及其子条目。页面含浅色 CUH 背景水印；不是以图为主。文本层可用但存在少量识别缺失或错位。\"\n}",
+  "created_at": "2026-05-20T14:00:50",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=8。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2.2 控制器外观说明（第 15 页）\n  - 2.3 振动传",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"header\",\n      \"bbox_0_1\": [0.072, 0.051, 0.931, 0.074],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.136, 0.160, 0.914, 0.922],\n      \"confidence\": 0.94,\n      \"caption\": \"目录续页：第4.3节至第4.6节条目，含点线引导和页码\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.954, 0.931, 0.979],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.000, 0.000, 1.000, 1.000],\n      \"confidence\": 0.62,\n      \"image_alt\": \"浅灰色重复的 CUH 字样背景水印\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2],\n  \"notes\": \"本页为目录续页，主要内容是文本排版的目录表格式列表，不是扫描件；背景有浅色水印，页面不以插图为主。\"\n}",
   "layout_parse_ok": true,
   "layout_json": {
     "regions": [
       {
-        "type": "heading",
+        "type": "header",
         "bbox_0_1": [
-          0.0716,
-          0.0527,
-          0.9323,
-          0.0738
+          0.072,
+          0.051,
+          0.931,
+          0.074
         ],
-        "confidence": 0.95,
+        "confidence": 0.96,
         "bbox_parse_ok": true
       },
       {
         "type": "table",
         "bbox_0_1": [
-          0.138,
-          0.1608,
-          0.9128,
-          0.9148
+          0.136,
+          0.16,
+          0.914,
+          0.922
         ],
-        "confidence": 0.97,
-        "caption": "Contents continuation listing sections 4.3 to 4.6 with subsection titles and page numbers",
+        "confidence": 0.94,
+        "caption": "目录续页：第4.3节至第4.6节条目，含点线引导和页码",
         "bbox_parse_ok": true
       },
       {
         "type": "footer",
         "bbox_0_1": [
-          0.0716,
-          0.9534,
-          0.9323,
-          0.9763
+          0.072,
+          0.954,
+          0.931,
+          0.979
         ],
-        "confidence": 0.95,
+        "confidence": 0.96,
         "bbox_parse_ok": true
       },
       {
-        "type": "unknown",
+        "type": "figure",
         "bbox_0_1": [
           0.0,
           0.0,
           1.0,
           1.0
         ],
-        "confidence": 0.55,
+        "confidence": 0.62,
+        "image_alt": "浅灰色重复的 CUH 字样背景水印",
         "bbox_parse_ok": true
       }
     ],
@@ -61,29 +62,29 @@
       1,
       2
     ],
-    "notes": "本页为目录续页，主要内容是带虚线引导线和页码的目录表，列出 4.3 Constant Feed Speed、4.4 Output Parameters、4.5 Signal Control、4.6 Material Quantity Counting 及其子条目。页面含浅色 CUH 背景水印；不是以图为主。文本层可用但存在少量识别缺失或错位。",
+    "notes": "本页为目录续页，主要内容是文本排版的目录表格式列表，不是扫描件；背景有浅色水印，页面不以插图为主。",
     "bbox_schema": "xyxy_0_1"
   },
   "raw": {
-    "id": "chatcmpl-Df0KULYIsieoNaLIikUM5FxIgot5D",
+    "id": "chatcmpl-DhUGjVQsqHCkOpQiO0aPLhv7qgFZC",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665086,
+    "created": 1779256829,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.0716, 0.0527, 0.9323, 0.0738],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.138, 0.1608, 0.9128, 0.9148],\n      \"confidence\": 0.97,\n      \"caption\": \"Contents continuation listing sections 4.3 to 4.6 with subsection titles and page numbers\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.0716, 0.9534, 0.9323, 0.9763],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0, 0, 1, 1],\n      \"confidence\": 0.55\n    }\n  ],\n  \"reading_order\": [0, 1, 2],\n  \"notes\": \"本页为目录续页，主要内容是带虚线引导线和页码的目录表，列出 4.3 Constant Feed Speed、4.4 Output Parameters、4.5 Signal Control、4.6 Material Quantity Counting 及其子条目。页面含浅色 CUH 背景水印；不是以图为主。文本层可用但存在少量识别缺失或错位。\"\n}"
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"header\",\n      \"bbox_0_1\": [0.072, 0.051, 0.931, 0.074],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.136, 0.160, 0.914, 0.922],\n      \"confidence\": 0.94,\n      \"caption\": \"目录续页：第4.3节至第4.6节条目，含点线引导和页码\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.954, 0.931, 0.979],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.000, 0.000, 1.000, 1.000],\n      \"confidence\": 0.62,\n      \"image_alt\": \"浅灰色重复的 CUH 字样背景水印\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2],\n  \"notes\": \"本页为目录续页，主要内容是文本排版的目录表格式列表，不是扫描件；背景有浅色水印，页面不以插图为主。\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 3904,
-      "completion_tokens": 863,
-      "total_tokens": 4767,
+      "prompt_tokens": 4148,
+      "completion_tokens": 832,
+      "total_tokens": 4980,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0

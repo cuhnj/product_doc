@@ -4,44 +4,44 @@
   "lang": "zh-CN",
   "page_index": 35,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:43:40",
-  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=35。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufa",
-  "assistant_text": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n### 4.4.1.6 Waveform Index\\n\\nThis parameter allows the controller to balance between maximum efficiency, maximum power and minimum noise to meet the higher needs of customers.\\n\\nThe waveform index ranges is 50~100, the default is 100 and the adjustment accuracy is 1.\\n\\n**Note:**\\n\\n1. When the waveform index is 50, it has the highest efficiency and the stress on the spring is the smallest.\\n2. When the value is 100, the maximum rated output power and minimum noise can be obtained, but the spring will be subject to greater stress.\\n\\n[[vcrop:35:0]]\\n\\n### 4.4.1.7 DC Current\\n\\nThe driving output of the controller can be set to superimpose a DC current component on the basis of the sinusoidal current.\\n\\nThe DC current range is 0.0~2.00A, the default is 0.10A and the adjustment accuracy is 0.01A.\\n\\n### 4.4.1.8 Power On State\\n\\nSet the operating status of the controller after power on. Default On.\\n\\n| Parameter | Meaning |\\n|---|---|\\n| On | After the device is powered on, the status of the switch key is running |\\n| Off | After the device is powered on, the status of the switch key is stopped |\\n| Keep | After the device is powered on, the status of the switch key remains the same as before the last shutdown |\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　- 25 -　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.08,\n        0.32,\n        0.91,\n        0.53\n      ],\n      \"alt\": \"Waveform Index Diagram showing current-time waveforms for r=100 and r=50\",\n      \"reason\": \"Waveform diagram with axes and curves is visual content best preserved as an image crop.\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "created_at": "2026-05-20T14:08:12",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=35。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2",
+  "assistant_text": "{\n  \"page_markdown\": \"### 4.4.1.6 波形指数\\n\\n本参数可以使控制器在最高效率-最大功率和最小噪音间平衡，以满足客户更高需求。\\n\\n波形指数范围50~100，默认100，调整精度1。\\n\\n注：\\n1. 波形指数取值为50时具有最高效率，弹簧受到的应力最小。\\n2. 取值为100时可以取得最大额定输出功率和最小噪音，但弹簧将会受到较大的应力。\\n\\n[[vcrop:35:0]]\\n\\n### 4.4.1.7 直流电流\\n\\n可以设定控制器的驱动输出在正弦电流的基础上叠加一个直流电流分量。\\n\\n直流电流范围0.0~2.00A，默认0.10A，调整精度0.01A。\\n\\n### 4.4.1.8 开机状态\\n\\n设定控制器上电后的运行状态。默认开。\\n\\n| 参数名 | 含义 |\\n|---|---|\\n| 开 | 设备上电后开关键的状态为运行 |\\n| 关 | 设备上电后开关键的状态为停止 |\\n| 保持 | 设备上电后开关键的状态保持为上次关机前的状态 |\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.08,\n        0.33,\n        0.90,\n        0.52\n      ],\n      \"alt\": \"波形指数示意图，左侧 r=100，右侧 r=50，纵轴为电流，横轴为时间。\",\n      \"reason\": \"该区域为波形指数对比示意图，包含坐标轴和曲线形状，使用截图可保留视觉含义。\"\n    }\n  ],\n  \"notes\": \"\"\n}",
   "vision_parse_ok": true,
-  "page_markdown": "Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M\n\n---\n\n### 4.4.1.6 Waveform Index\n\nThis parameter allows the controller to balance between maximum efficiency, maximum power and minimum noise to meet the higher needs of customers.\n\nThe waveform index ranges is 50~100, the default is 100 and the adjustment accuracy is 1.\n\n**Note:**\n\n1. When the waveform index is 50, it has the highest efficiency and the stress on the spring is the smallest.\n2. When the value is 100, the maximum rated output power and minimum noise can be obtained, but the spring will be subject to greater stress.\n\n[[vcrop:35:0]]\n\n### 4.4.1.7 DC Current\n\nThe driving output of the controller can be set to superimpose a DC current component on the basis of the sinusoidal current.\n\nThe DC current range is 0.0~2.00A, the default is 0.10A and the adjustment accuracy is 0.01A.\n\n### 4.4.1.8 Power On State\n\nSet the operating status of the controller after power on. Default On.\n\n| Parameter | Meaning |\n|---|---|\n| On | After the device is powered on, the status of the switch key is running |\n| Off | After the device is powered on, the status of the switch key is stopped |\n| Keep | After the device is powered on, the status of the switch key remains the same as before the last shutdown |\n\n---\n\n2026-02　　　　　　　　　　　　　　　　　- 25 -　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01",
+  "page_markdown": "### 4.4.1.6 波形指数\n\n本参数可以使控制器在最高效率-最大功率和最小噪音间平衡，以满足客户更高需求。\n\n波形指数范围50~100，默认100，调整精度1。\n\n注：\n1. 波形指数取值为50时具有最高效率，弹簧受到的应力最小。\n2. 取值为100时可以取得最大额定输出功率和最小噪音，但弹簧将会受到较大的应力。\n\n[[vcrop:35:0]]\n\n### 4.4.1.7 直流电流\n\n可以设定控制器的驱动输出在正弦电流的基础上叠加一个直流电流分量。\n\n直流电流范围0.0~2.00A，默认0.10A，调整精度0.01A。\n\n### 4.4.1.8 开机状态\n\n设定控制器上电后的运行状态。默认开。\n\n| 参数名 | 含义 |\n|---|---|\n| 开 | 设备上电后开关键的状态为运行 |\n| 关 | 设备上电后开关键的状态为停止 |\n| 保持 | 设备上电后开关键的状态保持为上次关机前的状态 |",
   "crop_suggestions": [
     {
       "bbox_0_1": [
         0.08,
-        0.32,
-        0.91,
-        0.53
+        0.33,
+        0.9,
+        0.52
       ],
-      "alt": "Waveform Index Diagram showing current-time waveforms for r=100 and r=50",
-      "reason": "Waveform diagram with axes and curves is visual content best preserved as an image crop."
+      "alt": "波形指数示意图，左侧 r=100，右侧 r=50，纵轴为电流，横轴为时间。",
+      "reason": "该区域为波形指数对比示意图，包含坐标轴和曲线形状，使用截图可保留视觉含义。"
     }
   ],
   "notes": "",
   "raw": {
-    "id": "chatcmpl-Df0PYkrJHHyShP3E20V6xs65v4F8Y",
+    "id": "chatcmpl-DhUNvPDsngflbKZg4SnFASVS1jaSK",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665400,
+    "created": 1779257275,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n### 4.4.1.6 Waveform Index\\n\\nThis parameter allows the controller to balance between maximum efficiency, maximum power and minimum noise to meet the higher needs of customers.\\n\\nThe waveform index ranges is 50~100, the default is 100 and the adjustment accuracy is 1.\\n\\n**Note:**\\n\\n1. When the waveform index is 50, it has the highest efficiency and the stress on the spring is the smallest.\\n2. When the value is 100, the maximum rated output power and minimum noise can be obtained, but the spring will be subject to greater stress.\\n\\n[[vcrop:35:0]]\\n\\n### 4.4.1.7 DC Current\\n\\nThe driving output of the controller can be set to superimpose a DC current component on the basis of the sinusoidal current.\\n\\nThe DC current range is 0.0~2.00A, the default is 0.10A and the adjustment accuracy is 0.01A.\\n\\n### 4.4.1.8 Power On State\\n\\nSet the operating status of the controller after power on. Default On.\\n\\n| Parameter | Meaning |\\n|---|---|\\n| On | After the device is powered on, the status of the switch key is running |\\n| Off | After the device is powered on, the status of the switch key is stopped |\\n| Keep | After the device is powered on, the status of the switch key remains the same as before the last shutdown |\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　- 25 -　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.08,\n        0.32,\n        0.91,\n        0.53\n      ],\n      \"alt\": \"Waveform Index Diagram showing current-time waveforms for r=100 and r=50\",\n      \"reason\": \"Waveform diagram with axes and curves is visual content best preserved as an image crop.\"\n    }\n  ],\n  \"notes\": \"\"\n}"
+          "content": "{\n  \"page_markdown\": \"### 4.4.1.6 波形指数\\n\\n本参数可以使控制器在最高效率-最大功率和最小噪音间平衡，以满足客户更高需求。\\n\\n波形指数范围50~100，默认100，调整精度1。\\n\\n注：\\n1. 波形指数取值为50时具有最高效率，弹簧受到的应力最小。\\n2. 取值为100时可以取得最大额定输出功率和最小噪音，但弹簧将会受到较大的应力。\\n\\n[[vcrop:35:0]]\\n\\n### 4.4.1.7 直流电流\\n\\n可以设定控制器的驱动输出在正弦电流的基础上叠加一个直流电流分量。\\n\\n直流电流范围0.0~2.00A，默认0.10A，调整精度0.01A。\\n\\n### 4.4.1.8 开机状态\\n\\n设定控制器上电后的运行状态。默认开。\\n\\n| 参数名 | 含义 |\\n|---|---|\\n| 开 | 设备上电后开关键的状态为运行 |\\n| 关 | 设备上电后开关键的状态为停止 |\\n| 保持 | 设备上电后开关键的状态保持为上次关机前的状态 |\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.08,\n        0.33,\n        0.90,\n        0.52\n      ],\n      \"alt\": \"波形指数示意图，左侧 r=100，右侧 r=50，纵轴为电流，横轴为时间。\",\n      \"reason\": \"该区域为波形指数对比示意图，包含坐标轴和曲线形状，使用截图可保留视觉含义。\"\n    }\n  ],\n  \"notes\": \"\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 4058,
-      "completion_tokens": 1002,
-      "total_tokens": 5060,
+      "prompt_tokens": 4252,
+      "completion_tokens": 958,
+      "total_tokens": 5210,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0
@@ -49,7 +49,7 @@
       "completion_tokens_details": {
         "accepted_prediction_tokens": 0,
         "audio_tokens": 0,
-        "reasoning_tokens": 512,
+        "reasoning_tokens": 497,
         "rejected_prediction_tokens": 0
       }
     }

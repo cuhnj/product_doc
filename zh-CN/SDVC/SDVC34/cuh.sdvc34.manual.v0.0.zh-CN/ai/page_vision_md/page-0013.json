@@ -4,33 +4,33 @@
   "lang": "zh-CN",
   "page_index": 13,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:42:45",
-  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=13。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufa",
-  "assistant_text": "{\"page_markdown\":\"Automatic Frequency Controller for Vibratory Feeder  \\nSDVC341-M\\n\\n---\\n\\n## 1.4 Remarks\\n\\nThe use manual is approximately 28000 words long and is expected to take you one hour to read through.\\n\\n◆ Please read this manual carefully before use to prevent damage to the controller due to improper operation.\\n\\n◆ Users can quickly locate the relevant functions and operation methods of the controller according to the manual directory.\\n\\n◆ The subheadings of chapters and the emphasized text in the text are the actual display parameter items of the controller, such as voltage.\\n\\n◆ Users can refer to \\\"Chapter Ⅴ Typical Applications\\\" to quickly get started with this controller.\\n\\n◆ Users can quickly search for function tag codes in the section \\\"7.4 Parameter List\\\".\\n\\n◆ Pressing ⊕ and ⊖ simultaneously indicates confirmation.\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　- 3 -　　　　　　　　　　　　　SDVC341SMSEN_4.01\",\"crop_suggestions\":[],\"notes\":\"\"}",
+  "created_at": "2026-05-20T14:07:01",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=13。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2",
+  "assistant_text": "{\"page_markdown\":\"自动调频振动送料控制器                                                            SDVC341-M\\n\\n---\\n\\n## 1.4 说明书导读\\n\\n◆ 本说明书约28000字，通读预计花费您一个小时。\\n\\n◆ 请于使用前详细阅读本说明书，防止因操作不当造成控制器损坏。\\n\\n◆ 使用者可以根据说明书目录快速定位控制器相关功能及其操作办法。\\n\\n◆ 章节小标题及文本内加重字体文字皆为控制器实际显示参数条目，如电压。\\n\\n◆ 使用者可以参考《第五章 典型应用》章节快速上手本控制器。\\n\\n◆ 使用者可以在《7.4 参数列表》章节内快速查询功能标签代码。\\n\\n◆ 同时按 ⊕ 和 ⊖，表示确认。\\n\\n---\\n\\n2026-02                                                            - 3 -                                                            SDVC341SMSCN_4.01\",\"crop_suggestions\":[],\"notes\":\"页面背景有浅色 CUH 水印，不影响正文识读。\"}",
   "vision_parse_ok": true,
-  "page_markdown": "Automatic Frequency Controller for Vibratory Feeder  \nSDVC341-M\n\n---\n\n## 1.4 Remarks\n\nThe use manual is approximately 28000 words long and is expected to take you one hour to read through.\n\n◆ Please read this manual carefully before use to prevent damage to the controller due to improper operation.\n\n◆ Users can quickly locate the relevant functions and operation methods of the controller according to the manual directory.\n\n◆ The subheadings of chapters and the emphasized text in the text are the actual display parameter items of the controller, such as voltage.\n\n◆ Users can refer to \"Chapter Ⅴ Typical Applications\" to quickly get started with this controller.\n\n◆ Users can quickly search for function tag codes in the section \"7.4 Parameter List\".\n\n◆ Pressing ⊕ and ⊖ simultaneously indicates confirmation.\n\n---\n\n2026-02　　　　　　　　　　　　　- 3 -　　　　　　　　　　　　　SDVC341SMSEN_4.01",
+  "page_markdown": "自动调频振动送料控制器                                                            SDVC341-M\n\n---\n\n## 1.4 说明书导读\n\n◆ 本说明书约28000字，通读预计花费您一个小时。\n\n◆ 请于使用前详细阅读本说明书，防止因操作不当造成控制器损坏。\n\n◆ 使用者可以根据说明书目录快速定位控制器相关功能及其操作办法。\n\n◆ 章节小标题及文本内加重字体文字皆为控制器实际显示参数条目，如电压。\n\n◆ 使用者可以参考《第五章 典型应用》章节快速上手本控制器。\n\n◆ 使用者可以在《7.4 参数列表》章节内快速查询功能标签代码。\n\n◆ 同时按 ⊕ 和 ⊖，表示确认。\n\n---\n\n2026-02                                                            - 3 -                                                            SDVC341SMSCN_4.01",
   "crop_suggestions": [],
-  "notes": "",
+  "notes": "页面背景有浅色 CUH 水印，不影响正文识读。",
   "raw": {
-    "id": "chatcmpl-Df0Omr8r1ri1Bol00kziSp1OvW7ic",
+    "id": "chatcmpl-DhUMntkgpnlWiI9Lwfvfds8vQYQVH",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665352,
+    "created": 1779257205,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\"page_markdown\":\"Automatic Frequency Controller for Vibratory Feeder  \\nSDVC341-M\\n\\n---\\n\\n## 1.4 Remarks\\n\\nThe use manual is approximately 28000 words long and is expected to take you one hour to read through.\\n\\n◆ Please read this manual carefully before use to prevent damage to the controller due to improper operation.\\n\\n◆ Users can quickly locate the relevant functions and operation methods of the controller according to the manual directory.\\n\\n◆ The subheadings of chapters and the emphasized text in the text are the actual display parameter items of the controller, such as voltage.\\n\\n◆ Users can refer to \\\"Chapter Ⅴ Typical Applications\\\" to quickly get started with this controller.\\n\\n◆ Users can quickly search for function tag codes in the section \\\"7.4 Parameter List\\\".\\n\\n◆ Pressing ⊕ and ⊖ simultaneously indicates confirmation.\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　- 3 -　　　　　　　　　　　　　SDVC341SMSEN_4.01\",\"crop_suggestions\":[],\"notes\":\"\"}"
+          "content": "{\"page_markdown\":\"自动调频振动送料控制器                                                            SDVC341-M\\n\\n---\\n\\n## 1.4 说明书导读\\n\\n◆ 本说明书约28000字，通读预计花费您一个小时。\\n\\n◆ 请于使用前详细阅读本说明书，防止因操作不当造成控制器损坏。\\n\\n◆ 使用者可以根据说明书目录快速定位控制器相关功能及其操作办法。\\n\\n◆ 章节小标题及文本内加重字体文字皆为控制器实际显示参数条目，如电压。\\n\\n◆ 使用者可以参考《第五章 典型应用》章节快速上手本控制器。\\n\\n◆ 使用者可以在《7.4 参数列表》章节内快速查询功能标签代码。\\n\\n◆ 同时按 ⊕ 和 ⊖，表示确认。\\n\\n---\\n\\n2026-02                                                            - 3 -                                                            SDVC341SMSCN_4.01\",\"crop_suggestions\":[],\"notes\":\"页面背景有浅色 CUH 水印，不影响正文识读。\"}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 3916,
-      "completion_tokens": 633,
-      "total_tokens": 4549,
+      "prompt_tokens": 4121,
+      "completion_tokens": 760,
+      "total_tokens": 4881,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0
@@ -38,7 +38,7 @@
       "completion_tokens_details": {
         "accepted_prediction_tokens": 0,
         "audio_tokens": 0,
-        "reasoning_tokens": 395,
+        "reasoning_tokens": 512,
         "rejected_prediction_tokens": 0
       }
     }

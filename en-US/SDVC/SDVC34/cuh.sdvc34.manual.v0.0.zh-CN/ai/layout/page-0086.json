@@ -1,0 +1,143 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 86,
+  "model": "gpt-5.5",
+  "created_at": "2026-05-13T17:41:13",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=86。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.07, 0.052, 0.935, 0.076],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.151, 0.58, 0.178],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.205, 0.184, 0.787, 0.369],\n      \"confidence\": 0.96,\n      \"caption\": \"Remote Speed Control Port A\",\n      \"image_alt\": \"远程速度控制端口 A 的输入电路示意图，右侧标注 A3 +5V、A2 Input、A1 RGND，图中含 5V Output、10uF、10KΩ、100KΩ、249Ω 等元件标注。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.205, 0.389, 0.787, 0.563],\n      \"confidence\": 0.96,\n      \"caption\": \"Switch Sensor Port C\",\n      \"image_alt\": \"开关传感器端口 C 的输入电路示意图，右侧标注 C3 24V Output、C2 Input、C1 GND，图中有 24V、2.4KΩ、Overcurrent Protection Circuit、Auto sensor type recognition 等标注。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.205, 0.581, 0.787, 0.750],\n      \"confidence\": 0.96,\n      \"caption\": \"Switch Sensor Port E\",\n      \"image_alt\": \"开关传感器端口 E 的输入电路示意图，右侧标注 E3 24V Output、E2 Input、E1 GND，图中有 24V、2.4KΩ、Overcurrent Protection Circuit、Auto sensor type recognition 等标注。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.205, 0.772, 0.787, 0.930],\n      \"confidence\": 0.96,\n      \"caption\": \"Control Output Port D\",\n      \"image_alt\": \"控制输出端口 D 的输出电路示意图，右侧标注 D2 24V Output、D1 Output、D3 GND，图中含 24V、28V、Overcurrent Protection Circuit 等标注。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.953, 0.935, 0.978],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页为带文本层的技术说明书页面，不像纯扫描件；页面以输入/输出电路图为主，包含页眉、章节标题、四个端口电路示意图及页脚。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.07,
+          0.052,
+          0.935,
+          0.076
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.151,
+          0.58,
+          0.178
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.205,
+          0.184,
+          0.787,
+          0.369
+        ],
+        "confidence": 0.96,
+        "caption": "Remote Speed Control Port A",
+        "image_alt": "远程速度控制端口 A 的输入电路示意图，右侧标注 A3 +5V、A2 Input、A1 RGND，图中含 5V Output、10uF、10KΩ、100KΩ、249Ω 等元件标注。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.205,
+          0.389,
+          0.787,
+          0.563
+        ],
+        "confidence": 0.96,
+        "caption": "Switch Sensor Port C",
+        "image_alt": "开关传感器端口 C 的输入电路示意图，右侧标注 C3 24V Output、C2 Input、C1 GND，图中有 24V、2.4KΩ、Overcurrent Protection Circuit、Auto sensor type recognition 等标注。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.205,
+          0.581,
+          0.787,
+          0.75
+        ],
+        "confidence": 0.96,
+        "caption": "Switch Sensor Port E",
+        "image_alt": "开关传感器端口 E 的输入电路示意图，右侧标注 E3 24V Output、E2 Input、E1 GND，图中有 24V、2.4KΩ、Overcurrent Protection Circuit、Auto sensor type recognition 等标注。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.205,
+          0.772,
+          0.787,
+          0.93
+        ],
+        "confidence": 0.96,
+        "caption": "Control Output Port D",
+        "image_alt": "控制输出端口 D 的输出电路示意图，右侧标注 D2 24V Output、D1 Output、D3 GND，图中含 24V、28V、Overcurrent Protection Circuit 等标注。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.953,
+          0.935,
+          0.978
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "notes": "本页为带文本层的技术说明书页面，不像纯扫描件；页面以输入/输出电路图为主，包含页眉、章节标题、四个端口电路示意图及页脚。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-Df0NDKymxlb4KYmBqjOiGAGayxQs6",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1778665255,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.07, 0.052, 0.935, 0.076],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.151, 0.58, 0.178],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.205, 0.184, 0.787, 0.369],\n      \"confidence\": 0.96,\n      \"caption\": \"Remote Speed Control Port A\",\n      \"image_alt\": \"远程速度控制端口 A 的输入电路示意图，右侧标注 A3 +5V、A2 Input、A1 RGND，图中含 5V Output、10uF、10KΩ、100KΩ、249Ω 等元件标注。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.205, 0.389, 0.787, 0.563],\n      \"confidence\": 0.96,\n      \"caption\": \"Switch Sensor Port C\",\n      \"image_alt\": \"开关传感器端口 C 的输入电路示意图，右侧标注 C3 24V Output、C2 Input、C1 GND，图中有 24V、2.4KΩ、Overcurrent Protection Circuit、Auto sensor type recognition 等标注。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.205, 0.581, 0.787, 0.750],\n      \"confidence\": 0.96,\n      \"caption\": \"Switch Sensor Port E\",\n      \"image_alt\": \"开关传感器端口 E 的输入电路示意图，右侧标注 E3 24V Output、E2 Input、E1 GND，图中有 24V、2.4KΩ、Overcurrent Protection Circuit、Auto sensor type recognition 等标注。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.205, 0.772, 0.787, 0.930],\n      \"confidence\": 0.96,\n      \"caption\": \"Control Output Port D\",\n      \"image_alt\": \"控制输出端口 D 的输出电路示意图，右侧标注 D2 24V Output、D1 Output、D3 GND，图中含 24V、28V、Overcurrent Protection Circuit 等标注。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.953, 0.935, 0.978],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页为带文本层的技术说明书页面，不像纯扫描件；页面以输入/输出电路图为主，包含页眉、章节标题、四个端口电路示意图及页脚。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3652,
+      "completion_tokens": 1164,
+      "total_tokens": 4816,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 423,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

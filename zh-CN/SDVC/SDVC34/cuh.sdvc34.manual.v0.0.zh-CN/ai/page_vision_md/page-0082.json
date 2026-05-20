@@ -4,33 +4,33 @@
   "lang": "zh-CN",
   "page_index": 82,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:45:28",
-  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=82。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufa",
-  "assistant_text": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n## 7.4.9 Save Parameter Group\\n\\n| Function | Parameter | Display | Value Range/Enumeration Item | Default value |\\n|---|---|---|---|---|\\n| P9.01 | Read All Parameters From<br>the User Group | 01.ReadALLF | None, UsrD1, UsrD2, UsrD3 | None |\\n| P9.02 | Save All Parameters To<br>the User Group | 02.SaveALLT | None, Work, UsrD1, UsrD2, UsrD3 | None |\\n| P9.03 | Slave Identification Number | 03.RestorAL | None, RWork (default workgroup) | None |\\n| P9.04 | Use The Backup of The<br>Local Data On Bus to<br>Restore The Local Data | 04.RDatFrBs | 1~8 |  |\\n| P9.05 | User Password | 05.PassWord | 0~9999 | 0 |\\n| P9.06 | Set Password | 06.SetWord | 0~9999 | 0 |\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　-72-　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "created_at": "2026-05-20T14:10:14",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=82。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2",
+  "assistant_text": "{\n  \"page_markdown\": \"自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n## 7.4.9 保存参数组\\n\\n| 功能标签 | 参数名 | 显示参数 | 取值范围/枚举项 | 默认值 |\\n|---|---|---|---|---|\\n| P9.01 | 从用户参数组读出所有参数 | 01.读出参数 | 无效，用户1，用户2，用户3 | 无效 |\\n| P9.02 | 将当前所有参数保存到用户参数组 | 02.保存参数 | 无效，工作组，用户1，用户2，用户3 | 无效 |\\n| P9.03 | 复位工作组参数 | 03.复位参数 | 无效，工作组（默认工作组） | 无效 |\\n| P9.04 | 本机备份的网络设备数据，恢复本机数据 | 04.拷贝参数 | 1~8 |  |\\n| P9.05 | 用户密码 | 05.用户密码 | 0~9999 | 0 |\\n| P9.06 | 输入密码 | 06.输入密码 | 0~9999 | 0 |\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　-72-　　　　　　　　　　　　　　　SDVC341SMSCN_4.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
   "vision_parse_ok": true,
-  "page_markdown": "Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　SDVC341-M\n\n---\n\n## 7.4.9 Save Parameter Group\n\n| Function | Parameter | Display | Value Range/Enumeration Item | Default value |\n|---|---|---|---|---|\n| P9.01 | Read All Parameters From<br>the User Group | 01.ReadALLF | None, UsrD1, UsrD2, UsrD3 | None |\n| P9.02 | Save All Parameters To<br>the User Group | 02.SaveALLT | None, Work, UsrD1, UsrD2, UsrD3 | None |\n| P9.03 | Slave Identification Number | 03.RestorAL | None, RWork (default workgroup) | None |\n| P9.04 | Use The Backup of The<br>Local Data On Bus to<br>Restore The Local Data | 04.RDatFrBs | 1~8 |  |\n| P9.05 | User Password | 05.PassWord | 0~9999 | 0 |\n| P9.06 | Set Password | 06.SetWord | 0~9999 | 0 |\n\n---\n\n2026-02　　　　　　　　　　　　　　　　　-72-　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01",
+  "page_markdown": "自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M\n\n---\n\n## 7.4.9 保存参数组\n\n| 功能标签 | 参数名 | 显示参数 | 取值范围/枚举项 | 默认值 |\n|---|---|---|---|---|\n| P9.01 | 从用户参数组读出所有参数 | 01.读出参数 | 无效，用户1，用户2，用户3 | 无效 |\n| P9.02 | 将当前所有参数保存到用户参数组 | 02.保存参数 | 无效，工作组，用户1，用户2，用户3 | 无效 |\n| P9.03 | 复位工作组参数 | 03.复位参数 | 无效，工作组（默认工作组） | 无效 |\n| P9.04 | 本机备份的网络设备数据，恢复本机数据 | 04.拷贝参数 | 1~8 |  |\n| P9.05 | 用户密码 | 05.用户密码 | 0~9999 | 0 |\n| P9.06 | 输入密码 | 06.输入密码 | 0~9999 | 0 |\n\n---\n\n2026-02　　　　　　　　　　　　　　　-72-　　　　　　　　　　　　　　　SDVC341SMSCN_4.01",
   "crop_suggestions": [],
   "notes": "",
   "raw": {
-    "id": "chatcmpl-Df0R3glWWkS5ylWwA4Nd4h8CgmHKt",
+    "id": "chatcmpl-DhUPuqQKoVDg4W6BmZNcHSwD1y6pP",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665493,
+    "created": 1779257398,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n## 7.4.9 Save Parameter Group\\n\\n| Function | Parameter | Display | Value Range/Enumeration Item | Default value |\\n|---|---|---|---|---|\\n| P9.01 | Read All Parameters From<br>the User Group | 01.ReadALLF | None, UsrD1, UsrD2, UsrD3 | None |\\n| P9.02 | Save All Parameters To<br>the User Group | 02.SaveALLT | None, Work, UsrD1, UsrD2, UsrD3 | None |\\n| P9.03 | Slave Identification Number | 03.RestorAL | None, RWork (default workgroup) | None |\\n| P9.04 | Use The Backup of The<br>Local Data On Bus to<br>Restore The Local Data | 04.RDatFrBs | 1~8 |  |\\n| P9.05 | User Password | 05.PassWord | 0~9999 | 0 |\\n| P9.06 | Set Password | 06.SetWord | 0~9999 | 0 |\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　-72-　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}"
+          "content": "{\n  \"page_markdown\": \"自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n## 7.4.9 保存参数组\\n\\n| 功能标签 | 参数名 | 显示参数 | 取值范围/枚举项 | 默认值 |\\n|---|---|---|---|---|\\n| P9.01 | 从用户参数组读出所有参数 | 01.读出参数 | 无效，用户1，用户2，用户3 | 无效 |\\n| P9.02 | 将当前所有参数保存到用户参数组 | 02.保存参数 | 无效，工作组，用户1，用户2，用户3 | 无效 |\\n| P9.03 | 复位工作组参数 | 03.复位参数 | 无效，工作组（默认工作组） | 无效 |\\n| P9.04 | 本机备份的网络设备数据，恢复本机数据 | 04.拷贝参数 | 1~8 |  |\\n| P9.05 | 用户密码 | 05.用户密码 | 0~9999 | 0 |\\n| P9.06 | 输入密码 | 06.输入密码 | 0~9999 | 0 |\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　-72-　　　　　　　　　　　　　　　SDVC341SMSCN_4.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 3952,
-      "completion_tokens": 2389,
-      "total_tokens": 6341,
+      "prompt_tokens": 4164,
+      "completion_tokens": 842,
+      "total_tokens": 5006,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0
@@ -38,7 +38,7 @@
       "completion_tokens_details": {
         "accepted_prediction_tokens": 0,
         "audio_tokens": 0,
-        "reasoning_tokens": 2048,
+        "reasoning_tokens": 512,
         "rejected_prediction_tokens": 0
       }
     }

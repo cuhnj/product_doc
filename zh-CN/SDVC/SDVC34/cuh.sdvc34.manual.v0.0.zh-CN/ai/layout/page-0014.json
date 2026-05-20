@@ -4,19 +4,41 @@
   "lang": "zh-CN",
   "page_index": 14,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:38:41",
-  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=14。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第",
-  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"header\",\n      \"bbox_0_1\": [0.072, 0.052, 0.932, 0.073],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.181, 0.101, 0.819, 0.131],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.149, 0.855, 0.184],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.202, 0.487, 0.228],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.236, 0.889, 0.269],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.283, 0.891, 0.318],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.333, 0.923, 0.877],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.954, 0.932, 0.976],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.0, 0.0, 1.0, 1.0],\n      \"confidence\": 0.55\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面以文字为主，无主要插图或表格；背景存在浅色 CUH 水印，已作为非正文背景元素标注为 unknown，未纳入阅读顺序。\"\n}",
+  "created_at": "2026-05-20T14:01:21",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=14。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2.2 控制器外观说明（第 15 页）\n  - 2.3 振动",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.934, 0.074],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.323, 0.106, 0.677, 0.140],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.159, 0.881, 0.177],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.194, 0.299, 0.216],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.229, 0.930, 0.816],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.954, 0.934, 0.974],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为第二章“产品介绍”的起始页，主要由标题、章节说明、产品简介段落和项目符号列表组成；未见表格或正式插图。页面有可识别文本层，整体不像纯扫描件。背景存在浅色CUH水印，不属于主要阅读内容。\"\n}",
   "layout_parse_ok": true,
   "layout_json": {
     "regions": [
       {
-        "type": "header",
+        "type": "footer",
         "bbox_0_1": [
           0.072,
           0.052,
-          0.932,
-          0.073
+          0.934,
+          0.074
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.323,
+          0.106,
+          0.677,
+          0.14
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.119,
+          0.159,
+          0.881,
+          0.177
         ],
         "confidence": 0.95,
         "bbox_parse_ok": true
@@ -24,10 +46,10 @@
       {
         "type": "heading",
         "bbox_0_1": [
-          0.181,
-          0.101,
-          0.819,
-          0.131
+          0.072,
+          0.194,
+          0.299,
+          0.216
         ],
         "confidence": 0.98,
         "bbox_parse_ok": true
@@ -35,56 +57,12 @@
       {
         "type": "paragraph",
         "bbox_0_1": [
-          0.072,
-          0.149,
-          0.855,
-          0.184
+          0.073,
+          0.229,
+          0.93,
+          0.816
         ],
         "confidence": 0.96,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "heading",
-        "bbox_0_1": [
-          0.072,
-          0.202,
-          0.487,
-          0.228
-        ],
-        "confidence": 0.98,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.072,
-          0.236,
-          0.889,
-          0.269
-        ],
-        "confidence": 0.96,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.072,
-          0.283,
-          0.891,
-          0.318
-        ],
-        "confidence": 0.96,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.072,
-          0.333,
-          0.923,
-          0.877
-        ],
-        "confidence": 0.97,
         "bbox_parse_ok": true
       },
       {
@@ -92,21 +70,10 @@
         "bbox_0_1": [
           0.072,
           0.954,
-          0.932,
-          0.976
+          0.934,
+          0.974
         ],
-        "confidence": 0.95,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "unknown",
-        "bbox_0_1": [
-          0.0,
-          0.0,
-          1.0,
-          1.0
-        ],
-        "confidence": 0.55,
+        "confidence": 0.94,
         "bbox_parse_ok": true
       }
     ],
@@ -116,33 +83,31 @@
       2,
       3,
       4,
-      5,
-      6,
-      7
+      5
     ],
-    "notes": "本页为带文本层的说明书页面，不是纯扫描件。页面以文字为主，无主要插图或表格；背景存在浅色 CUH 水印，已作为非正文背景元素标注为 unknown，未纳入阅读顺序。",
+    "notes": "本页为第二章“产品介绍”的起始页，主要由标题、章节说明、产品简介段落和项目符号列表组成；未见表格或正式插图。页面有可识别文本层，整体不像纯扫描件。背景存在浅色CUH水印，不属于主要阅读内容。",
     "bbox_schema": "xyxy_0_1"
   },
   "raw": {
-    "id": "chatcmpl-Df0Klk8X0nry9SBmtVqGs4xosnjXz",
+    "id": "chatcmpl-DhUHCpPBTiyN1NarAiWgNuvxcQ7xu",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665103,
+    "created": 1779256858,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"header\",\n      \"bbox_0_1\": [0.072, 0.052, 0.932, 0.073],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.181, 0.101, 0.819, 0.131],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.149, 0.855, 0.184],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.202, 0.487, 0.228],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.236, 0.889, 0.269],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.283, 0.891, 0.318],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.333, 0.923, 0.877],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.954, 0.932, 0.976],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.0, 0.0, 1.0, 1.0],\n      \"confidence\": 0.55\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面以文字为主，无主要插图或表格；背景存在浅色 CUH 水印，已作为非正文背景元素标注为 unknown，未纳入阅读顺序。\"\n}"
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.934, 0.074],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.323, 0.106, 0.677, 0.140],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.159, 0.881, 0.177],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.194, 0.299, 0.216],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.229, 0.930, 0.816],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.954, 0.934, 0.974],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为第二章“产品介绍”的起始页，主要由标题、章节说明、产品简介段落和项目符号列表组成；未见表格或正式插图。页面有可识别文本层，整体不像纯扫描件。背景存在浅色CUH水印，不属于主要阅读内容。\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 3884,
-      "completion_tokens": 1054,
-      "total_tokens": 4938,
+      "prompt_tokens": 4103,
+      "completion_tokens": 916,
+      "total_tokens": 5019,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0

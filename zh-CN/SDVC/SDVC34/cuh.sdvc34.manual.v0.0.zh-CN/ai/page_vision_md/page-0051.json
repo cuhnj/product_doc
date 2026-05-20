@@ -4,44 +4,44 @@
   "lang": "zh-CN",
   "page_index": 51,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:44:11",
-  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=51。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufa",
-  "assistant_text": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder                                     SDVC341-M\\n\\n---\\n\\n## 4.9.1 Device Networking\\n\\nThis chapter mainly introduces the quick networking between multiple controllers, how to add a new controller to the established network and how to delete the controller in the network.\\n\\n### 4.9.1.1 Device Networking\\n\\nA single controller is a network by itself. When the controllers CUHBus-DS® signal lines are correctly connected and simple operations are performed, multiple devices can form a new digital synchronous communication network.\\n\\n[[vcrop:51:0]]\\n\\n---\\n\\n2026-02                                     -41-                                     SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.37,\n        0.33,\n        0.63,\n        0.88\n      ],\n      \"alt\": \"CUHBus-DS device networking wiring diagram showing controllers Address 1 to Address 4 with T1 and T3 terminals interconnected.\",\n      \"reason\": \"Network wiring diagram with multiple devices and connection lines; preserving as bitmap avoids loss of visual wiring details.\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "created_at": "2026-05-20T14:09:03",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=51。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2",
+  "assistant_text": "{\n  \"page_markdown\": \"自动调频振动送料控制器                                                                 SDVC341-M\\n\\n---\\n\\n### 4.9.1 设备组网\\n\\n本章节主要介绍多台控制器间快速组网，新控制器如何加入已组网络中以及如何删除网络内的控制器。\\n\\n#### 4.9.1.1 设备组网\\n\\n单台控制器自己为一个网络，当控制器间 CUHBus-DS® 信号线正确连接并进行简单操作后便可实现多台设备组成一个新的数字同步通信网络。\\n\\n[[vcrop:51:0]]\\n\\n---\\n\\n2026-02　　　　　　　　　　　　-41-　　　　　　　　　　　　SDVC341SMSCN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.36,\n        0.32,\n        0.64,\n        0.89\n      ],\n      \"alt\": \"四台控制器通过 CUHBus-DS 信号线组网的连接示意图，设备标注为地址1、地址2、地址3、地址4，端子标注 T1、T3。\",\n      \"reason\": \"该区域为多设备组网接线示意图，包含细线连接关系和端子标注，宜保留为位图。\"\n    }\n  ],\n  \"notes\": \"页面背景有淡色 CUH 水印，不影响正文阅读。\"\n}",
   "vision_parse_ok": true,
-  "page_markdown": "Automatic Frequency Controller for Vibratory Feeder                                     SDVC341-M\n\n---\n\n## 4.9.1 Device Networking\n\nThis chapter mainly introduces the quick networking between multiple controllers, how to add a new controller to the established network and how to delete the controller in the network.\n\n### 4.9.1.1 Device Networking\n\nA single controller is a network by itself. When the controllers CUHBus-DS® signal lines are correctly connected and simple operations are performed, multiple devices can form a new digital synchronous communication network.\n\n[[vcrop:51:0]]\n\n---\n\n2026-02                                     -41-                                     SDVC341SMSEN_4.01",
+  "page_markdown": "自动调频振动送料控制器                                                                 SDVC341-M\n\n---\n\n### 4.9.1 设备组网\n\n本章节主要介绍多台控制器间快速组网，新控制器如何加入已组网络中以及如何删除网络内的控制器。\n\n#### 4.9.1.1 设备组网\n\n单台控制器自己为一个网络，当控制器间 CUHBus-DS® 信号线正确连接并进行简单操作后便可实现多台设备组成一个新的数字同步通信网络。\n\n[[vcrop:51:0]]\n\n---\n\n2026-02　　　　　　　　　　　　-41-　　　　　　　　　　　　SDVC341SMSCN_4.01",
   "crop_suggestions": [
     {
       "bbox_0_1": [
-        0.37,
-        0.33,
-        0.63,
-        0.88
+        0.36,
+        0.32,
+        0.64,
+        0.89
       ],
-      "alt": "CUHBus-DS device networking wiring diagram showing controllers Address 1 to Address 4 with T1 and T3 terminals interconnected.",
-      "reason": "Network wiring diagram with multiple devices and connection lines; preserving as bitmap avoids loss of visual wiring details."
+      "alt": "四台控制器通过 CUHBus-DS 信号线组网的连接示意图，设备标注为地址1、地址2、地址3、地址4，端子标注 T1、T3。",
+      "reason": "该区域为多设备组网接线示意图，包含细线连接关系和端子标注，宜保留为位图。"
     }
   ],
-  "notes": "",
+  "notes": "页面背景有淡色 CUH 水印，不影响正文阅读。",
   "raw": {
-    "id": "chatcmpl-Df0Q8qdOPAMceX4f9gzDbSw4FYwcU",
+    "id": "chatcmpl-DhUOemfoGY43FimkRzAYUWJ2XPNEp",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665436,
+    "created": 1779257320,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder                                     SDVC341-M\\n\\n---\\n\\n## 4.9.1 Device Networking\\n\\nThis chapter mainly introduces the quick networking between multiple controllers, how to add a new controller to the established network and how to delete the controller in the network.\\n\\n### 4.9.1.1 Device Networking\\n\\nA single controller is a network by itself. When the controllers CUHBus-DS® signal lines are correctly connected and simple operations are performed, multiple devices can form a new digital synchronous communication network.\\n\\n[[vcrop:51:0]]\\n\\n---\\n\\n2026-02                                     -41-                                     SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.37,\n        0.33,\n        0.63,\n        0.88\n      ],\n      \"alt\": \"CUHBus-DS device networking wiring diagram showing controllers Address 1 to Address 4 with T1 and T3 terminals interconnected.\",\n      \"reason\": \"Network wiring diagram with multiple devices and connection lines; preserving as bitmap avoids loss of visual wiring details.\"\n    }\n  ],\n  \"notes\": \"\"\n}"
+          "content": "{\n  \"page_markdown\": \"自动调频振动送料控制器                                                                 SDVC341-M\\n\\n---\\n\\n### 4.9.1 设备组网\\n\\n本章节主要介绍多台控制器间快速组网，新控制器如何加入已组网络中以及如何删除网络内的控制器。\\n\\n#### 4.9.1.1 设备组网\\n\\n单台控制器自己为一个网络，当控制器间 CUHBus-DS® 信号线正确连接并进行简单操作后便可实现多台设备组成一个新的数字同步通信网络。\\n\\n[[vcrop:51:0]]\\n\\n---\\n\\n2026-02　　　　　　　　　　　　-41-　　　　　　　　　　　　SDVC341SMSCN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.36,\n        0.32,\n        0.64,\n        0.89\n      ],\n      \"alt\": \"四台控制器通过 CUHBus-DS 信号线组网的连接示意图，设备标注为地址1、地址2、地址3、地址4，端子标注 T1、T3。\",\n      \"reason\": \"该区域为多设备组网接线示意图，包含细线连接关系和端子标注，宜保留为位图。\"\n    }\n  ],\n  \"notes\": \"页面背景有淡色 CUH 水印，不影响正文阅读。\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 3937,
-      "completion_tokens": 808,
-      "total_tokens": 4745,
+      "prompt_tokens": 4143,
+      "completion_tokens": 847,
+      "total_tokens": 4990,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0
@@ -49,7 +49,7 @@
       "completion_tokens_details": {
         "accepted_prediction_tokens": 0,
         "audio_tokens": 0,
-        "reasoning_tokens": 512,
+        "reasoning_tokens": 510,
         "rejected_prediction_tokens": 0
       }
     }

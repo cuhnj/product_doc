@@ -4,19 +4,19 @@
   "lang": "zh-CN",
   "page_index": 21,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:39:04",
-  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=21。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第",
-  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.052, 0.935, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.127, 0.37, 0.15],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.098, 0.195, 0.24, 0.214],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.101, 0.232, 0.43, 0.287],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.566, 0.182, 0.866, 0.384],\n      \"confidence\": 0.97,\n      \"image_alt\": \"控制器主界面示意图，显示 RUN 状态、端口字母行、UserSped 数值 200、EffectCu 0.00 A，以及底部 Home。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.098, 0.439, 0.24, 0.459],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.101, 0.469, 0.51, 0.75],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.566, 0.501, 0.866, 0.703],\n      \"confidence\": 0.97,\n      \"image_alt\": \"控制器参数设置界面示意图，显示 RUN 状态和 2Common 参数组；列表包含 UserSped、UsrVoltg、UsrFrqnc、SoftStar、SoftStop 等项目，其中 UsrVoltg 的 150 V 数值被高亮。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.1, 0.773, 0.91, 0.916],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.954, 0.935, 0.977],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n  \"notes\": \"本页不是纯扫描件，具有可识别文本层，页面上有浅色 CUH 水印。内容以操作说明文字和两张控制器界面示意图为主，无表格。\"\n}",
+  "created_at": "2026-05-20T14:01:31",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=21。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2.2 控制器外观说明（第 15 页）\n  - 2.3 振动",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.052, 0.93, 0.073],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.135, 0.22, 0.160],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.190, 0.40, 0.270],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.565, 0.190, 0.865, 0.392],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器主界面示意图，显示运行状态、送料速度、电流、主页及加减符号等界面元素。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.445, 0.49, 0.795],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.565, 0.510, 0.865, 0.710],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器参数设置界面示意图，显示“2常用”参数组，包括送料速度、电压、频率、缓启时间、缓关时间等项目。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.820, 0.91, 0.925],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.954, 0.93, 0.975],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为数字排版页面，带有可识别文本层和浅色水印，不像纯扫描件。页面属于第三章3.2“运行”，以步骤说明文字配合控制器界面示意图为主。\"\n}",
   "layout_parse_ok": true,
   "layout_json": {
     "regions": [
       {
-        "type": "unknown",
+        "type": "footer",
         "bbox_0_1": [
-          0.072,
+          0.07,
           0.052,
-          0.935,
-          0.075
+          0.93,
+          0.073
         ],
         "confidence": 0.92,
         "bbox_parse_ok": true
@@ -24,102 +24,80 @@
       {
         "type": "heading",
         "bbox_0_1": [
-          0.073,
-          0.127,
-          0.37,
-          0.15
+          0.07,
+          0.135,
+          0.22,
+          0.16
         ],
         "confidence": 0.98,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "heading",
-        "bbox_0_1": [
-          0.098,
-          0.195,
-          0.24,
-          0.214
-        ],
-        "confidence": 0.97,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.101,
-          0.232,
-          0.43,
-          0.287
-        ],
-        "confidence": 0.96,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "figure",
-        "bbox_0_1": [
-          0.566,
-          0.182,
-          0.866,
-          0.384
-        ],
-        "confidence": 0.97,
-        "image_alt": "控制器主界面示意图，显示 RUN 状态、端口字母行、UserSped 数值 200、EffectCu 0.00 A，以及底部 Home。",
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "heading",
-        "bbox_0_1": [
-          0.098,
-          0.439,
-          0.24,
-          0.459
-        ],
-        "confidence": 0.97,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.101,
-          0.469,
-          0.51,
-          0.75
-        ],
-        "confidence": 0.95,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "figure",
-        "bbox_0_1": [
-          0.566,
-          0.501,
-          0.866,
-          0.703
-        ],
-        "confidence": 0.97,
-        "image_alt": "控制器参数设置界面示意图，显示 RUN 状态和 2Common 参数组；列表包含 UserSped、UsrVoltg、UsrFrqnc、SoftStar、SoftStop 等项目，其中 UsrVoltg 的 150 V 数值被高亮。",
         "bbox_parse_ok": true
       },
       {
         "type": "paragraph",
         "bbox_0_1": [
           0.1,
-          0.773,
-          0.91,
-          0.916
+          0.19,
+          0.4,
+          0.27
         ],
-        "confidence": 0.94,
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.565,
+          0.19,
+          0.865,
+          0.392
+        ],
+        "confidence": 0.96,
+        "image_alt": "控制器主界面示意图，显示运行状态、送料速度、电流、主页及加减符号等界面元素。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.445,
+          0.49,
+          0.795
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.565,
+          0.51,
+          0.865,
+          0.71
+        ],
+        "confidence": 0.96,
+        "image_alt": "控制器参数设置界面示意图，显示“2常用”参数组，包括送料速度、电压、频率、缓启时间、缓关时间等项目。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.82,
+          0.91,
+          0.925
+        ],
+        "confidence": 0.95,
         "bbox_parse_ok": true
       },
       {
         "type": "footer",
         "bbox_0_1": [
-          0.073,
+          0.07,
           0.954,
-          0.935,
-          0.977
+          0.93,
+          0.975
         ],
-        "confidence": 0.96,
+        "confidence": 0.92,
         "bbox_parse_ok": true
       }
     ],
@@ -131,33 +109,31 @@
       4,
       5,
       6,
-      7,
-      8,
-      9
+      7
     ],
-    "notes": "本页不是纯扫描件，具有可识别文本层，页面上有浅色 CUH 水印。内容以操作说明文字和两张控制器界面示意图为主，无表格。",
+    "notes": "本页为数字排版页面，带有可识别文本层和浅色水印，不像纯扫描件。页面属于第三章3.2“运行”，以步骤说明文字配合控制器界面示意图为主。",
     "bbox_schema": "xyxy_0_1"
   },
   "raw": {
-    "id": "chatcmpl-Df0KyxyKRbAMWUI3bmMGCLg5MyyAR",
+    "id": "chatcmpl-DhUHW8YmBrtKIsrykw2Mad9gxsWrF",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665116,
+    "created": 1779256878,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.052, 0.935, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.127, 0.37, 0.15],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.098, 0.195, 0.24, 0.214],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.101, 0.232, 0.43, 0.287],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.566, 0.182, 0.866, 0.384],\n      \"confidence\": 0.97,\n      \"image_alt\": \"控制器主界面示意图，显示 RUN 状态、端口字母行、UserSped 数值 200、EffectCu 0.00 A，以及底部 Home。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.098, 0.439, 0.24, 0.459],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.101, 0.469, 0.51, 0.75],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.566, 0.501, 0.866, 0.703],\n      \"confidence\": 0.97,\n      \"image_alt\": \"控制器参数设置界面示意图，显示 RUN 状态和 2Common 参数组；列表包含 UserSped、UsrVoltg、UsrFrqnc、SoftStar、SoftStop 等项目，其中 UsrVoltg 的 150 V 数值被高亮。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.1, 0.773, 0.91, 0.916],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.954, 0.935, 0.977],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n  \"notes\": \"本页不是纯扫描件，具有可识别文本层，页面上有浅色 CUH 水印。内容以操作说明文字和两张控制器界面示意图为主，无表格。\"\n}"
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.052, 0.93, 0.073],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.135, 0.22, 0.160],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.190, 0.40, 0.270],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.565, 0.190, 0.865, 0.392],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器主界面示意图，显示运行状态、送料速度、电流、主页及加减符号等界面元素。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.445, 0.49, 0.795],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.565, 0.510, 0.865, 0.710],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器参数设置界面示意图，显示“2常用”参数组，包括送料速度、电压、频率、缓启时间、缓关时间等项目。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.820, 0.91, 0.925],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.954, 0.93, 0.975],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为数字排版页面，带有可识别文本层和浅色水印，不像纯扫描件。页面属于第三章3.2“运行”，以步骤说明文字配合控制器界面示意图为主。\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 3832,
-      "completion_tokens": 1636,
-      "total_tokens": 5468,
+      "prompt_tokens": 4049,
+      "completion_tokens": 820,
+      "total_tokens": 4869,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0
@@ -165,7 +141,7 @@
       "completion_tokens_details": {
         "accepted_prediction_tokens": 0,
         "audio_tokens": 0,
-        "reasoning_tokens": 933,
+        "reasoning_tokens": 250,
         "rejected_prediction_tokens": 0
       }
     }

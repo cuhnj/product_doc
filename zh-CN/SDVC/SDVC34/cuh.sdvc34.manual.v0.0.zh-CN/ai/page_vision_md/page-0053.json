@@ -4,44 +4,44 @@
   "lang": "zh-CN",
   "page_index": 53,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:44:20",
-  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=53。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufa",
-  "assistant_text": "{\"page_markdown\":\"Automatic Frequency Controller for Vibratory Feeder  \\nSDVC341-M\\n\\n## 4.9.1.2 Device Joins\\n\\nUsers can follow the following expansion and addition steps to add a new controller to the existing network.\\n\\nThe new controller after joining can call the signal of any controller in the network and act controller signal source as any other controller in the network. Enrich system signal sources.\\n\\n**Steps:**\\n\\n1. Connect the CUHBus-DS® T1 and T3 interfaces of the new device to the original complete network, and the ports support hot swapping.\\n\\n2. When the new device is powered on, the new controller will automatically enter the \\\"communication parameter group\\\".\\n\\n3. In the communication parameter group, set the local digital synchronization communication device number, and \\\"DigSynAd\\\" is [1~8] any value. You don't need to set it, the program will automatically generate a number.\\n\\n4. In the communication parameter group, set the parameter value of \\\"EnNetwok \\\" to \\\"Expand\\\", and then press ⊕ and ⊖ hold at the same time, confirm.\\n\\n5. After the addition is successful, the parameter value of the new device \\\"EnNetwok \\\" will automatically change to \\\"Online\\\", indicating that the new device has been successfully added.\\n\\nUsers can check whether the network has been correctly networked by checking the device networking status parameters, as well as check the total number of devices in the network and the number of online devices.\\n\\nNote: Only connecting the CUHBus-DS® signal line and not passing the settings does not count as joining the network.\\n\\n[[vcrop:53:0]]\\n\\n2026-02 &nbsp;&nbsp;&nbsp;&nbsp; -43- &nbsp;&nbsp;&nbsp;&nbsp; SDVC341SMSEN_4.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.17,0.585,0.83,0.955],\"alt\":\"Device joins networking diagram showing Address 1 and Address 2 controllers, a new controller added as Address 3, and operation steps.\",\"reason\":\"Fine-line networking diagram with controller boxes, CUHBus-DS T1/T3 wiring paths, arrows, and embedded labels should be preserved as an image.\"}],\"notes\":\"Page is clear; diagram contains small labels and wiring lines best retained as a crop.\"}",
+  "created_at": "2026-05-20T14:09:03",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=53。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2",
+  "assistant_text": "{\"page_markdown\":\"### 4.9.1.2 设备加入\\n\\n使用者可以按照如下拓展加入步骤，将一台崭新的控制器加入到已组网络中。\\n\\n加入后的新控制器可以调用网络内任意控制器信号，以及充当网络内其他任意控制器信号源。丰富系统的信号源。\\n\\n**操作步骤：**\\n\\n1、将新设备CUHBus-DS® T1、T3接口接入原有完整网络中，端口支持热插拔。\\n\\n2、新设备通电，此时新控制器会自动进入“通信参数组”。\\n\\n3、在通信参数组中，设置本机数字同步通信设备编号，“数字同步”为【1~8】任意值。也可以不设置，程序会自动生成一个编号。\\n\\n4、在通信参数组中，设定“是否联网”参数值为“拓展”，然后同时长按 ⊕ 和 ⊖，确认。\\n\\n5、拓展加入成功后，此时新设备“是否联网”参数值自动变为“在线”，表示新设备拓展加入成功。\\n\\n用户可通过查看设备组网状态参数确认是否已正确组网，以及查看网络内设备总数和在线台数。查看确认方式同设备组网。\\n\\n注：仅连接CUHBus-DS®信号线，并未通过设置，不算加入网络。\\n\\n[[vcrop:53:0]]\",\"crop_suggestions\":[{\"bbox_0_1\":[0.17,0.57,0.84,0.94],\"alt\":\"设备加入示意图：左侧为地址1、地址2与新控制器接入原网络，右侧为加入成功后显示地址1、地址2、地址3（新控制器），中间箭头说明操作流程。\",\"reason\":\"底部为多设备接线拓扑示意图，包含细线连接关系和设备端口位置，建议保留位图以避免文字转写丢失结构信息。\"}],\"notes\":\"页面清晰；底部接线示意图以截图方式保留。\"}",
   "vision_parse_ok": true,
-  "page_markdown": "Automatic Frequency Controller for Vibratory Feeder  \nSDVC341-M\n\n## 4.9.1.2 Device Joins\n\nUsers can follow the following expansion and addition steps to add a new controller to the existing network.\n\nThe new controller after joining can call the signal of any controller in the network and act controller signal source as any other controller in the network. Enrich system signal sources.\n\n**Steps:**\n\n1. Connect the CUHBus-DS® T1 and T3 interfaces of the new device to the original complete network, and the ports support hot swapping.\n\n2. When the new device is powered on, the new controller will automatically enter the \"communication parameter group\".\n\n3. In the communication parameter group, set the local digital synchronization communication device number, and \"DigSynAd\" is [1~8] any value. You don't need to set it, the program will automatically generate a number.\n\n4. In the communication parameter group, set the parameter value of \"EnNetwok \" to \"Expand\", and then press ⊕ and ⊖ hold at the same time, confirm.\n\n5. After the addition is successful, the parameter value of the new device \"EnNetwok \" will automatically change to \"Online\", indicating that the new device has been successfully added.\n\nUsers can check whether the network has been correctly networked by checking the device networking status parameters, as well as check the total number of devices in the network and the number of online devices.\n\nNote: Only connecting the CUHBus-DS® signal line and not passing the settings does not count as joining the network.\n\n[[vcrop:53:0]]\n\n2026-02 &nbsp;&nbsp;&nbsp;&nbsp; -43- &nbsp;&nbsp;&nbsp;&nbsp; SDVC341SMSEN_4.01",
+  "page_markdown": "### 4.9.1.2 设备加入\n\n使用者可以按照如下拓展加入步骤，将一台崭新的控制器加入到已组网络中。\n\n加入后的新控制器可以调用网络内任意控制器信号，以及充当网络内其他任意控制器信号源。丰富系统的信号源。\n\n**操作步骤：**\n\n1、将新设备CUHBus-DS® T1、T3接口接入原有完整网络中，端口支持热插拔。\n\n2、新设备通电，此时新控制器会自动进入“通信参数组”。\n\n3、在通信参数组中，设置本机数字同步通信设备编号，“数字同步”为【1~8】任意值。也可以不设置，程序会自动生成一个编号。\n\n4、在通信参数组中，设定“是否联网”参数值为“拓展”，然后同时长按 ⊕ 和 ⊖，确认。\n\n5、拓展加入成功后，此时新设备“是否联网”参数值自动变为“在线”，表示新设备拓展加入成功。\n\n用户可通过查看设备组网状态参数确认是否已正确组网，以及查看网络内设备总数和在线台数。查看确认方式同设备组网。\n\n注：仅连接CUHBus-DS®信号线，并未通过设置，不算加入网络。\n\n[[vcrop:53:0]]",
   "crop_suggestions": [
     {
       "bbox_0_1": [
         0.17,
-        0.585,
-        0.83,
-        0.955
+        0.57,
+        0.84,
+        0.94
       ],
-      "alt": "Device joins networking diagram showing Address 1 and Address 2 controllers, a new controller added as Address 3, and operation steps.",
-      "reason": "Fine-line networking diagram with controller boxes, CUHBus-DS T1/T3 wiring paths, arrows, and embedded labels should be preserved as an image."
+      "alt": "设备加入示意图：左侧为地址1、地址2与新控制器接入原网络，右侧为加入成功后显示地址1、地址2、地址3（新控制器），中间箭头说明操作流程。",
+      "reason": "底部为多设备接线拓扑示意图，包含细线连接关系和设备端口位置，建议保留位图以避免文字转写丢失结构信息。"
     }
   ],
-  "notes": "Page is clear; diagram contains small labels and wiring lines best retained as a crop.",
+  "notes": "页面清晰；底部接线示意图以截图方式保留。",
   "raw": {
-    "id": "chatcmpl-Df0QBbynfCEuyttRT6EYPecDv5Prz",
+    "id": "chatcmpl-DhUOi9fHyfbg9g2zkp4msuFaUl8ka",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665439,
+    "created": 1779257324,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\"page_markdown\":\"Automatic Frequency Controller for Vibratory Feeder  \\nSDVC341-M\\n\\n## 4.9.1.2 Device Joins\\n\\nUsers can follow the following expansion and addition steps to add a new controller to the existing network.\\n\\nThe new controller after joining can call the signal of any controller in the network and act controller signal source as any other controller in the network. Enrich system signal sources.\\n\\n**Steps:**\\n\\n1. Connect the CUHBus-DS® T1 and T3 interfaces of the new device to the original complete network, and the ports support hot swapping.\\n\\n2. When the new device is powered on, the new controller will automatically enter the \\\"communication parameter group\\\".\\n\\n3. In the communication parameter group, set the local digital synchronization communication device number, and \\\"DigSynAd\\\" is [1~8] any value. You don't need to set it, the program will automatically generate a number.\\n\\n4. In the communication parameter group, set the parameter value of \\\"EnNetwok \\\" to \\\"Expand\\\", and then press ⊕ and ⊖ hold at the same time, confirm.\\n\\n5. After the addition is successful, the parameter value of the new device \\\"EnNetwok \\\" will automatically change to \\\"Online\\\", indicating that the new device has been successfully added.\\n\\nUsers can check whether the network has been correctly networked by checking the device networking status parameters, as well as check the total number of devices in the network and the number of online devices.\\n\\nNote: Only connecting the CUHBus-DS® signal line and not passing the settings does not count as joining the network.\\n\\n[[vcrop:53:0]]\\n\\n2026-02 &nbsp;&nbsp;&nbsp;&nbsp; -43- &nbsp;&nbsp;&nbsp;&nbsp; SDVC341SMSEN_4.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.17,0.585,0.83,0.955],\"alt\":\"Device joins networking diagram showing Address 1 and Address 2 controllers, a new controller added as Address 3, and operation steps.\",\"reason\":\"Fine-line networking diagram with controller boxes, CUHBus-DS T1/T3 wiring paths, arrows, and embedded labels should be preserved as an image.\"}],\"notes\":\"Page is clear; diagram contains small labels and wiring lines best retained as a crop.\"}"
+          "content": "{\"page_markdown\":\"### 4.9.1.2 设备加入\\n\\n使用者可以按照如下拓展加入步骤，将一台崭新的控制器加入到已组网络中。\\n\\n加入后的新控制器可以调用网络内任意控制器信号，以及充当网络内其他任意控制器信号源。丰富系统的信号源。\\n\\n**操作步骤：**\\n\\n1、将新设备CUHBus-DS® T1、T3接口接入原有完整网络中，端口支持热插拔。\\n\\n2、新设备通电，此时新控制器会自动进入“通信参数组”。\\n\\n3、在通信参数组中，设置本机数字同步通信设备编号，“数字同步”为【1~8】任意值。也可以不设置，程序会自动生成一个编号。\\n\\n4、在通信参数组中，设定“是否联网”参数值为“拓展”，然后同时长按 ⊕ 和 ⊖，确认。\\n\\n5、拓展加入成功后，此时新设备“是否联网”参数值自动变为“在线”，表示新设备拓展加入成功。\\n\\n用户可通过查看设备组网状态参数确认是否已正确组网，以及查看网络内设备总数和在线台数。查看确认方式同设备组网。\\n\\n注：仅连接CUHBus-DS®信号线，并未通过设置，不算加入网络。\\n\\n[[vcrop:53:0]]\",\"crop_suggestions\":[{\"bbox_0_1\":[0.17,0.57,0.84,0.94],\"alt\":\"设备加入示意图：左侧为地址1、地址2与新控制器接入原网络，右侧为加入成功后显示地址1、地址2、地址3（新控制器），中间箭头说明操作流程。\",\"reason\":\"底部为多设备接线拓扑示意图，包含细线连接关系和设备端口位置，建议保留位图以避免文字转写丢失结构信息。\"}],\"notes\":\"页面清晰；底部接线示意图以截图方式保留。\"}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 4252,
-      "completion_tokens": 1039,
-      "total_tokens": 5291,
+      "prompt_tokens": 4418,
+      "completion_tokens": 996,
+      "total_tokens": 5414,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0

@@ -4,21 +4,21 @@
   "lang": "zh-CN",
   "page_index": 6,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:38:18",
-  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=6。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 ",
-  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.073,\n        0.052,\n        0.929,\n        0.075\n      ],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [\n        0,\n        0,\n        1,\n        1\n      ],\n      \"confidence\": 0.82,\n      \"image_alt\": \"整页浅灰色重复的 CUH 标识水印背景，无正文内容\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.968,\n        0.933,\n        0.991\n      ],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [\n    0,\n    2\n  ],\n  \"notes\": \"本页不是扫描件，文字清晰可提取。页面主体基本为空，仅有页眉、页脚和浅灰色 CUH 水印背景；不以业务图表或正文内容为主。\"\n}",
+  "created_at": "2026-05-20T14:00:45",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=6。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2.2 控制器外观说明（第 15 页）\n  - 2.3 振动传",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.052, 0.929, 0.073],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.0, 0.0, 1.0, 1.0],\n      \"confidence\": 0.65,\n      \"image_alt\": \"整页浅灰色斜向重复的 CUH 水印背景\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.942, 0.929, 0.965],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 2],\n  \"notes\": \"本页不是扫描件，含可识别文本层。页面主体为空白，以页眉、页脚和浅色水印背景为主；未见正文段落、表格或功能性插图。页眉左侧为“自动调频振动送料控制器”，右侧为“SDVC341-M”；页脚左侧为“2026-02”，右侧为“SDVC341SMSCN_4.01”。\"\n}",
   "layout_parse_ok": true,
   "layout_json": {
     "regions": [
       {
-        "type": "heading",
+        "type": "paragraph",
         "bbox_0_1": [
-          0.073,
+          0.072,
           0.052,
           0.929,
-          0.075
+          0.073
         ],
-        "confidence": 0.93,
+        "confidence": 0.92,
         "bbox_parse_ok": true
       },
       {
@@ -29,19 +29,19 @@
           1.0,
           1.0
         ],
-        "confidence": 0.82,
-        "image_alt": "整页浅灰色重复的 CUH 标识水印背景，无正文内容",
+        "confidence": 0.65,
+        "image_alt": "整页浅灰色斜向重复的 CUH 水印背景",
         "bbox_parse_ok": true
       },
       {
         "type": "footer",
         "bbox_0_1": [
           0.072,
-          0.968,
-          0.933,
-          0.991
+          0.942,
+          0.929,
+          0.965
         ],
-        "confidence": 0.94,
+        "confidence": 0.93,
         "bbox_parse_ok": true
       }
     ],
@@ -49,29 +49,29 @@
       0,
       2
     ],
-    "notes": "本页不是扫描件，文字清晰可提取。页面主体基本为空，仅有页眉、页脚和浅灰色 CUH 水印背景；不以业务图表或正文内容为主。",
+    "notes": "本页不是扫描件，含可识别文本层。页面主体为空白，以页眉、页脚和浅色水印背景为主；未见正文段落、表格或功能性插图。页眉左侧为“自动调频振动送料控制器”，右侧为“SDVC341-M”；页脚左侧为“2026-02”，右侧为“SDVC341SMSCN_4.01”。",
     "bbox_schema": "xyxy_0_1"
   },
   "raw": {
-    "id": "chatcmpl-Df0KSlOfp1HNGySXa3PlFgjop1PUP",
+    "id": "chatcmpl-DhUGhLTHZ95CS7riCmKpyhoa4dpSl",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665084,
+    "created": 1779256827,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.073,\n        0.052,\n        0.929,\n        0.075\n      ],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [\n        0,\n        0,\n        1,\n        1\n      ],\n      \"confidence\": 0.82,\n      \"image_alt\": \"整页浅灰色重复的 CUH 标识水印背景，无正文内容\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.968,\n        0.933,\n        0.991\n      ],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [\n    0,\n    2\n  ],\n  \"notes\": \"本页不是扫描件，文字清晰可提取。页面主体基本为空，仅有页眉、页脚和浅灰色 CUH 水印背景；不以业务图表或正文内容为主。\"\n}"
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.052, 0.929, 0.073],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.0, 0.0, 1.0, 1.0],\n      \"confidence\": 0.65,\n      \"image_alt\": \"整页浅灰色斜向重复的 CUH 水印背景\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.942, 0.929, 0.965],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 2],\n  \"notes\": \"本页不是扫描件，含可识别文本层。页面主体为空白，以页眉、页脚和浅色水印背景为主；未见正文段落、表格或功能性插图。页眉左侧为“自动调频振动送料控制器”，右侧为“SDVC341-M”；页脚左侧为“2026-02”，右侧为“SDVC341SMSCN_4.01”。\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 3486,
-      "completion_tokens": 779,
-      "total_tokens": 4265,
+      "prompt_tokens": 3692,
+      "completion_tokens": 815,
+      "total_tokens": 4507,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0

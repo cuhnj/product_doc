@@ -4,10 +4,10 @@ doc_key: cuh.sdvc34.manual.v0.0
 doc_type: manual
 lang: zh-CN
 product: sdvc34
-source_pdf: /Users/wangle/Documents/Python开发/说明书转换/典型文档/20260227_57_SDVC341_SMS-EN_4_01_user_manual.pdf
-source_sha256: 4b49bd4dd3e24084a68bdf4f35acd26c1ff7c63d58cf6017063d5922cb2d2e9e
-title: 20260227 57 SDVC341 SMS-EN 4 01 user manual
-updated_at: 2026-05-13 17:45:55
+source_pdf: /Users/wangle/Documents/Python开发/说明书转换/全部产品文档/20260227_63_IDP1000340_SDVC341_SMS-CN_4_01-文档发布.pdf
+source_sha256: 79af168c20c86e4411bdf977ed703c31bbcb965ac025e678e1327d80ff5340b5
+title: 20260227 63 IDP1000340 SDVC341 SMS-CN 4 01-文档发布
+updated_at: 2026-05-20 14:10:51
 version: 0.0
 ---
 
@@ -15,134 +15,135 @@ version: 0.0
 
 > 下列条目来自 PDF 内置书签/大纲；链接指向本批转换生成的整页渲染图（`assets/pages/`），便于与原版 PDF 对照校对。
 
-- [Copyright Statement&Disclaimer](assets/pages/page-0002.png)（第 2 页）
-- [Preface](assets/pages/page-0003.png)（第 3 页）
-- [Safety and Precautions](assets/pages/page-0004.png)（第 4 页）
-- [Operating and Storage Environment](assets/pages/page-0005.png)（第 5 页）
-- [Contents](assets/pages/page-0007.png)（第 7 页）
-- [8:Contents2](assets/pages/page-0008.png)（第 8 页）
-- [9: Contents3](assets/pages/page-0009.png)（第 9 页）
-- [10: Contents4](assets/pages/page-0010.png)（第 10 页）
-- [Chapter ⅠInstructions Before Use](assets/pages/page-0011.png)（第 11 页）
-  - [1.1 Check Package Contents](assets/pages/page-0011.png)（第 11 页）
-  - [1.2 Manufacturer Nameplate Illustrate](assets/pages/page-0012.png)（第 12 页）
-  - [1.3 Controller Usage Conditions](assets/pages/page-0012.png)（第 12 页）
-  - [1.4 Remarks](assets/pages/page-0013.png)（第 13 页）
-- [Chapter Ⅱ Product Introduction](assets/pages/page-0014.png)（第 14 页）
-  - [2.1 Product Introduction](assets/pages/page-0014.png)（第 14 页）
-  - [2.2 Keypad and I/O Ports](assets/pages/page-0015.png)（第 15 页）
-  - [2.3 Vibration Sensor Installation Guide](assets/pages/page-0016.png)（第 16 页）
-  - [2.4 Homepage Parameter Description](assets/pages/page-0017.png)（第 17 页）
-  - [2.5 Signal Control Ports Definition](assets/pages/page-0017.png)（第 17 页）
-  - [2.6 Keypad Operation](assets/pages/page-0018.png)（第 18 页）
-  - [2.7 Operation Interface Rotation Diagram](assets/pages/page-0018.png)（第 18 页）
-- [Chapter Ⅲ Power Wiring and Basic Operation](assets/pages/page-0019.png)（第 19 页）
-  - [3.1 Power Wiring](assets/pages/page-0019.png)（第 19 页）
-  - [3.2 Basic Operation](assets/pages/page-0021.png)（第 21 页）
-- [Chapter Ⅳ Detailed Function Introduction](assets/pages/page-0023.png)（第 23 页）
-  - [4.1 Common Parameter Settings](assets/pages/page-0024.png)（第 24 页）
-    - [4.1.1 Voltage](assets/pages/page-0024.png)（第 24 页）
-    - [4.1.2 Frequency](assets/pages/page-0024.png)（第 24 页）
-    - [4.1.3 Feeding Speed](assets/pages/page-0025.png)（第 25 页）
-    - [4.1.4 Soft Start Time/Soft Stop Time](assets/pages/page-0025.png)（第 25 页）
-    - [4.1.5 Maximum Voltage/Maximum Current](assets/pages/page-0025.png)（第 25 页）
-    - [4.1.6 Maximum Output Frequency/Minimum Output Frequency](assets/pages/page-0025.png)（第 25 页）
-    - [4.1.7 Load Detection](assets/pages/page-0026.png)（第 26 页）
-    - [4.1.8 Shortage Alarm](assets/pages/page-0026.png)（第 26 页）
-    - [4.1.9 Shutdown Alarm](assets/pages/page-0026.png)（第 26 页）
-    - [4.1.10 Backlight Brightness](assets/pages/page-0026.png)（第 26 页）
-    - [4.1.11 Backlight Off](assets/pages/page-0027.png)（第 27 页）
-    - [4.1.12 Language](assets/pages/page-0027.png)（第 27 页）
-  - [4.2 Automatic Resonant Frequency Search](assets/pages/page-0027.png)（第 27 页）
-    - [4.2.1 Frequency Search Interface](assets/pages/page-0027.png)（第 27 页）
-  - [4.3 Constant Feed Speed](assets/pages/page-0028.png)（第 28 页）
-    - [4.3.1 Center Frequency](assets/pages/page-0028.png)（第 28 页）
-    - [4.3.2 Frequency Offset](assets/pages/page-0028.png)（第 28 页）
-    - [4.3.3 Frequency Integration](assets/pages/page-0028.png)（第 28 页）
-    - [4.3.4 Amplitude Integration](assets/pages/page-0029.png)（第 29 页）
-    - [4.3.5 Amplitude Ratio](assets/pages/page-0029.png)（第 29 页）
-    - [4.3.6 Auto Phase](assets/pages/page-0029.png)（第 29 页）
-    - [4.3.7 Frequency Searching Process Current](assets/pages/page-0029.png)（第 29 页）
-    - [4.3.8 Frequency Searching Process Amplitude](assets/pages/page-0029.png)（第 29 页）
-    - [4.3.9 Maximum Feed Speed](assets/pages/page-0029.png)（第 29 页）
-    - [4.3.10 Slave Controller Phase Offset](assets/pages/page-0029.png)（第 29 页）
-    - [4.3.11 Output Voltage Control Mode](assets/pages/page-0030.png)（第 30 页）
-    - [4.3.12 Output Frequency Control Mode](assets/pages/page-0030.png)（第 30 页）
-    - [4.3.13 Sync Source](assets/pages/page-0030.png)（第 30 页）
-    - [4.3.14 Vibration Sensor Type](assets/pages/page-0030.png)（第 30 页）
-    - [4.3.15 Auto Resonant Frequency Search Speed](assets/pages/page-0030.png)（第 30 页）
-  - [4.4 Output Parameters](assets/pages/page-0031.png)（第 31 页）
-    - [4.4.1 Main Output Parameters](assets/pages/page-0031.png)（第 31 页）
-    - [4.4.2 DC Control Output Parameters](assets/pages/page-0038.png)（第 38 页）
-  - [4.5 Signal Control](assets/pages/page-0040.png)（第 40 页）
-    - [4.5.1 Sensor Type](assets/pages/page-0040.png)（第 40 页）
-    - [4.5.2 C Port/E Port Logic](assets/pages/page-0041.png)（第 41 页）
-    - [4.5.3 C Port On/Off Delay and E Port On/Off Delay](assets/pages/page-0041.png)（第 41 页）
-    - [4.5.4 Speed A Logic/Speed B Logic](assets/pages/page-0042.png)（第 42 页）
-    - [4.5.5 Speed A On/Off Delay and Speed B On/Off Delay](assets/pages/page-0042.png)（第 42 页）
-  - [4.6 Material Quantity Counting](assets/pages/page-0043.png)（第 43 页）
-    - [4.6.1 Material Quantity Counting (or Speed A/B)](assets/pages/page-0043.png)（第 43 页）
-    - [4.6.2 Target Quantity](assets/pages/page-0044.png)（第 44 页）
-    - [4.6.3 Terminal Speed](assets/pages/page-0044.png)（第 44 页）
-    - [4.6.4 Terminal Speed Quantity](assets/pages/page-0045.png)（第 45 页）
-    - [4.6.5 Reset Counting Value to 0](assets/pages/page-0045.png)（第 45 页）
-    - [4.6.6 RS Priority](assets/pages/page-0045.png)（第 45 页）
-  - [4.7 Save Settings](assets/pages/page-0046.png)（第 46 页）
-    - [4.7.1 Callback Settings](assets/pages/page-0046.png)（第 46 页）
-    - [4.7.2 Save Settings](assets/pages/page-0046.png)（第 46 页）
-    - [4.7.3 Restore Factory](assets/pages/page-0047.png)（第 47 页）
-    - [4.7.4 Copy Settings](assets/pages/page-0047.png)（第 47 页）
-    - [4.7.5 User Password](assets/pages/page-0047.png)（第 47 页）
-    - [4.7.6 Enter Password](assets/pages/page-0047.png)（第 47 页）
-  - [4.8 RS485 Communication](assets/pages/page-0048.png)（第 48 页）
-    - [4.8.1 Communication Type](assets/pages/page-0048.png)（第 48 页）
-    - [4.8.2 Baud Rate](assets/pages/page-0049.png)（第 49 页）
-    - [4.8.3 Slave Controller Address](assets/pages/page-0049.png)（第 49 页）
-    - [4.8.4 Port Resistance/Synchronous Resistance](assets/pages/page-0049.png)（第 49 页）
-  - [4.9 CUHBus-DS® Networking](assets/pages/page-0050.png)（第 50 页）
-    - [4.9.1 Device Networking](assets/pages/page-0051.png)（第 51 页）
-    - [4.9.2 Sync Function](assets/pages/page-0055.png)（第 55 页）
-    - [4.9.3 Signal Sharing](assets/pages/page-0061.png)（第 61 页）
-    - [4.9.4 Data Backup](assets/pages/page-0063.png)（第 63 页）
-    - [4.9.5 Remote Control Data](assets/pages/page-0064.png)（第 64 页）
-  - [4.10 Controller Status Monitoring](assets/pages/page-0064.png)（第 64 页）
-  - [4.11 Error Log](assets/pages/page-0065.png)（第 65 页）
-  - [4.12 Customize Homepage](assets/pages/page-0065.png)（第 65 页）
-- [Chapter Ⅴ Typical Applications](assets/pages/page-0066.png)（第 66 页）
-  - [5.1 How to keep two vibratory feeders running at the  same frequency?](assets/pages/page-0066.png)（第 66 页）
-  - [5.2 How to trun on/off controller B via a sensor connected to controller A?](assets/pages/page-0067.png)（第 67 页）
-  - [5.3 How to turn on/off two controllers simultaneously?](assets/pages/page-0068.png)（第 68 页）
-- [Chapter Ⅵ Frequently Asked Questions](assets/pages/page-0069.png)（第 69 页）
-  - [6.1 No display upon power on](assets/pages/page-0069.png)（第 69 页）
-  - [6.2 No vibration, no noise, normal controller display](assets/pages/page-0069.png)（第 69 页）
-  - [6.3 Control signal does not work](assets/pages/page-0069.png)（第 69 页）
-  - [6.4 No vibration, normal noise, controller display is normal](assets/pages/page-0069.png)（第 69 页）
-  - [6.5 Unstable resonant frequency tracking](assets/pages/page-0069.png)（第 69 页）
-  - [6.6 Slow speed correction in constant feed speed control](assets/pages/page-0070.png)（第 70 页）
-  - [6.7 How to quickly reset the controller to factory default](assets/pages/page-0070.png)（第 70 页）
-- [Chapter Ⅶ Appendix](assets/pages/page-0071.png)（第 71 页）
-  - [7.1 Dimensions](assets/pages/page-0071.png)（第 71 页）
-  - [7.2 Technical Specifications](assets/pages/page-0072.png)（第 72 页）
-  - [7.3 Reference Standard](assets/pages/page-0073.png)（第 73 页）
-  - [7.4 Parameter List](assets/pages/page-0074.png)（第 74 页）
-    - [7.4.1 Interface Parameter Group](assets/pages/page-0074.png)（第 74 页）
-    - [7.4.2 Common Parameter Group](assets/pages/page-0075.png)（第 75 页）
-    - [7.4.3 Main Output Parameter Group](assets/pages/page-0076.png)（第 76 页）
-    - [7.4.4 Steady Speed Parameter Group](assets/pages/page-0077.png)（第 77 页）
-    - [7.4.5 Signal Input Parameter Group](assets/pages/page-0078.png)（第 78 页）
-    - [7.4.6 DC Control Output Parameter Group](assets/pages/page-0079.png)（第 79 页）
-    - [7.4.7 Counting Parameter Group](assets/pages/page-0080.png)（第 80 页）
-    - [7.4.8 Communication Parameter Group](assets/pages/page-0081.png)（第 81 页）
-    - [7.4.9 Save Parameter Group](assets/pages/page-0082.png)（第 82 页）
-    - [7.4.10 Monitoring Parameter Group](assets/pages/page-0083.png)（第 83 页）
-    - [7.4.11 Attached List](assets/pages/page-0085.png)（第 85 页）
-  - [7.5 Input and Output Circuit Diagrams](assets/pages/page-0086.png)（第 86 页）
-  - [7.6 Error Code](assets/pages/page-0088.png)（第 88 页）
-  - [7.7 Warning Code](assets/pages/page-0089.png)（第 89 页）
-- [Chapter Ⅷ Product Warranty Information](assets/pages/page-0090.png)（第 90 页）
-  - [8.1 Warranty Period](assets/pages/page-0090.png)（第 90 页）
-  - [8.2 Warranty Coverage](assets/pages/page-0090.png)（第 90 页）
-  - [8.3 Product Suitability](assets/pages/page-0090.png)（第 90 页）
+- [1: 封面](assets/pages/page-0001.png)（第 1 页）
+- [2: 封二版权与免责](assets/pages/page-0002.png)（第 2 页）
+- [3: 序言](assets/pages/page-0003.png)（第 3 页）
+- [4: 安全与预防措施](assets/pages/page-0004.png)（第 4 页）
+- [5: 工作与储存环境](assets/pages/page-0005.png)（第 5 页）
+- [7: 目录](assets/pages/page-0007.png)（第 7 页）
+- [8: 目录2](assets/pages/page-0008.png)（第 8 页）
+- [9: 目录3](assets/pages/page-0009.png)（第 9 页）
+- [10: 目录4](assets/pages/page-0010.png)（第 10 页）
+- [第一章 使用前须知](assets/pages/page-0011.png)（第 11 页）
+  - [1.1 检查包装内容](assets/pages/page-0011.png)（第 11 页）
+  - [1.2 控制器铭牌说明](assets/pages/page-0012.png)（第 12 页）
+  - [1.3 控制器使用条件](assets/pages/page-0012.png)（第 12 页）
+  - [1.4 说明书导读](assets/pages/page-0013.png)（第 13 页）
+- [第二章 产品介绍](assets/pages/page-0014.png)（第 14 页）
+  - [2.1 产品简介](assets/pages/page-0014.png)（第 14 页）
+  - [2.2 控制器外观说明](assets/pages/page-0015.png)（第 15 页）
+  - [2.3 振动传感器安装指南](assets/pages/page-0016.png)（第 16 页）
+  - [2.4 主页参数说明](assets/pages/page-0017.png)（第 17 页）
+  - [2.5 接线端口说明](assets/pages/page-0017.png)（第 17 页）
+  - [2.6 控制器面板与按键操作](assets/pages/page-0018.png)（第 18 页）
+  - [2.7 界面轮转图](assets/pages/page-0018.png)（第 18 页）
+- [第三章 简要功能说明](assets/pages/page-0019.png)（第 19 页）
+  - [3.1 安装](assets/pages/page-0019.png)（第 19 页）
+  - [3.2 运行](assets/pages/page-0021.png)（第 21 页）
+- [第四章 详细功能说明](assets/pages/page-0023.png)（第 23 页）
+  - [4.1 常用参数功能设置](assets/pages/page-0024.png)（第 24 页）
+    - [4.1.1 电压](assets/pages/page-0024.png)（第 24 页）
+    - [4.1.2 频率](assets/pages/page-0024.png)（第 24 页）
+    - [4.1.3 送料速度](assets/pages/page-0025.png)（第 25 页）
+    - [4.1.4 缓启时间/缓关时间](assets/pages/page-0025.png)（第 25 页）
+    - [4.1.5 最大电压/最大电流](assets/pages/page-0025.png)（第 25 页）
+    - [4.1.6 最大输出频率/最低输出频率](assets/pages/page-0025.png)（第 25 页）
+    - [4.1.7 负载检测](assets/pages/page-0026.png)（第 26 页）
+    - [4.1.8 缺料报警](assets/pages/page-0026.png)（第 26 页）
+    - [4.1.9 停机报警](assets/pages/page-0026.png)（第 26 页）
+    - [4.1.10 背光亮度](assets/pages/page-0026.png)（第 26 页）
+    - [4.1.11 背光熄灭](assets/pages/page-0027.png)（第 27 页）
+    - [4.1.12 语言](assets/pages/page-0027.png)（第 27 页）
+  - [4.2 自动搜频](assets/pages/page-0027.png)（第 27 页）
+    - [4.2.1 搜频界面](assets/pages/page-0027.png)（第 27 页）
+  - [4.3 稳速功能](assets/pages/page-0028.png)（第 28 页）
+    - [4.3.1 中心频率](assets/pages/page-0028.png)（第 28 页）
+    - [4.3.2 频率偏移](assets/pages/page-0028.png)（第 28 页）
+    - [4.3.3 频率积分](assets/pages/page-0028.png)（第 28 页）
+    - [4.3.4 幅度积分](assets/pages/page-0029.png)（第 29 页）
+    - [4.3.5 幅度比例](assets/pages/page-0029.png)（第 29 页）
+    - [4.3.6 自动相位](assets/pages/page-0029.png)（第 29 页）
+    - [4.3.7 搜频电流](assets/pages/page-0029.png)（第 29 页）
+    - [4.3.8 搜频振幅](assets/pages/page-0029.png)（第 29 页）
+    - [4.3.9 料速最大](assets/pages/page-0029.png)（第 29 页）
+    - [4.3.10 手动相位](assets/pages/page-0029.png)（第 29 页）
+    - [4.3.11 电压模式](assets/pages/page-0030.png)（第 30 页）
+    - [4.3.12 频率模式](assets/pages/page-0030.png)（第 30 页）
+    - [4.3.13 同步源](assets/pages/page-0030.png)（第 30 页）
+    - [4.3.14 传感器类](assets/pages/page-0030.png)（第 30 页）
+    - [4.3.15 搜频速度](assets/pages/page-0030.png)（第 30 页）
+  - [4.4 控制输出功能](assets/pages/page-0031.png)（第 31 页）
+    - [4.4.1 主输出参数](assets/pages/page-0031.png)（第 31 页）
+    - [4.4.2 控制输出参数](assets/pages/page-0038.png)（第 38 页）
+  - [4.5 信号控制功能](assets/pages/page-0040.png)（第 40 页）
+    - [4.5.1 端口类型](assets/pages/page-0040.png)（第 40 页）
+    - [4.5.2 C口方向/E口方向](assets/pages/page-0041.png)（第 41 页）
+    - [4.5.3 C开延时/C关延时和E开延时/E关延时](assets/pages/page-0041.png)（第 41 页）
+    - [4.5.4 速A方向/速B方向](assets/pages/page-0042.png)（第 42 页）
+    - [4.5.5 速A开延/速A关延和速B开延/速B关延](assets/pages/page-0042.png)（第 42 页）
+  - [4.6 计数参数](assets/pages/page-0043.png)（第 43 页）
+    - [4.6.1 计数功能（或速度A/B）](assets/pages/page-0043.png)（第 43 页）
+    - [4.6.2 计数总数](assets/pages/page-0044.png)（第 44 页）
+    - [4.6.3 末段速度](assets/pages/page-0044.png)（第 44 页）
+    - [4.6.4 末段数量](assets/pages/page-0045.png)（第 45 页）
+    - [4.6.5 计数清零](assets/pages/page-0045.png)（第 45 页）
+    - [4.6.6 RS优先级](assets/pages/page-0045.png)（第 45 页）
+  - [4.7 用户参数保存功能](assets/pages/page-0046.png)（第 46 页）
+    - [4.7.1 读出参数](assets/pages/page-0046.png)（第 46 页）
+    - [4.7.2 保存参数](assets/pages/page-0046.png)（第 46 页）
+    - [4.7.3 复位参数](assets/pages/page-0047.png)（第 47 页）
+    - [4.7.4 拷贝参数](assets/pages/page-0047.png)（第 47 页）
+    - [4.7.5 用户密码](assets/pages/page-0047.png)（第 47 页）
+    - [4.7.6 输入密码](assets/pages/page-0047.png)（第 47 页）
+  - [4.8 RS485通信功能](assets/pages/page-0048.png)（第 48 页）
+    - [4.8.1 通信类型](assets/pages/page-0048.png)（第 48 页）
+    - [4.8.2 波特率](assets/pages/page-0049.png)（第 49 页）
+    - [4.8.3 从机号](assets/pages/page-0049.png)（第 49 页）
+    - [4.8.4 端口电阻/同步电阻](assets/pages/page-0049.png)（第 49 页）
+  - [4.9 CUHBus-DS®组网功能](assets/pages/page-0050.png)（第 50 页）
+    - [4.9.1 设备组网](assets/pages/page-0051.png)（第 51 页）
+    - [4.9.2 同步功能](assets/pages/page-0055.png)（第 55 页）
+    - [4.9.3 信号共享功能](assets/pages/page-0061.png)（第 61 页）
+    - [4.9.4 数据备份功能](assets/pages/page-0063.png)（第 63 页）
+    - [4.9.5 遥控数据](assets/pages/page-0064.png)（第 64 页）
+  - [4.10 系统运行监控功能](assets/pages/page-0064.png)（第 64 页）
+  - [4.11 运行故障日志查询](assets/pages/page-0065.png)（第 65 页）
+  - [4.12 自定义主页](assets/pages/page-0065.png)（第 65 页）
+- [第五章 典型应用](assets/pages/page-0066.png)（第 66 页）
+  - [5.1 如何实现两台振动盘保持频率一致运行？](assets/pages/page-0066.png)（第 66 页）
+  - [5.2 如何实现一台控制器的C口传感器信号控制另外一台控  制器的启停？](assets/pages/page-0067.png)（第 67 页）
+  - [5.3 如何实现一台直振控制器和圆盘控制器保持同步启停？](assets/pages/page-0068.png)（第 68 页）
+- [第六章 常见问题解答](assets/pages/page-0069.png)（第 69 页）
+  - [6.1 打开开关，没有显示](assets/pages/page-0069.png)（第 69 页）
+  - [6.2 有显示，但是振动盘不动，也没有声音](assets/pages/page-0069.png)（第 69 页）
+  - [6.3 控制信号不起作用](assets/pages/page-0069.png)（第 69 页）
+  - [6.4 有显示，振动盘不动，但是可以听到声音](assets/pages/page-0069.png)（第 69 页）
+  - [6.5 控制器频率跟踪不稳定](assets/pages/page-0069.png)（第 69 页）
+  - [6.6 使用稳速功能，但振动盘速度恢复较慢](assets/pages/page-0070.png)（第 70 页）
+  - [6.7 如何实现控制器快速恢复出厂设置](assets/pages/page-0070.png)（第 70 页）
+- [第七章 附录](assets/pages/page-0071.png)（第 71 页）
+  - [7.1 外形尺寸图](assets/pages/page-0071.png)（第 71 页）
+  - [7.2 技术规格表](assets/pages/page-0072.png)（第 72 页）
+  - [7.3 参考标准](assets/pages/page-0073.png)（第 73 页）
+  - [7.4 参数列表](assets/pages/page-0074.png)（第 74 页）
+    - [7.4.1 界面参数组](assets/pages/page-0074.png)（第 74 页）
+    - [7.4.2 常用参数组](assets/pages/page-0075.png)（第 75 页）
+    - [7.4.3 主输出参数组](assets/pages/page-0076.png)（第 76 页）
+    - [7.4.4 稳速参数组](assets/pages/page-0077.png)（第 77 页）
+    - [7.4.5 信号输入参数组](assets/pages/page-0078.png)（第 78 页）
+    - [7.4.6 控制输出参数组](assets/pages/page-0079.png)（第 79 页）
+    - [7.4.7 计数参数组](assets/pages/page-0080.png)（第 80 页）
+    - [7.4.8 通信参数组](assets/pages/page-0081.png)（第 81 页）
+    - [7.4.9 保存参数组](assets/pages/page-0082.png)（第 82 页）
+    - [7.4.10 监控参数组](assets/pages/page-0083.png)（第 83 页）
+    - [7.4.11 附表](assets/pages/page-0084.png)（第 84 页）
+  - [7.5 输入输出电路图](assets/pages/page-0086.png)（第 86 页）
+  - [7.6 故障代码](assets/pages/page-0088.png)（第 88 页）
+  - [7.7 警告代码](assets/pages/page-0089.png)（第 89 页）
+- [第八章 产品质保信息](assets/pages/page-0090.png)（第 90 页）
+  - [8.1 质保期](assets/pages/page-0090.png)（第 90 页）
+  - [8.2 保修范围](assets/pages/page-0090.png)（第 90 页）
+  - [8.3 产品适用性](assets/pages/page-0090.png)（第 90 页）
 ## 术语与命名
 
 - 侧车：`glossary/terms.yaml`（机读）、`glossary/zh-CN.md`（人读）；候选表，定稿后并入公司级 `glossary/`。
@@ -153,7 +154,7 @@ version: 0.0
 
 ## 变更记录
 
-- 2026-05-13 17:45:55：由转换工具从源 PDF 生成首版。
+- 2026-05-20 14:10:51：由转换工具从源 PDF 生成首版。
 
 ## 正文
 
@@ -165,1881 +166,1853 @@ version: 0.0
 
 # CUH®
 
+## 自动调频振动送料控制器
+
 **Automatic Frequency Controller for Vibratory Feeder**
 
-![SDVC341-M 控制器产品照片](assets/images/cuh.sdvc34.manual.v0.0/page-0001-vcrop-00.png)
+![SDVC341-M 自动调频振动送料控制器产品照片](assets/images/cuh.sdvc34.manual.v0.0/page-0001-vcrop-00.png)
 
 ## SDVC341-M
 
-# User Manual
+# 用户手册
 
 
 ### 第 2 页
 
-Automatic Frequency Controller for Vibratory Feeder  
-SDVC341-M
+自动调频振动送料控制器                                      SDVC341-M
 
 ---
 
-## Copyright Statement
+## 版权说明
 
-Nanjing CUH Science & Technology CO., Ltd. reserves all rights.
+南京创优科技有限责任公司保留所有权利。
 
-All information contained in this user manual is the knowledge of our company and is protected by copyright law and other related laws. CUH enjoys and reserves all rights conferred by copyright law and other laws. Without the written consent of CUH, part or all of this user manual shall not be copied, translated, imitated or otherwise utilized.
+本用户手册上包含的所有信息是属于本公司的知识，受著作权法及所有法律的保护。本公司根据著作权法及其他法律享有并保留所有著作权和其他法律赋予的权利，未经本公司书面同意不得以任何形式对本用户手册的部分或全部进行抄袭、翻译、转译、仿制或其他利用。
 
-## Disclaimer
+## 免责声明
 
-All contents of this user manual only describe the use method of related products produced by our company, and are described according to the existing technology and the state provided to you when you use it. You must bear the relevant risks when you use this product. Except as required by law, the company does not have any express or implied responsibility for the product due to this user manual, including but not limited to personal injury, property damage, loss of opportunity, etc.
+本用户手册的所有内容仅说明本公司生产的相关产品的使用方法，并且是根据现有技术和提供给您使用时的状态进行描述的，在您使用本产品时必须自行承担相关风险。除法律强制规定外，本公司不因本用户手册对产品负有任何明示或暗示的责任，包括但不限于人身伤害、财产损失、机会丧失。
 
-You clearly understand the above risks and agree that, except as mandated by law, the company is not responsible for any direct or indirect damage or loss to you (including but not limited to tangible loss of personnel, property, data, etc. and intangible loss of reputation, opportunity, etc.)
+您明确了解上述风险并同意，除法律强制规定外，本公司无须为您的任何直接、间接的损害或损失负责（包括但不限于人员、财物、数据等有形损失和名誉、机会等无形损失）。
 
-The company reserves the right to modify the products applicable in this user manual without prior or subsequent notice.
+本公司保留对本用户手册中所适用的产品进行修改而不预先及事后通知的权利。
 
 ---
 
-2026-02  
-SDVC341SMSEN_4.01
+2026-02                                      SDVC341SMSCN_4.01
 
 
 ### 第 3 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
----
+# 序　言
 
-# Preface
+感谢您使用南京创优科技有限责任公司（在本手册中以下简称本公司）出品的SDVC341系列自动调频振动送料控制器（在本手册中以下简称本产品、本控制器或控制器）。本系列控制器是采用高品质元件并融合了最新的电子技术，采用高性能的数字信号处理器经过精心的设计而成。
 
-Thank you for choosing CUH SDVC341 series Automatic frequency controller for vibratory feeder. (The controller for short in the following text). This series of controllers uses high-quality components and incorporates the latest electronic technology, and is carefully designed with high-performance digital signal processors.
+本手册介绍了本产品的基本操作方法、功能技术说明和典型应用示例。为用户提供安装调试、参数设置、异常诊断、故障排除及日常维护控制器的相关信息。为了确保正确安装和使用本控制器，请在装机之前仔细阅读本用户手册，并请妥善保存。
 
-This manual introduces the basic operation method, functional technical description and typical application examples of this product. Provide users with relevant information on installation and debugging, parameter setting, abnormal diagnosis, troubleshooting and routine maintenance of the controller. In order to ensure the correct installation and use of this controller, please read this user manual carefully before installation and keep it properly.
+以下符号提醒您注意有关防止人身伤害和产品损坏的事项，请务必阅读。
 
-Be sure to read the following symbols to alert you to precautions against personal injury and product damage.
-
-| Symbol | Description |
+| 符号 | 说明 |
 |---|---|
-| Danger | Non-observance of this item<br>will result in personal injury or death. |
-| Warn | Non-observance of this item<br>may result in personal injury or death. |
-| Careful | Non-observance of this item<br>may result in moderate or minor injury to persons. |
-| Notice | Non-observance of this item<br>will result in damage to the product and property damage. |
-| Essential | Indicates precautions and usage restrictions that must be<br>observed during use. |
+| ⚠ 危险 | 表示若不遵守该事项，将导致人员伤亡。 |
+| ⚠ 警告 | 表示若不遵守该事项，可能导致人员伤亡。 |
+| ⚠ 小心 | 表示若不遵守该事项，可能导致人员遭受中度或轻微伤害。 |
+| 注意 | 表示若不遵守该事项，将导致本产品损坏及财产损失。 |
+| ！要点 | 表示在使用过程中必须要遵守的注意事项和使用限制等。 |
 
-**This manual is suitable for the following models of controllers:**
+**本说明书适合以下型号控制器：**
 
-◆ Automatic Frequency Controller for Vibratory Feeder　　SDVC341-M (3.0A)
+◆ 自动调频振动送料控制器　SDVC341-M（3.0A）
 
 ---
 
-2026-02　　　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 4 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　SDVC341-M
 
 ---
 
-# Safety and Precautions
+# 安全与预防措施
 
-1. **Danger** This product is only used to drive electromagnet-based vibratory feeding equipment, do not use this product for the purpose of protecting the human body or parts of the human body, etc.
+1、 **⚠ 危险** 本产品仅用于驱动基于电磁铁的振动送料设备，请勿将本产品用于保护人体或人体部位等目的。
 
-2. **Danger** This product is not intended to be used as an explosion-proof product, do not use it in hazardous locations and/or potentially explosive gas environment.
+2、 **⚠ 危险** 本产品不得作为防爆产品使用，请勿在危险场所和/或潜在爆炸气体环境中使用。
 
-3. **Warn** This product is powered by AC mains, please do not apply AC voltage exceeding 250Vac. Excessive input voltage, such as 380Vac, may cause the product to explode or catch fire, resulting in serious safety accidents.
+3、 **⚠ 警告** 本产品是采用交流市电供电的设备，请勿施加交流电压超过250Vac。施加过大的输入电压如380Vac，则可能导致产品爆炸或者着火，造成严重的安全事故。
 
-4. **Warn** This product is grounded through the power cord. Please ensure that the power distribution facilities for the controller are well grounded, otherwise the controller shell may be charged, resulting in an electric shock accident.
+4、 **⚠ 警告** 本产品是通过电源线进行接地的，请确保为控制器供电的配电设施具备良好的接地，否则可能导致控制器外壳带电，造成触电事故。
 
-5. **Warn** Do not input AC power to the output of this controller, it will damage the controller.
+5、 **⚠ 警告** 请勿输入交流电源到本控制器的输出端，这会损坏控制器。
 
-6. **Warn** Do not plug and unplug the wiring with points or touch the contact of each wiring terminal in the wiring compartment to prevent electric shock.
+6、 **⚠ 警告** 请勿在带电的情况下插拔接线或触摸接线仓内各接线端子触点，以防发生触电事故。
 
-7. **Notice** Please avoid controlling the output of this product by cutting off the power supply through relays and other devices, which will seriously reduce the life of the controller.
+7、 **注意** 请避免采用通过继电器等设备切断供电的方式来控制本产品的输出，这会严重降低本控制器的寿命。
 
-8. **Notice** The controller is designed to work in a cool and dry environment. Never run the controller outside to avoid soaking and insolation. Operate the controller within the temperature specified electrical characteristic.
+8、 **注意** 本产品设计使用于阴凉干燥环境，请勿将本产品置于室外、可能会浸水、阳光暴晒场所工作，也不要在超过本产品电气特性要求的温度和湿度范围之外工作。
 
-9. **Essential** Be sure to fix this product on a solid platform that is reliably grounded and away from vibrating equipment.
+9、 **要点** 请务必将本产品固定在可靠接地的坚固平台上，并远离振动设备。
 
-10. **Essential** Never operate the controller under the condition that beyond its designed limits.
+10、 **要点** 任何情况下请勿将本产品在超越设计极限状态下工作。
 
-11. **Essential** Operate the controller in accordance with this instruction book strictly. we will not assume any civil or criminal liability if the equipment damage or personal injury is caused by incorrect operation.
+11、 **要点** 任何情况下请不要打开本控制器机壳，以防遭到电击。机壳内部没有可以调节和用户维修部分，请不要试图维修本机，出现故障请致电本公司。
 
-12. **Essential** Never open the controller shell to avoid electric shock. Contact CUH if the controller break down. Never try to repair the controller yourself which may caused void warranty.
+12、 **要点** 请严格按照本手册的说明操作，对于违反这些操作说明所造成的任何人身伤害或财产损失，本公司不承担任何民事和刑事责任。
 
 ---
 
-2026-02　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 5 页
 
-**Automatic Frequency Controller for Vibratory Feeder**                                      **SDVC341-M**
+自动调频振动送料控制器  				SDVC341-M
 
 ---
 
-# Operating and Storage Environment
+# 工作与储存环境
 
-## Inspection Before Using
+## 一、使用前的检查
 
-Every controller will go through rigorous quality inspection before delivery and is packed with crash-proof packaging, Please check the following items after unpacking:
+每台控制器在出厂前，均经过严格的品质检验，并经过强化的防撞包装处理。客户在拆箱后，请即刻进行下列检查：
 
-1. Whether the controller is damaged during transportation.
-2. Whether the model of the controller is that you ordered.
+1. 检查控制器是否在运输过程中受到损伤。
+2. 检查控制器型号是否与订货登记资料完全相同。
 
-## Runtime Environment
+## 二、工作环境
 
-Please follow the notes below to ensure the better performance and longer lifetime of the controller:
+为使本控制器具有更好的使用效果和更长的使用寿命，请将控制器安装在符合下列条件的环境中：
 
-- ❗ Well-ventilated environment
-- ❗ Keep away from water, stream, dust and especially oily dust
-- ❗ Keep away from the corrosive or flammable gas and liquid
-- ❗ Keep away from floating dust and metal particles
-- ❗ Firmly fixed to avoid self vibration
-- ❗ Keep away from electromagnetic interference
-- ❗ Ensure ambient temperature is 0~40 °C
-- ❗ For use at altitude 2000m or lower
+- 良好的通风散热环境
+- 远离水滴、蒸气、灰尘，特别是油性灰尘
+- 无腐蚀、易燃性的气体、液体
+- 无漂浮性的尘埃及金属微粒
+- 安装表面坚固无振动
+- 远离电磁噪声干扰
+- 使用环境温度为0℃到40℃
+- 仅适用于海拔2000m以下地区安全使用
 
 ---
 
-2026-02                                      SDVC341SMSEN_4.01
+2026-02  				SDVC341SMSCN_4.01
 
 
 ### 第 6 页
 
-Automatic Frequency Controller for Vibratory Feeder                                      SDVC341-M
+自动调频振动送料控制器  
+SDVC341-M
 
 ---
 
-
-
----
-
-2026-02                                                                  SDVC341SMSEN_4.01
+2026-02  
+SDVC341SMSCN_4.01
 
 
 ### 第 7 页
 
-Automatic Frequency Controller for Vibratory Feeder                              SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
 ---
 
-# Contents
+# 目　录
 
-**Chapter Ⅰ Instructions Before Use** --------------------------------------------------1
+**第一章 使用前须知** ------------------------------------------------------------ 1
 
-1.1 Check Package Contents----------------------------------------------------------------1
+1.1　检查包装内容 -------------------------------------------------------------- 1
 
-1.2 Manufacturer Nameplate Illustrate ----------------------------------------------------2
+1.2　控制器铭牌说明 ------------------------------------------------------------ 2
 
-1.3 Controller Usage Conditions-----------------------------------------------------------2
+1.3　控制器使用条件 ------------------------------------------------------------ 2
 
-1.4 Remarks--------------------------------------------------------------------------------3
+1.4　说明书导读 ---------------------------------------------------------------- 3
 
-**Chapter Ⅱ Product Introduction**------------------------------------------------------4
+**第二章 产品介绍** -------------------------------------------------------------- 4
 
-2.1 Product Introduction ------------------------------------------------------------------4
+2.1　产品简介 ------------------------------------------------------------------ 4
 
-2.2 Keypad and I/O Ports ------------------------------------------------------------------5
+2.2　控制器外观说明 ------------------------------------------------------------ 5
 
-2.3 Vibration Sensor Installation Guide --------------------------------------------------6
+2.3　振动传感器安装指南 -------------------------------------------------------- 6
 
-2.4 Homepage Parameter Description ------------------------------------------------------7
+2.4　主页参数说明 -------------------------------------------------------------- 7
 
-2.5 Signal Control Ports Definition ------------------------------------------------------7
+2.5　接线端口说明 -------------------------------------------------------------- 7
 
-2.6 Keypad Operation ----------------------------------------------------------------------8
+2.6　控制器面板与按键操作 ------------------------------------------------------ 8
 
-2.7 Operation Interface Rotation Diagram ------------------------------------------------8
+2.7　界面轮转图 ---------------------------------------------------------------- 8
 
-**Chapter Ⅲ Power Wiring and Basic Operation**-----------------------------------------9
+**第三章 简要功能说明** ---------------------------------------------------------- 9
 
-3.1 Power Wiring---------------------------------------------------------------------------9
+3.1　安装 ---------------------------------------------------------------------- 9
 
-3.2 Basic Operation------------------------------------------------------------------------11
+3.2　运行 --------------------------------------------------------------------- 11
 
-**Chapter Ⅳ Detailed Function Introduction**-------------------------------------------13
+**第四章 详细功能说明** --------------------------------------------------------- 13
 
-4.1 Common Parameter Settings -----------------------------------------------------------14
+4.1　常用参数设置 ------------------------------------------------------------- 14
 
-4.1.1 Voltage -----------------------------------------------------------------------------14
+4.1.1　电压 ------------------------------------------------------------------- 14
 
-4.1.2 Frequency ---------------------------------------------------------------------------14
+4.1.2　频率 ------------------------------------------------------------------- 14
 
-4.1.3 Feeding Speed------------------------------------------------------------------------15
+4.1.3　送料速度 --------------------------------------------------------------- 15
 
-4.1.4 Soft Start Time/Soft Stop Time------------------------------------------------------15
+4.1.4　缓启时间/缓关时间 ------------------------------------------------------ 15
 
-4.1.5 Maximum Voltage/Maximum Current --------------------------------------------------15
+4.1.5　最大电压/最大电流 ------------------------------------------------------ 15
 
-4.1.6 Maximum Output Frequency/Minimum Output Frequency--------------------------------15
+4.1.6　最大输出频率/最低输出频率 ---------------------------------------------- 15
 
-4.1.7 Load Detection ----------------------------------------------------------------------16
+4.1.7　负载检测 --------------------------------------------------------------- 16
 
-4.1.8 Shortage Alarm-----------------------------------------------------------------------16
+4.1.8　缺料报警 --------------------------------------------------------------- 16
 
-4.1.9 Shutdown Alarm ----------------------------------------------------------------------16
+4.1.9　停机报警 --------------------------------------------------------------- 16
 
-4.1.10 Backlight Brightness -------------------------------------------------------------16
+4.1.10　背光亮度 ------------------------------------------------------------- 16
 
-4.1.11 Backlight Off-----------------------------------------------------------------------17
+4.1.11　背光熄灭 ------------------------------------------------------------- 17
 
-4.1.12 Language----------------------------------------------------------------------------17
+4.1.12　语言 ----------------------------------------------------------------- 17
 
-4.2 Automatic Resonant Frequency Search -------------------------------------------------17
+4.2　自动搜频 ----------------------------------------------------------------- 17
 
-4.2.1 Frequency Search Interface -------------------------------------------------------17
+4.2.1　搜频界面 --------------------------------------------------------------- 17
 
 ---
 
-2026-02                                                               SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 8 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器                                                                 SDVC341-M
 
-4.3 Constant Feed Speed ----------------------------------------------------------------18
+---
 
-  4.3.1 Central Frequency -------------------------------------------------------------18
+4.3　稳速功能 -------------------------------------------------------------------- 18
 
-  4.3.2 Frequency Offset --------------------------------------------------------------18
+4.3.1　中心频率 ------------------------------------------------------------------ 18
 
-  4.3.3 Frequency Integration ---------------------------------------------------------18
+4.3.2　频率偏移 ------------------------------------------------------------------ 18
 
-  4.3.4 Amplitude Integration ---------------------------------------------------------19
+4.3.3　频率积分 ------------------------------------------------------------------ 18
 
-  4.3.5 Amplitude Ratio ---------------------------------------------------------------19
+4.3.4　幅度积分 ------------------------------------------------------------------ 19
 
-  4.3.6 Auto Phase --------------------------------------------------------------------19
+4.3.5　幅度比例 ------------------------------------------------------------------ 19
 
-  4.3.7 Frequency Searching Process Current -------------------------------------------19
+4.3.6　自动相位 ------------------------------------------------------------------ 19
 
-  4.3.8 Frequency Searching Process Amplitude -----------------------------------------19
+4.3.7　搜频电流 ------------------------------------------------------------------ 19
 
-  4.3.9 Maximum Feed Speed ------------------------------------------------------------19
+4.3.8　搜频振幅 ------------------------------------------------------------------ 19
 
-  4.3.10 Slave Controller Phase Offset ------------------------------------------------19
+4.3.9　料速最大 ------------------------------------------------------------------ 19
 
-  4.3.11 Output Voltage Control Mode --------------------------------------------------20
+4.3.10　手动相位 ---------------------------------------------------------------- 19
 
-  4.3.12 Output Frequency Control Mode ------------------------------------------------20
+4.3.11　电压模式 ---------------------------------------------------------------- 20
 
-  4.3.13 Sync Source ------------------------------------------------------------------20
+4.3.12　频率模式 ---------------------------------------------------------------- 20
 
-  4.3.14 Vibration Sensor Type --------------------------------------------------------20
+4.3.13　同步源 ------------------------------------------------------------------ 20
 
-  4.3.15 Auto Resonant Frequency Search Speed ----------------------------------------20
+4.3.14　传感器类 ---------------------------------------------------------------- 20
 
-4.4 Output Parameters ------------------------------------------------------------------21
+4.3.15　搜频速度 ---------------------------------------------------------------- 20
 
-  4.4.1 Main Output Parameters --------------------------------------------------------21
+4.4　控制输出功能 ---------------------------------------------------------------- 21
 
-  4.4.2 DC Control Output Parameters --------------------------------------------------28
+4.4.1 主输出参数 ---------------------------------------------------------------- 21
 
-4.5 Signal Control ---------------------------------------------------------------------30
+4.4.2 控制输出参数 -------------------------------------------------------------- 28
 
-  4.5.1 Sensor Type -------------------------------------------------------------------30
+4.5　信号控制功能 ---------------------------------------------------------------- 30
 
-  4.5.2 C Port/E Port Logic -----------------------------------------------------------31
+4.5.1 端口类型 ------------------------------------------------------------------ 30
 
-  4.5.3 C Port On/Off Delay and E Port On/Off Delay ----------------------------------31
+4.5.2 C口方向/E口方向 ----------------------------------------------------------- 31
 
-  4.5.4 Speed A Logic/Speed B Logic ---------------------------------------------------32
+4.5.3 C开延时/C关延时和E开延时/E关延时 ---------------------------------------- 31
 
-  4.5.5 Speed A On/Off Delay and Speed B On/Off Delay --------------------------------32
+4.5.4 速A方向/速B方向 ----------------------------------------------------------- 32
 
-4.6 Material Quantity Counting----------------------------------------------------------33
+4.5.5 速A开延/速A关延和速B开延/速B关延 ---------------------------------------- 32
 
-  4.6.1 Material Quantity Counting (or Speed A/B) -------------------------------------33
+4.6　计数功能 -------------------------------------------------------------------- 33
 
-  4.6.2 Target Quantity ---------------------------------------------------------------34
+4.6.1 计数功能（或速度A/B） ----------------------------------------------------- 33
 
-  4.6.3 Terminal Speed ----------------------------------------------------------------34
+4.6.2 计数总数 ------------------------------------------------------------------ 34
 
-  4.6.4 Terminal Speed Quantity -------------------------------------------------------35
+4.6.3 末段速度 ------------------------------------------------------------------ 34
 
-  4.6.5 Reset Counting Value to 0 -----------------------------------------------------35
+4.6.4 末端数量 ------------------------------------------------------------------ 35
 
-  4.6.6 RS Priority -------------------------------------------------------------------35
+4.6.5 计数清零 ------------------------------------------------------------------ 35
 
-2026-02　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+4.6.6 RS优先级 ----------------------------------------------------------------- 35
+
+---
+
+2026-02                                                                 SDVC341SMSCN_4.01
 
 
 ### 第 9 页
 
-Automatic Frequency Controller for Vibratory Feeder                                      SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-4.7 Save Settings ----------------------------------------------------------------36
+---
 
-&nbsp;&nbsp;&nbsp;&nbsp;4.7.1 Callback Settings ----------------------------------------------------------36
+4.7　用户参数保存功能 ----------------------------------------------------------------36
 
-&nbsp;&nbsp;&nbsp;&nbsp;4.7.2 Save Settings---------------------------------------------------------------36
+　　4.7.1 读出参数 --------------------------------------------------------------------36
 
-&nbsp;&nbsp;&nbsp;&nbsp;4.7.3 Restore Factory-------------------------------------------------------------37
+　　4.7.2 保存参数 --------------------------------------------------------------------36
 
-&nbsp;&nbsp;&nbsp;&nbsp;4.7.4 Copy Settings --------------------------------------------------------------37
+　　4.7.3 复位参数 --------------------------------------------------------------------37
 
-&nbsp;&nbsp;&nbsp;&nbsp;4.7.5 User Password -------------------------------------------------------------37
+　　4.7.4 拷贝参数 --------------------------------------------------------------------37
 
-&nbsp;&nbsp;&nbsp;&nbsp;4.7.6 Enter Password-------------------------------------------------------------37
+　　4.7.5 用户密码 --------------------------------------------------------------------37
 
-4.8 RS485 Communication-----------------------------------------------------------38
+　　4.7.6 输入密码 --------------------------------------------------------------------37
 
-&nbsp;&nbsp;&nbsp;&nbsp;4.8.1 Communication Type --------------------------------------------------------38
+4.8　RS485通讯功能 -------------------------------------------------------------------38
 
-&nbsp;&nbsp;&nbsp;&nbsp;4.8.2 Baud Rate------------------------------------------------------------------39
+　　4.8.1 通信类型 --------------------------------------------------------------------38
 
-&nbsp;&nbsp;&nbsp;&nbsp;4.8.3 Slave Controller Address---------------------------------------------------39
+　　4.8.2 波特率 ----------------------------------------------------------------------39
 
-&nbsp;&nbsp;&nbsp;&nbsp;4.8.4 Port Resistance/Synchronous Resistance-------------------------------------39
+　　4.8.3 从机号 ----------------------------------------------------------------------39
 
-4.9 CUHBus-DS® Networking---------------------------------------------------------40
+　　4.8.4 端口电阻/同步电阻 ----------------------------------------------------------39
 
-&nbsp;&nbsp;&nbsp;&nbsp;4.9.1 Device Networking ---------------------------------------------------------41
+4.9　CUHBus-DS®组网功能 -------------------------------------------------------------40
 
-&nbsp;&nbsp;&nbsp;&nbsp;4.9.2 Sync Function--------------------------------------------------------------45
+　　4.9.1 设备组网 --------------------------------------------------------------------41
 
-&nbsp;&nbsp;&nbsp;&nbsp;4.9.3 Signal Sharing ------------------------------------------------------------51
+　　4.9.2 同步功能 --------------------------------------------------------------------45
 
-&nbsp;&nbsp;&nbsp;&nbsp;4.9.4 Data Backup----------------------------------------------------------------53
+　　4.9.3 信号共享功能 ----------------------------------------------------------------51
 
-&nbsp;&nbsp;&nbsp;&nbsp;4.9.5 Remote Control Data--------------------------------------------------------54
+　　4.9.4 数据备份功能 ----------------------------------------------------------------53
 
-4.10 Controller Status Monitoring ------------------------------------------------54
+　　4.9.5 遥控数据 --------------------------------------------------------------------54
 
-4.11 Error Log -------------------------------------------------------------------55
+4.10　系统运行监控功能 ---------------------------------------------------------------54
 
-4.12 Customize Homepage ----------------------------------------------------------55
+4.11　运行故障日志查询 ---------------------------------------------------------------55
 
-**Chapter Ⅴ Typical Applications** ----------------------------------------------56
+4.12　自定义主页 ----------------------------------------------------------------------55
 
-&nbsp;&nbsp;&nbsp;&nbsp;5.1 How to keep two vibratory feeders running at the same frequency? ------------56
+**第五章 典型应用** -------------------------------------------------------------------56
 
-&nbsp;&nbsp;&nbsp;&nbsp;5.2 How to trun on/off controller B via a sensor connected to controller A? -----57
+　　5.1　如何实现两台振动盘保持频率一致运行？ -----------------------------------56
 
-&nbsp;&nbsp;&nbsp;&nbsp;5.3 How to turn on/off two controllers simultaneously?---------------------------58
+　　5.2　如何实现一台控制器的C口传感器信号控制另外一台控制器的启停？ ------57
 
-**Chapter Ⅵ Frequently Asked Questions**-----------------------------------------59
+　　5.3　如何实现一台直振控制器和圆盘控制器保持同步启停？ --------------------58
 
-&nbsp;&nbsp;&nbsp;&nbsp;6.1 No display upon power on ----------------------------------------------------59
+**第六章 常见问题解答** --------------------------------------------------------------59
 
-&nbsp;&nbsp;&nbsp;&nbsp;6.2 No vibration, no noise, normal controller display ---------------------------59
+　　6.1　打开开关，没有显示 ----------------------------------------------------------59
 
-&nbsp;&nbsp;&nbsp;&nbsp;6.3 Control signal does not work-------------------------------------------------59
+　　6.2　有显示，但是振动盘不动，也没有声音 --------------------------------------59
 
-&nbsp;&nbsp;&nbsp;&nbsp;6.4 No vibration, normal noise, controller display is normal --------------------59
+　　6.3　控制信号不起作用 ------------------------------------------------------------59
 
-&nbsp;&nbsp;&nbsp;&nbsp;6.5 Unstable resonant frequency tracking-----------------------------------------59
+　　6.4　有显示，振动盘不动，但是可以听到声音 -----------------------------------59
 
-&nbsp;&nbsp;&nbsp;&nbsp;6.6 Slow speed correction in constant feed speed control ------------------------60
+　　6.5　控制器频率跟踪不稳定 -------------------------------------------------------59
 
-2026-02                                                                    SDVC341SMSEN_4.01
+　　6.6　使用稳速功能，但振动盘速度恢复较慢 --------------------------------------60
+
+---
+
+2026-02　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 10 页
 
-Automatic Frequency Controller for Vibratory Feeder          SDVC341-M
+自动调频振动送料控制器                                      SDVC341-M
 
 ---
 
-6.7 How to quickly reset the controller to factory default -------------------------60
+6.7  如何实现控制器快速恢复出厂设置 -------------------------------------------------60
 
-**Chapter Ⅶ Appendix** ------------------------------------------------------------------------61
+**第七章 附录** ------------------------------------------------------------------------61
 
-&nbsp;&nbsp;&nbsp;&nbsp;7.1 Dimensions -------------------------------------------------------------------------------61
+7.1  外形尺寸图 ------------------------------------------------------------------------61
 
-&nbsp;&nbsp;&nbsp;&nbsp;7.2 Technical Specifications---------------------------------------------------------------62
+7.2  技术规格表 ------------------------------------------------------------------------62
 
-&nbsp;&nbsp;&nbsp;&nbsp;7.3 Reference Standard---------------------------------------------------------------------63
+7.3  参考标准 --------------------------------------------------------------------------63
 
-&nbsp;&nbsp;&nbsp;&nbsp;7.4 Parameter List----------------------------------------------------------------------------64
+7.4  参数列表 --------------------------------------------------------------------------64
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.4.1 Interface Parameter Group -----------------------------------------------------64
+&nbsp;&nbsp;&nbsp;&nbsp;7.4.1 界面参数组 ------------------------------------------------------------------64
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.4.2 Common Parameter Group-----------------------------------------------------65
+&nbsp;&nbsp;&nbsp;&nbsp;7.4.2 常用参数组 ------------------------------------------------------------------65
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.4.3 Main Output Parameter Group ------------------------------------------------66
+&nbsp;&nbsp;&nbsp;&nbsp;7.4.3 主输出参数组 ----------------------------------------------------------------66
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.4.4 Steady Speed Parameter Group-----------------------------------------------67
+&nbsp;&nbsp;&nbsp;&nbsp;7.4.4 稳速参数组 ------------------------------------------------------------------67
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.4.5 Signal Input Parameter Group-------------------------------------------------68
+&nbsp;&nbsp;&nbsp;&nbsp;7.4.5 信号输入参数组 --------------------------------------------------------------68
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.4.6 Control Output Parameter Group---------------------------------------------69
+&nbsp;&nbsp;&nbsp;&nbsp;7.4.6 控制输出参数组 --------------------------------------------------------------69
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.4.7 DC Counting Parameter Group ------------------------------------------------70
+&nbsp;&nbsp;&nbsp;&nbsp;7.4.7 计数参数组 ------------------------------------------------------------------70
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.4.8 Communication Parameter Group -------------------------------------------71
+&nbsp;&nbsp;&nbsp;&nbsp;7.4.8 通信参数组 ------------------------------------------------------------------71
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.4.9 Save Settings Group--------------------------------------------------------------72
+&nbsp;&nbsp;&nbsp;&nbsp;7.4.9 保存参数组 ------------------------------------------------------------------72
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.4.10 Monitoring Parameter Group-------------------------------------------------73
+&nbsp;&nbsp;&nbsp;&nbsp;7.4.10 监控参数组 -----------------------------------------------------------------73
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.4.11 Attached List----------------------------------------------------------------------75
+&nbsp;&nbsp;&nbsp;&nbsp;7.4.11 附表 -----------------------------------------------------------------------75
 
-&nbsp;&nbsp;&nbsp;&nbsp;7.5 Input and Output Circuit Diagrams -------------------------------------------------76
+7.5  输入输出电路图 --------------------------------------------------------------------76
 
-&nbsp;&nbsp;&nbsp;&nbsp;7.6 Error Code---------------------------------------------------------------------------------78
+7.6  故障代码 --------------------------------------------------------------------------78
 
-&nbsp;&nbsp;&nbsp;&nbsp;7.7 Warning Code ----------------------------------------------------------------------------79
+7.7  警告代码 --------------------------------------------------------------------------79
 
-**Chapter Ⅷ Product Warranty Information**-------------------------------------80
+**第八章 产品质保信息** ---------------------------------------------------------------80
 
-&nbsp;&nbsp;&nbsp;&nbsp;8.1 Warranty Period -------------------------------------------------------------------------80
+8.1  质保期 ----------------------------------------------------------------------------80
 
-&nbsp;&nbsp;&nbsp;&nbsp;8.2 Warranty Coverage----------------------------------------------------------------------80
+8.2  保修范围 --------------------------------------------------------------------------80
 
-&nbsp;&nbsp;&nbsp;&nbsp;8.3 Product Suitability----------------------------------------------------------------------80
+8.3  产品适用性 ------------------------------------------------------------------------80
 
 ---
 
-2026-02                  SDVC341SMSEN_4.01
+2026-02                                      SDVC341SMSCN_4.01
 
 
 ### 第 11 页
 
-Automatic Frequency Controller for Vibratory Feeder  SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-# Chapter Ⅰ Instructions Before Use
+# 第一章 使用前须知
 
-This chapter introduces the product packaging contents, controller appearance description, and controller nameplate information.
+本章节介绍产品包装内容、控制器外观说明和控制器铭牌信息。
 
-## 1.1 Check Package Contents
+## 1.1 检查包装内容
 
-Before using, please check the integrity of the controller and accessories. If you find that the product is defective or damaged, missing accessories, etc., please contact our company.
+使用本产品之前，请检查控制器及附件的完整性。如果发现产品有缺陷或已损坏、附件缺失等问题，请与本公司联系。
 
-![Package contents illustration showing controller, user manual, output cable, input power cord, and vibration sensor](assets/images/cuh.sdvc34.manual.v0.0/page-0011-vcrop-00.png)
+![包装内容示意图：控制器、简易说明书、输出线、输入电源线、加速度传感器](assets/images/cuh.sdvc34.manual.v0.0/page-0011-vcrop-00.png)
 
-Package contents shown:
+包装内容：
 
-- Controller×1
-- User Manual×1
-- Output Cable×1
-- Input Power Cord×1
-- Vibration Sensor×1
+- 控制器×1
+- 简易说明书×1
+- 输出线×1
+- 输入电源线×1
+- 加速度传感器×1
 
 ---
 
-2026-02  - 1 -  SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　- 1 -　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 12 页
 
-## 1.2 Manufacturer Nameplate Illustrate
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-![Manufacturer nameplate illustration with arrows, QR code, serial number, specifications, and manufacturer address](assets/images/cuh.sdvc34.manual.v0.0/page-0012-vcrop-00.png)
+---
 
-Nameplate information shown in the illustration:
+## 1.2 控制器铭牌说明
 
-- Product model: **Model: SDVC341-M**
-- Product name: **Automatic Frequency Controller for Vibratory Feeder**
-- Specifications:
-  - Input Voltage Range: **85~250VAC**
-  - Output Frequency Range: **5.0~999.9Hz**
-  - Max Output Current: **3.0A**
-  - Max Output Power: **660VA**
-  - For use at altitude **2000m or lower**
-- Manufacturer and address:
-  - **Nanjing CUH Science & Technology Co., Ltd**
-  - Add.: **Building 2, Xueyan Tech Park, Tuscity, No.9 Zhineng Rd, Jiangning, Nanjing, China**
-- Serial Number Description: **INS01-202111026db6-010067032BF**
-  - Date of manufacturer: **20211102**
+![控制器铭牌说明示意图，包含铭牌外观、二维码、产品型号/基本参数/制造单位及地址/产品序列号等箭头标注。](assets/images/cuh.sdvc34.manual.v0.0/page-0012-vcrop-00.png)
 
-## 1.3 Controller Usage Conditions
+**铭牌标注说明：**
 
-The controller is powered by AC 85V~250V and is connected to a protective ground through the plug of the power cord. Please use a standard mains power supply and ensure that the protective ground wire is correctly connected.
+- 产品型号
+- 产品基本参数
+- 制造单位及地址
+- 产品序列号
+- 产品序列号说明
+- 生产日期
 
-> ⚠️ **Warn**  
-> Never connect the controller to 380V AC power, this will cause irreversible serious damage to the controller, possibly resulting in explosion, fire and other safety incidents.
+**铭牌内容：**
 
-> ⚠️ **Warn**  
-> Ensure that the power supply side is reliably grounded. The metal casing of the controller is directly connected to the protective grounding wire. Poor grounding will cause the controller casing to be electrified and cause an electric shock accident.
+| 项目 | 内容 |
+|---|---|
+| 产品名称 | 自动调频振动送料控制器 |
+| 型号 | SDVC341-M |
+| 输入电压范围 | 85～250VAC |
+| 输出频率范围 | 5.0～999.9Hz |
+| 最大输出电流 | 3.0A |
+| 最大输出功率 | 660VA |
+| 使用限制 | 限海拔2000米以下地区使用 |
+| 制造单位及地址 | 南京创优科技有限责任公司　地址:南京市江宁区智能路9号启迪城学研园2幢 |
+| 产品序列号 | INS01-202111026db6-010067032BF |
 
-> **Notice**  
-> Long time running will generate heat and cause the temperature of the casing to rise. Please install the controller in a well-ventilated environment and fix it well, away from vibration sources.
+## 1.3 控制器使用条件
 
-> **Notice**  
-> This product is a controller used to drive the electromagnet. It must not be connected to a piezoelectric vibratory feeder.
+本产品是使用交流85V~250V供电的设备，且通过电源线三爪插头进行保护接地连接，请使用符合标准的市电供电，并确保保护地线已正确连接。
+
+> ⚠️ **警告**　切不可将控制器连接到380V交流电，这将造成控制器不可恢复的严重损坏，有可能导致爆炸、火灾等安全事故。
+
+> ⚠️ **警告**　确保供电侧可靠接地，控制器的金属外壳是与保护接地线直接连接的，接地不良会导致控制器外壳带电，引发触电事故。
+
+> **注意**　控制器长时间工作会产生热量致使外壳温度升高，当温度超过65℃后控制器将过热保护，停止主输出，请将控制器安装在通风良好的环境中，并将其固定好，远离振动源。
+
+> **注意**　本产品是用来驱动电磁铁的控制器，切不可连接压电振动盘。
+
+---
+
+2026-02　　　　　　　　　　　　　　　　　- 2 -　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 13 页
 
-Automatic Frequency Controller for Vibratory Feeder  
-SDVC341-M
+自动调频振动送料控制器                                                            SDVC341-M
 
 ---
 
-## 1.4 Remarks
+## 1.4 说明书导读
 
-The use manual is approximately 28000 words long and is expected to take you one hour to read through.
+◆ 本说明书约28000字，通读预计花费您一个小时。
 
-◆ Please read this manual carefully before use to prevent damage to the controller due to improper operation.
+◆ 请于使用前详细阅读本说明书，防止因操作不当造成控制器损坏。
 
-◆ Users can quickly locate the relevant functions and operation methods of the controller according to the manual directory.
+◆ 使用者可以根据说明书目录快速定位控制器相关功能及其操作办法。
 
-◆ The subheadings of chapters and the emphasized text in the text are the actual display parameter items of the controller, such as voltage.
+◆ 章节小标题及文本内加重字体文字皆为控制器实际显示参数条目，如电压。
 
-◆ Users can refer to "Chapter Ⅴ Typical Applications" to quickly get started with this controller.
+◆ 使用者可以参考《第五章 典型应用》章节快速上手本控制器。
 
-◆ Users can quickly search for function tag codes in the section "7.4 Parameter List".
+◆ 使用者可以在《7.4 参数列表》章节内快速查询功能标签代码。
 
-◆ Pressing ⊕ and ⊖ simultaneously indicates confirmation.
+◆ 同时按 ⊕ 和 ⊖，表示确认。
 
 ---
 
-2026-02　　　　　　　　　　　　　- 3 -　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02                                                            - 3 -                                                            SDVC341SMSCN_4.01
 
 
 ### 第 14 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　SDVC341-M
 
----
+# 第二章 产品介绍
 
-# Chapter Ⅱ Product Introduction
+本章节主要内容包括本产品的简单介绍和主要特色功能。
 
-The main content of this chapter includes a brief introduction and main features of this product.
+## 2.1 产品简介
 
-## 2.1 Product Introduction
+SDVC341系列自动调频振动送料控制器是一款专为高端送料系统设计的产品，通过采用最新的电子技术和信号处理方法，提供独特的性能。其特色功能包括：
 
-SDVC341 series Automatic Frequency Controller for Vibratory Feeder is a product specially designed for high-end feeding systems.
+- 具备PFC功率校正升压功能，在85~250V输入电压范围内均支持最大输出电压250V。
+- 可以进行“刹车”以快速停止振动盘。
+- 可以通过CUHBus-DS®通讯实现同步、备份和恢复各控制器的遥控电压、频率、相位等参数。
+- 可以通过CUHBus-DS®通讯使用其他控制器端口的信号进行逻辑控制。
+- 可以不需要额外加装传感器而实现缺料报警功能。
+- 可以通过振动盘发出可选音符的声音提示。
+- 扩展输出频率到5Hz~999.9Hz。
+- 模拟调速端口支持0~5V、1~5V、0~10V、4~20mA等模式。
+- 具备计数功能，包括计数减速和计数停止。
+- 改进的恒振幅搜频，保证两个间隙很小的振动盘在搜频过程中不相撞。
+- 支持RS485 Modbus ASCII、RS485 Modbus RTU协议。
+- 可以通过RS485接口进行软件升级。
+- 采用128*128分辨率液晶显示，并支持中、英、德三种语言。
+- 检测负载电流特征，帮助用户故障诊断。
+- 故障码可存储最近发生的64条故障日志。
 
-Unique performance is provided by using the latest electronic technology and signal processing methods. Its special features include:
-
-- Equipped with PFC power factor correction boost function, supporting the maximum output voltage of 250V within the input voltage range of 85~250V.
-- Brake can be applied to quickly stop the vibratory feeder.
-- Available via CUHBus-DS® Communication realizes synchronization, backup, and recovery of remote control voltage, frequency, phase, and other parameters for each controller.
-- Signals from other controller ports can be used for logic control via CUHBus-DS® communication.
-- The material shortage alarm function can be realized without installing additional sensors.
-- Sound cues for selectable notes can be emitted via the vibratory feeder.
-- Extend the output frequency to 5Hz~999.9Hz.
-- The analog speed control port supports 0~5V, 1~5V, 0~10V, 4~20mA and other modes.
-- Equipped with counting function, including counting deceleration and counting stop.
-- The improved constant amplitude frequency search ensures that two vibratory feeders with a small gap will not collide during the frequency search process.
-- Supports RS485 Modbus ASCII and RS485 Modbus RTU protocols.
-- Software upgrade can be performed through the RS485 interface.
-- It adopts 128 * 128 resolution LCD display and supports three languages: Chinese, English, and German.
-- Detect load current characteristics to help users diagnose faults.
-- The fault code can store the latest 64 fault logs.
-
----
-
-2026-02　　　　　　　　　　　　　　　　　- 4 -　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　- 4 -　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 15 页
 
-Automatic Frequency Controller for Vibratory Feeder — SDVC341-M
+## 2.2 控制器外观说明
 
-## 2.2 Keypad and I/O Ports
+### 视窗及按键说明
 
-### Window and Buttons Explanation
+![控制器视窗及按键说明示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0015-vcrop-00.png)
 
-![Keypad window and button layout with callouts](assets/images/cuh.sdvc34.manual.v0.0/page-0015-vcrop-00.png)
+- **128*128点阵屏**：显示参数符号及其数值。
+- **加、减键**：用于参数值的修改。
+- **上、下键**：用于在参数组内切换上一个或者下一个参数。
+- **左、右键**：用于切换参数组，以及切换不同的日志界面。
+- **电源键**：短按启动/停止输出；长按锁定键盘。
 
-| Item | Explanation |
-|---|---|
-| Increase & Decrease Buttons | Used to modify parameter values. |
-| Up & Down Buttons | Used to switch to the previous or next parameter within the parameter group. |
-| Left & Right Buttons | Used to switch parameter groups and switch between different log interfaces. |
-| 128 * 128 dot matrix screen | Displays parameter symbols and their values. |
-| ON/OFF Button | Short press to start/stop output, Long press to lock the keyboard. |
+### 外部部件说明
 
-### External Parts Explanation
+![控制器外部部件说明示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0015-vcrop-01.png)
 
-![External parts and I/O port locations on controller](assets/images/cuh.sdvc34.manual.v0.0/page-0015-vcrop-01.png)
-
-| External part | Label shown in figure |
-|---|---|
-| Vibration Sensor Socket | Vibration Sensor Socket |
-| Input Power Socket | Input Power Socket |
-| Power Switch | Power Switch |
-| Output Power Socket | Output Power Socket |
+- **振动传感器插座**
+- **电源输入航空插座**
+- **电源开关**
+- **输出航空插座**
 
 
 ### 第 16 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
----
+## 2.3 振动传感器安装指南
 
-## 2.3 Vibration Sensor Installation Guide
+用螺丝将振动传感器安装在牢固、平整的表面，方向角度等可以任意选择。建议安装位置及安装方法如下：
 
-Fix Vibration Sensor to the smooth surface of vibrator and Installation direction arbitrary, and installation methods of Vibration Sensor are shown as below:
+- 方式1，见图 2.3.1。  
+  优点：安装简便。
 
-- Method 1: As shown in Fig. 2.3.1  
-  Advantage: Easy installation
+![图 2.3.1：振动传感器安装方式1示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0016-vcrop-00.png)
 
-- Method 2: As shown in Fig. 2.3.2  
-  Note: Don't make the vibration sensor pressed by feeding bowl.
+- 方式2，见图 2.3.2。  
+  注意事项：需避免料盘压到振动传感器。
 
-- Method 3: weld a bracket on the vibrator and fix the vibration sensor on the bracket. As shown in Fig. 2.3.3  
-  Recommended Dimensions of bracket of Vibration is shown in Fig.2.3.4.
+![图 2.3.2：振动传感器安装方式2示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0016-vcrop-01.png)
 
-![Fig. 2.3.1 to Fig. 2.3.4: recommended vibration sensor installation methods and bracket dimensions, unit: mm.](assets/images/cuh.sdvc34.manual.v0.0/page-0016-vcrop-00.png)
+- 方式3，在料盘上焊接一个支架，将振动传感器安装在支架上，见图 2.3.3。  
+  振动传感器支架建议尺寸见图2.3.4。
 
-- Not recommend installation method, As shown in Fig. 2.3.5 and Fig. 2.3.6.  
-  If the installation location is not suitable, the vibration sensor can't feedback the resonant frequency accurately and the controller will execute searching the resonant frequency all along.
+![图 2.3.3：在料盘支架上安装振动传感器示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0016-vcrop-02.png)
 
-![Fig. 2.3.5 and Fig. 2.3.6: not recommended vibration sensor installation methods, marked with X.](assets/images/cuh.sdvc34.manual.v0.0/page-0016-vcrop-01.png)
+![图 2.3.4：振动传感器支架建议尺寸，单位 mm](assets/images/cuh.sdvc34.manual.v0.0/page-0016-vcrop-03.png)
 
----
+- 不推荐安装方式，见图 2.3.5、图 2.3.6。  
+  原因：容易受物料、料盘干扰，不能准确的反映出振动盘谐振点，控制器可能会一直处于搜频状态，导致无法稳定送料。
 
-2026-02　　　　　　　　　　　　　　- 6 -　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+![图 2.3.5：不推荐的振动传感器安装方式示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0016-vcrop-04.png)
+
+![图 2.3.6：不推荐的振动传感器安装方式示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0016-vcrop-05.png)
+
+2026-02　　　　　　　　　　　　　　　　　- 6 -　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 17 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　SDVC341-M
 
-## 2.4 Homepage Parameter Description
+## 2.4 主页参数说明
 
-The controller can display the main output status, keyboard lock status, port status, monitoring parameters, and interface name on the homepage. Within the port status: Highlighting X indicates that the port is valid. X indicates that the port is valid at low level, and X indicates that the port is valid at high level.
+控制器在主页下能够显示主输出状态、键盘锁状态、端口状态、监控参数和界面名称等状态。其中端口状态内：
 
-![Homepage parameter description diagram with two display examples and callout arrows](assets/images/cuh.sdvc34.manual.v0.0/page-0017-vcrop-00.png)
+`X` 高亮表示该端口有效，`X` 表该端口低电平有效，`X` 表该端口高电平有效。
 
-Diagram labels shown:
+![主页参数说明的控制器主页界面标注示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0017-vcrop-00.png)
 
-- Main output status
-- Port status
-- A: Network Status, 0: Device number
-- Monitoring parameters 1
-- Monitoring parameters 2  
-  Inverse selection indicates that the parameter value is adjustable and the main output voltage can be changed.
-- +/- Parameter Adjustment
-- Interface name
-- Monitoring parameters 1  
-  The check box indicates that the parameter value can be adjusted, but the output voltage cannot be changed because the acceleration sensor is not connected.
+主页界面标注说明：
 
-Example homepage values shown:
-
-| Item | Displayed content |
+| 标注 | 说明 |
 |---|---|
-| Main output status | RUN |
-| Port status | A C D E F G N J |
-| Network / device number | A0 |
-| Monitoring parameter 1 | UserSped / P2.01 / 200 |
-| Monitoring parameter 2 | UserVoltg / P2.02 / V / 150 |
-| Interface name | Home |
-| Parameter adjustment keys | + / - |
+| 主输出状态 | 显示当前主输出运行状态 |
+| 端口状态 | 显示 A、C、D、E、F、G、N、J 等端口状态 |
+| `+\-` 参数调节 | 主页底部的参数调节按键提示 |
+| 界面名称 | 显示当前界面名称，如“主页” |
+| `A: 网络状态, 0: 设备编号` | 右上角状态位说明 |
+| 监控参数1 | 示例为“送料速度 / P2.01 / 200” |
+| 监控参数2 | 示例为“电压 / P2.02 / 150 V” |
+| 反选表示参数值可调，可改变主输出电压 | 上方示例中数值反白显示 |
+| 选框表示参数值可调，但不可改变输出电压，因为没有接入加速度传感器 | 下方示例中数值以选框显示 |
 
-## 2.5 Signal Control Ports Definition
+## 2.5 接线端口说明
 
-![Signal control ports definition terminal wiring diagram](assets/images/cuh.sdvc34.manual.v0.0/page-0017-vcrop-01.png)
+![接线端口说明端子排示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0017-vcrop-01.png)
 
-| Side | Function group | Port | Definition |
-|---|---|---|---|
-| Left | Digital Sync | T1 | Sync+ |
-| Left | Digital Sync | T2 | GND |
-| Left | Digital Sync | T3 | Sync- |
-| Left | Remote Speed Ctrl | A1 | RGND |
-| Left | Remote Speed Ctrl | A2 | Input |
-| Left | Remote Speed Ctrl | A3 | 5V Output |
-| Left | Remote Speed Ctrl | A4 | GND |
-| Left | Sensor | C1 | GND |
-| Left | Sensor | C2 | Input |
-| Left | Sensor | C3 | 24V Output |
-| Left | Sensor II | E1 | GND |
-| Left | Sensor II | E2 | Input |
-| Left | Sensor II | E3 | 24V Output |
-| Right | Digital Sync | T1 | Sync+ |
-| Right | Digital Sync | T2 | GND |
-| Right | Digital Sync | T3 | Sync- |
-| Right | Count/Speed Preset | N1 | GND |
-| Right | Count/Speed Preset | G | Count/Pset A |
-| Right | Count/Speed Preset | N | Reset/Pset B |
-| Right | Count/Speed Preset | N4 | 24V Output |
-| Right | RS485 | F2 | A+ |
-| Right | RS485 | F3 | GND |
-| Right | RS485 | F4 | B- |
-| Right | Ctrl Out | D3 | GND |
-| Right | Ctrl Out | D1 | Output |
-| Right | Ctrl Out | D2 | 24V Output |
+接线端口对应关系：
 
-2026-02　　　　　　　　　　　　　　　　- 7 -　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+| 左侧功能组 | 左侧端子 | 左侧端子功能 | 右侧端子功能 | 右侧端子 | 右侧功能组 |
+|---|---:|---|---|---:|---|
+| 数字同步 | T1 | 同步+ | 同步+ | T1 | 数字同步 |
+| 数字同步 | T2 | 地线 | 地线 | T2 | 数字同步 |
+| 数字同步 | T3 | 同步- | 同步- | T3 | 数字同步 |
+| 遥控调速 | A1 | 电阻地 | 地线 | N1 | 计数/速度预设 |
+| 遥控调速 | A2 | 输入 | 计数/速度A | G | 计数/速度预设 |
+| 遥控调速 | A3 | 5V 输出 | 复位/速度B | N | 计数/速度预设 |
+| 遥控调速 | A4 | 地线 | 24V输出 | N4 | 计数/速度预设 |
+| 料满停机 | C1 | 地线 | A+ | F2 | 485通讯 |
+| 料满停机 | C2 | 输入 | 地线 | F3 | 485通讯 |
+| 料满停机 | C3 | 24V 输出 | B- | F4 | 485通讯 |
+| 料满停机 | E1 | 地线 | 地线 | D3 | 控制输出 |
+| 料满停机 | E2 | 输入 | 输出 | D1 | 控制输出 |
+| 料满停机 | E3 | 24V 输出 | 24V输出 | D2 | 控制输出 |
+
+2026-02　　　　　　　　　- 7 -　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 18 页
 
-Automatic Frequency Controller for Vibratory Feeder                                                             SDVC341-M
+## 2.6 控制器面板与按键操作
 
----
+<!-- 页眉：自动调频振动送料控制器　SDVC341-M -->
 
-## 2.6 Keypad Operation
+ a. 本控制器采用 128*128 点阵屏显示参数内容。
 
-a. This controller uses a 128 * 128 dot matrix screen to display parameter content.
+ b. 本控制器采用七键操作，其中 ⊕ 和 ⊖ 根据按下时间分为短按、长按、一级加速和二级加速，⊕ 和 ⊖ 主要功能是修改参数值。
 
-b. According to the time of pressing the button, the button actions are divided into short press, long press, first level acceleration, and second level acceleration.
+ c. 通过短按 ◀ 或 ▶，在参数设置界面内切换上/下个参数组。
 
-[Short press]: Press for more than 0.1 seconds but less than 0.5 seconds.
+ d. 通过短按 ▲ 或 ▼，在参数设置界面内切换本组参数的上/下个参数。
 
-[Long press]: Press for more than 2 seconds.
+ e. 短按 ⏻ 暂停/恢复主输出，长按锁定/解锁键盘。
 
-[Level 1 acceleration]: Press for more than 0.5 seconds but less than 2 seconds.
+ f. 通过以下组合按键进入不同参数组：
 
-[Level 2 acceleration]: Press for more than 2 seconds.
+ - 长按 ▲ + ▼，进入或退出搜频界面。
+ - 长按 ▲ + ◀，进入或退出参数设置界面。
+ - 长按 ▲ + ▶，进入或退出日志界面。
 
-c. ⊕ and ⊖ its main function is to modify parameter values.
+ g. 根据按键按下时间，按键动作分短按、长按、一级加速和二级加速。
 
-d. Switch between the upper and lower parameter groups in the parameter settings interface by short pressing ◀ or ▶.
+ 【短按】：按下时间大于 0.1 秒小于 0.5 秒。
 
-e. Switch between the upper and lower parameters of this group in the parameter setting interface by short pressing ▲ or ▼.
+ 【长按】：按下时间大于 2 秒。
 
-f. Short press ⏻ to start/stop main output, long press ⏻ to lock/unlock keyboard.
+ 【一级加速】：按下时间大于 0.5 秒小于 2 秒。
 
-g. Enter different parameter groups through the following combination of buttons:
+ 【二级加速】：按下时间大于 2 秒。
 
-Long press ▲+▼, Enter or exit the frequency search interface.
+## 2.7 界面轮转图
 
-Long press ▲+◀, Enter or exit the parameter setting interface.
+任意界面下，长按 **▲ + ▶** 进入 **日志界面**，再次长按，退出到 **主界面**
 
-Long press ▲+▶, Enter or exit the log interface.
+任意界面下，长按 **▲ + ▼** 进入 **搜频界面**，短按停止键，退出到 **主界面**
 
-## 2.7 Operation Interface Rotation Diagram
+任意界面下，长按 **▲ + ◀** 进入 **参数设置界面**，再次长按，退出到 **主界面**
 
-Under any interface, Long press **▲+▶** enter **Log Interface**, long press again to exit to **Main interface**.
+任意界面下，超 5min 无任何动作，进入 **待机界面**，再次点任意键到 **主界面**
 
-Under any interface, Long press **▲+▼** enter **Frequency Search Interface**, short press the stop button to exit to **Main interface**.
-
-Under any interface, Long press **▲+◀** enter **Parameter Setting Interface**, long press again to exit to **Main interface**.
-
-Under any interface, there is no action for more than 5 minutes, enter **Standby Interface** and press any key again to **Main interface**.
-
----
-
-2026-02                                                 - 8 -                                                 SDVC341SMSEN_4.01
+<!-- 页脚：2026-02　- 8 -　SDVC341SMSCN_4.01 -->
 
 
 ### 第 19 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　SDVC341-M
 
----
+## 第三章 简要功能说明
 
-# Chapter Ⅲ Power Wiring and Basic Operation
+### 3.1 安装
 
-## 3.1 Power Wiring
+**第一步：**
 
-### Step One:
+打开控制器的外包装，检查控制器外观及侧标型号，判断是否为所需的型号。
 
-Open the packing box and check the controller and all accessories.
+**第二步：**
 
-### Step Two:
+取出输出线，将输出线两个子弹头接线端子连接到振动盘的电磁线圈上。并确认黄绿双色的地线与振动盘金属外壳可靠连接。
 
-Connect the wiring terminals of the Output Power Cable to the vibrator's electromagnetic coil.
+将输出线航空插头上的缺口，对准控制器输出插座上的三角形标记，正确连接输出线后锁紧螺母。
 
-Align the notch on the aviation plug of the output cable with the triangle mark on the output socket of the controller, and then tighten the nut after connecting the output cable correctly.
+![控制器输出线连接振动盘电磁线圈与地线的安装示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0019-vcrop-00.png)
 
-![Output power cable and earth wire wiring diagram showing controller connected to vibrator electromagnetic coil](assets/images/cuh.sdvc34.manual.v0.0/page-0019-vcrop-00.png)
+图中标注：输出线；地线（黄绿双色线）。
 
-> **Note**
+> **注意**
 >
-> 1. Make sure the vibrator's electromagnetic coils are connected to the two output pins of the Output Power Cable, and the vibrator's metal shell is reliably grounding.
+> 1、一定要确认电磁铁线圈接在两个输出引脚上，外壳需要可靠接地。否则将会导致机壳带电，可能发生严重安全事故。
 >
-> 2. It is forbidden to connect piezoelectric loads to the power output, otherwise it may cause an electric shock safety accident!
+> 2、电源输出禁止连接压电类负载，否则可能导致**电击安全事故！**
 
----
-
-2026-02　　　　　　　　　　　　　　　　　- 9 -　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　- 9 -　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 20 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　SDVC341-M
 
 ---
 
-### Step Three:
+### 第三步：
 
-Connect the Connector of the Input Power Cable to the Input Power Socket of the controller.
+将输入电源线航空插头插入控制器电源输入插座，并锁紧螺母。
 
-![Step Three wiring illustration: connect the input power cable connector to the controller input power socket first.](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-00.png)
+![第三步接线示意图：先将输入电源线航空插头插入控制器电源输入插座并锁紧螺母](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-00.png)
 
-### Step Four:
+图示标注：先插航空插头
 
-After confirming that the switch is in the off position, connect the plug of the Input Power Cable to the mains jack.
+### 第四步：
 
-![Step Four wiring illustration: connect the input power cable plug to the mains jack after confirming the switch is off.](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-01.png)
+确认开关处于关闭位置后，将电源线三爪插头插在供电电源插座上。
+
+![第四步接线示意图：确认开关关闭后，将三爪插头插入供电电源插座](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-01.png)
 
 ---
 
-2026-02　　　　　　　　　　　　　　　　　- 10 -　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　-10-　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 21 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-## 3.2 Basic Operation
+---
 
-### Step Five:
+## 3.2 运行
 
-Turn on the power switch of the controller, the controller displays the main interface.
+### 第五步：
+
+打开控制器电源开关，控制器显示主界面。
 
 ```text
-RUN
+运行
 A C D E F G N J     A0
-─────────────────────
-UserSped           200
+──────────────────
+送料速度        200
 P2.01
-EffectCu          0.00
-P10.05        A
-+       Home       −
+有效电流       0.00
+P10.05  A
++        主页       −
 ```
 
-### Step Six:
+### 第六步：
 
-The vibratory feeder starts to work. Adjust the frequency and voltage parameter values in the "2 Common" parameter group to select the appropriate feeding speed.
+振动盘开始工作，调整“2常用”参数组中的频率和电压参数值选择合适的送料速度。
 
-- Long press ▲ and ◀ enter the parameter setting interface, short press ▶ switch to "2 Common" parameter group.
-- Short press ▲ or ▼ to place the cursor on the voltage parameter value.
-- Press ⊕ or ⊖ to adjust the parameter value。
-- Short press ▲ or ▼ to place the cursor on the frequency parameter value.
-- Press ⊕ or ⊖ adjust parameter value.
+- 长按 ▲ 加 ◀ 进入参数设置界面，短按 ▶ 切换到“2常用”参数组。
+- 短按 ▲ 或 ▼，将光标放在电压的参数值上。
+- 通过 ⊕ 和 ⊖ 调整参数值。
+- 短按 ▲ 或 ▼，将光标放在频率的参数值上。
+- 通过 ⊕ 和 ⊖ 调整参数值。
 
 ```text
-RUN
+运行
 A C D E F G N J     A0
-─────────────────────
-01.UserSped        200
-02.UsrVoltg        150 V
-03.UsrFrqnc       50.0 Hz
-04.SoftStar        0.5 S
-05.SoftStop        0.5 S
-+      2Common      −
+──────────────────
+01.送料速度   200
+02.电压       150 V
+03.频率       50.0 Hz
+04.缓启时间   0.5 S
+05.缓关时间   0.5 S
++        2常用      −
 ```
 
-> ☺
->
-> - The frequency at which the vibration reaches its maximum is the natural frequency of the vibrating body.
-> - Each vibratory has its natural mechanical resonance frequency, adjust the output frequency of the controller to this frequency to achieve the best working state.
+☺
 
-2026-02　　　　　　　　　　　　　　　　　- 11 -　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+- 振动最大时的频率为振动体的固有频率。
+- 每个振动体都有固有的振动频率，为了能达到最佳的工作状态，请调整控制器参数使振动体工作在合适的工作频率上。
+
+---
+
+2026-02　　　　　　　　　　　　　　　　　-11-　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 22 页
 
-Automatic Frequency Controller for Vibratory Feeder  SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-### Step Seven:
+---
 
-Customers can further access the acceleration sensor to realize automatic frequency search of the controller. (Note: The user does not need to empty the materials in the vibration plate)
+**第七步：**
 
-Take out the sensor, connect the sensor plug to the controller and tighten the nut, and correctly fix the sensor body on the vibration plate (see Chapter 2.3)
+客户可以进一步接入加速度传感器，实现控制器的自动搜频。（注：用户不必清空振动盘内物料）。
 
-### Step Eight:
+取出传感器，连接传感器插头至控制器并锁紧螺母，并将传感器本体正确地固定在振动盘上（详见《2.3振动传感器安装指南》）
 
-- Long press ▲ and ▼ enter frequency search interface.
-- At this time, the display screen displays the amplitude curve of the vibration plate in the frequency search process (three stages), and synchronously displays the output voltage, current, and acceleration values at this time.
-- After the frequency search is completed, the controller displays "Save" to indicate that the frequency search is successful and the center frequency is saved. The controller will automatically return to the homepage.
-- Users can further adjust the feeding speed of the vibratory feeder through ⊕ or ⊖.
+**第八步：**
 
-| Display state | Indicators | Frequency | Voltage | Current | Acceleration | Interface |
-|---|---|---:|---:|---:|---:|---|
-| RUN | A C D E F G N J A0 | 95Hz | 4V | 0.26A | 1.0g | SearchFr |
-| RUN | A C D E F G N J A0 | 442Hz | 23V | 0.42A | 0.5g | SearchFr |
-| RUN | A C D E F G N J A0 | 1033Hz | 54V | 0.46A | 0.3g | SearchFr |
-| Save | A C D E F G N J A0 | 841Hz | 81V | 0.84A | 2.1g | SearchFr |
+» 长按 ▲ 加 ▼ 进入搜频界面。
 
-![RUN SearchFr display during frequency search: 95Hz, 4V, 0.26A, 1.0g, with waveform curve.](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-00.png)
+» 此时显示屏显示搜频过程（三个阶段）中振动盘的振幅曲线，并同步显示此时输出电压、电流和加速度值。
 
-![RUN SearchFr display during frequency search: 442Hz, 23V, 0.42A, 0.5g, with waveform curve.](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-01.png)
+» 当搜频结束后控制器显示“保存”表示搜频成功，且保存了中心频率。控制器将自动退至主页。
 
-![RUN SearchFr display during frequency search: 1033Hz, 54V, 0.46A, 0.3g, with waveform curve.](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-02.png)
+» 用户可通过 ⊕ 或 ⊖ 进一步调整振动盘送料速度。
 
-![Save SearchFr display after frequency search: 841Hz, 81V, 0.84A, 2.1g.](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-03.png)
+搜频过程显示示意：
 
-2026-02  -12-  SDVC341SMSEN_4.01
+1. 运行；A C D E F G N J　A0；95Hz、4V；0.26A、1.0g；搜频。  
+   ![搜频过程显示屏示意：95Hz、4V、0.26A、1.0g](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-00.png)
+
+2. 运行；A C D E F G N J　A0；442Hz、23V；0.42A、0.5g；搜频。  
+   ![搜频过程显示屏示意：442Hz、23V、0.42A、0.5g](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-01.png)
+
+3. 运行；A C D E F G N J　A0；1033Hz、54V；0.46A、0.3g；搜频。  
+   ![搜频过程显示屏示意：1033Hz、54V、0.46A、0.3g](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-02.png)
+
+搜频成功保存示意：
+
+- 保存；A C D E F G N J　A0；841Hz、81V；0.84A、2.1g；搜频。  
+  ![搜频成功保存显示屏示意：841Hz、81V、0.84A、2.1g](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-03.png)
+
+---
+
+2026-02　　　　　　　　　　　　　　　　　-12-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 23 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器  
+SDVC341-M
+
+# 第四章 详细功能说明
+
+本章节介绍本产品全部详细功能及设置。
+
+任意界面下长按 **▲** 加 **▼** 进入【参数设置界面】。在参数设置界面内包含如下十个参数组，通过短按 **◀** 或 **▶** 切换不同参数组。
+
+**参数组间轮转图**
+
+- 短按 **▶**：按下列顺序向下切换
+- 短按 **◀**：按下列顺序向上切换
+
+1. 界面
+2. 常用
+3. 主输出
+4. 稳速
+5. 信号输入
+6. 控制输出
+7. 计数
+8. 通信
+9. 保存
+10. 监控
 
 ---
 
-# Chapter Ⅳ Detailed Function Introduction
-
-This chapter introduces detailed functions and settings of the controller.  
-Long press ▲ and ◀ to enter the parameter setting interface on any interface.  
-The parameter setting interface includes the following ten parameter groups.  
-By short pressing ◀ or ▶ switching between different parameter groups.
-
-```text
-                         1EditHome
-                             ↕
-                          2Common
-                             ↕
-                         3M_output
-                             ↕
-                         4Stabilize
-                             ↕
-Short press ▶            5On&Off              Short press ▶
-                             ↕
-                         6DCoutput
-                             ↕
-                          7Counter
-                             ↕
-                           8Comm
-                             ↕
-                           9Save
-                             ↕
-                          10Monitor
-```
-
-Parameter Group Rotation Diagram
-
----
-
-2026-02　　　　　　　　　　　　　　　　-13-　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　-13-　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 24 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-## 4.1 Common Parameter Settings
+---
 
-This chapter mainly introduces the setting and adjustment of the basic common parameters of the controller.
+## 4.1 常用参数功能设置
 
-### 4.1.1 Voltage
+本章节主要介绍控制器基本常用参数的设置和调整。
 
-This controller can directly set the output voltage digitally on the panel. Since the controller has a voltage-stabilizing output function, this value is the voltage rectification average value and will not be affected by the input voltage. The output voltage can be kept stable even in situations where the grid voltage is unstable. At the same time, direct voltage value setting also provides accurate data for users to understand the operation of the equipment.
+### 4.1.1 电压
 
-» Enter the common parameter group and find the voltage Setting parameters.
+本控制器可以直接在面板上以数字方式设置输出电压。由于本控制器具备稳压输出功能，该数值为电压整流平均值，并且不会受到输入电压的影响，即使在电网电压不稳定场合中也可以保持输出电压稳定。同时，直接的电压数值设置也为用户了解设备运行情况提供了准确的数据。
 
-» Press ⊕ or ⊖ to adjust the parameter value.
+> » 进入常用参数组，找到电压  
+> 　设置参数。
+>
+> » 通过 ⊕ 和 ⊖ 调整参数值。
+>
+> 电压范围0~250V，默认150V，调整精度1V。
 
-The Voltage range is 0~250V, the default is 150V the adjustment accuracy is 1V.
-
-```text
-RUN
-A C D E F G N J    A0
-01.UserSped     200
-02.UsrVoltg     150 V
-03.UsrFrqnc     50.0 Hz
-04.SoftStar       0.5 S
-05.SoftStop       0.5 S
-+    2Common       −
-```
-
-### 4.1.2 Frequency
-
-The controller uses direct digital frequency synthesis technology (DDS), which has very high frequency accuracy and stability, and does not change with time and temperature.
-
-» Enter the common parameter group and find the frequency Setting parameters.
-
-» Press ⊕ or ⊖ to adjust the parameter value.
-
-The Frequency range 5.0~999.9Hz, the default is 50.0Hz, the adjustment accuracy is 0.1Hz.
+面板显示示例：
 
 ```text
-RUN
+运行
 A C D E F G N J    A0
-01.UserSped     200
-02.UsrVoltg     150 V
-03.UsrFrqnc     50.0 Hz
-04.SoftStar       0.5 S
-05.SoftStop       0.5 S
-+    2Common       −
+01.送料速度  200
+02.电压      150 V
+03.频率      50.0 Hz
+04.缓启时间  0.5 S
+05.缓关时间  0.5 S
++     2常用      −
 ```
 
-The other parameters of this parameter group can be adjusted according to the above steps.
+### 4.1.2 频率
 
-2026-02　　　　　　　　　　　　　　-14-　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+本控制器采用直接数字频率合成技术（DDS），具有非常高的频率精度和稳定性，不随时间和温度的改变而变化。
+
+> » 进入常用参数组，找到频率  
+> 　设置参数。
+>
+> » 通过 ⊕ 和 ⊖ 调整参数值。
+>
+> 频率范围5.0~999.9Hz，默认50.0Hz，调整精度0.1Hz。
+
+面板显示示例：
+
+```text
+运行
+A C D E F G N J    A0
+01.送料速度  200
+02.电压      150 V
+03.频率      50.0 Hz
+04.缓启时间  0.5 S
+05.缓关时间  0.5 S
++     2常用      −
+```
+
+**本参数组的其他参数均可按照以上的操作步骤调节参数值。**
+
+---
+
+2026-02　　　　　　　　　　　　-14-　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 25 页
 
-Automatic Frequency Controller for Vibratory Feeder    SDVC341-M
+自动调频振动送料控制器  
+SDVC341-M
 
 ---
 
-### 4.1.3 Feeding Speed
+### 4.1.3 送料速度
 
-**Feeding Speed:** The advancing speed of materials in the vibratory feeder. When the controller is connected to the acceleration sensor and the "voltage mode" parameter value is "automatic", the material forward speed can be adjusted through the feeding speed parameter, and the vibration plate can work stably at the set feeding speed.
+**送料速度：**物料在振动盘内前进速度。当控制器连接加速度传感器，并且“电压模式”参数值为“自动”，此时可通过送料速度参数调整物料前进速度，并使得振动盘能够以设定的送料速度稳定工作。
 
-The feeding speed range is 0~3200, the default is 200 and the adjustment accuracy is 1.
+送料速度范围0~3200，默认200，调整精度1。
 
-### 4.1.4 Soft Start Time/Soft Stop Time
+### 4.1.4 缓启时间/缓关时间
 
-**Soft Start Time:** The time required for the controller to smoothly increase the output voltage from 0V to the set output voltage when starting from a stopped state.
+**缓启时间：**控制器从停止状态启动时，输出电压从0V平滑升高到达设定输出电压所需要的时间称为缓启（动）时间。
 
-The soft start time range is 0.0~40.0s, the default is 0.5 seconds and the adjustment accuracy is 0.1 seconds.
+缓启时间范围0.0~40.0s，默认0.5s，调整精度0.1s。
 
-**Soft Stop Time:** When the controller stops running, the output voltage smoothly drops from the set output voltage to reach the time required for 0V.
+**缓关时间：**控制器从运行状态停止时，输出电压从设定输出电压平滑下降到达0V所需要的时间称为缓关（闭）时间。
 
-The soft stop time range is -0.1~40.0s, the default is 0.5 seconds and the adjustment accuracy is 0.1 seconds.
+缓关时间范围-0.1~40.0s，默认0.5s，调整精度0.1s。
 
-When this controller starts or stops, the output voltage can be increased or decreased gently to prevent vibration equipment from being damaged by impact.
+本控制器启动或停止时，输出电压可以平缓提高或降低，以防止振动设备遭受冲击而损坏。
 
-### 4.1.5 Maximum Voltage/Maximum Current
+### 4.1.5 最大电压/最大电流
 
-**Maximum Voltage:** The controller outputs the maximum voltage value.
+**最大电压：**控制器输出最大电压值。
 
-The maximum voltage range is 0-250V, the default is 220V and the adjustment accuracy is 1V.
+最大电压范围0~250V，默认220V，调整精度1V。
 
-**Maximum Current:** The controller outputs the maximum current value.
+**最大电流：**控制器输出最大电流值。
 
-The maximum current range is 0.1~3.0A, the default is 3.0A and the adjustment accuracy is 0.1A.
+最大电流范围0.1~3.0A，默认3.0A，调整精度0.1A。
 
-This controller can set maximum output voltage and maximum output current limit values, which can prevent users from damaging the vibration equipment by accidentally outputting excessive voltage or current.
+本控制器可以设置最大输出电压和最大输出电流限制值，可以防止用户误操作输出过大电压或电流而损坏振动设备。
 
-### 4.1.6 Maximum Output Frequency/Minimum Output Frequency
+### 4.1.6 最大输出频率/最低输出频率
 
-**Maximum Output Frequency:** Limit the upper limit value of the "frequency" parameter. The upper frequency limit during frequency search is also limited by this parameter value.
+**最大输出频率：**限制“频率”参数的上限值。搜频时的频率上限也受该参数值限制。
 
-The maximum output frequency range is 5.0~999.9Hz, the default is 400.0Hz and the adjustment accuracy is 0.1Hz.
+最大输出频率范围5.0~999.9Hz，默认400.0Hz，调整精度0.1Hz。
 
-**Minimum Output Frequency:** Limit the lower limit value of the "frequency" parameter. The lower limit of frequency during frequency search is also limited by this parameter value.
+**最低输出频率：**限制“频率”参数的下限值。搜频时的频率下限也受该参数值限制。
 
-The minimum output frequency range is 5.0~999.9Hz, the default is 40.0Hz and the adjustment accuracy is 0.1Hz.
+最低输出频率范围5.0~999.9Hz，默认40.0Hz，调整精度0.1Hz。
 
-**Note:** The difference between the maximum output frequency and the minimum output frequency is not less than 50.0Hz.
+注：最大输出频率和最低输出频率之间的差不小于50.0Hz。
 
 ---
 
-2026-02    - 15 -    SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　-15-　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 26 页
 
-Automatic Frequency Controller for Vibratory Feeder                                                                 SDVC341-M
+自动调频振动送料控制器  
+SDVC341-M
 
----
+## 4.1.7 负载检测
 
-### 4.1.7 Load Detection
+本控制器可以检测负载振动盘的电感量、电阻值、饱和电流等值。使用负载检测功能后，用户可在监控参数组查看负载相关实测数值。默认无效。
 
-The controller can detect the inductance, resistance value, saturation current, etc. of the load vibratory feeder. After using the load detection function, users can view the measured values related to the load in the monitoring parameter group. None by default.
-
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| None | Not detected |
-| Valid | Start a test (automatically switch to invalid state after completion and no longer tests) |
+| 无效 | 不检测 |
+| 有效 | 开始进行一次检测（完成后自动切换成无效状态，不再进行检测） |
 
-### 4.1.8 Shortage Alarm
+## 4.1.8 缺料报警
 
-When the controller is connected to an accelerometer and the "voltage mode" and "frequency mode" parameter values are both "automatic", the shortage alarm function will be activated. Users can find the "Material Shortage Alarm" parameter in the monitoring parameter group when the vibratory feeder is empty or with less material, and at the same time, long press <kbd>+</kbd> and <kbd>−</kbd> record the measured value of the "Material Shortage Alarm" in the monitoring parameter group, and refer to the measured value to set the alarm value of the "Material Shortage Alarm". You can also adjust the alarm value through <kbd>+</kbd> or <kbd>−</kbd> further.
+当控制器连接加速度传感器，且“电压模式”、“频率模式”参数值均为“自动”时，会启动缺料报警功能。用户可通过在振动盘处于空盘或者较少物料时，找到监控参数组中的“缺料报警”参数，同时长按＋和－记录监控参数组“缺料报警”的实测值，并参考实测值设定“缺料报警”的报警值。也可以通过＋或－进一步调整报警值。
 
-When the controller detects that the measured value of the vibratory feeder is lower than the alarm value, it triggers its alarm function.
+当控制器监测振动盘运行实测值低于报警值时，触发其报警功能。
 
-The range of material shortage alarm is 0~3000, the default is 10 and the adjustment accuracy is 1.
+缺料报警范围0~3000，默认10，调整精度1。
 
-Note: Users can use alarm signals as the main output or D-port output source signals to drive different output states of the controller.
+注：用户可以使用报警信号作为主输出或D口输出源信号，用于驱动控制器不同的输出状态。
 
-### 4.1.9 Shutdown Alarm
+## 4.1.9 停机报警
 
-**Shutdown Alarm:** When the controller stops outputting, the controller emits different alarm sound effects by driving the vibratory feeder, which is used to issue a shutdown warning to user in noisy environments. Optional three sound effects or invalid (no sound). None by default.
+**停机报警：** 当控制器停止输出时，控制器通过驱动振动盘发出不同的报警音效，用于在吵杂的环境中向使用者发出停机警示。可选三种音效或无效（不发音）。默认无效。
 
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| None | Invalid |
-| Sound 1 | Drive the vibration plate to emit sound effect 1 alarm sound |
-| Sound 2 | Drive the vibration plate to emit sound effect 2 alarm sound |
-| Sound 3 | Drive the vibration plate to emit sound effect 3 alarm sound |
+| 无效 | 无效 |
+| 音效1 | 驱动振动盘发出音效1报警声音 |
+| 音效2 | 驱动振动盘发出音效2报警声音 |
+| 音效3 | 驱动振动盘发出音效3报警声音 |
 
-### 4.1.10 Backlight Brightness
+## 4.1.10 背光亮度
 
-**Backlight Brightness:** That is, the backlight brightness of the controller display. The display's backlight brightness can be adjusted to suit different ambient lighting conditions.
+**背光亮度：** 即控制器显示屏背光亮度。可以调整显示屏的背光亮度以适应不同的环境光线。
 
-The backlight brightness range is 20~100, the default is 100 and the adjustment accuracy is 1.
-
----
-
-2026-02                                                - 16 -                                                SDVC341SMSEN_4.01
+背光亮度范围20~100，默认100，调整精度1。
 
 
 ### 第 27 页
 
-### 4.1.11 Backlight Off
+自动调频振动送料控制器  
+SDVC341-M
 
-**Backlight Off:** That is the backlight off time. When the controller does not perform any operation for a period of time, the controller will turn off the screen backlight. The screen backlight can be triggered to turn on again by pressing any button.
+### 4.1.11背光熄灭
 
-The backlight extinction range is 1-30min, the default is 5min and the adjustment accuracy is 1min. When set to 31, it means normal bright.
+**背光熄灭：** 即背光熄灭时间，当控制器持续一段时间未进行任何操作，控制器将熄灭屏幕背光。通过按任意键可触发屏幕背光再次亮起。
 
-### 4.1.12 Language
+背光熄灭范围1~30min，默认5min，调整精度1min。设置为31时，表示常亮。
 
-**Language:** That is, the language displayed on the controller operation panel. The controller has three built-in languages: Chinese, English and German, making it easy for users in different regions to switch. Default Englis.
+### 4.1.12 语言
 
-| Parameter | Meaning |
+**语言：** 即控制器操作面板显示语言。控制器内置中文、英文和德文三种语言，方便不同地区用户进行切换。默认中文。
+
+| 参数名 | 含义 |
 |---|---|
-| Englis | English interface |
-| Chines | Chinese interface |
-| German | German interface |
+| 英文 | 英文界面 |
+| 中文 | 中文界面 |
+| 德文 | 德文界面 |
 
-## 4.2 Automatic Resonant Frequency Search
+## 4.2 自动搜频
 
-This chapter introduces how to quickly locate the resonant frequency of the vibration plate in the frequency search interface of this product, and realize the operation of the vibration plate.
+本章节介绍本产品如何在搜频界面内快速定位振动盘的谐振频率，实现振动盘运行的使用方法。
 
-### 4.2.1 Frequency Search Interface
+### 4.2.1 搜频界面
 
-When the acceleration sensor is correctly connected to the vibration plate, both the "voltage mode" and "frequency mode" are set to "Auto". You can quickly locate the resonant frequency value of the vibratory feeder by entering the frequency search interface.
+当加速度传感器正确地连接到振动盘上，“电压模式”和“频率模式”都设置为“自动”。可通过进入搜频界面快速定位振动盘的谐振频率值。
 
-Refer to the eighth step in Chapter 3.2 for the operation steps.
+操作步骤参考“3.2章节的第八步”。
+
+2026-02　　　　　　　　　　　　- 17 -　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 28 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
 ---
 
-## 4.3 Constant Feed Speed
+## 4.3 稳速功能
 
-This chapter mainly introduces how to set the relevant parameters of the controller and maintain the functions of the controller running smoothly.
+本章节主要介绍如何设置控制器相关参数，保持控制器平稳运行的功能。
 
-### 4.3.1 Center Frequency
+### 4.3.1 中心频率
 
-The frequency range that the controller can automatically adjust is "center frequency" ± "frequency offset". The center frequency should be adjusted near the resonance point of the vibration equipment, so that the controller can adjust to the best working point as quickly as possible when automatically adjusting the frequency.
+控制器可自动调整的频率范围为“中心频率” ± “频率偏移”。应把中心频率调整到振动设备的谐振点附近，以利于控制器在自动调整频率时尽快地调整到最佳工作点。
 
-> » Long press ▲ and ◀ to enter parameter setting interface, short press ▶ to switch to "4 Stabilize" parameter group.
+> » 长按 ▲ 加 ◀ 进入参数设置界面，短按 ▶ 切换到 “4稳速” 参数组。
 >
-> » Short press ▲ or ▼ to switch to the center frequency parameter.
+> » 短按 ▲ 或 ▼，切换到中心频率参数。
 >
-> » Press ⊕ or ⊖ to adjust the parameter value。
+> » 通过 ⊕ 或 ⊖ 调整参数值。
 >
 > ```text
-> RUN
+> 运行
 > A C D E F G N J    A0
-> 01.AutFCent 100.0 Hz
-> 02.AutFRang  30.0 Hz
-> 03.AutFIntg    20
-> 04.AutAIntg   250
-> 05.AutAProp   500
-> +   4Stabilize   -
+> 01.中心频率 100.0 Hz
+> 02.频率偏移  30.0 Hz
+> 03.频率积分     20
+> 04.幅度积分    250
+> 05.幅度比例    500
+> +     4稳速     −
 > ```
 >
-> The center frequency range is 5.0~999.9Hz, with a default of 100.0Hz and an adjustment accuracy of 0.1Hz.
+> 中心频率范围5.0~999.9Hz，默认100.0Hz，调整精度0.1Hz。
 
-The other parameters of this parameter group can be adjusted according to the above steps.
+**本参数组的其他参数均可按照以上的操作步骤调节参数值。**
 
-### 4.3.2 Frequency Offset
+### 4.3.2 频率偏移
 
-The frequency range that the controller can automatically adjust is "center frequency" ± "frequency offset". This is used to define a relatively small automatic frequency search range. The general frequency offset value is 30.0HzJust about. If it is too large, the vibration equipment may work at an inappropriate working point, and if it is too small, it may reduce the adaptability of the vibration equipment.
+控制器可自动调整的频率范围为“中心频率” ± “频率偏移”。以此来框定一个比较小的自动搜频范围。一般频率偏移值在30.0Hz左右即可。过大可能使振动设备工作在不合适的工作点，过小可能会降低振动设备的适应能力。
 
-The frequency offset range is 0.0~180.0Hz, the default is 30.0Hz and the adjustment accuracy is 0.1Hz.
+频率偏移范围0.0~180.0Hz，默认30.0Hz，调整精度0.1Hz。
 
-### 4.3.3 Frequency Integration
+### 4.3.3 频率积分
 
-Controller via PID algorithm to automatically adjust the output frequency. The larger this value is, the faster the controller can adjust the output frequency, but if it is too large, it may cause oscillation of the output frequency.
+控制器通过PID算法来自动调整输出频率。此值越大，则控制器能越快地调整输出频率，但过大可能会造成输出频率的振荡。
 
-The frequency integration range is 0-2000, the default is 20 and the adjustment accuracy is 1.
+频率积分范围0~2000，默认20，调整精度1。
 
 ---
 
-2026-02　　　　　　　　　　　　　　　　-18-　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　-18-　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 29 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
 ---
 
-### 4.3.4 Amplitude Integration
+### 4.3.4 幅度积分
 
-Controller via PID control, automatically adjust the output voltage. The larger this value is, the faster the controller can adjust the output voltage and reduce the oscillation amplitude and frequency of the output voltage. However, if it is too large, the oscillation amplitude of the output voltage will become larger.
+控制器通过PID控制，自动调整输出电压，此值越大，则控制器能越快地调整输出电压，减小输出电压的振荡幅度和次数，但过大反而会造成输出电压的振荡幅度变大。
 
-The amplitude integration range is 0~9999, the default is 250 and the adjustment accuracy is 1.
+幅度积分范围0~9999，默认250，调整精度1。
 
-### 4.3.5 Amplitude Ratio
+### 4.3.5 幅度比例
 
-Controller via PID control, automatically adjust the output voltage. The larger this value is, the faster the controller can adjust the output voltage, but if it is too large, it will cause frequent oscillations of the output voltage.
+控制器通过PID控制，自动调整输出电压，此值越大，则控制器能越快地调整输出电压，但过大会造成输出电压的频繁振荡。
 
-The amplitude ratio range is 0~9999, the default is 500 and the adjustment accuracy is 1.
+幅度比例范围0~9999，默认500，调整精度1。
 
-### 4.3.6 Auto Phase
+### 4.3.6 自动相位
 
-This parameter can modify the phase difference between the output current waveform and the acceleration signal of the acceleration sensor.
+该参数可修改输出电流波形与加速度传感器的加速度信号的相位差。
 
-The automatic phase range is -180 °~180 °, the default is 0 ° and the adjustment accuracy is 1 °.
+自动相位范围-180°~180°，默认0°，调整精度1°。
 
-### 4.3.7 Frequency Searching Process Current
+### 4.3.7 搜频电流
 
-Set the maximum output current of the controller during automatic frequency search, so that the actual output current of the vibration plate will not exceed the set frequency search current.
+设置自动搜频时控制器的最大输出电流，使得振动盘的实际输出电流不会超过设定搜频电流。
 
-The search frequency current range is 1.0~6.0A, the default is 3.0A and the adjustment accuracy is 0.1A.
+搜频电流范围1.0~6.0A，默认3.0A，调整精度0.1A。
 
-### 4.3.8 Frequency Searching Process Amplitude
+### 4.3.8 搜频振幅
 
-The maximum amplitude of the controller will not exceed this value during automatic frequency search to protect the safety of vibration equipment.
+自动搜频时控制器的最大振幅不会超过该值，以保护振动设备的安全。
 
-The frequency search amplitude range is 0~3200, the default is 200 and the adjustment accuracy is 1.
+搜频振幅范围0~3200，默认200，调整精度1。
 
-### 4.3.9 Maximum Feed Speed
+### 4.3.9 料速最大
 
-Set this parameter to limit the maximum adjustable feeding speed to prevent users from accidentally outputting excessive voltage and damaging the vibration equipment. When using remote speed control, the upper limit of the feeding speed is also affected by this parameter.
+设定该参数以限制最大可设定送料速度，防止用户误操作输出过大电压而损坏振动设备。使用远程速度控制时，送料速度上限也受此参数影响。
 
-The maximum range of material speed is 0-4000, the default is 3200 and the adjustment accuracy is 1.
+料速最大范围0~4000，默认3200，调整精度1。
 
-### 4.3.10 Slave Controller Phase Offset
+### 4.3.10 手动相位
 
-Manual phase means that the phase of the slave controller output waveform can be manually set to have a fixed phase deviation from the synchronization signal output by the master controller.
+手动相位指，从控制器输出波形的相位，可以手动设定与主控制器输出的同步信号有一个固定相位偏差。
 
-The manual phase range -180 °~180 °, the default is 0 °, the adjustment accuracy is 1 °.
+手动相位范围-180°~180°，默认0°，调整精度1°。
 
 ---
 
-2026-02　　　　　　　　　　　　　　-19-　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　-19-　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 30 页
 
-### 4.3.11 Output Voltage Control Mode
+自动调频振动送料控制器　　　　　　　　　　　　　　　SDVC341-M
 
-This parameter is used to switch the voltage output mode of the controller to achieve different control forms for the output. Default is Auto.
+### 4.3.11 电压模式
 
-| Parameter | Meaning |
+本参数用于切换控制器电压输出模式，以实现针对输出的不同控制形态。默认自动。
+
+| 参数名 | 含义 |
 |---|---|
-| Manuel | The output voltage is controlled by the "voltage" parameter value, or by the DC analog input of remote control speed regulation. |
-| Auto | When the acceleration sensor is correctly connected to the controller, the controller automatically adjusts the output voltage based on the feedback data from the vibration sensor, ensuring that the feeding speed of the vibration equipment is stable at the "feeding speed" value. |
+| 手动 | 输出电压由用户设定的“电压”参数控制，或者由遥控调速输入的直流模拟量控制 |
+| 自动 | 当加速度传感器正确接入控制器后，控制器根据振动传感器反馈的数据自动调整输出电压，保证振动设备的送料速度稳定在“送料速度”数值上 |
 
-### 4.3.12 Output Frequency Control Mode
+### 4.3.12 频率模式
 
-This parameter is used to switch the frequency output mode of the controller. Default is Auto.
+本参数用于切换控制器频率输出模式。默认自动。
 
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| Manuel | The output frequency is controlled by the "frequency" parameter value |
-| Auto | When the acceleration sensor is correctly connected to the controller, the controller automatically adjusts the output frequency based on the feedback data from the vibration sensor, so that the vibration frequency is at the optimal working frequency of the vibration equipment |
-| SynV | Frequency synchronization, phase synchronization vibration sensor |
-| SynE | Frequency synchronization, phase synchronization main output current |
+| 手动 | 输出频率由用户设定的“频率”参数控制 |
+| 自动 | 当加速度传感器正确接入控制器后，控制器根据振动传感器反馈的数据自动调整输出频率，使振动频率处于振动设备的最佳工作频率 |
+| 同步振 | 频率同步，相位同步振动传感器 |
+| 同步电 | 频率同步，相位同步主输出电流 |
 
-### 4.3.13 Sync Source
+### 4.3.13 同步源
 
-When the user selects the frequency mode as manual or automatic, this parameter is used to select the synchronization signal source of the device. None by default.
+当用户选择频率模式为手动或自动，本参数用于选择同步本设备信号源。默认无效。
 
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| None | Out of sync |
-| PhaseV | Synchronous vibration sensor phase |
-| PhaseE | Synchronous main output current phase |
+| 无效 | 不同步 |
+| 振相位 | 同步振动传感器相位 |
+| 电相位 | 同步主输出电流相位 |
 
-### 4.3.14 Vibration Sensor Type
+### 4.3.14 传感器类
 
-The controller supports vibration sensors with different ranges. At the same feeding speed, the output voltage of vibration sensors in different ranges varies for the controller. Users should set this parameter according to the actual vibration sensor model. Default 205.
+控制器支持不同量程的振动传感器。控制器在相同的送料速度下，不同量程振动传感器的输出电压不同，用户应当按照实际振动传感器型号设置该参数。默认32g。
 
-| Parameter | Corresponding Model | Specification X-axis/Y-axis/Z-axis acceleration |
+| 参数值 | 对应型号 | 规格 X轴/Y轴/Z轴加速度 |
 |---|---|---|
-| 20-1 | 16g | 16g/16g/16g |
-| 20-2 | 35g | 35g/35g/—— |
-| 20-3 | 50g | 50g/50g/—— |
-| 20-4 | 70g | 70g/70g/—— |
-| 203 | 8g | 8g/8g/8g |
-| 204 | 16g | 16g/16g/16g |
-| 205 | 32g | 32g/32g/32g |
-| 206 | 64g | 64g/64g/64g |
+| 16g | SDVS20-1 | 16g/16g/16g |
+| 35g | SDVS20-2 | 35g/35g/—— |
+| 50g | SDVS20-3 | 50g/50g/—— |
+| 70g | SDVS20-4 | 70g/70g/—— |
+| 8g | SDVS203 | 8g/8g/8g |
+| 16g | SDVS204 | 16g/16g/16g |
+| 32g | SDVS205 | 32g/32g/32g |
+| 64g | SDVS206 | 64g/64g/64g |
 
-### 4.3.15 Auto Resonant Frequency Search Speed
+### 4.3.15 搜频速度
 
-The controller supports 6 frequency search speeds, ranging from slow to fast, ranging from 0 to 5. The default search speed is 3.
+控制器支持6种搜频速度，由慢到快范围为0~5。默认搜频速度为3。
+
+2026-02　　　　　　　　　　-20-　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 31 页
 
-Automatic Frequency Controller for Vibratory Feeder                                      SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
 ---
 
-## 4.4 Output Parameters
+## 4.4 控制输出功能
 
-This chapter is used to introduce the setting and use of the main output parameters and control output parameters of the controller to achieve the ideal output function of the controller.
+本章节用于介绍控制器主输出参数和控制输出参数的设置及使用，实现控制器达到理想输出功能。
 
-### 4.4.1 Main Output Parameters
+### 4.4.1 主输出参数
 
-This summary mainly introduces the main output parameter settings of the controller.
+本小结主要介绍控制器主输出参数设置。
 
-> » Long press ▲ and ◀ to enter parameter setting interface, short press ▶ to switch to "3 M_output" parameter group.
->
-> » Short press ▲ or ▼ to switch parameters in the main output parameter group.
->
-> » Press ⊕ or ⊖ to adjust the parameter value。
->
-> Controller display:
->
-> ```text
-> RUN
-> A C D E F G N J    A0
-> 01.MainLogc        On
-> 02.MainSor1        In_PtC
-> 03.MainSor1        In_PtE
-> 04.MainUpDy        0.2 S
-> 05.MainDnDy        0.2 S
-> +   3M_output      −
-> ```
+| 操作说明 | 界面示例 |
+|---|---|
+| » 长按 ▲ 加 ◀ 进入参数设置界面，短按 ▶ 切换到 "3主输出" 参数组。<br><br>» 短按 ▲ 或 ▼，切换主输出参数组中各参数。<br><br>» 通过 ⊕ 或 ⊖ 调整参数值。 | ```text
+运行
+A C D E F G N J    A0
+01.主逻辑        或
+02.主源 1      C料满
+03.主源 2      E料满
+04.主开延时    0.2 S
+05.主关延时    0.2 S
++    3主输出     -
+``` |
 
-The other parameters of this parameter group can be adjusted according to the above steps.
+**本参数组的参数均可按照以上的操作步骤调节参数值。**
 
-### 4.4.1.1 Main Source 1/Main Source 2
+#### 4.4.1.1 主源1/主源2
 
-"Main source 1" and "Main source 2" refer to the "Main logic source 1 signal" and "Main logic source 2 signal", you can set the main output logic source signal through these two parameters. Main source 1 and main source 2 letters. The signal first passes through the port signal type judgment, then through the logic direction judgment, and finally after going through the on delay and off delay, it becomes the main output logic source 1/2result signal.
+“主源1”和“主源2”是指“主逻辑源1信号”和“主逻辑源2信号”，可通过这两个参数分别设定主输出逻辑源信号。主源1和主源2信号先经过端口信号类型判断，然后经过逻辑方向判断，最后经过开延迟和关延迟后，成为主输出逻辑源1/2结果信号。
 
 ---
 
-2026-02                                      - 21 -                                      SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　-21-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 32 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器  
+SDVC341-M
 
----
+信号流示意图如下：
 
-The signal flow diagram is as follows:
+![图 4.4.1.1 信号流示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0032-vcrop-00.png)
 
-![Figure 4.4.1.1 signal flow diagram for Port C2 and Port E2 logic, on/off delay, main source 1 and main source 2 output logic results.](assets/images/cuh.sdvc34.manual.v0.0/page-0032-vcrop-00.png)
+主源1/2的信号源选项参照《7.4.11 附表》章节。
 
-For the signal source options of main source ½,  
-please refer to the chapter 7.4.11 Appendix.
+**图 4.4.1.1**
 
-**Figure 4.4.1.1**
+注：主输出状态也同时被启停键或控制器自身是否处于故障状态控制，启停键或控制器自身故障控制等级高于主输出逻辑信号。即：当启停按键为停止时，控制器会立即进入停止状态；当控制器出现短路、过温、过流等故障时也会立即进入停止状态。此时主输出逻辑信号也无法开启控制器的主输出。
 
-Note: The main output state is also controlled by whether the start stop button or whether the controller itself is in a fault state. The fault control level of the start-stop button or the controller itself is higher than the main output logic signal. That is: when the start-stop button is set to stop, the controller will immediately enter the stop state; when a fault such as short circuit, over-temperature, over-current, etc. occurs, the controller will also immediately enter the stop state. At this time, the main output logic signal cannot turn on the main output of the controller.
-
----
-
-2026-02　　　　　　　　　　　　　　　-22-　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　-22-　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 33 页
 
-## 4.4.1.2 Main Logic
+## 4.4.1.2 主逻辑
 
-Main output logic source1Result and main output logic source 2 junction After the logic operation is performed through the main output logic, it passes through the main output direction, then passes through the main output on-delay and off-delay, and finally passes through the main output mode, and is used to drive the main output start-stop state.
+主输出逻辑源1结果和主输出逻辑源2结果通过主输出逻辑进行逻辑运算后，经过主输出方向，然后经过主输出开延迟和关延迟，最后经过主输出模式后，用来驱动主输出启停状态。
 
-The signal flow diagram is as follows:
+信号流示意图如下：
 
-![Figure 4.4.1.2 signal flow diagram for main output logic](assets/images/cuh.sdvc34.manual.v0.0/page-0033-vcrop-00.png)
+![图 4.4.1.2 主逻辑信号流示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0033-vcrop-00.png)
 
-**Figure 4.4.1.2**
+图 4.4.1.2
 
-This controller can set the logical relationship table between main (logical) source 1 and main source 2 as follows. Default Or.
+本控制器可以设定主（逻辑）源1和主源2的逻辑关系表如下，默认或：
 
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| And | Logical AND, output valid when both main source 1 and main source 2 are valid |
-| Or | Logical OR, output valid when at least one of main source 1 or main source 2 is valid |
-| Xor | Logical XOR, valid when main source 1 and main source 2 are in different states, otherwise invalid |
-| RS | RS flip-flop |
+| 与 | 逻辑与，主源1和主源2都有效时输出有效 |
+| 或 | 逻辑或，主源1或者主源2至少一个有效时输出有效 |
+| 异或 | 逻辑异或，主源1和主源2状态不同时有效，反之无效 |
+| RS | RS触发器 |
 
-## 4.4.1.3 Main Direction
+## 4.4.1.3 主输出
 
-That is, the main output logic direction, the specific output direction can be set after the signals are logically combined. For the signal flow diagram, refers to Figure 4.4.1.2. Default Const.
+即主输出逻辑方向，信号经逻辑组合后可以设定具体输出方向。信号流示意图参考图 4.4.1.2。默认常通。
 
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| Const | The state after the main output logic operation is not inverted and defaults to the normal state |
-| Inv | The state is inverted after the main output logic operation |
-| On | The state remains running after the main output logic operation |
-| Off | The state is always stopped after the main output logic operation |
+| 常通 | 经过主输出逻辑运算后的状态不取反，默认为常通状态 |
+| 常断 | 经过主输出逻辑运算后的状态取反 |
+| 开 | 经过主输出逻辑运算后的状态始终为运行 |
+| 关 | 经过主输出逻辑运算后的状态始终为停止 |
 
 
 ### 第 34 页
 
-## 4.4.1.4 Main On Delay/Main Off Delay
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　SDVC341-M
 
-When using other external signals such as sensors to control the main output state of the device, in most cases a delay is required after the signal is given or the signal is restored before the operation can be performed. For such applications, this can be achieved by setting the time values of the on-delay and off-delay. For the signal flow diagram, refers to Figure 4.4.1.2.
+### 4.4.1.4 主开延时/主关延时
 
-**Main On Delay:** That is, the main output on-delay is the delay time experienced from the application of a control signal that causes the controller to enter the running state to the actual output of the controller starting. The delay time experienced during this period is called the on-delay.
+当使用传感器等其他外部信号控制设备的主输出状态时，大多数情况需要在给出信号或者恢复信号后延迟一段时间才能执行操作。对于这样的应用，可以通过设置开延时和关延时的时间值来实现。信号流示意图参考图 4.4.1.2。
 
-**Main Shutdown Delay:** That is, the main output off-delay, starting from the application of a control signal that causes the controller to enter a stop state, to the actual output of the controller stopping, the delay time experienced during this period is called the off-delay.
+**主开延时：** 即主输出开延时，从施加一个使控制器进入运行状态的控制信号开始，到控制器实际的输出启动，期间经历的延迟时间称为开延时。
 
-The main on/off delay range is 0.0~99.9s, the default is 0.2s and the adjustment accuracy is 0.1s.
+**主关延时：** 即主输出关延时，从施加一个使控制器进入停止状态的控制信号开始，到控制器实际的输出停止，期间经历的延迟时间称为关延时。
 
-## 4.4.1.5 Main Mode
+主开延时/主关延时范围0.0~99.9s，默认0.2s，调整精度0.1s。
 
-There are 2 main output modes available: delay mode and hold mode. Signal flow diagram reference diagram 4.4.1.2. Default Delay.
+### 4.4.1.5 主模式
 
-| Parameter | Meaning |
+可选择2种主输出模式：延时模式、保持模式。信号流示意图参考图 4.4.1.2。默认延迟。
+
+| 参数名 | 含义 |
 |---|---|
-| Delay | Refers to the state of the main output after logic operation, the state of driving the main output after on-delay and off-delay |
-| Hold | Refers to the state after the main output logic operation. After the on delay, the running state remains for the off delay time, and then immediately changes to the stop output state |
+| 延时模式 | 指主输出逻辑运算后的状态，经过开延迟和关延迟后再驱动主输出的状态 |
+| 保持模式 | 指主输出逻辑运算后的状态，经过开延迟后，保持运行状态的时间为关延迟时间，然后立即变为停止输出状态 |
 
-The difference between the two modes is expressed in the form of a timing diagram as follows, where the input signal is a logical relationship selection.
+将两种模式的差别以时序图的形式表达如下，其中输入信号是逻辑关系选择器后输出的信号。
 
-![Timing diagram comparing hold mode output and delay mode output. It shows the signal output after the logic relationship selector, hold mode output, delay mode output, with T1 as output signal rising edge delay and T2 as output signal falling edge delay.](assets/images/cuh.sdvc34.manual.v0.0/page-0034-vcrop-00.png)
+![主模式时序图：逻辑关系选择器后输出的信号、保持模式输出、延时模式输出，以及T1输出信号开延时、T2输出信号关延时](assets/images/cuh.sdvc34.manual.v0.0/page-0034-vcrop-00.png)
 
 
 ### 第 35 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+### 4.4.1.6 波形指数
 
----
+本参数可以使控制器在最高效率-最大功率和最小噪音间平衡，以满足客户更高需求。
 
-### 4.4.1.6 Waveform Index
+波形指数范围50~100，默认100，调整精度1。
 
-This parameter allows the controller to balance between maximum efficiency, maximum power and minimum noise to meet the higher needs of customers.
+注：
+1. 波形指数取值为50时具有最高效率，弹簧受到的应力最小。
+2. 取值为100时可以取得最大额定输出功率和最小噪音，但弹簧将会受到较大的应力。
 
-The waveform index ranges is 50~100, the default is 100 and the adjustment accuracy is 1.
+![波形指数示意图，左侧 r=100，右侧 r=50，纵轴为电流，横轴为时间。](assets/images/cuh.sdvc34.manual.v0.0/page-0035-vcrop-00.png)
 
-**Note:**
+### 4.4.1.7 直流电流
 
-1. When the waveform index is 50, it has the highest efficiency and the stress on the spring is the smallest.
-2. When the value is 100, the maximum rated output power and minimum noise can be obtained, but the spring will be subject to greater stress.
+可以设定控制器的驱动输出在正弦电流的基础上叠加一个直流电流分量。
 
-![Waveform Index Diagram showing current-time waveforms for r=100 and r=50](assets/images/cuh.sdvc34.manual.v0.0/page-0035-vcrop-00.png)
+直流电流范围0.0~2.00A，默认0.10A，调整精度0.01A。
 
-### 4.4.1.7 DC Current
+### 4.4.1.8 开机状态
 
-The driving output of the controller can be set to superimpose a DC current component on the basis of the sinusoidal current.
+设定控制器上电后的运行状态。默认开。
 
-The DC current range is 0.0~2.00A, the default is 0.10A and the adjustment accuracy is 0.01A.
-
-### 4.4.1.8 Power On State
-
-Set the operating status of the controller after power on. Default On.
-
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| On | After the device is powered on, the status of the switch key is running |
-| Off | After the device is powered on, the status of the switch key is stopped |
-| Keep | After the device is powered on, the status of the switch key remains the same as before the last shutdown |
-
----
-
-2026-02　　　　　　　　　　　　　　　　　- 25 -　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+| 开 | 设备上电后开关键的状态为运行 |
+| 关 | 设备上电后开关键的状态为停止 |
+| 保持 | 设备上电后开关键的状态保持为上次关机前的状态 |
 
 
 ### 第 36 页
 
-#### 4.4.1.9 Remote Control Source
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-The output voltage and feeding speed of the controller can be modified through panel parameters or directly controlled through the size of the remote control source input signal. Optional control methods include: panel, 4-20mA DC input, 1-5V DC input, 0-5V DC input, 0-10V DC input, as well as digital synchronization bus signal. Default is Panel.
+## 4.4.1.9 遥控源
 
-**Potentiometer control connection**
+控制器的输出电压和送料速度可通过面板参数修改，也可以通过遥控源输入信号的大小来直接控制。可选择的控制方式有：面板、4~20毫安直流输入、1~5伏直流输入、0~5伏直流输入、0~10伏直流输入以及数字同步总线信号。默认为面板。
 
-Suggest: Please use a 1K linear potentiometer
+![遥控源电位器控制连接方式及PLC控制连接方式接线示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0036-vcrop-00.png)
 
-![Potentiometer control connection wiring diagram for remote speed control, including controller terminal blocks and potentiometer connections.](assets/images/cuh.sdvc34.manual.v0.0/page-0036-vcrop-00.png)
-
-**PLC control connection**
-
-- 1~5V/0~5V/0~10V DC Input
-- 4~20mA DC Input
-
-![PLC control connection wiring diagrams for 1~5V/0~5V/0~10V DC input and 4~20mA DC input.](assets/images/cuh.sdvc34.manual.v0.0/page-0036-vcrop-01.png)
+2026-02　　　　　　　　　　　　　　　　　-26-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 37 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器  
+SDVC341-M
 
-| Remote Control Signal | Remote Control Signal | Output Voltage/Feeding Speed |
+| 遥控源 | 远程遥控信号 | 输出电压/送料速度 |
 |---|---|---|
-| Panel |  | Output Voltage and Feeding speed are not controlled by Remote Control Signal |
-| 20mA | <2mA | When the Voltage Mode is Manual, Output Voltage = 0<br>When the Voltage Mode is Auto, Feeding Speed = 0<br>LCD display the error information "Remote control undervoltage" |
-|  | 2mA~4mA | Output Voltage = 0, Feeding Speed = 0 |
-|  | 4mA~20mA | Proportionally controlled by Remote Control Signal（0%~100%）<br>When the Voltage Mode is Manual, Output Voltage = (Input Current - 4mA)/16 × Max Output Voltage<br>When the Voltage Mode is Auto, Feeding Speed = (Input Current - 4mA)/16 × Max Feeding Speed |
-| 1~5V | 小于0.5V | Output Voltage = 0, Feeding Speed = 0<br>LCD display the error information "Remote control undervoltage" |
-|  | 0.5V~1V | Output Voltage = 0, Feeding Speed = 0 |
-|  | 1V~5V | Proportionally controlled by Remote Control Signal（0%~100%）<br>When the Voltage Mode is Manual, Output Voltage = (Input Voltage - 1V)/4 × Max Output Voltage<br>When the Voltage Mode is Auto, Feeding Speed = (Input Voltage - 1V)/4 × Max Feeding Speed |
-| 0~5V | 0V~5V | Proportionally controlled by Remote Control Signal（0%~100%）<br>When the Voltage Mode is Manual, Output Voltage = Input Voltage/5 × Max Output Voltage<br>When the Voltage Mode is Auto, Feeding Speed = Input Voltage/5 × Max Feeding Speed |
-| 0~10V | 0V~10V | Proportionally controlled by Remote Control Signal（0%~100%）<br>When the Voltage Mode is Manual, Output Voltage = Input Voltage/10 × Max Output Voltage<br>When the Voltage Mode is Auto, Feeding Speed = Input Voltage/10 × Max Feeding Speed |
-| DigSym | Digital Sync | The voltage of the remote control signal is the remote control input voltage of a specified device on the bus (specified through remote control synchronization parameters)<br>Proportionally controlled by the remote control input voltage signal of a specified device on the bus, with a voltage range of 0% to 100%.<br>When the Voltage Mode is Manual, Output Voltage = Input Voltage/10 × Max Output Voltage<br>When the Voltage Mode is Auto, Feeding Speed = Input Voltage/10 × Max Feeding Speed |
+| 面板 |  | 输出电压和送料速度不受远程遥控信号影响 |
+| 20mA | 小于2mA | 电压手动时：输出电压=0<br>电压自动时：送料速度=0<br>并显示错误报警信息“遥控欠压” |
+| 20mA | 2mA~4mA | 输出电压=0　　送料速度=0 |
+| 20mA | 4mA~20mA | 按比例受远程遥控信号控制0%~100%<br>电压手动时：输出电压=（输入电流-4mA）/16×最大输出电压<br>电压自动时：送料速度=（输入电流-4mA）/16×速度最大值 |
+| 1~5V | 小于0.5V | 输出电压=0　　送料速度=0<br>并显示错误报警信息“遥控欠压” |
+| 1~5V | 0.5V~1V | 输出电压=0　　送料速度=0 |
+| 1~5V | 1V~5V | 按比例受远程遥控信号控制0%~100%<br>电压手动时：输出电压=（输入电压-1V）/4×最大输出电压<br>电压自动时：送料速度=（输入电压-1V）/4×速度最大值 |
+| 0~5V | 0V~5V | 按比例受远程遥控信号控制0%~100%<br>电压手动时：输出电压=输入电压/5×最大输出电压<br>电压自动时：送料速度=输入电压/5×速度最大值 |
+| 0~10V | 0V~10V | 按比例受远程遥控信号控制0%~100%<br>电压手动时：输出电压=输入电压/10×最大输出电压<br>电压自动时：送料速度=输入电压/10×速度最大值 |
+| 同步 | 数字同步 | 本机远程遥控信号的电压为总线上的一台指定设备（通过遥控同步参数指定）的遥控输入电压<br>按比例受总线上一台指定设备的遥控输入电压信号控制0%~100%<br>电压手动时：输出电压=输入电压/10×最大输出电压<br>电压自动时：送料速度=输入电压/10×速度最大值 |
 
-#### 4.4.1.10 Remote Control Coefficient
+### 4.4.1.10 遥控系数
 
-When the remote control source is selected other than "panel" and "sync", the remote control coefficient can be used to amplify or reduce the control amount of the remote control input signal.
+当遥控源选择除“面板”和“同步”以外时，遥控系数可以用来放大或者缩小遥控输入信号的控制量。
 
-The remote control coefficient range is 0.5~2.0, the default is 1.0 and the adjustment accuracy is 0.1.
+遥控系数范围0.5~2.0，默认1.0，调整精度0.1。
 
-Example: The remote control coefficient is 0.5, when the remote control input signal is 2V, at this time, the equivalent remote control input voltage obtained by the controller is 2V * 0.5=1V.
+例：遥控系数为0.5时，当遥控输入信号为2V，此时控制器获得的等效遥控输入电压为2V*0.5=1V。
 
----
-
-2026-02　　　　　　　　　　　　　　　　　　　　-27-　　　　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　-27-　　SDVC341SMSCN_4.01
 
 
 ### 第 38 页
 
-## 4.4.2 DC Control Output Parameters
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　SDVC341-M
 
-This summary mainly introduces the controller control output parameter settings. The schematic diagram of the control output signal flow is as follows:
+---
 
-![Schematic diagram of the D port control output signal flow, including source logic, AND/OR/NOR/RS/XOR logic relationship, direction, on/off delay, hold, port mode and output type.](assets/images/cuh.sdvc34.manual.v0.0/page-0038-vcrop-00.png)
+## 4.4.2 控制输出参数
 
-The control output parameters setting method is as follows:
+本小结主要介绍控制器控制输出参数设置。控制输出信号流示意图如下：
 
-- Long press ▲ and ◀ to enter parameter setting interface, short press ▶ to switch to "6 DC output" parameter group.
-- Short press ▲ or ▼ to switch parameters in the control output parameter group.
-- Press ⊕ or ⊖ to adjust the parameter value。
+![控制输出信号流示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0038-vcrop-00.png)
 
-![Controller parameter setting interface example showing RUN status, D port parameters and 6DCoutput group.](assets/images/cuh.sdvc34.manual.v0.0/page-0038-vcrop-01.png)
+控制输出参数设置方法如下：
 
-The other parameters of this parameter group can be adjusted according to the above steps.
+> ▸ 长按 ▲ 加 ◀ 进入参数设置界面，短按 ▶ 切换到 “6控制输出” 参数组。  
+> ▸ 短按 ▲ 或 ▼，切换控制输出参数组中各参数。  
+> ▸ 通过 ⊕ 或 ⊖ 调整参数值。
 
-"D port source 1", "D port source 2", "D port logic", "D port direction", "D open delay" "D off delay" and "D port mode", the above parameters can refer to the main output parameter settings.
+```text
+运行
+A C D E F G N J     T0
+01.D口逻辑        或
+02.D口源 1     C料满
+03.D口源 2     E料满
+04.D口方向      常通
+05.D开延时      0.2 S
++   6控制输出   −
+```
+
+本参数组的参数均可按照以上的操作步骤调节参数值。
+
+“D口源1”、“D口源2”、“D口逻辑”、“D口方向”、“D开延时”、“D关延时”和“D口模式”，以上参数均可参考主输出参数设置。
+
+---
+
+2026-02　　　　　　　　　-28-　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 39 页
 
-Automatic Frequency Controller for Vibratory Feeder                                                        SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-## 4.4.2.1 D Port Type
+## 4.4.2.1 D口类型
 
-D port output can support three types: NPN output, PNP output, and push-pull output.  
-Default Ou_P&P (Push-Pull).
+D口输出可以支持NPN输出、PNP输出和推挽输出三种类型。默认推挽。
 
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| Ou_NPN | When the output signal of port D is valid, port D outputs a low-level signal (0V), and when it is invalid, it is high impedence |
-| Ou_PNP | When the output signal of port D is valid, port D outputs a high-level signal (24V), and when it is invalid, it is high impedence |
-| Ou_P&P<br>(Push Pull) | When the output signal of port D is valid, port D outputs a high-level signal (24V). When the output signal of port D is invalid, port D outputs a low-level signal (0V) |
+| Ou_NPN | 在端口D输出信号有效时，端口D输出低电平信号(0V)，<br>无效时为高阻 |
+| Ou_PNP | 在端口D输出信号有效时，端口D输出高电平信号(24V)，<br>无效时为高阻 |
+| Ou_P&P(推挽) | 在端口D输出信号有效时，端口D输出高电平信号(24V)<br>在端口D输出信号无效时，端口D输出低电平信号(0V) |
 
-The diagram is as follows:
+图示如下：
 
-![D port output types timing/level diagram showing NPN Type, PNP Type, and Push-Pull Type with 24V, High Impedence, and 0V levels, and Effective/Invalid states.](assets/images/cuh.sdvc34.manual.v0.0/page-0039-vcrop-00.png)
+![D口类型输出波形示意图：NPN型、PNP型、推挽型在24V、高阻、0V状态下的有效/无效输出关系](assets/images/cuh.sdvc34.manual.v0.0/page-0039-vcrop-00.png)
 
-2026-02                                                        -29-                                                        SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　-29-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 40 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　SDVC341-M
+# 4.5 信号控制功能
 
-# 4.5 Signal Control
+控制器可以通过外接传感器判断振动盘内物料状态，实现控制器的“料满停机”还是“料空停机”。端口信号流示意图如下：
 
-The controller can judge the status of the material in the vibratory feeder through an external sensor, and realize the controller's "stop when full of material" or "stop when empty of material". The port signal flow diagram is as follows:
+![图4.5 端口信号流示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-00.png)
 
-![Port signal flow diagram for Port C2 and Port E2, including port type, logic direction, on delay and off delay blocks.](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-00.png)
+**图 4.5**
 
-**Figure 4.5**
+信号输入参数设置方法如下：
 
-The method for setting signal input parameters is as follows:
+- 长按 ▲ 加 ◀ 进入参数设置界面，短按 ▼ 切换到“5信号输入”参数组。
+- 短按 ▲ 或 ▼，切换信号输入参数组中各参数。
+- 通过 + 或 − 调整参数值。
 
-- Long press ▲ and ◀ to enter parameter setting interface, short press ▶ to switch to "5On&Off" parameter group.
-- Short press ▲ or ▼ to switch parameters in the signal input parameter group.
-- Press ⊕ or ⊖ to adjust the parameter value。
+界面示例：
 
 ```text
-RUN
+运行
 A C D E F G N J        A0
-01.PortType        Auto
-02.PortCDir        Const
-03.PtCUpDly        0.2 S
-04.PtCDnDly        0.2 S
-05.PortEDir        Const
-+     5On&Off        −
+01. 端口类型      Auto
+02. C口方向       常通
+03. C开延时       0.2 S
+04. C关延时       0.2 S
+05. E口方向       常通
++  5信号输入      −
 ```
 
-The other parameters of this parameter group can be adjusted according to the above steps.
+本参数组的参数均可按照以上的操作步骤调节参数数值。
 
-## 4.5.1 Sensor Type
+## 4.5.1 端口类型
 
-The controller can set the type of switch sensor to "Auto", "NPN", "PNP", or "Ato1", or it can be set manually according to the sensor type.
+控制器可以设置开关传感器的类型为“Auto（自动识别）”、“NPN”型、“PNP”型或者“Ato1（自动识别1次）”，也可以根据传感器类型手动设定。
 
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| Auto | Regardless of the sensor type, it is always detected whether the port access is valid by changing the high and low levels signal, the factory default value is automatic recognition |
-| NPN | NPN type sensor |
-| PNP | PNP type sensor |
-| Ato1 | Before the sensor signal is invalid, it is detected whether the port is valid by changing the high and low levels. It is found that after a valid signal, the port sensor type is determined and no longer scanned |
-
-2026-02　　　　　　　　　　　　　　　　　-30-　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+| Auto | 不管传感器类型如何，始终通过变化高低电平检测端口是否接入有效信号，出厂默认值为自动识别 |
+| NPN | NPN型传感器 |
+| PNP | PNP型传感器 |
+| Ato1 | 传感器信号无效前一直通过变换高低电平检测端口是否有效，发现有效信号后确定端口传感器类型且不再扫描 |
 
 
 ### 第 41 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器  
+SDVC341-M
 
-## 4.5.2 C Port/E Port Logic
+## 4.5.2 C口方向/E口方向
 
-This parameter is used to switch the controller input port C and input port E is"Shutdown when full of material" or "Shutdown when empty of material".
+此参数用于切换控制器输入端口C和输入端口E是“料满停机”还是“料空停机”。
 
-When switch input port C/port E under factory default settings no any signal is received, the controller is in"Running" state (i.e. shutdown when full of material). Some special applications require the controller to be in the "stop" state (i.e. material empty shutdown) when port C/port E does not receive any signal. This can be achieved by modifying this parameter. Refer to Figure 4.5 for the signal flow diagram.
+在出厂默认设置下开关量输入端口C/端口E没有收到任何信号时，控制器处于“运行”状态（即料满停机）。一些特殊的应用需要在端口C/端口E没有收到任何信号时，控制器处于“停止”状态（即料空停机）。可以通过修改本参数来实现。信号流示意图参考图4.5。
 
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| Const | When there is no control signal, the controller is in running state (stop when material is full) |
-| Inv | When there is no control signal, the controller is in stop state (stop when empty) |
+| 常通 | 没有控制信号时，控制器处于运行状态（料满停机） |
+| 常断 | 没有控制信号时，控制器处于停止状态（料空停机） |
 
-## 4.5.3 C Port On/Off Delay and E Port On/Off Delay
+## 4.5.3 C开延时/C关延时和E开延时/E关延时
 
-The delay time from the time a signal is applied to put the controller into the running state until the signal is considered valid by the controller is called the on-delay.
+从施加一个使控制器进入运行状态的信号开始到此信号被控制器视为有效，期间的延迟时间称为开延时。
 
-The delay time from the application of a signal that causes the controller to enter the stop state until the signal is considered valid by the controller is called the off delay.
+从施加一个使控制器进入停止状态的信号开始到此信号被控制器视为有效，期间的延迟时间称为关延时。信号流示意图参考图4.5。
 
-For signal flow diagram, refer to Figure 4.5.
+开/关延时范围0.0~99.9s，默认0.2s，调整精度0.1s。
 
-The on/off delay range is 0.0~99.9s, the default is 0.2s, and the adjustment accuracy is 0.1s.
+**注：** 当使用端口C、E进行启动/停止控制时，如果需要在收到信号后延迟一段时间才执行操作，以确保信号是稳定的，可以通过设置开延时和关延时来实现。
 
-**Note:** When using port C, E in performing start/stop control, if it is necessary to delay the operation for a period of time after receiving the signal to ensure that the signal is stable, this can be achieved by setting the on delay and off delay.
-
-2026-02　　　　　　　　　　　　　　　　-31-　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02  
+-31-  
+SDVC341SMSCN_4.01
 
 
 ### 第 42 页
 
-## 4.5.4 Speed A Logic/Speed B Logic
+## 4.5.4 速A方向/速B方向
 
-The signal flow diagram is as follows:
+信号流示意图如下：
 
-![Signal flow diagram for Speed A/Speed B logic and on/off delay](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-00.png)
+![速度A端口和速度B端口的信号流示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-00.png)
 
-**Figure 4.5.4**
+**图 4.5.4**
 
-This parameter is used to switch the valid status of the input ports for controller speed A and speed B. This parameter must be set in the material full parameter group. Default is Const.
+此参数用以切换控制器速度A和速度B输入端口的有效状态，此参数须在料满参数组进行设置。默认常通。
 
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| Const | When there is no control signal, controller speed A and speed B are invalid |
-| Inv | When there is no control signal, controller speed A and speed B are effective |
+| 常通 | 没有控制信号时，控制器速度A和速度B无效 |
+| 常断 | 没有控制信号时，控制器速度A和速度B有效 |
 
-## 4.5.5 Speed A On/Off Delay and Speed B On/Off Delay
+## 4.5.5 速A开延/速A关延和速B开延/速B关延
 
-From applying a valid signal to speed A/B port to set speed active, this time period called on delay.
+从施加一个使速度A/B有效的信号开始到此信号被控制器视为有效，期间的延迟时间称为开延时。
 
-From applying a invalid signal to speed A/B port to set speed inactive, this time period called off delay.
+从施加一个使速度A/B无效的信号开始到此信号被控制器视为有效，期间的延迟时间称为关延时。信号流示意图参考图4.5.4。
 
-For signal flow diagram, refer to Figure 4.5.4.
-
-The speed A&B on/off delay range is 0.0~99.9s, the default is 0.2s, and the adjustment accuracy is 0.1s.
+开/关延时范围0.0~99.9s，默认0.2s，调整精度0.1s。
 
 
 ### 第 43 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　SDVC341-M
 
----
+## 4.6 计数参数
 
-## 4.6 Material Quantity Counting
+本控制器具有内建的计数功能，可以对计数脉冲进行计数，并在脉冲个数达到设定的计数总数后自动减速或停机。且具有超强抗抖和末段减速防过冲等特殊功能。信号流示意图如下：
 
-This controller has a built-in counting function that can count counting pulses and automatically decelerate or stop when the number of pulses reaches the set total count. It also has special functions such as super anti-jitter and final deceleration to prevent overshoot. The signal flow diagram is as follows:
+![计数功能信号流示意图（图4.6）](assets/images/cuh.sdvc34.manual.v0.0/page-0043-vcrop-00.png)
 
-![Figure 4.6 signal flow diagram for material quantity counting](assets/images/cuh.sdvc34.manual.v0.0/page-0043-vcrop-00.png)
+**图 4.6**
 
-**Figure 4.6**
-
-» Long press ▲ and ◀ to enter parameter setting interface, short press ▶ to switch to "7Counter" parameter group.
-
-» Short press ▲ or ▼ to switch parameters in the counting parameter group.
-
-» Press ⊕ or ⊖ to adjust the parameter value.
+> » 长按 ▲ 加 ◀ 进入参数设置界面，短按 ▶ 切换到“7计数”参数组。  
+> » 短按 ▲ 或 ▼，切换计数参数组中各参数。  
+> » 通过 ⊕ 或 ⊖ 调整参数值。
 
 ```text
-RUN
-A C D E F G N J    A0
-01.TotaCout       10
-02.PrcntTrm       50 %
-03.CotAhead        3
-04.CotRstTm       0.0 S
-05.CotPotSe       None
-+    7Counter      −
+运行
+A C D E F G N J        A0
+01.计数总数        10
+02.末段速度        50 %
+03.末段数量         3
+04.计数清零       0.0 S
+05.计数功能        无效
++      7计数        -
 ```
 
-The other parameters of this parameter group can be adjusted according to the above steps.
+**本参数组的参数均可按照以上的操作步骤调节参数值。**
 
-### 4.6.1 Material Quantity Counting (or Speed A/B)
+### 4.6.1 计数功能（或速度A/B）
 
-This parameter is used to enable and disable the counting function.
+该参数用于使能和关闭计数功能。
 
-The default is None, that is, the counting function is turned off, and the speed A/B function is enabled at this time.
+默认无效，即关闭计数功能，此时启用速度A/B功能。
 
-When the counting function parameter is valid (enabled), the speed A and speed B act as speed A/B control, the controller can perform more operations for the counting function. For signal flow diagram, refer to Figure 4.6.
+当计数功能参数有效（使能）时，速度A和速度B不再用作速度A/B控制，控制器可针对计数功能进行更多的操作。信号流示意图参考图4.6。
 
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| None | Turn off the counting function and enable the speed A/B function |
-| Valid | Use the speed A port as the counting port, and use the speed B port as the count clearing port |
+| 无效 | 关闭计数功能，此时启用速度A/B功能 |
+| 有效 | 使用速度A端口为计数端口，使用速度B端口为计数清零端口 |
 
----
-
-2026-02　　　　　　　　　　　　　　　　　-33-　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　-33-　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 44 页
 
-Automatic Frequency Controller for Vibratory Feeder  
-SDVC341-M
+## 4.6.2 计数总数
 
----
+在“当前计数值”达到限值后，计数满信号有效，直到计数器被复位。进入计数满状态后，如果继续发送计数脉冲，则计数还会继续，但计数满信号一直保持为有效。信号流示意图参考图4.6。
 
-## 4.6.2 Target Quantity
+计数总数范围0~9999，默认值10，调整精度1。
 
-After the "current count value" reaches the limit, the count full signal is valid until the counter is reset. After entering the counting full state, if the counting pulse is continued to be sent, the counting will continue, but the counting full signal remains valid. For signal flow diagram, refer to Figure 4.6.
+## 4.6.3 末段速度
 
-The total count range is 0~9999, the default value is 10, and the adjustment accuracy is 1.
+**末段速度**，指当计数进入末段减速状态时，控制器的送料速度和电压将降为初始速度和电压的百分比，见图4.6.3。
 
-## 4.6.3 Terminal Speed
+在计数个数接近计数总数时，计数过程即将完成，为了防止物料高速运动不能及时停止而造成计数过冲，控制器在计数剩余数量小于末端数量时，自动把速度降为用户设定的末段速度（计数减速信号有效）。当计数数值达到计数总数后（计数满信号有效），控制器立刻停止输出，送料器就可以获得精确的计数控制。
 
-**Terminal Speed**, means that when counting enters the final deceleration state, the controller's feeding speed and voltage will drop to the percentage of the initial speed and voltage, see Figure 4.6.3.
+末段速度范围0~100%，默认值50%，调整精度1%。
 
-When the counting number is close to the total number, the counting process is about to be completed. In order to prevent the high-speed movement of the material from being unable to stop in time and causing counting overshoot, the controller automatically reduces the speed to the end set speed (the counting deceleration signal is valid) by the user when the remaining number is less than the end number. When the count value reaches the total count (the full count signal is valid), the controller immediately stops output, and the feeder can obtain precise counting control.
+![图4.6.3：计数总数、末段数量与送料速度/末段速度关系示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0044-vcrop-00.png)
 
-The terminal speed range is 0~100%, the default value is 50%, and the adjustment accuracy is 1%.
-
-![Figure 4.6.3: counting terminal speed diagram showing Feeding Speed versus Count Number, 100% speed before End Count, drop to Terminal Speed around 50%, then stop at Count Total.](assets/images/cuh.sdvc34.manual.v0.0/page-0044-vcrop-00.png)
-
----
-
-2026-02 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -34- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SDVC341SMSEN_4.01
+**图 4.6.3**
 
 
 ### 第 45 页
 
-### 4.6.4 Terminal Speed Quantity
+自动调频振动送料控制器            SDVC341-M
 
-Number of final sections: Refers to the total number of distance counts. After reaching the "end number", the controller enters the counting decrement mode.
+---
 
-In the speed state, the feeding speed and voltage drop to the terminal speed and terminal voltage. When the value of "End Segment Quantity" is 0, it means that the final deceleration function is not used. For signal flow diagram, refer to Figure 4.6.
+### 4.6.4 末段数量
 
-The number of last segments ranges from 0 to 9999, the default value is 3, and the adjustment accuracy is 1.
+**末段数量：** 指距离计数总数的个数，达到“末段数量”后，控制器进入计数减速状态，送料速度和电压降为末段速度和末端电压。当“末段数量”值为0时，表示不使用末段减速功能。信号流示意图参考图4.6。
 
-### 4.6.5 Reset Counting Value to 0
+末段数量范围0~9999，默认值3，调整精度1。
 
-When the count is full, the controller will automatically clear the count value after the "count clear" time delay. When the "Count Clear" value is 0.0s, it means that the delay automatically triggers the count reset function disable.
+### 4.6.5 计数清零
 
-The counting reset time range is 0.0~999.9s, the default value is 0.0s, and the adjustment accuracy is 0.1s.
+当计数满后，经过“计数清零”时间的延迟，控制器会自动清零计数值。当“计数清零”值为0.0s时，表示不使用延迟自动触发计数复位功能。
 
-### 4.6.6 RS Priority
+计数清零范围0.0~999.9s，默认值0.0s，调整精度0.1s。
 
-Used to set the RS trigger port priority. Default Same。
+### 4.6.6 RS优先级
 
-| Parameter | Meaning |
+用于设置RS触发器端口优先级。默认同级。
+
+| 参数名 | 含义 |
 |---|---|
-| Same | The R port and the S port have the same priority. When there are signals on the R and S ports, the controller reports a warning of "main RS error" or "control RS error" |
-| Reset | Reset priority. When there are signals on the R and S ports, the R port signal takes priority, that is, the reset signal takes priority |
-| Set | Set priority. When there are signals on the R and S ports, the S port signal takes priority, that is, the set signal takes priority |
-| Revers | When there are signals at the R and S ports, the current logic output result is inverted |
+| 同级 | R口和S口具有相同的优先级，当R，S端口都有信号时，控制器报警告“主RS错误”或者“控RS错误” |
+| 复位 | 复位优先，当R，S端口都有信号时，以R口信号为先，即复位信号优先 |
+| 置位 | 置位优先，当R，S端口都有信号时，以S口信号为先，即置位信号优先 |
+| 取反 | 当R，S端口都有信号时，将当前逻辑输出结果取反 |
+
+---
+
+2026-02          -35-          SDVC341SMSCN_4.01
 
 
 ### 第 46 页
 
-Automatic Frequency Controller for Vibratory Feeder  
-SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
 ---
 
-## 4.7 Save Settings
+## 4.7 用户参数保存功能
 
-This chapter mainly introduces how to use the parameter storage and callback parameter functions of the controller.
+本章节主要介绍如何使用控制器的参数存储及调用参数功能。
 
-### 4.7.1 Callback Settings
+### 4.7.1 读出参数
 
-The controller can read out 3 different sets of preset parameters in addition to the work group, named "User 1," "User 2", and "User 3" respectively.
+控制器可以读出除工作组以外的3套不同的预置参数，分别命名为 “用户1”、“用户2”、“用户3”。
 
-When the user modifies the parameters, the controller parameters are saved in the workgroup by default. When the controller is powered on again, the parameters will be automatically read from the workgroup and the parameter values before the last shutdown will be restored. At the same time, users can manually select from "UsrD1", "UsrD2", "UsrD3". Read out another file manually saved by the three groups. The data is sent to the working group in the controller, allowing the controller to switch working status immediately.
+当用户修改参数后，控制器的参数默认保存在工作组，当控制器重新上电后，将自动从工作组中读出参数，恢复上次关机前的参数值。同时用户可以手动从“用户1”、“用户2”、“用户3”读出用户手动保存的另外3组数据到控制器内的工作组，使控制器立即切换工作状态。
 
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| None | Invalid |
-| UsrD1 | User set parameter 1 |
-| UsrD2 | User set parameter 2 |
-| UsrD3 | User set parameter 3 |
+| 无效 | 无效 |
+| 用户1 | 用户设定参数1 |
+| 用户2 | 用户设定参数2 |
+| 用户3 | 用户设定参数3 |
 
-### 4.7.2 Save Settings
+### 4.7.2 保存参数
 
-The controller can save 4 different sets of preset parameters, named "Work", "UsrD1", "UsrD2", "UsrD3".
+控制器可以保存4套不同的预置参数，分别名为 “工作组”、“用户1”、“用户2”、“用户3”。
 
-When the user modifies the parameters, the controller parameters are automatically saved in the "Work" by default. When the controller is powered on again, the parameters will be automatically read from the work group and the parameter values before the last shutdown will be restored. Users can manually save parameters in the workgroup to "UsrD1", "UsrD2", "UsrD3".
+当用户修改参数后，控制器的参数默认自动保存在“工作组”内，当控制器重新上电后，将自动从工作组中读出参数，恢复上次关机前的参数值。用户可以手动将工作组中的参数保存到“用户1”、“用户2”、“用户3”中。
 
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| None | Invalid |
-| Work | Default workgroup |
-| UsrD1 | User set parameter 1 |
-| UsrD2 | User set parameter 2 |
-| UsrD3 | User set parameter 3 |
+| 无效 | 无效 |
+| 工作组 | 默认工作组 |
+| 用户1 | 用户设定参数1 |
+| 用户2 | 用户设定参数2 |
+| 用户3 | 用户设定参数3 |
 
 ---
 
-2026-02  
--36-  
-SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　-36-　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 47 页
 
-Automatic Frequency Controller for Vibratory Feeder  
-SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　SDVC341-M
 
----
+### 4.7.3 复位参数
 
-### 4.7.3 Restore Factory
+使用复位参数，将工作组参数全部恢复到出厂默认值。
 
-Use reset parameters to restore all workgroup parameters to factory default values.
+“复位参数”选中“工作组”后，同时长按 ⊕ 和 ⊖ 两秒以上，显示界面切换到待机界面，此时恢复参数成功。
 
-After selecting "RWork" in "Reset Parameters", press ⊕ and ⊖ hold at the same time, after more than two seconds, the display interface switches to the standby interface, and the parameters are restored successfully.
-
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| None | invalid |
-| Rwork | Restore workgroup parameters to factory settings. (User 1, User 2 and User 3 will not be restored) |
+| 无效 | 无效 |
+| 工作组 | 将工作组参数恢复至出厂设置。（用户1、用户2和用户3不做恢复） |
 
-### 4.7.4 Copy Settings
+### 4.7.4 拷贝参数
 
-The controller can replace the parameter group of this controller with the data of the two controllers in the network that it has backed up to quickly copy the parameters of the two controllers.
+控制器可以用自身备份的2台网络中的控制器的数据来替换本控制器的参数组，以快速实现2台控制器参数的拷贝。
 
-Select the ID number of the controller to be copied to realize the function of copying the data of the controller. The selection range of copy parameters is 1~8.
+选择被拷贝的控制器ID号，实现拷贝该控制器数据功能。
 
-### 4.7.5 User Password
+拷贝参数的选择范围1~8。
 
-Users can set the parameter password by themselves. After locking, the user can only operate under the "Monitoring Parameter Group" and "Home Page".
+### 4.7.5 用户密码
 
-When the user sets when the "user password" is non-0, it means the advanced parameter lock function is enabled. At this time, you need to enter the password when entering the parameter group on the home page. After the user "enters the password"and press ▼ + ▲, if the "enter password" and "user password" are different, the user can only enter the monitoring parameter group. Only after the password is correct can the user enter other parameter groups.
+用户可以自行设置参数密码，锁定后用户仅可在“监控参数组”和“主页”下进行操作。
 
-The selection range of user password is 0~9999.
+当用户设置了非0的“用户密码”时，表示启用高级参数锁功能，此时在主页要进入参数组时就需要输入密码。用户“输入密码”后按 ▶ + ▲ 后，如果“输入密码”和“用户密码”不同，用户只能进入监控参数组，只有密码正确后才能进入其它参数组。
 
-### 4.7.6 Enter Password
+用户密码的选择范围0~9999。
 
-If the "Enter Password" and "User Password" are different, the user can only operate under "Home Page" and "Monitoring Parameter Group". Only after the password is correct can the user enter other parameter groups.
+### 4.7.6 输入密码
 
-The selection range for entering the password is 0~9999.
+如果“输入密码”和“用户密码”不同，用户仅可在“主页”、”监控参数组”下进行操作，只有密码正确后才能进入其它参数组。
 
----
+输入密码的选择范围0~9999。
 
-2026-02  
--37-  
-SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　-37-　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 48 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-## 4.8 RS485 Communication
+## 4.8 RS485通信功能
 
-This controller supportsRS485 communication. Following the Modbus protocol mode ASCII and RTU type, all parameters and status of the controller can be modified and read remotely.
+本控制器支持RS485通信，遵循Modbus协议的ASCII和RTU模式，可以对控制器所有参数和状态进行远程修改和读取。
 
-The local RS485 communication protocol "SDVC341 Series 485 Register Address Table 1.02" can be downloaded from the download area of our company's website: www.cuhnj.com.
+本机RS485通信协议《SDVC341系列485寄存器地址表1.02》在本公司网站：www.cuhnj.com下载区下载。
 
-> » Long press ▲ and ◀ to enter parameter setting interface, short press ▶ to switch to "8Comm" parameter group.
+> » 长按 ▲ 加 ◀ 进入参数设置界面，短按 ▶ 切换到“8通信”参数组。
 >
-> » Short press ▲ or ▼ to switch parameters in the communication parameter group.
+> » 短按 ▲ 或 ▼，切换通信参数组中各参数。
 >
-> » Press ⊕ or ⊖ to adjust the parameter value。
+> » 通过 ⊕ 或 ⊖ 调整参数值。
 >
 > ```text
-> RUN
-> A C D E F G N J      A0
-> 01.485type       RTU
-> 02.BaudRate    115.2 K
-> 03.485SlvID      1
-> 04.Enab485R    None
-> 05.DigSynAd      1
-> +      8Comm      -
+> 运行
+> A C D E F G N J    A0
+> 01.通信类型    RTU
+> 02.波特率      115.2 K
+> 03.从机号      1
+> 04.端口电阻    无效
+> 05.数字同步    1
+> +     8通信     -
 > ```
 
-The other parameters of this parameter group can be adjusted according to the above steps.
+**本参数组的参数均可按照以上的操作步骤调节参数值。**
 
-### 4.8.1 Communication Type
+### 4.8.1 通信类型
 
-Rs485 communication type selection, Modbus ASCII type and Modbus RTU type. Default RTU.
+RS485通信类型选择，Modbus ASCII类型和Modbus RTU类型。默认RTU。
 
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| ASCⅡ | Modbus ASCII type |
-| RTU | Modbus RTU type |
+| ASCⅡ | Modbus ASCII类型 |
+| RTU | Modbus RTU类型 |
 
-2026-02　　　　　　　　　　　　　　　　　-38-　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　-38-　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 49 页
 
-Automatic Frequency Controller for Vibratory Feeder                                             SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-## 4.8.2 Baud Rate
+---
 
-Different RS485 communication baud rate options. Default is 115.2K.
+## 4.8.2 波特率
 
-| Parameter | Meaning |
+不同的RS485通信波特率选择。默认115.2K。
+
+| 参数名 | 含义 |
 |---|---|
 | 0.3K | 0.3 Kbps |
 | 1.2K | 1.2 Kbps |
@@ -2049,733 +2022,726 @@ Different RS485 communication baud rate options. Default is 115.2K.
 | 57.6K | 57.6 Kbps |
 | 115.2K | 115.2 Kbps |
 
-## 4.8.3 Slave Controller Address
+## 4.8.3 从机号
 
-Set the slave address number in RS485 communication.
+在RS485通信中设定从机地址编号。
 
-The slave number ranges from 1 to 31. Default 1.
+从机号范围1~31。默认1。
 
-## 4.8.4 Port Resistance/Synchronous Resistance
+## 4.8.4 端口电阻/同步电阻
 
-The RS485 communication port/Digital synchronization port incorporates a matching resistor (120Ω) function. Default is None.
+RS485通信端口/数字同步端口并入匹配电阻（120Ω）功能。默认无效。
 
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| None | Do not use matching resistor (120Ω) |
-| Valid | Use matching resistor (120Ω) |
+| 无效 | 不使用匹配电阻（120Ω） |
+| 有效 | 使用匹配电阻（120Ω） |
 
-2026-02                                     -39-                                     SDVC341SMSEN_4.01
+---
+
+2026-02　　　　　　　　　　　　　　　　　-39-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 50 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
 ---
 
-## 4.9 CUHBus-DS® Networking
+## 4.9 CUHBus-DS®组网功能
 
-SDVC341-M controller adopts LAN bus (CUHBus-DS®) serial communication protocol bus protocol. Achieve networking of up to 8 devices on the same network. The following functions can be implemented between the controllers after networking:
+SDVC341-M控制器采用局域网总线（CUHBus-DS®）串行通讯协议总线协议，实现同网络下最多8台设备的组网，在组网后的控制器间可以实现如下功能：
 
-**Sync Features:** The frequency, phase, remote control speed adjustment and other parameters of any controller in the network can be consistent or deviated from the output of any other controller in the network.
+**同步功能：** 网络内任一台控制器的频率、相位或遥控调速等参数可以参照网络内其他任一台控制器保持一致或偏差输出。
 
-**Signal Sharing:** Any status signal of any controller in the network can be shared as the signal input source of any other controller. It allows any controller in the network to have richer signal sources besides the local unit and output them after logical operations to implement more complex controller operation logic at the user site.
+**信号共享：** 网络内任意控制器的任意状态信号可共享做其他任一控制器信号输入源。可以让网络内任一控制器拥有除本机以外更丰富的信号源并经逻辑运算后输出，以实现用户现场更复杂的控制器运行逻辑。
 
-**Data Backup:** The data of any controller in the network will be backed up on the other two controllers in the network. Any controller in the network can be perfectly replaced by replacement and joining, and the data of the replaced controller can be used to continue running.
+**数据备份：** 网络内任一台控制器数据都会备份在网络内其他两台控制器上。可以通过替换加入的方式实现网络内任一台控制器的完美替换，实现使用被替换控制器的数据继续运行。
 
 > ☺
 >
-> **This network system has the following characteristics:**
+> **该网络系统具有以下特点：**
 >
-> - It is easy to expand and new devices can be quickly added to the network.
-> - The network is equivalent, with a set of equivalent CUHBus-DS® communication terminals on the left and right to facilitate user connection.
-> - The device supports hot swapping, and the controller expansion can be added or deleted without powering off during stable operation of the controller system.
+> - 扩展方便，新设备可以迅速加入该网络内。
+> - 网络对等，左右各一组对等CUHBus-DS®通信端子，方便用户连接。
+> - 设备支持热插拔，控制器系统稳定运行中无需断电即可完成控制器拓展加入或删除。
 
 ---
 
-2026-02　　　　　　　　　　　　　　　　-40-　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　-40-　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 51 页
 
-Automatic Frequency Controller for Vibratory Feeder                                     SDVC341-M
+自动调频振动送料控制器                                                                 SDVC341-M
 
 ---
 
-## 4.9.1 Device Networking
+### 4.9.1 设备组网
 
-This chapter mainly introduces the quick networking between multiple controllers, how to add a new controller to the established network and how to delete the controller in the network.
+本章节主要介绍多台控制器间快速组网，新控制器如何加入已组网络中以及如何删除网络内的控制器。
 
-### 4.9.1.1 Device Networking
+#### 4.9.1.1 设备组网
 
-A single controller is a network by itself. When the controllers CUHBus-DS® signal lines are correctly connected and simple operations are performed, multiple devices can form a new digital synchronous communication network.
+单台控制器自己为一个网络，当控制器间 CUHBus-DS® 信号线正确连接并进行简单操作后便可实现多台设备组成一个新的数字同步通信网络。
 
-![CUHBus-DS device networking wiring diagram showing controllers Address 1 to Address 4 with T1 and T3 terminals interconnected.](assets/images/cuh.sdvc34.manual.v0.0/page-0051-vcrop-00.png)
+![四台控制器通过 CUHBus-DS 信号线组网的连接示意图，设备标注为地址1、地址2、地址3、地址4，端子标注 T1、T3。](assets/images/cuh.sdvc34.manual.v0.0/page-0051-vcrop-00.png)
 
 ---
 
-2026-02                                     -41-                                     SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　-41-　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 52 页
 
-Automatic Frequency Controller for Vibratory Feeder                                                SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-**Steps:**
+---
 
-1. Connect all controller T1 signals to each other and all T3 signals to each other, as shown in the figure above.
+**操作步骤：**
 
-2. When the new device is powered on, the new controller will automatically enter the "communication parameter group".
+1、将所有控制器T1信号相互连接，所有T3信号相互连接，如上图。
 
-3. In the communication parameter group, set the local digital synchronization communication device number, and "DigSynAd" is [1~8] any value. You don't need to set it, the program will automatically generate a number.
+2、新设备通电，此时新控制器会自动进入“通信参数组”。
 
-4. In the communication parameter group, set the parameter value of "EnNetwok " to "Expand", and then press ⊕ and ⊖ hold at the same time, confirm.
+3、在通信参数组中，设置本机数字同步通信设备编号，“数字同步”为【1~8】任意值。也可以不设置，程序会自动生成一个编号。
 
-5. After the addition is successful, the parameter value of the new device "EnNetwok " will automatically change to "Online", indicating that the new device has been successfully added.
+4、在通信参数组中，设定“是否联网”参数值为“拓展”，然后同时长按 ⊕ 和 ⊖，确认。
 
-Users can check whether the network has been correctly networked by checking the device networking status parameters, as well as check the total number of devices in the network and the number of online devices.
+5、加入成功后，此时新设备“是否联网”参数值自动变为“在线”，表示新设备拓展加入成功。
 
-Note: Only connecting the CUHBus-DS® signal line and not passing the settings does not count as joining the network.
+用户可通过查看设备组网状态参数确认是否已正确组网，以及查看网络内设备总数和在线台数。
 
-**View Confirmation Method:**
+注：仅连接CUHBus-DS®信号线，并未通过设置，不算加入网络。
 
-1. In the monitoring parameter group, the value of the parameter "DevicNum" is [1~8], indicating the total number of devices in the network.
+**查看确认方式：**
 
-2. In the monitoring parameter group, the value of the parameter "OnlinNum" is [1~8], indicating how many controllers are currently online in the network.
+1、在监控参数组中，参数“机器总数”的值【1~8】，表示该网络内总共有多少台设备。
 
-**Synchronous Resistor:**
+2、在监控参数组中，参数“联网总数”的值【1~8】，表示目前网络中有多少台控制器在线。
 
-The CUHBus-DS® communication port incorporates a matching resistor (120Ω) function, which is invalid or valid.
+**同步电阻：**
 
-| Parameter | Meaning |
+CUHBus-DS®通信端口并入匹配电阻（120Ω）功能，无效或者有效。
+
+| 参数名 | 含义 |
 |---|---|
-| None | Do not use matching resistor (120Ω) |
-| Valid | Use matching resistor (120Ω) |
+| 无效 | 不使用匹配电阻（120Ω） |
+| 有效 | 使用匹配电阻（120Ω） |
 
-2026-02                                                -42-                                                SDVC341SMSEN_4.01
+---
+
+2026-02　　　　　　　　　　　　　　　　-42-　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 53 页
 
-Automatic Frequency Controller for Vibratory Feeder  
-SDVC341-M
+### 4.9.1.2 设备加入
 
-## 4.9.1.2 Device Joins
+使用者可以按照如下拓展加入步骤，将一台崭新的控制器加入到已组网络中。
 
-Users can follow the following expansion and addition steps to add a new controller to the existing network.
+加入后的新控制器可以调用网络内任意控制器信号，以及充当网络内其他任意控制器信号源。丰富系统的信号源。
 
-The new controller after joining can call the signal of any controller in the network and act controller signal source as any other controller in the network. Enrich system signal sources.
+**操作步骤：**
 
-**Steps:**
+1、将新设备CUHBus-DS® T1、T3接口接入原有完整网络中，端口支持热插拔。
 
-1. Connect the CUHBus-DS® T1 and T3 interfaces of the new device to the original complete network, and the ports support hot swapping.
+2、新设备通电，此时新控制器会自动进入“通信参数组”。
 
-2. When the new device is powered on, the new controller will automatically enter the "communication parameter group".
+3、在通信参数组中，设置本机数字同步通信设备编号，“数字同步”为【1~8】任意值。也可以不设置，程序会自动生成一个编号。
 
-3. In the communication parameter group, set the local digital synchronization communication device number, and "DigSynAd" is [1~8] any value. You don't need to set it, the program will automatically generate a number.
+4、在通信参数组中，设定“是否联网”参数值为“拓展”，然后同时长按 ⊕ 和 ⊖，确认。
 
-4. In the communication parameter group, set the parameter value of "EnNetwok " to "Expand", and then press ⊕ and ⊖ hold at the same time, confirm.
+5、拓展加入成功后，此时新设备“是否联网”参数值自动变为“在线”，表示新设备拓展加入成功。
 
-5. After the addition is successful, the parameter value of the new device "EnNetwok " will automatically change to "Online", indicating that the new device has been successfully added.
+用户可通过查看设备组网状态参数确认是否已正确组网，以及查看网络内设备总数和在线台数。查看确认方式同设备组网。
 
-Users can check whether the network has been correctly networked by checking the device networking status parameters, as well as check the total number of devices in the network and the number of online devices.
+注：仅连接CUHBus-DS®信号线，并未通过设置，不算加入网络。
 
-Note: Only connecting the CUHBus-DS® signal line and not passing the settings does not count as joining the network.
-
-![Device joins networking diagram showing Address 1 and Address 2 controllers, a new controller added as Address 3, and operation steps.](assets/images/cuh.sdvc34.manual.v0.0/page-0053-vcrop-00.png)
-
-2026-02 &nbsp;&nbsp;&nbsp;&nbsp; -43- &nbsp;&nbsp;&nbsp;&nbsp; SDVC341SMSEN_4.01
+![设备加入示意图：左侧为地址1、地址2与新控制器接入原网络，右侧为加入成功后显示地址1、地址2、地址3（新控制器），中间箭头说明操作流程。](assets/images/cuh.sdvc34.manual.v0.0/page-0053-vcrop-00.png)
 
 
 ### 第 54 页
 
-Automatic Frequency Controller for Vibratory Feeder                                            SDVC341-M
+#### 4.9.1.3 设备删除
 
----
+当需要从网络中永久移除一台控制器时，可使用删除网络中的控制器功能。删除网络中的控制器可通过网络中的任意一台控制器发起。删除后剩余的控制器将重新组成一个完整的新网络。
 
-## 4.9.1.3 Device Removal
+但如果未通过控制器删除操作，直接移除控制器（包括断电）后，网络内仍保有该控制器数据。此时网络处于降级状态无法进行新控制器的拓展加入。必须通过控制器手动删除后，才能保持网络的完整性进而完成新控制器的拓展加入。
 
-When you need to permanently remove a controller from the network, use the Remove Controller from Network feature. Deleting a controller in the network can be initiated from any controller in the network. The remaining controllers after deletion will reorganize into a complete new network.
+**删除控制器操作步骤：**
 
-However, if the controller is removed directly (including power outage) without deleting the controller, the data of the controller will still be retained in the network. At this time, the network is in a degraded state and new controllers cannot be added. It must be manually deleted through the controller to maintain the integrity of the network and complete the expansion and addition of new controllers.
+1. 通过组网内任一控制器进入“通信参数组”。
+2. 修改“移除机器”参数的值为需要删除的网络设备地址。
+3. 修改好值后长按 ⊕ 和 ⊖，确认删除该设备。
+4. 删除完成后“删除设备”参数值变为不可被选择的值，表示设备删除成功。
+5. 此时在操作设备上查看新网络状态，确认新网络控制数量。
 
-**Steps to Delete a Controller:**
+例：在网络中删除地址3控制器。
 
-1. Enter the "communication parameter group" through any controller in the network.
-2. Modify the value of the "DeltDevi" parameter to the address of the network device that needs to be deleted.
-3. After modifying the value, long press ⊕ and ⊖， confirm deletion of the device.
-4. After the deletion is completed, the "DeltDevi" parameter value changes to unselectable value, indicating that the device is successfully deleted.
-5. At this time, check the new network status on the operating device and confirm the number of new network controls.
-
-Example: Delete the address 3 controller from the network.
-
-![Device removal example diagram: deleting address 3 controller from a CUHBus-DS network via address 1 or address 2 controller, then removing the original address 3 communication line.](assets/images/cuh.sdvc34.manual.v0.0/page-0054-vcrop-00.png)
-
----
-
-2026-02                                                                 -44-                                                                 SDVC341SMSEN_4.01
+![在网络中删除地址3控制器的操作示意图：左侧为地址1、地址2、地址3计划移除；中间通过地址1或地址2控制器删除地址3；右侧删除成功后网络仅剩地址1、地址2并移除原地址3通信线。](assets/images/cuh.sdvc34.manual.v0.0/page-0054-vcrop-00.png)
 
 
 ### 第 55 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
 ---
 
-## 4.9.2 Sync Function
+## 4.9.2 同步功能
 
-The frequency, phase or remote controlled speed of any controller in the network can follow another master controller in consistent or certain deviation. However, multiple controllers cannot follow each other, otherwise the their outputs will become unstable.
+任一台网络中控制器的频率、相位或遥控调速可跟随另外一台基准（被跟随）控制器保持一致或一定偏差输出。但多台控制器无法相互设置跟随，否则控制器将会输出异常。
 
-Example1:Address 3 controller follows address 1 controller's output frequency, so the two vibratory feeders driven by them are running at the same frequency.
+例1：地址3控制器跟随地址1控制器同频输出，驱动两台振动盘保持在同一振动频率上运行。
 
-Example 2: If the address 3 controller is following the address 1 controller's output frequency already, the address 1 controller cannot be set to follow the address 3 controller's output frequency. Which means the controllers cannot follow each other.
+例2：地址3控制器跟随地址1控制器同频输出，但地址1控制器不可再设置跟随地址3控制器也做同频输出，控制器间无法相互跟随。
 
-➢ **Frequency Synchronization**
+➢ **频率同步**
 
-The method of setting frequency synchronization is as follows:
+设置频率同步的方法如下：
 
-1. Will require frequency synchronization and frequency to be synchronized between two or more controllers form the same digital synchronous communication network, please refer to the "Device Networking" chapter.
+1、将需要频率同步和频率被同步的2台或者2台以上设备组成同一个数字同步通信网络，参考“设备组网”章节。
 
-2. Set the "FrqncSyn" parameter value in the communication parameter group of the frequency synchronized controller to be (frequency) The "Digital Sync" address number of the synchronized controller.
+2、将频率同步的控制器，通信参数组中的“频率同步”参数值设定为被（频率）同步的控制器的“数字同步”地址编号。
 
-3. Jump to the frequency-synchronized controller to the steady speed parameter group, and set the "FrqncMod" to "SynV" or "SynE".
+3、将频率同步的控制器，跳转到稳速参数组，并设置“频率模式”为“同步振”或者“同步电”。
 
-➢ **Remote Control Speed Synchronization**
+➢ **遥控调速同步**
 
-The method of setting remote control speed control synchronization is as follows:
+设置遥控调速同步的方法如下：
 
-1. Will require remote control synchronization and remote control synchronization between two or more controllers devices form the same digital synchronous communication network, please refer to the "Device Networking" chapter.
+1、将需要遥控同步和遥控被同步的2台或者2台以上设备组成同一个数字同步通信网络，参考“设备组网”章节。
 
-2. set the "RemotSyn" parameter value in the communication parameter group of the remote control synchronized controller to be (remote control) The "Digital Sync" address number of the synchronized controller.
+2、将遥控同步的控制器，通信参数组中的“遥控同步”参数值设定为被（遥控）同步的控制器的“数字同步”地址编号。
 
-3. Set the "CtrlSour" parameter value in the main output parameter group to "DigSym".
+3、将主输出参数组内“遥控源”参数值设置为“同步”。
 
-➢ **Master/Slave Working Mode**
+➢ **主/从工作模式**
 
-Users can set the controller to run in one of the following two operating modes according to application requirements:
+用户根据应用需求可设置控制器运行在以下两种运行工作模式之一：
 
-Main Mode: where one controller independently controls a load vibration plate.
+主模式：一台控制器独立控制一个负载振动盘的场合。
 
-Slave Mode: When two or more controllers need to work synchronously, one controller is used as the master controller and operates in the master mode as the frequency reference. All other controllers operate in slave mode, acting as slave controllers and operating synchronously with the master controller.
+从模式：当有两台或两台以上的控制器需要同步工作时，以一台控制器作为主控制器，运行为主模式，作为频率基准。其他控制器都运行在从模式，作为从控制器，与主控制器保持同步运行。
 
 ---
 
-2026-02　　　　　　　　　　　　　　　　　-45-　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　　　-45-　　　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 56 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　SDVC341-M
 
-## Main Mode
+### 主模式
 
-The controller working in the main mode, hereinafter referred to as the main controller, modifies the parameters in the steady speed parameter group. "Voltage mode" and "frequency mode" parameters can set the controller to the corresponding working mode. The voltage mode and frequency mode have the following combinations:
+工作于主模式状态下的控制器，以下称主控制器，通过修改稳速参数组中的“电压模式”和“频率模式”参数，即可设置控制器为对应的工作模式。电压模式和频率模式有如下组合方式：
 
-| Working Mode | Voltage<br>Control Method | Frequency<br>Control Method | Vibration Sensor Need |
+| 工作模式名称 | 电压控制方式 | 频率控制方式 | 是否需要接入传感器 |
 |---|---|---|---|
-| Full Manuel | Manuel | Manuel | No |
-| Full Automatic | Auto | Auto | Yes |
-| Voltage Automatic | Auto | Manuel | Yes |
-| Frequency Automatic | Manuel | Auto | Yes |
+| 全手动 | 手动 | 手动 | 否 |
+| 全自动 | 自动 | 自动 | 是 |
+| 电压自动 | 自动 | 手动 | 是 |
+| 频率自动 | 手动 | 自动 | 是 |
 
-■ **Full Manual Mode**
+- **全手动模式**
 
-In this mode, the controller's output voltage and output frequency are adjusted manually.
+  此模式下，控制器的输出电压和输出频率均由手动调整。
 
-**Note:** Even if the parameter "Voltage Mode" or "Frequency Mode" is set to "Auto", the controller will still work in full manual mode if the vibration sensor is not connected.
+  **注意：**即使参数“电压模式”或“频率模式”被设为“自动”，如果不连接振动传感器，控制器仍将工作在全手动模式下。
 
-■ **Full Automatic Mode**
+- **全自动模式**
 
-The controller will automatically adjust the output voltage and output frequency based on the data feedback by the vibration sensor to ensure that the feeding speed of the vibration equipment is stable near the "feeding speed" set value and the vibration frequency is at the optimal operating frequency of the vibration equipment. The output voltage and output frequency are not controlled by the parameters "voltage" and "frequency".
+  控制器会根据振动传感器反馈的数据，自动调整输出电压和输出频率，保证振动设备的送料速度稳定在“送料速度”的设定值附近，并使振动频率处于振动设备的最佳工作频率，此时输出电压和输出频率不受参数“电压”和“频率”的控制。
 
-**Note:** The factory default setting of the controller is fully automatic mode, but if the vibration sensor is not inserted correctly, the controller will still be in the fully manual state. The controller will not switch to the fully automatic state until the vibration sensor is correctly inserted.
+  **注意：**控制器出厂默认设置即是全自动模式，但如果振动传感器没有正确插入，则控制器仍然会处于全手动状态，直到振动传感器正确插入，控制器才会转入全自动状态。
 
-■ **Voltage Automatic Mode**
+- **电压自动模式**
 
-In this mode, the controller will automatically adjust the output voltage based on the data feedback by the vibration sensor to ensure that the feeding speed of the vibration equipment is stable at the set value. The output frequency is manually set by the user. The controller must be connected to a vibration sensor for this mode to work properly.
+  此模式下，控制器会根据振动传感器反馈的数据，自动调整输出电压，保证振动设备的送料速度稳定在设定数值上，输出频率由用户手动设定。控制器必须连接振动传感器此模式才能正常工作。
 
-■ **Frequency Automatic Mode**
+- **频率自动模式**
 
-In this mode, the controller will automatically adjust the output frequency based on the data feedback by the vibration sensor so that the vibration frequency is at the optimal operating frequency of the vibration equipment, and the output voltage is set manually. The controller must be connected to a vibration sensor for this mode to work properly.
+  此模式下，控制器会根据振动传感器反馈的数据，自动调整输出频率，使振动频率处于振动设备的最佳工作频率，输出电压由手动设定。控制器必须连接振动传感器此模式才能正常工作。
 
-2026-02　　　　　　　　　　　　　　　　　-46-　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　-46-　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 57 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　SDVC341-M
 
-## Slave Mode
+## 从模式
 
-When multiple controllers are networked, any one of them can select the slave mode. In this mode, the output frequency of the slave controller is always strictly consistent with the output frequency of the master controller. The controller working in the slave mode is hereinafter referred to as the slave controller.
+当多台控制器组网后，其中任一台可以选择从模式，在该模式下，从控制器的输出频率始终保持与主控制器的输出频率严格一致。工作于从模式状态下的控制器，以下称从控制器。
 
-Frequency synchronization mode is used in situations where there are multiple controllers in a feeding system and their output frequencies and phases need to be synchronized. Through the synchronous mode, the master and slave controllers can output completely synchronous waveforms, thus eliminating mutual interference between the controller outputs.
+频率同步模式应用于一个送料系统中有多台控制器，它们输出频率和相位需要同步的场合。通过同步模式主、从控制器可输出完全同步的波形，从而消除控制器输出间的相互干扰。
 
-When controller M working in master mode, the controller S working in slave mode (synchronous mode), the output waveforms of the two controllers are completely synchronized. As shown below:
+当控制器M工作在主模式，控制器S工作在从模式（同步模式），两台控制器的输出波形完全同步。如下图所示：
 
-![Diagram showing Controller M and Controller S synchronized waveforms in slave synchronization mode.](assets/images/cuh.sdvc34.manual.v0.0/page-0057-vcrop-00.png)
+![控制器S设置为同步模式时，控制器M与控制器S输出波形完全同步的示意图。](assets/images/cuh.sdvc34.manual.v0.0/page-0057-vcrop-00.png)
 
-If controller S is not set to slave mode (SynV or SynE mode), the output waveforms of the two controllers are not synchronized. As shown below:
+若控制器S未设置为从模式（同步振或者同步电模式），两台控制器的输出波形不同步。如下图：
 
-![Diagram showing Controller M and Controller S waveforms not synchronized when Controller S is not in synchronization mode.](assets/images/cuh.sdvc34.manual.v0.0/page-0057-vcrop-01.png)
+![控制器S未设置为同步模式时，控制器M与控制器S输出波形不同步的示意图。](assets/images/cuh.sdvc34.manual.v0.0/page-0057-vcrop-01.png)
 
-2026-02　　　　　　　　　　　　　　　　-47-　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+---
+
+2026-02　　　　　　　　　　　　　　　　　-47-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 58 页
 
-Automatic Frequency Controller for Vibratory Feeder                                                SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
----
+对于需要精密对齐的机械设备，可能需要两台或多台振动设备具有物理上的相位一致，但各设备却又有不同的谐振频率，通过设置频率模式为“同步振”，可以由控制器自动根据振动情况调整各设备相位达到一致。如果频率模式为“同步电”，则由用户手工设定相位补偿值。
 
-For mechanical equipment that requires precise alignment, two or more vibration equipment may need to have physically consistent phases, but each equipment has a different resonant frequency. By setting the frequency mode to "SynV", the controller can automatically Adjust the phases of each equipment according to vibration conditions to achieve consistency. If the frequency mode is "SynE", the user manually sets the phase compensation value.
+修改稳速参数组中的“电压模式”和“频率模式”参数，即可设置控制器工作为对应的“工作模式”。电压模式和频率模式有如下组合方式：
 
-Modify the "voltage mode" and "frequency mode" parameters in the steady speed parameter group to set the controller to work in the corresponding "working mode". The voltage mode and frequency mode have the following combinations:
-
-| Working Mode | Voltage Method | Frequency Method | Phase Control | Vibration Sensor Need |
+| 工作模式名称 | 电压模式 | 频率模式 | 相位控制 | 是否需要接入传感器 |
 |---|---|---|---|---|
-| Automatic voltage<br>Automatic phase | Auto | SynV | Auto | Yes |
-| Automatic voltage<br>Aanual phase | Auto | SynE | Manuel setting | Yes |
-| Manual voltage<br>Automatic phase | Manuel | SynV | Auto | Yes |
-| Manual voltage<br>Aanual phase | Manuel | SynE | Manuel setting | No |
+| 自动电压自动相位 | 自动 | 同步振 | 自动 | 是 |
+| 自动电压手动相位 | 自动 | 同步电 | 手动设定 | 是 |
+| 手动电压自动相位 | 手动 | 同步振 | 自动 | 是 |
+| 手动电压手动相位 | 手动 | 同步电 | 手动设定 | 否 |
 
-☺
+**请注意：**
 
-> **Note:**
->
-> 1. Even if the parameters "Voltage Mode" and "Frequency Mode" are set to "Auto" and "SynV", if the vibration sensor is not connected, the controller will still work in the manual voltage and manual phase state.
->
-> 2. Automatic voltage refers to a slave controller connected to a vibration sensor that automatically adjusts the output voltage to stabilize the feeding speed near the user-set value.
->
-> 3. Automatic phase means that the slave controller connected to the vibration sensor automatically corrects the phase of the output waveform based on the sensor's feedback signal, so that the synchronization signal output by the slave controller and the master controller are in phase.
->
-> 4. Manual phase refers to the phase of the slave controller's output waveform, which can be manually set to have a fixed phase deviation from the master controller's output waveform.
+1、即使参数“电压模式”和“频率模式”被设为“自动”和“同步振”，如果不连接振动传感器，控制器仍将工作在手动电压，手动相位状态。
 
----
+2、自动电压指连接有振动传感器的从控制器，自动调整输出电压，使得送料速度稳定在用户设定值附近。
 
-2026-02                                                 -48-                                                 SDVC341SMSEN_4.01
+3、自动相位指连接有振动传感器的从控制器，根据传感器的反馈信号自动纠正输出波形的相位，使得从控制器与主控制器输出的同步信号相位一致。
+
+4、手动相位指从控制器输出波形的相位，可以手动设定与主控制器输出的波形有一个固定相位偏差。
+
+2026-02　　　　　　　　　　　　　　　　　　　　-48-　　　　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 59 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　SDVC341-M
 
----
+### 主从控制器同步信号线的连接方法
 
-## Connect Method of the Sync Signal Wire between Master and Slave Controllers
+只需将主从控制器连接入同一个数字同步通信网络中，然后进行组网。将从控制器通信参数组中的“频率同步”参数值设定为主控制器的“数字同步”地址编号。然后将稳速参数组中的“频率模式”改成“同步振”或者“同步电”。
 
-Just connect the master and slave controllers to the same digital synchronous communication network and then network. Set the "frequency synchronization" parameter value in the communication parameter group of the slave controller to the "digital synchronization" address number of the master controller. Then change the "frequency mode" in the steady speed parameter group to "synchronous vibration" or "synchronous electric".
+### 主、从控制器都接有振动传感器的应用场景
 
-### Application scenarios where both the master and slave controllers are connected to vibration sensors
+![主控制器与从控制器通过控制器同步线连接，并分别连接振动传感器线和电源输出线至振动盘的应用示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0059-vcrop-00.png)
 
-![Diagram showing master controller and slave controller connected by a sync signal wire, both connected to vibration sensors and output power cables on a vibratory feeder.](assets/images/cuh.sdvc34.manual.v0.0/page-0059-vcrop-00.png)
+> 1、如果从控制器工作在手动电压手动相位模式时，从控制器不需接振动传感器。  
+> 2、如果主控制器工作在全手动模式时，主控制器不需要接振动传感器。
 
-> 1. If the slave controller works in manual voltage manual phase mode, the slave controller does not need to be connected to a vibration sensor.
->
-> 2. If the main controller works in full manual mode, the main controller does not need to be connected to a vibration sensor.
-
----
-
-2026-02　　　　　　　　　　　　　　　　　　-49-　　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　-49-　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 60 页
 
-Automatic Frequency Controller for Vibratory Feeder  
-SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　SDVC341-M
 
-**■ Auto Voltage Auto Phase Mode**
+■ **自动电压自动相位模式**
 
-In this mode, the controller must be connected to a vibration sensor. The controller will automatically adjust the output voltage based on the data fed back by the vibration sensor to ensure that the feeding speed of the vibration equipment is stable at the set value. The frequency and phase of the output waveform are consistent with the main controller, or a phase difference, set by the parameter "Auto Phase".
+此模式下，控制器必须连接振动传感器，控制器会根据振动传感器反馈的数据，自动调整输出电压，保证振动设备的送料速度稳定在设定数值上。输出波形的频率和相位与主控制器一致，或者一个相位差，由参数“自动相位”设置。
 
-**■ Auto Voltage Manual Phase Mode**
+■ **自动电压手动相位模式**
 
-In this mode, the controller must be connected to a vibration sensor. The controller will automatically adjust the output voltage based on the data fed back by the vibration sensor to ensure that the feeding speed of the vibration equipment is stable at the set value. The output frequency is consistent with the main controller. The output waveform differs from the main controller output waveform by a fixed phase difference value, which is set by the parameter "Manual Phase".
+此模式下，控制器必须连接振动传感器，控制器会根据振动传感器反馈的数据，自动调整输出电压，保证振动设备的送料速度稳定在设定数值上。输出频率与主控制器一致。输出波形与主控制器输出波形相差一个固定相位差值，由参数“手动相位”设置。
 
-**■ Manual Voltage Auto Phase Mode**
+■ **手动电压自动相位模式**
 
-In this mode, the controller must be connected to a vibration sensor. The output voltage of the controller is manually adjusted. The frequency and phase of the output waveform are consistent with the main controller, or a phase difference, set by the parameter "Auto Phase".
+此模式下，控制器必须连接振动传感器，控制器的输出电压由手动调整，输出波形的频率和相位与主控制器一致，或者一个相位差，由参数“自动相位”设置。
 
-**■ Manual Voltage Manual Phase Mode**
+■ **手动电压手动相位模式**
 
-In this mode, the output voltage of the controller is manually adjusted, and the output frequency is consistent with the main controller. The output waveform differs from the main controller output waveform by a fixed phase difference value, which is set by the parameter "Manual Phase".
+此模式下，控制器的输出电压由手动调整，输出频率与主控制器一致。输出波形与主控制器输出波形相差一个固定相位差值，由参数“手动相位”设置。
 
 > ☺
 >
-> 1. The automatic phase mode needs to set the "frequency mode" parameter value of the slave controller to "SynV".
+> 1、自动相位模式需要将从控制器的“频率模式”参数值设置为“同步振”。
 >
-> 2. Manual phase mode requires setting the "frequency mode" parameter value of the slave controller to "SynE".
+> 2、手动相位模式需要将从控制器的“频率模式”参数值设置为“同步电”。
 
-2026-02  -50-  SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　-50-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 61 页
 
-Automatic Frequency Controller for Vibratory Feeder                                                                 SDVC341-M
+## 4.9.3 信号共享功能
 
----
+设备组网后，可以实现控制器对网络内任意其他控制器的任意信号进行调用，实现更丰富的信号调用口。
 
-## 4.9.3 Signal Sharing
+组网内任一控制器的主输出状态和D口输出状态的信号源，皆可调用本网络上任意设备的任意端口信号控制。并通过与、或、异或、RS触发器逻辑运算后，实现更丰富的输出逻辑控制。
 
-After the device is networked, the controller can call any signal from any other controller in the network to achieve a richer signal calling port.
+控制器主输出调用其他信号源操作步骤：
 
-The signal source of one controller in the network can choose from any port of any controller in the network. And can realize complex logic control through AND, OR, XOR or RS logic operation.
+➢ 进入需引用其他信号的控制器，跳转至主输出参数组，完成以下设置：
 
-Operation steps for calling other signal sources from the main output of the controller:
+1、设置“主源1”参数或“主源2”参数为“总线”。
 
-➢ **Select the controller witch need sourcing network signal , enter main output group, finish following setup:**
+2、设置“主逻辑”参数为“与”、“或”、“异或”、“RS”之一。
 
-1. Set the "MainSor1" parameter or the "MainSor2" parameter to "Bus".
-2. Set the "MainLogc" parameter to one of "And", "Or", "Xor", and "RS".
-3. Set the "MainDire" parameter of this controller to one of "Const", "Inv", "On" or "Off".
-4. Set the "MainUpDy" and "MainDnDy" time of this controller.
-5. Set the "MainMode" parameter of this controller to one of "Delay" or "Hold".
+3、设置本控制器“主输出”参数为“常通”、“常断”、“开”、“关”之一。
 
-➢ **Jump to communication group and finish following setup:**
+4、设置本控制器“主开延迟”和“主关延迟”时间。
 
-6. Set the "BSigMID1" of this controller to be followed by the controller address (the controller number can be queried through digital synchronization).
-7. Set the "BSigMID2" of this controller to be followed by the controller address.
-8. Set the specific status bit number of "BSigM_B1" of this controller. You need to check the "status bit" of the followed controller. 1~16", select the status bit sequence number required by the machine.
-9. Set the specific status bit number of "BSigM_B2" of this controller. You need to check the "status bit" of the followed controller.1~16", select the status bit sequence number required by the machine.
+5、设置本控制器“主模式”参数为“延迟”、“保持”之一。
 
-Any controller can send 16 of its own statuses to the bus, which can be passed through "status bit 1" ~"Status bit 16" is set independently, and "status bit 1" ~ "status bit 16" are the same as the first 16 bits of the "7.4.11 Appendix" chapter by default.
+➢ 以上设置完毕，并跳转至通信参数组，完成以下设置：
 
-Any controller can call the signal on the bus (by default). For the meaning and details, please refer to the "7.4.11 Appendix" chapter.
+6、设置本控制器“主信1 ID”被跟随控制器地址（可通过数字同步查询控制器编号）。
 
----
+7、设置本控制器“主信2 ID”被跟随控制器地址。
 
-2026-02                                         -51-                                         SDVC341SMSEN_4.01
+8、设置本控制器“主信1B”具体状态位编号，需要查看被跟随控制器的“状态位1~16”，选择本机需要的状态位序号。
+
+9、设置本控制器“主信2B”具体状态位编号，需要查看被跟随控制器的“状态位1~16”，选择本机需要的状态位序号。
+
+任一控制器能够向总线上发送16个自身状态，这些状态可通过“状态位1”~“状态位16”单独设置，“状态位1”~“状态位16”默认同《7.4.11 附表》章节的前16位一致。
+
+任一控制器可以调用总线上信号（默认状态下为）含义及明细参照《7.4.11 附表》章节。
 
 
 ### 第 62 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器  
+SDVC341-M
 
----
+例：组网后，地址3控制器调用地址1控制器C口信号和地址2控制器C口信号，并做逻辑关系或之后，检测任一信号为有效时，地址3控制器主输出停止。
 
-Example: After networking, the address 3 Controller call location Address 1 control system Device C port signal and Address 2 control system Device C port signals, and do a logical OR, and when any signal is detected to be valid, the main output of the address 3 controller stops.
+![地址1、地址2控制器C口信号经总线由地址3控制器进行或逻辑控制主输出停止的连接示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0062-vcrop-00.png)
 
-![CUHBus-DS networking signal sharing example diagram: address 1 and address 2 controller C port signals logically ORed for address 3 controller main output, with output line connected to vibratory feeder.](assets/images/cuh.sdvc34.manual.v0.0/page-0062-vcrop-00.png)
+操作如下：
 
-Operation steps:
+1、设置地址3控制器主输出参数组，“主源1”为“总线”，“主源2”为“总线”。
 
-1. Set the main output parameter group of the controller at address 3. "MainSor1" is "bus" and "MainSor2" is "bus".
-2. Set the "MainLogc" parameter of the address 3 controller to "And".
-3. Set the "MainDire" (main output direction) parameter of the address 3 controller to "Const".
-4. Set the "MainUpDy" and "MainDnDy" time of the address 3 controller to the required time value. The default is 0.2 seconds.
-5. Set the "MainMode" (main output mode) of the address 3 controller to "Delay".
-6. Set the "BSigMID1" in the "Communication Parameter Group" of the address 3 controller to "1" (specify the address 1 controller).
-7. Set the "BSigMID2" of the address 3 controller to "2" (specify the address 2 controller).
-8. Set the "BSigM_B1" of the address 3 controller to "4" (specify the C port signal).
-9. Set the "BSigM_B2" of the address 3 controller to "4" (specify the C port signal).
-10. The setting is completed. For the control output settings of port D of the controller, refer to the main output settings of the controller.
+2、将地址3控制器“主逻辑”参数设置为“与”。
 
----
+3、将地址3控制器“主输出”（主输出方向）参数设置为“常通”。
 
-2026-02　　　　　　　　　　　　　　　　　-52-　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+4、将地址3控制器“主开延迟”和“主关延迟”时间设定为需要的时间值，默认是0.2秒。
+
+5、将地址3控制器“主模式”（主输出模式）设置为“延迟”。
+
+6、将地址3控制器“通信参数组”内，“主信1ID”设置为“1”（指定地址1控制器）。
+
+7、将地址3控制器“主信2ID”设置为“2”（指定地址2控制器）。
+
+8、将地址3控制器“主信1B”设置为“4”（指定C口信号）。
+
+9、将地址3控制器“主信2B”设置为“4”（指定C口信号）。
+
+10、设置完毕。控制器D口控制输出设置参考控制器主输出设置。
+
+2026-02　　-52-　　SDVC341SMSCN_4.01
 
 
 ### 第 63 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
 ---
 
-## 4.9.4 Data Backup
+### 4.9.4 数据备份功能
 
-When all controllers are networked, all controllers in the network can back up each other's data. Each controller backs up the other two controllers in the network. When a controller in the original network fails, users can quickly replace the failed controller with a new controller. All parameters of the new controller will be consistent with those of the controller before replacement.
+当所有控制器组网后，网络内所有控制器可以实现数据的相互备份。每台控制器备份网络内另外两台控制器。当原网络中有一台控制器出现故障时，用户可以使用一台全新控制器快速替换出现故障的控制器，替换加入的新控制器的所有参数将和被替换前的控制器保持一致。
 
-When less than 3 numbered adjacent controllers fail in the network, the replacement operation can be successful. However, when more than 3 or more numbered controllers fail, all machine data cannot be restored.
+当网络中有少于3台编号邻近控制器故障时，替换操作能够成功。但当超过3台及以上编号临近控制器故障时，无法恢复全部机器数据。
 
-➢ **New controller joint network as a replacement device steps:**
+➢ 新设备替换加入操作步骤：
 
-1. Power off the device to be replaced and remove the CUHBus-DS® communication cable.
-2. Connect the CUHBus-DS® interface of the new device to the original network.
-3. When the new device is powered on, the new access controller will automatically enter the "communication parameter group".
-4. Set the parameter "DigSynAd" (Local Digital Synchronization Address). Since this network is incomplete, the value of this parameter will only display the device number that needs to be replaced.
-5. Set the value of the parameter "EnNetwok " to "Replace", and then press ⊕ and ⊖ hold at the same time, confirm.
-6. After the replacement is successful, the parameter value of the new device "EnNetwok " will automatically change to "Online".
+1、将需要被替换的设备断电并移除CUHBus-DS®通信线。  
+2、将新设备CUHBus-DS®接口接入原有网络中。  
+3、新设备通电，此时新接入控制器会自动进入“通信参数组”。  
+4、设定参数“数字同步”（本机数字通信设备编号），由于本网络不完整，所以该参数的值只会显示需要被替换的设备编号。  
+5、设定参数“是否联网”参数值为“替换”，然后同时长按 ⊕ 和 ⊖，确认。  
+6、替换成功后，此时新设备“是否联网”参数值自动变为“在线”。
 
-Example 1: The original network consists of address 1, address 2 and address 3 controllers. Since the address 3 fails, it is necessary to replace the original device with a new device and restore all settings of the original device.
+例1：原网络由地址1、地址2和地址3控制器组网，由于地址3控制器出现故障，需通过使用一台新设备替换原有设备并恢复原有设备的所有设置。
 
-![Example 1 controller replacement and data restore network diagram](assets/images/cuh.sdvc34.manual.v0.0/page-0063-vcrop-00.png)
+![例1中地址3控制器故障后，用新控制器替换并从地址2备份数据恢复到新地址3控制器的组网示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0063-vcrop-00.png)
 
-Example 2: There are four controllers with addresses 1, 2, 3, and 4 in the network. Among them, controllers at addresses 2, 3 and 4 in the network failed. However, because each device in the network backs up data from up to two controllers, the controller at address 4 cannot complete data recovery. For the replacement settings of the controllers at addresses 2 and 3, refer to the above case.
+例2：网络中有地址1、2、3、4共四台控制器。其中网络内地址2、3和4控制器出现故障，但因为组网内每台设备最多向后备份两台控制器数据，所以地址4控制器无法完成数据恢复。地址2、3控制器替换设置参考上案例。
 
-Example 3: There are originally five machines with addresses 1, 2, 3, 4 and 5 in the network. Among them, addresses 1, 2, and 4 are faulty (three non-consecutive units). You can change the address from 5Restore address 1 and address 2 controller data, restore address 4 controller data from address 3, thereby restoring all failed controller data. For controller replacement settings, refer to the above case.
+例3：网络中原来有地址1、2、3、4和5共五台机器。其中地址1、2、4故障（非连续三台），可以从地址5恢复地址1和地址2控制器数据，从地址3恢复地址4控制器数据，从而恢复全部故障控制器数据。控制器替换设置参考上案例。
 
 ---
 
-2026-02　　　　　　　　　　　　　　　　　-53-　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　-53-　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 64 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+## 4.9.5 遥控数据
 
-## 4.9.5 Remote Control Data
+用户可以选择发送至同步网络上数据源，可选择手动电压，遥控电压，手动速度，遥控速度。
 
-Users can choose to send data sources to the synchronization network, and can choose manual voltage, remote control voltage, manual speed, and remote control speed.
-
-| Parameter | Meaning |
+| 参数名 | 含义 |
 |---|---|
-| ManVol | Manual voltage refers to the voltage set by the user panel |
-| RemVol | Remote control voltage refers to the voltage adjusted through the remote speed control port |
-| ManSpd | Manual speed refers to the feeding speed set by the user panel |
-| RemSpd | Remote control speed refers to the feeding speed adjusted through the remote speed control port |
+| ManVol | 手动电压，指用户面板设定的电压 |
+| RemVol | 遥控电压，指通过遥控调速端口调节的电压 |
+| ManSpd | 手动速度，指用户面板设定的送料速度 |
+| RemSpd | 遥控速度，指通过遥控调速端口调节的送料速度 |
 
-## 4.10 Controller Status Monitoring
+## 4.10 系统运行监控功能
 
-In the monitoring parameter group, the controller operating status and parameter values can be read in real time.
+在监控参数组内可以实时读取控制器运行状态及参数值。
 
-For readable parameter entries, please refer to the "Parameter List" chapter, Parameter Group 10, Monitoring Parameter Group.
+可读取参数条目参考《参数列表》章节，参数组十，监控参数组。
 
-```text
-┌────────────────────────────┐
-│ RUN                        │
-│ A C D E F G N J      A0   │
-│ 01.Voltage        150  V   │
-│ 02.Frequenc       50.0 Hz  │
-│ 03.SpeedNow          0     │
-│ 04.VoltgOut     223.8 V   │
-│ 05.EffectCu      0.00 A   │
-│ +    10Monitor        −   │
-└────────────────────────────┘
-```
-
-2026-02　　　　　　　　　　　　　　　-54-　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+![系统运行监控功能的运行界面示意图，显示输出电压、输出频率、当前料速、测量电压、有效电流等监控参数。](assets/images/cuh.sdvc34.manual.v0.0/page-0064-vcrop-00.png)
 
 
 ### 第 65 页
 
-Automatic Frequency Controller for Vibratory Feeder                                        SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　SDVC341-M
 
-## 4.11 Error Log
+## 4.11 运行故障日志查询
 
-The controller can record 64 sets of logs in a loop to facilitate later viewing of the time when the problem occurred and specific information.In any interface, long press ▲ and ▶ enter the log interface group, which is displayed as follows:
+控制器可以循环记录64组日志，方便后期查看问题发生时间点以及具体信息。任意界面下，长按 ▲ 和 ▶ 进入日志界面组，该界面显示如下：
 
-```text
-┌────────────────────────┐
-│ RUN                    │
-│ A C D E F G N J     A0 │
-│      0 H   0 M    1 S  │
-│ Err CodeError       01 │  } The above two lines show the fault log
-│ 01.Voltage       150 V │
-│ 02.Frequenc     50.0Hz │  } The following three lines display the
-│ 03.SpeedNow         0  │    monitoring parameter group
-│ +       Note        −  │
-└────────────────────────┘
-```
+![运行故障日志查询界面示意图及标注](assets/images/cuh.sdvc34.manual.v0.0/page-0065-vcrop-00.png)
 
-## 4.12 Customize Homepage
-
-In order to facilitate users to use the controller efficiently and quickly, users can perform customized operations in the interface parameter group. By extracting at most 16 of all parameters is placed as a detection item in the interface parameter group, and the user can perform quick operations on the main interface.
-
-Example: Select 1. UsrVoltg (P2.02), 2. UsrFrqnc (P2.03), 3. UserSped (P2.01), 4. SoftStar (P2.04), SoftStop (P2.05), there are five parameters in the main interface. The steps are as follows:
+日志界面示意内容：
 
 ```text
-» Long press ▲ and ◀ to enter                 ┌────────────────────────┐
-  parameter setting interface,                │ RUN                    │
-  short press ▶ to switch to                  │ A C D E F G N J     A0 │
-  "1EditHome" parameter group.                │ 01.Monit  1     P2.02 │
-                                               │ 02.Monit  2     P2.03 │
-» Short press ▲ or ▼ to switch                │ 03.Monit  3     P2.01 │
-  between different monitoring                │ 04.Monit  4     P2.04 │
-  items.                                      │ 05.Monit  5     P2.05 │
-                                               │ +    1EditHome      −  │
-» Press ⊕ or ⊖ Select the                    └────────────────────────┘
-  function labels that need to be
-  set respectively.
-
-Note: Function labels can be queried through the "Parameter List" chapter.
-      If the value of the monitoring item is blank, it means there is no monitoring item.
+运行
+A C D E F G N J    A0
+      000时    分    秒
+故障代码Error      01
+01.输出电压        150 V
+02.输出频率        50.0Hz
+03.当前料速        0
++        日志        −
 ```
 
-After the operation is completed, if the user needs to adjust the parameter values of voltage, frequency, feeding speed, soft start time and soft stop time, enter the specific monitoring item in the parameter group of the "Home" interface and pass ⊕ or ⊖, parameter adjustment can be completed.
+- 上面两行显示故障日志
+- 下面三行显示监控参数组
 
-2026-02                                        -55-                                        SDVC341SMSEN_4.01
+## 4.12 自定义主页
+
+为方便用户后续高效快速使用控制器，用户可以在界面参数组内进行客制化操作。通过提取所有参数中的最多16个参数置于界面参数组内检测项，用户便可在主界面进行快速操作。
+
+例：选中1. 电压（P2.02）、2. 频率（P2.03）、3. 速度（P2.01）、4. 缓启时间（P2.04）、5. 缓关时间（P2.05）共五个参数于主界面下。操作步骤如下：
+
+![自定义主页操作步骤与1界面参数组示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0065-vcrop-01.png)
+
+操作步骤：
+
+- 长按 ▲ 加 ◀ 进入参数设置界面，直接进入到“1界面”参数组。
+- 短按 ▲ 或 ▼，切换不同的监控项目。
+- 通过 ⊕ 和 ⊖ 分别选中需要设置的功能标签。
+
+示意界面内容：
+
+```text
+运行
+A C D E F G N J    A0
+01.监测项  1    P2.02
+02.监测项  2    P2.03
+03.监测项  3    P2.01
+04.监测项  4    P2.04
+05.监测项  5    P2.05
++        1界面       −
+```
+
+注：功能标签通过《参数列表》章节查询。
+
+如果监测项的值为空白，表示无监测项目。
+
+操作结束后，用户如需调整电压、频率、送料速度、缓启时间和缓关时间的参数值，进入“主页”界面参数组内具体监控项目下，通过 ⊕ 或 ⊖ 即可完成参数调整。
+
+---
+
+2026-02　　　　　　　　　　　　-55-　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 66 页
 
-Automatic Frequency Controller for Vibratory Feeder                                                        SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-# Chapter Ⅴ Typical Applications
+# 第五章　典型应用
 
-## 5.1 How to keep two vibratory feeders running at the same frequency?
+## 5.1 如何实现两台振动盘保持频率一致运行？
 
-![Networking wiring diagram for master and slave SDVC341-M controllers connected to a vibratory feeder, showing sync signal wire, vibration sensor cables, and output power cables.](assets/images/cuh.sdvc34.manual.v0.0/page-0066-vcrop-00.png)
+![两台SDVC341控制器与振动盘连接示意图，标注主控制器、从控制器、控制器同步线、传感器线和电源输出线。](assets/images/cuh.sdvc34.manual.v0.0/page-0066-vcrop-00.png)
 
-This section introduces two SDVC341 controller is networked and realizes that one direct vibrator and one circular vibrator operate at the same frequency to avoid collision between the plates due to inconsistent operating frequencies.
+本小节介绍两台SDVC341控制器组网，并实现一台直振和一台圆振同频运行，避免因运行的频率不一致造成盘体间的撞击。
 
-1. The controller correctly connects the power cord and output cord.
-2. Take out the sensor that is being followed by the controller, connect the sensor plug to the controller and tighten the nut, and correctly fix the sensor body on the vibration plate (see "2.3 Vibration Sensor Installation Guide" for details)
-3. Open the equipment wiring compartment cover, connect all controller T1 signals to each other, and connect all T3 signals to each other.
-4. After the two devices are powered on, one of the controllers will automatically enter the "communication parameter group".
-5. In the controller communication parameter group, the program will automatically generate a set digital synchronization communication device number. "Digital synchronization" is any value [1~8]. Users can also change this value themselves.
-6. In the communication parameter group, set the "EnNetwok " parameter to "Expand", and then press ⊕ and ⊖ hold at the same time, confirm.
-7. After the follower controller is successfully added, the parameter value of "EnNetwok" automatically changes to "Online", indicating that the networking is successful.
-8. User press and hold ▲ and ◀ enter the parameter setting interface by short pressing ◀ or ▶ Switch to the communication parameter group, view and note down the digital synchronization address of each controller.
-9. Set the "FrqncSyn" parameter value of the following controller in the communication parameter group to the "DigSynAd" address number of the followed controller.
+1：控制器正确地连接电源线及输出线。
 
-After the above settings are completed, one controller can follow another controller to output at the same frequency.
+2：取出被跟随控制器的传感器，连接传感器插头至控制器并锁紧螺母，并将传感器本体正确地固定在振动盘上（详见《2.3振动传感器安装指南》）
 
----
+3：打开设备接线仓盖，将所有控制器T1信号相互连接，所有T3信号相互连接。
 
-2026-02                                        -56-                                        SDVC341SMSEN_4.01
+4：两台设备通电后，此时其中一台控制器会自动进入“通信参数组”。
+
+5：在控制器通信参数组中，程序会自动生成一个设置数字同步通信设备编号，“数字同步”为【1~8】任意值。用户也可自行更改此值。
+
+6：在通信参数组中，设定“是否联网”参数为“拓展”，然后同时长按 ⊕ 和 ⊖ 确认。
+
+7：跟随控制器加入成功后，此时“是否联网”参数值自动变为“在线”，表示组网成功。
+
+8：用户通过长按 ▲ 加 ◀ 进入参数设置界面，通过短按 ◀ 或 ▶ 切换至通信参数组，查看并记下每台控制器的数字同步地址。
+
+9：将跟随控制器在通信参数组中的“频率同步”参数值设定为被跟随控制器的“数字同步”地址编号。
+
+以上，设置完毕，实现一台控制器跟随另一台控制器同频输出。
+
+2026-02　　　　　　　　　　　　　　　　　-56-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 67 页
 
-## 5.2 How to trun on/off controller B via a sensor connected to controller A?
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-![Two SDVC341-M controllers networked to control a vibratory feeder; output power cables and inter-controller signal wiring are shown.](assets/images/cuh.sdvc34.manual.v0.0/page-0067-vcrop-00.png)
+## 5.2 如何实现一台控制器的C口传感器信号控制另外一台控制器的启停？
 
-This section introduces two SDVC341 Controller networking, and realize that the main output of the controlled controller is controlled by another main control controller C port signal controls start and stop, so that even if the sensor is not directly connected to the controlled controller, the controller can be operated through the networked signal. The signal sources of the controller are greatly enriched.
+![两台SDVC341控制器通过同步线连接，并分别连接电源输出线至振动盘的示意图](assets/images/cuh.sdvc34.manual.v0.0/page-0067-vcrop-00.png)
 
-1. The controller correctly connects the power cord and output cord.
+本小节介绍两台SDVC341控制器组网，并实现被控控制器主输出受另一台主控控制器C口信号控制启停，实现即使传感器没有直接接入被控控制器，也可通过已组网信号完成对控制器的操作。大大丰富了控制器的信号源。
 
-2. Open the equipment wiring compartment cover, connect all controller T1 signals to each other, and connect all T3 signals to each other.
+1：控制器正确地连接电源线及输出线。
 
-3. After the two devices are powered on, one of the controllers will automatically enter the "communication parameter group".
+2：打开设备接线仓盖，将所有控制器T1信号相互连接，所有T3信号相互连接。
 
-4. In the controller communication parameter group, the program will automatically generate a digital synchronous communication device number, and "digital synchronization" is any value [1~8]. Users can also change this value themselves.
+3：两台设备通电后，此时其中一台控制器会自动进入“通信参数组”。
 
-5. User press ▲ and ◀ hold enter the parameter setting interface by short pressing ◀ or ▶ switch to the communication parameter group, view and note down the digital synchronization address of each controller.
+4：在控制器通信参数组中，程序会自动生成一个数字同步通信设备编号，“数字同步”为【1~8】任意值。用户也可自行更改此值。
 
-6. The controlled controller switches to the main output parameter group according to the above method, and the parameters are set as follows:
+5：用户通过长按 ▲ 加 ◀ 进入参数设置界面，通过短按 ◀ 或 ▶ 切换至通信参数组，查看并记下每台控制器的数字同步地址。
 
-"MainSor1" is "Bus", "MainSor2" is "Bus", "MainLogc" is "And", "MainDire" is "Const", "MainUpDy" and "MainDnDy" are set to the required time value, the default is 0.2 seconds, "MainMode" is set to "Delay".
+6：被控控制器按照上述方法切换至主输出参数组，设置参数如下：
 
-7. The controlled controller switches to the communication parameter group according to the above method, and the parameters are set as follows:
+“主源1”为“总线”，“主源2”为“总线”，“主逻辑”为“与”，“主输出”为“常通”，“主开延迟”和“主关延迟”时间设定为需要的时间值，默认0.2秒，“主模式”设置为“延迟”。
 
-"BSigMID1" is set to "X" (X: is the digital synchronization bit number of the controller that needs to call the signal), "BSigM_B1" is set to "4" (material input port C signal), "BSigM_B2" is set to "0" (0 indicates invalid signal).
+7：被控控制器按照上述方法切换至通信参数组，设置参数如下：
 
-After the above settings are completed, the output of one controller is controlled by the C port signal of another controller.
+“主信1ID”设置为“X”（X：为需要调用信号的控制器数字同步位号），“主信1B”设置为“4”（料满输入C口信号），“主信2B”设置为“0”（0表示无效信号）。
+
+以上，设置完毕，实现一台控制器输出受另一台控制器C口信号控制。
+
+2026-02　　　　　　　　　　　　　　　　　-57-　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 68 页
 
-Automatic Frequency Controller for Vibratory Feeder  
-SDVC341-M
-
-## 5.3 How to turn on/off two controllers simultaneously?
-
-![Wiring diagram showing a master controller and slave controller connected to a vibratory feeder with output power cables.](assets/images/cuh.sdvc34.manual.v0.0/page-0068-vcrop-00.png)
-
-This section introduces a direct vibration controller (using SDVC311) and a disc controller (using SDVC341), start and stop in sync. Different series of controllers can also complete the function of synchronous start and stop.
-
-1. The controller correctly connects the power cord and output cord.
-
-2. Open the device wiring compartment cover, connect D1 of SDVC341 to C2 of SDVC311, and connect D3 of SDVC341 to C1 of SDVC311.
-
-3. After the two devices are powered on, press press▲ and ◀ hold enter the parameter setting interface by short pressing ◀ or ▶ switch to the control output parameter group.
-
-4. In the control output parameter group, set the parameters as follows:
-
-"PotDLogc" is set to "Or", "PotDSor1" is set to "Main", "PotDType" is set to "Ou_PNP", and other defaults remain unchanged.
-
-Above, the settings are completed to implement a direct vibration controller (using SDVC311) and a vibratory feeder controller (using SDVC341) maintains synchronized start and stop.
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
 ---
 
-2026-02　　　　-58-　　　　SDVC341SMSEN_4.01
+## 5.3 如何实现一台直振控制器和圆盘控制器保持同步启停？
+
+![一台直振控制器和圆盘控制器保持同步启停的接线示意图，标注从控制器电源输出线和主控制器电源输出线。](assets/images/cuh.sdvc34.manual.v0.0/page-0068-vcrop-00.png)
+
+本小节介绍一台直振控制器（使用SDVC311）与圆盘控制器（使用SDVC341）保持同步启停。实现不同系列控制器也能完成同步启停的功能。
+
+1：控制器正确地连接电源线及输出线。
+
+2：打开设备接线仓盖，将SDVC341的D1连接SDVC311的C2，将SDVC341的D3连接SDVC311的C1。
+
+3：两台设备通电后，长按SDVC341 ▲ 加 ◀ 进入参数设置界面，通过短按 ◀ 或 ▶ 切换至切换至控制输出参数组。
+
+4：在控制输出参数组，设置参数如下：
+
+“D口逻辑”设置为“或”，“D口源1”设置为“主”（主输出状态），“D口类型”设置为“PNP”，其他默认不变。
+
+以上，设置完毕，实现一台直振控制器（使用SDVC311）与圆盘控制器（使用SDVC341）保持同步启停。
+
+---
+
+2026-02　　　　　　　　　　　　　　　　　-58-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 69 页
 
-Automatic Frequency Controller for Vibratory Feeder  SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
----
+## 第六章 常见问题解答
 
-# Chapter Ⅵ Frequently Asked Questions
+### 6.1 打开开关，没有显示
 
-## 6.1 No display upon power on
+解决办法：
 
-Solution:
+- 请检查电源插座是否有电？
+- 电源插头是否可靠连接插座？
 
-◆ Check whether the power socket has power.
+### 6.2 有显示，但是振动盘不动，也没有声音
 
-◆ Check whether the power plug has reliably connected to the socket.
+解决办法：
 
-## 6.2 No vibration, no noise, normal controller display
+- 请检查输出电缆是否正确地连接控制器与振动盘？
+- 请检查控制器参数，是否输出电压调节的太小？
+- 请检查控制信号是否将控制器置于“停止”状态？
+- 请检查是否有设置主输出为“常断”或者“关”状态？
 
-Solution:
+### 6.3 控制信号不起作用
 
-◆ Check whether the output power cable is correctly connected to the controller and the vibratory feeder.
+解决办法：
 
-◆ Check whether the controller’s parameter value settings of output voltage and output frequency are appropriate.
+- 请检查控制信号是否正确输入？
+- 请检查输入的控制信号地线是否与本机地线正确连接？
+- 请检查控制信号逻辑关系是否设置是您期望的设置？并按照信号逻辑关系图重新梳理。
 
-◆ Check whether the controller is stopped by any control signal.
+### 6.4 有显示，振动盘不动，但是可以听到声音
 
-◆ Check whether the controller is stopped by any parameter logic off setting.
+解决办法：
 
-## 6.3 Control signal does not work
+- 请按照说明书介绍的调节方法逐步调节各参数。
 
-Solution:
+### 6.5 控制器频率跟踪不稳定
 
-◆ Check whether control signal is connected reliably.
+解决办法：
 
-◆ Check whether the ground wire of the control signal is connected to the GND port of the controller.
+- 请适当调整加大频率积分值，但注意过大可能会造成输出频率的振荡。
 
-◆ Check whether the control signal logic is set correctly.
-
-## 6.4 No vibration, normal noise, controller display is normal
-
-Solution:
-
-◆ Adjust parameter settings according to this user manual.
-
-## 6.5 Unstable resonant frequency tracking
-
-Solution:
-
-◆ Appropriately increase the frequency integral value, but note that too much may cause oscillation of the output frequency.
-
----
-
-2026-02  -59-  SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　-59-　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 70 页
 
-Automatic Frequency Controller for Vibratory Feeder          SDVC341-M
+自动调频振动送料控制器  
+SDVC341-M
 
 ---
 
-## 6.6 Slow speed correction in constant feed speed control
+## 6.6 使用稳速功能，但振动盘速度恢复较慢
 
-Solution:
+解决办法：
 
-◆ Appropriately adjust the amplitude integral value, but note that if it is too large, the oscillation amplitude of the output voltage will become larger.
+◆ 请适当调整加大幅度积分值，但注意过大反而会造成输出电压的振荡幅度变大。
 
-## 6.7 How to quickly reset the controller to factory default
+## 6.7 如何实现控制器快速恢复出厂设置
 
-Due to the powerful functions of this controller, there are a large number of control parameters that can be set by the user. For beginners, the normal working state of the controller may not be restored after multiple setting modifications. Use this function to quickly restore chaotic parameter status to factory default settings.
+由于本控制器功能强大，有数量众多的控制参数可以由用户设定，对于初学者，可能在多次的设定修改后不能恢复控制器的正常工作状态。使用该功能可以快速将调乱的参数状态恢复为出厂默认设置。
 
-Solution:
+解决办法：
 
-◆ Long press ▲ and ◀ to enter the parameter setting interface, short press ◀ or ▶ to switch to save parameter group.
+◆ 长按▲加◀进入参数设置界面，通过短按◀或▶切换至保存参数。
 
-◆ Switch to restore settings parameters and select the workgroup parameters. Press ⊕ and ⊖ hold simultaneously for more than two seconds to switch to standby interface. At this time, all parameters in the workgroup are restored to factory default settings (User 1, User 2 and User 3 settings remain unchanged).
+◆ 切换至复位参数并选中工作组参数。同时长按⊕和⊖两秒以上，显示界面切换到待机界面。此时仅工作组内所有参数都恢复到出厂设置（用户1、用户2和用户3不变）。
 
-If the user has previously saved parameters in "User 1", "User 2", or "User 3", the user settings can restored also.
+如果用户之前已保存参数在“用户1”、“用户2”、“用户3”内，用户可在读出参数内调用保存的用户参数。
 
 ---
 
-2026-02          - 60 -          SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　-60-　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 71 页
 
-# Chapter Ⅶ Appendix
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-## 7.1 Dimensions
+# 第七章 附录
 
-![Dimensions drawing of SDVC341-M controller, unit: mm](assets/images/cuh.sdvc34.manual.v0.0/page-0071-vcrop-00.png)
+## 7.1 外形尺寸图
 
-| Dimensions range | tolerance |
-|---|---:|
+![SDVC341-M 控制器外形尺寸图，包含正视图、侧视图及尺寸标注。](assets/images/cuh.sdvc34.manual.v0.0/page-0071-vcrop-00.png)
+
+单位：毫米（mm）
+
+| 公差区间 | 公差值 |
+|---|---|
 | 0~3 | ±0.05 |
 | 3~10 | ±0.1 |
 | 10~30 | ±0.15 |
@@ -2783,601 +2749,652 @@ If the user has previously saved parameters in "User 1", "User 2", or "User 3", 
 | 80~180 | ±0.3 |
 | >180 | ±0.5 |
 
-This tolerance table is applicable to all products in this series.
+本系列产品均适用此公差表。
+
+2026-02　　　　　　　　　　　　　　　　-61-　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 72 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-## 7.2 Technical Specifications
+## 7.2 技术规格表
 
-| Item | Min | Typical | Max | Unit | Note |
+| 项目 | 最小值 | 典型值 | 最大值 | 单位 | 备注 |
 |---|---:|---:|---:|---|---|
-| Input Voltage | 85 | 220 | 250 | V | AC RMS |
-| Adjustable Output Voltage Range | 0 | —— | 250 | V |  |
-| Voltage Adjustment Accuracy |  | 1 |  | V |  |
-| Voltage Regulation Accuracy | 0 | —— | 10 | % | ΔVout/ΔVin |
-| Adjustable Output Current Range | 0 | —— | 3.0 | A |  |
-| Output Power | 0 | —— | 660 | VA |  |
-| Output Frequency | 5.0 | —— | 999.9 | Hz |  |
-| Frequency Adjustment Accuracy |  | 0.1 |  | Hz |  |
-| Output Waveform |  | Sine |  |  |  |
-| Soft Start Time | 0 | —— | 40.0 | s | Default value: 0.5 |
-| On/Off Delay Time Range | 0.0 | —— | 99.9 | s | Default value: 0.2 |
-| On/Off Delay Time Accuracy |  | 0.1 |  | s |  |
-| Overheat Protection Trigger Temperature | 60 | 65 | 65 | ℃ |  |
-| Sync Communication |  | CUHBus-DS® |  |  |  |
-| Digital Communication |  | ModBUS485/Digital Sync |  |  |  |
-| DC Control Output Current | 0 | —— | 350 | mA |  |
-| DC Control Output Voltage | 22 | 24 | 26 | V |  |
-| Analog Control Signal |  | 4~20 |  | mA | remote speed control current |
-|  |  | 1~5/0~5/0~10 |  | V | remote speed control voltage |
-| Digital Control Signal |  | 24 |  | V | Switching Signal |
-| Adjustment Method |  | 7 |  | Button |  |
-| Standby Power Consumption | —— | —— | 5 | W |  |
-| Display Method |  | 128*128 |  |  | Matrix Display |
-| Ingress Protection Level |  | IP20 |  |  |  |
-| Ambient Temperature | 0 | 25 | 40 | ℃ |  |
-| Ambient Humidity | 10 | 60 | 85 | % | No Condensation |
-| Storage Ambient Temperature | -20 | 25 | 65 | ℃ |  |
+| 输入电压 | 85 | 220 | 250 | 伏特（V） | 交流有效值 |
+| 输出电压调整范围 | 0 | —— | 250 | 伏特（V） | 整流平均值 |
+| 电压调整精度 |  | 1 |  | 伏特（V） |  |
+| 稳压精度 | 0 | —— | 10 | % | ΔVout/ΔVin |
+| 输出电流调整范围 | 0 | —— | 3.0 | 安培（A） |  |
+| 输出功率 | 0 | —— | 660 | 伏安（VA） |  |
+| 输出频率 | 5.0 | —— | 999.9 | 赫兹（Hz） |  |
+| 频率调整精度 |  | 0.1 |  | 赫兹（Hz） |  |
+| 输出电流波形 |  | 正弦 |  |  |  |
+| 缓启动时间 | 0 | —— | 40.0 | 秒（s） | 出厂默认0.5 |
+| 延迟时间范围 | 0.0 | —— | 99.9 | 秒（s） | 出厂默认0.2 |
+| 延迟时间精度 |  | 0.1 |  | 秒（s） |  |
+| 过热保护温度 | 60 | 65 | 65 | 摄氏度（℃） |  |
+| 同步通信 |  | CUHBus-DS® |  |  |  |
+| 数字通信 |  | RS485通信/数字同步通信 |  |  |  |
+| 直流控制输出电流 | 0 | —— | 350 | 毫安（mA） |  |
+| 直流控制输出电压 | 22 | 24 | 26 | 伏特（V） |  |
+| 模拟控制信号 |  | 1~5/0~5/0~10 |  | 伏特（V） | 远程速度控制电压 |
+| 模拟控制信号 |  | 4~20 |  | 毫安（mA） | 远程速度控制电流 |
+| 数字控制信号 |  | 24 |  | 伏特（V） | 开关信号控制 |
+| 调整方式 |  | 7 |  | 键（button） |  |
+| 空载功耗 | —— | —— | 5 | 瓦特（W） |  |
+| 显示方式 |  | 128*128 |  |  | 点阵屏 |
+| 防护等级 |  | IP20 |  |  |  |
+| 工作环境温度 | 0 | 25 | 40 | 摄氏度（℃） |  |
+| 工作环境湿度 | 10 | 60 | 85 | 相对湿度（%） | 不结露 |
+| 存储环境温度 | -20 | 25 | 65 | 摄氏度（℃） |  |
 
-2026-02　　　　　　　　　　　　　　　　　-62-　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　　-62-　　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 73 页
 
-## 7.3 Reference Standard
+自动调频振动送料控制器  
+SDVC341-M
 
-**Absolute Parameters:**  
-Above the standard will damage the controller, obey it strictly.
+---
 
-| Item | GB Standard | IEC Standard | Grade | Standard Requirement | Note |
+## 7.3 参考标准
+
+**极限参数：超过此指标将会造成严重损坏，必须严格遵守！**
+
+| 项目 | GB 标准 | IEC 标准 | 等级 | 标准要求 | 备注说明 |
 |---|---|---|---|---|---|
-| Electrostatic<br>Discharge | GB/T 17626.2-2006 | IEC 61000-4-2:2001 | 4 | ±8 kV | Contact<br>Discharge |
-|  |  |  | 4 | ±15 kV | Air Discharge |
-| Electrical Fast<br>Transient Test | GB/T 17626.4-2008 | IEC 61000-4-4:2004 | 4 | ±4 kV |  |
-| DC Power Line<br>Wave Immunity | GB/T 17626.17-2005 | IEC 61000-4-17:2002 | 4 | 15% | Rating A |
+| 静电放电 | GB/T 17626.2-2006 | IEC 61000-4-2:2001 | 4 | ±8 kV | 接触放电 |
+|  |  |  | 4 | ±15 kV | 空气放电 |
+| 电快速瞬变<br>脉冲群 | GB/T 17626.4-2008 | IEC 61000-4-4:2004 | 4 | ±4 kV |  |
+| 直流电源纹<br>波抗扰度 | GB/T 17626.17-2005 | IEC 61000-4-17:2002 | 4 | 15% | 评价 A |
 
-> **Warning**  
-> In a residential environment, this product may cause radio interference in which case supplementary mitigation measures may be required.
+> **警告**  
+> 在民用环境中，本产品可能产生无线电干扰。在这种情况下，可能需要采取附加抑制措施。
+
+---
+
+2026-02　　　　　-63-　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 74 页
 
-## 7.4 Parameter List
+自动调频振动送料控制器  
+SDVC341-M
 
-### 7.4.1 Interface Parameter Group
+## 7.4 参数列表
 
-| Function | Parameter | Display | Value Range/Enumeration Item | Default value |
+### 7.4.1 界面参数组
+
+| 功能标签 | 参数名 | 显示参数 | 取值范围/枚举项 | 默认值 |
 |---|---|---|---|---|
-| P1.01 | Monitoring Project 1 | 01.Monit1 | Parameter Group 2~Parameter Group 10 | P2.01 |
-| P1.02 | Monitoring Project 2 | 02.Monit2 | Parameter Group 2~Parameter Group 10 | P10.05 |
-| P1.03 | Monitoring Project 3 | 03.Monit3 | Parameter Group 2~Parameter Group 10 | P2.02 |
-| P1.04 | Monitoring Project 4 | 04.Monit4 | Parameter Group 2~Parameter Group 10 | P2.03 |
-| P1.05 | Monitoring Project 5 | 05.Monit5 | Parameter Group 2~Parameter Group 10 |  |
-| P1.06 | Monitoring Project 6 | 06.Monit6 | Parameter Group 2~Parameter Group 10 |  |
-| P1.07 | Monitoring Project 7 | 07.Monit7 | Parameter Group 2~Parameter Group 10 |  |
-| P1.08 | Monitoring Project 8 | 08.Monit8 | Parameter Group 2~Parameter Group 10 |  |
-| P1.09 | Monitoring Project 9 | 09.Monit9 | Parameter Group 2~Parameter Group 10 |  |
-| P1.10 | Monitoring Project 10 | 10.Monit10 | Parameter Group 2~Parameter Group 10 |  |
-| P1.11 | Monitoring Project 11 | 11.Monit11 | Parameter Group 2~Parameter Group 10 |  |
-| P1.12 | Monitoring Project 12 | 12.Monit12 | Parameter Group 2~Parameter Group 10 |  |
-| P1.13 | Monitoring Project 13 | 13.Monit13 | Parameter Group 2~Parameter Group 10 |  |
-| P1.14 | Monitoring Project 14 | 14.Monit14 | Parameter Group 2~Parameter Group 10 |  |
-| P1.15 | Monitoring Project 15 | 15.Monit15 | Parameter Group 2~Parameter Group 10 |  |
-| P1.16 | Monitoring Project 16 | 16.Monit16 | Parameter Group 2~Parameter Group 10 |  |
+| P1.01 | 监测项目一 | 01.监测项1 | 参数组二~参数组十 | P02.01 |
+| P1.02 | 监测项目二 | 02.监测项2 | 参数组二~参数组十 | P10.05 |
+| P1.03 | 监测项目三 | 03.监测项3 | 参数组二~参数组十 | P02.02 |
+| P1.04 | 监测项目四 | 04.监测项4 | 参数组二~参数组十 | P02.03 |
+| P1.05 | 监测项目五 | 05.监测项5 | 参数组二~参数组十 | P03.06 |
+| P1.06 | 监测项目六 | 06.监测项6 | 参数组二~参数组十 |  |
+| P1.07 | 监测项目七 | 07.监测项7 | 参数组二~参数组十 |  |
+| P1.08 | 监测项目八 | 08.监测项8 | 参数组二~参数组十 |  |
+| P1.09 | 监测项目九 | 09.监测项9 | 参数组二~参数组十 |  |
+| P1.10 | 监测项目十 | 10.监测项10 | 参数组二~参数组十 |  |
+| P1.11 | 监测项目十一 | 11.监测项11 | 参数组二~参数组十 |  |
+| P1.12 | 监测项目十二 | 12.监测项12 | 参数组二~参数组十 |  |
+| P1.13 | 监测项目十三 | 13.监测项13 | 参数组二~参数组十 |  |
+| P1.14 | 监测项目十四 | 14.监测项14 | 参数组二~参数组十 |  |
+| P1.15 | 监测项目十五 | 15.监测项15 | 参数组二~参数组十 |  |
+| P1.16 | 监测项目十六 | 16.监测项16 | 参数组二~参数组十 |  |
+
+2026-02  
+-64-  
+SDVC341SMSCN_4.01
 
 
 ### 第 75 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-## 7.4.2 Common Parameter Group
+## 7.4.2 常用参数组
 
-| Function | Parameter | Display | Value Range/Enumeration Item | Default value |
+| 功能标签 | 参数名 | 显示参数 | 取值范围/枚举项 | 默认值 |
 |---|---|---|---|---|
-| P2.01 | User Set Feeding Speed | 01.UserSped | 0~3200 | 200 |
-| P2.02 | User Set Voltage | 02.UsrVoltg | 0~250 V | 150 |
-| P2.03 | User Set Frequency | 03.UsrFrqnc | 5.0~999.9 Hz | 50.0 |
-| P2.04 | Soft Start Time | 04.SoftStar | 0.0~40.0 s | 0.5 |
-| P2.05 | Soft Stop Time | 05.SoftStop | -0.1~40.0 s | 0.5 |
-| P2.06 | Maximum Output Voltage | 06.MaxVoltg | 0~250 V | 220 |
-| P2.07 | Maximum Output Current | 07.MaxCurre | 0.1~3.0 A | 3.0 |
-| P2.08 | Maximum Output Frequency | 08.MaxFre | 5.0~999.9 Hz | 400.0 |
-| P2.09 | Minimum Output Frequency | 09.MiniFre | 5.0~999.9 Hz | 40.0 |
-| P2.10 | Load Detection | 10.Measure | None, Valid | None |
-| P2.11 | Shortage Alarm | 11.LowAlrm | 0~3000 | 10 |
-| P2.12 | Shutdown Alarm | 12.AlrmShut | None, Sound1, Sound2, Sound3 | None |
-| P2.13 | Backlight Brightness | 13.Brightne | 20~100 % | 100 |
-| P2.14 | Backlight Off Time | 14.Off_time | 1~30 Mi，31(constantly lit) | 5 |
-| P2.15 | Language | 15.Language | Englis, Chines, German | Englis |
+| P2.01 | 用户设定送料速度 | 01.送料速度 | 0~3200 | 200 |
+| P2.02 | 用户设定电压 | 02.电压 | 0~250 V | 150 |
+| P2.03 | 用户设定频率 | 03.频率 | 5.0~999.9 Hz | 50.0 |
+| P2.04 | 缓启动时间 | 04.缓启时间 | 0.0~40.0 s | 0.5 |
+| P2.05 | 缓关闭时间 | 05.缓关时间 | -0.1~40.0 s | 0.5 |
+| P2.06 | 最大输出电压 | 06.最大电压 | 0~250 V | 220 |
+| P2.07 | 最大输出电流 | 07.最大电流 | 0.1~3.0 A | 3.0 |
+| P2.08 | 最大输出频率 | 08.最大频率 | 5.0~999.9 Hz | 400.0 |
+| P2.09 | 最低输出频率 | 09.最低频率 | 5.0~999.9 Hz | 40.0 |
+| P2.10 | 负载检测 | 10.负载检测 | 无效，有效 | 无效 |
+| P2.11 | 缺料报警 | 11.缺料报警 | 0~3000 | 10 |
+| P2.12 | 停机报警 | 12.停机报警 | 无效，音效1，音效2，音效3 | 无效 |
+| P2.13 | 背光亮度 | 13.背光亮度 | 20~100 | 100 |
+| P2.14 | 背光熄灭时间 | 14.背光熄灭 | 1~30 min，31(常亮) | 5 |
+| P2.15 | 语言 | 15.语言 | 英文，中文，德文 | 中文 |
 
-2026-02　　　　　　　　　　　　　　　　　- 65 -　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　-65-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 76 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+## 7.4.3 主输出参数组
 
-## 7.4.3 Main Output Parameter Group
-
-| Function | Parameter | Display | Value Range/Enumeration Item | Default value |
+| 功能标签 | 参数名 | 显示参数 | 取值范围/枚举项 | 默认值 |
 |---|---|---|---|---|
-| P3.01 | Main Output Port Logic | 01.MainLogc | And, Or, Xor, RS | Or |
-| P3.02 | Main Output Port Logic<br>Input Source 1 | 02.MainSor1 | See Appendix 7.4.11 | In_PtC |
-| P3.03 | Main Output Port Logic<br>Input Source 2 | 03.MainSor2 | See Appendix 7.4.11 | In_PtE |
-| P3.04 | Main Output Rising Delay | 04.MainUpDy | 0.0~99.9 s | 0.2 |
-| P3.05 | Main Output Falling Delay | 05.MainDnDy | 0.0~99.9 s | 0.2 |
-| P3.06 | Main Output Logical<br>Direction | 06.MainDire | Const, Inv, On, Off | Const |
-| P3.07 | Main Output Mode | 07.MainMode | Delay, Hold | Delay |
-| P3.08 | Waveform Index | 08.WavFmInd | 50~100 | 100 |
-| P3.09 | Direct Current | 09.DCCurent | 0.0~2.00 A | 0.10 |
-| P3.10 | Power On Status | 10.PowOnSta | On, Off, Keep | On |
-| P3.11 | Remote Control Source | 11.CtrlSour | Panel, 20mA, 1-5V, 0-5V, 0-10V, DigSym | Panel |
-| P3.12 | Remote Control Coefficient | 12.CtrlCoef | 0.5~2.0 | 1.0 |
-
-2026-02　　　　　　　　　　　　　　　　　-66-　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+| P3.01 | 主输出逻辑 | 01.主逻辑 | 与，或，异或，RS | 或 |
+| P3.02 | 主输出逻辑源一 | 02.主源1 | 见《7.4.11 附表》 | C料满 |
+| P3.03 | 主输出逻辑源二 | 03.主源2 | 见《7.4.11 附表》 | E料满 |
+| P3.04 | 主输出开延迟 | 04.主开延迟 | 0.0~99.9 s | 0.2 |
+| P3.05 | 主输出关延迟 | 05.主关延迟 | 0.0~99.9 s | 0.2 |
+| P3.06 | 主输出逻辑方向 | 06.主输出 | 常通，常断，开，关 | 常通 |
+| P3.07 | 主输出模式 | 07.主模式 | 延迟，保持 | 延迟 |
+| P3.08 | 波形指数 | 08.波形指数 | 50~100 | 100 |
+| P3.09 | 直流电流 | 09.直流电流 | 0.0~2.00 A | 0.10 |
+| P3.10 | 开机状态 | 10.开机状态 | 开，关，保持 | 开 |
+| P3.11 | 遥控源 | 11.遥控源 | 面板，20mA，1~5V，0~5V，0~10V，同步 | 面板 |
+| P3.12 | 遥控系数 | 12.遥控系数 | 0.5~2.0 | 1.0 |
 
 
 ### 第 77 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-## 7.4.4 Steady Speed Parameter Group
+## 7.4.4 稳速参数组
 
-| Function | Parameter | Display | Value Range/Enumeration Item | Default value |
+| 功能标签 | 参数名 | 显示参数 | 取值范围/枚举项 | 默认值 |
 |---|---|---|---|---|
-| P4.01 | Automatic Frequency<br>Center Frequency | 01.AutFCent | 5.0~999.9 Hz | 100.0 |
-| P4.02 | Automatic Frequency<br>Adjustment Range | 02.AutFRang | 0.0~180.0 Hz | 30.0 |
-| P4.03 | Automatic Frequency<br>Adjustment Integral | 03.AutFIntg | 0~2000 | 20 |
-| P4.04 | Automatic Amplitude<br>Adjustment Integral | 04.AutAIntg | 0~9999 | 250 |
-| P4.05 | Automatic Amplitude<br>Adjustment Proportion | 05.AutAProp | 0~9999 | 500 |
-| P4.06 | Automatic Phase | 06.AutoPhas | -180~180 ° | 0 |
-| P4.07 | Automatic Searching<br>Frequency Currents Max | 07.AutSrhCM | 1.0~6.0 A | 3.0 |
-| P4.08 | Automatic Searching<br>Frequency Amplitude Max | 08.AutSrhAM | 0~3200 | 200 |
-| P4.09 | Automatic Search<br>Frequency | 09.AutSpedM | 0~4000 | 3200 |
-| P4.10 | Users Setting Phase | 10.UserPhas | -180~180 ° | 0 |
-| P4.11 | Voltage Mode | 11.VoltgMod | Manuel, Auto | Auto |
-| P4.12 | Frequency Mode | 12.FrqncMod | Manuel, Auto, SynV, SynE | Auto |
-| P4.13 | Synchronize Source | 13.SynSourc | None, PhaseV, PhaseE | None |
-| P4.14 | Acceleration Sensor Type | 14.AcSnsrTp | 20-1, 20-2, 20-3, 20-4, 203, 204, 205, 206 | 205 |
-| P4.15 | Frequency Search Speed | 15.SrhSpeed | 0~5 | 3 |
+| P4.01 | 中心频率 | 01.中心频率 | 5.0~999.9 Hz | 100.0 |
+| P4.02 | 频率调整偏移量 | 02.频率偏移 | 0.0~180.0 Hz | 30.0 |
+| P4.03 | 频率调整积分值 | 03.频率积分 | 0~2000 | 20 |
+| P4.04 | 幅度调整积分值 | 04.幅度积分 | 0~9999 | 250 |
+| P4.05 | 幅度调整比例值 | 05.幅度比例 | 0~9999 | 500 |
+| P4.06 | 自动相位 | 06.自动相位 | -180~180 ° | 0 |
+| P4.07 | 最大搜频电流值 | 07.搜频电流 | 1.0~6.0 A | 3.0 |
+| P4.08 | 最大搜频振幅 | 08.搜频振幅 | 0~3200 | 200 |
+| P4.09 | 送料速度最大值 | 09.料速最大 | 0~4000 | 3200 |
+| P4.10 | 手动相位 | 10.手动相位 | -180~180 ° | 0 |
+| P4.11 | 电压模式 | 11.电压模式 | 手动，自动 | 自动 |
+| P4.12 | 频率模式 | 12.频率模式 | 手动，自动，同步振（频率同步，相位同步振动传感器）<br>同步电（频率同步，相位同步主输出电流） | 自动 |
+| P4.13 | 同步源 | 13.同步源 | 无效，振相位，电相位(频率模式为手动或自动时，该参数有效) | 无效 |
+| P4.14 | 加速度传感器类型 | 14.传感器类 | 20-1, 20-2, 20-3, 20-4, 203, 204, 205, 206 | 205 |
+| P4.15 | 搜频速度 | 15.搜频速度 | 0~5 | 3 |
 
-2026-02　　　　　　　　　　　　　　　　- 67 -　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　　-67-　　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 78 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器  
+SDVC341-M
 
-## 7.4.5 Signal Input Parameter Group
+---
 
-| Function | Parameter | Display | Value Range/Enumeration Item | Default value |
+## 7.4.5 信号输入参数组
+
+| 功能标签 | 参数名 | 显示参数 | 取值范围/枚举项 | 默认值 |
 |---|---|---|---|---|
-| P5.01 | Switch Sensor Type | 01.PortType | Auto, NPN, PNP, Ato1 (automatic recognition once) | Auto |
-| P5.02 | Port C Logic Direction | 02.PortCDir | Const, Inv | Const |
-| P5.03 | Port C Rising Delay | 03.PtCUpDly | 0.0~99.9 s | 0.2 |
-| P5.04 | Port C Falling Delay | 04.PtCDnDly | 0.0~99.9 s | 0.2 |
-| P5.05 | Port E Logic Direction | 05.PortEDir | Const, Inv | Const |
-| P5.06 | Port E Rising Delay | 06.PtEUpDly | 0.0~99.9 s | 0.2 |
-| P5.07 | Port E Falling Delay | 07.PtEDnDly | 0.0~99.9 s | 0.2 |
-| P5.08 | Speed A Logic Direction | 08.SpedADir | Const, Inv | Const |
-| P5.09 | Speed A Rising Delay | 09.SpdAUpDy | 0.0~99.9 s | 0.2 |
-| P5.10 | Speed A Falling Delay | 10.SpdADnDy | 0.0~99.9 s | 0.2 |
-| P5.11 | Speed B Logic Direction | 11.SpedBDir | Const, Inv | Const |
-| P5.12 | Speed B Rising Delay | 12.SpdBUpDy | 0.0~99.9 s | 0.2 |
-| P5.13 | Speed B Falling Delay | 13.SpdBDnDy | 0.0~99.9 s | 0.2 |
+| P5.01 | 传感器类型 | 01.端口类型 | Auto, NPN, PNP, Ato1（自动识别1次） | Auto |
+| P5.02 | 端口C逻辑方向 | 02.C口方向 | 常通，常断 | 常通 |
+| P5.03 | 端口C开延时 | 03.C开延时 | 0.0~99.9 s | 0.2 |
+| P5.04 | 端口C关延时 | 04.C关延时 | 0.0~99.9 s | 0.2 |
+| P5.05 | 端口E逻辑方向 | 05.E口方向 | 常通，常断 | 常通 |
+| P5.06 | 端口E开延时 | 06.E开延时 | 0.0~99.9 s | 0.2 |
+| P5.07 | 端口E关延时 | 07.E关延时 | 0.0~99.9 s | 0.2 |
+| P5.08 | 速度A逻辑方向 | 08.速A方向 | 常通，常断 | 常通 |
+| P5.09 | 速度A开延时 | 09.速A开延 | 0.0~99.9 s | 0.2 |
+| P5.10 | 速度A关延时 | 10.速A关延 | 0.0~99.9 s | 0.2 |
+| P5.11 | 速度B逻辑方向 | 11.速B方向 | 常通，常断 | 常通 |
+| P5.12 | 速度B开延时 | 12.速B开延 | 0.0~99.9 s | 0.2 |
+| P5.13 | 速度B关延时 | 13.速B关延 | 0.0~99.9 s | 0.2 |
 
-2026-02　　　　　　　　　　　　　　　　　-68-　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+---
+
+2026-02　　　-68-　　　SDVC341SMSCN_4.01
 
 
 ### 第 79 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-## 7.4.6 DC Control Output Parameter Group
+---
 
-| Function | Parameter | Display | Value Range/Enumeration Item | Default value |
+## 7.4.6 控制输出参数组
+
+| 功能标签 | 参数名 | 显示参数 | 取值范围/枚举项 | 默认值 |
 |---|---|---|---|---|
-| P6.01 | Port D Logical Relationship | 01.PotDLogc | And, Or, Xor, RS | Or |
-| P6.02 | Port D Logic Input Source 1 | 02.PotDSor1 | See Appendix 7.4.11 | In_PtC |
-| P6.03 | Port D Logic Input Source 2 | 03.PotDSor2 | See Appendix 7.4.11 | In_PtE |
-| P6.04 | Port D Logical Direction | 04.PortDDir | Const, Inv, On, Off | Const |
-| P6.05 | Port D Rising Delay | 05.PtDUpDly | 0.0~99.9 s | 0.2 |
-| P6.06 | Port D Falling Delay | 06.PtDDnDly | 0.0~99.9 s | 0.2 |
-| P6.07 | Port D Output Type | 07.PotDType | Ou_PNP, Ou_NPN, Ou_P&P (Push Pull) | Ou_P&P |
-| P6.08 | Port D Output Mode | 08.PotDMode | Delay, Hold | Delay |
+| P6.01 | 端口D逻辑关系 | 01.D口逻辑 | 与，或，异或，RS | 或 |
+| P6.02 | 端口D逻辑源一 | 02.D口源1 | 见《7.4.11 附表》 | C料满 |
+| P6.03 | 端口D逻辑源二 | 03.D口源2 | 见《7.4.11 附表》 | E料满 |
+| P6.04 | 端口D逻辑方向 | 04.D口方向 | 常通，常断，开，关 | 常通 |
+| P6.05 | 端口D开延时 | 05.D开延时 | 0.0~99.9 s | 0.2 |
+| P6.06 | 端口D关延时 | 06.D关延时 | 0.0~99.9 s | 0.2 |
+| P6.07 | 端口D类型 | 07.D口类型 | Ou_PNP, Ou_NPN, Ou_P&P (推挽) | Ou_P&P |
+| P6.08 | 端口D输出模式 | 08.D口模式 | 延迟，保持 | 延迟 |
 
-2026-02　　　　　　　　　　　　　　　　- 69 -　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+---
+
+2026-02　　　　　　　　　　　　　　　　　-69-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 80 页
 
-Automatic Frequency Controller for Vibratory Feeder  SDVC341-M
-
-## 7.4.7 Counting Parameter Group
-
-| Function | Parameter | Display | Value Range/Enumeration Item | Default value |
-|---|---|---|---|---|
-| P7.01 | Total Count | 01.TotaCout | 0~9999 | 10 |
-| P7.02 | Terminal Feed Rate<br>Percentage | 02.PrcntTrm | 0~100 % | 50 |
-| P7.03 | Ahead of Counting End | 03.CotAhead | 0~9999 | 3 |
-| P7.04 | Counting Automatic Reset<br>Time | 04.CotRstTm | 0.0~999.9 s | 0.0 |
-| P7.05 | Counting Port Selection | 05.CotPotSe | None, Valid | None |
-| P7.06 | RS-Trigger-Port-Priority | 06.RSPriori | Same, Reset, Set, Revers | Same |
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
 ---
 
-2026-02  -70-  SDVC341SMSEN_4.01
+## 7.4.7 计数参数组
+
+| 功能标签 | 参数名 | 显示参数 | 取值范围/枚举项 | 默认值 |
+|---|---|---|---|---|
+| P7.01 | 计数总数 | 01.计数总数 | 0~9999 | 10 |
+| P7.02 | 末段速度 | 02.末段速度 | 0~100 % | 50 |
+| P7.03 | 末段数量 | 03.末段数量 | 0~9999 | 3 |
+| P7.04 | 计数自动清零时间 | 04.计数清零 | 0.0~999.9 s | 0.0 |
+| P7.05 | 计数功能 | 05.计数功能 | 无效，有效 | 无效 |
+| P7.06 | RS触发器端口优先级 | 06.RS优先级 | 同级，复位，置位，取反 | 同级 |
+
+---
+
+2026-02　　　　　　　　　　　　　　　　　-70-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 81 页
 
-Automatic Frequency Controller for Vibratory Feeder                SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-## 7.4.8 Communication Parameter Group
+## 7.4.8 通信参数组
 
-| Function | Parameter | Display | Value Range/Enumeration Item | Default value |
+| 功能标签 | 参数名 | 显示参数 | 取值范围/枚举项 | 默认值 |
 |---|---|---|---|---|
-| P8.01 | 485BUS Communication Type | 01.485type | ASCII, RTU | RTU |
-| P8.02 | 485 Communication Baud Rate | 02.BaudRate | 0.3, 1.2, 2.4, 9.6, 19.2, 57.6, 115.2 Kbps | 115.2 |
-| P8.03 | 485 Communication Slave Identification Number | 03.485SlvID | 1~31 | 1 |
-| P8.04 | Enable Resistance of 485 Communication Port | 04.Enab485R | None, Valid | None |
-| P8.05 | Local Digital Synchronization Address | 05.DigSynAd | 1~8 |  |
-| P8.06 | Enable Resistance of Digital Synchronization Communication Port | 06.EnabSynR | None, Valid | None |
-| P8.07 | Bus Signal Address of the Main Output Port Logic Input Source 1 | 07.BSigMID1 | 1~8 |  |
-| P8.08 | Bus Signal Address of the Main Output Port Logic Input Source 2 | 08.BSigMID2 | 1~8 |  |
-| P8.09 | Bus Signal Address of the Port D Logic Input Source 1 | 09.BSgD_ID1 | 1~8 |  |
-| P8.10 | Bus Signal Address of the Port D Logic Input Source 2 | 10.BSgD_ID2 | 1~8 |  |
-| P8.11 | Bus Signal Bit Address of the Main Output Port Logic Input Source 1 | 11.BSigM_B1 | 1~16 | 5 |
-| P8.12 | Bus Signal Bit Address of the Main Output Port Logic Input Source 2 | 12.BSigM_B2 | 1~16 | 6 |
-| P8.13 | Bus Signal Bit Address of the Port D Logic Input Source 1 | 13.BSigD_B1 | 1~16 | 5 |
-| P8.14 | Bus Signal Bit Address of the Port D Logic Input Source 2 | 14.BSigD_B2 | 1~16 | 6 |
-| P8.15 | Local Bus Signal Bit Address 1 Signal | 15.LBSig_B1 | See Appendix 7.4.11 | 0 |
-| P8.16 | Local Bus Signal Bit Address 2 Signal | 16.LBSig_B2 | See Appendix 7.4.11 | 1 |
-| P8.17 | Local Bus Signal Bit Address 3 Signal | 17.LBSig_B3 | See Appendix 7.4.11 | SpeedA |
-| P8.18 | Local Bus Signal Bit Address 4 Signal | 18.LBSig_B4 | See Appendix 7.4.11 | SpeedB |
-| P8.19 | Local Bus Signal Bit Address 5 Signal | 19.LBSig_B5 | See Appendix 7.4.11 | In_PtC |
-| P8.20 | Local Bus Signal Bit Address 6 Signal | 20.LBSig_B6 | See Appendix 7.4.11 | In_PtE |
-| P8.21 | Local Bus Signal Bit Address 7 Signal | 21.LBSig_B7 | See Appendix 7.4.11 | FCntSi |
-| P8.22 | Local Bus Signal Bit Address 8 Signal | 22.LBSig_B8 | See Appendix 7.4.11 | DCntSi |
-| P8.23 | Local Bus Signal Bit Address 9 Signal | 23.LBSig_B9 | See Appendix 7.4.11 | Ctr_O |
-| P8.24 | Local Bus Signal Bit Address 10 Signal | 24.LBSigB10 | See Appendix 7.4.11 | Warn |
-| P8.25 | Local Bus Signal Bit Address 11 Signal | 25.LBSigB11 | See Appendix 7.4.11 | Main |
-| P8.26 | Local Bus Signal Bit Address 12 Signal | 26.LBSigB12 | See Appendix 7.4.11 | -SpeedA |
-| P8.27 | Local Bus Signal Bit Address 13 Signal | 27.LBSigB13 | See Appendix 7.4.11 | -SpeedB |
-| P8.28 | Local Bus Signal Bit Address 14 Signal | 28.LBSigB14 | See Appendix 7.4.11 | -In_PtC |
-| P8.29 | Local Bus Signal Bit Address 15 Signal | 29.LBSigB15 | See Appendix 7.4.11 | -In_PtE |
-| P8.30 | Local Bus Signal Bit Address 16 Signal | 30.LBSigB16 | See Appendix 7.4.11 | -FCtSi |
-| P8.31 | Enable to Add Network Function | 31.EnNetwok | Online, Offlin, Expand, Replace |  |
-| P8.32 | Remove Network Machine Number | 32.DeltDevi | 1~8 |  |
-| P8.33 | Local Frequency Synchronization Number | 33.FrqncSyn | 1~8 |  |
-| P8.34 | Local Remote Control Speed Regulation Synchronization Number | 34.RemotSyn | 1~8 |  |
-| P8.35 | Remote Control Data | 35.RemotDat | ManVol, RemVol, ManSpd, RemSpd | ManVol |
+| P8.01 | 485通信类型 | 01.通信类型 | ASCII，RTU | RTU |
+| P8.02 | 485通信波特率 | 02.波特率 | 0.3, 1.2, 2.4, 9.6, 19.2, 57.6, 115.2 Kbps | 115.2 |
+| P8.03 | 485通信从机ID号 | 03.从机号 | 1~31 | 1 |
+| P8.04 | 485通信端口端接电阻使能 | 04.端口电阻 | 无效，有效 | 无效 |
+| P8.05 | 本机数字同步通信编号 | 05.数字同步 | 1~8 |  |
+| P8.06 | 数字同步端接电阻使能 | 06.同步电阻 | 无效，有效 | 无效 |
+| P8.07 | 主输出逻辑源一总线信号机器编号 | 07.主信1ID | 1~8 |  |
+| P8.08 | 主输出逻辑源二总线信号机器编号 | 08.主信2ID | 1~8 |  |
+| P8.09 | 端口D逻辑源一总线信号机器编号 | 09.D信1ID | 1~8 |  |
+| P8.10 | 端口D逻辑源二总线信号机器编号 | 10.D信2ID | 1~8 |  |
+| P8.11 | 主输出逻辑源一总线信号位 | 11.主信1B | 1~16 | 5 |
+| P8.12 | 主输出逻辑源二总线信号位 | 12.主信2B | 1~16 | 6 |
+| P8.13 | 端口D逻辑源一总线信号位 | 13.D信1B | 1~16 | 5 |
+| P8.14 | 端口D逻辑源二总线信号位 | 14.D信2B | 1~16 | 6 |
+| P8.15 | 本机总线信号位地址1信号 | 15.状态位1 | 见《7.4.11 附表》 | 0 |
+| P8.16 | 本机总线信号位地址2信号 | 16.状态位2 | 见《7.4.11 附表》 | 1 |
+| P8.17 | 本机总线信号位地址3信号 | 17.状态位3 | 见《7.4.11 附表》 | A速度 |
+| P8.18 | 本机总线信号位地址4信号 | 18.状态位4 | 见《7.4.11 附表》 | B速度 |
+| P8.19 | 本机总线信号位地址5信号 | 19.状态位5 | 见《7.4.11 附表》 | C料满 |
+| P8.20 | 本机总线信号位地址6信号 | 20.状态位6 | 见《7.4.11 附表》 | E料满 |
+| P8.21 | 本机总线信号位地址7信号 | 21.状态位7 | 见《7.4.11 附表》 | 计满 |
+| P8.22 | 本机总线信号位地址8信号 | 22.状态位8 | 见《7.4.11 附表》 | 计减 |
+| P8.23 | 本机总线信号位地址9信号 | 23.状态位9 | 见《7.4.11 附表》 | D控出 |
+| P8.24 | 本机总线信号位地址10信号 | 24.状态位10 | 见《7.4.11 附表》 | 警告 |
+| P8.25 | 本机总线信号位地址11信号 | 25.状态位11 | 见《7.4.11 附表》 | 主 |
+| P8.26 | 本机总线信号位地址12信号 | 26.状态位12 | 见《7.4.11 附表》 | -A速度 |
+| P8.27 | 本机总线信号位地址13信号 | 27.状态位13 | 见《7.4.11 附表》 | -B速度 |
+| P8.28 | 本机总线信号位地址14信号 | 28.状态位14 | 见《7.4.11 附表》 | -C料满 |
+| P8.29 | 本机总线信号位地址15信号 | 29.状态位15 | 见《7.4.11 附表》 | -E料满 |
+| P8.30 | 本机总线信号位地址16信号 | 30.状态位16 | 见《7.4.11 附表》 | -计满 |
+| P8.31 | 本机是否加入网络 | 31.是否联网 | 在线，离线，拓展，替换 |  |
+| P8.32 | 移除网络机器编号 | 32.移除机器 | 1~8 |  |
+| P8.33 | 本机频率同步编号 | 33.频率同步 | 1~8 |  |
+| P8.34 | 本机遥控调速同步编号 | 34.遥控同步 | 1~8 |  |
+| P8.35 | 遥控数据 | 35.遥控数据 | ManVol, RemVol, ManSpd, RemSpd | ManVol |
 
-2026-02              -71-             SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　　-71-　　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 82 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
 ---
 
-## 7.4.9 Save Parameter Group
+## 7.4.9 保存参数组
 
-| Function | Parameter | Display | Value Range/Enumeration Item | Default value |
+| 功能标签 | 参数名 | 显示参数 | 取值范围/枚举项 | 默认值 |
 |---|---|---|---|---|
-| P9.01 | Read All Parameters From<br>the User Group | 01.ReadALLF | None, UsrD1, UsrD2, UsrD3 | None |
-| P9.02 | Save All Parameters To<br>the User Group | 02.SaveALLT | None, Work, UsrD1, UsrD2, UsrD3 | None |
-| P9.03 | Slave Identification Number | 03.RestorAL | None, RWork (default workgroup) | None |
-| P9.04 | Use The Backup of The<br>Local Data On Bus to<br>Restore The Local Data | 04.RDatFrBs | 1~8 |  |
-| P9.05 | User Password | 05.PassWord | 0~9999 | 0 |
-| P9.06 | Set Password | 06.SetWord | 0~9999 | 0 |
+| P9.01 | 从用户参数组读出所有参数 | 01.读出参数 | 无效，用户1，用户2，用户3 | 无效 |
+| P9.02 | 将当前所有参数保存到用户参数组 | 02.保存参数 | 无效，工作组，用户1，用户2，用户3 | 无效 |
+| P9.03 | 复位工作组参数 | 03.复位参数 | 无效，工作组（默认工作组） | 无效 |
+| P9.04 | 本机备份的网络设备数据，恢复本机数据 | 04.拷贝参数 | 1~8 |  |
+| P9.05 | 用户密码 | 05.用户密码 | 0~9999 | 0 |
+| P9.06 | 输入密码 | 06.输入密码 | 0~9999 | 0 |
 
 ---
 
-2026-02　　　　　　　　　　　　　　　　　-72-　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　-72-　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 83 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-## 7.4.10 Monitoring Parameter Group
+---
 
-| Function | Parameter | Display | Value Range/Enumeration Item | Default value |
+## 7.4.10 监控参数组
+
+| 功能标签 | 参数名 | 显示参数 | 取值范围/枚举项 | 默认值 |
 |---|---|---|---|---|
-| P10.01 | Output Voltage | 01.Voltage | 0~250 V |  |
-| P10.02 | Output Frequency | 02.Frequenc | 5.0~999.9 Hz |  |
-| P10.03 | Current Measured Feeding Speed | 03.SpeedNow | 0~4000 |  |
-| P10.04 | Current Output Voltage | 04.VoltgOut | 0.0~250.0 V |  |
-| P10.05 | Effective Current Value | 05.EffectCu | 0.0~9.99 A |  |
-| P10.06 | Current Maximum | 06.CurrentM | 0.0~9.99 A |  |
-| P10.07 | Power Active | 07.PowActiv | 0.0~999.9 W |  |
-| P10.08 | Power Reactive | 08.PowReact | 0.0~999.9 Var |  |
-| P10.09 | Temperature | 09.Temperat | -20.0~85.0 ℃ |  |
-| P10.10 | Inductance Value | 10.Inductan | 0.0~9.999 H |  |
-| P10.11 | Resistance Value | 11.Resistan | 0.0~999.9 Ω |  |
-| P10.12 | External Synchronization Frequency | 12.SynchrFr | 5.0~999.9 Hz |  |
-| P10.13 | Current Count Number | 13.CoutNumb | 0~9999 |  |
-| P10.14 | Saturate Current | 14.SatCurre | 0.0~9.9 A |  |
-| P10.15 | Port C Input Signal Status | 15.Sig-PotC | 0~1 |  |
-| P10.16 | Port E Input Signal Status | 16.Sig-PotE | 0~1 |  |
-| P10.17 | Port D OutPut Status | 17.Sig-PotD | 0~1 |  |
-| P10.18 | Port G Input Signal Status | 18.Sig-PotG | 0~1 |  |
-| P10.19 | Port N Input Signal Status | 19.Sig-PotN | 0~1 |  |
-| P10.20 | Main OutPut Status | 20.Sig-Main | 0~1 |  |
-| P10.21 | Port C Input Voltage | 21.Vol-PotC | 0.0~26.0 V |  |
-| P10.22 | Port E Input Voltage | 22.Vol-PotE | 0.0~26.0 V |  |
-| P10.23 | Port D Output Voltage | 23.Vol-PotD | 0.0~26.0 V |  |
-| P10.24 | Port G Input Voltage | 24.Vol-PotG | 0.0~26.0 V |  |
-| P10.25 | Port N Input Voltage | 25.Vol-PotN | 0.0~26.0 V |  |
-| P10.26 | Remote Control Input Voltage | 26.Vol-Remo | 0.0~10.0 V |  |
-| P10.27 | 24V Supply Voltage | 27.Vol-24V | 0.0~26.0 V |  |
-| P10.28 | 5V Supply Voltage | 28.Vol-5V | 0.0~6.0 V |  |
-| P10.29 | Current Input Bus Voltage | 29.Vol-Bus | 0.0~390.0 V |  |
-| P10.30 | Effective Value of Input Voltage | 30.Vol-Inpt | 0.0~280.0 V |  |
-| P10.31 | Automatic Phase Remain | 31.PhaseRem | -180~180 ° |  |
-| P10.32 | Automatic Sensor Overload | 32.Overload | 0~1 |  |
-| P10.33 | Accelerated Speed | 33.Accelera | 0~64 g |  |
-| P10.34 | Device Number | 34.DevicNum | 1~8 units |  |
-| P10.35 | Online Number | 35.OnlinNum | 1~8 units |  |
-| P10.36 | Low of Material Alarm | 36.LowAlarm | 0~3000 |  |
-| P10.37 | Working Hours | 37.WorkHour | 0~9999 (units：8h) |  |
-| P10.38 | Amplitude X | 38.Amp-X | 0~9999 um |  |
-| P10.39 | Amplitude Y | 39.Amp-Y | 0~9999 um |  |
+| P10.01 | 当前输出电压 | 01.输出电压 | 0~250 V |  |
+| P10.02 | 当前输出频率 | 02.输出频率 | 5.0~999.9 Hz |  |
+| P10.03 | 当前实测送料速度 | 03.当前料速 | 0~4000 |  |
+| P10.04 | 当前实测输出电压 | 04.测量电压 | 0.0~250.0 V |  |
+| P10.05 | 当前实测电流有效值 | 05.有效电流 | 0.0~9.99 A |  |
+| P10.06 | 当前实测电流最大值 | 06.最大电流 | 0.0~9.99 A |  |
+| P10.07 | 当前实测有功功率 | 07.有功功率 | 0.0~999.9 W |  |
+| P10.08 | 当前实测无功功率 | 08.无功功率 | 0.0~999.9 Var |  |
+| P10.09 | 当前实测温度 | 09.温度 | -20.0~85.0 °C |  |
+| P10.10 | 当前实测电感量 | 10.电感量 | 0.0~9.999 H |  |
+| P10.11 | 当前实测电阻值 | 11.电阻值 | 0.0~999.9 Ω |  |
+| P10.12 | 外部同步频率 | 12.同步频率 | 5.0~999.9 Hz |  |
+| P10.13 | 当前计数值 | 13.当前计数 | 0~9999 |  |
+| P10.14 | 饱和电流 | 14.饱和电流 | 0.0~9.9 A |  |
+| P10.15 | 端口C输入信号状态 | 15.状态-C口 | 0~1 |  |
+| P10.16 | 端口E输入信号状态 | 16.状态-E口 | 0~1 |  |
+| P10.17 | 输出端口D状态 | 17.状态-D口 | 0~1 |  |
+| P10.18 | 端口N2输入信号状态 | 18.状态-G口 | 0~1 |  |
+| P10.19 | 端口N3输入信号状态 | 19.状态-N口 | 0~1 |  |
+| P10.20 | 当前主输出状态 | 20.主状态 | 0~1 |  |
+| P10.21 | 端口C输入电压 | 21.电压-C口 | 0.0~26.0 V |  |
+| P10.22 | 端口E输入电压 | 22.电压-E口 | 0.0~26.0 V |  |
+| P10.23 | 端口D输出电压 | 23.电压-D口 | 0.0~26.0 V |  |
+| P10.24 | 端口N2输入电压 | 24.电压-G口 | 0.0~26.0 V |  |
+| P10.25 | 端口N3输入电压 | 25.电压-N口 | 0.0~26.0 V |  |
+| P10.26 | 遥控输入电压 | 26.遥控输入 | 0.0~10.0 V |  |
+| P10.27 | 24 V电源输入 | 27.24V电源 | 0.0~26.0 V |  |
+| P10.28 | 5 V电源输入 | 28.5V电源 | 0.0~6.0 V |  |
+| P10.29 | 输入母线电压 | 29.母线电压 | 0.0~390.0 V |  |
+| P10.30 | 输入电压有效值 | 30.入有效值 | 0.0~280.0 V |  |
+| P10.31 | 自动相位差 | 31.相位差 | -180~180 ° |  |
+| P10.32 | 传感器过载 | 32.传感过载 | 0~1 |  |
+| P10.33 | 传感器加速度 | 33.加速度 | 0~64 g |  |
+| P10.34 | 联网机器总数 | 34.机器总数 | 1~8 台 |  |
+| P10.35 | 当前联网机器总数 | 35.联网总数 | 1~8 台 |  |
+| P10.36 | 缺料报警 | 36.缺料报警 | 0~3000 |  |
+| P10.37 | 工作时间 | 37.工作时间 | 0~9999 (单位：8h) |  |
+| P10.38 | X轴位移 | 38.X位移 | 0~9999 um |  |
+| P10.39 | Y轴位移 | 39.Y位移 | 0~9999 um |  |
 
-2026-02　　　　　　　　　　　　　　　　　-73-　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+---
+
+2026-02　　　　　　　　　　　　　　　　　-73-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 84 页
 
-Automatic Frequency Controller for Vibratory Feeder  SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-| Function | Parameter | Display | Value Range/Enumeration Item | Default value |
+| 功能标签 | 参数名 | 显示参数 | 取值范围/枚举项 | 默认值 |
 |---|---|---|---|---|
-| P10.40 | Amplitude Z | 40.Amp-Z | 0~9999 um |  |
-| P10.41 | Amplitude Sum | 41.Amp-Sum | 0~9999 um |  |
-| P10.42 | Firmware Version Number of Main | 42.Vr-Main | 0~9999 |  |
-| P10.43 | Firmware Version Number of Slave | 43.Vr-Slave | 0~9999 |  |
+| P10.40 | Z轴位移 | 40.Z位移 | 0~9999 um |  |
+| P10.41 | 和位移 | 41.和位移 | 0~9999 um |  |
+| P10.42 | 主控板版本号 | 42.主版本号 | 0~9999 |  |
+| P10.43 | 功率板版本号 | 43.从版本号 | 0~9999 |  |
 
-2026-02  -74-  SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　　-74-　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 85 页
 
-### 7.4.11 Attached List
+自动调频振动送料控制器  
+SDVC341-M
 
-The signal source definition list is as follows:
+---
 
-| Serial Number | Meaning | Display |
+## 7.4.11 附表
+
+信号源定义列表如下：
+
+| 序号 | 含义 | 显示值 |
 |---:|---|---|
 | 0 | 0 | 0 |
 | 1 | 1 | 1 |
-| 2 | Speed A Port | SpeedA |
-| 3 | Speed B Port | SpeedB |
-| 4 | Input Port C | In_PtC |
-| 5 | Input Port E | In_PtE |
-| 6 | Full Count Signal | FCntSi |
-| 7 | Deceleration Count Signal | DCntSi |
-| 8 | Bus Signal | Bus_S |
-| 9 | Control Output | Ctr_O |
-| 10 | Warning | Warn |
-| 11 | Main Output | Main |
-| 12 | Invert Speed A Port | -SpedA |
-| 13 | Invert Speed B Port | -SpedB |
-| 14 | Invert Input Port C | -I_PtC |
-| 15 | Invert Input Port E | -I_PtE |
-| 16 | Invert Full Count Signal | -FCtSi |
-| 17 | Invert Deceleration Count Signal | -DCtSi |
-| 18 | Invert Bus Signal | -Bus_S |
-| 19 | Invert Control output | -Ctr_O |
-| 20 | Invert Warning | -Warn |
-| 21 | Invert Main Output | -Main |
+| 2 | 速度A口 | A速度 |
+| 3 | 速度B口 | B速度 |
+| 4 | 料满输入C | C料满 |
+| 5 | 料满输入E | E料满 |
+| 6 | 计数满信号 | 计满 |
+| 7 | 计数减速信号 | 计减 |
+| 8 | 总线信号 | 总线 |
+| 9 | 控制输出D口信号 | D控出 |
+| 10 | 警告与故障 | 警告 |
+| 11 | 主输出状态 | 主 |
+| 12 | 反转速度A口 | -A速度 |
+| 13 | 反转速度B口 | -B速度 |
+| 14 | 反转料满输入C | -C料满 |
+| 15 | 反转料满输入E | -E料满 |
+| 16 | 反转计数满信号 | -计满 |
+| 17 | 反转计数减速信号 | -计减 |
+| 18 | 反转总线信号 | -总线 |
+| 19 | 反转控制输出D口信号 | -D控出 |
+| 20 | 反转警告与故障 | -警告 |
+| 21 | 反转主输出状态 | -主 |
 
-The device networking status comparison table is as follows:
+设备组网状态对照表如下：
 
-| Display | Device Networking Status |
+| 显示 | 设备组网状态 |
 |---|---|
-| A | All network devices are online |
-| B | At least one network device is offline |
-| C | This device is not a device in this network |
-| D | Deleting device |
-| E | Expanding to join devices |
-| F | Competitive Network Control |
-| R | Replacing joining device |
-| S | This device is disconnected from the network |
+| A | 网络设备均在线 |
+| B | 至少有1台网络设备不在线 |
+| C | 本设备不是此网络中的设备 |
+| D | 正在删除设备 |
+| E | 正在拓展加入设备 |
+| F | 竞争网络控制权 |
+| R | 正在替换加入设备 |
+| S | 本设备断开网络 |
+
+---
+
+2026-02  
+-75-  
+SDVC341SMSCN_4.01
 
 
 ### 第 86 页
 
-Automatic Frequency Controller for Vibratory Feeder  
-SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　SDVC341-M
 
-## 7.5 Input and Output Circuit Diagrams
+## 7.5 输入输出电路图
 
-### Remote Speed Control Port A
+### 遥控调速A端口
 
-![Remote Speed Control Port A circuit diagram](assets/images/cuh.sdvc34.manual.v0.0/page-0086-vcrop-00.png)
+![遥控调速A端口输入电路原理图](assets/images/cuh.sdvc34.manual.v0.0/page-0086-vcrop-00.png)
 
-| Terminal | Signal |
+| 端子 | 功能 |
 |---|---|
 | A3 | +5V |
-| A2 | Input |
-| A1 | RGND |
+| A2 | 输入 |
+| A1 | 电阻地 |
 
-### Switch Sensor Port C
+图中标注：5V输出、10uF、10KΩ、100KΩ、249Ω。
 
-![Switch Sensor Port C circuit diagram](assets/images/cuh.sdvc34.manual.v0.0/page-0086-vcrop-01.png)
+### 料满停机C端口
 
-| Terminal | Signal |
+![料满停机C端口输入电路原理图](assets/images/cuh.sdvc34.manual.v0.0/page-0086-vcrop-01.png)
+
+| 端子 | 功能 |
 |---|---|
-| C3 | 24V Output |
-| C2 | Input |
-| C1 | GND |
+| C3 | 24V输出 |
+| C2 | 输入 |
+| C1 | 地线 |
 
-### Switch Sensor Port E
+图中标注：24V、自动类型检测、2.4KΩ。
 
-![Switch Sensor Port E circuit diagram](assets/images/cuh.sdvc34.manual.v0.0/page-0086-vcrop-02.png)
+### 料满停机E端口
 
-| Terminal | Signal |
+![料满停机E端口输入电路原理图](assets/images/cuh.sdvc34.manual.v0.0/page-0086-vcrop-02.png)
+
+| 端子 | 功能 |
 |---|---|
-| E3 | 24V Output |
-| E2 | Input |
-| E1 | GND |
+| E3 | 24V输出 |
+| E2 | 输入 |
+| E1 | 地线 |
 
-### Control Output Port D
+图中标注：24V、自动类型检测、2.4KΩ。
 
-![Control Output Port D circuit diagram](assets/images/cuh.sdvc34.manual.v0.0/page-0086-vcrop-03.png)
+### 控制输出D端口
 
-| Terminal | Signal |
+![控制输出D端口输出电路原理图](assets/images/cuh.sdvc34.manual.v0.0/page-0086-vcrop-03.png)
+
+| 端子 | 功能 |
 |---|---|
-| D2 | 24V Output |
-| D1 | Output |
-| D3 | GND |
+| D2 | 24V输出 |
+| D1 | 输出 |
+| D3 | 地线 |
 
----
+图中标注：24V、28V、过流保护电路。
 
-2026-02 &nbsp;&nbsp;&nbsp;&nbsp; -76- &nbsp;&nbsp;&nbsp;&nbsp; SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　-76-　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 87 页
 
-![485 Communication Port F circuit diagram with F2 A+, F3 GND, F4 B- and 120Ω resistor](assets/images/cuh.sdvc34.manual.v0.0/page-0087-vcrop-00.png)
+### 485通讯F端口
 
-**485 Communication Port F**
+![485通讯F端口输入输出电路图](assets/images/cuh.sdvc34.manual.v0.0/page-0087-vcrop-00.png)
 
-| Terminal | Signal |
+| 端子 | 功能 |
 |---|---|
 | F2 | A+ |
-| F3 | GND |
+| F3 | 地线 |
 | F4 | B- |
 
-![Count/Speed Preset Port N circuit diagram with NPN/PNP inputs, 2.4kΩ resistors, N1/G/N/N4 terminals](assets/images/cuh.sdvc34.manual.v0.0/page-0087-vcrop-01.png)
+电路标注：120Ω。
 
-**Count/Speed Preset Port N**
+### 计数/速度预设N端口
 
-| Terminal | Signal |
+![计数/速度预设N端口输入输出电路图](assets/images/cuh.sdvc34.manual.v0.0/page-0087-vcrop-01.png)
+
+| 端子 | 功能 |
 |---|---|
-| N1 | GND |
-| G | Count/Speed A |
-| N | Count/Speed B |
-| N4 | 24V Output |
+| N1 | 地线 |
+| G | 计数/速度A |
+| N | 复位/速度B |
+| N4 | 24V输出 |
 
-![Digital Sync Port T circuit diagram with T1 Sync+, T2 GND, T3 Sync- and 120Ω resistor](assets/images/cuh.sdvc34.manual.v0.0/page-0087-vcrop-02.png)
+电路标注：0V (NPN)、2.4KΩ、24V (PNP)、2.4KΩ、24V输出。
 
-**Digital Sync Port T**
+### 数字同步T端口
 
-| Terminal | Signal |
-|---|---|
-| T1 | Sync+ |
-| T2 | GND |
-| T3 | Sync- |
+![数字同步T端口输入输出电路图](assets/images/cuh.sdvc34.manual.v0.0/page-0087-vcrop-02.png)
+
+| 左侧功能 | 端子 | 右侧端子 | 右侧功能 |
+|---|---|---|---|
+| 同步+ | T1 | T1 | 同步+ |
+| 地线 | T2 | T2 | 地线 |
+| 同步- | T3 | T3 | 同步- |
+
+电路标注：120Ω。
 
 
 ### 第 88 页
 
-Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-## 7.6 Error Code
+## 7.6 故障代码
 
-The fault diagnosis of this controller is divided into fault codes and warning codes. And display each code in turn.
+本控制器故障诊断分故障代码和警告代码。并轮流显示每一条代码。
 
-**Error Code:** It is necessary to stop the machine immediately and wait for the fault to disappear before canceling the display.
+**故障代码：** 需要立即停机，等待故障消失后才能取消显示。
 
-**Warning Code:** No shutdown is required. Wait until the warning sign disappears before canceling the display.
+**警告代码：** 不需要停机，等待警告标志消失后才能取消显示。
 
-### Error Code Table
+### 故障代码表
 
-| Error Code | Display | Meaning | Method of Exclusion |
+| 故障代码 | 故障显示 | 含义 | 排除方法 |
 |---|---|---|---|
-| Error01 | Short | Short circuit | Confirm whether the main output line is short-circuited and rewire it |
-| Error02 | OvrCurrt | Overcurrent | Reduce the output voltage or increase the output frequency |
-| Error03 | OverHot | Overheat | Place the controller in a well-ventilated and heat-dissipating area |
-| Error04 | UndrCool | Undercooling | Place the controller in a place where the ambient temperature is higher than -20℃ |
-| Error05 | CommErr | Communication error | Contact company technical support |
-| Error06 | TSnerErr | Temperature sensor error | Contact company technical support |
-| Error07 | OverVolt | Overvoltage | The input mains voltage cannot exceed 250V effective value |
-| Error08 | UndrVolt | Undervoltage | The input mains voltage cannot be lower than 85V effective value |
-| Error09 | LoadErr | Load disconnection | Check whether the output line is correctly connected to the vibration plate |
-| Error10 | Send_Seed | Failed to send seed | Contact company technical support |
-| Error11 | Send_Exit | The command to leave boot failed to execute | Contact company technical support |
-| Error14 | SynchEr0 | CUHBus-DS® bus has 2 or more hosts | 1. If an alarm occurs, set the device offline and then set it online again.<br>2. After the newly added device is powered off, connect the CUHBus-DS® cable to the network device. |
-| Error15 | SynchEr1 | Bus error | Confirm whether the CUHBus-DS® communication line is correctly connected, and correctly organize the network |
-| Error16 | SynchEr2 | Sync device is not online | Synchronization communication network, frequency synchronization device or remote control synchronization device is not online |
+| Error01 | 短路 | 短路 | 确认主输出线是否短路并重新接线 |
+| Error02 | 过流 | 过流 | 减小输出电压或者提高输出频率 |
+| Error03 | 过热 | 过热 | 把控制器置于通风良好散热的地方 |
+| Error04 | 过冷 | 过冷 | 把控制器置于环境温度高于-20℃的地方 |
+| Error05 | 通信错误 | 通信错误 | 联系公司技术支持 |
+| Error06 | 温度错误 | 温度传感器错误 | 联系公司技术支持 |
+| Error07 | 过压 | 过压 | 输入市电电压不能超过250V有效值 |
+| Error08 | 欠压 | 欠压 | 输入市电电压不能低于85V有效值 |
+| Error09 | 负载断开 | 负载断开 | 检查输出线是否正确连接到振动盘上 |
+| Error10 | 种子错误 | 发送种子不成功 | 联系公司技术支持 |
+| Error11 | 离开错误 | 指令离开boot执行不成功 | 联系公司技术支持 |
+| Error14 | 主错误 | CUHBus-DS®总线有2台及以上主机 | 1、出现报警，设备设置离线再设置上线<br>2、新加入设备断电后，再连接CUHBus-DS®线到网络设备中 |
+| Error15 | 总线错误 | 总线错误 | 确认控制器CUHBus-DS®通信线是否正确连接，并正确组网 |
+| Error16 | 同步离线 | 同步设备不在线 | 同步通信网络的、频率同步设备或遥控同步设备不在线 |
 
-2026-02　　　　　　　　　　　　　　　　　-78-　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　　　　　-78-　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 89 页
 
-## 7.7 Warning Code
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-Warning Code Table
+## 7.7 警告代码
 
-| Warning Code | Display | Meaning | Method of Exclusion |
+**警告代码表**
+
+| 警告代码 | 警告显示 | 含义 | 排除方法 |
 |---|---|---|---|
-| Warn01 | Saturate | Output saturation | Reduce output voltage |
-| Warn02 | decline | count slowdown | Counting deceleration state |
-| Warn03 | CND | End of count | Count end status |
-| Warn04 | FrqncyLo | Output frequency is too low | Increase frequency offset parameter value |
-| Warn05 | FrqncyHi | Output frequency is too high | Increase frequency offset parameter value |
-| Warn06 | LoMAlarm | Lack of material | Reduce the material shortage alarm parameter value, or add materials to the material tray |
-| Warn07 | PortDErr | Port D output overcurrent | Reduce output port control load |
-| Warn08 | RemotLow | Remote control input voltage/current is too low | Increase the remote control input voltage or current |
-| Warn09 | MRSErr | Main output RS logic error | When the output logic is an RS flip-flop, the main source 1 and main source 2 signals cannot be valid at the same time |
-| Warn10 | 24VErr | 24V error | Do not connect the 24V external power supply to the controller output port |
-| Warn11 | 5VErr | 5V error | Do not connect 5V external power supply to the controller output port |
-| Warn12 | CtrlRSErr | Control output RS logic error | When the logic of D port is RS flip-flop,D port Source 1 and D port Source 2 signals cannot be valid at the same time |
-| Warn13 | OverLoad | Acceleration sensor overload | Replace the acceleration sensor with an appropriate range |
-| Warn14 | AcceleEr | Acceleration sensor failure | The sensor is damaged, replace it with a new one |
-| Warn15 | EEPErr | Error saving parameters | Confirm that the CUHBus-DS® communication line is connected properly and the networking has been completed correctly. |
+| Warn01 | 输出饱和 | 输出饱和 | 降低输出电压 |
+| Warn02 | 计数减速 | 计数减速 | 计数减速状态 |
+| Warn03 | 计数结束 | 计数结束 | 计数结束状态 |
+| Warn04 | 频率过低 | 输出频率过低 | 增加频率偏移参数值 |
+| Warn05 | 频率过高 | 输出频率过高 | 增加频率偏移参数值 |
+| Warn06 | 缺料报警 | 缺料 | 降低缺料报警参数值，或向料盘添加物料 |
+| Warn07 | D口过流 | 端口D输出过流 | 减小输出端口控制负载 |
+| Warn08 | 遥控欠压 | 遥控输入电压/电流过低 | 增大遥控输入端电压或电流 |
+| Warn09 | 主RS错误 | 主输出RS逻辑错误 | 当输出逻辑为RS触发器时, 主源1和主源2信号不可同时有效 |
+| Warn10 | 24V错误 | 24V错误 | 不可将24V外部电源接入控制器输出端口 |
+| Warn11 | 5V错误 | 5V错误 | 不可将5V外部电源接入控制器输出端口 |
+| Warn12 | 控RS错误 | 控制输出RS逻辑错误 | 当D口逻辑为RS触发器时, D口源1和D口源2信号不可同时有效 |
+| Warn13 | 传感过载 | 加速度传感器过载 | 更换合适量程的加速度传感器 |
+| Warn14 | 传感故障 | 加速度传感器故障 | 传感器已损坏，更换新传感器 |
+| Warn15 | 保存错误 | 保存参数错误 | 确认CUHBus-DS®通信线连接正常，是否已正确完成组网 |
+
+2026-02　　　　　　　　　　　　　　　　　-79-　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 90 页
 
-Automatic Frequency Controller for Vibratory Feeder  
-SDVC341-M
+自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M
 
-# Chapter VIII Product Warranty Information
+# 第八章 产品质保信息
 
-## 8.1 Warranty Period
+## 8.1 质保期
 
-The warranty period provided by the company for this product is 3 years from the date of delivery of the product to the location designated by the purchaser.
+本公司为本产品提供的质保期为三年，从产品发送到购买方指定地点之日算起。
 
-## 8.2 Warranty Coverage
+## 8.2 保修范围
 
-(1) If there is a failure caused by our company during the above warranty period, we will repair the product free of charge. However, The following situations are not covered by the warranty:
+（一）如果在上述质保期内出现本公司造成的故障，我们将免费维修产品。但是以下情况不属于保修范围：
 
-&nbsp;&nbsp;&nbsp;&nbsp;a. Failure to comply with the conditions specified in the simple manual, user manual or technical requirements specifically agreed between purchaser and the company, improper operation, or failure caused by improper use.
+　　a、未按照简易说明书、用户手册或购买方与本公司专门达成的技术要求中规定的条件、环境下的不正确操作，或不正确使用造成的故障。
 
-&nbsp;&nbsp;&nbsp;&nbsp;b. Failure is not due to a product defect, but to the purchaser's equipment or software design.
+　　b、故障不是因产品缺陷，而是购买方设备或软件设计造成的。
 
-&nbsp;&nbsp;&nbsp;&nbsp;c. Malfunctions caused by modifications or repairs not performed by the company's personnel.
+　　c、非本公司人员进行的修改或修理而造成的故障。
 
-&nbsp;&nbsp;&nbsp;&nbsp;d. The failure that can be totally avoided by correct maintenance or replacement of wearing parts according to the simple operation guide or user manual.
+　　d、按照简易操作指南或用户手册正确维修或更换易损部件等规定可以完全避免的故障。
 
-&nbsp;&nbsp;&nbsp;&nbsp;e. After the product is shipped from our company, it is caused by factors such as unforeseen changes in the level of science and technology failure.
+　　e、产品从本公司发货后，因无法预料的科学技术水平变化等因素而造成的故障。
 
-&nbsp;&nbsp;&nbsp;&nbsp;f. Due to natural disasters such as fire, earthquake, flood, or external factors such as abnormal voltage failure, the company is not responsible for the warranty.
+　　f、由于火灾、地震、洪水等自然灾害，或异常电压等外部因素造成的故障，本公司不负责保修。
 
-(2) The scope of warranty is limited to the situation stipulated in (1), Indirect losses (such as equipment damage, opportunities, loss of profit, etc.) or other losses, the company do not bear any responsibility.
+（二）保修范围仅限于（一）中规定的情况，本公司对该设备造成的购买方间接损失（如设备损坏、机会丧失、利润损失等）或其他损失，不承担任何责任。
 
-## 8.3 Product Suitability
+## 8.3 产品适用性
 
-The controller of our company is designed and produced for general use in the vibratory feeding industry. Therefore, this controller of our company shall not be used for the following applications and is not suitable for its use.
+本公司的该控制器是针对振动送料行业的通用产品而设计生产的。因此，本公司的该控制器不得用于下列应用且不适合其使用。
 
-(1) Facilities that have a serious impact on life and property, such as nuclear power plants, airports, railways, ships, motorized devices and medical equipment.
+（一）对生命和财产有严重影响的设施，如核发电厂、机场、铁路、轮船、机动装置及医疗设备。
 
-(2) Public utilities, including electricity, gas, water supply, etc.
+（二）公共事业，包括电力、气体、供水等。
 
-(3) Outdoor use in similar conditions or environments.
+（三）相似条件或环境的户外使用。
 
----
-
-2026-02 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -80- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SDVC341SMSEN_4.01
+2026-02　　　　　　　　　　　　-80-　　　　　　　　　　　　SDVC341SMSCN_4.01
 
 
 ### 第 91 页
@@ -3387,11 +3404,17 @@ The controller of our company is designed and produced for general use in the vi
 
 ### 第 92 页
 
-|  |  |
-|---|---|
-| ![CUH QR code](assets/images/cuh.sdvc34.manual.v0.0/page-0092-vcrop-00.png) | Nanjing CUH Science & Technology Co.,Ltd<br>https://en.cuhnj.com<br>Tel.:+86-25-84730411 / 84730415 / 84730416<br>Fax:+86-25-84730426<br>E-mail:sales@cuhnj.com<br>Add.:Building 2, Xueyan Tech Park, Tuscity,<br>No.9 Zhineng Rd, Jiangning, Nanjing, China |
+![CUH 二维码](assets/images/cuh.sdvc34.manual.v0.0/page-0092-vcrop-00.png)
 
-<div align="right">Document No.: IDP1000504</div>
+南京创优科技有限责任公司  
+网址:www.cuhnj.com  
+电话:400-985-8889  
+传真:025-84730426  
+邮箱:sales@cuhnj.com  
+地址:南京市江宁区智能路9号  
+启迪城学研园2幢
+
+文档编号:IDP1000340
 <!-- /auto:ai-body-draft v1 -->
 
 <!-- auto:data-params-summary v1 -->
@@ -3401,38 +3424,38 @@ The controller of our company is designed and produced for general use in the vi
 
 | 参数 | 标志/符号 | 范围 | 默认 | 单位 | 备注 |
 | --- | --- | --- | --- | --- | --- |
-| <br> <br>**Warn** |  |  |  |  |  |
-| U<br> <br>**Careful** |  |  |  |  |  |
-| <br> <br>**Notice** |  |  |  |  |  |
-| <br> <br>**Essential**<br>！ |  |  |  |  |  |
-| None |  |  |  |  |  |
-| <br>Parameter |  |  |  |  |  |
-| <br>None |  |  |  |  |  |
-| <br>Sound 1 |  |  |  |  |  |
-| <br>Sound 2 |  |  |  |  |  |
-| <br>Sound 3 |  |  |  |  |  |
-| <br>Englis |  |  |  |  |  |
-| <br>Chines |  |  |  |  |  |
-| <br>German |  |  |  |  |  |
-| <br> <br>20-1 |  |  |  |  |  |
-| <br> <br>20-2 |  |  |  |  |  |
-| <br> <br>20-3 |  |  |  |  |  |
-| <br> <br>20-4 |  |  |  |  |  |
-| <br> <br>203 |  |  |  |  |  |
-| <br> <br>204 |  |  |  |  |  |
-| <br> <br>205 |  |  |  |  |  |
-| <br>Parameter |  |  |  |  |  |
-| <br>Delay |  |  |  |  |  |
-| <br>Hold |  |  |  |  |  |
-| <br>Parameter |  |  |  |  |  |
-| <br>On |  |  |  |  |  |
-| <br>Off |  |  |  |  |  |
-| <br>Keep |  |  |  |  |  |
-| <br> <br> <br>Remote<br>Control<br>Signal |  |  |  |  |  |
-| <br> <br> <br>Panel |  |  |  |  |  |
-| U<br> <br> <br>20mA |  |  |  |  |  |
+| <br> <br>**警告** |  |  |  |  |  |
+| <br> <br>**小心** |  |  |  |  |  |
+| <br>**注意** |  |  |  |  |  |
+| <br>**要点**<br>！ |  |  |  |  |  |
+| <br>无效 |  |  |  |  |  |
+| <br>有效 |  |  |  |  |  |
+| <br>无效 |  |  |  |  |  |
+| <br>音效1 |  |  |  |  |  |
+| <br>音效2 |  |  |  |  |  |
+| <br>音效3 |  |  |  |  |  |
+| <br>无效 |  |  |  |  |  |
+| <br>振相位 |  |  |  |  |  |
+| <br>电相位 |  |  |  |  |  |
+| <br> <br>16g |  |  |  |  |  |
+| <br> <br>35g |  |  |  |  |  |
+| <br> <br>50g |  |  |  |  |  |
+| <br> <br>70g |  |  |  |  |  |
+| <br> <br>8g |  |  |  |  |  |
+| <br> <br>16g |  |  |  |  |  |
+| <br> <br>32g |  |  |  |  |  |
+| <br> <br>64g |  |  |  |  |  |
+| <br> <br>参数名 |  |  | <br> <br> <br>含义 |  |  |
+| <br> <br>与 |  |  | <br> <br> <br>逻辑与，主源1和主源2都有效时输出有效 |  |  |
+| <br> <br>或 |  |  | <br> <br> <br>逻辑或，主源1或者主源2至少一个有效时输出有效 |  |  |
+| <br> <br>异或 |  |  | <br> <br> <br><br>逻辑异或，主源1和主源2状态不同时有效，反之无效 |  |  |
+| <br> <br>RS |  |  | <br> <br> <br><br>RS触发器 |  |  |
+| <br> <br>常通 |  |  |  |  |  |
+| <br> <br>常断 |  |  |  |  |  |
+| <br> <br>开 |  |  |  |  |  |
+| <br> <br>关 |  |  |  |  |  |
 
-*（仅展示前 30 条，共 332 条；完整数据见下方链接。）*
+*（仅展示前 30 条，共 338 条；完整数据见下方链接。）*
 
 - 完整 YAML：`data/cuh.sdvc34.manual.v0.0/params/params.yaml`
 - 表格索引：`data/cuh.sdvc34.manual.v0.0/index.yaml`

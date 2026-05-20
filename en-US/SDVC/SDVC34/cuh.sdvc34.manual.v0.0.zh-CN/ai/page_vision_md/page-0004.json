@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 4,
+  "model": "gpt-5.5",
+  "created_at": "2026-05-13T17:42:29",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=4。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufac",
+  "assistant_text": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n# Safety and Precautions\\n\\n1. **Danger** This product is only used to drive electromagnet-based vibratory feeding equipment, do not use this product for the purpose of protecting the human body or parts of the human body, etc.\\n\\n2. **Danger** This product is not intended to be used as an explosion-proof product, do not use it in hazardous locations and/or potentially explosive gas environment.\\n\\n3. **Warn** This product is powered by AC mains, please do not apply AC voltage exceeding 250Vac. Excessive input voltage, such as 380Vac, may cause the product to explode or catch fire, resulting in serious safety accidents.\\n\\n4. **Warn** This product is grounded through the power cord. Please ensure that the power distribution facilities for the controller are well grounded, otherwise the controller shell may be charged, resulting in an electric shock accident.\\n\\n5. **Warn** Do not input AC power to the output of this controller, it will damage the controller.\\n\\n6. **Warn** Do not plug and unplug the wiring with points or touch the contact of each wiring terminal in the wiring compartment to prevent electric shock.\\n\\n7. **Notice** Please avoid controlling the output of this product by cutting off the power supply through relays and other devices, which will seriously reduce the life of the controller.\\n\\n8. **Notice** The controller is designed to work in a cool and dry environment. Never run the controller outside to avoid soaking and insolation. Operate the controller within the temperature specified electrical characteristic.\\n\\n9. **Essential** Be sure to fix this product on a solid platform that is reliably grounded and away from vibrating equipment.\\n\\n10. **Essential** Never operate the controller under the condition that beyond its designed limits.\\n\\n11. **Essential** Operate the controller in accordance with this instruction book strictly. we will not assume any civil or criminal liability if the equipment damage or personal injury is caused by incorrect operation.\\n\\n12. **Essential** Never open the controller shell to avoid electric shock. Contact CUH if the controller break down. Never try to repair the controller yourself which may caused void warranty.\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"页面清晰，无需额外截图；背景水印未转写。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　SDVC341-M\n\n---\n\n# Safety and Precautions\n\n1. **Danger** This product is only used to drive electromagnet-based vibratory feeding equipment, do not use this product for the purpose of protecting the human body or parts of the human body, etc.\n\n2. **Danger** This product is not intended to be used as an explosion-proof product, do not use it in hazardous locations and/or potentially explosive gas environment.\n\n3. **Warn** This product is powered by AC mains, please do not apply AC voltage exceeding 250Vac. Excessive input voltage, such as 380Vac, may cause the product to explode or catch fire, resulting in serious safety accidents.\n\n4. **Warn** This product is grounded through the power cord. Please ensure that the power distribution facilities for the controller are well grounded, otherwise the controller shell may be charged, resulting in an electric shock accident.\n\n5. **Warn** Do not input AC power to the output of this controller, it will damage the controller.\n\n6. **Warn** Do not plug and unplug the wiring with points or touch the contact of each wiring terminal in the wiring compartment to prevent electric shock.\n\n7. **Notice** Please avoid controlling the output of this product by cutting off the power supply through relays and other devices, which will seriously reduce the life of the controller.\n\n8. **Notice** The controller is designed to work in a cool and dry environment. Never run the controller outside to avoid soaking and insolation. Operate the controller within the temperature specified electrical characteristic.\n\n9. **Essential** Be sure to fix this product on a solid platform that is reliably grounded and away from vibrating equipment.\n\n10. **Essential** Never operate the controller under the condition that beyond its designed limits.\n\n11. **Essential** Operate the controller in accordance with this instruction book strictly. we will not assume any civil or criminal liability if the equipment damage or personal injury is caused by incorrect operation.\n\n12. **Essential** Never open the controller shell to avoid electric shock. Contact CUH if the controller break down. Never try to repair the controller yourself which may caused void warranty.\n\n---\n\n2026-02　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01",
+  "crop_suggestions": [],
+  "notes": "页面清晰，无需额外截图；背景水印未转写。",
+  "raw": {
+    "id": "chatcmpl-Df0OY7jU2Frc3tSi0eU7QNn7mKk1J",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1778665338,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　SDVC341-M\\n\\n---\\n\\n# Safety and Precautions\\n\\n1. **Danger** This product is only used to drive electromagnet-based vibratory feeding equipment, do not use this product for the purpose of protecting the human body or parts of the human body, etc.\\n\\n2. **Danger** This product is not intended to be used as an explosion-proof product, do not use it in hazardous locations and/or potentially explosive gas environment.\\n\\n3. **Warn** This product is powered by AC mains, please do not apply AC voltage exceeding 250Vac. Excessive input voltage, such as 380Vac, may cause the product to explode or catch fire, resulting in serious safety accidents.\\n\\n4. **Warn** This product is grounded through the power cord. Please ensure that the power distribution facilities for the controller are well grounded, otherwise the controller shell may be charged, resulting in an electric shock accident.\\n\\n5. **Warn** Do not input AC power to the output of this controller, it will damage the controller.\\n\\n6. **Warn** Do not plug and unplug the wiring with points or touch the contact of each wiring terminal in the wiring compartment to prevent electric shock.\\n\\n7. **Notice** Please avoid controlling the output of this product by cutting off the power supply through relays and other devices, which will seriously reduce the life of the controller.\\n\\n8. **Notice** The controller is designed to work in a cool and dry environment. Never run the controller outside to avoid soaking and insolation. Operate the controller within the temperature specified electrical characteristic.\\n\\n9. **Essential** Be sure to fix this product on a solid platform that is reliably grounded and away from vibrating equipment.\\n\\n10. **Essential** Never operate the controller under the condition that beyond its designed limits.\\n\\n11. **Essential** Operate the controller in accordance with this instruction book strictly. we will not assume any civil or criminal liability if the equipment damage or personal injury is caused by incorrect operation.\\n\\n12. **Essential** Never open the controller shell to avoid electric shock. Contact CUH if the controller break down. Never try to repair the controller yourself which may caused void warranty.\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"页面清晰，无需额外截图；背景水印未转写。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4216,
+      "completion_tokens": 830,
+      "total_tokens": 5046,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 289,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

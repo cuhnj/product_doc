@@ -1,0 +1,111 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 13,
+  "model": "gpt-5.5",
+  "created_at": "2026-05-13T17:38:36",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=13。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [\n        0.072,\n        0.052,\n        0.933,\n        0.076\n      ],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.073,\n        0.13,\n        0.26,\n        0.154\n      ],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.073,\n        0.181,\n        0.92,\n        0.223\n      ],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.073,\n        0.24,\n        0.946,\n        0.548\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.968,\n        0.933,\n        0.991\n      ],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [\n    0,\n    1,\n    2,\n    3,\n    4\n  ],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面以文字说明为主，包含页眉、章节标题“1.4 Remarks”、一段说明文字、若干菱形项目符号条目以及页脚；背景有浅色重复水印，不属于主要阅读内容。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.072,
+          0.052,
+          0.933,
+          0.076
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.13,
+          0.26,
+          0.154
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.181,
+          0.92,
+          0.223
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.24,
+          0.946,
+          0.548
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.968,
+          0.933,
+          0.991
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "本页为带文本层的说明书页面，不是纯扫描件。页面以文字说明为主，包含页眉、章节标题“1.4 Remarks”、一段说明文字、若干菱形项目符号条目以及页脚；背景有浅色重复水印，不属于主要阅读内容。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-Df0Kj7LL0STfp8osVMeGZqob54F4Y",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1778665101,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [\n        0.072,\n        0.052,\n        0.933,\n        0.076\n      ],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.073,\n        0.13,\n        0.26,\n        0.154\n      ],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.073,\n        0.181,\n        0.92,\n        0.223\n      ],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.073,\n        0.24,\n        0.946,\n        0.548\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.968,\n        0.933,\n        0.991\n      ],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [\n    0,\n    1,\n    2,\n    3,\n    4\n  ],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面以文字说明为主，包含页眉、章节标题“1.4 Remarks”、一段说明文字、若干菱形项目符号条目以及页脚；背景有浅色重复水印，不属于主要阅读内容。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3649,
+      "completion_tokens": 907,
+      "total_tokens": 4556,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

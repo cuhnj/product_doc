@@ -4,44 +4,44 @@
   "lang": "zh-CN",
   "page_index": 11,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:42:45",
-  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=11。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufa",
-  "assistant_text": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder  SDVC341-M\\n\\n# Chapter Ⅰ Instructions Before Use\\n\\nThis chapter introduces the product packaging contents, controller appearance description, and controller nameplate information.\\n\\n## 1.1 Check Package Contents\\n\\nBefore using, please check the integrity of the controller and accessories. If you find that the product is defective or damaged, missing accessories, etc., please contact our company.\\n\\n[[vcrop:11:0]]\\n\\nPackage contents shown:\\n\\n- Controller×1\\n- User Manual×1\\n- Output Cable×1\\n- Input Power Cord×1\\n- Vibration Sensor×1\\n\\n---\\n\\n2026-02  - 1 -  SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.065,\n        0.304,\n        0.934,\n        0.925\n      ],\n      \"alt\": \"Package contents illustration showing controller, user manual, output cable, input power cord, and vibration sensor\",\n      \"reason\": \"The boxed package contents area contains product drawings/photos and cable images that are better preserved as a bitmap while captions are also transcribed.\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "created_at": "2026-05-20T14:07:04",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=11。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2",
+  "assistant_text": "{\"page_markdown\":\"自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n# 第一章 使用前须知\\n\\n本章节介绍产品包装内容、控制器外观说明和控制器铭牌信息。\\n\\n## 1.1 检查包装内容\\n\\n使用本产品之前，请检查控制器及附件的完整性。如果发现产品有缺陷或已损坏、附件缺失等问题，请与本公司联系。\\n\\n[[vcrop:11:0]]\\n\\n包装内容：\\n\\n- 控制器×1\\n- 简易说明书×1\\n- 输出线×1\\n- 输入电源线×1\\n- 加速度传感器×1\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　- 1 -　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.071,0.307,0.932,0.939],\"alt\":\"包装内容示意图：控制器、简易说明书、输出线、输入电源线、加速度传感器\",\"reason\":\"该区域包含多件产品及附件的外观示意图，需保留位图以呈现外形细节。\"}],\"notes\":\"页面清晰；背景有浅色 CUH 水印，未转写。\"}",
   "vision_parse_ok": true,
-  "page_markdown": "Automatic Frequency Controller for Vibratory Feeder  SDVC341-M\n\n# Chapter Ⅰ Instructions Before Use\n\nThis chapter introduces the product packaging contents, controller appearance description, and controller nameplate information.\n\n## 1.1 Check Package Contents\n\nBefore using, please check the integrity of the controller and accessories. If you find that the product is defective or damaged, missing accessories, etc., please contact our company.\n\n[[vcrop:11:0]]\n\nPackage contents shown:\n\n- Controller×1\n- User Manual×1\n- Output Cable×1\n- Input Power Cord×1\n- Vibration Sensor×1\n\n---\n\n2026-02  - 1 -  SDVC341SMSEN_4.01",
+  "page_markdown": "自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M\n\n# 第一章 使用前须知\n\n本章节介绍产品包装内容、控制器外观说明和控制器铭牌信息。\n\n## 1.1 检查包装内容\n\n使用本产品之前，请检查控制器及附件的完整性。如果发现产品有缺陷或已损坏、附件缺失等问题，请与本公司联系。\n\n[[vcrop:11:0]]\n\n包装内容：\n\n- 控制器×1\n- 简易说明书×1\n- 输出线×1\n- 输入电源线×1\n- 加速度传感器×1\n\n---\n\n2026-02　　　　　　　　　　　　　　　　　- 1 -　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01",
   "crop_suggestions": [
     {
       "bbox_0_1": [
-        0.065,
-        0.304,
-        0.934,
-        0.925
+        0.071,
+        0.307,
+        0.932,
+        0.939
       ],
-      "alt": "Package contents illustration showing controller, user manual, output cable, input power cord, and vibration sensor",
-      "reason": "The boxed package contents area contains product drawings/photos and cable images that are better preserved as a bitmap while captions are also transcribed."
+      "alt": "包装内容示意图：控制器、简易说明书、输出线、输入电源线、加速度传感器",
+      "reason": "该区域包含多件产品及附件的外观示意图，需保留位图以呈现外形细节。"
     }
   ],
-  "notes": "",
+  "notes": "页面清晰；背景有浅色 CUH 水印，未转写。",
   "raw": {
-    "id": "chatcmpl-Df0OlEQqDHW7wYd9nvuCw5lk4Zgb6",
+    "id": "chatcmpl-DhUMnpIJxsZE3baEz63jnAE4fojoz",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665351,
+    "created": 1779257205,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder  SDVC341-M\\n\\n# Chapter Ⅰ Instructions Before Use\\n\\nThis chapter introduces the product packaging contents, controller appearance description, and controller nameplate information.\\n\\n## 1.1 Check Package Contents\\n\\nBefore using, please check the integrity of the controller and accessories. If you find that the product is defective or damaged, missing accessories, etc., please contact our company.\\n\\n[[vcrop:11:0]]\\n\\nPackage contents shown:\\n\\n- Controller×1\\n- User Manual×1\\n- Output Cable×1\\n- Input Power Cord×1\\n- Vibration Sensor×1\\n\\n---\\n\\n2026-02  - 1 -  SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.065,\n        0.304,\n        0.934,\n        0.925\n      ],\n      \"alt\": \"Package contents illustration showing controller, user manual, output cable, input power cord, and vibration sensor\",\n      \"reason\": \"The boxed package contents area contains product drawings/photos and cable images that are better preserved as a bitmap while captions are also transcribed.\"\n    }\n  ],\n  \"notes\": \"\"\n}"
+          "content": "{\"page_markdown\":\"自动调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n# 第一章 使用前须知\\n\\n本章节介绍产品包装内容、控制器外观说明和控制器铭牌信息。\\n\\n## 1.1 检查包装内容\\n\\n使用本产品之前，请检查控制器及附件的完整性。如果发现产品有缺陷或已损坏、附件缺失等问题，请与本公司联系。\\n\\n[[vcrop:11:0]]\\n\\n包装内容：\\n\\n- 控制器×1\\n- 简易说明书×1\\n- 输出线×1\\n- 输入电源线×1\\n- 加速度传感器×1\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　- 1 -　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.071,0.307,0.932,0.939],\"alt\":\"包装内容示意图：控制器、简易说明书、输出线、输入电源线、加速度传感器\",\"reason\":\"该区域包含多件产品及附件的外观示意图，需保留位图以呈现外形细节。\"}],\"notes\":\"页面清晰；背景有浅色 CUH 水印，未转写。\"}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 3944,
-      "completion_tokens": 806,
-      "total_tokens": 4750,
+      "prompt_tokens": 4291,
+      "completion_tokens": 814,
+      "total_tokens": 5105,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0

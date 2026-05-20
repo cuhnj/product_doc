@@ -4,19 +4,41 @@
   "lang": "zh-CN",
   "page_index": 34,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:39:34",
-  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=34。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第",
-  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.052,\n        0.936,\n        0.075\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.072,\n        0.129,\n        0.66,\n        0.149\n      ],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.156,\n        0.93,\n        0.224\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.231,\n        0.932,\n        0.297\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.305,\n        0.932,\n        0.352\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.36,\n        0.94,\n        0.374\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.072,\n        0.394,\n        0.36,\n        0.415\n      ],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.423,\n        0.9,\n        0.453\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [\n        0.099,\n        0.465,\n        0.908,\n        0.57\n      ],\n      \"confidence\": 0.97,\n      \"caption\": \"Parameter / Meaning table comparing Delay and Hold main output modes\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.582,\n        0.936,\n        0.612\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [\n        0.104,\n        0.629,\n        0.827,\n        0.942\n      ],\n      \"confidence\": 0.96,\n      \"caption\": \"Timing diagram for input signal, hold mode output, and delay mode output\",\n      \"image_alt\": \"A timing diagram shows the signal output after the logic relationship selector, with two output traces labeled Hold mode output and Delay mode output. Dashed vertical guide lines and arrows mark T1 rising-edge delay and T2 falling-edge delay. Notes below define T1 as output signal rising edge delay and T2 as output signal falling edge delay.\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.954,\n        0.936,\n        0.976\n      ],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5,\n    6,\n    7,\n    8,\n    9,\n    10,\n    11\n  ],\n  \"notes\": \"本页为带文本层的数字版 PDF 渲染页，不是纯扫描件。页面以说明文字为主，包含一个两列表格和一个下半页的时序示意图；背景有淡色 CUH 水印。\"\n}",
+  "created_at": "2026-05-20T14:02:14",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=34。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2.2 控制器外观说明（第 15 页）\n  - 2.3 振动",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.052, 0.93, 0.078],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.144, 0.39, 0.164],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.169, 0.925, 0.373],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.405, 0.28, 0.423],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.433, 0.90, 0.47],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.098, 0.478, 0.906, 0.611],\n      \"confidence\": 0.96,\n      \"caption\": \"无显式表题；表头为“参数名 / 含义”，内容比较“延时模式”和“保持模式”。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.626, 0.90, 0.666],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.156, 0.667, 0.846, 0.956],\n      \"confidence\": 0.95,\n      \"image_alt\": \"主输出模式时序示意图：上方为逻辑关系选择器后输出的信号，下方分别为保持模式输出和延时模式输出，并用虚线、箭头和标注说明T1输出信号开延时、T2输出信号关延时。\",\n      \"caption\": \"无显式图题；图中比较保持模式输出与延时模式输出。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.974, 0.931, 0.995],\n      \"confidence\": 0.9\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为可识别文本与矢量/线框图混排页面，不像纯扫描件。页面以文字说明为主，包含一个参数含义表和一个时序示意图；背景有浅色CUH水印。\"\n}",
   "layout_parse_ok": true,
   "layout_json": {
     "regions": [
       {
         "type": "footer",
         "bbox_0_1": [
-          0.072,
+          0.07,
           0.052,
-          0.936,
-          0.075
+          0.93,
+          0.078
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.144,
+          0.39,
+          0.164
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.169,
+          0.925,
+          0.373
         ],
         "confidence": 0.95,
         "bbox_parse_ok": true
@@ -25,20 +47,9 @@
         "type": "heading",
         "bbox_0_1": [
           0.072,
-          0.129,
-          0.66,
-          0.149
-        ],
-        "confidence": 0.98,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.072,
-          0.156,
-          0.93,
-          0.224
+          0.405,
+          0.28,
+          0.423
         ],
         "confidence": 0.96,
         "bbox_parse_ok": true
@@ -47,102 +58,58 @@
         "type": "paragraph",
         "bbox_0_1": [
           0.072,
-          0.231,
-          0.932,
-          0.297
-        ],
-        "confidence": 0.96,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.072,
-          0.305,
-          0.932,
-          0.352
-        ],
-        "confidence": 0.96,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.072,
-          0.36,
-          0.94,
-          0.374
-        ],
-        "confidence": 0.96,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "heading",
-        "bbox_0_1": [
-          0.072,
-          0.394,
-          0.36,
-          0.415
-        ],
-        "confidence": 0.98,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.072,
-          0.423,
+          0.433,
           0.9,
-          0.453
+          0.47
         ],
-        "confidence": 0.96,
+        "confidence": 0.93,
         "bbox_parse_ok": true
       },
       {
         "type": "table",
         "bbox_0_1": [
-          0.099,
-          0.465,
-          0.908,
-          0.57
+          0.098,
+          0.478,
+          0.906,
+          0.611
         ],
-        "confidence": 0.97,
-        "caption": "Parameter / Meaning table comparing Delay and Hold main output modes",
+        "confidence": 0.96,
+        "caption": "无显式表题；表头为“参数名 / 含义”，内容比较“延时模式”和“保持模式”。",
         "bbox_parse_ok": true
       },
       {
         "type": "paragraph",
         "bbox_0_1": [
           0.072,
-          0.582,
-          0.936,
-          0.612
+          0.626,
+          0.9,
+          0.666
         ],
-        "confidence": 0.96,
+        "confidence": 0.92,
         "bbox_parse_ok": true
       },
       {
         "type": "figure",
         "bbox_0_1": [
-          0.104,
-          0.629,
-          0.827,
-          0.942
+          0.156,
+          0.667,
+          0.846,
+          0.956
         ],
-        "confidence": 0.96,
-        "caption": "Timing diagram for input signal, hold mode output, and delay mode output",
-        "image_alt": "A timing diagram shows the signal output after the logic relationship selector, with two output traces labeled Hold mode output and Delay mode output. Dashed vertical guide lines and arrows mark T1 ri",
+        "confidence": 0.95,
+        "image_alt": "主输出模式时序示意图：上方为逻辑关系选择器后输出的信号，下方分别为保持模式输出和延时模式输出，并用虚线、箭头和标注说明T1输出信号开延时、T2输出信号关延时。",
+        "caption": "无显式图题；图中比较保持模式输出与延时模式输出。",
         "bbox_parse_ok": true
       },
       {
         "type": "footer",
         "bbox_0_1": [
           0.072,
-          0.954,
-          0.936,
-          0.976
+          0.974,
+          0.931,
+          0.995
         ],
-        "confidence": 0.96,
+        "confidence": 0.9,
         "bbox_parse_ok": true
       }
     ],
@@ -155,34 +122,31 @@
       5,
       6,
       7,
-      8,
-      9,
-      10,
-      11
+      8
     ],
-    "notes": "本页为带文本层的数字版 PDF 渲染页，不是纯扫描件。页面以说明文字为主，包含一个两列表格和一个下半页的时序示意图；背景有淡色 CUH 水印。",
+    "notes": "本页为可识别文本与矢量/线框图混排页面，不像纯扫描件。页面以文字说明为主，包含一个参数含义表和一个时序示意图；背景有浅色CUH水印。",
     "bbox_schema": "xyxy_0_1"
   },
   "raw": {
-    "id": "chatcmpl-Df0LS48MEkOv5MxdQsxAKYLvXFz34",
+    "id": "chatcmpl-DhUI0jzys7xk7ezUb9uritsDCimuv",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665146,
+    "created": 1779256908,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.052,\n        0.936,\n        0.075\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.072,\n        0.129,\n        0.66,\n        0.149\n      ],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.156,\n        0.93,\n        0.224\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.231,\n        0.932,\n        0.297\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.305,\n        0.932,\n        0.352\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.36,\n        0.94,\n        0.374\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.072,\n        0.394,\n        0.36,\n        0.415\n      ],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.423,\n        0.9,\n        0.453\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [\n        0.099,\n        0.465,\n        0.908,\n        0.57\n      ],\n      \"confidence\": 0.97,\n      \"caption\": \"Parameter / Meaning table comparing Delay and Hold main output modes\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.582,\n        0.936,\n        0.612\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [\n        0.104,\n        0.629,\n        0.827,\n        0.942\n      ],\n      \"confidence\": 0.96,\n      \"caption\": \"Timing diagram for input signal, hold mode output, and delay mode output\",\n      \"image_alt\": \"A timing diagram shows the signal output after the logic relationship selector, with two output traces labeled Hold mode output and Delay mode output. Dashed vertical guide lines and arrows mark T1 rising-edge delay and T2 falling-edge delay. Notes below define T1 as output signal rising edge delay and T2 as output signal falling edge delay.\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.954,\n        0.936,\n        0.976\n      ],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5,\n    6,\n    7,\n    8,\n    9,\n    10,\n    11\n  ],\n  \"notes\": \"本页为带文本层的数字版 PDF 渲染页，不是纯扫描件。页面以说明文字为主，包含一个两列表格和一个下半页的时序示意图；背景有淡色 CUH 水印。\"\n}"
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.052, 0.93, 0.078],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.144, 0.39, 0.164],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.169, 0.925, 0.373],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.405, 0.28, 0.423],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.433, 0.90, 0.47],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.098, 0.478, 0.906, 0.611],\n      \"confidence\": 0.96,\n      \"caption\": \"无显式表题；表头为“参数名 / 含义”，内容比较“延时模式”和“保持模式”。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.626, 0.90, 0.666],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.156, 0.667, 0.846, 0.956],\n      \"confidence\": 0.95,\n      \"image_alt\": \"主输出模式时序示意图：上方为逻辑关系选择器后输出的信号，下方分别为保持模式输出和延时模式输出，并用虚线、箭头和标注说明T1输出信号开延时、T2输出信号关延时。\",\n      \"caption\": \"无显式图题；图中比较保持模式输出与延时模式输出。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.974, 0.931, 0.995],\n      \"confidence\": 0.9\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为可识别文本与矢量/线框图混排页面，不像纯扫描件。页面以文字说明为主，包含一个参数含义表和一个时序示意图；背景有浅色CUH水印。\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 3929,
-      "completion_tokens": 1776,
-      "total_tokens": 5705,
+      "prompt_tokens": 4124,
+      "completion_tokens": 1182,
+      "total_tokens": 5306,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0
@@ -190,7 +154,7 @@
       "completion_tokens_details": {
         "accepted_prediction_tokens": 0,
         "audio_tokens": 0,
-        "reasoning_tokens": 866,
+        "reasoning_tokens": 512,
         "rejected_prediction_tokens": 0
       }
     }

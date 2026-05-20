@@ -4,19 +4,19 @@
   "lang": "zh-CN",
   "page_index": 67,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:40:36",
-  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=67。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第",
-  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.052, 0.935, 0.074],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.128, 0.925, 0.175],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.085, 0.188, 0.922, 0.427],\n      \"confidence\": 0.96,\n      \"image_alt\": \"示意图展示两个 SDVC341-M 控制器与右侧振动送料设备连接。两台控制器之间通过端子/同步线路连接，并分别有标注为 Output Power Cable of Controller 的输出电缆连至振动送料设备。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.462, 0.924, 0.537],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.546, 0.925, 0.613],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.616, 0.925, 0.738],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.741, 0.925, 0.918],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.962, 0.934, 0.984],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的 PDF 渲染页，不像纯扫描件。页面上半部分为连接示意图，下半部分为章节说明与编号步骤；整体为图文混排，不是表格页。背景有淡色 CUH 水印。\"\n}",
+  "created_at": "2026-05-20T14:03:48",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=67。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2.2 控制器外观说明（第 15 页）\n  - 2.3 振动",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.052, 0.933, 0.075],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.137, 0.888, 0.189],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.095, 0.199, 0.922, 0.466],\n      \"confidence\": 0.96,\n      \"image_alt\": \"两台 SDVC341-M 控制器与一台振动盘/送料机构的接线示意图；图中标注控制器同步线及两条控制器电源输出线，表示通过同步线组网并由控制器输出线连接负载。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.475, 0.925, 0.541],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.549, 0.854, 0.621],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.628, 0.933, 0.721],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.729, 0.933, 0.829],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.838, 0.933, 0.920],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.928, 0.793, 0.951],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.969, 0.932, 0.989],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n  \"notes\": \"本页为带文本层的数字版说明书页面，不像纯扫描件。页面包含一幅较大的接线示意图和下方步骤说明，属于图文结合的典型应用说明页。背景有淡色 CUH 水印。\"\n}",
   "layout_parse_ok": true,
   "layout_json": {
     "regions": [
       {
-        "type": "unknown",
+        "type": "footer",
         "bbox_0_1": [
-          0.072,
+          0.071,
           0.052,
-          0.935,
-          0.074
+          0.933,
+          0.075
         ],
         "confidence": 0.9,
         "bbox_parse_ok": true
@@ -25,43 +25,32 @@
         "type": "heading",
         "bbox_0_1": [
           0.072,
-          0.128,
-          0.925,
-          0.175
+          0.137,
+          0.888,
+          0.189
         ],
-        "confidence": 0.98,
+        "confidence": 0.97,
         "bbox_parse_ok": true
       },
       {
         "type": "figure",
         "bbox_0_1": [
-          0.085,
-          0.188,
+          0.095,
+          0.199,
           0.922,
-          0.427
+          0.466
         ],
         "confidence": 0.96,
-        "image_alt": "示意图展示两个 SDVC341-M 控制器与右侧振动送料设备连接。两台控制器之间通过端子/同步线路连接，并分别有标注为 Output Power Cable of Controller 的输出电缆连至振动送料设备。",
+        "image_alt": "两台 SDVC341-M 控制器与一台振动盘/送料机构的接线示意图；图中标注控制器同步线及两条控制器电源输出线，表示通过同步线组网并由控制器输出线连接负载。",
         "bbox_parse_ok": true
       },
       {
         "type": "paragraph",
         "bbox_0_1": [
-          0.072,
-          0.462,
-          0.924,
-          0.537
-        ],
-        "confidence": 0.96,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.072,
-          0.546,
+          0.071,
+          0.475,
           0.925,
-          0.613
+          0.541
         ],
         "confidence": 0.95,
         "bbox_parse_ok": true
@@ -69,10 +58,32 @@
       {
         "type": "paragraph",
         "bbox_0_1": [
-          0.072,
-          0.616,
-          0.925,
-          0.738
+          0.071,
+          0.549,
+          0.854,
+          0.621
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.628,
+          0.933,
+          0.721
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.729,
+          0.933,
+          0.829
         ],
         "confidence": 0.95,
         "bbox_parse_ok": true
@@ -80,23 +91,34 @@
       {
         "type": "paragraph",
         "bbox_0_1": [
-          0.072,
-          0.741,
-          0.925,
-          0.918
+          0.071,
+          0.838,
+          0.933,
+          0.92
         ],
         "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.928,
+          0.793,
+          0.951
+        ],
+        "confidence": 0.93,
         "bbox_parse_ok": true
       },
       {
         "type": "footer",
         "bbox_0_1": [
-          0.072,
-          0.962,
-          0.934,
-          0.984
+          0.071,
+          0.969,
+          0.932,
+          0.989
         ],
-        "confidence": 0.92,
+        "confidence": 0.94,
         "bbox_parse_ok": true
       }
     ],
@@ -108,31 +130,33 @@
       4,
       5,
       6,
-      7
+      7,
+      8,
+      9
     ],
-    "notes": "本页为带文本层的 PDF 渲染页，不像纯扫描件。页面上半部分为连接示意图，下半部分为章节说明与编号步骤；整体为图文混排，不是表格页。背景有淡色 CUH 水印。",
+    "notes": "本页为带文本层的数字版说明书页面，不像纯扫描件。页面包含一幅较大的接线示意图和下方步骤说明，属于图文结合的典型应用说明页。背景有淡色 CUH 水印。",
     "bbox_schema": "xyxy_0_1"
   },
   "raw": {
-    "id": "chatcmpl-Df0MbbhD8woO51GJSeMupkVadqx9j",
+    "id": "chatcmpl-DhUJdrWlsODGH20mQMcfuHpZ9fRTS",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665217,
+    "created": 1779257009,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.052, 0.935, 0.074],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.128, 0.925, 0.175],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.085, 0.188, 0.922, 0.427],\n      \"confidence\": 0.96,\n      \"image_alt\": \"示意图展示两个 SDVC341-M 控制器与右侧振动送料设备连接。两台控制器之间通过端子/同步线路连接，并分别有标注为 Output Power Cable of Controller 的输出电缆连至振动送料设备。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.462, 0.924, 0.537],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.546, 0.925, 0.613],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.616, 0.925, 0.738],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.741, 0.925, 0.918],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.962, 0.934, 0.984],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的 PDF 渲染页，不像纯扫描件。页面上半部分为连接示意图，下半部分为章节说明与编号步骤；整体为图文混排，不是表格页。背景有淡色 CUH 水印。\"\n}"
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.052, 0.933, 0.075],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.137, 0.888, 0.189],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.095, 0.199, 0.922, 0.466],\n      \"confidence\": 0.96,\n      \"image_alt\": \"两台 SDVC341-M 控制器与一台振动盘/送料机构的接线示意图；图中标注控制器同步线及两条控制器电源输出线，表示通过同步线组网并由控制器输出线连接负载。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.475, 0.925, 0.541],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.549, 0.854, 0.621],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.628, 0.933, 0.721],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.729, 0.933, 0.829],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.838, 0.933, 0.920],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.928, 0.793, 0.951],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.969, 0.932, 0.989],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n  \"notes\": \"本页为带文本层的数字版说明书页面，不像纯扫描件。页面包含一幅较大的接线示意图和下方步骤说明，属于图文结合的典型应用说明页。背景有淡色 CUH 水印。\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 4199,
-      "completion_tokens": 1076,
-      "total_tokens": 5275,
+      "prompt_tokens": 4490,
+      "completion_tokens": 1091,
+      "total_tokens": 5581,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0
@@ -140,7 +164,7 @@
       "completion_tokens_details": {
         "accepted_prediction_tokens": 0,
         "audio_tokens": 0,
-        "reasoning_tokens": 512,
+        "reasoning_tokens": 425,
         "rejected_prediction_tokens": 0
       }
     }

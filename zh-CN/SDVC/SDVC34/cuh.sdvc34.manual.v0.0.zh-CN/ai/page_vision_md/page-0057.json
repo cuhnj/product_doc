@@ -4,54 +4,54 @@
   "lang": "zh-CN",
   "page_index": 57,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:44:17",
-  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=57。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufa",
-  "assistant_text": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n## Slave Mode\\n\\nWhen multiple controllers are networked, any one of them can select the slave mode. In this mode, the output frequency of the slave controller is always strictly consistent with the output frequency of the master controller. The controller working in the slave mode is hereinafter referred to as the slave controller.\\n\\nFrequency synchronization mode is used in situations where there are multiple controllers in a feeding system and their output frequencies and phases need to be synchronized. Through the synchronous mode, the master and slave controllers can output completely synchronous waveforms, thus eliminating mutual interference between the controller outputs.\\n\\nWhen controller M working in master mode, the controller S working in slave mode (synchronous mode), the output waveforms of the two controllers are completely synchronized. As shown below:\\n\\n[[vcrop:57:0]]\\n\\nIf controller S is not set to slave mode (SynV or SynE mode), the output waveforms of the two controllers are not synchronized. As shown below:\\n\\n[[vcrop:57:1]]\\n\\n2026-02　　　　　　　　　　　　　　　　-47-　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.0716,\n        0.4072,\n        0.9323,\n        0.6370\n      ],\n      \"alt\": \"Diagram showing Controller M and Controller S synchronized waveforms in slave synchronization mode.\",\n      \"reason\": \"Waveform synchronization diagram with arrows and labels is better preserved as a cropped image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.0716,\n        0.7023,\n        0.9323,\n        0.9364\n      ],\n      \"alt\": \"Diagram showing Controller M and Controller S waveforms not synchronized when Controller S is not in synchronization mode.\",\n      \"reason\": \"Waveform comparison diagram with arrows and labels is better preserved as a cropped image.\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "created_at": "2026-05-20T14:09:12",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=57。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2",
+  "assistant_text": "{\"page_markdown\":\"自动调频振动送料控制器　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n## 从模式\\n\\n当多台控制器组网后，其中任一台可以选择从模式，在该模式下，从控制器的输出频率始终保持与主控制器的输出频率严格一致。工作于从模式状态下的控制器，以下称从控制器。\\n\\n频率同步模式应用于一个送料系统中有多台控制器，它们输出频率和相位需要同步的场合。通过同步模式主、从控制器可输出完全同步的波形，从而消除控制器输出间的相互干扰。\\n\\n当控制器M工作在主模式，控制器S工作在从模式（同步模式），两台控制器的输出波形完全同步。如下图所示：\\n\\n[[vcrop:57:0]]\\n\\n若控制器S未设置为从模式（同步振或者同步电模式），两台控制器的输出波形不同步。如下图：\\n\\n[[vcrop:57:1]]\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　-47-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.0716,0.409,0.931,0.631],\"alt\":\"控制器S设置为同步模式时，控制器M与控制器S输出波形完全同步的示意图。\",\"reason\":\"包含细线波形、箭头与图内文字，需保留为位图以准确呈现同步波形关系。\"},{\"bbox_0_1\":[0.0716,0.722,0.931,0.947],\"alt\":\"控制器S未设置为同步模式时，控制器M与控制器S输出波形不同步的示意图。\",\"reason\":\"包含细线波形、箭头与图内文字，需保留为位图以准确呈现不同步波形关系。\"}],\"notes\":\"页面清晰；两处波形示意图建议以裁剪图保留。\"}",
   "vision_parse_ok": true,
-  "page_markdown": "Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M\n\n## Slave Mode\n\nWhen multiple controllers are networked, any one of them can select the slave mode. In this mode, the output frequency of the slave controller is always strictly consistent with the output frequency of the master controller. The controller working in the slave mode is hereinafter referred to as the slave controller.\n\nFrequency synchronization mode is used in situations where there are multiple controllers in a feeding system and their output frequencies and phases need to be synchronized. Through the synchronous mode, the master and slave controllers can output completely synchronous waveforms, thus eliminating mutual interference between the controller outputs.\n\nWhen controller M working in master mode, the controller S working in slave mode (synchronous mode), the output waveforms of the two controllers are completely synchronized. As shown below:\n\n[[vcrop:57:0]]\n\nIf controller S is not set to slave mode (SynV or SynE mode), the output waveforms of the two controllers are not synchronized. As shown below:\n\n[[vcrop:57:1]]\n\n2026-02　　　　　　　　　　　　　　　　-47-　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01",
+  "page_markdown": "自动调频振动送料控制器　　　　　　　　　　　　　　　　　SDVC341-M\n\n## 从模式\n\n当多台控制器组网后，其中任一台可以选择从模式，在该模式下，从控制器的输出频率始终保持与主控制器的输出频率严格一致。工作于从模式状态下的控制器，以下称从控制器。\n\n频率同步模式应用于一个送料系统中有多台控制器，它们输出频率和相位需要同步的场合。通过同步模式主、从控制器可输出完全同步的波形，从而消除控制器输出间的相互干扰。\n\n当控制器M工作在主模式，控制器S工作在从模式（同步模式），两台控制器的输出波形完全同步。如下图所示：\n\n[[vcrop:57:0]]\n\n若控制器S未设置为从模式（同步振或者同步电模式），两台控制器的输出波形不同步。如下图：\n\n[[vcrop:57:1]]\n\n---\n\n2026-02　　　　　　　　　　　　　　　　　-47-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01",
   "crop_suggestions": [
     {
       "bbox_0_1": [
         0.0716,
-        0.4072,
-        0.9323,
-        0.637
+        0.409,
+        0.931,
+        0.631
       ],
-      "alt": "Diagram showing Controller M and Controller S synchronized waveforms in slave synchronization mode.",
-      "reason": "Waveform synchronization diagram with arrows and labels is better preserved as a cropped image."
+      "alt": "控制器S设置为同步模式时，控制器M与控制器S输出波形完全同步的示意图。",
+      "reason": "包含细线波形、箭头与图内文字，需保留为位图以准确呈现同步波形关系。"
     },
     {
       "bbox_0_1": [
         0.0716,
-        0.7023,
-        0.9323,
-        0.9364
+        0.722,
+        0.931,
+        0.947
       ],
-      "alt": "Diagram showing Controller M and Controller S waveforms not synchronized when Controller S is not in synchronization mode.",
-      "reason": "Waveform comparison diagram with arrows and labels is better preserved as a cropped image."
+      "alt": "控制器S未设置为同步模式时，控制器M与控制器S输出波形不同步的示意图。",
+      "reason": "包含细线波形、箭头与图内文字，需保留为位图以准确呈现不同步波形关系。"
     }
   ],
-  "notes": "",
+  "notes": "页面清晰；两处波形示意图建议以裁剪图保留。",
   "raw": {
-    "id": "chatcmpl-Df0QDy0pKXr3gSS5ppXBU2VfSJ31w",
+    "id": "chatcmpl-DhUOskmDWdFfPobGJHd91yI2h6fwF",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665441,
+    "created": 1779257334,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"page_markdown\": \"Automatic Frequency Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n## Slave Mode\\n\\nWhen multiple controllers are networked, any one of them can select the slave mode. In this mode, the output frequency of the slave controller is always strictly consistent with the output frequency of the master controller. The controller working in the slave mode is hereinafter referred to as the slave controller.\\n\\nFrequency synchronization mode is used in situations where there are multiple controllers in a feeding system and their output frequencies and phases need to be synchronized. Through the synchronous mode, the master and slave controllers can output completely synchronous waveforms, thus eliminating mutual interference between the controller outputs.\\n\\nWhen controller M working in master mode, the controller S working in slave mode (synchronous mode), the output waveforms of the two controllers are completely synchronized. As shown below:\\n\\n[[vcrop:57:0]]\\n\\nIf controller S is not set to slave mode (SynV or SynE mode), the output waveforms of the two controllers are not synchronized. As shown below:\\n\\n[[vcrop:57:1]]\\n\\n2026-02　　　　　　　　　　　　　　　　-47-　　　　　　　　　　　　　　　　SDVC341SMSEN_4.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.0716,\n        0.4072,\n        0.9323,\n        0.6370\n      ],\n      \"alt\": \"Diagram showing Controller M and Controller S synchronized waveforms in slave synchronization mode.\",\n      \"reason\": \"Waveform synchronization diagram with arrows and labels is better preserved as a cropped image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.0716,\n        0.7023,\n        0.9323,\n        0.9364\n      ],\n      \"alt\": \"Diagram showing Controller M and Controller S waveforms not synchronized when Controller S is not in synchronization mode.\",\n      \"reason\": \"Waveform comparison diagram with arrows and labels is better preserved as a cropped image.\"\n    }\n  ],\n  \"notes\": \"\"\n}"
+          "content": "{\"page_markdown\":\"自动调频振动送料控制器　　　　　　　　　　　　　　　　　SDVC341-M\\n\\n## 从模式\\n\\n当多台控制器组网后，其中任一台可以选择从模式，在该模式下，从控制器的输出频率始终保持与主控制器的输出频率严格一致。工作于从模式状态下的控制器，以下称从控制器。\\n\\n频率同步模式应用于一个送料系统中有多台控制器，它们输出频率和相位需要同步的场合。通过同步模式主、从控制器可输出完全同步的波形，从而消除控制器输出间的相互干扰。\\n\\n当控制器M工作在主模式，控制器S工作在从模式（同步模式），两台控制器的输出波形完全同步。如下图所示：\\n\\n[[vcrop:57:0]]\\n\\n若控制器S未设置为从模式（同步振或者同步电模式），两台控制器的输出波形不同步。如下图：\\n\\n[[vcrop:57:1]]\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　-47-　　　　　　　　　　　　　　　　　SDVC341SMSCN_4.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.0716,0.409,0.931,0.631],\"alt\":\"控制器S设置为同步模式时，控制器M与控制器S输出波形完全同步的示意图。\",\"reason\":\"包含细线波形、箭头与图内文字，需保留为位图以准确呈现同步波形关系。\"},{\"bbox_0_1\":[0.0716,0.722,0.931,0.947],\"alt\":\"控制器S未设置为同步模式时，控制器M与控制器S输出波形不同步的示意图。\",\"reason\":\"包含细线波形、箭头与图内文字，需保留为位图以准确呈现不同步波形关系。\"}],\"notes\":\"页面清晰；两处波形示意图建议以裁剪图保留。\"}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 4008,
-      "completion_tokens": 973,
-      "total_tokens": 4981,
+      "prompt_tokens": 4206,
+      "completion_tokens": 983,
+      "total_tokens": 5189,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0

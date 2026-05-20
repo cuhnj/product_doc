@@ -4,76 +4,118 @@
   "lang": "zh-CN",
   "page_index": 58,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:40:14",
-  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=58。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第",
-  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.052, 0.931, 0.077],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.149, 0.931, 0.240],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.249, 0.924, 0.299],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.104, 0.319, 0.890, 0.475],\n      \"confidence\": 0.95,\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.517, 0.934, 0.881],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.932, 0.975],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为可检索文本层叠加的PDF渲染页，并非纯扫描件。页面以文字说明和一个参数组合表为主，另有一个带笑脸图标的 Note 提示框；背景有淡色 CUH 水印。\"\n}",
+  "created_at": "2026-05-20T14:03:27",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=58。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2.2 控制器外观说明（第 15 页）\n  - 2.3 振动",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.051, 0.932, 0.074],\n      \"confidence\": 0.93,\n      \"text_excerpt\": \"自动调频振动送料控制器 / SDVC341-M（页眉）\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.118, 0.157, 0.905, 0.245],\n      \"confidence\": 0.96,\n      \"text_excerpt\": \"对于需要精密对齐的机械设备，可能需要两台或多台振动设备具有物理上的相位一致……\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.255, 0.876, 0.294],\n      \"confidence\": 0.95,\n      \"text_excerpt\": \"修改稳速参数组中的“电压模式”和“频率模式”参数，即可设置控制器工作为对应的“工作模式”。\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.126, 0.306, 0.875, 0.414],\n      \"confidence\": 0.97,\n      \"text_excerpt\": \"工作模式名称 / 电压模式 / 频率模式 / 相位控制 / 是否需要接入传感器\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.124, 0.438, 0.185, 0.478],\n      \"confidence\": 0.88,\n      \"image_alt\": \"提示用的笑脸图标，位于注意事项框左上方。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.096, 0.502, 0.202, 0.522],\n      \"confidence\": 0.96,\n      \"text_excerpt\": \"请注意：\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.095, 0.539, 0.873, 0.746],\n      \"confidence\": 0.97,\n      \"text_excerpt\": \"1、即使参数“电压模式”和“频率模式”被设为“自动”和“同步振”…… 4、手动相位指从控制器输出波形的相位……\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.467, 0.934, 0.779],\n      \"confidence\": 0.76,\n      \"image_alt\": \"圆角矩形边框的注意事项区域，包含“请注意”标题和四条编号说明。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.951, 0.932, 0.978],\n      \"confidence\": 0.94,\n      \"text_excerpt\": \"2026-02 / -48- / SDVC341SMSCN_4.01（页脚）\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 8],\n  \"notes\": \"本页为可检索文本层的说明书页面，并非纯扫描件。页面以正文说明和一个参数组合表为主，另有注意事项框和装饰/提示图标；背景带有淡色 CUH 水印。\"\n}",
   "layout_parse_ok": true,
   "layout_json": {
     "regions": [
       {
-        "type": "heading",
-        "bbox_0_1": [
-          0.073,
-          0.052,
-          0.931,
-          0.077
-        ],
-        "confidence": 0.86,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
+        "type": "footer",
         "bbox_0_1": [
           0.072,
-          0.149,
-          0.931,
-          0.24
-        ],
-        "confidence": 0.94,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.072,
-          0.249,
-          0.924,
-          0.299
+          0.051,
+          0.932,
+          0.074
         ],
         "confidence": 0.93,
+        "text_excerpt": "自动调频振动送料控制器 / SDVC341-M（页眉）",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.118,
+          0.157,
+          0.905,
+          0.245
+        ],
+        "confidence": 0.96,
+        "text_excerpt": "对于需要精密对齐的机械设备，可能需要两台或多台振动设备具有物理上的相位一致……",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.119,
+          0.255,
+          0.876,
+          0.294
+        ],
+        "confidence": 0.95,
+        "text_excerpt": "修改稳速参数组中的“电压模式”和“频率模式”参数，即可设置控制器工作为对应的“工作模式”。",
         "bbox_parse_ok": true
       },
       {
         "type": "table",
         "bbox_0_1": [
-          0.104,
-          0.319,
-          0.89,
-          0.475
+          0.126,
+          0.306,
+          0.875,
+          0.414
         ],
-        "confidence": 0.95,
+        "confidence": 0.97,
+        "text_excerpt": "工作模式名称 / 电压模式 / 频率模式 / 相位控制 / 是否需要接入传感器",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.124,
+          0.438,
+          0.185,
+          0.478
+        ],
+        "confidence": 0.88,
+        "image_alt": "提示用的笑脸图标，位于注意事项框左上方。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.096,
+          0.502,
+          0.202,
+          0.522
+        ],
+        "confidence": 0.96,
+        "text_excerpt": "请注意：",
         "bbox_parse_ok": true
       },
       {
         "type": "paragraph",
         "bbox_0_1": [
-          0.071,
-          0.517,
-          0.934,
-          0.881
+          0.095,
+          0.539,
+          0.873,
+          0.746
         ],
-        "confidence": 0.91,
+        "confidence": 0.97,
+        "text_excerpt": "1、即使参数“电压模式”和“频率模式”被设为“自动”和“同步振”…… 4、手动相位指从控制器输出波形的相位……",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.071,
+          0.467,
+          0.934,
+          0.779
+        ],
+        "confidence": 0.76,
+        "image_alt": "圆角矩形边框的注意事项区域，包含“请注意”标题和四条编号说明。",
         "bbox_parse_ok": true
       },
       {
         "type": "footer",
         "bbox_0_1": [
           0.072,
-          0.953,
+          0.951,
           0.932,
-          0.975
+          0.978
         ],
-        "confidence": 0.92,
+        "confidence": 0.94,
+        "text_excerpt": "2026-02 / -48- / SDVC341SMSCN_4.01（页脚）",
         "bbox_parse_ok": true
       }
     ],
@@ -83,31 +125,33 @@
       2,
       3,
       4,
-      5
+      5,
+      6,
+      8
     ],
-    "notes": "本页为可检索文本层叠加的PDF渲染页，并非纯扫描件。页面以文字说明和一个参数组合表为主，另有一个带笑脸图标的 Note 提示框；背景有淡色 CUH 水印。",
+    "notes": "本页为可检索文本层的说明书页面，并非纯扫描件。页面以正文说明和一个参数组合表为主，另有注意事项框和装饰/提示图标；背景带有淡色 CUH 水印。",
     "bbox_schema": "xyxy_0_1"
   },
   "raw": {
-    "id": "chatcmpl-Df0MJyqEitJTTkmnpsr3LnJeVQn7D",
+    "id": "chatcmpl-DhUJAyubjU4Sqa5bbVOVryIlzzr0w",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665199,
+    "created": 1779256980,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.052, 0.931, 0.077],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.149, 0.931, 0.240],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.249, 0.924, 0.299],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.104, 0.319, 0.890, 0.475],\n      \"confidence\": 0.95,\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.517, 0.934, 0.881],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.932, 0.975],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为可检索文本层叠加的PDF渲染页，并非纯扫描件。页面以文字说明和一个参数组合表为主，另有一个带笑脸图标的 Note 提示框；背景有淡色 CUH 水印。\"\n}"
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.051, 0.932, 0.074],\n      \"confidence\": 0.93,\n      \"text_excerpt\": \"自动调频振动送料控制器 / SDVC341-M（页眉）\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.118, 0.157, 0.905, 0.245],\n      \"confidence\": 0.96,\n      \"text_excerpt\": \"对于需要精密对齐的机械设备，可能需要两台或多台振动设备具有物理上的相位一致……\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.255, 0.876, 0.294],\n      \"confidence\": 0.95,\n      \"text_excerpt\": \"修改稳速参数组中的“电压模式”和“频率模式”参数，即可设置控制器工作为对应的“工作模式”。\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.126, 0.306, 0.875, 0.414],\n      \"confidence\": 0.97,\n      \"text_excerpt\": \"工作模式名称 / 电压模式 / 频率模式 / 相位控制 / 是否需要接入传感器\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.124, 0.438, 0.185, 0.478],\n      \"confidence\": 0.88,\n      \"image_alt\": \"提示用的笑脸图标，位于注意事项框左上方。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.096, 0.502, 0.202, 0.522],\n      \"confidence\": 0.96,\n      \"text_excerpt\": \"请注意：\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.095, 0.539, 0.873, 0.746],\n      \"confidence\": 0.97,\n      \"text_excerpt\": \"1、即使参数“电压模式”和“频率模式”被设为“自动”和“同步振”…… 4、手动相位指从控制器输出波形的相位……\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.467, 0.934, 0.779],\n      \"confidence\": 0.76,\n      \"image_alt\": \"圆角矩形边框的注意事项区域，包含“请注意”标题和四条编号说明。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.951, 0.932, 0.978],\n      \"confidence\": 0.94,\n      \"text_excerpt\": \"2026-02 / -48- / SDVC341SMSCN_4.01（页脚）\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 8],\n  \"notes\": \"本页为可检索文本层的说明书页面，并非纯扫描件。页面以正文说明和一个参数组合表为主，另有注意事项框和装饰/提示图标；背景带有淡色 CUH 水印。\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 3879,
-      "completion_tokens": 912,
-      "total_tokens": 4791,
+      "prompt_tokens": 4111,
+      "completion_tokens": 1322,
+      "total_tokens": 5433,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0

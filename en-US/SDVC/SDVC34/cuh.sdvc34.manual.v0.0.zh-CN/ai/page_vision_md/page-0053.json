@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 53,
+  "model": "gpt-5.5",
+  "created_at": "2026-05-13T17:44:20",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=53。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufa",
+  "assistant_text": "{\"page_markdown\":\"Automatic Frequency Controller for Vibratory Feeder  \\nSDVC341-M\\n\\n## 4.9.1.2 Device Joins\\n\\nUsers can follow the following expansion and addition steps to add a new controller to the existing network.\\n\\nThe new controller after joining can call the signal of any controller in the network and act controller signal source as any other controller in the network. Enrich system signal sources.\\n\\n**Steps:**\\n\\n1. Connect the CUHBus-DS® T1 and T3 interfaces of the new device to the original complete network, and the ports support hot swapping.\\n\\n2. When the new device is powered on, the new controller will automatically enter the \\\"communication parameter group\\\".\\n\\n3. In the communication parameter group, set the local digital synchronization communication device number, and \\\"DigSynAd\\\" is [1~8] any value. You don't need to set it, the program will automatically generate a number.\\n\\n4. In the communication parameter group, set the parameter value of \\\"EnNetwok \\\" to \\\"Expand\\\", and then press ⊕ and ⊖ hold at the same time, confirm.\\n\\n5. After the addition is successful, the parameter value of the new device \\\"EnNetwok \\\" will automatically change to \\\"Online\\\", indicating that the new device has been successfully added.\\n\\nUsers can check whether the network has been correctly networked by checking the device networking status parameters, as well as check the total number of devices in the network and the number of online devices.\\n\\nNote: Only connecting the CUHBus-DS® signal line and not passing the settings does not count as joining the network.\\n\\n[[vcrop:53:0]]\\n\\n2026-02 &nbsp;&nbsp;&nbsp;&nbsp; -43- &nbsp;&nbsp;&nbsp;&nbsp; SDVC341SMSEN_4.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.17,0.585,0.83,0.955],\"alt\":\"Device joins networking diagram showing Address 1 and Address 2 controllers, a new controller added as Address 3, and operation steps.\",\"reason\":\"Fine-line networking diagram with controller boxes, CUHBus-DS T1/T3 wiring paths, arrows, and embedded labels should be preserved as an image.\"}],\"notes\":\"Page is clear; diagram contains small labels and wiring lines best retained as a crop.\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "Automatic Frequency Controller for Vibratory Feeder  \nSDVC341-M\n\n## 4.9.1.2 Device Joins\n\nUsers can follow the following expansion and addition steps to add a new controller to the existing network.\n\nThe new controller after joining can call the signal of any controller in the network and act controller signal source as any other controller in the network. Enrich system signal sources.\n\n**Steps:**\n\n1. Connect the CUHBus-DS® T1 and T3 interfaces of the new device to the original complete network, and the ports support hot swapping.\n\n2. When the new device is powered on, the new controller will automatically enter the \"communication parameter group\".\n\n3. In the communication parameter group, set the local digital synchronization communication device number, and \"DigSynAd\" is [1~8] any value. You don't need to set it, the program will automatically generate a number.\n\n4. In the communication parameter group, set the parameter value of \"EnNetwok \" to \"Expand\", and then press ⊕ and ⊖ hold at the same time, confirm.\n\n5. After the addition is successful, the parameter value of the new device \"EnNetwok \" will automatically change to \"Online\", indicating that the new device has been successfully added.\n\nUsers can check whether the network has been correctly networked by checking the device networking status parameters, as well as check the total number of devices in the network and the number of online devices.\n\nNote: Only connecting the CUHBus-DS® signal line and not passing the settings does not count as joining the network.\n\n[[vcrop:53:0]]\n\n2026-02 &nbsp;&nbsp;&nbsp;&nbsp; -43- &nbsp;&nbsp;&nbsp;&nbsp; SDVC341SMSEN_4.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.17,
+        0.585,
+        0.83,
+        0.955
+      ],
+      "alt": "Device joins networking diagram showing Address 1 and Address 2 controllers, a new controller added as Address 3, and operation steps.",
+      "reason": "Fine-line networking diagram with controller boxes, CUHBus-DS T1/T3 wiring paths, arrows, and embedded labels should be preserved as an image."
+    }
+  ],
+  "notes": "Page is clear; diagram contains small labels and wiring lines best retained as a crop.",
+  "raw": {
+    "id": "chatcmpl-Df0QBbynfCEuyttRT6EYPecDv5Prz",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1778665439,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"page_markdown\":\"Automatic Frequency Controller for Vibratory Feeder  \\nSDVC341-M\\n\\n## 4.9.1.2 Device Joins\\n\\nUsers can follow the following expansion and addition steps to add a new controller to the existing network.\\n\\nThe new controller after joining can call the signal of any controller in the network and act controller signal source as any other controller in the network. Enrich system signal sources.\\n\\n**Steps:**\\n\\n1. Connect the CUHBus-DS® T1 and T3 interfaces of the new device to the original complete network, and the ports support hot swapping.\\n\\n2. When the new device is powered on, the new controller will automatically enter the \\\"communication parameter group\\\".\\n\\n3. In the communication parameter group, set the local digital synchronization communication device number, and \\\"DigSynAd\\\" is [1~8] any value. You don't need to set it, the program will automatically generate a number.\\n\\n4. In the communication parameter group, set the parameter value of \\\"EnNetwok \\\" to \\\"Expand\\\", and then press ⊕ and ⊖ hold at the same time, confirm.\\n\\n5. After the addition is successful, the parameter value of the new device \\\"EnNetwok \\\" will automatically change to \\\"Online\\\", indicating that the new device has been successfully added.\\n\\nUsers can check whether the network has been correctly networked by checking the device networking status parameters, as well as check the total number of devices in the network and the number of online devices.\\n\\nNote: Only connecting the CUHBus-DS® signal line and not passing the settings does not count as joining the network.\\n\\n[[vcrop:53:0]]\\n\\n2026-02 &nbsp;&nbsp;&nbsp;&nbsp; -43- &nbsp;&nbsp;&nbsp;&nbsp; SDVC341SMSEN_4.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.17,0.585,0.83,0.955],\"alt\":\"Device joins networking diagram showing Address 1 and Address 2 controllers, a new controller added as Address 3, and operation steps.\",\"reason\":\"Fine-line networking diagram with controller boxes, CUHBus-DS T1/T3 wiring paths, arrows, and embedded labels should be preserved as an image.\"}],\"notes\":\"Page is clear; diagram contains small labels and wiring lines best retained as a crop.\"}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4252,
+      "completion_tokens": 1039,
+      "total_tokens": 5291,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

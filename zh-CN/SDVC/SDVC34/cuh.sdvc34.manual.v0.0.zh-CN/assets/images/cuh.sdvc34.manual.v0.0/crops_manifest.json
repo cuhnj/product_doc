@@ -5,116 +5,168 @@
     "type": "vision_crop",
     "bbox_0_1": [
       0.34,
-      0.34,
-      0.65,
-      0.84
+      0.35,
+      0.64,
+      0.82
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0001-vcrop-00.png",
-    "reason": "封面中央为设备实物照片，属于复杂图片，需保留位图。"
+    "reason": "封面中央为控制器实物照片，包含外观、按键、接口等复杂视觉信息，需保留位图。"
   },
   {
     "page_index": 11,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.065,
-      0.304,
-      0.934,
-      0.925
+      0.071,
+      0.307,
+      0.932,
+      0.939
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0011-vcrop-00.png",
-    "reason": "The boxed package contents area contains product drawings/photos and cable images that are better preserved as a bitmap while captions are also transcribed."
+    "reason": "该区域包含多件产品及附件的外观示意图，需保留位图以呈现外形细节。"
   },
   {
     "page_index": 12,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.065,
-      0.168,
-      0.94,
-      0.472
+      0.0703,
+      0.1871,
+      0.9349,
+      0.4778
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0012-vcrop-00.png",
-    "reason": "The nameplate is a complex visual diagram containing layout arrows and a QR code; a bitmap crop preserves the original appearance."
+    "reason": "该区域为带二维码、箭头引注和铭牌版式的复杂示意图，需保留位图以呈现原始视觉布局。"
   },
   {
     "page_index": 15,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.15,
-      0.25,
-      0.88,
-      0.49
+      0.14,
+      0.27,
+      0.84,
+      0.52
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0015-vcrop-00.png",
-    "reason": "Line diagram showing the controller front panel and positions of display and buttons; spatial layout is needed in addition to transcribed labels."
+    "reason": "包含控制器面板、按键和屏幕位置的线框示意及引线标注，需保留原图布局。"
   },
   {
     "page_index": 15,
     "crop_index": 1,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.21,
-      0.59,
-      0.8,
-      0.78
+      0.25,
+      0.6,
+      0.79,
+      0.8
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0015-vcrop-01.png",
-    "reason": "Line diagram showing external socket and switch positions; spatial layout is needed in addition to transcribed labels."
+    "reason": "包含控制器外部插座、电源开关位置的线框示意及引线标注，需保留原图布局。"
   },
   {
     "page_index": 16,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.285,
-      0.213,
-      0.925,
-      0.665
+      0.625,
+      0.23,
+      0.93,
+      0.367
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0016-vcrop-00.png",
-    "reason": "Line-art installation diagrams and dimension drawing are needed to preserve visual installation details."
+    "reason": "线稿安装示意图，保留原图以准确呈现安装位置。"
   },
   {
     "page_index": 16,
     "crop_index": 1,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.115,
-      0.795,
-      0.895,
-      0.94
+      0.622,
+      0.377,
+      0.93,
+      0.506
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0016-vcrop-01.png",
-    "reason": "Line-art diagrams show incorrect sensor positions that cannot be fully represented as text."
+    "reason": "线稿安装示意图，保留原图以准确呈现安装位置。"
+  },
+  {
+    "page_index": 16,
+    "crop_index": 2,
+    "type": "vision_crop",
+    "bbox_0_1": [
+      0.313,
+      0.535,
+      0.602,
+      0.668
+    ],
+    "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0016-vcrop-02.png",
+    "reason": "线稿安装示意图，保留原图以准确呈现安装位置。"
+  },
+  {
+    "page_index": 16,
+    "crop_index": 3,
+    "type": "vision_crop",
+    "bbox_0_1": [
+      0.642,
+      0.535,
+      0.874,
+      0.658
+    ],
+    "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0016-vcrop-03.png",
+    "reason": "包含尺寸标注的支架示意图，需要保留位图以避免尺寸细节丢失。"
+  },
+  {
+    "page_index": 16,
+    "crop_index": 4,
+    "type": "vision_crop",
+    "bbox_0_1": [
+      0.151,
+      0.794,
+      0.477,
+      0.925
+    ],
+    "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0016-vcrop-04.png",
+    "reason": "线稿安装示意图，保留原图以准确呈现错误安装位置。"
+  },
+  {
+    "page_index": 16,
+    "crop_index": 5,
+    "type": "vision_crop",
+    "bbox_0_1": [
+      0.512,
+      0.795,
+      0.871,
+      0.925
+    ],
+    "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0016-vcrop-05.png",
+    "reason": "线稿安装示意图，保留原图以准确呈现错误安装位置。"
   },
   {
     "page_index": 17,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.069,
-      0.236,
-      0.933,
-      0.589
+      0.071,
+      0.237,
+      0.935,
+      0.592
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0017-vcrop-00.png",
-    "reason": "The callout diagram contains interface layout, highlighted/boxed values, and arrows that are best preserved as an image."
+    "reason": "界面截图及箭头标注布局较复杂，保留位图便于核对显示位置与反白/选框效果。"
   },
   {
     "page_index": 17,
     "crop_index": 1,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.07,
-      0.64,
-      0.933,
-      0.95
+      0.071,
+      0.636,
+      0.935,
+      0.947
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0017-vcrop-01.png",
-    "reason": "Connector layout and wiring association lines are spatial and should be preserved as a cropped image in addition to the transcribed table."
+    "reason": "端子排外形、左右对应关系及竖排功能分组为复杂示意图，需保留位图。"
   },
   {
     "page_index": 19,
@@ -122,129 +174,129 @@
     "type": "vision_crop",
     "bbox_0_1": [
       0.095,
-      0.445,
-      0.895,
-      0.79
+      0.452,
+      0.89,
+      0.799
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0019-vcrop-00.png",
-    "reason": "Complex wiring illustration with device drawings, connector detail, cable routing, and labels; best preserved as a cropped image."
+    "reason": "该区域为复杂安装示意图，包含控制器、航空插头、输出线、接地线和振动盘连接关系，适合保留位图。"
   },
   {
     "page_index": 20,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.17,
-      0.17,
-      0.85,
-      0.51
+      0.169,
+      0.191,
+      0.868,
+      0.52
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-00.png",
-    "reason": "Line drawing illustrates the physical connection order and connector position on the controller."
+    "reason": "包含控制器、电源线、航空插头及手势等细线示意图，需保留位图以准确呈现。"
   },
   {
     "page_index": 20,
     "crop_index": 1,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.36,
-      0.66,
-      0.77,
-      0.91
+      0.357,
+      0.657,
+      0.835,
+      0.937
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-01.png",
-    "reason": "Line drawing shows the plug being inserted into the mains socket."
+    "reason": "包含插座、三爪插头、电源线及手势等细线示意图，需保留位图以准确呈现。"
   },
   {
     "page_index": 22,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.577,
-      0.345,
-      0.853,
+      0.586,
+      0.358,
+      0.846,
       0.535
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-00.png",
-    "reason": "Small LCD diagram includes a waveform curve and screen layout that are best preserved as bitmap."
+    "reason": "保留显示屏边框、按键标识及振幅曲线等图形信息"
   },
   {
     "page_index": 22,
     "crop_index": 1,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.577,
-      0.543,
-      0.853,
-      0.733
+      0.586,
+      0.553,
+      0.846,
+      0.731
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-01.png",
-    "reason": "Small LCD diagram includes a waveform curve and screen layout that are best preserved as bitmap."
+    "reason": "保留显示屏边框、按键标识及振幅曲线等图形信息"
   },
   {
     "page_index": 22,
     "crop_index": 2,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.577,
-      0.741,
-      0.853,
-      0.933
+      0.586,
+      0.749,
+      0.846,
+      0.927
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-02.png",
-    "reason": "Small LCD diagram includes a waveform curve and screen layout that are best preserved as bitmap."
+    "reason": "保留显示屏边框、按键标识及振幅曲线等图形信息"
   },
   {
     "page_index": 22,
     "crop_index": 3,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.129,
-      0.741,
-      0.404,
-      0.933
+      0.135,
+      0.749,
+      0.396,
+      0.927
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-03.png",
-    "reason": "Small LCD diagram includes screen layout and status display that are best preserved as bitmap."
+    "reason": "保留显示屏边框、按键标识及振幅曲线等图形信息"
   },
   {
     "page_index": 32,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.08,
-      0.165,
+      0.083,
+      0.19,
       0.89,
-      0.82
+      0.86
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0032-vcrop-00.png",
-    "reason": "Complex fine-line signal flow diagram with many small labels and connection lines; preserving as bitmap avoids loss of layout and wiring detail."
+    "reason": "细线信号流程图包含多个逻辑模块、端口和源选择列表，使用截图可避免结构与连线失真。"
   },
   {
     "page_index": 33,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.052,
-      0.259,
-      0.918,
-      0.489
+      0.075,
+      0.266,
+      0.924,
+      0.506
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0033-vcrop-00.png",
-    "reason": "Complex fine-line signal flow diagram with logic gates and labels; preserve as bitmap."
+    "reason": "复杂逻辑门与信号流细线图，需保留原图细节"
   },
   {
     "page_index": 34,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.09,
-      0.635,
-      0.88,
-      0.955
+      0.105,
+      0.64,
+      0.875,
+      0.925
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0034-vcrop-00.png",
-    "reason": "Timing diagram with multiple waveforms, dashed guide lines, and labels is best preserved as a cropped image."
+    "reason": "细线时序图用 Markdown 难以准确还原，需保留原图。"
   },
   {
     "page_index": 35,
@@ -252,103 +304,77 @@
     "type": "vision_crop",
     "bbox_0_1": [
       0.08,
-      0.32,
-      0.91,
-      0.53
+      0.33,
+      0.9,
+      0.52
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0035-vcrop-00.png",
-    "reason": "Waveform diagram with axes and curves is visual content best preserved as an image crop."
+    "reason": "该区域为波形指数对比示意图，包含坐标轴和曲线形状，使用截图可保留视觉含义。"
   },
   {
     "page_index": 36,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.071,
-      0.245,
-      0.934,
-      0.604
+      0.069,
+      0.268,
+      0.936,
+      0.945
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0036-vcrop-00.png",
-    "reason": "Fine wiring diagram with many terminal labels and connection lines is best preserved as an image crop."
-  },
-  {
-    "page_index": 36,
-    "crop_index": 1,
-    "type": "vision_crop",
-    "bbox_0_1": [
-      0.071,
-      0.603,
-      0.934,
-      0.948
-    ],
-    "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0036-vcrop-01.png",
-    "reason": "Fine wiring diagrams with multiple terminals and signal labels are best preserved as image crops."
+    "reason": "该区域为复杂接线示意图，包含端子排、导线连接关系、PLC与电位器接线方式及多处细小标注，需以位图保留。"
   },
   {
     "page_index": 38,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.054,
-      0.205,
-      0.944,
-      0.421
+      0.055,
+      0.218,
+      0.91,
+      0.455
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0038-vcrop-00.png",
-    "reason": "Complex fine-line control signal flow diagram with many labels and logic symbols; bitmap crop is needed to preserve the original visual structure."
-  },
-  {
-    "page_index": 38,
-    "crop_index": 1,
-    "type": "vision_crop",
-    "bbox_0_1": [
-      0.562,
-      0.527,
-      0.871,
-      0.733
-    ],
-    "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0038-vcrop-01.png",
-    "reason": "Device screen illustration with layout and highlighted field; crop preserves the UI appearance."
+    "reason": "该区域为细线逻辑/时序控制流程图，含多级门电路、触发器、延时与输出类型模块，建议保留位图以避免线条和连接关系丢失。"
   },
   {
     "page_index": 39,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.09,
-      0.52,
+      0.085,
+      0.482,
       0.93,
-      0.72
+      0.645
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0039-vcrop-00.png",
-    "reason": "Waveform/level diagram with fine lines and labels is best preserved as a cropped image."
+    "reason": "该区域为细线波形示意图，包含多处电平、有效/无效状态及类型标注，建议保留为位图以避免转写失真。"
   },
   {
     "page_index": 40,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.19,
-      0.215,
-      0.87,
-      0.36
+      0.14,
+      0.218,
+      0.86,
+      0.366
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-00.png",
-    "reason": "Fine-line signal flow diagram is best preserved as a bitmap crop."
+    "reason": "细线流程/电路示意图，包含端口C2、端口E2、传感器类型、逻辑方向以及开关延时关系，需保留原图形结构。"
   },
   {
     "page_index": 42,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.17,
-      0.19,
-      0.82,
-      0.35
+      0.16,
+      0.2,
+      0.84,
+      0.36
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-00.png",
-    "reason": "Fine-line signal flow diagram with multiple blocks and arrows is best preserved as a bitmap crop."
+    "reason": "细线信号流程图包含多个模块、箭头及端口逻辑，使用截图保留原始图形信息。"
   },
   {
     "page_index": 43,
@@ -356,38 +382,38 @@
     "type": "vision_crop",
     "bbox_0_1": [
       0.13,
-      0.24,
+      0.23,
       0.84,
       0.405
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0043-vcrop-00.png",
-    "reason": "Thin-line signal flow diagram with labels and arrows is better preserved as a cropped bitmap."
+    "reason": "细线框图和箭头连接关系较复杂，需保留原图以避免转写丢失结构信息。"
   },
   {
     "page_index": 44,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.16,
-      0.595,
-      0.84,
-      0.86
+      0.201,
+      0.553,
+      0.767,
+      0.813
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0044-vcrop-00.png",
-    "reason": "Line diagram with axes, dashed limit lines, arrows, and labels is best preserved as a cropped image."
+    "reason": "包含坐标轴、虚线、箭头及多处标注的示意图，使用截图保留原始布局更准确。"
   },
   {
     "page_index": 51,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.37,
-      0.33,
-      0.63,
-      0.88
+      0.36,
+      0.32,
+      0.64,
+      0.89
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0051-vcrop-00.png",
-    "reason": "Network wiring diagram with multiple devices and connection lines; preserving as bitmap avoids loss of visual wiring details."
+    "reason": "该区域为多设备组网接线示意图，包含细线连接关系和端子标注，宜保留为位图。"
   },
   {
     "page_index": 53,
@@ -395,25 +421,25 @@
     "type": "vision_crop",
     "bbox_0_1": [
       0.17,
-      0.585,
-      0.83,
-      0.955
+      0.57,
+      0.84,
+      0.94
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0053-vcrop-00.png",
-    "reason": "Fine-line networking diagram with controller boxes, CUHBus-DS T1/T3 wiring paths, arrows, and embedded labels should be preserved as an image."
+    "reason": "底部为多设备接线拓扑示意图，包含细线连接关系和设备端口位置，建议保留位图以避免文字转写丢失结构信息。"
   },
   {
     "page_index": 54,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.06,
-      0.59,
-      0.95,
-      0.925
+      0.066,
+      0.555,
+      0.932,
+      0.903
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0054-vcrop-00.png",
-    "reason": "Fine-line multi-controller wiring/networking diagram with arrows and small labels; preserving as bitmap is necessary for visual fidelity."
+    "reason": "该区域为多控制器组网删除设备流程示意图，包含连线、箭头和设备框图，适合保留为截图。"
   },
   {
     "page_index": 57,
@@ -421,12 +447,12 @@
     "type": "vision_crop",
     "bbox_0_1": [
       0.0716,
-      0.4072,
-      0.9323,
-      0.637
+      0.409,
+      0.931,
+      0.631
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0057-vcrop-00.png",
-    "reason": "Waveform synchronization diagram with arrows and labels is better preserved as a cropped image."
+    "reason": "包含细线波形、箭头与图内文字，需保留为位图以准确呈现同步波形关系。"
   },
   {
     "page_index": 57,
@@ -434,25 +460,25 @@
     "type": "vision_crop",
     "bbox_0_1": [
       0.0716,
-      0.7023,
-      0.9323,
-      0.9364
+      0.722,
+      0.931,
+      0.947
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0057-vcrop-01.png",
-    "reason": "Waveform comparison diagram with arrows and labels is better preserved as a cropped image."
+    "reason": "包含细线波形、箭头与图内文字，需保留为位图以准确呈现不同步波形关系。"
   },
   {
     "page_index": 59,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.069,
-      0.356,
-      0.933,
-      0.665
+      0.07,
+      0.326,
+      0.955,
+      0.642
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0059-vcrop-00.png",
-    "reason": "Complex wiring and equipment line drawing with many labels; preserving as bitmap is necessary."
+    "reason": "复杂线缆连接示意图，包含控制器、振动盘、传感器及多条线路标签，适合保留为位图。"
   },
   {
     "page_index": 62,
@@ -460,180 +486,219 @@
     "type": "vision_crop",
     "bbox_0_1": [
       0.07,
-      0.217,
+      0.218,
       0.932,
-      0.647
+      0.665
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0062-vcrop-00.png",
-    "reason": "Complex wiring/control relationship diagram with device drawings and signal paths; best preserved as an image crop."
+    "reason": "复杂线路和设备连接示意图，需保留图形细节。"
   },
   {
     "page_index": 63,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.0716,
-      0.5264,
-      0.9323,
-      0.8292
+      0.071,
+      0.545,
+      0.934,
+      0.861
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0063-vcrop-00.png",
-    "reason": "Multi-step wiring/network schematic with controller icons, arrows, and embedded labels; retaining as bitmap preserves layout and connection lines."
+    "reason": "包含多台控制器、通信线、箭头流程和内部小字标签，适合作为原图裁剪保留。"
+  },
+  {
+    "page_index": 64,
+    "crop_index": 0,
+    "type": "vision_crop",
+    "bbox_0_1": [
+      0.32,
+      0.62,
+      0.63,
+      0.83
+    ],
+    "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0064-vcrop-00.png",
+    "reason": "该区域为控制器屏幕界面示意图，包含边框、状态栏、反白数值等视觉布局，适合保留为位图。"
+  },
+  {
+    "page_index": 65,
+    "crop_index": 0,
+    "type": "vision_crop",
+    "bbox_0_1": [
+      0.252,
+      0.222,
+      0.791,
+      0.429
+    ],
+    "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0065-vcrop-00.png",
+    "reason": "包含控制器屏幕布局、括号箭头标注和参数显示位置，截图可保留原始视觉排版。"
+  },
+  {
+    "page_index": 65,
+    "crop_index": 1,
+    "type": "vision_crop",
+    "bbox_0_1": [
+      0.07,
+      0.606,
+      0.934,
+      0.908
+    ],
+    "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0065-vcrop-01.png",
+    "reason": "包含圆角边框内的步骤说明、按键符号和控制器屏幕示意，截图可保留图文组合布局。"
   },
   {
     "page_index": 66,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.065,
-      0.207,
-      0.925,
-      0.493
+      0.07,
+      0.208,
+      0.945,
+      0.48
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0066-vcrop-00.png",
-    "reason": "Complex line diagram with device drawings, wiring paths, and labels; best preserved as a bitmap crop."
+    "reason": "该区域为细线接线示意图，包含控制器外形、振动盘结构和多条连线，适合保留位图以避免丢失图形关系。"
   },
   {
     "page_index": 67,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.083,
-      0.184,
-      0.931,
-      0.451
+      0.075,
+      0.195,
+      0.935,
+      0.465
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0067-vcrop-00.png",
-    "reason": "Complex wiring/application illustration with controllers, feeder, cable routing, and small labels is better preserved as a bitmap crop."
+    "reason": "该区域为复杂接线示意图，包含设备外形、线缆走向和标签，适合保留为位图。"
   },
   {
     "page_index": 68,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.09,
-      0.165,
-      0.93,
+      0.085,
+      0.195,
+      0.925,
       0.455
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0068-vcrop-00.png",
-    "reason": "Complex line drawing and wiring/installation diagram should be preserved as an image."
+    "reason": "该区域为复杂设备接线示意图，包含控制器、圆盘机构、电缆走向及标签，适合保留为截图。"
   },
   {
     "page_index": 71,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.09,
-      0.18,
-      0.92,
-      0.81
+      0.083,
+      0.183,
+      0.915,
+      0.775
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0071-vcrop-00.png",
-    "reason": "The dimensional line drawing contains complex geometry, screw positions, radii, and multiple dimension annotations that are best preserved as a bitmap crop."
+    "reason": "外形尺寸图为细线工程图，包含多处尺寸箭头、半径标注和设备轮廓，需保留位图以准确呈现。"
   },
   {
     "page_index": 86,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.19,
-      0.18,
-      0.8,
-      0.37
+      0.205,
+      0.199,
+      0.789,
+      0.392
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0086-vcrop-00.png",
-    "reason": "细线电路原理图，需保留图形连线、电阻电容标注及端子示意。"
+    "reason": "细线电路图和元件连接关系需要保留位图"
   },
   {
     "page_index": 86,
     "crop_index": 1,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.19,
-      0.39,
-      0.8,
-      0.56
+      0.205,
+      0.411,
+      0.789,
+      0.587
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0086-vcrop-01.png",
-    "reason": "细线电路原理图，需保留传感器识别、过流保护及端子连线。"
+    "reason": "细线电路图和元件连接关系需要保留位图"
   },
   {
     "page_index": 86,
     "crop_index": 2,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.19,
-      0.58,
-      0.8,
-      0.75
+      0.205,
+      0.61,
+      0.789,
+      0.784
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0086-vcrop-02.png",
-    "reason": "细线电路原理图，需保留传感器识别、过流保护及端子连线。"
+    "reason": "细线电路图和元件连接关系需要保留位图"
   },
   {
     "page_index": 86,
     "crop_index": 3,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.19,
-      0.77,
-      0.8,
-      0.93
+      0.205,
+      0.805,
+      0.789,
+      0.972
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0086-vcrop-03.png",
-    "reason": "细线电路原理图，需保留过流保护、28V钳位/保护元件及端子连线。"
+    "reason": "细线电路图和元件连接关系需要保留位图"
   },
   {
     "page_index": 87,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.19,
-      0.16,
-      0.81,
-      0.35
+      0.195,
+      0.175,
+      0.79,
+      0.36
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0087-vcrop-00.png",
-    "reason": "细线电路图需保留原始连接关系和符号。"
+    "reason": "细线电路图与接地符号需要保留原图细节"
   },
   {
     "page_index": 87,
     "crop_index": 1,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.19,
-      0.38,
-      0.81,
-      0.65
+      0.195,
+      0.395,
+      0.79,
+      0.645
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0087-vcrop-01.png",
-    "reason": "细线输入端口原理图需保留原始连接关系和电阻/电源标注。"
+    "reason": "细线电路图、箭头及元件连接关系需要保留原图细节"
   },
   {
     "page_index": 87,
     "crop_index": 2,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.19,
-      0.68,
-      0.81,
-      0.87
+      0.195,
+      0.69,
+      0.79,
+      0.855
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0087-vcrop-02.png",
-    "reason": "细线同步端口原理图需保留原始连接关系和符号。"
+    "reason": "细线电路图与双侧端子连接关系需要保留原图细节"
   },
   {
     "page_index": 92,
     "crop_index": 0,
     "type": "vision_crop",
     "bbox_0_1": [
-      0.096,
-      0.828,
-      0.268,
-      0.943
+      0.079,
+      0.842,
+      0.249,
+      0.958
     ],
     "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0092-vcrop-00.png",
-    "reason": "二维码需保留为位图。"
+    "reason": "二维码为复杂位图内容，需保留截图。"
   }
 ]

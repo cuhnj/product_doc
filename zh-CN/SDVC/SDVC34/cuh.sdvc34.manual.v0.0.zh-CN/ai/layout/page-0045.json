@@ -4,30 +4,30 @@
   "lang": "zh-CN",
   "page_index": 45,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:39:53",
-  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=45。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第",
-  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.0716, 0.0548, 0.9323, 0.0754],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.0716, 0.1329, 0.4531, 0.1544],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.0716, 0.1598, 0.9219, 0.2944],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.0716, 0.3375, 0.4896, 0.3573],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.0716, 0.3662, 0.9219, 0.4623],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.0716, 0.5009, 0.3307, 0.5224],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.0716, 0.5287, 0.7240, 0.5449],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.0977, 0.5583, 0.9063, 0.7388],\n      \"confidence\": 0.98,\n      \"caption\": \"RS Priority 参数含义表，包含 Parameter 与 Meaning 两列\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.0716, 0.9740, 0.9323, 0.9964],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为文本型 PDF 渲染页，非扫描件；页面以文字说明和一个参数表为主，无主要插图。背景有浅色 CUH 水印，不影响正文结构识别。\"\n}",
+  "created_at": "2026-05-20T14:02:39",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=45。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2.2 控制器外观说明（第 15 页）\n  - 2.3 振动",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.05, 0.94, 0.075],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.14, 0.28, 0.165],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.11, 0.165, 0.90, 0.257],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.33, 0.30, 0.355],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.11, 0.36, 0.89, 0.427],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.485, 0.30, 0.51],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.11, 0.515, 0.63, 0.535],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.095, 0.548, 0.905, 0.718],\n      \"confidence\": 0.98,\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.952, 0.94, 0.975],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为带文本层的说明书页面，不像纯扫描件。页面以文字说明和一个参数含义表为主，无独立插图；背景有浅色 CUH 水印。\"\n}",
   "layout_parse_ok": true,
   "layout_json": {
     "regions": [
       {
-        "type": "unknown",
+        "type": "footer",
         "bbox_0_1": [
-          0.0716,
-          0.0548,
-          0.9323,
-          0.0754
+          0.07,
+          0.05,
+          0.94,
+          0.075
         ],
-        "confidence": 0.9,
+        "confidence": 0.94,
         "bbox_parse_ok": true
       },
       {
         "type": "heading",
         "bbox_0_1": [
-          0.0716,
-          0.1329,
-          0.4531,
-          0.1544
+          0.07,
+          0.14,
+          0.28,
+          0.165
         ],
         "confidence": 0.98,
         "bbox_parse_ok": true
@@ -35,79 +35,78 @@
       {
         "type": "paragraph",
         "bbox_0_1": [
-          0.0716,
-          0.1598,
-          0.9219,
-          0.2944
-        ],
-        "confidence": 0.98,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "heading",
-        "bbox_0_1": [
-          0.0716,
-          0.3375,
-          0.4896,
-          0.3573
-        ],
-        "confidence": 0.98,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.0716,
-          0.3662,
-          0.9219,
-          0.4623
-        ],
-        "confidence": 0.98,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "heading",
-        "bbox_0_1": [
-          0.0716,
-          0.5009,
-          0.3307,
-          0.5224
-        ],
-        "confidence": 0.98,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.0716,
-          0.5287,
-          0.724,
-          0.5449
+          0.11,
+          0.165,
+          0.9,
+          0.257
         ],
         "confidence": 0.97,
         "bbox_parse_ok": true
       },
       {
-        "type": "table",
+        "type": "heading",
         "bbox_0_1": [
-          0.0977,
-          0.5583,
-          0.9063,
-          0.7388
+          0.07,
+          0.33,
+          0.3,
+          0.355
         ],
         "confidence": 0.98,
-        "caption": "RS Priority 参数含义表，包含 Parameter 与 Meaning 两列",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.11,
+          0.36,
+          0.89,
+          0.427
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.485,
+          0.3,
+          0.51
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.11,
+          0.515,
+          0.63,
+          0.535
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.095,
+          0.548,
+          0.905,
+          0.718
+        ],
+        "confidence": 0.98,
         "bbox_parse_ok": true
       },
       {
         "type": "footer",
         "bbox_0_1": [
-          0.0716,
-          0.974,
-          0.9323,
-          0.9964
+          0.07,
+          0.952,
+          0.94,
+          0.975
         ],
-        "confidence": 0.95,
+        "confidence": 0.96,
         "bbox_parse_ok": true
       }
     ],
@@ -122,29 +121,29 @@
       7,
       8
     ],
-    "notes": "本页为文本型 PDF 渲染页，非扫描件；页面以文字说明和一个参数表为主，无主要插图。背景有浅色 CUH 水印，不影响正文结构识别。",
+    "notes": "本页为带文本层的说明书页面，不像纯扫描件。页面以文字说明和一个参数含义表为主，无独立插图；背景有浅色 CUH 水印。",
     "bbox_schema": "xyxy_0_1"
   },
   "raw": {
-    "id": "chatcmpl-Df0LvLb1D5LEh88Q3T0vbAi3iTiSQ",
+    "id": "chatcmpl-DhUIUn1ehOIeDzX9XnYxTFY4mhf3F",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665175,
+    "created": 1779256938,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.0716, 0.0548, 0.9323, 0.0754],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.0716, 0.1329, 0.4531, 0.1544],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.0716, 0.1598, 0.9219, 0.2944],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.0716, 0.3375, 0.4896, 0.3573],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.0716, 0.3662, 0.9219, 0.4623],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.0716, 0.5009, 0.3307, 0.5224],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.0716, 0.5287, 0.7240, 0.5449],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.0977, 0.5583, 0.9063, 0.7388],\n      \"confidence\": 0.98,\n      \"caption\": \"RS Priority 参数含义表，包含 Parameter 与 Meaning 两列\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.0716, 0.9740, 0.9323, 0.9964],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为文本型 PDF 渲染页，非扫描件；页面以文字说明和一个参数表为主，无主要插图。背景有浅色 CUH 水印，不影响正文结构识别。\"\n}"
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.05, 0.94, 0.075],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.14, 0.28, 0.165],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.11, 0.165, 0.90, 0.257],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.33, 0.30, 0.355],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.11, 0.36, 0.89, 0.427],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.485, 0.30, 0.51],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.11, 0.515, 0.63, 0.535],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.095, 0.548, 0.905, 0.718],\n      \"confidence\": 0.98,\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.952, 0.94, 0.975],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为带文本层的说明书页面，不像纯扫描件。页面以文字说明和一个参数含义表为主，无独立插图；背景有浅色 CUH 水印。\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 3879,
-      "completion_tokens": 1101,
-      "total_tokens": 4980,
+      "prompt_tokens": 4060,
+      "completion_tokens": 1050,
+      "total_tokens": 5110,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0

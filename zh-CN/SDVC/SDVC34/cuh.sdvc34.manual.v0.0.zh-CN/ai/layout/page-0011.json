@@ -4,152 +4,152 @@
   "lang": "zh-CN",
   "page_index": 11,
   "model": "gpt-5.5",
-  "created_at": "2026-05-13T17:38:39",
-  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=11。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第",
-  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.933, 0.075],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.166, 0.101, 0.835, 0.132],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.150, 0.870, 0.187],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.197, 0.505, 0.219],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.228, 0.935, 0.287],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.072, 0.298, 0.933, 0.929],\n      \"confidence\": 0.91,\n      \"image_alt\": \"圆角边框内展示包装内容清单，包含控制器、用户手册、输出线、输入电源线和振动传感器的示意图及数量标注。\",\n      \"caption\": \"Check Package Contents\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.169, 0.319, 0.359, 0.683],\n      \"confidence\": 0.88,\n      \"image_alt\": \"SDVC341-M 控制器外观线稿，下面标注 Controller×1。\",\n      \"caption\": \"Controller×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.543, 0.346, 0.843, 0.683],\n      \"confidence\": 0.88,\n      \"image_alt\": \"用户手册封面图片，下面标注 User Manual×1。\",\n      \"caption\": \"User Manual×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.103, 0.728, 0.326, 0.910],\n      \"confidence\": 0.88,\n      \"image_alt\": \"输出线缆图片，下面标注 Output Cable×1。\",\n      \"caption\": \"Output Cable×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.386, 0.728, 0.610, 0.910],\n      \"confidence\": 0.88,\n      \"image_alt\": \"输入电源线图片，下面标注 Input Power Cord×1。\",\n      \"caption\": \"Input Power Cord×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.698, 0.744, 0.894, 0.910],\n      \"confidence\": 0.88,\n      \"image_alt\": \"振动传感器及连接线图片，下面标注 Vibration Sensor×1。\",\n      \"caption\": \"Vibration Sensor×1\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.953, 0.934, 0.974],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面以章节标题、说明段落和包装内容图片清单为主，中央大区域为图示化内容。\"\n}",
+  "created_at": "2026-05-20T14:01:11",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=11。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2.2 控制器外观说明（第 15 页）\n  - 2.3 振动",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.05, 0.93, 0.08],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.29, 0.105, 0.72, 0.15],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.12, 0.162, 0.88, 0.184],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.197, 0.34, 0.222],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.08, 0.235, 0.94, 0.276],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.294, 0.93, 0.958],\n      \"confidence\": 0.9,\n      \"image_alt\": \"包装内容示意区域，圆角边框内展示控制器、简易说明书、输出线、输入电源线和加速度传感器等随附物品。\",\n      \"caption\": \"检查包装内容\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.16, 0.316, 0.37, 0.655],\n      \"confidence\": 0.94,\n      \"image_alt\": \"SDVC341-M 控制器外观线稿图，正面带显示屏和按键。\",\n      \"caption\": \"控制器×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.526, 0.312, 0.86, 0.655],\n      \"confidence\": 0.93,\n      \"image_alt\": \"简易说明书封面图，包含产品名称、型号和二维码等信息。\",\n      \"caption\": \"简易说明书×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.118, 0.719, 0.374, 0.865],\n      \"confidence\": 0.93,\n      \"image_alt\": \"一根输出线缆的线稿图。\",\n      \"caption\": \"输出线×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.402, 0.726, 0.654, 0.865],\n      \"confidence\": 0.93,\n      \"image_alt\": \"一根输入电源线缆的线稿图。\",\n      \"caption\": \"输入电源线×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.704, 0.738, 0.858, 0.865],\n      \"confidence\": 0.92,\n      \"image_alt\": \"加速度传感器及连接线的线稿图。\",\n      \"caption\": \"加速度传感器×1\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.971, 0.93, 0.995],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],\n  \"notes\": \"本页为带文本和线稿插图的说明书页面，不是纯扫描件；页面下半部分以包装内容示意图为主，背景有浅色 CUH 水印。\"\n}",
   "layout_parse_ok": true,
   "layout_json": {
     "regions": [
       {
         "type": "footer",
         "bbox_0_1": [
-          0.072,
-          0.052,
-          0.933,
-          0.075
+          0.07,
+          0.05,
+          0.93,
+          0.08
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.29,
+          0.105,
+          0.72,
+          0.15
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.12,
+          0.162,
+          0.88,
+          0.184
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.197,
+          0.34,
+          0.222
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.08,
+          0.235,
+          0.94,
+          0.276
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.07,
+          0.294,
+          0.93,
+          0.958
+        ],
+        "confidence": 0.9,
+        "image_alt": "包装内容示意区域，圆角边框内展示控制器、简易说明书、输出线、输入电源线和加速度传感器等随附物品。",
+        "caption": "检查包装内容",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.16,
+          0.316,
+          0.37,
+          0.655
+        ],
+        "confidence": 0.94,
+        "image_alt": "SDVC341-M 控制器外观线稿图，正面带显示屏和按键。",
+        "caption": "控制器×1",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.526,
+          0.312,
+          0.86,
+          0.655
         ],
         "confidence": 0.93,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "heading",
-        "bbox_0_1": [
-          0.166,
-          0.101,
-          0.835,
-          0.132
-        ],
-        "confidence": 0.96,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.073,
-          0.15,
-          0.87,
-          0.187
-        ],
-        "confidence": 0.95,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "heading",
-        "bbox_0_1": [
-          0.073,
-          0.197,
-          0.505,
-          0.219
-        ],
-        "confidence": 0.96,
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "paragraph",
-        "bbox_0_1": [
-          0.073,
-          0.228,
-          0.935,
-          0.287
-        ],
-        "confidence": 0.95,
+        "image_alt": "简易说明书封面图，包含产品名称、型号和二维码等信息。",
+        "caption": "简易说明书×1",
         "bbox_parse_ok": true
       },
       {
         "type": "figure",
         "bbox_0_1": [
-          0.072,
-          0.298,
-          0.933,
-          0.929
+          0.118,
+          0.719,
+          0.374,
+          0.865
         ],
-        "confidence": 0.91,
-        "image_alt": "圆角边框内展示包装内容清单，包含控制器、用户手册、输出线、输入电源线和振动传感器的示意图及数量标注。",
-        "caption": "Check Package Contents",
+        "confidence": 0.93,
+        "image_alt": "一根输出线缆的线稿图。",
+        "caption": "输出线×1",
         "bbox_parse_ok": true
       },
       {
         "type": "figure",
         "bbox_0_1": [
-          0.169,
-          0.319,
-          0.359,
-          0.683
+          0.402,
+          0.726,
+          0.654,
+          0.865
         ],
-        "confidence": 0.88,
-        "image_alt": "SDVC341-M 控制器外观线稿，下面标注 Controller×1。",
-        "caption": "Controller×1",
+        "confidence": 0.93,
+        "image_alt": "一根输入电源线缆的线稿图。",
+        "caption": "输入电源线×1",
         "bbox_parse_ok": true
       },
       {
         "type": "figure",
         "bbox_0_1": [
-          0.543,
-          0.346,
-          0.843,
-          0.683
+          0.704,
+          0.738,
+          0.858,
+          0.865
         ],
-        "confidence": 0.88,
-        "image_alt": "用户手册封面图片，下面标注 User Manual×1。",
-        "caption": "User Manual×1",
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "figure",
-        "bbox_0_1": [
-          0.103,
-          0.728,
-          0.326,
-          0.91
-        ],
-        "confidence": 0.88,
-        "image_alt": "输出线缆图片，下面标注 Output Cable×1。",
-        "caption": "Output Cable×1",
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "figure",
-        "bbox_0_1": [
-          0.386,
-          0.728,
-          0.61,
-          0.91
-        ],
-        "confidence": 0.88,
-        "image_alt": "输入电源线图片，下面标注 Input Power Cord×1。",
-        "caption": "Input Power Cord×1",
-        "bbox_parse_ok": true
-      },
-      {
-        "type": "figure",
-        "bbox_0_1": [
-          0.698,
-          0.744,
-          0.894,
-          0.91
-        ],
-        "confidence": 0.88,
-        "image_alt": "振动传感器及连接线图片，下面标注 Vibration Sensor×1。",
-        "caption": "Vibration Sensor×1",
+        "confidence": 0.92,
+        "image_alt": "加速度传感器及连接线的线稿图。",
+        "caption": "加速度传感器×1",
         "bbox_parse_ok": true
       },
       {
         "type": "footer",
         "bbox_0_1": [
-          0.073,
-          0.953,
-          0.934,
-          0.974
+          0.07,
+          0.971,
+          0.93,
+          0.995
         ],
         "confidence": 0.94,
         "bbox_parse_ok": true
@@ -169,29 +169,29 @@
       10,
       11
     ],
-    "notes": "本页为带文本层的说明书页面，不是纯扫描件。页面以章节标题、说明段落和包装内容图片清单为主，中央大区域为图示化内容。",
+    "notes": "本页为带文本和线稿插图的说明书页面，不是纯扫描件；页面下半部分以包装内容示意图为主，背景有浅色 CUH 水印。",
     "bbox_schema": "xyxy_0_1"
   },
   "raw": {
-    "id": "chatcmpl-Df0KiytM7x6L482O0imCCzA64PurM",
+    "id": "chatcmpl-DhUH5QSdh8MBuJOrTB00QAF9iY4wi",
     "model": "gpt-5.5-2026-04-24",
     "object": "chat.completion",
-    "created": 1778665100,
+    "created": 1779256851,
     "choices": [
       {
         "index": 0,
         "message": {
           "role": "assistant",
-          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.933, 0.075],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.166, 0.101, 0.835, 0.132],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.150, 0.870, 0.187],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.197, 0.505, 0.219],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.228, 0.935, 0.287],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.072, 0.298, 0.933, 0.929],\n      \"confidence\": 0.91,\n      \"image_alt\": \"圆角边框内展示包装内容清单，包含控制器、用户手册、输出线、输入电源线和振动传感器的示意图及数量标注。\",\n      \"caption\": \"Check Package Contents\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.169, 0.319, 0.359, 0.683],\n      \"confidence\": 0.88,\n      \"image_alt\": \"SDVC341-M 控制器外观线稿，下面标注 Controller×1。\",\n      \"caption\": \"Controller×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.543, 0.346, 0.843, 0.683],\n      \"confidence\": 0.88,\n      \"image_alt\": \"用户手册封面图片，下面标注 User Manual×1。\",\n      \"caption\": \"User Manual×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.103, 0.728, 0.326, 0.910],\n      \"confidence\": 0.88,\n      \"image_alt\": \"输出线缆图片，下面标注 Output Cable×1。\",\n      \"caption\": \"Output Cable×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.386, 0.728, 0.610, 0.910],\n      \"confidence\": 0.88,\n      \"image_alt\": \"输入电源线图片，下面标注 Input Power Cord×1。\",\n      \"caption\": \"Input Power Cord×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.698, 0.744, 0.894, 0.910],\n      \"confidence\": 0.88,\n      \"image_alt\": \"振动传感器及连接线图片，下面标注 Vibration Sensor×1。\",\n      \"caption\": \"Vibration Sensor×1\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.953, 0.934, 0.974],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面以章节标题、说明段落和包装内容图片清单为主，中央大区域为图示化内容。\"\n}"
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.05, 0.93, 0.08],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.29, 0.105, 0.72, 0.15],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.12, 0.162, 0.88, 0.184],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.197, 0.34, 0.222],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.08, 0.235, 0.94, 0.276],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.294, 0.93, 0.958],\n      \"confidence\": 0.9,\n      \"image_alt\": \"包装内容示意区域，圆角边框内展示控制器、简易说明书、输出线、输入电源线和加速度传感器等随附物品。\",\n      \"caption\": \"检查包装内容\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.16, 0.316, 0.37, 0.655],\n      \"confidence\": 0.94,\n      \"image_alt\": \"SDVC341-M 控制器外观线稿图，正面带显示屏和按键。\",\n      \"caption\": \"控制器×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.526, 0.312, 0.86, 0.655],\n      \"confidence\": 0.93,\n      \"image_alt\": \"简易说明书封面图，包含产品名称、型号和二维码等信息。\",\n      \"caption\": \"简易说明书×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.118, 0.719, 0.374, 0.865],\n      \"confidence\": 0.93,\n      \"image_alt\": \"一根输出线缆的线稿图。\",\n      \"caption\": \"输出线×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.402, 0.726, 0.654, 0.865],\n      \"confidence\": 0.93,\n      \"image_alt\": \"一根输入电源线缆的线稿图。\",\n      \"caption\": \"输入电源线×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.704, 0.738, 0.858, 0.865],\n      \"confidence\": 0.92,\n      \"image_alt\": \"加速度传感器及连接线的线稿图。\",\n      \"caption\": \"加速度传感器×1\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.971, 0.93, 0.995],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],\n  \"notes\": \"本页为带文本和线稿插图的说明书页面，不是纯扫描件；页面下半部分以包装内容示意图为主，背景有浅色 CUH 水印。\"\n}"
         },
         "finish_reason": "stop"
       }
     ],
     "service_tier": "default",
     "usage": {
-      "prompt_tokens": 3677,
-      "completion_tokens": 1415,
-      "total_tokens": 5092,
+      "prompt_tokens": 4024,
+      "completion_tokens": 1414,
+      "total_tokens": 5438,
       "prompt_tokens_details": {
         "audio_tokens": 0,
         "cached_tokens": 0
