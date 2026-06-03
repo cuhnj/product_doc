@@ -1,0 +1,125 @@
+{
+  "doc_id": "cuh.sdvc41.manual.v4.01.zh-CN",
+  "doc_key": "cuh.sdvc41.manual.v4.01",
+  "lang": "zh-CN",
+  "page_index": 16,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T00:32:27",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc41.manual.v4.01.zh-CN，页码=16。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封1（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录（第 8 页）\n- 第一章 性能特点（第 9 页）\n- 第二章 快速安装及使用指南（第 10 页）\n- 第三章 部件说明（第 12 页）\n  - 3.1 指示灯说明（第 12 页）\n  - 3.2 按键说明（第 13 页）\n  - 3.3 输入、输出接口及附件说明（第 13 页）\n  - 3.4 控制接口说明（第 14 页）\n- 第四章 参数调整方法（第 15 页）\n  - 4.1 常用参数（第 15 页）\n  - 4.2 基本参数（第 15 页）\n  - 4.3 高级",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.071, 0.052, 0.932, 0.075],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.134, 0.323, 0.160],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.096, 0.181, 0.556, 0.348],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.659, 0.181, 0.870, 0.350],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器面板示意图，旁边有手指指向“功能”键和上下调节键，用于说明按键进入或退出高级参数调整状态。\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.097, 0.363, 0.909, 0.923],\n      \"confidence\": 0.98,\n      \"caption\": \"高级参数\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.955, 0.917, 0.974],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为带文本层的说明书页面渲染图，不像纯扫描件。页面以“4.3 高级参数”为主，主体内容为操作说明段落、按键示意图和高级参数表格，背景有浅色CUH水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.071,
+          0.052,
+          0.932,
+          0.075
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.134,
+          0.323,
+          0.16
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.096,
+          0.181,
+          0.556,
+          0.348
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.659,
+          0.181,
+          0.87,
+          0.35
+        ],
+        "confidence": 0.94,
+        "image_alt": "控制器面板示意图，旁边有手指指向“功能”键和上下调节键，用于说明按键进入或退出高级参数调整状态。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.097,
+          0.363,
+          0.909,
+          0.923
+        ],
+        "confidence": 0.98,
+        "caption": "高级参数",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.955,
+          0.917,
+          0.974
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "本页为带文本层的说明书页面渲染图，不像纯扫描件。页面以“4.3 高级参数”为主，主体内容为操作说明段落、按键示意图和高级参数表格，背景有浅色CUH水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DminnFDEW10rCgoetdenhHeNulLPd",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780504335,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.071, 0.052, 0.932, 0.075],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.134, 0.323, 0.160],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.096, 0.181, 0.556, 0.348],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.659, 0.181, 0.870, 0.350],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器面板示意图，旁边有手指指向“功能”键和上下调节键，用于说明按键进入或退出高级参数调整状态。\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.097, 0.363, 0.909, 0.923],\n      \"confidence\": 0.98,\n      \"caption\": \"高级参数\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.955, 0.917, 0.974],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为带文本层的说明书页面渲染图，不像纯扫描件。页面以“4.3 高级参数”为主，主体内容为操作说明段落、按键示意图和高级参数表格，背景有浅色CUH水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3132,
+      "completion_tokens": 899,
+      "total_tokens": 4031,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 2816
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 451,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

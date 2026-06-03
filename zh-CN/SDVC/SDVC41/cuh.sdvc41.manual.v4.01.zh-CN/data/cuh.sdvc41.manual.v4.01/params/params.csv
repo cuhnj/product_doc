@@ -1,0 +1,107 @@
+name,symbol,range,default,unit,note,pdf_page,layout_region_index,table_md_path
+U<br> UH<br> <br> <br>SDVC34<br>智能数字自动调频振动送料控制器系列,,,,,,2,1,tables/page-0002-r01.md
+H C<br>H CU<br> <br>SDVC31<br>数字调频振动送料控制器系列,,,,,,2,1,tables/page-0002-r01.md
+<br> <br> <br>品名规格,,,,,,2,5,tables/page-0002-r05.md
+<br>H CU<br>C<br>SDVC40<br>压电数字调频振动送料控制器系列,,,,,,2,5,tables/page-0002-r05.md
+<br>输出电压,<br>,<br><br>20~220V,<br><br>150,,,15,6,tables/page-0015-r06.md
+<br>送料速度,<br>,<br><br>0~3200,<br><br>200,,,15,6,tables/page-0015-r06.md
+<br> <br>,<br> <br>,<br> <br>  40. ~4 0. H  <br>0<br>0 0 z,<br>          50.0,,,15,10,tables/page-0015-r10.md
+<br>,<br>,<br> <br><br>0.0~20.0秒,<br><br>0.2,,,15,10,tables/page-0015-r10.md
+<br> <br>,<br> <br>,<br> <br><br> <br>0.0~20.0秒,<br><br>  0.2,,,15,10,tables/page-0015-r10.md
+<br> <br>,<br> <br>,<br> <br><br>                                                 0.0~10.0秒,<br><br>                                                             0.5,,,15,10,tables/page-0015-r10.md
+<br> <br> <br>开关量输入端口E开延时,<br>,<br> <br>0.0秒~20.0秒,<br>---,,,16,4,tables/page-0016-r04.md
+<br> <br> <br> <br>开关量输入端口E关延时,<br> <br>,<br> <br> <br>0.0秒~20.0秒,<br> <br>---,,,16,4,tables/page-0016-r04.md
+<br> <br> <br> <br>开关量输入端口C逻辑方向,<br> <br>,<br> <br> <br>___常通 _-_常断,<br> <br>---,,,16,4,tables/page-0016-r04.md
+<br> <br> <br> <br>开关量输入端口E逻辑方向,<br> <br>,<br> <br> <br>___常通 _-_常断,<br> <br>---,,,16,4,tables/page-0016-r04.md
+<br> <br> <br> <br>24V直流控制输出逻辑方向,<br> <br>,<br> <br> <br>___常通 _-_常断,<br> <br>---,,,16,4,tables/page-0016-r04.md
+<br> <br> <br> <br>控制器输出是否受料控停机信号<br>控制,<br> <br>,<br> <br> <br>_<br>___<br>_ _<br>受控制<br>不受控制,<br> <br>---,,,16,4,tables/page-0016-r04.md
+<br> <br> <br> <br>控制输出逻辑关系,<br> <br>,<br> <br> <br> 主逻辑<br>副逻辑参数设置<br> 副逻辑,<br> <br>---,,,16,4,tables/page-0016-r04.md
+U<br> <br> <br>开关传感器类型,<br> <br>,<br> <br> <br>Uto：自动适应<br>nPn：NPN型传感器<br>PnP：PNP型传感器,<br> <br><br>Uto,,,16,4,tables/page-0016-r04.md
+<br> <br> <br>端口C与端口E逻辑关系<br>开关量输入,<br> <br> <br>,<br> <br> <br> <br> 或、   与、 异或,<br> <br> <br>与,,,16,4,tables/page-0016-r04.md
+<br> <br> <br>最大可设定输出电压,<br> <br> <br>,<br> <br> <br> <br>20V~220V,<br> <br> <br>220,,,16,4,tables/page-0016-r04.md
+<br> <br> <br>温度显示,<br> <br> <br>,<br> <br> <br> <br>-10.0℃~80.0℃,<br> <br> <br>当前温度,,,16,4,tables/page-0016-r04.md
+<br> <br> <br>通信协议选择,<br> <br> <br>,"<br> <br> <br> <br>ASC rtu<br>,",<br> <br> <br>rtu,,,16,4,tables/page-0016-r04.md
+<br> <br>通信地址,<br> <br>,<br> <br> <br>1~31,<br> <br> <br>1,,,16,4,tables/page-0016-r04.md
+<br> <br>通信波特率,<br> <br>,<br> <br> <br>3~1152,<br> <br> <br>9.6,,,16,4,tables/page-0016-r04.md
+<br> <br>参数密码,<br> <br>,<br> <br> <br>0~999,<br> <br> <br>---,,,16,4,tables/page-0016-r04.md
+<br> <br>开机运行状态,<br> <br>,<br> <br>H<br><br>  开机运行<br>开机跟随<br> 开机停止,<br> <br> <br><br>---,,,16,4,tables/page-0016-r04.md
+<br> <br>软件版本,<br> <br>,<br> <br> <br><br>待恢复<br>|<br> <br> <br><br>显示当前<br>软件版本,,,,16,4,tables/page-0016-r04.md
+<br> <br> <br> <br> <br>自动调频最大偏移量,,,,,,17,4,tables/page-0017-r04.md
+<br> <br> <br> <br>输出电压调整方式<br>输出频率调整方式,,,,,,17,4,tables/page-0017-r04.md
+<br> <br> <br> <br> <br>频率自动调整积分系数,,,,,,17,4,tables/page-0017-r04.md
+<br> <br> <br> <br>振幅自动调整比例系数,,,,,,17,4,tables/page-0017-r04.md
+<br> <br> <br>振幅自动调整积分系数,,,,,,17,4,tables/page-0017-r04.md
+<br> <br> <br>送料速度显示,,,,,,17,4,tables/page-0017-r04.md
+<br> <br> <br>输出电压显示,,,,,,17,4,tables/page-0017-r04.md
+<br> <br> <br>电压下限<br>,,,,,,17,4,tables/page-0017-r04.md
+<br> <br> <br>频率下限<br>最大振幅指数,,,,,,17,4,tables/page-0017-r04.md
+<br> <br>最大可设定送料速度,,,,,,17,4,tables/page-0017-r04.md
+<br> <br>相位差,,,,,,17,4,tables/page-0017-r04.md
+<br> <br>最大搜频电压,,,,,,17,4,tables/page-0017-r04.md
+<br> <br>频率搜索速度,,,,,,17,4,tables/page-0017-r04.md
+<br> <br>送料速度最小调整量,,,,,,17,4,tables/page-0017-r04.md
+<br> <br>振动传感器编号,,,,,,17,4,tables/page-0017-r04.md
+<br> <br>手动模式,,,,,,18,3,tables/page-0018-r03.md
+<br> <br>自动模式,,,,,,18,3,tables/page-0018-r03.md
+<br> <br>半自动模式,,,,,,18,3,tables/page-0018-r03.md
+<br><br>工作模式,,,,,,18,6,tables/page-0018-r06.md
+<br><br>   手动模式,,,,,,18,6,tables/page-0018-r06.md
+<br> <br>2,,,,,,25,11,tables/page-0025-r11.md
+<br> <br>3,,,,,,25,11,tables/page-0025-r11.md
+<br> <br>4,,,,,,25,11,tables/page-0025-r11.md
+<br>203,,,,,,25,11,tables/page-0025-r11.md
+<br>204,,,,,,25,11,tables/page-0025-r11.md
+<br>205,,,,,,25,11,tables/page-0025-r11.md
+<br>206,,,,,,25,11,tables/page-0025-r11.md
+<br>同步模式,,,,,,28,3,tables/page-0028-r03.md
+<br>手动,,,,,,30,3,tables/page-0030-r03.md
+<br>主控制器,,,,,,31,4,tables/page-0031-r04.md
+<br> <br>从控制器,,,,,,32,2,tables/page-0032-r02.md
+<br> <br>主控制器,,,,,,33,2,tables/page-0033-r02.md
+<br>从控制器,,,,,,33,4,tables/page-0033-r04.md
+<br>,,,,,,48,5,tables/page-0048-r05.md
+<br> <br>1-5V/4~20mA,,,,,,48,5,tables/page-0048-r05.md
+<br>速度1,,,,,,49,3,tables/page-0049-r03.md
+<br>速度2,,,,,,49,3,tables/page-0049-r03.md
+<br>速度3,,,,,,49,3,tables/page-0049-r03.md
+<br>速度4,,,,,,49,3,tables/page-0049-r03.md
+<br> <br> <br> <br>输入电压,,<br> <br> <br> <br>220,,,,58,2,tables/page-0058-r02.md
+<br> <br> <br> <br>输出电压调整范围,,<br> <br> <br> <br>——,,,,58,2,tables/page-0058-r02.md
+<br> <br> <br> <br>电压调整精度,,<br> <br> <br> <br>1,,,,58,2,tables/page-0058-r02.md
+<br> <br> <br> <br>稳压精度,,<br> <br> <br> <br>——,,,,58,2,tables/page-0058-r02.md
+<br> <br> <br> <br>稳压响应时间,,<br> <br> <br> <br>——,,,,58,2,tables/page-0058-r02.md
+<br> <br> <br>输出电流调整范围,,<br> <br> <br>——,,,,58,2,tables/page-0058-r02.md
+<br> <br> <br>输出功率,,<br> <br> <br>——,,,,58,2,tables/page-0058-r02.md
+<br> <br> <br>输出频率,,<br> <br> <br> <br>——,,,,58,2,tables/page-0058-r02.md
+<br> <br> <br>频率调整精度,,<br> <br> <br> <br>0. 1,,,,58,2,tables/page-0058-r02.md
+<br> <br> <br>输出波形,,<br> <br> <br> <br>正弦,,,,58,2,tables/page-0058-r02.md
+<br> <br> <br>缓启动时间,,<br> <br> <br> <br>——,,,,58,2,tables/page-0058-r02.md
+<br> <br> <br>延迟时间范围,,<br> <br> <br> <br>——,,,,58,2,tables/page-0058-r02.md
+<br> <br> <br>延迟时间精度,,<br> <br> <br> <br>0. 1,,,,58,2,tables/page-0058-r02.md
+<br> <br>过热保护温度,,<br> <br> <br>65,,,,58,2,tables/page-0058-r02.md
+<br> <br>数字通讯,,<br> <br> <br>ModBus 485 通讯,,,,58,2,tables/page-0058-r02.md
+<br> <br>直流控制输出电压,,<br> <br> <br>24,,,,58,2,tables/page-0058-r02.md
+<br> <br>直流控制输出电流,,<br> <br> <br>——,,,,58,2,tables/page-0058-r02.md
+<br> <br>模拟控制信号,,<br> <br> <br> <br>1~5 4~20<br>/,,,,58,2,tables/page-0058-r02.md
+<br> <br>数字控制信号,,<br> <br> <br> <br>24,,,,58,2,tables/page-0058-r02.md
+<br> <br>调整方式,,<br> <br> <br> <br>6,,,,58,2,tables/page-0058-r02.md
+<br>空载功耗,,<br> <br>3,,,,58,2,tables/page-0058-r02.md
+<br>显示方式,,<br> <br> <br>5,,,,58,2,tables/page-0058-r02.md
+<br>工作环境温度,,<br> <br>25,,,,58,2,tables/page-0058-r02.md
+<br>工作环境湿度,,<br> <br>60,,,,58,2,tables/page-0058-r02.md
+<br>存储环境温度,,<br> <br>25,,,,58,2,tables/page-0058-r02.md
+<br> <br> <br>,,,,,,59,3,tables/page-0059-r03.md
+<br> <br> <br>,,,,,,59,3,tables/page-0059-r03.md
+<br> <br>,,,,,,59,3,tables/page-0059-r03.md
+<br> <br>,,,,,,59,3,tables/page-0059-r03.md
+<br> <br>,,,,,,59,3,tables/page-0059-r03.md
+<br>,,,,,,59,3,tables/page-0059-r03.md
+<br>,,,,,,59,3,tables/page-0059-r03.md
+U<br> CUH<br> <br> <br> <br>SDVC10、11<br>数字稳压振动送料控制器系列,,,,,,63,1,tables/page-0063-r01.md
+U<br> CUH<br> <br> <br> <br>SDVC10、11<br>数字稳压振动送料控制器系列,,,,,,63,1,tables/page-0063-r01.md
+U<br> CUH<br> <br> <br> <br>SDVC10、11<br>数字稳压振动送料控制器系列,,,,,,63,1,tables/page-0063-r01.md
+U<br> CUH<br> <br> <br> <br>SDVC10、11<br>数字稳压振动送料控制器系列,,,,,,63,1,tables/page-0063-r01.md
+<br> CUH C<br>CUH<br> <br>SDVC20、22<br>智能数字稳压振动送料控制器系列,,,,,,63,1,tables/page-0063-r01.md
+<br> CUH C<br>CUH<br> <br>SDVC20、22<br>智能数字稳压振动送料控制器系列,,,,,,63,1,tables/page-0063-r01.md
+<br> CUH C<br>CUH<br> <br>SDVC20、22<br>智能数字稳压振动送料控制器系列,,,,,,63,1,tables/page-0063-r01.md
+<br> CUH C<br>CUH<br> <br>SDVC20、22<br>智能数字稳压振动送料控制器系列,,,,,,63,1,tables/page-0063-r01.md

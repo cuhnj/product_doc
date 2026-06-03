@@ -1,0 +1,125 @@
+{
+  "doc_id": "cuh.sdvc41.manual.v4.01.zh-CN",
+  "doc_key": "cuh.sdvc41.manual.v4.01",
+  "lang": "zh-CN",
+  "page_index": 17,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T00:32:30",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc41.manual.v4.01.zh-CN，页码=17。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封1（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录（第 8 页）\n- 第一章 性能特点（第 9 页）\n- 第二章 快速安装及使用指南（第 10 页）\n- 第三章 部件说明（第 12 页）\n  - 3.1 指示灯说明（第 12 页）\n  - 3.2 按键说明（第 13 页）\n  - 3.3 输入、输出接口及附件说明（第 13 页）\n  - 3.4 控制接口说明（第 14 页）\n- 第四章 参数调整方法（第 15 页）\n  - 4.1 常用参数（第 15 页）\n  - 4.2 基本参数（第 15 页）\n  - 4.3 高级",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [\n        0.0716,\n        0.0513,\n        0.9336,\n        0.0734\n      ],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.0742,\n        0.1353,\n        0.3906,\n        0.1636\n      ],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.0964,\n        0.1848,\n        0.6302,\n        0.3758\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [\n        0.668,\n        0.1813,\n        0.8672,\n        0.3634\n      ],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器面板示意图，旁边有双手按键操作示意，用于配合说明进入或退出自动/同步参数调整状态。\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [\n        0.0898,\n        0.397,\n        0.9141,\n        0.8806\n      ],\n      \"confidence\": 0.98,\n      \"caption\": \"自动/同步参数表\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.0716,\n        0.9584,\n        0.9349,\n        0.9823\n      ],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5\n  ],\n  \"notes\": \"本页为带文本层的说明书页面，不像纯扫描件。页面主体是“4.4 自动/同步参数”的操作说明和参数表，右上有一幅按键操作示意图；背景有浅色水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.0716,
+          0.0513,
+          0.9336,
+          0.0734
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.0742,
+          0.1353,
+          0.3906,
+          0.1636
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.0964,
+          0.1848,
+          0.6302,
+          0.3758
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.668,
+          0.1813,
+          0.8672,
+          0.3634
+        ],
+        "confidence": 0.94,
+        "image_alt": "控制器面板示意图，旁边有双手按键操作示意，用于配合说明进入或退出自动/同步参数调整状态。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.0898,
+          0.397,
+          0.9141,
+          0.8806
+        ],
+        "confidence": 0.98,
+        "caption": "自动/同步参数表",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.0716,
+          0.9584,
+          0.9349,
+          0.9823
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "本页为带文本层的说明书页面，不像纯扫描件。页面主体是“4.4 自动/同步参数”的操作说明和参数表，右上有一幅按键操作示意图；背景有浅色水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DminoXt1LyOEbW7U4kryK4oFot22R",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780504336,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [\n        0.0716,\n        0.0513,\n        0.9336,\n        0.0734\n      ],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.0742,\n        0.1353,\n        0.3906,\n        0.1636\n      ],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.0964,\n        0.1848,\n        0.6302,\n        0.3758\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [\n        0.668,\n        0.1813,\n        0.8672,\n        0.3634\n      ],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器面板示意图，旁边有双手按键操作示意，用于配合说明进入或退出自动/同步参数调整状态。\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [\n        0.0898,\n        0.397,\n        0.9141,\n        0.8806\n      ],\n      \"confidence\": 0.98,\n      \"caption\": \"自动/同步参数表\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.0716,\n        0.9584,\n        0.9349,\n        0.9823\n      ],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5\n  ],\n  \"notes\": \"本页为带文本层的说明书页面，不像纯扫描件。页面主体是“4.4 自动/同步参数”的操作说明和参数表，右上有一幅按键操作示意图；背景有浅色水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3071,
+      "completion_tokens": 1020,
+      "total_tokens": 4091,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 507,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

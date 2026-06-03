@@ -1,0 +1,138 @@
+{
+  "doc_id": "cuh.sdvc41.manual.v4.01.zh-CN",
+  "doc_key": "cuh.sdvc41.manual.v4.01",
+  "lang": "zh-CN",
+  "page_index": 33,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T00:33:04",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc41.manual.v4.01.zh-CN，页码=33。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封1（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录（第 8 页）\n- 第一章 性能特点（第 9 页）\n- 第二章 快速安装及使用指南（第 10 页）\n- 第三章 部件说明（第 12 页）\n  - 3.1 指示灯说明（第 12 页）\n  - 3.2 按键说明（第 13 页）\n  - 3.3 输入、输出接口及附件说明（第 13 页）\n  - 3.4 控制接口说明（第 14 页）\n- 第四章 参数调整方法（第 15 页）\n  - 4.1 常用参数（第 15 页）\n  - 4.2 基本参数（第 15 页）\n  - 4.3 高级",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.052, 0.933, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.096, 0.148, 0.245, 0.168],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.098, 0.172, 0.913, 0.314],\n      \"confidence\": 0.96,\n      \"caption\": \"同步组态5\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.096, 0.335, 0.245, 0.356],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.098, 0.357, 0.913, 0.499],\n      \"confidence\": 0.96,\n      \"caption\": \"同步组态6\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.083, 0.522, 0.902, 0.765],\n      \"confidence\": 0.94,\n      \"image_alt\": \"主控制器与从控制器连接到振动送料盘的接线示意图，图中标注主控制器、从控制器、控制器同步线、振动传感器连接线、主控制器输出线、从控制器输出线以及振动传感器位置。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.953, 0.933, 0.977],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页不是纯扫描件，文字、表格线和接线图呈现为清晰的PDF渲染内容。页面以两张同步组态表和一幅主从控制器接线示意图为主，背景有淡色水印；页脚显示日期、印刷页码和文档版本标识。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.073,
+          0.052,
+          0.933,
+          0.075
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.096,
+          0.148,
+          0.245,
+          0.168
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.098,
+          0.172,
+          0.913,
+          0.314
+        ],
+        "confidence": 0.96,
+        "caption": "同步组态5",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.096,
+          0.335,
+          0.245,
+          0.356
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.098,
+          0.357,
+          0.913,
+          0.499
+        ],
+        "confidence": 0.96,
+        "caption": "同步组态6",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.083,
+          0.522,
+          0.902,
+          0.765
+        ],
+        "confidence": 0.94,
+        "image_alt": "主控制器与从控制器连接到振动送料盘的接线示意图，图中标注主控制器、从控制器、控制器同步线、振动传感器连接线、主控制器输出线、从控制器输出线以及振动传感器位置。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.073,
+          0.953,
+          0.933,
+          0.977
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "notes": "本页不是纯扫描件，文字、表格线和接线图呈现为清晰的PDF渲染内容。页面以两张同步组态表和一幅主从控制器接线示意图为主，背景有淡色水印；页脚显示日期、印刷页码和文档版本标识。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmioL3sWijwscXdXGpxlHX5NQGjmp",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780504369,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.052, 0.933, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.096, 0.148, 0.245, 0.168],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.098, 0.172, 0.913, 0.314],\n      \"confidence\": 0.96,\n      \"caption\": \"同步组态5\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.096, 0.335, 0.245, 0.356],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.098, 0.357, 0.913, 0.499],\n      \"confidence\": 0.96,\n      \"caption\": \"同步组态6\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.083, 0.522, 0.902, 0.765],\n      \"confidence\": 0.94,\n      \"image_alt\": \"主控制器与从控制器连接到振动送料盘的接线示意图，图中标注主控制器、从控制器、控制器同步线、振动传感器连接线、主控制器输出线、从控制器输出线以及振动传感器位置。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.953, 0.933, 0.977],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页不是纯扫描件，文字、表格线和接线图呈现为清晰的PDF渲染内容。页面以两张同步组态表和一幅主从控制器接线示意图为主，背景有淡色水印；页脚显示日期、印刷页码和文档版本标识。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2833,
+      "completion_tokens": 1024,
+      "total_tokens": 3857,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 467,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

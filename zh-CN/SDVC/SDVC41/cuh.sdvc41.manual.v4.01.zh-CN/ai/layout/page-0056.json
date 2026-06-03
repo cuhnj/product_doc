@@ -1,0 +1,153 @@
+{
+  "doc_id": "cuh.sdvc41.manual.v4.01.zh-CN",
+  "doc_key": "cuh.sdvc41.manual.v4.01",
+  "lang": "zh-CN",
+  "page_index": 56,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T00:44:17",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc41.manual.v4.01.zh-CN，页码=56。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封1（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录（第 8 页）\n- 第一章 性能特点（第 9 页）\n- 第二章 快速安装及使用指南（第 10 页）\n- 第三章 部件说明（第 12 页）\n  - 3.1 指示灯说明（第 12 页）\n  - 3.2 按键说明（第 13 页）\n  - 3.3 输入、输出接口及附件说明（第 13 页）\n  - 3.4 控制接口说明（第 14 页）\n- 第四章 参数调整方法（第 15 页）\n  - 4.1 常用参数（第 15 页）\n  - 4.2 基本参数（第 15 页）\n  - 4.3 高级",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.052, 0.932, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.169, 0.327, 0.189],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.143, 0.197, 0.735, 0.342],\n      \"confidence\": 0.96,\n      \"caption\": \"端口E：料满停机 II\",\n      \"image_alt\": \"端口E的接线示意图，右侧端子标注为E1地线、E2输入、E3 +24V，左侧含+24V(NPN)、0V(PNP)、NPN、2.4K电阻及接地符号等连接示意。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.397, 0.280, 0.418],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.143, 0.420, 0.735, 0.566],\n      \"confidence\": 0.96,\n      \"caption\": \"端口F：485通讯\",\n      \"image_alt\": \"端口F的485通讯接线示意图，右侧端子标注为F2 A+、F3地线、F4 B-，左侧含3KΩ电阻、接地符号和两条信号线。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.616, 0.283, 0.637],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.143, 0.643, 0.737, 0.896],\n      \"confidence\": 0.96,\n      \"caption\": \"端口G：速度预设\",\n      \"image_alt\": \"端口G的速度预设接线示意图，右侧端子标注为G1地线、G2输入、G4输入、G3地线；左侧包含两组+24V(NPN)、0V(PNP)、2.4K电阻、信号箭头及接地符号。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.958, 0.932, 0.979],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页看起来是PDF渲染的矢量/文本页面，不是纯扫描件。页面以端口接线示意图为主，包含页眉、三组端口说明图和页脚，背景有淡色水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.052,
+          0.932,
+          0.075
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.169,
+          0.327,
+          0.189
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.143,
+          0.197,
+          0.735,
+          0.342
+        ],
+        "confidence": 0.96,
+        "caption": "端口E：料满停机 II",
+        "image_alt": "端口E的接线示意图，右侧端子标注为E1地线、E2输入、E3 +24V，左侧含+24V(NPN)、0V(PNP)、NPN、2.4K电阻及接地符号等连接示意。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.397,
+          0.28,
+          0.418
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.143,
+          0.42,
+          0.735,
+          0.566
+        ],
+        "confidence": 0.96,
+        "caption": "端口F：485通讯",
+        "image_alt": "端口F的485通讯接线示意图，右侧端子标注为F2 A+、F3地线、F4 B-，左侧含3KΩ电阻、接地符号和两条信号线。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.616,
+          0.283,
+          0.637
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.143,
+          0.643,
+          0.737,
+          0.896
+        ],
+        "confidence": 0.96,
+        "caption": "端口G：速度预设",
+        "image_alt": "端口G的速度预设接线示意图，右侧端子标注为G1地线、G2输入、G4输入、G3地线；左侧包含两组+24V(NPN)、0V(PNP)、2.4K电阻、信号箭头及接地符号。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.958,
+          0.932,
+          0.979
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "notes": "本页看起来是PDF渲染的矢量/文本页面，不是纯扫描件。页面以端口接线示意图为主，包含页眉、三组端口说明图和页脚，背景有淡色水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmizBTqKrpbcDEwfZdetEO8Dtj3wB",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780505041,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.052, 0.932, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.169, 0.327, 0.189],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.143, 0.197, 0.735, 0.342],\n      \"confidence\": 0.96,\n      \"caption\": \"端口E：料满停机 II\",\n      \"image_alt\": \"端口E的接线示意图，右侧端子标注为E1地线、E2输入、E3 +24V，左侧含+24V(NPN)、0V(PNP)、NPN、2.4K电阻及接地符号等连接示意。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.397, 0.280, 0.418],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.143, 0.420, 0.735, 0.566],\n      \"confidence\": 0.96,\n      \"caption\": \"端口F：485通讯\",\n      \"image_alt\": \"端口F的485通讯接线示意图，右侧端子标注为F2 A+、F3地线、F4 B-，左侧含3KΩ电阻、接地符号和两条信号线。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.616, 0.283, 0.637],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.143, 0.643, 0.737, 0.896],\n      \"confidence\": 0.96,\n      \"caption\": \"端口G：速度预设\",\n      \"image_alt\": \"端口G的速度预设接线示意图，右侧端子标注为G1地线、G2输入、G4输入、G3地线；左侧包含两组+24V(NPN)、0V(PNP)、2.4K电阻、信号箭头及接地符号。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.958, 0.932, 0.979],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页看起来是PDF渲染的矢量/文本页面，不是纯扫描件。页面以端口接线示意图为主，包含页眉、三组端口说明图和页脚，背景有淡色水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2697,
+      "completion_tokens": 1124,
+      "total_tokens": 3821,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 380,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}
