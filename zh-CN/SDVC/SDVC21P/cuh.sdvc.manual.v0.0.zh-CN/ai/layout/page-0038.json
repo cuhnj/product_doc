@@ -1,0 +1,100 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 38,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T15:08:46",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=38。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 空白（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 空白（第 8 页）\n- 9: 1（第 9 页）\n- 10: 2（第 10 页）\n- 11: 3（第 11 页）\n- 12: 4（第 12 页）\n- 13: 5（第 13 页）\n- 14: 6（第 14 页）\n- 15: 7（第 15 页）\n- 16: 8（第 16 页）\n- 17: 9（第 17 页）\n- 18: 10（第 18 页）\n- 19: 11（第 19 页）\n- 20: 12（第 20 页）\n- 21: 13（第 21 页）\n- 22: 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.073, 0.052, 0.935, 0.076],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.074, 0.158, 0.735, 0.178],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.116, 0.226, 0.879, 0.865],\n      \"confidence\": 0.97,\n      \"image_alt\": \"SDVC21-XLP智能数字振动送料控制器的外形尺寸工程图，包含俯视图和侧视图，标注了长度、宽度、高度、孔位、圆角/孔径等尺寸，单位为毫米。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.952, 0.934, 0.978],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3],\n  \"notes\": \"本页为产品外形尺寸图页面，以工程制图为主，正文文字较少。页面看起来不是普通扫描件，更像由PDF矢量/文本内容渲染而成；背景有浅色CUH水印，文本层节选不完整。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.073,
+          0.052,
+          0.935,
+          0.076
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.074,
+          0.158,
+          0.735,
+          0.178
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.116,
+          0.226,
+          0.879,
+          0.865
+        ],
+        "confidence": 0.97,
+        "image_alt": "SDVC21-XLP智能数字振动送料控制器的外形尺寸工程图，包含俯视图和侧视图，标注了长度、宽度、高度、孔位、圆角/孔径等尺寸，单位为毫米。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.073,
+          0.952,
+          0.934,
+          0.978
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "notes": "本页为产品外形尺寸图页面，以工程制图为主，正文文字较少。页面看起来不是普通扫描件，更像由PDF矢量/文本内容渲染而成；背景有浅色CUH水印，文本层节选不完整。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnIxOG4dzuH5gPlWsgLwSS0BQZKwZ",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780643314,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.073, 0.052, 0.935, 0.076],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.074, 0.158, 0.735, 0.178],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.116, 0.226, 0.879, 0.865],\n      \"confidence\": 0.97,\n      \"image_alt\": \"SDVC21-XLP智能数字振动送料控制器的外形尺寸工程图，包含俯视图和侧视图，标注了长度、宽度、高度、孔位、圆角/孔径等尺寸，单位为毫米。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.952, 0.934, 0.978],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3],\n  \"notes\": \"本页为产品外形尺寸图页面，以工程制图为主，正文文字较少。页面看起来不是普通扫描件，更像由PDF矢量/文本内容渲染而成；背景有浅色CUH水印，文本层节选不完整。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 1941,
+      "completion_tokens": 867,
+      "total_tokens": 2808,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

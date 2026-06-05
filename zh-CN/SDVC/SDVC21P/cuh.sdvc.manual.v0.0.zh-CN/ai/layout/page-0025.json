@@ -1,0 +1,161 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 25,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T15:08:27",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=25。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 空白（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 空白（第 8 页）\n- 9: 1（第 9 页）\n- 10: 2（第 10 页）\n- 11: 3（第 11 页）\n- 12: 4（第 12 页）\n- 13: 5（第 13 页）\n- 14: 6（第 14 页）\n- 15: 7（第 15 页）\n- 16: 8（第 16 页）\n- 17: 9（第 17 页）\n- 18: 10（第 18 页）\n- 19: 11（第 19 页）\n- 20: 12（第 20 页）\n- 21: 13（第 21 页）\n- 22: 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.073, 0.050, 0.934, 0.075],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.074, 0.158, 0.748, 0.178],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.074, 0.188, 0.923, 0.269],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.110, 0.318, 0.407, 0.455],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.573, 0.317, 0.868, 0.526],\n      \"confidence\": 0.91,\n      \"image_alt\": \"控制器面板示意图，上方数码显示区域标注开关传感器逻辑方向，旁注表示“常通”。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.573, 0.563, 0.868, 0.765],\n      \"confidence\": 0.91,\n      \"image_alt\": \"控制器面板示意图，上方数码显示区域标注开关传感器逻辑方向，旁注表示“常断”。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.107, 0.799, 0.902, 0.904],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.073, 0.292, 0.935, 0.921],\n      \"confidence\": 0.78,\n      \"image_alt\": \"带圆角边框的综合说明框，包含操作步骤文字、两幅控制器面板示意图和底部灰底说明文字。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.952, 0.934, 0.977],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 8],\n  \"notes\": \"本页看起来是由 PDF 渲染得到的说明书页面，文字和线稿清晰，非单纯扫描件。页面以文字说明为主，配有控制器面板操作示意图；背景有较淡的重复水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.073,
+          0.05,
+          0.934,
+          0.075
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.074,
+          0.158,
+          0.748,
+          0.178
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.074,
+          0.188,
+          0.923,
+          0.269
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.11,
+          0.318,
+          0.407,
+          0.455
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.573,
+          0.317,
+          0.868,
+          0.526
+        ],
+        "confidence": 0.91,
+        "image_alt": "控制器面板示意图，上方数码显示区域标注开关传感器逻辑方向，旁注表示“常通”。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.573,
+          0.563,
+          0.868,
+          0.765
+        ],
+        "confidence": 0.91,
+        "image_alt": "控制器面板示意图，上方数码显示区域标注开关传感器逻辑方向，旁注表示“常断”。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.107,
+          0.799,
+          0.902,
+          0.904
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.073,
+          0.292,
+          0.935,
+          0.921
+        ],
+        "confidence": 0.78,
+        "image_alt": "带圆角边框的综合说明框，包含操作步骤文字、两幅控制器面板示意图和底部灰底说明文字。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.073,
+          0.952,
+          0.934,
+          0.977
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "notes": "本页看起来是由 PDF 渲染得到的说明书页面，文字和线稿清晰，非单纯扫描件。页面以文字说明为主，配有控制器面板操作示意图；背景有较淡的重复水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnIx0aZrNDu5LuCIwL8VPD742qjdZ",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780643290,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.073, 0.050, 0.934, 0.075],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.074, 0.158, 0.748, 0.178],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.074, 0.188, 0.923, 0.269],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.110, 0.318, 0.407, 0.455],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.573, 0.317, 0.868, 0.526],\n      \"confidence\": 0.91,\n      \"image_alt\": \"控制器面板示意图，上方数码显示区域标注开关传感器逻辑方向，旁注表示“常通”。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.573, 0.563, 0.868, 0.765],\n      \"confidence\": 0.91,\n      \"image_alt\": \"控制器面板示意图，上方数码显示区域标注开关传感器逻辑方向，旁注表示“常断”。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.107, 0.799, 0.902, 0.904],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.073, 0.292, 0.935, 0.921],\n      \"confidence\": 0.78,\n      \"image_alt\": \"带圆角边框的综合说明框，包含操作步骤文字、两幅控制器面板示意图和底部灰底说明文字。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.952, 0.934, 0.977],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 8],\n  \"notes\": \"本页看起来是由 PDF 渲染得到的说明书页面，文字和线稿清晰，非单纯扫描件。页面以文字说明为主，配有控制器面板操作示意图；背景有较淡的重复水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 1941,
+      "completion_tokens": 1169,
+      "total_tokens": 3110,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

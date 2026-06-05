@@ -1,0 +1,142 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 29,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T15:08:42",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=29。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 空白（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 空白（第 8 页）\n- 9: 1（第 9 页）\n- 10: 2（第 10 页）\n- 11: 3（第 11 页）\n- 12: 4（第 12 页）\n- 13: 5（第 13 页）\n- 14: 6（第 14 页）\n- 15: 7（第 15 页）\n- 16: 8（第 16 页）\n- 17: 9（第 17 页）\n- 18: 10（第 18 页）\n- 19: 11（第 19 页）\n- 20: 12（第 20 页）\n- 21: 13（第 21 页）\n- 22: 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.073, 0.051, 0.935, 0.075],\n      \"confidence\": 0.88,\n      \"text\": \"页眉：智能数字稳压振动送料控制器 / SDVC21P系列\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.075, 0.156, 0.795, 0.184],\n      \"confidence\": 0.96,\n      \"text\": \"5.4 控制信号逻辑关系设定（此需要在专业电气工程师的指导下使用）\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.132, 0.198, 0.807, 0.216],\n      \"confidence\": 0.95,\n      \"text\": \"本控制器可以设定智能光电传感与开关传感器同时作用时的逻辑关系。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.103, 0.266, 0.480, 0.436],\n      \"confidence\": 0.92,\n      \"text\": \"左上侧为三条操作说明项目符号，说明长按/短按“功能”键以及使用“▲”“▼”改变逻辑方向。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.098, 0.508, 0.468, 0.839],\n      \"confidence\": 0.91,\n      \"text\": \"左下灰底说明框，解释逻辑“与”、逻辑“或”、逻辑“异或”的含义。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.486, 0.260, 0.920, 0.915],\n      \"confidence\": 0.93,\n      \"image_alt\": \"右侧为三组控制器面板示意图及文字标注，分别展示控制信号逻辑关系设定界面中逻辑“或”、逻辑“与”、逻辑“异或”的选择状态；每组图中有控制器显示屏、上下方向键、功能键、开/关键，以及手指按键示意和引线标注。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.953, 0.931, 0.976],\n      \"confidence\": 0.90,\n      \"text\": \"页脚：2019-10 / -21- / SDVC21PSMSCN_4.02\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页为数字版说明书页面渲染，非典型扫描件；页面以操作说明文字和控制器示意图为主，无表格。背景可见淡色水印，文本层节选不完整。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.073,
+          0.051,
+          0.935,
+          0.075
+        ],
+        "confidence": 0.88,
+        "text": "页眉：智能数字稳压振动送料控制器 / SDVC21P系列",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.075,
+          0.156,
+          0.795,
+          0.184
+        ],
+        "confidence": 0.96,
+        "text": "5.4 控制信号逻辑关系设定（此需要在专业电气工程师的指导下使用）",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.132,
+          0.198,
+          0.807,
+          0.216
+        ],
+        "confidence": 0.95,
+        "text": "本控制器可以设定智能光电传感与开关传感器同时作用时的逻辑关系。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.103,
+          0.266,
+          0.48,
+          0.436
+        ],
+        "confidence": 0.92,
+        "text": "左上侧为三条操作说明项目符号，说明长按/短按“功能”键以及使用“▲”“▼”改变逻辑方向。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.098,
+          0.508,
+          0.468,
+          0.839
+        ],
+        "confidence": 0.91,
+        "text": "左下灰底说明框，解释逻辑“与”、逻辑“或”、逻辑“异或”的含义。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.486,
+          0.26,
+          0.92,
+          0.915
+        ],
+        "confidence": 0.93,
+        "image_alt": "右侧为三组控制器面板示意图及文字标注，分别展示控制信号逻辑关系设定界面中逻辑“或”、逻辑“与”、逻辑“异或”的选择状态；每组图中有控制器显示屏、上下方向键、功能键、开/关键，以及手指按键示意和引线标注。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.073,
+          0.953,
+          0.931,
+          0.976
+        ],
+        "confidence": 0.9,
+        "text": "页脚：2019-10 / -21- / SDVC21PSMSCN_4.02",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "notes": "本页为数字版说明书页面渲染，非典型扫描件；页面以操作说明文字和控制器示意图为主，无表格。背景可见淡色水印，文本层节选不完整。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnIx3Chz7daKBVcZApo8tg1f150yR",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780643293,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.073, 0.051, 0.935, 0.075],\n      \"confidence\": 0.88,\n      \"text\": \"页眉：智能数字稳压振动送料控制器 / SDVC21P系列\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.075, 0.156, 0.795, 0.184],\n      \"confidence\": 0.96,\n      \"text\": \"5.4 控制信号逻辑关系设定（此需要在专业电气工程师的指导下使用）\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.132, 0.198, 0.807, 0.216],\n      \"confidence\": 0.95,\n      \"text\": \"本控制器可以设定智能光电传感与开关传感器同时作用时的逻辑关系。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.103, 0.266, 0.480, 0.436],\n      \"confidence\": 0.92,\n      \"text\": \"左上侧为三条操作说明项目符号，说明长按/短按“功能”键以及使用“▲”“▼”改变逻辑方向。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.098, 0.508, 0.468, 0.839],\n      \"confidence\": 0.91,\n      \"text\": \"左下灰底说明框，解释逻辑“与”、逻辑“或”、逻辑“异或”的含义。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.486, 0.260, 0.920, 0.915],\n      \"confidence\": 0.93,\n      \"image_alt\": \"右侧为三组控制器面板示意图及文字标注，分别展示控制信号逻辑关系设定界面中逻辑“或”、逻辑“与”、逻辑“异或”的选择状态；每组图中有控制器显示屏、上下方向键、功能键、开/关键，以及手指按键示意和引线标注。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.953, 0.931, 0.976],\n      \"confidence\": 0.90,\n      \"text\": \"页脚：2019-10 / -21- / SDVC21PSMSCN_4.02\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页为数字版说明书页面渲染，非典型扫描件；页面以操作说明文字和控制器示意图为主，无表格。背景可见淡色水印，文本层节选不完整。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 1941,
+      "completion_tokens": 1749,
+      "total_tokens": 3690,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

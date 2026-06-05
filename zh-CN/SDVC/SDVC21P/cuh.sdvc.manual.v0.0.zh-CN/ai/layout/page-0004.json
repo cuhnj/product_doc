@@ -1,0 +1,124 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 4,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T15:07:46",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=4。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 空白（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 空白（第 8 页）\n- 9: 1（第 9 页）\n- 10: 2（第 10 页）\n- 11: 3（第 11 页）\n- 12: 4（第 12 页）\n- 13: 5（第 13 页）\n- 14: 6（第 14 页）\n- 15: 7（第 15 页）\n- 16: 8（第 16 页）\n- 17: 9（第 17 页）\n- 18: 10（第 18 页）\n- 19: 11（第 19 页）\n- 20: 12（第 20 页）\n- 21: 13（第 21 页）\n- 22: 14",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.073, 0.051, 0.932, 0.076],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.095, 0.141, 0.49, 0.166],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.075, 0.184, 0.925, 0.488],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.111, 0.587, 0.19, 0.642],\n      \"confidence\": 0.88,\n      \"image_alt\": \"提示框左上方的笑脸提示图标\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.624, 0.936, 0.755],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.953, 0.934, 0.974],\n      \"confidence\": 0.9\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为“注意事项”页，版面以文字说明为主，顶部有产品系列页眉线，底部有日期/文档编号页脚线。页面背景有淡色重复水印。未见表格；下方有一个带笑脸图标的圆角提示框。整体不像扫描件，更像数字排版渲染页。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.073,
+          0.051,
+          0.932,
+          0.076
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.095,
+          0.141,
+          0.49,
+          0.166
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.075,
+          0.184,
+          0.925,
+          0.488
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.111,
+          0.587,
+          0.19,
+          0.642
+        ],
+        "confidence": 0.88,
+        "image_alt": "提示框左上方的笑脸提示图标",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.624,
+          0.936,
+          0.755
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.073,
+          0.953,
+          0.934,
+          0.974
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "本页为“注意事项”页，版面以文字说明为主，顶部有产品系列页眉线，底部有日期/文档编号页脚线。页面背景有淡色重复水印。未见表格；下方有一个带笑脸图标的圆角提示框。整体不像扫描件，更像数字排版渲染页。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnIwMJTDw0FuFeH8zUL1T8EDipeUl",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780643250,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.073, 0.051, 0.932, 0.076],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.095, 0.141, 0.49, 0.166],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.075, 0.184, 0.925, 0.488],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.111, 0.587, 0.19, 0.642],\n      \"confidence\": 0.88,\n      \"image_alt\": \"提示框左上方的笑脸提示图标\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.624, 0.936, 0.755],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.953, 0.934, 0.974],\n      \"confidence\": 0.9\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为“注意事项”页，版面以文字说明为主，顶部有产品系列页眉线，底部有日期/文档编号页脚线。页面背景有淡色重复水印。未见表格；下方有一个带笑脸图标的圆角提示框。整体不像扫描件，更像数字排版渲染页。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 1941,
+      "completion_tokens": 946,
+      "total_tokens": 2887,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

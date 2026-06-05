@@ -1,0 +1,234 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 36,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T15:08:56",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=36。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 空白（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 空白（第 8 页）\n- 9: 1（第 9 页）\n- 10: 2（第 10 页）\n- 11: 3（第 11 页）\n- 12: 4（第 12 页）\n- 13: 5（第 13 页）\n- 14: 6（第 14 页）\n- 15: 7（第 15 页）\n- 16: 8（第 16 页）\n- 17: 9（第 17 页）\n- 18: 10（第 18 页）\n- 19: 11（第 19 页）\n- 20: 12（第 20 页）\n- 21: 13（第 21 页）\n- 22: 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.07, 0.05, 0.93, 0.075],\n      \"confidence\": 0.9,\n      \"text\": \"页眉：智能数字稳压振动送料控制器 / SDVC21P系列\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.32, 0.11, 0.68, 0.14],\n      \"confidence\": 0.96,\n      \"text\": \"第六章 安全保护功能\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.16, 0.31, 0.185],\n      \"confidence\": 0.95,\n      \"text\": \"6.1 雷击保护功能\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.13, 0.195, 0.58, 0.215],\n      \"confidence\": 0.95,\n      \"text\": \"本控制器可以承受不超过4KV的雷击冲击。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.225, 0.32, 0.25],\n      \"confidence\": 0.95,\n      \"text\": \"6.2 短路保护功能\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.13, 0.258, 0.9, 0.302],\n      \"confidence\": 0.95,\n      \"text\": \"输出发生短路时，控制器会立即停止输出，同时显示Err2，直到控制器断电重新启动为止。也有可能熔断保险丝，为恢复功能需要更换保险丝。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.315, 0.32, 0.34],\n      \"confidence\": 0.95,\n      \"text\": \"6.3 过流保护功能\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.13, 0.35, 0.9, 0.39],\n      \"confidence\": 0.95,\n      \"text\": \"本控制器可以在用户误操作造成输出电流超过额定电流时短暂停止输出，同时显示Err2，以保护本机及用户的设备。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.405, 0.32, 0.43],\n      \"confidence\": 0.95,\n      \"text\": \"6.4 过热保护功能\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.13, 0.44, 0.9, 0.48],\n      \"confidence\": 0.95,\n      \"text\": \"当控制器工作温度超过60℃将停止输出，以保护本机，同时显示Err3，当温度下降到60℃时，本机恢复输出。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.498, 0.7, 0.525],\n      \"confidence\": 0.95,\n      \"text\": \"6.5 环境温度降额曲线（仅限SDVC21-XLP）\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.13, 0.532, 0.9, 0.605],\n      \"confidence\": 0.94,\n      \"text\": \"在竖直自然对流状态下，当环境温度升高时，由于控制器散热能力的限制，控制器不能持续输出25A电流，参考下图曲线进行降额使用。如果客户希望以25A电流持续工作，请提供更好的散热条件。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.2, 0.625, 0.77, 0.94],\n      \"confidence\": 0.94,\n      \"caption\": \"环境温度降额曲线图\",\n      \"image_alt\": \"折线坐标图，纵轴为输出电流(A)，横轴为环境温度(℃)。曲线在低温段约为25A，至标注31.6℃附近后随温度升高下降，约在60℃处降至0。图中有31.6℃的虚线标记。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.952, 0.93, 0.98],\n      \"confidence\": 0.95,\n      \"text\": \"页脚：2019-10 / -28- / SDVC21PSMSCN_4.02\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],\n  \"notes\": \"本页为说明书正文页，包含页眉、章节标题、多个小节说明文字、一个降额曲线图和页脚。页面背景可见淡色CUH水印；文本层节选不完整，但渲染图中文字清晰，页面不以扫描图为主。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.07,
+          0.05,
+          0.93,
+          0.075
+        ],
+        "confidence": 0.9,
+        "text": "页眉：智能数字稳压振动送料控制器 / SDVC21P系列",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.32,
+          0.11,
+          0.68,
+          0.14
+        ],
+        "confidence": 0.96,
+        "text": "第六章 安全保护功能",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.16,
+          0.31,
+          0.185
+        ],
+        "confidence": 0.95,
+        "text": "6.1 雷击保护功能",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.13,
+          0.195,
+          0.58,
+          0.215
+        ],
+        "confidence": 0.95,
+        "text": "本控制器可以承受不超过4KV的雷击冲击。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.225,
+          0.32,
+          0.25
+        ],
+        "confidence": 0.95,
+        "text": "6.2 短路保护功能",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.13,
+          0.258,
+          0.9,
+          0.302
+        ],
+        "confidence": 0.95,
+        "text": "输出发生短路时，控制器会立即停止输出，同时显示Err2，直到控制器断电重新启动为止。也有可能熔断保险丝，为恢复功能需要更换保险丝。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.315,
+          0.32,
+          0.34
+        ],
+        "confidence": 0.95,
+        "text": "6.3 过流保护功能",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.13,
+          0.35,
+          0.9,
+          0.39
+        ],
+        "confidence": 0.95,
+        "text": "本控制器可以在用户误操作造成输出电流超过额定电流时短暂停止输出，同时显示Err2，以保护本机及用户的设备。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.405,
+          0.32,
+          0.43
+        ],
+        "confidence": 0.95,
+        "text": "6.4 过热保护功能",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.13,
+          0.44,
+          0.9,
+          0.48
+        ],
+        "confidence": 0.95,
+        "text": "当控制器工作温度超过60℃将停止输出，以保护本机，同时显示Err3，当温度下降到60℃时，本机恢复输出。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.498,
+          0.7,
+          0.525
+        ],
+        "confidence": 0.95,
+        "text": "6.5 环境温度降额曲线（仅限SDVC21-XLP）",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.13,
+          0.532,
+          0.9,
+          0.605
+        ],
+        "confidence": 0.94,
+        "text": "在竖直自然对流状态下，当环境温度升高时，由于控制器散热能力的限制，控制器不能持续输出25A电流，参考下图曲线进行降额使用。如果客户希望以25A电流持续工作，请提供更好的散热条件。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.2,
+          0.625,
+          0.77,
+          0.94
+        ],
+        "confidence": 0.94,
+        "caption": "环境温度降额曲线图",
+        "image_alt": "折线坐标图，纵轴为输出电流(A)，横轴为环境温度(℃)。曲线在低温段约为25A，至标注31.6℃附近后随温度升高下降，约在60℃处降至0。图中有31.6℃的虚线标记。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.952,
+          0.93,
+          0.98
+        ],
+        "confidence": 0.95,
+        "text": "页脚：2019-10 / -28- / SDVC21PSMSCN_4.02",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "notes": "本页为说明书正文页，包含页眉、章节标题、多个小节说明文字、一个降额曲线图和页脚。页面背景可见淡色CUH水印；文本层节选不完整，但渲染图中文字清晰，页面不以扫描图为主。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnIxMr0v7TIOkZMqd9cla40VgiGdI",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780643312,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.07, 0.05, 0.93, 0.075],\n      \"confidence\": 0.9,\n      \"text\": \"页眉：智能数字稳压振动送料控制器 / SDVC21P系列\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.32, 0.11, 0.68, 0.14],\n      \"confidence\": 0.96,\n      \"text\": \"第六章 安全保护功能\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.16, 0.31, 0.185],\n      \"confidence\": 0.95,\n      \"text\": \"6.1 雷击保护功能\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.13, 0.195, 0.58, 0.215],\n      \"confidence\": 0.95,\n      \"text\": \"本控制器可以承受不超过4KV的雷击冲击。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.225, 0.32, 0.25],\n      \"confidence\": 0.95,\n      \"text\": \"6.2 短路保护功能\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.13, 0.258, 0.9, 0.302],\n      \"confidence\": 0.95,\n      \"text\": \"输出发生短路时，控制器会立即停止输出，同时显示Err2，直到控制器断电重新启动为止。也有可能熔断保险丝，为恢复功能需要更换保险丝。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.315, 0.32, 0.34],\n      \"confidence\": 0.95,\n      \"text\": \"6.3 过流保护功能\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.13, 0.35, 0.9, 0.39],\n      \"confidence\": 0.95,\n      \"text\": \"本控制器可以在用户误操作造成输出电流超过额定电流时短暂停止输出，同时显示Err2，以保护本机及用户的设备。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.405, 0.32, 0.43],\n      \"confidence\": 0.95,\n      \"text\": \"6.4 过热保护功能\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.13, 0.44, 0.9, 0.48],\n      \"confidence\": 0.95,\n      \"text\": \"当控制器工作温度超过60℃将停止输出，以保护本机，同时显示Err3，当温度下降到60℃时，本机恢复输出。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.498, 0.7, 0.525],\n      \"confidence\": 0.95,\n      \"text\": \"6.5 环境温度降额曲线（仅限SDVC21-XLP）\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.13, 0.532, 0.9, 0.605],\n      \"confidence\": 0.94,\n      \"text\": \"在竖直自然对流状态下，当环境温度升高时，由于控制器散热能力的限制，控制器不能持续输出25A电流，参考下图曲线进行降额使用。如果客户希望以25A电流持续工作，请提供更好的散热条件。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.2, 0.625, 0.77, 0.94],\n      \"confidence\": 0.94,\n      \"caption\": \"环境温度降额曲线图\",\n      \"image_alt\": \"折线坐标图，纵轴为输出电流(A)，横轴为环境温度(℃)。曲线在低温段约为25A，至标注31.6℃附近后随温度升高下降，约在60℃处降至0。图中有31.6℃的虚线标记。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.952, 0.93, 0.98],\n      \"confidence\": 0.95,\n      \"text\": \"页脚：2019-10 / -28- / SDVC21PSMSCN_4.02\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],\n  \"notes\": \"本页为说明书正文页，包含页眉、章节标题、多个小节说明文字、一个降额曲线图和页脚。页面背景可见淡色CUH水印；文本层节选不完整，但渲染图中文字清晰，页面不以扫描图为主。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 1941,
+      "completion_tokens": 2185,
+      "total_tokens": 4126,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 909,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

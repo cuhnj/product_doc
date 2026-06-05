@@ -1,0 +1,149 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 21,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T15:08:38",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=21。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 空白（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 空白（第 8 页）\n- 9: 1（第 9 页）\n- 10: 2（第 10 页）\n- 11: 3（第 11 页）\n- 12: 4（第 12 页）\n- 13: 5（第 13 页）\n- 14: 6（第 14 页）\n- 15: 7（第 15 页）\n- 16: 8（第 16 页）\n- 17: 9（第 17 页）\n- 18: 10（第 18 页）\n- 19: 11（第 19 页）\n- 20: 12（第 20 页）\n- 21: 13（第 21 页）\n- 22: 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.074, 0.052, 0.931, 0.074],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.075, 0.161, 0.795, 0.184],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.075, 0.183, 0.928, 0.263],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.112, 0.318, 0.516, 0.505],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.571, 0.329, 0.862, 0.529],\n      \"confidence\": 0.92,\n      \"image_alt\": \"右上方为控制器面板示意图，旁有引线标注智能光电传感逻辑方向，并标示为“常通”状态。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.571, 0.545, 0.862, 0.749],\n      \"confidence\": 0.92,\n      \"image_alt\": \"右下方为控制器面板示意图，旁有引线标注智能光电传感逻辑方向，并标示为“常断”状态。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.108, 0.794, 0.902, 0.871],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.074, 0.952, 0.933, 0.981],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为PDF渲染页，正文文本层节选不完整，页面可见内容主要依赖图像识别。版式为顶部页眉、章节说明文字、中部大型圆角框内的操作说明与两幅控制器示意图、底部提示框及页脚；页面带淡色水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.074,
+          0.052,
+          0.931,
+          0.074
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.075,
+          0.161,
+          0.795,
+          0.184
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.075,
+          0.183,
+          0.928,
+          0.263
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.112,
+          0.318,
+          0.516,
+          0.505
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.571,
+          0.329,
+          0.862,
+          0.529
+        ],
+        "confidence": 0.92,
+        "image_alt": "右上方为控制器面板示意图，旁有引线标注智能光电传感逻辑方向，并标示为“常通”状态。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.571,
+          0.545,
+          0.862,
+          0.749
+        ],
+        "confidence": 0.92,
+        "image_alt": "右下方为控制器面板示意图，旁有引线标注智能光电传感逻辑方向，并标示为“常断”状态。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.108,
+          0.794,
+          0.902,
+          0.871
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.074,
+          0.952,
+          0.933,
+          0.981
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "notes": "本页为PDF渲染页，正文文本层节选不完整，页面可见内容主要依赖图像识别。版式为顶部页眉、章节说明文字、中部大型圆角框内的操作说明与两幅控制器示意图、底部提示框及页脚；页面带淡色水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnIwvdA8g8O3qx6ZaeawD8WkhuJlu",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780643285,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.074, 0.052, 0.931, 0.074],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.075, 0.161, 0.795, 0.184],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.075, 0.183, 0.928, 0.263],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.112, 0.318, 0.516, 0.505],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.571, 0.329, 0.862, 0.529],\n      \"confidence\": 0.92,\n      \"image_alt\": \"右上方为控制器面板示意图，旁有引线标注智能光电传感逻辑方向，并标示为“常通”状态。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.571, 0.545, 0.862, 0.749],\n      \"confidence\": 0.92,\n      \"image_alt\": \"右下方为控制器面板示意图，旁有引线标注智能光电传感逻辑方向，并标示为“常断”状态。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.108, 0.794, 0.902, 0.871],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.074, 0.952, 0.933, 0.981],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为PDF渲染页，正文文本层节选不完整，页面可见内容主要依赖图像识别。版式为顶部页眉、章节说明文字、中部大型圆角框内的操作说明与两幅控制器示意图、底部提示框及页脚；页面带淡色水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 1941,
+      "completion_tokens": 2033,
+      "total_tokens": 3974,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1424,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}
