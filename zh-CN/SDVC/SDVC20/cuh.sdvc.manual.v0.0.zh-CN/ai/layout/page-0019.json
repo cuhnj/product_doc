@@ -1,0 +1,223 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 19,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T12:15:10",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=19。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 目录（第 6 页）\n- 第一章 性能特点（第 7 页）\n- 第二章 安装指南（第 9 页）\n- 第三章 部件说明（第 11 页）\n- 第四章 基本操作（第 13 页）\n- 4.1 输出电压设定（第 13 页）\n- 4.2 输出频率设定（第 14 页）\n- 4.3 缓启动功能（第 15 页）\n- 4.4 输出开关（第 15 页）\n- 4.5 最大输出电压限制功能（第 16 页）\n- 4.6 恢复出厂设置（第 17 页）\n- 第五章 传感器与信号控制（第 18 页）\n- 5.1 智能光电传感器的使用方法（第 18 页）\n- 5.2 开关传感器",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.052, 0.935, 0.075],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.075, 0.160, 0.675, 0.181],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.185, 0.927, 0.241],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.110, 0.273, 0.271, 0.303],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.232, 0.278, 0.890, 0.320],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.112, 0.336, 0.463, 0.465],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.495, 0.334, 0.897, 0.536],\n      \"confidence\": 0.92,\n      \"image_alt\": \"控制器面板示意图，显示数码管和按键，箭头标注“I表示开延时”和“开延时指示灯”。\",\n      \"caption\": \"开延时设置示意\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.108, 0.531, 0.555, 0.559],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.110, 0.607, 0.272, 0.637],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.232, 0.610, 0.890, 0.650],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.112, 0.669, 0.463, 0.816],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.495, 0.663, 0.919, 0.839],\n      \"confidence\": 0.92,\n      \"image_alt\": \"控制器面板示意图，显示数码管和按键，箭头标注“L表示关延时”和“关延时指示灯”。\",\n      \"caption\": \"关延时设置示意\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.108, 0.863, 0.555, 0.891],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.952, 0.934, 0.978],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],\n  \"notes\": \"本页为带可选文本层的说明书页面渲染图，背景有淡色水印。页面以文字说明和两组控制器示意图为主，无表格；主要内容为5.1.2智能光电传感器开延时、关延时的设置说明。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.052,
+          0.935,
+          0.075
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.075,
+          0.16,
+          0.675,
+          0.181
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.185,
+          0.927,
+          0.241
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.11,
+          0.273,
+          0.271,
+          0.303
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.232,
+          0.278,
+          0.89,
+          0.32
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.112,
+          0.336,
+          0.463,
+          0.465
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.495,
+          0.334,
+          0.897,
+          0.536
+        ],
+        "confidence": 0.92,
+        "image_alt": "控制器面板示意图，显示数码管和按键，箭头标注“I表示开延时”和“开延时指示灯”。",
+        "caption": "开延时设置示意",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.108,
+          0.531,
+          0.555,
+          0.559
+        ],
+        "confidence": 0.91,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.11,
+          0.607,
+          0.272,
+          0.637
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.232,
+          0.61,
+          0.89,
+          0.65
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.112,
+          0.669,
+          0.463,
+          0.816
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.495,
+          0.663,
+          0.919,
+          0.839
+        ],
+        "confidence": 0.92,
+        "image_alt": "控制器面板示意图，显示数码管和按键，箭头标注“L表示关延时”和“关延时指示灯”。",
+        "caption": "关延时设置示意",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.108,
+          0.863,
+          0.555,
+          0.891
+        ],
+        "confidence": 0.91,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.952,
+          0.934,
+          0.978
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "notes": "本页为带可选文本层的说明书页面渲染图，背景有淡色水印。页面以文字说明和两组控制器示意图为主，无表格；主要内容为5.1.2智能光电传感器开延时、关延时的设置说明。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmtlYWTEz0LVwWX6TRSU4k4Tp5z2W",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780546480,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.052, 0.935, 0.075],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.075, 0.160, 0.675, 0.181],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.185, 0.927, 0.241],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.110, 0.273, 0.271, 0.303],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.232, 0.278, 0.890, 0.320],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.112, 0.336, 0.463, 0.465],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.495, 0.334, 0.897, 0.536],\n      \"confidence\": 0.92,\n      \"image_alt\": \"控制器面板示意图，显示数码管和按键，箭头标注“I表示开延时”和“开延时指示灯”。\",\n      \"caption\": \"开延时设置示意\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.108, 0.531, 0.555, 0.559],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.110, 0.607, 0.272, 0.637],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.232, 0.610, 0.890, 0.650],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.112, 0.669, 0.463, 0.816],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.495, 0.663, 0.919, 0.839],\n      \"confidence\": 0.92,\n      \"image_alt\": \"控制器面板示意图，显示数码管和按键，箭头标注“L表示关延时”和“关延时指示灯”。\",\n      \"caption\": \"关延时设置示意\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.108, 0.863, 0.555, 0.891],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.952, 0.934, 0.978],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],\n  \"notes\": \"本页为带可选文本层的说明书页面渲染图，背景有淡色水印。页面以文字说明和两组控制器示意图为主，无表格；主要内容为5.1.2智能光电传感器开延时、关延时的设置说明。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 1916,
+      "completion_tokens": 1948,
+      "total_tokens": 3864,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

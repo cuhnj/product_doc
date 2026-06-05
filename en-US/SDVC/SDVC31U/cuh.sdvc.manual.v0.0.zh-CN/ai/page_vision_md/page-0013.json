@@ -1,0 +1,67 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 13,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:00:05",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=13。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 使用环境（第 5 页）\n- 6: 空白页（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 页面 9（第 9 页）\n- 页面 10（第 10 页）\n- 页面 11（第 11 页）\n- 页面 12（第 12 页）\n- 页面 13（第 13 页）\n- 页面 14（第 14 页）\n- 页面 15（第 15 页）\n- 页面 16（第 16 页）\n- 页面 17（第 17 页）\n- 页面 18（第 18 页）\n- 页面 19（第 19 页）\n- 页面 20（第 20 页）\n-",
+  "assistant_text": "{\"page_markdown\":\"Variable Frequency Digital Controller for Vibratory Feeder　　　　　　　　　　　　　**SDVC31 Series**\\n\\n---\\n\\n## Step Five:\\n\\nAdjust the controller's Output Voltage to the value between 30 and 80 (represented by the letter U)\\n\\n[[vcrop:13:0]]\\n\\nDiagram labels:\\n\\n- U—represents Output Voltage\\n- Output Voltage Indicator\\n\\n## Step Six:\\n\\nPress the <kbd>FUNC</kbd> button and hold for 2 seconds to enter the Basic Settings Adjusting status.\\n\\nThe Output Frequency Indicator on the panel lights up and the LED displays the current frequency value (E) Press the ▲ or ▼ button to adjust the parameter value from 400Hz to 40Hz to find out harmonic frequency of the vibrator and hold this value.\\n\\n[[vcrop:13:1]]\\n\\nDiagram labels:\\n\\n- E—represents Output Frequency\\n- Output Frequency Indicator\\n\\n> ● Harmonic frequency of the vibrator means the frequency value that creates the maximum amplitude.\\n>\\n> ● Every vibrator has its natural mechanical resonance frequency, adjust the output frequency of the controller to this frequency to guarantee the best working condition.\\n\\n---\\n\\n2018-11　　　　　　　　　　　　　- 5 -　　　　　　　　　　　　　SDVC31SMSEN_3.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.495,0.19,0.89,0.405],\"alt\":\"Step Five controller display and output voltage indicator callout diagram\",\"reason\":\"Contains the controller panel illustration, LED display symbol, button labels, hand pointer, and callout leader lines that are better preserved as a bitmap.\"},{\"bbox_0_1\":[0.495,0.535,0.89,0.72],\"alt\":\"Step Six controller display and output frequency indicator callout diagram\",\"reason\":\"Contains the controller panel illustration, LED display symbol, button labels, hand pointer, and callout leader lines that are better preserved as a bitmap.\"}],\"notes\":\"Page is clear; two controller-panel diagrams are preserved as crops for visual accuracy.\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "Variable Frequency Digital Controller for Vibratory Feeder　　　　　　　　　　　　　**SDVC31 Series**\n\n---\n\n## Step Five:\n\nAdjust the controller's Output Voltage to the value between 30 and 80 (represented by the letter U)\n\n[[vcrop:13:0]]\n\nDiagram labels:\n\n- U—represents Output Voltage\n- Output Voltage Indicator\n\n## Step Six:\n\nPress the <kbd>FUNC</kbd> button and hold for 2 seconds to enter the Basic Settings Adjusting status.\n\nThe Output Frequency Indicator on the panel lights up and the LED displays the current frequency value (E) Press the ▲ or ▼ button to adjust the parameter value from 400Hz to 40Hz to find out harmonic frequency of the vibrator and hold this value.\n\n[[vcrop:13:1]]\n\nDiagram labels:\n\n- E—represents Output Frequency\n- Output Frequency Indicator\n\n> ● Harmonic frequency of the vibrator means the frequency value that creates the maximum amplitude.\n>\n> ● Every vibrator has its natural mechanical resonance frequency, adjust the output frequency of the controller to this frequency to guarantee the best working condition.\n\n---\n\n2018-11　　　　　　　　　　　　　- 5 -　　　　　　　　　　　　　SDVC31SMSEN_3.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.495,
+        0.19,
+        0.89,
+        0.405
+      ],
+      "alt": "Step Five controller display and output voltage indicator callout diagram",
+      "reason": "Contains the controller panel illustration, LED display symbol, button labels, hand pointer, and callout leader lines that are better preserved as a bitmap."
+    },
+    {
+      "bbox_0_1": [
+        0.495,
+        0.535,
+        0.89,
+        0.72
+      ],
+      "alt": "Step Six controller display and output frequency indicator callout diagram",
+      "reason": "Contains the controller panel illustration, LED display symbol, button labels, hand pointer, and callout leader lines that are better preserved as a bitmap."
+    }
+  ],
+  "notes": "Page is clear; two controller-panel diagrams are preserved as crops for visual accuracy.",
+  "raw": {
+    "id": "chatcmpl-Dmsb1neTIRGgAfmBR6ZlAb81lGpxt",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780541983,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"page_markdown\":\"Variable Frequency Digital Controller for Vibratory Feeder　　　　　　　　　　　　　**SDVC31 Series**\\n\\n---\\n\\n## Step Five:\\n\\nAdjust the controller's Output Voltage to the value between 30 and 80 (represented by the letter U)\\n\\n[[vcrop:13:0]]\\n\\nDiagram labels:\\n\\n- U—represents Output Voltage\\n- Output Voltage Indicator\\n\\n## Step Six:\\n\\nPress the <kbd>FUNC</kbd> button and hold for 2 seconds to enter the Basic Settings Adjusting status.\\n\\nThe Output Frequency Indicator on the panel lights up and the LED displays the current frequency value (E) Press the ▲ or ▼ button to adjust the parameter value from 400Hz to 40Hz to find out harmonic frequency of the vibrator and hold this value.\\n\\n[[vcrop:13:1]]\\n\\nDiagram labels:\\n\\n- E—represents Output Frequency\\n- Output Frequency Indicator\\n\\n> ● Harmonic frequency of the vibrator means the frequency value that creates the maximum amplitude.\\n>\\n> ● Every vibrator has its natural mechanical resonance frequency, adjust the output frequency of the controller to this frequency to guarantee the best working condition.\\n\\n---\\n\\n2018-11　　　　　　　　　　　　　- 5 -　　　　　　　　　　　　　SDVC31SMSEN_3.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.495,0.19,0.89,0.405],\"alt\":\"Step Five controller display and output voltage indicator callout diagram\",\"reason\":\"Contains the controller panel illustration, LED display symbol, button labels, hand pointer, and callout leader lines that are better preserved as a bitmap.\"},{\"bbox_0_1\":[0.495,0.535,0.89,0.72],\"alt\":\"Step Six controller display and output frequency indicator callout diagram\",\"reason\":\"Contains the controller panel illustration, LED display symbol, button labels, hand pointer, and callout leader lines that are better preserved as a bitmap.\"}],\"notes\":\"Page is clear; two controller-panel diagrams are preserved as crops for visual accuracy.\"}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2172,
+      "completion_tokens": 1487,
+      "total_tokens": 3659,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

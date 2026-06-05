@@ -1,0 +1,67 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 20,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T12:00:41",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=20。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufactur",
+  "assistant_text": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller  \\nSDVC42-S\\n\\n---\\n\\n### Step Three:\\n\\nConnect the Connector of the Input Power Cable  \\nto the Input Power Socket of the controller.\\n\\n[[vcrop:20:0]]\\n\\n### Step Four:\\n\\nAfter confirming that the switch is in the off position, connect the plug of the  \\nInput Power Cable to the mains jack.\\n\\n[[vcrop:20:1]]\\n\\n---\\n\\n2026-02　　　　　　　　　　　　- 10 -　　　　　　　　　　　　SDVC42SSMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.12,\n        0.25,\n        0.88,\n        0.51\n      ],\n      \"alt\": \"Step Three wiring illustration: connect the controller side first\",\n      \"reason\": \"Contains the detailed line-art wiring diagram, controller socket, input power cable, mains plug, and callout that are not fully representable as text.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.32,\n        0.65,\n        0.78,\n        0.90\n      ],\n      \"alt\": \"Step Four illustration: plug the input power cable into the mains jack\",\n      \"reason\": \"Contains the detailed line-art illustration of the mains socket, power plug, cable, and hand gesture.\"\n    }\n  ],\n  \"notes\": \"页面有淡色 CUH 水印；主体文字清晰，接线示意图建议以截图保留。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "Automatic High Frequency Piezo Controller  \nSDVC42-S\n\n---\n\n### Step Three:\n\nConnect the Connector of the Input Power Cable  \nto the Input Power Socket of the controller.\n\n[[vcrop:20:0]]\n\n### Step Four:\n\nAfter confirming that the switch is in the off position, connect the plug of the  \nInput Power Cable to the mains jack.\n\n[[vcrop:20:1]]\n\n---\n\n2026-02　　　　　　　　　　　　- 10 -　　　　　　　　　　　　SDVC42SSMSEN_3.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.12,
+        0.25,
+        0.88,
+        0.51
+      ],
+      "alt": "Step Three wiring illustration: connect the controller side first",
+      "reason": "Contains the detailed line-art wiring diagram, controller socket, input power cable, mains plug, and callout that are not fully representable as text."
+    },
+    {
+      "bbox_0_1": [
+        0.32,
+        0.65,
+        0.78,
+        0.9
+      ],
+      "alt": "Step Four illustration: plug the input power cable into the mains jack",
+      "reason": "Contains the detailed line-art illustration of the mains socket, power plug, cable, and hand gesture."
+    }
+  ],
+  "notes": "页面有淡色 CUH 水印；主体文字清晰，接线示意图建议以截图保留。",
+  "raw": {
+    "id": "chatcmpl-DmtXnwIireihemC6QhkW8SbFUY8fZ",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780545627,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller  \\nSDVC42-S\\n\\n---\\n\\n### Step Three:\\n\\nConnect the Connector of the Input Power Cable  \\nto the Input Power Socket of the controller.\\n\\n[[vcrop:20:0]]\\n\\n### Step Four:\\n\\nAfter confirming that the switch is in the off position, connect the plug of the  \\nInput Power Cable to the mains jack.\\n\\n[[vcrop:20:1]]\\n\\n---\\n\\n2026-02　　　　　　　　　　　　- 10 -　　　　　　　　　　　　SDVC42SSMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.12,\n        0.25,\n        0.88,\n        0.51\n      ],\n      \"alt\": \"Step Three wiring illustration: connect the controller side first\",\n      \"reason\": \"Contains the detailed line-art wiring diagram, controller socket, input power cable, mains plug, and callout that are not fully representable as text.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.32,\n        0.65,\n        0.78,\n        0.90\n      ],\n      \"alt\": \"Step Four illustration: plug the input power cable into the mains jack\",\n      \"reason\": \"Contains the detailed line-art illustration of the mains socket, power plug, cable, and hand gesture.\"\n    }\n  ],\n  \"notes\": \"页面有淡色 CUH 水印；主体文字清晰，接线示意图建议以截图保留。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3830,
+      "completion_tokens": 877,
+      "total_tokens": 4707,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

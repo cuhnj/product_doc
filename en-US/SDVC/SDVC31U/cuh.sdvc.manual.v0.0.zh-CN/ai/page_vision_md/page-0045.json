@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 45,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:01:16",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=45。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 使用环境（第 5 页）\n- 6: 空白页（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 页面 9（第 9 页）\n- 页面 10（第 10 页）\n- 页面 11（第 11 页）\n- 页面 12（第 12 页）\n- 页面 13（第 13 页）\n- 页面 14（第 14 页）\n- 页面 15（第 15 页）\n- 页面 16（第 16 页）\n- 页面 17（第 17 页）\n- 页面 18（第 18 页）\n- 页面 19（第 19 页）\n- 页面 20（第 20 页）\n-",
+  "assistant_text": "{\"page_markdown\":\"Variable Frequency Digital Controller for Vibratory Feeder                                                     SDVC31 Series\\n\\n## Appendix E: Electrical Specification\\n\\n| Item | Range Min | Range Typical | Range Max | Unit | Description |\\n|---|---:|---:|---:|:---:|---|\\n| Input Voltage | 85 | 220 | 250 | V | AC RMS |\\n| Adjustable Output<br>Voltage Range | 0 | —— | 250 | V | Lower than 150% of<br>Input Voltage |\\n| Voltage Adjustment<br>Accuracy |  | 1 |  | V |  |\\n| Voltage Regulation<br>Accuracy | 0 | —— | 10 | % | ΔVout/ΔVin |\\n| Response Time of<br>Voltage Regulation | 0.0025 | —— | 0.025 | s | 1/10 of the period of<br>output voltage |\\n| Adjustable Output<br>Current Range | 0 | —— | 1.5 | A | SDVC31-S |\\n|  | 0 | —— | 3 | A | SDVC31-M |\\n|  | 0 | —— | 4.5 | A | SDVC31-L |\\n|  | 0 | —— | 6 | A | SDVC31-XL |\\n|  | 0 | —— | 10 | A | SDVC31-U |\\n|  | 0 | —— | 20 | A | SDVC31-XU |\\n| Output Power | 0 | —— | 330 | VA | SDVC31-S |\\n|  | 0 | —— | 660 | VA | SDVC31-M |\\n|  | 0 | —— | 990 | VA | SDVC31-L |\\n|  | 0 | —— | 1320 | VA | SDVC31-XL |\\n|  | 0 | —— | 2200 | VA | SDVC31-U |\\n|  | 0 | —— | 4400 | VA | SDVC31-XU |\\n| Output Frequency | 40 | —— | 400 | Hz |  |\\n| Frequency Adjustment<br>Accuracy |  | 0.1 |  | Hz |  |\\n| Output Waveform |  | sine |  |  |  |\\n| Soft Start Time | 0 | —— | 10 | s | Factory Default<br>Value:0.5 |\\n| On/Off Delay Time<br>Range | 0 | —— | 20 | s | Factory Default<br>Value:0.2 |\\n| On/Off Delay Time<br>Accuracy |  | 0.1 |  | s |  |\\n| Overheat Protection<br>Trigger Temperature | 58 | 60 | 66 | ℃ | SDVC31-S\\\\M |\\n|  | 60 | 65 | 65 | ℃ | SDVC31-L\\\\XL\\\\U\\\\XU |\\n| DC Control Output<br>Voltage | 22 | 24 | 26 | V |  |\\n| DC Control Output<br>Current | 0 | —— | 200 | mA |  |\\n| Analog Control Signal |  | 1-5 |  | V | Remote speed<br>Control Voltage |\\n| Digital Control Signal |  | 24 |  | V | Switching Signal |\\n| Adjustment Method |  | 6 |  | Button |  |\\n| Standby Power<br>Consumption | —— | 3 | —— | W |  |\\n| Display Method |  | 5 |  | Digit | LED Digital Tubes |\\n| Ambient Temperature | 0 | 25 | 40 | ℃ | No Condensation |\\n| Ambient Humidity | 10 | 60 | 85 | % |  |\\n\\n2018-11                                                                 -37-                                                                 SDVC31SMSEN_3.01\",\"crop_suggestions\":[],\"notes\":\"页面清晰，主要内容为英文电气规格参数表；背景水印未作为正文转写。\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "Variable Frequency Digital Controller for Vibratory Feeder                                                     SDVC31 Series\n\n## Appendix E: Electrical Specification\n\n| Item | Range Min | Range Typical | Range Max | Unit | Description |\n|---|---:|---:|---:|:---:|---|\n| Input Voltage | 85 | 220 | 250 | V | AC RMS |\n| Adjustable Output<br>Voltage Range | 0 | —— | 250 | V | Lower than 150% of<br>Input Voltage |\n| Voltage Adjustment<br>Accuracy |  | 1 |  | V |  |\n| Voltage Regulation<br>Accuracy | 0 | —— | 10 | % | ΔVout/ΔVin |\n| Response Time of<br>Voltage Regulation | 0.0025 | —— | 0.025 | s | 1/10 of the period of<br>output voltage |\n| Adjustable Output<br>Current Range | 0 | —— | 1.5 | A | SDVC31-S |\n|  | 0 | —— | 3 | A | SDVC31-M |\n|  | 0 | —— | 4.5 | A | SDVC31-L |\n|  | 0 | —— | 6 | A | SDVC31-XL |\n|  | 0 | —— | 10 | A | SDVC31-U |\n|  | 0 | —— | 20 | A | SDVC31-XU |\n| Output Power | 0 | —— | 330 | VA | SDVC31-S |\n|  | 0 | —— | 660 | VA | SDVC31-M |\n|  | 0 | —— | 990 | VA | SDVC31-L |\n|  | 0 | —— | 1320 | VA | SDVC31-XL |\n|  | 0 | —— | 2200 | VA | SDVC31-U |\n|  | 0 | —— | 4400 | VA | SDVC31-XU |\n| Output Frequency | 40 | —— | 400 | Hz |  |\n| Frequency Adjustment<br>Accuracy |  | 0.1 |  | Hz |  |\n| Output Waveform |  | sine |  |  |  |\n| Soft Start Time | 0 | —— | 10 | s | Factory Default<br>Value:0.5 |\n| On/Off Delay Time<br>Range | 0 | —— | 20 | s | Factory Default<br>Value:0.2 |\n| On/Off Delay Time<br>Accuracy |  | 0.1 |  | s |  |\n| Overheat Protection<br>Trigger Temperature | 58 | 60 | 66 | ℃ | SDVC31-S\\M |\n|  | 60 | 65 | 65 | ℃ | SDVC31-L\\XL\\U\\XU |\n| DC Control Output<br>Voltage | 22 | 24 | 26 | V |  |\n| DC Control Output<br>Current | 0 | —— | 200 | mA |  |\n| Analog Control Signal |  | 1-5 |  | V | Remote speed<br>Control Voltage |\n| Digital Control Signal |  | 24 |  | V | Switching Signal |\n| Adjustment Method |  | 6 |  | Button |  |\n| Standby Power<br>Consumption | —— | 3 | —— | W |  |\n| Display Method |  | 5 |  | Digit | LED Digital Tubes |\n| Ambient Temperature | 0 | 25 | 40 | ℃ | No Condensation |\n| Ambient Humidity | 10 | 60 | 85 | % |  |\n\n2018-11                                                                 -37-                                                                 SDVC31SMSEN_3.01",
+  "crop_suggestions": [],
+  "notes": "页面清晰，主要内容为英文电气规格参数表；背景水印未作为正文转写。",
+  "raw": {
+    "id": "chatcmpl-Dmsc9FnHU4P6Qb7ofSdkH1dpPN1Ki",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780542053,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"page_markdown\":\"Variable Frequency Digital Controller for Vibratory Feeder                                                     SDVC31 Series\\n\\n## Appendix E: Electrical Specification\\n\\n| Item | Range Min | Range Typical | Range Max | Unit | Description |\\n|---|---:|---:|---:|:---:|---|\\n| Input Voltage | 85 | 220 | 250 | V | AC RMS |\\n| Adjustable Output<br>Voltage Range | 0 | —— | 250 | V | Lower than 150% of<br>Input Voltage |\\n| Voltage Adjustment<br>Accuracy |  | 1 |  | V |  |\\n| Voltage Regulation<br>Accuracy | 0 | —— | 10 | % | ΔVout/ΔVin |\\n| Response Time of<br>Voltage Regulation | 0.0025 | —— | 0.025 | s | 1/10 of the period of<br>output voltage |\\n| Adjustable Output<br>Current Range | 0 | —— | 1.5 | A | SDVC31-S |\\n|  | 0 | —— | 3 | A | SDVC31-M |\\n|  | 0 | —— | 4.5 | A | SDVC31-L |\\n|  | 0 | —— | 6 | A | SDVC31-XL |\\n|  | 0 | —— | 10 | A | SDVC31-U |\\n|  | 0 | —— | 20 | A | SDVC31-XU |\\n| Output Power | 0 | —— | 330 | VA | SDVC31-S |\\n|  | 0 | —— | 660 | VA | SDVC31-M |\\n|  | 0 | —— | 990 | VA | SDVC31-L |\\n|  | 0 | —— | 1320 | VA | SDVC31-XL |\\n|  | 0 | —— | 2200 | VA | SDVC31-U |\\n|  | 0 | —— | 4400 | VA | SDVC31-XU |\\n| Output Frequency | 40 | —— | 400 | Hz |  |\\n| Frequency Adjustment<br>Accuracy |  | 0.1 |  | Hz |  |\\n| Output Waveform |  | sine |  |  |  |\\n| Soft Start Time | 0 | —— | 10 | s | Factory Default<br>Value:0.5 |\\n| On/Off Delay Time<br>Range | 0 | —— | 20 | s | Factory Default<br>Value:0.2 |\\n| On/Off Delay Time<br>Accuracy |  | 0.1 |  | s |  |\\n| Overheat Protection<br>Trigger Temperature | 58 | 60 | 66 | ℃ | SDVC31-S\\\\M |\\n|  | 60 | 65 | 65 | ℃ | SDVC31-L\\\\XL\\\\U\\\\XU |\\n| DC Control Output<br>Voltage | 22 | 24 | 26 | V |  |\\n| DC Control Output<br>Current | 0 | —— | 200 | mA |  |\\n| Analog Control Signal |  | 1-5 |  | V | Remote speed<br>Control Voltage |\\n| Digital Control Signal |  | 24 |  | V | Switching Signal |\\n| Adjustment Method |  | 6 |  | Button |  |\\n| Standby Power<br>Consumption | —— | 3 | —— | W |  |\\n| Display Method |  | 5 |  | Digit | LED Digital Tubes |\\n| Ambient Temperature | 0 | 25 | 40 | ℃ | No Condensation |\\n| Ambient Humidity | 10 | 60 | 85 | % |  |\\n\\n2018-11                                                                 -37-                                                                 SDVC31SMSEN_3.01\",\"crop_suggestions\":[],\"notes\":\"页面清晰，主要内容为英文电气规格参数表；背景水印未作为正文转写。\"}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2951,
+      "completion_tokens": 1925,
+      "total_tokens": 4876,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

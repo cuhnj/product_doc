@@ -1,0 +1,112 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 3,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T12:23:41",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=3。\n\n【目录/书签上下文（节选）】\n- 页 1（第 1 页）\n- 页 2（第 2 页）\n- 页 3（第 3 页）\n- 页 4（第 4 页）\n\n【文本层节选（可能为空或不完整）】\nSDVC621智能低压柔性振动送料控制器\n\n技术规格\n\n项目\n最小值\n\n20\n\n5.0\n\n0\n\n0\n\n-20\n\n10\n\n0. 1\n\n正弦\n\n——\n\n——\n\n100000\n\n24\n\n——\n\n——\n\n25\n\n60\n\n25\n0\n\n0\n\n5\n\n22\n\n24\n\n26\n\n典型值\n\n24\n\n50.0\n\n——\n\n——\n\n不超过3W\n\n音圈电机和LED灯板\n\n直流输入电压\n\n电机输出电压\n\n电机输出电流\n\n电机输出频率\n\n光源输出电流\n\n控制输出电压\n\n电机接线端子使用线径\n\n信号接线端子使用线径\n\n光源NTC温度传感器阻值\n\n负载类型\n\n空载功耗\n\n存储环境",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.040, 0.034, 0.456, 0.066],\n      \"confidence\": 0.87\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.057, 0.091, 0.206, 0.124],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.057, 0.145, 0.942, 0.651],\n      \"confidence\": 0.97,\n      \"caption\": \"技术规格表\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.054, 0.671, 0.209, 0.699],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.043, 0.713, 0.933, 0.954],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为PDF渲染页，文本清晰且有可用文本层，不像纯扫描件。页面以技术规格表和功能特点项目符号列表为主，无明显插图或页脚。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.04,
+          0.034,
+          0.456,
+          0.066
+        ],
+        "confidence": 0.87,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.057,
+          0.091,
+          0.206,
+          0.124
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.057,
+          0.145,
+          0.942,
+          0.651
+        ],
+        "confidence": 0.97,
+        "caption": "技术规格表",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.054,
+          0.671,
+          0.209,
+          0.699
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.043,
+          0.713,
+          0.933,
+          0.954
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "本页为PDF渲染页，文本清晰且有可用文本层，不像纯扫描件。页面以技术规格表和功能特点项目符号列表为主，无明显插图或页脚。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnGNj7b5Xq98PXOqdXlUhDfU8vWNF",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780633415,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.040, 0.034, 0.456, 0.066],\n      \"confidence\": 0.87\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.057, 0.091, 0.206, 0.124],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.057, 0.145, 0.942, 0.651],\n      \"confidence\": 0.97,\n      \"caption\": \"技术规格表\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.054, 0.671, 0.209, 0.699],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.043, 0.713, 0.933, 0.954],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为PDF渲染页，文本清晰且有可用文本层，不像纯扫描件。页面以技术规格表和功能特点项目符号列表为主，无明显插图或页脚。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 1852,
+      "completion_tokens": 439,
+      "total_tokens": 2291,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 99,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

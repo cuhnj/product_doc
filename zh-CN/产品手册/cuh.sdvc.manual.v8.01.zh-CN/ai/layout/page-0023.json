@@ -1,0 +1,190 @@
+{
+  "doc_id": "cuh.sdvc.manual.v8.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v8.01",
+  "lang": "zh-CN",
+  "page_index": 23,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T01:26:49",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v8.01.zh-CN，页码=23。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 目录（第 3 页）\n- 4: 目录2（第 4 页）\n- 5: SDVC10-S（第 5 页）\n- 6: SDVC11-S（第 6 页）\n- 7: SDVC11-M（第 7 页）\n- 8: SDVC14-S（第 8 页）\n- 9: SDVC20-S（第 9 页）\n- 10: SDVC20-L（第 10 页）\n- 11: SDVC20-XL（第 11 页）\n- 12: SDVC201-L（第 12 页）\n- 13: SDVC20-U（第 13 页）\n- 14: SDVC21-S（第 14 页）\n- 15: SDVC21LP（第 15 页）\n- 16: SDVC21XLP（第 16 页）\n- 17: SDVC212",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.08, 0.045, 0.93, 0.09],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.088, 0.514, 0.153],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.083, 0.177, 0.512, 0.43],\n      \"confidence\": 0.93,\n      \"image_alt\": \"SDVC31-S、SDVC31-M 数字调频振动送料控制器的产品外观图，旁边列出调频调压控制、送料平稳、参数数码显示、缓启动、开关延时、料满/料空停机等功能短语。\",\n      \"caption\": \"产品外观与功能概览\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.083, 0.448, 0.513, 0.86],\n      \"confidence\": 0.96,\n      \"caption\": \"技术规格\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.13, 0.932, 0.188],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.19, 0.932, 0.592],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.595, 0.932, 0.662],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.56, 0.665, 0.932, 0.787],\n      \"confidence\": 0.9,\n      \"image_alt\": \"随机附件区域，含电源线和输出线的图片及项目说明。\",\n      \"caption\": \"随机附件\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.56, 0.793, 0.932, 0.865],\n      \"confidence\": 0.9,\n      \"image_alt\": \"选购附件区域，含智能光电传感器图片及项目说明。\",\n      \"caption\": \"选购附件\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.635, 0.918, 0.932, 0.972],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.93, 0.962, 0.998, 1.0],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n  \"notes\": \"本页不是纯扫描件，存在可提取文本层。页面为产品说明/样本页，包含产品图片、技术规格表、功能说明、附件图片和页脚联系方式，图文表混排。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.08,
+          0.045,
+          0.93,
+          0.09
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.083,
+          0.088,
+          0.514,
+          0.153
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.083,
+          0.177,
+          0.512,
+          0.43
+        ],
+        "confidence": 0.93,
+        "image_alt": "SDVC31-S、SDVC31-M 数字调频振动送料控制器的产品外观图，旁边列出调频调压控制、送料平稳、参数数码显示、缓启动、开关延时、料满/料空停机等功能短语。",
+        "caption": "产品外观与功能概览",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.083,
+          0.448,
+          0.513,
+          0.86
+        ],
+        "confidence": 0.96,
+        "caption": "技术规格",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.56,
+          0.13,
+          0.932,
+          0.188
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.56,
+          0.19,
+          0.932,
+          0.592
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.56,
+          0.595,
+          0.932,
+          0.662
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.56,
+          0.665,
+          0.932,
+          0.787
+        ],
+        "confidence": 0.9,
+        "image_alt": "随机附件区域，含电源线和输出线的图片及项目说明。",
+        "caption": "随机附件",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.56,
+          0.793,
+          0.932,
+          0.865
+        ],
+        "confidence": 0.9,
+        "image_alt": "选购附件区域，含智能光电传感器图片及项目说明。",
+        "caption": "选购附件",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.635,
+          0.918,
+          0.932,
+          0.972
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.93,
+          0.962,
+          0.998,
+          1.0
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "notes": "本页不是纯扫描件，存在可提取文本层。页面为产品说明/样本页，包含产品图片、技术规格表、功能说明、附件图片和页脚联系方式，图文表混排。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmjeLTlheZB1XFoAce6XIbpgWi6Nw",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780507593,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.08, 0.045, 0.93, 0.09],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.088, 0.514, 0.153],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.083, 0.177, 0.512, 0.43],\n      \"confidence\": 0.93,\n      \"image_alt\": \"SDVC31-S、SDVC31-M 数字调频振动送料控制器的产品外观图，旁边列出调频调压控制、送料平稳、参数数码显示、缓启动、开关延时、料满/料空停机等功能短语。\",\n      \"caption\": \"产品外观与功能概览\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.083, 0.448, 0.513, 0.86],\n      \"confidence\": 0.96,\n      \"caption\": \"技术规格\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.13, 0.932, 0.188],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.19, 0.932, 0.592],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.595, 0.932, 0.662],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.56, 0.665, 0.932, 0.787],\n      \"confidence\": 0.9,\n      \"image_alt\": \"随机附件区域，含电源线和输出线的图片及项目说明。\",\n      \"caption\": \"随机附件\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.56, 0.793, 0.932, 0.865],\n      \"confidence\": 0.9,\n      \"image_alt\": \"选购附件区域，含智能光电传感器图片及项目说明。\",\n      \"caption\": \"选购附件\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.635, 0.918, 0.932, 0.972],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.93, 0.962, 0.998, 1.0],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n  \"notes\": \"本页不是纯扫描件，存在可提取文本层。页面为产品说明/样本页，包含产品图片、技术规格表、功能说明、附件图片和页脚联系方式，图文表混排。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3179,
+      "completion_tokens": 1303,
+      "total_tokens": 4482,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

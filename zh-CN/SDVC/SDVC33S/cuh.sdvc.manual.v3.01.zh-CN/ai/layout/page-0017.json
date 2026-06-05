@@ -1,0 +1,161 @@
+{
+  "doc_id": "cuh.sdvc.manual.v3.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v3.01",
+  "lang": "zh-CN",
+  "page_index": 17,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T13:31:49",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v3.01.zh-CN，页码=17。\n\n【目录/书签上下文（节选）】\n- 2: 版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯、按键及外部部件说明（第 10 页）\n  - 1.3 接线端口说明（第 11 页）\n  - 1.4 控制器铭牌说明（第 11 页）\n- 第二章 产品介绍（第 12 页）\n  - 2.1 产品简介（第 12 页）\n  - 2.2 产品性能提升（第 12 页）\n  - 2.3 双路输出联合使用（第 13 页）\n- 第三章 安装及使用指南（第 14 页）\n  - 3.1 控制器",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.052, 0.929, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.098, 0.189, 0.235, 0.214],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.098, 0.228, 0.405, 0.315],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.475, 0.190, 0.833, 0.398],\n      \"confidence\": 0.95,\n      \"image_alt\": \"控制器面板示意图，屏幕显示“U 150”，旁边标注U表示输出电压、通道A指示灯、电压指示灯。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.098, 0.490, 0.235, 0.514],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.098, 0.526, 0.403, 0.638],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.475, 0.527, 0.833, 0.735],\n      \"confidence\": 0.95,\n      \"image_alt\": \"控制器面板示意图，屏幕显示“E 50.0”，手指按键示意，旁边标注E表示输出频率、通道A指示灯、频率指示灯。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.099, 0.744, 0.909, 0.876],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.083, 0.953, 0.920, 0.979],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页不像纯扫描件，文字和线条较清晰，包含页眉、页脚和浅色水印。页面以步骤说明和控制器面板示意图为主，主要内容属于第三章安装及使用指南中的操作步骤说明。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.083,
+          0.052,
+          0.929,
+          0.075
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.098,
+          0.189,
+          0.235,
+          0.214
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.098,
+          0.228,
+          0.405,
+          0.315
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.475,
+          0.19,
+          0.833,
+          0.398
+        ],
+        "confidence": 0.95,
+        "image_alt": "控制器面板示意图，屏幕显示“U 150”，旁边标注U表示输出电压、通道A指示灯、电压指示灯。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.098,
+          0.49,
+          0.235,
+          0.514
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.098,
+          0.526,
+          0.403,
+          0.638
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.475,
+          0.527,
+          0.833,
+          0.735
+        ],
+        "confidence": 0.95,
+        "image_alt": "控制器面板示意图，屏幕显示“E 50.0”，手指按键示意，旁边标注E表示输出频率、通道A指示灯、频率指示灯。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.099,
+          0.744,
+          0.909,
+          0.876
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.083,
+          0.953,
+          0.92,
+          0.979
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "notes": "本页不像纯扫描件，文字和线条较清晰，包含页眉、页脚和浅色水印。页面以步骤说明和控制器面板示意图为主，主要内容属于第三章安装及使用指南中的操作步骤说明。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnHRY4MrnbqJ55QN1gf3EsQ5egmHD",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780637496,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.052, 0.929, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.098, 0.189, 0.235, 0.214],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.098, 0.228, 0.405, 0.315],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.475, 0.190, 0.833, 0.398],\n      \"confidence\": 0.95,\n      \"image_alt\": \"控制器面板示意图，屏幕显示“U 150”，旁边标注U表示输出电压、通道A指示灯、电压指示灯。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.098, 0.490, 0.235, 0.514],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.098, 0.526, 0.403, 0.638],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.475, 0.527, 0.833, 0.735],\n      \"confidence\": 0.95,\n      \"image_alt\": \"控制器面板示意图，屏幕显示“E 50.0”，手指按键示意，旁边标注E表示输出频率、通道A指示灯、频率指示灯。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.099, 0.744, 0.909, 0.876],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.083, 0.953, 0.920, 0.979],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页不像纯扫描件，文字和线条较清晰，包含页眉、页脚和浅色水印。页面以步骤说明和控制器面板示意图为主，主要内容属于第三章安装及使用指南中的操作步骤说明。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2625,
+      "completion_tokens": 1004,
+      "total_tokens": 3629,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 359,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

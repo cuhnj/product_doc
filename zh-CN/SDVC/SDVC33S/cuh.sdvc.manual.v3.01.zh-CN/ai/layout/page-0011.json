@@ -1,0 +1,127 @@
+{
+  "doc_id": "cuh.sdvc.manual.v3.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v3.01",
+  "lang": "zh-CN",
+  "page_index": 11,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T13:31:44",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v3.01.zh-CN，页码=11。\n\n【目录/书签上下文（节选）】\n- 2: 版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯、按键及外部部件说明（第 10 页）\n  - 1.3 接线端口说明（第 11 页）\n  - 1.4 控制器铭牌说明（第 11 页）\n- 第二章 产品介绍（第 12 页）\n  - 2.1 产品简介（第 12 页）\n  - 2.2 产品性能提升（第 12 页）\n  - 2.3 双路输出联合使用（第 13 页）\n- 第三章 安装及使用指南（第 14 页）\n  - 3.1 控制器",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.050, 0.930, 0.074],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.160, 0.325, 0.188],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.200, 0.932, 0.600],\n      \"confidence\": 0.96,\n      \"caption\": \"1.3 接线端口说明\",\n      \"image_alt\": \"接线端口示意图，左右分别为通道A与通道B的端子排。图中按功能分组标注遥控调速、智能光电、料满停机、控制输出，并列出端子编号A1、A2、A3、B1、B2、B3、B4、C1、C2、C3、D3、D1、D2及对应信号名称，如RGND、Input、5V out、GND、RX、TX、24V out、Output等。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.628, 0.360, 0.656],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.667, 0.932, 0.940],\n      \"confidence\": 0.95,\n      \"caption\": \"1.4 控制器铭牌说明\",\n      \"image_alt\": \"控制器铭牌说明示意图。中央为铭牌样例，包含CUH标识、双路数字调频振动送料控制器、型号SDVC33-M、输入电压范围、输出频率范围、最大输出电流、最大输出功率、使用海拔限制、制造单位及地址、二维码和产品序列号。周围用箭头标注产品型号、产品基本参数、制造单位及地址、产品序列号，并在下方说明产品序列号及生产日期位置。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.954, 0.930, 0.978],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页不是纯扫描件，具有可识别的文本层和矢量/图形化示意内容。页面以两幅结构示意图为主，分别说明接线端口和控制器铭牌；页眉页脚包含系列名称、日期、页码和文档编号。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.05,
+          0.93,
+          0.074
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.16,
+          0.325,
+          0.188
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.071,
+          0.2,
+          0.932,
+          0.6
+        ],
+        "confidence": 0.96,
+        "caption": "1.3 接线端口说明",
+        "image_alt": "接线端口示意图，左右分别为通道A与通道B的端子排。图中按功能分组标注遥控调速、智能光电、料满停机、控制输出，并列出端子编号A1、A2、A3、B1、B2、B3、B4、C1、C2、C3、D3、D1、D2及对应信号名称，如RGND、Input、5V out、GND、RX、TX、24V out、Output等。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.628,
+          0.36,
+          0.656
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.071,
+          0.667,
+          0.932,
+          0.94
+        ],
+        "confidence": 0.95,
+        "caption": "1.4 控制器铭牌说明",
+        "image_alt": "控制器铭牌说明示意图。中央为铭牌样例，包含CUH标识、双路数字调频振动送料控制器、型号SDVC33-M、输入电压范围、输出频率范围、最大输出电流、最大输出功率、使用海拔限制、制造单位及地址、二维码和产品序列号。周围用箭头标注产品型号、产品基本参数、制造单位及地址、产品序列号，并在下方说明产品序列号及生产日期位置。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.954,
+          0.93,
+          0.978
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "本页不是纯扫描件，具有可识别的文本层和矢量/图形化示意内容。页面以两幅结构示意图为主，分别说明接线端口和控制器铭牌；页眉页脚包含系列名称、日期、页码和文档编号。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnHRQ8cEMiJGKrEEoeCi63IiGtksa",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780637488,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.050, 0.930, 0.074],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.160, 0.325, 0.188],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.200, 0.932, 0.600],\n      \"confidence\": 0.96,\n      \"caption\": \"1.3 接线端口说明\",\n      \"image_alt\": \"接线端口示意图，左右分别为通道A与通道B的端子排。图中按功能分组标注遥控调速、智能光电、料满停机、控制输出，并列出端子编号A1、A2、A3、B1、B2、B3、B4、C1、C2、C3、D3、D1、D2及对应信号名称，如RGND、Input、5V out、GND、RX、TX、24V out、Output等。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.628, 0.360, 0.656],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.667, 0.932, 0.940],\n      \"confidence\": 0.95,\n      \"caption\": \"1.4 控制器铭牌说明\",\n      \"image_alt\": \"控制器铭牌说明示意图。中央为铭牌样例，包含CUH标识、双路数字调频振动送料控制器、型号SDVC33-M、输入电压范围、输出频率范围、最大输出电流、最大输出功率、使用海拔限制、制造单位及地址、二维码和产品序列号。周围用箭头标注产品型号、产品基本参数、制造单位及地址、产品序列号，并在下方说明产品序列号及生产日期位置。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.954, 0.930, 0.978],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页不是纯扫描件，具有可识别的文本层和矢量/图形化示意内容。页面以两幅结构示意图为主，分别说明接线端口和控制器铭牌；页眉页脚包含系列名称、日期、页码和文档编号。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2690,
+      "completion_tokens": 1089,
+      "total_tokens": 3779,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 411,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

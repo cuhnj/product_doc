@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 26,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:17:11",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=26。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufactur",
+  "assistant_text": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42-SD\\n\\n---\\n\\n### 4.1.7 Load Detection\\n\\nThe controller can detect the capacitance, resistance value. After using the load detection function, users can view the measured values related to the load in the monitoring parameter group. None by default.\\n\\n### 4.1.8 Shortage Alarm\\n\\nWhen the controller is connected to an accelerometer and the \\\"voltage mode\\\" and \\\"frequency mode\\\" parameter values are both \\\"automatic\\\", the shortage alarm function will be activated. Users can find the \\\"Material Shortage Alarm\\\" parameter in the monitoring parameter group when the vibratory feeder is empty or with less material, and at the same time, long press ⊕ and ⊖ record the measured value of the \\\"Material Shortage Alarm\\\" in the monitoring parameter group, and refer to the measured value to set the alarm value of the \\\"Material Shortage Alarm\\\". You can also adjust the alarm value through ⊕ or ⊖ further.\\n\\nWhen the controller detects that the measured value of the vibratory feeder is lower than the alarm value, it triggers its alarm function.\\n\\nThe range of material shortage alarm is 0~3000, the default is 0 and the adjustment accuracy is 1.\\n\\nNote: Users can use alarm signals as the main output or D-port output source signals to drive different output states of the controller.\\n\\n### 4.1.9 Shutdown Alarm\\n\\n**Shutdown Alarm:** When the controller stops outputting, the controller emits different alarm sound effects by driving the vibratory feeder, which is used to issue a shutdown warning to user in noisy environments. Optional three sound effects or invalid (no sound). None by default.\\n\\n| Parameter | Meaning |\\n|---|---|\\n| None | Invalid |\\n| Sound 1 | Drive the vibration plate to emit sound effect 1 alarm sound |\\n| Sound 2 | Drive the vibration plate to emit sound effect 2 alarm sound |\\n| Sound 3 | Drive the vibration plate to emit sound effect 3 alarm sound |\\n\\n### 4.1.10 Backlight Brightness\\n\\n**Backlight Brightness:** That is, the backlight brightness of the controller display. The display's backlight brightness can be adjusted to suit different ambient lighting conditions.\\n\\nThe backlight brightness range is 20~100, the default is 100 and the adjustment accuracy is 1.\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　- 16 -　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42-SD\n\n---\n\n### 4.1.7 Load Detection\n\nThe controller can detect the capacitance, resistance value. After using the load detection function, users can view the measured values related to the load in the monitoring parameter group. None by default.\n\n### 4.1.8 Shortage Alarm\n\nWhen the controller is connected to an accelerometer and the \"voltage mode\" and \"frequency mode\" parameter values are both \"automatic\", the shortage alarm function will be activated. Users can find the \"Material Shortage Alarm\" parameter in the monitoring parameter group when the vibratory feeder is empty or with less material, and at the same time, long press ⊕ and ⊖ record the measured value of the \"Material Shortage Alarm\" in the monitoring parameter group, and refer to the measured value to set the alarm value of the \"Material Shortage Alarm\". You can also adjust the alarm value through ⊕ or ⊖ further.\n\nWhen the controller detects that the measured value of the vibratory feeder is lower than the alarm value, it triggers its alarm function.\n\nThe range of material shortage alarm is 0~3000, the default is 0 and the adjustment accuracy is 1.\n\nNote: Users can use alarm signals as the main output or D-port output source signals to drive different output states of the controller.\n\n### 4.1.9 Shutdown Alarm\n\n**Shutdown Alarm:** When the controller stops outputting, the controller emits different alarm sound effects by driving the vibratory feeder, which is used to issue a shutdown warning to user in noisy environments. Optional three sound effects or invalid (no sound). None by default.\n\n| Parameter | Meaning |\n|---|---|\n| None | Invalid |\n| Sound 1 | Drive the vibration plate to emit sound effect 1 alarm sound |\n| Sound 2 | Drive the vibration plate to emit sound effect 2 alarm sound |\n| Sound 3 | Drive the vibration plate to emit sound effect 3 alarm sound |\n\n### 4.1.10 Backlight Brightness\n\n**Backlight Brightness:** That is, the backlight brightness of the controller display. The display's backlight brightness can be adjusted to suit different ambient lighting conditions.\n\nThe backlight brightness range is 20~100, the default is 100 and the adjustment accuracy is 1.\n\n---\n\n2026-02　　　　　　　　　　　　　　　　　- 16 -　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-Dmsrhl5HUJeGlH5f0hsExEZ7DnUpX",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780543017,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42-SD\\n\\n---\\n\\n### 4.1.7 Load Detection\\n\\nThe controller can detect the capacitance, resistance value. After using the load detection function, users can view the measured values related to the load in the monitoring parameter group. None by default.\\n\\n### 4.1.8 Shortage Alarm\\n\\nWhen the controller is connected to an accelerometer and the \\\"voltage mode\\\" and \\\"frequency mode\\\" parameter values are both \\\"automatic\\\", the shortage alarm function will be activated. Users can find the \\\"Material Shortage Alarm\\\" parameter in the monitoring parameter group when the vibratory feeder is empty or with less material, and at the same time, long press ⊕ and ⊖ record the measured value of the \\\"Material Shortage Alarm\\\" in the monitoring parameter group, and refer to the measured value to set the alarm value of the \\\"Material Shortage Alarm\\\". You can also adjust the alarm value through ⊕ or ⊖ further.\\n\\nWhen the controller detects that the measured value of the vibratory feeder is lower than the alarm value, it triggers its alarm function.\\n\\nThe range of material shortage alarm is 0~3000, the default is 0 and the adjustment accuracy is 1.\\n\\nNote: Users can use alarm signals as the main output or D-port output source signals to drive different output states of the controller.\\n\\n### 4.1.9 Shutdown Alarm\\n\\n**Shutdown Alarm:** When the controller stops outputting, the controller emits different alarm sound effects by driving the vibratory feeder, which is used to issue a shutdown warning to user in noisy environments. Optional three sound effects or invalid (no sound). None by default.\\n\\n| Parameter | Meaning |\\n|---|---|\\n| None | Invalid |\\n| Sound 1 | Drive the vibration plate to emit sound effect 1 alarm sound |\\n| Sound 2 | Drive the vibration plate to emit sound effect 2 alarm sound |\\n| Sound 3 | Drive the vibration plate to emit sound effect 3 alarm sound |\\n\\n### 4.1.10 Backlight Brightness\\n\\n**Backlight Brightness:** That is, the backlight brightness of the controller display. The display's backlight brightness can be adjusted to suit different ambient lighting conditions.\\n\\nThe backlight brightness range is 20~100, the default is 100 and the adjustment accuracy is 1.\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　- 16 -　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4216,
+      "completion_tokens": 1091,
+      "total_tokens": 5307,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

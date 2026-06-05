@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 43,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:18:08",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=43。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufactur",
+  "assistant_text": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42-SD\\n\\n## 4.6 Material Quantity Counting\\n\\nThis controller has a built-in counting function that can count counting pulses and automatically decelerate or stop when the number of pulses reaches the set total count. It also has special functions such as super anti-jitter and final deceleration to prevent overshoot. The signal flow diagram is as follows:\\n\\n[[vcrop:43:0]]\\n\\n**Figure 4.6**\\n\\n- Long press ▲ and ◀ to enter parameter setting interface, short press ▶ to switch to \\\"7Counter\\\" parameter group.\\n- Short press ▲ or ▼ to switch parameters in the counting parameter group.\\n- Press ⊕ or ⊖ to adjust the parameter value.\\n\\nExample interface:\\n\\n```text\\nRUN\\nA C D E F G N J      A0\\n01.TotaCout      10\\n02.PrcntTrm      50 %\\n03.CotAhead       3\\n04.CotRstTm     0.0 S\\n05.CotPotSe    None\\n+   7Counter      −\\n```\\n\\nThe other parameters of this parameter group can be adjusted according to the above steps.\\n\\n### 4.6.1 Material Quantity Counting (or Speed A/B)\\n\\nThis parameter is used to enable and disable the counting function.\\n\\nThe default is None, that is, the counting function is turned off, and the speed A/B function is enabled at this time.\\n\\nWhen the counting function parameter is valid (enabled), the speed A and speed B act as speed A/B control, the controller can perform more operations for the counting function. For signal flow diagram, refer to Figure 4.6.\\n\\n| Parameter | Meaning |\\n|---|---|\\n| None | Turn off the counting function and enable the speed A/B function |\\n| Valid | Use the speed A port as the counting port, and use the speed B port as the count clearing port |\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　-33-　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.134,\n        0.235,\n        0.823,\n        0.407\n      ],\n      \"alt\": \"Figure 4.6 signal flow diagram for material quantity counting, showing Port G, Port N, logical OR reset, count/slowdown/full/error/current count outputs, count clear time, count total, and terminal number quantity.\",\n      \"reason\": \"Fine-line signal flow diagram with arrows and block labels is best preserved as a cropped image.\"\n    }\n  ],\n  \"notes\": \"Page is legible with a light background watermark.\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42-SD\n\n## 4.6 Material Quantity Counting\n\nThis controller has a built-in counting function that can count counting pulses and automatically decelerate or stop when the number of pulses reaches the set total count. It also has special functions such as super anti-jitter and final deceleration to prevent overshoot. The signal flow diagram is as follows:\n\n[[vcrop:43:0]]\n\n**Figure 4.6**\n\n- Long press ▲ and ◀ to enter parameter setting interface, short press ▶ to switch to \"7Counter\" parameter group.\n- Short press ▲ or ▼ to switch parameters in the counting parameter group.\n- Press ⊕ or ⊖ to adjust the parameter value.\n\nExample interface:\n\n```text\nRUN\nA C D E F G N J      A0\n01.TotaCout      10\n02.PrcntTrm      50 %\n03.CotAhead       3\n04.CotRstTm     0.0 S\n05.CotPotSe    None\n+   7Counter      −\n```\n\nThe other parameters of this parameter group can be adjusted according to the above steps.\n\n### 4.6.1 Material Quantity Counting (or Speed A/B)\n\nThis parameter is used to enable and disable the counting function.\n\nThe default is None, that is, the counting function is turned off, and the speed A/B function is enabled at this time.\n\nWhen the counting function parameter is valid (enabled), the speed A and speed B act as speed A/B control, the controller can perform more operations for the counting function. For signal flow diagram, refer to Figure 4.6.\n\n| Parameter | Meaning |\n|---|---|\n| None | Turn off the counting function and enable the speed A/B function |\n| Valid | Use the speed A port as the counting port, and use the speed B port as the count clearing port |\n\n---\n\n2026-02　　　　　　　　　　　　　　　　　-33-　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.134,
+        0.235,
+        0.823,
+        0.407
+      ],
+      "alt": "Figure 4.6 signal flow diagram for material quantity counting, showing Port G, Port N, logical OR reset, count/slowdown/full/error/current count outputs, count clear time, count total, and terminal number quantity.",
+      "reason": "Fine-line signal flow diagram with arrows and block labels is best preserved as a cropped image."
+    }
+  ],
+  "notes": "Page is legible with a light background watermark.",
+  "raw": {
+    "id": "chatcmpl-DmssF5kz3gmBieqJgH1A2GUmu2l6W",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780543051,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42-SD\\n\\n## 4.6 Material Quantity Counting\\n\\nThis controller has a built-in counting function that can count counting pulses and automatically decelerate or stop when the number of pulses reaches the set total count. It also has special functions such as super anti-jitter and final deceleration to prevent overshoot. The signal flow diagram is as follows:\\n\\n[[vcrop:43:0]]\\n\\n**Figure 4.6**\\n\\n- Long press ▲ and ◀ to enter parameter setting interface, short press ▶ to switch to \\\"7Counter\\\" parameter group.\\n- Short press ▲ or ▼ to switch parameters in the counting parameter group.\\n- Press ⊕ or ⊖ to adjust the parameter value.\\n\\nExample interface:\\n\\n```text\\nRUN\\nA C D E F G N J      A0\\n01.TotaCout      10\\n02.PrcntTrm      50 %\\n03.CotAhead       3\\n04.CotRstTm     0.0 S\\n05.CotPotSe    None\\n+   7Counter      −\\n```\\n\\nThe other parameters of this parameter group can be adjusted according to the above steps.\\n\\n### 4.6.1 Material Quantity Counting (or Speed A/B)\\n\\nThis parameter is used to enable and disable the counting function.\\n\\nThe default is None, that is, the counting function is turned off, and the speed A/B function is enabled at this time.\\n\\nWhen the counting function parameter is valid (enabled), the speed A and speed B act as speed A/B control, the controller can perform more operations for the counting function. For signal flow diagram, refer to Figure 4.6.\\n\\n| Parameter | Meaning |\\n|---|---|\\n| None | Turn off the counting function and enable the speed A/B function |\\n| Valid | Use the speed A port as the counting port, and use the speed B port as the count clearing port |\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　-33-　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.134,\n        0.235,\n        0.823,\n        0.407\n      ],\n      \"alt\": \"Figure 4.6 signal flow diagram for material quantity counting, showing Port G, Port N, logical OR reset, count/slowdown/full/error/current count outputs, count clear time, count total, and terminal number quantity.\",\n      \"reason\": \"Fine-line signal flow diagram with arrows and block labels is best preserved as a cropped image.\"\n    }\n  ],\n  \"notes\": \"Page is legible with a light background watermark.\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4188,
+      "completion_tokens": 2168,
+      "total_tokens": 6356,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1536,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

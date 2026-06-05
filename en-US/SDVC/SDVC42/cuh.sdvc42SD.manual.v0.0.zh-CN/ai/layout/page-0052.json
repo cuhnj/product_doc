@@ -1,0 +1,180 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 52,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:10:44",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=52。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.052, 0.930, 0.075],\n      \"confidence\": 0.93,\n      \"text\": \"页眉：Automatic High Frequency Piezo Controller / SDVC42-SD，带横线\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.129, 0.160, 0.143],\n      \"confidence\": 0.96,\n      \"text\": \"Steps:\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.151, 0.936, 0.476],\n      \"confidence\": 0.95,\n      \"text\": \"编号步骤 1–5，说明连接 T1/T3 信号、新设备上电进入通信参数组、设置 DigSynAd、将 EnNetwok 设置为 Expand 并确认、添加成功后变为 Online；随后说明可通过设备联网状态参数检查网络状态，并包含一条 Note。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.508, 0.365, 0.524],\n      \"confidence\": 0.96,\n      \"text\": \"View Confirmation Method:\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.532, 0.920, 0.607],\n      \"confidence\": 0.95,\n      \"text\": \"两条编号说明：在 monitoring parameter group 中查看 DevicNum 表示网络设备总数；查看 OnlinNum 表示当前在线控制器数量。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.641, 0.284, 0.657],\n      \"confidence\": 0.96,\n      \"text\": \"Synchronous Resistor:\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.665, 0.905, 0.689],\n      \"confidence\": 0.93,\n      \"text\": \"说明 CUHBus-DS® communication port 内置 matching resistor (120Ω) 功能，可 invalid 或 valid。\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.220, 0.720, 0.731, 0.810],\n      \"confidence\": 0.94,\n      \"caption\": null,\n      \"text\": \"两列表格：Parameter / Meaning。行内容为 None—Do not use matching resistor (120Ω)；Valid—Use matching resistor (120Ω)。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.953, 0.930, 0.973],\n      \"confidence\": 0.94,\n      \"text\": \"页脚：2026-02、-42-、SDVC42SDSMSEN_3.01，带横线\"\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.000, 0.000, 1.000, 1.000],\n      \"confidence\": 0.35,\n      \"text\": \"整页浅灰色 CUH 重复水印背景\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页不是扫描件，具有可提取文本层。页面以文字说明为主，底部包含一个小型参数含义表；无独立图形内容，背景有浅色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.052,
+          0.93,
+          0.075
+        ],
+        "confidence": 0.93,
+        "text": "页眉：Automatic High Frequency Piezo Controller / SDVC42-SD，带横线",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.129,
+          0.16,
+          0.143
+        ],
+        "confidence": 0.96,
+        "text": "Steps:",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.151,
+          0.936,
+          0.476
+        ],
+        "confidence": 0.95,
+        "text": "编号步骤 1–5，说明连接 T1/T3 信号、新设备上电进入通信参数组、设置 DigSynAd、将 EnNetwok 设置为 Expand 并确认、添加成功后变为 Online；随后说明可通过设备联网状态参数检查网络状态，并包含一条 Note。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.508,
+          0.365,
+          0.524
+        ],
+        "confidence": 0.96,
+        "text": "View Confirmation Method:",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.532,
+          0.92,
+          0.607
+        ],
+        "confidence": 0.95,
+        "text": "两条编号说明：在 monitoring parameter group 中查看 DevicNum 表示网络设备总数；查看 OnlinNum 表示当前在线控制器数量。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.641,
+          0.284,
+          0.657
+        ],
+        "confidence": 0.96,
+        "text": "Synchronous Resistor:",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.665,
+          0.905,
+          0.689
+        ],
+        "confidence": 0.93,
+        "text": "说明 CUHBus-DS® communication port 内置 matching resistor (120Ω) 功能，可 invalid 或 valid。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.22,
+          0.72,
+          0.731,
+          0.81
+        ],
+        "confidence": 0.94,
+        "text": "两列表格：Parameter / Meaning。行内容为 None—Do not use matching resistor (120Ω)；Valid—Use matching resistor (120Ω)。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.953,
+          0.93,
+          0.973
+        ],
+        "confidence": 0.94,
+        "text": "页脚：2026-02、-42-、SDVC42SDSMSEN_3.01，带横线",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "confidence": 0.35,
+        "text": "整页浅灰色 CUH 重复水印背景",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "notes": "本页不是扫描件，具有可提取文本层。页面以文字说明为主，底部包含一个小型参数含义表；无独立图形内容，背景有浅色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmslPdUyNCavnl7Z2YV7iDSe0t3ts",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780542627,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.052, 0.930, 0.075],\n      \"confidence\": 0.93,\n      \"text\": \"页眉：Automatic High Frequency Piezo Controller / SDVC42-SD，带横线\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.129, 0.160, 0.143],\n      \"confidence\": 0.96,\n      \"text\": \"Steps:\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.151, 0.936, 0.476],\n      \"confidence\": 0.95,\n      \"text\": \"编号步骤 1–5，说明连接 T1/T3 信号、新设备上电进入通信参数组、设置 DigSynAd、将 EnNetwok 设置为 Expand 并确认、添加成功后变为 Online；随后说明可通过设备联网状态参数检查网络状态，并包含一条 Note。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.508, 0.365, 0.524],\n      \"confidence\": 0.96,\n      \"text\": \"View Confirmation Method:\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.532, 0.920, 0.607],\n      \"confidence\": 0.95,\n      \"text\": \"两条编号说明：在 monitoring parameter group 中查看 DevicNum 表示网络设备总数；查看 OnlinNum 表示当前在线控制器数量。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.641, 0.284, 0.657],\n      \"confidence\": 0.96,\n      \"text\": \"Synchronous Resistor:\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.665, 0.905, 0.689],\n      \"confidence\": 0.93,\n      \"text\": \"说明 CUHBus-DS® communication port 内置 matching resistor (120Ω) 功能，可 invalid 或 valid。\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.220, 0.720, 0.731, 0.810],\n      \"confidence\": 0.94,\n      \"caption\": null,\n      \"text\": \"两列表格：Parameter / Meaning。行内容为 None—Do not use matching resistor (120Ω)；Valid—Use matching resistor (120Ω)。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.953, 0.930, 0.973],\n      \"confidence\": 0.94,\n      \"text\": \"页脚：2026-02、-42-、SDVC42SDSMSEN_3.01，带横线\"\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.000, 0.000, 1.000, 1.000],\n      \"confidence\": 0.35,\n      \"text\": \"整页浅灰色 CUH 重复水印背景\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页不是扫描件，具有可提取文本层。页面以文字说明为主，底部包含一个小型参数含义表；无独立图形内容，背景有浅色 CUH 水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3869,
+      "completion_tokens": 1382,
+      "total_tokens": 5251,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

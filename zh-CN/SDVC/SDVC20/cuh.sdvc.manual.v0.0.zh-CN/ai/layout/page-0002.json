@@ -1,0 +1,151 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 2,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T12:14:26",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=2。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 目录（第 6 页）\n- 第一章 性能特点（第 7 页）\n- 第二章 安装指南（第 9 页）\n- 第三章 部件说明（第 11 页）\n- 第四章 基本操作（第 13 页）\n- 4.1 输出电压设定（第 13 页）\n- 4.2 输出频率设定（第 14 页）\n- 4.3 缓启动功能（第 15 页）\n- 4.4 输出开关（第 15 页）\n- 4.5 最大输出电压限制功能（第 16 页）\n- 4.6 恢复出厂设置（第 17 页）\n- 第五章 传感器与信号控制（第 18 页）\n- 5.1 智能光电传感器的使用方法（第 18 页）\n- 5.2 开关传感器的",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.074, 0.114, 0.48, 0.134],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.072, 0.157, 0.932, 0.577],\n      \"confidence\": 0.95,\n      \"caption\": \"智能数字振动送料控制器相关产品\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.108, 0.245, 0.402, 0.367],\n      \"confidence\": 0.86,\n      \"image_alt\": \"SDVC34 智能数字自动调频振动送料控制器系列的产品外观图片，包含一台较大的控制器和一台较窄的控制器。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.108, 0.427, 0.402, 0.558],\n      \"confidence\": 0.86,\n      \"image_alt\": \"SDVC31 数字调频振动送料控制器系列的产品外观图片，显示三台控制器并排。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.625, 0.47, 0.649],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.072, 0.655, 0.932, 0.895],\n      \"confidence\": 0.95,\n      \"caption\": \"压电数字调频振动送料控制器\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.108, 0.739, 0.409, 0.867],\n      \"confidence\": 0.86,\n      \"image_alt\": \"SDVC40 压电数字调频振动送料控制器系列的产品外观图片，显示两台窄型控制器并排。\"\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0, 0, 1, 1],\n      \"confidence\": 0.35\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页有可识别文本层，版面以产品对照表和产品图片为主，背景带有淡色 CUH 水印。内容主要列出 SDVC34、SDVC31、SDVC40 系列的品名规格与功能特点。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.074,
+          0.114,
+          0.48,
+          0.134
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.072,
+          0.157,
+          0.932,
+          0.577
+        ],
+        "confidence": 0.95,
+        "caption": "智能数字振动送料控制器相关产品",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.108,
+          0.245,
+          0.402,
+          0.367
+        ],
+        "confidence": 0.86,
+        "image_alt": "SDVC34 智能数字自动调频振动送料控制器系列的产品外观图片，包含一台较大的控制器和一台较窄的控制器。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.108,
+          0.427,
+          0.402,
+          0.558
+        ],
+        "confidence": 0.86,
+        "image_alt": "SDVC31 数字调频振动送料控制器系列的产品外观图片，显示三台控制器并排。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.625,
+          0.47,
+          0.649
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.072,
+          0.655,
+          0.932,
+          0.895
+        ],
+        "confidence": 0.95,
+        "caption": "压电数字调频振动送料控制器",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.108,
+          0.739,
+          0.409,
+          0.867
+        ],
+        "confidence": 0.86,
+        "image_alt": "SDVC40 压电数字调频振动送料控制器系列的产品外观图片，显示两台窄型控制器并排。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "confidence": 0.35,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "notes": "本页有可识别文本层，版面以产品对照表和产品图片为主，背景带有淡色 CUH 水印。内容主要列出 SDVC34、SDVC31、SDVC40 系列的品名规格与功能特点。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-Dmtl2rqqD6f4AQp4UMiA66uf2eU6O",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780546448,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.074, 0.114, 0.48, 0.134],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.072, 0.157, 0.932, 0.577],\n      \"confidence\": 0.95,\n      \"caption\": \"智能数字振动送料控制器相关产品\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.108, 0.245, 0.402, 0.367],\n      \"confidence\": 0.86,\n      \"image_alt\": \"SDVC34 智能数字自动调频振动送料控制器系列的产品外观图片，包含一台较大的控制器和一台较窄的控制器。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.108, 0.427, 0.402, 0.558],\n      \"confidence\": 0.86,\n      \"image_alt\": \"SDVC31 数字调频振动送料控制器系列的产品外观图片，显示三台控制器并排。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.625, 0.47, 0.649],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.072, 0.655, 0.932, 0.895],\n      \"confidence\": 0.95,\n      \"caption\": \"压电数字调频振动送料控制器\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.108, 0.739, 0.409, 0.867],\n      \"confidence\": 0.86,\n      \"image_alt\": \"SDVC40 压电数字调频振动送料控制器系列的产品外观图片，显示两台窄型控制器并排。\"\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0, 0, 1, 1],\n      \"confidence\": 0.35\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页有可识别文本层，版面以产品对照表和产品图片为主，背景带有淡色 CUH 水印。内容主要列出 SDVC34、SDVC31、SDVC40 系列的品名规格与功能特点。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2208,
+      "completion_tokens": 1146,
+      "total_tokens": 3354,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 77,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:18:57",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=77。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufactur",
+  "assistant_text": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42-SD\\n\\n## 7.4.4 Steady Speed Parameter Group\\n\\n| Function | Parameter | Display | Value Range/Enumeration Item | Default value |\\n|---|---|---|---|---|\\n| P4.01 | Automatic Frequency<br>Center Frequency | 01.AutFCent | 40.0~999.9 Hz | 100.0 |\\n| P4.02 | Automatic Frequency<br>Adjustment Range | 02.AutFRang | 0.0~180.0 Hz | 30.0 |\\n| P4.03 | Automatic Frequency<br>Adjustment Integral | 03.AutFIntg | 0~2000 | 20 |\\n| P4.04 | Automatic Amplitude<br>Adjustment Integral | 04.AutAIntg | 0~9999 | 300 |\\n| P4.05 | Automatic Amplitude<br>Adjustment Proportion | 05.AutAProp | 0~9999 | 500 |\\n| P4.06 | Automatic Phase | 06.AutoPhas | -180~180 ° | 0 |\\n| P4.07 | Automatic Searching<br>Frequency Voltages Max | 07.AutSrhVM | 0.0~30.0 V | 20.0 |\\n| P4.08 | Automatic Searching<br>Frequency Amplitude Max | 08.AutSrhAM | 0~3200 | 200 |\\n| P4.09 | Automatic Search<br>Frequency | 09.AutSpedM | 0~4000 | 3200 |\\n| P4.10 | Users Setting Phase | 10.UserPhas | -180~180 ° | 0 |\\n| P4.11 | Voltage Mode | 11.VoltgMod | Manuel, Auto | Auto |\\n| P4.12 | Frequency Mode | 12.FrqncMod | Manuel, Auto, SynV, SynE | Auto |\\n| P4.13 | Synchronize Source | 13.SynSourc | None, PhaseV, PhaseE | None |\\n| P4.14 | Acceleration Sensor Type | 14.AcSnsrTp | 20-1, 20-2, 20-3, 20-4, 203, 204, 205, 206 | 205 |\\n| P4.15 | Frequency Search Speed | 15.SrhSpeed | 0~5 | 3 |\\n\\n2026-02　　　　　　　　　　　　　　　　　- 67 -　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42-SD\n\n## 7.4.4 Steady Speed Parameter Group\n\n| Function | Parameter | Display | Value Range/Enumeration Item | Default value |\n|---|---|---|---|---|\n| P4.01 | Automatic Frequency<br>Center Frequency | 01.AutFCent | 40.0~999.9 Hz | 100.0 |\n| P4.02 | Automatic Frequency<br>Adjustment Range | 02.AutFRang | 0.0~180.0 Hz | 30.0 |\n| P4.03 | Automatic Frequency<br>Adjustment Integral | 03.AutFIntg | 0~2000 | 20 |\n| P4.04 | Automatic Amplitude<br>Adjustment Integral | 04.AutAIntg | 0~9999 | 300 |\n| P4.05 | Automatic Amplitude<br>Adjustment Proportion | 05.AutAProp | 0~9999 | 500 |\n| P4.06 | Automatic Phase | 06.AutoPhas | -180~180 ° | 0 |\n| P4.07 | Automatic Searching<br>Frequency Voltages Max | 07.AutSrhVM | 0.0~30.0 V | 20.0 |\n| P4.08 | Automatic Searching<br>Frequency Amplitude Max | 08.AutSrhAM | 0~3200 | 200 |\n| P4.09 | Automatic Search<br>Frequency | 09.AutSpedM | 0~4000 | 3200 |\n| P4.10 | Users Setting Phase | 10.UserPhas | -180~180 ° | 0 |\n| P4.11 | Voltage Mode | 11.VoltgMod | Manuel, Auto | Auto |\n| P4.12 | Frequency Mode | 12.FrqncMod | Manuel, Auto, SynV, SynE | Auto |\n| P4.13 | Synchronize Source | 13.SynSourc | None, PhaseV, PhaseE | None |\n| P4.14 | Acceleration Sensor Type | 14.AcSnsrTp | 20-1, 20-2, 20-3, 20-4, 203, 204, 205, 206 | 205 |\n| P4.15 | Frequency Search Speed | 15.SrhSpeed | 0~5 | 3 |\n\n2026-02　　　　　　　　　　　　　　　　　- 67 -　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-DmstPeUIkZMlklYPP0pQDjXGTUmrZ",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780543123,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42-SD\\n\\n## 7.4.4 Steady Speed Parameter Group\\n\\n| Function | Parameter | Display | Value Range/Enumeration Item | Default value |\\n|---|---|---|---|---|\\n| P4.01 | Automatic Frequency<br>Center Frequency | 01.AutFCent | 40.0~999.9 Hz | 100.0 |\\n| P4.02 | Automatic Frequency<br>Adjustment Range | 02.AutFRang | 0.0~180.0 Hz | 30.0 |\\n| P4.03 | Automatic Frequency<br>Adjustment Integral | 03.AutFIntg | 0~2000 | 20 |\\n| P4.04 | Automatic Amplitude<br>Adjustment Integral | 04.AutAIntg | 0~9999 | 300 |\\n| P4.05 | Automatic Amplitude<br>Adjustment Proportion | 05.AutAProp | 0~9999 | 500 |\\n| P4.06 | Automatic Phase | 06.AutoPhas | -180~180 ° | 0 |\\n| P4.07 | Automatic Searching<br>Frequency Voltages Max | 07.AutSrhVM | 0.0~30.0 V | 20.0 |\\n| P4.08 | Automatic Searching<br>Frequency Amplitude Max | 08.AutSrhAM | 0~3200 | 200 |\\n| P4.09 | Automatic Search<br>Frequency | 09.AutSpedM | 0~4000 | 3200 |\\n| P4.10 | Users Setting Phase | 10.UserPhas | -180~180 ° | 0 |\\n| P4.11 | Voltage Mode | 11.VoltgMod | Manuel, Auto | Auto |\\n| P4.12 | Frequency Mode | 12.FrqncMod | Manuel, Auto, SynV, SynE | Auto |\\n| P4.13 | Synchronize Source | 13.SynSourc | None, PhaseV, PhaseE | None |\\n| P4.14 | Acceleration Sensor Type | 14.AcSnsrTp | 20-1, 20-2, 20-3, 20-4, 203, 204, 205, 206 | 205 |\\n| P4.15 | Frequency Search Speed | 15.SrhSpeed | 0~5 | 3 |\\n\\n2026-02　　　　　　　　　　　　　　　　　- 67 -　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4181,
+      "completion_tokens": 1361,
+      "total_tokens": 5542,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 766,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

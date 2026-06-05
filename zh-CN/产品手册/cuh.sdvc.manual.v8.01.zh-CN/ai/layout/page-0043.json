@@ -1,0 +1,209 @@
+{
+  "doc_id": "cuh.sdvc.manual.v8.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v8.01",
+  "lang": "zh-CN",
+  "page_index": 43,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T01:27:34",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v8.01.zh-CN，页码=43。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 目录（第 3 页）\n- 4: 目录2（第 4 页）\n- 5: SDVC10-S（第 5 页）\n- 6: SDVC11-S（第 6 页）\n- 7: SDVC11-M（第 7 页）\n- 8: SDVC14-S（第 8 页）\n- 9: SDVC20-S（第 9 页）\n- 10: SDVC20-L（第 10 页）\n- 11: SDVC20-XL（第 11 页）\n- 12: SDVC201-L（第 12 页）\n- 13: SDVC20-U（第 13 页）\n- 14: SDVC21-S（第 14 页）\n- 15: SDVC21LP（第 15 页）\n- 16: SDVC21XLP（第 16 页）\n- 17: SDVC212",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.08, 0.052, 0.93, 0.095],\n      \"confidence\": 0.82\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.104, 0.514, 0.154],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.084, 0.179, 0.511, 0.434],\n      \"confidence\": 0.95,\n      \"image_alt\": \"SDVC50 控制器产品外观照片，旁有特性文字：12~36V直流电源输入、调频调压控制、送料平稳、CAN总线控制。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.453, 0.514, 0.476],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.083, 0.489, 0.514, 0.786],\n      \"confidence\": 0.96,\n      \"caption\": \"技术规格\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.559, 0.131, 0.932, 0.154],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.559, 0.160, 0.78, 0.176],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.559, 0.179, 0.932, 0.202],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.559, 0.211, 0.919, 0.443],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.559, 0.490, 0.932, 0.514],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.559, 0.520, 0.805, 0.547],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.64, 0.892, 0.932, 0.974],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.93, 0.971, 0.999, 1.0],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 5, 6, 7, 8, 3, 4, 9, 10, 11, 12],\n  \"notes\": \"本页为产品说明页，包含文本层与渲染图，非纯扫描件。页面以结构化文字、技术规格表和一张产品外观图为主，图文混排，底部有公司联系信息和页码。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.08,
+          0.052,
+          0.93,
+          0.095
+        ],
+        "confidence": 0.82,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.083,
+          0.104,
+          0.514,
+          0.154
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.084,
+          0.179,
+          0.511,
+          0.434
+        ],
+        "confidence": 0.95,
+        "image_alt": "SDVC50 控制器产品外观照片，旁有特性文字：12~36V直流电源输入、调频调压控制、送料平稳、CAN总线控制。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.083,
+          0.453,
+          0.514,
+          0.476
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.083,
+          0.489,
+          0.514,
+          0.786
+        ],
+        "confidence": 0.96,
+        "caption": "技术规格",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.559,
+          0.131,
+          0.932,
+          0.154
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.559,
+          0.16,
+          0.78,
+          0.176
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.559,
+          0.179,
+          0.932,
+          0.202
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.559,
+          0.211,
+          0.919,
+          0.443
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.559,
+          0.49,
+          0.932,
+          0.514
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.559,
+          0.52,
+          0.805,
+          0.547
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.64,
+          0.892,
+          0.932,
+          0.974
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.93,
+          0.971,
+          0.999,
+          1.0
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12
+    ],
+    "notes": "本页为产品说明页，包含文本层与渲染图，非纯扫描件。页面以结构化文字、技术规格表和一张产品外观图为主，图文混排，底部有公司联系信息和页码。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-Dmjf62uLuRgC1BVbpVY0MmUhlIVfo",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780507640,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.08, 0.052, 0.93, 0.095],\n      \"confidence\": 0.82\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.104, 0.514, 0.154],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.084, 0.179, 0.511, 0.434],\n      \"confidence\": 0.95,\n      \"image_alt\": \"SDVC50 控制器产品外观照片，旁有特性文字：12~36V直流电源输入、调频调压控制、送料平稳、CAN总线控制。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.453, 0.514, 0.476],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.083, 0.489, 0.514, 0.786],\n      \"confidence\": 0.96,\n      \"caption\": \"技术规格\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.559, 0.131, 0.932, 0.154],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.559, 0.160, 0.78, 0.176],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.559, 0.179, 0.932, 0.202],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.559, 0.211, 0.919, 0.443],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.559, 0.490, 0.932, 0.514],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.559, 0.520, 0.805, 0.547],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.64, 0.892, 0.932, 0.974],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.93, 0.971, 0.999, 1.0],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 5, 6, 7, 8, 3, 4, 9, 10, 11, 12],\n  \"notes\": \"本页为产品说明页，包含文本层与渲染图，非纯扫描件。页面以结构化文字、技术规格表和一张产品外观图为主，图文混排，底部有公司联系信息和页码。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2795,
+      "completion_tokens": 1317,
+      "total_tokens": 4112,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

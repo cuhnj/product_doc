@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 66,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:18:40",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=66。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufactur",
+  "assistant_text": "{\n  \"page_markdown\": \"# Chapter Ⅴ Typical Applications\\n\\n## 5.1 How to keep two vibratory feeders running at the same frequency?\\n\\n[[vcrop:66:0]]\\n\\nThis section introduces two SDVC42-SD controller is networked and realizes that one direct vibrator and one circular vibrator operate at the same frequency to avoid collision between the plates due to inconsistent operating frequencies.\\n\\n1. The controller correctly connects the power cord and output cord.\\n2. Take out the sensor that is being followed by the controller, connect the sensor plug to the controller and tighten the nut, and correctly fix the sensor body on the vibration plate (see \\\"2.3 Vibration Sensor Installation Guide\\\" for details)\\n3. Open the equipment wiring compartment cover, connect all controller T1 signals to each other, and connect all T3 signals to each other.\\n4. After the two devices are powered on, one of the controllers will automatically enter the \\\"communication parameter group\\\".\\n5. In the controller communication parameter group, the program will automatically generate a set digital synchronization communication device number. \\\"Digital synchronization\\\" is any value [1~8]. Users can also change this value themselves.\\n6. In the communication parameter group, set the \\\"EnNetwok \\\" parameter to \\\"Expand\\\", and then press ⊕ and ⊖ hold at the same time, confirm.\\n7. After the follower controller is successfully added, the parameter value of \\\"EnNetwok\\\" automatically changes to \\\"Online\\\", indicating that the networking is successful.\\n8. User press and hold ▲ and ◀ enter the parameter setting interface by short pressing ◀ or ▶ Switch to the communication parameter group, view and note down the digital synchronization address of each controller.\\n9. Set the \\\"FrqncSyn\\\" parameter value of the following controller in the communication parameter group to the \\\"DigSynAd\\\" address number of the followed controller.\\n\\nAfter the above settings are completed, one controller can follow another controller to output at the same frequency.\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.06,\n        0.21,\n        0.94,\n        0.51\n      ],\n      \"alt\": \"Two SDVC42-SD controllers connected with sync signal wire, vibration sensors, and output power cables to a vibratory feeder, illustrating master/slave same-frequency operation.\",\n      \"reason\": \"Complex wiring and equipment diagram with many labels; retain as bitmap crop.\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "# Chapter Ⅴ Typical Applications\n\n## 5.1 How to keep two vibratory feeders running at the same frequency?\n\n[[vcrop:66:0]]\n\nThis section introduces two SDVC42-SD controller is networked and realizes that one direct vibrator and one circular vibrator operate at the same frequency to avoid collision between the plates due to inconsistent operating frequencies.\n\n1. The controller correctly connects the power cord and output cord.\n2. Take out the sensor that is being followed by the controller, connect the sensor plug to the controller and tighten the nut, and correctly fix the sensor body on the vibration plate (see \"2.3 Vibration Sensor Installation Guide\" for details)\n3. Open the equipment wiring compartment cover, connect all controller T1 signals to each other, and connect all T3 signals to each other.\n4. After the two devices are powered on, one of the controllers will automatically enter the \"communication parameter group\".\n5. In the controller communication parameter group, the program will automatically generate a set digital synchronization communication device number. \"Digital synchronization\" is any value [1~8]. Users can also change this value themselves.\n6. In the communication parameter group, set the \"EnNetwok \" parameter to \"Expand\", and then press ⊕ and ⊖ hold at the same time, confirm.\n7. After the follower controller is successfully added, the parameter value of \"EnNetwok\" automatically changes to \"Online\", indicating that the networking is successful.\n8. User press and hold ▲ and ◀ enter the parameter setting interface by short pressing ◀ or ▶ Switch to the communication parameter group, view and note down the digital synchronization address of each controller.\n9. Set the \"FrqncSyn\" parameter value of the following controller in the communication parameter group to the \"DigSynAd\" address number of the followed controller.\n\nAfter the above settings are completed, one controller can follow another controller to output at the same frequency.",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.06,
+        0.21,
+        0.94,
+        0.51
+      ],
+      "alt": "Two SDVC42-SD controllers connected with sync signal wire, vibration sensors, and output power cables to a vibratory feeder, illustrating master/slave same-frequency operation.",
+      "reason": "Complex wiring and equipment diagram with many labels; retain as bitmap crop."
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-Dmst2whJSb5jXIIX9rRhth0BFu7eJ",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780543100,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"# Chapter Ⅴ Typical Applications\\n\\n## 5.1 How to keep two vibratory feeders running at the same frequency?\\n\\n[[vcrop:66:0]]\\n\\nThis section introduces two SDVC42-SD controller is networked and realizes that one direct vibrator and one circular vibrator operate at the same frequency to avoid collision between the plates due to inconsistent operating frequencies.\\n\\n1. The controller correctly connects the power cord and output cord.\\n2. Take out the sensor that is being followed by the controller, connect the sensor plug to the controller and tighten the nut, and correctly fix the sensor body on the vibration plate (see \\\"2.3 Vibration Sensor Installation Guide\\\" for details)\\n3. Open the equipment wiring compartment cover, connect all controller T1 signals to each other, and connect all T3 signals to each other.\\n4. After the two devices are powered on, one of the controllers will automatically enter the \\\"communication parameter group\\\".\\n5. In the controller communication parameter group, the program will automatically generate a set digital synchronization communication device number. \\\"Digital synchronization\\\" is any value [1~8]. Users can also change this value themselves.\\n6. In the communication parameter group, set the \\\"EnNetwok \\\" parameter to \\\"Expand\\\", and then press ⊕ and ⊖ hold at the same time, confirm.\\n7. After the follower controller is successfully added, the parameter value of \\\"EnNetwok\\\" automatically changes to \\\"Online\\\", indicating that the networking is successful.\\n8. User press and hold ▲ and ◀ enter the parameter setting interface by short pressing ◀ or ▶ Switch to the communication parameter group, view and note down the digital synchronization address of each controller.\\n9. Set the \\\"FrqncSyn\\\" parameter value of the following controller in the communication parameter group to the \\\"DigSynAd\\\" address number of the followed controller.\\n\\nAfter the above settings are completed, one controller can follow another controller to output at the same frequency.\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.06,\n        0.21,\n        0.94,\n        0.51\n      ],\n      \"alt\": \"Two SDVC42-SD controllers connected with sync signal wire, vibration sensors, and output power cables to a vibratory feeder, illustrating master/slave same-frequency operation.\",\n      \"reason\": \"Complex wiring and equipment diagram with many labels; retain as bitmap crop.\"\n    }\n  ],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4489,
+      "completion_tokens": 1577,
+      "total_tokens": 6066,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

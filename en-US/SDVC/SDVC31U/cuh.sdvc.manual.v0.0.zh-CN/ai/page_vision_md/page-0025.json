@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 25,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:00:30",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=25。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 使用环境（第 5 页）\n- 6: 空白页（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 页面 9（第 9 页）\n- 页面 10（第 10 页）\n- 页面 11（第 11 页）\n- 页面 12（第 12 页）\n- 页面 13（第 13 页）\n- 页面 14（第 14 页）\n- 页面 15（第 15 页）\n- 页面 16（第 16 页）\n- 页面 17（第 17 页）\n- 页面 18（第 18 页）\n- 页面 19（第 19 页）\n- 页面 20（第 20 页）\n-",
+  "assistant_text": "{\n  \"page_markdown\": \"Variable Frequency Digital Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC31 Series\\n\\n# Chapter V Sensors and Signal Control\\n\\nThe controller can be controlled by many kinds of external signals and sensors. This chapter mainly elaborates using method of the Intelligent Photoelectric Sensor, the Proximity Switch Sensors and the PLC.\\n\\n## 5.1 Intelligent Photoelectric Sensing\\n\\nCombined with the SDVC-S1 Photoelectric Sensor the function of Intelligent Photoelectric Sensing can be achieved. The SDVC-S1 sensor can filter the interference of background light impacting on the sensitivity of the controller. As a result, the controller can work reliably without manual sensitivity adjustment.\\n\\n### 5.1.1 Connection Method of the SDVC-S1 Intelligent Photoelectric Sensor\\n\\n[[vcrop:25:0]]\\n\\n**Step 1:**  \\nOpen the upper cover plate of the controller.\\n\\n**Step 2:**  \\nConnect the SDVC-S1 sensor to the terminals of the controller according to the diagram.\\n\\n**Step 3:**  \\nClose the cover plate after connecting the sensor.\\n\\n**Notice:**  \\nDefault logical relation of the sensor is set as work pieces are empty.\\n\\n2018-11　　　　　　　　　　　　　　　　　- 17 -　　　　　　　　　　　　　　　　　SDVC31SMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.072,\n        0.369,\n        0.927,\n        0.946\n      ],\n      \"alt\": \"Connection diagram for the SDVC-S1 Intelligent Photoelectric Sensor showing controller terminals B1-B4, RX/TX wires, ground/input/output, red/white/copper wires, and installation steps.\",\n      \"reason\": \"The boxed area contains a complex wiring/terminal diagram and device illustration that should be preserved as an image.\"\n    }\n  ],\n  \"notes\": \"Page is clear; the wiring diagram contains small labels and fine dashed lines best retained via crop.\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "Variable Frequency Digital Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC31 Series\n\n# Chapter V Sensors and Signal Control\n\nThe controller can be controlled by many kinds of external signals and sensors. This chapter mainly elaborates using method of the Intelligent Photoelectric Sensor, the Proximity Switch Sensors and the PLC.\n\n## 5.1 Intelligent Photoelectric Sensing\n\nCombined with the SDVC-S1 Photoelectric Sensor the function of Intelligent Photoelectric Sensing can be achieved. The SDVC-S1 sensor can filter the interference of background light impacting on the sensitivity of the controller. As a result, the controller can work reliably without manual sensitivity adjustment.\n\n### 5.1.1 Connection Method of the SDVC-S1 Intelligent Photoelectric Sensor\n\n[[vcrop:25:0]]\n\n**Step 1:**  \nOpen the upper cover plate of the controller.\n\n**Step 2:**  \nConnect the SDVC-S1 sensor to the terminals of the controller according to the diagram.\n\n**Step 3:**  \nClose the cover plate after connecting the sensor.\n\n**Notice:**  \nDefault logical relation of the sensor is set as work pieces are empty.\n\n2018-11　　　　　　　　　　　　　　　　　- 17 -　　　　　　　　　　　　　　　　　SDVC31SMSEN_3.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.072,
+        0.369,
+        0.927,
+        0.946
+      ],
+      "alt": "Connection diagram for the SDVC-S1 Intelligent Photoelectric Sensor showing controller terminals B1-B4, RX/TX wires, ground/input/output, red/white/copper wires, and installation steps.",
+      "reason": "The boxed area contains a complex wiring/terminal diagram and device illustration that should be preserved as an image."
+    }
+  ],
+  "notes": "Page is clear; the wiring diagram contains small labels and fine dashed lines best retained via crop.",
+  "raw": {
+    "id": "chatcmpl-DmsbVqfLTB4CzQydkde6bOzvspvpj",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780542013,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"Variable Frequency Digital Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　SDVC31 Series\\n\\n# Chapter V Sensors and Signal Control\\n\\nThe controller can be controlled by many kinds of external signals and sensors. This chapter mainly elaborates using method of the Intelligent Photoelectric Sensor, the Proximity Switch Sensors and the PLC.\\n\\n## 5.1 Intelligent Photoelectric Sensing\\n\\nCombined with the SDVC-S1 Photoelectric Sensor the function of Intelligent Photoelectric Sensing can be achieved. The SDVC-S1 sensor can filter the interference of background light impacting on the sensitivity of the controller. As a result, the controller can work reliably without manual sensitivity adjustment.\\n\\n### 5.1.1 Connection Method of the SDVC-S1 Intelligent Photoelectric Sensor\\n\\n[[vcrop:25:0]]\\n\\n**Step 1:**  \\nOpen the upper cover plate of the controller.\\n\\n**Step 2:**  \\nConnect the SDVC-S1 sensor to the terminals of the controller according to the diagram.\\n\\n**Step 3:**  \\nClose the cover plate after connecting the sensor.\\n\\n**Notice:**  \\nDefault logical relation of the sensor is set as work pieces are empty.\\n\\n2018-11　　　　　　　　　　　　　　　　　- 17 -　　　　　　　　　　　　　　　　　SDVC31SMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.072,\n        0.369,\n        0.927,\n        0.946\n      ],\n      \"alt\": \"Connection diagram for the SDVC-S1 Intelligent Photoelectric Sensor showing controller terminals B1-B4, RX/TX wires, ground/input/output, red/white/copper wires, and installation steps.\",\n      \"reason\": \"The boxed area contains a complex wiring/terminal diagram and device illustration that should be preserved as an image.\"\n    }\n  ],\n  \"notes\": \"Page is clear; the wiring diagram contains small labels and fine dashed lines best retained via crop.\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2185,
+      "completion_tokens": 952,
+      "total_tokens": 3137,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

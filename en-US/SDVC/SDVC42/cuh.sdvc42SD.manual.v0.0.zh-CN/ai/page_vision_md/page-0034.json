@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 34,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:17:27",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=34。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufactur",
+  "assistant_text": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42-SD\\n\\n### 4.4.1.4 Main On Delay/Main Off Delay\\n\\nWhen using other external signals such as sensors to control the main output state of the device, in most cases a delay is required after the signal is given or the signal is restored before the operation can be performed. For such applications, this can be achieved by setting the time values of the on-delay and off-delay. For the signal flow diagram, refers to Figure 4.4.1.2.\\n\\n**Main On Delay:** That is, the main output on-delay is the delay time experienced from the application of a control signal that causes the controller to enter the running state to the actual output of the controller starting. The delay time experienced during this period is called the on-delay.\\n\\n**Main Shutdown Delay:** That is, the main output off-delay, starting from the application of a control signal that causes the controller to enter a stop state, to the actual output of the controller stopping, the delay time experienced during this period is called the off-delay.\\n\\nThe main on/off delay range is 0.0~99.9s, the default is 0.2s and the adjustment accuracy is 0.1s.\\n\\n### 4.4.1.5 Main Mode\\n\\nThere are 2 main output modes available: delay mode and hold mode. Signal flow diagram reference diagram 4.4.1.2. Default Delay.\\n\\n| Parameter | Meaning |\\n|---|---|\\n| Delay | Refers to the state of the main output after logic operation, the state of driving the main output after on-delay and off-delay |\\n| Hold | Refers to the state after the main output logic operation. After the on delay, the running state remains for the off delay time, and then immediately changes to the stop output state |\\n\\nThe difference between the two modes is expressed in the form of a timing diagram as follows, where the input signal is a logical relationship selection.\\n\\n[[vcrop:34:0]]\\n\\n2026-02　　　　　　　　　　　　　　　　　-24-　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.09,\n        0.64,\n        0.87,\n        0.965\n      ],\n      \"alt\": \"Timing diagram comparing hold mode output and delay mode output with T1 rising edge delay and T2 falling edge delay.\",\n      \"reason\": \"Complex timing diagram with stepped signal waveforms, dashed guide lines, and delay annotations is best preserved as a cropped image.\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42-SD\n\n### 4.4.1.4 Main On Delay/Main Off Delay\n\nWhen using other external signals such as sensors to control the main output state of the device, in most cases a delay is required after the signal is given or the signal is restored before the operation can be performed. For such applications, this can be achieved by setting the time values of the on-delay and off-delay. For the signal flow diagram, refers to Figure 4.4.1.2.\n\n**Main On Delay:** That is, the main output on-delay is the delay time experienced from the application of a control signal that causes the controller to enter the running state to the actual output of the controller starting. The delay time experienced during this period is called the on-delay.\n\n**Main Shutdown Delay:** That is, the main output off-delay, starting from the application of a control signal that causes the controller to enter a stop state, to the actual output of the controller stopping, the delay time experienced during this period is called the off-delay.\n\nThe main on/off delay range is 0.0~99.9s, the default is 0.2s and the adjustment accuracy is 0.1s.\n\n### 4.4.1.5 Main Mode\n\nThere are 2 main output modes available: delay mode and hold mode. Signal flow diagram reference diagram 4.4.1.2. Default Delay.\n\n| Parameter | Meaning |\n|---|---|\n| Delay | Refers to the state of the main output after logic operation, the state of driving the main output after on-delay and off-delay |\n| Hold | Refers to the state after the main output logic operation. After the on delay, the running state remains for the off delay time, and then immediately changes to the stop output state |\n\nThe difference between the two modes is expressed in the form of a timing diagram as follows, where the input signal is a logical relationship selection.\n\n[[vcrop:34:0]]\n\n2026-02　　　　　　　　　　　　　　　　　-24-　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.09,
+        0.64,
+        0.87,
+        0.965
+      ],
+      "alt": "Timing diagram comparing hold mode output and delay mode output with T1 rising edge delay and T2 falling edge delay.",
+      "reason": "Complex timing diagram with stepped signal waveforms, dashed guide lines, and delay annotations is best preserved as a cropped image."
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-DmsrvEKjaHhiB7lOGXXJi8a873hwu",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780543031,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42-SD\\n\\n### 4.4.1.4 Main On Delay/Main Off Delay\\n\\nWhen using other external signals such as sensors to control the main output state of the device, in most cases a delay is required after the signal is given or the signal is restored before the operation can be performed. For such applications, this can be achieved by setting the time values of the on-delay and off-delay. For the signal flow diagram, refers to Figure 4.4.1.2.\\n\\n**Main On Delay:** That is, the main output on-delay is the delay time experienced from the application of a control signal that causes the controller to enter the running state to the actual output of the controller starting. The delay time experienced during this period is called the on-delay.\\n\\n**Main Shutdown Delay:** That is, the main output off-delay, starting from the application of a control signal that causes the controller to enter a stop state, to the actual output of the controller stopping, the delay time experienced during this period is called the off-delay.\\n\\nThe main on/off delay range is 0.0~99.9s, the default is 0.2s and the adjustment accuracy is 0.1s.\\n\\n### 4.4.1.5 Main Mode\\n\\nThere are 2 main output modes available: delay mode and hold mode. Signal flow diagram reference diagram 4.4.1.2. Default Delay.\\n\\n| Parameter | Meaning |\\n|---|---|\\n| Delay | Refers to the state of the main output after logic operation, the state of driving the main output after on-delay and off-delay |\\n| Hold | Refers to the state after the main output logic operation. After the on delay, the running state remains for the off delay time, and then immediately changes to the stop output state |\\n\\nThe difference between the two modes is expressed in the form of a timing diagram as follows, where the input signal is a logical relationship selection.\\n\\n[[vcrop:34:0]]\\n\\n2026-02　　　　　　　　　　　　　　　　　-24-　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.09,\n        0.64,\n        0.87,\n        0.965\n      ],\n      \"alt\": \"Timing diagram comparing hold mode output and delay mode output with T1 rising edge delay and T2 falling edge delay.\",\n      \"reason\": \"Complex timing diagram with stepped signal waveforms, dashed guide lines, and delay annotations is best preserved as a cropped image.\"\n    }\n  ],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4196,
+      "completion_tokens": 1105,
+      "total_tokens": 5301,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

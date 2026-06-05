@@ -1,0 +1,161 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 54,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:54:35",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=54。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.052, 0.932, 0.075],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.130, 0.435, 0.151],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.159, 0.927, 0.228],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.236, 0.936, 0.323],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.353, 0.356, 0.370],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.378, 0.938, 0.532],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.559, 0.654, 0.574],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.070, 0.587, 0.936, 0.906],\n      \"confidence\": 0.95,\n      \"caption\": \"Example: Delete the address 3 controller from the network.\",\n      \"image_alt\": \"三段式流程示意图，展示从网络中删除地址 3 控制器的过程：左侧为包含 Address 1、Address 2、Address 3 的原网络，并标注 Address 3 为 planned removal；中间通过地址 1 或地址 2 控制器执行删除步骤后，地址 3 控制器显示为 Original address 3 controller；右侧显示删除成功后网络仅保留 Address 1 和 Address 2，随后移除原地址 3 控制器通信线。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.953, 0.932, 0.976],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为数字版说明书页面，文本清晰可选取，非扫描件。页面上半部分以文字说明和步骤列表为主，下半部分为设备网络删除示例流程图；背景有浅色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.052,
+          0.932,
+          0.075
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.13,
+          0.435,
+          0.151
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.159,
+          0.927,
+          0.228
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.236,
+          0.936,
+          0.323
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.353,
+          0.356,
+          0.37
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.378,
+          0.938,
+          0.532
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.559,
+          0.654,
+          0.574
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.07,
+          0.587,
+          0.936,
+          0.906
+        ],
+        "confidence": 0.95,
+        "caption": "Example: Delete the address 3 controller from the network.",
+        "image_alt": "三段式流程示意图，展示从网络中删除地址 3 控制器的过程：左侧为包含 Address 1、Address 2、Address 3 的原网络，并标注 Address 3 为 planned removal；中间通过地址 1 或地址 2 控制器执行删除步骤后，地址 3 控制器显示为 Original address 3 controller；右侧显示删除成功后网络仅保留 Address 1 和 Add",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.953,
+          0.932,
+          0.976
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "notes": "本页为数字版说明书页面，文本清晰可选取，非扫描件。页面上半部分以文字说明和步骤列表为主，下半部分为设备网络删除示例流程图；背景有浅色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmtRsav17BtZFmdWTd5VatJVc9UrI",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780545260,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.052, 0.932, 0.075],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.130, 0.435, 0.151],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.159, 0.927, 0.228],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.236, 0.936, 0.323],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.353, 0.356, 0.370],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.378, 0.938, 0.532],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.559, 0.654, 0.574],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.070, 0.587, 0.936, 0.906],\n      \"confidence\": 0.95,\n      \"caption\": \"Example: Delete the address 3 controller from the network.\",\n      \"image_alt\": \"三段式流程示意图，展示从网络中删除地址 3 控制器的过程：左侧为包含 Address 1、Address 2、Address 3 的原网络，并标注 Address 3 为 planned removal；中间通过地址 1 或地址 2 控制器执行删除步骤后，地址 3 控制器显示为 Original address 3 controller；右侧显示删除成功后网络仅保留 Address 1 和 Address 2，随后移除原地址 3 控制器通信线。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.953, 0.932, 0.976],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为数字版说明书页面，文本清晰可选取，非扫描件。页面上半部分以文字说明和步骤列表为主，下半部分为设备网络删除示例流程图；背景有浅色 CUH 水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4046,
+      "completion_tokens": 1102,
+      "total_tokens": 5148,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 423,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

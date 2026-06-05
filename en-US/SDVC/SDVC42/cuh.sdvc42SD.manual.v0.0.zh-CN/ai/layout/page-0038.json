@@ -1,0 +1,162 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 38,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:10:18",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=38。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [\n        0.072,\n        0.053,\n        0.932,\n        0.073\n      ],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.072,\n        0.13,\n        0.57,\n        0.15\n      ],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.164,\n        0.77,\n        0.197\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [\n        0.055,\n        0.206,\n        0.94,\n        0.425\n      ],\n      \"confidence\": 0.94,\n      \"image_alt\": \"DC 控制输出信号流向示意图，从 D Port Logic Source 1/2 Result 进入逻辑关系选择，包括 And、Or、Xor、RS trigger，经过 D Port logic direction、D Port on delay、D Port off delay、D Port mode、D Port type，最终到 D Port output。\",\n      \"caption\": \"The schematic diagram of the control output signal flow\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.466,\n        0.79,\n        0.484\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [\n        0.072,\n        0.499,\n        0.932,\n        0.769\n      ],\n      \"confidence\": 0.91,\n      \"image_alt\": \"带圆角边框的参数设置说明区域。左侧为项目符号步骤，说明长按按键进入参数设置界面并切换到 6 DC output 参数组，使用上下键切换参数，使用加减键调整参数值。右侧为控制器显示界面示意，显示 RUN、端口字母 A C D E F G N J、参数项 01.PotDLogc、02.PotDSor1、03.PotDSor2、04.PortDDir、05.PtDUpDly，以及底部 6DCoutput。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.086,\n        0.79,\n        0.88,\n        0.822\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.856,\n        0.91,\n        0.909\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.953,\n        0.932,\n        0.979\n      ],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5,\n    6,\n    7,\n    8\n  ],\n  \"notes\": \"本页为带文本与矢量/截图示意的说明书页面，非纯扫描件。页面以 4.4.2 DC Control Output Parameters 小节为主，包含一张控制输出信号流示意图和一个参数设置步骤/界面示意框，背景有淡色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.072,
+          0.053,
+          0.932,
+          0.073
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.13,
+          0.57,
+          0.15
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.164,
+          0.77,
+          0.197
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.055,
+          0.206,
+          0.94,
+          0.425
+        ],
+        "confidence": 0.94,
+        "image_alt": "DC 控制输出信号流向示意图，从 D Port Logic Source 1/2 Result 进入逻辑关系选择，包括 And、Or、Xor、RS trigger，经过 D Port logic direction、D Port on delay、D Port off delay、D Port mode、D Port type，最终到 D Port output。",
+        "caption": "The schematic diagram of the control output signal flow",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.466,
+          0.79,
+          0.484
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.072,
+          0.499,
+          0.932,
+          0.769
+        ],
+        "confidence": 0.91,
+        "image_alt": "带圆角边框的参数设置说明区域。左侧为项目符号步骤，说明长按按键进入参数设置界面并切换到 6 DC output 参数组，使用上下键切换参数，使用加减键调整参数值。右侧为控制器显示界面示意，显示 RUN、端口字母 A C D E F G N J、参数项 01.PotDLogc、02.PotDSor1、03.PotDSor2、04.PortDDir、05.PtDUpDly，以及底部 6DCoutput",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.086,
+          0.79,
+          0.88,
+          0.822
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.856,
+          0.91,
+          0.909
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.953,
+          0.932,
+          0.979
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "notes": "本页为带文本与矢量/截图示意的说明书页面，非纯扫描件。页面以 4.4.2 DC Control Output Parameters 小节为主，包含一张控制输出信号流示意图和一个参数设置步骤/界面示意框，背景有淡色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmskymR9FqSuusLZIFM5Iz9M3KNLI",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780542600,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [\n        0.072,\n        0.053,\n        0.932,\n        0.073\n      ],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.072,\n        0.13,\n        0.57,\n        0.15\n      ],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.164,\n        0.77,\n        0.197\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [\n        0.055,\n        0.206,\n        0.94,\n        0.425\n      ],\n      \"confidence\": 0.94,\n      \"image_alt\": \"DC 控制输出信号流向示意图，从 D Port Logic Source 1/2 Result 进入逻辑关系选择，包括 And、Or、Xor、RS trigger，经过 D Port logic direction、D Port on delay、D Port off delay、D Port mode、D Port type，最终到 D Port output。\",\n      \"caption\": \"The schematic diagram of the control output signal flow\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.466,\n        0.79,\n        0.484\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [\n        0.072,\n        0.499,\n        0.932,\n        0.769\n      ],\n      \"confidence\": 0.91,\n      \"image_alt\": \"带圆角边框的参数设置说明区域。左侧为项目符号步骤，说明长按按键进入参数设置界面并切换到 6 DC output 参数组，使用上下键切换参数，使用加减键调整参数值。右侧为控制器显示界面示意，显示 RUN、端口字母 A C D E F G N J、参数项 01.PotDLogc、02.PotDSor1、03.PotDSor2、04.PortDDir、05.PtDUpDly，以及底部 6DCoutput。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.086,\n        0.79,\n        0.88,\n        0.822\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.856,\n        0.91,\n        0.909\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.953,\n        0.932,\n        0.979\n      ],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5,\n    6,\n    7,\n    8\n  ],\n  \"notes\": \"本页为带文本与矢量/截图示意的说明书页面，非纯扫描件。页面以 4.4.2 DC Control Output Parameters 小节为主，包含一张控制输出信号流示意图和一个参数设置步骤/界面示意框，背景有淡色 CUH 水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3875,
+      "completion_tokens": 1375,
+      "total_tokens": 5250,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

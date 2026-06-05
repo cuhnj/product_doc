@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 18,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:00:09",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=18。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 使用环境（第 5 页）\n- 6: 空白页（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 页面 9（第 9 页）\n- 页面 10（第 10 页）\n- 页面 11（第 11 页）\n- 页面 12（第 12 页）\n- 页面 13（第 13 页）\n- 页面 14（第 14 页）\n- 页面 15（第 15 页）\n- 页面 16（第 16 页）\n- 页面 17（第 17 页）\n- 页面 18（第 18 页）\n- 页面 19（第 19 页）\n- 页面 20（第 20 页）\n-",
+  "assistant_text": "{\n  \"page_markdown\": \"Variable Frequency Digital Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　　　　　**SDVC31 Series**\\n\\n---\\n\\n## 4.2 Output Frequency Adjusting\\n\\nThe controller is produced with the DDS technology and its output has got high frequency accuracy and stability which doesn't change as the time or temperature does.\\n\\n- Press the <kbd>FUNC</kbd> button and hold for 2 seconds to enter the Basic Parameters Adjusting status.\\n\\n- The Frequency Indicator on the panel lights up and the LED displays the Output Frequency symbol **E** and the current Output Frequency value.\\n\\n- Press the ▲ or ▼ button to adjust the parameter value.\\n\\nOutput Frequency of the controller ranges from 40Hz to 400Hz.\\n\\n[[vcrop:18:0]]\\n\\n**Figure callouts:**\\n\\n- **E** — represents Output Frequency\\n- Frequency Setting Indicator\\n- Output Frequency is set as 50Hz at present\\n\\n> ☺\\n>\\n> ● Output Frequency (E), Startup Delay Time, Shutdown Delay Time and Soft Startup Time can be set after entering the Basic Parameters Adjusting status by pressing the <kbd>FUNC</kbd> button and holding for 2 seconds.\\n>\\n> ● The controller will return to the Output Voltage Adjusting status automatically in 1 minute after adjusting operation.\\n>\\n> ● Press the <kbd>FUNC</kbd> button and hold for 2 seconds again to exit the Basic Parameters Adjusting status.\\n\\n---\\n\\n2018-11　　　　　　　　　　　　　　　　　　- 10 -　　　　　　　　　　　　　　　　　　SDVC31SMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.527,\n        0.249,\n        0.875,\n        0.607\n      ],\n      \"alt\": \"Output Frequency Adjusting controller display diagrams with annotation callouts\",\n      \"reason\": \"Contains detailed controller panel drawings and indicator callout lines that are better preserved as a bitmap.\"\n    }\n  ],\n  \"notes\": \"页面清晰；右侧控制器示意图为细节图，已建议截图保留。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "Variable Frequency Digital Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　　　　　**SDVC31 Series**\n\n---\n\n## 4.2 Output Frequency Adjusting\n\nThe controller is produced with the DDS technology and its output has got high frequency accuracy and stability which doesn't change as the time or temperature does.\n\n- Press the <kbd>FUNC</kbd> button and hold for 2 seconds to enter the Basic Parameters Adjusting status.\n\n- The Frequency Indicator on the panel lights up and the LED displays the Output Frequency symbol **E** and the current Output Frequency value.\n\n- Press the ▲ or ▼ button to adjust the parameter value.\n\nOutput Frequency of the controller ranges from 40Hz to 400Hz.\n\n[[vcrop:18:0]]\n\n**Figure callouts:**\n\n- **E** — represents Output Frequency\n- Frequency Setting Indicator\n- Output Frequency is set as 50Hz at present\n\n> ☺\n>\n> ● Output Frequency (E), Startup Delay Time, Shutdown Delay Time and Soft Startup Time can be set after entering the Basic Parameters Adjusting status by pressing the <kbd>FUNC</kbd> button and holding for 2 seconds.\n>\n> ● The controller will return to the Output Voltage Adjusting status automatically in 1 minute after adjusting operation.\n>\n> ● Press the <kbd>FUNC</kbd> button and hold for 2 seconds again to exit the Basic Parameters Adjusting status.\n\n---\n\n2018-11　　　　　　　　　　　　　　　　　　- 10 -　　　　　　　　　　　　　　　　　　SDVC31SMSEN_3.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.527,
+        0.249,
+        0.875,
+        0.607
+      ],
+      "alt": "Output Frequency Adjusting controller display diagrams with annotation callouts",
+      "reason": "Contains detailed controller panel drawings and indicator callout lines that are better preserved as a bitmap."
+    }
+  ],
+  "notes": "页面清晰；右侧控制器示意图为细节图，已建议截图保留。",
+  "raw": {
+    "id": "chatcmpl-Dmsb7keOo0nlqr4jAuLnEy8tfy1Ss",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780541989,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"Variable Frequency Digital Controller for Vibratory Feeder　　　　　　　　　　　　　　　　　　　　　　　　　**SDVC31 Series**\\n\\n---\\n\\n## 4.2 Output Frequency Adjusting\\n\\nThe controller is produced with the DDS technology and its output has got high frequency accuracy and stability which doesn't change as the time or temperature does.\\n\\n- Press the <kbd>FUNC</kbd> button and hold for 2 seconds to enter the Basic Parameters Adjusting status.\\n\\n- The Frequency Indicator on the panel lights up and the LED displays the Output Frequency symbol **E** and the current Output Frequency value.\\n\\n- Press the ▲ or ▼ button to adjust the parameter value.\\n\\nOutput Frequency of the controller ranges from 40Hz to 400Hz.\\n\\n[[vcrop:18:0]]\\n\\n**Figure callouts:**\\n\\n- **E** — represents Output Frequency\\n- Frequency Setting Indicator\\n- Output Frequency is set as 50Hz at present\\n\\n> ☺\\n>\\n> ● Output Frequency (E), Startup Delay Time, Shutdown Delay Time and Soft Startup Time can be set after entering the Basic Parameters Adjusting status by pressing the <kbd>FUNC</kbd> button and holding for 2 seconds.\\n>\\n> ● The controller will return to the Output Voltage Adjusting status automatically in 1 minute after adjusting operation.\\n>\\n> ● Press the <kbd>FUNC</kbd> button and hold for 2 seconds again to exit the Basic Parameters Adjusting status.\\n\\n---\\n\\n2018-11　　　　　　　　　　　　　　　　　　- 10 -　　　　　　　　　　　　　　　　　　SDVC31SMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.527,\n        0.249,\n        0.875,\n        0.607\n      ],\n      \"alt\": \"Output Frequency Adjusting controller display diagrams with annotation callouts\",\n      \"reason\": \"Contains detailed controller panel drawings and indicator callout lines that are better preserved as a bitmap.\"\n    }\n  ],\n  \"notes\": \"页面清晰；右侧控制器示意图为细节图，已建议截图保留。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2172,
+      "completion_tokens": 1506,
+      "total_tokens": 3678,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

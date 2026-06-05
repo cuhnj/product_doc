@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 36,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T13:24:11",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，doc_key=cuh.sdvc.manual.v1.01，lang=zh-CN，页码=36。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 空白页（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯及按键说明（第 10 页）\n  - 1.3 外部部件说明（第 11 页）\n  - 1.4 接线端口说明（第 11 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 产品介绍（第 13 页）\n  - 2.1 产品简介（第 13 页）\n- ",
+  "assistant_text": "{\n  \"page_markdown\": \"### 5.9.2 运行输出信号源和逻辑图\\n\\n运行输出是由两个信号源逻辑关系的结果控制，可以从信号源列表中选择下列信号源：\\n\\n| 信号源 | 含义 |\\n|---|---|\\n| 0 | 无效信号 |\\n| 1 | 有效信号 |\\n| b | 智能光电端口信号 |\\n| -b | 智能光电端口信号取反 |\\n| C | 正转运行端口信号 |\\n| -C | 正转运行端口信号取反 |\\n| E | 反转运行端口信号 |\\n| -E | 反转运行端口信号取反 |\\n| SA | 速度A端口信号 |\\n| -SA | 速度A端口信号取反 |\\n| Sb | 速度B端口信号 |\\n| -Sb | 速度B端口信号取反 |\\n| od | 运行输出端口信号 |\\n| -od | 运行输出端口信号取反 |\\n| oq | 电机输出信号 |\\n| -oq | 电机输出信号取反 |\\n| Er | 任意故障信号 |\\n| -Er | 任意故障信号取反 |\\n| Ar | 任意警告信号 |\\n| -Ar | 任意警告信号取反 |\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "### 5.9.2 运行输出信号源和逻辑图\n\n运行输出是由两个信号源逻辑关系的结果控制，可以从信号源列表中选择下列信号源：\n\n| 信号源 | 含义 |\n|---|---|\n| 0 | 无效信号 |\n| 1 | 有效信号 |\n| b | 智能光电端口信号 |\n| -b | 智能光电端口信号取反 |\n| C | 正转运行端口信号 |\n| -C | 正转运行端口信号取反 |\n| E | 反转运行端口信号 |\n| -E | 反转运行端口信号取反 |\n| SA | 速度A端口信号 |\n| -SA | 速度A端口信号取反 |\n| Sb | 速度B端口信号 |\n| -Sb | 速度B端口信号取反 |\n| od | 运行输出端口信号 |\n| -od | 运行输出端口信号取反 |\n| oq | 电机输出信号 |\n| -oq | 电机输出信号取反 |\n| Er | 任意故障信号 |\n| -Er | 任意故障信号取反 |\n| Ar | 任意警告信号 |\n| -Ar | 任意警告信号取反 |",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-DnHKFRldL5pLpqWIpyZj1hhHsJfgC",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780637043,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"### 5.9.2 运行输出信号源和逻辑图\\n\\n运行输出是由两个信号源逻辑关系的结果控制，可以从信号源列表中选择下列信号源：\\n\\n| 信号源 | 含义 |\\n|---|---|\\n| 0 | 无效信号 |\\n| 1 | 有效信号 |\\n| b | 智能光电端口信号 |\\n| -b | 智能光电端口信号取反 |\\n| C | 正转运行端口信号 |\\n| -C | 正转运行端口信号取反 |\\n| E | 反转运行端口信号 |\\n| -E | 反转运行端口信号取反 |\\n| SA | 速度A端口信号 |\\n| -SA | 速度A端口信号取反 |\\n| Sb | 速度B端口信号 |\\n| -Sb | 速度B端口信号取反 |\\n| od | 运行输出端口信号 |\\n| -od | 运行输出端口信号取反 |\\n| oq | 电机输出信号 |\\n| -oq | 电机输出信号取反 |\\n| Er | 任意故障信号 |\\n| -Er | 任意故障信号取反 |\\n| Ar | 任意警告信号 |\\n| -Ar | 任意警告信号取反 |\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2795,
+      "completion_tokens": 806,
+      "total_tokens": 3601,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

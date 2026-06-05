@@ -1,0 +1,214 @@
+{
+  "doc_id": "cuh.sdvc.manual.v8.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v8.01",
+  "lang": "zh-CN",
+  "page_index": 25,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T01:26:55",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v8.01.zh-CN，页码=25。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 目录（第 3 页）\n- 4: 目录2（第 4 页）\n- 5: SDVC10-S（第 5 页）\n- 6: SDVC11-S（第 6 页）\n- 7: SDVC11-M（第 7 页）\n- 8: SDVC14-S（第 8 页）\n- 9: SDVC20-S（第 9 页）\n- 10: SDVC20-L（第 10 页）\n- 11: SDVC20-XL（第 11 页）\n- 12: SDVC201-L（第 12 页）\n- 13: SDVC20-U（第 13 页）\n- 14: SDVC21-S（第 14 页）\n- 15: SDVC21LP（第 15 页）\n- 16: SDVC21XLP（第 16 页）\n- 17: SDVC212",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.083, 0.050, 0.933, 0.089],\n      \"confidence\": 0.82\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.089, 0.514, 0.152],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.083, 0.177, 0.512, 0.430],\n      \"confidence\": 0.93,\n      \"image_alt\": \"SDVC31-L、SDVC31-XL 数字调频振动送料控制器的产品外观图，图中包含控制器正面面板、侧边散热/外壳及 CE 标识。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.083, 0.448, 0.513, 0.860],\n      \"confidence\": 0.96,\n      \"caption\": \"技术规格\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.560, 0.130, 0.932, 0.190],\n      \"confidence\": 0.87,\n      \"caption\": \"型号\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.560, 0.191, 0.932, 0.595],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.560, 0.597, 0.932, 0.672],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.560, 0.668, 0.736, 0.791],\n      \"confidence\": 0.88,\n      \"image_alt\": \"随机附件图片，显示电源线和输出线等线缆。\",\n      \"caption\": \"随机附件\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.752, 0.698, 0.932, 0.763],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.560, 0.826, 0.736, 0.890],\n      \"confidence\": 0.88,\n      \"image_alt\": \"选购附件图片，显示智能光电传感器线缆。\",\n      \"caption\": \"选购附件\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.752, 0.849, 0.932, 0.876],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.635, 0.913, 0.878, 0.966],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.930, 0.962, 0.998, 1.000],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],\n  \"notes\": \"本页为产品说明书中的单页，文本层可用，不像纯扫描件。版式为左右两栏：左侧以产品图片和技术规格表为主，右侧为型号、功能说明、尺寸重量、随机附件和选购附件；包含多张产品/附件图片，但整体仍为图文混排页面。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.083,
+          0.05,
+          0.933,
+          0.089
+        ],
+        "confidence": 0.82,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.083,
+          0.089,
+          0.514,
+          0.152
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.083,
+          0.177,
+          0.512,
+          0.43
+        ],
+        "confidence": 0.93,
+        "image_alt": "SDVC31-L、SDVC31-XL 数字调频振动送料控制器的产品外观图，图中包含控制器正面面板、侧边散热/外壳及 CE 标识。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.083,
+          0.448,
+          0.513,
+          0.86
+        ],
+        "confidence": 0.96,
+        "caption": "技术规格",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.56,
+          0.13,
+          0.932,
+          0.19
+        ],
+        "confidence": 0.87,
+        "caption": "型号",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.56,
+          0.191,
+          0.932,
+          0.595
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.56,
+          0.597,
+          0.932,
+          0.672
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.56,
+          0.668,
+          0.736,
+          0.791
+        ],
+        "confidence": 0.88,
+        "image_alt": "随机附件图片，显示电源线和输出线等线缆。",
+        "caption": "随机附件",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.752,
+          0.698,
+          0.932,
+          0.763
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.56,
+          0.826,
+          0.736,
+          0.89
+        ],
+        "confidence": 0.88,
+        "image_alt": "选购附件图片，显示智能光电传感器线缆。",
+        "caption": "选购附件",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.752,
+          0.849,
+          0.932,
+          0.876
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.635,
+          0.913,
+          0.878,
+          0.966
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.93,
+          0.962,
+          0.998,
+          1.0
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "notes": "本页为产品说明书中的单页，文本层可用，不像纯扫描件。版式为左右两栏：左侧以产品图片和技术规格表为主，右侧为型号、功能说明、尺寸重量、随机附件和选购附件；包含多张产品/附件图片，但整体仍为图文混排页面。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmjeQwnyF3udB1kGw5ies7NP2XbqT",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780507598,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.083, 0.050, 0.933, 0.089],\n      \"confidence\": 0.82\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.089, 0.514, 0.152],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.083, 0.177, 0.512, 0.430],\n      \"confidence\": 0.93,\n      \"image_alt\": \"SDVC31-L、SDVC31-XL 数字调频振动送料控制器的产品外观图，图中包含控制器正面面板、侧边散热/外壳及 CE 标识。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.083, 0.448, 0.513, 0.860],\n      \"confidence\": 0.96,\n      \"caption\": \"技术规格\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.560, 0.130, 0.932, 0.190],\n      \"confidence\": 0.87,\n      \"caption\": \"型号\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.560, 0.191, 0.932, 0.595],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.560, 0.597, 0.932, 0.672],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.560, 0.668, 0.736, 0.791],\n      \"confidence\": 0.88,\n      \"image_alt\": \"随机附件图片，显示电源线和输出线等线缆。\",\n      \"caption\": \"随机附件\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.752, 0.698, 0.932, 0.763],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.560, 0.826, 0.736, 0.890],\n      \"confidence\": 0.88,\n      \"image_alt\": \"选购附件图片，显示智能光电传感器线缆。\",\n      \"caption\": \"选购附件\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.752, 0.849, 0.932, 0.876],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.635, 0.913, 0.878, 0.966],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.930, 0.962, 0.998, 1.000],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],\n  \"notes\": \"本页为产品说明书中的单页，文本层可用，不像纯扫描件。版式为左右两栏：左侧以产品图片和技术规格表为主，右侧为型号、功能说明、尺寸重量、随机附件和选购附件；包含多张产品/附件图片，但整体仍为图文混排页面。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3186,
+      "completion_tokens": 1415,
+      "total_tokens": 4601,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

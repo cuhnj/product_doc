@@ -1,0 +1,174 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 18,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T10:53:46",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=18。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 使用环境（第 5 页）\n- 6: 空白页（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 页面 9（第 9 页）\n- 页面 10（第 10 页）\n- 页面 11（第 11 页）\n- 页面 12（第 12 页）\n- 页面 13（第 13 页）\n- 页面 14（第 14 页）\n- 页面 15（第 15 页）\n- 页面 16（第 16 页）\n- 页面 17（第 17 页）\n- 页面 18（第 18 页）\n- 页面 19（第 19 页）\n- 页面 20（第 20 页）\n- 页面 21（第 21 页）\n- 页面 22（第 22",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.073, 0.053, 0.933, 0.075],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.076, 0.166, 0.602, 0.185],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.076, 0.188, 0.918, 0.216],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.092, 0.258, 0.455, 0.424],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.548, 0.249, 0.867, 0.421],\n      \"confidence\": 0.9,\n      \"image_alt\": \"控制器面板示意图，标注输出频率符号、频率设置指示灯和按键操作位置。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.089, 0.517, 0.425, 0.547],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.543, 0.440, 0.863, 0.604],\n      \"confidence\": 0.89,\n      \"image_alt\": \"控制器面板示意图，标注当前输出频率设置为50Hz。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.144, 0.669, 0.201, 0.708],\n      \"confidence\": 0.86,\n      \"image_alt\": \"提示图标，圆形笑脸符号。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.075, 0.696, 0.922, 0.844],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.960, 0.933, 0.982],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n  \"notes\": \"本页为英文说明书页面，含可选文本层，不像纯扫描件。页面以操作说明文字为主，配有两幅控制器面板操作示意图和一个提示框；无表格。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.073,
+          0.053,
+          0.933,
+          0.075
+        ],
+        "confidence": 0.91,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.076,
+          0.166,
+          0.602,
+          0.185
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.076,
+          0.188,
+          0.918,
+          0.216
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.092,
+          0.258,
+          0.455,
+          0.424
+        ],
+        "confidence": 0.91,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.548,
+          0.249,
+          0.867,
+          0.421
+        ],
+        "confidence": 0.9,
+        "image_alt": "控制器面板示意图，标注输出频率符号、频率设置指示灯和按键操作位置。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.089,
+          0.517,
+          0.425,
+          0.547
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.543,
+          0.44,
+          0.863,
+          0.604
+        ],
+        "confidence": 0.89,
+        "image_alt": "控制器面板示意图，标注当前输出频率设置为50Hz。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.144,
+          0.669,
+          0.201,
+          0.708
+        ],
+        "confidence": 0.86,
+        "image_alt": "提示图标，圆形笑脸符号。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.075,
+          0.696,
+          0.922,
+          0.844
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.073,
+          0.96,
+          0.933,
+          0.982
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "notes": "本页为英文说明书页面，含可选文本层，不像纯扫描件。页面以操作说明文字为主，配有两幅控制器面板操作示意图和一个提示框；无表格。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmsV29nO2mPachhuXLaBEBXHcBXCY",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780541612,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.073, 0.053, 0.933, 0.075],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.076, 0.166, 0.602, 0.185],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.076, 0.188, 0.918, 0.216],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.092, 0.258, 0.455, 0.424],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.548, 0.249, 0.867, 0.421],\n      \"confidence\": 0.9,\n      \"image_alt\": \"控制器面板示意图，标注输出频率符号、频率设置指示灯和按键操作位置。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.089, 0.517, 0.425, 0.547],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.543, 0.440, 0.863, 0.604],\n      \"confidence\": 0.89,\n      \"image_alt\": \"控制器面板示意图，标注当前输出频率设置为50Hz。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.144, 0.669, 0.201, 0.708],\n      \"confidence\": 0.86,\n      \"image_alt\": \"提示图标，圆形笑脸符号。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.075, 0.696, 0.922, 0.844],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.960, 0.933, 0.982],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n  \"notes\": \"本页为英文说明书页面，含可选文本层，不像纯扫描件。页面以操作说明文字为主，配有两幅控制器面板操作示意图和一个提示框；无表格。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 1906,
+      "completion_tokens": 1179,
+      "total_tokens": 3085,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

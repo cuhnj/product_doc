@@ -1,0 +1,220 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 28,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:10:01",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=28。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.933, 0.073],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.128, 0.62, 0.149],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.160, 0.91, 0.190],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.201, 0.45, 0.219],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.228, 0.925, 0.296],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.096, 0.329, 0.435, 0.504],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.596, 0.318, 0.895, 0.519],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器屏幕界面示意图，显示 RUN 状态及 4Stabilize 参数组，包含 AutFCent、AutFRang、AutFIntg、AutAIntg、AutAProp 等参数行。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.098, 0.535, 0.64, 0.568],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.086, 0.594, 0.82, 0.627],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.655, 0.43, 0.676],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.682, 0.934, 0.807],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.822, 0.51, 0.845],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.848, 0.936, 0.918],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.954, 0.933, 0.976],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],\n  \"notes\": \"本页为可检索文本层与矢量/排版内容结合的说明书页面，不是纯扫描件。页面以文字说明为主，包含一个控制器参数设置界面示意图和左侧操作步骤说明；背景有浅色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.052,
+          0.933,
+          0.073
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.128,
+          0.62,
+          0.149
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.16,
+          0.91,
+          0.19
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.201,
+          0.45,
+          0.219
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.228,
+          0.925,
+          0.296
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.096,
+          0.329,
+          0.435,
+          0.504
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.596,
+          0.318,
+          0.895,
+          0.519
+        ],
+        "confidence": 0.96,
+        "image_alt": "控制器屏幕界面示意图，显示 RUN 状态及 4Stabilize 参数组，包含 AutFCent、AutFRang、AutFIntg、AutAIntg、AutAProp 等参数行。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.098,
+          0.535,
+          0.64,
+          0.568
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.086,
+          0.594,
+          0.82,
+          0.627
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.655,
+          0.43,
+          0.676
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.682,
+          0.934,
+          0.807
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.822,
+          0.51,
+          0.845
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.848,
+          0.936,
+          0.918
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.954,
+          0.933,
+          0.976
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "notes": "本页为可检索文本层与矢量/排版内容结合的说明书页面，不是纯扫描件。页面以文字说明为主，包含一个控制器参数设置界面示意图和左侧操作步骤说明；背景有浅色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-Dmskd2edGKn9vPhSg5JdwmBHpjSLe",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780542579,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.933, 0.073],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.128, 0.62, 0.149],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.160, 0.91, 0.190],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.201, 0.45, 0.219],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.228, 0.925, 0.296],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.096, 0.329, 0.435, 0.504],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.596, 0.318, 0.895, 0.519],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器屏幕界面示意图，显示 RUN 状态及 4Stabilize 参数组，包含 AutFCent、AutFRang、AutFIntg、AutAIntg、AutAProp 等参数行。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.098, 0.535, 0.64, 0.568],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.086, 0.594, 0.82, 0.627],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.655, 0.43, 0.676],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.682, 0.934, 0.807],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.822, 0.51, 0.845],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.848, 0.936, 0.918],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.954, 0.933, 0.976],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],\n  \"notes\": \"本页为可检索文本层与矢量/排版内容结合的说明书页面，不是纯扫描件。页面以文字说明为主，包含一个控制器参数设置界面示意图和左侧操作步骤说明；背景有浅色 CUH 水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3996,
+      "completion_tokens": 1891,
+      "total_tokens": 5887,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

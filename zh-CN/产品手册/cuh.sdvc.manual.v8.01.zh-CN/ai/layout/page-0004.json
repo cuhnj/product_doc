@@ -1,0 +1,232 @@
+{
+  "doc_id": "cuh.sdvc.manual.v8.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v8.01",
+  "lang": "zh-CN",
+  "page_index": 4,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T01:26:08",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v8.01.zh-CN，页码=4。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 目录（第 3 页）\n- 4: 目录2（第 4 页）\n- 5: SDVC10-S（第 5 页）\n- 6: SDVC11-S（第 6 页）\n- 7: SDVC11-M（第 7 页）\n- 8: SDVC14-S（第 8 页）\n- 9: SDVC20-S（第 9 页）\n- 10: SDVC20-L（第 10 页）\n- 11: SDVC20-XL（第 11 页）\n- 12: SDVC201-L（第 12 页）\n- 13: SDVC20-U（第 13 页）\n- 14: SDVC21-S（第 14 页）\n- 15: SDVC21LP（第 15 页）\n- 16: SDVC21XLP（第 16 页）\n- 17: SDVC212（",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.083, 0.057, 0.716, 0.094],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.770, 0.021, 0.931, 0.090],\n      \"confidence\": 0.90,\n      \"image_alt\": \"页眉右上角的 CUH 品牌标识\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.105, 0.182, 0.480, 0.207],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.105, 0.216, 0.922, 0.330],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.105, 0.351, 0.480, 0.376],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.105, 0.386, 0.922, 0.399],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.105, 0.416, 0.480, 0.441],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.105, 0.452, 0.922, 0.504],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.105, 0.526, 0.480, 0.551],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.105, 0.562, 0.922, 0.590],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.105, 0.625, 0.480, 0.650],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.105, 0.660, 0.922, 0.673],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.105, 0.695, 0.480, 0.720],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.105, 0.730, 0.922, 0.802],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.105, 0.834, 0.922, 0.846],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],\n  \"notes\": \"本页为目录续页，主要由分组标题和带点线引导的目录条目组成；页面包含文本层，不像纯扫描件。除右上角 CUH 标识外，不以图像为主。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.083,
+          0.057,
+          0.716,
+          0.094
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.77,
+          0.021,
+          0.931,
+          0.09
+        ],
+        "confidence": 0.9,
+        "image_alt": "页眉右上角的 CUH 品牌标识",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.105,
+          0.182,
+          0.48,
+          0.207
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.105,
+          0.216,
+          0.922,
+          0.33
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.105,
+          0.351,
+          0.48,
+          0.376
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.105,
+          0.386,
+          0.922,
+          0.399
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.105,
+          0.416,
+          0.48,
+          0.441
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.105,
+          0.452,
+          0.922,
+          0.504
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.105,
+          0.526,
+          0.48,
+          0.551
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.105,
+          0.562,
+          0.922,
+          0.59
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.105,
+          0.625,
+          0.48,
+          0.65
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.105,
+          0.66,
+          0.922,
+          0.673
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.105,
+          0.695,
+          0.48,
+          0.72
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.105,
+          0.73,
+          0.922,
+          0.802
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.105,
+          0.834,
+          0.922,
+          0.846
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "notes": "本页为目录续页，主要由分组标题和带点线引导的目录条目组成；页面包含文本层，不像纯扫描件。除右上角 CUH 标识外，不以图像为主。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmjdiXEjvAIkkGGNEgr3VBOTkL0N5",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780507554,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.083, 0.057, 0.716, 0.094],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.770, 0.021, 0.931, 0.090],\n      \"confidence\": 0.90,\n      \"image_alt\": \"页眉右上角的 CUH 品牌标识\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.105, 0.182, 0.480, 0.207],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.105, 0.216, 0.922, 0.330],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.105, 0.351, 0.480, 0.376],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.105, 0.386, 0.922, 0.399],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.105, 0.416, 0.480, 0.441],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.105, 0.452, 0.922, 0.504],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.105, 0.526, 0.480, 0.551],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.105, 0.562, 0.922, 0.590],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.105, 0.625, 0.480, 0.650],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.105, 0.660, 0.922, 0.673],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.105, 0.695, 0.480, 0.720],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.105, 0.730, 0.922, 0.802],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.105, 0.834, 0.922, 0.846],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],\n  \"notes\": \"本页为目录续页，主要由分组标题和带点线引导的目录条目组成；页面包含文本层，不像纯扫描件。除右上角 CUH 标识外，不以图像为主。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2426,
+      "completion_tokens": 1326,
+      "total_tokens": 3752,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 462,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

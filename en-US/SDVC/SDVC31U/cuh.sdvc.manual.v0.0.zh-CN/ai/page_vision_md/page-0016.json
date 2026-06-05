@@ -1,0 +1,67 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 16,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:00:22",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=16。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 使用环境（第 5 页）\n- 6: 空白页（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 页面 9（第 9 页）\n- 页面 10（第 10 页）\n- 页面 11（第 11 页）\n- 页面 12（第 12 页）\n- 页面 13（第 13 页）\n- 页面 14（第 14 页）\n- 页面 15（第 15 页）\n- 页面 16（第 16 页）\n- 页面 17（第 17 页）\n- 页面 18（第 18 页）\n- 页面 19（第 19 页）\n- 页面 20（第 20 页）\n-",
+  "assistant_text": "{\n  \"page_markdown\": \"Variable Frequency Digital Controller for Vibratory Feeder  \\n**SDVC31 Series**\\n\\n---\\n\\n## 3.2 Descriptions of the Status Indicators\\n\\n[[vcrop:16:0]]\\n\\n- **Acceleration Indicator:** The indicator lights up as the Acceleration function takes effect when the Output Voltage value exceeds Input Voltage value.\\n- **Remote Speed Control Indicator:** The indicator lights up when Remote Speed Control signal is available as the Vol+and Vol- buttons loses efficacy.\\n- **Stop Indicator:** The indicator lights up as the controller halts its output.\\n- **Saturation Indicator:** The indicator lights up when the preset Output Voltage value exceeds Input Voltage value so much that the controller can't sustain.\\n- **Lock Indicator:** The indicator lights up as the controller being locked.\\n- **LED displayer:** The LED displayer indicates current adjustable parameter.\\n\\n## 3.3 I/O Interface Descriptions\\n\\n[[vcrop:16:1]]\\n\\n- **SDVC31-S（1.5A） / SDVC31-M（3.0A）**\\n  - Power Switch\\n  - Output Power Socket\\n  - Input Power Socket\\n- **SDVC31-L（4.5A） / SDVC31-XL（6.0A）**\\n  - Power Switch\\n  - Output Power Socket\\n  - Input Power Socket\\n- **SDVC31-U（10A） / SDVC31-XU（20A）**\\n  - Input Power Socket\\n  - Output Power Supple Core\\n  - Power Switch\\n\\n---\\n\\n2018-11　　　　- 8 -　　　　SDVC31SMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.073,\n        0.192,\n        0.927,\n        0.592\n      ],\n      \"alt\": \"Descriptions of the Status Indicators diagram showing the SDVC31 controller front panel and callouts for Saturation, Acceleration, Remote Speed Control, Stop, Lock, and LED display indicators.\",\n      \"reason\": \"Complex annotated product panel diagram with arrows and embedded labels; crop preserves visual layout and indicator positions.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.073,\n        0.636,\n        0.927,\n        0.949\n      ],\n      \"alt\": \"I/O Interface Descriptions diagram showing rear or side interfaces for SDVC31-S/M, SDVC31-L/XL, and SDVC31-U/XU models with power switch and socket callouts.\",\n      \"reason\": \"Complex device interface illustrations with arrows and model-specific connector positions; crop preserves spatial information.\"\n    }\n  ],\n  \"notes\": \"Page is clear; product/interface diagrams are preserved as crops while visible callout text is transcribed.\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "Variable Frequency Digital Controller for Vibratory Feeder  \n**SDVC31 Series**\n\n---\n\n## 3.2 Descriptions of the Status Indicators\n\n[[vcrop:16:0]]\n\n- **Acceleration Indicator:** The indicator lights up as the Acceleration function takes effect when the Output Voltage value exceeds Input Voltage value.\n- **Remote Speed Control Indicator:** The indicator lights up when Remote Speed Control signal is available as the Vol+and Vol- buttons loses efficacy.\n- **Stop Indicator:** The indicator lights up as the controller halts its output.\n- **Saturation Indicator:** The indicator lights up when the preset Output Voltage value exceeds Input Voltage value so much that the controller can't sustain.\n- **Lock Indicator:** The indicator lights up as the controller being locked.\n- **LED displayer:** The LED displayer indicates current adjustable parameter.\n\n## 3.3 I/O Interface Descriptions\n\n[[vcrop:16:1]]\n\n- **SDVC31-S（1.5A） / SDVC31-M（3.0A）**\n  - Power Switch\n  - Output Power Socket\n  - Input Power Socket\n- **SDVC31-L（4.5A） / SDVC31-XL（6.0A）**\n  - Power Switch\n  - Output Power Socket\n  - Input Power Socket\n- **SDVC31-U（10A） / SDVC31-XU（20A）**\n  - Input Power Socket\n  - Output Power Supple Core\n  - Power Switch\n\n---\n\n2018-11　　　　- 8 -　　　　SDVC31SMSEN_3.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.073,
+        0.192,
+        0.927,
+        0.592
+      ],
+      "alt": "Descriptions of the Status Indicators diagram showing the SDVC31 controller front panel and callouts for Saturation, Acceleration, Remote Speed Control, Stop, Lock, and LED display indicators.",
+      "reason": "Complex annotated product panel diagram with arrows and embedded labels; crop preserves visual layout and indicator positions."
+    },
+    {
+      "bbox_0_1": [
+        0.073,
+        0.636,
+        0.927,
+        0.949
+      ],
+      "alt": "I/O Interface Descriptions diagram showing rear or side interfaces for SDVC31-S/M, SDVC31-L/XL, and SDVC31-U/XU models with power switch and socket callouts.",
+      "reason": "Complex device interface illustrations with arrows and model-specific connector positions; crop preserves spatial information."
+    }
+  ],
+  "notes": "Page is clear; product/interface diagrams are preserved as crops while visible callout text is transcribed.",
+  "raw": {
+    "id": "chatcmpl-Dmsb5C9RQyyTJOd5mxdSp7Iq9xK0T",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780541987,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"Variable Frequency Digital Controller for Vibratory Feeder  \\n**SDVC31 Series**\\n\\n---\\n\\n## 3.2 Descriptions of the Status Indicators\\n\\n[[vcrop:16:0]]\\n\\n- **Acceleration Indicator:** The indicator lights up as the Acceleration function takes effect when the Output Voltage value exceeds Input Voltage value.\\n- **Remote Speed Control Indicator:** The indicator lights up when Remote Speed Control signal is available as the Vol+and Vol- buttons loses efficacy.\\n- **Stop Indicator:** The indicator lights up as the controller halts its output.\\n- **Saturation Indicator:** The indicator lights up when the preset Output Voltage value exceeds Input Voltage value so much that the controller can't sustain.\\n- **Lock Indicator:** The indicator lights up as the controller being locked.\\n- **LED displayer:** The LED displayer indicates current adjustable parameter.\\n\\n## 3.3 I/O Interface Descriptions\\n\\n[[vcrop:16:1]]\\n\\n- **SDVC31-S（1.5A） / SDVC31-M（3.0A）**\\n  - Power Switch\\n  - Output Power Socket\\n  - Input Power Socket\\n- **SDVC31-L（4.5A） / SDVC31-XL（6.0A）**\\n  - Power Switch\\n  - Output Power Socket\\n  - Input Power Socket\\n- **SDVC31-U（10A） / SDVC31-XU（20A）**\\n  - Input Power Socket\\n  - Output Power Supple Core\\n  - Power Switch\\n\\n---\\n\\n2018-11　　　　- 8 -　　　　SDVC31SMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.073,\n        0.192,\n        0.927,\n        0.592\n      ],\n      \"alt\": \"Descriptions of the Status Indicators diagram showing the SDVC31 controller front panel and callouts for Saturation, Acceleration, Remote Speed Control, Stop, Lock, and LED display indicators.\",\n      \"reason\": \"Complex annotated product panel diagram with arrows and embedded labels; crop preserves visual layout and indicator positions.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.073,\n        0.636,\n        0.927,\n        0.949\n      ],\n      \"alt\": \"I/O Interface Descriptions diagram showing rear or side interfaces for SDVC31-S/M, SDVC31-L/XL, and SDVC31-U/XU models with power switch and socket callouts.\",\n      \"reason\": \"Complex device interface illustrations with arrows and model-specific connector positions; crop preserves spatial information.\"\n    }\n  ],\n  \"notes\": \"Page is clear; product/interface diagrams are preserved as crops while visible callout text is transcribed.\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2224,
+      "completion_tokens": 1972,
+      "total_tokens": 4196,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1329,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 7,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T11:27:10",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=7。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 性能特点（第 9 页）\n- 第二章 安装指南（第 11 页）\n- 第三章 部件说明（第 13 页）\n  - 3.1 指示灯及按键说明（第 13 页）\n  - 3.2 外部部件说明（第 14 页）\n  - 3.3 信号接口定义（第 14 页）\n- 第四章 基本操作（第 15 页）\n  - 4.1 输出电压设定（第 15 页）\n  - 4.2 输出频率设定（第 16 页）\n  - 4.3 缓启动功能（第 17 页）\n  - 4.4 输",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.052, 0.933, 0.074],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.435, 0.109, 0.568, 0.141],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.080, 0.184, 0.910, 0.248],\n      \"confidence\": 0.94,\n      \"caption\": \"目录条目：第一章至第二章\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.080, 0.254, 0.910, 0.365],\n      \"confidence\": 0.95,\n      \"caption\": \"目录条目：第三章及其小节\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.080, 0.374, 0.910, 0.561],\n      \"confidence\": 0.95,\n      \"caption\": \"目录条目：第四章及其小节\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.080, 0.580, 0.910, 0.938],\n      \"confidence\": 0.96,\n      \"caption\": \"目录条目：第五章及其小节，延续到本页底部\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.956, 0.929, 0.982],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.000, 0.000, 1.000, 1.000],\n      \"confidence\": 0.65,\n      \"image_alt\": \"浅色重复的 CUH 字样背景水印\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页为目录页，版面以文本目录和虚线引导页码为主，背景有浅色水印。图像显示为数字版 PDF 渲染，非典型扫描件；文本层存在但顺序可能不完整或错乱。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.052,
+          0.933,
+          0.074
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.435,
+          0.109,
+          0.568,
+          0.141
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.08,
+          0.184,
+          0.91,
+          0.248
+        ],
+        "confidence": 0.94,
+        "caption": "目录条目：第一章至第二章",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.08,
+          0.254,
+          0.91,
+          0.365
+        ],
+        "confidence": 0.95,
+        "caption": "目录条目：第三章及其小节",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.08,
+          0.374,
+          0.91,
+          0.561
+        ],
+        "confidence": 0.95,
+        "caption": "目录条目：第四章及其小节",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.08,
+          0.58,
+          0.91,
+          0.938
+        ],
+        "confidence": 0.96,
+        "caption": "目录条目：第五章及其小节，延续到本页底部",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.956,
+          0.929,
+          0.982
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "confidence": 0.65,
+        "image_alt": "浅色重复的 CUH 字样背景水印",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "notes": "本页为目录页，版面以文本目录和虚线引导页码为主，背景有浅色水印。图像显示为数字版 PDF 渲染，非典型扫描件；文本层存在但顺序可能不完整或错乱。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnFUsw0utfvdfL3y01WTgJ96EAoaN",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780630014,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.052, 0.933, 0.074],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.435, 0.109, 0.568, 0.141],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.080, 0.184, 0.910, 0.248],\n      \"confidence\": 0.94,\n      \"caption\": \"目录条目：第一章至第二章\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.080, 0.254, 0.910, 0.365],\n      \"confidence\": 0.95,\n      \"caption\": \"目录条目：第三章及其小节\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.080, 0.374, 0.910, 0.561],\n      \"confidence\": 0.95,\n      \"caption\": \"目录条目：第四章及其小节\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.080, 0.580, 0.910, 0.938],\n      \"confidence\": 0.96,\n      \"caption\": \"目录条目：第五章及其小节，延续到本页底部\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.956, 0.929, 0.982],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.000, 0.000, 1.000, 1.000],\n      \"confidence\": 0.65,\n      \"image_alt\": \"浅色重复的 CUH 字样背景水印\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页为目录页，版面以文本目录和虚线引导页码为主，背景有浅色水印。图像显示为数字版 PDF 渲染，非典型扫描件；文本层存在但顺序可能不完整或错乱。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2787,
+      "completion_tokens": 1094,
+      "total_tokens": 3881,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

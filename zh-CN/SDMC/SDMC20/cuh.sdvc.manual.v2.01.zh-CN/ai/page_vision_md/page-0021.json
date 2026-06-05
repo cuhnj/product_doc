@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 21,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T09:18:10",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v2.01.zh-CN，doc_key=cuh.sdvc.manual.v2.01，lang=zh-CN，页码=21。\n【目录/书签上下文（节选）】\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯、按键及外部部件说明（第 10 页）\n  - 1.3 接线端口说明（第 11 页）\n  - 1.4 控制器铭牌说明（第 11 页）\n- 第二章 产品介绍（第 12 页）\n  - 2.1 产品简介（第 12 页）\n- 第三章 安装及使用指南（第 13 页）\n  - 3.1 控制器使用条件（第 13 页）\n  - 3",
+  "assistant_text": "{\"page_markdown\":\"数字单相交流异步电机控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDMC20-S\\n\\n# 第五章 高级功能说明\\n\\n本章节主要介绍本产品高级功能的使用方法。\\n\\n## 5.1 遥控调速功能\\n\\n本控制器支持外部模拟信号控制输出电压，模拟信号支持电位器、1~5V电压、4~20mA电流。\\n\\n### 电位器控制连接方式\\n\\n[[vcrop:21:0]]\\n\\n---\\n\\n2023-11　　　　　　　　　　　　　　　　　-13-　　　　　　　　　　　　　　　　　SDMC20_SMS-CN_2.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.071,0.314,0.933,0.894],\"alt\":\"电位器控制连接方式接线示意图，包含端子 A1-F3、功能标签、1K 线性电位器建议及线控生效提示。\",\"reason\":\"该区域为细线接线示意图和端子排结构，直接转写会丢失连线关系，需保留位图。\"}],\"notes\":\"页面清晰；背景有浅色 CUH 水印，未转写。\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "数字单相交流异步电机控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDMC20-S\n\n# 第五章 高级功能说明\n\n本章节主要介绍本产品高级功能的使用方法。\n\n## 5.1 遥控调速功能\n\n本控制器支持外部模拟信号控制输出电压，模拟信号支持电位器、1~5V电压、4~20mA电流。\n\n### 电位器控制连接方式\n\n[[vcrop:21:0]]\n\n---\n\n2023-11　　　　　　　　　　　　　　　　　-13-　　　　　　　　　　　　　　　　　SDMC20_SMS-CN_2.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.071,
+        0.314,
+        0.933,
+        0.894
+      ],
+      "alt": "电位器控制连接方式接线示意图，包含端子 A1-F3、功能标签、1K 线性电位器建议及线控生效提示。",
+      "reason": "该区域为细线接线示意图和端子排结构，直接转写会丢失连线关系，需保留位图。"
+    }
+  ],
+  "notes": "页面清晰；背景有浅色 CUH 水印，未转写。",
+  "raw": {
+    "id": "chatcmpl-DnDU6RLCG2iszRmusFbOgddovToka",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780622278,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"page_markdown\":\"数字单相交流异步电机控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDMC20-S\\n\\n# 第五章 高级功能说明\\n\\n本章节主要介绍本产品高级功能的使用方法。\\n\\n## 5.1 遥控调速功能\\n\\n本控制器支持外部模拟信号控制输出电压，模拟信号支持电位器、1~5V电压、4~20mA电流。\\n\\n### 电位器控制连接方式\\n\\n[[vcrop:21:0]]\\n\\n---\\n\\n2023-11　　　　　　　　　　　　　　　　　-13-　　　　　　　　　　　　　　　　　SDMC20_SMS-CN_2.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.071,0.314,0.933,0.894],\"alt\":\"电位器控制连接方式接线示意图，包含端子 A1-F3、功能标签、1K 线性电位器建议及线控生效提示。\",\"reason\":\"该区域为细线接线示意图和端子排结构，直接转写会丢失连线关系，需保留位图。\"}],\"notes\":\"页面清晰；背景有浅色 CUH 水印，未转写。\"}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2739,
+      "completion_tokens": 794,
+      "total_tokens": 3533,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

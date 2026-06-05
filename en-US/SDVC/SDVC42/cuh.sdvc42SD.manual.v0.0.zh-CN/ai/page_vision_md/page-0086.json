@@ -1,0 +1,87 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 86,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:24:24",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=86。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufactur",
+  "assistant_text": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller  \\nSDVC42-SD\\n\\n## 7.5 Input and Output Circuit Diagrams\\n\\n### Remote Speed Control Port A\\n\\n[[vcrop:86:0]]\\n\\n| Terminal | Function |\\n|---|---|\\n| A3 | +5V / 5V Output |\\n| A2 | Input |\\n| A1 | RGND |\\n\\nVisible component labels: 10uF, 10KΩ, 100KΩ, 249Ω.\\n\\n### Switch Sensor Port C\\n\\n[[vcrop:86:1]]\\n\\n| Terminal | Function |\\n|---|---|\\n| C3 | 24V Output |\\n| C2 | Input |\\n| C1 | GND |\\n\\nVisible labels: 24V, 2.4KΩ, Auto sensor type recognition.\\n\\n### Switch Sensor Port E\\n\\n[[vcrop:86:2]]\\n\\n| Terminal | Function |\\n|---|---|\\n| E3 | 24V Output |\\n| E2 | Input |\\n| E1 | GND |\\n\\nVisible labels: 24V, 2.4KΩ, Auto sensor type recognition.\\n\\n### Control Output Port D\\n\\n[[vcrop:86:3]]\\n\\n| Terminal | Function |\\n|---|---|\\n| D2 | 24V Output |\\n| D1 | Output |\\n| D3 | GND |\\n\\nVisible labels: 24V, 28V, 28V, Overcurrent Protection Circuit.\\n\\n2026-02　　　　　　　　　　　　　　　　　-76-　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.20,\n        0.185,\n        0.795,\n        0.382\n      ],\n      \"alt\": \"Remote Speed Control Port A circuit diagram\",\n      \"reason\": \"Fine-line circuit diagram with component symbols and wiring details should be preserved as an image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.20,\n        0.392,\n        0.795,\n        0.575\n      ],\n      \"alt\": \"Switch Sensor Port C circuit diagram\",\n      \"reason\": \"Fine-line circuit diagram with sensor recognition circuit details should be preserved as an image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.20,\n        0.587,\n        0.795,\n        0.772\n      ],\n      \"alt\": \"Switch Sensor Port E circuit diagram\",\n      \"reason\": \"Fine-line circuit diagram with sensor recognition circuit details should be preserved as an image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.20,\n        0.782,\n        0.795,\n        0.950\n      ],\n      \"alt\": \"Control Output Port D circuit diagram\",\n      \"reason\": \"Fine-line output protection circuit diagram should be preserved as an image.\"\n    }\n  ],\n  \"notes\": \"本页为电路原理图页面，细线和元件符号较多，已建议按四个端口图分别裁剪保留。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "Automatic High Frequency Piezo Controller  \nSDVC42-SD\n\n## 7.5 Input and Output Circuit Diagrams\n\n### Remote Speed Control Port A\n\n[[vcrop:86:0]]\n\n| Terminal | Function |\n|---|---|\n| A3 | +5V / 5V Output |\n| A2 | Input |\n| A1 | RGND |\n\nVisible component labels: 10uF, 10KΩ, 100KΩ, 249Ω.\n\n### Switch Sensor Port C\n\n[[vcrop:86:1]]\n\n| Terminal | Function |\n|---|---|\n| C3 | 24V Output |\n| C2 | Input |\n| C1 | GND |\n\nVisible labels: 24V, 2.4KΩ, Auto sensor type recognition.\n\n### Switch Sensor Port E\n\n[[vcrop:86:2]]\n\n| Terminal | Function |\n|---|---|\n| E3 | 24V Output |\n| E2 | Input |\n| E1 | GND |\n\nVisible labels: 24V, 2.4KΩ, Auto sensor type recognition.\n\n### Control Output Port D\n\n[[vcrop:86:3]]\n\n| Terminal | Function |\n|---|---|\n| D2 | 24V Output |\n| D1 | Output |\n| D3 | GND |\n\nVisible labels: 24V, 28V, 28V, Overcurrent Protection Circuit.\n\n2026-02　　　　　　　　　　　　　　　　　-76-　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.2,
+        0.185,
+        0.795,
+        0.382
+      ],
+      "alt": "Remote Speed Control Port A circuit diagram",
+      "reason": "Fine-line circuit diagram with component symbols and wiring details should be preserved as an image."
+    },
+    {
+      "bbox_0_1": [
+        0.2,
+        0.392,
+        0.795,
+        0.575
+      ],
+      "alt": "Switch Sensor Port C circuit diagram",
+      "reason": "Fine-line circuit diagram with sensor recognition circuit details should be preserved as an image."
+    },
+    {
+      "bbox_0_1": [
+        0.2,
+        0.587,
+        0.795,
+        0.772
+      ],
+      "alt": "Switch Sensor Port E circuit diagram",
+      "reason": "Fine-line circuit diagram with sensor recognition circuit details should be preserved as an image."
+    },
+    {
+      "bbox_0_1": [
+        0.2,
+        0.782,
+        0.795,
+        0.95
+      ],
+      "alt": "Control Output Port D circuit diagram",
+      "reason": "Fine-line output protection circuit diagram should be preserved as an image."
+    }
+  ],
+  "notes": "本页为电路原理图页面，细线和元件符号较多，已建议按四个端口图分别裁剪保留。",
+  "raw": {
+    "id": "chatcmpl-DmsycVYTCrQ3MTvOdffAlaX45hKbc",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780543446,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller  \\nSDVC42-SD\\n\\n## 7.5 Input and Output Circuit Diagrams\\n\\n### Remote Speed Control Port A\\n\\n[[vcrop:86:0]]\\n\\n| Terminal | Function |\\n|---|---|\\n| A3 | +5V / 5V Output |\\n| A2 | Input |\\n| A1 | RGND |\\n\\nVisible component labels: 10uF, 10KΩ, 100KΩ, 249Ω.\\n\\n### Switch Sensor Port C\\n\\n[[vcrop:86:1]]\\n\\n| Terminal | Function |\\n|---|---|\\n| C3 | 24V Output |\\n| C2 | Input |\\n| C1 | GND |\\n\\nVisible labels: 24V, 2.4KΩ, Auto sensor type recognition.\\n\\n### Switch Sensor Port E\\n\\n[[vcrop:86:2]]\\n\\n| Terminal | Function |\\n|---|---|\\n| E3 | 24V Output |\\n| E2 | Input |\\n| E1 | GND |\\n\\nVisible labels: 24V, 2.4KΩ, Auto sensor type recognition.\\n\\n### Control Output Port D\\n\\n[[vcrop:86:3]]\\n\\n| Terminal | Function |\\n|---|---|\\n| D2 | 24V Output |\\n| D1 | Output |\\n| D3 | GND |\\n\\nVisible labels: 24V, 28V, 28V, Overcurrent Protection Circuit.\\n\\n2026-02　　　　　　　　　　　　　　　　　-76-　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.20,\n        0.185,\n        0.795,\n        0.382\n      ],\n      \"alt\": \"Remote Speed Control Port A circuit diagram\",\n      \"reason\": \"Fine-line circuit diagram with component symbols and wiring details should be preserved as an image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.20,\n        0.392,\n        0.795,\n        0.575\n      ],\n      \"alt\": \"Switch Sensor Port C circuit diagram\",\n      \"reason\": \"Fine-line circuit diagram with sensor recognition circuit details should be preserved as an image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.20,\n        0.587,\n        0.795,\n        0.772\n      ],\n      \"alt\": \"Switch Sensor Port E circuit diagram\",\n      \"reason\": \"Fine-line circuit diagram with sensor recognition circuit details should be preserved as an image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.20,\n        0.782,\n        0.795,\n        0.950\n      ],\n      \"alt\": \"Control Output Port D circuit diagram\",\n      \"reason\": \"Fine-line output protection circuit diagram should be preserved as an image.\"\n    }\n  ],\n  \"notes\": \"本页为电路原理图页面，细线和元件符号较多，已建议按四个端口图分别裁剪保留。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3919,
+      "completion_tokens": 1237,
+      "total_tokens": 5156,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

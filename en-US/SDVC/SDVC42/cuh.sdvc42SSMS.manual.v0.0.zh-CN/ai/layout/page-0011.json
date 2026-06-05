@@ -1,0 +1,213 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 11,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:53:19",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=11。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.052, 0.931, 0.075],\n      \"confidence\": 0.86,\n      \"text\": \"页眉：左侧为 Automatic High Frequency Piezo Controller，右侧为 SDVC42-S，并有横线分隔\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.166, 0.101, 0.835, 0.130],\n      \"confidence\": 0.96,\n      \"text\": \"Chapter Ⅰ Instructions Before Use\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.150, 0.934, 0.191],\n      \"confidence\": 0.95,\n      \"text\": \"This chapter introduces the product packaging contents, controller appearance description, and controller nameplate information.\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.198, 0.493, 0.219],\n      \"confidence\": 0.97,\n      \"text\": \"1.1 Check Package Contents\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.229, 0.936, 0.286],\n      \"confidence\": 0.96,\n      \"text\": \"Before using, please check the integrity of the controller and accessories. If you find that the product is defective or damaged, missing accessories, etc., please contact our company.\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.298, 0.933, 0.929],\n      \"confidence\": 0.94,\n      \"image_alt\": \"一个圆角边框内展示包装清单的示意图：控制器、用户手册、输出线、输入电源线、振动传感器，分别配有产品图和数量标注。\",\n      \"caption\": \"Controller×1；User Manual×1；Output Cable×1；Input Power Cord×1；Vibration Sensor×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.161, 0.321, 0.355, 0.652],\n      \"confidence\": 0.91,\n      \"image_alt\": \"控制器本体线稿图，位于包装清单框内左上区域。\",\n      \"caption\": \"Controller×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.539, 0.345, 0.840, 0.648],\n      \"confidence\": 0.91,\n      \"image_alt\": \"SDVC42-S 用户手册封面图，位于包装清单框内右上区域。\",\n      \"caption\": \"User Manual×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.109, 0.727, 0.332, 0.900],\n      \"confidence\": 0.90,\n      \"image_alt\": \"输出线缆图片，位于包装清单框内左下区域。\",\n      \"caption\": \"Output Cable×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.401, 0.727, 0.609, 0.901],\n      \"confidence\": 0.90,\n      \"image_alt\": \"输入电源线图片，位于包装清单框内下方中间区域。\",\n      \"caption\": \"Input Power Cord×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.725, 0.741, 0.872, 0.897],\n      \"confidence\": 0.90,\n      \"image_alt\": \"振动传感器线缆图片，位于包装清单框内右下区域。\",\n      \"caption\": \"Vibration Sensor×1\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.952, 0.931, 0.975],\n      \"confidence\": 0.90,\n      \"text\": \"页脚：左侧 2026-02，中间 - 1 -，右侧 SDVC42SSMSEN_3.01，并有横线分隔\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],\n  \"notes\": \"本页不是纯扫描件，存在可提取文本层；页面主体为章节标题、说明文字和包装清单图示。背景带有浅色 CUH 水印，主要内容以产品/附件图片为主。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.072,
+          0.052,
+          0.931,
+          0.075
+        ],
+        "confidence": 0.86,
+        "text": "页眉：左侧为 Automatic High Frequency Piezo Controller，右侧为 SDVC42-S，并有横线分隔",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.166,
+          0.101,
+          0.835,
+          0.13
+        ],
+        "confidence": 0.96,
+        "text": "Chapter Ⅰ Instructions Before Use",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.15,
+          0.934,
+          0.191
+        ],
+        "confidence": 0.95,
+        "text": "This chapter introduces the product packaging contents, controller appearance description, and controller nameplate information.",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.198,
+          0.493,
+          0.219
+        ],
+        "confidence": 0.97,
+        "text": "1.1 Check Package Contents",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.229,
+          0.936,
+          0.286
+        ],
+        "confidence": 0.96,
+        "text": "Before using, please check the integrity of the controller and accessories. If you find that the product is defective or damaged, missing accessories, etc., please contact our company.",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.071,
+          0.298,
+          0.933,
+          0.929
+        ],
+        "confidence": 0.94,
+        "image_alt": "一个圆角边框内展示包装清单的示意图：控制器、用户手册、输出线、输入电源线、振动传感器，分别配有产品图和数量标注。",
+        "caption": "Controller×1；User Manual×1；Output Cable×1；Input Power Cord×1；Vibration Sensor×1",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.161,
+          0.321,
+          0.355,
+          0.652
+        ],
+        "confidence": 0.91,
+        "image_alt": "控制器本体线稿图，位于包装清单框内左上区域。",
+        "caption": "Controller×1",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.539,
+          0.345,
+          0.84,
+          0.648
+        ],
+        "confidence": 0.91,
+        "image_alt": "SDVC42-S 用户手册封面图，位于包装清单框内右上区域。",
+        "caption": "User Manual×1",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.109,
+          0.727,
+          0.332,
+          0.9
+        ],
+        "confidence": 0.9,
+        "image_alt": "输出线缆图片，位于包装清单框内左下区域。",
+        "caption": "Output Cable×1",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.401,
+          0.727,
+          0.609,
+          0.901
+        ],
+        "confidence": 0.9,
+        "image_alt": "输入电源线图片，位于包装清单框内下方中间区域。",
+        "caption": "Input Power Cord×1",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.725,
+          0.741,
+          0.872,
+          0.897
+        ],
+        "confidence": 0.9,
+        "image_alt": "振动传感器线缆图片，位于包装清单框内右下区域。",
+        "caption": "Vibration Sensor×1",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.073,
+          0.952,
+          0.931,
+          0.975
+        ],
+        "confidence": 0.9,
+        "text": "页脚：左侧 2026-02，中间 - 1 -，右侧 SDVC42SSMSEN_3.01，并有横线分隔",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "notes": "本页不是纯扫描件，存在可提取文本层；页面主体为章节标题、说明文字和包装清单图示。背景带有浅色 CUH 水印，主要内容以产品/附件图片为主。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmtQXdAm5gvCmrZknfXElm7nm11cZ",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780545177,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.052, 0.931, 0.075],\n      \"confidence\": 0.86,\n      \"text\": \"页眉：左侧为 Automatic High Frequency Piezo Controller，右侧为 SDVC42-S，并有横线分隔\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.166, 0.101, 0.835, 0.130],\n      \"confidence\": 0.96,\n      \"text\": \"Chapter Ⅰ Instructions Before Use\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.150, 0.934, 0.191],\n      \"confidence\": 0.95,\n      \"text\": \"This chapter introduces the product packaging contents, controller appearance description, and controller nameplate information.\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.198, 0.493, 0.219],\n      \"confidence\": 0.97,\n      \"text\": \"1.1 Check Package Contents\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.229, 0.936, 0.286],\n      \"confidence\": 0.96,\n      \"text\": \"Before using, please check the integrity of the controller and accessories. If you find that the product is defective or damaged, missing accessories, etc., please contact our company.\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.298, 0.933, 0.929],\n      \"confidence\": 0.94,\n      \"image_alt\": \"一个圆角边框内展示包装清单的示意图：控制器、用户手册、输出线、输入电源线、振动传感器，分别配有产品图和数量标注。\",\n      \"caption\": \"Controller×1；User Manual×1；Output Cable×1；Input Power Cord×1；Vibration Sensor×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.161, 0.321, 0.355, 0.652],\n      \"confidence\": 0.91,\n      \"image_alt\": \"控制器本体线稿图，位于包装清单框内左上区域。\",\n      \"caption\": \"Controller×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.539, 0.345, 0.840, 0.648],\n      \"confidence\": 0.91,\n      \"image_alt\": \"SDVC42-S 用户手册封面图，位于包装清单框内右上区域。\",\n      \"caption\": \"User Manual×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.109, 0.727, 0.332, 0.900],\n      \"confidence\": 0.90,\n      \"image_alt\": \"输出线缆图片，位于包装清单框内左下区域。\",\n      \"caption\": \"Output Cable×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.401, 0.727, 0.609, 0.901],\n      \"confidence\": 0.90,\n      \"image_alt\": \"输入电源线图片，位于包装清单框内下方中间区域。\",\n      \"caption\": \"Input Power Cord×1\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.725, 0.741, 0.872, 0.897],\n      \"confidence\": 0.90,\n      \"image_alt\": \"振动传感器线缆图片，位于包装清单框内右下区域。\",\n      \"caption\": \"Vibration Sensor×1\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.952, 0.931, 0.975],\n      \"confidence\": 0.90,\n      \"text\": \"页脚：左侧 2026-02，中间 - 1 -，右侧 SDVC42SSMSEN_3.01，并有横线分隔\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],\n  \"notes\": \"本页不是纯扫描件，存在可提取文本层；页面主体为章节标题、说明文字和包装清单图示。背景带有浅色 CUH 水印，主要内容以产品/附件图片为主。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3677,
+      "completion_tokens": 1624,
+      "total_tokens": 5301,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 1,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T12:23:49",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=1。\n\n【目录/书签上下文（节选）】\n- 页 1（第 1 页）\n- 页 2（第 2 页）\n- 页 3（第 3 页）\n- 页 4（第 4 页）\n\n【文本层节选（可能为空或不完整）】\n智能低压柔性振动送料控制器\n\nSDVC621 简易操作指南\n扫描二维码下载详细说明书\n\nwww.cuhnj.com\n\n地址：南京市江宁区智能路9号启迪城学研园2幢\n销售电话：025-84730416\n传真：025-84730426\n企业邮箱：sales@cuhnj.com\n文档编号：IDP1000368_A.2\n\n南京创优科技有限责任公司\n\nIntelligent Low Voltage Flexible Vibratory Feeder Controller\n\n适用\n型号：\n控制器\n\nSDVC621-M\n\n(4路音圈电机输出\n，3路LED驱",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.029, 0.043, 0.258, 0.103],\n      \"confidence\": 0.93,\n      \"image_alt\": \"CUH 创优虎品牌标识\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.029, 0.114, 0.576, 0.196],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.675, 0.030, 0.929, 0.178],\n      \"confidence\": 0.95,\n      \"image_alt\": \"右上角二维码及网址 www.cuhnj.com\",\n      \"caption\": \"扫描二维码下载详细说明书\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.029, 0.207, 0.950, 0.266],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.248, 0.309, 0.754, 0.687],\n      \"confidence\": 0.98,\n      \"image_alt\": \"SDVC621-M 控制器正面外观线框图，包含端子排、标签、二维码和接口示意\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.031, 0.705, 0.944, 0.784],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.382, 0.802, 0.959, 0.982],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页像是说明书封面/简易操作指南首页，包含可识别文本层、品牌标识、二维码和控制器外观线图；不是纯扫描件，整体以标题和设备示意图为主。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.029,
+          0.043,
+          0.258,
+          0.103
+        ],
+        "confidence": 0.93,
+        "image_alt": "CUH 创优虎品牌标识",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.029,
+          0.114,
+          0.576,
+          0.196
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.675,
+          0.03,
+          0.929,
+          0.178
+        ],
+        "confidence": 0.95,
+        "image_alt": "右上角二维码及网址 www.cuhnj.com",
+        "caption": "扫描二维码下载详细说明书",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.029,
+          0.207,
+          0.95,
+          0.266
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.248,
+          0.309,
+          0.754,
+          0.687
+        ],
+        "confidence": 0.98,
+        "image_alt": "SDVC621-M 控制器正面外观线框图，包含端子排、标签、二维码和接口示意",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.031,
+          0.705,
+          0.944,
+          0.784
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.382,
+          0.802,
+          0.959,
+          0.982
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "notes": "本页像是说明书封面/简易操作指南首页，包含可识别文本层、品牌标识、二维码和控制器外观线图；不是纯扫描件，整体以标题和设备示意图为主。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnGNkARQ53iMjzx63bUqPqSUaHV7o",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780633416,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.029, 0.043, 0.258, 0.103],\n      \"confidence\": 0.93,\n      \"image_alt\": \"CUH 创优虎品牌标识\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.029, 0.114, 0.576, 0.196],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.675, 0.030, 0.929, 0.178],\n      \"confidence\": 0.95,\n      \"image_alt\": \"右上角二维码及网址 www.cuhnj.com\",\n      \"caption\": \"扫描二维码下载详细说明书\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.029, 0.207, 0.950, 0.266],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.248, 0.309, 0.754, 0.687],\n      \"confidence\": 0.98,\n      \"image_alt\": \"SDVC621-M 控制器正面外观线框图，包含端子排、标签、二维码和接口示意\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.031, 0.705, 0.944, 0.784],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.382, 0.802, 0.959, 0.982],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页像是说明书封面/简易操作指南首页，包含可识别文本层、品牌标识、二维码和控制器外观线图；不是纯扫描件，整体以标题和设备示意图为主。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 1756,
+      "completion_tokens": 965,
+      "total_tokens": 2721,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 448,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 37,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T11:34:48",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，doc_key=cuh.sdvc.manual.v1.01，lang=zh-CN，页码=37。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 性能特点（第 9 页）\n- 第二章 安装指南（第 11 页）\n- 第三章 部件说明（第 13 页）\n  - 3.1 指示灯及按键说明（第 13 页）\n  - 3.2 外部部件说明（第 14 页）\n  - 3.3 信号接口定义（第 14 页）\n- 第四章 基本操作（第 15 页）\n  - 4.1 输出电压设定（第 15 页）\n  - 4.2 输出频率设定（第 16 页）\n  ",
+  "assistant_text": "{\n  \"page_markdown\": \"双路数字调压振动送料控制器　　　　　　　　　　　　　　　　　　　　　SDVC22 系列\\n\\n# 第六章 安全保护功能\\n\\n## 6.1 稳压功能\\n\\n内置数字稳压功能，可以消除由于电源电压波动造成的送料速度变化。\\n\\n## 6.2 短路保护功能\\n\\n输出发生短路时，控制器会立即停止输出，同时显示Err1，直到控制器重新启动为止。也有可能熔断保险丝，为恢复功能需要更换保险丝。\\n\\n## 6.3 过流保护功能\\n\\n本控制器可以在用户误操作造成输出电流超过额定电流时，短暂停止输出，同时显示Err2，以保护本机及用户的设备。\\n\\n## 6.4 过热保护功能\\n\\n当控制器工作温度超过60℃时，将停止输出，以保护本机，同时显示Err3，当温度下降到60℃以下时，本机恢复输出。\\n\\n---\\n\\n2024-04　　　　　　　　　　　　　　　　　-29-　　　　　　　　　　　　　　SDVC22SMSCN_1.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "双路数字调压振动送料控制器　　　　　　　　　　　　　　　　　　　　　SDVC22 系列\n\n# 第六章 安全保护功能\n\n## 6.1 稳压功能\n\n内置数字稳压功能，可以消除由于电源电压波动造成的送料速度变化。\n\n## 6.2 短路保护功能\n\n输出发生短路时，控制器会立即停止输出，同时显示Err1，直到控制器重新启动为止。也有可能熔断保险丝，为恢复功能需要更换保险丝。\n\n## 6.3 过流保护功能\n\n本控制器可以在用户误操作造成输出电流超过额定电流时，短暂停止输出，同时显示Err2，以保护本机及用户的设备。\n\n## 6.4 过热保护功能\n\n当控制器工作温度超过60℃时，将停止输出，以保护本机，同时显示Err3，当温度下降到60℃以下时，本机恢复输出。\n\n---\n\n2024-04　　　　　　　　　　　　　　　　　-29-　　　　　　　　　　　　　　SDVC22SMSCN_1.01",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-DnFcMbYb2ScNFiZGGlmJdalFIuPbR",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780630478,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"双路数字调压振动送料控制器　　　　　　　　　　　　　　　　　　　　　SDVC22 系列\\n\\n# 第六章 安全保护功能\\n\\n## 6.1 稳压功能\\n\\n内置数字稳压功能，可以消除由于电源电压波动造成的送料速度变化。\\n\\n## 6.2 短路保护功能\\n\\n输出发生短路时，控制器会立即停止输出，同时显示Err1，直到控制器重新启动为止。也有可能熔断保险丝，为恢复功能需要更换保险丝。\\n\\n## 6.3 过流保护功能\\n\\n本控制器可以在用户误操作造成输出电流超过额定电流时，短暂停止输出，同时显示Err2，以保护本机及用户的设备。\\n\\n## 6.4 过热保护功能\\n\\n当控制器工作温度超过60℃时，将停止输出，以保护本机，同时显示Err3，当温度下降到60℃以下时，本机恢复输出。\\n\\n---\\n\\n2024-04　　　　　　　　　　　　　　　　　-29-　　　　　　　　　　　　　　SDVC22SMSCN_1.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2835,
+      "completion_tokens": 790,
+      "total_tokens": 3625,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

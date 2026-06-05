@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 32,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T09:18:43",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v2.01.zh-CN，doc_key=cuh.sdvc.manual.v2.01，lang=zh-CN，页码=32。\n【目录/书签上下文（节选）】\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯、按键及外部部件说明（第 10 页）\n  - 1.3 接线端口说明（第 11 页）\n  - 1.4 控制器铭牌说明（第 11 页）\n- 第二章 产品介绍（第 12 页）\n  - 2.1 产品简介（第 12 页）\n- 第三章 安装及使用指南（第 13 页）\n  - 3.1 控制器使用条件（第 13 页）\n  - 3",
+  "assistant_text": "{\"page_markdown\":\"## 5.8 参数监控功能\\n\\n本控制器可以监控部分运行参数，给操作人员提供参考，方便调试。\\n\\n- 长按 <kbd>⚙</kbd> 和 <kbd>▼</kbd>，进入监控参数界面。\\n- 短按 <kbd>▲</kbd> 或 <kbd>▼</kbd> 选择需要监控的参数。\\n- 监控参数的参数值不可修改。\\n\\n示例：`S.` 表示测速参考值参数。\\n\\n[[vcrop:32:0]]\\n\\n**本控制器的监控参数包括：**\\n\\n模拟调速F口电压 `FU`、智能光电E口信号差值 `EU`、传感器A口信号电压 `AU`、传感器D口信号电压 `dU`、控制输出C口输出电压 `CU`、24V口电压 `nU`、测速参考值 `S.`。\",\"crop_suggestions\":[{\"bbox_0_1\":[0.487,0.278,0.837,0.668],\"alt\":\"参数监控功能按键操作及控制器显示示意图，显示“S.”表示测速参考值参数。\",\"reason\":\"保留页面右侧的设备面板、按键组合和数码管显示示意，便于理解操作位置和显示效果。\"}],\"notes\":\"页面清晰，背景含浅色水印。\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "## 5.8 参数监控功能\n\n本控制器可以监控部分运行参数，给操作人员提供参考，方便调试。\n\n- 长按 <kbd>⚙</kbd> 和 <kbd>▼</kbd>，进入监控参数界面。\n- 短按 <kbd>▲</kbd> 或 <kbd>▼</kbd> 选择需要监控的参数。\n- 监控参数的参数值不可修改。\n\n示例：`S.` 表示测速参考值参数。\n\n[[vcrop:32:0]]\n\n**本控制器的监控参数包括：**\n\n模拟调速F口电压 `FU`、智能光电E口信号差值 `EU`、传感器A口信号电压 `AU`、传感器D口信号电压 `dU`、控制输出C口输出电压 `CU`、24V口电压 `nU`、测速参考值 `S.`。",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.487,
+        0.278,
+        0.837,
+        0.668
+      ],
+      "alt": "参数监控功能按键操作及控制器显示示意图，显示“S.”表示测速参考值参数。",
+      "reason": "保留页面右侧的设备面板、按键组合和数码管显示示意，便于理解操作位置和显示效果。"
+    }
+  ],
+  "notes": "页面清晰，背景含浅色水印。",
+  "raw": {
+    "id": "chatcmpl-DnDUQwPH4ad5BvIoeje66UedvUwSC",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780622298,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"page_markdown\":\"## 5.8 参数监控功能\\n\\n本控制器可以监控部分运行参数，给操作人员提供参考，方便调试。\\n\\n- 长按 <kbd>⚙</kbd> 和 <kbd>▼</kbd>，进入监控参数界面。\\n- 短按 <kbd>▲</kbd> 或 <kbd>▼</kbd> 选择需要监控的参数。\\n- 监控参数的参数值不可修改。\\n\\n示例：`S.` 表示测速参考值参数。\\n\\n[[vcrop:32:0]]\\n\\n**本控制器的监控参数包括：**\\n\\n模拟调速F口电压 `FU`、智能光电E口信号差值 `EU`、传感器A口信号电压 `AU`、传感器D口信号电压 `dU`、控制输出C口输出电压 `CU`、24V口电压 `nU`、测速参考值 `S.`。\",\"crop_suggestions\":[{\"bbox_0_1\":[0.487,0.278,0.837,0.668],\"alt\":\"参数监控功能按键操作及控制器显示示意图，显示“S.”表示测速参考值参数。\",\"reason\":\"保留页面右侧的设备面板、按键组合和数码管显示示意，便于理解操作位置和显示效果。\"}],\"notes\":\"页面清晰，背景含浅色水印。\"}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2709,
+      "completion_tokens": 1874,
+      "total_tokens": 4583,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1522,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

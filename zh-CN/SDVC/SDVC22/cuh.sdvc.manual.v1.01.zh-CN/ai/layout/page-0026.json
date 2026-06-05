@@ -1,0 +1,148 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 26,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T11:27:53",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=26。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 性能特点（第 9 页）\n- 第二章 安装指南（第 11 页）\n- 第三章 部件说明（第 13 页）\n  - 3.1 指示灯及按键说明（第 13 页）\n  - 3.2 外部部件说明（第 14 页）\n  - 3.3 信号接口定义（第 14 页）\n- 第四章 基本操作（第 15 页）\n  - 4.1 输出电压设定（第 15 页）\n  - 4.2 输出频率设定（第 16 页）\n  - 4.3 缓启动功能（第 17 页）\n  - 4.4 ",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.051, 0.932, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.163, 0.660, 0.188],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.202, 0.920, 0.241],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.265, 0.620, 0.288],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.100, 0.327, 0.700, 0.406],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.190, 0.410, 0.880, 0.650],\n      \"confidence\": 0.96,\n      \"image_alt\": \"第二个开关传感器的接线示意：左侧为传感器连接线，右侧为15针D型插头，标注信号输出、公共地（-）、电源（+）以及SDVC22系列输出24V电源。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.125, 0.695, 0.450, 0.835],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.970, 0.932, 0.992],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为数字版PDF渲染页，带浅色CUH水印，不像扫描件。页面主要内容为第5.3节和5.3.1小节，包含说明文字、两步接线操作说明及一个较大的接线示意图。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.072,
+          0.051,
+          0.932,
+          0.075
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.163,
+          0.66,
+          0.188
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.202,
+          0.92,
+          0.241
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.265,
+          0.62,
+          0.288
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.327,
+          0.7,
+          0.406
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.19,
+          0.41,
+          0.88,
+          0.65
+        ],
+        "confidence": 0.96,
+        "image_alt": "第二个开关传感器的接线示意：左侧为传感器连接线，右侧为15针D型插头，标注信号输出、公共地（-）、电源（+）以及SDVC22系列输出24V电源。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.125,
+          0.695,
+          0.45,
+          0.835
+        ],
+        "confidence": 0.91,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.97,
+          0.932,
+          0.992
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "notes": "本页为数字版PDF渲染页，带浅色CUH水印，不像扫描件。页面主要内容为第5.3节和5.3.1小节，包含说明文字、两步接线操作说明及一个较大的接线示意图。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnFVRWQCqNgiLStW41wf3hEUbkUrb",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780630049,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.051, 0.932, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.163, 0.660, 0.188],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.202, 0.920, 0.241],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.265, 0.620, 0.288],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.100, 0.327, 0.700, 0.406],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.190, 0.410, 0.880, 0.650],\n      \"confidence\": 0.96,\n      \"image_alt\": \"第二个开关传感器的接线示意：左侧为传感器连接线，右侧为15针D型插头，标注信号输出、公共地（-）、电源（+）以及SDVC22系列输出24V电源。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.125, 0.695, 0.450, 0.835],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.970, 0.932, 0.992],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为数字版PDF渲染页，带浅色CUH水印，不像扫描件。页面主要内容为第5.3节和5.3.1小节，包含说明文字、两步接线操作说明及一个较大的接线示意图。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2529,
+      "completion_tokens": 1595,
+      "total_tokens": 4124,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "doc_id": "cuh.sdvc.manual.v4.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v4.01",
+  "lang": "zh-CN",
+  "page_index": 16,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T12:26:10",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v4.01.zh-CN，页码=16。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯、按键及外部部件说明（第 10 页）\n  - 1.3 接线端口说明（第 11 页）\n  - 1.4 控制器铭牌说明（第 11 页）\n- 第二章 性能特点（第 12 页）\n- 第三章 安装及使用指南（第 14 页）\n  - 3.1 控制器使用条件（第 14 页）\n  - 3.2 按键基本操作（第 14 页）\n  - 3.3 安装使用（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.052, 0.932, 0.075],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.099, 0.180, 0.205, 0.204],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.099, 0.219, 0.477, 0.258],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.160, 0.190, 0.865, 0.515],\n      \"confidence\": 0.92,\n      \"image_alt\": \"第三步操作示意图：输入电源线航空插头连接到控制器电源输入插座，图中有控制器、插头线缆、手指指示以及“先插航空插头”的提示气泡。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.099, 0.609, 0.205, 0.633],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.099, 0.646, 0.579, 0.666],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.366, 0.681, 0.814, 0.929],\n      \"confidence\": 0.92,\n      \"image_alt\": \"第四步操作示意图：电源线三爪插头插入供电电源插座，旁边有手指指示插入方向。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.958, 0.932, 0.984],\n      \"confidence\": 0.89\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为说明书安装使用步骤页面，版面以两块带圆角边框的步骤说明和灰度操作示意图为主。可见文本层内容，页面背景带有浅色 CUH 水印，不属于纯扫描件。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.072,
+          0.052,
+          0.932,
+          0.075
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.099,
+          0.18,
+          0.205,
+          0.204
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.099,
+          0.219,
+          0.477,
+          0.258
+        ],
+        "confidence": 0.91,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.16,
+          0.19,
+          0.865,
+          0.515
+        ],
+        "confidence": 0.92,
+        "image_alt": "第三步操作示意图：输入电源线航空插头连接到控制器电源输入插座，图中有控制器、插头线缆、手指指示以及“先插航空插头”的提示气泡。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.099,
+          0.609,
+          0.205,
+          0.633
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.099,
+          0.646,
+          0.579,
+          0.666
+        ],
+        "confidence": 0.91,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.366,
+          0.681,
+          0.814,
+          0.929
+        ],
+        "confidence": 0.92,
+        "image_alt": "第四步操作示意图：电源线三爪插头插入供电电源插座，旁边有手指指示插入方向。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.958,
+          0.932,
+          0.984
+        ],
+        "confidence": 0.89,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "notes": "本页为说明书安装使用步骤页面，版面以两块带圆角边框的步骤说明和灰度操作示意图为主。可见文本层内容，页面背景带有浅色 CUH 水印，不属于纯扫描件。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnGPz0CuL6SfLcjL5fT6UZqCg9ODZ",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780633555,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.052, 0.932, 0.075],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.099, 0.180, 0.205, 0.204],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.099, 0.219, 0.477, 0.258],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.160, 0.190, 0.865, 0.515],\n      \"confidence\": 0.92,\n      \"image_alt\": \"第三步操作示意图：输入电源线航空插头连接到控制器电源输入插座，图中有控制器、插头线缆、手指指示以及“先插航空插头”的提示气泡。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.099, 0.609, 0.205, 0.633],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.099, 0.646, 0.579, 0.666],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.366, 0.681, 0.814, 0.929],\n      \"confidence\": 0.92,\n      \"image_alt\": \"第四步操作示意图：电源线三爪插头插入供电电源插座，旁边有手指指示插入方向。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.958, 0.932, 0.984],\n      \"confidence\": 0.89\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为说明书安装使用步骤页面，版面以两块带圆角边框的步骤说明和灰度操作示意图为主。可见文本层内容，页面背景带有浅色 CUH 水印，不属于纯扫描件。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2592,
+      "completion_tokens": 1037,
+      "total_tokens": 3629,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 443,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 89,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:55:35",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=89。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"header\",\n      \"bbox_0_1\": [0.072, 0.052, 0.931, 0.073],\n      \"confidence\": 0.95,\n      \"text\": \"Automatic High Frequency Piezo Controller / SDVC42-S\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.152, 0.396, 0.174],\n      \"confidence\": 0.98,\n      \"text\": \"7.7 Warning Code\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.076, 0.188, 0.292, 0.206],\n      \"confidence\": 0.94,\n      \"text\": \"Warning Code Table\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.072, 0.216, 0.932, 0.696],\n      \"confidence\": 0.98,\n      \"caption\": \"Warning Code Table\",\n      \"columns\": [\"Warning Code\", \"Display\", \"Meaning\", \"Method of Exclusion\"],\n      \"summary\": \"表格列出 Warn01 至 Warn15 的警告代码、显示文本、含义及排除方法。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.954, 0.932, 0.975],\n      \"confidence\": 0.96,\n      \"text\": \"2026-02 / -79- / SDVC42SSMSEN_3.01\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为数字版 PDF 渲染页面，包含可识别文本层；页面以一张警告代码表为主体，无设备图片或流程图。背景有浅色 CUH 水印，不影响主要内容阅读。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "header",
+        "bbox_0_1": [
+          0.072,
+          0.052,
+          0.931,
+          0.073
+        ],
+        "confidence": 0.95,
+        "text": "Automatic High Frequency Piezo Controller / SDVC42-S",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.152,
+          0.396,
+          0.174
+        ],
+        "confidence": 0.98,
+        "text": "7.7 Warning Code",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.076,
+          0.188,
+          0.292,
+          0.206
+        ],
+        "confidence": 0.94,
+        "text": "Warning Code Table",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.072,
+          0.216,
+          0.932,
+          0.696
+        ],
+        "confidence": 0.98,
+        "caption": "Warning Code Table",
+        "columns": [
+          "Warning Code",
+          "Display",
+          "Meaning",
+          "Method of Exclusion"
+        ],
+        "summary": "表格列出 Warn01 至 Warn15 的警告代码、显示文本、含义及排除方法。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.954,
+          0.932,
+          0.975
+        ],
+        "confidence": 0.96,
+        "text": "2026-02 / -79- / SDVC42SSMSEN_3.01",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "本页为数字版 PDF 渲染页面，包含可识别文本层；页面以一张警告代码表为主体，无设备图片或流程图。背景有浅色 CUH 水印，不影响主要内容阅读。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmtSqh26Spq6DyPkci18dPSpR0OiH",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780545320,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"header\",\n      \"bbox_0_1\": [0.072, 0.052, 0.931, 0.073],\n      \"confidence\": 0.95,\n      \"text\": \"Automatic High Frequency Piezo Controller / SDVC42-S\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.152, 0.396, 0.174],\n      \"confidence\": 0.98,\n      \"text\": \"7.7 Warning Code\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.076, 0.188, 0.292, 0.206],\n      \"confidence\": 0.94,\n      \"text\": \"Warning Code Table\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.072, 0.216, 0.932, 0.696],\n      \"confidence\": 0.98,\n      \"caption\": \"Warning Code Table\",\n      \"columns\": [\"Warning Code\", \"Display\", \"Meaning\", \"Method of Exclusion\"],\n      \"summary\": \"表格列出 Warn01 至 Warn15 的警告代码、显示文本、含义及排除方法。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.954, 0.932, 0.975],\n      \"confidence\": 0.96,\n      \"text\": \"2026-02 / -79- / SDVC42SSMSEN_3.01\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为数字版 PDF 渲染页面，包含可识别文本层；页面以一张警告代码表为主体，无设备图片或流程图。背景有浅色 CUH 水印，不影响主要内容阅读。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3947,
+      "completion_tokens": 967,
+      "total_tokens": 4914,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

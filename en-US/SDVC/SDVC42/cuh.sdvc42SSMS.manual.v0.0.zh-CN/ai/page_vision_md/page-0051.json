@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 51,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T12:01:42",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=51。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufactur",
+  "assistant_text": "{\"page_markdown\":\"## 4.9.1 Device Networking\\n\\nThis chapter mainly introduces the quick networking between multiple controllers, how to add a new controller to the established network and how to delete the controller in the network.\\n\\n### 4.9.1.1 Device Networking\\n\\nA single controller is a network by itself. When the controllers CUHBus-DS® signal lines are correctly connected and simple operations are performed, multiple devices can form a new digital synchronous communication network.\\n\\n[[vcrop:51:0]]\",\"crop_suggestions\":[{\"bbox_0_1\":[0.35,0.32,0.64,0.90],\"alt\":\"Device networking wiring diagram showing four controllers labeled Address 1 to Address 4 connected through T1 and T3 terminals.\",\"reason\":\"Fine-line network wiring diagram with terminal labels; preserve as bitmap to avoid losing connection details.\"}],\"notes\":\"Page is clear; central wiring diagram is best preserved as a crop.\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "## 4.9.1 Device Networking\n\nThis chapter mainly introduces the quick networking between multiple controllers, how to add a new controller to the established network and how to delete the controller in the network.\n\n### 4.9.1.1 Device Networking\n\nA single controller is a network by itself. When the controllers CUHBus-DS® signal lines are correctly connected and simple operations are performed, multiple devices can form a new digital synchronous communication network.\n\n[[vcrop:51:0]]",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.35,
+        0.32,
+        0.64,
+        0.9
+      ],
+      "alt": "Device networking wiring diagram showing four controllers labeled Address 1 to Address 4 connected through T1 and T3 terminals.",
+      "reason": "Fine-line network wiring diagram with terminal labels; preserve as bitmap to avoid losing connection details."
+    }
+  ],
+  "notes": "Page is clear; central wiring diagram is best preserved as a crop.",
+  "raw": {
+    "id": "chatcmpl-DmtYn1h9Ykn61EEjyQ5T5n1KIMfcj",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780545689,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"page_markdown\":\"## 4.9.1 Device Networking\\n\\nThis chapter mainly introduces the quick networking between multiple controllers, how to add a new controller to the established network and how to delete the controller in the network.\\n\\n### 4.9.1.1 Device Networking\\n\\nA single controller is a network by itself. When the controllers CUHBus-DS® signal lines are correctly connected and simple operations are performed, multiple devices can form a new digital synchronous communication network.\\n\\n[[vcrop:51:0]]\",\"crop_suggestions\":[{\"bbox_0_1\":[0.35,0.32,0.64,0.90],\"alt\":\"Device networking wiring diagram showing four controllers labeled Address 1 to Address 4 connected through T1 and T3 terminals.\",\"reason\":\"Fine-line network wiring diagram with terminal labels; preserve as bitmap to avoid losing connection details.\"}],\"notes\":\"Page is clear; central wiring diagram is best preserved as a crop.\"}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3935,
+      "completion_tokens": 727,
+      "total_tokens": 4662,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

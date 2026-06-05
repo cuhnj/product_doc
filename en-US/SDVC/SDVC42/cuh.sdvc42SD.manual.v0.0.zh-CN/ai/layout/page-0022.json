@@ -1,0 +1,209 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 22,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:09:47",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=22。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.052, 0.934, 0.075],\n      \"confidence\": 0.95,\n      \"text\": \"Automatic High Frequency Piezo Controller / SDVC42-SD\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.098, 0.161, 0.268, 0.181],\n      \"confidence\": 0.98,\n      \"text\": \"Step Seven:\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.098, 0.193, 0.881, 0.291],\n      \"confidence\": 0.96,\n      \"text_excerpt\": \"Customers can further access the acceleration sensor to realize automatic frequency search of the controller... Take out the sensor, connect the sensor plug to the controller...\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.097, 0.344, 0.270, 0.365],\n      \"confidence\": 0.98,\n      \"text\": \"Step Eight:\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.100, 0.370, 0.496, 0.717],\n      \"confidence\": 0.95,\n      \"text_excerpt\": \"Long press ▲ and ▼ enter frequency search interface... displays the amplitude curve... displays the output voltage, current, and acceleration values... displays \\\"Save\\\"... Users can further adjust the feeding speed...\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.584, 0.350, 0.847, 0.530],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器屏幕示意图，状态为 RUN，界面为 SearchFr，显示 95Hz、4V、0.26A、1.0g，并有频率搜索曲线的小峰形。\",\n      \"caption\": \"SearchFr interface example\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.584, 0.548, 0.847, 0.728],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器屏幕示意图，状态为 RUN，界面为 SearchFr，显示 442Hz、23V、0.42A、0.5g，并有频率搜索曲线。\",\n      \"caption\": \"SearchFr interface example\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.584, 0.747, 0.847, 0.927],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器屏幕示意图，状态为 RUN，界面为 SearchFr，显示 1033Hz、54V、0.46A、0.3g，并有频率搜索曲线。\",\n      \"caption\": \"SearchFr interface example\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.135, 0.747, 0.396, 0.925],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器屏幕示意图，顶部显示 Save，界面为 SearchFr，显示 841Hz、81V、0.84A、2.1g，表示搜索完成并保存。\",\n      \"caption\": \"Save interface example\"\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.071, 0.149, 0.933, 0.307],\n      \"confidence\": 0.90,\n      \"description\": \"Step Seven 内容的圆角边框容器\"\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.071, 0.330, 0.933, 0.945],\n      \"confidence\": 0.90,\n      \"description\": \"Step Eight 内容的圆角边框容器\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.969, 0.932, 0.990],\n      \"confidence\": 0.96,\n      \"text\": \"2026-02   -12-   SDVC42SDSMSEN_3.01\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 11],\n  \"notes\": \"本页不是纯扫描件，包含可识别文字、矢量线框和控制器屏幕示意图；页面以操作步骤说明为主，配有多幅界面图。背景有淡色 CUH 水印，不影响主体阅读。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.052,
+          0.934,
+          0.075
+        ],
+        "confidence": 0.95,
+        "text": "Automatic High Frequency Piezo Controller / SDVC42-SD",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.098,
+          0.161,
+          0.268,
+          0.181
+        ],
+        "confidence": 0.98,
+        "text": "Step Seven:",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.098,
+          0.193,
+          0.881,
+          0.291
+        ],
+        "confidence": 0.96,
+        "text_excerpt": "Customers can further access the acceleration sensor to realize automatic frequency search of the controller... Take out the sensor, connect the sensor plug to the controller...",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.097,
+          0.344,
+          0.27,
+          0.365
+        ],
+        "confidence": 0.98,
+        "text": "Step Eight:",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.37,
+          0.496,
+          0.717
+        ],
+        "confidence": 0.95,
+        "text_excerpt": "Long press ▲ and ▼ enter frequency search interface... displays the amplitude curve... displays the output voltage, current, and acceleration values... displays \"Save\"... Users can further adjust the feeding speed...",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.584,
+          0.35,
+          0.847,
+          0.53
+        ],
+        "confidence": 0.96,
+        "image_alt": "控制器屏幕示意图，状态为 RUN，界面为 SearchFr，显示 95Hz、4V、0.26A、1.0g，并有频率搜索曲线的小峰形。",
+        "caption": "SearchFr interface example",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.584,
+          0.548,
+          0.847,
+          0.728
+        ],
+        "confidence": 0.96,
+        "image_alt": "控制器屏幕示意图，状态为 RUN，界面为 SearchFr，显示 442Hz、23V、0.42A、0.5g，并有频率搜索曲线。",
+        "caption": "SearchFr interface example",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.584,
+          0.747,
+          0.847,
+          0.927
+        ],
+        "confidence": 0.96,
+        "image_alt": "控制器屏幕示意图，状态为 RUN，界面为 SearchFr，显示 1033Hz、54V、0.46A、0.3g，并有频率搜索曲线。",
+        "caption": "SearchFr interface example",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.135,
+          0.747,
+          0.396,
+          0.925
+        ],
+        "confidence": 0.96,
+        "image_alt": "控制器屏幕示意图，顶部显示 Save，界面为 SearchFr，显示 841Hz、81V、0.84A、2.1g，表示搜索完成并保存。",
+        "caption": "Save interface example",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.071,
+          0.149,
+          0.933,
+          0.307
+        ],
+        "confidence": 0.9,
+        "description": "Step Seven 内容的圆角边框容器",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.071,
+          0.33,
+          0.933,
+          0.945
+        ],
+        "confidence": 0.9,
+        "description": "Step Eight 内容的圆角边框容器",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.073,
+          0.969,
+          0.932,
+          0.99
+        ],
+        "confidence": 0.96,
+        "text": "2026-02   -12-   SDVC42SDSMSEN_3.01",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11
+    ],
+    "notes": "本页不是纯扫描件，包含可识别文字、矢量线框和控制器屏幕示意图；页面以操作步骤说明为主，配有多幅界面图。背景有淡色 CUH 水印，不影响主体阅读。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmskQE0Khmzrdmv6Ln9wgLnZcNwt2",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780542566,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.052, 0.934, 0.075],\n      \"confidence\": 0.95,\n      \"text\": \"Automatic High Frequency Piezo Controller / SDVC42-SD\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.098, 0.161, 0.268, 0.181],\n      \"confidence\": 0.98,\n      \"text\": \"Step Seven:\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.098, 0.193, 0.881, 0.291],\n      \"confidence\": 0.96,\n      \"text_excerpt\": \"Customers can further access the acceleration sensor to realize automatic frequency search of the controller... Take out the sensor, connect the sensor plug to the controller...\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.097, 0.344, 0.270, 0.365],\n      \"confidence\": 0.98,\n      \"text\": \"Step Eight:\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.100, 0.370, 0.496, 0.717],\n      \"confidence\": 0.95,\n      \"text_excerpt\": \"Long press ▲ and ▼ enter frequency search interface... displays the amplitude curve... displays the output voltage, current, and acceleration values... displays \\\"Save\\\"... Users can further adjust the feeding speed...\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.584, 0.350, 0.847, 0.530],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器屏幕示意图，状态为 RUN，界面为 SearchFr，显示 95Hz、4V、0.26A、1.0g，并有频率搜索曲线的小峰形。\",\n      \"caption\": \"SearchFr interface example\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.584, 0.548, 0.847, 0.728],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器屏幕示意图，状态为 RUN，界面为 SearchFr，显示 442Hz、23V、0.42A、0.5g，并有频率搜索曲线。\",\n      \"caption\": \"SearchFr interface example\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.584, 0.747, 0.847, 0.927],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器屏幕示意图，状态为 RUN，界面为 SearchFr，显示 1033Hz、54V、0.46A、0.3g，并有频率搜索曲线。\",\n      \"caption\": \"SearchFr interface example\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.135, 0.747, 0.396, 0.925],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器屏幕示意图，顶部显示 Save，界面为 SearchFr，显示 841Hz、81V、0.84A、2.1g，表示搜索完成并保存。\",\n      \"caption\": \"Save interface example\"\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.071, 0.149, 0.933, 0.307],\n      \"confidence\": 0.90,\n      \"description\": \"Step Seven 内容的圆角边框容器\"\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.071, 0.330, 0.933, 0.945],\n      \"confidence\": 0.90,\n      \"description\": \"Step Eight 内容的圆角边框容器\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.969, 0.932, 0.990],\n      \"confidence\": 0.96,\n      \"text\": \"2026-02   -12-   SDVC42SDSMSEN_3.01\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 11],\n  \"notes\": \"本页不是纯扫描件，包含可识别文字、矢量线框和控制器屏幕示意图；页面以操作步骤说明为主，配有多幅界面图。背景有淡色 CUH 水印，不影响主体阅读。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3875,
+      "completion_tokens": 1614,
+      "total_tokens": 5489,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

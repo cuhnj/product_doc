@@ -1,0 +1,149 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 33,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T11:28:01",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=33。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 性能特点（第 9 页）\n- 第二章 安装指南（第 11 页）\n- 第三章 部件说明（第 13 页）\n  - 3.1 指示灯及按键说明（第 13 页）\n  - 3.2 外部部件说明（第 14 页）\n  - 3.3 信号接口定义（第 14 页）\n- 第四章 基本操作（第 15 页）\n  - 4.1 输出电压设定（第 15 页）\n  - 4.2 输出频率设定（第 16 页）\n  - 4.3 缓启动功能（第 17 页）\n  - 4.4 ",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.932, 0.074],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.162, 0.445, 0.185],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.198, 0.932, 0.260],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.101, 0.294, 0.902, 0.388],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.096, 0.426, 0.390, 0.448],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.117, 0.486, 0.873, 0.685],\n      \"confidence\": 0.94,\n      \"image_alt\": \"外接电位器与控制器接口的接线示意图，标注线控地、线控输入、线控电源+5V及接口端子位置。\",\n      \"caption\": \"外接电位器的连接方法\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.121, 0.733, 0.365, 0.789],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.960, 0.932, 0.983],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面以文字说明和一幅接线示意图为主，背景有浅色 CUH 水印；主要内容属于“5.6 远程速度控制”。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.052,
+          0.932,
+          0.074
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.162,
+          0.445,
+          0.185
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.198,
+          0.932,
+          0.26
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.101,
+          0.294,
+          0.902,
+          0.388
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.096,
+          0.426,
+          0.39,
+          0.448
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.117,
+          0.486,
+          0.873,
+          0.685
+        ],
+        "confidence": 0.94,
+        "image_alt": "外接电位器与控制器接口的接线示意图，标注线控地、线控输入、线控电源+5V及接口端子位置。",
+        "caption": "外接电位器的连接方法",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.121,
+          0.733,
+          0.365,
+          0.789
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.96,
+          0.932,
+          0.983
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "notes": "本页为带文本层的说明书页面，不是纯扫描件。页面以文字说明和一幅接线示意图为主，背景有浅色 CUH 水印；主要内容属于“5.6 远程速度控制”。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnFVjW3gRinoJgYo2eibn9yEzuLvz",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780630067,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.932, 0.074],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.162, 0.445, 0.185],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.198, 0.932, 0.260],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.101, 0.294, 0.902, 0.388],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.096, 0.426, 0.390, 0.448],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.117, 0.486, 0.873, 0.685],\n      \"confidence\": 0.94,\n      \"image_alt\": \"外接电位器与控制器接口的接线示意图，标注线控地、线控输入、线控电源+5V及接口端子位置。\",\n      \"caption\": \"外接电位器的连接方法\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.121, 0.733, 0.365, 0.789],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.960, 0.932, 0.983],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面以文字说明和一幅接线示意图为主，背景有浅色 CUH 水印；主要内容属于“5.6 远程速度控制”。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2605,
+      "completion_tokens": 1062,
+      "total_tokens": 3667,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

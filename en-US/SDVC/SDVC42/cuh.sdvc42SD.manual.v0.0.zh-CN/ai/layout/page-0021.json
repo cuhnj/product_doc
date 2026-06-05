@@ -1,0 +1,185 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 21,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:09:39",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=21。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.083, 0.052, 0.924, 0.073],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.127, 0.38, 0.153],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.098, 0.194, 0.235, 0.214],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.098, 0.233, 0.427, 0.288],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.565, 0.181, 0.866, 0.385],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器主界面示意图，显示 RUN 状态、端口字母、UserSped 数值 50、EffectCu 0.00A，以及底部 Home、加减符号等界面元素。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.098, 0.439, 0.222, 0.459],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.101, 0.469, 0.45, 0.55],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.103, 0.561, 0.46, 0.748],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.565, 0.5, 0.866, 0.702],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器参数设置界面示意图，处于 RUN 状态，底部显示 2Common，列表包含 01.UserSped、02.UsrVoltg、03.UsrFrqnc、04.SoftStar、05.SoftStop 等项目，电压值 20.0 被高亮。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.099, 0.772, 0.909, 0.919],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.954, 0.929, 0.976],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n  \"notes\": \"本页为带文本层的说明书页面，不像纯扫描件。页面以操作步骤说明为主，包含两个控制器界面示意图和一个提示说明框；背景有淡色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.083,
+          0.052,
+          0.924,
+          0.073
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.127,
+          0.38,
+          0.153
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.098,
+          0.194,
+          0.235,
+          0.214
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.098,
+          0.233,
+          0.427,
+          0.288
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.565,
+          0.181,
+          0.866,
+          0.385
+        ],
+        "confidence": 0.96,
+        "image_alt": "控制器主界面示意图，显示 RUN 状态、端口字母、UserSped 数值 50、EffectCu 0.00A，以及底部 Home、加减符号等界面元素。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.098,
+          0.439,
+          0.222,
+          0.459
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.101,
+          0.469,
+          0.45,
+          0.55
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.103,
+          0.561,
+          0.46,
+          0.748
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.565,
+          0.5,
+          0.866,
+          0.702
+        ],
+        "confidence": 0.96,
+        "image_alt": "控制器参数设置界面示意图，处于 RUN 状态，底部显示 2Common，列表包含 01.UserSped、02.UsrVoltg、03.UsrFrqnc、04.SoftStar、05.SoftStop 等项目，电压值 20.0 被高亮。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.099,
+          0.772,
+          0.909,
+          0.919
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.954,
+          0.929,
+          0.976
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "notes": "本页为带文本层的说明书页面，不像纯扫描件。页面以操作步骤说明为主，包含两个控制器界面示意图和一个提示说明框；背景有淡色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmskNsH6dzAr4fqDdYj9hXEhtPMKL",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780542563,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.083, 0.052, 0.924, 0.073],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.127, 0.38, 0.153],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.098, 0.194, 0.235, 0.214],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.098, 0.233, 0.427, 0.288],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.565, 0.181, 0.866, 0.385],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器主界面示意图，显示 RUN 状态、端口字母、UserSped 数值 50、EffectCu 0.00A，以及底部 Home、加减符号等界面元素。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.098, 0.439, 0.222, 0.459],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.101, 0.469, 0.45, 0.55],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.103, 0.561, 0.46, 0.748],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.565, 0.5, 0.866, 0.702],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器参数设置界面示意图，处于 RUN 状态，底部显示 2Common，列表包含 01.UserSped、02.UsrVoltg、03.UsrFrqnc、04.SoftStar、05.SoftStop 等项目，电压值 20.0 被高亮。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.099, 0.772, 0.909, 0.919],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.954, 0.929, 0.976],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n  \"notes\": \"本页为带文本层的说明书页面，不像纯扫描件。页面以操作步骤说明为主，包含两个控制器界面示意图和一个提示说明框；背景有淡色 CUH 水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3831,
+      "completion_tokens": 1280,
+      "total_tokens": 5111,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

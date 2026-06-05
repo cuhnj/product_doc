@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 58,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T12:01:57",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=58。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufactur",
+  "assistant_text": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　　　SDVC42-S\\n\\nFor mechanical equipment that requires precise alignment, two or more vibration equipment may need to have physically consistent phases, but each equipment has a different resonant frequency. By setting the frequency mode to \\\"SynV\\\", the controller can automatically Adjust the phases of each equipment according to vibration conditions to achieve consistency. If the frequency mode is \\\"SynE\\\", the user manually sets the phase compensation value.\\n\\nModify the \\\"voltage mode\\\" and \\\"frequency mode\\\" parameters in the steady speed parameter group to set the controller to work in the corresponding \\\"working mode\\\". The voltage mode and frequency mode have the following combinations:\\n\\n| Working Mode | Voltage Method | Frequency Method | Phase Control | Vibration Sensor Need |\\n|---|---|---|---|---|\\n| Automatic voltage<br>Automatic phase | Auto | SynV | Auto | Yes |\\n| Automatic voltage<br>Aanual phase | Auto | SynE | Manuel setting | Yes |\\n| Manual voltage<br>Automatic phase | Manuel | SynV | Auto | Yes |\\n| Manual voltage<br>Aanual phase | Manuel | SynE | Manuel setting | No |\\n\\n☺\\n\\n**Note:**\\n\\n1. Even if the parameters \\\"Voltage Mode\\\" and \\\"Frequency Mode\\\" are set to \\\"Auto\\\" and \\\"SynV\\\", if the vibration sensor is not connected, the controller will still work in the manual voltage and manual phase state.\\n\\n2. Automatic voltage refers to a slave controller connected to a vibration sensor that automatically adjusts the output voltage to stabilize the feeding speed near the user-set value.\\n\\n3. Automatic phase means that the slave controller connected to the vibration sensor automatically corrects the phase of the output waveform based on the sensor's feedback signal, so that the synchronization signal output by the slave controller and the master controller are in phase.\\n\\n4. Manual phase refers to the phase of the slave controller's output waveform, which can be manually set to have a fixed phase deviation from the master controller's output waveform.\\n\\n2026-02　　　　　　　　　　　　　　　　-48-　　　　　　　　　　　　　　　　SDVC42SSMSEN_3.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　　　SDVC42-S\n\nFor mechanical equipment that requires precise alignment, two or more vibration equipment may need to have physically consistent phases, but each equipment has a different resonant frequency. By setting the frequency mode to \"SynV\", the controller can automatically Adjust the phases of each equipment according to vibration conditions to achieve consistency. If the frequency mode is \"SynE\", the user manually sets the phase compensation value.\n\nModify the \"voltage mode\" and \"frequency mode\" parameters in the steady speed parameter group to set the controller to work in the corresponding \"working mode\". The voltage mode and frequency mode have the following combinations:\n\n| Working Mode | Voltage Method | Frequency Method | Phase Control | Vibration Sensor Need |\n|---|---|---|---|---|\n| Automatic voltage<br>Automatic phase | Auto | SynV | Auto | Yes |\n| Automatic voltage<br>Aanual phase | Auto | SynE | Manuel setting | Yes |\n| Manual voltage<br>Automatic phase | Manuel | SynV | Auto | Yes |\n| Manual voltage<br>Aanual phase | Manuel | SynE | Manuel setting | No |\n\n☺\n\n**Note:**\n\n1. Even if the parameters \"Voltage Mode\" and \"Frequency Mode\" are set to \"Auto\" and \"SynV\", if the vibration sensor is not connected, the controller will still work in the manual voltage and manual phase state.\n\n2. Automatic voltage refers to a slave controller connected to a vibration sensor that automatically adjusts the output voltage to stabilize the feeding speed near the user-set value.\n\n3. Automatic phase means that the slave controller connected to the vibration sensor automatically corrects the phase of the output waveform based on the sensor's feedback signal, so that the synchronization signal output by the slave controller and the master controller are in phase.\n\n4. Manual phase refers to the phase of the slave controller's output waveform, which can be manually set to have a fixed phase deviation from the master controller's output waveform.\n\n2026-02　　　　　　　　　　　　　　　　-48-　　　　　　　　　　　　　　　　SDVC42SSMSEN_3.01",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-DmtZ1NVZh4NwdcPp7nP7yaHVAWPl6",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780545703,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　　　SDVC42-S\\n\\nFor mechanical equipment that requires precise alignment, two or more vibration equipment may need to have physically consistent phases, but each equipment has a different resonant frequency. By setting the frequency mode to \\\"SynV\\\", the controller can automatically Adjust the phases of each equipment according to vibration conditions to achieve consistency. If the frequency mode is \\\"SynE\\\", the user manually sets the phase compensation value.\\n\\nModify the \\\"voltage mode\\\" and \\\"frequency mode\\\" parameters in the steady speed parameter group to set the controller to work in the corresponding \\\"working mode\\\". The voltage mode and frequency mode have the following combinations:\\n\\n| Working Mode | Voltage Method | Frequency Method | Phase Control | Vibration Sensor Need |\\n|---|---|---|---|---|\\n| Automatic voltage<br>Automatic phase | Auto | SynV | Auto | Yes |\\n| Automatic voltage<br>Aanual phase | Auto | SynE | Manuel setting | Yes |\\n| Manual voltage<br>Automatic phase | Manuel | SynV | Auto | Yes |\\n| Manual voltage<br>Aanual phase | Manuel | SynE | Manuel setting | No |\\n\\n☺\\n\\n**Note:**\\n\\n1. Even if the parameters \\\"Voltage Mode\\\" and \\\"Frequency Mode\\\" are set to \\\"Auto\\\" and \\\"SynV\\\", if the vibration sensor is not connected, the controller will still work in the manual voltage and manual phase state.\\n\\n2. Automatic voltage refers to a slave controller connected to a vibration sensor that automatically adjusts the output voltage to stabilize the feeding speed near the user-set value.\\n\\n3. Automatic phase means that the slave controller connected to the vibration sensor automatically corrects the phase of the output waveform based on the sensor's feedback signal, so that the synchronization signal output by the slave controller and the master controller are in phase.\\n\\n4. Manual phase refers to the phase of the slave controller's output waveform, which can be manually set to have a fixed phase deviation from the master controller's output waveform.\\n\\n2026-02　　　　　　　　　　　　　　　　-48-　　　　　　　　　　　　　　　　SDVC42SSMSEN_3.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4144,
+      "completion_tokens": 996,
+      "total_tokens": 5140,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

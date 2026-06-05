@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 31,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T10:39:58",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，doc_key=cuh.sdvc.manual.v1.01，lang=zh-CN，页码=31。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 空白页（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯及按键说明（第 10 页）\n  - 1.3 外部部件说明（第 11 页）\n  - 1.4 信号端口说明（第 11 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 产品介绍（第 13 页）\n  - 2.1 产品简介（第 13 页）\n- ",
+  "assistant_text": "{\n  \"page_markdown\": \"[[vcrop:31:0]]\\n\\n**电机功率超上限保护示意图**\\n\\n控制器实时监控电机电功率，当该功率超过电机额定电功率Po和功率超额系数rc乘积，触发电机功率超限保护Er02P。电机电子过热积分器直接进入饱和状态。控制器将降低输出频率直到输出功率下降到功率降额系数rL定义的功率。此时积分器进行复位，当复位完成则恢复至设定频率运行，重新开始新的保护循环。\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.075,\n        0.195,\n        0.83,\n        0.475\n      ],\n      \"alt\": \"电机功率超上限保护示意图：实时电机电功率、功率上限触发积分饱和与电子过热积分变化曲线\",\n      \"reason\": \"包含多条曲线、箭头标注和坐标线的示意图，适合保留为位图。\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "[[vcrop:31:0]]\n\n**电机功率超上限保护示意图**\n\n控制器实时监控电机电功率，当该功率超过电机额定电功率Po和功率超额系数rc乘积，触发电机功率超限保护Er02P。电机电子过热积分器直接进入饱和状态。控制器将降低输出频率直到输出功率下降到功率降额系数rL定义的功率。此时积分器进行复位，当复位完成则恢复至设定频率运行，重新开始新的保护循环。",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.075,
+        0.195,
+        0.83,
+        0.475
+      ],
+      "alt": "电机功率超上限保护示意图：实时电机电功率、功率上限触发积分饱和与电子过热积分变化曲线",
+      "reason": "包含多条曲线、箭头标注和坐标线的示意图，适合保留为位图。"
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-DmsHjEvj7igJTEGDjLhjVA4AKOpVz",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780540787,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"[[vcrop:31:0]]\\n\\n**电机功率超上限保护示意图**\\n\\n控制器实时监控电机电功率，当该功率超过电机额定电功率Po和功率超额系数rc乘积，触发电机功率超限保护Er02P。电机电子过热积分器直接进入饱和状态。控制器将降低输出频率直到输出功率下降到功率降额系数rL定义的功率。此时积分器进行复位，当复位完成则恢复至设定频率运行，重新开始新的保护循环。\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.075,\n        0.195,\n        0.83,\n        0.475\n      ],\n      \"alt\": \"电机功率超上限保护示意图：实时电机电功率、功率上限触发积分饱和与电子过热积分变化曲线\",\n      \"reason\": \"包含多条曲线、箭头标注和坐标线的示意图，适合保留为位图。\"\n    }\n  ],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2817,
+      "completion_tokens": 800,
+      "total_tokens": 3617,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 29,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:53:55",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=29。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.053, 0.935, 0.075],\n      \"confidence\": 0.96,\n      \"text\": \"页眉：Automatic High Frequency Piezo Controller；SDVC42-S，含横线\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.132, 0.47, 0.151],\n      \"confidence\": 0.98,\n      \"text\": \"4.3.4 Amplitude Integration\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.162, 0.94, 0.249],\n      \"confidence\": 0.97,\n      \"text\": \"说明通过 PID 控制自动调节输出电压；该值越大，控制器调节输出电压越快，并可降低输出电压振荡幅度和频率；过大时输出电压振荡幅度会变大。给出 amplitude integration 的范围、默认值和调整精度。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.282, 0.39, 0.301],\n      \"confidence\": 0.98,\n      \"text\": \"4.3.5 Amplitude Ratio\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.312, 0.94, 0.382],\n      \"confidence\": 0.97,\n      \"text\": \"说明通过 PID 控制自动调节输出电压；该值越大，控制器调节输出电压越快，但过大时会导致输出电压频繁振荡。给出 amplitude ratio 的范围、默认值和调整精度。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.401, 0.318, 0.419],\n      \"confidence\": 0.98,\n      \"text\": \"4.3.6 Auto Phase\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.427, 0.937, 0.477],\n      \"confidence\": 0.97,\n      \"text\": \"说明该参数可修改输出电流波形与加速度传感器加速度信号之间的相位差。给出 automatic phase 的范围、默认值和调整精度。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.494, 0.781, 0.512],\n      \"confidence\": 0.98,\n      \"text\": \"4.3.7 Frequency Searching Process Voltage\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.520, 0.927, 0.608],\n      \"confidence\": 0.97,\n      \"text\": \"说明设置自动频率搜索期间控制器的最大输出电压，使振动盘实际输出电压不超过设定的频率搜索电压。给出 search frequency voltage 的范围、默认值和调整精度。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.623, 0.84, 0.641],\n      \"confidence\": 0.98,\n      \"text\": \"4.3.8 Frequency Searching Process Amplitude\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.649, 0.936, 0.719],\n      \"confidence\": 0.97,\n      \"text\": \"说明自动频率搜索期间控制器的最大振幅不会超过该值，以保护振动设备安全。给出 frequency search amplitude 的范围、默认值和调整精度。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.730, 0.424, 0.748],\n      \"confidence\": 0.98,\n      \"text\": \"4.3.9 Maximum Feed Speed\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.754, 0.936, 0.844],\n      \"confidence\": 0.97,\n      \"text\": \"说明该参数用于限制最大可调送料速度，防止误输出过大电压而损坏振动设备；远程速度控制时，送料速度上限也受该参数影响。给出 maximum range of material speed 的范围、默认值和调整精度。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.861, 0.628, 0.879],\n      \"confidence\": 0.98,\n      \"text\": \"4.3.10 Slave Controller Phase Offset\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.888, 0.94, 0.961],\n      \"confidence\": 0.97,\n      \"text\": \"说明 manual phase 表示从控制器输出波形的相位可手动设置，使其相对于主控制器输出的同步信号具有固定相位偏差。给出 manual phase 的范围、默认值和调整精度。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.968, 0.934, 0.991],\n      \"confidence\": 0.97,\n      \"text\": \"页脚：2026-02；-19-；SDVC42SSMSEN_3.01，含横线\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],\n  \"notes\": \"本页为带文本层的 PDF 渲染页，不像扫描件。页面以连续说明文字为主，无表格、无插图；背景有淡色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.072,
+          0.053,
+          0.935,
+          0.075
+        ],
+        "confidence": 0.96,
+        "text": "页眉：Automatic High Frequency Piezo Controller；SDVC42-S，含横线",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.132,
+          0.47,
+          0.151
+        ],
+        "confidence": 0.98,
+        "text": "4.3.4 Amplitude Integration",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.162,
+          0.94,
+          0.249
+        ],
+        "confidence": 0.97,
+        "text": "说明通过 PID 控制自动调节输出电压；该值越大，控制器调节输出电压越快，并可降低输出电压振荡幅度和频率；过大时输出电压振荡幅度会变大。给出 amplitude integration 的范围、默认值和调整精度。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.282,
+          0.39,
+          0.301
+        ],
+        "confidence": 0.98,
+        "text": "4.3.5 Amplitude Ratio",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.312,
+          0.94,
+          0.382
+        ],
+        "confidence": 0.97,
+        "text": "说明通过 PID 控制自动调节输出电压；该值越大，控制器调节输出电压越快，但过大时会导致输出电压频繁振荡。给出 amplitude ratio 的范围、默认值和调整精度。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.401,
+          0.318,
+          0.419
+        ],
+        "confidence": 0.98,
+        "text": "4.3.6 Auto Phase",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.427,
+          0.937,
+          0.477
+        ],
+        "confidence": 0.97,
+        "text": "说明该参数可修改输出电流波形与加速度传感器加速度信号之间的相位差。给出 automatic phase 的范围、默认值和调整精度。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.494,
+          0.781,
+          0.512
+        ],
+        "confidence": 0.98,
+        "text": "4.3.7 Frequency Searching Process Voltage",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.52,
+          0.927,
+          0.608
+        ],
+        "confidence": 0.97,
+        "text": "说明设置自动频率搜索期间控制器的最大输出电压，使振动盘实际输出电压不超过设定的频率搜索电压。给出 search frequency voltage 的范围、默认值和调整精度。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.623,
+          0.84,
+          0.641
+        ],
+        "confidence": 0.98,
+        "text": "4.3.8 Frequency Searching Process Amplitude",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.649,
+          0.936,
+          0.719
+        ],
+        "confidence": 0.97,
+        "text": "说明自动频率搜索期间控制器的最大振幅不会超过该值，以保护振动设备安全。给出 frequency search amplitude 的范围、默认值和调整精度。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.73,
+          0.424,
+          0.748
+        ],
+        "confidence": 0.98,
+        "text": "4.3.9 Maximum Feed Speed",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.754,
+          0.936,
+          0.844
+        ],
+        "confidence": 0.97,
+        "text": "说明该参数用于限制最大可调送料速度，防止误输出过大电压而损坏振动设备；远程速度控制时，送料速度上限也受该参数影响。给出 maximum range of material speed 的范围、默认值和调整精度。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.861,
+          0.628,
+          0.879
+        ],
+        "confidence": 0.98,
+        "text": "4.3.10 Slave Controller Phase Offset",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.888,
+          0.94,
+          0.961
+        ],
+        "confidence": 0.97,
+        "text": "说明 manual phase 表示从控制器输出波形的相位可手动设置，使其相对于主控制器输出的同步信号具有固定相位偏差。给出 manual phase 的范围、默认值和调整精度。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.968,
+          0.934,
+          0.991
+        ],
+        "confidence": 0.97,
+        "text": "页脚：2026-02；-19-；SDVC42SSMSEN_3.01，含横线",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "notes": "本页为带文本层的 PDF 渲染页，不像扫描件。页面以连续说明文字为主，无表格、无插图；背景有淡色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmtR15MY6PmMbPAKgfP2Ji5rLrzCa",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780545207,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.053, 0.935, 0.075],\n      \"confidence\": 0.96,\n      \"text\": \"页眉：Automatic High Frequency Piezo Controller；SDVC42-S，含横线\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.132, 0.47, 0.151],\n      \"confidence\": 0.98,\n      \"text\": \"4.3.4 Amplitude Integration\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.162, 0.94, 0.249],\n      \"confidence\": 0.97,\n      \"text\": \"说明通过 PID 控制自动调节输出电压；该值越大，控制器调节输出电压越快，并可降低输出电压振荡幅度和频率；过大时输出电压振荡幅度会变大。给出 amplitude integration 的范围、默认值和调整精度。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.282, 0.39, 0.301],\n      \"confidence\": 0.98,\n      \"text\": \"4.3.5 Amplitude Ratio\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.312, 0.94, 0.382],\n      \"confidence\": 0.97,\n      \"text\": \"说明通过 PID 控制自动调节输出电压；该值越大，控制器调节输出电压越快，但过大时会导致输出电压频繁振荡。给出 amplitude ratio 的范围、默认值和调整精度。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.401, 0.318, 0.419],\n      \"confidence\": 0.98,\n      \"text\": \"4.3.6 Auto Phase\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.427, 0.937, 0.477],\n      \"confidence\": 0.97,\n      \"text\": \"说明该参数可修改输出电流波形与加速度传感器加速度信号之间的相位差。给出 automatic phase 的范围、默认值和调整精度。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.494, 0.781, 0.512],\n      \"confidence\": 0.98,\n      \"text\": \"4.3.7 Frequency Searching Process Voltage\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.520, 0.927, 0.608],\n      \"confidence\": 0.97,\n      \"text\": \"说明设置自动频率搜索期间控制器的最大输出电压，使振动盘实际输出电压不超过设定的频率搜索电压。给出 search frequency voltage 的范围、默认值和调整精度。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.623, 0.84, 0.641],\n      \"confidence\": 0.98,\n      \"text\": \"4.3.8 Frequency Searching Process Amplitude\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.649, 0.936, 0.719],\n      \"confidence\": 0.97,\n      \"text\": \"说明自动频率搜索期间控制器的最大振幅不会超过该值，以保护振动设备安全。给出 frequency search amplitude 的范围、默认值和调整精度。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.730, 0.424, 0.748],\n      \"confidence\": 0.98,\n      \"text\": \"4.3.9 Maximum Feed Speed\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.754, 0.936, 0.844],\n      \"confidence\": 0.97,\n      \"text\": \"说明该参数用于限制最大可调送料速度，防止误输出过大电压而损坏振动设备；远程速度控制时，送料速度上限也受该参数影响。给出 maximum range of material speed 的范围、默认值和调整精度。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.861, 0.628, 0.879],\n      \"confidence\": 0.98,\n      \"text\": \"4.3.10 Slave Controller Phase Offset\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.888, 0.94, 0.961],\n      \"confidence\": 0.97,\n      \"text\": \"说明 manual phase 表示从控制器输出波形的相位可手动设置，使其相对于主控制器输出的同步信号具有固定相位偏差。给出 manual phase 的范围、默认值和调整精度。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.968, 0.934, 0.991],\n      \"confidence\": 0.97,\n      \"text\": \"页脚：2026-02；-19-；SDVC42SSMSEN_3.01，含横线\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],\n  \"notes\": \"本页为带文本层的 PDF 渲染页，不像扫描件。页面以连续说明文字为主，无表格、无插图；背景有淡色 CUH 水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4014,
+      "completion_tokens": 2252,
+      "total_tokens": 6266,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 802,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

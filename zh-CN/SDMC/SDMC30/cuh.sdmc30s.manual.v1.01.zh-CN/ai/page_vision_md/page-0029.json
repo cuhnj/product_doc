@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 29,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T10:39:56",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，doc_key=cuh.sdvc.manual.v1.01，lang=zh-CN，页码=29。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 空白页（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯及按键说明（第 10 页）\n  - 1.3 外部部件说明（第 11 页）\n  - 1.4 信号端口说明（第 11 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 产品介绍（第 13 页）\n  - 2.1 产品简介（第 13 页）\n- ",
+  "assistant_text": "{\n  \"page_markdown\": \"## 5.4 电机V/F曲线设定\\n\\n本控制器可自定义V/F曲线以适应电机的不同类型负载应用。\\n\\n通过最大频率y、额定频率b、额定电压h、中间频率n、中间电压o、最低频率r、最低电压u定义。\\n\\n[[vcrop:29:0]]\\n\\n**注意：** 由于电机负载具有感性，为维持V/F曲线线性段电流不变，输出线电压均校准为整流平均值Vrmn。通常标准正弦波的有效值Vrms为整流平均值Vrmn的1.11倍。\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.16,\n        0.27,\n        0.84,\n        0.54\n      ],\n      \"alt\": \"电机V/F曲线示意图：纵轴为平均电压/V，横轴为频率/Hz，标注u、o、h与r、n、b、y，曲线从最低频率/电压上升至额定频率/电压后保持水平至最大频率。\",\n      \"reason\": \"页面中的V/F曲线图包含坐标轴、标注和曲线，需以位图保留原始视觉信息。\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "## 5.4 电机V/F曲线设定\n\n本控制器可自定义V/F曲线以适应电机的不同类型负载应用。\n\n通过最大频率y、额定频率b、额定电压h、中间频率n、中间电压o、最低频率r、最低电压u定义。\n\n[[vcrop:29:0]]\n\n**注意：** 由于电机负载具有感性，为维持V/F曲线线性段电流不变，输出线电压均校准为整流平均值Vrmn。通常标准正弦波的有效值Vrms为整流平均值Vrmn的1.11倍。",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.16,
+        0.27,
+        0.84,
+        0.54
+      ],
+      "alt": "电机V/F曲线示意图：纵轴为平均电压/V，横轴为频率/Hz，标注u、o、h与r、n、b、y，曲线从最低频率/电压上升至额定频率/电压后保持水平至最大频率。",
+      "reason": "页面中的V/F曲线图包含坐标轴、标注和曲线，需以位图保留原始视觉信息。"
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-DmsHgsKwXfw0uV9c0HfsY1PqAI0FR",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780540784,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"## 5.4 电机V/F曲线设定\\n\\n本控制器可自定义V/F曲线以适应电机的不同类型负载应用。\\n\\n通过最大频率y、额定频率b、额定电压h、中间频率n、中间电压o、最低频率r、最低电压u定义。\\n\\n[[vcrop:29:0]]\\n\\n**注意：** 由于电机负载具有感性，为维持V/F曲线线性段电流不变，输出线电压均校准为整流平均值Vrmn。通常标准正弦波的有效值Vrms为整流平均值Vrmn的1.11倍。\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.16,\n        0.27,\n        0.84,\n        0.54\n      ],\n      \"alt\": \"电机V/F曲线示意图：纵轴为平均电压/V，横轴为频率/Hz，标注u、o、h与r、n、b、y，曲线从最低频率/电压上升至额定频率/电压后保持水平至最大频率。\",\n      \"reason\": \"页面中的V/F曲线图包含坐标轴、标注和曲线，需以位图保留原始视觉信息。\"\n    }\n  ],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2802,
+      "completion_tokens": 853,
+      "total_tokens": 3655,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

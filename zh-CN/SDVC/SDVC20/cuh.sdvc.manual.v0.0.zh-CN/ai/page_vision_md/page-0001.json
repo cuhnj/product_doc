@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 1,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T12:16:15",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=1。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 目录（第 6 页）\n- 第一章 性能特点（第 7 页）\n- 第二章 安装指南（第 9 页）\n- 第三章 部件说明（第 11 页）\n- 第四章 基本操作（第 13 页）\n- 4.1 输出电压设定（第 13 页）\n- 4.2 输出频率设定（第 14 页）\n- 4.3 缓启动功能（第 15 页）\n- 4.4 输出开关（第 15 页）\n- 4.5 最大输出电压限制功能（第 16 页）\n- 4.6 恢复出厂设置（第 17 页）\n- 第五章 传感器与信号控制（第 18 页）\n- 5.1 智能光电传感",
+  "assistant_text": "{\n  \"page_markdown\": \"# CUH®\\n\\n# 数字**稳压**振动送料控制器\\n\\n[[vcrop:1:0]]\\n\\nSDVC20S、SDVC20L—智能数字调压振动送料控制器  \\nSDVC22S—智能数字双调压振动送料控制器\\n\\n# 用户手册\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.16,\n        0.36,\n        0.83,\n        0.78\n      ],\n      \"alt\": \"三款 CUH 数字稳压振动送料控制器产品外观图\",\n      \"reason\": \"封面中央为复杂产品渲染图，需保留位图。\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "# CUH®\n\n# 数字**稳压**振动送料控制器\n\n[[vcrop:1:0]]\n\nSDVC20S、SDVC20L—智能数字调压振动送料控制器  \nSDVC22S—智能数字双调压振动送料控制器\n\n# 用户手册",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.16,
+        0.36,
+        0.83,
+        0.78
+      ],
+      "alt": "三款 CUH 数字稳压振动送料控制器产品外观图",
+      "reason": "封面中央为复杂产品渲染图，需保留位图。"
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-Dmtmtu3brxsesomzmSdomaCENADEJ",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780546563,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"# CUH®\\n\\n# 数字**稳压**振动送料控制器\\n\\n[[vcrop:1:0]]\\n\\nSDVC20S、SDVC20L—智能数字调压振动送料控制器  \\nSDVC22S—智能数字双调压振动送料控制器\\n\\n# 用户手册\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.16,\n        0.36,\n        0.83,\n        0.78\n      ],\n      \"alt\": \"三款 CUH 数字稳压振动送料控制器产品外观图\",\n      \"reason\": \"封面中央为复杂产品渲染图，需保留位图。\"\n    }\n  ],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2190,
+      "completion_tokens": 705,
+      "total_tokens": 2895,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

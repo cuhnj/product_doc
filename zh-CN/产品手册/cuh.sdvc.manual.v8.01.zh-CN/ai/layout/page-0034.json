@@ -1,0 +1,190 @@
+{
+  "doc_id": "cuh.sdvc.manual.v8.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v8.01",
+  "lang": "zh-CN",
+  "page_index": 34,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T01:27:16",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v8.01.zh-CN，页码=34。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 目录（第 3 页）\n- 4: 目录2（第 4 页）\n- 5: SDVC10-S（第 5 页）\n- 6: SDVC11-S（第 6 页）\n- 7: SDVC11-M（第 7 页）\n- 8: SDVC14-S（第 8 页）\n- 9: SDVC20-S（第 9 页）\n- 10: SDVC20-L（第 10 页）\n- 11: SDVC20-XL（第 11 页）\n- 12: SDVC201-L（第 12 页）\n- 13: SDVC20-U（第 13 页）\n- 14: SDVC21-S（第 14 页）\n- 15: SDVC21LP（第 15 页）\n- 16: SDVC21XLP（第 16 页）\n- 17: SDVC212",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.053, 0.932, 0.089],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.090, 0.514, 0.154],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.083, 0.178, 0.513, 0.434],\n      \"confidence\": 0.94,\n      \"image_alt\": \"SDVC34-UR、SDVC34-XU 智能调频振动送料控制器的产品外观照片，旁边列有自动调频、自动稳速、自动搜频、自动稳压、同步跟踪、485通讯、功能强大等功能词。\",\n      \"caption\": \"产品外观图\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.560, 0.132, 0.932, 0.191],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.560, 0.196, 0.932, 0.552],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.083, 0.452, 0.514, 0.887],\n      \"confidence\": 0.97,\n      \"caption\": \"技术规格\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.560, 0.555, 0.932, 0.613],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.560, 0.607, 0.932, 0.814],\n      \"confidence\": 0.90,\n      \"image_alt\": \"随机附件区域，包含电源线和振动传感器的图片及对应项目说明。\",\n      \"caption\": \"随机附件\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.560, 0.820, 0.932, 0.929],\n      \"confidence\": 0.90,\n      \"image_alt\": \"选购附件区域，包含振动传感器图片及不同规格振动传感器的项目说明。\",\n      \"caption\": \"选购附件\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.083, 0.894, 0.515, 0.975],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.000, 0.950, 0.069, 1.000],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n  \"notes\": \"本页不是纯扫描件，页面有可提取文本层，同时包含产品与附件照片。版式为双栏产品资料页，左侧以产品图和技术规格表为主，右侧以型号、功能、尺寸重量及附件说明为主。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.083,
+          0.053,
+          0.932,
+          0.089
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.083,
+          0.09,
+          0.514,
+          0.154
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.083,
+          0.178,
+          0.513,
+          0.434
+        ],
+        "confidence": 0.94,
+        "image_alt": "SDVC34-UR、SDVC34-XU 智能调频振动送料控制器的产品外观照片，旁边列有自动调频、自动稳速、自动搜频、自动稳压、同步跟踪、485通讯、功能强大等功能词。",
+        "caption": "产品外观图",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.56,
+          0.132,
+          0.932,
+          0.191
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.56,
+          0.196,
+          0.932,
+          0.552
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.083,
+          0.452,
+          0.514,
+          0.887
+        ],
+        "confidence": 0.97,
+        "caption": "技术规格",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.56,
+          0.555,
+          0.932,
+          0.613
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.56,
+          0.607,
+          0.932,
+          0.814
+        ],
+        "confidence": 0.9,
+        "image_alt": "随机附件区域，包含电源线和振动传感器的图片及对应项目说明。",
+        "caption": "随机附件",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.56,
+          0.82,
+          0.932,
+          0.929
+        ],
+        "confidence": 0.9,
+        "image_alt": "选购附件区域，包含振动传感器图片及不同规格振动传感器的项目说明。",
+        "caption": "选购附件",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.083,
+          0.894,
+          0.515,
+          0.975
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.0,
+          0.95,
+          0.069,
+          1.0
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "notes": "本页不是纯扫描件，页面有可提取文本层，同时包含产品与附件照片。版式为双栏产品资料页，左侧以产品图和技术规格表为主，右侧以型号、功能、尺寸重量及附件说明为主。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmjekLc2lfNgiQ3T2yJ1vrpoGMQWJ",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780507618,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.053, 0.932, 0.089],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.090, 0.514, 0.154],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.083, 0.178, 0.513, 0.434],\n      \"confidence\": 0.94,\n      \"image_alt\": \"SDVC34-UR、SDVC34-XU 智能调频振动送料控制器的产品外观照片，旁边列有自动调频、自动稳速、自动搜频、自动稳压、同步跟踪、485通讯、功能强大等功能词。\",\n      \"caption\": \"产品外观图\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.560, 0.132, 0.932, 0.191],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.560, 0.196, 0.932, 0.552],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.083, 0.452, 0.514, 0.887],\n      \"confidence\": 0.97,\n      \"caption\": \"技术规格\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.560, 0.555, 0.932, 0.613],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.560, 0.607, 0.932, 0.814],\n      \"confidence\": 0.90,\n      \"image_alt\": \"随机附件区域，包含电源线和振动传感器的图片及对应项目说明。\",\n      \"caption\": \"随机附件\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.560, 0.820, 0.932, 0.929],\n      \"confidence\": 0.90,\n      \"image_alt\": \"选购附件区域，包含振动传感器图片及不同规格振动传感器的项目说明。\",\n      \"caption\": \"选购附件\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.083, 0.894, 0.515, 0.975],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.000, 0.950, 0.069, 1.000],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n  \"notes\": \"本页不是纯扫描件，页面有可提取文本层，同时包含产品与附件照片。版式为双栏产品资料页，左侧以产品图和技术规格表为主，右侧以型号、功能、尺寸重量及附件说明为主。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3195,
+      "completion_tokens": 1319,
+      "total_tokens": 4514,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

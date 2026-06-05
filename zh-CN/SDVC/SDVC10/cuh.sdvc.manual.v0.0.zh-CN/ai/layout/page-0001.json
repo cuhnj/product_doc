@@ -1,0 +1,113 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 1,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T09:56:05",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=1。\n\n【目录/书签上下文（节选）】\n- 页 1（第 1 页）\n- 页 2（第 2 页）\n- 页 3（第 3 页）\n- 页 4（第 4 页）\n- 页 5（第 5 页）\n- 页 6（第 6 页）\n\n【文本层节选（可能为空或不完整）】\n调压振动送料控制器\n\n型号：SDVC10-S/SDVC10-XS\n\nVariable Voltage Controller for Vibratory Feeder\n\n请输出 JSON（不要 Markdown 代码围栏），字段如下：\n- regions: 数组，每项含 type(heading|paragraph|table|figure|footer|unknown)、bbox_0_1(相对整页的0~1归一化框，若无法估计则null)、confidence(0~1)；type=figure",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.0, 0.0, 1.0, 0.21],\n      \"confidence\": 0.89,\n      \"image_alt\": \"页面顶部红色横幅，左侧为白色 CUH 标识及注册商标符号\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.25, 0.25, 0.75, 0.31],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.15, 0.335, 0.85, 0.365],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.41, 0.40, 0.59, 0.90],\n      \"confidence\": 0.91,\n      \"image_alt\": \"调压振动送料控制器产品正面示意图，包含指示灯、旋钮、红色开关和底部线缆\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.24, 0.92, 0.76, 0.96],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为封面页，具有可提取文本层，不像纯扫描件。页面以品牌标识、标题、产品图片和型号信息为主，无表格结构。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.0,
+          0.0,
+          1.0,
+          0.21
+        ],
+        "confidence": 0.89,
+        "image_alt": "页面顶部红色横幅，左侧为白色 CUH 标识及注册商标符号",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.25,
+          0.25,
+          0.75,
+          0.31
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.15,
+          0.335,
+          0.85,
+          0.365
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.41,
+          0.4,
+          0.59,
+          0.9
+        ],
+        "confidence": 0.91,
+        "image_alt": "调压振动送料控制器产品正面示意图，包含指示灯、旋钮、红色开关和底部线缆",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.24,
+          0.92,
+          0.76,
+          0.96
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "本页为封面页，具有可提取文本层，不像纯扫描件。页面以品牌标识、标题、产品图片和型号信息为主，无表格结构。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmrbGsYbSGKrLcdv8ur98Sqx6H1hD",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780538154,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.0, 0.0, 1.0, 0.21],\n      \"confidence\": 0.89,\n      \"image_alt\": \"页面顶部红色横幅，左侧为白色 CUH 标识及注册商标符号\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.25, 0.25, 0.75, 0.31],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.15, 0.335, 0.85, 0.365],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.41, 0.40, 0.59, 0.90],\n      \"confidence\": 0.91,\n      \"image_alt\": \"调压振动送料控制器产品正面示意图，包含指示灯、旋钮、红色开关和底部线缆\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.24, 0.92, 0.76, 0.96],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为封面页，具有可提取文本层，不像纯扫描件。页面以品牌标识、标题、产品图片和型号信息为主，无表格结构。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 1074,
+      "completion_tokens": 825,
+      "total_tokens": 1899,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 433,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

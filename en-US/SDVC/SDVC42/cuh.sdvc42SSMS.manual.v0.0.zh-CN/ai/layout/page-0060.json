@@ -1,0 +1,196 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 60,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:54:46",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=60。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.052, 0.922, 0.073],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.151, 0.416, 0.167],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.174, 0.921, 0.263],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.296, 0.452, 0.311],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.318, 0.920, 0.426],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.459, 0.445, 0.474],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.481, 0.922, 0.533],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.565, 0.479, 0.580],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.586, 0.921, 0.657],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.122, 0.704, 0.181, 0.745],\n      \"confidence\": 0.82,\n      \"image_alt\": \"提示框左上方的笑脸提示图标\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.733, 0.932, 0.851],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.953, 0.933, 0.974],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],\n  \"notes\": \"本页为可识别文本层的版式页，不像纯扫描件。页面以文字说明为主，包含顶部运行页眉、四个项目符号小节、一个带边框的提示说明框及底部页脚；背景有淡色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.083,
+          0.052,
+          0.922,
+          0.073
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.151,
+          0.416,
+          0.167
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.174,
+          0.921,
+          0.263
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.296,
+          0.452,
+          0.311
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.318,
+          0.92,
+          0.426
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.459,
+          0.445,
+          0.474
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.481,
+          0.922,
+          0.533
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.565,
+          0.479,
+          0.58
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.586,
+          0.921,
+          0.657
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.122,
+          0.704,
+          0.181,
+          0.745
+        ],
+        "confidence": 0.82,
+        "image_alt": "提示框左上方的笑脸提示图标",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.733,
+          0.932,
+          0.851
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.953,
+          0.933,
+          0.974
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "notes": "本页为可识别文本层的版式页，不像纯扫描件。页面以文字说明为主，包含顶部运行页眉、四个项目符号小节、一个带边框的提示说明框及底部页脚；背景有淡色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmtS1tDpzaT0awt2lGSL1wChwhcEW",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780545269,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.052, 0.922, 0.073],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.151, 0.416, 0.167],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.174, 0.921, 0.263],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.296, 0.452, 0.311],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.318, 0.920, 0.426],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.459, 0.445, 0.474],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.481, 0.922, 0.533],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.565, 0.479, 0.580],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.586, 0.921, 0.657],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.122, 0.704, 0.181, 0.745],\n      \"confidence\": 0.82,\n      \"image_alt\": \"提示框左上方的笑脸提示图标\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.733, 0.932, 0.851],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.953, 0.933, 0.974],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],\n  \"notes\": \"本页为可识别文本层的版式页，不像纯扫描件。页面以文字说明为主，包含顶部运行页眉、四个项目符号小节、一个带边框的提示说明框及底部页脚；背景有淡色 CUH 水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3852,
+      "completion_tokens": 1234,
+      "total_tokens": 5086,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

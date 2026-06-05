@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 6,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T09:56:24",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=6。\n【目录/书签上下文（节选）】\n- 页 1（第 1 页）\n- 页 2（第 2 页）\n- 页 3（第 3 页）\n- 页 4（第 4 页）\n- 页 5（第 5 页）\n- 页 6（第 6 页）\n【文本层节选（可能为空或不完整；不得以文本层覆盖肉眼从图中读到的表格）】\n缓启动：在启动时，输出电压会从零开始逐渐增大到预设电压，以消除\n\n对振动盘的冲击。\n\n优化电路设计：稳定可靠，寿命长。\n\n熔断式短路保护：输出端发生短路时，控制器的保险丝会熔断以保\n\n护控制器及振动设备。\n\nSDVC10\n调压振动送料控制器\n系列\n\nVariable Voltage Controller for Vibratory Feeder\n\n性能特点\n\n发布时间：2024.09\n扫描二维码下载说明",
+  "assistant_text": "{\n  \"page_markdown\": \"SDVC10系列 调压振动送料控制器  \\n*Variable Voltage Controller for Vibratory Feeder*\\n\\n## 性能特点\\n\\n**缓启动：** 在启动时，输出电压会从零开始逐渐增大到预设电压，以消除对振动盘的冲击。\\n\\n**优化电路设计：** 稳定可靠，寿命长。\\n\\n**熔断式短路保护：** 输出端发生短路时，控制器的保险丝会熔断以保护控制器及振动设备。\\n\\n[[vcrop:6:0]]  \\n扫描二维码下载说明书\\n\\n<div align=\\\"right\\\">\\n\\n**www.cuhnj.com**\\n\\n南京创优科技有限责任公司\\n\\n地址： 南京市江宁区智能路9号启迪城学研园2幢  \\n销售电话： 400-985-8889  \\n传真： 025-84730426  \\n企业邮箱： sales@cuhnj.com  \\n文档编号： IDP1000350  \\n该说明书的最终解释权归本公司所有\\n\\n发布时间： 2024.09\\n\\n</div>\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.077,\n        0.772,\n        0.238,\n        0.924\n      ],\n      \"alt\": \"二维码\",\n      \"reason\": \"二维码为复杂位图，需要保留原始图像以便扫描下载说明书。\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "SDVC10系列 调压振动送料控制器  \n*Variable Voltage Controller for Vibratory Feeder*\n\n## 性能特点\n\n**缓启动：** 在启动时，输出电压会从零开始逐渐增大到预设电压，以消除对振动盘的冲击。\n\n**优化电路设计：** 稳定可靠，寿命长。\n\n**熔断式短路保护：** 输出端发生短路时，控制器的保险丝会熔断以保护控制器及振动设备。\n\n[[vcrop:6:0]]  \n扫描二维码下载说明书\n\n<div align=\"right\">\n\n**www.cuhnj.com**\n\n南京创优科技有限责任公司\n\n地址： 南京市江宁区智能路9号启迪城学研园2幢  \n销售电话： 400-985-8889  \n传真： 025-84730426  \n企业邮箱： sales@cuhnj.com  \n文档编号： IDP1000350  \n该说明书的最终解释权归本公司所有\n\n发布时间： 2024.09\n\n</div>",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.077,
+        0.772,
+        0.238,
+        0.924
+      ],
+      "alt": "二维码",
+      "reason": "二维码为复杂位图，需要保留原始图像以便扫描下载说明书。"
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-DmrbYk7xEmTjjbUsoiGvCutUvXwMf",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780538172,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"SDVC10系列 调压振动送料控制器  \\n*Variable Voltage Controller for Vibratory Feeder*\\n\\n## 性能特点\\n\\n**缓启动：** 在启动时，输出电压会从零开始逐渐增大到预设电压，以消除对振动盘的冲击。\\n\\n**优化电路设计：** 稳定可靠，寿命长。\\n\\n**熔断式短路保护：** 输出端发生短路时，控制器的保险丝会熔断以保护控制器及振动设备。\\n\\n[[vcrop:6:0]]  \\n扫描二维码下载说明书\\n\\n<div align=\\\"right\\\">\\n\\n**www.cuhnj.com**\\n\\n南京创优科技有限责任公司\\n\\n地址： 南京市江宁区智能路9号启迪城学研园2幢  \\n销售电话： 400-985-8889  \\n传真： 025-84730426  \\n企业邮箱： sales@cuhnj.com  \\n文档编号： IDP1000350  \\n该说明书的最终解释权归本公司所有\\n\\n发布时间： 2024.09\\n\\n</div>\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.077,\n        0.772,\n        0.238,\n        0.924\n      ],\n      \"alt\": \"二维码\",\n      \"reason\": \"二维码为复杂位图，需要保留原始图像以便扫描下载说明书。\"\n    }\n  ],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 1516,
+      "completion_tokens": 881,
+      "total_tokens": 2397,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

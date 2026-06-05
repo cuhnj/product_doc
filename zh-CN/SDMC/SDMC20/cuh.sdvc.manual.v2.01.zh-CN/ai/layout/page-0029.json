@@ -1,0 +1,174 @@
+{
+  "doc_id": "cuh.sdvc.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 29,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T09:17:03",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v2.01.zh-CN，页码=29。\n\n【目录/书签上下文（节选）】\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯、按键及外部部件说明（第 10 页）\n  - 1.3 接线端口说明（第 11 页）\n  - 1.4 控制器铭牌说明（第 11 页）\n- 第二章 产品介绍（第 12 页）\n  - 2.1 产品简介（第 12 页）\n- 第三章 安装及使用指南（第 13 页）\n  - 3.1 控制器使用条件（第 13 页）\n  - 3.2 按键基本操作（第 13 页）\n  - 3.3 安装",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [\n        0.072,\n        0.051,\n        0.931,\n        0.072\n      ],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.072,\n        0.162,\n        0.374,\n        0.185\n      ],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.197,\n        0.917,\n        0.263\n      ],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.147,\n        0.308,\n        0.404,\n        0.402\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [\n        0.458,\n        0.295,\n        0.867,\n        0.6\n      ],\n      \"confidence\": 0.93,\n      \"image_alt\": \"速度预置功能的接线示意图，包含速度开关A、速度开关B、地线、速度A、速度B以及控制器端子排分组标注。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.102,\n        0.52,\n        0.435,\n        0.585\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.102,\n        0.615,\n        0.435,\n        0.682\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.102,\n        0.714,\n        0.44,\n        0.887\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [\n        0.505,\n        0.639,\n        0.918,\n        0.922\n      ],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器面板示意图，左右分别标注速度A指示灯和速度B指示灯，底部图注说明两条控制线都施加有效信号时的状态。\",\n      \"caption\": \"两条控制线都施加有效信号时的状态\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.954,\n        0.931,\n        0.976\n      ],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5,\n    6,\n    7,\n    8,\n    9\n  ],\n  \"notes\": \"本页为可提取文本的PDF渲染页，非纯扫描件。页面以“5.5 速度预置功能”为主题，包含正文说明和一个大框内的接线/面板示意图，图文混排，背景有浅色CUH水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.072,
+          0.051,
+          0.931,
+          0.072
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.162,
+          0.374,
+          0.185
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.197,
+          0.917,
+          0.263
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.147,
+          0.308,
+          0.404,
+          0.402
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.458,
+          0.295,
+          0.867,
+          0.6
+        ],
+        "confidence": 0.93,
+        "image_alt": "速度预置功能的接线示意图，包含速度开关A、速度开关B、地线、速度A、速度B以及控制器端子排分组标注。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.102,
+          0.52,
+          0.435,
+          0.585
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.102,
+          0.615,
+          0.435,
+          0.682
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.102,
+          0.714,
+          0.44,
+          0.887
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.505,
+          0.639,
+          0.918,
+          0.922
+        ],
+        "confidence": 0.94,
+        "image_alt": "控制器面板示意图，左右分别标注速度A指示灯和速度B指示灯，底部图注说明两条控制线都施加有效信号时的状态。",
+        "caption": "两条控制线都施加有效信号时的状态",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.954,
+          0.931,
+          0.976
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "notes": "本页为可提取文本的PDF渲染页，非纯扫描件。页面以“5.5 速度预置功能”为主题，包含正文说明和一个大框内的接线/面板示意图，图文混排，背景有浅色CUH水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnDSoSSI71l3qrlJZ3khk8Z8A44Y4",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780622198,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [\n        0.072,\n        0.051,\n        0.931,\n        0.072\n      ],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.072,\n        0.162,\n        0.374,\n        0.185\n      ],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.072,\n        0.197,\n        0.917,\n        0.263\n      ],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.147,\n        0.308,\n        0.404,\n        0.402\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [\n        0.458,\n        0.295,\n        0.867,\n        0.6\n      ],\n      \"confidence\": 0.93,\n      \"image_alt\": \"速度预置功能的接线示意图，包含速度开关A、速度开关B、地线、速度A、速度B以及控制器端子排分组标注。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.102,\n        0.52,\n        0.435,\n        0.585\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.102,\n        0.615,\n        0.435,\n        0.682\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.102,\n        0.714,\n        0.44,\n        0.887\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [\n        0.505,\n        0.639,\n        0.918,\n        0.922\n      ],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器面板示意图，左右分别标注速度A指示灯和速度B指示灯，底部图注说明两条控制线都施加有效信号时的状态。\",\n      \"caption\": \"两条控制线都施加有效信号时的状态\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.954,\n        0.931,\n        0.976\n      ],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5,\n    6,\n    7,\n    8,\n    9\n  ],\n  \"notes\": \"本页为可提取文本的PDF渲染页，非纯扫描件。页面以“5.5 速度预置功能”为主题，包含正文说明和一个大框内的接线/面板示意图，图文混排，背景有浅色CUH水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2685,
+      "completion_tokens": 1834,
+      "total_tokens": 4519,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

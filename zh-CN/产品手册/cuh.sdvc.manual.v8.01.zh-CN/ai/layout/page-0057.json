@@ -1,0 +1,149 @@
+{
+  "doc_id": "cuh.sdvc.manual.v8.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v8.01",
+  "lang": "zh-CN",
+  "page_index": 57,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T01:28:20",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v8.01.zh-CN，页码=57。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 目录（第 3 页）\n- 4: 目录2（第 4 页）\n- 5: SDVC10-S（第 5 页）\n- 6: SDVC11-S（第 6 页）\n- 7: SDVC11-M（第 7 页）\n- 8: SDVC14-S（第 8 页）\n- 9: SDVC20-S（第 9 页）\n- 10: SDVC20-L（第 10 页）\n- 11: SDVC20-XL（第 11 页）\n- 12: SDVC201-L（第 12 页）\n- 13: SDVC20-U（第 13 页）\n- 14: SDVC21-S（第 14 页）\n- 15: SDVC21LP（第 15 页）\n- 16: SDVC21XLP（第 16 页）\n- 17: SDVC212",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.058, 0.038, 0.226, 0.066],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.057, 0.094, 0.898, 0.214],\n      \"confidence\": 0.9,\n      \"image_alt\": \"页面顶部三块灰色圆角信息卡片，分别强调“20年深耕”“5类服务”“5大承诺”。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.063, 0.268, 0.156, 0.289],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.076, 0.314, 0.864, 0.487],\n      \"confidence\": 0.92,\n      \"image_alt\": \"应用行业图标区，分两行展示汽车组装、电子装配、新能源制造、农业生产、食品包装、医疗器械、家居组装、日化包装等行业图标与标签。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.063, 0.528, 0.158, 0.549],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.064, 0.561, 0.825, 0.704],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.063, 0.740, 0.159, 0.762],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.064, 0.777, 0.833, 0.918],\n      \"confidence\": 0.9\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页看起来不是扫描件，文字和图标排版清晰，文本层可用。页面以宣传型版式为主，包含标题、图形信息卡、行业图标矩阵以及两组项目符号说明。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.058,
+          0.038,
+          0.226,
+          0.066
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.057,
+          0.094,
+          0.898,
+          0.214
+        ],
+        "confidence": 0.9,
+        "image_alt": "页面顶部三块灰色圆角信息卡片，分别强调“20年深耕”“5类服务”“5大承诺”。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.063,
+          0.268,
+          0.156,
+          0.289
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.076,
+          0.314,
+          0.864,
+          0.487
+        ],
+        "confidence": 0.92,
+        "image_alt": "应用行业图标区，分两行展示汽车组装、电子装配、新能源制造、农业生产、食品包装、医疗器械、家居组装、日化包装等行业图标与标签。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.063,
+          0.528,
+          0.158,
+          0.549
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.064,
+          0.561,
+          0.825,
+          0.704
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.063,
+          0.74,
+          0.159,
+          0.762
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.064,
+          0.777,
+          0.833,
+          0.918
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "notes": "本页看起来不是扫描件，文字和图标排版清晰，文本层可用。页面以宣传型版式为主，包含标题、图形信息卡、行业图标矩阵以及两组项目符号说明。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmjfieURUtWUPVHBz0jAurzehxLIT",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780507678,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.058, 0.038, 0.226, 0.066],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.057, 0.094, 0.898, 0.214],\n      \"confidence\": 0.9,\n      \"image_alt\": \"页面顶部三块灰色圆角信息卡片，分别强调“20年深耕”“5类服务”“5大承诺”。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.063, 0.268, 0.156, 0.289],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.076, 0.314, 0.864, 0.487],\n      \"confidence\": 0.92,\n      \"image_alt\": \"应用行业图标区，分两行展示汽车组装、电子装配、新能源制造、农业生产、食品包装、医疗器械、家居组装、日化包装等行业图标与标签。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.063, 0.528, 0.158, 0.549],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.064, 0.561, 0.825, 0.704],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.063, 0.740, 0.159, 0.762],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.064, 0.777, 0.833, 0.918],\n      \"confidence\": 0.9\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页看起来不是扫描件，文字和图标排版清晰，文本层可用。页面以宣传型版式为主，包含标题、图形信息卡、行业图标矩阵以及两组项目符号说明。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2356,
+      "completion_tokens": 1597,
+      "total_tokens": 3953,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1011,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

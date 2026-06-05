@@ -1,0 +1,285 @@
+{
+  "doc_id": "cuh.sdvc.manual.v8.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v8.01",
+  "lang": "zh-CN",
+  "page_index": 42,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T01:27:36",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v8.01.zh-CN，页码=42。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 目录（第 3 页）\n- 4: 目录2（第 4 页）\n- 5: SDVC10-S（第 5 页）\n- 6: SDVC11-S（第 6 页）\n- 7: SDVC11-M（第 7 页）\n- 8: SDVC14-S（第 8 页）\n- 9: SDVC20-S（第 9 页）\n- 10: SDVC20-L（第 10 页）\n- 11: SDVC20-XL（第 11 页）\n- 12: SDVC201-L（第 12 页）\n- 13: SDVC20-U（第 13 页）\n- 14: SDVC21-S（第 14 页）\n- 15: SDVC21LP（第 15 页）\n- 16: SDVC21XLP（第 16 页）\n- 17: SDVC212",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.022, 0.932, 0.087],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.089, 0.514, 0.152],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.083, 0.177, 0.512, 0.429],\n      \"confidence\": 0.92,\n      \"image_alt\": \"SDVC42-SD 控制器产品外观图，旁列主要功能关键词，右下有 CE 标识。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.448, 0.514, 0.472],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.083, 0.482, 0.514, 0.887],\n      \"confidence\": 0.95,\n      \"caption\": \"技术规格\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.560, 0.130, 0.932, 0.153],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.560, 0.159, 0.753, 0.172],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.560, 0.176, 0.932, 0.199],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.560, 0.202, 0.932, 0.582],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.560, 0.585, 0.932, 0.608],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.560, 0.612, 0.770, 0.635],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.560, 0.647, 0.932, 0.671],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.560, 0.675, 0.735, 0.782],\n      \"confidence\": 0.91,\n      \"image_alt\": \"随机附件图片，上方为电源线和输出线，下方为振动传感器线缆。\",\n      \"caption\": \"随机附件\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.754, 0.693, 0.932, 0.747],\n      \"confidence\": 0.89\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.560, 0.805, 0.932, 0.829],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.560, 0.835, 0.735, 0.903],\n      \"confidence\": 0.90,\n      \"image_alt\": \"选购附件图片，显示振动传感器线缆。\",\n      \"caption\": \"选购附件\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.754, 0.850, 0.932, 0.895],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.083, 0.914, 0.514, 0.962],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.000, 0.968, 0.068, 1.000],\n      \"confidence\": 0.90\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],\n  \"notes\": \"本页为产品页版式，包含可识别文本层与嵌入图片，不像纯扫描件。页面以文字说明和技术规格表为主，辅以控制器外观图及附件图片；目录上下文为 SDVC42-SD，页脚印刷页码为 38。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.083,
+          0.022,
+          0.932,
+          0.087
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.083,
+          0.089,
+          0.514,
+          0.152
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.083,
+          0.177,
+          0.512,
+          0.429
+        ],
+        "confidence": 0.92,
+        "image_alt": "SDVC42-SD 控制器产品外观图，旁列主要功能关键词，右下有 CE 标识。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.083,
+          0.448,
+          0.514,
+          0.472
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.083,
+          0.482,
+          0.514,
+          0.887
+        ],
+        "confidence": 0.95,
+        "caption": "技术规格",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.56,
+          0.13,
+          0.932,
+          0.153
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.56,
+          0.159,
+          0.753,
+          0.172
+        ],
+        "confidence": 0.91,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.56,
+          0.176,
+          0.932,
+          0.199
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.56,
+          0.202,
+          0.932,
+          0.582
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.56,
+          0.585,
+          0.932,
+          0.608
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.56,
+          0.612,
+          0.77,
+          0.635
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.56,
+          0.647,
+          0.932,
+          0.671
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.56,
+          0.675,
+          0.735,
+          0.782
+        ],
+        "confidence": 0.91,
+        "image_alt": "随机附件图片，上方为电源线和输出线，下方为振动传感器线缆。",
+        "caption": "随机附件",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.754,
+          0.693,
+          0.932,
+          0.747
+        ],
+        "confidence": 0.89,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.56,
+          0.805,
+          0.932,
+          0.829
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.56,
+          0.835,
+          0.735,
+          0.903
+        ],
+        "confidence": 0.9,
+        "image_alt": "选购附件图片，显示振动传感器线缆。",
+        "caption": "选购附件",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.754,
+          0.85,
+          0.932,
+          0.895
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.083,
+          0.914,
+          0.514,
+          0.962
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.0,
+          0.968,
+          0.068,
+          1.0
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "notes": "本页为产品页版式，包含可识别文本层与嵌入图片，不像纯扫描件。页面以文字说明和技术规格表为主，辅以控制器外观图及附件图片；目录上下文为 SDVC42-SD，页脚印刷页码为 38。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-Dmjf3g3s8fs6CKaigeRsyLJyh3mps",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780507637,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.022, 0.932, 0.087],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.089, 0.514, 0.152],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.083, 0.177, 0.512, 0.429],\n      \"confidence\": 0.92,\n      \"image_alt\": \"SDVC42-SD 控制器产品外观图，旁列主要功能关键词，右下有 CE 标识。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.448, 0.514, 0.472],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.083, 0.482, 0.514, 0.887],\n      \"confidence\": 0.95,\n      \"caption\": \"技术规格\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.560, 0.130, 0.932, 0.153],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.560, 0.159, 0.753, 0.172],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.560, 0.176, 0.932, 0.199],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.560, 0.202, 0.932, 0.582],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.560, 0.585, 0.932, 0.608],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.560, 0.612, 0.770, 0.635],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.560, 0.647, 0.932, 0.671],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.560, 0.675, 0.735, 0.782],\n      \"confidence\": 0.91,\n      \"image_alt\": \"随机附件图片，上方为电源线和输出线，下方为振动传感器线缆。\",\n      \"caption\": \"随机附件\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.754, 0.693, 0.932, 0.747],\n      \"confidence\": 0.89\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.560, 0.805, 0.932, 0.829],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.560, 0.835, 0.735, 0.903],\n      \"confidence\": 0.90,\n      \"image_alt\": \"选购附件图片，显示振动传感器线缆。\",\n      \"caption\": \"选购附件\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.754, 0.850, 0.932, 0.895],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.083, 0.914, 0.514, 0.962],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.000, 0.968, 0.068, 1.000],\n      \"confidence\": 0.90\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],\n  \"notes\": \"本页为产品页版式，包含可识别文本层与嵌入图片，不像纯扫描件。页面以文字说明和技术规格表为主，辅以控制器外观图及附件图片；目录上下文为 SDVC42-SD，页脚印刷页码为 38。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3268,
+      "completion_tokens": 1693,
+      "total_tokens": 4961,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

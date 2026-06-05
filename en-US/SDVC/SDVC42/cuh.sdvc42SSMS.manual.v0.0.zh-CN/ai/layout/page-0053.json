@@ -1,0 +1,147 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 53,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:54:29",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=53。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.050, 0.930, 0.073],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.130, 0.340, 0.148],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.158, 0.925, 0.228],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.240, 0.930, 0.540],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.540, 0.925, 0.575],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.185, 0.580, 0.820, 0.940],\n      \"confidence\": 0.93,\n      \"image_alt\": \"设备加入 CUHBus-DS 网络的示意图。左侧显示原有 Address 1、Address 2 与 New controller 的连接关系，中间有向右箭头和操作说明，右侧显示加入后 Address 1、Address 2、Address 3/New controller 的连接关系，端口标注含 T1、T3。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.953, 0.930, 0.977],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.000, 0.000, 1.000, 1.000],\n      \"confidence\": 0.35\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页不是纯扫描件，具有可识别文本层；页面上方为章节文字说明和步骤列表，下方为较大的网络加入流程示意图。背景存在淡色 CUH 水印，不属于主要内容。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.05,
+          0.93,
+          0.073
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.13,
+          0.34,
+          0.148
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.158,
+          0.925,
+          0.228
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.24,
+          0.93,
+          0.54
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.54,
+          0.925,
+          0.575
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.185,
+          0.58,
+          0.82,
+          0.94
+        ],
+        "confidence": 0.93,
+        "image_alt": "设备加入 CUHBus-DS 网络的示意图。左侧显示原有 Address 1、Address 2 与 New controller 的连接关系，中间有向右箭头和操作说明，右侧显示加入后 Address 1、Address 2、Address 3/New controller 的连接关系，端口标注含 T1、T3。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.953,
+          0.93,
+          0.977
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "confidence": 0.35,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "notes": "本页不是纯扫描件，具有可识别文本层；页面上方为章节文字说明和步骤列表，下方为较大的网络加入流程示意图。背景存在淡色 CUH 水印，不属于主要内容。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmtRrSgggSXq5rMDU1ejsXcGDpAM8",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780545259,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.050, 0.930, 0.073],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.130, 0.340, 0.148],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.158, 0.925, 0.228],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.240, 0.930, 0.540],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.540, 0.925, 0.575],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.185, 0.580, 0.820, 0.940],\n      \"confidence\": 0.93,\n      \"image_alt\": \"设备加入 CUHBus-DS 网络的示意图。左侧显示原有 Address 1、Address 2 与 New controller 的连接关系，中间有向右箭头和操作说明，右侧显示加入后 Address 1、Address 2、Address 3/New controller 的连接关系，端口标注含 T1、T3。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.953, 0.930, 0.977],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.000, 0.000, 1.000, 1.000],\n      \"confidence\": 0.35\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页不是纯扫描件，具有可识别文本层；页面上方为章节文字说明和步骤列表，下方为较大的网络加入流程示意图。背景存在淡色 CUH 水印，不属于主要内容。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3984,
+      "completion_tokens": 810,
+      "total_tokens": 4794,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 239,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

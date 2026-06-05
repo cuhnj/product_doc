@@ -1,0 +1,67 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 20,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:16:56",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=20。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufactur",
+  "assistant_text": "{\"page_markdown\":\"### Step Three:\\n\\nConnect the Connector of the Input Power Cable to the Input Power Socket of the controller.\\n\\n[[vcrop:20:0]]\\n\\n### Step Four:\\n\\nAfter confirming that the switch is in the off position, connect the plug of the Input Power Cable to the mains jack.\\n\\n[[vcrop:20:1]]\",\"crop_suggestions\":[{\"bbox_0_1\":[0.14,0.18,0.87,0.54],\"alt\":\"Step Three wiring diagram: connect the input power cable connector to the controller input power socket first.\",\"reason\":\"Line illustration showing controller-side power cable connection and callout text.\"},{\"bbox_0_1\":[0.35,0.69,0.78,0.95],\"alt\":\"Step Four wiring diagram: connect the power plug to the mains jack after confirming the switch is off.\",\"reason\":\"Line illustration showing mains socket, plug, cable, and pointing hand.\"}],\"notes\":\"Page contains two instruction panels with line drawings; body text is clear.\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "### Step Three:\n\nConnect the Connector of the Input Power Cable to the Input Power Socket of the controller.\n\n[[vcrop:20:0]]\n\n### Step Four:\n\nAfter confirming that the switch is in the off position, connect the plug of the Input Power Cable to the mains jack.\n\n[[vcrop:20:1]]",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.14,
+        0.18,
+        0.87,
+        0.54
+      ],
+      "alt": "Step Three wiring diagram: connect the input power cable connector to the controller input power socket first.",
+      "reason": "Line illustration showing controller-side power cable connection and callout text."
+    },
+    {
+      "bbox_0_1": [
+        0.35,
+        0.69,
+        0.78,
+        0.95
+      ],
+      "alt": "Step Four wiring diagram: connect the power plug to the mains jack after confirming the switch is off.",
+      "reason": "Line illustration showing mains socket, plug, cable, and pointing hand."
+    }
+  ],
+  "notes": "Page contains two instruction panels with line drawings; body text is clear.",
+  "raw": {
+    "id": "chatcmpl-DmsrTO7YaSnIGlkanIzjZo4EogTy9",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780543003,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"page_markdown\":\"### Step Three:\\n\\nConnect the Connector of the Input Power Cable to the Input Power Socket of the controller.\\n\\n[[vcrop:20:0]]\\n\\n### Step Four:\\n\\nAfter confirming that the switch is in the off position, connect the plug of the Input Power Cable to the mains jack.\\n\\n[[vcrop:20:1]]\",\"crop_suggestions\":[{\"bbox_0_1\":[0.14,0.18,0.87,0.54],\"alt\":\"Step Three wiring diagram: connect the input power cable connector to the controller input power socket first.\",\"reason\":\"Line illustration showing controller-side power cable connection and callout text.\"},{\"bbox_0_1\":[0.35,0.69,0.78,0.95],\"alt\":\"Step Four wiring diagram: connect the power plug to the mains jack after confirming the switch is off.\",\"reason\":\"Line illustration showing mains socket, plug, cable, and pointing hand.\"}],\"notes\":\"Page contains two instruction panels with line drawings; body text is clear.\"}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3833,
+      "completion_tokens": 747,
+      "total_tokens": 4580,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 22,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:53:44",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=22。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.055, 0.931, 0.073],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.097, 0.159, 0.265, 0.178],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.097, 0.189, 0.908, 0.285],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.097, 0.339, 0.279, 0.358],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.097, 0.363, 0.457, 0.399],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.097, 0.412, 0.526, 0.518],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.585, 0.344, 0.846, 0.521],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器屏幕示意图，处于 RUN 状态和 SearchFr 界面，示例显示 95Hz、4V、0.26A、1.0g，并有频率搜索曲线。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.585, 0.54, 0.846, 0.716],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器屏幕示意图，处于 RUN 状态和 SearchFr 界面，示例显示 442Hz、23V、0.42A、0.5g，并有频率搜索曲线。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.585, 0.735, 0.846, 0.911],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器屏幕示意图，处于 RUN 状态和 SearchFr 界面，示例显示 1033Hz、54V、0.46A、0.3g，并有频率搜索曲线。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.097, 0.533, 0.531, 0.638],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.135, 0.735, 0.396, 0.911],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器屏幕示意图，顶部显示 Save，SearchFr 界面，示例显示 841Hz、81V、0.84A、2.1g。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.097, 0.655, 0.488, 0.707],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.954, 0.932, 0.973],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],\n  \"notes\": \"本页为 PDF 渲染页面，含可识别文本层和矢量/线框式界面示意图，不像纯扫描件。页面以步骤说明为主，配有多张控制器显示屏示意图；背景有浅色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.055,
+          0.931,
+          0.073
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.097,
+          0.159,
+          0.265,
+          0.178
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.097,
+          0.189,
+          0.908,
+          0.285
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.097,
+          0.339,
+          0.279,
+          0.358
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.097,
+          0.363,
+          0.457,
+          0.399
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.097,
+          0.412,
+          0.526,
+          0.518
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.585,
+          0.344,
+          0.846,
+          0.521
+        ],
+        "confidence": 0.94,
+        "image_alt": "控制器屏幕示意图，处于 RUN 状态和 SearchFr 界面，示例显示 95Hz、4V、0.26A、1.0g，并有频率搜索曲线。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.585,
+          0.54,
+          0.846,
+          0.716
+        ],
+        "confidence": 0.94,
+        "image_alt": "控制器屏幕示意图，处于 RUN 状态和 SearchFr 界面，示例显示 442Hz、23V、0.42A、0.5g，并有频率搜索曲线。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.585,
+          0.735,
+          0.846,
+          0.911
+        ],
+        "confidence": 0.94,
+        "image_alt": "控制器屏幕示意图，处于 RUN 状态和 SearchFr 界面，示例显示 1033Hz、54V、0.46A、0.3g，并有频率搜索曲线。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.097,
+          0.533,
+          0.531,
+          0.638
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.135,
+          0.735,
+          0.396,
+          0.911
+        ],
+        "confidence": 0.94,
+        "image_alt": "控制器屏幕示意图，顶部显示 Save，SearchFr 界面，示例显示 841Hz、81V、0.84A、2.1g。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.097,
+          0.655,
+          0.488,
+          0.707
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.954,
+          0.932,
+          0.973
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "notes": "本页为 PDF 渲染页面，含可识别文本层和矢量/线框式界面示意图，不像纯扫描件。页面以步骤说明为主，配有多张控制器显示屏示意图；背景有浅色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmtQpZNqHkEdGt34c3ZjcYUO0bJ3k",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780545195,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.055, 0.931, 0.073],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.097, 0.159, 0.265, 0.178],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.097, 0.189, 0.908, 0.285],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.097, 0.339, 0.279, 0.358],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.097, 0.363, 0.457, 0.399],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.097, 0.412, 0.526, 0.518],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.585, 0.344, 0.846, 0.521],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器屏幕示意图，处于 RUN 状态和 SearchFr 界面，示例显示 95Hz、4V、0.26A、1.0g，并有频率搜索曲线。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.585, 0.54, 0.846, 0.716],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器屏幕示意图，处于 RUN 状态和 SearchFr 界面，示例显示 442Hz、23V、0.42A、0.5g，并有频率搜索曲线。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.585, 0.735, 0.846, 0.911],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器屏幕示意图，处于 RUN 状态和 SearchFr 界面，示例显示 1033Hz、54V、0.46A、0.3g，并有频率搜索曲线。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.097, 0.533, 0.531, 0.638],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.135, 0.735, 0.396, 0.911],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器屏幕示意图，顶部显示 Save，SearchFr 界面，示例显示 841Hz、81V、0.84A、2.1g。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.097, 0.655, 0.488, 0.707],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.954, 0.932, 0.973],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],\n  \"notes\": \"本页为 PDF 渲染页面，含可识别文本层和矢量/线框式界面示意图，不像纯扫描件。页面以步骤说明为主，配有多张控制器显示屏示意图；背景有浅色 CUH 水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3873,
+      "completion_tokens": 2252,
+      "total_tokens": 6125,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1277,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

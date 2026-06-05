@@ -1,0 +1,101 @@
+{
+  "doc_id": "cuh.sdvc40.manual.v4.01.zh-CN",
+  "doc_key": "cuh.sdvc40.manual.v4.01",
+  "lang": "zh-CN",
+  "page_index": 48,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T01:06:02",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc40.manual.v4.01.zh-CN，页码=48。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 7: 目录（第 7 页）\n- 目录2（第 8 页）\n- 第一章 性能特点（第 9 页）\n- 第二章 快速安装及使用指南（第 11 页）\n- 第三章 部件说明（第 15 页）\n- 第四章 功能说明（第 17 页）\n  - 4.1 输出电压设定（第 17 页）\n  - 4.2 输出频率设定（第 18 页）\n  - 4.3 缓启动功能（第 19 页）\n  - 4.4 输出开关（第 19 页）\n  - 4.5 最大输出电压限制功能（第 20 页）\n  - 4.6 键盘锁定功能（第 21 页）\n  - 4.7 开机运行",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.0, 0.0, 1.0, 1.0],\n      \"confidence\": 0.72,\n      \"image_alt\": \"整页背景为浅灰色重复的 CUH 标识水印，呈斜向排列。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.081, 0.855, 0.248, 0.970],\n      \"confidence\": 0.93,\n      \"image_alt\": \"页面左下角的二维码，中间带有 CUH 标识。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.263, 0.854, 0.535, 0.969],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.738, 0.968, 0.892, 0.989],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3],\n  \"notes\": \"本页主要为空白背景与浅色 CUH 水印，底部包含二维码、公司联系方式和文档编号。页面不像普通扫描件，更像 PDF 渲染页；正文内容很少，以页脚信息为主。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "confidence": 0.72,
+        "image_alt": "整页背景为浅灰色重复的 CUH 标识水印，呈斜向排列。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.081,
+          0.855,
+          0.248,
+          0.97
+        ],
+        "confidence": 0.93,
+        "image_alt": "页面左下角的二维码，中间带有 CUH 标识。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.263,
+          0.854,
+          0.535,
+          0.969
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.738,
+          0.968,
+          0.892,
+          0.989
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "notes": "本页主要为空白背景与浅色 CUH 水印，底部包含二维码、公司联系方式和文档编号。页面不像普通扫描件，更像 PDF 渲染页；正文内容很少，以页脚信息为主。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmjJzVEdfA7msV2tawPK5KxpF5d3i",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780506331,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.0, 0.0, 1.0, 1.0],\n      \"confidence\": 0.72,\n      \"image_alt\": \"整页背景为浅灰色重复的 CUH 标识水印，呈斜向排列。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.081, 0.855, 0.248, 0.970],\n      \"confidence\": 0.93,\n      \"image_alt\": \"页面左下角的二维码，中间带有 CUH 标识。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.263, 0.854, 0.535, 0.969],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.738, 0.968, 0.892, 0.989],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3],\n  \"notes\": \"本页主要为空白背景与浅色 CUH 水印，底部包含二维码、公司联系方式和文档编号。页面不像普通扫描件，更像 PDF 渲染页；正文内容很少，以页脚信息为主。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2273,
+      "completion_tokens": 624,
+      "total_tokens": 2897,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 289,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

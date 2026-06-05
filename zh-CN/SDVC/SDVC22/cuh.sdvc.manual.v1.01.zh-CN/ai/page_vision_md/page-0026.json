@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 26,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T11:34:09",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，doc_key=cuh.sdvc.manual.v1.01，lang=zh-CN，页码=26。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 性能特点（第 9 页）\n- 第二章 安装指南（第 11 页）\n- 第三章 部件说明（第 13 页）\n  - 3.1 指示灯及按键说明（第 13 页）\n  - 3.2 外部部件说明（第 14 页）\n  - 3.3 信号接口定义（第 14 页）\n- 第四章 基本操作（第 15 页）\n  - 4.1 输出电压设定（第 15 页）\n  - 4.2 输出频率设定（第 16 页）\n  ",
+  "assistant_text": "{\n  \"page_markdown\": \"双路数字调压振动送料控制器　　　　　　　　　　　　　　　　　SDVC22 系列\\n\\n## 5.3 第二个开关传感器的使用方法\\n\\n本控制器允许同时连接三个传感器，智能光电和两个开关传感器可以同时实现料空停机和料满停机的自动启动和停止功能。\\n\\n### 5.3.1 第二个开关传感器的接线方法\\n\\n**第一步：** 取出随机配送的D型插头。\\n\\n**第二步：** 按照图例连接传感器。\\n\\n[[vcrop:26:0]]\\n\\n通常情况：\\n\\n- 蓝色线为地线\\n- 黑色线为信号线\\n- 棕色线为电源线\\n\\n2024-04　　　　　　　　　　　　　　　　　-18-　　　　　　　　　　　　　　　　　SDVC22SMSCN_1.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.12,\n        0.40,\n        0.90,\n        0.86\n      ],\n      \"alt\": \"第二个开关传感器接线示意图：传感器连接至D型插头，标注信号输出、公共地（-）、电源（+）及SDVC22系列输出24V电源。\",\n      \"reason\": \"包含细线接线示意图、D型插头针脚编号和连线关系，需保留为位图以避免转写失真。\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "双路数字调压振动送料控制器　　　　　　　　　　　　　　　　　SDVC22 系列\n\n## 5.3 第二个开关传感器的使用方法\n\n本控制器允许同时连接三个传感器，智能光电和两个开关传感器可以同时实现料空停机和料满停机的自动启动和停止功能。\n\n### 5.3.1 第二个开关传感器的接线方法\n\n**第一步：** 取出随机配送的D型插头。\n\n**第二步：** 按照图例连接传感器。\n\n[[vcrop:26:0]]\n\n通常情况：\n\n- 蓝色线为地线\n- 黑色线为信号线\n- 棕色线为电源线\n\n2024-04　　　　　　　　　　　　　　　　　-18-　　　　　　　　　　　　　　　　　SDVC22SMSCN_1.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.12,
+        0.4,
+        0.9,
+        0.86
+      ],
+      "alt": "第二个开关传感器接线示意图：传感器连接至D型插头，标注信号输出、公共地（-）、电源（+）及SDVC22系列输出24V电源。",
+      "reason": "包含细线接线示意图、D型插头针脚编号和连线关系，需保留为位图以避免转写失真。"
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-DnFbgCiPvz6s5G72QHVDcFcY6Oin8",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780630436,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"双路数字调压振动送料控制器　　　　　　　　　　　　　　　　　SDVC22 系列\\n\\n## 5.3 第二个开关传感器的使用方法\\n\\n本控制器允许同时连接三个传感器，智能光电和两个开关传感器可以同时实现料空停机和料满停机的自动启动和停止功能。\\n\\n### 5.3.1 第二个开关传感器的接线方法\\n\\n**第一步：** 取出随机配送的D型插头。\\n\\n**第二步：** 按照图例连接传感器。\\n\\n[[vcrop:26:0]]\\n\\n通常情况：\\n\\n- 蓝色线为地线\\n- 黑色线为信号线\\n- 棕色线为电源线\\n\\n2024-04　　　　　　　　　　　　　　　　　-18-　　　　　　　　　　　　　　　　　SDVC22SMSCN_1.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.12,\n        0.40,\n        0.90,\n        0.86\n      ],\n      \"alt\": \"第二个开关传感器接线示意图：传感器连接至D型插头，标注信号输出、公共地（-）、电源（+）及SDVC22系列输出24V电源。\",\n      \"reason\": \"包含细线接线示意图、D型插头针脚编号和连线关系，需保留为位图以避免转写失真。\"\n    }\n  ],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2795,
+      "completion_tokens": 878,
+      "total_tokens": 3673,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

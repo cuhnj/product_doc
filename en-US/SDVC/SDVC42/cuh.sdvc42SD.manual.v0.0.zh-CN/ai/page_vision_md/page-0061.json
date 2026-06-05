@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 61,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:23:22",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=61。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufactur",
+  "assistant_text": "{\n  \"page_markdown\": \"## 4.9.3 Signal Sharing\\n\\nAfter the device is networked, the controller can call any signal from any other controller in the network to achieve a richer signal calling port.\\n\\nThe signal source of one controller in the network can choose from any port of any controller in the network. And can realize complex logic control through AND, OR, XOR or RS logic operation.\\n\\nOperation steps for calling other signal sources from the main output of the controller:\\n\\n➢ **Select the controller witch need sourcing network signal , enter main output group, finish following setup:**\\n\\n1. Set the \\\"MainSor1\\\" parameter or the \\\"MainSor2\\\" parameter to \\\"Bus\\\".\\n2. Set the \\\"MainLogc\\\" parameter to one of \\\"And\\\", \\\"Or\\\", \\\"Xor\\\", and \\\"RS\\\".\\n3. Set the \\\"MainDire\\\" parameter of this controller to one of \\\"Const\\\", \\\"Inv\\\", \\\"On\\\" or \\\"Off\\\".\\n4. Set the \\\"MainUpDy\\\" and \\\"MainDnDy\\\" time of this controller.\\n5. Set the \\\"MainMode\\\" parameter of this controller to one of \\\"Delay\\\" or \\\"Hold\\\".\\n\\n➢ **Jump to communication group and finish following setup:**\\n\\n6. Set the \\\"BSigMID1\\\" of this controller to be followed by the controller address (the controller number can be queried through digital synchronization).\\n7. Set the \\\"BSigMID2\\\" of this controller to be followed by the controller address.\\n8. Set the specific status bit number of \\\"BSigM_B1\\\" of this controller. You need to check the \\\"status bit\\\" of the followed controller. 1~16\\\", select the status bit sequence number required by the machine.\\n9. Set the specific status bit number of \\\"BSigM_B2\\\" of this controller. You need to check the \\\"status bit\\\" of the followed controller.1~16\\\", select the status bit sequence number required by the machine.\\n\\nAny controller can send 16 of its own statuses to the bus, which can be passed through \\\"status bit 1\\\" ~\\\"Status bit 16\\\" is set independently, and \\\"status bit 1\\\" ~ \\\"status bit 16\\\" are the same as the first 16 bits of the \\\"7.4.11 Appendix\\\" chapter by default.\\n\\nAny controller can call the signal on the bus (by default). For the meaning and details, please refer to the \\\"7.4.11 Appendix\\\" chapter.\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "## 4.9.3 Signal Sharing\n\nAfter the device is networked, the controller can call any signal from any other controller in the network to achieve a richer signal calling port.\n\nThe signal source of one controller in the network can choose from any port of any controller in the network. And can realize complex logic control through AND, OR, XOR or RS logic operation.\n\nOperation steps for calling other signal sources from the main output of the controller:\n\n➢ **Select the controller witch need sourcing network signal , enter main output group, finish following setup:**\n\n1. Set the \"MainSor1\" parameter or the \"MainSor2\" parameter to \"Bus\".\n2. Set the \"MainLogc\" parameter to one of \"And\", \"Or\", \"Xor\", and \"RS\".\n3. Set the \"MainDire\" parameter of this controller to one of \"Const\", \"Inv\", \"On\" or \"Off\".\n4. Set the \"MainUpDy\" and \"MainDnDy\" time of this controller.\n5. Set the \"MainMode\" parameter of this controller to one of \"Delay\" or \"Hold\".\n\n➢ **Jump to communication group and finish following setup:**\n\n6. Set the \"BSigMID1\" of this controller to be followed by the controller address (the controller number can be queried through digital synchronization).\n7. Set the \"BSigMID2\" of this controller to be followed by the controller address.\n8. Set the specific status bit number of \"BSigM_B1\" of this controller. You need to check the \"status bit\" of the followed controller. 1~16\", select the status bit sequence number required by the machine.\n9. Set the specific status bit number of \"BSigM_B2\" of this controller. You need to check the \"status bit\" of the followed controller.1~16\", select the status bit sequence number required by the machine.\n\nAny controller can send 16 of its own statuses to the bus, which can be passed through \"status bit 1\" ~\"Status bit 16\" is set independently, and \"status bit 1\" ~ \"status bit 16\" are the same as the first 16 bits of the \"7.4.11 Appendix\" chapter by default.\n\nAny controller can call the signal on the bus (by default). For the meaning and details, please refer to the \"7.4.11 Appendix\" chapter.",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-DmsxhHC3O3ZAxz849MmWtORmJzAoT",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780543389,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"## 4.9.3 Signal Sharing\\n\\nAfter the device is networked, the controller can call any signal from any other controller in the network to achieve a richer signal calling port.\\n\\nThe signal source of one controller in the network can choose from any port of any controller in the network. And can realize complex logic control through AND, OR, XOR or RS logic operation.\\n\\nOperation steps for calling other signal sources from the main output of the controller:\\n\\n➢ **Select the controller witch need sourcing network signal , enter main output group, finish following setup:**\\n\\n1. Set the \\\"MainSor1\\\" parameter or the \\\"MainSor2\\\" parameter to \\\"Bus\\\".\\n2. Set the \\\"MainLogc\\\" parameter to one of \\\"And\\\", \\\"Or\\\", \\\"Xor\\\", and \\\"RS\\\".\\n3. Set the \\\"MainDire\\\" parameter of this controller to one of \\\"Const\\\", \\\"Inv\\\", \\\"On\\\" or \\\"Off\\\".\\n4. Set the \\\"MainUpDy\\\" and \\\"MainDnDy\\\" time of this controller.\\n5. Set the \\\"MainMode\\\" parameter of this controller to one of \\\"Delay\\\" or \\\"Hold\\\".\\n\\n➢ **Jump to communication group and finish following setup:**\\n\\n6. Set the \\\"BSigMID1\\\" of this controller to be followed by the controller address (the controller number can be queried through digital synchronization).\\n7. Set the \\\"BSigMID2\\\" of this controller to be followed by the controller address.\\n8. Set the specific status bit number of \\\"BSigM_B1\\\" of this controller. You need to check the \\\"status bit\\\" of the followed controller. 1~16\\\", select the status bit sequence number required by the machine.\\n9. Set the specific status bit number of \\\"BSigM_B2\\\" of this controller. You need to check the \\\"status bit\\\" of the followed controller.1~16\\\", select the status bit sequence number required by the machine.\\n\\nAny controller can send 16 of its own statuses to the bus, which can be passed through \\\"status bit 1\\\" ~\\\"Status bit 16\\\" is set independently, and \\\"status bit 1\\\" ~ \\\"status bit 16\\\" are the same as the first 16 bits of the \\\"7.4.11 Appendix\\\" chapter by default.\\n\\nAny controller can call the signal on the bus (by default). For the meaning and details, please refer to the \\\"7.4.11 Appendix\\\" chapter.\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4264,
+      "completion_tokens": 1071,
+      "total_tokens": 5335,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 3840
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 510,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

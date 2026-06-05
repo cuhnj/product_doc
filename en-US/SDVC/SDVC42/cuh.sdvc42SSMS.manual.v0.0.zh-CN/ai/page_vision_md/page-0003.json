@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 3,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T12:00:13",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=3。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacture",
+  "assistant_text": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　SDVC42-S\\n\\n---\\n\\n# Preface\\n\\nThank you for choosing CUH SDVC42-S Automatic High Frequency Piezo Controller . (The controller for short in the following text). This series of controllers uses high-quality components and incorporates the latest electronic technology, and is carefully designed with high-performance digital signal processors.\\n\\nThis manual introduces the basic operation method, functional technical description and typical application examples of this product. Provide users with relevant information on installation and debugging, parameter setting, abnormal diagnosis, troubleshooting and routine maintenance of the controller. In order to ensure the correct installation and use of this controller, please read this user manual carefully before installation and keep it properly.\\n\\nBe sure to read the following symbols to alert you to precautions against personal injury and product damage.\\n\\n| Symbol | Description |\\n|---|---|\\n| Danger | Non-observance of this item<br>will result in personal injury or death. |\\n| Warn | Non-observance of this item<br>may result in personal injury or death. |\\n| Careful | Non-observance of this item<br>may result in moderate or minor injury to persons. |\\n| Notice | Non-observance of this item<br>will result in damage to the product and property damage. |\\n| Essential | Indicates precautions and usage restrictions that must be<br>observed during use. |\\n\\n**This manual is suitable for the following models of controllers:**\\n\\n◆ Automatic High Frequency Piezo Controller　　SDVC42-S (150mA)\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42SSMSEN_3.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　SDVC42-S\n\n---\n\n# Preface\n\nThank you for choosing CUH SDVC42-S Automatic High Frequency Piezo Controller . (The controller for short in the following text). This series of controllers uses high-quality components and incorporates the latest electronic technology, and is carefully designed with high-performance digital signal processors.\n\nThis manual introduces the basic operation method, functional technical description and typical application examples of this product. Provide users with relevant information on installation and debugging, parameter setting, abnormal diagnosis, troubleshooting and routine maintenance of the controller. In order to ensure the correct installation and use of this controller, please read this user manual carefully before installation and keep it properly.\n\nBe sure to read the following symbols to alert you to precautions against personal injury and product damage.\n\n| Symbol | Description |\n|---|---|\n| Danger | Non-observance of this item<br>will result in personal injury or death. |\n| Warn | Non-observance of this item<br>may result in personal injury or death. |\n| Careful | Non-observance of this item<br>may result in moderate or minor injury to persons. |\n| Notice | Non-observance of this item<br>will result in damage to the product and property damage. |\n| Essential | Indicates precautions and usage restrictions that must be<br>observed during use. |\n\n**This manual is suitable for the following models of controllers:**\n\n◆ Automatic High Frequency Piezo Controller　　SDVC42-S (150mA)\n\n---\n\n2026-02　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42SSMSEN_3.01",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-DmtXPLgOvxxTHbqJlBWcft1vQSkQt",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780545603,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　SDVC42-S\\n\\n---\\n\\n# Preface\\n\\nThank you for choosing CUH SDVC42-S Automatic High Frequency Piezo Controller . (The controller for short in the following text). This series of controllers uses high-quality components and incorporates the latest electronic technology, and is carefully designed with high-performance digital signal processors.\\n\\nThis manual introduces the basic operation method, functional technical description and typical application examples of this product. Provide users with relevant information on installation and debugging, parameter setting, abnormal diagnosis, troubleshooting and routine maintenance of the controller. In order to ensure the correct installation and use of this controller, please read this user manual carefully before installation and keep it properly.\\n\\nBe sure to read the following symbols to alert you to precautions against personal injury and product damage.\\n\\n| Symbol | Description |\\n|---|---|\\n| Danger | Non-observance of this item<br>will result in personal injury or death. |\\n| Warn | Non-observance of this item<br>may result in personal injury or death. |\\n| Careful | Non-observance of this item<br>may result in moderate or minor injury to persons. |\\n| Notice | Non-observance of this item<br>will result in damage to the product and property damage. |\\n| Essential | Indicates precautions and usage restrictions that must be<br>observed during use. |\\n\\n**This manual is suitable for the following models of controllers:**\\n\\n◆ Automatic High Frequency Piezo Controller　　SDVC42-S (150mA)\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42SSMSEN_3.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4033,
+      "completion_tokens": 701,
+      "total_tokens": 4734,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 316,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

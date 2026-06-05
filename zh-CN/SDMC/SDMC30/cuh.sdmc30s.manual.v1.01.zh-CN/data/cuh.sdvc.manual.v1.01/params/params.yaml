@@ -1,0 +1,2689 @@
+schema_version: 1
+doc_id: cuh.sdvc.manual.v1.01.zh-CN
+doc_key: cuh.sdvc.manual.v1.01
+lang: zh-CN
+generated_at: '2026-06-04 10:45:38'
+source:
+  data_index_yaml: index.yaml
+tables:
+- page: 3
+  layout_region_index: 5
+  table_md_path: tables/page-0003-r05.md
+  headers:
+  - UH C  危险
+  - C CUH UH CU CU 表示若不遵守该事项，将导致人员伤亡。
+- page: 38
+  layout_region_index: 3
+  table_md_path: tables/page-0038-r03.md
+  headers:
+  - H C
+  - H C CU
+- page: 45
+  layout_region_index: 2
+  table_md_path: tables/page-0045-r02.md
+  headers:
+  - 项目
+  - 最小值
+  - C<br>典型值
+  - 最大值
+  - 单位
+  - H<br>备注
+- page: 46
+  layout_region_index: 2
+  table_md_path: tables/page-0046-r02.md
+  headers:
+  - UH CUH CUH CU H CUH C 6.3 参考标准 数字三相异步电机控制器 SDMC30-S
+  - Col2
+  - Col3
+  - Col4
+  - Col5
+  - Col6
+- page: 47
+  layout_region_index: 3
+  table_md_path: tables/page-0047-r03.md
+  headers:
+  - Col1
+  - 含义
+  - C<br>参数符号
+  - Col4
+  - Col5
+  - Col6
+  - Col7
+  - Col8
+  - Col9
+  - 取值范围
+  - 默认设置
+- page: 48
+  layout_region_index: 1
+  table_md_path: tables/page-0048-r01.md
+  headers:
+  - U<br>H<br>端口参数<br>长按 加 ▲<br>C<br>U
+  - H<br>智能光电灵敏度
+  - Col3
+  - Col4
+  - 【P】
+  - nPn, PnP, 2~1000
+  - nPn
+- page: 49
+  layout_region_index: 1
+  table_md_path: tables/page-0049-r01.md
+  headers:
+  - U<br>端口参数
+  - H<br>遥控源
+  - Col3
+  - Col4
+  - 【A】
+  - PAd (由按键控制), 1-5V, 0-5V, 0-10
+  - 1-5V
+- page: 52
+  layout_region_index: 2
+  table_md_path: tables/page-0052-r02.md
+  headers:
+  - UH 故障代码
+  - UH 故障含义
+  - H  C 出现条件
+  - CU UH 控制器响应
+  - UH C C 排除方法
+- page: 53
+  layout_region_index: 2
+  table_md_path: tables/page-0053-r02.md
+  headers:
+  - UH 警告代码
+  - UH 警告含义
+  - H  C 出现条件
+  - CU UH 控制器响应
+  - UH C C 排除方法
+items:
+- name: <br> <br>**警告**
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C  危险: <br> <br>**警告**
+    C CUH UH CU CU 表示若不遵守该事项，将导致人员伤亡。: <br> <br> <br>表示若不遵守该事项，可能导致人员伤亡。
+  source_ref:
+    pdf_page: 3
+    layout_region_index: 5
+    table_md_path: tables/page-0003-r05.md
+- name: <br> <br>**小心**
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C  危险: <br> <br>**小心**
+    C CUH UH CU CU 表示若不遵守该事项，将导致人员伤亡。: <br> <br> <br>表示若不遵守该事项，可能导致人员遭受中度或轻微伤害。
+  source_ref:
+    pdf_page: 3
+    layout_region_index: 5
+    table_md_path: tables/page-0003-r05.md
+- name: <br>**注意**
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C  危险: <br>**注意**
+    C CUH UH CU CU 表示若不遵守该事项，将导致人员伤亡。: <br> <br> <br>表示若不遵守该事项，将导致本产品损坏及财产损失。
+  source_ref:
+    pdf_page: 3
+    layout_region_index: 5
+    table_md_path: tables/page-0003-r05.md
+- name: <br>**要点**<br>！
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C  危险: <br>**要点**<br>！
+    C CUH UH CU CU 表示若不遵守该事项，将导致人员伤亡。: <br> <br> <br><br>表示在使用过程中必须要遵守的注意事项和使用限制等。
+  source_ref:
+    pdf_page: 3
+    layout_region_index: 5
+    table_md_path: tables/page-0003-r05.md
+- name: <br> <br>信号源
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>信号源
+    H C CU: <br> <br>含义
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>0
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>0
+    H C CU: <br> <br>无效信号
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>1
+    H C CU: <br> <br>有效信号
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>b
+    H C CU: <br> <br>智能光电端口信号
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>-b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>-b
+    H C CU: <br> <br>智能光电端口信号取反
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>C
+    H C CU: <br> <br>正转运行端口信号
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>-C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>-C
+    H C CU: <br> <br>正转运行端口信号取反
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>E
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>E
+    H C CU: <br> <br>反转运行端口信号
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>-E
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>-E
+    H C CU: <br> <br>反转运行端口信号取反
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br> <br>SA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br> <br>SA
+    H C CU: <br> <br> <br>速度A端口信号
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br> <br>-SA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br> <br>-SA
+    H C CU: <br> <br> <br>速度A端口信号取反
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br> <br>Sb
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br> <br>Sb
+    H C CU: <br> <br> <br>速度B端口信号
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br> <br>-Sb
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br> <br>-Sb
+    H C CU: <br> <br> <br>速度B端口信号取反
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>ES
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>ES
+    H C CU: <br> <br>紧急停止端口信号
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>-ES
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>-ES
+    H C CU: <br> <br>紧急停止端口信号取反
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>od
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>od
+    H C CU: <br> <br>运行输出端口信号
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>-od
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>-od
+    H C CU: <br> <br>运行输出端口信号取反
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>oP
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>oP
+    H C CU: <br> <br>故障输出端口信号
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>-oP
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>-oP
+    H C CU: <br> <br>故障输出端口信号取反
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>oq
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>oq
+    H C CU: <br> <br>电机输出信号
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>-oq
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>-oq
+    H C CU: <br> <br><br>电机输出信号取反
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>Er
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>Er
+    H C CU: <br> <br><br>任意故障信号
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>-Er
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>-Er
+    H C CU: <br> <br><br>任意故障信号取反
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>Ar
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>Ar
+    H C CU: <br> <br><br>任意警告信号
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br>-Ar
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C: <br> <br>-Ar
+    H C CU: <br> <br><br>任意警告信号取反
+  source_ref:
+    pdf_page: 38
+    layout_region_index: 3
+    table_md_path: tables/page-0038-r03.md
+- name: <br> <br> <br>输入电压
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>伏特（V）
+  note: <br> <br>50/60Hz交流有效值
+  extra:
+    最小值: <br> <br> <br>85
+    C<br>典型值: <br> <br> <br>220
+    最大值: <br> <br> <br>250
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br>输出线电压
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>伏特（Vrmn）
+  note: <br> <br>整流平均值
+  extra:
+    最小值: <br> <br> <br>0
+    C<br>典型值: <br> <br> <br>200
+    最大值: <br> <br> <br>220
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br>输入电流有效值
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>安培（A）
+  note: <br>
+  extra:
+    最小值: <br> <br> <br>——
+    C<br>典型值: <br> <br> <br>——
+    最大值: <br> <br> <br>2.8
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br>输入电流峰值
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>安培（A）
+  note: <br>
+  extra:
+    最小值: <br> <br> <br>——
+    C<br>典型值: <br> <br> <br>——
+    最大值: <br> <br> <br>8 0<br>.
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br>输出电流调整范围
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>安培（A）
+  note: <br> <br>整流平均值
+  extra:
+    最小值: <br> <br> <br>0
+    C<br>典型值: <br> <br> <br>——
+    最大值: <br> <br> <br>1.6
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br>输出容量
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>伏安（VA）
+  note: <br>
+  extra:
+    最小值: <br> <br> <br>0
+    C<br>典型值: <br> <br> <br>——
+    最大值: <br> <br> <br>600
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br>输出频率
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>赫兹（Hz）
+  note: <br>
+  extra:
+    最小值: <br> <br> <br>2.0
+    C<br>典型值: <br> <br> <br>——
+    最大值: <br> <br> <br>120.0
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br> <br>频率调整精度
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br> <br>赫兹（Hz）
+  note: <br> <br>
+  extra:
+    最小值: <br> <br> <br> <br>0. 1
+    C<br>典型值: <br> <br> <br> <br>0. 1
+    最大值: <br> <br> <br> <br>0. 1
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br> <br>输出波形
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>
+  note: <br> <br>
+  extra:
+    最小值: <br> <br> <br> <br>矢量正弦
+    C<br>典型值: <br> <br> <br> <br>矢量正弦
+    最大值: <br> <br> <br> <br>矢量正弦
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br> <br>适用电机功率
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br> <br>千瓦（kW）
+  note: <br> <br> <br>1/4HP
+  extra:
+    最小值: <br> <br> <br> <br>——
+    C<br>典型值: <br> <br> <br> <br>——
+    最大值: <br> <br> <br> <br>0.2
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br> <br>过热保护温度
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br> <br>摄氏度（℃）
+  note: <br> <br> <br>60℃恢复正常
+  extra:
+    最小值: <br> <br> <br> <br>——
+    C<br>典型值: <br> <br> <br> <br>65
+    最大值: <br> <br> <br> <br>——
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br> <br>直流控制输出电流
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br> <br>毫安（mA）
+  note: <br> <br>
+  extra:
+    最小值: <br> <br> <br> <br>0
+    C<br>典型值: <br> <br> <br> <br>——
+    最大值: <br> <br> <br> <br>350
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br> <br>24V输出电流
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br> <br>毫安（mA）
+  note: <br> <br>
+  extra:
+    最小值: <br> <br> <br> <br>——
+    C<br>典型值: <br> <br> <br> <br>——
+    最大值: <br> <br> <br> <br>700
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br>直流控制输出电压
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>伏特（V）
+  note: <br> <br>
+  extra:
+    最小值: <br> <br> <br>22
+    C<br>典型值: <br> <br> <br>24
+    最大值: <br> <br> <br>26
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br>模拟控制信号
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>毫安(mA) / 伏特(V)
+  note: <br> <br> <br>受参数A控制
+  extra:
+    最小值: <br> <br> <br>4~20 / 1~5<br>、0~10<br>、0~5
+    C<br>典型值: <br> <br> <br>4~20 / 1~5<br>、0~10<br>、0~5
+    最大值: <br> <br> <br>4~20 / 1~5<br>、0~10<br>、0~5
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br>数字控制信号
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>伏特（V）
+  note: <br> <br> <br>开关信号控制
+  extra:
+    最小值: <br> <br> <br>24
+    C<br>典型值: <br> <br> <br>24
+    最大值: <br> <br> <br>24
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br>调整方式
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br> <br>键（Button）
+  note: <br> <br> <br>
+  extra:
+    最小值: <br> <br> <br> <br>6
+    C<br>典型值: <br> <br> <br> <br>6
+    最大值: <br> <br> <br> <br>6
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br>空载功耗
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br> <br>瓦特（W）
+  note: <br> <br> <br>
+  extra:
+    最小值: <br> <br> <br>——
+    C<br>典型值: <br> <br> <br>3
+    最大值: <br> <br> <br> <br>——
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br>显示方式
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br> <br>位（Digit）
+  note: <br> <br> <br> <br>LED数码管
+  extra:
+    最小值: <br> <br> <br> <br>5
+    C<br>典型值: <br> <br> <br> <br>5
+    最大值: <br> <br> <br> <br>5
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br>重量
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br> <br>克（g）
+  note: <br> <br> <br> <br>不含附件
+  extra:
+    最小值: <br> <br> <br> <br>830
+    C<br>典型值: <br> <br> <br> <br>830
+    最大值: <br> <br> <br> <br>830
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br>产品尺寸
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>毫米（mm）
+  note: <br> <br>
+  extra:
+    最小值: <br> <br> <br>长*宽*高：190*61.8*94.5
+    C<br>典型值: <br> <br> <br>长*宽*高：190*61.8*94.5
+    最大值: <br> <br> <br>长*宽*高：190*61.8*94.5
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br>防护等级
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br>
+  note: <br> <br>
+  extra:
+    最小值: <br> <br> <br>IP20
+    C<br>典型值: <br> <br> <br>IP20
+    最大值: <br> <br> <br>IP20
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br>工作环境温度
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>摄氏度（℃）
+  note: <br> <br> <br><br>不结露
+  extra:
+    最小值: <br> <br>-10
+    C<br>典型值: <br> <br>25
+    最大值: <br> <br> <br>40
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br>工作环境湿度
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>相对湿度（%）
+  note: <br> <br> <br>相对湿度（%）
+  extra:
+    最小值: <br> <br>10
+    C<br>典型值: <br> <br>60
+    最大值: <br> <br> <br>85
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br>存储环境温度
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>摄氏度（℃）
+  note: <br> <br> <br>摄氏度（℃）
+  extra:
+    最小值: <br> <br>-20
+    C<br>典型值: <br> <br>25
+    最大值: <br> <br> <br>85
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br>适用海拔高度
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>米（m）
+  note: <br> <br> <br>
+  extra:
+    最小值: <br> <br> <br>＜2000
+    C<br>典型值: <br> <br> <br>＜2000
+    最大值: <br> <br> <br>＜2000
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 2
+    table_md_path: tables/page-0045-r02.md
+- name: <br> <br> <br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH CUH CUH CU H CUH C 6.3 参考标准 数字三相异步电机控制器 SDMC30-S: <br> <br> <br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+    Col2: <br> <br> <br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+    Col3: <br> <br> <br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+    Col4: <br> <br> <br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+    Col5: <br> <br> <br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+    Col6: <br> <br> <br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 2
+    table_md_path: tables/page-0046-r02.md
+- name: <br> <br>GB 标准
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH CUH CUH CU H CUH C 6.3 参考标准 数字三相异步电机控制器 SDMC30-S: <br> <br>GB 标准
+    Col2: <br> <br>IEC 标准
+    Col3: <br> <br> <br>关键性能
+    Col4: <br> <br>标准要求
+    Col5: <br> <br>测试性能
+    Col6: <br> <br>备注
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 2
+    table_md_path: tables/page-0046-r02.md
+- name: <br> <br>GB/T 12668.501-2013
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH CUH CUH CU H CUH C 6.3 参考标准 数字三相异步电机控制器 SDMC30-S: <br> <br>GB/T 12668.501-2013
+    Col2: H<br> <br>IEC 61800-5-1:2007
+    Col3: <br> <br> <br>交流耐压
+    Col4: <br> <br>3kVac
+    Col5: <br> <br>3kVac
+    Col6: <br> <br>过电压<br>类别Ⅱ
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 2
+    table_md_path: tables/page-0046-r02.md
+- name: <br> <br>GB/T 12668.501-2013
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH CUH CUH CU H CUH C 6.3 参考标准 数字三相异步电机控制器 SDMC30-S: <br> <br>GB/T 12668.501-2013
+    Col2: H<br> <br>IEC 61800-5-1:2007
+    Col3: <br> <br> <br>冲击电压
+    Col4: <br> <br>4kV
+    Col5: <br> <br>4kV
+    Col6: <br> <br>4kV
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 2
+    table_md_path: tables/page-0046-r02.md
+- name: <br> <br>GB/T 12668.501-2013
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH CUH CUH CU H CUH C 6.3 参考标准 数字三相异步电机控制器 SDMC30-S: <br> <br>GB/T 12668.501-2013
+    Col2: H<br> <br>IEC 61800-5-1:2007
+    Col3: <br> <br> <br>接地电阻
+    Col4: <br> <br>0.2Ω
+    Col5: <br> <br>0.1Ω
+    Col6: <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 2
+    table_md_path: tables/page-0046-r02.md
+- name: <br> <br>GB/T 12668.501-2013
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH CUH CUH CU H CUH C 6.3 参考标准 数字三相异步电机控制器 SDMC30-S: <br> <br>GB/T 12668.501-2013
+    Col2: H<br> <br>IEC 61800-5-1:2007
+    Col3: <br> <br> <br>静电放电
+    Col4: <br> <br>4kV 接触<br>8kV 空气
+    Col5: <br> <br>8kV 接触<br>15kV 空气
+    Col6: <br> <br>国标4
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 2
+    table_md_path: tables/page-0046-r02.md
+- name: <br> <br>GB/T 12668.501-2013
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH CUH CUH CU H CUH C 6.3 参考标准 数字三相异步电机控制器 SDMC30-S: <br> <br>GB/T 12668.501-2013
+    Col2: H<br> <br>IEC 61800-5-1:2007
+    Col3: <br> <br> <br>快速瞬变
+    Col4: <br> <br>2kV/5kHz
+    Col5: <br> <br>4kV/100kHz
+    Col6: <br> <br>国标4
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 2
+    table_md_path: tables/page-0046-r02.md
+- name: <br> <br>GB/T 12668.501-2013
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH CUH CUH CU H CUH C 6.3 参考标准 数字三相异步电机控制器 SDMC30-S: <br> <br>GB/T 12668.501-2013
+    Col2: H<br> <br>IEC 61800-5-1:2007
+    Col3: <br> <br> <br>雷击浪涌
+    Col4: <br> <br>1kV 差模<br>2kV 共模
+    Col5: <br> <br><br>2kV 差模<br>4kV 共模
+    Col6: <br> <br><br>国标4
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 2
+    table_md_path: tables/page-0046-r02.md
+- name: <br> <br>GB/T 12668.501-2013
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH CUH CUH CU H CUH C 6.3 参考标准 数字三相异步电机控制器 SDMC30-S: <br> <br>GB/T 12668.501-2013
+    Col2: H<br> <br>IEC 61800-5-1:2007
+    Col3: <br> <br> <br>传导发射
+    Col4: <br> <br>C2类
+    Col5: <br> <br><br>C2类
+    Col6: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 2
+    table_md_path: tables/page-0046-r02.md
+- name: <br> <br>
+  symbol: <br> <br>
+  range: <br> <br> <br>2.0~120.0 赫兹（Hz）（受r和y限制）
+  default: <br> <br>50.0
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br>待机参数
+    含义: <br> <br> <br>设定频率
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【F】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br>
+  symbol: <br> <br>
+  range: <br>   U<br> <br>0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES,<br>od,
+    -od, oP, -oP
+  default: <br> <br>C
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br>正转启停控制源1
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【P1】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br>
+  symbol: <br> <br>
+  range: <br> <br> <br>【<br>】<br>P2
+  default: <br> <br>-b
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br>正转启停控制源2
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【<br>】<br>P2
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br>
+  symbol: <br> <br>
+  range: <br> <br> <br>And与, or或, Xor异或, rS触发器
+  default: <br> <br>And
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br>正转启停逻辑关系
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【N】<br>P
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br>
+  symbol: <br> <br>
+  range: <br> <br> <br>0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES,<br>od,
+    -od, oP, -oP
+  default: <br> <br>E
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br>反转方向控制源1
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【<br>】<br>N1
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br>
+  symbol: <br> <br>
+  range: <br> <br> <br>【N2】
+  default: <br> <br>-b
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br>反转方向控制源2
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【N2】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br>
+  symbol: <br> <br>
+  range: <br> <br> <br>And与, or或, Xor异或, rS触发器
+  default: <br> <br>And
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br>反转方向逻辑关系
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【NN】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br>
+  symbol: <br> <br>
+  range: <br> <br> <br>0 (正转控制源用于正转启停, 反转控制源用于控制反转启停)<br>1 (正转控制源用于控制启停, 反转控制源用于控制正反)
+  default: <br> <br>0
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br>正反转控制方式
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【FR】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br> <br>
+  symbol: <br> <br> <br>
+  range: <br> <br> <br> <br>0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES,  -ES,
+    od,<br>-od, oP, -oP, oq, -oq, Er, -Er, Ar, -Ar
+  default: <br> <br> <br>ES
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br> <br>主输出紧急停止源
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br> <br>【EQ】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br> <br>
+  symbol: <br> <br> <br>
+  range: '<br> <br> <br> <br>Sto: 安全转矩关断,    Sbc: 安全抱闸控制,<br>SS1: 1类安全停止<br>注1'
+  default: <br> <br> <br>Sto
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br> <br>紧急停止方式
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br> <br>【SQ】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br> <br>
+  symbol: <br> <br> <br>
+  range: <br> <br> <br> <br>0.0~99.9 秒（s）
+  default: <br> <br> <br>10.0
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br> <br>缓启动时间
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br> <br>【小T】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br> <br>
+  symbol: <br> <br> <br>
+  range: <br> <br> <br> <br>直流制动时间：-0.0~-99.9 秒（s）<br>缓关闭时间：0.0~99.9 秒（s）
+  default: <br> <br> <br>10.0
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br> <br>缓关闭时间
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br> <br>【反T】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br> <br>
+  symbol: <br> <br> <br>
+  range: <br> <br> <br> <br>2.0~120.0 赫兹（Hz）
+  default: <br> <br> <br>50.0
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br> <br>最大频率
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br> <br>【小Y】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br>
+  symbol: <br> <br>
+  range: <br> <br> <br>45.0~65.0 赫兹（Hz）
+  default: <br> <br> <br>50.0
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br>额定频率
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【小B】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br>
+  symbol: <br> <br>
+  range: <br> <br> <br>70~220 伏特整流平均值（Vrmn）
+  default: <br> <br> <br>200
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br>额定电压
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【小H】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br>
+  symbol: <br> <br>
+  range: <br> <br> <br>r~b 赫兹（Hz）
+  default: <br> <br> <br>10.0
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br>中间频率
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【小N】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br>
+  symbol: <br> <br>
+  range: <br> <br> <br> <br>u~h 伏特整流平均值（Vrmn）
+  default: <br> <br> <br> <br>40
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br>中间电压
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【小O】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br>
+  symbol: <br> <br>
+  range: <br> <br> <br> <br>2.0~n 赫兹（Hz）
+  default: <br> <br> <br> <br>2.0
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br>最低频率
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【小R】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br>
+  symbol: <br> <br>
+  range: <br> <br> <br> <br>0~o 伏特整流平均值（Vrmn）
+  default: <br> <br> <br> <br>8
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br>最低电压
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【小U】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br>
+  symbol: <br> <br>
+  range: <br> <br> <br> <br>0.01~0.20 千瓦（kW）
+  default: <br> <br> <br> <br>0.20
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br> <br>电机额定电功率
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【PO】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br>
+  symbol: <br>
+  range: <br> <br> <br>100~150 （%）
+  default: <br> <br> <br>150
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br>功率超额系数
+    Col4: <br>
+    Col5: <br>
+    Col6: <br>
+    Col7: <br>
+    Col8: <br>
+    Col9: <br> <br>【RC】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br>
+  symbol: <br>
+  range: <br> <br> <br>10~150 （%）
+  default: <br> <br> <br>100
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br>制动电流系数
+    Col4: <br>
+    Col5: <br>
+    Col6: <br>
+    Col7: <br>
+    Col8: <br>
+    Col9: <br> <br>【CB】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br>
+  symbol: <br>
+  range: '<br> <br> <br>0~90 倍*秒（times*seconds）<br>备注: 超过电机额定电功率且不超过电机功率上限, 按秒积分超过此设定进入电子过热保护状态。'
+  default: <br> <br> <br>30<br>
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br>电功过热阈值
+    Col4: <br>
+    Col5: <br>
+    Col6: <br>
+    Col7: <br>
+    Col8: <br>
+    Col9: <br> <br>【OL】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br>
+  symbol: <br>
+  range: <br> <br> <br>0~90（%）0表示停机，90表示降低到额定功率的90%
+  default: <br> <br> <br>0
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br>功率降额系数
+    Col4: <br>
+    Col5: <br>
+    Col6: <br>
+    Col7: <br>
+    Col8: <br>
+    Col9: <br> <br>【RL】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br> <br><br>【PH】
+  symbol: <br> <br><br>【PH】
+  range: '<br> <br> <br>Abc: 标准方向,  Acb: 方向交换,<br>A.b.c.: 标准方向禁止反转(只能正转),<br>A.c.b.:
+    方向交换禁止正转(只能反转)'
+  default: <br> <br> <br><br>AbC
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br>旋转方向交换<br>注2
+    Col4: <br> <br><br>【PH】
+    Col5: <br> <br><br>【PH】
+    Col6: <br> <br><br>【PH】
+    Col7: <br> <br><br>【PH】
+    Col8: <br> <br><br>【PH】
+    Col9: <br> <br><br>【PH】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: <br>
+  symbol: <br>
+  range: '<br> <br> <br>run: 运行, stp: 停止, FoL: 保存上次'
+  default: <br> <br> <br><br>FoL
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>H<br>电机参数<br>长按
+    含义: <br> <br>开机运行状态
+    Col4: <br>
+    Col5: <br>
+    Col6: <br>
+    Col7: <br>
+    Col8: <br>
+    Col9: <br> <br>【PS】
+  source_ref:
+    pdf_page: 47
+    layout_region_index: 3
+    table_md_path: tables/page-0047-r03.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br> <br>智能光电开延时
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    【P】: <br> <br> <br>【大勾】
+    nPn, PnP, 2~1000: <br> <br> <br>0.0~99.9 秒（s）
+    nPn: <br> <br>0.2
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br> <br>智能光电关延时
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    【P】: <br> <br> <br>【大L】
+    nPn, PnP, 2~1000: <br> <br> <br>0.0~99.9 秒（s）
+    nPn: <br> <br>0.2
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br> <br>开关传感器类型
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    【P】: <br> <br> <br>【涛A】
+    nPn, PnP, 2~1000: '<br> <br> <br>nPn, PnP, Ut1: 单次扫描, Ut0: 连续扫描'
+    nPn: <br> <br>Ut0
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br> <br>正转运行开延时
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    【P】: <br> <br> <br>【勾C】
+    nPn, PnP, 2~1000: <br> <br> <br>0.0~99.9 秒（s）
+    nPn: <br> <br>0.2
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br> <br>正转运行关延时
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    【P】: <br> <br> <br>【L 】<br>C
+    nPn, PnP, 2~1000: <br> <br> <br>0.0~99.9 秒（s）
+    nPn: <br> <br>0.2
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br> <br>反转运行开延时
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    【P】: <br> <br> <br>【勾E】
+    nPn, PnP, 2~1000: <br> <br> <br>0.0~99.9 秒（s）
+    nPn: <br> <br>0.2
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br>反转运行关延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【P】: <br> <br> <br>【L 】<br>E
+    nPn, PnP, 2~1000: <br> <br> <br>0.0~99.9 秒（s）
+    nPn: <br> <br>0.2
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br>速度AB开延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【P】: <br> <br> <br>【勾G】
+    nPn, PnP, 2~1000: <br> <br> <br>0.0~99.9 秒（s）
+    nPn: <br> <br>0.2
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br>速度AB关延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【P】: <br> <br> <br>【L 】<br>G
+    nPn, PnP, 2~1000: <br> <br> <br>0.0~99.9 秒（s）
+    nPn: <br> <br>0.2
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br> <br>紧急停止开延时
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    【P】: <br> <br> <br> <br>【勾<br>】<br>勾
+    nPn, PnP, 2~1000: <br> <br> <br> <br>0.0~99.9 秒（s）
+    nPn: <br> <br> <br>0.2
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br> <br>紧急停止关延时
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    【P】: <br> <br> <br> <br>【L 】<br>L
+    nPn, PnP, 2~1000: <br> <br> <br> <br>0.0~99.9 秒（s）
+    nPn: <br> <br> <br>0.2
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br> <br>速度预置第一信号源
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    【P】: <br> <br> <br> <br>【S1】
+    nPn, PnP, 2~1000: <br> <br> <br> <br>0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb,
+      ES,  -ES, od,<br>-od, oP, -oP, oq, -oq, Er, -Er, Ar, -Ar
+    nPn: <br> <br> <br>SA
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br> <br>速度预置第二信号源
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    【P】: <br> <br> <br> <br>【S2】
+    nPn, PnP, 2~1000: <br> <br> <br> <br>0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb,
+      ES,  -ES, od,<br>-od, oP, -oP, oq, -oq, Er, -Er, Ar, -Ar
+    nPn: <br> <br> <br>Sb
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br> <br>运行输出第一信号源
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    【P】: <br> <br> <br> <br>【E点D】
+    nPn, PnP, 2~1000: <br> <br> <br> <br>0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb,
+      ES, -ES, od,<br>-od, oP, -oP, oq, -oq, Er, -Er, Ar, -Ar
+    nPn: <br> <br> <br>oq
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br>运行输出第二信号源
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【P】: <br> <br> <br>【<br>】<br>ED
+    nPn, PnP, 2~1000: <br> <br> <br>0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES,
+      -ES, od,<br>-od, oP, -oP, oq, -oq, Er, -Er, Ar, -Ar
+    nPn: <br> <br> <br>0
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br>运行输出逻辑关系
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【P】: <br> <br> <br>【<br>】<br>大ND
+    nPn, PnP, 2~1000: <br> <br> <br>And与, or或, Xor异或, rS触发器<br>
+    nPn: <br> <br> <br>or
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br>运行输出开延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【P】: <br> <br> <br>【小勾D】
+    nPn, PnP, 2~1000: <br> <br> <br>0.0~99.9 秒（s）<br>
+    nPn: <br> <br> <br>0.0
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br>运行输出关延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【P】: <br> <br> <br> <br>【<br>】<br>小LD
+    nPn, PnP, 2~1000: <br> <br> <br> <br>0.0~99.9 秒（s）
+    nPn: <br> <br> <br> <br>0.0
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br>运行输出模式
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【P】: <br> <br> <br> <br>【<br>】<br>FD
+    nPn, PnP, 2~1000: <br> <br> <br> <br>dLy 延时模式，HLd 保持模式
+    nPn: <br> <br> <br> <br>dLy
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br>运行输出逻辑方向
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【P】: <br> <br> <br> <br>【小反<br>】<br>CD
+    nPn, PnP, 2~1000: <br> <br> <br> <br><br>同相        , 取反        , 常开 on, 常关 oFF
+    nPn: <br> <br> <br>
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br> <br>运行输出类型
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【P】: <br> <br> <br> <br><br><br><br>【<br>】<br>涛D
+    nPn, PnP, 2~1000: <br> <br> <br> <br>nPn, PnP, PSP (推挽)<br>
+    nPn: <br> <br> <br> <br>nPn
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br>故障输出第一信号源
+    Col3: <br>
+    Col4: <br>
+    【P】: <br> <br> <br>【E点】<br>P
+    nPn, PnP, 2~1000: <br> <br> <br>0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES,
+      -ES, od,<br>-od, oP, -oP, oq, -oq, Er, -Er, Ar, -Ar
+    nPn: <br> <br> <br>Er(错误信号)
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br>故障输出第二信号源
+    Col3: <br>
+    Col4: <br>
+    【P】: <br> <br> <br>【<br>】<br>EP
+    nPn, PnP, 2~1000: <br> <br> <br>0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES,
+      -ES, od,<br>-od, oP, -oP, oq, -oq, Er, -Er, Ar, -Ar
+    nPn: <br> <br> <br>Ar(警告信号)
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br>故障输出逻辑关系
+    Col3: <br>
+    Col4: <br>
+    【P】: <br> <br> <br>【大<br>】<br>NP
+    nPn, PnP, 2~1000: <br> <br> <br>And与, or或, Xor异或, rS触发器<br>
+    nPn: <br> <br> <br>or
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br>故障输出开延时
+    Col3: <br>
+    Col4: <br>
+    【P】: <br> <br> <br>【小勾】<br>P
+    nPn, PnP, 2~1000: <br> <br> <br> <br>0.0~99.9 秒（s）<br>
+    nPn: <br> <br> <br> <br>0.0
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br>故障输出关延时
+    Col3: <br>
+    Col4: <br>
+    【P】: <br> <br> <br>【<br>】<br>小LP
+    nPn, PnP, 2~1000: <br> <br> <br> <br>0.0~99.9 秒（s）
+    nPn: <br> <br> <br> <br>0.0
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br>故障输出模式
+    Col3: <br>
+    Col4: <br>
+    【P】: <br> <br> <br>【<br>】<br>FP
+    nPn, PnP, 2~1000: <br> <br> <br> <br>dLy 延时模式，HLd 保持模式
+    nPn: <br> <br> <br> <br>dLy
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br>故障输出逻辑方向
+    Col3: <br>
+    Col4: <br>
+    【P】: <br> <br> <br>【小反<br>】<br>CP
+    nPn, PnP, 2~1000: <br> <br> <br> <br><br>同相        , 取反        , 常开 on, 常关 oFF
+    nPn: <br> <br> <br>
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: U<br>H<br> <br>UH<br>端口参数<br>长按       加 ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>智能光电灵敏度: <br> <br>故障输出类型
+    Col3: <br>
+    Col4: <br>
+    【P】: <br> <br> <br><br><br><br>【<br>】<br>涛P
+    nPn, PnP, 2~1000: <br> <br> <br> <br><br>nPn, PnP, PSP (推挽)
+    nPn: <br> <br> <br> <br>nPn
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 1
+    table_md_path: tables/page-0048-r01.md
+- name: <br> <br> <br>端口参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br> <br> <br>遥控系数
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    【A】: <br> <br> <br>【<br>】<br>小C
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br>0.50~2.00
+    1-5V: <br> <br>1.00
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br> <br> <br>端口参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br> <br> <br>面板亮度
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    【A】: <br> <br> <br>【ED】<br>L
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br>1~32
+    1-5V: <br> <br>16
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br> <br> <br>端口参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br> <br> <br>恢复出厂设置
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    【A】: <br> <br> <br>【全8】
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br>——
+    1-5V: <br> <br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br> <br> <br>控制器温度
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    【A】: <br> <br> <br>【大C】
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br>-20.0~85.0 摄氏度（℃）
+    1-5V: <br> <br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br> <br> <br>输出频率
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    【A】: <br> <br> <br>【E】
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br>2.0~120.0 赫兹（Hz）
+    1-5V: <br> <br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br> <br> <br>系统有功功率(控制器+电机)
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    【A】: <br> <br> <br>【QP】
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br>0.00~0.40 千瓦（kW）
+    1-5V: <br> <br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br> <br>母线电流
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【A】: <br> <br> <br>【AC】
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br>0.00~3.50 安培（A）
+    1-5V: <br> <br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br> <br>输出线电压
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【A】: <br> <br> <br>【OU】
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br>0~250 伏特（V）
+    1-5V: <br> <br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br> <br>母线电压
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【A】: <br> <br> <br>【<br>】<br>PU
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br>0~400 伏特（V）
+    1-5V: <br> <br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br> <br>24V输出电压
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【A】: <br> <br> <br> <br>【<br>】<br>NU
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br> <br>0.0~28.0 伏特（V）
+    1-5V: <br> <br> <br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br> <br>遥控端口电压
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【A】: <br> <br> <br> <br>【<br>】<br>AU
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br> <br>0.0~10.0 伏特（V）
+    1-5V: <br> <br> <br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br> <br>智能光电信号电压
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【A】: <br> <br> <br> <br>【<br>】<br>BU
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br> <br>0~999
+    1-5V: <br> <br> <br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br> <br>正转信号电压
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【A】: <br> <br> <br> <br>【<br>】<br>CU
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br> <br>0.0~28.0 伏特（V）
+    1-5V: <br> <br> <br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br> <br>运行输出端口电压
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【A】: <br> <br> <br> <br>【<br>】<br>DU
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br> <br>0.0~28.0 伏特（V）
+    1-5V: <br> <br> <br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br> <br>反转信号电压
+    Col3: <br> <br>
+    Col4: <br> <br>
+    【A】: <br> <br> <br> <br>【<br>】<br>EU
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br> <br>0.0~28.0 伏特（V）
+    1-5V: <br> <br> <br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br>速度A端口电压
+    Col3: <br>
+    Col4: <br>
+    【A】: <br> <br> <br>【A】<br>S
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br>0.0~28.0 伏特（V）
+    1-5V: <br> <br> <br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br>速度B端口电压
+    Col3: <br>
+    Col4: <br>
+    【A】: <br> <br> <br>【B】<br>S
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br>0.0~28.0 伏特（V）
+    1-5V: <br> <br> <br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br>紧急停止端口电压
+    Col3: <br>
+    Col4: <br>
+    【A】: <br> <br> <br>【<br>】<br>SU
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br>0.0~28.0 伏特（V）
+    1-5V: <br> <br> <br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br>故障输出端口电压
+    Col3: <br>
+    Col4: <br>
+    【A】: <br> <br> <br>【<br>】<br>FU
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br><br>0.0~28.0 伏特（V）
+    1-5V: <br> <br> <br><br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br>控制板版本
+    Col3: <br>
+    Col4: <br>
+    【A】: <br> <br> <br>【C】<br>U
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br><br>——
+    1-5V: <br> <br> <br><br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br>H<br> <br>监控参数<br>长按       加 ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>遥控源: <br> <br>功率板版本
+    Col3: <br>
+    Col4: <br>
+    【A】: <br> <br> <br>【Q】<br>U
+    PAd (由按键控制), 1-5V, 0-5V, 0-10: <br> <br> <br><br>——
+    1-5V: <br> <br> <br><br>——
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 1
+    table_md_path: tables/page-0049-r01.md
+- name: <br> <br>Er01
+  symbol: <br> <br>Er01
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 故障含义: <br> <br>主输出短路
+    H  C 出现条件: <br> <br> <br>输出相间短路或相和PE<br>短路
+    CU UH 控制器响应: <br> <br> <br>停止主输出，短按开关键清除。
+    UH C C 排除方法: <br> <br>排除输出线短路，<br>短按两次开关键或重新上电。
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 2
+    table_md_path: tables/page-0052-r02.md
+- name: <br> <br>Er02H
+  symbol: <br> <br>Er02H
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 故障含义: <br> <br>电机电子过热
+    H  C 出现条件: <br> <br> <br>电机超过<br>阈值<br>电功过热
+    CU UH 控制器响应: <br> <br> <br>根据功率降额系数停机自动重启或<br>降低功率运行。
+    UH C C 排除方法: <br> <br>适当降低电机运行频率设定。
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 2
+    table_md_path: tables/page-0052-r02.md
+- name: <br> <br>Er02P
+  symbol: <br> <br>Er02P
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 故障含义: <br> <br>电机功率超限
+    H  C 出现条件: <br> <br> <br>输出功率超过功率超额系数
+    CU UH 控制器响应: <br> <br> <br>输出功率超过功率超额系数
+    UH C C 排除方法: <br> <br> <br>输出功率超过功率超额系数
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 2
+    table_md_path: tables/page-0052-r02.md
+- name: <br> <br>Er03L
+  symbol: <br> <br>Er03L
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 故障含义: <br> <br>过冷
+    H  C 出现条件: <br> <br> <br>控制器温度低于-20℃
+    CU UH 控制器响应: <br> <br> <br>停止主输出，<br>温度恢复正常后自动启动输出。
+    UH C C 排除方法: <br> <br>避免极寒温度启动控制器。
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 2
+    table_md_path: tables/page-0052-r02.md
+- name: <br> <br>Er03H
+  symbol: <br> <br>Er03H
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 故障含义: <br> <br>过热
+    H  C 出现条件: <br> <br> <br>控制器温度高于65℃
+    CU UH 控制器响应: <br> <br> <br>控制器温度高于65℃
+    UH C C 排除方法: <br> <br>将本控制器安装在通风良好环境中。
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 2
+    table_md_path: tables/page-0052-r02.md
+- name: <br> <br>Er04L
+  symbol: <br> <br>Er04L
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 故障含义: <br> <br>电源欠压
+    H  C 出现条件: <br> <br> <br>母线电压平均值低于77V
+    CU UH 控制器响应: <br> <br> <br>停止主输出，<br>电源电压正常后自动恢复。
+    UH C C 排除方法: <br> <br>确保输入电压在85V~250V之间。
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 2
+    table_md_path: tables/page-0052-r02.md
+- name: <br> <br>Er04H
+  symbol: <br> <br>Er04H
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 故障含义: <br> <br>电源过压
+    H  C 出现条件: <br> <br> <br>母线电压<br>高于390V<br>平均值
+    CU UH 控制器响应: <br> <br> <br>母线电压<br>高于390V<br>平均值
+    UH C C 排除方法: <br> <br> <br>母线电压<br>高于390V<br>平均值
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 2
+    table_md_path: tables/page-0052-r02.md
+- name: <br> <br>Er05
+  symbol: <br> <br>Er05
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 故障含义: <br> <br>内部通信异常
+    H  C 出现条件: <br> <br> <br>连续2秒未收到功率板应答
+    CU UH 控制器响应: <br> <br> <br>停止主输出，<br>通信恢复后自动消除
+    UH C C 排除方法: <br> <br>确保24V电源端口未接入任何外部电源<br>或联系本公司技术支持。
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 2
+    table_md_path: tables/page-0052-r02.md
+- name: <br> <br>Er06
+  symbol: <br> <br>Er06
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 故障含义: <br> <br>温度传感器异常
+    H  C 出现条件: <br> <br> <br>无法读取温度
+    CU UH 控制器响应: <br> <br> <br> <br>停止主输出，2秒尝试读温度。
+    UH C C 排除方法: <br> <br> <br>联系本公司技术支持。
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 2
+    table_md_path: tables/page-0052-r02.md
+- name: <br> <br>Er07d/P
+  symbol: <br> <br>Er07d/P
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 故障含义: <br> <br>运行/<br>输出端口短路<br>故障
+    H  C 出现条件: <br> <br> <br>输出电流超过350mA或短路
+    CU UH 控制器响应: <br> <br> <br> <br>5ms内关闭运行/故障输出，<br>2s后尝试重启输出。
+    UH C C 排除方法: <br> <br> <br>确保负载未短路且电流未超过350mA
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 2
+    table_md_path: tables/page-0052-r02.md
+- name: <br> <br>Er10
+  symbol: <br> <br>Er10
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 故障含义: <br> <br>24V输出短路
+    H  C 出现条件: <br> <br> <br>输出24V被短路或电流超<br>过700mA
+    CU UH 控制器响应: <br> <br> <br> <br>停止24V输出，重新上电以重启输出。
+    UH C C 排除方法: <br> <br> <br>确保24V输出未被短路或输出超过<br>700mA。
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 2
+    table_md_path: tables/page-0052-r02.md
+- name: <br> <br>Er11
+  symbol: <br> <br>Er11
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 故障含义: <br> <br>5V输出异常
+    H  C 出现条件: <br> <br> <br>5V输出超过±10%范围
+    CU UH 控制器响应: <br> <br> <br> <br>遥控调速失效，自动恢复。
+    UH C C 排除方法: <br> <br> <br>确保5V输出未被短路或接入外部<br>电压。
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 2
+    table_md_path: tables/page-0052-r02.md
+- name: <br> <br>Er12
+  symbol: <br> <br>Er12
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 故障含义: <br> <br>24V电压异常
+    H  C 出现条件: <br> <br> <br>监控内部24V电压不在<br>22~26V之间
+    CU UH 控制器响应: <br> <br> <br> <br>控制输出高阻，自动恢复。
+    UH C C 排除方法: <br> <br> <br>确保24V电源输出端口或控制输出<br>端口未接入任何外部电源。
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 2
+    table_md_path: tables/page-0052-r02.md
+- name: <br>Er13
+  symbol: <br>Er13
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 故障含义: <br>(仅三相输入型号适用<br>输入缺相
+    H  C 出现条件: <br> <br>）<br>三相电源输入缺相
+    CU UH 控制器响应: <br> <br> <br>停止主输出。
+    UH C C 排除方法: <br> <br> <br>断电排除输入缺相后重新上电。
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 2
+    table_md_path: tables/page-0052-r02.md
+- name: <br>Er14
+  symbol: <br>Er14
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 故障含义: <br>输出缺相
+    H  C 出现条件: <br> <br>输出相电流不平衡超50%
+    CU UH 控制器响应: <br> <br>输出相电流不平衡超50%
+    UH C C 排除方法: <br> <br> <br>断电排除输出线缺相，重新上电。
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 2
+    table_md_path: tables/page-0052-r02.md
+- name: <br>Er15
+  symbol: <br>Er15
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 故障含义: <br>正反转冲突
+    H  C 出现条件: <br> <br>同时给出正反转信号
+    CU UH 控制器响应: <br> <br> <br>停止主输出，冲突撤除后自动恢复。
+    UH C C 排除方法: <br> <br> <br><br><br>确保不同时给出正转有效和反转<br>有效信号。
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 2
+    table_md_path: tables/page-0052-r02.md
+- name: <br>Ar02
+  symbol: <br>Ar02
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 警告含义: <br>紧急停止
+    H  C 出现条件: <br> <br>紧急停止输入信号有效<br>边沿检测到
+    CU UH 控制器响应: <br> <br><br>停止主输出。
+    UH C C 排除方法: <br><br>紧急停止信号复位，按开关键重启<br>输出。
+  source_ref:
+    pdf_page: 53
+    layout_region_index: 2
+    table_md_path: tables/page-0053-r02.md
+- name: <br>Ar03
+  symbol: <br>Ar03
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 警告含义: <br>输出饱和
+    H  C 出现条件: <br> <br>当电源电压低于需输出的<br>电压的80%
+    CU UH 控制器响应: <br> <br><br>继续输出, 显示2s消失, 10s后再<br>检查。
+    UH C C 排除方法: <br><br>确保输入电压不低于最大电压限制<br>值。
+  source_ref:
+    pdf_page: 53
+    layout_region_index: 2
+    table_md_path: tables/page-0053-r02.md
+- name: <br>Ar04
+  symbol: <br>Ar04
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 警告含义: <br>加速过功率
+    H  C 出现条件: <br> <br>加速过程中功率超过电机<br>过功率系数*额定功率
+    CU UH 控制器响应: <br> <br><br>保持频率，功率降低后继续加速。
+    UH C C 排除方法: <br><br>适当增大缓启动时间。
+  source_ref:
+    pdf_page: 53
+    layout_region_index: 2
+    table_md_path: tables/page-0053-r02.md
+- name: <br>Ar05
+  symbol: <br>Ar05
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 警告含义: <br>运行过功率
+    H  C 出现条件: <br> <br>运行中功率超过电机过<br>系数*额定功率<br>功率
+    CU UH 控制器响应: <br> <br><br>电机继续运行并触发电机电子过热<br>阈值积分器。
+    UH C C 排除方法: <br><br>适当降低负载。
+  source_ref:
+    pdf_page: 53
+    layout_region_index: 2
+    table_md_path: tables/page-0053-r02.md
+- name: <br>Ar06
+  symbol: <br>Ar06
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 警告含义: <br>减速过压
+    H  C 出现条件: <br> <br>减速停止时母线电压超过<br>380V
+    CU UH 控制器响应: <br> <br><br>中断减速保持频率，母线电压降低<br>至370V后继续减速。
+    UH C C 排除方法: <br><br>适当加大缓关闭时间。
+  source_ref:
+    pdf_page: 53
+    layout_region_index: 2
+    table_md_path: tables/page-0053-r02.md
+- name: <br>Ar07
+  symbol: <br>Ar07
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 警告含义: <br>电机制动
+    H  C 出现条件: <br> <br>当电机处于直流制动时
+    CU UH 控制器响应: <br> <br><br>直流制动期间显示，完成后自动消失。
+    UH C C 排除方法: <br><br><br>——
+  source_ref:
+    pdf_page: 53
+    layout_region_index: 2
+    table_md_path: tables/page-0053-r02.md
+- name: <br>Ar08
+  symbol: <br>Ar08
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH 警告含义: <br>禁止反转
+    H  C 出现条件: <br> <br>当禁止反转有效且检测到<br>反转请求时
+    CU UH 控制器响应: <br> <br><br>不响应反转请求，撤消后自动消失。
+    UH C C 排除方法: <br><br><br><br>撤消反转请求信号。
+  source_ref:
+    pdf_page: 53
+    layout_region_index: 2
+    table_md_path: tables/page-0053-r02.md

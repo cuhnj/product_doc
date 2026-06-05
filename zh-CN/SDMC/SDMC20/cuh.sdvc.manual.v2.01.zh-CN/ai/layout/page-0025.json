@@ -1,0 +1,151 @@
+{
+  "doc_id": "cuh.sdvc.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 25,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T09:16:49",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v2.01.zh-CN，页码=25。\n\n【目录/书签上下文（节选）】\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯、按键及外部部件说明（第 10 页）\n  - 1.3 接线端口说明（第 11 页）\n  - 1.4 控制器铭牌说明（第 11 页）\n- 第二章 产品介绍（第 12 页）\n  - 2.1 产品简介（第 12 页）\n- 第三章 安装及使用指南（第 13 页）\n  - 3.1 控制器使用条件（第 13 页）\n  - 3.2 按键基本操作（第 13 页）\n  - 3.3 安装",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.050, 0.932, 0.076],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.160, 0.360, 0.187],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.195, 0.690, 0.267],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.278, 0.420, 0.303],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.305, 0.932, 0.612],\n      \"confidence\": 0.94,\n      \"caption\": \"NPN输出的连接方式\",\n      \"image_alt\": \"上半部分为NPN输出接线示意图。左侧显示继电器线圈及端子编号1、2、3、4、5，并标注正负极；中间以实线和虚线表示接线；右侧为控制器多组端子示意，包含料满停机Ⅱ、速度预设、控制输出、料满停机Ⅰ、智能光电、遥控调速等中英文标注，控制输出端子位置被加深标示。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.614, 0.932, 0.884],\n      \"confidence\": 0.94,\n      \"caption\": \"PNP或推挽输出的连接方式\",\n      \"image_alt\": \"下半部分为PNP或推挽输出接线示意图。左侧显示继电器线圈及端子编号1、2、3、4、5，并标注正负极；中间以实线和虚线表示接线；右侧为控制器端子排示意，包含Sensor II、Preset、Ctrl Out、Sensor I、Photosensor、Speed Ctrl等标注，控制输出相关端子位置被加深标示。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.090, 0.902, 0.913, 0.943],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.956, 0.932, 0.981],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的说明书页面，背景有浅色水印。页面主要内容是5.4控制输出功能及5.4.1控制输出接线方法，以下方两幅接线示意图为主，并包含一段关于24V继电器接线和短路保护Err07的注意说明。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.05,
+          0.932,
+          0.076
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.16,
+          0.36,
+          0.187
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.195,
+          0.69,
+          0.267
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.278,
+          0.42,
+          0.303
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.071,
+          0.305,
+          0.932,
+          0.612
+        ],
+        "confidence": 0.94,
+        "caption": "NPN输出的连接方式",
+        "image_alt": "上半部分为NPN输出接线示意图。左侧显示继电器线圈及端子编号1、2、3、4、5，并标注正负极；中间以实线和虚线表示接线；右侧为控制器多组端子示意，包含料满停机Ⅱ、速度预设、控制输出、料满停机Ⅰ、智能光电、遥控调速等中英文标注，控制输出端子位置被加深标示。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.071,
+          0.614,
+          0.932,
+          0.884
+        ],
+        "confidence": 0.94,
+        "caption": "PNP或推挽输出的连接方式",
+        "image_alt": "下半部分为PNP或推挽输出接线示意图。左侧显示继电器线圈及端子编号1、2、3、4、5，并标注正负极；中间以实线和虚线表示接线；右侧为控制器端子排示意，包含Sensor II、Preset、Ctrl Out、Sensor I、Photosensor、Speed Ctrl等标注，控制输出相关端子位置被加深标示。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.09,
+          0.902,
+          0.913,
+          0.943
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.956,
+          0.932,
+          0.981
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "notes": "本页为带文本层的说明书页面，背景有浅色水印。页面主要内容是5.4控制输出功能及5.4.1控制输出接线方法，以下方两幅接线示意图为主，并包含一段关于24V继电器接线和短路保护Err07的注意说明。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnDSi4VFPtsALJoJwaq6g5N7X1pW5",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780622192,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.050, 0.932, 0.076],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.160, 0.360, 0.187],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.195, 0.690, 0.267],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.278, 0.420, 0.303],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.305, 0.932, 0.612],\n      \"confidence\": 0.94,\n      \"caption\": \"NPN输出的连接方式\",\n      \"image_alt\": \"上半部分为NPN输出接线示意图。左侧显示继电器线圈及端子编号1、2、3、4、5，并标注正负极；中间以实线和虚线表示接线；右侧为控制器多组端子示意，包含料满停机Ⅱ、速度预设、控制输出、料满停机Ⅰ、智能光电、遥控调速等中英文标注，控制输出端子位置被加深标示。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.614, 0.932, 0.884],\n      \"confidence\": 0.94,\n      \"caption\": \"PNP或推挽输出的连接方式\",\n      \"image_alt\": \"下半部分为PNP或推挽输出接线示意图。左侧显示继电器线圈及端子编号1、2、3、4、5，并标注正负极；中间以实线和虚线表示接线；右侧为控制器端子排示意，包含Sensor II、Preset、Ctrl Out、Sensor I、Photosensor、Speed Ctrl等标注，控制输出相关端子位置被加深标示。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.090, 0.902, 0.913, 0.943],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.956, 0.932, 0.981],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的说明书页面，背景有浅色水印。页面主要内容是5.4控制输出功能及5.4.1控制输出接线方法，以下方两幅接线示意图为主，并包含一段关于24V继电器接线和短路保护Err07的注意说明。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2645,
+      "completion_tokens": 1276,
+      "total_tokens": 3921,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,240 @@
+schema_version: 1
+doc_id: cuh.sdvc.manual.v0.0.zh-CN
+doc_key: cuh.sdvc.manual.v0.0
+lang: zh-CN
+generated_at: '2026-06-05 09:13:29'
+source:
+  data_index_yaml: index.yaml
+tables:
+- page: 1
+  layout_region_index: 3
+  table_md_path: tables/page-0001-r03.md
+  headers:
+  - 项目
+  - 范围
+  - Col3
+  - Col4
+  - 单位
+  - 说明
+items:
+- name: 项目
+  symbol: null
+  range: 最小值
+  default: null
+  unit: 最大值
+  note: 最大值
+  extra:
+    Col3: 典型值
+    Col4: 最大值
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: 输入电压
+  symbol: null
+  range: '150'
+  default: null
+  unit: V（伏特）
+  note: 交流有效值
+  extra:
+    Col3: '220'
+    Col4: '260'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: 输出电压调整范围
+  symbol: null
+  range: '35'
+  default: null
+  unit: V（伏特）
+  note: 半波
+  extra:
+    Col3: ——
+    Col4: Vin-10
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: 输出电压调整范围
+  symbol: null
+  range: '45'
+  default: null
+  unit: Vin-5
+  note: 全波
+  extra:
+    Col3: ——
+    Col4: Vin-5
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: 稳压精度
+  symbol: null
+  range: ——
+  default: null
+  unit: V（伏特）
+  note: Vset=150V<br>ΔVin+=70V
+  extra:
+    Col3: ——
+    Col4: '30'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: 稳压响应时间
+  symbol: null
+  range: '0'
+  default: null
+  unit: s（秒）
+  note: null
+  extra:
+    Col3: '0.01'
+    Col4: '0.02'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: 输出电流调整范围
+  symbol: null
+  range: '0.1'
+  default: null
+  unit: A（安培）
+  note: null
+  extra:
+    Col3: ——
+    Col4: '4'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: 输出功率
+  symbol: null
+  range: '22'
+  default: null
+  unit: VA（伏安）
+  note: null
+  extra:
+    Col3: ——
+    Col4: '880'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: 输出频率
+  symbol: null
+  range: '45'
+  default: null
+  unit: Hz（赫兹）
+  note: 半波
+  extra:
+    Col3: 50/60
+    Col4: '65'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: 输出频率
+  symbol: null
+  range: '90'
+  default: null
+  unit: Hz（赫兹）
+  note: 全波
+  extra:
+    Col3: 100/120
+    Col4: '130'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: 输出波形
+  symbol: null
+  range: 正弦相切
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col3: 正弦相切
+    Col4: 正弦相切
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: 缓启动时间
+  symbol: null
+  range: '0.5'
+  default: null
+  unit: s（秒）
+  note: null
+  extra:
+    Col3: '0.65'
+    Col4: '0.7'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: 过热保护温度
+  symbol: null
+  range: '58'
+  default: null
+  unit: ℃（摄氏度）
+  note: null
+  extra:
+    Col3: '60'
+    Col4: '66'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: 短路保护动作电流
+  symbol: null
+  range: ——
+  default: null
+  unit: A（安培）
+  note: 保险丝容量
+  extra:
+    Col3: '6.3'
+    Col4: ——
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: 保险丝容量
+  symbol: null
+  range: '6.3'
+  default: null
+  unit: A（安培）
+  note: null
+  extra:
+    Col3: '6.3'
+    Col4: '6.3'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: 工作环境温度
+  symbol: null
+  range: '0'
+  default: null
+  unit: ℃（摄氏度）
+  note: 不结露
+  extra:
+    Col3: '25'
+    Col4: '40'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: 工作环境湿度
+  symbol: null
+  range: '10'
+  default: null
+  unit: ％（相对湿度）
+  note: ％（相对湿度）
+  extra:
+    Col3: '60'
+    Col4: '85'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md

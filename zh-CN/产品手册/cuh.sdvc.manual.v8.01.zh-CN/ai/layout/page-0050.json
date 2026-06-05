@@ -1,0 +1,234 @@
+{
+  "doc_id": "cuh.sdvc.manual.v8.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v8.01",
+  "lang": "zh-CN",
+  "page_index": 50,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T01:27:55",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v8.01.zh-CN，页码=50。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 目录（第 3 页）\n- 4: 目录2（第 4 页）\n- 5: SDVC10-S（第 5 页）\n- 6: SDVC11-S（第 6 页）\n- 7: SDVC11-M（第 7 页）\n- 8: SDVC14-S（第 8 页）\n- 9: SDVC20-S（第 9 页）\n- 10: SDVC20-L（第 10 页）\n- 11: SDVC20-XL（第 11 页）\n- 12: SDVC201-L（第 12 页）\n- 13: SDVC20-U（第 13 页）\n- 14: SDVC21-S（第 14 页）\n- 15: SDVC21LP（第 15 页）\n- 16: SDVC21XLP（第 16 页）\n- 17: SDVC212",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.08, 0.04, 0.93, 0.09],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.08, 0.09, 0.51, 0.15],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.08, 0.18, 0.51, 0.43],\n      \"confidence\": 0.94,\n      \"image_alt\": \"SDMC10-S 控制器产品外观图，白色长条形机身，正面有数码显示区、按键和端子标识。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.08, 0.45, 0.51, 0.85],\n      \"confidence\": 0.96,\n      \"caption\": \"技术规格\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.13, 0.93, 0.16],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.16, 0.93, 0.18],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.18, 0.93, 0.21],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.21, 0.93, 0.50],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.52, 0.93, 0.55],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.55, 0.86, 0.58],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.59, 0.93, 0.62],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.56, 0.62, 0.74, 0.68],\n      \"confidence\": 0.9,\n      \"image_alt\": \"随机附件中的黑色电源线图片。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.75, 0.64, 0.90, 0.66],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.08, 0.91, 0.45, 0.96],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.00, 0.96, 0.07, 1.00],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],\n  \"notes\": \"本页为数字版说明书页面渲染，非纯扫描件；文本、表格和产品图片混排。主要内容为 SDMC10-S 数字低压直流有刷电机控制器的型号、功能、尺寸重量、随机附件和技术规格表。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.08,
+          0.04,
+          0.93,
+          0.09
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.08,
+          0.09,
+          0.51,
+          0.15
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.08,
+          0.18,
+          0.51,
+          0.43
+        ],
+        "confidence": 0.94,
+        "image_alt": "SDMC10-S 控制器产品外观图，白色长条形机身，正面有数码显示区、按键和端子标识。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.08,
+          0.45,
+          0.51,
+          0.85
+        ],
+        "confidence": 0.96,
+        "caption": "技术规格",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.56,
+          0.13,
+          0.93,
+          0.16
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.56,
+          0.16,
+          0.93,
+          0.18
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.56,
+          0.18,
+          0.93,
+          0.21
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.56,
+          0.21,
+          0.93,
+          0.5
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.56,
+          0.52,
+          0.93,
+          0.55
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.56,
+          0.55,
+          0.86,
+          0.58
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.56,
+          0.59,
+          0.93,
+          0.62
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.56,
+          0.62,
+          0.74,
+          0.68
+        ],
+        "confidence": 0.9,
+        "image_alt": "随机附件中的黑色电源线图片。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.75,
+          0.64,
+          0.9,
+          0.66
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.08,
+          0.91,
+          0.45,
+          0.96
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.0,
+          0.96,
+          0.07,
+          1.0
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "notes": "本页为数字版说明书页面渲染，非纯扫描件；文本、表格和产品图片混排。主要内容为 SDMC10-S 数字低压直流有刷电机控制器的型号、功能、尺寸重量、随机附件和技术规格表。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmjfPDPXGs7XgHZNVdMihhE8ALJtr",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780507659,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.08, 0.04, 0.93, 0.09],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.08, 0.09, 0.51, 0.15],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.08, 0.18, 0.51, 0.43],\n      \"confidence\": 0.94,\n      \"image_alt\": \"SDMC10-S 控制器产品外观图，白色长条形机身，正面有数码显示区、按键和端子标识。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.08, 0.45, 0.51, 0.85],\n      \"confidence\": 0.96,\n      \"caption\": \"技术规格\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.13, 0.93, 0.16],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.16, 0.93, 0.18],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.18, 0.93, 0.21],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.21, 0.93, 0.50],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.52, 0.93, 0.55],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.55, 0.86, 0.58],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.59, 0.93, 0.62],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.56, 0.62, 0.74, 0.68],\n      \"confidence\": 0.9,\n      \"image_alt\": \"随机附件中的黑色电源线图片。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.75, 0.64, 0.90, 0.66],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.08, 0.91, 0.45, 0.96],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.00, 0.96, 0.07, 1.00],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],\n  \"notes\": \"本页为数字版说明书页面渲染，非纯扫描件；文本、表格和产品图片混排。主要内容为 SDMC10-S 数字低压直流有刷电机控制器的型号、功能、尺寸重量、随机附件和技术规格表。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2889,
+      "completion_tokens": 1316,
+      "total_tokens": 4205,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 382,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

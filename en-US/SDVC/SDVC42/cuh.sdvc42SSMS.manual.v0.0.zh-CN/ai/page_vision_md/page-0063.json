@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 63,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T12:02:13",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=63。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufactur",
+  "assistant_text": "{\n  \"page_markdown\": \"## 4.9.4 Data Backup\\n\\nWhen all controllers are networked, all controllers in the network can back up each other's data. Each controller backs up the other two controllers in the network. When a controller in the original network fails, users can quickly replace the failed controller with a new controller. All parameters of the new controller will be consistent with those of the controller before replacement.\\n\\nWhen less than 3 numbered adjacent controllers fail in the network, the replacement operation can be successful. However, when more than 3 or more numbered controllers fail, all machine data cannot be restored.\\n\\n- New controller joint network as a replacement device steps:\\n\\n1. Power off the device to be replaced and remove the CUHBus-DS® communication cable.\\n2. Connect the CUHBus-DS® interface of the new device to the original network.\\n3. When the new device is powered on, the new access controller will automatically enter the \\\"communication parameter group\\\".\\n4. Set the parameter \\\"DigSynAd\\\" (Local Digital Synchronization Address). Since this network is incomplete, the value of this parameter will only display the device number that needs to be replaced.\\n5. Set the value of the parameter \\\"EnNetwok \\\" to \\\"Replace\\\", and then press ⊕ and ⊖ hold at the same time, confirm.\\n6. After the replacement is successful, the parameter value of the new device \\\"EnNetwok \\\" will automatically change to \\\"Online\\\".\\n\\nExample 1: The original network consists of address 1, address 2 and address 3 controllers. Since the address 3 fails, it is necessary to replace the original device with a new device and restore all settings of the original device.\\n\\n[[vcrop:63:0]]\\n\\nExample 2: There are four controllers with addresses 1, 2, 3, and 4 in the network. Among them, controllers at addresses 2, 3, and 4 in the network failed. However, because each device in the network backs up data from up to two controllers, the controller at address 4 cannot complete data recovery. For the replacement settings of the controllers at addresses 2 and 3, refer to the above case.\\n\\nExample 3: There are originally five machines with addresses 1, 2, 3, 4 and 5 in the network. Among them, addresses 1, 2, and 4 are faulty (three non-consecutive units). You can change the address from 5Restore address 1 and address 2 controller data, restore address 4 controller data from address 3, thereby restoring all failed controller data. For controller replacement settings, refer to the above case.\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.07,\n        0.528,\n        0.933,\n        0.834\n      ],\n      \"alt\": \"Example 1 network controller replacement and data restoration diagram\",\n      \"reason\": \"Complex multi-step wiring/network diagram with device blocks, arrows, and embedded labels; retain as bitmap.\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "## 4.9.4 Data Backup\n\nWhen all controllers are networked, all controllers in the network can back up each other's data. Each controller backs up the other two controllers in the network. When a controller in the original network fails, users can quickly replace the failed controller with a new controller. All parameters of the new controller will be consistent with those of the controller before replacement.\n\nWhen less than 3 numbered adjacent controllers fail in the network, the replacement operation can be successful. However, when more than 3 or more numbered controllers fail, all machine data cannot be restored.\n\n- New controller joint network as a replacement device steps:\n\n1. Power off the device to be replaced and remove the CUHBus-DS® communication cable.\n2. Connect the CUHBus-DS® interface of the new device to the original network.\n3. When the new device is powered on, the new access controller will automatically enter the \"communication parameter group\".\n4. Set the parameter \"DigSynAd\" (Local Digital Synchronization Address). Since this network is incomplete, the value of this parameter will only display the device number that needs to be replaced.\n5. Set the value of the parameter \"EnNetwok \" to \"Replace\", and then press ⊕ and ⊖ hold at the same time, confirm.\n6. After the replacement is successful, the parameter value of the new device \"EnNetwok \" will automatically change to \"Online\".\n\nExample 1: The original network consists of address 1, address 2 and address 3 controllers. Since the address 3 fails, it is necessary to replace the original device with a new device and restore all settings of the original device.\n\n[[vcrop:63:0]]\n\nExample 2: There are four controllers with addresses 1, 2, 3, and 4 in the network. Among them, controllers at addresses 2, 3, and 4 in the network failed. However, because each device in the network backs up data from up to two controllers, the controller at address 4 cannot complete data recovery. For the replacement settings of the controllers at addresses 2 and 3, refer to the above case.\n\nExample 3: There are originally five machines with addresses 1, 2, 3, 4 and 5 in the network. Among them, addresses 1, 2, and 4 are faulty (three non-consecutive units). You can change the address from 5Restore address 1 and address 2 controller data, restore address 4 controller data from address 3, thereby restoring all failed controller data. For controller replacement settings, refer to the above case.",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.07,
+        0.528,
+        0.933,
+        0.834
+      ],
+      "alt": "Example 1 network controller replacement and data restoration diagram",
+      "reason": "Complex multi-step wiring/network diagram with device blocks, arrows, and embedded labels; retain as bitmap."
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-DmtZ7FOgPxCL8Lki1TcR700kdbYEC",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780545709,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"## 4.9.4 Data Backup\\n\\nWhen all controllers are networked, all controllers in the network can back up each other's data. Each controller backs up the other two controllers in the network. When a controller in the original network fails, users can quickly replace the failed controller with a new controller. All parameters of the new controller will be consistent with those of the controller before replacement.\\n\\nWhen less than 3 numbered adjacent controllers fail in the network, the replacement operation can be successful. However, when more than 3 or more numbered controllers fail, all machine data cannot be restored.\\n\\n- New controller joint network as a replacement device steps:\\n\\n1. Power off the device to be replaced and remove the CUHBus-DS® communication cable.\\n2. Connect the CUHBus-DS® interface of the new device to the original network.\\n3. When the new device is powered on, the new access controller will automatically enter the \\\"communication parameter group\\\".\\n4. Set the parameter \\\"DigSynAd\\\" (Local Digital Synchronization Address). Since this network is incomplete, the value of this parameter will only display the device number that needs to be replaced.\\n5. Set the value of the parameter \\\"EnNetwok \\\" to \\\"Replace\\\", and then press ⊕ and ⊖ hold at the same time, confirm.\\n6. After the replacement is successful, the parameter value of the new device \\\"EnNetwok \\\" will automatically change to \\\"Online\\\".\\n\\nExample 1: The original network consists of address 1, address 2 and address 3 controllers. Since the address 3 fails, it is necessary to replace the original device with a new device and restore all settings of the original device.\\n\\n[[vcrop:63:0]]\\n\\nExample 2: There are four controllers with addresses 1, 2, 3, and 4 in the network. Among them, controllers at addresses 2, 3, and 4 in the network failed. However, because each device in the network backs up data from up to two controllers, the controller at address 4 cannot complete data recovery. For the replacement settings of the controllers at addresses 2 and 3, refer to the above case.\\n\\nExample 3: There are originally five machines with addresses 1, 2, 3, 4 and 5 in the network. Among them, addresses 1, 2, and 4 are faulty (three non-consecutive units). You can change the address from 5Restore address 1 and address 2 controller data, restore address 4 controller data from address 3, thereby restoring all failed controller data. For controller replacement settings, refer to the above case.\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.07,\n        0.528,\n        0.933,\n        0.834\n      ],\n      \"alt\": \"Example 1 network controller replacement and data restoration diagram\",\n      \"reason\": \"Complex multi-step wiring/network diagram with device blocks, arrows, and embedded labels; retain as bitmap.\"\n    }\n  ],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4579,
+      "completion_tokens": 1716,
+      "total_tokens": 6295,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

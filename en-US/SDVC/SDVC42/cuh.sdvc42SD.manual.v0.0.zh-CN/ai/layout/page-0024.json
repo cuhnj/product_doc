@@ -1,0 +1,209 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 24,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:09:57",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=24。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.079, 0.053, 0.933, 0.076],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.131, 0.666, 0.153],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.164, 0.887, 0.194],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.206, 0.301, 0.228],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.234, 0.929, 0.314],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.098, 0.370, 0.542, 0.532],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.594, 0.337, 0.897, 0.546],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器参数界面示意图，显示 RUN 状态、参数列表，02.UsrVoltg 的数值 20.0 被高亮，单位为 V。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.584, 0.333, 0.606],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.614, 0.924, 0.646],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.098, 0.695, 0.561, 0.875],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.594, 0.666, 0.897, 0.872],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器参数界面示意图，显示 RUN 状态、参数列表，03.UsrFrqnc 的数值 50.0 被高亮，单位为 Hz。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.087, 0.929, 0.920, 0.960],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.976, 0.927, 0.996],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],\n  \"notes\": \"本页不是纯扫描件，存在可提取文本层；页面以文字说明为主，包含两个控制器界面示意图和浅色背景水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.079,
+          0.053,
+          0.933,
+          0.076
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.131,
+          0.666,
+          0.153
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.164,
+          0.887,
+          0.194
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.206,
+          0.301,
+          0.228
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.234,
+          0.929,
+          0.314
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.098,
+          0.37,
+          0.542,
+          0.532
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.594,
+          0.337,
+          0.897,
+          0.546
+        ],
+        "confidence": 0.94,
+        "image_alt": "控制器参数界面示意图，显示 RUN 状态、参数列表，02.UsrVoltg 的数值 20.0 被高亮，单位为 V。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.584,
+          0.333,
+          0.606
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.614,
+          0.924,
+          0.646
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.098,
+          0.695,
+          0.561,
+          0.875
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.594,
+          0.666,
+          0.897,
+          0.872
+        ],
+        "confidence": 0.94,
+        "image_alt": "控制器参数界面示意图，显示 RUN 状态、参数列表，03.UsrFrqnc 的数值 50.0 被高亮，单位为 Hz。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.087,
+          0.929,
+          0.92,
+          0.96
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.976,
+          0.927,
+          0.996
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "notes": "本页不是纯扫描件，存在可提取文本层；页面以文字说明为主，包含两个控制器界面示意图和浅色背景水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmskUUa9DtihvaSxzYnVP92wsk1Zp",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780542570,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.079, 0.053, 0.933, 0.076],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.131, 0.666, 0.153],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.164, 0.887, 0.194],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.206, 0.301, 0.228],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.234, 0.929, 0.314],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.098, 0.370, 0.542, 0.532],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.594, 0.337, 0.897, 0.546],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器参数界面示意图，显示 RUN 状态、参数列表，02.UsrVoltg 的数值 20.0 被高亮，单位为 V。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.584, 0.333, 0.606],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.614, 0.924, 0.646],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.098, 0.695, 0.561, 0.875],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.594, 0.666, 0.897, 0.872],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器参数界面示意图，显示 RUN 状态、参数列表，03.UsrFrqnc 的数值 50.0 被高亮，单位为 Hz。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.087, 0.929, 0.920, 0.960],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.976, 0.927, 0.996],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],\n  \"notes\": \"本页不是纯扫描件，存在可提取文本层；页面以文字说明为主，包含两个控制器界面示意图和浅色背景水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3961,
+      "completion_tokens": 1752,
+      "total_tokens": 5713,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 927,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

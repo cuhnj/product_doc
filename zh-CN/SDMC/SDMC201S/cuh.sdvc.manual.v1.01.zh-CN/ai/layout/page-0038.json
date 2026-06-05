@@ -1,0 +1,149 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 38,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T13:17:51",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=38。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 空白页（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯及按键说明（第 10 页）\n  - 1.3 外部部件说明（第 11 页）\n  - 1.4 接线端口说明（第 11 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 产品介绍（第 13 页）\n  - 2.1 产品简介（第 13 页）\n- 第三章 安装及使用指南（第 14 页）\n  - 3.1 ",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.049, 0.933, 0.073],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.151, 0.46, 0.171],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.192, 0.785, 0.211],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.222, 0.893, 0.257],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.273, 0.912, 0.309],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.324, 0.91, 0.361],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.14, 0.392, 0.85, 0.79],\n      \"confidence\": 0.95,\n      \"image_alt\": \"运行输出模式时序图，包含“逻辑关系选择器后输出的信号”“保持模式输出”“延时模式输出”三条阶跃波形，标注 T1 输出信号上升沿延时、T2 输出信号下降沿延时，并以虚线关联到数码管样式参数显示。\",\n      \"caption\": \"延时模式与保持模式的运行输出时序差异示意\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.952, 0.933, 0.976],\n      \"confidence\": 0.97\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面上半部分为 5.9.3 小节文字说明，下半部分以运行输出模式时序图为主；背景有浅色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.049,
+          0.933,
+          0.073
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.151,
+          0.46,
+          0.171
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.119,
+          0.192,
+          0.785,
+          0.211
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.222,
+          0.893,
+          0.257
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.273,
+          0.912,
+          0.309
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.119,
+          0.324,
+          0.91,
+          0.361
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.14,
+          0.392,
+          0.85,
+          0.79
+        ],
+        "confidence": 0.95,
+        "image_alt": "运行输出模式时序图，包含“逻辑关系选择器后输出的信号”“保持模式输出”“延时模式输出”三条阶跃波形，标注 T1 输出信号上升沿延时、T2 输出信号下降沿延时，并以虚线关联到数码管样式参数显示。",
+        "caption": "延时模式与保持模式的运行输出时序差异示意",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.952,
+          0.933,
+          0.976
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "notes": "本页为带文本层的说明书页面，不是纯扫描件。页面上半部分为 5.9.3 小节文字说明，下半部分以运行输出模式时序图为主；背景有浅色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnHE3rD0ZzesbVwIjp5j7UCADqrZh",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780636659,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.049, 0.933, 0.073],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.151, 0.46, 0.171],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.192, 0.785, 0.211],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.222, 0.893, 0.257],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.273, 0.912, 0.309],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.324, 0.91, 0.361],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.14, 0.392, 0.85, 0.79],\n      \"confidence\": 0.95,\n      \"image_alt\": \"运行输出模式时序图，包含“逻辑关系选择器后输出的信号”“保持模式输出”“延时模式输出”三条阶跃波形，标注 T1 输出信号上升沿延时、T2 输出信号下降沿延时，并以虚线关联到数码管样式参数显示。\",\n      \"caption\": \"延时模式与保持模式的运行输出时序差异示意\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.952, 0.933, 0.976],\n      \"confidence\": 0.97\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面上半部分为 5.9.3 小节文字说明，下半部分以运行输出模式时序图为主；背景有浅色 CUH 水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2472,
+      "completion_tokens": 1102,
+      "total_tokens": 3574,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

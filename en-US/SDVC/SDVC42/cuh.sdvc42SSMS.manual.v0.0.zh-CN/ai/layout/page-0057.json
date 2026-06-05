@@ -1,0 +1,163 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 57,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:54:41",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=57。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.073, 0.052, 0.931, 0.076],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.151, 0.260, 0.173],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.178, 0.913, 0.247],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.256, 0.924, 0.326],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.343, 0.904, 0.394],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.072, 0.408, 0.931, 0.638],\n      \"confidence\": 0.96,\n      \"image_alt\": \"框图内显示 Controller M 与 Controller S 两条输出波形示意。两条水平箭头轴上绘有正弦波，并用竖向虚线箭头标示对应关系，表示同步模式下两个控制器输出波形完全同步。\",\n      \"caption\": \"Controller S is set to synchronization mode, and the output waveforms of the two controllers are completely synchronized.\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.660, 0.911, 0.693],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.072, 0.704, 0.931, 0.937],\n      \"confidence\": 0.96,\n      \"image_alt\": \"框图内显示 Controller M 与 Controller S 两条输出波形示意。两条水平箭头轴上绘有正弦波，并用倾斜或错位的虚线箭头标示对应关系，表示未设置同步模式时两个控制器输出波形不同步。\",\n      \"caption\": \"Controller S is not set to synchronization mode, and the output waveforms of the two controllers are not synchronized.\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.961, 0.921, 0.984],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为带文本层的说明书页面，不像纯扫描件。页面以文字说明为主，包含两幅波形同步/不同步对比示意图；背景有淡色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.073,
+          0.052,
+          0.931,
+          0.076
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.151,
+          0.26,
+          0.173
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.178,
+          0.913,
+          0.247
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.256,
+          0.924,
+          0.326
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.343,
+          0.904,
+          0.394
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.072,
+          0.408,
+          0.931,
+          0.638
+        ],
+        "confidence": 0.96,
+        "image_alt": "框图内显示 Controller M 与 Controller S 两条输出波形示意。两条水平箭头轴上绘有正弦波，并用竖向虚线箭头标示对应关系，表示同步模式下两个控制器输出波形完全同步。",
+        "caption": "Controller S is set to synchronization mode, and the output waveforms of the two controllers are completely synchronized.",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.66,
+          0.911,
+          0.693
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.072,
+          0.704,
+          0.931,
+          0.937
+        ],
+        "confidence": 0.96,
+        "image_alt": "框图内显示 Controller M 与 Controller S 两条输出波形示意。两条水平箭头轴上绘有正弦波，并用倾斜或错位的虚线箭头标示对应关系，表示未设置同步模式时两个控制器输出波形不同步。",
+        "caption": "Controller S is not set to synchronization mode, and the output waveforms of the two controllers are not synchronized.",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.961,
+          0.921,
+          0.984
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "notes": "本页为带文本层的说明书页面，不像纯扫描件。页面以文字说明为主，包含两幅波形同步/不同步对比示意图；背景有淡色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmtRuukdeDHTCBEdkaA0y3NiraN1G",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780545262,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.073, 0.052, 0.931, 0.076],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.151, 0.260, 0.173],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.178, 0.913, 0.247],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.256, 0.924, 0.326],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.343, 0.904, 0.394],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.072, 0.408, 0.931, 0.638],\n      \"confidence\": 0.96,\n      \"image_alt\": \"框图内显示 Controller M 与 Controller S 两条输出波形示意。两条水平箭头轴上绘有正弦波，并用竖向虚线箭头标示对应关系，表示同步模式下两个控制器输出波形完全同步。\",\n      \"caption\": \"Controller S is set to synchronization mode, and the output waveforms of the two controllers are completely synchronized.\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.660, 0.911, 0.693],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.072, 0.704, 0.931, 0.937],\n      \"confidence\": 0.96,\n      \"image_alt\": \"框图内显示 Controller M 与 Controller S 两条输出波形示意。两条水平箭头轴上绘有正弦波，并用倾斜或错位的虚线箭头标示对应关系，表示未设置同步模式时两个控制器输出波形不同步。\",\n      \"caption\": \"Controller S is not set to synchronization mode, and the output waveforms of the two controllers are not synchronized.\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.961, 0.921, 0.984],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为带文本层的说明书页面，不像纯扫描件。页面以文字说明为主，包含两幅波形同步/不同步对比示意图；背景有淡色 CUH 水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3740,
+      "completion_tokens": 1233,
+      "total_tokens": 4973,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

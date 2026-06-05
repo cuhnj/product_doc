@@ -1,0 +1,77 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 4,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T09:56:38",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=4。\n【目录/书签上下文（节选）】\n- 页 1（第 1 页）\n- 页 2（第 2 页）\n- 页 3（第 3 页）\n- 页 4（第 4 页）\n- 页 5（第 5 页）\n- 页 6（第 6 页）\n【文本层节选（可能为空或不完整；不得以文本层覆盖肉眼从图中读到的表格）】\nSDVC10\n调压振动送料控制器\n系列\n\nVariable Voltage Controller for Vibratory Feeder\n\n可以使用半波/全波开关，设定控制器的输出状态。\n\n第二步：调节控制器上的电压旋钮，设\n\n置合适的输出电压。\n\n第三步：打开控制器的电源开关，此\n\n时，保险丝指示灯和输出指示灯均点\n\n亮。\n\n在电源频率为50/60Hz情况下，如图（1）\n设为“全波”时，输出频率为1",
+  "assistant_text": "{\n  \"page_markdown\": \"SDVC10系列调压振动送料控制器  \\n*Variable Voltage Controller for Vibratory Feeder*\\n\\n| 操作步骤 | 示意图 |\\n|---|---|\\n| 第二步：调节控制器上的电压旋钮，设置合适的输出电压。<br><br>第三步：打开控制器的电源开关，此时，保险丝指示灯和输出指示灯均点亮。 | [[vcrop:4:0]] |\\n\\n## 全波/半波的调节方法\\n\\n可以使用半波/全波开关，设定控制器的输出状态。\\n\\n| 图示 | 说明 |\\n|---|---|\\n| [[vcrop:4:1]] | 在电源频率为50/60Hz情况下，如图（1）设为“全波”时，输出频率为100/120Hz。 |\\n| [[vcrop:4:2]] | 在电源频率为50/60Hz情况下，如图（2）设为“半波”时，输出频率为50/60Hz。 |\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [0.665, 0.170, 0.865, 0.505],\n      \"alt\": \"控制器电压旋钮与电源开关操作示意图\",\n      \"reason\": \"复杂设备插图及手势示意，需保留位图。\"\n    },\n    {\n      \"bbox_0_1\": [0.080, 0.680, 0.310, 0.790],\n      \"alt\": \"图（1）全波/半波开关设为全波示意\",\n      \"reason\": \"开关位置示意图需保留原始视觉形态。\"\n    },\n    {\n      \"bbox_0_1\": [0.080, 0.825, 0.310, 0.925],\n      \"alt\": \"图（2）全波/半波开关设为半波示意\",\n      \"reason\": \"开关位置示意图需保留原始视觉形态。\"\n    }\n  ],\n  \"notes\": \"页面清晰，底部开关示意以截图保留。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "SDVC10系列调压振动送料控制器  \n*Variable Voltage Controller for Vibratory Feeder*\n\n| 操作步骤 | 示意图 |\n|---|---|\n| 第二步：调节控制器上的电压旋钮，设置合适的输出电压。<br><br>第三步：打开控制器的电源开关，此时，保险丝指示灯和输出指示灯均点亮。 | [[vcrop:4:0]] |\n\n## 全波/半波的调节方法\n\n可以使用半波/全波开关，设定控制器的输出状态。\n\n| 图示 | 说明 |\n|---|---|\n| [[vcrop:4:1]] | 在电源频率为50/60Hz情况下，如图（1）设为“全波”时，输出频率为100/120Hz。 |\n| [[vcrop:4:2]] | 在电源频率为50/60Hz情况下，如图（2）设为“半波”时，输出频率为50/60Hz。 |",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.665,
+        0.17,
+        0.865,
+        0.505
+      ],
+      "alt": "控制器电压旋钮与电源开关操作示意图",
+      "reason": "复杂设备插图及手势示意，需保留位图。"
+    },
+    {
+      "bbox_0_1": [
+        0.08,
+        0.68,
+        0.31,
+        0.79
+      ],
+      "alt": "图（1）全波/半波开关设为全波示意",
+      "reason": "开关位置示意图需保留原始视觉形态。"
+    },
+    {
+      "bbox_0_1": [
+        0.08,
+        0.825,
+        0.31,
+        0.925
+      ],
+      "alt": "图（2）全波/半波开关设为半波示意",
+      "reason": "开关位置示意图需保留原始视觉形态。"
+    }
+  ],
+  "notes": "页面清晰，底部开关示意以截图保留。",
+  "raw": {
+    "id": "chatcmpl-DmrbdvtV99HIULFcLjyY6mKKSx45V",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780538177,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"SDVC10系列调压振动送料控制器  \\n*Variable Voltage Controller for Vibratory Feeder*\\n\\n| 操作步骤 | 示意图 |\\n|---|---|\\n| 第二步：调节控制器上的电压旋钮，设置合适的输出电压。<br><br>第三步：打开控制器的电源开关，此时，保险丝指示灯和输出指示灯均点亮。 | [[vcrop:4:0]] |\\n\\n## 全波/半波的调节方法\\n\\n可以使用半波/全波开关，设定控制器的输出状态。\\n\\n| 图示 | 说明 |\\n|---|---|\\n| [[vcrop:4:1]] | 在电源频率为50/60Hz情况下，如图（1）设为“全波”时，输出频率为100/120Hz。 |\\n| [[vcrop:4:2]] | 在电源频率为50/60Hz情况下，如图（2）设为“半波”时，输出频率为50/60Hz。 |\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [0.665, 0.170, 0.865, 0.505],\n      \"alt\": \"控制器电压旋钮与电源开关操作示意图\",\n      \"reason\": \"复杂设备插图及手势示意，需保留位图。\"\n    },\n    {\n      \"bbox_0_1\": [0.080, 0.680, 0.310, 0.790],\n      \"alt\": \"图（1）全波/半波开关设为全波示意\",\n      \"reason\": \"开关位置示意图需保留原始视觉形态。\"\n    },\n    {\n      \"bbox_0_1\": [0.080, 0.825, 0.310, 0.925],\n      \"alt\": \"图（2）全波/半波开关设为半波示意\",\n      \"reason\": \"开关位置示意图需保留原始视觉形态。\"\n    }\n  ],\n  \"notes\": \"页面清晰，底部开关示意以截图保留。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 1500,
+      "completion_tokens": 1551,
+      "total_tokens": 3051,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

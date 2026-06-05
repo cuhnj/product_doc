@@ -1,0 +1,107 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 16,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T12:00:46",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=16。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufactur",
+  "assistant_text": "{\n  \"page_markdown\": \"## 2.3 Vibration Sensor Installation Guide\\n\\nFix Vibration Sensor to the smooth surface of vibrator and Installation direction arbitrary, and installation methods of Vibration Sensor are shown as below:\\n\\n- **Method 1:** As shown in Fig. 2.3.1  \\n  Advantage: Easy installation\\n\\n  [[vcrop:16:0]]\\n\\n- **Method 2:** As shown in Fig. 2.3.2  \\n  Note: Don't make the vibration sensor pressed by feeding bowl.\\n\\n  [[vcrop:16:1]]\\n\\n- **Method 3:** weld a bracket on the vibrator and fix the vibration sensor on the bracket. As shown in Fig. 2.3.3  \\n  Recommended Dimensions of bracket of Vibration is shown in Fig.2.3.4.\\n\\n  [[vcrop:16:2]]\\n\\n  [[vcrop:16:3]]\\n\\n- **Not recommend installation method,** As shown in Fig. 2.3.5 and Fig. 2.3.6.  \\n  If the installation location is not suitable, the vibration sensor can't feedback the resonant frequency accurately and the controller will execute searching the resonant frequency all along.\\n\\n  [[vcrop:16:4]]\\n\\n  [[vcrop:16:5]]\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.640625,\n        0.217926,\n        0.927083,\n        0.342707\n      ],\n      \"alt\": \"Fig. 2.3.1 vibration sensor installation method 1\",\n      \"reason\": \"Line diagram showing recommended vibration sensor mounting position; best preserved as image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.635417,\n        0.361160,\n        0.927083,\n        0.487698\n      ],\n      \"alt\": \"Fig. 2.3.2 vibration sensor installation method 2\",\n      \"reason\": \"Line diagram showing recommended vibration sensor mounting position; best preserved as image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.287760,\n        0.520211,\n        0.627604,\n        0.650264\n      ],\n      \"alt\": \"Fig. 2.3.3 vibration sensor installed on welded bracket\",\n      \"reason\": \"Line diagram showing bracket installation on vibrator; best preserved as image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.645833,\n        0.515817,\n        0.925781,\n        0.652900\n      ],\n      \"alt\": \"Fig. 2.3.4 recommended bracket dimensions, unit mm\",\n      \"reason\": \"Dimensioned bracket drawing with small labels; best preserved as image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.143229,\n        0.789982,\n        0.471354,\n        0.929701\n      ],\n      \"alt\": \"Fig. 2.3.5 not recommended vibration sensor installation method\",\n      \"reason\": \"Line diagram with incorrect installation mark; best preserved as image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.514323,\n        0.789982,\n        0.881510,\n        0.929701\n      ],\n      \"alt\": \"Fig. 2.3.6 not recommended vibration sensor installation method\",\n      \"reason\": \"Line diagram with incorrect installation mark; best preserved as image.\"\n    }\n  ],\n  \"notes\": \"Page is clear; diagrams are line-art with small labels and are represented as cropped image placeholders.\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "## 2.3 Vibration Sensor Installation Guide\n\nFix Vibration Sensor to the smooth surface of vibrator and Installation direction arbitrary, and installation methods of Vibration Sensor are shown as below:\n\n- **Method 1:** As shown in Fig. 2.3.1  \n  Advantage: Easy installation\n\n  [[vcrop:16:0]]\n\n- **Method 2:** As shown in Fig. 2.3.2  \n  Note: Don't make the vibration sensor pressed by feeding bowl.\n\n  [[vcrop:16:1]]\n\n- **Method 3:** weld a bracket on the vibrator and fix the vibration sensor on the bracket. As shown in Fig. 2.3.3  \n  Recommended Dimensions of bracket of Vibration is shown in Fig.2.3.4.\n\n  [[vcrop:16:2]]\n\n  [[vcrop:16:3]]\n\n- **Not recommend installation method,** As shown in Fig. 2.3.5 and Fig. 2.3.6.  \n  If the installation location is not suitable, the vibration sensor can't feedback the resonant frequency accurately and the controller will execute searching the resonant frequency all along.\n\n  [[vcrop:16:4]]\n\n  [[vcrop:16:5]]",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.640625,
+        0.217926,
+        0.927083,
+        0.342707
+      ],
+      "alt": "Fig. 2.3.1 vibration sensor installation method 1",
+      "reason": "Line diagram showing recommended vibration sensor mounting position; best preserved as image."
+    },
+    {
+      "bbox_0_1": [
+        0.635417,
+        0.36116,
+        0.927083,
+        0.487698
+      ],
+      "alt": "Fig. 2.3.2 vibration sensor installation method 2",
+      "reason": "Line diagram showing recommended vibration sensor mounting position; best preserved as image."
+    },
+    {
+      "bbox_0_1": [
+        0.28776,
+        0.520211,
+        0.627604,
+        0.650264
+      ],
+      "alt": "Fig. 2.3.3 vibration sensor installed on welded bracket",
+      "reason": "Line diagram showing bracket installation on vibrator; best preserved as image."
+    },
+    {
+      "bbox_0_1": [
+        0.645833,
+        0.515817,
+        0.925781,
+        0.6529
+      ],
+      "alt": "Fig. 2.3.4 recommended bracket dimensions, unit mm",
+      "reason": "Dimensioned bracket drawing with small labels; best preserved as image."
+    },
+    {
+      "bbox_0_1": [
+        0.143229,
+        0.789982,
+        0.471354,
+        0.929701
+      ],
+      "alt": "Fig. 2.3.5 not recommended vibration sensor installation method",
+      "reason": "Line diagram with incorrect installation mark; best preserved as image."
+    },
+    {
+      "bbox_0_1": [
+        0.514323,
+        0.789982,
+        0.88151,
+        0.929701
+      ],
+      "alt": "Fig. 2.3.6 not recommended vibration sensor installation method",
+      "reason": "Line diagram with incorrect installation mark; best preserved as image."
+    }
+  ],
+  "notes": "Page is clear; diagrams are line-art with small labels and are represented as cropped image placeholders.",
+  "raw": {
+    "id": "chatcmpl-DmtXgJLineLDSuOvYQ7tmWWHmHKBH",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780545620,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"## 2.3 Vibration Sensor Installation Guide\\n\\nFix Vibration Sensor to the smooth surface of vibrator and Installation direction arbitrary, and installation methods of Vibration Sensor are shown as below:\\n\\n- **Method 1:** As shown in Fig. 2.3.1  \\n  Advantage: Easy installation\\n\\n  [[vcrop:16:0]]\\n\\n- **Method 2:** As shown in Fig. 2.3.2  \\n  Note: Don't make the vibration sensor pressed by feeding bowl.\\n\\n  [[vcrop:16:1]]\\n\\n- **Method 3:** weld a bracket on the vibrator and fix the vibration sensor on the bracket. As shown in Fig. 2.3.3  \\n  Recommended Dimensions of bracket of Vibration is shown in Fig.2.3.4.\\n\\n  [[vcrop:16:2]]\\n\\n  [[vcrop:16:3]]\\n\\n- **Not recommend installation method,** As shown in Fig. 2.3.5 and Fig. 2.3.6.  \\n  If the installation location is not suitable, the vibration sensor can't feedback the resonant frequency accurately and the controller will execute searching the resonant frequency all along.\\n\\n  [[vcrop:16:4]]\\n\\n  [[vcrop:16:5]]\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.640625,\n        0.217926,\n        0.927083,\n        0.342707\n      ],\n      \"alt\": \"Fig. 2.3.1 vibration sensor installation method 1\",\n      \"reason\": \"Line diagram showing recommended vibration sensor mounting position; best preserved as image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.635417,\n        0.361160,\n        0.927083,\n        0.487698\n      ],\n      \"alt\": \"Fig. 2.3.2 vibration sensor installation method 2\",\n      \"reason\": \"Line diagram showing recommended vibration sensor mounting position; best preserved as image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.287760,\n        0.520211,\n        0.627604,\n        0.650264\n      ],\n      \"alt\": \"Fig. 2.3.3 vibration sensor installed on welded bracket\",\n      \"reason\": \"Line diagram showing bracket installation on vibrator; best preserved as image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.645833,\n        0.515817,\n        0.925781,\n        0.652900\n      ],\n      \"alt\": \"Fig. 2.3.4 recommended bracket dimensions, unit mm\",\n      \"reason\": \"Dimensioned bracket drawing with small labels; best preserved as image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.143229,\n        0.789982,\n        0.471354,\n        0.929701\n      ],\n      \"alt\": \"Fig. 2.3.5 not recommended vibration sensor installation method\",\n      \"reason\": \"Line diagram with incorrect installation mark; best preserved as image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.514323,\n        0.789982,\n        0.881510,\n        0.929701\n      ],\n      \"alt\": \"Fig. 2.3.6 not recommended vibration sensor installation method\",\n      \"reason\": \"Line diagram with incorrect installation mark; best preserved as image.\"\n    }\n  ],\n  \"notes\": \"Page is clear; diagrams are line-art with small labels and are represented as cropped image placeholders.\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4021,
+      "completion_tokens": 1863,
+      "total_tokens": 5884,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

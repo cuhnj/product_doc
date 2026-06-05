@@ -1,0 +1,155 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 12,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T11:27:25",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=12。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 性能特点（第 9 页）\n- 第二章 安装指南（第 11 页）\n- 第三章 部件说明（第 13 页）\n  - 3.1 指示灯及按键说明（第 13 页）\n  - 3.2 外部部件说明（第 14 页）\n  - 3.3 信号接口定义（第 14 页）\n- 第四章 基本操作（第 15 页）\n  - 4.1 输出电压设定（第 15 页）\n  - 4.2 输出频率设定（第 16 页）\n  - 4.3 缓启动功能（第 17 页）\n  - 4.4 ",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.08, 0.05, 0.93, 0.075],\n      \"confidence\": 0.86,\n      \"text\": \"双路数字调压振动送料控制器 / SDVC22 系列\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.10, 0.18, 0.23, 0.205],\n      \"confidence\": 0.95,\n      \"text\": \"第三步:\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.215, 0.55, 0.26],\n      \"confidence\": 0.95,\n      \"text\": \"将输入电源线航空插头插入控制器电源输入插座，并锁紧螺母。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.08, 0.16, 0.93, 0.535],\n      \"confidence\": 0.9,\n      \"image_alt\": \"第三步安装示意图：左侧为带叉号的供电插座和电源线，右侧为控制器底部输入插座；箭头和标注提示“先插航空插头”，手指指向控制器上的航空插头连接位置。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.10, 0.58, 0.24, 0.605],\n      \"confidence\": 0.95,\n      \"text\": \"第四步:\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.615, 0.81, 0.64],\n      \"confidence\": 0.95,\n      \"text\": \"确认开关处于关闭位置后，将电源线三爪插头插在供电电源插座上。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.08, 0.56, 0.93, 0.935],\n      \"confidence\": 0.9,\n      \"image_alt\": \"第四步安装示意图：三爪电源插头插入供电电源插座，右侧有手指指向插头位置。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.955, 0.93, 0.98],\n      \"confidence\": 0.92,\n      \"text\": \"2024-04    - 4 -    SDVC22SMSCN_1.01\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为安装指南中的图文步骤页，包含第三步和第四步。页面以线框示意图为主，配有少量说明文字；文本层存在但节选不完整，背景有淡色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.08,
+          0.05,
+          0.93,
+          0.075
+        ],
+        "confidence": 0.86,
+        "text": "双路数字调压振动送料控制器 / SDVC22 系列",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.1,
+          0.18,
+          0.23,
+          0.205
+        ],
+        "confidence": 0.95,
+        "text": "第三步:",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.215,
+          0.55,
+          0.26
+        ],
+        "confidence": 0.95,
+        "text": "将输入电源线航空插头插入控制器电源输入插座，并锁紧螺母。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.08,
+          0.16,
+          0.93,
+          0.535
+        ],
+        "confidence": 0.9,
+        "image_alt": "第三步安装示意图：左侧为带叉号的供电插座和电源线，右侧为控制器底部输入插座；箭头和标注提示“先插航空插头”，手指指向控制器上的航空插头连接位置。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.1,
+          0.58,
+          0.24,
+          0.605
+        ],
+        "confidence": 0.95,
+        "text": "第四步:",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.615,
+          0.81,
+          0.64
+        ],
+        "confidence": 0.95,
+        "text": "确认开关处于关闭位置后，将电源线三爪插头插在供电电源插座上。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.08,
+          0.56,
+          0.93,
+          0.935
+        ],
+        "confidence": 0.9,
+        "image_alt": "第四步安装示意图：三爪电源插头插入供电电源插座，右侧有手指指向插头位置。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.955,
+          0.93,
+          0.98
+        ],
+        "confidence": 0.92,
+        "text": "2024-04    - 4 -    SDVC22SMSCN_1.01",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "notes": "本页为安装指南中的图文步骤页，包含第三步和第四步。页面以线框示意图为主，配有少量说明文字；文本层存在但节选不完整，背景有淡色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnFV701r93WhiKfXDjZOKxiun9kro",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780630029,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.08, 0.05, 0.93, 0.075],\n      \"confidence\": 0.86,\n      \"text\": \"双路数字调压振动送料控制器 / SDVC22 系列\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.10, 0.18, 0.23, 0.205],\n      \"confidence\": 0.95,\n      \"text\": \"第三步:\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.215, 0.55, 0.26],\n      \"confidence\": 0.95,\n      \"text\": \"将输入电源线航空插头插入控制器电源输入插座，并锁紧螺母。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.08, 0.16, 0.93, 0.535],\n      \"confidence\": 0.9,\n      \"image_alt\": \"第三步安装示意图：左侧为带叉号的供电插座和电源线，右侧为控制器底部输入插座；箭头和标注提示“先插航空插头”，手指指向控制器上的航空插头连接位置。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.10, 0.58, 0.24, 0.605],\n      \"confidence\": 0.95,\n      \"text\": \"第四步:\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.615, 0.81, 0.64],\n      \"confidence\": 0.95,\n      \"text\": \"确认开关处于关闭位置后，将电源线三爪插头插在供电电源插座上。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.08, 0.56, 0.93, 0.935],\n      \"confidence\": 0.9,\n      \"image_alt\": \"第四步安装示意图：三爪电源插头插入供电电源插座，右侧有手指指向插头位置。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.955, 0.93, 0.98],\n      \"confidence\": 0.92,\n      \"text\": \"2024-04    - 4 -    SDVC22SMSCN_1.01\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为安装指南中的图文步骤页，包含第三步和第四步。页面以线框示意图为主，配有少量说明文字；文本层存在但节选不完整，背景有淡色 CUH 水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2545,
+      "completion_tokens": 1248,
+      "total_tokens": 3793,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

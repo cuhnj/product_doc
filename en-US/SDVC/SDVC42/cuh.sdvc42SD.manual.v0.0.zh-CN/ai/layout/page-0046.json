@@ -1,0 +1,195 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 46,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:10:31",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=46。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.932, 0.075],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.127, 0.37, 0.148],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.158, 0.842, 0.189],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.206, 0.445, 0.226],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.237, 0.89, 0.268],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.277, 0.91, 0.381],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.22, 0.397, 0.73, 0.547],\n      \"confidence\": 0.97,\n      \"caption\": null\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.576, 0.366, 0.596],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.608, 0.882, 0.637],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.648, 0.905, 0.736],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.22, 0.752, 0.73, 0.932],\n      \"confidence\": 0.97,\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.932, 0.976],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],\n  \"notes\": \"本页为可文本识别的说明书页面，不是纯扫描件。页面以文字说明和两张参数含义表为主，无设备图片或流程图；背景有浅色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.052,
+          0.932,
+          0.075
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.127,
+          0.37,
+          0.148
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.158,
+          0.842,
+          0.189
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.206,
+          0.445,
+          0.226
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.237,
+          0.89,
+          0.268
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.277,
+          0.91,
+          0.381
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.22,
+          0.397,
+          0.73,
+          0.547
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.576,
+          0.366,
+          0.596
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.608,
+          0.882,
+          0.637
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.648,
+          0.905,
+          0.736
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.22,
+          0.752,
+          0.73,
+          0.932
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.953,
+          0.932,
+          0.976
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "notes": "本页为可文本识别的说明书页面，不是纯扫描件。页面以文字说明和两张参数含义表为主，无设备图片或流程图；背景有浅色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmslDA2eRNqFBj8T32Q5a9ibzHCms",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780542615,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.932, 0.075],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.127, 0.37, 0.148],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.158, 0.842, 0.189],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.206, 0.445, 0.226],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.237, 0.89, 0.268],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.277, 0.91, 0.381],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.22, 0.397, 0.73, 0.547],\n      \"confidence\": 0.97,\n      \"caption\": null\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.576, 0.366, 0.596],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.608, 0.882, 0.637],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.648, 0.905, 0.736],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.22, 0.752, 0.73, 0.932],\n      \"confidence\": 0.97,\n      \"caption\": null\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.932, 0.976],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],\n  \"notes\": \"本页为可文本识别的说明书页面，不是纯扫描件。页面以文字说明和两张参数含义表为主，无设备图片或流程图；背景有浅色 CUH 水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3877,
+      "completion_tokens": 1212,
+      "total_tokens": 5089,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

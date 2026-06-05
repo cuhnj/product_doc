@@ -1,0 +1,168 @@
+{
+  "doc_id": "cuh.sdvc.manual.v8.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v8.01",
+  "lang": "zh-CN",
+  "page_index": 2,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T01:26:17",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v8.01.zh-CN，页码=2。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 目录（第 3 页）\n- 4: 目录2（第 4 页）\n- 5: SDVC10-S（第 5 页）\n- 6: SDVC11-S（第 6 页）\n- 7: SDVC11-M（第 7 页）\n- 8: SDVC14-S（第 8 页）\n- 9: SDVC20-S（第 9 页）\n- 10: SDVC20-L（第 10 页）\n- 11: SDVC20-XL（第 11 页）\n- 12: SDVC201-L（第 12 页）\n- 13: SDVC20-U（第 13 页）\n- 14: SDVC21-S（第 14 页）\n- 15: SDVC21LP（第 15 页）\n- 16: SDVC21XLP（第 16 页）\n- 17: SDVC212（",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.088, 0.045, 0.248, 0.078],\n      \"confidence\": 0.96,\n      \"text\": \"企业介绍\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.128, 0.102, 0.910, 0.174],\n      \"confidence\": 0.90,\n      \"text\": \"公司介绍段落，说明南京创优科技有限责任公司自2003年创始以来从事智能振动送料控制系统的自主研发、生产和销售，以及产品线覆盖范围。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.088, 0.228, 0.252, 0.262],\n      \"confidence\": 0.97,\n      \"text\": \"技术引领\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.128, 0.278, 0.910, 0.323],\n      \"confidence\": 0.89,\n      \"text\": \"技术引领说明段落，提到研发投入、创新驱动、自主研发稳速技术、无振动传感器稳速技术、全面保护技术等。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.094, 0.383, 0.376, 0.573],\n      \"confidence\": 0.92,\n      \"text\": \"技术项目符号列表：自动稳速技术、无振动传感器稳速技术、自适应控制技术、自传感技术、振动控制技术、矢量振动驱动技术、智能分选技术、全面保护技术。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.542, 0.396, 0.923, 0.565],\n      \"confidence\": 0.93,\n      \"image_alt\": \"一名工作人员坐在多屏幕监控/控制台前操作设备，屏幕显示曲线和监控界面。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.090, 0.630, 0.205, 0.654],\n      \"confidence\": 0.95,\n      \"text\": \"企业荣誉\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.092, 0.670, 0.525, 0.910],\n      \"confidence\": 0.92,\n      \"text\": \"企业荣誉项目符号列表，列出国家级高新技术企业、国家级科技中小型企业、国家级专精特新“小巨人”企业等荣誉或单位身份。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.588, 0.630, 0.922, 0.963],\n      \"confidence\": 0.94,\n      \"image_alt\": \"多张金色证书或牌匾的拼图，展示企业荣誉证书、会员证、研究生工作站等相关荣誉。\",\n      \"caption\": null\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为“封二”企业介绍页。文本层为空或过少，但页面视觉上为清晰的图文排版，需依赖OCR识别文字；不是典型拍照扫描件。页面以文字说明、项目符号列表和两处图片/证书拼图混排为主。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.088,
+          0.045,
+          0.248,
+          0.078
+        ],
+        "confidence": 0.96,
+        "text": "企业介绍",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.128,
+          0.102,
+          0.91,
+          0.174
+        ],
+        "confidence": 0.9,
+        "text": "公司介绍段落，说明南京创优科技有限责任公司自2003年创始以来从事智能振动送料控制系统的自主研发、生产和销售，以及产品线覆盖范围。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.088,
+          0.228,
+          0.252,
+          0.262
+        ],
+        "confidence": 0.97,
+        "text": "技术引领",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.128,
+          0.278,
+          0.91,
+          0.323
+        ],
+        "confidence": 0.89,
+        "text": "技术引领说明段落，提到研发投入、创新驱动、自主研发稳速技术、无振动传感器稳速技术、全面保护技术等。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.094,
+          0.383,
+          0.376,
+          0.573
+        ],
+        "confidence": 0.92,
+        "text": "技术项目符号列表：自动稳速技术、无振动传感器稳速技术、自适应控制技术、自传感技术、振动控制技术、矢量振动驱动技术、智能分选技术、全面保护技术。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.542,
+          0.396,
+          0.923,
+          0.565
+        ],
+        "confidence": 0.93,
+        "image_alt": "一名工作人员坐在多屏幕监控/控制台前操作设备，屏幕显示曲线和监控界面。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.09,
+          0.63,
+          0.205,
+          0.654
+        ],
+        "confidence": 0.95,
+        "text": "企业荣誉",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.092,
+          0.67,
+          0.525,
+          0.91
+        ],
+        "confidence": 0.92,
+        "text": "企业荣誉项目符号列表，列出国家级高新技术企业、国家级科技中小型企业、国家级专精特新“小巨人”企业等荣誉或单位身份。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.588,
+          0.63,
+          0.922,
+          0.963
+        ],
+        "confidence": 0.94,
+        "image_alt": "多张金色证书或牌匾的拼图，展示企业荣誉证书、会员证、研究生工作站等相关荣誉。",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "notes": "本页为“封二”企业介绍页。文本层为空或过少，但页面视觉上为清晰的图文排版，需依赖OCR识别文字；不是典型拍照扫描件。页面以文字说明、项目符号列表和两处图片/证书拼图混排为主。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-Dmjdl5kmJkETJjFONnErclSOfEKJ5",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780507557,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.088, 0.045, 0.248, 0.078],\n      \"confidence\": 0.96,\n      \"text\": \"企业介绍\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.128, 0.102, 0.910, 0.174],\n      \"confidence\": 0.90,\n      \"text\": \"公司介绍段落，说明南京创优科技有限责任公司自2003年创始以来从事智能振动送料控制系统的自主研发、生产和销售，以及产品线覆盖范围。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.088, 0.228, 0.252, 0.262],\n      \"confidence\": 0.97,\n      \"text\": \"技术引领\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.128, 0.278, 0.910, 0.323],\n      \"confidence\": 0.89,\n      \"text\": \"技术引领说明段落，提到研发投入、创新驱动、自主研发稳速技术、无振动传感器稳速技术、全面保护技术等。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.094, 0.383, 0.376, 0.573],\n      \"confidence\": 0.92,\n      \"text\": \"技术项目符号列表：自动稳速技术、无振动传感器稳速技术、自适应控制技术、自传感技术、振动控制技术、矢量振动驱动技术、智能分选技术、全面保护技术。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.542, 0.396, 0.923, 0.565],\n      \"confidence\": 0.93,\n      \"image_alt\": \"一名工作人员坐在多屏幕监控/控制台前操作设备，屏幕显示曲线和监控界面。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.090, 0.630, 0.205, 0.654],\n      \"confidence\": 0.95,\n      \"text\": \"企业荣誉\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.092, 0.670, 0.525, 0.910],\n      \"confidence\": 0.92,\n      \"text\": \"企业荣誉项目符号列表，列出国家级高新技术企业、国家级科技中小型企业、国家级专精特新“小巨人”企业等荣誉或单位身份。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.588, 0.630, 0.922, 0.963],\n      \"confidence\": 0.94,\n      \"image_alt\": \"多张金色证书或牌匾的拼图，展示企业荣誉证书、会员证、研究生工作站等相关荣誉。\",\n      \"caption\": null\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为“封二”企业介绍页。文本层为空或过少，但页面视觉上为清晰的图文排版，需依赖OCR识别文字；不是典型拍照扫描件。页面以文字说明、项目符号列表和两处图片/证书拼图混排为主。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2030,
+      "completion_tokens": 1379,
+      "total_tokens": 3409,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

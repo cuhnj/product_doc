@@ -1,0 +1,204 @@
+{
+  "doc_id": "cuh.sdvc40.manual.v4.01.zh-CN",
+  "doc_key": "cuh.sdvc40.manual.v4.01",
+  "lang": "zh-CN",
+  "page_index": 13,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T01:09:30",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc40.manual.v4.01.zh-CN，页码=13。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 7: 目录（第 7 页）\n- 目录2（第 8 页）\n- 第一章 性能特点（第 9 页）\n- 第二章 快速安装及使用指南（第 11 页）\n- 第三章 部件说明（第 15 页）\n- 第四章 功能说明（第 17 页）\n  - 4.1 输出电压设定（第 17 页）\n  - 4.2 输出频率设定（第 18 页）\n  - 4.3 缓启动功能（第 19 页）\n  - 4.4 输出开关（第 19 页）\n  - 4.5 最大输出电压限制功能（第 20 页）\n  - 4.6 键盘锁定功能（第 21 页）\n  - 4.7 开机运行",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.070, 0.052, 0.930, 0.076],\n      \"confidence\": 0.95,\n      \"caption\": \"页眉：左侧为“数字调频压电振动送料控制器”，右侧为“SDVC40 系列”，下方有横线\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.100, 0.190, 0.245, 0.220],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.100, 0.232, 0.360, 0.266],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.495, 0.190, 0.835, 0.415],\n      \"confidence\": 0.96,\n      \"image_alt\": \"第五步的控制器面板操作示意图，面板显示 U 和数值 30，右侧有手指指向上下调节按键；图中标注“U 表示输出电压”和“电压指示灯”。\",\n      \"caption\": \"第五步：输出电压 U 调整示意\"\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.070, 0.160, 0.935, 0.445],\n      \"confidence\": 0.82,\n      \"caption\": \"上半页带圆角边框的内容框，包含第五步文字说明和操作示意图\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.100, 0.485, 0.245, 0.516],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.100, 0.528, 0.420, 0.645],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.495, 0.520, 0.835, 0.740],\n      \"confidence\": 0.96,\n      \"image_alt\": \"第六步的控制器面板操作示意图，面板显示 E 和数值 50，右侧有手指指向功能键附近的上下调节区域；图中标注“E 表示输出频率”和“频率指示灯”。\",\n      \"caption\": \"第六步：输出频率 E 调整示意\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.125, 0.750, 0.175, 0.790],\n      \"confidence\": 0.90,\n      \"image_alt\": \"提示框左上方的笑脸提示图标\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.100, 0.780, 0.905, 0.870],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.070, 0.462, 0.935, 0.895],\n      \"confidence\": 0.85,\n      \"caption\": \"下半页带圆角边框的内容框，包含第六步文字说明、操作示意图和底部提示说明\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.070, 0.972, 0.930, 0.996],\n      \"confidence\": 0.95,\n      \"caption\": \"页脚：左侧日期“2024-03”，中间页码“- 5 -”，右侧文档号“SDVC40SMSCN_4.01”，上方有横线\"\n    }\n  ],\n  \"reading_order\": [0, 4, 1, 2, 3, 10, 5, 6, 7, 8, 9, 11],\n  \"notes\": \"本页为说明书排版页，非纯扫描件；页面以操作步骤文字和控制器面板示意图为主。背景有浅色 CUH 水印。主要内容是快速安装及使用指南中的第五步和第六步，说明输出电压 U、输出频率 E 的调整，以及振动体固有频率/谐振点提示。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.052,
+          0.93,
+          0.076
+        ],
+        "confidence": 0.95,
+        "caption": "页眉：左侧为“数字调频压电振动送料控制器”，右侧为“SDVC40 系列”，下方有横线",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.1,
+          0.19,
+          0.245,
+          0.22
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.232,
+          0.36,
+          0.266
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.495,
+          0.19,
+          0.835,
+          0.415
+        ],
+        "confidence": 0.96,
+        "image_alt": "第五步的控制器面板操作示意图，面板显示 U 和数值 30，右侧有手指指向上下调节按键；图中标注“U 表示输出电压”和“电压指示灯”。",
+        "caption": "第五步：输出电压 U 调整示意",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.07,
+          0.16,
+          0.935,
+          0.445
+        ],
+        "confidence": 0.82,
+        "caption": "上半页带圆角边框的内容框，包含第五步文字说明和操作示意图",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.1,
+          0.485,
+          0.245,
+          0.516
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.528,
+          0.42,
+          0.645
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.495,
+          0.52,
+          0.835,
+          0.74
+        ],
+        "confidence": 0.96,
+        "image_alt": "第六步的控制器面板操作示意图，面板显示 E 和数值 50，右侧有手指指向功能键附近的上下调节区域；图中标注“E 表示输出频率”和“频率指示灯”。",
+        "caption": "第六步：输出频率 E 调整示意",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.125,
+          0.75,
+          0.175,
+          0.79
+        ],
+        "confidence": 0.9,
+        "image_alt": "提示框左上方的笑脸提示图标",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.78,
+          0.905,
+          0.87
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.07,
+          0.462,
+          0.935,
+          0.895
+        ],
+        "confidence": 0.85,
+        "caption": "下半页带圆角边框的内容框，包含第六步文字说明、操作示意图和底部提示说明",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.972,
+          0.93,
+          0.996
+        ],
+        "confidence": 0.95,
+        "caption": "页脚：左侧日期“2024-03”，中间页码“- 5 -”，右侧文档号“SDVC40SMSCN_4.01”，上方有横线",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      4,
+      1,
+      2,
+      3,
+      10,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11
+    ],
+    "notes": "本页为说明书排版页，非纯扫描件；页面以操作步骤文字和控制器面板示意图为主。背景有浅色 CUH 水印。主要内容是快速安装及使用指南中的第五步和第六步，说明输出电压 U、输出频率 E 的调整，以及振动体固有频率/谐振点提示。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmjNX6wpZbQ8b0FrVvvnrG1xn7Crg",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780506551,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.070, 0.052, 0.930, 0.076],\n      \"confidence\": 0.95,\n      \"caption\": \"页眉：左侧为“数字调频压电振动送料控制器”，右侧为“SDVC40 系列”，下方有横线\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.100, 0.190, 0.245, 0.220],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.100, 0.232, 0.360, 0.266],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.495, 0.190, 0.835, 0.415],\n      \"confidence\": 0.96,\n      \"image_alt\": \"第五步的控制器面板操作示意图，面板显示 U 和数值 30，右侧有手指指向上下调节按键；图中标注“U 表示输出电压”和“电压指示灯”。\",\n      \"caption\": \"第五步：输出电压 U 调整示意\"\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.070, 0.160, 0.935, 0.445],\n      \"confidence\": 0.82,\n      \"caption\": \"上半页带圆角边框的内容框，包含第五步文字说明和操作示意图\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.100, 0.485, 0.245, 0.516],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.100, 0.528, 0.420, 0.645],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.495, 0.520, 0.835, 0.740],\n      \"confidence\": 0.96,\n      \"image_alt\": \"第六步的控制器面板操作示意图，面板显示 E 和数值 50，右侧有手指指向功能键附近的上下调节区域；图中标注“E 表示输出频率”和“频率指示灯”。\",\n      \"caption\": \"第六步：输出频率 E 调整示意\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.125, 0.750, 0.175, 0.790],\n      \"confidence\": 0.90,\n      \"image_alt\": \"提示框左上方的笑脸提示图标\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.100, 0.780, 0.905, 0.870],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.070, 0.462, 0.935, 0.895],\n      \"confidence\": 0.85,\n      \"caption\": \"下半页带圆角边框的内容框，包含第六步文字说明、操作示意图和底部提示说明\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.070, 0.972, 0.930, 0.996],\n      \"confidence\": 0.95,\n      \"caption\": \"页脚：左侧日期“2024-03”，中间页码“- 5 -”，右侧文档号“SDVC40SMSCN_4.01”，上方有横线\"\n    }\n  ],\n  \"reading_order\": [0, 4, 1, 2, 3, 10, 5, 6, 7, 8, 9, 11],\n  \"notes\": \"本页为说明书排版页，非纯扫描件；页面以操作步骤文字和控制器面板示意图为主。背景有浅色 CUH 水印。主要内容是快速安装及使用指南中的第五步和第六步，说明输出电压 U、输出频率 E 的调整，以及振动体固有频率/谐振点提示。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2432,
+      "completion_tokens": 1564,
+      "total_tokens": 3996,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

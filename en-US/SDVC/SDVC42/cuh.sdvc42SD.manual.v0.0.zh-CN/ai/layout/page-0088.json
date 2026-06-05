@@ -1,0 +1,135 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 88,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:12:00",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=88。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.073,\n        0.152,\n        0.326,\n        0.175\n      ],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.075,\n        0.182,\n        0.927,\n        0.296\n      ],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.078,\n        0.313,\n        0.333,\n        0.333\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [\n        0.072,\n        0.342,\n        0.932,\n        0.832\n      ],\n      \"confidence\": 0.99,\n      \"caption\": \"Error Code Table\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.052,\n        0.932,\n        0.073\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.952,\n        0.932,\n        0.974\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [\n        0.0,\n        0.0,\n        1.0,\n        1.0\n      ],\n      \"confidence\": 0.45\n    }\n  ],\n  \"reading_order\": [\n    4,\n    0,\n    1,\n    2,\n    3,\n    5\n  ],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面主体为“7.6 Error Code”章节，包含说明段落和错误代码表；背景有浅色 CUH 水印，不属于主要内容。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.152,
+          0.326,
+          0.175
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.075,
+          0.182,
+          0.927,
+          0.296
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.078,
+          0.313,
+          0.333,
+          0.333
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.072,
+          0.342,
+          0.932,
+          0.832
+        ],
+        "confidence": 0.99,
+        "caption": "Error Code Table",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.052,
+          0.932,
+          0.073
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.952,
+          0.932,
+          0.974
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "confidence": 0.45,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      4,
+      0,
+      1,
+      2,
+      3,
+      5
+    ],
+    "notes": "本页为带文本层的说明书页面，不是纯扫描件。页面主体为“7.6 Error Code”章节，包含说明段落和错误代码表；背景有浅色 CUH 水印，不属于主要内容。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmsmfCZvsEBZhe1r5kq9mN1GTs51g",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780542705,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.073,\n        0.152,\n        0.326,\n        0.175\n      ],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.075,\n        0.182,\n        0.927,\n        0.296\n      ],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.078,\n        0.313,\n        0.333,\n        0.333\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [\n        0.072,\n        0.342,\n        0.932,\n        0.832\n      ],\n      \"confidence\": 0.99,\n      \"caption\": \"Error Code Table\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.052,\n        0.932,\n        0.073\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.952,\n        0.932,\n        0.974\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [\n        0.0,\n        0.0,\n        1.0,\n        1.0\n      ],\n      \"confidence\": 0.45\n    }\n  ],\n  \"reading_order\": [\n    4,\n    0,\n    1,\n    2,\n    3,\n    5\n  ],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面主体为“7.6 Error Code”章节，包含说明段落和错误代码表；背景有浅色 CUH 水印，不属于主要内容。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4001,
+      "completion_tokens": 1013,
+      "total_tokens": 5014,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

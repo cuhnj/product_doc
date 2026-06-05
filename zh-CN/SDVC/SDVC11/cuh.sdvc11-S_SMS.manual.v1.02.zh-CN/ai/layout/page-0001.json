@@ -1,0 +1,227 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 1,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T09:12:29",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=1。\n\n【目录/书签上下文（节选）】\n- 页面 1（第 1 页）\n\n【文本层节选（可能为空或不完整）】\n电压(V)\n0\n\n50\n\n100\n\n0\n15\n\n2 0\n0\n\n5\n2 0\n\n开/关\n\n半波\n\n全波\n\n数字稳压振动送料控制器\n\nVoltag\n\nHalf\n\nAll\n\nON/OFF\n\nDigital voltage stabiliziag vibration feeder controller\n\n电压\n\n100\n\n开/关\n\n半波\n\n全波\n\nVoltage\n\nHalf\n\nFull\n\nON/OFF\n\n(V)\n0\n\n50\n\n1 0\n5\n\n2 0\n0\n\n250\n\n电压\n\n100\n\nVolt age(V)\n0\n\n50\n\n150\n\n200\n\n250\n\n项目\n\n范围\n\n单位 \n说明 \n最小值 \n典型值 \n最大值\n\n输入电压 \n150",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.014, 0.033, 0.284, 0.061],\n      \"confidence\": 0.83\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.014, 0.072, 0.345, 0.455],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.346, 0.043, 0.445, 0.072],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.359, 0.072, 0.638, 0.465],\n      \"confidence\": 0.95,\n      \"caption\": \"产品电气规格\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.548, 0.468, 0.645, 0.489],\n      \"confidence\": 0.75\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.667, 0.001, 0.999, 0.497],\n      \"confidence\": 0.92,\n      \"image_alt\": \"右上为产品封面式区域，包含 CUH 标识、SDVC11S 数字稳压振动送料控制器标题、控制器正面示意图和型号文字。\",\n      \"caption\": \"型号：SDVC11S\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.015, 0.516, 0.334, 0.555],\n      \"confidence\": 0.82\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.015, 0.564, 0.326, 0.794],\n      \"confidence\": 0.9,\n      \"image_alt\": \"数字稳压振动送料控制器外部部件说明，两幅控制器正面示意图标注电压旋钮、电源开关、半波/全波开关、接线柱和保险丝盒。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.015, 0.802, 0.326, 0.981],\n      \"confidence\": 0.88,\n      \"image_alt\": \"使用方法第一步示意图，展示打开控制器接线舱的操作。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.352, 0.529, 0.626, 0.589],\n      \"confidence\": 0.83\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.342, 0.531, 0.657, 0.981],\n      \"confidence\": 0.93,\n      \"image_alt\": \"第二步接线示意图，显示控制器接线端子与振动盘、电源插头之间的连接，端子标注包括安全地、输出电源、电源输入等。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.678, 0.530, 0.984, 0.739],\n      \"confidence\": 0.9,\n      \"image_alt\": \"第三步和第四步操作示意，文字说明使用电压旋钮设置输出电压，并打开控制器电源开关；旁边有手指指向旋钮和电源开关的控制器图。\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.678, 0.763, 0.984, 0.944],\n      \"confidence\": 0.82,\n      \"caption\": \"全波/半波的调节方法\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.678, 0.957, 0.984, 0.986],\n      \"confidence\": 0.78\n    }\n  ],\n  \"reading_order\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],\n  \"notes\": \"本页看起来不是纯扫描件，而是由可识别文字、表格、矢量线框和产品示意图组成的说明书页面。页面为横向多栏/多面板排版，图示和表格占比较高；上半部分包含产品特点、产品电气规格表和封面式产品图，下半部分主要为外部说明、接线和使用步骤图示。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.014,
+          0.033,
+          0.284,
+          0.061
+        ],
+        "confidence": 0.83,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.014,
+          0.072,
+          0.345,
+          0.455
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.346,
+          0.043,
+          0.445,
+          0.072
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.359,
+          0.072,
+          0.638,
+          0.465
+        ],
+        "confidence": 0.95,
+        "caption": "产品电气规格",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.548,
+          0.468,
+          0.645,
+          0.489
+        ],
+        "confidence": 0.75,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.667,
+          0.001,
+          0.999,
+          0.497
+        ],
+        "confidence": 0.92,
+        "image_alt": "右上为产品封面式区域，包含 CUH 标识、SDVC11S 数字稳压振动送料控制器标题、控制器正面示意图和型号文字。",
+        "caption": "型号：SDVC11S",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.015,
+          0.516,
+          0.334,
+          0.555
+        ],
+        "confidence": 0.82,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.015,
+          0.564,
+          0.326,
+          0.794
+        ],
+        "confidence": 0.9,
+        "image_alt": "数字稳压振动送料控制器外部部件说明，两幅控制器正面示意图标注电压旋钮、电源开关、半波/全波开关、接线柱和保险丝盒。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.015,
+          0.802,
+          0.326,
+          0.981
+        ],
+        "confidence": 0.88,
+        "image_alt": "使用方法第一步示意图，展示打开控制器接线舱的操作。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.352,
+          0.529,
+          0.626,
+          0.589
+        ],
+        "confidence": 0.83,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.342,
+          0.531,
+          0.657,
+          0.981
+        ],
+        "confidence": 0.93,
+        "image_alt": "第二步接线示意图，显示控制器接线端子与振动盘、电源插头之间的连接，端子标注包括安全地、输出电源、电源输入等。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.678,
+          0.53,
+          0.984,
+          0.739
+        ],
+        "confidence": 0.9,
+        "image_alt": "第三步和第四步操作示意，文字说明使用电压旋钮设置输出电压，并打开控制器电源开关；旁边有手指指向旋钮和电源开关的控制器图。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.678,
+          0.763,
+          0.984,
+          0.944
+        ],
+        "confidence": 0.82,
+        "caption": "全波/半波的调节方法",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.678,
+          0.957,
+          0.984,
+          0.986
+        ],
+        "confidence": 0.78,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "notes": "本页看起来不是纯扫描件，而是由可识别文字、表格、矢量线框和产品示意图组成的说明书页面。页面为横向多栏/多面板排版，图示和表格占比较高；上半部分包含产品特点、产品电气规格表和封面式产品图，下半部分主要为外部说明、接线和使用步骤图示。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnDOXUYAHrxW1FfnSyIBNF67wD11J",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780621933,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.014, 0.033, 0.284, 0.061],\n      \"confidence\": 0.83\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.014, 0.072, 0.345, 0.455],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.346, 0.043, 0.445, 0.072],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.359, 0.072, 0.638, 0.465],\n      \"confidence\": 0.95,\n      \"caption\": \"产品电气规格\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.548, 0.468, 0.645, 0.489],\n      \"confidence\": 0.75\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.667, 0.001, 0.999, 0.497],\n      \"confidence\": 0.92,\n      \"image_alt\": \"右上为产品封面式区域，包含 CUH 标识、SDVC11S 数字稳压振动送料控制器标题、控制器正面示意图和型号文字。\",\n      \"caption\": \"型号：SDVC11S\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.015, 0.516, 0.334, 0.555],\n      \"confidence\": 0.82\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.015, 0.564, 0.326, 0.794],\n      \"confidence\": 0.9,\n      \"image_alt\": \"数字稳压振动送料控制器外部部件说明，两幅控制器正面示意图标注电压旋钮、电源开关、半波/全波开关、接线柱和保险丝盒。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.015, 0.802, 0.326, 0.981],\n      \"confidence\": 0.88,\n      \"image_alt\": \"使用方法第一步示意图，展示打开控制器接线舱的操作。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.352, 0.529, 0.626, 0.589],\n      \"confidence\": 0.83\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.342, 0.531, 0.657, 0.981],\n      \"confidence\": 0.93,\n      \"image_alt\": \"第二步接线示意图，显示控制器接线端子与振动盘、电源插头之间的连接，端子标注包括安全地、输出电源、电源输入等。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.678, 0.530, 0.984, 0.739],\n      \"confidence\": 0.9,\n      \"image_alt\": \"第三步和第四步操作示意，文字说明使用电压旋钮设置输出电压，并打开控制器电源开关；旁边有手指指向旋钮和电源开关的控制器图。\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.678, 0.763, 0.984, 0.944],\n      \"confidence\": 0.82,\n      \"caption\": \"全波/半波的调节方法\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.678, 0.957, 0.984, 0.986],\n      \"confidence\": 0.78\n    }\n  ],\n  \"reading_order\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],\n  \"notes\": \"本页看起来不是纯扫描件，而是由可识别文字、表格、矢量线框和产品示意图组成的说明书页面。页面为横向多栏/多面板排版，图示和表格占比较高；上半部分包含产品特点、产品电气规格表和封面式产品图，下半部分主要为外部说明、接线和使用步骤图示。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 1730,
+      "completion_tokens": 1619,
+      "total_tokens": 3349,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

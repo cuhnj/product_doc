@@ -1,0 +1,149 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 28,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T11:27:54",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=28。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 性能特点（第 9 页）\n- 第二章 安装指南（第 11 页）\n- 第三章 部件说明（第 13 页）\n  - 3.1 指示灯及按键说明（第 13 页）\n  - 3.2 外部部件说明（第 14 页）\n  - 3.3 信号接口定义（第 14 页）\n- 第四章 基本操作（第 15 页）\n  - 4.1 输出电压设定（第 15 页）\n  - 4.2 输出频率设定（第 16 页）\n  - 4.3 缓启动功能（第 17 页）\n  - 4.4 ",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"header\",\n      \"bbox_0_1\": [0.07, 0.05, 0.93, 0.075],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.158, 0.58, 0.182],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.07, 0.197, 0.93, 0.283],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.392, 0.45, 0.585],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.43, 0.333, 0.93, 0.487],\n      \"confidence\": 0.91,\n      \"image_alt\": \"第二个开关传感器逻辑方向设置为“常通”的操作示意：左侧有Γ3参数说明和指向线，右侧为SDVC22-L控制器面板示意图，旁注“常通”，下方说明出厂默认状态为“常通”。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.63, 0.527, 0.93, 0.657],\n      \"confidence\": 0.89,\n      \"image_alt\": \"第二个开关传感器逻辑方向设置为“常断”的控制器面板示意图，右侧标注“常断”。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.115, 0.728, 0.885, 0.848],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.953, 0.93, 0.978],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的PDF渲染页，背景有浅色CUH水印。页面以文字说明为主，配有两幅控制器面板示意图，用于说明“第二个开关传感器逻辑方向设定”的常通与常断状态。页脚显示日期、印刷页码“-20-”和文档编号。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "header",
+        "bbox_0_1": [
+          0.07,
+          0.05,
+          0.93,
+          0.075
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.158,
+          0.58,
+          0.182
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.07,
+          0.197,
+          0.93,
+          0.283
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.392,
+          0.45,
+          0.585
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.43,
+          0.333,
+          0.93,
+          0.487
+        ],
+        "confidence": 0.91,
+        "image_alt": "第二个开关传感器逻辑方向设置为“常通”的操作示意：左侧有Γ3参数说明和指向线，右侧为SDVC22-L控制器面板示意图，旁注“常通”，下方说明出厂默认状态为“常通”。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.63,
+          0.527,
+          0.93,
+          0.657
+        ],
+        "confidence": 0.89,
+        "image_alt": "第二个开关传感器逻辑方向设置为“常断”的控制器面板示意图，右侧标注“常断”。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.115,
+          0.728,
+          0.885,
+          0.848
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.953,
+          0.93,
+          0.978
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "notes": "本页为带文本层的PDF渲染页，背景有浅色CUH水印。页面以文字说明为主，配有两幅控制器面板示意图，用于说明“第二个开关传感器逻辑方向设定”的常通与常断状态。页脚显示日期、印刷页码“-20-”和文档编号。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnFVSNfhQrwP2Ieztysvnl1dBAS3l",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780630050,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"header\",\n      \"bbox_0_1\": [0.07, 0.05, 0.93, 0.075],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.158, 0.58, 0.182],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.07, 0.197, 0.93, 0.283],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.392, 0.45, 0.585],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.43, 0.333, 0.93, 0.487],\n      \"confidence\": 0.91,\n      \"image_alt\": \"第二个开关传感器逻辑方向设置为“常通”的操作示意：左侧有Γ3参数说明和指向线，右侧为SDVC22-L控制器面板示意图，旁注“常通”，下方说明出厂默认状态为“常通”。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.63, 0.527, 0.93, 0.657],\n      \"confidence\": 0.89,\n      \"image_alt\": \"第二个开关传感器逻辑方向设置为“常断”的控制器面板示意图，右侧标注“常断”。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.115, 0.728, 0.885, 0.848],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.953, 0.93, 0.978],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的PDF渲染页，背景有浅色CUH水印。页面以文字说明为主，配有两幅控制器面板示意图，用于说明“第二个开关传感器逻辑方向设定”的常通与常断状态。页脚显示日期、印刷页码“-20-”和文档编号。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2853,
+      "completion_tokens": 1661,
+      "total_tokens": 4514,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 40,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T14:21:51",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，doc_key=cuh.sdvc.manual.v1.01，lang=zh-CN，页码=40。\n【目录/书签上下文（节选）】\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯、按键及外部部件说明（第 10 页）\n  - 1.3 接线端口说明（第 11 页）\n  - 1.4 控制器铭牌说明（第 11 页）\n- 第二章 产品介绍（第 12 页）\n  - 2.1 产品简介（第 12 页）\n- 第三章 安装及使用指南（第 13 页）\n  - 3.1 控制器使用条件（第 13 页）\n  - 3",
+  "assistant_text": "{\n  \"page_markdown\": \"数字低压直流有刷电机控制器　　　　　　　　　　　　　　　　SDMC10 系列\\n\\n## 7.2 输入输出电路图\\n\\n[[vcrop:40:0]]\\n\\n[[vcrop:40:1]]\\n\\n[[vcrop:40:2]]\\n\\n2022-12　　　　　　　　　　　　-32-　　　　　　　　　　　　SDMC10_SMS-CN_2.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.20,\n        0.215,\n        0.80,\n        0.405\n      ],\n      \"alt\": \"遥控调速A端口输入输出电路图\",\n      \"reason\": \"细线电路原理图，包含元件、端子和连接关系，需保留位图。\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.20,\n        0.468,\n        0.80,\n        0.638\n      ],\n      \"alt\": \"料满停机C端口输入输出电路图\",\n      \"reason\": \"细线电路原理图，包含元件、端子和连接关系，需保留位图。\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.20,\n        0.704,\n        0.80,\n        0.870\n      ],\n      \"alt\": \"控制输出D端口输入输出电路图\",\n      \"reason\": \"细线电路原理图，包含元件、端子和连接关系，需保留位图。\"\n    }\n  ],\n  \"notes\": \"页面清晰；三处输入输出电路图为细线原理图，建议以截图保留。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "数字低压直流有刷电机控制器　　　　　　　　　　　　　　　　SDMC10 系列\n\n## 7.2 输入输出电路图\n\n[[vcrop:40:0]]\n\n[[vcrop:40:1]]\n\n[[vcrop:40:2]]\n\n2022-12　　　　　　　　　　　　-32-　　　　　　　　　　　　SDMC10_SMS-CN_2.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.2,
+        0.215,
+        0.8,
+        0.405
+      ],
+      "alt": "遥控调速A端口输入输出电路图",
+      "reason": "细线电路原理图，包含元件、端子和连接关系，需保留位图。"
+    },
+    {
+      "bbox_0_1": [
+        0.2,
+        0.468,
+        0.8,
+        0.638
+      ],
+      "alt": "料满停机C端口输入输出电路图",
+      "reason": "细线电路原理图，包含元件、端子和连接关系，需保留位图。"
+    },
+    {
+      "bbox_0_1": [
+        0.2,
+        0.704,
+        0.8,
+        0.87
+      ],
+      "alt": "控制输出D端口输入输出电路图",
+      "reason": "细线电路原理图，包含元件、端子和连接关系，需保留位图。"
+    }
+  ],
+  "notes": "页面清晰；三处输入输出电路图为细线原理图，建议以截图保留。",
+  "raw": {
+    "id": "chatcmpl-DnIDyAecCHq3nHWsRy5eLRNAtsKNM",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780640498,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"数字低压直流有刷电机控制器　　　　　　　　　　　　　　　　SDMC10 系列\\n\\n## 7.2 输入输出电路图\\n\\n[[vcrop:40:0]]\\n\\n[[vcrop:40:1]]\\n\\n[[vcrop:40:2]]\\n\\n2022-12　　　　　　　　　　　　-32-　　　　　　　　　　　　SDMC10_SMS-CN_2.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.20,\n        0.215,\n        0.80,\n        0.405\n      ],\n      \"alt\": \"遥控调速A端口输入输出电路图\",\n      \"reason\": \"细线电路原理图，包含元件、端子和连接关系，需保留位图。\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.20,\n        0.468,\n        0.80,\n        0.638\n      ],\n      \"alt\": \"料满停机C端口输入输出电路图\",\n      \"reason\": \"细线电路原理图，包含元件、端子和连接关系，需保留位图。\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.20,\n        0.704,\n        0.80,\n        0.870\n      ],\n      \"alt\": \"控制输出D端口输入输出电路图\",\n      \"reason\": \"细线电路原理图，包含元件、端子和连接关系，需保留位图。\"\n    }\n  ],\n  \"notes\": \"页面清晰；三处输入输出电路图为细线原理图，建议以截图保留。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2511,
+      "completion_tokens": 919,
+      "total_tokens": 3430,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

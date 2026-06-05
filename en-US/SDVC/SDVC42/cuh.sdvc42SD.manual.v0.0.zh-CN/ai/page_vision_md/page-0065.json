@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 65,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:19:00",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=65。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufactur",
+  "assistant_text": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller  SDVC42-SD\\n\\n## 4.11 Error Log\\n\\nThe controller can record 64 sets of logs in a loop to facilitate later viewing of the time when the problem occurred and specific information.In any interface, long press ▲ and ▶enter the log interface group, which is displayed as follows:\\n\\n```text\\nRUN\\nA C D E F G N J        A0\\n-------------------------\\n        0 H   0 M     1 S\\nErr CodeError          01\\n01.Voltage        [20.0] V\\n02.Frequenc        50.0Hz\\n03.SpeedNow             0\\n-------------------------\\n+          Note          −\\n```\\n\\n- The above two lines show the fault log\\n- The following three lines display the monitoring parameter group\\n\\n## 4.12 Customize Homepage\\n\\nIn order to facilitate users to use the controller efficiently and quickly, users can perform customized operations in the interface parameter group. By extracting at most 16 of all parameters is placed as a detection item in the interface parameter group, and the user can perform quick operations on the main interface.\\n\\nExample: Select 1. UsrVoltg (P2.02), 2. UsrFrqnc (P2.03), 3. UserSped (P2.01), 4. SoftStar (P2.04), SoftStop (P2.05), there are five parameters in the main interface. The steps are as follows:\\n\\n- » Long press ▲ and ◀ to enter parameter setting interface, short press ▶ to switch to \\\"1EditHome\\\" parameter group.\\n- » Short press ▲ or ▼ to switch between different monitoring items.\\n- » Press ⊕ or ⊖ Select the function labels that need to be set respectively.\\n\\n```text\\nRUN\\nA C D E F G N J        A0\\n01.Monit  1       [P2.02]\\n02.Monit  2        P2.03\\n03.Monit  3        P2.01\\n04.Monit  4        P2.04\\n05.Monit  5        P2.05\\n+       1EditHome       −\\n```\\n\\nNote: Function labels can be queried through the \\\"Parameter List\\\" chapter.  \\nIf the value of the monitoring item is blank, it means there is no monitoring item.\\n\\nAfter the operation is completed, if the user needs to adjust the parameter values of voltage, frequency, feeding speed, soft start time and soft stop time, enter the specific monitoring item in the parameter group of the \\\"Home\\\" interface and pass ⊕ or ⊖, parameter adjustment can be completed.\\n\\n---\\n\\n2026-02  -55-  SDVC42SDSMSEN_3.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"页面清晰；液晶界面示意图已用等宽文本近似转写，黑底高亮项以方括号表示。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "Automatic High Frequency Piezo Controller  SDVC42-SD\n\n## 4.11 Error Log\n\nThe controller can record 64 sets of logs in a loop to facilitate later viewing of the time when the problem occurred and specific information.In any interface, long press ▲ and ▶enter the log interface group, which is displayed as follows:\n\n```text\nRUN\nA C D E F G N J        A0\n-------------------------\n        0 H   0 M     1 S\nErr CodeError          01\n01.Voltage        [20.0] V\n02.Frequenc        50.0Hz\n03.SpeedNow             0\n-------------------------\n+          Note          −\n```\n\n- The above two lines show the fault log\n- The following three lines display the monitoring parameter group\n\n## 4.12 Customize Homepage\n\nIn order to facilitate users to use the controller efficiently and quickly, users can perform customized operations in the interface parameter group. By extracting at most 16 of all parameters is placed as a detection item in the interface parameter group, and the user can perform quick operations on the main interface.\n\nExample: Select 1. UsrVoltg (P2.02), 2. UsrFrqnc (P2.03), 3. UserSped (P2.01), 4. SoftStar (P2.04), SoftStop (P2.05), there are five parameters in the main interface. The steps are as follows:\n\n- » Long press ▲ and ◀ to enter parameter setting interface, short press ▶ to switch to \"1EditHome\" parameter group.\n- » Short press ▲ or ▼ to switch between different monitoring items.\n- » Press ⊕ or ⊖ Select the function labels that need to be set respectively.\n\n```text\nRUN\nA C D E F G N J        A0\n01.Monit  1       [P2.02]\n02.Monit  2        P2.03\n03.Monit  3        P2.01\n04.Monit  4        P2.04\n05.Monit  5        P2.05\n+       1EditHome       −\n```\n\nNote: Function labels can be queried through the \"Parameter List\" chapter.  \nIf the value of the monitoring item is blank, it means there is no monitoring item.\n\nAfter the operation is completed, if the user needs to adjust the parameter values of voltage, frequency, feeding speed, soft start time and soft stop time, enter the specific monitoring item in the parameter group of the \"Home\" interface and pass ⊕ or ⊖, parameter adjustment can be completed.\n\n---\n\n2026-02  -55-  SDVC42SDSMSEN_3.01",
+  "crop_suggestions": [],
+  "notes": "页面清晰；液晶界面示意图已用等宽文本近似转写，黑底高亮项以方括号表示。",
+  "raw": {
+    "id": "chatcmpl-DmssxxGvbcPTm3bUk47EYkP1y6Nq8",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780543095,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller  SDVC42-SD\\n\\n## 4.11 Error Log\\n\\nThe controller can record 64 sets of logs in a loop to facilitate later viewing of the time when the problem occurred and specific information.In any interface, long press ▲ and ▶enter the log interface group, which is displayed as follows:\\n\\n```text\\nRUN\\nA C D E F G N J        A0\\n-------------------------\\n        0 H   0 M     1 S\\nErr CodeError          01\\n01.Voltage        [20.0] V\\n02.Frequenc        50.0Hz\\n03.SpeedNow             0\\n-------------------------\\n+          Note          −\\n```\\n\\n- The above two lines show the fault log\\n- The following three lines display the monitoring parameter group\\n\\n## 4.12 Customize Homepage\\n\\nIn order to facilitate users to use the controller efficiently and quickly, users can perform customized operations in the interface parameter group. By extracting at most 16 of all parameters is placed as a detection item in the interface parameter group, and the user can perform quick operations on the main interface.\\n\\nExample: Select 1. UsrVoltg (P2.02), 2. UsrFrqnc (P2.03), 3. UserSped (P2.01), 4. SoftStar (P2.04), SoftStop (P2.05), there are five parameters in the main interface. The steps are as follows:\\n\\n- » Long press ▲ and ◀ to enter parameter setting interface, short press ▶ to switch to \\\"1EditHome\\\" parameter group.\\n- » Short press ▲ or ▼ to switch between different monitoring items.\\n- » Press ⊕ or ⊖ Select the function labels that need to be set respectively.\\n\\n```text\\nRUN\\nA C D E F G N J        A0\\n01.Monit  1       [P2.02]\\n02.Monit  2        P2.03\\n03.Monit  3        P2.01\\n04.Monit  4        P2.04\\n05.Monit  5        P2.05\\n+       1EditHome       −\\n```\\n\\nNote: Function labels can be queried through the \\\"Parameter List\\\" chapter.  \\nIf the value of the monitoring item is blank, it means there is no monitoring item.\\n\\nAfter the operation is completed, if the user needs to adjust the parameter values of voltage, frequency, feeding speed, soft start time and soft stop time, enter the specific monitoring item in the parameter group of the \\\"Home\\\" interface and pass ⊕ or ⊖, parameter adjustment can be completed.\\n\\n---\\n\\n2026-02  -55-  SDVC42SDSMSEN_3.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"页面清晰；液晶界面示意图已用等宽文本近似转写，黑底高亮项以方括号表示。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4302,
+      "completion_tokens": 3151,
+      "total_tokens": 7453,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2447,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

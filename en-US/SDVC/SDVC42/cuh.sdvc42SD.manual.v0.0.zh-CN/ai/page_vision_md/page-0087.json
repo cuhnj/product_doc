@@ -1,0 +1,77 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 87,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:19:29",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=87。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufactur",
+  "assistant_text": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　SDVC42-SD\\n\\n#### 485 Communication Port F\\n\\n[[vcrop:87:0]]\\n\\n| Terminal | Signal |\\n|---|---|\\n| F2 | A+ |\\n| F3 | GND |\\n| F4 | B- |\\n\\n#### Count/Speed Preset Port N\\n\\n[[vcrop:87:1]]\\n\\n| Terminal | Signal |\\n|---|---|\\n| N1 | GND |\\n| G | Count/Speed A |\\n| N | Count/Speed B |\\n| N4 | 24V Output |\\n\\n#### Digital Sync Port T\\n\\n[[vcrop:87:2]]\\n\\n| Terminal | Signal |\\n|---|---|\\n| T1 | Sync+ |\\n| T2 | GND |\\n| T3 | Sync- |\\n\\n2026-02　　　　　　　　　　　　　　　　　-77-　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.19,\n        0.16,\n        0.80,\n        0.35\n      ],\n      \"alt\": \"485 Communication Port F circuit diagram\",\n      \"reason\": \"Contains a circuit diagram with wiring, ground symbol, and 120Ω resistor that should be preserved as an image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.19,\n        0.38,\n        0.80,\n        0.64\n      ],\n      \"alt\": \"Count/Speed Preset Port N circuit diagram\",\n      \"reason\": \"Contains a circuit diagram with NPN/PNP labels, 2.4kΩ resistors, wiring, and port terminals.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.19,\n        0.675,\n        0.80,\n        0.86\n      ],\n      \"alt\": \"Digital Sync Port T circuit diagram\",\n      \"reason\": \"Contains a sync port circuit diagram with terminal layout, ground symbols, direction markers, and 120Ω resistor.\"\n    }\n  ],\n  \"notes\": \"本页主要为输入输出端口电路示意图，已用截图占位保留细线原理图，并将端子文字整理为表格。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　SDVC42-SD\n\n#### 485 Communication Port F\n\n[[vcrop:87:0]]\n\n| Terminal | Signal |\n|---|---|\n| F2 | A+ |\n| F3 | GND |\n| F4 | B- |\n\n#### Count/Speed Preset Port N\n\n[[vcrop:87:1]]\n\n| Terminal | Signal |\n|---|---|\n| N1 | GND |\n| G | Count/Speed A |\n| N | Count/Speed B |\n| N4 | 24V Output |\n\n#### Digital Sync Port T\n\n[[vcrop:87:2]]\n\n| Terminal | Signal |\n|---|---|\n| T1 | Sync+ |\n| T2 | GND |\n| T3 | Sync- |\n\n2026-02　　　　　　　　　　　　　　　　　-77-　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.19,
+        0.16,
+        0.8,
+        0.35
+      ],
+      "alt": "485 Communication Port F circuit diagram",
+      "reason": "Contains a circuit diagram with wiring, ground symbol, and 120Ω resistor that should be preserved as an image."
+    },
+    {
+      "bbox_0_1": [
+        0.19,
+        0.38,
+        0.8,
+        0.64
+      ],
+      "alt": "Count/Speed Preset Port N circuit diagram",
+      "reason": "Contains a circuit diagram with NPN/PNP labels, 2.4kΩ resistors, wiring, and port terminals."
+    },
+    {
+      "bbox_0_1": [
+        0.19,
+        0.675,
+        0.8,
+        0.86
+      ],
+      "alt": "Digital Sync Port T circuit diagram",
+      "reason": "Contains a sync port circuit diagram with terminal layout, ground symbols, direction markers, and 120Ω resistor."
+    }
+  ],
+  "notes": "本页主要为输入输出端口电路示意图，已用截图占位保留细线原理图，并将端子文字整理为表格。",
+  "raw": {
+    "id": "chatcmpl-DmstnXzRCDMBtlJfikdJRKp7bg14R",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780543147,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"Automatic High Frequency Piezo Controller　　　　　　　　　　　　　　　　　SDVC42-SD\\n\\n#### 485 Communication Port F\\n\\n[[vcrop:87:0]]\\n\\n| Terminal | Signal |\\n|---|---|\\n| F2 | A+ |\\n| F3 | GND |\\n| F4 | B- |\\n\\n#### Count/Speed Preset Port N\\n\\n[[vcrop:87:1]]\\n\\n| Terminal | Signal |\\n|---|---|\\n| N1 | GND |\\n| G | Count/Speed A |\\n| N | Count/Speed B |\\n| N4 | 24V Output |\\n\\n#### Digital Sync Port T\\n\\n[[vcrop:87:2]]\\n\\n| Terminal | Signal |\\n|---|---|\\n| T1 | Sync+ |\\n| T2 | GND |\\n| T3 | Sync- |\\n\\n2026-02　　　　　　　　　　　　　　　　　-77-　　　　　　　　　　　　　　　　　SDVC42SDSMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.19,\n        0.16,\n        0.80,\n        0.35\n      ],\n      \"alt\": \"485 Communication Port F circuit diagram\",\n      \"reason\": \"Contains a circuit diagram with wiring, ground symbol, and 120Ω resistor that should be preserved as an image.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.19,\n        0.38,\n        0.80,\n        0.64\n      ],\n      \"alt\": \"Count/Speed Preset Port N circuit diagram\",\n      \"reason\": \"Contains a circuit diagram with NPN/PNP labels, 2.4kΩ resistors, wiring, and port terminals.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.19,\n        0.675,\n        0.80,\n        0.86\n      ],\n      \"alt\": \"Digital Sync Port T circuit diagram\",\n      \"reason\": \"Contains a sync port circuit diagram with terminal layout, ground symbols, direction markers, and 120Ω resistor.\"\n    }\n  ],\n  \"notes\": \"本页主要为输入输出端口电路示意图，已用截图占位保留细线原理图，并将端子文字整理为表格。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3883,
+      "completion_tokens": 1562,
+      "total_tokens": 5445,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1023,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

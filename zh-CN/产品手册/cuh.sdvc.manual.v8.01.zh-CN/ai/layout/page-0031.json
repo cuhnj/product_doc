@@ -1,0 +1,286 @@
+{
+  "doc_id": "cuh.sdvc.manual.v8.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v8.01",
+  "lang": "zh-CN",
+  "page_index": 31,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T01:27:11",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v8.01.zh-CN，页码=31。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 目录（第 3 页）\n- 4: 目录2（第 4 页）\n- 5: SDVC10-S（第 5 页）\n- 6: SDVC11-S（第 6 页）\n- 7: SDVC11-M（第 7 页）\n- 8: SDVC14-S（第 8 页）\n- 9: SDVC20-S（第 9 页）\n- 10: SDVC20-L（第 10 页）\n- 11: SDVC20-XL（第 11 页）\n- 12: SDVC201-L（第 12 页）\n- 13: SDVC20-U（第 13 页）\n- 14: SDVC21-S（第 14 页）\n- 15: SDVC21LP（第 15 页）\n- 16: SDVC21XLP（第 16 页）\n- 17: SDVC212",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.08, 0.05, 0.93, 0.09],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.08, 0.09, 0.51, 0.15],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.08, 0.18, 0.51, 0.43],\n      \"confidence\": 0.96,\n      \"image_alt\": \"SDVC333-SG 控制器产品照片，旁有 NEW 标识和 CE 标识\",\n      \"caption\": \"产品外观图\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.08, 0.45, 0.51, 0.47],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.08, 0.48, 0.51, 0.90],\n      \"confidence\": 0.98,\n      \"caption\": \"技术规格\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.13, 0.93, 0.15],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.16, 0.93, 0.17],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.18, 0.93, 0.20],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.21, 0.93, 0.61],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.63, 0.93, 0.65],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.66, 0.86, 0.68],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.68, 0.93, 0.70],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.56, 0.71, 0.73, 0.82],\n      \"confidence\": 0.94,\n      \"image_alt\": \"随机附件图片，包含电源线和多根输出线\",\n      \"caption\": \"随机附件\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.75, 0.72, 0.92, 0.77],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.82, 0.93, 0.85],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.56, 0.85, 0.73, 0.90],\n      \"confidence\": 0.93,\n      \"image_alt\": \"选购附件图片，为智能光电传感器线缆\",\n      \"caption\": \"选购附件\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.75, 0.86, 0.92, 0.89],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.63, 0.91, 0.92, 0.96],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.93, 0.96, 1.0, 1.0],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 2, 3, 4, 17, 18],\n  \"notes\": \"本页不是纯扫描件，存在可提取文本层。页面为产品资料页，包含产品外观图、技术规格表、功能说明文本、附件图片与页脚联系信息，图文和表格并重。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.08,
+          0.05,
+          0.93,
+          0.09
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.08,
+          0.09,
+          0.51,
+          0.15
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.08,
+          0.18,
+          0.51,
+          0.43
+        ],
+        "confidence": 0.96,
+        "image_alt": "SDVC333-SG 控制器产品照片，旁有 NEW 标识和 CE 标识",
+        "caption": "产品外观图",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.08,
+          0.45,
+          0.51,
+          0.47
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.08,
+          0.48,
+          0.51,
+          0.9
+        ],
+        "confidence": 0.98,
+        "caption": "技术规格",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.56,
+          0.13,
+          0.93,
+          0.15
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.56,
+          0.16,
+          0.93,
+          0.17
+        ],
+        "confidence": 0.91,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.56,
+          0.18,
+          0.93,
+          0.2
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.56,
+          0.21,
+          0.93,
+          0.61
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.56,
+          0.63,
+          0.93,
+          0.65
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.56,
+          0.66,
+          0.86,
+          0.68
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.56,
+          0.68,
+          0.93,
+          0.7
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.56,
+          0.71,
+          0.73,
+          0.82
+        ],
+        "confidence": 0.94,
+        "image_alt": "随机附件图片，包含电源线和多根输出线",
+        "caption": "随机附件",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.75,
+          0.72,
+          0.92,
+          0.77
+        ],
+        "confidence": 0.91,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.56,
+          0.82,
+          0.93,
+          0.85
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.56,
+          0.85,
+          0.73,
+          0.9
+        ],
+        "confidence": 0.93,
+        "image_alt": "选购附件图片，为智能光电传感器线缆",
+        "caption": "选购附件",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.75,
+          0.86,
+          0.92,
+          0.89
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.63,
+          0.91,
+          0.92,
+          0.96
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.93,
+          0.96,
+          1.0,
+          1.0
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      2,
+      3,
+      4,
+      17,
+      18
+    ],
+    "notes": "本页不是纯扫描件，存在可提取文本层。页面为产品资料页，包含产品外观图、技术规格表、功能说明文本、附件图片与页脚联系信息，图文和表格并重。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-Dmjee94i9WbybYH97pf2X8OdVEyjN",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780507612,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.08, 0.05, 0.93, 0.09],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.08, 0.09, 0.51, 0.15],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.08, 0.18, 0.51, 0.43],\n      \"confidence\": 0.96,\n      \"image_alt\": \"SDVC333-SG 控制器产品照片，旁有 NEW 标识和 CE 标识\",\n      \"caption\": \"产品外观图\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.08, 0.45, 0.51, 0.47],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.08, 0.48, 0.51, 0.90],\n      \"confidence\": 0.98,\n      \"caption\": \"技术规格\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.13, 0.93, 0.15],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.16, 0.93, 0.17],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.18, 0.93, 0.20],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.21, 0.93, 0.61],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.63, 0.93, 0.65],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.56, 0.66, 0.86, 0.68],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.68, 0.93, 0.70],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.56, 0.71, 0.73, 0.82],\n      \"confidence\": 0.94,\n      \"image_alt\": \"随机附件图片，包含电源线和多根输出线\",\n      \"caption\": \"随机附件\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.75, 0.72, 0.92, 0.77],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.56, 0.82, 0.93, 0.85],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.56, 0.85, 0.73, 0.90],\n      \"confidence\": 0.93,\n      \"image_alt\": \"选购附件图片，为智能光电传感器线缆\",\n      \"caption\": \"选购附件\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.75, 0.86, 0.92, 0.89],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.63, 0.91, 0.92, 0.96],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.93, 0.96, 1.0, 1.0],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 2, 3, 4, 17, 18],\n  \"notes\": \"本页不是纯扫描件，存在可提取文本层。页面为产品资料页，包含产品外观图、技术规格表、功能说明文本、附件图片与页脚联系信息，图文和表格并重。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3222,
+      "completion_tokens": 1664,
+      "total_tokens": 4886,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

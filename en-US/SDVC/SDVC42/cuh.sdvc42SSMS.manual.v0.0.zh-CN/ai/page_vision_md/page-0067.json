@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 67,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T12:02:21",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=67。\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufactur",
+  "assistant_text": "{\n  \"page_markdown\": \"## 5.2 How to trun on/off controller B via a sensor connected to controller A?\\n\\n[[vcrop:67:0]]\\n\\nThis section introduces two SDVC42-S Controller networking, and realize that the main output of the controlled controller is controlled by another main control controller C port signal controls start and stop, so that even if the sensor is not directly connected to the controlled controller, the controller can be operated through the networked signal. The signal sources of the controller are greatly enriched.\\n\\n1. The controller correctly connects the power cord and output cord.\\n\\n2. Open the equipment wiring compartment cover, connect all controller T1 signals to each other, and connect all T3 signals to each other.\\n\\n3. After the two devices are powered on, one of the controllers will automatically enter the \\\"communication parameter group\\\".\\n\\n4. In the controller communication parameter group, the program will automatically generate a digital synchronous communication device number, and \\\"digital synchronization\\\" is any value [1~8]. Users can also change this value themselves.\\n\\n5. User press ▲ and ◀ hold enter the parameter setting interface by short pressing ◀ or ▶ switch to the communication parameter group, view and note down the digital synchronization address of each controller.\\n\\n6. The controlled controller switches to the main output parameter group according to the above method, and the parameters are set as follows:\\n\\n   \\\"MainSor1\\\" is \\\"Bus\\\", \\\"MainSor2\\\" is \\\"Bus\\\", \\\"MainLogc\\\" is \\\"And\\\", \\\"MainDire\\\" is \\\"Const\\\", \\\"MainUpDy\\\" and \\\"MainDnDy\\\" are set to the required time value, the default is 0.2 seconds, \\\"MainMode\\\" is set to \\\"Delay\\\".\\n\\n7. The controlled controller switches to the communication parameter group according to the above method, and the parameters are set as follows:\\n\\n   \\\"BSigMID1\\\" is set to \\\"X\\\" (X: is the digital synchronization bit number of the controller that needs to call the signal), \\\"BSigM_B1\\\" is set to \\\"4\\\" (material input port C signal), \\\"BSigM_B2\\\" is set to \\\"0\\\" (0 indicates invalid signal).\\n\\nAfter the above settings are completed, the output of one controller is controlled by the C port signal of another controller.\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.06,\n        0.18,\n        0.93,\n        0.45\n      ],\n      \"alt\": \"Two SDVC42-S controllers networked and connected to a vibratory feeder, with output power cable labels.\",\n      \"reason\": \"Complex wiring/application illustration with fine lines and device drawings is best preserved as a bitmap crop.\"\n    }\n  ],\n  \"notes\": \"Page is clear. The main diagram was retained as a crop due to its detailed wiring illustration.\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "## 5.2 How to trun on/off controller B via a sensor connected to controller A?\n\n[[vcrop:67:0]]\n\nThis section introduces two SDVC42-S Controller networking, and realize that the main output of the controlled controller is controlled by another main control controller C port signal controls start and stop, so that even if the sensor is not directly connected to the controlled controller, the controller can be operated through the networked signal. The signal sources of the controller are greatly enriched.\n\n1. The controller correctly connects the power cord and output cord.\n\n2. Open the equipment wiring compartment cover, connect all controller T1 signals to each other, and connect all T3 signals to each other.\n\n3. After the two devices are powered on, one of the controllers will automatically enter the \"communication parameter group\".\n\n4. In the controller communication parameter group, the program will automatically generate a digital synchronous communication device number, and \"digital synchronization\" is any value [1~8]. Users can also change this value themselves.\n\n5. User press ▲ and ◀ hold enter the parameter setting interface by short pressing ◀ or ▶ switch to the communication parameter group, view and note down the digital synchronization address of each controller.\n\n6. The controlled controller switches to the main output parameter group according to the above method, and the parameters are set as follows:\n\n   \"MainSor1\" is \"Bus\", \"MainSor2\" is \"Bus\", \"MainLogc\" is \"And\", \"MainDire\" is \"Const\", \"MainUpDy\" and \"MainDnDy\" are set to the required time value, the default is 0.2 seconds, \"MainMode\" is set to \"Delay\".\n\n7. The controlled controller switches to the communication parameter group according to the above method, and the parameters are set as follows:\n\n   \"BSigMID1\" is set to \"X\" (X: is the digital synchronization bit number of the controller that needs to call the signal), \"BSigM_B1\" is set to \"4\" (material input port C signal), \"BSigM_B2\" is set to \"0\" (0 indicates invalid signal).\n\nAfter the above settings are completed, the output of one controller is controlled by the C port signal of another controller.",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.06,
+        0.18,
+        0.93,
+        0.45
+      ],
+      "alt": "Two SDVC42-S controllers networked and connected to a vibratory feeder, with output power cable labels.",
+      "reason": "Complex wiring/application illustration with fine lines and device drawings is best preserved as a bitmap crop."
+    }
+  ],
+  "notes": "Page is clear. The main diagram was retained as a crop due to its detailed wiring illustration.",
+  "raw": {
+    "id": "chatcmpl-DmtZJ8RSWMj3a1HAUnpOCoTC0SYA1",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780545721,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"## 5.2 How to trun on/off controller B via a sensor connected to controller A?\\n\\n[[vcrop:67:0]]\\n\\nThis section introduces two SDVC42-S Controller networking, and realize that the main output of the controlled controller is controlled by another main control controller C port signal controls start and stop, so that even if the sensor is not directly connected to the controlled controller, the controller can be operated through the networked signal. The signal sources of the controller are greatly enriched.\\n\\n1. The controller correctly connects the power cord and output cord.\\n\\n2. Open the equipment wiring compartment cover, connect all controller T1 signals to each other, and connect all T3 signals to each other.\\n\\n3. After the two devices are powered on, one of the controllers will automatically enter the \\\"communication parameter group\\\".\\n\\n4. In the controller communication parameter group, the program will automatically generate a digital synchronous communication device number, and \\\"digital synchronization\\\" is any value [1~8]. Users can also change this value themselves.\\n\\n5. User press ▲ and ◀ hold enter the parameter setting interface by short pressing ◀ or ▶ switch to the communication parameter group, view and note down the digital synchronization address of each controller.\\n\\n6. The controlled controller switches to the main output parameter group according to the above method, and the parameters are set as follows:\\n\\n   \\\"MainSor1\\\" is \\\"Bus\\\", \\\"MainSor2\\\" is \\\"Bus\\\", \\\"MainLogc\\\" is \\\"And\\\", \\\"MainDire\\\" is \\\"Const\\\", \\\"MainUpDy\\\" and \\\"MainDnDy\\\" are set to the required time value, the default is 0.2 seconds, \\\"MainMode\\\" is set to \\\"Delay\\\".\\n\\n7. The controlled controller switches to the communication parameter group according to the above method, and the parameters are set as follows:\\n\\n   \\\"BSigMID1\\\" is set to \\\"X\\\" (X: is the digital synchronization bit number of the controller that needs to call the signal), \\\"BSigM_B1\\\" is set to \\\"4\\\" (material input port C signal), \\\"BSigM_B2\\\" is set to \\\"0\\\" (0 indicates invalid signal).\\n\\nAfter the above settings are completed, the output of one controller is controlled by the C port signal of another controller.\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.06,\n        0.18,\n        0.93,\n        0.45\n      ],\n      \"alt\": \"Two SDVC42-S controllers networked and connected to a vibratory feeder, with output power cable labels.\",\n      \"reason\": \"Complex wiring/application illustration with fine lines and device drawings is best preserved as a bitmap crop.\"\n    }\n  ],\n  \"notes\": \"Page is clear. The main diagram was retained as a crop due to its detailed wiring illustration.\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4471,
+      "completion_tokens": 1512,
+      "total_tokens": 5983,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 871,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

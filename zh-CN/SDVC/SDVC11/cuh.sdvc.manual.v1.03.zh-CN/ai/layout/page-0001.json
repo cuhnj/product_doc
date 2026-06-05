@@ -1,0 +1,192 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.03.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.03",
+  "lang": "zh-CN",
+  "page_index": 1,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T12:49:41",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.03.zh-CN，页码=1。\n\n【目录/书签上下文（节选）】\n- 页面 1（第 1 页）\n\n【文本层节选（可能为空或不完整）】\n5\n\n15\n\n6 3\n\n文档编号:SDVC11MSMSCN_1.03\n\n1\n\n-\n\n-\n\nΔVout/ΔVin\n\n保险丝容量\n\n保险丝管\n\n调压旋钮\n\n在电源频率为50/60Hz情况下，\n如图（1）设为“全波”时，\n输出频率为100/120Hz。\n\n在电源频率为50/60Hz情况下，\n如图（2）设为“半波”时，\n输出频率为50/60Hz。\n\n图（1）\n\n图（2）\n\n。\n\n请输出 JSON（不要 Markdown 代码围栏），字段如下：\n- regions: 数组，每项含 type(heading|paragraph|table|figure|footer|unknown)、bbox_0_1(相对整页的0~1归一化框",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.014, 0.026, 0.290, 0.066],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.013, 0.073, 0.325, 0.452],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.342, 0.046, 0.653, 0.465],\n      \"confidence\": 0.93,\n      \"caption\": \"产品电气规格\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.552, 0.482, 0.655, 0.497],\n      \"confidence\": 0.78\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.667, 0.000, 1.000, 0.500],\n      \"confidence\": 0.90,\n      \"image_alt\": \"右上区域为封面式版面，含 CUH 标志、SDVC11-M 数字稳压振动送料控制器中英文标题、控制器产品图片及型号文字。\",\n      \"caption\": \"型号：SDVC11M\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.016, 0.520, 0.335, 0.556],\n      \"confidence\": 0.83\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.014, 0.556, 0.334, 0.977],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器外部部件说明图，箭头标注调压旋钮、全波/半波开关、电源开关、电源输入航空插座、保险丝管和调压输出航空插座等位置。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.342, 0.555, 0.656, 0.977],\n      \"confidence\": 0.93,\n      \"image_alt\": \"接线示意图，展示控制器输入、输出电源与负载之间的连接关系，并标注电源线、输出电缆、地线等。\",\n      \"caption\": \"第一步：照图接好控制器的输入、输出电源。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.676, 0.555, 0.984, 0.740],\n      \"confidence\": 0.86,\n      \"image_alt\": \"右侧操作步骤区域，文字说明使用调压旋钮设定输出电压、打开控制器电源开关，旁边配有手指操作控制器的示意图。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.677, 0.776, 0.984, 0.940],\n      \"confidence\": 0.91,\n      \"image_alt\": \"全波/半波调节方法示意区，包含两个拨动开关位置图，分别对应图（1）和图（2），并说明不同设置下输出频率与电源频率的关系。\",\n      \"caption\": \"全波/半波的调节方法\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.680, 0.947, 0.976, 0.980],\n      \"confidence\": 0.82\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n  \"notes\": \"本页不是单纯扫描件，呈现为排版后的 PDF 渲染图，包含文字、表格、产品照片、接线图和操作示意图。文本层节选明显不完整；页面以图示说明、规格表和封面元素为主。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.014,
+          0.026,
+          0.29,
+          0.066
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.013,
+          0.073,
+          0.325,
+          0.452
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.342,
+          0.046,
+          0.653,
+          0.465
+        ],
+        "confidence": 0.93,
+        "caption": "产品电气规格",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.552,
+          0.482,
+          0.655,
+          0.497
+        ],
+        "confidence": 0.78,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.667,
+          0.0,
+          1.0,
+          0.5
+        ],
+        "confidence": 0.9,
+        "image_alt": "右上区域为封面式版面，含 CUH 标志、SDVC11-M 数字稳压振动送料控制器中英文标题、控制器产品图片及型号文字。",
+        "caption": "型号：SDVC11M",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.016,
+          0.52,
+          0.335,
+          0.556
+        ],
+        "confidence": 0.83,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.014,
+          0.556,
+          0.334,
+          0.977
+        ],
+        "confidence": 0.94,
+        "image_alt": "控制器外部部件说明图，箭头标注调压旋钮、全波/半波开关、电源开关、电源输入航空插座、保险丝管和调压输出航空插座等位置。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.342,
+          0.555,
+          0.656,
+          0.977
+        ],
+        "confidence": 0.93,
+        "image_alt": "接线示意图，展示控制器输入、输出电源与负载之间的连接关系，并标注电源线、输出电缆、地线等。",
+        "caption": "第一步：照图接好控制器的输入、输出电源。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.676,
+          0.555,
+          0.984,
+          0.74
+        ],
+        "confidence": 0.86,
+        "image_alt": "右侧操作步骤区域，文字说明使用调压旋钮设定输出电压、打开控制器电源开关，旁边配有手指操作控制器的示意图。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.677,
+          0.776,
+          0.984,
+          0.94
+        ],
+        "confidence": 0.91,
+        "image_alt": "全波/半波调节方法示意区，包含两个拨动开关位置图，分别对应图（1）和图（2），并说明不同设置下输出频率与电源频率的关系。",
+        "caption": "全波/半波的调节方法",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.68,
+          0.947,
+          0.976,
+          0.98
+        ],
+        "confidence": 0.82,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "notes": "本页不是单纯扫描件，呈现为排版后的 PDF 渲染图，包含文字、表格、产品照片、接线图和操作示意图。文本层节选明显不完整；页面以图示说明、规格表和封面元素为主。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmuIqh2axo0ecNvgJeJNbbvgrNWmV",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780548544,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.014, 0.026, 0.290, 0.066],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.013, 0.073, 0.325, 0.452],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.342, 0.046, 0.653, 0.465],\n      \"confidence\": 0.93,\n      \"caption\": \"产品电气规格\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.552, 0.482, 0.655, 0.497],\n      \"confidence\": 0.78\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.667, 0.000, 1.000, 0.500],\n      \"confidence\": 0.90,\n      \"image_alt\": \"右上区域为封面式版面，含 CUH 标志、SDVC11-M 数字稳压振动送料控制器中英文标题、控制器产品图片及型号文字。\",\n      \"caption\": \"型号：SDVC11M\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.016, 0.520, 0.335, 0.556],\n      \"confidence\": 0.83\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.014, 0.556, 0.334, 0.977],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器外部部件说明图，箭头标注调压旋钮、全波/半波开关、电源开关、电源输入航空插座、保险丝管和调压输出航空插座等位置。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.342, 0.555, 0.656, 0.977],\n      \"confidence\": 0.93,\n      \"image_alt\": \"接线示意图，展示控制器输入、输出电源与负载之间的连接关系，并标注电源线、输出电缆、地线等。\",\n      \"caption\": \"第一步：照图接好控制器的输入、输出电源。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.676, 0.555, 0.984, 0.740],\n      \"confidence\": 0.86,\n      \"image_alt\": \"右侧操作步骤区域，文字说明使用调压旋钮设定输出电压、打开控制器电源开关，旁边配有手指操作控制器的示意图。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.677, 0.776, 0.984, 0.940],\n      \"confidence\": 0.91,\n      \"image_alt\": \"全波/半波调节方法示意区，包含两个拨动开关位置图，分别对应图（1）和图（2），并说明不同设置下输出频率与电源频率的关系。\",\n      \"caption\": \"全波/半波的调节方法\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.680, 0.947, 0.976, 0.980],\n      \"confidence\": 0.82\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n  \"notes\": \"本页不是单纯扫描件，呈现为排版后的 PDF 渲染图，包含文字、表格、产品照片、接线图和操作示意图。文本层节选明显不完整；页面以图示说明、规格表和封面元素为主。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 1406,
+      "completion_tokens": 2283,
+      "total_tokens": 3689,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1312,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

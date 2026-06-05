@@ -1,0 +1,127 @@
+{
+  "doc_id": "cuh.sdvc40.manual.v4.01.zh-CN",
+  "doc_key": "cuh.sdvc40.manual.v4.01",
+  "lang": "zh-CN",
+  "page_index": 28,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T01:04:53",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc40.manual.v4.01.zh-CN，页码=28。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 7: 目录（第 7 页）\n- 目录2（第 8 页）\n- 第一章 性能特点（第 9 页）\n- 第二章 快速安装及使用指南（第 11 页）\n- 第三章 部件说明（第 15 页）\n- 第四章 功能说明（第 17 页）\n  - 4.1 输出电压设定（第 17 页）\n  - 4.2 输出频率设定（第 18 页）\n  - 4.3 缓启动功能（第 19 页）\n  - 4.4 输出开关（第 19 页）\n  - 4.5 最大输出电压限制功能（第 20 页）\n  - 4.6 键盘锁定功能（第 21 页）\n  - 4.7 开机运行",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.052, 0.93, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.158, 0.52, 0.183],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.188, 0.935, 0.541],\n      \"confidence\": 0.98,\n      \"caption\": \"5.2.2 对射NPN型传感器接线方法\",\n      \"image_alt\": \"对射NPN型传感器接线示意图。左侧为发射、接收传感器及线缆，中部标注棕色+、蓝色-、白色、灰色或黑色、黑线灰线任选一根等线色说明；右侧为控制器端子排A1至D2，并标出C1为地线、C2为信号线、C3为+24V输出。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.567, 0.54, 0.59],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.594, 0.935, 0.94],\n      \"confidence\": 0.98,\n      \"caption\": \"5.2.3 对射光电传感器接线方法\",\n      \"image_alt\": \"对射光电传感器接线示意图。左侧为接收与发射传感器及引线，中部标注棕色+、蓝色-、黑色OUT等线色；右侧为控制器端子排A1至D2，并标出C1为地线、C2为信号线、C3为+24V输出。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.966, 0.93, 0.989],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为带文本层的PDF渲染页，非纯扫描件。页面以两幅传感器接线示意图为主，包含页眉、章节标题、图示框和页脚信息；背景有浅色CUH水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.052,
+          0.93,
+          0.075
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.158,
+          0.52,
+          0.183
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.07,
+          0.188,
+          0.935,
+          0.541
+        ],
+        "confidence": 0.98,
+        "caption": "5.2.2 对射NPN型传感器接线方法",
+        "image_alt": "对射NPN型传感器接线示意图。左侧为发射、接收传感器及线缆，中部标注棕色+、蓝色-、白色、灰色或黑色、黑线灰线任选一根等线色说明；右侧为控制器端子排A1至D2，并标出C1为地线、C2为信号线、C3为+24V输出。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.567,
+          0.54,
+          0.59
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.07,
+          0.594,
+          0.935,
+          0.94
+        ],
+        "confidence": 0.98,
+        "caption": "5.2.3 对射光电传感器接线方法",
+        "image_alt": "对射光电传感器接线示意图。左侧为接收与发射传感器及引线，中部标注棕色+、蓝色-、黑色OUT等线色；右侧为控制器端子排A1至D2，并标出C1为地线、C2为信号线、C3为+24V输出。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.966,
+          0.93,
+          0.989
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "本页为带文本层的PDF渲染页，非纯扫描件。页面以两幅传感器接线示意图为主，包含页眉、章节标题、图示框和页脚信息；背景有浅色CUH水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmjJAbghQlKwiINy3HMFDOQBVMSPn",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780506280,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.052, 0.93, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.158, 0.52, 0.183],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.188, 0.935, 0.541],\n      \"confidence\": 0.98,\n      \"caption\": \"5.2.2 对射NPN型传感器接线方法\",\n      \"image_alt\": \"对射NPN型传感器接线示意图。左侧为发射、接收传感器及线缆，中部标注棕色+、蓝色-、白色、灰色或黑色、黑线灰线任选一根等线色说明；右侧为控制器端子排A1至D2，并标出C1为地线、C2为信号线、C3为+24V输出。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.567, 0.54, 0.59],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.594, 0.935, 0.94],\n      \"confidence\": 0.98,\n      \"caption\": \"5.2.3 对射光电传感器接线方法\",\n      \"image_alt\": \"对射光电传感器接线示意图。左侧为接收与发射传感器及引线，中部标注棕色+、蓝色-、黑色OUT等线色；右侧为控制器端子排A1至D2，并标出C1为地线、C2为信号线、C3为+24V输出。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.966, 0.93, 0.989],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为带文本层的PDF渲染页，非纯扫描件。页面以两幅传感器接线示意图为主，包含页眉、章节标题、图示框和页脚信息；背景有浅色CUH水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2442,
+      "completion_tokens": 1055,
+      "total_tokens": 3497,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 421,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 63,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:54:46",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=63。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.054, 0.930, 0.078],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.135, 0.304, 0.158],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.164, 0.934, 0.294],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.306, 0.930, 0.505],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.512, 0.930, 0.552],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.073, 0.558, 0.932, 0.867],\n      \"confidence\": 0.94,\n      \"image_alt\": \"Example 1 replacement流程示意图：三组竖向控制器网络示意从左到右展示地址3控制器故障、断电并移除通信线、新控制器接入并上电，随后选择 Replace 后恢复地址3数据。\",\n      \"caption\": \"Example 1 控制器替换与数据恢复示意\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.877, 0.930, 0.968],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.972, 0.930, 0.994],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面以文字说明为主，中下部包含一幅较大的网络控制器替换流程示意图；背景有浅色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.054,
+          0.93,
+          0.078
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.135,
+          0.304,
+          0.158
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.164,
+          0.934,
+          0.294
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.306,
+          0.93,
+          0.505
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.512,
+          0.93,
+          0.552
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.073,
+          0.558,
+          0.932,
+          0.867
+        ],
+        "confidence": 0.94,
+        "image_alt": "Example 1 replacement流程示意图：三组竖向控制器网络示意从左到右展示地址3控制器故障、断电并移除通信线、新控制器接入并上电，随后选择 Replace 后恢复地址3数据。",
+        "caption": "Example 1 控制器替换与数据恢复示意",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.877,
+          0.93,
+          0.968
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.073,
+          0.972,
+          0.93,
+          0.994
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "notes": "本页为带文本层的说明书页面，不是纯扫描件。页面以文字说明为主，中下部包含一幅较大的网络控制器替换流程示意图；背景有浅色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmtS7bQi5wQYjyIS4xAfYXN2Thqjb",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780545275,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.054, 0.930, 0.078],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.135, 0.304, 0.158],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.164, 0.934, 0.294],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.306, 0.930, 0.505],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.512, 0.930, 0.552],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.073, 0.558, 0.932, 0.867],\n      \"confidence\": 0.94,\n      \"image_alt\": \"Example 1 replacement流程示意图：三组竖向控制器网络示意从左到右展示地址3控制器故障、断电并移除通信线、新控制器接入并上电，随后选择 Replace 后恢复地址3数据。\",\n      \"caption\": \"Example 1 控制器替换与数据恢复示意\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.877, 0.930, 0.968],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.972, 0.930, 0.994],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面以文字说明为主，中下部包含一幅较大的网络控制器替换流程示意图；背景有浅色 CUH 水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4313,
+      "completion_tokens": 787,
+      "total_tokens": 5100,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 219,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

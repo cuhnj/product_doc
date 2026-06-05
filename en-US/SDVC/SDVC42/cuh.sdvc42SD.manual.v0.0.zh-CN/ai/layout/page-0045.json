@@ -1,0 +1,160 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 45,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:10:29",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=45。\n\n【目录/书签上下文（节选）】\n- Copyright Statement&Disclaimer（第 2 页）\n- Preface（第 3 页）\n- Safety and Precautions（第 4 页）\n- Operating and Storage Environment（第 5 页）\n- Contents（第 7 页）\n- 8:Contents2（第 8 页）\n- 9: Contents3（第 9 页）\n- 10: Contents4（第 10 页）\n- Chapter ⅠInstructions Before Use（第 11 页）\n  - 1.1 Check Package Contents（第 11 页）\n  - 1.2 Manufacturer Nameplate Illustrate（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.051, 0.932, 0.073],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.128, 0.495, 0.150],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.156, 0.930, 0.289],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.329, 0.533, 0.351],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.360, 0.932, 0.453],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.486, 0.350, 0.508],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.518, 0.790, 0.535],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.097, 0.547, 0.905, 0.723],\n      \"confidence\": 0.96,\n      \"caption\": \"Parameter / Meaning table for RS Priority\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.932, 0.975],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面以文字说明和一个两列表格为主，背景有淡色 CUH 水印；无独立图片或流程图。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.072,
+          0.051,
+          0.932,
+          0.073
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.128,
+          0.495,
+          0.15
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.156,
+          0.93,
+          0.289
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.329,
+          0.533,
+          0.351
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.36,
+          0.932,
+          0.453
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.486,
+          0.35,
+          0.508
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.518,
+          0.79,
+          0.535
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.097,
+          0.547,
+          0.905,
+          0.723
+        ],
+        "confidence": 0.96,
+        "caption": "Parameter / Meaning table for RS Priority",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.953,
+          0.932,
+          0.975
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "notes": "本页为带文本层的说明书页面，不是纯扫描件。页面以文字说明和一个两列表格为主，背景有淡色 CUH 水印；无独立图片或流程图。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DmslB87lf0tW1K1NjCPB7W0EAQLDw",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780542613,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.051, 0.932, 0.073],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.128, 0.495, 0.150],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.156, 0.930, 0.289],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.329, 0.533, 0.351],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.360, 0.932, 0.453],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.486, 0.350, 0.508],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.518, 0.790, 0.535],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.097, 0.547, 0.905, 0.723],\n      \"confidence\": 0.96,\n      \"caption\": \"Parameter / Meaning table for RS Priority\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.932, 0.975],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面以文字说明和一个两列表格为主，背景有淡色 CUH 水印；无独立图片或流程图。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3880,
+      "completion_tokens": 1026,
+      "total_tokens": 4906,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 479,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

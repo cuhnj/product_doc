@@ -1,0 +1,97 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 46,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:06:35",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=46。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 使用环境（第 5 页）\n- 6: 空白页（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 页面 9（第 9 页）\n- 页面 10（第 10 页）\n- 页面 11（第 11 页）\n- 页面 12（第 12 页）\n- 页面 13（第 13 页）\n- 页面 14（第 14 页）\n- 页面 15（第 15 页）\n- 页面 16（第 16 页）\n- 页面 17（第 17 页）\n- 页面 18（第 18 页）\n- 页面 19（第 19 页）\n- 页面 20（第 20 页）\n-",
+  "assistant_text": "{\n  \"page_markdown\": \"Variable Frequency Digital Controller for Vibratory Feeder  **SDVC31 Series**\\n\\n## Appendix F: Trouble Shooting Tips and Error Explanations\\n\\nThe following tips can help to solve the problems you may encounter\\n\\n| No. | Problem / display | 数码管符号图片 | Trouble Shooting Tips and Error Explanations |\\n|---:|---|---|---|\\n| 1 | No display after<br>power on |  | ◆ Make sure the power outlet is live<br>◆ Make sure the Input Power Cable is reliably connected to the power outlet |\\n| 2 | Displays normally<br>but no output |  | ◆ Make sure the Input Power Cable and Output Power Cable are firmly connected<br>◆ Make sure the Output Voltage parameter value is not too small<br>◆ Make sure the controller is not stopped by the control signal<br>◆ Make sure the controller is not stopped by the parameters that are set as normal off |\\n| 3 | Control signal<br>loses effectiveness |  | ◆ Make sure the control signal is correctly inputted<br>◆ Make sure the ground wire of the control signal is correctly connected to the controller<br>◆ Make sure the Logical Relation of the control signal is set correctly as you expectation |\\n| 4 | Beat phenomena |  | ◆ Avoid vibration coupling among the vibrators<br>◆ Heighten the resonant frequency of the vibrators |\\n| 5 | Displays normally,<br>no output, but sound<br>can be heard |  | ◆ Adjust all parameters as this book instructed |\\n| 6 | Err01 | [[vcrop:46:0]] | ◆ Output in short-circuit, Make sure the Output Power Cable and the coil are not shorted out |\\n| 7 | Err02 | [[vcrop:46:1]] | ◆ Output Over current, Reduce the Output Voltage value and make sure the armature gap is not too big |\\n| 8 | Err03 | [[vcrop:46:2]] | ◆ Overheat, Place the controller in well ventilated environment |\\n| 9 | Err04 | [[vcrop:46:3]] | ◆ Reserved, please contact us |\\n| 10 | Err05 | [[vcrop:46:4]] | ◆ Reserved, please contact us |\\n\\n2018-11  -38-  SDVC31SMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [0.13, 0.612, 0.33, 0.661],\n      \"alt\": \"Seven-segment display symbol Err01\",\n      \"reason\": \"Seven-segment display glyph shown in table row 6.\"\n    },\n    {\n      \"bbox_0_1\": [0.13, 0.676, 0.33, 0.725],\n      \"alt\": \"Seven-segment display symbol Err02\",\n      \"reason\": \"Seven-segment display glyph shown in table row 7.\"\n    },\n    {\n      \"bbox_0_1\": [0.13, 0.739, 0.33, 0.786],\n      \"alt\": \"Seven-segment display symbol Err03\",\n      \"reason\": \"Seven-segment display glyph shown in table row 8.\"\n    },\n    {\n      \"bbox_0_1\": [0.13, 0.801, 0.33, 0.849],\n      \"alt\": \"Seven-segment display symbol Err04\",\n      \"reason\": \"Seven-segment display glyph shown in table row 9.\"\n    },\n    {\n      \"bbox_0_1\": [0.13, 0.864, 0.33, 0.912],\n      \"alt\": \"Seven-segment display symbol Err05\",\n      \"reason\": \"Seven-segment display glyph shown in table row 10.\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "Variable Frequency Digital Controller for Vibratory Feeder  **SDVC31 Series**\n\n## Appendix F: Trouble Shooting Tips and Error Explanations\n\nThe following tips can help to solve the problems you may encounter\n\n| No. | Problem / display | 数码管符号图片 | Trouble Shooting Tips and Error Explanations |\n|---:|---|---|---|\n| 1 | No display after<br>power on |  | ◆ Make sure the power outlet is live<br>◆ Make sure the Input Power Cable is reliably connected to the power outlet |\n| 2 | Displays normally<br>but no output |  | ◆ Make sure the Input Power Cable and Output Power Cable are firmly connected<br>◆ Make sure the Output Voltage parameter value is not too small<br>◆ Make sure the controller is not stopped by the control signal<br>◆ Make sure the controller is not stopped by the parameters that are set as normal off |\n| 3 | Control signal<br>loses effectiveness |  | ◆ Make sure the control signal is correctly inputted<br>◆ Make sure the ground wire of the control signal is correctly connected to the controller<br>◆ Make sure the Logical Relation of the control signal is set correctly as you expectation |\n| 4 | Beat phenomena |  | ◆ Avoid vibration coupling among the vibrators<br>◆ Heighten the resonant frequency of the vibrators |\n| 5 | Displays normally,<br>no output, but sound<br>can be heard |  | ◆ Adjust all parameters as this book instructed |\n| 6 | Err01 | [[vcrop:46:0]] | ◆ Output in short-circuit, Make sure the Output Power Cable and the coil are not shorted out |\n| 7 | Err02 | [[vcrop:46:1]] | ◆ Output Over current, Reduce the Output Voltage value and make sure the armature gap is not too big |\n| 8 | Err03 | [[vcrop:46:2]] | ◆ Overheat, Place the controller in well ventilated environment |\n| 9 | Err04 | [[vcrop:46:3]] | ◆ Reserved, please contact us |\n| 10 | Err05 | [[vcrop:46:4]] | ◆ Reserved, please contact us |\n\n2018-11  -38-  SDVC31SMSEN_3.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.13,
+        0.612,
+        0.33,
+        0.661
+      ],
+      "alt": "Seven-segment display symbol Err01",
+      "reason": "Seven-segment display glyph shown in table row 6."
+    },
+    {
+      "bbox_0_1": [
+        0.13,
+        0.676,
+        0.33,
+        0.725
+      ],
+      "alt": "Seven-segment display symbol Err02",
+      "reason": "Seven-segment display glyph shown in table row 7."
+    },
+    {
+      "bbox_0_1": [
+        0.13,
+        0.739,
+        0.33,
+        0.786
+      ],
+      "alt": "Seven-segment display symbol Err03",
+      "reason": "Seven-segment display glyph shown in table row 8."
+    },
+    {
+      "bbox_0_1": [
+        0.13,
+        0.801,
+        0.33,
+        0.849
+      ],
+      "alt": "Seven-segment display symbol Err04",
+      "reason": "Seven-segment display glyph shown in table row 9."
+    },
+    {
+      "bbox_0_1": [
+        0.13,
+        0.864,
+        0.33,
+        0.912
+      ],
+      "alt": "Seven-segment display symbol Err05",
+      "reason": "Seven-segment display glyph shown in table row 10."
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-Dmsh9CAO94frKP564SxdEUEWRYZ8U",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780542363,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"Variable Frequency Digital Controller for Vibratory Feeder  **SDVC31 Series**\\n\\n## Appendix F: Trouble Shooting Tips and Error Explanations\\n\\nThe following tips can help to solve the problems you may encounter\\n\\n| No. | Problem / display | 数码管符号图片 | Trouble Shooting Tips and Error Explanations |\\n|---:|---|---|---|\\n| 1 | No display after<br>power on |  | ◆ Make sure the power outlet is live<br>◆ Make sure the Input Power Cable is reliably connected to the power outlet |\\n| 2 | Displays normally<br>but no output |  | ◆ Make sure the Input Power Cable and Output Power Cable are firmly connected<br>◆ Make sure the Output Voltage parameter value is not too small<br>◆ Make sure the controller is not stopped by the control signal<br>◆ Make sure the controller is not stopped by the parameters that are set as normal off |\\n| 3 | Control signal<br>loses effectiveness |  | ◆ Make sure the control signal is correctly inputted<br>◆ Make sure the ground wire of the control signal is correctly connected to the controller<br>◆ Make sure the Logical Relation of the control signal is set correctly as you expectation |\\n| 4 | Beat phenomena |  | ◆ Avoid vibration coupling among the vibrators<br>◆ Heighten the resonant frequency of the vibrators |\\n| 5 | Displays normally,<br>no output, but sound<br>can be heard |  | ◆ Adjust all parameters as this book instructed |\\n| 6 | Err01 | [[vcrop:46:0]] | ◆ Output in short-circuit, Make sure the Output Power Cable and the coil are not shorted out |\\n| 7 | Err02 | [[vcrop:46:1]] | ◆ Output Over current, Reduce the Output Voltage value and make sure the armature gap is not too big |\\n| 8 | Err03 | [[vcrop:46:2]] | ◆ Overheat, Place the controller in well ventilated environment |\\n| 9 | Err04 | [[vcrop:46:3]] | ◆ Reserved, please contact us |\\n| 10 | Err05 | [[vcrop:46:4]] | ◆ Reserved, please contact us |\\n\\n2018-11  -38-  SDVC31SMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [0.13, 0.612, 0.33, 0.661],\n      \"alt\": \"Seven-segment display symbol Err01\",\n      \"reason\": \"Seven-segment display glyph shown in table row 6.\"\n    },\n    {\n      \"bbox_0_1\": [0.13, 0.676, 0.33, 0.725],\n      \"alt\": \"Seven-segment display symbol Err02\",\n      \"reason\": \"Seven-segment display glyph shown in table row 7.\"\n    },\n    {\n      \"bbox_0_1\": [0.13, 0.739, 0.33, 0.786],\n      \"alt\": \"Seven-segment display symbol Err03\",\n      \"reason\": \"Seven-segment display glyph shown in table row 8.\"\n    },\n    {\n      \"bbox_0_1\": [0.13, 0.801, 0.33, 0.849],\n      \"alt\": \"Seven-segment display symbol Err04\",\n      \"reason\": \"Seven-segment display glyph shown in table row 9.\"\n    },\n    {\n      \"bbox_0_1\": [0.13, 0.864, 0.33, 0.912],\n      \"alt\": \"Seven-segment display symbol Err05\",\n      \"reason\": \"Seven-segment display glyph shown in table row 10.\"\n    }\n  ],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2172,
+      "completion_tokens": 2396,
+      "total_tokens": 4568,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 1792
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1536,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

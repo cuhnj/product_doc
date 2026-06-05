@@ -1,0 +1,77 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 28,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T10:39:59",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，doc_key=cuh.sdvc.manual.v1.01，lang=zh-CN，页码=28。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 空白页（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯及按键说明（第 10 页）\n  - 1.3 外部部件说明（第 11 页）\n  - 1.4 信号端口说明（第 11 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 产品介绍（第 13 页）\n  - 2.1 产品简介（第 13 页）\n- ",
+  "assistant_text": "{\n  \"page_markdown\": \"**数字三相异步电机控制器**　　　　　　　　　　　　　　　**SDMC30-S**\\n\\n### Sto：安全转矩关断\\n\\n[[vcrop:28:0]]\\n\\n图中标注：\\n\\n- 转速 V\\n- STO\\n- 电机转矩被关闭\\n- 选择 Sto\\n- t\\n\\n### Sbc：安全抱闸控制\\n\\n[[vcrop:28:1]]\\n\\n图中标注：\\n\\n- 转速 V\\n- STO\\n- 选择 Sbc\\n- t\\n- P1 / P2 / P3\\n- M\\n\\n### SS1：1类安全停止\\n\\n[[vcrop:28:2]]\\n\\n图中标注：\\n\\n- 转速 V\\n- Safe Stop 1 延迟时间\\n- STO\\n- 速度限值\\n- 选择 SS1\\n- t\\n\\n---\\n\\n2023-09　　　　　　　　　　　　-20-　　　　　　　　　　　　SDMC30SMSCN_1.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.11,\n        0.17,\n        0.82,\n        0.36\n      ],\n      \"alt\": \"Sto：安全转矩关断时序示意图\",\n      \"reason\": \"包含转速曲线、STO 黄色箭头及斜线区域，需保留复杂图形细节。\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.11,\n        0.41,\n        0.83,\n        0.67\n      ],\n      \"alt\": \"Sbc：安全抱闸控制时序及接线示意图\",\n      \"reason\": \"包含转速曲线、STO 区域以及 P1/P2/P3 至电机 M 的小型电路示意，需截图保留。\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.11,\n        0.76,\n        0.83,\n        0.94\n      ],\n      \"alt\": \"SS1：1类安全停止时序示意图\",\n      \"reason\": \"包含 Safe Stop 1 延迟时间、速度限值、STO 区域和曲线关系，需截图保留。\"\n    }\n  ],\n  \"notes\": \"本页主要为三组安全停止功能示意图，细线和黄色标注区域建议以位图保留。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "**数字三相异步电机控制器**　　　　　　　　　　　　　　　**SDMC30-S**\n\n### Sto：安全转矩关断\n\n[[vcrop:28:0]]\n\n图中标注：\n\n- 转速 V\n- STO\n- 电机转矩被关闭\n- 选择 Sto\n- t\n\n### Sbc：安全抱闸控制\n\n[[vcrop:28:1]]\n\n图中标注：\n\n- 转速 V\n- STO\n- 选择 Sbc\n- t\n- P1 / P2 / P3\n- M\n\n### SS1：1类安全停止\n\n[[vcrop:28:2]]\n\n图中标注：\n\n- 转速 V\n- Safe Stop 1 延迟时间\n- STO\n- 速度限值\n- 选择 SS1\n- t\n\n---\n\n2023-09　　　　　　　　　　　　-20-　　　　　　　　　　　　SDMC30SMSCN_1.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.11,
+        0.17,
+        0.82,
+        0.36
+      ],
+      "alt": "Sto：安全转矩关断时序示意图",
+      "reason": "包含转速曲线、STO 黄色箭头及斜线区域，需保留复杂图形细节。"
+    },
+    {
+      "bbox_0_1": [
+        0.11,
+        0.41,
+        0.83,
+        0.67
+      ],
+      "alt": "Sbc：安全抱闸控制时序及接线示意图",
+      "reason": "包含转速曲线、STO 区域以及 P1/P2/P3 至电机 M 的小型电路示意，需截图保留。"
+    },
+    {
+      "bbox_0_1": [
+        0.11,
+        0.76,
+        0.83,
+        0.94
+      ],
+      "alt": "SS1：1类安全停止时序示意图",
+      "reason": "包含 Safe Stop 1 延迟时间、速度限值、STO 区域和曲线关系，需截图保留。"
+    }
+  ],
+  "notes": "本页主要为三组安全停止功能示意图，细线和黄色标注区域建议以位图保留。",
+  "raw": {
+    "id": "chatcmpl-DmsHegqMU7zJaR7U7LS4LUu6pmuNX",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780540782,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"**数字三相异步电机控制器**　　　　　　　　　　　　　　　**SDMC30-S**\\n\\n### Sto：安全转矩关断\\n\\n[[vcrop:28:0]]\\n\\n图中标注：\\n\\n- 转速 V\\n- STO\\n- 电机转矩被关闭\\n- 选择 Sto\\n- t\\n\\n### Sbc：安全抱闸控制\\n\\n[[vcrop:28:1]]\\n\\n图中标注：\\n\\n- 转速 V\\n- STO\\n- 选择 Sbc\\n- t\\n- P1 / P2 / P3\\n- M\\n\\n### SS1：1类安全停止\\n\\n[[vcrop:28:2]]\\n\\n图中标注：\\n\\n- 转速 V\\n- Safe Stop 1 延迟时间\\n- STO\\n- 速度限值\\n- 选择 SS1\\n- t\\n\\n---\\n\\n2023-09　　　　　　　　　　　　-20-　　　　　　　　　　　　SDMC30SMSCN_1.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.11,\n        0.17,\n        0.82,\n        0.36\n      ],\n      \"alt\": \"Sto：安全转矩关断时序示意图\",\n      \"reason\": \"包含转速曲线、STO 黄色箭头及斜线区域，需保留复杂图形细节。\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.11,\n        0.41,\n        0.83,\n        0.67\n      ],\n      \"alt\": \"Sbc：安全抱闸控制时序及接线示意图\",\n      \"reason\": \"包含转速曲线、STO 区域以及 P1/P2/P3 至电机 M 的小型电路示意，需截图保留。\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.11,\n        0.76,\n        0.83,\n        0.94\n      ],\n      \"alt\": \"SS1：1类安全停止时序示意图\",\n      \"reason\": \"包含 Safe Stop 1 延迟时间、速度限值、STO 区域和曲线关系，需截图保留。\"\n    }\n  ],\n  \"notes\": \"本页主要为三组安全停止功能示意图，细线和黄色标注区域建议以位图保留。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2734,
+      "completion_tokens": 1081,
+      "total_tokens": 3815,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

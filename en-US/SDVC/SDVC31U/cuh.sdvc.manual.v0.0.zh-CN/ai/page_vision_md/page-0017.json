@@ -1,0 +1,67 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 17,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-04T11:00:11",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=17。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 使用环境（第 5 页）\n- 6: 空白页（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 页面 9（第 9 页）\n- 页面 10（第 10 页）\n- 页面 11（第 11 页）\n- 页面 12（第 12 页）\n- 页面 13（第 13 页）\n- 页面 14（第 14 页）\n- 页面 15（第 15 页）\n- 页面 16（第 16 页）\n- 页面 17（第 17 页）\n- 页面 18（第 18 页）\n- 页面 19（第 19 页）\n- 页面 20（第 20 页）\n-",
+  "assistant_text": "{\n  \"page_markdown\": \"*Variable Frequency Digital Controller for Vibratory Feeder*　　　　　　　　　　　　　　　　　　　**SDVC31 Series**\\n\\n# Chapter IV Function Descriptions\\n\\n## 4.1 Output Voltage Setting\\n\\nThe Output Voltage can be set directly and digitally through the control panel. Benefit from the unique Voltage Stabilizing Function, Output Voltage of the controller won't fluctuate as the Input Voltage does,and a vibrator can work stably in unstable input voltage environment.\\n\\n- Turn on the power switch\\n\\n- The Output Voltage Indicator lights up as the controller enters Output Voltage Adjusting status when the LED displays the voltage symbol U and the previously set voltage value.\\n\\n- Adjust the Output Voltage value by pressing the <kbd>Vol+</kbd> or <kbd>Vol-</kbd> button.\\n\\n[[vcrop:17:0]]\\n\\n- U — represents Output Voltage\\n- Output Voltage Indicator\\n- Output Voltage value is set as 180V at present\\n- The adjustable Output Voltage of the controller series ranges from 0V to 250V\\n\\n> Output Voltage can be adjusted in any Basic Parameter Adjusting status or Advanced Parameter Adjusting status by pressing the <kbd>Vol+</kbd> or <kbd>Vol-</kbd> button. The controller returns to the previous parameter adjusting status after adjusting the Output Voltage.\\n\\n## ☺ Acceleration\\n\\nWhen desired Output Voltage value exceeds Input Voltage value, the Acceleration function of the controller works as the Acceleration Indicator lights up.\\n\\nWhen desired Output Voltage value exceeds too much of the Input Voltage value, the controller fails to output such voltage value as the Saturation Indicator lights up.\\n\\n[[vcrop:17:1]]\\n\\n- Acceleration Indicator\\n- Saturation Indicator\\n\\n---\\n\\n2018-11　　　　　　　　　　　　　　　　　- 9 -　　　　　　　　　　　　　　　　　SDVC31SMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.49,\n        0.26,\n        0.92,\n        0.48\n      ],\n      \"alt\": \"Output Voltage Setting control panel diagram with labels\",\n      \"reason\": \"Contains annotated control panel illustration and LED/button positions that are better preserved as bitmap.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.49,\n        0.64,\n        0.78,\n        0.86\n      ],\n      \"alt\": \"Acceleration and Saturation indicator control panel diagram\",\n      \"reason\": \"Contains annotated controller front-panel illustration with indicator positions.\"\n    }\n  ],\n  \"notes\": \"Page is clear; diagrams are line-art with small labels, so bitmap crops are suggested for visual fidelity.\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "*Variable Frequency Digital Controller for Vibratory Feeder*　　　　　　　　　　　　　　　　　　　**SDVC31 Series**\n\n# Chapter IV Function Descriptions\n\n## 4.1 Output Voltage Setting\n\nThe Output Voltage can be set directly and digitally through the control panel. Benefit from the unique Voltage Stabilizing Function, Output Voltage of the controller won't fluctuate as the Input Voltage does,and a vibrator can work stably in unstable input voltage environment.\n\n- Turn on the power switch\n\n- The Output Voltage Indicator lights up as the controller enters Output Voltage Adjusting status when the LED displays the voltage symbol U and the previously set voltage value.\n\n- Adjust the Output Voltage value by pressing the <kbd>Vol+</kbd> or <kbd>Vol-</kbd> button.\n\n[[vcrop:17:0]]\n\n- U — represents Output Voltage\n- Output Voltage Indicator\n- Output Voltage value is set as 180V at present\n- The adjustable Output Voltage of the controller series ranges from 0V to 250V\n\n> Output Voltage can be adjusted in any Basic Parameter Adjusting status or Advanced Parameter Adjusting status by pressing the <kbd>Vol+</kbd> or <kbd>Vol-</kbd> button. The controller returns to the previous parameter adjusting status after adjusting the Output Voltage.\n\n## ☺ Acceleration\n\nWhen desired Output Voltage value exceeds Input Voltage value, the Acceleration function of the controller works as the Acceleration Indicator lights up.\n\nWhen desired Output Voltage value exceeds too much of the Input Voltage value, the controller fails to output such voltage value as the Saturation Indicator lights up.\n\n[[vcrop:17:1]]\n\n- Acceleration Indicator\n- Saturation Indicator\n\n---\n\n2018-11　　　　　　　　　　　　　　　　　- 9 -　　　　　　　　　　　　　　　　　SDVC31SMSEN_3.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.49,
+        0.26,
+        0.92,
+        0.48
+      ],
+      "alt": "Output Voltage Setting control panel diagram with labels",
+      "reason": "Contains annotated control panel illustration and LED/button positions that are better preserved as bitmap."
+    },
+    {
+      "bbox_0_1": [
+        0.49,
+        0.64,
+        0.78,
+        0.86
+      ],
+      "alt": "Acceleration and Saturation indicator control panel diagram",
+      "reason": "Contains annotated controller front-panel illustration with indicator positions."
+    }
+  ],
+  "notes": "Page is clear; diagrams are line-art with small labels, so bitmap crops are suggested for visual fidelity.",
+  "raw": {
+    "id": "chatcmpl-Dmsb6oFgJZejMzf9kuOkjoZvibOd0",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780541988,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"*Variable Frequency Digital Controller for Vibratory Feeder*　　　　　　　　　　　　　　　　　　　**SDVC31 Series**\\n\\n# Chapter IV Function Descriptions\\n\\n## 4.1 Output Voltage Setting\\n\\nThe Output Voltage can be set directly and digitally through the control panel. Benefit from the unique Voltage Stabilizing Function, Output Voltage of the controller won't fluctuate as the Input Voltage does,and a vibrator can work stably in unstable input voltage environment.\\n\\n- Turn on the power switch\\n\\n- The Output Voltage Indicator lights up as the controller enters Output Voltage Adjusting status when the LED displays the voltage symbol U and the previously set voltage value.\\n\\n- Adjust the Output Voltage value by pressing the <kbd>Vol+</kbd> or <kbd>Vol-</kbd> button.\\n\\n[[vcrop:17:0]]\\n\\n- U — represents Output Voltage\\n- Output Voltage Indicator\\n- Output Voltage value is set as 180V at present\\n- The adjustable Output Voltage of the controller series ranges from 0V to 250V\\n\\n> Output Voltage can be adjusted in any Basic Parameter Adjusting status or Advanced Parameter Adjusting status by pressing the <kbd>Vol+</kbd> or <kbd>Vol-</kbd> button. The controller returns to the previous parameter adjusting status after adjusting the Output Voltage.\\n\\n## ☺ Acceleration\\n\\nWhen desired Output Voltage value exceeds Input Voltage value, the Acceleration function of the controller works as the Acceleration Indicator lights up.\\n\\nWhen desired Output Voltage value exceeds too much of the Input Voltage value, the controller fails to output such voltage value as the Saturation Indicator lights up.\\n\\n[[vcrop:17:1]]\\n\\n- Acceleration Indicator\\n- Saturation Indicator\\n\\n---\\n\\n2018-11　　　　　　　　　　　　　　　　　- 9 -　　　　　　　　　　　　　　　　　SDVC31SMSEN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.49,\n        0.26,\n        0.92,\n        0.48\n      ],\n      \"alt\": \"Output Voltage Setting control panel diagram with labels\",\n      \"reason\": \"Contains annotated control panel illustration and LED/button positions that are better preserved as bitmap.\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.49,\n        0.64,\n        0.78,\n        0.86\n      ],\n      \"alt\": \"Acceleration and Saturation indicator control panel diagram\",\n      \"reason\": \"Contains annotated controller front-panel illustration with indicator positions.\"\n    }\n  ],\n  \"notes\": \"Page is clear; diagrams are line-art with small labels, so bitmap crops are suggested for visual fidelity.\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2174,
+      "completion_tokens": 1614,
+      "total_tokens": 3788,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}
