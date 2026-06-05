@@ -1,0 +1,88 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 52,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T14:55:49",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=52。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯、按键及外部部件说明（第 10 页）\n  - 1.3 接线端口说明（第 11 页）\n  - 1.4 控制器铭牌说明（第 11 页）\n- 第二章 产品介绍（第 12 页）\n  - 2.1 产品简介（第 12 页）\n- 第三章 安装及使用指南（第 13 页）\n  - 3.1 控制器使用条件（第 13 页）\n  - 3.2 按键基本操作（第 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.0807, 0.8338, 0.2461, 0.9478],\n      \"confidence\": 0.92,\n      \"image_alt\": \"页面左下角的二维码，二维码中心带有“CUH”标识\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.2643, 0.8355, 0.5339, 0.9363],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0, 0, 1, 1],\n      \"confidence\": 0.65\n    }\n  ],\n  \"reading_order\": [1, 2, 0],\n  \"notes\": \"本页主体内容为空白，仅有浅色重复“CUH”水印背景；页面底部左侧包含二维码和公司联系信息。图像看起来为PDF数字渲染页，不像传统扫描件。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.0807,
+          0.8338,
+          0.2461,
+          0.9478
+        ],
+        "confidence": 0.92,
+        "image_alt": "页面左下角的二维码，二维码中心带有“CUH”标识",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.2643,
+          0.8355,
+          0.5339,
+          0.9363
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "confidence": 0.65,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      1,
+      2,
+      0
+    ],
+    "notes": "本页主体内容为空白，仅有浅色重复“CUH”水印背景；页面底部左侧包含二维码和公司联系信息。图像看起来为PDF数字渲染页，不像传统扫描件。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnIkutYA7d9CIGPrXVSEP60knB8xL",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780642540,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.0807, 0.8338, 0.2461, 0.9478],\n      \"confidence\": 0.92,\n      \"image_alt\": \"页面左下角的二维码，二维码中心带有“CUH”标识\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.2643, 0.8355, 0.5339, 0.9363],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0, 0, 1, 1],\n      \"confidence\": 0.65\n    }\n  ],\n  \"reading_order\": [1, 2, 0],\n  \"notes\": \"本页主体内容为空白，仅有浅色重复“CUH”水印背景；页面底部左侧包含二维码和公司联系信息。图像看起来为PDF数字渲染页，不像传统扫描件。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2071,
+      "completion_tokens": 523,
+      "total_tokens": 2594,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 268,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

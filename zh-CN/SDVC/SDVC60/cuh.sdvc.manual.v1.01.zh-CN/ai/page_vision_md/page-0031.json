@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 31,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T14:57:22",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，doc_key=cuh.sdvc.manual.v1.01，lang=zh-CN，页码=31。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯、按键及外部部件说明（第 10 页）\n  - 1.3 接线端口说明（第 11 页）\n  - 1.4 控制器铭牌说明（第 11 页）\n- 第二章 产品介绍（第 12 页）\n  - 2.1 产品简介（第 12 页）\n- 第三章 安装及使用指南（第 13 页）\n  - 3.1 控制器使用条",
+  "assistant_text": "{\n  \"page_markdown\": \"智能柔性多路振动送料控制器　　　　　　　　　　　　　　　　　SDVC60 系列\\n\\n---\\n\\n● **程式源：** 设置控制器在程式间快速切换。\\n\\n- 同时长按 ◀ 和 ▲，进入公共参数调整界面。\\n- 短按 ▲ 或 ▼，切换到程式源设置界面 PA。\\n- 通过 ＋ 或 － 选择信号源，列表如下：\\n\\n- **PA** 表示程式源\\n- 默认程式源为 **C E**\\n\\n[[vcrop:31:0]]\\n\\n| 信号源 | 含义 |\\n|---|---|\\n| 00 | 程式1（C） |\\n| 01 | 程式2（E） |\\n| 10 | 程式3（R） |\\n| 11 | 程式4（S） |\\n| 0、1、C、E、R、S任选两个 | 客户自定义 |\\n\\n---\\n\\n2022-04　　　　　　　　　　　　　　　　　-23-　　　　　　　　　　　　　　　　　SDVC60SMSCN_1.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.628,\n        0.227,\n        0.897,\n        0.439\n      ],\n      \"alt\": \"控制器面板示意图，显示 PA、C、E 及按键位置\",\n      \"reason\": \"右侧控制器面板为线框示意图，包含显示屏、指示灯和按键布局，保留位图有助于准确呈现视觉信息。\"\n    }\n  ],\n  \"notes\": \"页面清晰；背景有浅色水印，不影响正文和表格识别。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "智能柔性多路振动送料控制器　　　　　　　　　　　　　　　　　SDVC60 系列\n\n---\n\n● **程式源：** 设置控制器在程式间快速切换。\n\n- 同时长按 ◀ 和 ▲，进入公共参数调整界面。\n- 短按 ▲ 或 ▼，切换到程式源设置界面 PA。\n- 通过 ＋ 或 － 选择信号源，列表如下：\n\n- **PA** 表示程式源\n- 默认程式源为 **C E**\n\n[[vcrop:31:0]]\n\n| 信号源 | 含义 |\n|---|---|\n| 00 | 程式1（C） |\n| 01 | 程式2（E） |\n| 10 | 程式3（R） |\n| 11 | 程式4（S） |\n| 0、1、C、E、R、S任选两个 | 客户自定义 |\n\n---\n\n2022-04　　　　　　　　　　　　　　　　　-23-　　　　　　　　　　　　　　　　　SDVC60SMSCN_1.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.628,
+        0.227,
+        0.897,
+        0.439
+      ],
+      "alt": "控制器面板示意图，显示 PA、C、E 及按键位置",
+      "reason": "右侧控制器面板为线框示意图，包含显示屏、指示灯和按键布局，保留位图有助于准确呈现视觉信息。"
+    }
+  ],
+  "notes": "页面清晰；背景有浅色水印，不影响正文和表格识别。",
+  "raw": {
+    "id": "chatcmpl-DnIm5nGh0xB4BJ49HUMlAgPEl6ROk",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780642613,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"智能柔性多路振动送料控制器　　　　　　　　　　　　　　　　　SDVC60 系列\\n\\n---\\n\\n● **程式源：** 设置控制器在程式间快速切换。\\n\\n- 同时长按 ◀ 和 ▲，进入公共参数调整界面。\\n- 短按 ▲ 或 ▼，切换到程式源设置界面 PA。\\n- 通过 ＋ 或 － 选择信号源，列表如下：\\n\\n- **PA** 表示程式源\\n- 默认程式源为 **C E**\\n\\n[[vcrop:31:0]]\\n\\n| 信号源 | 含义 |\\n|---|---|\\n| 00 | 程式1（C） |\\n| 01 | 程式2（E） |\\n| 10 | 程式3（R） |\\n| 11 | 程式4（S） |\\n| 0、1、C、E、R、S任选两个 | 客户自定义 |\\n\\n---\\n\\n2022-04　　　　　　　　　　　　　　　　　-23-　　　　　　　　　　　　　　　　　SDVC60SMSCN_1.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.628,\n        0.227,\n        0.897,\n        0.439\n      ],\n      \"alt\": \"控制器面板示意图，显示 PA、C、E 及按键位置\",\n      \"reason\": \"右侧控制器面板为线框示意图，包含显示屏、指示灯和按键布局，保留位图有助于准确呈现视觉信息。\"\n    }\n  ],\n  \"notes\": \"页面清晰；背景有浅色水印，不影响正文和表格识别。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2528,
+      "completion_tokens": 1870,
+      "total_tokens": 4398,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1445,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}
