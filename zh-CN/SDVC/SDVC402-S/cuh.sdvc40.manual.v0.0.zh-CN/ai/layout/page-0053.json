@@ -1,0 +1,144 @@
+{
+  "doc_id": "cuh.sdvc40.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc40.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 53,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T23:51:20",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc40.manual.v0.0.zh-CN，页码=53。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 目录（第 6 页）\n- 7: 目录2（第 7 页）\n- 8: 目录3（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 视窗、按键及外部部件说明（第 10 页）\n  - 1.3 主页参数说明（第 11 页）\n  - 1.4 接线端口说明（第 11 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 性能特点（第 13 页）\n- 第三章 安装及使用指南（第 15 页）\n  - 3.1 控制器使用条件（第 15 页）\n",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.071, 0.052, 0.932, 0.074],\n      \"confidence\": 0.9,\n      \"text\": \"页眉：左侧为“数字调频压电振动送料控制器”，右侧为“SDVC402-S”，下方有横线。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.139, 0.294, 0.160],\n      \"confidence\": 0.96,\n      \"text\": \"6.3.2.2 D口类型\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.114, 0.176, 0.851, 0.195],\n      \"confidence\": 0.95,\n      \"text\": \"D口输出可以支持NPN输出、PNP输出和推挽输出三种类型。默认推挽。\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.099, 0.201, 0.907, 0.382],\n      \"confidence\": 0.96,\n      \"caption\": \"D口类型参数说明表\",\n      \"text\": \"两列表格，表头为“参数名”“含义”。参数包括 Ou_NPN、Ou_PNP、Ou_P&P(推挽)，分别说明端口D输出信号有效/无效时的电平或高阻状态。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.114, 0.408, 0.225, 0.425],\n      \"confidence\": 0.94,\n      \"text\": \"图示如下：\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.090, 0.485, 0.930, 0.642],\n      \"confidence\": 0.94,\n      \"caption\": \"D口输出类型示意图\",\n      \"image_alt\": \"三段波形示意图，左侧标注24V、高阻、0V三条参考水平线。下方依次标注NPN型、PNP型、推挽型，并在波形不同区段标出“有效”“无效”，展示不同输出类型在有效和无效状态下对应的电平或高阻状态。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.931, 0.974],\n      \"confidence\": 0.92,\n      \"text\": \"页脚：左侧“2025-10”，中间“-45-”，右侧“SDVC402SSMSCN_1.01”，上方有横线。\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页为带文本层的数字版页面，不像纯扫描件。页面以章节说明、参数表和波形示意图为主，背景有浅色重复水印，不影响主要阅读结构。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.071,
+          0.052,
+          0.932,
+          0.074
+        ],
+        "confidence": 0.9,
+        "text": "页眉：左侧为“数字调频压电振动送料控制器”，右侧为“SDVC402-S”，下方有横线。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.139,
+          0.294,
+          0.16
+        ],
+        "confidence": 0.96,
+        "text": "6.3.2.2 D口类型",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.114,
+          0.176,
+          0.851,
+          0.195
+        ],
+        "confidence": 0.95,
+        "text": "D口输出可以支持NPN输出、PNP输出和推挽输出三种类型。默认推挽。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.099,
+          0.201,
+          0.907,
+          0.382
+        ],
+        "confidence": 0.96,
+        "caption": "D口类型参数说明表",
+        "text": "两列表格，表头为“参数名”“含义”。参数包括 Ou_NPN、Ou_PNP、Ou_P&P(推挽)，分别说明端口D输出信号有效/无效时的电平或高阻状态。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.114,
+          0.408,
+          0.225,
+          0.425
+        ],
+        "confidence": 0.94,
+        "text": "图示如下：",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.09,
+          0.485,
+          0.93,
+          0.642
+        ],
+        "confidence": 0.94,
+        "caption": "D口输出类型示意图",
+        "image_alt": "三段波形示意图，左侧标注24V、高阻、0V三条参考水平线。下方依次标注NPN型、PNP型、推挽型，并在波形不同区段标出“有效”“无效”，展示不同输出类型在有效和无效状态下对应的电平或高阻状态。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.953,
+          0.931,
+          0.974
+        ],
+        "confidence": 0.92,
+        "text": "页脚：左侧“2025-10”，中间“-45-”，右侧“SDVC402SSMSCN_1.01”，上方有横线。",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "notes": "本页为带文本层的数字版页面，不像纯扫描件。页面以章节说明、参数表和波形示意图为主，背景有浅色重复水印，不影响主要阅读结构。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnR6zyr70qn0QnUtkn5F844W0Ti3b",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780674661,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.071, 0.052, 0.932, 0.074],\n      \"confidence\": 0.9,\n      \"text\": \"页眉：左侧为“数字调频压电振动送料控制器”，右侧为“SDVC402-S”，下方有横线。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.139, 0.294, 0.160],\n      \"confidence\": 0.96,\n      \"text\": \"6.3.2.2 D口类型\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.114, 0.176, 0.851, 0.195],\n      \"confidence\": 0.95,\n      \"text\": \"D口输出可以支持NPN输出、PNP输出和推挽输出三种类型。默认推挽。\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.099, 0.201, 0.907, 0.382],\n      \"confidence\": 0.96,\n      \"caption\": \"D口类型参数说明表\",\n      \"text\": \"两列表格，表头为“参数名”“含义”。参数包括 Ou_NPN、Ou_PNP、Ou_P&P(推挽)，分别说明端口D输出信号有效/无效时的电平或高阻状态。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.114, 0.408, 0.225, 0.425],\n      \"confidence\": 0.94,\n      \"text\": \"图示如下：\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.090, 0.485, 0.930, 0.642],\n      \"confidence\": 0.94,\n      \"caption\": \"D口输出类型示意图\",\n      \"image_alt\": \"三段波形示意图，左侧标注24V、高阻、0V三条参考水平线。下方依次标注NPN型、PNP型、推挽型，并在波形不同区段标出“有效”“无效”，展示不同输出类型在有效和无效状态下对应的电平或高阻状态。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.931, 0.974],\n      \"confidence\": 0.92,\n      \"text\": \"页脚：左侧“2025-10”，中间“-45-”，右侧“SDVC402SSMSCN_1.01”，上方有横线。\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页为带文本层的数字版页面，不像纯扫描件。页面以章节说明、参数表和波形示意图为主，背景有浅色重复水印，不影响主要阅读结构。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3149,
+      "completion_tokens": 1253,
+      "total_tokens": 4402,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

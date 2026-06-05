@@ -1,0 +1,174 @@
+{
+  "doc_id": "cuh.sdvc40.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc40.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 51,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T23:51:23",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc40.manual.v0.0.zh-CN，页码=51。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 目录（第 6 页）\n- 7: 目录2（第 7 页）\n- 8: 目录3（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 视窗、按键及外部部件说明（第 10 页）\n  - 1.3 主页参数说明（第 11 页）\n  - 1.4 接线端口说明（第 11 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 性能特点（第 13 页）\n- 第三章 安装及使用指南（第 15 页）\n  - 3.1 控制器使用条件（第 15 页）\n",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.052, 0.927, 0.078],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.144, 0.892, 0.204],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.118, 0.219, 0.363, 0.239],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.070, 0.257, 0.892, 0.456],\n      \"confidence\": 0.93,\n      \"image_alt\": \"D口信号流示意图：D口源1结果与D口源2结果经过与、或、异或、RS触发器等逻辑关系处理，再经过D口逻辑方向、开延时、关延时、D口模式和D口类型，最终形成端口D输出。\",\n      \"caption\": \"信号流示意图\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.118, 0.490, 0.471, 0.512],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.070, 0.525, 0.935, 0.790],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.594, 0.566, 0.895, 0.742],\n      \"confidence\": 0.91,\n      \"image_alt\": \"控制器显示界面示例，处于运行状态，显示A、B、C、D端口状态及控制输出参数组，参数项包括D口源1、D口源2、D口逻辑、D口开延时、D口关延时等。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.122, 0.814, 0.812, 0.837],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.083, 0.887, 0.928, 0.932],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.973, 0.927, 0.996],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n  \"notes\": \"本页不是纯扫描件，存在可提取文本层。页面以文字说明配合图形为主，包含一张D口信号流框图和一处带按键操作说明及控制器界面示例的说明区域；背景有淡色CUH水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.083,
+          0.052,
+          0.927,
+          0.078
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.144,
+          0.892,
+          0.204
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.118,
+          0.219,
+          0.363,
+          0.239
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.07,
+          0.257,
+          0.892,
+          0.456
+        ],
+        "confidence": 0.93,
+        "image_alt": "D口信号流示意图：D口源1结果与D口源2结果经过与、或、异或、RS触发器等逻辑关系处理，再经过D口逻辑方向、开延时、关延时、D口模式和D口类型，最终形成端口D输出。",
+        "caption": "信号流示意图",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.118,
+          0.49,
+          0.471,
+          0.512
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.07,
+          0.525,
+          0.935,
+          0.79
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.594,
+          0.566,
+          0.895,
+          0.742
+        ],
+        "confidence": 0.91,
+        "image_alt": "控制器显示界面示例，处于运行状态，显示A、B、C、D端口状态及控制输出参数组，参数项包括D口源1、D口源2、D口逻辑、D口开延时、D口关延时等。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.122,
+          0.814,
+          0.812,
+          0.837
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.083,
+          0.887,
+          0.928,
+          0.932
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.973,
+          0.927,
+          0.996
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "notes": "本页不是纯扫描件，存在可提取文本层。页面以文字说明配合图形为主，包含一张D口信号流框图和一处带按键操作说明及控制器界面示例的说明区域；背景有淡色CUH水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnR6y5EreiiPhjj8cupgWESonetUl",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780674660,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.083, 0.052, 0.927, 0.078],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.144, 0.892, 0.204],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.118, 0.219, 0.363, 0.239],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.070, 0.257, 0.892, 0.456],\n      \"confidence\": 0.93,\n      \"image_alt\": \"D口信号流示意图：D口源1结果与D口源2结果经过与、或、异或、RS触发器等逻辑关系处理，再经过D口逻辑方向、开延时、关延时、D口模式和D口类型，最终形成端口D输出。\",\n      \"caption\": \"信号流示意图\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.118, 0.490, 0.471, 0.512],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.070, 0.525, 0.935, 0.790],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.594, 0.566, 0.895, 0.742],\n      \"confidence\": 0.91,\n      \"image_alt\": \"控制器显示界面示例，处于运行状态，显示A、B、C、D端口状态及控制输出参数组，参数项包括D口源1、D口源2、D口逻辑、D口开延时、D口关延时等。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.122, 0.814, 0.812, 0.837],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.083, 0.887, 0.928, 0.932],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.973, 0.927, 0.996],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n  \"notes\": \"本页不是纯扫描件，存在可提取文本层。页面以文字说明配合图形为主，包含一张D口信号流框图和一处带按键操作说明及控制器界面示例的说明区域；背景有淡色CUH水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3334,
+      "completion_tokens": 1262,
+      "total_tokens": 4596,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 505,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

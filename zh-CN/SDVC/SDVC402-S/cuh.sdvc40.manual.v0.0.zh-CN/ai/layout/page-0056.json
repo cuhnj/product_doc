@@ -1,0 +1,197 @@
+{
+  "doc_id": "cuh.sdvc40.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc40.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 56,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T23:51:38",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc40.manual.v0.0.zh-CN，页码=56。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 目录（第 6 页）\n- 7: 目录2（第 7 页）\n- 8: 目录3（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 视窗、按键及外部部件说明（第 10 页）\n  - 1.3 主页参数说明（第 11 页）\n  - 1.4 接线端口说明（第 11 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 性能特点（第 13 页）\n- 第三章 安装及使用指南（第 15 页）\n  - 3.1 控制器使用条件（第 15 页）\n",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.052, 0.933, 0.075],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.136, 0.39, 0.162],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.174, 0.78, 0.195],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.213, 0.25, 0.236],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.244, 0.92, 0.287],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.295, 0.927, 0.365],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.219, 0.399, 0.731, 0.551],\n      \"confidence\": 0.95,\n      \"caption\": \"无显式表题；内容为“参数名”“含义”两列表格，对应 6.5.1 读出参数。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.584, 0.25, 0.607],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.617, 0.92, 0.657],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.669, 0.927, 0.734],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.22, 0.755, 0.731, 0.935],\n      \"confidence\": 0.95,\n      \"caption\": \"无显式表题；内容为“参数名”“含义”两列表格，对应 6.5.2 保存参数。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.955, 0.933, 0.978],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],\n  \"notes\": \"本页不是以图为主，主要由章节标题、说明段落和两张参数含义表组成。页面可见淡色 CUH 水印；文本层存在，整体不像纯扫描件。页眉包含产品系列文字与型号，页脚包含日期、页码和文档编号。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.072,
+          0.052,
+          0.933,
+          0.075
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.136,
+          0.39,
+          0.162
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.119,
+          0.174,
+          0.78,
+          0.195
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.213,
+          0.25,
+          0.236
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.119,
+          0.244,
+          0.92,
+          0.287
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.295,
+          0.927,
+          0.365
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.219,
+          0.399,
+          0.731,
+          0.551
+        ],
+        "confidence": 0.95,
+        "caption": "无显式表题；内容为“参数名”“含义”两列表格，对应 6.5.1 读出参数。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.584,
+          0.25,
+          0.607
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.119,
+          0.617,
+          0.92,
+          0.657
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.669,
+          0.927,
+          0.734
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.22,
+          0.755,
+          0.731,
+          0.935
+        ],
+        "confidence": 0.95,
+        "caption": "无显式表题；内容为“参数名”“含义”两列表格，对应 6.5.2 保存参数。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.955,
+          0.933,
+          0.978
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "notes": "本页不是以图为主，主要由章节标题、说明段落和两张参数含义表组成。页面可见淡色 CUH 水印；文本层存在，整体不像纯扫描件。页眉包含产品系列文字与型号，页脚包含日期、页码和文档编号。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnR7BB0bIO8Ul17juz1DH7wSXt7SA",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780674673,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.052, 0.933, 0.075],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.136, 0.39, 0.162],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.174, 0.78, 0.195],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.213, 0.25, 0.236],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.244, 0.92, 0.287],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.295, 0.927, 0.365],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.219, 0.399, 0.731, 0.551],\n      \"confidence\": 0.95,\n      \"caption\": \"无显式表题；内容为“参数名”“含义”两列表格，对应 6.5.1 读出参数。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.584, 0.25, 0.607],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.617, 0.92, 0.657],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.669, 0.927, 0.734],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.22, 0.755, 0.731, 0.935],\n      \"confidence\": 0.95,\n      \"caption\": \"无显式表题；内容为“参数名”“含义”两列表格，对应 6.5.2 保存参数。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.955, 0.933, 0.978],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],\n  \"notes\": \"本页不是以图为主，主要由章节标题、说明段落和两张参数含义表组成。页面可见淡色 CUH 水印；文本层存在，整体不像纯扫描件。页眉包含产品系列文字与型号，页脚包含日期、页码和文档编号。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3330,
+      "completion_tokens": 1810,
+      "total_tokens": 5140,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}
