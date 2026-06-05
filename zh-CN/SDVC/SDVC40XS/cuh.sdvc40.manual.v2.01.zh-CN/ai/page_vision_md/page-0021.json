@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc40.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc40.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 21,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T14:41:00",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc40.manual.v2.01.zh-CN，doc_key=cuh.sdvc40.manual.v2.01，lang=zh-CN，页码=21。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n- 1.1 检查包装内容（第 9 页）\n- 1.2 指示灯、按键及外部部件说明（第 10 页）\n- 第二章 产品介绍（第 11 页）\n- 2.1 产品简介（第 11 页）\n- 第三章 安装及使用指南（第 12 页）\n- 3.1 控制器使用条件（第 12 页）\n- 3.2 按键基本操作（第 12 页）\n- 3.3 安装使用（第 13 页）\n- 第四章 ",
+  "assistant_text": "{\n  \"page_markdown\": \"多路数字调频压电振动送料控制器　　　　　　　　　　　　　　　　　SDVC40-XS系列\\n\\n## 4.6 键盘锁定功能\\n\\n为了防止误操作，本机设定了键盘锁。这样当控制器各项参数设置好后，可以有效避免其他人的误动作影响本机正常工作。即使关机后重新开机，键盘锁状态依然保持上次关机时的状态。\\n\\n- 通过长按 `⏻` 键2秒可以锁定所有按键，此时键盘锁定指示灯点亮。\\n- 再次长按 `⏻` 键2秒可以解除锁定。\\n\\n[[vcrop:21:0]]\\n\\n2024-03　　　　　　　　　　　　　　　　　-13-　　　　　　　　　　　　　　　　SDVC40XSSMSCN_2.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.58,\n        0.32,\n        0.93,\n        0.62\n      ],\n      \"alt\": \"键盘锁定功能示意图：控制器锁定指示灯点亮并长按电源键\",\n      \"reason\": \"包含控制器面板、锁定指示灯标注和手指按键的线稿示意，需保留图形信息。\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "多路数字调频压电振动送料控制器　　　　　　　　　　　　　　　　　SDVC40-XS系列\n\n## 4.6 键盘锁定功能\n\n为了防止误操作，本机设定了键盘锁。这样当控制器各项参数设置好后，可以有效避免其他人的误动作影响本机正常工作。即使关机后重新开机，键盘锁状态依然保持上次关机时的状态。\n\n- 通过长按 `⏻` 键2秒可以锁定所有按键，此时键盘锁定指示灯点亮。\n- 再次长按 `⏻` 键2秒可以解除锁定。\n\n[[vcrop:21:0]]\n\n2024-03　　　　　　　　　　　　　　　　　-13-　　　　　　　　　　　　　　　　SDVC40XSSMSCN_2.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.58,
+        0.32,
+        0.93,
+        0.62
+      ],
+      "alt": "键盘锁定功能示意图：控制器锁定指示灯点亮并长按电源键",
+      "reason": "包含控制器面板、锁定指示灯标注和手指按键的线稿示意，需保留图形信息。"
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-DnIWNPGMnnNusb5vqML8CcDLEs4KK",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780641639,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"多路数字调频压电振动送料控制器　　　　　　　　　　　　　　　　　SDVC40-XS系列\\n\\n## 4.6 键盘锁定功能\\n\\n为了防止误操作，本机设定了键盘锁。这样当控制器各项参数设置好后，可以有效避免其他人的误动作影响本机正常工作。即使关机后重新开机，键盘锁状态依然保持上次关机时的状态。\\n\\n- 通过长按 `⏻` 键2秒可以锁定所有按键，此时键盘锁定指示灯点亮。\\n- 再次长按 `⏻` 键2秒可以解除锁定。\\n\\n[[vcrop:21:0]]\\n\\n2024-03　　　　　　　　　　　　　　　　　-13-　　　　　　　　　　　　　　　　SDVC40XSSMSCN_2.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.58,\n        0.32,\n        0.93,\n        0.62\n      ],\n      \"alt\": \"键盘锁定功能示意图：控制器锁定指示灯点亮并长按电源键\",\n      \"reason\": \"包含控制器面板、锁定指示灯标注和手指按键的线稿示意，需保留图形信息。\"\n    }\n  ],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2869,
+      "completion_tokens": 1357,
+      "total_tokens": 4226,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

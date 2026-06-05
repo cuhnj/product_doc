@@ -1,0 +1,125 @@
+{
+  "doc_id": "cuh.sdvc40.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc40.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 1,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T14:28:49",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc40.manual.v2.01.zh-CN，页码=1。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n- 1.1 检查包装内容（第 9 页）\n- 1.2 指示灯、按键及外部部件说明（第 10 页）\n- 第二章 产品介绍（第 11 页）\n- 2.1 产品简介（第 11 页）\n- 第三章 安装及使用指南（第 12 页）\n- 3.1 控制器使用条件（第 12 页）\n- 3.2 按键基本操作（第 12 页）\n- 3.3 安装使用（第 13 页）\n- 第四章 基本参数设置方法（第 17 页）\n- 4.1 输出电压设定（第",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.0, 0.0, 1.0, 0.186],\n      \"confidence\": 0.95,\n      \"image_alt\": \"页面顶部蓝色横幅，左侧为大型 CUH 注册商标标识\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.352, 0.249, 0.969, 0.281],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.299, 0.291, 0.97, 0.333],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.269, 0.366, 0.73, 0.872],\n      \"confidence\": 0.96,\n      \"image_alt\": \"SDVC40-XS 系列多路数字调频压电振动送料控制器的产品正面渲染图，面板上有显示窗、按键、指示灯和底部接口\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.368, 0.905, 0.642, 0.932],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.405, 0.943, 0.604, 0.973],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为封面页，包含可识别文本层与产品渲染图，不像纯扫描件。页面以品牌标识、产品图片和标题文字为主，无表格、正文段落或页脚页码。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.0,
+          0.0,
+          1.0,
+          0.186
+        ],
+        "confidence": 0.95,
+        "image_alt": "页面顶部蓝色横幅，左侧为大型 CUH 注册商标标识",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.352,
+          0.249,
+          0.969,
+          0.281
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.299,
+          0.291,
+          0.97,
+          0.333
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.269,
+          0.366,
+          0.73,
+          0.872
+        ],
+        "confidence": 0.96,
+        "image_alt": "SDVC40-XS 系列多路数字调频压电振动送料控制器的产品正面渲染图，面板上有显示窗、按键、指示灯和底部接口",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.368,
+          0.905,
+          0.642,
+          0.932
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.405,
+          0.943,
+          0.604,
+          0.973
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "本页为封面页，包含可识别文本层与产品渲染图，不像纯扫描件。页面以品牌标识、产品图片和标题文字为主，无表格、正文段落或页脚页码。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnIKix4sQCAdPHHexMnOyrgGoj74f",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780640916,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.0, 0.0, 1.0, 0.186],\n      \"confidence\": 0.95,\n      \"image_alt\": \"页面顶部蓝色横幅，左侧为大型 CUH 注册商标标识\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.352, 0.249, 0.969, 0.281],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.299, 0.291, 0.97, 0.333],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.269, 0.366, 0.73, 0.872],\n      \"confidence\": 0.96,\n      \"image_alt\": \"SDVC40-XS 系列多路数字调频压电振动送料控制器的产品正面渲染图，面板上有显示窗、按键、指示灯和底部接口\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.368, 0.905, 0.642, 0.932],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.405, 0.943, 0.604, 0.973],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为封面页，包含可识别文本层与产品渲染图，不像纯扫描件。页面以品牌标识、产品图片和标题文字为主，无表格、正文段落或页脚页码。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2470,
+      "completion_tokens": 834,
+      "total_tokens": 3304,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 370,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "doc_id": "cuh.sdvc40.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc40.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 14,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T14:40:40",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc40.manual.v2.01.zh-CN，doc_key=cuh.sdvc40.manual.v2.01，lang=zh-CN，页码=14。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n- 1.1 检查包装内容（第 9 页）\n- 1.2 指示灯、按键及外部部件说明（第 10 页）\n- 第二章 产品介绍（第 11 页）\n- 2.1 产品简介（第 11 页）\n- 第三章 安装及使用指南（第 12 页）\n- 3.1 控制器使用条件（第 12 页）\n- 3.2 按键基本操作（第 12 页）\n- 3.3 安装使用（第 13 页）\n- 第四章 ",
+  "assistant_text": "{\"page_markdown\":\"多路数字调频压电振动送料控制器　　　　　　　　　　　　　　　　　SDVC40-XS系列\\n\\n---\\n\\n### 第三步：\\n\\n将输入电源线航空插头插到控制器上，  \\n并锁紧螺母。\\n\\n[[vcrop:14:0]]\\n\\n### 第四步：\\n\\n将电源线三爪插头插在供电电源插座上。\\n\\n[[vcrop:14:1]]\\n\\n---\\n\\n2024-03　　　　　　　　　　　　　- 6 -　　　　　　　　　　　　　SDVC40XSSMSCN_2.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.16,0.215,0.87,0.525],\"alt\":\"第三步：输入电源线航空插头插到控制器并锁紧螺母的示意图，含“先插航空插头”提示。\",\"reason\":\"复杂线稿示意图，包含控制器、线缆、插头、手势和标注，适合保留位图。\"},{\"bbox_0_1\":[0.35,0.65,0.77,0.94],\"alt\":\"第四步：将电源线三爪插头插入供电电源插座的示意图。\",\"reason\":\"复杂线稿示意图，包含插座、三爪插头、线缆和手势，适合保留位图。\"}],\"notes\":\"\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "多路数字调频压电振动送料控制器　　　　　　　　　　　　　　　　　SDVC40-XS系列\n\n---\n\n### 第三步：\n\n将输入电源线航空插头插到控制器上，  \n并锁紧螺母。\n\n[[vcrop:14:0]]\n\n### 第四步：\n\n将电源线三爪插头插在供电电源插座上。\n\n[[vcrop:14:1]]\n\n---\n\n2024-03　　　　　　　　　　　　　- 6 -　　　　　　　　　　　　　SDVC40XSSMSCN_2.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.16,
+        0.215,
+        0.87,
+        0.525
+      ],
+      "alt": "第三步：输入电源线航空插头插到控制器并锁紧螺母的示意图，含“先插航空插头”提示。",
+      "reason": "复杂线稿示意图，包含控制器、线缆、插头、手势和标注，适合保留位图。"
+    },
+    {
+      "bbox_0_1": [
+        0.35,
+        0.65,
+        0.77,
+        0.94
+      ],
+      "alt": "第四步：将电源线三爪插头插入供电电源插座的示意图。",
+      "reason": "复杂线稿示意图，包含插座、三爪插头、线缆和手势，适合保留位图。"
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-DnIWByfGashZrL2h8TFj6Cr5MK4im",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780641627,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"page_markdown\":\"多路数字调频压电振动送料控制器　　　　　　　　　　　　　　　　　SDVC40-XS系列\\n\\n---\\n\\n### 第三步：\\n\\n将输入电源线航空插头插到控制器上，  \\n并锁紧螺母。\\n\\n[[vcrop:14:0]]\\n\\n### 第四步：\\n\\n将电源线三爪插头插在供电电源插座上。\\n\\n[[vcrop:14:1]]\\n\\n---\\n\\n2024-03　　　　　　　　　　　　　- 6 -　　　　　　　　　　　　　SDVC40XSSMSCN_2.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.16,0.215,0.87,0.525],\"alt\":\"第三步：输入电源线航空插头插到控制器并锁紧螺母的示意图，含“先插航空插头”提示。\",\"reason\":\"复杂线稿示意图，包含控制器、线缆、插头、手势和标注，适合保留位图。\"},{\"bbox_0_1\":[0.35,0.65,0.77,0.94],\"alt\":\"第四步：将电源线三爪插头插入供电电源插座的示意图。\",\"reason\":\"复杂线稿示意图，包含插座、三爪插头、线缆和手势，适合保留位图。\"}],\"notes\":\"\"}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2863,
+      "completion_tokens": 858,
+      "total_tokens": 3721,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

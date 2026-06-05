@@ -1,0 +1,161 @@
+{
+  "doc_id": "cuh.sdvc40.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc40.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 15,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T14:29:10",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc40.manual.v2.01.zh-CN，页码=15。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n- 1.1 检查包装内容（第 9 页）\n- 1.2 指示灯、按键及外部部件说明（第 10 页）\n- 第二章 产品介绍（第 11 页）\n- 2.1 产品简介（第 11 页）\n- 第三章 安装及使用指南（第 12 页）\n- 3.1 控制器使用条件（第 12 页）\n- 3.2 按键基本操作（第 12 页）\n- 3.3 安装使用（第 13 页）\n- 第四章 基本参数设置方法（第 17 页）\n- 4.1 输出电压设定（",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.07, 0.052, 0.93, 0.075],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.10, 0.193, 0.21, 0.218],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.232, 0.38, 0.297],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.46, 0.194, 0.87, 0.408],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器面板示意图，显示屏中显示“U 30”，旁边标注“U表示输出电压”和“通道1指示灯”，手指指向按键区域。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.10, 0.500, 0.21, 0.523],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.538, 0.38, 0.620],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.46, 0.539, 0.87, 0.753],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器面板示意图，显示屏中显示“E 50.0”，旁边标注“E表示输出频率”和“通道1指示灯”，手指指向按键区域。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.759, 0.91, 0.870],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.973, 0.93, 0.994],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为带文本层的说明书页面，背景有浅色CUH水印。页面以两个操作步骤说明框为主，右侧配有控制器面板示意图；下方有提示说明框。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.07,
+          0.052,
+          0.93,
+          0.075
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.1,
+          0.193,
+          0.21,
+          0.218
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.232,
+          0.38,
+          0.297
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.46,
+          0.194,
+          0.87,
+          0.408
+        ],
+        "confidence": 0.96,
+        "image_alt": "控制器面板示意图，显示屏中显示“U 30”，旁边标注“U表示输出电压”和“通道1指示灯”，手指指向按键区域。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.1,
+          0.5,
+          0.21,
+          0.523
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.538,
+          0.38,
+          0.62
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.46,
+          0.539,
+          0.87,
+          0.753
+        ],
+        "confidence": 0.96,
+        "image_alt": "控制器面板示意图，显示屏中显示“E 50.0”，旁边标注“E表示输出频率”和“通道1指示灯”，手指指向按键区域。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.759,
+          0.91,
+          0.87
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.973,
+          0.93,
+          0.994
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "notes": "本页为带文本层的说明书页面，背景有浅色CUH水印。页面以两个操作步骤说明框为主，右侧配有控制器面板示意图；下方有提示说明框。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnIKxClefgVgLy4RSUgiI7m9UkYhR",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780640931,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.07, 0.052, 0.93, 0.075],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.10, 0.193, 0.21, 0.218],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.232, 0.38, 0.297],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.46, 0.194, 0.87, 0.408],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器面板示意图，显示屏中显示“U 30”，旁边标注“U表示输出电压”和“通道1指示灯”，手指指向按键区域。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.10, 0.500, 0.21, 0.523],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.538, 0.38, 0.620],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.46, 0.539, 0.87, 0.753],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器面板示意图，显示屏中显示“E 50.0”，旁边标注“E表示输出频率”和“通道1指示灯”，手指指向按键区域。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.759, 0.91, 0.870],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.973, 0.93, 0.994],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为带文本层的说明书页面，背景有浅色CUH水印。页面以两个操作步骤说明框为主，右侧配有控制器面板示意图；下方有提示说明框。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2636,
+      "completion_tokens": 1164,
+      "total_tokens": 3800,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

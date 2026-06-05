@@ -1,0 +1,150 @@
+{
+  "doc_id": "cuh.sdvc40.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc40.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 31,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T14:29:45",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc40.manual.v2.01.zh-CN，页码=31。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n- 1.1 检查包装内容（第 9 页）\n- 1.2 指示灯、按键及外部部件说明（第 10 页）\n- 第二章 产品介绍（第 11 页）\n- 2.1 产品简介（第 11 页）\n- 第三章 安装及使用指南（第 12 页）\n- 3.1 控制器使用条件（第 12 页）\n- 3.2 按键基本操作（第 12 页）\n- 3.3 安装使用（第 13 页）\n- 第四章 基本参数设置方法（第 17 页）\n- 4.1 输出电压设定（",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.05, 0.93, 0.075],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.16, 0.52, 0.185],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.12, 0.20, 0.92, 0.238],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.095, 0.34, 0.43, 0.525],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.60, 0.275, 0.775, 0.36],\n      \"confidence\": 0.9,\n      \"image_alt\": \"按键操作示意图，显示按住设置键并配合上下方向键进入共用参数设定状态。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.49, 0.37, 0.85, 0.90],\n      \"confidence\": 0.94,\n      \"image_alt\": \"三组三线开关传感器类型设定示意图，分别对应指定传感器类型为NPN型、传感器类型自动识别、指定传感器类型为PNP型；图中包含控制器面板、显示屏状态及按键操作指示。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.255, 0.93, 0.925],\n      \"confidence\": 0.86,\n      \"image_alt\": \"带圆角边框的说明区域，内部左侧为操作步骤文字，右侧为按键和控制器显示状态示意图。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.955, 0.93, 0.985],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 6, 3, 4, 5, 7],\n  \"notes\": \"本页为数字版PDF渲染页，存在可识别文本层和浅色水印。页面以章节说明文字配合操作示意图为主，无表格；主体内容属于第5.1.8节“三线开关传感器类型设定”。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.05,
+          0.93,
+          0.075
+        ],
+        "confidence": 0.91,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.16,
+          0.52,
+          0.185
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.12,
+          0.2,
+          0.92,
+          0.238
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.095,
+          0.34,
+          0.43,
+          0.525
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.6,
+          0.275,
+          0.775,
+          0.36
+        ],
+        "confidence": 0.9,
+        "image_alt": "按键操作示意图，显示按住设置键并配合上下方向键进入共用参数设定状态。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.49,
+          0.37,
+          0.85,
+          0.9
+        ],
+        "confidence": 0.94,
+        "image_alt": "三组三线开关传感器类型设定示意图，分别对应指定传感器类型为NPN型、传感器类型自动识别、指定传感器类型为PNP型；图中包含控制器面板、显示屏状态及按键操作指示。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.07,
+          0.255,
+          0.93,
+          0.925
+        ],
+        "confidence": 0.86,
+        "image_alt": "带圆角边框的说明区域，内部左侧为操作步骤文字，右侧为按键和控制器显示状态示意图。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.955,
+          0.93,
+          0.985
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      6,
+      3,
+      4,
+      5,
+      7
+    ],
+    "notes": "本页为数字版PDF渲染页，存在可识别文本层和浅色水印。页面以章节说明文字配合操作示意图为主，无表格；主体内容属于第5.1.8节“三线开关传感器类型设定”。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnILWzRgdAUwzrzMfdK9JbJiH3HiS",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780640966,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.05, 0.93, 0.075],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.16, 0.52, 0.185],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.12, 0.20, 0.92, 0.238],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.095, 0.34, 0.43, 0.525],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.60, 0.275, 0.775, 0.36],\n      \"confidence\": 0.9,\n      \"image_alt\": \"按键操作示意图，显示按住设置键并配合上下方向键进入共用参数设定状态。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.49, 0.37, 0.85, 0.90],\n      \"confidence\": 0.94,\n      \"image_alt\": \"三组三线开关传感器类型设定示意图，分别对应指定传感器类型为NPN型、传感器类型自动识别、指定传感器类型为PNP型；图中包含控制器面板、显示屏状态及按键操作指示。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.255, 0.93, 0.925],\n      \"confidence\": 0.86,\n      \"image_alt\": \"带圆角边框的说明区域，内部左侧为操作步骤文字，右侧为按键和控制器显示状态示意图。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.955, 0.93, 0.985],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 6, 3, 4, 5, 7],\n  \"notes\": \"本页为数字版PDF渲染页，存在可识别文本层和浅色水印。页面以章节说明文字配合操作示意图为主，无表格；主体内容属于第5.1.8节“三线开关传感器类型设定”。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2615,
+      "completion_tokens": 1152,
+      "total_tokens": 3767,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}
