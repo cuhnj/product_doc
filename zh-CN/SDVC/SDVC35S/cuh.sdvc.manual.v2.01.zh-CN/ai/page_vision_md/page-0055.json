@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 55,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T21:59:02",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v2.01.zh-CN，doc_key=cuh.sdvc.manual.v2.01，lang=zh-CN，页码=55。\n【目录/书签上下文（节选）】\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 产品特点（第 9 页）\n  - 1.1 主要功能特点（第 9 页）\n  - 1.2 其他功能特点（第 9 页）\n- 第二章 快速安装指南（第 11 页）\n  - 2.1 外部部件说明（第 11 页）\n  - 2.2 快速安装说明（第 13 页）\n  - 2.3 振动传感器的安装（第 15 页）\n  - 2.4 自动搜频（第 17 页）\n- 第三章 人机交互界面（第 18 页）\n  - 3.1 待机界面（第 18 页）\n  - 3.2 密码输入界面（",
+  "assistant_text": "{\n  \"page_markdown\": \"4、选择COM端口，即为上一步记下的端口号，本例为COM3。\\n\\n5、Baund Rate 选择默认值115200。\\n\\n6、点击Baund Rate 右侧的Open按键，打开串口，成功打开时在Status状态框中会显示COM 3 Open Success！否则会显示COM 3 Open Failed！\\n\\n7、点击 Firmware File 右侧的Open按键，选择控制器升级软件所在的目录并选中该文件：SDVC35K4.10_enc.script （本例版本号为K4.10）\\n\\n8、长按控制器的开关键，不要松开，然后给控制器插上电源，此时控制器的屏幕不亮，接线板上的绿色LED灯全亮。此时可以不再按下开关键，但不可断开电源。\\n\\n9、点击Update按键，开始升级控制器的软件，Status状态框中会显示当前下载了多少行程序，升级完成后Status状态框中会显示Firmware Download OK!\\n\\n10、升级完成后请恢复出厂设置。\\n\\n## 4.11 以太网通信\\n\\n本控制器具有以太网通信功能，使得控制器所有参数可以通过网络远程修改。目前支持EtherCat和Profinet两种工业以太网通信协议。\\n\\n使用EtherCat或Profinet工业以太网通信协议与本控制器通信时，支持非周期通信和周期通信两种通信模式。周期通信时间为5ms及以上，典型周期通信时间为10ms。\\n\\n周期通信的报文长度（输入输出数据缓冲区长度）多达5760字节。\\n\\n非周期通信的报文长度（发送邮箱和接收邮箱缓冲区数据长度）多达1596字节。\\n\\n以太网通信协议“Hilscher NETX51 RE ECS V4.2.X-EtherCATSlave_20160520.xml”和“GSDML-V2.31-HILSCHER-NETX 51-RE PNS-Profinet_20160912.xml”在本公司网站：[www.cuhnj.com](http://www.cuhnj.com)下载区下载。\\n\\n注：当以太网通信与RS485通信同时使用时，控制器按照接收时间依次响应。因此，最后一个指令的状态将被保留下来。\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "4、选择COM端口，即为上一步记下的端口号，本例为COM3。\n\n5、Baund Rate 选择默认值115200。\n\n6、点击Baund Rate 右侧的Open按键，打开串口，成功打开时在Status状态框中会显示COM 3 Open Success！否则会显示COM 3 Open Failed！\n\n7、点击 Firmware File 右侧的Open按键，选择控制器升级软件所在的目录并选中该文件：SDVC35K4.10_enc.script （本例版本号为K4.10）\n\n8、长按控制器的开关键，不要松开，然后给控制器插上电源，此时控制器的屏幕不亮，接线板上的绿色LED灯全亮。此时可以不再按下开关键，但不可断开电源。\n\n9、点击Update按键，开始升级控制器的软件，Status状态框中会显示当前下载了多少行程序，升级完成后Status状态框中会显示Firmware Download OK!\n\n10、升级完成后请恢复出厂设置。\n\n## 4.11 以太网通信\n\n本控制器具有以太网通信功能，使得控制器所有参数可以通过网络远程修改。目前支持EtherCat和Profinet两种工业以太网通信协议。\n\n使用EtherCat或Profinet工业以太网通信协议与本控制器通信时，支持非周期通信和周期通信两种通信模式。周期通信时间为5ms及以上，典型周期通信时间为10ms。\n\n周期通信的报文长度（输入输出数据缓冲区长度）多达5760字节。\n\n非周期通信的报文长度（发送邮箱和接收邮箱缓冲区数据长度）多达1596字节。\n\n以太网通信协议“Hilscher NETX51 RE ECS V4.2.X-EtherCATSlave_20160520.xml”和“GSDML-V2.31-HILSCHER-NETX 51-RE PNS-Profinet_20160912.xml”在本公司网站：[www.cuhnj.com](http://www.cuhnj.com)下载区下载。\n\n注：当以太网通信与RS485通信同时使用时，控制器按照接收时间依次响应。因此，最后一个指令的状态将被保留下来。",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-DnPMJ4nvJOiTyYh70Za7n55fQ9oH7",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780667923,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"4、选择COM端口，即为上一步记下的端口号，本例为COM3。\\n\\n5、Baund Rate 选择默认值115200。\\n\\n6、点击Baund Rate 右侧的Open按键，打开串口，成功打开时在Status状态框中会显示COM 3 Open Success！否则会显示COM 3 Open Failed！\\n\\n7、点击 Firmware File 右侧的Open按键，选择控制器升级软件所在的目录并选中该文件：SDVC35K4.10_enc.script （本例版本号为K4.10）\\n\\n8、长按控制器的开关键，不要松开，然后给控制器插上电源，此时控制器的屏幕不亮，接线板上的绿色LED灯全亮。此时可以不再按下开关键，但不可断开电源。\\n\\n9、点击Update按键，开始升级控制器的软件，Status状态框中会显示当前下载了多少行程序，升级完成后Status状态框中会显示Firmware Download OK!\\n\\n10、升级完成后请恢复出厂设置。\\n\\n## 4.11 以太网通信\\n\\n本控制器具有以太网通信功能，使得控制器所有参数可以通过网络远程修改。目前支持EtherCat和Profinet两种工业以太网通信协议。\\n\\n使用EtherCat或Profinet工业以太网通信协议与本控制器通信时，支持非周期通信和周期通信两种通信模式。周期通信时间为5ms及以上，典型周期通信时间为10ms。\\n\\n周期通信的报文长度（输入输出数据缓冲区长度）多达5760字节。\\n\\n非周期通信的报文长度（发送邮箱和接收邮箱缓冲区数据长度）多达1596字节。\\n\\n以太网通信协议“Hilscher NETX51 RE ECS V4.2.X-EtherCATSlave_20160520.xml”和“GSDML-V2.31-HILSCHER-NETX 51-RE PNS-Profinet_20160912.xml”在本公司网站：[www.cuhnj.com](http://www.cuhnj.com)下载区下载。\\n\\n注：当以太网通信与RS485通信同时使用时，控制器按照接收时间依次响应。因此，最后一个指令的状态将被保留下来。\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2954,
+      "completion_tokens": 1070,
+      "total_tokens": 4024,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

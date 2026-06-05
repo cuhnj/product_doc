@@ -1,0 +1,140 @@
+{
+  "doc_id": "cuh.sdvc.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 2,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T21:50:51",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v2.01.zh-CN，页码=2。\n\n【目录/书签上下文（节选）】\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 产品特点（第 9 页）\n  - 1.1 主要功能特点（第 9 页）\n  - 1.2 其他功能特点（第 9 页）\n- 第二章 快速安装指南（第 11 页）\n  - 2.1 外部部件说明（第 11 页）\n  - 2.2 快速安装说明（第 13 页）\n  - 2.3 振动传感器的安装（第 15 页）\n  - 2.4 自动搜频（第 17 页）\n- 第三章 人机交互界面（第 18 页）\n  - 3.1 待机界面（第 18 页）\n  - 3.2 密码输入界面（第 21 页）\n  - 3.3 功能组界面（第 22 页）",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.114, 0.516, 0.134],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.072, 0.157, 0.932, 0.578],\n      \"confidence\": 0.93,\n      \"caption\": \"智能数字振动送料控制器相关产品对照表，列为“品名规格”和“特点”，包含 SDVC34、SDVC31 两个产品系列\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.108, 0.244, 0.402, 0.367],\n      \"confidence\": 0.86,\n      \"image_alt\": \"SDVC34 智能数字自动调频振动送料控制器系列的产品外观图\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.108, 0.426, 0.402, 0.560],\n      \"confidence\": 0.86,\n      \"image_alt\": \"SDVC31 数字调频振动送料控制器系列的产品外观图\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.626, 0.472, 0.648],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.072, 0.656, 0.933, 0.895],\n      \"confidence\": 0.93,\n      \"caption\": \"压电数字调频振动送料控制器对照表，列为“品名规格”和“特点”，包含 SDVC40 产品系列\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.108, 0.733, 0.409, 0.881],\n      \"confidence\": 0.86,\n      \"image_alt\": \"SDVC40 压电数字调频振动送料控制器系列的产品外观图\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页看起来是由 PDF 正常渲染得到，含可选文本层、表格线和嵌入式产品图片，并非纯扫描件。页面以产品对照表和设备外观图为主，背景有浅色重复 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.114,
+          0.516,
+          0.134
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.072,
+          0.157,
+          0.932,
+          0.578
+        ],
+        "confidence": 0.93,
+        "caption": "智能数字振动送料控制器相关产品对照表，列为“品名规格”和“特点”，包含 SDVC34、SDVC31 两个产品系列",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.108,
+          0.244,
+          0.402,
+          0.367
+        ],
+        "confidence": 0.86,
+        "image_alt": "SDVC34 智能数字自动调频振动送料控制器系列的产品外观图",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.108,
+          0.426,
+          0.402,
+          0.56
+        ],
+        "confidence": 0.86,
+        "image_alt": "SDVC31 数字调频振动送料控制器系列的产品外观图",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.626,
+          0.472,
+          0.648
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.072,
+          0.656,
+          0.933,
+          0.895
+        ],
+        "confidence": 0.93,
+        "caption": "压电数字调频振动送料控制器对照表，列为“品名规格”和“特点”，包含 SDVC40 产品系列",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.108,
+          0.733,
+          0.409,
+          0.881
+        ],
+        "confidence": 0.86,
+        "image_alt": "SDVC40 压电数字调频振动送料控制器系列的产品外观图",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "notes": "本页看起来是由 PDF 正常渲染得到，含可选文本层、表格线和嵌入式产品图片，并非纯扫描件。页面以产品对照表和设备外观图为主，背景有浅色重复 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnPES8TQECpYH9UPnSH5Ivb7BCY2s",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780667436,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.114, 0.516, 0.134],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.072, 0.157, 0.932, 0.578],\n      \"confidence\": 0.93,\n      \"caption\": \"智能数字振动送料控制器相关产品对照表，列为“品名规格”和“特点”，包含 SDVC34、SDVC31 两个产品系列\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.108, 0.244, 0.402, 0.367],\n      \"confidence\": 0.86,\n      \"image_alt\": \"SDVC34 智能数字自动调频振动送料控制器系列的产品外观图\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.108, 0.426, 0.402, 0.560],\n      \"confidence\": 0.86,\n      \"image_alt\": \"SDVC31 数字调频振动送料控制器系列的产品外观图\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.626, 0.472, 0.648],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.072, 0.656, 0.933, 0.895],\n      \"confidence\": 0.93,\n      \"caption\": \"压电数字调频振动送料控制器对照表，列为“品名规格”和“特点”，包含 SDVC40 产品系列\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.108, 0.733, 0.409, 0.881],\n      \"confidence\": 0.86,\n      \"image_alt\": \"SDVC40 压电数字调频振动送料控制器系列的产品外观图\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页看起来是由 PDF 正常渲染得到，含可选文本层、表格线和嵌入式产品图片，并非纯扫描件。页面以产品对照表和设备外观图为主，背景有浅色重复 CUH 水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2485,
+      "completion_tokens": 1117,
+      "total_tokens": 3602,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

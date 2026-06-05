@@ -1,0 +1,137 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 26,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T22:11:16",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=26。\n\n【目录/书签上下文（节选）】\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 产品特点（第 9 页）\n  - 1.1 主要功能特点（第 9 页）\n  - 1.2 其他功能特点（第 9 页）\n- 第二章 快速安装指南（第 10 页）\n  - 2.1 外部部件说明（第 10 页）\n  - 2.2 快速安装说明（第 12 页）\n- 第三章 人机交互界面（第 15 页）\n  - 3.1 待机界面（第 15 页）\n  - 3.2 监控界面（第 16 页）\n  - 3.3 设置参数界面（第 17 页）\n  - 3.4 搜频界面（第 18 页）\n  - 3.5 界面轮转切换图（第 20 页）\n- 第四章 工作模式（第 21 页）\n  - 4.1 持续输出模式（第 21 页）\n  - 4.2 定时",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.052, 0.930, 0.074],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.162, 0.520, 0.187],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.203, 0.850, 0.246],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.318, 0.360, 0.338],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.362, 0.405, 0.379],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.210, 0.415, 0.777, 0.604],\n      \"confidence\": 0.94,\n      \"caption\": \"端口D输出接口电路简图 / 内部电路简图\",\n      \"image_alt\": \"低压控制输出端口D的内部电路与外部接口示意图。图中左侧为内部电路简图，含+24V、28V标注、保护器件和接地符号；右侧为外部接口，标出D2 +24V、D1 输出。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.952, 0.930, 0.975],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页为带文本层的说明书页面，非纯扫描件；页面主体为第5.2节及5.2.1小节，包含一幅端口D输出接口电路简图，背景有淡色CUH水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.072,
+          0.052,
+          0.93,
+          0.074
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.162,
+          0.52,
+          0.187
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.119,
+          0.203,
+          0.85,
+          0.246
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.318,
+          0.36,
+          0.338
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.119,
+          0.362,
+          0.405,
+          0.379
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.21,
+          0.415,
+          0.777,
+          0.604
+        ],
+        "confidence": 0.94,
+        "caption": "端口D输出接口电路简图 / 内部电路简图",
+        "image_alt": "低压控制输出端口D的内部电路与外部接口示意图。图中左侧为内部电路简图，含+24V、28V标注、保护器件和接地符号；右侧为外部接口，标出D2 +24V、D1 输出。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.952,
+          0.93,
+          0.975
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "notes": "本页为带文本层的说明书页面，非纯扫描件；页面主体为第5.2节及5.2.1小节，包含一幅端口D输出接口电路简图，背景有淡色CUH水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnPYCguOBWKLKtCobOrIKdvwvyYho",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780668660,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.052, 0.930, 0.074],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.162, 0.520, 0.187],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.203, 0.850, 0.246],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.318, 0.360, 0.338],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.119, 0.362, 0.405, 0.379],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.210, 0.415, 0.777, 0.604],\n      \"confidence\": 0.94,\n      \"caption\": \"端口D输出接口电路简图 / 内部电路简图\",\n      \"image_alt\": \"低压控制输出端口D的内部电路与外部接口示意图。图中左侧为内部电路简图，含+24V、28V标注、保护器件和接地符号；右侧为外部接口，标出D2 +24V、D1 输出。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.952, 0.930, 0.975],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页为带文本层的说明书页面，非纯扫描件；页面主体为第5.2节及5.2.1小节，包含一幅端口D输出接口电路简图，背景有淡色CUH水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2064,
+      "completion_tokens": 1051,
+      "total_tokens": 3115,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

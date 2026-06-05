@@ -1,0 +1,67 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 37,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T22:18:08",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，doc_key=cuh.sdvc.manual.v1.01，lang=zh-CN，页码=37。\n【目录/书签上下文（节选）】\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 产品特点（第 9 页）\n  - 1.1 主要功能特点（第 9 页）\n  - 1.2 其他功能特点（第 9 页）\n- 第二章 快速安装指南（第 10 页）\n  - 2.1 外部部件说明（第 10 页）\n  - 2.2 快速安装说明（第 12 页）\n- 第三章 人机交互界面（第 15 页）\n  - 3.1 待机界面（第 15 页）\n  - 3.2 监控界面（第 16 页）\n  - 3.3 设置参数界面（第 17 页）\n  - 3.4 搜频界面（第 18 页）\n  - 3.5 界面轮转切换图（第 20 页）\n- 第四章 工作模式（第 21 页）\n  - 4",
+  "assistant_text": "{\"page_markdown\":\"智能数字超声波焊接控制器  \\nSDUC20-U系列\\n\\n## 对射式光纤传感器接线方式\\n\\n[[vcrop:37:0]]\\n\\n## 反射光电传感器接线方式\\n\\n[[vcrop:37:1]]\\n\\n2020-06  \\nSDUC20USMSCN_1.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.06,0.13,0.94,0.66],\"alt\":\"对射式光纤传感器接线方式示意图，包含接收、发射、光纤传感器、线色与端子连接说明。\",\"reason\":\"细线接线原理图与端子排细节较复杂，需保留为位图以保证准确性。\"},{\"bbox_0_1\":[0.07,0.69,0.82,0.96],\"alt\":\"反射光电传感器接线方式示意图，包含传感器、蓝色、黑色OUT、棕色+与端子连接说明。\",\"reason\":\"细线接线原理图与端子排细节较复杂，需保留为位图以保证准确性。\"}],\"notes\":\"页面主要为接线示意图，细线和端子标注较多，建议使用裁剪图保留原始视觉信息。\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "智能数字超声波焊接控制器  \nSDUC20-U系列\n\n## 对射式光纤传感器接线方式\n\n[[vcrop:37:0]]\n\n## 反射光电传感器接线方式\n\n[[vcrop:37:1]]\n\n2020-06  \nSDUC20USMSCN_1.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.06,
+        0.13,
+        0.94,
+        0.66
+      ],
+      "alt": "对射式光纤传感器接线方式示意图，包含接收、发射、光纤传感器、线色与端子连接说明。",
+      "reason": "细线接线原理图与端子排细节较复杂，需保留为位图以保证准确性。"
+    },
+    {
+      "bbox_0_1": [
+        0.07,
+        0.69,
+        0.82,
+        0.96
+      ],
+      "alt": "反射光电传感器接线方式示意图，包含传感器、蓝色、黑色OUT、棕色+与端子连接说明。",
+      "reason": "细线接线原理图与端子排细节较复杂，需保留为位图以保证准确性。"
+    }
+  ],
+  "notes": "页面主要为接线示意图，细线和端子标注较多，建议使用裁剪图保留原始视觉信息。",
+  "raw": {
+    "id": "chatcmpl-DnPethrRLOeq4IDyiGlZTpnvg3Hmt",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780669075,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"page_markdown\":\"智能数字超声波焊接控制器  \\nSDUC20-U系列\\n\\n## 对射式光纤传感器接线方式\\n\\n[[vcrop:37:0]]\\n\\n## 反射光电传感器接线方式\\n\\n[[vcrop:37:1]]\\n\\n2020-06  \\nSDUC20USMSCN_1.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.06,0.13,0.94,0.66],\"alt\":\"对射式光纤传感器接线方式示意图，包含接收、发射、光纤传感器、线色与端子连接说明。\",\"reason\":\"细线接线原理图与端子排细节较复杂，需保留为位图以保证准确性。\"},{\"bbox_0_1\":[0.07,0.69,0.82,0.96],\"alt\":\"反射光电传感器接线方式示意图，包含传感器、蓝色、黑色OUT、棕色+与端子连接说明。\",\"reason\":\"细线接线原理图与端子排细节较复杂，需保留为位图以保证准确性。\"}],\"notes\":\"页面主要为接线示意图，细线和端子标注较多，建议使用裁剪图保留原始视觉信息。\"}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2478,
+      "completion_tokens": 840,
+      "total_tokens": 3318,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

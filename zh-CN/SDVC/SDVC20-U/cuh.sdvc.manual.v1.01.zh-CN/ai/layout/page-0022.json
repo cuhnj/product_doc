@@ -1,0 +1,259 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 22,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T22:11:29",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=22。\n\n【目录/书签上下文（节选）】\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 产品特点（第 9 页）\n  - 1.1 主要功能特点（第 9 页）\n  - 1.2 其他功能特点（第 9 页）\n- 第二章 快速安装指南（第 10 页）\n  - 2.1 外部部件说明（第 10 页）\n  - 2.2 快速安装说明（第 12 页）\n- 第三章 人机交互界面（第 15 页）\n  - 3.1 待机界面（第 15 页）\n  - 3.2 监控界面（第 16 页）\n  - 3.3 设置参数界面（第 17 页）\n  - 3.4 搜频界面（第 18 页）\n  - 3.5 界面轮转切换图（第 20 页）\n- 第四章 工作模式（第 21 页）\n  - 4.1 持续输出模式（第 21 页）\n  - 4.2 定时",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.051, 0.931, 0.073],\n      \"confidence\": 0.86,\n      \"description\": \"页眉区域，左侧为“智能数字超声波焊接控制器”，右侧为“SDUC20-U系列”，下方有横线。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.162, 0.325, 0.184],\n      \"confidence\": 0.97,\n      \"text\": \"4.2 定时触发模式\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.202, 0.325, 0.222],\n      \"confidence\": 0.95,\n      \"text\": \"定时触发模式设置：\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.242, 0.540, 0.288],\n      \"confidence\": 0.96,\n      \"text\": \"1、进入设置参数界面；\\n2、修改“工作模式”参数为定时模式：\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.406, 0.302, 0.516, 0.330],\n      \"confidence\": 0.88,\n      \"image_alt\": \"小型七段数码管样式显示示意图，位于定时触发模式的“工作模式”参数设置步骤下。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.341, 0.335, 0.361],\n      \"confidence\": 0.95,\n      \"text\": \"定时触发时间设置：\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.381, 0.765, 0.427],\n      \"confidence\": 0.96,\n      \"text\": \"1、进入设置参数界面；\\n2、修改“定时触发时间”参数为所需要的值，单位为秒。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.406, 0.439, 0.516, 0.466],\n      \"confidence\": 0.88,\n      \"image_alt\": \"小型七段数码管样式显示示意图，位于定时触发时间参数设置步骤下。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.568, 0.340, 0.591],\n      \"confidence\": 0.97,\n      \"text\": \"4.3 定能量触发模式\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.611, 0.345, 0.631],\n      \"confidence\": 0.95,\n      \"text\": \"定能量触发模式设置：\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.650, 0.550, 0.693],\n      \"confidence\": 0.96,\n      \"text\": \"1、进入设置参数界面；\\n2、修改“工作模式”参数为定能量模式：\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.406, 0.708, 0.516, 0.734],\n      \"confidence\": 0.88,\n      \"image_alt\": \"小型七段数码管样式显示示意图，位于定能量触发模式的“工作模式”参数设置步骤下。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.749, 0.350, 0.767],\n      \"confidence\": 0.95,\n      \"text\": \"定能量触发时间设置：\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.789, 0.785, 0.832],\n      \"confidence\": 0.96,\n      \"text\": \"1、进入设置参数界面；\\n2、修改“设置能量”参数为所需要的值，单位为焦耳。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.406, 0.846, 0.516, 0.871],\n      \"confidence\": 0.88,\n      \"image_alt\": \"小型七段数码管样式显示示意图，位于设置能量参数设置步骤下。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.930, 0.974],\n      \"confidence\": 0.92,\n      \"description\": \"页脚区域，含横线、日期“2020-06”、印刷页码“-14-”以及文档编号“SDUC20USMSCN_1.01”。\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],\n  \"notes\": \"本页为排版清晰的说明书页面，不像纯扫描件；页面以文字步骤说明为主，穿插4个小型数码管显示示意图。背景可见浅色重复水印。PDF页码上下文为第22页，页脚印刷页码显示为“-14-”。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.072,
+          0.051,
+          0.931,
+          0.073
+        ],
+        "confidence": 0.86,
+        "description": "页眉区域，左侧为“智能数字超声波焊接控制器”，右侧为“SDUC20-U系列”，下方有横线。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.162,
+          0.325,
+          0.184
+        ],
+        "confidence": 0.97,
+        "text": "4.2 定时触发模式",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.202,
+          0.325,
+          0.222
+        ],
+        "confidence": 0.95,
+        "text": "定时触发模式设置：",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.242,
+          0.54,
+          0.288
+        ],
+        "confidence": 0.96,
+        "text": "1、进入设置参数界面；\n2、修改“工作模式”参数为定时模式：",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.406,
+          0.302,
+          0.516,
+          0.33
+        ],
+        "confidence": 0.88,
+        "image_alt": "小型七段数码管样式显示示意图，位于定时触发模式的“工作模式”参数设置步骤下。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.341,
+          0.335,
+          0.361
+        ],
+        "confidence": 0.95,
+        "text": "定时触发时间设置：",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.381,
+          0.765,
+          0.427
+        ],
+        "confidence": 0.96,
+        "text": "1、进入设置参数界面；\n2、修改“定时触发时间”参数为所需要的值，单位为秒。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.406,
+          0.439,
+          0.516,
+          0.466
+        ],
+        "confidence": 0.88,
+        "image_alt": "小型七段数码管样式显示示意图，位于定时触发时间参数设置步骤下。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.568,
+          0.34,
+          0.591
+        ],
+        "confidence": 0.97,
+        "text": "4.3 定能量触发模式",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.611,
+          0.345,
+          0.631
+        ],
+        "confidence": 0.95,
+        "text": "定能量触发模式设置：",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.65,
+          0.55,
+          0.693
+        ],
+        "confidence": 0.96,
+        "text": "1、进入设置参数界面；\n2、修改“工作模式”参数为定能量模式：",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.406,
+          0.708,
+          0.516,
+          0.734
+        ],
+        "confidence": 0.88,
+        "image_alt": "小型七段数码管样式显示示意图，位于定能量触发模式的“工作模式”参数设置步骤下。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.749,
+          0.35,
+          0.767
+        ],
+        "confidence": 0.95,
+        "text": "定能量触发时间设置：",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.789,
+          0.785,
+          0.832
+        ],
+        "confidence": 0.96,
+        "text": "1、进入设置参数界面；\n2、修改“设置能量”参数为所需要的值，单位为焦耳。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.406,
+          0.846,
+          0.516,
+          0.871
+        ],
+        "confidence": 0.88,
+        "image_alt": "小型七段数码管样式显示示意图，位于设置能量参数设置步骤下。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.953,
+          0.93,
+          0.974
+        ],
+        "confidence": 0.92,
+        "description": "页脚区域，含横线、日期“2020-06”、印刷页码“-14-”以及文档编号“SDUC20USMSCN_1.01”。",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "notes": "本页为排版清晰的说明书页面，不像纯扫描件；页面以文字步骤说明为主，穿插4个小型数码管显示示意图。背景可见浅色重复水印。PDF页码上下文为第22页，页脚印刷页码显示为“-14-”。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnPY91ZdGtzt9xTszdKm2KLWYwyi7",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780668657,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.051, 0.931, 0.073],\n      \"confidence\": 0.86,\n      \"description\": \"页眉区域，左侧为“智能数字超声波焊接控制器”，右侧为“SDUC20-U系列”，下方有横线。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.162, 0.325, 0.184],\n      \"confidence\": 0.97,\n      \"text\": \"4.2 定时触发模式\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.202, 0.325, 0.222],\n      \"confidence\": 0.95,\n      \"text\": \"定时触发模式设置：\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.242, 0.540, 0.288],\n      \"confidence\": 0.96,\n      \"text\": \"1、进入设置参数界面；\\n2、修改“工作模式”参数为定时模式：\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.406, 0.302, 0.516, 0.330],\n      \"confidence\": 0.88,\n      \"image_alt\": \"小型七段数码管样式显示示意图，位于定时触发模式的“工作模式”参数设置步骤下。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.341, 0.335, 0.361],\n      \"confidence\": 0.95,\n      \"text\": \"定时触发时间设置：\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.381, 0.765, 0.427],\n      \"confidence\": 0.96,\n      \"text\": \"1、进入设置参数界面；\\n2、修改“定时触发时间”参数为所需要的值，单位为秒。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.406, 0.439, 0.516, 0.466],\n      \"confidence\": 0.88,\n      \"image_alt\": \"小型七段数码管样式显示示意图，位于定时触发时间参数设置步骤下。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.568, 0.340, 0.591],\n      \"confidence\": 0.97,\n      \"text\": \"4.3 定能量触发模式\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.611, 0.345, 0.631],\n      \"confidence\": 0.95,\n      \"text\": \"定能量触发模式设置：\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.650, 0.550, 0.693],\n      \"confidence\": 0.96,\n      \"text\": \"1、进入设置参数界面；\\n2、修改“工作模式”参数为定能量模式：\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.406, 0.708, 0.516, 0.734],\n      \"confidence\": 0.88,\n      \"image_alt\": \"小型七段数码管样式显示示意图，位于定能量触发模式的“工作模式”参数设置步骤下。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.749, 0.350, 0.767],\n      \"confidence\": 0.95,\n      \"text\": \"定能量触发时间设置：\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.789, 0.785, 0.832],\n      \"confidence\": 0.96,\n      \"text\": \"1、进入设置参数界面；\\n2、修改“设置能量”参数为所需要的值，单位为焦耳。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.406, 0.846, 0.516, 0.871],\n      \"confidence\": 0.88,\n      \"image_alt\": \"小型七段数码管样式显示示意图，位于设置能量参数设置步骤下。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.930, 0.974],\n      \"confidence\": 0.92,\n      \"description\": \"页脚区域，含横线、日期“2020-06”、印刷页码“-14-”以及文档编号“SDUC20USMSCN_1.01”。\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],\n  \"notes\": \"本页为排版清晰的说明书页面，不像纯扫描件；页面以文字步骤说明为主，穿插4个小型数码管显示示意图。背景可见浅色重复水印。PDF页码上下文为第22页，页脚印刷页码显示为“-14-”。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2116,
+      "completion_tokens": 2388,
+      "total_tokens": 4504,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

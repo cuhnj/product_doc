@@ -1,0 +1,148 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 14,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T22:10:54",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=14。\n\n【目录/书签上下文（节选）】\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 产品特点（第 9 页）\n  - 1.1 主要功能特点（第 9 页）\n  - 1.2 其他功能特点（第 9 页）\n- 第二章 快速安装指南（第 10 页）\n  - 2.1 外部部件说明（第 10 页）\n  - 2.2 快速安装说明（第 12 页）\n- 第三章 人机交互界面（第 15 页）\n  - 3.1 待机界面（第 15 页）\n  - 3.2 监控界面（第 16 页）\n  - 3.3 设置参数界面（第 17 页）\n  - 3.4 搜频界面（第 18 页）\n  - 3.5 界面轮转切换图（第 20 页）\n- 第四章 工作模式（第 21 页）\n  - 4.1 持续输出模式（第 21 页）\n  - 4.2 定时",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.0716, 0.0524, 0.9323, 0.0750],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.1003, 0.1781, 0.2057, 0.2052],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.1003, 0.2197, 0.6289, 0.2387],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.3555, 0.2505, 0.7083, 0.4910],\n      \"confidence\": 0.93,\n      \"image_alt\": \"示意图：三爪电源插头插入供电电源插座，旁边有手指指向插头。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.1003, 0.5136, 0.8190, 0.5353],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.1003, 0.5886, 0.2070, 0.6166],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.0989, 0.6320, 0.8870, 0.9403],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.0716, 0.9801, 0.9323, 0.9991],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面以快速安装步骤说明为主，包含一个插头接入插座的示意图；背景有淡色水印，页眉和页脚清晰。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.0716,
+          0.0524,
+          0.9323,
+          0.075
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.1003,
+          0.1781,
+          0.2057,
+          0.2052
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1003,
+          0.2197,
+          0.6289,
+          0.2387
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.3555,
+          0.2505,
+          0.7083,
+          0.491
+        ],
+        "confidence": 0.93,
+        "image_alt": "示意图：三爪电源插头插入供电电源插座，旁边有手指指向插头。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1003,
+          0.5136,
+          0.819,
+          0.5353
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.1003,
+          0.5886,
+          0.207,
+          0.6166
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.0989,
+          0.632,
+          0.887,
+          0.9403
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.0716,
+          0.9801,
+          0.9323,
+          0.9991
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "notes": "本页为带文本层的说明书页面，不是纯扫描件。页面以快速安装步骤说明为主，包含一个插头接入插座的示意图；背景有淡色水印，页眉和页脚清晰。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnPXsOSmkF4WquIEtqR8F1AxwoEFq",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780668640,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.0716, 0.0524, 0.9323, 0.0750],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.1003, 0.1781, 0.2057, 0.2052],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.1003, 0.2197, 0.6289, 0.2387],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.3555, 0.2505, 0.7083, 0.4910],\n      \"confidence\": 0.93,\n      \"image_alt\": \"示意图：三爪电源插头插入供电电源插座，旁边有手指指向插头。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.1003, 0.5136, 0.8190, 0.5353],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.1003, 0.5886, 0.2070, 0.6166],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.0989, 0.6320, 0.8870, 0.9403],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.0716, 0.9801, 0.9323, 0.9991],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为带文本层的说明书页面，不是纯扫描件。页面以快速安装步骤说明为主，包含一个插头接入插座的示意图；背景有淡色水印，页眉和页脚清晰。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2246,
+      "completion_tokens": 1072,
+      "total_tokens": 3318,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

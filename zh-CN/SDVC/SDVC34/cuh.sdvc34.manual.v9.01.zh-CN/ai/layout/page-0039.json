@@ -1,0 +1,115 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v9.01.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v9.01",
+  "lang": "zh-CN",
+  "page_index": 39,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T23:28:58",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v9.01.zh-CN，页码=39。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 1 页）\n- 3: 序言（第 2 页）\n- 4: 注意事项（第 3 页）\n- 5: 工作与存储环境（第 4 页）\n- 7: 目录（第 5 页）\n- 8: 目录（第 6 页）\n- 第一章 性能特点（第 7 页）\n  - 1.1 性能总述（第 7 页）\n  - 1.2 选型指南（第 8 页）\n    - 1.2.1 型号说明（第 8 页）\n    - 1.2.2 功能说明（第 8 页）\n- 第二章 快速安装及使用指南（第 9 页）\n- 第三章 部件说明（第 11 页）\n  - 3.1 指示灯说明（第 11 页）\n  - 3.2 按键说明（第 13 页）\n  - 3.3 输入、输出接口及附件说明（第 13 页）\n- 第四章 参数调",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.052, 0.93, 0.075],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.112, 0.315, 0.139],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.098, 0.155, 0.81, 0.535],\n      \"confidence\": 0.95,\n      \"caption\": \"状态为NPN状态时的接线方法\",\n      \"image_alt\": \"NPN状态下的接线示意图：左侧为传感器端，标注输出、电源、公共地以及NPN；右侧为控制器接口示意，包含料满停机、料满停机2、控制输出、485通讯、遥控调速、同步信号、计数端子等标注，重点连接到计数端口N1、N2、N3、N4。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.098, 0.563, 0.815, 0.933],\n      \"confidence\": 0.95,\n      \"caption\": \"状态为PNP状态时的接线方法\",\n      \"image_alt\": \"PNP状态下的接线示意图：左侧为传感器端，标注输出、电源、公共地以及PNP；右侧为控制器接口示意，包含料满停机、料满停机2、控制输出、485通讯、遥控调速、同步信号、计数端子等标注，重点连接到计数端口N1、N2、N3、N4。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.96, 0.93, 0.982],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页不是纯扫描件，存在可提取文本层。页面以两幅接线方法示意图为主，上下分别说明NPN状态和PNP状态的接线方法；背景有浅色CUH水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.052,
+          0.93,
+          0.075
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.112,
+          0.315,
+          0.139
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.098,
+          0.155,
+          0.81,
+          0.535
+        ],
+        "confidence": 0.95,
+        "caption": "状态为NPN状态时的接线方法",
+        "image_alt": "NPN状态下的接线示意图：左侧为传感器端，标注输出、电源、公共地以及NPN；右侧为控制器接口示意，包含料满停机、料满停机2、控制输出、485通讯、遥控调速、同步信号、计数端子等标注，重点连接到计数端口N1、N2、N3、N4。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.098,
+          0.563,
+          0.815,
+          0.933
+        ],
+        "confidence": 0.95,
+        "caption": "状态为PNP状态时的接线方法",
+        "image_alt": "PNP状态下的接线示意图：左侧为传感器端，标注输出、电源、公共地以及PNP；右侧为控制器接口示意，包含料满停机、料满停机2、控制输出、485通讯、遥控调速、同步信号、计数端子等标注，重点连接到计数端口N1、N2、N3、N4。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.96,
+          0.93,
+          0.982
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "本页不是纯扫描件，存在可提取文本层。页面以两幅接线方法示意图为主，上下分别说明NPN状态和PNP状态的接线方法；背景有浅色CUH水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnQlPfxXsBufgCNMpzeyQz6UBmoCU",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780673323,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.052, 0.93, 0.075],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.112, 0.315, 0.139],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.098, 0.155, 0.81, 0.535],\n      \"confidence\": 0.95,\n      \"caption\": \"状态为NPN状态时的接线方法\",\n      \"image_alt\": \"NPN状态下的接线示意图：左侧为传感器端，标注输出、电源、公共地以及NPN；右侧为控制器接口示意，包含料满停机、料满停机2、控制输出、485通讯、遥控调速、同步信号、计数端子等标注，重点连接到计数端口N1、N2、N3、N4。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.098, 0.563, 0.815, 0.933],\n      \"confidence\": 0.95,\n      \"caption\": \"状态为PNP状态时的接线方法\",\n      \"image_alt\": \"PNP状态下的接线示意图：左侧为传感器端，标注输出、电源、公共地以及PNP；右侧为控制器接口示意，包含料满停机、料满停机2、控制输出、485通讯、遥控调速、同步信号、计数端子等标注，重点连接到计数端口N1、N2、N3、N4。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.96, 0.93, 0.982],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页不是纯扫描件，存在可提取文本层。页面以两幅接线方法示意图为主，上下分别说明NPN状态和PNP状态的接线方法；背景有浅色CUH水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2883,
+      "completion_tokens": 1082,
+      "total_tokens": 3965,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

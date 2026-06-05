@@ -1,0 +1,127 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 30,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T23:24:17",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=30。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 目录（第 5 页）\n- 6: 目录2（第 6 页）\n- 7: 1（第 7 页）\n- 8: 2（第 8 页）\n- 9: 3（第 9 页）\n- 10: 4（第 10 页）\n- 11: 5（第 11 页）\n- 12: 6（第 12 页）\n- 13: 7（第 13 页）\n- 14: 8（第 14 页）\n- 15: 9（第 15 页）\n- 16: 10（第 16 页）\n- 17: 11（第 17 页）\n- 18: 12（第 18 页）\n- 19: 13（第 19 页）\n- 20: 14（第 20 页）\n- 21: 15（第 21 页）\n- 22: 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.052, 0.930, 0.074],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.157, 0.466, 0.190],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.096, 0.207, 0.880, 0.586],\n      \"confidence\": 0.94,\n      \"image_alt\": \"混色物料分选示意图：输送线上有多个灰色圆柱形工件，部分开口朝上、部分开口朝下；上方光纤头发出检测光束，箭头标注光纤头、开口朝上的灰色工件和开口朝下的灰色工件。\",\n      \"caption\": \"混色物料分选示意图\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.314, 0.621, 0.654, 0.802],\n      \"confidence\": 0.93,\n      \"image_alt\": \"混色物料灰度分布图：坐标轴为灰度值与时间，图中以虚线和灰色带表示阈值或背景区域，并示意不同工件状态对应的灰度变化。\",\n      \"caption\": \"混色物料灰度分布图\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.084, 0.840, 0.892, 0.933],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.960, 0.928, 0.982],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页有可提取文本层，页面主体为说明性示意图和灰度分布图，并配有简短说明文字；不表现为纯扫描件。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.073,
+          0.052,
+          0.93,
+          0.074
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.157,
+          0.466,
+          0.19
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.096,
+          0.207,
+          0.88,
+          0.586
+        ],
+        "confidence": 0.94,
+        "image_alt": "混色物料分选示意图：输送线上有多个灰色圆柱形工件，部分开口朝上、部分开口朝下；上方光纤头发出检测光束，箭头标注光纤头、开口朝上的灰色工件和开口朝下的灰色工件。",
+        "caption": "混色物料分选示意图",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.314,
+          0.621,
+          0.654,
+          0.802
+        ],
+        "confidence": 0.93,
+        "image_alt": "混色物料灰度分布图：坐标轴为灰度值与时间，图中以虚线和灰色带表示阈值或背景区域，并示意不同工件状态对应的灰度变化。",
+        "caption": "混色物料灰度分布图",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.084,
+          0.84,
+          0.892,
+          0.933
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.073,
+          0.96,
+          0.928,
+          0.982
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "本页有可提取文本层，页面主体为说明性示意图和灰度分布图，并配有简短说明文字；不表现为纯扫描件。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnQgt9blobShViAt8QVQ0se4Tm0TE",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780673043,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.052, 0.930, 0.074],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.157, 0.466, 0.190],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.096, 0.207, 0.880, 0.586],\n      \"confidence\": 0.94,\n      \"image_alt\": \"混色物料分选示意图：输送线上有多个灰色圆柱形工件，部分开口朝上、部分开口朝下；上方光纤头发出检测光束，箭头标注光纤头、开口朝上的灰色工件和开口朝下的灰色工件。\",\n      \"caption\": \"混色物料分选示意图\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.314, 0.621, 0.654, 0.802],\n      \"confidence\": 0.93,\n      \"image_alt\": \"混色物料灰度分布图：坐标轴为灰度值与时间，图中以虚线和灰色带表示阈值或背景区域，并示意不同工件状态对应的灰度变化。\",\n      \"caption\": \"混色物料灰度分布图\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.084, 0.840, 0.892, 0.933],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.960, 0.928, 0.982],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页有可提取文本层，页面主体为说明性示意图和灰度分布图，并配有简短说明文字；不表现为纯扫描件。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2035,
+      "completion_tokens": 939,
+      "total_tokens": 2974,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 399,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 31,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T23:19:18",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=31。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 目录（第 5 页）\n- 6: 目录2（第 6 页）\n- 7: 1（第 7 页）\n- 8: 2（第 8 页）\n- 9: 3（第 9 页）\n- 10: 4（第 10 页）\n- 11: 5（第 11 页）\n- 12: 6（第 12 页）\n- 13: 7（第 13 页）\n- 14: 8（第 14 页）\n- 15: 9（第 15 页）\n- 16: 10（第 16 页）\n- 17: 11（第 17 页）\n- 18: 12（第 18 页）\n- 19: 13（第 19 页）\n- 20: 14（第 20 页）\n- 21: 15（第 21 页）\n- 22: 1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.049, 0.93, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.158, 0.449, 0.183],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.15, 0.198, 0.85, 0.548],\n      \"confidence\": 0.96,\n      \"caption\": \"两路光纤协同分选示意图\",\n      \"image_alt\": \"示意图展示两只光纤头A、B朝下检测传送路径上的工件，工件分为孔位朝下和孔位朝上两种状态。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.083, 0.565, 0.893, 0.648],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.12, 0.646, 0.463, 0.908],\n      \"confidence\": 0.96,\n      \"caption\": \"两路光纤协同逻辑图\",\n      \"image_alt\": \"逻辑图包含光纤头A、B检测工件的序列，以及随时间变化的光纤逻辑值波形，标注A、b、-b、A&-b等信号。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.486, 0.676, 0.879, 0.87],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.954, 0.93, 0.979],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页为数字PDF渲染页，文本层可见，不属于纯扫描件。页面以两幅示意/逻辑图为主，配有步骤说明和逻辑关系设置文字，整体内容位于一个圆角边框内。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.049,
+          0.93,
+          0.075
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.158,
+          0.449,
+          0.183
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.15,
+          0.198,
+          0.85,
+          0.548
+        ],
+        "confidence": 0.96,
+        "caption": "两路光纤协同分选示意图",
+        "image_alt": "示意图展示两只光纤头A、B朝下检测传送路径上的工件，工件分为孔位朝下和孔位朝上两种状态。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.083,
+          0.565,
+          0.893,
+          0.648
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.12,
+          0.646,
+          0.463,
+          0.908
+        ],
+        "confidence": 0.96,
+        "caption": "两路光纤协同逻辑图",
+        "image_alt": "逻辑图包含光纤头A、B检测工件的序列，以及随时间变化的光纤逻辑值波形，标注A、b、-b、A&-b等信号。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.486,
+          0.676,
+          0.879,
+          0.87
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.954,
+          0.93,
+          0.979
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "notes": "本页为数字PDF渲染页，文本层可见，不属于纯扫描件。页面以两幅示意/逻辑图为主，配有步骤说明和逻辑关系设置文字，整体内容位于一个圆角边框内。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnQc2EZdiiq3sqxSewwTRXwd2v6H0",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780672742,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.049, 0.93, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.158, 0.449, 0.183],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.15, 0.198, 0.85, 0.548],\n      \"confidence\": 0.96,\n      \"caption\": \"两路光纤协同分选示意图\",\n      \"image_alt\": \"示意图展示两只光纤头A、B朝下检测传送路径上的工件，工件分为孔位朝下和孔位朝上两种状态。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.083, 0.565, 0.893, 0.648],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.12, 0.646, 0.463, 0.908],\n      \"confidence\": 0.96,\n      \"caption\": \"两路光纤协同逻辑图\",\n      \"image_alt\": \"逻辑图包含光纤头A、B检测工件的序列，以及随时间变化的光纤逻辑值波形，标注A、b、-b、A&-b等信号。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.486, 0.676, 0.879, 0.87],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.954, 0.93, 0.979],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页为数字PDF渲染页，文本层可见，不属于纯扫描件。页面以两幅示意/逻辑图为主，配有步骤说明和逻辑关系设置文字，整体内容位于一个圆角边框内。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2156,
+      "completion_tokens": 993,
+      "total_tokens": 3149,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 415,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

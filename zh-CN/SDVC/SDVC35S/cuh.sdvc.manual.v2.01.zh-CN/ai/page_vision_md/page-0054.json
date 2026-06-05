@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 54,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T21:58:47",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v2.01.zh-CN，doc_key=cuh.sdvc.manual.v2.01，lang=zh-CN，页码=54。\n【目录/书签上下文（节选）】\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 产品特点（第 9 页）\n  - 1.1 主要功能特点（第 9 页）\n  - 1.2 其他功能特点（第 9 页）\n- 第二章 快速安装指南（第 11 页）\n  - 2.1 外部部件说明（第 11 页）\n  - 2.2 快速安装说明（第 13 页）\n  - 2.3 振动传感器的安装（第 15 页）\n  - 2.4 自动搜频（第 17 页）\n- 第三章 人机交互界面（第 18 页）\n  - 3.1 待机界面（第 18 页）\n  - 3.2 密码输入界面（",
+  "assistant_text": "{\n  \"page_markdown\": \"智能调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC35系列\\n\\n---\\n\\n### 4.10.3 RS485通信波特率的设定\\n\\nRS485通信波特率有如下几种：3，12，24，96，192，576，1152单位为 0.1kbps。出厂默认值为115.2kbps\\n\\n同一网络中的控制器通信波特率应设置为相同值。\\n\\n修改参数组8中的“485通信波特率”参数值（默认值为115.2）即可。\\n\\n### 4.10.4 通信协议\\n\\n《RS485通信协议》和《SDVC35系列RS485线圈与寄存器地址表》在本公司网站：www.cuhnj.com下载区下载。\\n\\n### 4.10.5 固件升级\\n\\n本控制器支持使用RS485通信接口对功率板和控制板软件进行升级。\\n\\n**固件升级所需软件：**\\n\\n1、UpdateFirmwareUi.exe\\n\\n2、控制器升级软件 SDVC35K4.10_enc.script （本例版本号为K4.10）\\n\\n固件升级所需软件请在本公司网站：www.cuhnj.com下载区下载。\\n\\n**固件升级所需硬件：**\\n\\n1、USB转485隔离转换器\\n\\n**固件升级步骤：**\\n\\n1、将USB转485隔离转换器的TX+引脚线接入控制器上F2端口，将TX-引脚线接入控制器上F4端口，将USB转485隔离转换器的USB端口连接到PC机上。\\n\\n2、查看PC机上设备管理器-端口-USB Serial Port(COM * )，记下端口号，本例为COM3。\\n\\n3、打开 UpdateFirmwareUi.exe 软件。\\n\\n---\\n\\n2025-04　　　　　　　　　　　　　　　　　-46-　　　　　　　　　　　　　　　　　SDVC35SMSCN_2.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"页面文字清晰，背景有淡水印，不影响识别。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "智能调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC35系列\n\n---\n\n### 4.10.3 RS485通信波特率的设定\n\nRS485通信波特率有如下几种：3，12，24，96，192，576，1152单位为 0.1kbps。出厂默认值为115.2kbps\n\n同一网络中的控制器通信波特率应设置为相同值。\n\n修改参数组8中的“485通信波特率”参数值（默认值为115.2）即可。\n\n### 4.10.4 通信协议\n\n《RS485通信协议》和《SDVC35系列RS485线圈与寄存器地址表》在本公司网站：www.cuhnj.com下载区下载。\n\n### 4.10.5 固件升级\n\n本控制器支持使用RS485通信接口对功率板和控制板软件进行升级。\n\n**固件升级所需软件：**\n\n1、UpdateFirmwareUi.exe\n\n2、控制器升级软件 SDVC35K4.10_enc.script （本例版本号为K4.10）\n\n固件升级所需软件请在本公司网站：www.cuhnj.com下载区下载。\n\n**固件升级所需硬件：**\n\n1、USB转485隔离转换器\n\n**固件升级步骤：**\n\n1、将USB转485隔离转换器的TX+引脚线接入控制器上F2端口，将TX-引脚线接入控制器上F4端口，将USB转485隔离转换器的USB端口连接到PC机上。\n\n2、查看PC机上设备管理器-端口-USB Serial Port(COM * )，记下端口号，本例为COM3。\n\n3、打开 UpdateFirmwareUi.exe 软件。\n\n---\n\n2025-04　　　　　　　　　　　　　　　　　-46-　　　　　　　　　　　　　　　　　SDVC35SMSCN_2.01",
+  "crop_suggestions": [],
+  "notes": "页面文字清晰，背景有淡水印，不影响识别。",
+  "raw": {
+    "id": "chatcmpl-DnPM7NVm7YV8XIRuX5Yo4eivTuZS3",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780667911,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"智能调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC35系列\\n\\n---\\n\\n### 4.10.3 RS485通信波特率的设定\\n\\nRS485通信波特率有如下几种：3，12，24，96，192，576，1152单位为 0.1kbps。出厂默认值为115.2kbps\\n\\n同一网络中的控制器通信波特率应设置为相同值。\\n\\n修改参数组8中的“485通信波特率”参数值（默认值为115.2）即可。\\n\\n### 4.10.4 通信协议\\n\\n《RS485通信协议》和《SDVC35系列RS485线圈与寄存器地址表》在本公司网站：www.cuhnj.com下载区下载。\\n\\n### 4.10.5 固件升级\\n\\n本控制器支持使用RS485通信接口对功率板和控制板软件进行升级。\\n\\n**固件升级所需软件：**\\n\\n1、UpdateFirmwareUi.exe\\n\\n2、控制器升级软件 SDVC35K4.10_enc.script （本例版本号为K4.10）\\n\\n固件升级所需软件请在本公司网站：www.cuhnj.com下载区下载。\\n\\n**固件升级所需硬件：**\\n\\n1、USB转485隔离转换器\\n\\n**固件升级步骤：**\\n\\n1、将USB转485隔离转换器的TX+引脚线接入控制器上F2端口，将TX-引脚线接入控制器上F4端口，将USB转485隔离转换器的USB端口连接到PC机上。\\n\\n2、查看PC机上设备管理器-端口-USB Serial Port(COM * )，记下端口号，本例为COM3。\\n\\n3、打开 UpdateFirmwareUi.exe 软件。\\n\\n---\\n\\n2025-04　　　　　　　　　　　　　　　　　-46-　　　　　　　　　　　　　　　　　SDVC35SMSCN_2.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"页面文字清晰，背景有淡水印，不影响识别。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2806,
+      "completion_tokens": 1350,
+      "total_tokens": 4156,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 850,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

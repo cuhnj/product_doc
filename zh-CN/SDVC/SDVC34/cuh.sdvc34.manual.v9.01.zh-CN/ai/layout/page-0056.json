@@ -1,0 +1,125 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v9.01.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v9.01",
+  "lang": "zh-CN",
+  "page_index": 56,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T23:29:37",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v9.01.zh-CN，页码=56。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 1 页）\n- 3: 序言（第 2 页）\n- 4: 注意事项（第 3 页）\n- 5: 工作与存储环境（第 4 页）\n- 7: 目录（第 5 页）\n- 8: 目录（第 6 页）\n- 第一章 性能特点（第 7 页）\n  - 1.1 性能总述（第 7 页）\n  - 1.2 选型指南（第 8 页）\n    - 1.2.1 型号说明（第 8 页）\n    - 1.2.2 功能说明（第 8 页）\n- 第二章 快速安装及使用指南（第 9 页）\n- 第三章 部件说明（第 11 页）\n  - 3.1 指示灯说明（第 11 页）\n  - 3.2 按键说明（第 13 页）\n  - 3.3 输入、输出接口及附件说明（第 13 页）\n- 第四章 参数调",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.050, 0.934, 0.074],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.112, 0.430, 0.143],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.156, 0.920, 0.242],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.118, 0.255, 0.922, 0.318],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.072, 0.342, 0.934, 0.773],\n      \"confidence\": 0.96,\n      \"caption\": \"远程速度控制电位器的连接：\",\n      \"image_alt\": \"一个带圆角边框的接线示意图，说明远程速度控制电位器与控制器端子的连接。左侧标出A1、A2、A3及对应线控地、线控输入、线控电源；下方绘制电位器及三根线；右侧绘制控制器接口端子排，黑色连线接入远控调速相关端子。图中还包含建议框：请使用1K阻值线性电位器。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.934, 0.976],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为带文本层的PDF渲染页，不是纯扫描件。页面上半部分为6.4“远程速度控制”的说明文字，下半部分以电位器连接示意图为主；背景有淡色水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.05,
+          0.934,
+          0.074
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.112,
+          0.43,
+          0.143
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.156,
+          0.92,
+          0.242
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.118,
+          0.255,
+          0.922,
+          0.318
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.072,
+          0.342,
+          0.934,
+          0.773
+        ],
+        "confidence": 0.96,
+        "caption": "远程速度控制电位器的连接：",
+        "image_alt": "一个带圆角边框的接线示意图，说明远程速度控制电位器与控制器端子的连接。左侧标出A1、A2、A3及对应线控地、线控输入、线控电源；下方绘制电位器及三根线；右侧绘制控制器接口端子排，黑色连线接入远控调速相关端子。图中还包含建议框：请使用1K阻值线性电位器。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.953,
+          0.934,
+          0.976
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "本页为带文本层的PDF渲染页，不是纯扫描件。页面上半部分为6.4“远程速度控制”的说明文字，下半部分以电位器连接示意图为主；背景有淡色水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnQm3NSBsSpbDMHXtwcQcCg0dDP9Q",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780673363,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.050, 0.934, 0.074],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.112, 0.430, 0.143],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.156, 0.920, 0.242],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.118, 0.255, 0.922, 0.318],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.072, 0.342, 0.934, 0.773],\n      \"confidence\": 0.96,\n      \"caption\": \"远程速度控制电位器的连接：\",\n      \"image_alt\": \"一个带圆角边框的接线示意图，说明远程速度控制电位器与控制器端子的连接。左侧标出A1、A2、A3及对应线控地、线控输入、线控电源；下方绘制电位器及三根线；右侧绘制控制器接口端子排，黑色连线接入远控调速相关端子。图中还包含建议框：请使用1K阻值线性电位器。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.934, 0.976],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为带文本层的PDF渲染页，不是纯扫描件。页面上半部分为6.4“远程速度控制”的说明文字，下半部分以电位器连接示意图为主；背景有淡色水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2981,
+      "completion_tokens": 959,
+      "total_tokens": 3940,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 434,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "doc_id": "cuh.sdvc40.manual.v4.01.zh-CN",
+  "doc_key": "cuh.sdvc40.manual.v4.01",
+  "lang": "zh-CN",
+  "page_index": 13,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T23:03:48",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc40.manual.v4.01.zh-CN，页码=13。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 7: 目录（第 7 页）\n- 目录2（第 8 页）\n- 第一章 性能特点（第 9 页）\n- 第二章 快速安装及使用指南（第 11 页）\n- 第三章 部件说明（第 15 页）\n- 第四章 功能说明（第 17 页）\n  - 4.1 输出电压设定（第 17 页）\n  - 4.2 输出频率设定（第 18 页）\n  - 4.3 缓启动功能（第 19 页）\n  - 4.4 输出开关（第 19 页）\n  - 4.5 最大输出电压限制功能（第 20 页）\n  - 4.6 键盘锁定功能（第 21 页）\n  - 4.7 开机运行",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.05, 0.93, 0.075],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.10, 0.188, 0.25, 0.215],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.228, 0.36, 0.262],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.50, 0.19, 0.87, 0.397],\n      \"confidence\": 0.95,\n      \"image_alt\": \"控制器面板示意图，屏幕显示 U 与数值 30，旁边标注“U 表示输出电压”和“电压指示灯”，手指指向上/下调节按键。\",\n      \"caption\": \"第五步：输出电压调整示意\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.10, 0.476, 0.26, 0.504],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.516, 0.40, 0.615],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.50, 0.51, 0.87, 0.725],\n      \"confidence\": 0.95,\n      \"image_alt\": \"控制器面板示意图，屏幕显示 E 与数值 50，旁边标注“E 表示输出频率”和“频率指示灯”，手指指向上/下调节按键。\",\n      \"caption\": \"第六步：输出频率调整示意\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.735, 0.91, 0.855],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.954, 0.93, 0.978],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为带文本层的说明书页面，背景有浅色 CUH 水印。页面以步骤说明和控制器示意图为主，包含第五步输出电压调整、第六步输出频率调整及底部提示说明；未见表格。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.05,
+          0.93,
+          0.075
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.1,
+          0.188,
+          0.25,
+          0.215
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.228,
+          0.36,
+          0.262
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.5,
+          0.19,
+          0.87,
+          0.397
+        ],
+        "confidence": 0.95,
+        "image_alt": "控制器面板示意图，屏幕显示 U 与数值 30，旁边标注“U 表示输出电压”和“电压指示灯”，手指指向上/下调节按键。",
+        "caption": "第五步：输出电压调整示意",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.1,
+          0.476,
+          0.26,
+          0.504
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.516,
+          0.4,
+          0.615
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.5,
+          0.51,
+          0.87,
+          0.725
+        ],
+        "confidence": 0.95,
+        "image_alt": "控制器面板示意图，屏幕显示 E 与数值 50，旁边标注“E 表示输出频率”和“频率指示灯”，手指指向上/下调节按键。",
+        "caption": "第六步：输出频率调整示意",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.735,
+          0.91,
+          0.855
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.954,
+          0.93,
+          0.978
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "notes": "本页为带文本层的说明书页面，背景有浅色 CUH 水印。页面以步骤说明和控制器示意图为主，包含第五步输出电压调整、第六步输出频率调整及底部提示说明；未见表格。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnQN2lULKX4y6UeRJkL0BMvL5ciiS",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780671812,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.05, 0.93, 0.075],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.10, 0.188, 0.25, 0.215],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.228, 0.36, 0.262],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.50, 0.19, 0.87, 0.397],\n      \"confidence\": 0.95,\n      \"image_alt\": \"控制器面板示意图，屏幕显示 U 与数值 30，旁边标注“U 表示输出电压”和“电压指示灯”，手指指向上/下调节按键。\",\n      \"caption\": \"第五步：输出电压调整示意\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.10, 0.476, 0.26, 0.504],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.516, 0.40, 0.615],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.50, 0.51, 0.87, 0.725],\n      \"confidence\": 0.95,\n      \"image_alt\": \"控制器面板示意图，屏幕显示 E 与数值 50，旁边标注“E 表示输出频率”和“频率指示灯”，手指指向上/下调节按键。\",\n      \"caption\": \"第六步：输出频率调整示意\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.10, 0.735, 0.91, 0.855],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.954, 0.93, 0.978],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8],\n  \"notes\": \"本页为带文本层的说明书页面，背景有浅色 CUH 水印。页面以步骤说明和控制器示意图为主，包含第五步输出电压调整、第六步输出频率调整及底部提示说明；未见表格。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2432,
+      "completion_tokens": 1200,
+      "total_tokens": 3632,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

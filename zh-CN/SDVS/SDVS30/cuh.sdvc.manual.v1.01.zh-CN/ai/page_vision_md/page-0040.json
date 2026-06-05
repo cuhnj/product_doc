@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 40,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T23:25:41",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，doc_key=cuh.sdvc.manual.v1.01，lang=zh-CN，页码=40。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 目录（第 5 页）\n- 6: 目录2（第 6 页）\n- 7: 1（第 7 页）\n- 8: 2（第 8 页）\n- 9: 3（第 9 页）\n- 10: 4（第 10 页）\n- 11: 5（第 11 页）\n- 12: 6（第 12 页）\n- 13: 7（第 13 页）\n- 14: 8（第 14 页）\n- 15: 9（第 15 页）\n- 16: 10（第 16 页）\n- 17: 11（第 17 页）\n- 18: 12（第 18 页）\n- 19: 13（第 19 页）\n- 20: 14（第 20",
+  "assistant_text": "{\"page_markdown\":\"南京创优科技有限责任公司\\n\\n地址：南京市江宁区麒麟门晨光村校东路1号  \\n销售电话：025-84730416  \\n传真：025-84730426  \\n企业邮箱：sales@cuhnj.com  \\n网址：www.cuhnj.com\",\"crop_suggestions\":[],\"notes\":\"页面为封底，背景有浅色 CUH 水印。\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "南京创优科技有限责任公司\n\n地址：南京市江宁区麒麟门晨光村校东路1号  \n销售电话：025-84730416  \n传真：025-84730426  \n企业邮箱：sales@cuhnj.com  \n网址：www.cuhnj.com",
+  "crop_suggestions": [],
+  "notes": "页面为封底，背景有浅色 CUH 水印。",
+  "raw": {
+    "id": "chatcmpl-DnQiOWTa29GREQqViBn2fPwpJ5fgg",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780673136,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"page_markdown\":\"南京创优科技有限责任公司\\n\\n地址：南京市江宁区麒麟门晨光村校东路1号  \\n销售电话：025-84730416  \\n传真：025-84730426  \\n企业邮箱：sales@cuhnj.com  \\n网址：www.cuhnj.com\",\"crop_suggestions\":[],\"notes\":\"页面为封底，背景有浅色 CUH 水印。\"}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2179,
+      "completion_tokens": 274,
+      "total_tokens": 2453,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 167,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

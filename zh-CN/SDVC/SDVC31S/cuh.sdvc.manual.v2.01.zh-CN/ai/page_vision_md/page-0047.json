@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 47,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T22:43:50",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v2.01.zh-CN，doc_key=cuh.sdvc.manual.v2.01，lang=zh-CN，页码=47。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 目录（第 5 页）\n- 6: 目录2（第 6 页）\n- 第一章 使用前须知（第 7 页）\n  - 1.1 检查包装内容（第 7 页）\n  - 1.2 控制器部件说明（第 9 页）\n  - 1.3 选购部件代码（第 10 页）\n- 第二章 产品介绍（第 12 页）\n  - 2.1 产品简介（第 12 页）\n  - 2.2 主要功能特点（第 12 页）\n  - 2.3 产品适用范围（第 13 页）\n- 第三章 安装与连接（第 14 页）\n  - 3.1 控制器使用条件（第 14 页）",
+  "assistant_text": "{\"page_markdown\":\"\",\"crop_suggestions\":[],\"notes\":\"本页为空白页，仅有淡色背景水印，无正文内容。\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "",
+  "crop_suggestions": [],
+  "notes": "本页为空白页，仅有淡色背景水印，无正文内容。",
+  "raw": {
+    "id": "chatcmpl-DnQ3vdDE7H6tIJ50phDT2sjLHbKqv",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780670627,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"page_markdown\":\"\",\"crop_suggestions\":[],\"notes\":\"本页为空白页，仅有淡色背景水印，无正文内容。\"}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2582,
+      "completion_tokens": 132,
+      "total_tokens": 2714,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 2304
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 93,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 19,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T21:57:37",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v2.01.zh-CN，doc_key=cuh.sdvc.manual.v2.01，lang=zh-CN，页码=19。\n【目录/书签上下文（节选）】\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 产品特点（第 9 页）\n  - 1.1 主要功能特点（第 9 页）\n  - 1.2 其他功能特点（第 9 页）\n- 第二章 快速安装指南（第 11 页）\n  - 2.1 外部部件说明（第 11 页）\n  - 2.2 快速安装说明（第 13 页）\n  - 2.3 振动传感器的安装（第 15 页）\n  - 2.4 自动搜频（第 17 页）\n- 第三章 人机交互界面（第 18 页）\n  - 3.1 待机界面（第 18 页）\n  - 3.2 密码输入界面（",
+  "assistant_text": "{\"page_markdown\":\"在待机界面上可选择监视的参数列表如下：\\n\\n| 中文参数名<br>缩写 | 中文参数名 | 英文参数名<br>缩写 | 英文参数名 |\\n|---|---|---|---|\\n| 电压 | 电压 | UsrV | Users Voltage |\\n| 频率 | 频率 | UsrF | Users Frequency |\\n| 料速 | 送料速度 | UsrS | Users Feeding Speed |\\n| 计数 | 计数值 | Cout | Count |\\n| C 开延 | 端口 C 开延时 | PCUp | Port C Rising Delay |\\n| C 关延 | 端口 C 关延时 | PCDn | Port C falling Delay |\\n| E 开延 | 端口 E 开延时 | PEUp | Port E Rising Delay |\\n| E 关延 | 端口 E 关延时 | PEDn | Port E Falling Delay |\\n| D 开延 | 端口 D 开延时 | PDUp | Port D Rising Delay |\\n| D 关延 | 端口 D 关延时 | PDDn | Port D Falling Delay |\\n| P 开延 | 端口 P 开延时 | PPUp | Port P Rising Delay |\\n| P 关延 | 端口 P 关延时 | PPDn | Port P Falling Delay |\\n| 主开 | 主控开延时 | MaUp | Main Rising Dely |\\n| 主关 | 主控关延时 | MaDn | Main Falling Dely |\\n| 母电 | 当前母线电压 | BusV | Power Bus Voltage |\\n| 电流 | 当前实测电流有效值 | CurE | Effective Current Value |\\n| 最大 | 当前实测电流最大值 | CurM | Current Maximum |\\n| 有功 | 当前实测有功功率 | PwrA | Power Active |\\n| 无功 | 当前实测无功功率 | PwrR | Power Reactive |\\n| 温度 | 当前温度 | Temp | Temperature |\\n| 外频 | 外部同步频率 | SynF | ExternalSynchronization<br>Frequency |\\n| 遥控 | 遥控输入电压 | Remo | Remot Input Voltage |\\n| C 口 | 端口 C 输入电压 | PCV | Port C Input Voltage |\\n| E 口 | 端口 E 输入电压 | PEV | Port E Input Voltage |\\n| D 口 | 端口 D 输出电压 | PDV | Port D Output Voltage |\\n| P 口 | 端口 P 输出电压 | PPV | Port P Output Voltage |\",\"crop_suggestions\":[],\"notes\":\"\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "在待机界面上可选择监视的参数列表如下：\n\n| 中文参数名<br>缩写 | 中文参数名 | 英文参数名<br>缩写 | 英文参数名 |\n|---|---|---|---|\n| 电压 | 电压 | UsrV | Users Voltage |\n| 频率 | 频率 | UsrF | Users Frequency |\n| 料速 | 送料速度 | UsrS | Users Feeding Speed |\n| 计数 | 计数值 | Cout | Count |\n| C 开延 | 端口 C 开延时 | PCUp | Port C Rising Delay |\n| C 关延 | 端口 C 关延时 | PCDn | Port C falling Delay |\n| E 开延 | 端口 E 开延时 | PEUp | Port E Rising Delay |\n| E 关延 | 端口 E 关延时 | PEDn | Port E Falling Delay |\n| D 开延 | 端口 D 开延时 | PDUp | Port D Rising Delay |\n| D 关延 | 端口 D 关延时 | PDDn | Port D Falling Delay |\n| P 开延 | 端口 P 开延时 | PPUp | Port P Rising Delay |\n| P 关延 | 端口 P 关延时 | PPDn | Port P Falling Delay |\n| 主开 | 主控开延时 | MaUp | Main Rising Dely |\n| 主关 | 主控关延时 | MaDn | Main Falling Dely |\n| 母电 | 当前母线电压 | BusV | Power Bus Voltage |\n| 电流 | 当前实测电流有效值 | CurE | Effective Current Value |\n| 最大 | 当前实测电流最大值 | CurM | Current Maximum |\n| 有功 | 当前实测有功功率 | PwrA | Power Active |\n| 无功 | 当前实测无功功率 | PwrR | Power Reactive |\n| 温度 | 当前温度 | Temp | Temperature |\n| 外频 | 外部同步频率 | SynF | ExternalSynchronization<br>Frequency |\n| 遥控 | 遥控输入电压 | Remo | Remot Input Voltage |\n| C 口 | 端口 C 输入电压 | PCV | Port C Input Voltage |\n| E 口 | 端口 E 输入电压 | PEV | Port E Input Voltage |\n| D 口 | 端口 D 输出电压 | PDV | Port D Output Voltage |\n| P 口 | 端口 P 输出电压 | PPV | Port P Output Voltage |",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-DnPKxAhPQZ6aKpY3NSnFch0wV7fdz",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780667839,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"page_markdown\":\"在待机界面上可选择监视的参数列表如下：\\n\\n| 中文参数名<br>缩写 | 中文参数名 | 英文参数名<br>缩写 | 英文参数名 |\\n|---|---|---|---|\\n| 电压 | 电压 | UsrV | Users Voltage |\\n| 频率 | 频率 | UsrF | Users Frequency |\\n| 料速 | 送料速度 | UsrS | Users Feeding Speed |\\n| 计数 | 计数值 | Cout | Count |\\n| C 开延 | 端口 C 开延时 | PCUp | Port C Rising Delay |\\n| C 关延 | 端口 C 关延时 | PCDn | Port C falling Delay |\\n| E 开延 | 端口 E 开延时 | PEUp | Port E Rising Delay |\\n| E 关延 | 端口 E 关延时 | PEDn | Port E Falling Delay |\\n| D 开延 | 端口 D 开延时 | PDUp | Port D Rising Delay |\\n| D 关延 | 端口 D 关延时 | PDDn | Port D Falling Delay |\\n| P 开延 | 端口 P 开延时 | PPUp | Port P Rising Delay |\\n| P 关延 | 端口 P 关延时 | PPDn | Port P Falling Delay |\\n| 主开 | 主控开延时 | MaUp | Main Rising Dely |\\n| 主关 | 主控关延时 | MaDn | Main Falling Dely |\\n| 母电 | 当前母线电压 | BusV | Power Bus Voltage |\\n| 电流 | 当前实测电流有效值 | CurE | Effective Current Value |\\n| 最大 | 当前实测电流最大值 | CurM | Current Maximum |\\n| 有功 | 当前实测有功功率 | PwrA | Power Active |\\n| 无功 | 当前实测无功功率 | PwrR | Power Reactive |\\n| 温度 | 当前温度 | Temp | Temperature |\\n| 外频 | 外部同步频率 | SynF | ExternalSynchronization<br>Frequency |\\n| 遥控 | 遥控输入电压 | Remo | Remot Input Voltage |\\n| C 口 | 端口 C 输入电压 | PCV | Port C Input Voltage |\\n| E 口 | 端口 E 输入电压 | PEV | Port E Input Voltage |\\n| D 口 | 端口 D 输出电压 | PDV | Port D Output Voltage |\\n| P 口 | 端口 P 输出电压 | PPV | Port P Output Voltage |\",\"crop_suggestions\":[],\"notes\":\"\"}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2935,
+      "completion_tokens": 1639,
+      "total_tokens": 4574,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

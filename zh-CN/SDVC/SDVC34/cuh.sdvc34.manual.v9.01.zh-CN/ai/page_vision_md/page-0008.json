@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v9.01.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v9.01",
+  "lang": "zh-CN",
+  "page_index": 8,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T23:35:33",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v9.01.zh-CN，doc_key=cuh.sdvc34.manual.v9.01，lang=zh-CN，页码=8。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 1 页）\n- 3: 序言（第 2 页）\n- 4: 注意事项（第 3 页）\n- 5: 工作与存储环境（第 4 页）\n- 7: 目录（第 5 页）\n- 8: 目录（第 6 页）\n- 第一章 性能特点（第 7 页）\n  - 1.1 性能总述（第 7 页）\n  - 1.2 选型指南（第 8 页）\n    - 1.2.1 型号说明（第 8 页）\n    - 1.2.2 功能说明（第 8 页）\n- 第二章 快速安装及使用指南（第 9 页）\n- 第三章 部件说明（第 11 页）\n  - 3.1 指示灯说明（第 11 页）\n  - 3.2 按键说明（第 13 页）\n  - 3.3 输",
+  "assistant_text": "{\n  \"page_markdown\": \"智能调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC34 系列\\n\\n---\\n\\n## 1.2 选型指南：\\n\\n### 1.2.1 型号说明：\\n\\n| 控制器型号 | 功率（VA） | 功能 |\\n|---|---:|---|\\n| SDVC34-MR | 660 | 通信 |\\n| SDVC34-MRJ | 660 | 计数、通信 |\\n| SDVC34-XLJ | 1320 | 计数 |\\n| SDVC34-XLR | 1320 | 通信 |\\n| SDVC34-XLRJ | 1320 | 计数、通信 |\\n| SDVC34-UR | 2200 | 通信 |\\n\\n### 1.2.2 功能说明：\\n\\n| 功能 | 计数 | 通信 | 计数、通信 |\\n|---|---:|---:|---:|\\n| 料满停机 | √ | √ | √ |\\n| 远程速度控制 | √ | √ | √ |\\n| 24V直流控制输出 | √ | √ | √ |\\n| 速度预置 |  | √ |  |\\n| 计数功能 | √ |  | √ |\\n| 料满停机2 |  | √ | √ |\\n| 同步功能 |  | √ | √ |\\n| 485通信 |  | √ | √ |\\n| 振动传感器 | √ | √ | √ |\\n\\n---\\n\\n2025-09　　　　　　　　　　　　　　　　- 2 -　　　　　　　　　　　　　　　　SDVC34SMSCN_9.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"页面清晰，无需额外位图裁剪。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "智能调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC34 系列\n\n---\n\n## 1.2 选型指南：\n\n### 1.2.1 型号说明：\n\n| 控制器型号 | 功率（VA） | 功能 |\n|---|---:|---|\n| SDVC34-MR | 660 | 通信 |\n| SDVC34-MRJ | 660 | 计数、通信 |\n| SDVC34-XLJ | 1320 | 计数 |\n| SDVC34-XLR | 1320 | 通信 |\n| SDVC34-XLRJ | 1320 | 计数、通信 |\n| SDVC34-UR | 2200 | 通信 |\n\n### 1.2.2 功能说明：\n\n| 功能 | 计数 | 通信 | 计数、通信 |\n|---|---:|---:|---:|\n| 料满停机 | √ | √ | √ |\n| 远程速度控制 | √ | √ | √ |\n| 24V直流控制输出 | √ | √ | √ |\n| 速度预置 |  | √ |  |\n| 计数功能 | √ |  | √ |\n| 料满停机2 |  | √ | √ |\n| 同步功能 |  | √ | √ |\n| 485通信 |  | √ | √ |\n| 振动传感器 | √ | √ | √ |\n\n---\n\n2025-09　　　　　　　　　　　　　　　　- 2 -　　　　　　　　　　　　　　　　SDVC34SMSCN_9.01",
+  "crop_suggestions": [],
+  "notes": "页面清晰，无需额外位图裁剪。",
+  "raw": {
+    "id": "chatcmpl-DnQrkz4HK43PNkNJncwum6B3wRHn2",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780673716,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"智能调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC34 系列\\n\\n---\\n\\n## 1.2 选型指南：\\n\\n### 1.2.1 型号说明：\\n\\n| 控制器型号 | 功率（VA） | 功能 |\\n|---|---:|---|\\n| SDVC34-MR | 660 | 通信 |\\n| SDVC34-MRJ | 660 | 计数、通信 |\\n| SDVC34-XLJ | 1320 | 计数 |\\n| SDVC34-XLR | 1320 | 通信 |\\n| SDVC34-XLRJ | 1320 | 计数、通信 |\\n| SDVC34-UR | 2200 | 通信 |\\n\\n### 1.2.2 功能说明：\\n\\n| 功能 | 计数 | 通信 | 计数、通信 |\\n|---|---:|---:|---:|\\n| 料满停机 | √ | √ | √ |\\n| 远程速度控制 | √ | √ | √ |\\n| 24V直流控制输出 | √ | √ | √ |\\n| 速度预置 |  | √ |  |\\n| 计数功能 | √ |  | √ |\\n| 料满停机2 |  | √ | √ |\\n| 同步功能 |  | √ | √ |\\n| 485通信 |  | √ | √ |\\n| 振动传感器 | √ | √ | √ |\\n\\n---\\n\\n2025-09　　　　　　　　　　　　　　　　- 2 -　　　　　　　　　　　　　　　　SDVC34SMSCN_9.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"页面清晰，无需额外位图裁剪。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3221,
+      "completion_tokens": 1224,
+      "total_tokens": 4445,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 804,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

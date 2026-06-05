@@ -1,0 +1,151 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 38,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T22:11:38",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=38。\n\n【目录/书签上下文（节选）】\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 产品特点（第 9 页）\n  - 1.1 主要功能特点（第 9 页）\n  - 1.2 其他功能特点（第 9 页）\n- 第二章 快速安装指南（第 10 页）\n  - 2.1 外部部件说明（第 10 页）\n  - 2.2 快速安装说明（第 12 页）\n- 第三章 人机交互界面（第 15 页）\n  - 3.1 待机界面（第 15 页）\n  - 3.2 监控界面（第 16 页）\n  - 3.3 设置参数界面（第 17 页）\n  - 3.4 搜频界面（第 18 页）\n  - 3.5 界面轮转切换图（第 20 页）\n- 第四章 工作模式（第 21 页）\n  - 4.1 持续输出模式（第 21 页）\n  - 4.2 定时",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.051, 0.930, 0.073],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.132, 0.380, 0.153],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.205, 0.165, 0.885, 0.461],\n      \"confidence\": 0.95,\n      \"caption\": \"PLC的NPN输出接线方式\",\n      \"image_alt\": \"上半页为PLC的NPN输出接线示意图：左侧是PLC模块，右侧是控制器端子排，端子排旁标注“地线”“输入”，用连线表示PLC输出与输入端子的连接关系。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.498, 0.380, 0.519],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.205, 0.550, 0.885, 0.845],\n      \"confidence\": 0.95,\n      \"caption\": \"PLC的PNP输出接线方式\",\n      \"image_alt\": \"下半页为PLC的PNP输出接线示意图：左侧是PLC模块，右侧是控制器端子排，端子排旁标注“输入”“+24V输出”，用连线表示PLC输出与输入端子的连接关系。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.883, 0.770, 0.903],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.918, 0.890, 0.938],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.953, 0.930, 0.974],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为PDF渲染页，主要由两幅PLC输出接线示意图和少量说明文字组成；不像扫描件。页面背景有淡色CUH水印，文本层节选包含水印及端子标号等内容。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.051,
+          0.93,
+          0.073
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.132,
+          0.38,
+          0.153
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.205,
+          0.165,
+          0.885,
+          0.461
+        ],
+        "confidence": 0.95,
+        "caption": "PLC的NPN输出接线方式",
+        "image_alt": "上半页为PLC的NPN输出接线示意图：左侧是PLC模块，右侧是控制器端子排，端子排旁标注“地线”“输入”，用连线表示PLC输出与输入端子的连接关系。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.498,
+          0.38,
+          0.519
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.205,
+          0.55,
+          0.885,
+          0.845
+        ],
+        "confidence": 0.95,
+        "caption": "PLC的PNP输出接线方式",
+        "image_alt": "下半页为PLC的PNP输出接线示意图：左侧是PLC模块，右侧是控制器端子排，端子排旁标注“输入”“+24V输出”，用连线表示PLC输出与输入端子的连接关系。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.883,
+          0.77,
+          0.903
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.918,
+          0.89,
+          0.938
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.953,
+          0.93,
+          0.974
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "notes": "本页为PDF渲染页，主要由两幅PLC输出接线示意图和少量说明文字组成；不像扫描件。页面背景有淡色CUH水印，文本层节选包含水印及端子标号等内容。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnPYZbXzTyvB4BA76vJLVsppMLsAE",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780668683,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.051, 0.930, 0.073],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.132, 0.380, 0.153],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.205, 0.165, 0.885, 0.461],\n      \"confidence\": 0.95,\n      \"caption\": \"PLC的NPN输出接线方式\",\n      \"image_alt\": \"上半页为PLC的NPN输出接线示意图：左侧是PLC模块，右侧是控制器端子排，端子排旁标注“地线”“输入”，用连线表示PLC输出与输入端子的连接关系。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.498, 0.380, 0.519],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.205, 0.550, 0.885, 0.845],\n      \"confidence\": 0.95,\n      \"caption\": \"PLC的PNP输出接线方式\",\n      \"image_alt\": \"下半页为PLC的PNP输出接线示意图：左侧是PLC模块，右侧是控制器端子排，端子排旁标注“输入”“+24V输出”，用连线表示PLC输出与输入端子的连接关系。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.883, 0.770, 0.903],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.918, 0.890, 0.938],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.953, 0.930, 0.974],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页为PDF渲染页，主要由两幅PLC输出接线示意图和少量说明文字组成；不像扫描件。页面背景有淡色CUH水印，文本层节选包含水印及端子标号等内容。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2180,
+      "completion_tokens": 1138,
+      "total_tokens": 3318,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 490,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

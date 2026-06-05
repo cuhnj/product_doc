@@ -1,0 +1,226 @@
+schema_version: 1
+doc_id: cuh.sdvc.manual.v1.05.zh-CN
+doc_key: cuh.sdvc.manual.v1.05
+lang: zh-CN
+generated_at: '2026-06-05 17:19:49'
+source:
+  data_index_yaml: index.yaml
+tables:
+- page: 1
+  layout_region_index: 3
+  table_md_path: tables/page-0001-r03.md
+  headers:
+  - 范围
+  - Col2
+  - Col3
+  - 单位
+  - 说明
+items:
+- name: 最小值
+  symbol: null
+  range: 最小值
+  default: null
+  unit: 最大值
+  note: 最大值
+  extra:
+    Col2: 典型值
+    Col3: 最大值
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: '150'
+  symbol: null
+  range: '150'
+  default: null
+  unit: V（伏特）
+  note: 交流有效值
+  extra:
+    Col2: '220'
+    Col3: '260'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: '35'
+  symbol: null
+  range: '35'
+  default: null
+  unit: V（伏特）
+  note: 半波
+  extra:
+    Col2: ——
+    Col3: Vin-10
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: '45'
+  symbol: null
+  range: '45'
+  default: null
+  unit: Vin-5
+  note: 全波
+  extra:
+    Col2: ——
+    Col3: Vin-5
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: ——
+  symbol: null
+  range: ——
+  default: null
+  unit: V（伏特）
+  note: Vset=150V<br>ΔVin+=70V
+  extra:
+    Col2: ——
+    Col3: '30'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: '0'
+  symbol: null
+  range: '0'
+  default: null
+  unit: s（秒）
+  note: null
+  extra:
+    Col2: '0.01'
+    Col3: '0.02'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: '0.1'
+  symbol: null
+  range: '0.1'
+  default: null
+  unit: A（安培）
+  note: null
+  extra:
+    Col2: ——
+    Col3: '4'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: '22'
+  symbol: null
+  range: '22'
+  default: null
+  unit: VA（伏安）
+  note: null
+  extra:
+    Col2: ——
+    Col3: '880'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: '45'
+  symbol: null
+  range: '45'
+  default: null
+  unit: Hz（赫兹）
+  note: 半波
+  extra:
+    Col2: 50/60
+    Col3: '65'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: '90'
+  symbol: null
+  range: '90'
+  default: null
+  unit: Hz（赫兹）
+  note: 全波
+  extra:
+    Col2: 100/120
+    Col3: '130'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: 正弦相切
+  symbol: null
+  range: 正弦相切
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col2: 正弦相切
+    Col3: 正弦相切
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: '0.5'
+  symbol: null
+  range: '0.5'
+  default: null
+  unit: s（秒）
+  note: null
+  extra:
+    Col2: '0.65'
+    Col3: '0.7'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: '58'
+  symbol: null
+  range: '58'
+  default: null
+  unit: ℃（摄氏度）
+  note: null
+  extra:
+    Col2: '60'
+    Col3: '66'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: '5'
+  symbol: null
+  range: '5'
+  default: null
+  unit: V（伏特）
+  note: null
+  extra:
+    Col2: ——
+    Col3: '24'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: '6.3'
+  symbol: null
+  range: '6.3'
+  default: null
+  unit: A（安培）
+  note: null
+  extra:
+    Col2: '6.3'
+    Col3: '6.3'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md
+- name: '0'
+  symbol: null
+  range: '0'
+  default: null
+  unit: ℃（摄氏度）
+  note: ℃（摄氏度）
+  extra:
+    Col2: '25'
+    Col3: '40'
+  source_ref:
+    pdf_page: 1
+    layout_region_index: 3
+    table_md_path: tables/page-0001-r03.md

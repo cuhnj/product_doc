@@ -1,0 +1,113 @@
+{
+  "doc_id": "cuh.sdvc.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 33,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T22:36:49",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v2.01.zh-CN，页码=33。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 目录（第 5 页）\n- 6: 目录2（第 6 页）\n- 第一章 使用前须知（第 7 页）\n  - 1.1 检查包装内容（第 7 页）\n  - 1.2 控制器部件说明（第 9 页）\n  - 1.3 选购部件代码（第 10 页）\n- 第二章 产品介绍（第 12 页）\n  - 2.1 产品简介（第 12 页）\n  - 2.2 主要功能特点（第 12 页）\n  - 2.3 产品适用范围（第 13 页）\n- 第三章 安装与连接（第 14 页）\n  - 3.1 控制器使用条件（第 14 页）\n  - 3.2 控制器安装固定（第 14 页）\n  -",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.0716, 0.0492, 0.9323, 0.0738],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.0716, 0.1599, 0.3958, 0.1854],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.0716, 0.1995, 0.9063, 0.2627],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.0703, 0.2794, 0.9310, 0.9227],\n      \"confidence\": 0.98,\n      \"image_alt\": \"光纤支架连接的装配示意图。图中以分解形式展示关节、碳纤杆、M3螺母、M3*16内六角螺栓等部件，并用编号1至6和箭头标示组装顺序。\",\n      \"caption\": \"光纤支架连接示意图\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.0716, 0.9534, 0.9323, 0.9815],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为带文本层的数字版PDF渲染页，不像扫描件。页面主体为5.5节“选配光纤支架安装”，以安装说明文字和大型装配示意图为主，背景有淡色CUH水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.0716,
+          0.0492,
+          0.9323,
+          0.0738
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.0716,
+          0.1599,
+          0.3958,
+          0.1854
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.0716,
+          0.1995,
+          0.9063,
+          0.2627
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.0703,
+          0.2794,
+          0.931,
+          0.9227
+        ],
+        "confidence": 0.98,
+        "image_alt": "光纤支架连接的装配示意图。图中以分解形式展示关节、碳纤杆、M3螺母、M3*16内六角螺栓等部件，并用编号1至6和箭头标示组装顺序。",
+        "caption": "光纤支架连接示意图",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.0716,
+          0.9534,
+          0.9323,
+          0.9815
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "本页为带文本层的数字版PDF渲染页，不像扫描件。页面主体为5.5节“选配光纤支架安装”，以安装说明文字和大型装配示意图为主，背景有淡色CUH水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnPx15zuJ8HjRaMsnhCjnG4NpOUjD",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780670199,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.0716, 0.0492, 0.9323, 0.0738],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.0716, 0.1599, 0.3958, 0.1854],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.0716, 0.1995, 0.9063, 0.2627],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.0703, 0.2794, 0.9310, 0.9227],\n      \"confidence\": 0.98,\n      \"image_alt\": \"光纤支架连接的装配示意图。图中以分解形式展示关节、碳纤杆、M3螺母、M3*16内六角螺栓等部件，并用编号1至6和箭头标示组装顺序。\",\n      \"caption\": \"光纤支架连接示意图\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.0716, 0.9534, 0.9323, 0.9815],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为带文本层的数字版PDF渲染页，不像扫描件。页面主体为5.5节“选配光纤支架安装”，以安装说明文字和大型装配示意图为主，背景有淡色CUH水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2514,
+      "completion_tokens": 795,
+      "total_tokens": 3309,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 343,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

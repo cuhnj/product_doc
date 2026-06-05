@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 20,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T23:25:01",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，doc_key=cuh.sdvc.manual.v1.01，lang=zh-CN，页码=20。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 目录（第 5 页）\n- 6: 目录2（第 6 页）\n- 7: 1（第 7 页）\n- 8: 2（第 8 页）\n- 9: 3（第 9 页）\n- 10: 4（第 10 页）\n- 11: 5（第 11 页）\n- 12: 6（第 12 页）\n- 13: 7（第 13 页）\n- 14: 8（第 14 页）\n- 15: 9（第 15 页）\n- 16: 10（第 16 页）\n- 17: 11（第 17 页）\n- 18: 12（第 18 页）\n- 19: 13（第 19 页）\n- 20: 14（第 20",
+  "assistant_text": "{\n  \"page_markdown\": \"智能光纤分选控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVS30系列\\n\\n---\\n\\n## 4.3 恢复出厂设置\\n\\nA、B、C、D四组参数均包含自身的恢复出厂设置功能，即需要对每个参数组单独进行恢复出厂设置操作，无法一次实现将所有的参数组恢复出厂设置。具体实现方法为：\\n\\n1、根据需要恢复出厂设置的参数组，进入参数设置界面；  \\n2、通过 ▼ 切换至恢复出厂参数：闪烁的 `88888`（数码管和LED灯全部闪烁）；  \\n3、按下 ⊕，显示 `□□□□□` 后，松开 ⊕，控制器回到待机界面，即完成该组参数恢复出厂设置操作。\\n\\n注：SDVS301无B参数组。\\n\\n---\\n\\n2019-01　　　　　　　　　　　　　　　　-14-　　　　　　　　　　　　　　　　SDVS30SMSCN_2.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"页面清晰；正文中的按键符号与数码管显示以近似文本符号转写。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "智能光纤分选控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVS30系列\n\n---\n\n## 4.3 恢复出厂设置\n\nA、B、C、D四组参数均包含自身的恢复出厂设置功能，即需要对每个参数组单独进行恢复出厂设置操作，无法一次实现将所有的参数组恢复出厂设置。具体实现方法为：\n\n1、根据需要恢复出厂设置的参数组，进入参数设置界面；  \n2、通过 ▼ 切换至恢复出厂参数：闪烁的 `88888`（数码管和LED灯全部闪烁）；  \n3、按下 ⊕，显示 `□□□□□` 后，松开 ⊕，控制器回到待机界面，即完成该组参数恢复出厂设置操作。\n\n注：SDVS301无B参数组。\n\n---\n\n2019-01　　　　　　　　　　　　　　　　-14-　　　　　　　　　　　　　　　　SDVS30SMSCN_2.01",
+  "crop_suggestions": [],
+  "notes": "页面清晰；正文中的按键符号与数码管显示以近似文本符号转写。",
+  "raw": {
+    "id": "chatcmpl-DnQhbNjMrb1Hu300Ol7mlmIYXHr33",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780673087,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"智能光纤分选控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVS30系列\\n\\n---\\n\\n## 4.3 恢复出厂设置\\n\\nA、B、C、D四组参数均包含自身的恢复出厂设置功能，即需要对每个参数组单独进行恢复出厂设置操作，无法一次实现将所有的参数组恢复出厂设置。具体实现方法为：\\n\\n1、根据需要恢复出厂设置的参数组，进入参数设置界面；  \\n2、通过 ▼ 切换至恢复出厂参数：闪烁的 `88888`（数码管和LED灯全部闪烁）；  \\n3、按下 ⊕，显示 `□□□□□` 后，松开 ⊕，控制器回到待机界面，即完成该组参数恢复出厂设置操作。\\n\\n注：SDVS301无B参数组。\\n\\n---\\n\\n2019-01　　　　　　　　　　　　　　　　-14-　　　　　　　　　　　　　　　　SDVS30SMSCN_2.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"页面清晰；正文中的按键符号与数码管显示以近似文本符号转写。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2317,
+      "completion_tokens": 796,
+      "total_tokens": 3113,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

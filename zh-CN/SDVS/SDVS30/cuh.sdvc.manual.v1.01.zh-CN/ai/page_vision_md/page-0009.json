@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 9,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T23:24:34",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，doc_key=cuh.sdvc.manual.v1.01，lang=zh-CN，页码=9。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 目录（第 5 页）\n- 6: 目录2（第 6 页）\n- 7: 1（第 7 页）\n- 8: 2（第 8 页）\n- 9: 3（第 9 页）\n- 10: 4（第 10 页）\n- 11: 5（第 11 页）\n- 12: 6（第 12 页）\n- 13: 7（第 13 页）\n- 14: 8（第 14 页）\n- 15: 9（第 15 页）\n- 16: 10（第 16 页）\n- 17: 11（第 17 页）\n- 18: 12（第 18 页）\n- 19: 13（第 19 页）\n- 20: 14（第 20 ",
+  "assistant_text": "{\n  \"page_markdown\": \"智能光纤分选控制器  \\nSDVS30系列\\n\\n## 1.2 控制器部件说明\\n\\n[[vcrop:9:0]]\\n\\n图中标注：\\n\\n- 光纤适配器×2\\n- 流量锁定螺母×2\\n- 流量调节旋钮×2\\n- 4mm吹气出口×2\\n- 状态指示灯\\n- 五位数码显示屏\\n- 参数组指示灯\\n- 接线仓盖\\n- 加、减键\\n- 上、下键\\n- 设置键\\n- 切换键\\n- 6mm进气口\\n- 消音器\\n\\n注：SDVS301只有一组光纤适配器和节流阀。\\n\\n2019-01　　　　　- 3 -　　　　　SDVS30SMSCN_2.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.068,\n        0.199,\n        0.932,\n        0.94\n      ],\n      \"alt\": \"控制器部件说明整机标注示意图\",\n      \"reason\": \"页面主体为复杂线框设备结构与多处引线标注，需保留原始示意图布局和细节。\"\n    }\n  ],\n  \"notes\": \"页面清晰，主体为控制器部件标注示意图。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "智能光纤分选控制器  \nSDVS30系列\n\n## 1.2 控制器部件说明\n\n[[vcrop:9:0]]\n\n图中标注：\n\n- 光纤适配器×2\n- 流量锁定螺母×2\n- 流量调节旋钮×2\n- 4mm吹气出口×2\n- 状态指示灯\n- 五位数码显示屏\n- 参数组指示灯\n- 接线仓盖\n- 加、减键\n- 上、下键\n- 设置键\n- 切换键\n- 6mm进气口\n- 消音器\n\n注：SDVS301只有一组光纤适配器和节流阀。\n\n2019-01　　　　　- 3 -　　　　　SDVS30SMSCN_2.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.068,
+        0.199,
+        0.932,
+        0.94
+      ],
+      "alt": "控制器部件说明整机标注示意图",
+      "reason": "页面主体为复杂线框设备结构与多处引线标注，需保留原始示意图布局和细节。"
+    }
+  ],
+  "notes": "页面清晰，主体为控制器部件标注示意图。",
+  "raw": {
+    "id": "chatcmpl-DnQhBubl2oMbHhGbXG8Ud2JEMuNtb",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780673061,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"智能光纤分选控制器  \\nSDVS30系列\\n\\n## 1.2 控制器部件说明\\n\\n[[vcrop:9:0]]\\n\\n图中标注：\\n\\n- 光纤适配器×2\\n- 流量锁定螺母×2\\n- 流量调节旋钮×2\\n- 4mm吹气出口×2\\n- 状态指示灯\\n- 五位数码显示屏\\n- 参数组指示灯\\n- 接线仓盖\\n- 加、减键\\n- 上、下键\\n- 设置键\\n- 切换键\\n- 6mm进气口\\n- 消音器\\n\\n注：SDVS301只有一组光纤适配器和节流阀。\\n\\n2019-01　　　　　- 3 -　　　　　SDVS30SMSCN_2.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.068,\n        0.199,\n        0.932,\n        0.94\n      ],\n      \"alt\": \"控制器部件说明整机标注示意图\",\n      \"reason\": \"页面主体为复杂线框设备结构与多处引线标注，需保留原始示意图布局和细节。\"\n    }\n  ],\n  \"notes\": \"页面清晰，主体为控制器部件标注示意图。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2315,
+      "completion_tokens": 855,
+      "total_tokens": 3170,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

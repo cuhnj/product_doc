@@ -1,0 +1,137 @@
+{
+  "doc_id": "cuh.sdvc.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 19,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T22:36:25",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v2.01.zh-CN，页码=19。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 目录（第 5 页）\n- 6: 目录2（第 6 页）\n- 第一章 使用前须知（第 7 页）\n  - 1.1 检查包装内容（第 7 页）\n  - 1.2 控制器部件说明（第 9 页）\n  - 1.3 选购部件代码（第 10 页）\n- 第二章 产品介绍（第 12 页）\n  - 2.1 产品简介（第 12 页）\n  - 2.2 主要功能特点（第 12 页）\n  - 2.3 产品适用范围（第 13 页）\n- 第三章 安装与连接（第 14 页）\n  - 3.1 控制器使用条件（第 14 页）\n  - 3.2 控制器安装固定（第 14 页）\n  -",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.049, 0.927, 0.073],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.161, 0.258, 0.184],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.197, 0.909, 0.367],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.167, 0.359, 0.565, 0.596],\n      \"confidence\": 0.9,\n      \"image_alt\": \"控制器面板示意图，标注自上次清零或上电以来物料总数的低四位，并用手指示意同时长按上下方向键进入对料界面。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.085, 0.609, 0.902, 0.705],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.073, 0.706, 0.927, 0.941],\n      \"confidence\": 0.92,\n      \"image_alt\": \"控制器对料界面显示说明图，围绕面板标注物料姿态号、通过或剔除标识、信号样本编号、小数点闪烁含义等。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.954, 0.930, 0.976],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页具有可识别文本层，不属于纯扫描件。页面为说明文字配合两幅控制器面板示意图，主要内容是第4.2节“使用方法”的步骤说明及对料界面标注。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.049,
+          0.927,
+          0.073
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.161,
+          0.258,
+          0.184
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.197,
+          0.909,
+          0.367
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.167,
+          0.359,
+          0.565,
+          0.596
+        ],
+        "confidence": 0.9,
+        "image_alt": "控制器面板示意图，标注自上次清零或上电以来物料总数的低四位，并用手指示意同时长按上下方向键进入对料界面。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.085,
+          0.609,
+          0.902,
+          0.705
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.073,
+          0.706,
+          0.927,
+          0.941
+        ],
+        "confidence": 0.92,
+        "image_alt": "控制器对料界面显示说明图，围绕面板标注物料姿态号、通过或剔除标识、信号样本编号、小数点闪烁含义等。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.073,
+          0.954,
+          0.93,
+          0.976
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "notes": "本页具有可识别文本层，不属于纯扫描件。页面为说明文字配合两幅控制器面板示意图，主要内容是第4.2节“使用方法”的步骤说明及对料界面标注。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnPwXGq6auWqxIcaVdTLYh6878Sip",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780670169,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.049, 0.927, 0.073],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.161, 0.258, 0.184],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.197, 0.909, 0.367],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.167, 0.359, 0.565, 0.596],\n      \"confidence\": 0.9,\n      \"image_alt\": \"控制器面板示意图，标注自上次清零或上电以来物料总数的低四位，并用手指示意同时长按上下方向键进入对料界面。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.085, 0.609, 0.902, 0.705],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.073, 0.706, 0.927, 0.941],\n      \"confidence\": 0.92,\n      \"image_alt\": \"控制器对料界面显示说明图，围绕面板标注物料姿态号、通过或剔除标识、信号样本编号、小数点闪烁含义等。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.954, 0.930, 0.976],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页具有可识别文本层，不属于纯扫描件。页面为说明文字配合两幅控制器面板示意图，主要内容是第4.2节“使用方法”的步骤说明及对料界面标注。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2890,
+      "completion_tokens": 1055,
+      "total_tokens": 3945,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

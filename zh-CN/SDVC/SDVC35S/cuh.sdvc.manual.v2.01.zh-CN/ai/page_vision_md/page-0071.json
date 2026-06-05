@@ -1,0 +1,46 @@
+{
+  "doc_id": "cuh.sdvc.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 71,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T21:59:53",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v2.01.zh-CN，doc_key=cuh.sdvc.manual.v2.01，lang=zh-CN，页码=71。\n【目录/书签上下文（节选）】\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 产品特点（第 9 页）\n  - 1.1 主要功能特点（第 9 页）\n  - 1.2 其他功能特点（第 9 页）\n- 第二章 快速安装指南（第 11 页）\n  - 2.1 外部部件说明（第 11 页）\n  - 2.2 快速安装说明（第 13 页）\n  - 2.3 振动传感器的安装（第 15 页）\n  - 2.4 自动搜频（第 17 页）\n- 第三章 人机交互界面（第 18 页）\n  - 3.1 待机界面（第 18 页）\n  - 3.2 密码输入界面（",
+  "assistant_text": "{\n  \"page_markdown\": \"智能调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC35系列\\n\\n---\\n\\n## 组二：主输出控制参数组，参数内容列表如下：\\n\\n| 参数名 | 英文缩写 | 最小值 | 默认值 | 最大值 | 单位/枚举项 |\\n|---|---|---:|---:|---:|---|\\n| 缓启动时间 | SoftStart_ | 0 | 0.2 | 9.9 | s |\\n| 缓关闭时间 | SoftStop__ | 0 | 0.2 | 9.9 | s |\\n| 主开延迟时间 | MainUpDely | 0 | 0.2 | 9999 | 0.1s |\\n| 主关延迟时间 | MainDwnDly | 0 | 0.2 | 9999 | 0.1s |\\n| 主逻辑 | MainLogic_ | —— | 与 | —— | 端口 C |\\n|  |  |  |  |  | 端口 C |\\n|  |  |  |  |  | 与 |\\n|  |  |  |  |  | 或 |\\n|  |  |  |  |  | 异或 |\\n|  |  |  |  |  | 计数 |\\n| 主逻辑方向 | MainDir___ | —— | 常通 | —— | 常通 |\\n|  |  |  |  |  | 常断 |\\n| 主控开关 | MainCtrl__ | —— | 开 | —— | 开 |\\n|  |  |  |  |  | 关 |\\n| 主控制源 | MainSrc___ | —— | 本地 | —— | 本地 |\\n|  |  |  |  |  | 遥控 |\\n| 开机状态 | PowrOnStat | —— | 开 | —— | 开 |\\n|  |  |  |  |  | 关 |\\n|  |  |  |  |  | 保持 |\\n| 末段速度 | PrcntTrmnl | 0 | 50 | 100 | % |\\n| 末段数量 | CountAhead | 0 | 0 | 9999 | 个 |\\n| 遥控源 | CtrlSource | —— | 面板 | —— | 面板 |\\n|  |  |  |  |  | 20mA |\\n|  |  |  |  |  | 1~5V |\\n|  |  |  |  |  | 0~5V |\\n|  |  |  |  |  | 0~10V |\\n|  |  |  |  |  | 电位器 |\\n| 加速指数 | AccelrIndx | 100 | 100 | 150 | % |\\n| 最大输出 V | MaxVoltage | 0 | 150.0 | 260.0 | V |\\n| 波形指数 | WavFomIndx | 50 | 100 | 100 | % |\\n| 电流补偿 | CmpnstCurt | —— | 有效 | —— | 有效 |\\n|  |  |  |  |  | 无效 |\\n| 直流电流参数 | DCCurrent | 0 | 0.1 | 3 | A |\\n\\n---\\n\\n2025-04　　　　　　　　　　　　　　　　　-63-　　　　　　　　　　　　　　　　　SDVC35SMSCN_2.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"页面带浅色水印，但表格内容清晰可辨。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "智能调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC35系列\n\n---\n\n## 组二：主输出控制参数组，参数内容列表如下：\n\n| 参数名 | 英文缩写 | 最小值 | 默认值 | 最大值 | 单位/枚举项 |\n|---|---|---:|---:|---:|---|\n| 缓启动时间 | SoftStart_ | 0 | 0.2 | 9.9 | s |\n| 缓关闭时间 | SoftStop__ | 0 | 0.2 | 9.9 | s |\n| 主开延迟时间 | MainUpDely | 0 | 0.2 | 9999 | 0.1s |\n| 主关延迟时间 | MainDwnDly | 0 | 0.2 | 9999 | 0.1s |\n| 主逻辑 | MainLogic_ | —— | 与 | —— | 端口 C |\n|  |  |  |  |  | 端口 C |\n|  |  |  |  |  | 与 |\n|  |  |  |  |  | 或 |\n|  |  |  |  |  | 异或 |\n|  |  |  |  |  | 计数 |\n| 主逻辑方向 | MainDir___ | —— | 常通 | —— | 常通 |\n|  |  |  |  |  | 常断 |\n| 主控开关 | MainCtrl__ | —— | 开 | —— | 开 |\n|  |  |  |  |  | 关 |\n| 主控制源 | MainSrc___ | —— | 本地 | —— | 本地 |\n|  |  |  |  |  | 遥控 |\n| 开机状态 | PowrOnStat | —— | 开 | —— | 开 |\n|  |  |  |  |  | 关 |\n|  |  |  |  |  | 保持 |\n| 末段速度 | PrcntTrmnl | 0 | 50 | 100 | % |\n| 末段数量 | CountAhead | 0 | 0 | 9999 | 个 |\n| 遥控源 | CtrlSource | —— | 面板 | —— | 面板 |\n|  |  |  |  |  | 20mA |\n|  |  |  |  |  | 1~5V |\n|  |  |  |  |  | 0~5V |\n|  |  |  |  |  | 0~10V |\n|  |  |  |  |  | 电位器 |\n| 加速指数 | AccelrIndx | 100 | 100 | 150 | % |\n| 最大输出 V | MaxVoltage | 0 | 150.0 | 260.0 | V |\n| 波形指数 | WavFomIndx | 50 | 100 | 100 | % |\n| 电流补偿 | CmpnstCurt | —— | 有效 | —— | 有效 |\n|  |  |  |  |  | 无效 |\n| 直流电流参数 | DCCurrent | 0 | 0.1 | 3 | A |\n\n---\n\n2025-04　　　　　　　　　　　　　　　　　-63-　　　　　　　　　　　　　　　　　SDVC35SMSCN_2.01",
+  "crop_suggestions": [],
+  "notes": "页面带浅色水印，但表格内容清晰可辨。",
+  "raw": {
+    "id": "chatcmpl-DnPN0dPTM6cyLpXJZQrjmKu1f8dGk",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780667966,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"智能调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC35系列\\n\\n---\\n\\n## 组二：主输出控制参数组，参数内容列表如下：\\n\\n| 参数名 | 英文缩写 | 最小值 | 默认值 | 最大值 | 单位/枚举项 |\\n|---|---|---:|---:|---:|---|\\n| 缓启动时间 | SoftStart_ | 0 | 0.2 | 9.9 | s |\\n| 缓关闭时间 | SoftStop__ | 0 | 0.2 | 9.9 | s |\\n| 主开延迟时间 | MainUpDely | 0 | 0.2 | 9999 | 0.1s |\\n| 主关延迟时间 | MainDwnDly | 0 | 0.2 | 9999 | 0.1s |\\n| 主逻辑 | MainLogic_ | —— | 与 | —— | 端口 C |\\n|  |  |  |  |  | 端口 C |\\n|  |  |  |  |  | 与 |\\n|  |  |  |  |  | 或 |\\n|  |  |  |  |  | 异或 |\\n|  |  |  |  |  | 计数 |\\n| 主逻辑方向 | MainDir___ | —— | 常通 | —— | 常通 |\\n|  |  |  |  |  | 常断 |\\n| 主控开关 | MainCtrl__ | —— | 开 | —— | 开 |\\n|  |  |  |  |  | 关 |\\n| 主控制源 | MainSrc___ | —— | 本地 | —— | 本地 |\\n|  |  |  |  |  | 遥控 |\\n| 开机状态 | PowrOnStat | —— | 开 | —— | 开 |\\n|  |  |  |  |  | 关 |\\n|  |  |  |  |  | 保持 |\\n| 末段速度 | PrcntTrmnl | 0 | 50 | 100 | % |\\n| 末段数量 | CountAhead | 0 | 0 | 9999 | 个 |\\n| 遥控源 | CtrlSource | —— | 面板 | —— | 面板 |\\n|  |  |  |  |  | 20mA |\\n|  |  |  |  |  | 1~5V |\\n|  |  |  |  |  | 0~5V |\\n|  |  |  |  |  | 0~10V |\\n|  |  |  |  |  | 电位器 |\\n| 加速指数 | AccelrIndx | 100 | 100 | 150 | % |\\n| 最大输出 V | MaxVoltage | 0 | 150.0 | 260.0 | V |\\n| 波形指数 | WavFomIndx | 50 | 100 | 100 | % |\\n| 电流补偿 | CmpnstCurt | —— | 有效 | —— | 有效 |\\n|  |  |  |  |  | 无效 |\\n| 直流电流参数 | DCCurrent | 0 | 0.1 | 3 | A |\\n\\n---\\n\\n2025-04　　　　　　　　　　　　　　　　　-63-　　　　　　　　　　　　　　　　　SDVC35SMSCN_2.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"页面带浅色水印，但表格内容清晰可辨。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2856,
+      "completion_tokens": 2360,
+      "total_tokens": 5216,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1536,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

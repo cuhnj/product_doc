@@ -1,0 +1,124 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 10,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T22:10:40",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=10。\n\n【目录/书签上下文（节选）】\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 产品特点（第 9 页）\n  - 1.1 主要功能特点（第 9 页）\n  - 1.2 其他功能特点（第 9 页）\n- 第二章 快速安装指南（第 10 页）\n  - 2.1 外部部件说明（第 10 页）\n  - 2.2 快速安装说明（第 12 页）\n- 第三章 人机交互界面（第 15 页）\n  - 3.1 待机界面（第 15 页）\n  - 3.2 监控界面（第 16 页）\n  - 3.3 设置参数界面（第 17 页）\n  - 3.4 搜频界面（第 18 页）\n  - 3.5 界面轮转切换图（第 20 页）\n- 第四章 工作模式（第 21 页）\n  - 4.1 持续输出模式（第 21 页）\n  - 4.2 定时",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.051, 0.929, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.265, 0.107, 0.735, 0.139],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.161, 0.347, 0.183],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.203, 0.267, 0.223],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.242, 0.932, 0.910],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器外部部件说明线稿图。上半部分为设备正面/操作面板视图，标注运行状态灯、LED显示屏、参数切换按键、参数修改按键、参数指示灯、功能按键、开关按键、接线仓盖等位置；下半部分为设备后部接口视图，标注电源输入航空插座、电源输出航空插座、电源开关等位置。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.951, 0.929, 0.976],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为PDF渲染页，含可识别文本层和线稿插图，不像纯扫描件。页面主要内容是“第二章 快速安装指南”下的外部部件说明，主体以设备外观标注图为主，底部含日期、页码和文档编号页脚。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.071,
+          0.051,
+          0.929,
+          0.075
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.265,
+          0.107,
+          0.735,
+          0.139
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.161,
+          0.347,
+          0.183
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.203,
+          0.267,
+          0.223
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.071,
+          0.242,
+          0.932,
+          0.91
+        ],
+        "confidence": 0.96,
+        "image_alt": "控制器外部部件说明线稿图。上半部分为设备正面/操作面板视图，标注运行状态灯、LED显示屏、参数切换按键、参数修改按键、参数指示灯、功能按键、开关按键、接线仓盖等位置；下半部分为设备后部接口视图，标注电源输入航空插座、电源输出航空插座、电源开关等位置。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.951,
+          0.929,
+          0.976
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "本页为PDF渲染页，含可识别文本层和线稿插图，不像纯扫描件。页面主要内容是“第二章 快速安装指南”下的外部部件说明，主体以设备外观标注图为主，底部含日期、页码和文档编号页脚。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnPXfkWjGdrXlZCa5swV1UBmwULhr",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780668627,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.071, 0.051, 0.929, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.265, 0.107, 0.735, 0.139],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.161, 0.347, 0.183],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.203, 0.267, 0.223],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.242, 0.932, 0.910],\n      \"confidence\": 0.96,\n      \"image_alt\": \"控制器外部部件说明线稿图。上半部分为设备正面/操作面板视图，标注运行状态灯、LED显示屏、参数切换按键、参数修改按键、参数指示灯、功能按键、开关按键、接线仓盖等位置；下半部分为设备后部接口视图，标注电源输入航空插座、电源输出航空插座、电源开关等位置。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.951, 0.929, 0.976],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为PDF渲染页，含可识别文本层和线稿插图，不像纯扫描件。页面主要内容是“第二章 快速安装指南”下的外部部件说明，主体以设备外观标注图为主，底部含日期、页码和文档编号页脚。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2142,
+      "completion_tokens": 1025,
+      "total_tokens": 3167,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

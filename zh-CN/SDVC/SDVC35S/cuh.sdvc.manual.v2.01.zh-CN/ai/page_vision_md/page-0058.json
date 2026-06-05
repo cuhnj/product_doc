@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 58,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T21:58:54",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v2.01.zh-CN，doc_key=cuh.sdvc.manual.v2.01，lang=zh-CN，页码=58。\n【目录/书签上下文（节选）】\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 产品特点（第 9 页）\n  - 1.1 主要功能特点（第 9 页）\n  - 1.2 其他功能特点（第 9 页）\n- 第二章 快速安装指南（第 11 页）\n  - 2.1 外部部件说明（第 11 页）\n  - 2.2 快速安装说明（第 13 页）\n  - 2.3 振动传感器的安装（第 15 页）\n  - 2.4 自动搜频（第 17 页）\n- 第三章 人机交互界面（第 18 页）\n  - 3.1 待机界面（第 18 页）\n  - 3.2 密码输入界面（",
+  "assistant_text": "{\"page_markdown\":\"智能调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC35系列\\n\\n## 附录A：外形尺寸\\n\\n### SDVC35外形尺寸（单位：mm）\\n\\n[[vcrop:58:0]]\\n\\n---\\n\\n2025-04　　　　　　　　　　　　　　　　-50-　　　　　　　　　　　　　　　　SDVC35SMSCN_2.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.06,0.25,0.95,0.86],\"alt\":\"SDVC35外形尺寸图，包含正视图、侧视图及毫米尺寸标注\",\"reason\":\"外形尺寸图为细线工程图，包含多处尺寸线、半径标注和结构细节，需保留原图位图以避免转写失真。\"}],\"notes\":\"页面清晰；外形尺寸工程图以截图方式保留。\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "智能调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC35系列\n\n## 附录A：外形尺寸\n\n### SDVC35外形尺寸（单位：mm）\n\n[[vcrop:58:0]]\n\n---\n\n2025-04　　　　　　　　　　　　　　　　-50-　　　　　　　　　　　　　　　　SDVC35SMSCN_2.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.06,
+        0.25,
+        0.95,
+        0.86
+      ],
+      "alt": "SDVC35外形尺寸图，包含正视图、侧视图及毫米尺寸标注",
+      "reason": "外形尺寸图为细线工程图，包含多处尺寸线、半径标注和结构细节，需保留原图位图以避免转写失真。"
+    }
+  ],
+  "notes": "页面清晰；外形尺寸工程图以截图方式保留。",
+  "raw": {
+    "id": "chatcmpl-DnPMJj10C6TYzxQrXG4jSsJCuki50",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780667923,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"page_markdown\":\"智能调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC35系列\\n\\n## 附录A：外形尺寸\\n\\n### SDVC35外形尺寸（单位：mm）\\n\\n[[vcrop:58:0]]\\n\\n---\\n\\n2025-04　　　　　　　　　　　　　　　　-50-　　　　　　　　　　　　　　　　SDVC35SMSCN_2.01\",\"crop_suggestions\":[{\"bbox_0_1\":[0.06,0.25,0.95,0.86],\"alt\":\"SDVC35外形尺寸图，包含正视图、侧视图及毫米尺寸标注\",\"reason\":\"外形尺寸图为细线工程图，包含多处尺寸线、半径标注和结构细节，需保留原图位图以避免转写失真。\"}],\"notes\":\"页面清晰；外形尺寸工程图以截图方式保留。\"}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2552,
+      "completion_tokens": 720,
+      "total_tokens": 3272,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

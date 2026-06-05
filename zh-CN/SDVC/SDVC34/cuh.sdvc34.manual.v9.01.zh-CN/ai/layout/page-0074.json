@@ -1,0 +1,88 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v9.01.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v9.01",
+  "lang": "zh-CN",
+  "page_index": 74,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T23:30:10",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v9.01.zh-CN，页码=74。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 1 页）\n- 3: 序言（第 2 页）\n- 4: 注意事项（第 3 页）\n- 5: 工作与存储环境（第 4 页）\n- 7: 目录（第 5 页）\n- 8: 目录（第 6 页）\n- 第一章 性能特点（第 7 页）\n  - 1.1 性能总述（第 7 页）\n  - 1.2 选型指南（第 8 页）\n    - 1.2.1 型号说明（第 8 页）\n    - 1.2.2 功能说明（第 8 页）\n- 第二章 快速安装及使用指南（第 9 页）\n- 第三章 部件说明（第 11 页）\n  - 3.1 指示灯说明（第 11 页）\n  - 3.2 按键说明（第 13 页）\n  - 3.3 输入、输出接口及附件说明（第 13 页）\n- 第四章 参数调",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.052, 0.932, 0.108],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.071, 0.129, 0.93, 0.428],\n      \"confidence\": 0.96,\n      \"caption\": \"故障现象 / 故障排除建议表，可见行号11至14\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.932, 0.988],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2],\n  \"notes\": \"本页为数字渲染版式，不像扫描件。页面主体是一张故障排除表，背景有浅色CUH水印；除页眉、表格和页脚外留白较多，不是以图片为主。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.052,
+          0.932,
+          0.108
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.071,
+          0.129,
+          0.93,
+          0.428
+        ],
+        "confidence": 0.96,
+        "caption": "故障现象 / 故障排除建议表，可见行号11至14",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.953,
+          0.932,
+          0.988
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2
+    ],
+    "notes": "本页为数字渲染版式，不像扫描件。页面主体是一张故障排除表，背景有浅色CUH水印；除页眉、表格和页脚外留白较多，不是以图片为主。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnQmcgifzvTtGhI2gBMOEbopNMdYw",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780673398,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.052, 0.932, 0.108],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.071, 0.129, 0.93, 0.428],\n      \"confidence\": 0.96,\n      \"caption\": \"故障现象 / 故障排除建议表，可见行号11至14\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.932, 0.988],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2],\n  \"notes\": \"本页为数字渲染版式，不像扫描件。页面主体是一张故障排除表，背景有浅色CUH水印；除页眉、表格和页脚外留白较多，不是以图片为主。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2853,
+      "completion_tokens": 742,
+      "total_tokens": 3595,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 480,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+schema: cuh.glossary.candidates.v1
+doc_id: cuh.sdvc.manual.v1.05.zh-CN
+doc_key: cuh.sdvc.manual.v1.05
+lang: zh-CN
+source_pdf: /Users/wangle/Documents/Python开发/说明书转换/典型文档/20250904_68_SDVC14-S_SMS-CN_1_05.pdf
+generated_at: '2026-06-05 17:19:49'
+note: 本文件为转换工具启发式抓取的术语候选，不等同于仓库根目录公司级 glossary/terms.yaml 定稿；审核通过后再合并入主表。
+terms:
+- term_id: auto-0001
+  surface: 页面 1
+  lang: zh-CN
+  first_page: 1
+  evidence: pdf_outline
+- term_id: auto-0002
+  surface: SDVC14
+  lang: zh-CN
+  first_page: 1
+  evidence: regex_product

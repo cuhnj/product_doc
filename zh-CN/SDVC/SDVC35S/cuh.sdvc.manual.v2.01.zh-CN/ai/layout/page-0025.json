@@ -1,0 +1,199 @@
+{
+  "doc_id": "cuh.sdvc.manual.v2.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v2.01",
+  "lang": "zh-CN",
+  "page_index": 25,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T21:51:34",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v2.01.zh-CN，页码=25。\n\n【目录/书签上下文（节选）】\n- 3: 序言（第 3 页）\n- 4: 注意事项（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 产品特点（第 9 页）\n  - 1.1 主要功能特点（第 9 页）\n  - 1.2 其他功能特点（第 9 页）\n- 第二章 快速安装指南（第 11 页）\n  - 2.1 外部部件说明（第 11 页）\n  - 2.2 快速安装说明（第 13 页）\n  - 2.3 振动传感器的安装（第 15 页）\n  - 2.4 自动搜频（第 17 页）\n- 第三章 人机交互界面（第 18 页）\n  - 3.1 待机界面（第 18 页）\n  - 3.2 密码输入界面（第 21 页）\n  - 3.3 功能组界面（第 22 页",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.0716, 0.0518, 0.9300, 0.0747],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.2747, 0.1098, 0.7279, 0.1432],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.0716, 0.1555, 0.4193, 0.1784],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.0716, 0.1872, 0.9076, 0.2627],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.0716, 0.3181, 0.3230, 0.3401],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.1185, 0.3506, 0.7800, 0.5351],\n      \"confidence\": 0.95,\n      \"caption\": \"端口C内部电路简图\",\n      \"image_alt\": \"端口C内部电路与外部接口的示意图，左侧为内部电路简图，含+24V(NPN)、0V(PNP)、2.4KΩ等标注；右侧为外部接口C1地线、C2输入、C3+24V。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.1185, 0.5439, 0.6458, 0.5606],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.0716, 0.5791, 0.2750, 0.6002],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.1198, 0.6072, 0.7643, 0.6274],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.1159, 0.6503, 0.8633, 0.9112],\n      \"confidence\": 0.95,\n      \"caption\": \"接近开关传感器的接线方式示意图\",\n      \"image_alt\": \"以接近开关传感器为例的接线图：左侧为金属物体和接近开关传感器，传感器线缆分出蓝色-、棕色+、黑色OUT三根线，连接到右侧控制器端子排，对应地线、输入、+24V输出等标注。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.0716, 0.9183, 0.5482, 0.9394],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.0716, 0.9525, 0.9300, 0.9754],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],\n  \"notes\": \"本页为带文本层的PDF渲染页，非纯扫描件。页面包含章节标题、说明段落和两幅电路/接线示意图，图文混排，背景有浅色水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.0716,
+          0.0518,
+          0.93,
+          0.0747
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.2747,
+          0.1098,
+          0.7279,
+          0.1432
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.0716,
+          0.1555,
+          0.4193,
+          0.1784
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.0716,
+          0.1872,
+          0.9076,
+          0.2627
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.0716,
+          0.3181,
+          0.323,
+          0.3401
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.1185,
+          0.3506,
+          0.78,
+          0.5351
+        ],
+        "confidence": 0.95,
+        "caption": "端口C内部电路简图",
+        "image_alt": "端口C内部电路与外部接口的示意图，左侧为内部电路简图，含+24V(NPN)、0V(PNP)、2.4KΩ等标注；右侧为外部接口C1地线、C2输入、C3+24V。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1185,
+          0.5439,
+          0.6458,
+          0.5606
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.0716,
+          0.5791,
+          0.275,
+          0.6002
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1198,
+          0.6072,
+          0.7643,
+          0.6274
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.1159,
+          0.6503,
+          0.8633,
+          0.9112
+        ],
+        "confidence": 0.95,
+        "caption": "接近开关传感器的接线方式示意图",
+        "image_alt": "以接近开关传感器为例的接线图：左侧为金属物体和接近开关传感器，传感器线缆分出蓝色-、棕色+、黑色OUT三根线，连接到右侧控制器端子排，对应地线、输入、+24V输出等标注。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.0716,
+          0.9183,
+          0.5482,
+          0.9394
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.0716,
+          0.9525,
+          0.93,
+          0.9754
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "notes": "本页为带文本层的PDF渲染页，非纯扫描件。页面包含章节标题、说明段落和两幅电路/接线示意图，图文混排，背景有浅色水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnPF3QsSbi8wjLHwQzVehjmqE2bMG",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780667473,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.0716, 0.0518, 0.9300, 0.0747],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.2747, 0.1098, 0.7279, 0.1432],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.0716, 0.1555, 0.4193, 0.1784],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.0716, 0.1872, 0.9076, 0.2627],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.0716, 0.3181, 0.3230, 0.3401],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.1185, 0.3506, 0.7800, 0.5351],\n      \"confidence\": 0.95,\n      \"caption\": \"端口C内部电路简图\",\n      \"image_alt\": \"端口C内部电路与外部接口的示意图，左侧为内部电路简图，含+24V(NPN)、0V(PNP)、2.4KΩ等标注；右侧为外部接口C1地线、C2输入、C3+24V。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.1185, 0.5439, 0.6458, 0.5606],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.0716, 0.5791, 0.2750, 0.6002],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.1198, 0.6072, 0.7643, 0.6274],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.1159, 0.6503, 0.8633, 0.9112],\n      \"confidence\": 0.95,\n      \"caption\": \"接近开关传感器的接线方式示意图\",\n      \"image_alt\": \"以接近开关传感器为例的接线图：左侧为金属物体和接近开关传感器，传感器线缆分出蓝色-、棕色+、黑色OUT三根线，连接到右侧控制器端子排，对应地线、输入、+24V输出等标注。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.0716, 0.9183, 0.5482, 0.9394],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.0716, 0.9525, 0.9300, 0.9754],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],\n  \"notes\": \"本页为带文本层的PDF渲染页，非纯扫描件。页面包含章节标题、说明段落和两幅电路/接线示意图，图文混排，背景有浅色水印。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2453,
+      "completion_tokens": 1445,
+      "total_tokens": 3898,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

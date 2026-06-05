@@ -1,0 +1,1598 @@
+schema_version: 1
+doc_id: cuh.sdvc.manual.v1.01.zh-CN
+doc_key: cuh.sdvc.manual.v1.01
+lang: zh-CN
+generated_at: '2026-06-05 22:19:43'
+source:
+  data_index_yaml: index.yaml
+tables:
+- page: 2
+  layout_region_index: 1
+  table_md_path: tables/page-0002-r01.md
+  headers:
+  - CU UH C 智能数字振动送料控制器相关产
+  - H C CUH H C 产品
+- page: 2
+  layout_region_index: 3
+  table_md_path: tables/page-0002-r03.md
+  headers:
+  - H<br>品名规格
+  - U<br>特 点
+- page: 29
+  layout_region_index: 7
+  table_md_path: tables/page-0029-r07.md
+  headers:
+  - 遥控信号类型
+  - 遥控信号<br>电压范围
+  - 指示灯状态
+  - C<br>U<br>控制器输出电压
+- page: 34
+  layout_region_index: 2
+  table_md_path: tables/page-0034-r02.md
+  headers:
+  - H C U
+  - UH
+  - UH
+  - H  C
+  - CU
+- page: 35
+  layout_region_index: 3
+  table_md_path: tables/page-0035-r03.md
+  headers:
+  - H H CU 故障代码
+  - Col2
+  - Col3
+  - Col4
+  - Col5
+  - Col6
+  - Col7
+  - CU UH 含义
+  - UH C CUH 排除输出存在的短路情况； 排除方法
+- page: 39
+  layout_region_index: 5
+  table_md_path: tables/page-0039-r05.md
+  headers:
+  - CUH
+  - H H C 含义
+  - H CU 参数符号
+  - Col4
+  - Col5
+  - Col6
+  - Col7
+  - Col8
+  - Col9
+  - U UH C 取值范围
+  - C C 默认设置
+- page: 40
+  layout_region_index: 1
+  table_md_path: tables/page-0040-r01.md
+  headers:
+  - C
+  - 含义
+  - H<br>参数符号
+  - Col4
+  - Col5
+  - Col6
+  - Col7
+  - Col8
+  - Col9
+  - 取值范围
+  - Col11
+  - Col12
+  - 默认设置
+- page: 41
+  layout_region_index: 3
+  table_md_path: tables/page-0041-r03.md
+  headers:
+  - H C C 参考标准
+  - C CUH H C UH 准
+- page: 41
+  layout_region_index: 5
+  table_md_path: tables/page-0041-r05.md
+  headers:
+  - U<br>GB标准
+  - C<br>IEC标准
+  - 标准要求
+  - 我司产品<br>达到级别
+  - H<br>备注说明
+- page: 43
+  layout_region_index: 1
+  table_md_path: tables/page-0043-r01.md
+  headers:
+  - U<br>品名规格
+  - C<br>H<br>特 点
+  - Col3
+items:
+- name: <br> <br> <br>品名规格
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH C 智能数字振动送料控制器相关产: <br> <br> <br>品名规格
+    H C CUH H C 产品: <br> <br> <br>特          点
+  source_ref:
+    pdf_page: 2
+    layout_region_index: 1
+    table_md_path: tables/page-0002-r01.md
+- name: H CU<br>  C<br> <br>SDVC34<br>智能数字自动调频振动送料控制器系列
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH C 智能数字振动送料控制器相关产: H CU<br>  C<br> <br>SDVC34<br>智能数字自动调频振动送料控制器系列
+    H C CUH H C 产品: <br>  UH<br> H CU<br> <br>·频率调节                  ·电压调节<br>·智能跟踪                  ·计数功能<br>·料满停机                  ·线控调速<br>·控制输出                  ·Rs485通信<br>·最大输出限定        ·波形指数设置<br>·恢复出厂设置        ·过热保护功能<br>·过流保护功能        ·短路保护功能<br>·加速功能
+  source_ref:
+    pdf_page: 2
+    layout_region_index: 1
+    table_md_path: tables/page-0002-r01.md
+- name: <br> CUH<br>UH<br>SDVC31<br>数字调频振动送料控制器系列
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH C 智能数字振动送料控制器相关产: <br> CUH<br>UH<br>SDVC31<br>数字调频振动送料控制器系列
+    H C CUH H C 产品: <br> <br> CU<br>CUH<br><br>·<br>·<br>·缓启动时间设置      ·加速功能<br>·智能光电传感           ·线控调速<br>·控制输出                    ·  键盘锁定<br>·最大输出限定           ·波形指数设置<br>·恢复出厂设置           ·过热保护功能<br>·过流保护功能           ·  短路保护功能<br>自动稳压                  缓启动
+  source_ref:
+    pdf_page: 2
+    layout_region_index: 1
+    table_md_path: tables/page-0002-r01.md
+- name: U<br>CUH<br> <br>SDVC40S系列<br>压电数字调频振动送料控制器系列
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>品名规格: U<br>CUH<br> <br>SDVC40S系列<br>压电数字调频振动送料控制器系列
+    U<br>特 点: <br>H CUH<br>UH<br>·<br>·<br>·缓启动时间设置      ·智能光电传感<br> ·线控调速                    ·控制输出<br>·  键盘锁定                    ·最大输出限定<br>·波形指数设置           ·恢复出厂设置<br>
+      ·过热保护功能          · 过流保护功能<br> ·  短路保护功能<br>自动稳压                  缓启动
+  source_ref:
+    pdf_page: 2
+    layout_region_index: 3
+    table_md_path: tables/page-0002-r03.md
+- name: U<br> <br>模拟直流<br>输入电压
+  symbol: null
+  range: <br> <br>小于0.5V<br>
+  default: null
+  unit: null
+  note: null
+  extra:
+    遥控信号类型: U<br> <br>模拟直流<br>输入电压
+    指示灯状态: <br> <br> <br>“遥控”指示灯不亮
+    C<br>U<br>控制器输出电压: <br>H<br><br>遥控电压信号无效<br>输出电压由参数“输出电压”设定值控制
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 7
+    table_md_path: tables/page-0029-r07.md
+- name: U<br> <br>模拟直流<br>输入电压
+  symbol: null
+  range: <br> <br>0.5V~1V<br>
+  default: null
+  unit: null
+  note: null
+  extra:
+    遥控信号类型: U<br> <br>模拟直流<br>输入电压
+    指示灯状态: <br> <br> <br>“遥控”指示灯亮起
+    C<br>U<br>控制器输出电压: <br> <br><br>输出电压=0
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 7
+    table_md_path: tables/page-0029-r07.md
+- name: U<br> <br>模拟直流<br>输入电压
+  symbol: null
+  range: <br> <br>1V~5V<br>
+  default: null
+  unit: null
+  note: null
+  extra:
+    遥控信号类型: U<br> <br>模拟直流<br>输入电压
+    指示灯状态: <br> <br> <br>“遥控”指示灯亮起
+    C<br>U<br>控制器输出电压: <br> <br>H<br>输出电压随遥控输入电压线性变化<br>输出电压=(遥控输入电压-1V)×遥控系数/4
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 7
+    table_md_path: tables/page-0029-r07.md
+- name: <br> <br> <br>项目
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br> <br>项目
+    UH: <br> <br> <br>典型值
+    H  C: <br> <br>最大值
+    CU: <br> <br>单位
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br> <br>交流输入电压
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br> <br>交流输入电压
+    UH: <br> <br> <br>220
+    H  C: <br> <br>250
+    CU: <br> <br>伏特（V）
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br> <br>输出电压范围
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br> <br>输出电压范围
+    UH: <br> <br> <br>——
+    H  C: <br> <br>1500
+    CU: <br> <br>伏特（V）
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br> <br>输出电压范围
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br> <br>输出电压范围
+    UH: <br> <br> <br>——
+    H  C: <br> <br>2000
+    CU: <br> <br>2000
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br> <br> <br>输出电流范围
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br> <br> <br>输出电流范围
+    UH: <br> <br> <br> <br>——
+    H  C: <br> <br>1.5
+    CU: <br> <br> <br>安培（A）
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br> <br> <br>输出电流范围
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br> <br> <br>输出电流范围
+    UH: <br> <br> <br> <br>——
+    H  C: <br> <br> <br>3.0
+    CU: <br> <br> <br>3.0
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br> <br> <br>持续输出功率
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br> <br> <br>持续输出功率
+    UH: <br> <br> <br> <br>——
+    H  C: <br> <br> <br>1000
+    CU: <br> <br> <br>瓦特（W）
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br> <br> <br>强制散热输出功率
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br> <br> <br>强制散热输出功率
+    UH: <br> <br> <br> <br>——
+    H  C: <br> <br> <br>1500
+    CU: <br> <br> <br>瓦特（W）
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br> <br> <br>峰值输出功率
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br> <br> <br>峰值输出功率
+    UH: <br> <br> <br> <br>——
+    H  C: <br> <br> <br>2250
+    CU: <br> <br> <br>伏安（VA）
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br> <br> <br>峰值输出功率
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br> <br> <br>峰值输出功率
+    UH: <br> <br> <br> <br>——
+    H  C: <br> <br> <br>6000
+    CU: <br> <br> <br>6000
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br> <br>输出频率范围
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br> <br>输出频率范围
+    UH: <br> <br> <br>20000
+    H  C: <br> <br> <br>25000
+    CU: <br> <br> <br>赫兹（Hz）
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br> <br>频率调整精度
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br> <br>频率调整精度
+    UH: <br> <br> <br> <br>1
+    H  C: <br> <br> <br> <br>1
+    CU: <br> <br> <br> <br>赫兹（Hz）
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br> <br>输出波形
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br> <br>输出波形
+    UH: <br> <br> <br> <br>正弦
+    H  C: <br> <br> <br> <br>正弦
+    CU: <br> <br> <br>
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br> <br>开延时时间
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br> <br>开延时时间
+    UH: <br> <br> <br> <br>0
+    H  C: <br> <br> <br> <br>10.00
+    CU: <br> <br> <br> <br>秒（s）
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br> <br>脉冲输出时间
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br> <br>脉冲输出时间
+    UH: <br> <br> <br> <br>0.5
+    H  C: <br> <br> <br> <br>10.00
+    CU: <br> <br> <br> <br>秒（s）
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br> <br>控制输出电流
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br> <br>控制输出电流
+    UH: <br> <br> <br> <br>——
+    H  C: <br> <br> <br> <br>200
+    CU: <br> <br> <br> <br>毫安（mA）
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br>控制输出电压
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br>控制输出电压
+    UH: <br> <br> <br>24
+    H  C: <br> <br> <br>26
+    CU: <br> <br> <br>伏特（V）
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br>空载功耗
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br>空载功耗
+    UH: <br> <br> <br>5
+    H  C: <br> <br> <br>5
+    CU: <br> <br> <br><br>瓦特（W）
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br>负载类型
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br>负载类型
+    UH: <br> <br> <br>超声压电换能器
+    H  C: <br> <br> <br>超声压电换能器
+    CU: <br> <br> <br>
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br>显示方式
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br>显示方式
+    UH: <br> <br> <br>5
+    H  C: <br> <br> <br>5
+    CU: <br> <br> <br><br>位
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br>工作环境温度
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br>工作环境温度
+    UH: <br> <br> <br>25
+    H  C: <br> <br> <br>40
+    CU: <br> <br> <br><br>摄氏度（℃）
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br>工作环境湿度
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C U: <br> <br>工作环境湿度
+    UH: <br> <br> <br>60
+    H  C: <br> <br> <br>85
+    CU: <br> <br> <br><br>相对湿度（%）
+  source_ref:
+    pdf_page: 34
+    layout_region_index: 2
+    table_md_path: tables/page-0034-r02.md
+- name: <br> <br>
+  symbol: <br> <br>
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col2: <br> <br>
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    CU UH 含义: <br> <br> <br>短路保护
+    UH C CUH 排除输出存在的短路情况； 排除方法: <br> <br>排除输出存在的短路情况；<br>每次启动输出均出现该故障，联络本公司技术支持。
+  source_ref:
+    pdf_page: 35
+    layout_region_index: 3
+    table_md_path: tables/page-0035-r03.md
+- name: <br>
+  symbol: <br>
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col2: <br>
+    Col3: <br>
+    Col4: <br>
+    Col5: <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    CU UH 含义: <br> <br> <br>过流保护
+    UH C CUH 排除输出存在的短路情况； 排除方法: <br> <br> <br>调小输出电压。
+  source_ref:
+    pdf_page: 35
+    layout_region_index: 3
+    table_md_path: tables/page-0035-r03.md
+- name: <br>
+  symbol: <br>
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col2: <br> <br>
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    CU UH 含义: <br> <br> <br>过热保护
+    UH C CUH 排除输出存在的短路情况； 排除方法: <br> <br> <br>将控制器安装在通风良好的环境中。
+  source_ref:
+    pdf_page: 35
+    layout_region_index: 3
+    table_md_path: tables/page-0035-r03.md
+- name: <br>
+  symbol: <br>
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col2: <br> <br>
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    CU UH 含义: <br> <br> <br>过压保护
+    UH C CUH 排除输出存在的短路情况； 排除方法: <br> <br> <br>调小输出电压并确保负载可靠连接。
+  source_ref:
+    pdf_page: 35
+    layout_region_index: 3
+    table_md_path: tables/page-0035-r03.md
+- name: <br> <br> <br>读【P】<br>*
+  symbol: <br> <br> <br>读【P】<br>*
+  range: <br> <br>0~6000 瓦特（W）
+  default: <br>
+  unit: null
+  note: null
+  extra:
+    CUH: C<br> <br> <br>待机参数
+    H H C 含义: <br> <br> <br>输出功率
+    Col4: <br> <br> <br>读【P】<br>*
+    Col5: <br> <br> <br>读【P】<br>*
+    Col6: <br> <br> <br>读【P】<br>*
+    Col7: <br> <br> <br>读【P】<br>*
+    Col8: <br> <br> <br>读【P】<br>*
+    Col9: <br> <br> <br>读【P】<br>*
+  source_ref:
+    pdf_page: 39
+    layout_region_index: 5
+    table_md_path: tables/page-0039-r05.md
+- name: <br> <br> <br>读【大C】<br>*
+  symbol: <br> <br> <br>读【大C】<br>*
+  range: <br> <br>0.00~3.00 安培（A）
+  default: <br>
+  unit: null
+  note: null
+  extra:
+    CUH: C<br> <br> <br>待机参数
+    H H C 含义: <br> <br> <br>输出电流
+    Col4: <br> <br> <br>读【大C】<br>*
+    Col5: <br> <br> <br>读【大C】<br>*
+    Col6: <br> <br> <br>读【大C】<br>*
+    Col7: <br> <br> <br>读【大C】<br>*
+    Col8: <br> <br> <br>读【大C】<br>*
+    Col9: <br> <br> <br>读【大C】<br>*
+  source_ref:
+    pdf_page: 39
+    layout_region_index: 5
+    table_md_path: tables/page-0039-r05.md
+- name: <br> <br> <br>*
+  symbol: <br> <br> <br>*
+  range: <br> <br>14000~25000 赫兹（Hz）
+  default: <br>
+  unit: null
+  note: null
+  extra:
+    CUH: C<br> <br> <br>待机参数
+    H H C 含义: <br> <br> <br>输出频率
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br>
+    Col9: <br>
+  source_ref:
+    pdf_page: 39
+    layout_region_index: 5
+    table_md_path: tables/page-0039-r05.md
+- name: <br> <br> <br>读【小L】<br>*
+  symbol: <br> <br> <br>读【小L】<br>*
+  range: <br> <br>0.00~1.00秒（s）
+  default: <br>
+  unit: null
+  note: null
+  extra:
+    CUH: C<br> <br> <br>待机参数
+    H H C 含义: <br> <br> <br>输出时间
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br>
+  source_ref:
+    pdf_page: 39
+    layout_region_index: 5
+    table_md_path: tables/page-0039-r05.md
+- name: <br> <br> <br>读【小L】<br>*
+  symbol: <br> <br> <br>读【小L】<br>*
+  range: <br>
+  default: <br>
+  unit: null
+  note: null
+  extra:
+    CUH: C<br> <br> <br>待机参数
+    H H C 含义: <br> <br> <br>输出时间
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br>
+    Col9: <br>
+  source_ref:
+    pdf_page: 39
+    layout_region_index: 5
+    table_md_path: tables/page-0039-r05.md
+- name: <br> <br> <br>读【<br>】<br>小C<br>*
+  symbol: <br> <br> <br>读【<br>】<br>小C<br>*
+  range: <br> <br>0~ 9999 焦耳（J）
+  default: <br>
+  unit: null
+  note: null
+  extra:
+    CUH: C<br> <br> <br>待机参数
+    H H C 含义: <br> <br> <br>输出能量
+    Col4: <br> <br> <br>读【<br>】<br>小C<br>*
+    Col5: <br> <br> <br>读【<br>】<br>小C<br>*
+    Col6: <br> <br> <br>读【<br>】<br>小C<br>*
+    Col7: <br> <br> <br>读【<br>】<br>小C<br>*
+    Col8: <br> <br> <br>读【<br>】<br>小C<br>*
+    Col9: <br> <br> <br>读【<br>】<br>小C<br>*
+  source_ref:
+    pdf_page: 39
+    layout_region_index: 5
+    table_md_path: tables/page-0039-r05.md
+- name: <br> <br> <br> <br>读【小R】<br>*
+  symbol: <br> <br> <br> <br>读【小R】<br>*
+  range: <br> <br> <br>0~9999 欧姆（Ω）
+  default: <br> <br>
+  unit: null
+  note: null
+  extra:
+    CUH: C<br> <br> <br>待机参数
+    H H C 含义: <br> <br> <br> <br>有功电阻
+    Col4: <br> <br> <br> <br>读【小R】<br>*
+    Col5: <br> <br> <br> <br>读【小R】<br>*
+    Col6: <br> <br> <br> <br>读【小R】<br>*
+    Col7: <br> <br> <br> <br>读【小R】<br>*
+    Col8: <br> <br> <br> <br>读【小R】<br>*
+    Col9: <br> <br> <br> <br>读【小R】<br>*
+  source_ref:
+    pdf_page: 39
+    layout_region_index: 5
+    table_md_path: tables/page-0039-r05.md
+- name: <br> <br> <br> <br>读【大U】
+  symbol: <br> <br> <br> <br>读【大U】
+  range: <br> <br> <br>0~2000 伏特（V）
+  default: <br> <br> <br>500
+  unit: null
+  note: null
+  extra:
+    CUH: C<br> <br> <br>待机参数
+    H H C 含义: <br> <br> <br> <br>输出电压
+    Col4: <br> <br> <br> <br>读【大U】
+    Col5: <br> <br> <br> <br>读【大U】
+    Col6: <br> <br> <br> <br>读【大U】
+    Col7: <br> <br> <br> <br>读【大U】
+    Col8: <br> <br> <br> <br>读【大U】
+    Col9: <br> <br> <br> <br>读【大U】
+  source_ref:
+    pdf_page: 39
+    layout_region_index: 5
+    table_md_path: tables/page-0039-r05.md
+- name: <br> <br> <br> <br>读【U点】<br>*
+  symbol: <br> <br> <br> <br>读【U点】<br>*
+  range: <br> <br> <br>0~2000 伏特（V）
+  default: <br> <br>
+  unit: null
+  note: null
+  extra:
+    CUH: C<br> <br> <br>待机参数
+    H H C 含义: <br> <br> <br> <br>实测输出电压
+    Col4: <br> <br> <br> <br>读【U点】<br>*
+    Col5: <br> <br> <br> <br>读【U点】<br>*
+    Col6: <br> <br> <br> <br>读【U点】<br>*
+    Col7: <br> <br> <br> <br>读【U点】<br>*
+    Col8: <br> <br> <br> <br>读【U点】<br>*
+    Col9: <br> <br> <br> <br>读【U点】<br>*
+  source_ref:
+    pdf_page: 39
+    layout_region_index: 5
+    table_md_path: tables/page-0039-r05.md
+- name: <br> <br> <br>读【小U点】<br>*
+  symbol: <br> <br> <br>读【小U点】<br>*
+  range: <br> <br> <br>0~2000 伏特（V）
+  default: <br> <br>
+  unit: null
+  note: null
+  extra:
+    CUH: C<br> <br> <br>待机参数
+    H H C 含义: <br> <br> <br>输出有功电压
+    Col4: <br> <br> <br>读【小U点】<br>*
+    Col5: <br> <br> <br>读【小U点】<br>*
+    Col6: <br> <br> <br>读【小U点】<br>*
+    Col7: <br> <br> <br>读【小U点】<br>*
+    Col8: <br> <br> <br>读【小U点】<br>*
+    Col9: <br> <br> <br>读【小U点】<br>*
+  source_ref:
+    pdf_page: 39
+    layout_region_index: 5
+    table_md_path: tables/page-0039-r05.md
+- name: <br> <br> <br>读【F】<br>*
+  symbol: <br> <br> <br>读【F】<br>*
+  range: <br> <br> <br>14.00~25.00 千赫兹（KHz）
+  default: <br> <br>
+  unit: null
+  note: null
+  extra:
+    CUH: U<br> <br>搜频参数
+    H H C 含义: <br> <br> <br>自动搜频频率
+    Col4: <br> <br> <br>读【F】<br>*
+    Col5: <br> <br> <br>读【F】<br>*
+    Col6: <br> <br> <br>读【F】<br>*
+    Col7: <br> <br> <br>读【F】<br>*
+    Col8: <br> <br> <br>读【F】<br>*
+    Col9: <br> <br> <br>读【F】<br>*
+  source_ref:
+    pdf_page: 39
+    layout_region_index: 5
+    table_md_path: tables/page-0039-r05.md
+- name: <br> <br> <br>读【小D】
+  symbol: <br> <br> <br>读【小D】
+  range: <br> <br> <br>0~2000 伏特（V）
+  default: <br> <br> <br>300
+  unit: null
+  note: null
+  extra:
+    CUH: U<br> <br>搜频参数
+    H H C 含义: <br> <br> <br>自动搜频电压
+    Col4: <br> <br> <br>读【小D】
+    Col5: <br> <br> <br>读【小D】
+    Col6: <br> <br> <br>读【小D】
+    Col7: <br> <br> <br>读【小D】
+    Col8: <br> <br> <br>读【小D】
+    Col9: <br> <br> <br>读【小D】
+  source_ref:
+    pdf_page: 39
+    layout_region_index: 5
+    table_md_path: tables/page-0039-r05.md
+- name: <br> <br> <br>读【小N】
+  symbol: <br> <br> <br>读【小N】
+  range: <br> <br> <br><br>1~9999 欧姆（Ω）
+  default: <br> <br> <br><br>700
+  unit: null
+  note: null
+  extra:
+    CUH: U<br> <br>搜频参数
+    H H C 含义: <br> <br> <br>阻抗阈值
+    Col4: <br> <br> <br>读【小N】
+    Col5: <br> <br> <br>读【小N】
+    Col6: <br> <br> <br>读【小N】
+    Col7: <br> <br> <br>读【小N】
+    Col8: <br> <br> <br>读【小N】
+    Col9: <br> <br> <br>读【小N】
+  source_ref:
+    pdf_page: 39
+    layout_region_index: 5
+    table_md_path: tables/page-0039-r05.md
+- name: <br> <br> <br>读【U上】
+  symbol: <br> <br> <br>读【U上】
+  range: <br> <br> <br><br>14.00~25.00 千赫兹（KHz）
+  default: <br> <br> <br><br>25.00
+  unit: null
+  note: null
+  extra:
+    CUH: U<br> <br>搜频参数
+    H H C 含义: <br> <br> <br>频率上限
+    Col4: <br> <br> <br>读【U上】
+    Col5: <br> <br> <br>读【U上】
+    Col6: <br> <br> <br>读【U上】
+    Col7: <br> <br> <br>读【U上】
+    Col8: <br> <br> <br>读【U上】
+    Col9: <br> <br> <br>读【U上】
+  source_ref:
+    pdf_page: 39
+    layout_region_index: 5
+    table_md_path: tables/page-0039-r05.md
+- name: <br> <br> <br>读【U下】
+  symbol: <br> <br> <br>读【U下】
+  range: <br> <br> <br><br>14.00~25.00 千赫兹（KHz）
+  default: <br> <br> <br><br>14.00
+  unit: null
+  note: null
+  extra:
+    CUH: U<br> <br>搜频参数
+    H H C 含义: <br> <br> <br>频率下限
+    Col4: <br> <br> <br>读【U下】
+    Col5: <br> <br> <br>读【U下】
+    Col6: <br> <br> <br>读【U下】
+    Col7: <br> <br> <br>读【U下】
+    Col8: <br> <br> <br>读【U下】
+    Col9: <br> <br> <br>读【U下】
+  source_ref:
+    pdf_page: 39
+    layout_region_index: 5
+    table_md_path: tables/page-0039-r05.md
+- name: <br> <br>读【<br>】<br>反F
+  symbol: <br> <br>读【<br>】<br>反F
+  range: <br> <br><br>0~9999<br>定时模式<br>持续输出<br>定能量模式
+  default: <br> <br><br>0<br>持续输出
+  unit: null
+  note: null
+  extra:
+    CUH: <br>设置参数
+    H H C 含义: <br> <br>输入密码<br>
+    Col4: <br> <br>读【<br>】<br>反F
+    Col5: <br> <br>读【<br>】<br>反F
+    Col6: <br> <br>读【<br>】<br>反F
+    Col7: <br> <br>读【<br>】<br>反F
+    Col8: <br> <br>读【<br>】<br>反F
+    Col9: <br> <br>读【<br>】<br>反F
+  source_ref:
+    pdf_page: 39
+    layout_region_index: 5
+    table_md_path: tables/page-0039-r05.md
+- name: <br> <br> <br>读【大L】
+  symbol: <br> <br> <br>读【大L】
+  range: <br> <br>0.00~10.00秒（s）
+  default: <br>0.50
+  unit: null
+  note: null
+  extra:
+    C: <br> <br>
+    含义: <br> <br> <br>定时触发时间
+    Col4: <br> <br> <br>读【大L】
+    Col5: <br> <br> <br>读【大L】
+    Col6: <br> <br> <br>读【大L】
+    Col7: <br> <br> <br>读【大L】
+    Col8: <br> <br> <br>读【大L】
+    Col9: <br> <br> <br>读【大L】
+    Col11: <br> <br>0.00~10.00秒（s）
+    Col12: <br> <br>0.00~10.00秒（s）
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br>读【E】
+  symbol: <br> <br> <br>读【E】
+  range: <br> <br>0~ 9999 焦耳（J）
+  default: <br>100
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br>设置能量
+    Col4: <br> <br> <br>读【E】
+    Col5: <br> <br> <br>读【E】
+    Col6: <br> <br> <br>读【E】
+    Col7: <br> <br> <br>读【E】
+    Col8: <br> <br> <br>读【E】
+    Col9: <br> <br> <br>读【E】
+    Col11: <br> <br>0~ 9999 焦耳（J）
+    Col12: <br> <br>0~ 9999 焦耳（J）
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br>读【反L】
+  symbol: <br> <br> <br>读【反L】
+  range: <br> <br>0.0~10.0秒（s）<br>常通
+  default: <br>0.0
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br>C口开延时
+    Col4: <br> <br> <br>读【反L】
+    Col5: <br> <br> <br>读【反L】
+    Col6: <br> <br> <br>读【反L】
+    Col7: <br> <br> <br>读【反L】
+    Col8: <br> <br> <br>读【反L】
+    Col9: <br> <br> <br>读【反L】
+    Col11: <br> <br>0.0~10.0秒（s）<br>常通
+    Col12: <br> <br>0.0~10.0秒（s）<br>常通
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br> <br>读【涛1】
+  symbol: <br> <br> <br> <br>读【涛1】
+  range: <br> <br>
+  default: <br> <br>常通
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br> <br>C口逻辑方向
+    Col4: <br> <br> <br> <br>读【涛1】
+    Col5: <br> <br> <br> <br>读【涛1】
+    Col6: <br> <br> <br> <br>读【涛1】
+    Col7: <br> <br> <br> <br>读【涛1】
+    Col8: <br> <br> <br> <br>读【涛1】
+    Col9: <br> <br> <br> <br>读【涛1】
+    Col11: <br> <br>
+    Col12: <br> <br> <br>常通<br>常断
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br> <br>读【涛3】
+  symbol: <br> <br> <br> <br>读【涛3】
+  range: <br> <br>
+  default: <br> <br>常通
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br> <br>D口输出逻辑方向
+    Col4: <br> <br> <br> <br>读【涛3】
+    Col5: <br> <br> <br> <br>读【涛3】
+    Col6: <br> <br> <br> <br>读【涛3】
+    Col7: <br> <br> <br> <br>读【涛3】
+    Col8: <br> <br> <br> <br>读【涛3】
+    Col9: <br> <br> <br> <br>读【涛3】
+    Col11: <br> <br>
+    Col12: <br> <br> <br><br>常断
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br> <br>读【万】
+  symbol: <br> <br> <br> <br>读【万】
+  range: <br> <br> <br>0.1~10.0 安培（A）
+  default: <br> <br>0.2
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br> <br>电流报警容差
+    Col4: <br> <br> <br> <br>读【万】
+    Col5: <br> <br> <br> <br>读【万】
+    Col6: <br> <br> <br> <br>读【万】
+    Col7: <br> <br> <br> <br>读【万】
+    Col8: <br> <br> <br> <br>读【万】
+    Col9: <br> <br> <br> <br>读【万】
+    Col11: <br> <br> <br>0.1~10.0 安培（A）
+    Col12: <br> <br> <br>0.1~10.0 安培（A）
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br>读【大H】
+  symbol: <br> <br> <br>读【大H】
+  range: <br> <br> <br>-100~0
+  default: <br> <br>0
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br>自动触发灵敏度
+    Col4: <br> <br> <br>读【大H】
+    Col5: <br> <br> <br>读【大H】
+    Col6: <br> <br> <br>读【大H】
+    Col7: <br> <br> <br>读【大H】
+    Col8: <br> <br> <br>读【大H】
+    Col9: <br> <br> <br>读【大H】
+    Col11: <br> <br> <br>-100~0
+    Col12: <br> <br> <br>-100~0
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br>读【小U】
+  symbol: <br> <br> <br>读【小U】
+  range: <br> <br> <br>。<br>-180~180 度（）
+  default: <br> <br>0
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br>相位差
+    Col4: <br> <br> <br>读【小U】
+    Col5: <br> <br> <br>读【小U】
+    Col6: <br> <br> <br>读【小U】
+    Col7: <br> <br> <br>读【小U】
+    Col8: <br> <br> <br>读【小U】
+    Col9: <br> <br> <br>读【小U】
+    Col11: <br> <br> <br>。<br>-180~180 度（）
+    Col12: <br> <br> <br>。<br>-180~180 度（）
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br> <br>*
+  symbol: <br> <br> <br> <br>*
+  range: <br> <br> <br> <br>14.00~25.00 千赫兹（KHz）
+  default: <br> <br>
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br> <br>频率上限
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    Col11: <br> <br> <br> <br>14.00~25.00 千赫兹（KHz）
+    Col12: <br> <br> <br> <br>14.00~25.00 千赫兹（KHz）
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br> <br>读【FP】
+  symbol: <br> <br> <br> <br>读【FP】
+  range: <br> <br> <br> <br>0~999
+  default: <br> <br> <br>10
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br> <br>频率比例
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    Col11: <br> <br> <br> <br>0~999
+    Col12: <br> <br> <br> <br>0~999
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br> <br>读【FP】
+  symbol: <br> <br> <br> <br>读【FP】
+  range: <br> <br> <br>
+  default: <br> <br> <br>
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br> <br>频率比例
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    Col11: <br> <br> <br>
+    Col12: <br> <br> <br>
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br> <br>读【FI】
+  symbol: <br> <br> <br> <br>读【FI】
+  range: <br> <br> <br> <br>0~999
+  default: <br> <br> <br>0
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br> <br>频率积分
+    Col4: <br> <br> <br> <br>读【FI】
+    Col5: <br> <br> <br> <br>读【FI】
+    Col6: <br> <br> <br> <br>读【FI】
+    Col7: <br> <br> <br> <br>读【FI】
+    Col8: <br> <br> <br> <br>读【FI】
+    Col9: <br> <br> <br> <br>读【FI】
+    Col11: <br> <br> <br> <br>0~999
+    Col12: <br> <br> <br> <br>0~999
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br> <br>读【AP】
+  symbol: <br> <br> <br> <br>读【AP】
+  range: <br> <br> <br> <br>0~999
+  default: <br> <br> <br>100
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br> <br>振幅比例
+    Col4: <br> <br> <br> <br>读【AP】
+    Col5: <br> <br> <br> <br>读【AP】
+    Col6: <br> <br> <br> <br>读【AP】
+    Col7: <br> <br> <br> <br>读【AP】
+    Col8: <br> <br> <br> <br>读【AP】
+    Col9: <br> <br> <br> <br>读【AP】
+    Col11: <br> <br> <br> <br>0~999
+    Col12: <br> <br> <br> <br>0~999
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br>读【AI】
+  symbol: <br> <br> <br>读【AI】
+  range: <br> <br> <br>0~999<br>
+  default: <br> <br> <br>1
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br>振幅积分
+    Col4: <br> <br> <br>读【AI】
+    Col5: <br> <br> <br>读【AI】
+    Col6: <br> <br> <br>读【AI】
+    Col7: <br> <br> <br>读【AI】
+    Col8: <br> <br> <br>读【AI】
+    Col9: <br> <br> <br>读【AI】
+    Col11: <br> <br> <br>0~999<br>
+    Col12: <br> <br> <br>0~999<br>
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br>读【下拐】
+  symbol: <br> <br> <br>读【下拐】
+  range: <br> <br> <br>0.00~1.50安培（A）
+  default: <br> <br> <br>1.00 (SDUC20-US）
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br>最大输出电流
+    Col4: <br> <br> <br>读【下拐】
+    Col5: <br> <br> <br>读【下拐】
+    Col6: <br> <br> <br>读【下拐】
+    Col7: <br> <br> <br>读【下拐】
+    Col8: <br> <br> <br>读【下拐】
+    Col9: <br> <br> <br>读【下拐】
+    Col11: <br> <br> <br>0.00~1.50安培（A）
+    Col12: <br> <br> <br>0.00~1.50安培（A）
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br>读【下拐】
+  symbol: <br> <br> <br>读【下拐】
+  range: <br> <br> <br><br>0.00~3.00安培（A）
+  default: <br> <br> <br><br>2.00 (SDUC20-UM）
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br>最大输出电流
+    Col4: <br> <br> <br>读【下拐】
+    Col5: <br> <br> <br>读【下拐】
+    Col6: <br> <br> <br>读【下拐】
+    Col7: <br> <br> <br>读【下拐】
+    Col8: <br> <br> <br>读【下拐】
+    Col9: <br> <br> <br>读【下拐】
+    Col11: <br> <br> <br><br>0.00~3.00安培（A）
+    Col12: <br> <br> <br><br>0.00~3.00安培（A）
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br>读【横T】
+  symbol: <br> <br> <br>读【横T】
+  range: <br> <br> <br><br>100~1500
+  default: <br> <br> <br><br>1000 (SDUC20-US）
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br>遥控系数（电压）
+    Col4: <br> <br> <br>读【横T】
+    Col5: <br> <br> <br>读【横T】
+    Col6: <br> <br> <br>读【横T】
+    Col7: <br> <br> <br>读【横T】
+    Col8: <br> <br> <br>读【横T】
+    Col9: <br> <br> <br>读【横T】
+    Col11: <br> <br> <br><br>100~1500
+    Col12: <br> <br> <br><br>100~1500
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br>读【横T】
+  symbol: <br> <br> <br>读【横T】
+  range: <br> <br> <br><br>100~2000
+  default: <br> <br> <br><br>1500 (SDUC20-UM
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br>遥控系数（电压）
+    Col4: <br> <br> <br>读【横T】
+    Col5: <br> <br> <br>读【横T】
+    Col6: <br> <br> <br>读【横T】
+    Col7: <br> <br> <br>读【横T】
+    Col8: <br> <br> <br>读【横T】
+    Col9: <br> <br> <br>读【横T】
+    Col11: <br> <br> <br><br>100~2000
+    Col12: <br> <br> <br><br>100~2000
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br>读【<br>】<br>UR<br>*
+  symbol: <br> <br> <br>读【<br>】<br>UR<br>*
+  range: <br> <br> <br>
+  default: <br> <br> <br>
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br>控制板版本
+    Col4: <br> <br> <br>读【<br>】<br>UR<br>*
+    Col5: <br> <br> <br>读【<br>】<br>UR<br>*
+    Col6: <br> <br> <br>读【<br>】<br>UR<br>*
+    Col7: <br> <br> <br>读【<br>】<br>UR<br>*
+    Col8: <br> <br> <br>读【<br>】<br>UR<br>*
+    Col9: <br> <br> <br>读【<br>】<br>UR<br>*
+    Col11: <br> <br> <br>
+    Col12: <br> <br> <br>
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br>读【点】<br>U<br>R<br>*
+  symbol: <br> <br> <br>读【点】<br>U<br>R<br>*
+  range: <br> <br> <br>
+  default: <br> <br> <br>
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br>功率板版本
+    Col4: <br> <br> <br>读【点】<br>U<br>R<br>*
+    Col5: <br> <br> <br>读【点】<br>U<br>R<br>*
+    Col6: <br> <br> <br>读【点】<br>U<br>R<br>*
+    Col7: <br> <br> <br>读【点】<br>U<br>R<br>*
+    Col8: <br> <br> <br>读【点】<br>U<br>R<br>*
+    Col9: <br> <br> <br>读【点】<br>U<br>R<br>*
+    Col11: <br> <br> <br>
+    Col12: <br> <br> <br>
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br> <br>读【<br>】<br>反F点
+  symbol: <br> <br> <br>读【<br>】<br>反F点
+  range: <br> <br> <br><br>0~9999
+  default: <br> <br> <br><br>0
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br> <br>设置密码
+    Col4: <br> <br> <br>读【<br>】<br>反F点
+    Col5: <br> <br> <br>读【<br>】<br>反F点
+    Col6: <br> <br> <br>读【<br>】<br>反F点
+    Col7: <br> <br> <br>读【<br>】<br>反F点
+    Col8: <br> <br> <br>读【<br>】<br>反F点
+    Col9: <br> <br> <br>读【<br>】<br>反F点
+    Col11: <br> <br> <br><br>0~9999
+    Col12: <br> <br> <br><br>0~9999
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br> <br>读【全8】
+  symbol: <br> <br>读【全8】
+  range: <br> <br><br>——
+  default: <br> <br><br>——
+  unit: null
+  note: null
+  extra:
+    C: H<br> C<br>UH<br> <br>设置参数
+    含义: <br> <br>恢复出厂设置
+    Col4: <br> <br>读【全8】
+    Col5: <br> <br>读【全8】
+    Col6: <br> <br>读【全8】
+    Col7: <br> <br>读【全8】
+    Col8: <br> <br>读【全8】
+    Col9: <br> <br>读【全8】
+    Col11: <br> <br><br>——
+    Col12: <br> <br><br>——
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 1
+    table_md_path: tables/page-0040-r01.md
+- name: <br>序号
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C C 参考标准: <br>序号
+    C CUH H C UH 准: <br> <br><br>参考标准
+  source_ref:
+    pdf_page: 41
+    layout_region_index: 3
+    table_md_path: tables/page-0041-r03.md
+- name: <br>1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C C 参考标准: <br>1
+    C CUH H C UH 准: <br> <br><br>T/GDMES 0015-2020 超声波焊接设备 口罩机用焊接机，A.1
+  source_ref:
+    pdf_page: 41
+    layout_region_index: 3
+    table_md_path: tables/page-0041-r03.md
+- name: <br>2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C C 参考标准: <br>2
+    C CUH H C UH 准: <br> <br><br>T/GDMES 0016-2020 超声波焊接设备 热塑性织物用焊接机，A.1
+  source_ref:
+    pdf_page: 41
+    layout_region_index: 3
+    table_md_path: tables/page-0041-r03.md
+- name: <br> <br>GB/T 17626.2-2006
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br><br>接触放电
+  extra:
+    U<br>GB标准: <br> <br>GB/T 17626.2-2006
+    C<br>IEC标准: <br> <br>IEC 61000-4-2:2001
+    标准要求: <br> <br>4KV
+    我司产品<br>达到级别: <br><br>±8KV
+  source_ref:
+    pdf_page: 41
+    layout_region_index: 5
+    table_md_path: tables/page-0041-r05.md
+- name: <br> <br>GB/T 17626.2-2006
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br><br>空气放电
+  extra:
+    U<br>GB标准: <br> <br>GB/T 17626.2-2006
+    C<br>IEC标准: <br> <br>IEC 61000-4-2:2001
+    标准要求: <br> <br>8KV
+    我司产品<br>达到级别: <br><br>±15KV
+  source_ref:
+    pdf_page: 41
+    layout_region_index: 5
+    table_md_path: tables/page-0041-r05.md
+- name: <br> <br>GB/T 17626.4-2008
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br>
+  extra:
+    U<br>GB标准: <br> <br>GB/T 17626.4-2008
+    C<br>IEC标准: <br> <br>IEC 61000-4-4:2004
+    标准要求: <br> <br>2KV
+    我司产品<br>达到级别: <br><br>±4KV
+  source_ref:
+    pdf_page: 41
+    layout_region_index: 5
+    table_md_path: tables/page-0041-r05.md
+- name: <br>C<br>GB/T 17626.5-2008
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br><br>线对线耦合
+  extra:
+    U<br>GB标准: <br>C<br>GB/T 17626.5-2008
+    C<br>IEC标准: <br> <br>IEC 61000-4-5:2005
+    标准要求: <br> <br>1KV
+    我司产品<br>达到级别: <br><br>±4KV
+  source_ref:
+    pdf_page: 41
+    layout_region_index: 5
+    table_md_path: tables/page-0041-r05.md
+- name: <br>C<br>GB/T 17626.5-2008
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br><br>线对地耦合
+  extra:
+    U<br>GB标准: <br>C<br>GB/T 17626.5-2008
+    C<br>IEC标准: <br> <br>IEC 61000-4-5:2005
+    标准要求: <br> <br>2KV
+    我司产品<br>达到级别: <br><br>±2KV
+  source_ref:
+    pdf_page: 41
+    layout_region_index: 5
+    table_md_path: tables/page-0041-r05.md
+- name: H C<br> UH C<br> <br> <br>SDVC10、11<br>数字稳压振动送料控制器系列
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U<br>品名规格: H C<br> UH C<br> <br> <br>SDVC10、11<br>数字稳压振动送料控制器系列
+    C<br>H<br>特 点: <br>  H<br> <br>输入电压范围：150V～260V
+    Col3: <br>   U<br><br>输出电压范围：35V～250V
+  source_ref:
+    pdf_page: 43
+    layout_region_index: 1
+    table_md_path: tables/page-0043-r01.md
+- name: H C<br> UH C<br> <br> <br>SDVC10、11<br>数字稳压振动送料控制器系列
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U<br>品名规格: H C<br> UH C<br> <br> <br>SDVC10、11<br>数字稳压振动送料控制器系列
+    C<br>H<br>特 点: <br> <br> <br>输出电流：0～4A
+    Col3: <br> <br>输出功率：880VA
+  source_ref:
+    pdf_page: 43
+    layout_region_index: 1
+    table_md_path: tables/page-0043-r01.md
+- name: H C<br> UH C<br> <br> <br>SDVC10、11<br>数字稳压振动送料控制器系列
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U<br>品名规格: H C<br> UH C<br> <br> <br>SDVC10、11<br>数字稳压振动送料控制器系列
+    C<br>H<br>特 点: <br> <br> <br> <br>电源频率范围：40～70Hz
+    Col3: <br> <br>
+  source_ref:
+    pdf_page: 43
+    layout_region_index: 1
+    table_md_path: tables/page-0043-r01.md
+- name: H C<br> UH C<br> <br> <br>SDVC10、11<br>数字稳压振动送料控制器系列
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U<br>品名规格: H C<br> UH C<br> <br> <br>SDVC10、11<br>数字稳压振动送料控制器系列
+    C<br>H<br>特 点: <br> <br>  CU<br>  H<br>·自动稳压 ·缓启动<br>·最大输出比例调节       ·线性调节规律<br>·短路保护功能  ·过热保护功能
+    Col3: <br> <br>  CU<br>  H<br>·自动稳压 ·缓启动<br>·最大输出比例调节       ·线性调节规律<br>·短路保护功能  ·过热保护功能
+  source_ref:
+    pdf_page: 43
+    layout_region_index: 1
+    table_md_path: tables/page-0043-r01.md
+- name: C<br>UH CU<br> <br>SDVC20、22<br>智能数字稳压振动送料控制器系列
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U<br>品名规格: C<br>UH CU<br> <br>SDVC20、22<br>智能数字稳压振动送料控制器系列
+    C<br>H<br>特 点: <br> <br> <br> <br>输入电压范围：85V～440V
+    Col3: <br> <br>  U<br> <br>输出电压范围：35V～380V
+  source_ref:
+    pdf_page: 43
+    layout_region_index: 1
+    table_md_path: tables/page-0043-r01.md
+- name: C<br>UH CU<br> <br>SDVC20、22<br>智能数字稳压振动送料控制器系列
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U<br>品名规格: C<br>UH CU<br> <br>SDVC20、22<br>智能数字稳压振动送料控制器系列
+    C<br>H<br>特 点: <br> <br> <br> <br>输出电流：0～10A
+    Col3: <br> <br> <br> <br>输出功率：3800VA
+  source_ref:
+    pdf_page: 43
+    layout_region_index: 1
+    table_md_path: tables/page-0043-r01.md
+- name: C<br>UH CU<br> <br>SDVC20、22<br>智能数字稳压振动送料控制器系列
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U<br>品名规格: C<br>UH CU<br> <br>SDVC20、22<br>智能数字稳压振动送料控制器系列
+    C<br>H<br>特 点: <br> <br> H<br> <br>电源频率范围：40～70Hz
+    Col3: <br> <br> <br>
+  source_ref:
+    pdf_page: 43
+    layout_region_index: 1
+    table_md_path: tables/page-0043-r01.md
+- name: C<br>UH CU<br> <br>SDVC20、22<br>智能数字稳压振动送料控制器系列
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U<br>品名规格: C<br>UH CU<br> <br>SDVC20、22<br>智能数字稳压振动送料控制器系列
+    C<br>H<br>特 点: <br> <br> CU<br>UH C<br><br>·<br>· <br>·<br>·<br>缓启动时间设置 信号控制开关<br>·<br>·<br>双控制信号输入  输出电压预置功能<br>·<br>·<br>料满停机                     智能光电传感<br>·<br>·<br>线控调速                     控制输出<br>·<br>·<br>过热保护功能           过流保护功能<br>自动稳压                         缓启动
+    Col3: <br> <br> CU<br>UH C<br><br>·<br>· <br>·<br>·<br>缓启动时间设置 信号控制开关<br>·<br>·<br>双控制信号输入  输出电压预置功能<br>·<br>·<br>料满停机                     智能光电传感<br>·<br>·<br>线控调速                     控制输出<br>·<br>·<br>过热保护功能           过流保护功能<br>自动稳压                         缓启动
+  source_ref:
+    pdf_page: 43
+    layout_region_index: 1
+    table_md_path: tables/page-0043-r01.md

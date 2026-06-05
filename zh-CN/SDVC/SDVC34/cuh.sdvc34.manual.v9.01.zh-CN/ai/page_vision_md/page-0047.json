@@ -1,0 +1,67 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v9.01.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v9.01",
+  "lang": "zh-CN",
+  "page_index": 47,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T23:37:53",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v9.01.zh-CN，doc_key=cuh.sdvc34.manual.v9.01，lang=zh-CN，页码=47。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封2（第 1 页）\n- 3: 序言（第 2 页）\n- 4: 注意事项（第 3 页）\n- 5: 工作与存储环境（第 4 页）\n- 7: 目录（第 5 页）\n- 8: 目录（第 6 页）\n- 第一章 性能特点（第 7 页）\n  - 1.1 性能总述（第 7 页）\n  - 1.2 选型指南（第 8 页）\n    - 1.2.1 型号说明（第 8 页）\n    - 1.2.2 功能说明（第 8 页）\n- 第二章 快速安装及使用指南（第 9 页）\n- 第三章 部件说明（第 11 页）\n  - 3.1 指示灯说明（第 11 页）\n  - 3.2 按键说明（第 13 页）\n  - 3.3 ",
+  "assistant_text": "{\"page_markdown\":\"# PLC的连接\\n\\n## PLC的NPN输出的连接\\n\\n[[vcrop:47:0]]\\n\\n## PLC的PNP输出的连接\\n\\n[[vcrop:47:1]]\\n\\n可以使用PLC的继电器输出，也可以使用PLC的NPN或PNP输出。\\n\\n**注意：** 使用PLC控制信号进行控制器启动和停止控制时，输入信号电压值≤24V。\",\"crop_suggestions\":[{\"bbox_0_1\":[0.0716,0.1577,0.9349,0.5081],\"alt\":\"PLC的NPN输出的连接示意图\",\"reason\":\"包含PLC与控制器端子之间的详细接线示意，线缆、端子与局部放大图较复杂，适合保留位图。\"},{\"bbox_0_1\":[0.0716,0.5405,0.9349,0.8802],\"alt\":\"PLC的PNP输出的连接示意图\",\"reason\":\"包含PLC与控制器端子之间的详细接线示意，线缆、端子与局部放大图较复杂，适合保留位图。\"}],\"notes\":\"页面清晰；示意图细线较多，建议以裁剪图保留。\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "# PLC的连接\n\n## PLC的NPN输出的连接\n\n[[vcrop:47:0]]\n\n## PLC的PNP输出的连接\n\n[[vcrop:47:1]]\n\n可以使用PLC的继电器输出，也可以使用PLC的NPN或PNP输出。\n\n**注意：** 使用PLC控制信号进行控制器启动和停止控制时，输入信号电压值≤24V。",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.0716,
+        0.1577,
+        0.9349,
+        0.5081
+      ],
+      "alt": "PLC的NPN输出的连接示意图",
+      "reason": "包含PLC与控制器端子之间的详细接线示意，线缆、端子与局部放大图较复杂，适合保留位图。"
+    },
+    {
+      "bbox_0_1": [
+        0.0716,
+        0.5405,
+        0.9349,
+        0.8802
+      ],
+      "alt": "PLC的PNP输出的连接示意图",
+      "reason": "包含PLC与控制器端子之间的详细接线示意，线缆、端子与局部放大图较复杂，适合保留位图。"
+    }
+  ],
+  "notes": "页面清晰；示意图细线较多，建议以裁剪图保留。",
+  "raw": {
+    "id": "chatcmpl-DnQu24OugnTAKxlb2jqpW4dB8Nb4q",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780673858,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"page_markdown\":\"# PLC的连接\\n\\n## PLC的NPN输出的连接\\n\\n[[vcrop:47:0]]\\n\\n## PLC的PNP输出的连接\\n\\n[[vcrop:47:1]]\\n\\n可以使用PLC的继电器输出，也可以使用PLC的NPN或PNP输出。\\n\\n**注意：** 使用PLC控制信号进行控制器启动和停止控制时，输入信号电压值≤24V。\",\"crop_suggestions\":[{\"bbox_0_1\":[0.0716,0.1577,0.9349,0.5081],\"alt\":\"PLC的NPN输出的连接示意图\",\"reason\":\"包含PLC与控制器端子之间的详细接线示意，线缆、端子与局部放大图较复杂，适合保留位图。\"},{\"bbox_0_1\":[0.0716,0.5405,0.9349,0.8802],\"alt\":\"PLC的PNP输出的连接示意图\",\"reason\":\"包含PLC与控制器端子之间的详细接线示意，线缆、端子与局部放大图较复杂，适合保留位图。\"}],\"notes\":\"页面清晰；示意图细线较多，建议以裁剪图保留。\"}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3097,
+      "completion_tokens": 813,
+      "total_tokens": 3910,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}
