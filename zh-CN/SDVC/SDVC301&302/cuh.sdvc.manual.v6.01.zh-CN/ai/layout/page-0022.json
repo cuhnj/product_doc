@@ -1,0 +1,223 @@
+{
+  "doc_id": "cuh.sdvc.manual.v6.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v6.01",
+  "lang": "zh-CN",
+  "page_index": 22,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-06T00:26:40",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v6.01.zh-CN，页码=22。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯及按键说明（第 10 页）\n  - 1.3 接线端口说明（第 11 页）\n  - 1.4 控制器铭牌说明（第 12 页）\n- 第二章 性能特点（第 13 页）\n- 第三章 安装及使用指南（第 15 页）\n  - 3.1 控制器使用条件（第 15 页）\n  - 3.2 按键基本操作（第 15 页）\n  - 3.3 安装使用（第 16 页）\n",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.932, 0.074],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.160, 0.735, 0.190],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.203, 0.929, 0.265],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.279, 0.932, 0.592],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.092, 0.294, 0.617, 0.337],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.100, 0.374, 0.435, 0.523],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.501, 0.342, 0.848, 0.552],\n      \"confidence\": 0.95,\n      \"image_alt\": \"SDVC301-M 控制器面板示意图，显示参数 J- 和数值 0.2，并用引线标注“J- 表示传感器C口开延时”和“开延时指示灯”。\",\n      \"caption\": \"开延时参数界面示意\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.093, 0.562, 0.784, 0.582],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.616, 0.932, 0.925],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.092, 0.630, 0.616, 0.675],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.100, 0.713, 0.430, 0.853],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.501, 0.676, 0.848, 0.885],\n      \"confidence\": 0.95,\n      \"image_alt\": \"SDVC301-M 控制器面板示意图，显示参数 L- 和数值 0.2，并用引线标注“L- 表示传感器C口关延时”和“关延时指示灯”。\",\n      \"caption\": \"关延时参数界面示意\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.093, 0.900, 0.784, 0.920],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.932, 0.975],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],\n  \"notes\": \"本页为可识别文本与矢量/线稿示意图混排的说明书页面，不像纯扫描件。页面主体说明第4.3节“料满停机传感器开、关延时时间设定（仅SDVC301系列）”，包含两个带圆角边框的功能说明块，图文并重。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.052,
+          0.932,
+          0.074
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.16,
+          0.735,
+          0.19
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.203,
+          0.929,
+          0.265
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.279,
+          0.932,
+          0.592
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.092,
+          0.294,
+          0.617,
+          0.337
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.374,
+          0.435,
+          0.523
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.501,
+          0.342,
+          0.848,
+          0.552
+        ],
+        "confidence": 0.95,
+        "image_alt": "SDVC301-M 控制器面板示意图，显示参数 J- 和数值 0.2，并用引线标注“J- 表示传感器C口开延时”和“开延时指示灯”。",
+        "caption": "开延时参数界面示意",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.093,
+          0.562,
+          0.784,
+          0.582
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.616,
+          0.932,
+          0.925
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.092,
+          0.63,
+          0.616,
+          0.675
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.1,
+          0.713,
+          0.43,
+          0.853
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.501,
+          0.676,
+          0.848,
+          0.885
+        ],
+        "confidence": 0.95,
+        "image_alt": "SDVC301-M 控制器面板示意图，显示参数 L- 和数值 0.2，并用引线标注“L- 表示传感器C口关延时”和“关延时指示灯”。",
+        "caption": "关延时参数界面示意",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.093,
+          0.9,
+          0.784,
+          0.92
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.953,
+          0.932,
+          0.975
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "notes": "本页为可识别文本与矢量/线稿示意图混排的说明书页面，不像纯扫描件。页面主体说明第4.3节“料满停机传感器开、关延时时间设定（仅SDVC301系列）”，包含两个带圆角边框的功能说明块，图文并重。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnRfDUj78PkxZoJnsBQSeVydEwDQm",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780676783,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.932, 0.074],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.160, 0.735, 0.190],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.203, 0.929, 0.265],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.279, 0.932, 0.592],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.092, 0.294, 0.617, 0.337],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.100, 0.374, 0.435, 0.523],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.501, 0.342, 0.848, 0.552],\n      \"confidence\": 0.95,\n      \"image_alt\": \"SDVC301-M 控制器面板示意图，显示参数 J- 和数值 0.2，并用引线标注“J- 表示传感器C口开延时”和“开延时指示灯”。\",\n      \"caption\": \"开延时参数界面示意\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.093, 0.562, 0.784, 0.582],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.616, 0.932, 0.925],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.092, 0.630, 0.616, 0.675],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.100, 0.713, 0.430, 0.853],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.501, 0.676, 0.848, 0.885],\n      \"confidence\": 0.95,\n      \"image_alt\": \"SDVC301-M 控制器面板示意图，显示参数 L- 和数值 0.2，并用引线标注“L- 表示传感器C口关延时”和“关延时指示灯”。\",\n      \"caption\": \"关延时参数界面示意\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.093, 0.900, 0.784, 0.920],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.953, 0.932, 0.975],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],\n  \"notes\": \"本页为可识别文本与矢量/线稿示意图混排的说明书页面，不像纯扫描件。页面主体说明第4.3节“料满停机传感器开、关延时时间设定（仅SDVC301系列）”，包含两个带圆角边框的功能说明块，图文并重。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2914,
+      "completion_tokens": 1303,
+      "total_tokens": 4217,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 335,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}
