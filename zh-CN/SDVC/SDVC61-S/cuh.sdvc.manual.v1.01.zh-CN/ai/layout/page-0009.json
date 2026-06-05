@@ -1,0 +1,185 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 9,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T17:04:43",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=9。\n\n【目录/书签上下文（节选）】\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯、按键、外部部件及接线端口说明（第 10 页）\n  - 1.3 负载端口及传感器端口说明（第 11 页）\n  - 1.4 控制器铭牌说明（第 11 页）\n- 第二章 产品介绍（第 12 页）\n  - 2.1 产品简介（第 12 页）\n- 第三章 安装及使用指南（第 13 页）\n  - 3.1 控制器使用条件（第 13 页）\n  - 3.2 按键基本操作（第 13 页）\n  - 3.3 安装使用（第 14 页）\n- 第四章 程式和程式段参数功能说明（第 17 页）\n  - 4.1 程式参数设置（第 18 页）\n  - ",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.051, 0.93, 0.077],\n      \"confidence\": 0.92,\n      \"text\": \"页眉：智能低压柔性振动送料控制器；SDVC61-M\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.295, 0.108, 0.705, 0.145],\n      \"confidence\": 0.97,\n      \"text\": \"第一章 使用前须知\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.12, 0.164, 0.88, 0.182],\n      \"confidence\": 0.95,\n      \"text\": \"本章节介绍产品包装内容、控制器外观说明和控制器铭牌信息。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.199, 0.33, 0.224],\n      \"confidence\": 0.96,\n      \"text\": \"1.1 检查包装内容\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.117, 0.236, 0.884, 0.274],\n      \"confidence\": 0.95,\n      \"text\": \"使用本产品之前，请检查控制器及附件的完整性。如果发现产品有缺陷或已损坏、附件缺失等问题，请与本公司联系。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.098, 0.338, 0.545, 0.691],\n      \"confidence\": 0.95,\n      \"caption\": \"控制器×1\",\n      \"image_alt\": \"控制器主机的线稿示意图，正面带显示与按键区域，底部有接口部件。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.585, 0.333, 0.892, 0.691],\n      \"confidence\": 0.94,\n      \"caption\": \"简易说明书×1\",\n      \"image_alt\": \"简易说明书封面示意图，封面含产品名称、控制器图片和二维码等元素。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.165, 0.72, 0.415, 0.935],\n      \"confidence\": 0.94,\n      \"caption\": \"输入电源线×1\",\n      \"image_alt\": \"输入电源线线稿示意图，一端为电源插头，另一端为圆形连接端。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.57, 0.792, 0.855, 0.918],\n      \"confidence\": 0.93,\n      \"caption\": \"DB25插头配件包×1\",\n      \"image_alt\": \"DB25插头配件包的线稿示意图，显示两个连接器外壳/插头部件。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.974, 0.93, 0.996],\n      \"confidence\": 0.94,\n      \"text\": \"页脚：2022-04；- 1 -；SDVC61SMSCN_1.02\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n  \"notes\": \"本页为手册正文页，包含可识别文本层和线稿插图；主体内容为第一章开头及1.1包装内容检查，页面下半部以包装清单示意图为主。背景有淡色水印，不作为正文内容。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.051,
+          0.93,
+          0.077
+        ],
+        "confidence": 0.92,
+        "text": "页眉：智能低压柔性振动送料控制器；SDVC61-M",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.295,
+          0.108,
+          0.705,
+          0.145
+        ],
+        "confidence": 0.97,
+        "text": "第一章 使用前须知",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.12,
+          0.164,
+          0.88,
+          0.182
+        ],
+        "confidence": 0.95,
+        "text": "本章节介绍产品包装内容、控制器外观说明和控制器铭牌信息。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.199,
+          0.33,
+          0.224
+        ],
+        "confidence": 0.96,
+        "text": "1.1 检查包装内容",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.117,
+          0.236,
+          0.884,
+          0.274
+        ],
+        "confidence": 0.95,
+        "text": "使用本产品之前，请检查控制器及附件的完整性。如果发现产品有缺陷或已损坏、附件缺失等问题，请与本公司联系。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.098,
+          0.338,
+          0.545,
+          0.691
+        ],
+        "confidence": 0.95,
+        "caption": "控制器×1",
+        "image_alt": "控制器主机的线稿示意图，正面带显示与按键区域，底部有接口部件。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.585,
+          0.333,
+          0.892,
+          0.691
+        ],
+        "confidence": 0.94,
+        "caption": "简易说明书×1",
+        "image_alt": "简易说明书封面示意图，封面含产品名称、控制器图片和二维码等元素。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.165,
+          0.72,
+          0.415,
+          0.935
+        ],
+        "confidence": 0.94,
+        "caption": "输入电源线×1",
+        "image_alt": "输入电源线线稿示意图，一端为电源插头，另一端为圆形连接端。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.57,
+          0.792,
+          0.855,
+          0.918
+        ],
+        "confidence": 0.93,
+        "caption": "DB25插头配件包×1",
+        "image_alt": "DB25插头配件包的线稿示意图，显示两个连接器外壳/插头部件。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.974,
+          0.93,
+          0.996
+        ],
+        "confidence": 0.94,
+        "text": "页脚：2022-04；- 1 -；SDVC61SMSCN_1.02",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "notes": "本页为手册正文页，包含可识别文本层和线稿插图；主体内容为第一章开头及1.1包装内容检查，页面下半部以包装清单示意图为主。背景有淡色水印，不作为正文内容。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnKlHUQlox5JLmaqGmyMD7SHd2gvR",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780650251,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.051, 0.93, 0.077],\n      \"confidence\": 0.92,\n      \"text\": \"页眉：智能低压柔性振动送料控制器；SDVC61-M\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.295, 0.108, 0.705, 0.145],\n      \"confidence\": 0.97,\n      \"text\": \"第一章 使用前须知\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.12, 0.164, 0.88, 0.182],\n      \"confidence\": 0.95,\n      \"text\": \"本章节介绍产品包装内容、控制器外观说明和控制器铭牌信息。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.199, 0.33, 0.224],\n      \"confidence\": 0.96,\n      \"text\": \"1.1 检查包装内容\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.117, 0.236, 0.884, 0.274],\n      \"confidence\": 0.95,\n      \"text\": \"使用本产品之前，请检查控制器及附件的完整性。如果发现产品有缺陷或已损坏、附件缺失等问题，请与本公司联系。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.098, 0.338, 0.545, 0.691],\n      \"confidence\": 0.95,\n      \"caption\": \"控制器×1\",\n      \"image_alt\": \"控制器主机的线稿示意图，正面带显示与按键区域，底部有接口部件。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.585, 0.333, 0.892, 0.691],\n      \"confidence\": 0.94,\n      \"caption\": \"简易说明书×1\",\n      \"image_alt\": \"简易说明书封面示意图，封面含产品名称、控制器图片和二维码等元素。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.165, 0.72, 0.415, 0.935],\n      \"confidence\": 0.94,\n      \"caption\": \"输入电源线×1\",\n      \"image_alt\": \"输入电源线线稿示意图，一端为电源插头，另一端为圆形连接端。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.57, 0.792, 0.855, 0.918],\n      \"confidence\": 0.93,\n      \"caption\": \"DB25插头配件包×1\",\n      \"image_alt\": \"DB25插头配件包的线稿示意图，显示两个连接器外壳/插头部件。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.974, 0.93, 0.996],\n      \"confidence\": 0.94,\n      \"text\": \"页脚：2022-04；- 1 -；SDVC61SMSCN_1.02\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n  \"notes\": \"本页为手册正文页，包含可识别文本层和线稿插图；主体内容为第一章开头及1.1包装内容检查，页面下半部以包装清单示意图为主。背景有淡色水印，不作为正文内容。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2497,
+      "completion_tokens": 1954,
+      "total_tokens": 4451,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

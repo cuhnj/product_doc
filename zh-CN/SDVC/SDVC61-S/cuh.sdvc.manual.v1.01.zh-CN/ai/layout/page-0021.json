@@ -1,0 +1,139 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 21,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-05T17:05:04",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=21。\n\n【目录/书签上下文（节选）】\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯、按键、外部部件及接线端口说明（第 10 页）\n  - 1.3 负载端口及传感器端口说明（第 11 页）\n  - 1.4 控制器铭牌说明（第 11 页）\n- 第二章 产品介绍（第 12 页）\n  - 2.1 产品简介（第 12 页）\n- 第三章 安装及使用指南（第 13 页）\n  - 3.1 控制器使用条件（第 13 页）\n  - 3.2 按键基本操作（第 13 页）\n  - 3.3 安装使用（第 14 页）\n- 第四章 程式和程式段参数功能说明（第 17 页）\n  - 4.1 程式参数设置（第 18 页）\n  -",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.07, 0.05, 0.93, 0.075],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.16, 0.31, 0.185],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.07, 0.195, 0.83, 0.218],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.23, 0.93, 0.545],\n      \"confidence\": 0.94,\n      \"caption\": \"电机使能-电机频率1F设置说明示意\",\n      \"image_alt\": \"圆角框内左侧为按键操作步骤，说明同时长按左右键进入程式参数调整界面，短按上下键进入电机频率设置界面并切换1F到9F，通过加减键调整参数值；右侧为SDVC61-M控制器界面示意，显示1F与50.0，并标注1F表示电机频率、默认值为50.0Hz；底部注明频率范围5.0~400.0Hz，调整精度0.1Hz。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.07, 0.575, 0.83, 0.62],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.635, 0.93, 0.953],\n      \"confidence\": 0.94,\n      \"caption\": \"电机使能-电机电压1U设置说明示意\",\n      \"image_alt\": \"圆角框内左侧为按键操作步骤，说明同时长按左右键进入程式参数调整界面，短按上下键进入电机电压设置界面，通过加减键调整参数值，短按上下键切换电机C1到C4；右侧为SDVC61-M控制器界面示意，显示1U与0.0，并标注1U表示电机1电压、默认值为0.0V；底部注明电压范围0.0V~24.0V，调整精度0.1V，并有关于电机最大电压限制hU的备注。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.967, 0.93, 0.99],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页不是纯扫描件，带有可识别文本层。页面以说明文字和两块控制器操作示意图为主，背景有淡色CUH水印；主要内容属于第四章程式段参数设置中的电机频率1F与电机电压1U说明。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.07,
+          0.05,
+          0.93,
+          0.075
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.16,
+          0.31,
+          0.185
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.07,
+          0.195,
+          0.83,
+          0.218
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.07,
+          0.23,
+          0.93,
+          0.545
+        ],
+        "confidence": 0.94,
+        "caption": "电机使能-电机频率1F设置说明示意",
+        "image_alt": "圆角框内左侧为按键操作步骤，说明同时长按左右键进入程式参数调整界面，短按上下键进入电机频率设置界面并切换1F到9F，通过加减键调整参数值；右侧为SDVC61-M控制器界面示意，显示1F与50.0，并标注1F表示电机频率、默认值为50.0Hz；底部注明频率范围5.0~400.0Hz，调整精度0.1Hz。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.07,
+          0.575,
+          0.83,
+          0.62
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.07,
+          0.635,
+          0.93,
+          0.953
+        ],
+        "confidence": 0.94,
+        "caption": "电机使能-电机电压1U设置说明示意",
+        "image_alt": "圆角框内左侧为按键操作步骤，说明同时长按左右键进入程式参数调整界面，短按上下键进入电机电压设置界面，通过加减键调整参数值，短按上下键切换电机C1到C4；右侧为SDVC61-M控制器界面示意，显示1U与0.0，并标注1U表示电机1电压、默认值为0.0V；底部注明电压范围0.0V~24.0V，调整精度0.1V，并有关于电机最大电压限制hU的备注。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.967,
+          0.93,
+          0.99
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "notes": "本页不是纯扫描件，带有可识别文本层。页面以说明文字和两块控制器操作示意图为主，背景有淡色CUH水印；主要内容属于第四章程式段参数设置中的电机频率1F与电机电压1U说明。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnKlpKQkw2Z8eTjoZJ9NiYMSowquw",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780650285,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.07, 0.05, 0.93, 0.075],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.16, 0.31, 0.185],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.07, 0.195, 0.83, 0.218],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.23, 0.93, 0.545],\n      \"confidence\": 0.94,\n      \"caption\": \"电机使能-电机频率1F设置说明示意\",\n      \"image_alt\": \"圆角框内左侧为按键操作步骤，说明同时长按左右键进入程式参数调整界面，短按上下键进入电机频率设置界面并切换1F到9F，通过加减键调整参数值；右侧为SDVC61-M控制器界面示意，显示1F与50.0，并标注1F表示电机频率、默认值为50.0Hz；底部注明频率范围5.0~400.0Hz，调整精度0.1Hz。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.07, 0.575, 0.83, 0.62],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.635, 0.93, 0.953],\n      \"confidence\": 0.94,\n      \"caption\": \"电机使能-电机电压1U设置说明示意\",\n      \"image_alt\": \"圆角框内左侧为按键操作步骤，说明同时长按左右键进入程式参数调整界面，短按上下键进入电机电压设置界面，通过加减键调整参数值，短按上下键切换电机C1到C4；右侧为SDVC61-M控制器界面示意，显示1U与0.0，并标注1U表示电机1电压、默认值为0.0V；底部注明电压范围0.0V~24.0V，调整精度0.1V，并有关于电机最大电压限制hU的备注。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.967, 0.93, 0.99],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页不是纯扫描件，带有可识别文本层。页面以说明文字和两块控制器操作示意图为主，背景有淡色CUH水印；主要内容属于第四章程式段参数设置中的电机频率1F与电机电压1U说明。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 2594,
+      "completion_tokens": 1276,
+      "total_tokens": 3870,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

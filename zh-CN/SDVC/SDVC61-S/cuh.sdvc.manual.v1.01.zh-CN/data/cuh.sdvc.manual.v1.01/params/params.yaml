@@ -1,0 +1,3046 @@
+schema_version: 1
+doc_id: cuh.sdvc.manual.v1.01.zh-CN
+doc_key: cuh.sdvc.manual.v1.01
+lang: zh-CN
+generated_at: '2026-06-05 17:12:23'
+source:
+  data_index_yaml: index.yaml
+tables:
+- page: 3
+  layout_region_index: 5
+  table_md_path: tables/page-0003-r05.md
+  headers:
+  - UH C H C   以下符号提醒 危险
+  - C H CUH UH CU CU 醒您注意有关防止人身伤害和产品损坏的事项，请务必阅读。 表示若不遵守该事项，将导致人员伤亡。
+- page: 11
+  layout_region_index: 2
+  table_md_path: tables/page-0011-r02.md
+  headers:
+  - '13'
+  - '12'
+  - '11'
+  - '10'
+  - '9'
+  - '8'
+  - '7'
+  - '6'
+  - '5'
+  - '4'
+  - '3'
+  - '2'
+  - '1'
+- page: 11
+  layout_region_index: 3
+  table_md_path: tables/page-0011-r03.md
+  headers:
+  - UH C  传感器插座引
+  - C CU 脚图 15
+  - CUH U 11
+  - H UH C
+  - H C C
+- page: 17
+  layout_region_index: 3
+  table_md_path: tables/page-0017-r03.md
+  headers:
+  - H<br>Ptc<br>Pcc<br>Ptg C
+  - C<br>程式 P1
+  - Col3
+  - Col4
+  - Col5
+  - Col6
+- page: 27
+  layout_region_index: 4
+  table_md_path: tables/page-0027-r04.md
+  headers:
+  - UH C 信号源
+  - H C CU 含义
+  - CUH 信号源
+  - UH H C 含义
+- page: 29
+  layout_region_index: 3
+  table_md_path: tables/page-0029-r03.md
+  headers:
+  - CUH H CUH C 方向设置界面F1t/ F4t。 或    选择端口方 如下： 闪光触发端口方向
+  - H CUH C CUH CU H 默认端口方向为 In P 4 C 4 P 3 C 3 P 2 C 2 P1  程式 C1  电机 SDVC61-M 含义
+- page: 32
+  layout_region_index: 3
+  table_md_path: tables/page-0032-r03.md
+  headers:
+  - 程式源选择
+  - U<br>端口信号
+  - 程式选择
+  - 备注
+- page: 42
+  layout_region_index: 2
+  table_md_path: tables/page-0042-r02.md
+  headers:
+  - U<br>项目
+  - 最小值
+  - C<br>典型值
+  - 最大值
+  - H<br>单位
+  - 备注
+- page: 43
+  layout_region_index: 2
+  table_md_path: tables/page-0043-r02.md
+  headers:
+  - UH C CUH H CU C 8.3 参考标准
+  - Col2
+  - Col3
+  - Col4
+  - Col5
+  - Col6
+- page: 44
+  layout_region_index: 3
+  table_md_path: tables/page-0044-r03.md
+  headers:
+  - UH 9.1 参数
+  - UH C C 数列表
+  - CUH
+  - Col4
+  - Col5
+  - Col6
+  - Col7
+  - Col8
+  - Col9
+  - UH H C
+  - C C
+- page: 46
+  layout_region_index: 1
+  table_md_path: tables/page-0046-r01.md
+  headers:
+  - U<br>公共参数
+  - H<br>闪光触发1~4输出<br>开延时
+  - Col3
+  - Col4
+  - Col5
+  - Col6
+  - Col7
+  - Col8
+  - U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】
+  - H<br>0.0~99.9 秒（s）
+  - C<br>0.0
+- page: 48
+  layout_region_index: 2
+  table_md_path: tables/page-0048-r02.md
+  headers:
+  - Err011/012/013/014
+  - 音圈电机C1~C4短路
+  - U<br>确保负载未被短路
+items:
+- name: <br> <br>**警告**
+  symbol: <br> <br>**警告**
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C H CUH UH CU CU 醒您注意有关防止人身伤害和产品损坏的事项，请务必阅读。 表示若不遵守该事项，将导致人员伤亡。: <br> <br> <br>表示若不遵守该事项，可能导致人员伤亡。
+  source_ref:
+    pdf_page: 3
+    layout_region_index: 5
+    table_md_path: tables/page-0003-r05.md
+- name: <br> <br>**小心**
+  symbol: <br> <br>**小心**
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C H CUH UH CU CU 醒您注意有关防止人身伤害和产品损坏的事项，请务必阅读。 表示若不遵守该事项，将导致人员伤亡。: <br> <br> <br>表示若不遵守该事项，可能导致人员遭受中度或轻微伤害。
+  source_ref:
+    pdf_page: 3
+    layout_region_index: 5
+    table_md_path: tables/page-0003-r05.md
+- name: <br> <br>**注意**
+  symbol: <br> <br>**注意**
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C H CUH UH CU CU 醒您注意有关防止人身伤害和产品损坏的事项，请务必阅读。 表示若不遵守该事项，将导致人员伤亡。: <br> <br> <br>表示若不遵守该事项，将导致本产品损坏及财产损失。
+  source_ref:
+    pdf_page: 3
+    layout_region_index: 5
+    table_md_path: tables/page-0003-r05.md
+- name: <br>温度3+
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    '13': <br>温度3+
+    '12': <br>温度2+
+    '11': <br>温度1+
+    '10': <br>光源3+
+    '9': <br>光源2+
+    '8': <br> <br>光源1+
+    '7': <br> <br>空
+    '6': <br>PE
+    '5': <br><br>空
+    '4': <br><br>电机4+
+    '3': <br><br>电机3+
+    '2': <br><br>电机2+
+    '1': 电机1+
+  source_ref:
+    pdf_page: 11
+    layout_region_index: 2
+    table_md_path: tables/page-0011-r02.md
+- name: <br> <br>5
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C  传感器插座引: <br> <br>5
+    C CU 脚图 15: <br> <br>4
+    CUH U 11: <br> <br>3
+    H UH C: <br> <br><br>2
+    H C C: <br><br>1
+  source_ref:
+    pdf_page: 11
+    layout_region_index: 3
+    table_md_path: tables/page-0011-r03.md
+- name: <br> <br>3.3V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C  传感器插座引: <br> <br>3.3V
+    C CU 脚图 15: <br> <br>4号传感器Z轴
+    CUH U 11: <br> <br>3号传感器Z轴
+    H UH C: <br> <br><br>2号传感器Z轴
+    H C C: <br><br>1号传感器Z轴
+  source_ref:
+    pdf_page: 11
+    layout_region_index: 3
+    table_md_path: tables/page-0011-r03.md
+- name: <br> <br>Ptc<br>Pcc<br>Ptg
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>Ptc<br>Pcc<br>Ptg C: <br> <br>Ptc<br>Pcc<br>Ptg
+    C<br>程式 P1: <br> <br> <br> <br>**程式段 1E**
+    Col3: <br> <br> <br> <br>**程式段 1E**
+    Col4: <br> <br> <br>~
+    Col5: <br> <br>**程式段 9E**
+    Col6: <br> <br>**程式段 9E**
+  source_ref:
+    pdf_page: 17
+    layout_region_index: 3
+    table_md_path: tables/page-0017-r03.md
+- name: <br> <br>Ptc<br>Pcc<br>Ptg
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>Ptc<br>Pcc<br>Ptg C: <br> <br>Ptc<br>Pcc<br>Ptg
+    C<br>程式 P1: <br> <br> <br>** 1E____**
+    Col3: <br> <br> <br>** 1E_._._._.**
+    Col4: <br> <br> <br>** 1E_._._._.**
+    Col5: <br> <br>** 9E____**
+    Col6: <br> <br>** 9E_._._._.**
+  source_ref:
+    pdf_page: 17
+    layout_region_index: 3
+    table_md_path: tables/page-0017-r03.md
+- name: <br> <br>Ptc<br>Pcc<br>Ptg
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>Ptc<br>Pcc<br>Ptg C: <br> <br>Ptc<br>Pcc<br>Ptg
+    C<br>程式 P1: <br>UH<br> <br>1F电机频率<br>1U电机1电压<br>1U电机2电压<br>1U电机3电压<br>1U电机4电压<br>1μ电机1相位<br>1μ电机2相位<br>1μ电机3相位<br>1μ电机4相位
+    Col3: <br>H C<br> <br>1C光源1电流<br>1C光源2电流<br>1C光源3电流
+    Col4: <br>H C<br> <br>1C光源1电流<br>1C光源2电流<br>1C光源3电流
+    Col5: <br>CU<br>9F电机频率<br>9U电机1电压<br>9U电机2电压<br>9U电机3电压<br>9U电机4电压<br>9μ电机1相位<br>9μ电机2相位<br>9μ电机3相位<br>9μ电机4相位
+    Col6: <br>H C<br><br>9C光源1电流<br>9C光源2电流<br>9C光源3电流
+  source_ref:
+    pdf_page: 17
+    layout_region_index: 3
+    table_md_path: tables/page-0017-r03.md
+- name: <br> <br>Ptc<br>Pcc<br>Ptg
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>Ptc<br>Pcc<br>Ptg C: <br> <br>Ptc<br>Pcc<br>Ptg
+    C<br>程式 P1: <br> <br> <br>1h该程式段缓启动或保持时间
+    Col3: <br> <br> <br>1h该程式段缓启动或保持时间
+    Col4: <br> <br> <br>1h该程式段缓启动或保持时间
+    Col5: <br> <br><br>9h该程式段缓启动或保持时间
+    Col6: <br> <br><br>9h该程式段缓启动或保持时间
+  source_ref:
+    pdf_page: 17
+    layout_region_index: 3
+    table_md_path: tables/page-0017-r03.md
+- name: <br> <br>-P4
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源: <br> <br>-P4
+    H C CU 含义: <br> <br>取程式P4相反状态
+    CUH 信号源: <br> <br>A
+    UH H C 含义: <br> <br>取程式源A状态
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 4
+    table_md_path: tables/page-0027-r04.md
+- name: <br> <br>-P3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源: <br> <br>-P3
+    H C CU 含义: <br> <br>取程式P3相反状态
+    CUH 信号源: <br> <br>b
+    UH H C 含义: <br> <br>取<br>状态<br>程式源B
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 4
+    table_md_path: tables/page-0027-r04.md
+- name: <br> <br>-P2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源: <br> <br>-P2
+    H C CU 含义: <br> <br>取程式P2相反状态
+    CUH 信号源: <br> <br>S
+    UH H C 含义: <br> <br>取程式启动S状态
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 4
+    table_md_path: tables/page-0027-r04.md
+- name: <br> <br>-P1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源: <br> <br>-P1
+    H C CU 含义: <br> <br>取程式P1相反状态
+    CUH 信号源: <br> <br>t1
+    UH H C 含义: <br> <br>取闪光触发1状态
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 4
+    table_md_path: tables/page-0027-r04.md
+- name: <br> <br>-L3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源: <br> <br>-L3
+    H C CU 含义: <br> <br> <br>取光源3相反状态
+    CUH 信号源: <br> <br> <br>t2
+    UH H C 含义: <br> <br> <br>取闪光触发2状态
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 4
+    table_md_path: tables/page-0027-r04.md
+- name: <br> <br>-L2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源: <br> <br>-L2
+    H C CU 含义: <br> <br> <br>取光源2相反状态
+    CUH 信号源: <br> <br> <br>t3
+    UH H C 含义: <br> <br> <br>取闪光触发3状态
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 4
+    table_md_path: tables/page-0027-r04.md
+- name: <br> <br>-L1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源: <br> <br>-L1
+    H C CU 含义: <br> <br> <br>取光源1相反状态
+    CUH 信号源: <br> <br> <br>t4
+    UH H C 含义: <br> <br> <br>取闪光触发4状态
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 4
+    table_md_path: tables/page-0027-r04.md
+- name: <br> <br>-t4
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源: <br> <br>-t4
+    H C CU 含义: <br> <br> <br>取闪光触发4相反状态
+    CUH 信号源: <br> <br> <br>L1
+    UH H C 含义: <br> <br> <br>取光源1状态
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 4
+    table_md_path: tables/page-0027-r04.md
+- name: <br> <br>-t3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源: <br> <br>-t3
+    H C CU 含义: <br> <br> <br>取闪光触发3相反状态
+    CUH 信号源: <br> <br> <br>L2
+    UH H C 含义: <br> <br> <br>取光源2状态
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 4
+    table_md_path: tables/page-0027-r04.md
+- name: <br> <br>-t2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源: <br> <br>-t2
+    H C CU 含义: <br> <br> <br>取闪光触发2相反状态
+    CUH 信号源: <br> <br> <br>L3
+    UH H C 含义: <br> <br> <br>取光源3状态
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 4
+    table_md_path: tables/page-0027-r04.md
+- name: <br> <br>-t1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源: <br> <br>-t1
+    H C CU 含义: <br> <br> <br>取闪光触发1相反状态
+    CUH 信号源: <br> <br> <br>P1
+    UH H C 含义: <br> <br> <br>取程式P1状态
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 4
+    table_md_path: tables/page-0027-r04.md
+- name: <br> <br>-S
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源: <br> <br>-S
+    H C CU 含义: <br> <br> <br>取程式启动S相反状态
+    CUH 信号源: <br> <br> <br>P2
+    UH H C 含义: <br> <br> <br><br>取程式P2状态
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 4
+    table_md_path: tables/page-0027-r04.md
+- name: <br> <br>-b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源: <br> <br>-b
+    H C CU 含义: <br> <br> <br>取程式源B相反状态
+    CUH 信号源: <br> <br> <br>P3
+    UH H C 含义: <br> <br> <br><br>取程式P3状态
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 4
+    table_md_path: tables/page-0027-r04.md
+- name: <br>-A
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源: <br>-A
+    H C CU 含义: <br> <br>取程式源A相反状态
+    CUH 信号源: <br> <br>P4
+    UH H C 含义: <br> <br><br>取程式P4状态
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 4
+    table_md_path: tables/page-0027-r04.md
+- name: <br>0
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源: <br>0
+    H C CU 含义: <br> <br>低电平
+    CUH 信号源: <br> <br>Err
+    UH H C 含义: <br> <br><br>信号错误
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 4
+    table_md_path: tables/page-0027-r04.md
+- name: <br>1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源: <br>1
+    H C CU 含义: <br> <br>高电平
+    CUH 信号源: <br>
+    UH H C 含义: <br> <br>
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 4
+    table_md_path: tables/page-0027-r04.md
+- name: <br> <br> <br>In
+  symbol: null
+  range: null
+  default: <br> <br> <br>端口设置为输入
+  unit: null
+  note: null
+  extra:
+    CUH H CUH C 方向设置界面F1t/ F4t。 或    选择端口方 如下： 闪光触发端口方向: <br> <br> <br>In
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 3
+    table_md_path: tables/page-0029-r03.md
+- name: <br> <br> <br>Otn
+  symbol: null
+  range: null
+  default: <br> <br> <br>端口设置为NPN输出
+  unit: null
+  note: null
+  extra:
+    CUH H CUH C 方向设置界面F1t/ F4t。 或    选择端口方 如下： 闪光触发端口方向: <br> <br> <br>Otn
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 3
+    table_md_path: tables/page-0029-r03.md
+- name: <br> <br> <br>Otp
+  symbol: null
+  range: null
+  default: <br> <br> <br>端口设置为PNP输出
+  unit: null
+  note: null
+  extra:
+    CUH H CUH C 方向设置界面F1t/ F4t。 或    选择端口方 如下： 闪光触发端口方向: <br> <br> <br>Otp
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 3
+    table_md_path: tables/page-0029-r03.md
+- name: <br> <br> <br>Opp
+  symbol: null
+  range: null
+  default: <br> <br> <br>端口设置为推挽输出
+  unit: null
+  note: null
+  extra:
+    CUH H CUH C 方向设置界面F1t/ F4t。 或    选择端口方 如下： 闪光触发端口方向: <br> <br> <br>Opp
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 3
+    table_md_path: tables/page-0029-r03.md
+- name: <br> <br> <br>O.t.n
+  symbol: null
+  range: null
+  default: <br> <br> <br>端口设置为NPN取反输出
+  unit: null
+  note: null
+  extra:
+    CUH H CUH C 方向设置界面F1t/ F4t。 或    选择端口方 如下： 闪光触发端口方向: <br> <br> <br>O.t.n
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 3
+    table_md_path: tables/page-0029-r03.md
+- name: <br> <br>O.t.p
+  symbol: null
+  range: null
+  default: <br> <br>端口设置为PNP取反输出
+  unit: null
+  note: null
+  extra:
+    CUH H CUH C 方向设置界面F1t/ F4t。 或    选择端口方 如下： 闪光触发端口方向: <br> <br>O.t.p
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 3
+    table_md_path: tables/page-0029-r03.md
+- name: <br> <br>O.p.p
+  symbol: null
+  range: null
+  default: <br> <br>端口设置为推挽取反输出
+  unit: null
+  note: null
+  extra:
+    CUH H CUH C 方向设置界面F1t/ F4t。 或    选择端口方 如下： 闪光触发端口方向: <br> <br>O.p.p
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 3
+    table_md_path: tables/page-0029-r03.md
+- name: <br> <br>syc
+  symbol: null
+  range: null
+  default: <br> <br><br>端口设置为输出同步信号
+  unit: null
+  note: null
+  extra:
+    CUH H CUH C 方向设置界面F1t/ F4t。 或    选择端口方 如下： 闪光触发端口方向: <br> <br>syc
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 3
+    table_md_path: tables/page-0029-r03.md
+- name: <br> <br>fsc
+  symbol: null
+  range: null
+  default: <br> <br><br>端口设置为输出移频信号
+  unit: null
+  note: null
+  extra:
+    CUH H CUH C 方向设置界面F1t/ F4t。 或    选择端口方 如下： 闪光触发端口方向: <br> <br>fsc
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 3
+    table_md_path: tables/page-0029-r03.md
+- name: <br> <br> <br>00
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: H<br> <br>**控制器只受面板**<br>**控制，**不受程式<br>源A、B信号控制
+  extra:
+    程式源选择: <br> <br> <br>00
+    U<br>端口信号: <br> <br> <br>——
+    程式选择: <br> <br>程式P1
+  source_ref:
+    pdf_page: 32
+    layout_region_index: 3
+    table_md_path: tables/page-0032-r03.md
+- name: <br> <br> <br>01
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br>程式P2
+  extra:
+    程式源选择: <br> <br> <br>01
+    U<br>端口信号: <br> <br> <br>——
+    程式选择: <br> <br>程式P2
+  source_ref:
+    pdf_page: 32
+    layout_region_index: 3
+    table_md_path: tables/page-0032-r03.md
+- name: <br> <br> <br>10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br>程式P3
+  extra:
+    程式源选择: <br> <br> <br>10
+    U<br>端口信号: <br> <br> <br>——
+    程式选择: <br> <br>程式P3
+  source_ref:
+    pdf_page: 32
+    layout_region_index: 3
+    table_md_path: tables/page-0032-r03.md
+- name: <br> <br> <br>11
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br>程式P4
+  extra:
+    程式源选择: <br> <br> <br>11
+    U<br>端口信号: <br> <br> <br> <br>——
+    程式选择: <br> <br> <br>程式P4
+  source_ref:
+    pdf_page: 32
+    layout_region_index: 3
+    table_md_path: tables/page-0032-r03.md
+- name: <br> <br> <br>0A
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> CU<br> <br>控制器受程式源<br>A、B信号控制
+  extra:
+    程式源选择: <br> <br> <br>0A
+    U<br>端口信号: '<br> <br> <br> <br>SA2: 无效（仅考虑程式源A口信号）'
+    程式选择: <br> <br> <br>程式P1
+  source_ref:
+    pdf_page: 32
+    layout_region_index: 3
+    table_md_path: tables/page-0032-r03.md
+- name: <br> <br> <br>0A
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br>程式P2
+  extra:
+    程式源选择: <br> <br> <br>0A
+    U<br>端口信号: '<br> <br> <br> <br>SA2: 有效（仅考虑程式源A口信号）'
+    程式选择: <br> <br> <br>程式P2
+  source_ref:
+    pdf_page: 32
+    layout_region_index: 3
+    table_md_path: tables/page-0032-r03.md
+- name: <br> <br> <br>1A
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br>程式P3
+  extra:
+    程式源选择: <br> <br> <br>1A
+    U<br>端口信号: '<br> <br> <br> <br>SA2: 无效（仅考虑程式源A口信号）'
+    程式选择: <br> <br> <br>程式P3
+  source_ref:
+    pdf_page: 32
+    layout_region_index: 3
+    table_md_path: tables/page-0032-r03.md
+- name: <br> <br>1A
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br>程式P4
+  extra:
+    程式源选择: <br> <br>1A
+    U<br>端口信号: '<br> <br> <br>SA2: 有效（仅考虑程式源A口信号）'
+    程式选择: <br> <br> <br>程式P4
+  source_ref:
+    pdf_page: 32
+    layout_region_index: 3
+    table_md_path: tables/page-0032-r03.md
+- name: <br> <br>0b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br>程式P1
+  extra:
+    程式源选择: <br> <br>0b
+    U<br>端口信号: '<br> <br> <br>SB2: 无效（仅考虑程式源口信号）<br>B'
+    程式选择: <br> <br> <br>程式P1
+  source_ref:
+    pdf_page: 32
+    layout_region_index: 3
+    table_md_path: tables/page-0032-r03.md
+- name: <br> <br>0b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br>程式P2
+  extra:
+    程式源选择: <br> <br>0b
+    U<br>端口信号: '<br> <br> <br>S 2: 有效（仅考虑程式源口信号）<br>B<br>B'
+    程式选择: <br> <br> <br>程式P2
+  source_ref:
+    pdf_page: 32
+    layout_region_index: 3
+    table_md_path: tables/page-0032-r03.md
+- name: <br> <br>1b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br>程式P3
+  extra:
+    程式源选择: <br> <br>1b
+    U<br>端口信号: '<br> <br> <br>S 2: 无效（仅考虑程式源口信号）<br>B<br>B'
+    程式选择: <br> <br> <br>程式P3
+  source_ref:
+    pdf_page: 32
+    layout_region_index: 3
+    table_md_path: tables/page-0032-r03.md
+- name: <br> <br>1b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br> <br>程式P4
+  extra:
+    程式源选择: <br> <br>1b
+    U<br>端口信号: '<br> <br> <br>S 2: 有效（仅考虑程式源口信号）<br>B<br>B'
+    程式选择: <br> <br> <br> <br>程式P4
+  source_ref:
+    pdf_page: 32
+    layout_region_index: 3
+    table_md_path: tables/page-0032-r03.md
+- name: <br> <br>bA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br> <br>程式P1
+  extra:
+    程式源选择: <br> <br>bA
+    U<br>端口信号: '<br> <br> <br>S 2: 无效           SA2<br>B<br>: 无效'
+    程式选择: <br> <br> <br> <br>程式P1
+  source_ref:
+    pdf_page: 32
+    layout_region_index: 3
+    table_md_path: tables/page-0032-r03.md
+- name: <br> <br>bA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br> <br>程式P2
+  extra:
+    程式源选择: <br> <br>bA
+    U<br>端口信号: '<br> <br> <br>S 2: 无效           SA2<br>B<br>: 有效'
+    程式选择: <br> <br> <br> <br>程式P2
+  source_ref:
+    pdf_page: 32
+    layout_region_index: 3
+    table_md_path: tables/page-0032-r03.md
+- name: <br> <br>bA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br> <br>程式P3
+  extra:
+    程式源选择: <br> <br>bA
+    U<br>端口信号: '<br> <br> <br>S 2: 有效           SA2<br>B<br>: 无效'
+    程式选择: <br> <br> <br> <br>程式P3
+  source_ref:
+    pdf_page: 32
+    layout_region_index: 3
+    table_md_path: tables/page-0032-r03.md
+- name: <br>bA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br>程式P4
+  extra:
+    程式源选择: <br>bA
+    U<br>端口信号: '<br> <br>S 2:<br>效           SA2<br>B<br>有<br>: 有效'
+    程式选择: <br> <br> <br>程式P4
+  source_ref:
+    pdf_page: 32
+    layout_region_index: 3
+    table_md_path: tables/page-0032-r03.md
+- name: <br> <br>交流输入电压
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br>伏特（V）
+  note: <br> <br>50/60 Hz 交流有效值
+  extra:
+    最小值: <br> <br> <br>180
+    C<br>典型值: <br> <br> <br>220
+    最大值: <br> <br> <br>260
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 2
+    table_md_path: tables/page-0042-r02.md
+- name: <br> <br>电机输出电压
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br>伏特（Vac）
+  note: <br> <br>交流有效值
+  extra:
+    最小值: <br> <br> <br>0
+    C<br>典型值: <br> <br> <br>——
+    最大值: <br> <br> <br>24
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 2
+    table_md_path: tables/page-0042-r02.md
+- name: <br> <br>电机输出电流
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br>安培（A）
+  note: <br> <br>安培（A）
+  extra:
+    最小值: <br> <br> <br>0
+    C<br>典型值: <br> <br> <br>——
+    最大值: <br> <br> <br>3
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 2
+    table_md_path: tables/page-0042-r02.md
+- name: <br> <br>电机输出频率
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br>赫兹（Hz）
+  note: <br>
+  extra:
+    最小值: <br> <br> <br>5.0
+    C<br>典型值: <br> <br> <br>50.0
+    最大值: <br> <br> <br>400.0
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 2
+    table_md_path: tables/page-0042-r02.md
+- name: <br> <br>频率调整精度
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br>赫兹（Hz）
+  note: <br>
+  extra:
+    最小值: <br> <br> <br>0. 1
+    C<br>典型值: <br> <br> <br>0. 1
+    最大值: <br> <br> <br>0. 1
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 2
+    table_md_path: tables/page-0042-r02.md
+- name: <br> <br>电机输出波形
+  symbol: null
+  range: null
+  default: null
+  unit: <br>
+  note: <br>
+  extra:
+    最小值: <br> <br> <br>正弦
+    C<br>典型值: <br> <br> <br>正弦
+    最大值: <br> <br> <br>正弦
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 2
+    table_md_path: tables/page-0042-r02.md
+- name: <br> <br>光源输出电压
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br>伏特（V）
+  note: <br> <br>直流
+  extra:
+    最小值: <br> <br> <br>12
+    C<br>典型值: <br> <br> <br>——
+    最大值: <br> <br> <br>60
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 2
+    table_md_path: tables/page-0042-r02.md
+- name: <br> <br>光源输出电流
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>安培（A）
+  note: <br> <br> <br>直流
+  extra:
+    最小值: <br> <br> <br>0
+    C<br>典型值: <br> <br> <br>——
+    最大值: <br> <br> <br>2
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 2
+    table_md_path: tables/page-0042-r02.md
+- name: <br> <br>光源NTC温度传感器阻值
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>欧姆（Ω）
+  note: <br> <br> <br>B值4000K
+  extra:
+    最小值: <br> <br> <br>100000
+    C<br>典型值: <br> <br> <br>100000
+    最大值: <br> <br> <br>100000
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 2
+    table_md_path: tables/page-0042-r02.md
+- name: <br> <br>控制输出电压
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>伏特（V）
+  note: <br> <br>
+  extra:
+    最小值: <br> <br> <br>22
+    C<br>典型值: <br> <br> <br>24
+    最大值: <br> <br> <br>26
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 2
+    table_md_path: tables/page-0042-r02.md
+- name: <br> <br>空载功耗
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>瓦特（W）
+  note: <br> <br>
+  extra:
+    最小值: <br> <br> <br>7
+    C<br>典型值: <br> <br> <br>7
+    最大值: <br> <br> <br>7
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 2
+    table_md_path: tables/page-0042-r02.md
+- name: <br> <br>负载类型
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br>
+  note: <br> <br>
+  extra:
+    最小值: <br> <br> <br>音圈电机和LED灯板
+    C<br>典型值: <br> <br> <br>音圈电机和LED灯板
+    最大值: <br> <br> <br>音圈电机和LED灯板
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 2
+    table_md_path: tables/page-0042-r02.md
+- name: <br> <br>显示方式
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>位
+  note: <br> <br> <br>LED数码管
+  extra:
+    最小值: <br> <br> <br>6
+    C<br>典型值: <br> <br> <br>6
+    最大值: <br> <br> <br>6
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 2
+    table_md_path: tables/page-0042-r02.md
+- name: <br>工作环境温度
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>摄氏度（℃）
+  note: <br> <br>H<br>不结露
+  extra:
+    最小值: <br> <br>0
+    C<br>典型值: <br> <br>25
+    最大值: <br> <br>40
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 2
+    table_md_path: tables/page-0042-r02.md
+- name: <br>工作环境湿度
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>相对湿度（%）
+  note: <br> <br> <br>相对湿度（%）
+  extra:
+    最小值: <br> <br>10
+    C<br>典型值: <br> <br>60
+    最大值: <br> <br>85
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 2
+    table_md_path: tables/page-0042-r02.md
+- name: <br>存储环境温度
+  symbol: null
+  range: null
+  default: null
+  unit: <br> <br> <br>摄氏度（℃）
+  note: <br> <br> <br>摄氏度（℃）
+  extra:
+    最小值: <br> <br>-20
+    C<br>典型值: <br> <br>25
+    最大值: <br> <br>85
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 2
+    table_md_path: tables/page-0042-r02.md
+- name: <br> <br><br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C CUH H CU C 8.3 参考标准: <br> <br><br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+    Col2: <br> <br><br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+    Col3: <br> <br><br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+    Col4: <br> <br><br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+    Col5: <br> <br><br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+    Col6: <br> <br><br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+  source_ref:
+    pdf_page: 43
+    layout_region_index: 2
+    table_md_path: tables/page-0043-r02.md
+- name: <br>项目
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C CUH H CU C 8.3 参考标准: <br>项目
+    Col2: <br> <br>GB 标准
+    Col3: <br> <br>IEC 标准
+    Col4: <br><br>等级
+    Col5: <br><br>标准要求
+    Col6: <br><br>备注说明
+  source_ref:
+    pdf_page: 43
+    layout_region_index: 2
+    table_md_path: tables/page-0043-r02.md
+- name: <br>静电放电
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C CUH H CU C 8.3 参考标准: <br>静电放电
+    Col2: H<br> <br>GB/T 17626.2-2006
+    Col3: <br> <br>IEC 61000-4-2:2001
+    Col4: <br><br>4
+    Col5: <br><br>±8 kV
+    Col6: <br><br>接触放电
+  source_ref:
+    pdf_page: 43
+    layout_region_index: 2
+    table_md_path: tables/page-0043-r02.md
+- name: <br>静电放电
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C CUH H CU C 8.3 参考标准: <br>静电放电
+    Col2: H<br> <br>GB/T 17626.2-2006
+    Col3: <br> <br>IEC 61000-4-2:2001
+    Col4: <br><br>4
+    Col5: <br><br>±15 kV
+    Col6: <br><br>空气放电
+  source_ref:
+    pdf_page: 43
+    layout_region_index: 2
+    table_md_path: tables/page-0043-r02.md
+- name: <br>电快速瞬变<br>脉冲群
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C CUH H CU C 8.3 参考标准: <br>电快速瞬变<br>脉冲群
+    Col2: <br> <br>GB/T 17626.4-2008
+    Col3: <br> <br>IEC 61000-4-4:2004
+    Col4: <br><br>4
+    Col5: <br><br>±4 kV
+    Col6: <br>
+  source_ref:
+    pdf_page: 43
+    layout_region_index: 2
+    table_md_path: tables/page-0043-r02.md
+- name: <br>直流电源纹<br>波抗扰度
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C CUH H CU C 8.3 参考标准: <br>直流电源纹<br>波抗扰度
+    Col2: <br> <br>GB/T 17626.17-2005
+    Col3: <br> <br>IEC 61000-4-17:2002
+    Col4: <br><br>4
+    Col5: <br><br>15%
+    Col6: <br><br>评价 A
+  source_ref:
+    pdf_page: 43
+    layout_region_index: 2
+    table_md_path: tables/page-0043-r02.md
+- name: <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> <br> <br>含义
+    CUH: <br> <br> <br>参数符号
+    Col4: <br> <br> <br>参数符号
+    Col5: <br> <br> <br>参数符号
+    Col6: <br> <br> <br>参数符号
+    Col7: <br> <br> <br>参数符号
+    Col8: <br> <br> <br>参数符号
+    Col9: <br> <br> <br>参数符号
+    UH H C: <br> <br> <br>取值范围
+    C C: <br>默认设置
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> <br> <br>当前程式段
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【CP杠1杠1】
+    UH H C: <br> <br> <br>——<br>
+    C C: <br>——
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> <br> <br>母线电压
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【PU】
+    UH H C: <br> <br> <br>12~48 伏特（V）
+    C C: <br>——
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> <br> <br>24V辅助电压
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【AU】
+    UH H C: <br> <br> <br>20~28 伏特（V）
+    C C: <br>——
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: U<br> <br> <br>左/右散热器温度
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【LT】<br>【RT】
+    UH H C: <br> <br> <br>-20~85 摄氏度（℃）
+    C C: <br>——
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: U<br> <br> <br>左/右散热器温度
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br>
+    UH H C: <br> <br>
+    C C: <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> C<br> <br> <br>电机1/2/3/4电流
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br> <br>【C1C】<br>【C2C】<br>【C3C】<br>【C4C】
+    UH H C: <br> <br>  H C<br> <br>0.00~3.00 安培（A）
+    C C: <br> <br>——
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> C<br> <br> <br>电机1/2/3/4电流
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br>
+    UH H C: <br> <br>
+    C C: <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> C<br> <br> <br>电机1/2/3/4电流
+    CUH: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    UH H C: <br> <br> <br>
+    C C: <br> <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> C<br> <br> <br>电机1/2/3/4电流
+    CUH: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    UH H C: <br> <br> <br>
+    C C: <br> <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> C<br> <br> <br>电机1/2/3/4电流
+    CUH: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    UH H C: <br> <br> <br>
+    C C: <br> <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> C<br> <br> <br>电机1/2/3/4电流
+    CUH: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    UH H C: <br> <br> <br>
+    C C: <br> <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> C<br> <br> <br>电机1/2/3/4电流
+    CUH: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    UH H C: <br> <br> <br>
+    C C: <br> <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br>H<br> <br> <br>传感器1/2/3/4振幅
+    CUH: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br> <br>【A1A】<br>【A2A】<br>【A3A】<br>【A4A】
+    UH H C: <br> <br> <br>  H<br>0.0~16.0（g）
+    C C: <br> <br>——
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br>H<br> <br> <br>传感器1/2/3/4振幅
+    CUH: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    UH H C: <br> <br> <br>
+    C C: <br> <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br>H<br> <br> <br>传感器1/2/3/4振幅
+    CUH: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    UH H C: <br> <br> <br>
+    C C: <br> <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br>H<br> <br> <br>传感器1/2/3/4振幅
+    CUH: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    UH H C: <br> <br> <br>
+    C C: <br> <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br>H<br> <br> <br>传感器1/2/3/4振幅
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br>
+    UH H C: <br> <br>
+    C C: <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br>H<br> <br> <br>传感器1/2/3/4振幅
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br>
+    UH H C: <br> <br>
+    C C: <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br>H<br> <br> <br>传感器1/2/3/4振幅
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br>
+    UH H C: <br> <br>
+    C C: <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> <br> <br>光源1/2/3输出电压
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br> <br>【L1U】<br>【<br>】<br>L2U<br>【<br>】<br>L3U
+    UH H C: <br> <br>  U<br> <br>0.0~60.0 伏特（V）
+    C C: <br> <br> <br>——
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> <br> <br>光源1/2/3输出电压
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br>
+    UH H C: <br> <br>
+    C C: <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> <br> <br>光源1/2/3输出电压
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    UH H C: <br> <br> <br>
+    C C: <br> <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> <br> <br>光源1/2/3输出电压
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    UH H C: <br> <br> <br>
+    C C: <br> <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> <br> <br>光源1/2/3输出电压
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    UH H C: <br> <br> <br>
+    C C: <br> <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> CU<br> <br>光源1/2/3输出电流
+    CUH: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br> <br>【<br>】<br>L1C<br>【<br>】<br>L2C<br>【<br>】<br>L3C
+    UH H C: <br> <br> <br> <br>0.00~2.00 安培（A）
+    C C: <br> <br> U<br>——
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> CU<br> <br>光源1/2/3输出电流
+    CUH: <br>
+    Col4: <br>
+    Col5: <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br>
+    UH H C: <br> <br>
+    C C: <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> CU<br> <br>光源1/2/3输出电流
+    CUH: <br>
+    Col4: <br>
+    Col5: <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br>
+    UH H C: <br> <br>
+    C C: <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> CU<br> <br>光源1/2/3输出电流
+    CUH: <br>
+    Col4: <br>
+    Col5: <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br>
+    UH H C: <br> <br>
+    C C: <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> CU<br> <br>光源1/2/3输出电流
+    CUH: <br>
+    Col4: <br>
+    Col5: <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br>
+    UH H C: <br> <br>
+    C C: <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> <br>光源1/2/3温度
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【<br>】<br>L1T<br>【<br>】<br>L2T<br>【<br>】<br>L3T
+    UH H C: <br> <br>H<br> <br>-20~85 摄氏度（℃）<br>-21表示温度传感器未连接
+    C C: <br> <br> <br> <br>——
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> <br>光源1/2/3温度
+    CUH: <br>
+    Col4: <br>
+    Col5: <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br>
+    UH H C: <br> <br>
+    C C: <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> <br>光源1/2/3温度
+    CUH: <br>
+    Col4: <br>
+    Col5: <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br>
+    UH H C: <br> <br>
+    C C: <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> <br>光源1/2/3温度
+    CUH: <br>
+    Col4: <br>
+    Col5: <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br>
+    UH H C: <br> <br>
+    C C: <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: H<br>CU<br>H<br> <br>待机参数<br>(不可调节)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> <br>光源1/2/3温度
+    CUH: <br>
+    Col4: <br>
+    Col5: <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br>
+    UH H C: <br> <br>
+    C C: <br> <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: <br> <br>程式参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> <br>程式时间放大系数
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【PTC】
+    UH H C: <br> <br> <br> <br>0.1~10不超过保持时间的最大值
+    C C: <br> <br> <br> <br>1
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: <br> <br>程式参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br> <br>程式幅度放大系数
+    CUH: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br> <br>【<br>】<br>PCC
+    UH H C: <br> <br> <br> <br>0.1~10仅对电机有效
+    C C: <br> <br> <br> <br>1
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: <br> <br>程式参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br>程式触发方式
+    CUH: <br>
+    Col4: <br>
+    Col5: <br>
+    Col6: <br>
+    Col7: <br>
+    Col8: <br>
+    Col9: <br> <br>【<br>】<br>PTG
+    UH H C: <br> <br> <br>In0~9 内部自动触发<br>Ot0~9 外部程式启动S触发<br>0为持续运行1~9为循环次数
+    C C: <br> <br> <br>In0
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: <br> <br>程式参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C C 数列表: <br>程式触发方式
+    Col6: <br>
+    Col7: <br>
+    Col8: <br>
+    Col9: <br>
+    UH H C: <br>
+    C C: <br>
+  source_ref:
+    pdf_page: 44
+    layout_region_index: 3
+    table_md_path: tables/page-0044-r03.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>闪光触发1~4输出<br>开延时
+    Col3: <br>
+    Col4: <br>
+    Col5: <br>
+    Col6: <br>
+    Col7: <br>
+    Col8: <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br>
+    H<br>0.0~99.9 秒（s）: <br>
+    C<br>0.0: <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>闪光触发1~4输出<br>开延时
+    Col3: <br>
+    Col4: <br>
+    Col5: <br>
+    Col6: <br>
+    Col7: <br>
+    Col8: <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br>
+    H<br>0.0~99.9 秒（s）: <br>
+    C<br>0.0: <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>闪光触发1~4输出<br>开延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>闪光触发1~4输出<br>开延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>闪光触发1~4输出<br>开延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>闪光触发1~4输出<br>开延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> UH<br> <br> <br>闪光触发1~4输出<br>关延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br>【<br>L1T】<br>小<br>【<br>L2T】<br>小<br>【<br>L3T】<br>小<br>【<br>L4T】<br>小
+    H<br>0.0~99.9 秒（s）: <br>  U<br> <br>0.0~99.9 秒（s）<br><br><br><br>
+    C<br>0.0: <br>   H<br>0.0
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> UH<br> <br> <br>闪光触发1~4输出<br>关延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> UH<br> <br> <br>闪光触发1~4输出<br>关延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> UH<br> <br> <br>闪光触发1~4输出<br>关延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> UH<br> <br> <br>闪光触发1~4输出<br>关延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> UH<br> <br> <br>闪光触发1~4输出<br>关延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> UH<br> <br> <br>闪光触发1~4输出<br>关延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>闪光触发端口方向
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br> <br>【F1T】<br>【F2T】<br>【F3T】<br>【F4T】
+    H<br>0.0~99.9 秒（s）: <br> <br>   C<br> <br>In, Otn, Otp, Opp, O.t.n.,<br>O.t.p.,
+      O.p.p., syc, fsc<br>( x.x.x.表示取反、syc表示输出<br>同步信号、fsc表示移频信号)
+    C<br>0.0: <br> <br> <br>In
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>闪光触发端口方向
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>闪光触发端口方向
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>闪光触发端口方向
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>闪光触发端口方向
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>闪光触发端口方向
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br> <br>
+    C<br>0.0: <br> <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>闪光触发端口方向
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br> <br>
+    C<br>0.0: <br> <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>开关传感器类型
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br> <br>【涛A】
+    H<br>0.0~99.9 秒（s）: <br> <br> <br> <br>Ut0(连续扫描), Ut1(单次扫描), <br>nPn, PnP
+    C<br>0.0: <br> <br> <br>Ut1
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>程式源A, b, S开延时
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br> <br>【<br>A】<br>勾<br>【<br>B】<br>勾<br>【<br>Q】<br>勾
+    H<br>0.0~99.9 秒（s）: <br> <br> <br> <br>0.0~99.9 秒（s）
+    C<br>0.0: <br> <br> <br>0.1
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>程式源A, b, S开延时
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br> <br>
+    C<br>0.0: <br> <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>程式源A, b, S开延时
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br> <br>
+    C<br>0.0: <br> <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>程式源A, b, S开延时
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br> <br>
+    C<br>0.0: <br> <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br> <br>程式源A, b, S开延时
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br> <br>
+    C<br>0.0: <br> <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br>程式源A, b, S关延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br>【LA】<br>【LB】<br>【LQ】
+    H<br>0.0~99.9 秒（s）: <br> <br>  UH<br>0.0~99.9 秒（s）
+    C<br>0.0: <br> <br> <br>0.1
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br>程式源A, b, S关延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br>程式源A, b, S关延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br>程式源A, b, S关延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br>程式源A, b, S关延时
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br>
+    H<br>0.0~99.9 秒（s）: <br> <br>
+    C<br>0.0: <br> <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br>程式源选择
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br> <br>【PA】
+    H<br>0.0~99.9 秒（s）: <br> <br> <br> <br>00, 01, 10, 11, 0A, 1A, 0b, 1b, bA
+    C<br>0.0: <br> <br> <br> <br> <br>bA
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br>振动盘运行模式
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br> <br>【大C小N】
+    H<br>0.0~99.9 秒（s）: <br> <br> <br> <br>OPE 开环，CLo 闭环<br>
+    C<br>0.0: <br> <br> <br> <br>OPE
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br> <br>移频信号频差
+    Col3: <br> <br> <br>
+    Col4: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    Col7: <br> <br> <br>
+    Col8: <br> <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br> <br>【FS】
+    H<br>0.0~99.9 秒（s）: <br> <br> <br> <br>-20.0~20.0 赫兹（Hz）
+    C<br>0.0: <br> <br> <br> <br>5.0
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br>电机最大电压限制
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br>【小HU】
+    H<br>0.0~99.9 秒（s）: <br> <br> <br><br>0.0~24.0 伏特（V）
+    C<br>0.0: <br> <br> <br>15.0
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br>电机过流保护电流
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br>【<br>HA】<br>小
+    H<br>0.0~99.9 秒（s）: <br> <br> <br>0.0~3.0 安培（A）
+    C<br>0.0: <br> <br> <br>1.0
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br>通信协议
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br>【上拐】
+    H<br>0.0~99.9 秒（s）: <br> <br> <br>rtu, ASC
+    C<br>0.0: <br> <br> <br>rtu
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br>波特率
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br>【下拐】
+    H<br>0.0~99.9 秒（s）: <br> <br> <br> <br>0.3, 1.2, 2.4, 9.6, 19.2, 57.6, 115.2<br>(
+      Kbit/s )
+    C<br>0.0: <br> <br> <br> <br>9.6
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br>通信地址
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br>【万】
+    H<br>0.0~99.9 秒（s）: <br> <br> <br> <br>1~31
+    C<br>0.0: <br> <br> <br> <br>1
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br>功率板软件版本
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br>【URG】
+    H<br>0.0~99.9 秒（s）: <br> <br> <br> <br>——
+    C<br>0.0: <br> <br> <br> <br>——
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br>控制板软件版本
+    Col3: <br> <br>
+    Col4: <br> <br>
+    Col5: <br> <br>
+    Col6: <br> <br>
+    Col7: <br> <br>
+    Col8: <br> <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br> <br> <br>【<br>】<br>URC
+    H<br>0.0~99.9 秒（s）: <br> <br> <br> <br>——
+    C<br>0.0: <br> <br> <br> <br>——
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br>控制板软件版本
+    Col3: <br>
+    Col4: <br>
+    Col5: <br>
+    Col6: <br>
+    Col7: <br>
+    Col8: <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br>
+    H<br>0.0~99.9 秒（s）: <br>
+    C<br>0.0: <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: U<br> <br> <br> <br> <br>公共参数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>闪光触发1~4输出<br>开延时: <br> <br>控制板软件版本
+    Col6: <br>
+    Col7: <br>
+    Col8: <br>
+    U<br>【小勾1T】<br>【小勾2T】<br>【小勾3T】<br>【小勾4T】: <br>
+    H<br>0.0~99.9 秒（s）: <br>
+    C<br>0.0: <br>
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 1
+    table_md_path: tables/page-0046-r01.md
+- name: <br> <br> <br>Err021/022/023/024
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Err011/012/013/014: <br> <br> <br>Err021/022/023/024
+    音圈电机C1~C4短路: <br> <br> <br>音圈电机C1~C4过流
+    U<br>确保负载未被短路: <br> <br>适当降低输出电压
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 2
+    table_md_path: tables/page-0048-r02.md
+- name: <br> <br> <br>Err031/032
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Err011/012/013/014: <br> <br> <br>Err031/032
+    音圈电机C1~C4短路: <br> <br> <br>左/右散热器过热
+    U<br>确保负载未被短路: <br> <br>提供通风散热良好的环境
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 2
+    table_md_path: tables/page-0048-r02.md
+- name: <br> <br> <br>Err041/042
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Err011/012/013/014: <br> <br> <br>Err041/042
+    音圈电机C1~C4短路: <br> <br> <br>功率/辅助电源故障
+    U<br>确保负载未被短路: <br> <br>确保输入电压在180~260Vac
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 2
+    table_md_path: tables/page-0048-r02.md
+- name: <br> <br> <br>Err05
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Err011/012/013/014: <br> <br> <br>Err05
+    音圈电机C1~C4短路: <br> <br> <br>内部通讯异常
+    U<br>确保负载未被短路: <br> C<br> <br>联系我司技术支持
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 2
+    table_md_path: tables/page-0048-r02.md
+- name: <br> <br> <br>Err06
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Err011/012/013/014: <br> <br> <br>Err06
+    音圈电机C1~C4短路: <br> <br> <br>内部温度传感器异常
+    U<br>确保负载未被短路: <br> <br> <br>内部温度传感器异常
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 2
+    table_md_path: tables/page-0048-r02.md
+- name: <br> <br> <br>Err071/072/073
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Err011/012/013/014: <br> <br> <br>Err071/072/073
+    音圈电机C1~C4短路: <br> <br> <br>光源输出1~3短路
+    U<br>确保负载未被短路: <br>H<br> <br>确保正确连接光源负载
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 2
+    table_md_path: tables/page-0048-r02.md
+- name: <br> <br> <br>Err081/082/083
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Err011/012/013/014: <br> <br> <br>Err081/082/083
+    音圈电机C1~C4短路: <br> <br> <br>光源输出1~3开路
+    U<br>确保负载未被短路: <br> <br> <br>光源输出1~3开路
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 2
+    table_md_path: tables/page-0048-r02.md
+- name: <br> <br> <br>Err091/092/093/094
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Err011/012/013/014: <br> <br> <br>Err091/092/093/094
+    音圈电机C1~C4短路: <br> <br> <br>触发输出1~4短路
+    U<br>确保负载未被短路: <br> <br> <br>确保负载未被短路或超过200mA电流
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 2
+    table_md_path: tables/page-0048-r02.md
+- name: <br> <br>Err101/<br>2/<br>3/<br>4<br>10<br>10<br>10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Err011/012/013/014: <br> <br>Err101/<br>2/<br>3/<br>4<br>10<br>10<br>10
+    音圈电机C1~C4短路: <br> <br>振动传感器1~4缺轴
+    U<br>确保负载未被短路: <br> <br> <br>正确连接振动传感器
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 2
+    table_md_path: tables/page-0048-r02.md
+- name: <br> <br>Err 01/<br>2/203<br>2<br>20
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Err011/012/013/014: <br> <br>Err 01/<br>2/203<br>2<br>20
+    音圈电机C1~C4短路: <br> <br>光源1~3过热
+    U<br>确保负载未被短路: <br> <br> <br>为光源提供良好散热
+  source_ref:
+    pdf_page: 48
+    layout_region_index: 2
+    table_md_path: tables/page-0048-r02.md
