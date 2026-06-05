@@ -1,0 +1,125 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 2,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-06T00:42:03",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=2。\n\n【目录/书签上下文（节选）】\n- 页 1（第 1 页）\n- 页 2（第 2 页）\n- 页 3（第 3 页）\n- 页 4（第 4 页）\n- 页 5（第 5 页）\n- 页 6（第 6 页）\n- 页 7（第 7 页）\n- 页 8（第 8 页）\n\n【文本层节选（可能为空或不完整）】\n指示灯及按键说明\n\n发布时间：2025.10\n该说明书的最终解释权归本公司所有\n\n电压 Voltage - 电压调节状态\n\n频率 Frequency - 频率调节状态\n\n开延时 On Delay - 开延时调节状态\n\n关延时 Off Delay - 关延时调节状态\n\n输出饱和 Saturation - 设定输出电压过高或过低，致使控制器不能达到\n\n遥控 Remote Ctrl - 外部速度控制信号有效\n\n速度A Speed A - 速度A",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.039, 0.029, 0.541, 0.057],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.059, 0.083, 0.394, 0.115],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.052, 0.138, 0.947, 0.578],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器面板示意图，包含LED显示屏、参数指示灯、状态指示灯、输出开关键、功能键、功能调节键等标注，并展示SDVC201-L面板外观。\",\n      \"caption\": \"指示灯及按键说明示意图\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.052, 0.610, 0.947, 0.928],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.048, 0.955, 0.243, 0.977],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.604, 0.955, 0.948, 0.977],\n      \"confidence\": 0.9\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为电子版PDF渲染页面，文本清晰，不像扫描件。页面以控制器面板说明图为主，下方配有指示灯含义说明文字，底部包含发布时间和解释权声明。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.039,
+          0.029,
+          0.541,
+          0.057
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.059,
+          0.083,
+          0.394,
+          0.115
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.052,
+          0.138,
+          0.947,
+          0.578
+        ],
+        "confidence": 0.94,
+        "image_alt": "控制器面板示意图，包含LED显示屏、参数指示灯、状态指示灯、输出开关键、功能键、功能调节键等标注，并展示SDVC201-L面板外观。",
+        "caption": "指示灯及按键说明示意图",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.052,
+          0.61,
+          0.947,
+          0.928
+        ],
+        "confidence": 0.91,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.048,
+          0.955,
+          0.243,
+          0.977
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.604,
+          0.955,
+          0.948,
+          0.977
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "本页为电子版PDF渲染页面，文本清晰，不像扫描件。页面以控制器面板说明图为主，下方配有指示灯含义说明文字，底部包含发布时间和解释权声明。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnRu5EbFajPWGzApREL6zzuqMDPg5",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780677705,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.039, 0.029, 0.541, 0.057],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.059, 0.083, 0.394, 0.115],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.052, 0.138, 0.947, 0.578],\n      \"confidence\": 0.94,\n      \"image_alt\": \"控制器面板示意图，包含LED显示屏、参数指示灯、状态指示灯、输出开关键、功能键、功能调节键等标注，并展示SDVC201-L面板外观。\",\n      \"caption\": \"指示灯及按键说明示意图\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.052, 0.610, 0.947, 0.928],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.048, 0.955, 0.243, 0.977],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.604, 0.955, 0.948, 0.977],\n      \"confidence\": 0.9\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为电子版PDF渲染页面，文本清晰，不像扫描件。页面以控制器面板说明图为主，下方配有指示灯含义说明文字，底部包含发布时间和解释权声明。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 1692,
+      "completion_tokens": 968,
+      "total_tokens": 2660,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

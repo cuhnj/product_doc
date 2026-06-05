@@ -1,0 +1,138 @@
+{
+  "doc_id": "cuh.sdvc.manual.v1.01.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v1.01",
+  "lang": "zh-CN",
+  "page_index": 1,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-06T00:41:59",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v1.01.zh-CN，页码=1。\n\n【目录/书签上下文（节选）】\n- 页 1（第 1 页）\n- 页 2（第 2 页）\n- 页 3（第 3 页）\n- 页 4（第 4 页）\n- 页 5（第 5 页）\n- 页 6（第 6 页）\n- 页 7（第 7 页）\n- 页 8（第 8 页）\n\n【文本层节选（可能为空或不完整）】\n数字调压振动送料控制器\n\nSDVC201-L&SDVC20-XL简易操作指南\n扫描二维码下载详细说明书\n\nwww.cuhnj.com\n\n适用\n型号\n控制器\n\n地址：南京市江宁区智能路9号启迪城学研园2幢\n销售电话：400-985-8889\n传真：025-84730426\n企业邮箱：sales@cuhnj.com\n文档编号：IDP1000507_A.2\n\n南京创优科技有限责任公司\n\nVariable \n Digital Controller",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.03, 0.03, 0.92, 0.19],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.72, 0.05, 0.88, 0.16],\n      \"confidence\": 0.96,\n      \"image_alt\": \"页面右上角的二维码，上方标注网址 www.cuhnj.com，下方文字提示扫描二维码下载详细说明书。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.03, 0.21, 0.88, 0.25],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.13, 0.28, 0.49, 0.74],\n      \"confidence\": 0.97,\n      \"image_alt\": \"左侧控制器外观线稿图，面板上有显示窗、按键和指示说明，型号标注为 SDVC201-L。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.51, 0.28, 0.87, 0.76],\n      \"confidence\": 0.97,\n      \"image_alt\": \"右侧控制器外观线稿图，面板上有显示窗、按键和指示说明，型号标注为 SDVC20-XL，底部带两个接头结构。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.04, 0.76, 0.32, 0.83],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.36, 0.84, 0.96, 0.99],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页为封面/简易操作指南首页，包含较完整文本层；版面以标题、二维码、两幅控制器外观示意图和底部联系信息为主。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.03,
+          0.03,
+          0.92,
+          0.19
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.72,
+          0.05,
+          0.88,
+          0.16
+        ],
+        "confidence": 0.96,
+        "image_alt": "页面右上角的二维码，上方标注网址 www.cuhnj.com，下方文字提示扫描二维码下载详细说明书。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.03,
+          0.21,
+          0.88,
+          0.25
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.13,
+          0.28,
+          0.49,
+          0.74
+        ],
+        "confidence": 0.97,
+        "image_alt": "左侧控制器外观线稿图，面板上有显示窗、按键和指示说明，型号标注为 SDVC201-L。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.51,
+          0.28,
+          0.87,
+          0.76
+        ],
+        "confidence": 0.97,
+        "image_alt": "右侧控制器外观线稿图，面板上有显示窗、按键和指示说明，型号标注为 SDVC20-XL，底部带两个接头结构。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.04,
+          0.76,
+          0.32,
+          0.83
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.36,
+          0.84,
+          0.96,
+          0.99
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "notes": "本页为封面/简易操作指南首页，包含较完整文本层；版面以标题、二维码、两幅控制器外观示意图和底部联系信息为主。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnRu5L8x1K4UH9RjBaXtz1QNPr9Kh",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780677705,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.03, 0.03, 0.92, 0.19],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.72, 0.05, 0.88, 0.16],\n      \"confidence\": 0.96,\n      \"image_alt\": \"页面右上角的二维码，上方标注网址 www.cuhnj.com，下方文字提示扫描二维码下载详细说明书。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.03, 0.21, 0.88, 0.25],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.13, 0.28, 0.49, 0.74],\n      \"confidence\": 0.97,\n      \"image_alt\": \"左侧控制器外观线稿图，面板上有显示窗、按键和指示说明，型号标注为 SDVC201-L。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.51, 0.28, 0.87, 0.76],\n      \"confidence\": 0.97,\n      \"image_alt\": \"右侧控制器外观线稿图，面板上有显示窗、按键和指示说明，型号标注为 SDVC20-XL，底部带两个接头结构。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.04, 0.76, 0.32, 0.83],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.36, 0.84, 0.96, 0.99],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页为封面/简易操作指南首页，包含较完整文本层；版面以标题、二维码、两幅控制器外观示意图和底部联系信息为主。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 1680,
+      "completion_tokens": 896,
+      "total_tokens": 2576,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 345,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

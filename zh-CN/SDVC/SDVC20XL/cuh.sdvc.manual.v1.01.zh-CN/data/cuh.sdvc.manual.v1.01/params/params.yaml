@@ -1,0 +1,841 @@
+schema_version: 1
+doc_id: cuh.sdvc.manual.v1.01.zh-CN
+doc_key: cuh.sdvc.manual.v1.01
+lang: zh-CN
+generated_at: '2026-06-06 00:43:31'
+source:
+  data_index_yaml: index.yaml
+tables:
+- page: 4
+  layout_region_index: 2
+  table_md_path: tables/page-0004-r02.md
+  headers:
+  - 项目
+  - 最小值
+  - 典型值
+  - 最大值
+  - 单位
+  - 说明
+- page: 6
+  layout_region_index: 2
+  table_md_path: tables/page-0006-r02.md
+  headers:
+  - Col1
+  - 含义
+  - 参数符号
+  - Col4
+  - 取值范围
+  - 默认值
+- page: 7
+  layout_region_index: 2
+  table_md_path: tables/page-0007-r02.md
+  headers:
+  - 故障现象/故障代码
+  - 含义
+  - 排除方法
+- page: 8
+  layout_region_index: 4
+  table_md_path: tables/page-0008-r04.md
+  headers:
+  - 0~3
+  - ±0.05
+items:
+- name: 输入电压
+  symbol: null
+  range: null
+  default: null
+  unit: 伏特（V）
+  note: SDVC201-L交流有效值
+  extra:
+    最小值: '85'
+    典型值: '220'
+    最大值: '250'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 输入电压
+  symbol: null
+  range: null
+  default: null
+  unit: '440'
+  note: SDVC20-XL交流有效值
+  extra:
+    最小值: '85'
+    典型值: '380'
+    最大值: '440'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 输出电压调整范围
+  symbol: null
+  range: null
+  default: null
+  unit: 伏特（V）
+  note: 半波
+  extra:
+    最小值: '35'
+    典型值: ——
+    最大值: Vin-10
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 输出电压调整范围
+  symbol: null
+  range: null
+  default: null
+  unit: Vin-5
+  note: 全波
+  extra:
+    最小值: '45'
+    典型值: '45'
+    最大值: Vin-5
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 电压调整精度
+  symbol: null
+  range: null
+  default: null
+  unit: 伏特（V）
+  note: null
+  extra:
+    最小值: '1'
+    典型值: '1'
+    最大值: '1'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 稳压精度
+  symbol: null
+  range: null
+  default: null
+  unit: 伏特（V）
+  note: Vset = 150V<br>ΔVin+ = 70V
+  extra:
+    最小值: ——
+    典型值: ——
+    最大值: '30'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 稳压响应时间
+  symbol: null
+  range: null
+  default: null
+  unit: 秒（s）
+  note: null
+  extra:
+    最小值: '0'
+    典型值: '0.01'
+    最大值: '0.02'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 输出电流调整范围
+  symbol: null
+  range: null
+  default: null
+  unit: 安培（A）
+  note: SDVC201-L
+  extra:
+    最小值: '0'
+    典型值: ——
+    最大值: '10'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 输出电流调整范围
+  symbol: null
+  range: null
+  default: null
+  unit: '15'
+  note: SDVC20-XL
+  extra:
+    最小值: '0'
+    典型值: ——
+    最大值: '15'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 输出功率
+  symbol: null
+  range: null
+  default: null
+  unit: 伏安（VA）
+  note: SDVC201-L
+  extra:
+    最小值: '0'
+    典型值: ——
+    最大值: '2200'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 输出功率
+  symbol: null
+  range: null
+  default: null
+  unit: '5700'
+  note: SDVC20-XL
+  extra:
+    最小值: '0'
+    典型值: ——
+    最大值: '5700'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 输出频率
+  symbol: null
+  range: null
+  default: null
+  unit: 赫兹（Hz）
+  note: 全波
+  extra:
+    最小值: '90'
+    典型值: 100/120
+    最大值: '130'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 输出频率
+  symbol: null
+  range: null
+  default: null
+  unit: '65'
+  note: 半波
+  extra:
+    最小值: '45'
+    典型值: 50/60
+    最大值: '65'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 输出频率
+  symbol: null
+  range: null
+  default: null
+  unit: '43'
+  note: 三分之一波
+  extra:
+    最小值: '30'
+    典型值: 33/40
+    最大值: '43'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 输出频率
+  symbol: null
+  range: null
+  default: null
+  unit: '32'
+  note: 四分之一波
+  extra:
+    最小值: '22'
+    典型值: 25/30
+    最大值: '32'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 输出波形
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    最小值: 正弦相切
+    典型值: 正弦相切
+    最大值: 正弦相切
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 缓启动时间
+  symbol: null
+  range: null
+  default: null
+  unit: 秒（s）
+  note: 出厂默认0.5
+  extra:
+    最小值: '0'
+    典型值: ——
+    最大值: '10.0'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 延迟时间范围
+  symbol: null
+  range: null
+  default: null
+  unit: 秒（s）
+  note: 出厂默认0.2
+  extra:
+    最小值: '0'
+    典型值: ——
+    最大值: '9.9'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 延迟时间精度
+  symbol: null
+  range: null
+  default: null
+  unit: 秒（s）
+  note: null
+  extra:
+    最小值: '0.1'
+    典型值: '0.1'
+    最大值: '0.1'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 过热保护温度
+  symbol: null
+  range: null
+  default: null
+  unit: 摄氏度（℃）
+  note: null
+  extra:
+    最小值: '58'
+    典型值: '60'
+    最大值: '66'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 直流控制输出电压
+  symbol: null
+  range: null
+  default: null
+  unit: 伏特（V）
+  note: null
+  extra:
+    最小值: '22'
+    典型值: '24'
+    最大值: '26'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 直流控制输出电流
+  symbol: null
+  range: null
+  default: null
+  unit: 毫安（mA）
+  note: null
+  extra:
+    最小值: '0'
+    典型值: ——
+    最大值: '200'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 模拟控制信号
+  symbol: null
+  range: null
+  default: null
+  unit: 伏特(V)/毫安(mA)
+  note: 远程速度控制电压/电流
+  extra:
+    最小值: 1~5/4~20
+    典型值: 1~5/4~20
+    最大值: 1~5/4~20
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 数字控制信号
+  symbol: null
+  range: null
+  default: null
+  unit: 伏特（V）
+  note: 开关信号控制
+  extra:
+    最小值: '24'
+    典型值: '24'
+    最大值: '24'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 调整方式
+  symbol: null
+  range: null
+  default: null
+  unit: 键（Button）
+  note: null
+  extra:
+    最小值: '4'
+    典型值: '4'
+    最大值: '4'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 保险丝容量
+  symbol: null
+  range: null
+  default: null
+  unit: 安培（A）
+  note: SDVC201-L
+  extra:
+    最小值: '15'
+    典型值: '15'
+    最大值: '15'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 保险丝容量
+  symbol: null
+  range: null
+  default: null
+  unit: '20'
+  note: SDVC20-XL
+  extra:
+    最小值: '20'
+    典型值: '20'
+    最大值: '20'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 空载功耗
+  symbol: null
+  range: null
+  default: null
+  unit: 瓦特（W）
+  note: null
+  extra:
+    最小值: ——
+    典型值: '2'
+    最大值: ——
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 显示方式
+  symbol: null
+  range: null
+  default: null
+  unit: 位（Digit）
+  note: LED数码管
+  extra:
+    最小值: '4'
+    典型值: '4'
+    最大值: '4'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 工作环境温度
+  symbol: null
+  range: null
+  default: null
+  unit: 摄氏度（℃）
+  note: 不结露
+  extra:
+    最小值: '0'
+    典型值: '25'
+    最大值: '40'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 工作环境湿度
+  symbol: null
+  range: null
+  default: null
+  unit: 相对湿度（%）
+  note: 相对湿度（%）
+  extra:
+    最小值: '10'
+    典型值: '60'
+    最大值: '85'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 存储环境温度
+  symbol: null
+  range: null
+  default: null
+  unit: 摄氏度（℃）
+  note: 摄氏度（℃）
+  extra:
+    最小值: '-20'
+    典型值: '25'
+    最大值: '85'
+  source_ref:
+    pdf_page: 4
+    layout_region_index: 2
+    table_md_path: tables/page-0004-r02.md
+- name: 常用参数<br>短按       切换参数
+  symbol: null
+  range: 0~h 伏特（V）
+  default: '150'
+  unit: null
+  note: null
+  extra:
+    Col1: 常用参数<br>短按       切换参数
+    含义: 输出电压
+    Col4: 【H】
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 2
+    table_md_path: tables/page-0006-r02.md
+- name: 【E】
+  symbol: 【E】
+  range: '输入50Hz时: 100/50/33/25<br>输入60Hz时120/60/40/30 赫兹（Hz）<br>输入50Hz时: FUL/HAF/thr/Fou
+    赫兹（Hz<br>输入60Hz时: FUL/HAF/thr/Fou 赫兹（Hz<br>赫兹（Hz）<br>: <br>ΓE=5时:<br>时:<br>ΓE=E'
+  default: 全波<br>  ）<br>  ）
+  unit: null
+  note: null
+  extra:
+    Col1: 常用参数<br>短按       切换参数
+    含义: 输出频率
+    Col4: 【E】
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 2
+    table_md_path: tables/page-0006-r02.md
+- name: 常用参数<br>短按       切换参数
+  symbol: null
+  range: 0.0~9.9 秒（s）
+  default: '0.2'
+  unit: null
+  note: null
+  extra:
+    Col1: 常用参数<br>短按       切换参数
+    含义: 智能光电传感开延时
+    Col4: 【大勾】
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 2
+    table_md_path: tables/page-0006-r02.md
+- name: 【<br>】<br>大L
+  symbol: 【<br>】<br>大L
+  range: 0.0~9.9 秒（s）
+  default: '0.2'
+  unit: null
+  note: null
+  extra:
+    Col1: 常用参数<br>短按       切换参数
+    含义: 智能光电传感关延时
+    Col4: 【<br>】<br>大L
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 2
+    table_md_path: tables/page-0006-r02.md
+- name: 【勾中】
+  symbol: 【勾中】
+  range: 0.0~9.9 秒（s）<br>
+  default: （与     相同）
+  unit: null
+  note: null
+  extra:
+    Col1: 常用参数<br>短按       切换参数
+    含义: 开关传感器开延时
+    Col4: 【勾中】
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 2
+    table_md_path: tables/page-0006-r02.md
+- name: 【中】<br>L
+  symbol: 【中】<br>L
+  range: 0.0~9.9 秒（s）<br>
+  default: （与     相同）
+  unit: null
+  note: null
+  extra:
+    Col1: 常用参数<br>短按       切换参数
+    含义: 开关传感器关延时
+    Col4: 【中】<br>L
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 2
+    table_md_path: tables/page-0006-r02.md
+- name: 【<br>】<br>勾下
+  symbol: 【<br>】<br>勾下
+  range: 0.0~9.9 秒（s）<br>
+  default: （与     相同）
+  unit: null
+  note: null
+  extra:
+    Col1: 常用参数<br>短按       切换参数
+    含义: 第二个开关传感器开延时
+    Col4: 【<br>】<br>勾下
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 2
+    table_md_path: tables/page-0006-r02.md
+- name: 常用参数<br>短按       切换参数
+  symbol: null
+  range: 0.0~9.9 秒（s）<br>
+  default: （与     相同）
+  unit: null
+  note: null
+  extra:
+    Col1: 常用参数<br>短按       切换参数
+    含义: 第二个开关传感器关延时
+    Col4: 【L下】
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 2
+    table_md_path: tables/page-0006-r02.md
+- name: 【小H】
+  symbol: 【小H】
+  range: SDVC201-L：0~250 伏特（V）<br>SDVC20-XL：0~440 伏特（V）<br>
+  default: '201-L: 250<br>20-XL: 380<br>'
+  unit: null
+  note: null
+  extra:
+    Col1: 常用参数<br>短按       切换参数
+    含义: 最大输出电压限制
+    Col4: 【小H】
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 2
+    table_md_path: tables/page-0006-r02.md
+- name: 常用参数<br>短按       切换参数
+  symbol: null
+  range: 0.0~10.0 秒（s）
+  default: '1.0'
+  unit: null
+  note: null
+  extra:
+    Col1: 常用参数<br>短按       切换参数
+    含义: 缓启动时间
+    Col4: 【小T】
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 2
+    table_md_path: tables/page-0006-r02.md
+- name: 常用参数<br>短按       切换参数
+  symbol: null
+  range: 常通      ，常断
+  default: 常通
+  unit: null
+  note: null
+  extra:
+    Col1: 常用参数<br>短按       切换参数
+    含义: 开关传感器逻辑方向
+    Col4: 【涛1】
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 2
+    table_md_path: tables/page-0006-r02.md
+- name: 【涛2】
+  symbol: 【涛2】
+  range: 常通      ，常断
+  default: 常通
+  unit: null
+  note: null
+  extra:
+    Col1: 常用参数<br>短按       切换参数
+    含义: 智能光电传感器逻辑方向
+    Col4: 【涛2】
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 2
+    table_md_path: tables/page-0006-r02.md
+- name: 【涛3】
+  symbol: 【涛3】
+  range: 常通      ，常断
+  default: 常通
+  unit: null
+  note: null
+  extra:
+    Col1: 常用参数<br>短按       切换参数
+    含义: 第二个开关传感器逻辑方向
+    Col4: 【涛3】
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 2
+    table_md_path: tables/page-0006-r02.md
+- name: 常用参数<br>短按       切换参数
+  symbol: null
+  range: 常通      ，常断
+  default: 常通
+  unit: null
+  note: null
+  extra:
+    Col1: 常用参数<br>短按       切换参数
+    含义: 控制输出逻辑方向
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 2
+    table_md_path: tables/page-0006-r02.md
+- name: 【<br>】<br>涛4<br>【<br>】<br>涛5
+  symbol: 【<br>】<br>涛4<br>【<br>】<br>涛5
+  range: <br>联合      ，分离<br>C控主B控D      ，B控主C控D<br>注
+  default: 联合
+  unit: null
+  note: null
+  extra:
+    Col1: 常用参数<br>短按       切换参数
+    含义: 主控输出分离参数
+    Col4: 【<br>】<br>涛4<br>【<br>】<br>涛5
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 2
+    table_md_path: tables/page-0006-r02.md
+- name: 【<br>】<br>涛E<br>【大N】
+  symbol: 【<br>】<br>涛E<br>【大N】
+  range: -5:<br>-E:输出频率设置可显示为全波FUL, 半波HAF,<br>三分之一波thr, 四分之一波Fou<br>自动识别输入频率，并数字显示输出频率<br>或        ，与        ，异或
+  default: -5<br>与
+  unit: null
+  note: null
+  extra:
+    Col1: 常用参数<br>短按       切换参数
+    含义: 频率指示参数<br>控制信号逻辑关系
+    Col4: 【<br>】<br>涛E<br>【大N】
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 2
+    table_md_path: tables/page-0006-r02.md
+- name: 【P】
+  symbol: 【P】
+  range: <br>0~999
+  default: '80'
+  unit: null
+  note: null
+  extra:
+    Col1: 常用参数<br>短按       切换参数
+    含义: 智能光电灵敏度<br>机行状态
+    Col4: 【P】
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 2
+    table_md_path: tables/page-0006-r02.md
+- name: 打开开关，没有显示
+  symbol: 打开开关，没有显示
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    排除方法: 请检查电源插座是否有电？<br>电源插头是否可靠连接插座？<br>请检查保险丝是否完好？
+  source_ref:
+    pdf_page: 7
+    layout_region_index: 2
+    table_md_path: tables/page-0007-r02.md
+- name: 有显示，但是振动盘<br>不动，也没有声音
+  symbol: 有显示，但是振动盘<br>不动，也没有声音
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    排除方法: 请检查输出电缆是否正确地连接控制器与振动盘？<br>请检查控制器参数，是否输出电压调节的太小？<br>请检查控制信号是否将控制器置于“停止”状态？<br>请检查是否有设置为“常断”的参数，导致控制器被置于<br>“停止”状态？
+  source_ref:
+    pdf_page: 7
+    layout_region_index: 2
+    table_md_path: tables/page-0007-r02.md
+- name: 控制信号不起作用
+  symbol: 控制信号不起作用
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    排除方法: 请检查输入的控制信号的地线是否与本机地正确连接？<br>请检查控制信号逻辑关系设置是否是您期望的设置？<br>请检查控制信号是否正确输入？
+  source_ref:
+    pdf_page: 7
+    layout_region_index: 2
+    table_md_path: tables/page-0007-r02.md
+- name: 有显示，振动盘不动，<br>但是可以听到声音
+  symbol: 有显示，振动盘不动，<br>但是可以听到声音
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    排除方法: 请按照说明书介绍的调节方法逐步调节各参数。
+  source_ref:
+    pdf_page: 7
+    layout_region_index: 2
+    table_md_path: tables/page-0007-r02.md
+- name: 3~10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0~3: 3~10
+    ±0.05: ±0.1
+  source_ref:
+    pdf_page: 8
+    layout_region_index: 4
+    table_md_path: tables/page-0008-r04.md
+- name: 10~30
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0~3: 10~30
+    ±0.05: ±0.15
+  source_ref:
+    pdf_page: 8
+    layout_region_index: 4
+    table_md_path: tables/page-0008-r04.md
+- name: 30~80
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0~3: 30~80
+    ±0.05: ±0.2
+  source_ref:
+    pdf_page: 8
+    layout_region_index: 4
+    table_md_path: tables/page-0008-r04.md
+- name: 80~180
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0~3: 80~180
+    ±0.05: ±0.3
+  source_ref:
+    pdf_page: 8
+    layout_region_index: 4
+    table_md_path: tables/page-0008-r04.md
+- name: '>180'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0~3: '>180'
+    ±0.05: ±0.5
+  source_ref:
+    pdf_page: 8
+    layout_region_index: 4
+    table_md_path: tables/page-0008-r04.md
