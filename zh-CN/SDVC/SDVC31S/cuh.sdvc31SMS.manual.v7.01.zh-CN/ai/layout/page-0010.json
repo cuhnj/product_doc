@@ -1,0 +1,116 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 10,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-07T17:35:18",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=10。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 空白页（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯及按键说明（第 10 页）\n  - 1.3 外部部件说明（第 11 页）\n  - 1.4 接线端口说明（第 12 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 性能特点（第 13 页）\n- 第三章 安装及使用指南（第 15 页）\n  - 3.1 控制器使用条件（第 15 页）\n  - 3.",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.052, 0.929, 0.074],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.160, 0.390, 0.186],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.199, 0.932, 0.884],\n      \"confidence\": 0.98,\n      \"caption\": \"指示灯及按键说明示意图\",\n      \"image_alt\": \"一张带引线标注的 SDVC31-M 数字调频振动送料控制器前面板示意图，标出加速、饱和、电压、频率、开延时、关延时、缓启动、调速、停止、锁定等指示灯，以及 LED 显示屏、增加/减少键、上/下键、设置键、输出开关键等部件。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.952, 0.929, 0.976],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3],\n  \"notes\": \"本页为电子版 PDF 渲染页，文本和线条清晰，非扫描件。页面主体是一张控制器面板的注释型结构示意图，辅以页眉、章节标题和页脚信息。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.052,
+          0.929,
+          0.074
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.16,
+          0.39,
+          0.186
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.071,
+          0.199,
+          0.932,
+          0.884
+        ],
+        "confidence": 0.98,
+        "caption": "指示灯及按键说明示意图",
+        "image_alt": "一张带引线标注的 SDVC31-M 数字调频振动送料控制器前面板示意图，标出加速、饱和、电压、频率、开延时、关延时、缓启动、调速、停止、锁定等指示灯，以及 LED 显示屏、增加/减少键、上/下键、设置键、输出开关键等部件。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.952,
+          0.929,
+          0.976
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "notes": "本页为电子版 PDF 渲染页，文本和线条清晰，非扫描件。页面主体是一张控制器面板的注释型结构示意图，辅以页眉、章节标题和页脚信息。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.052, 0.929, 0.074],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.160, 0.390, 0.186],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.199, 0.932, 0.884],\n      \"confidence\": 0.98,\n      \"caption\": \"指示灯及按键说明示意图\",\n      \"image_alt\": \"一张带引线标注的 SDVC31-M 数字调频振动送料控制器前面板示意图，标出加速、饱和、电压、频率、开延时、关延时、缓启动、调速、停止、锁定等指示灯，以及 LED 显示屏、增加/减少键、上/下键、设置键、输出开关键等部件。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.952, 0.929, 0.976],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3],\n  \"notes\": \"本页为电子版 PDF 渲染页，文本和线条清晰，非扫描件。页面主体是一张控制器面板的注释型结构示意图，辅以页眉、章节标题和页脚信息。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780824910,
+    "id": "chatcmpl-Do4CMEfPTIUNzLeTkp32Cc76nFini",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 689,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 290,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 10,
+        "engine_ttft_ms": 308,
+        "engine_ttlt_ms": 7532,
+        "pre_inference_ms": 144,
+        "service_tbt_ms": 10,
+        "service_ttft_ms": 538,
+        "service_ttlt_ms": 7753,
+        "total_duration_ms": 7624,
+        "user_visible_ttft_ms": 394
+      },
+      "prompt_tokens": 2844,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3533
+    }
+  }
+}

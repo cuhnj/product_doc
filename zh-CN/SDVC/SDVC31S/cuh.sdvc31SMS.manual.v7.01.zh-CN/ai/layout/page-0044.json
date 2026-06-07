@@ -1,0 +1,127 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 44,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-07T17:37:01",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=44。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 空白页（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯及按键说明（第 10 页）\n  - 1.3 外部部件说明（第 11 页）\n  - 1.4 接线端口说明（第 12 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 性能特点（第 13 页）\n- 第三章 安装及使用指南（第 15 页）\n  - 3.1 控制器使用条件（第 15 页）\n  - 3.",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.051, 0.932, 0.075],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.369, 0.108, 0.632, 0.140],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.162, 0.256, 0.185],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.071, 0.210, 0.932, 0.917],\n      \"confidence\": 0.98,\n      \"caption\": \"7.1 参数列表\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.952, 0.932, 0.975],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为第七章附录中的“7.1 参数列表”，主体是一张参数列表表格。页面有可识别文本层和浅色水印，不像纯扫描件；内容以表格为主，没有独立图形。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.051,
+          0.932,
+          0.075
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.369,
+          0.108,
+          0.632,
+          0.14
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.162,
+          0.256,
+          0.185
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.071,
+          0.21,
+          0.932,
+          0.917
+        ],
+        "confidence": 0.98,
+        "caption": "7.1 参数列表",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.952,
+          0.932,
+          0.975
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "本页为第七章附录中的“7.1 参数列表”，主体是一张参数列表表格。页面有可识别文本层和浅色水印，不像纯扫描件；内容以表格为主，没有独立图形。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.051, 0.932, 0.075],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.369, 0.108, 0.632, 0.140],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.162, 0.256, 0.185],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.071, 0.210, 0.932, 0.917],\n      \"confidence\": 0.98,\n      \"caption\": \"7.1 参数列表\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.952, 0.932, 0.975],\n      \"confidence\": 0.94\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为第七章附录中的“7.1 参数列表”，主体是一张参数列表表格。页面有可识别文本层和浅色水印，不像纯扫描件；内容以表格为主，没有独立图形。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780825014,
+    "id": "chatcmpl-Do4E2ea7xQ2XRTnOyi4swZ6dS6JFR",
+    "model": "gpt-5.5-2026-04-23",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 556,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 206,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 11,
+        "engine_ttft_ms": 289,
+        "engine_ttlt_ms": 6404,
+        "pre_inference_ms": 132,
+        "service_tbt_ms": 11,
+        "service_ttft_ms": 481,
+        "service_ttlt_ms": 6585,
+        "total_duration_ms": 6463,
+        "user_visible_ttft_ms": 349
+      },
+      "prompt_tokens": 2970,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3526
+    }
+  }
+}

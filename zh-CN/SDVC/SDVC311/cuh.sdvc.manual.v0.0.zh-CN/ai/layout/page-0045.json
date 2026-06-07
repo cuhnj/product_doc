@@ -1,0 +1,138 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 45,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-07T17:56:15",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=45。\n\n【目录/书签上下文（节选）】\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯及按键说明（第 10 页）\n  - 1.3 外部部件说明（第 11 页）\n  - 1.4 接线端口说明（第 12 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 产品介绍（第 13 页）\n  - 2.1 产品简介（第 13 页）\n  - 2.2 产品性能提升（第 13 页）\n  - 2.3 产品现代/传统界面（第 14 页）\n- 第三章 安装及使用指南",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.050, 0.931, 0.073],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.367, 0.107, 0.633, 0.139],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.161, 0.259, 0.184],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.072, 0.211, 0.931, 0.922],\n      \"confidence\": 0.95,\n      \"caption\": \"参数列表。表格列包含参数类别、含义、参数符号、取值范围、默认设置；内容分为常用参数、基本参数、高级参数等。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.954, 0.930, 0.974],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.000, 0.000, 1.000, 1.000],\n      \"confidence\": 0.45\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为数字调频振动送料控制器 SDVC311 系列手册第七章附录的参数列表页，主体为大表格。页面有浅色 CUH 背景水印，非以照片或插图为主；从给定文本层看应为可检索文本的 PDF 渲染页，而非纯扫描件。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.071,
+          0.05,
+          0.931,
+          0.073
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.367,
+          0.107,
+          0.633,
+          0.139
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.161,
+          0.259,
+          0.184
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.072,
+          0.211,
+          0.931,
+          0.922
+        ],
+        "confidence": 0.95,
+        "caption": "参数列表。表格列包含参数类别、含义、参数符号、取值范围、默认设置；内容分为常用参数、基本参数、高级参数等。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.954,
+          0.93,
+          0.974
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "confidence": 0.45,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "本页为数字调频振动送料控制器 SDVC311 系列手册第七章附录的参数列表页，主体为大表格。页面有浅色 CUH 背景水印，非以照片或插图为主；从给定文本层看应为可检索文本的 PDF 渲染页，而非纯扫描件。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.071, 0.050, 0.931, 0.073],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.367, 0.107, 0.633, 0.139],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.161, 0.259, 0.184],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.072, 0.211, 0.931, 0.922],\n      \"confidence\": 0.95,\n      \"caption\": \"参数列表。表格列包含参数类别、含义、参数符号、取值范围、默认设置；内容分为常用参数、基本参数、高级参数等。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.954, 0.930, 0.974],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.000, 0.000, 1.000, 1.000],\n      \"confidence\": 0.45\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为数字调频振动送料控制器 SDVC311 系列手册第七章附录的参数列表页，主体为大表格。页面有浅色 CUH 背景水印，非以照片或插图为主；从给定文本层看应为可检索文本的 PDF 渲染页，而非纯扫描件。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780826165,
+    "id": "chatcmpl-Do4Wbwt3U3sV6j6eVL975mF1Q76Mc",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 798,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 342,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 11,
+        "engine_ttft_ms": 328,
+        "engine_ttlt_ms": 8876,
+        "pre_inference_ms": 167,
+        "service_tbt_ms": 11,
+        "service_ttft_ms": 571,
+        "service_ttlt_ms": 9114,
+        "total_duration_ms": 8953,
+        "user_visible_ttft_ms": 403
+      },
+      "prompt_tokens": 3054,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3852
+    }
+  }
+}

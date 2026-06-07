@@ -1,0 +1,115 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 48,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-07T17:37:20",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=48。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 空白页（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯及按键说明（第 10 页）\n  - 1.3 外部部件说明（第 11 页）\n  - 1.4 接线端口说明（第 12 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 性能特点（第 13 页）\n- 第三章 安装及使用指南（第 15 页）\n  - 3.1 控制器使用条件（第 15 页）\n  - 3.",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.0, 0.0, 1.0, 1.0],\n      \"confidence\": 0.78,\n      \"image_alt\": \"整页浅灰色重复的 CUH 标识水印背景，无正文内容\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.081, 0.829, 0.248, 0.942],\n      \"confidence\": 0.92,\n      \"image_alt\": \"页面左下方的二维码，二维码中心带有 CUH 标识\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.264, 0.828, 0.540, 0.930],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.738, 0.962, 0.940, 0.981],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [1, 2, 3],\n  \"notes\": \"本页不是典型扫描件，具有可识别文本层与二维码图像；页面主体大面积留白，以浅色 CUH 水印作背景，主要信息集中在页脚区域，包括公司联系方式、二维码和文档编号。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "confidence": 0.78,
+        "image_alt": "整页浅灰色重复的 CUH 标识水印背景，无正文内容",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.081,
+          0.829,
+          0.248,
+          0.942
+        ],
+        "confidence": 0.92,
+        "image_alt": "页面左下方的二维码，二维码中心带有 CUH 标识",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.264,
+          0.828,
+          0.54,
+          0.93
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.738,
+          0.962,
+          0.94,
+          0.981
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      1,
+      2,
+      3
+    ],
+    "notes": "本页不是典型扫描件，具有可识别文本层与二维码图像；页面主体大面积留白，以浅色 CUH 水印作背景，主要信息集中在页脚区域，包括公司联系方式、二维码和文档编号。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.0, 0.0, 1.0, 1.0],\n      \"confidence\": 0.78,\n      \"image_alt\": \"整页浅灰色重复的 CUH 标识水印背景，无正文内容\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.081, 0.829, 0.248, 0.942],\n      \"confidence\": 0.92,\n      \"image_alt\": \"页面左下方的二维码，二维码中心带有 CUH 标识\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.264, 0.828, 0.540, 0.930],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.738, 0.962, 0.940, 0.981],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [1, 2, 3],\n  \"notes\": \"本页不是典型扫描件，具有可识别文本层与二维码图像；页面主体大面积留白，以浅色 CUH 水印作背景，主要信息集中在页脚区域，包括公司联系方式、二维码和文档编号。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780825027,
+    "id": "chatcmpl-Do4EF2F88eSAlCloMK4DRo32LlSzF",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 841,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 12,
+        "engine_ttft_ms": 485,
+        "engine_ttlt_ms": 10940,
+        "pre_inference_ms": 116,
+        "service_tbt_ms": 12,
+        "service_ttft_ms": 844,
+        "service_ttlt_ms": 11294,
+        "total_duration_ms": 11185,
+        "user_visible_ttft_ms": 728
+      },
+      "prompt_tokens": 2415,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3256
+    }
+  }
+}

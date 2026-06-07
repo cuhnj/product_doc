@@ -1,0 +1,758 @@
+schema: cuh.glossary.candidates.v1
+doc_id: cuh.sdvc.manual.v0.0.zh-CN
+doc_key: cuh.sdvc.manual.v0.0
+lang: zh-CN
+source_pdf: /Users/wangle/Documents/Python开发/说明书转换/典型文档/20260311_69_IDP1000447_SDVC42-SD_SMS-CN_3_01-文档发布.pdf
+generated_at: '2026-06-07 17:52:21'
+note: 本文件为转换工具启发式抓取的术语候选，不等同于仓库根目录公司级 glossary/terms.yaml 定稿；审核通过后再合并入主表。
+terms:
+- term_id: auto-0001
+  surface: '1: 封面'
+  lang: zh-CN
+  first_page: 1
+  evidence: pdf_outline
+- term_id: auto-0002
+  surface: '2: 封二版权与免责'
+  lang: zh-CN
+  first_page: 2
+  evidence: pdf_outline
+- term_id: auto-0003
+  surface: '3: 序言'
+  lang: zh-CN
+  first_page: 3
+  evidence: pdf_outline
+- term_id: auto-0004
+  surface: '4: 安全与预防措施'
+  lang: zh-CN
+  first_page: 4
+  evidence: pdf_outline
+- term_id: auto-0005
+  surface: '5: 工作与储存环境'
+  lang: zh-CN
+  first_page: 5
+  evidence: pdf_outline
+- term_id: auto-0006
+  surface: '7: 目录'
+  lang: zh-CN
+  first_page: 7
+  evidence: pdf_outline
+- term_id: auto-0007
+  surface: '8: 目录2'
+  lang: zh-CN
+  first_page: 8
+  evidence: pdf_outline
+- term_id: auto-0008
+  surface: '9: 目录3'
+  lang: zh-CN
+  first_page: 9
+  evidence: pdf_outline
+- term_id: auto-0009
+  surface: '10: 目录4'
+  lang: zh-CN
+  first_page: 10
+  evidence: pdf_outline
+- term_id: auto-0010
+  surface: 第一章 使用前须知
+  lang: zh-CN
+  first_page: 11
+  evidence: pdf_outline
+- term_id: auto-0011
+  surface: 1.1 检查包装内容
+  lang: zh-CN
+  first_page: 11
+  evidence: pdf_outline
+- term_id: auto-0012
+  surface: 1.2 控制器铭牌说明
+  lang: zh-CN
+  first_page: 12
+  evidence: pdf_outline
+- term_id: auto-0013
+  surface: 1.3 控制器使用条件
+  lang: zh-CN
+  first_page: 12
+  evidence: pdf_outline
+- term_id: auto-0014
+  surface: 1.4 说明书导读
+  lang: zh-CN
+  first_page: 13
+  evidence: pdf_outline
+- term_id: auto-0015
+  surface: 第二章 产品介绍
+  lang: zh-CN
+  first_page: 14
+  evidence: pdf_outline
+- term_id: auto-0016
+  surface: 2.1 产品简介
+  lang: zh-CN
+  first_page: 14
+  evidence: pdf_outline
+- term_id: auto-0017
+  surface: 2.2 控制器外观说明
+  lang: zh-CN
+  first_page: 15
+  evidence: pdf_outline
+- term_id: auto-0018
+  surface: 2.3 振动传感器安装指南
+  lang: zh-CN
+  first_page: 16
+  evidence: pdf_outline
+- term_id: auto-0019
+  surface: 2.4 主页参数说明
+  lang: zh-CN
+  first_page: 17
+  evidence: pdf_outline
+- term_id: auto-0020
+  surface: 2.5 接线端口说明
+  lang: zh-CN
+  first_page: 17
+  evidence: pdf_outline
+- term_id: auto-0021
+  surface: 2.6 控制器面板与按键操作
+  lang: zh-CN
+  first_page: 18
+  evidence: pdf_outline
+- term_id: auto-0022
+  surface: 2.7 界面轮转图
+  lang: zh-CN
+  first_page: 18
+  evidence: pdf_outline
+- term_id: auto-0023
+  surface: 第三章 简要功能说明
+  lang: zh-CN
+  first_page: 19
+  evidence: pdf_outline
+- term_id: auto-0024
+  surface: 3.1 安装
+  lang: zh-CN
+  first_page: 19
+  evidence: pdf_outline
+- term_id: auto-0025
+  surface: 3.2 运行
+  lang: zh-CN
+  first_page: 21
+  evidence: pdf_outline
+- term_id: auto-0026
+  surface: 第四章 详细功能说明
+  lang: zh-CN
+  first_page: 23
+  evidence: pdf_outline
+- term_id: auto-0027
+  surface: 4.1 常用参数功能设置
+  lang: zh-CN
+  first_page: 24
+  evidence: pdf_outline
+- term_id: auto-0028
+  surface: 4.1.1 电压
+  lang: zh-CN
+  first_page: 24
+  evidence: pdf_outline
+- term_id: auto-0029
+  surface: 4.1.2 频率
+  lang: zh-CN
+  first_page: 24
+  evidence: pdf_outline
+- term_id: auto-0030
+  surface: 4.1.3 送料速度
+  lang: zh-CN
+  first_page: 25
+  evidence: pdf_outline
+- term_id: auto-0031
+  surface: 4.1.4 缓启时间
+  lang: zh-CN
+  first_page: 25
+  evidence: pdf_outline
+- term_id: auto-0032
+  surface: 缓关时间
+  lang: zh-CN
+  first_page: 25
+  evidence: pdf_outline
+- term_id: auto-0033
+  surface: 4.1.5 最大电压
+  lang: zh-CN
+  first_page: 25
+  evidence: pdf_outline
+- term_id: auto-0034
+  surface: 最大电流
+  lang: zh-CN
+  first_page: 25
+  evidence: pdf_outline
+- term_id: auto-0035
+  surface: 4.1.6 最大输出频率
+  lang: zh-CN
+  first_page: 25
+  evidence: pdf_outline
+- term_id: auto-0036
+  surface: 最低输出频率
+  lang: zh-CN
+  first_page: 25
+  evidence: pdf_outline
+- term_id: auto-0037
+  surface: 4.1.7 负载检测
+  lang: zh-CN
+  first_page: 26
+  evidence: pdf_outline
+- term_id: auto-0038
+  surface: 4.1.8 缺料报警
+  lang: zh-CN
+  first_page: 26
+  evidence: pdf_outline
+- term_id: auto-0039
+  surface: 4.1.9 停机报警
+  lang: zh-CN
+  first_page: 26
+  evidence: pdf_outline
+- term_id: auto-0040
+  surface: 4.1.10 背光亮度
+  lang: zh-CN
+  first_page: 26
+  evidence: pdf_outline
+- term_id: auto-0041
+  surface: 4.1.11 背光熄灭
+  lang: zh-CN
+  first_page: 27
+  evidence: pdf_outline
+- term_id: auto-0042
+  surface: 4.1.12 语言
+  lang: zh-CN
+  first_page: 27
+  evidence: pdf_outline
+- term_id: auto-0043
+  surface: 4.2 自动搜频
+  lang: zh-CN
+  first_page: 27
+  evidence: pdf_outline
+- term_id: auto-0044
+  surface: 4.2.1 搜频界面
+  lang: zh-CN
+  first_page: 27
+  evidence: pdf_outline
+- term_id: auto-0045
+  surface: 4.3 稳速功能
+  lang: zh-CN
+  first_page: 28
+  evidence: pdf_outline
+- term_id: auto-0046
+  surface: 4.3.1 中心频率
+  lang: zh-CN
+  first_page: 28
+  evidence: pdf_outline
+- term_id: auto-0047
+  surface: 4.3.2 频率偏移
+  lang: zh-CN
+  first_page: 28
+  evidence: pdf_outline
+- term_id: auto-0048
+  surface: 4.3.3 频率积分
+  lang: zh-CN
+  first_page: 28
+  evidence: pdf_outline
+- term_id: auto-0049
+  surface: 4.3.4 幅度积分
+  lang: zh-CN
+  first_page: 29
+  evidence: pdf_outline
+- term_id: auto-0050
+  surface: 4.3.5 幅度比例
+  lang: zh-CN
+  first_page: 29
+  evidence: pdf_outline
+- term_id: auto-0051
+  surface: 4.3.6 自动相位
+  lang: zh-CN
+  first_page: 29
+  evidence: pdf_outline
+- term_id: auto-0052
+  surface: 4.3.7 搜频电流
+  lang: zh-CN
+  first_page: 29
+  evidence: pdf_outline
+- term_id: auto-0053
+  surface: 4.3.8 搜频振幅
+  lang: zh-CN
+  first_page: 29
+  evidence: pdf_outline
+- term_id: auto-0054
+  surface: 4.3.9 料速最大
+  lang: zh-CN
+  first_page: 29
+  evidence: pdf_outline
+- term_id: auto-0055
+  surface: 4.3.10 手动相位
+  lang: zh-CN
+  first_page: 29
+  evidence: pdf_outline
+- term_id: auto-0056
+  surface: 4.3.11 电压模式
+  lang: zh-CN
+  first_page: 30
+  evidence: pdf_outline
+- term_id: auto-0057
+  surface: 4.3.12 频率模式
+  lang: zh-CN
+  first_page: 30
+  evidence: pdf_outline
+- term_id: auto-0058
+  surface: 4.3.13 同步源
+  lang: zh-CN
+  first_page: 30
+  evidence: pdf_outline
+- term_id: auto-0059
+  surface: 4.3.14 传感器类
+  lang: zh-CN
+  first_page: 30
+  evidence: pdf_outline
+- term_id: auto-0060
+  surface: 4.3.15 搜频速度
+  lang: zh-CN
+  first_page: 30
+  evidence: pdf_outline
+- term_id: auto-0061
+  surface: 4.4 控制输出功能
+  lang: zh-CN
+  first_page: 31
+  evidence: pdf_outline
+- term_id: auto-0062
+  surface: 4.4.1 主输出参数
+  lang: zh-CN
+  first_page: 31
+  evidence: pdf_outline
+- term_id: auto-0063
+  surface: 4.4.2 控制输出参数
+  lang: zh-CN
+  first_page: 38
+  evidence: pdf_outline
+- term_id: auto-0064
+  surface: 4.5 信号控制功能
+  lang: zh-CN
+  first_page: 40
+  evidence: pdf_outline
+- term_id: auto-0065
+  surface: 4.5.1 端口类型
+  lang: zh-CN
+  first_page: 40
+  evidence: pdf_outline
+- term_id: auto-0066
+  surface: 4.5.2 C口方向
+  lang: zh-CN
+  first_page: 41
+  evidence: pdf_outline
+- term_id: auto-0067
+  surface: E口方向
+  lang: zh-CN
+  first_page: 41
+  evidence: pdf_outline
+- term_id: auto-0068
+  surface: 4.5.3 C开延时
+  lang: zh-CN
+  first_page: 41
+  evidence: pdf_outline
+- term_id: auto-0069
+  surface: C关延时和E开延时
+  lang: zh-CN
+  first_page: 41
+  evidence: pdf_outline
+- term_id: auto-0070
+  surface: E关延时
+  lang: zh-CN
+  first_page: 41
+  evidence: pdf_outline
+- term_id: auto-0071
+  surface: 4.5.4 速A方向
+  lang: zh-CN
+  first_page: 42
+  evidence: pdf_outline
+- term_id: auto-0072
+  surface: 速B方向
+  lang: zh-CN
+  first_page: 42
+  evidence: pdf_outline
+- term_id: auto-0073
+  surface: 4.5.5 速A开延
+  lang: zh-CN
+  first_page: 42
+  evidence: pdf_outline
+- term_id: auto-0074
+  surface: 速A关延和速B开延
+  lang: zh-CN
+  first_page: 42
+  evidence: pdf_outline
+- term_id: auto-0075
+  surface: 速B关延
+  lang: zh-CN
+  first_page: 42
+  evidence: pdf_outline
+- term_id: auto-0076
+  surface: 4.6 计数参数
+  lang: zh-CN
+  first_page: 43
+  evidence: pdf_outline
+- term_id: auto-0077
+  surface: 4.6.1 计数功能（或速度A
+  lang: zh-CN
+  first_page: 43
+  evidence: pdf_outline
+- term_id: auto-0078
+  surface: B）
+  lang: zh-CN
+  first_page: 43
+  evidence: pdf_outline
+- term_id: auto-0079
+  surface: 4.6.2 计数总数
+  lang: zh-CN
+  first_page: 44
+  evidence: pdf_outline
+- term_id: auto-0080
+  surface: 4.6.3 末段速度
+  lang: zh-CN
+  first_page: 44
+  evidence: pdf_outline
+- term_id: auto-0081
+  surface: 4.6.4 末段数量
+  lang: zh-CN
+  first_page: 45
+  evidence: pdf_outline
+- term_id: auto-0082
+  surface: 4.6.5 计数清零
+  lang: zh-CN
+  first_page: 45
+  evidence: pdf_outline
+- term_id: auto-0083
+  surface: 4.6.6 RS优先级
+  lang: zh-CN
+  first_page: 45
+  evidence: pdf_outline
+- term_id: auto-0084
+  surface: 4.7 用户参数保存功能
+  lang: zh-CN
+  first_page: 46
+  evidence: pdf_outline
+- term_id: auto-0085
+  surface: 4.7.1 读出参数
+  lang: zh-CN
+  first_page: 46
+  evidence: pdf_outline
+- term_id: auto-0086
+  surface: 4.7.2 保存参数
+  lang: zh-CN
+  first_page: 46
+  evidence: pdf_outline
+- term_id: auto-0087
+  surface: 4.7.3 复位参数
+  lang: zh-CN
+  first_page: 47
+  evidence: pdf_outline
+- term_id: auto-0088
+  surface: 4.7.4 拷贝参数
+  lang: zh-CN
+  first_page: 47
+  evidence: pdf_outline
+- term_id: auto-0089
+  surface: 4.7.5 用户密码
+  lang: zh-CN
+  first_page: 47
+  evidence: pdf_outline
+- term_id: auto-0090
+  surface: 4.7.6 输入密码
+  lang: zh-CN
+  first_page: 47
+  evidence: pdf_outline
+- term_id: auto-0091
+  surface: 4.8 RS485通信功能
+  lang: zh-CN
+  first_page: 48
+  evidence: pdf_outline
+- term_id: auto-0092
+  surface: 4.8.1 通信类型
+  lang: zh-CN
+  first_page: 48
+  evidence: pdf_outline
+- term_id: auto-0093
+  surface: 4.8.2 波特率
+  lang: zh-CN
+  first_page: 49
+  evidence: pdf_outline
+- term_id: auto-0094
+  surface: 4.8.3 从机号
+  lang: zh-CN
+  first_page: 49
+  evidence: pdf_outline
+- term_id: auto-0095
+  surface: 4.8.4 端口电阻
+  lang: zh-CN
+  first_page: 49
+  evidence: pdf_outline
+- term_id: auto-0096
+  surface: 同步电阻
+  lang: zh-CN
+  first_page: 49
+  evidence: pdf_outline
+- term_id: auto-0097
+  surface: 4.9 CUHBus-DS®组网功能
+  lang: zh-CN
+  first_page: 50
+  evidence: pdf_outline
+- term_id: auto-0098
+  surface: 4.9.1 设备组网
+  lang: zh-CN
+  first_page: 51
+  evidence: pdf_outline
+- term_id: auto-0099
+  surface: 4.9.2 同步功能
+  lang: zh-CN
+  first_page: 55
+  evidence: pdf_outline
+- term_id: auto-0100
+  surface: 4.9.3 信号共享功能
+  lang: zh-CN
+  first_page: 61
+  evidence: pdf_outline
+- term_id: auto-0101
+  surface: 4.9.4 数据备份功能
+  lang: zh-CN
+  first_page: 63
+  evidence: pdf_outline
+- term_id: auto-0102
+  surface: 4.9.5 遥控数据
+  lang: zh-CN
+  first_page: 64
+  evidence: pdf_outline
+- term_id: auto-0103
+  surface: 4.10 系统运行监控功能
+  lang: zh-CN
+  first_page: 64
+  evidence: pdf_outline
+- term_id: auto-0104
+  surface: 4.11 运行故障日志查询
+  lang: zh-CN
+  first_page: 65
+  evidence: pdf_outline
+- term_id: auto-0105
+  surface: 4.12 自定义主页
+  lang: zh-CN
+  first_page: 65
+  evidence: pdf_outline
+- term_id: auto-0106
+  surface: 第五章 典型应用
+  lang: zh-CN
+  first_page: 66
+  evidence: pdf_outline
+- term_id: auto-0107
+  surface: 5.1 如何实现两台振动盘保持频率一致运行？
+  lang: zh-CN
+  first_page: 66
+  evidence: pdf_outline
+- term_id: auto-0108
+  surface: "5.2 如何实现一台控制器的C口传感器信号控制另外一台控 \n制器的启停？"
+  lang: zh-CN
+  first_page: 67
+  evidence: pdf_outline
+- term_id: auto-0109
+  surface: 5.3 如何实现一台直振控制器和圆盘控制器保持同步启停？
+  lang: zh-CN
+  first_page: 68
+  evidence: pdf_outline
+- term_id: auto-0110
+  surface: 第六章 常见问题解答
+  lang: zh-CN
+  first_page: 69
+  evidence: pdf_outline
+- term_id: auto-0111
+  surface: 6.1 打开开关
+  lang: zh-CN
+  first_page: 69
+  evidence: pdf_outline
+- term_id: auto-0112
+  surface: 没有显示
+  lang: zh-CN
+  first_page: 69
+  evidence: pdf_outline
+- term_id: auto-0113
+  surface: 6.2 有显示
+  lang: zh-CN
+  first_page: 69
+  evidence: pdf_outline
+- term_id: auto-0114
+  surface: 但是振动盘不动
+  lang: zh-CN
+  first_page: 69
+  evidence: pdf_outline
+- term_id: auto-0115
+  surface: 也没有声音
+  lang: zh-CN
+  first_page: 69
+  evidence: pdf_outline
+- term_id: auto-0116
+  surface: 6.3 控制信号不起作用
+  lang: zh-CN
+  first_page: 69
+  evidence: pdf_outline
+- term_id: auto-0117
+  surface: 6.4 有显示
+  lang: zh-CN
+  first_page: 69
+  evidence: pdf_outline
+- term_id: auto-0118
+  surface: 振动盘不动
+  lang: zh-CN
+  first_page: 69
+  evidence: pdf_outline
+- term_id: auto-0119
+  surface: 但是可以听到声音
+  lang: zh-CN
+  first_page: 69
+  evidence: pdf_outline
+- term_id: auto-0120
+  surface: 6.5 控制器频率跟踪不稳定
+  lang: zh-CN
+  first_page: 69
+  evidence: pdf_outline
+- term_id: auto-0121
+  surface: 6.6 使用稳速功能
+  lang: zh-CN
+  first_page: 70
+  evidence: pdf_outline
+- term_id: auto-0122
+  surface: 但振动盘速度恢复较慢
+  lang: zh-CN
+  first_page: 70
+  evidence: pdf_outline
+- term_id: auto-0123
+  surface: 6.7 如何实现控制器快速恢复出厂设置
+  lang: zh-CN
+  first_page: 70
+  evidence: pdf_outline
+- term_id: auto-0124
+  surface: 第七章 附录
+  lang: zh-CN
+  first_page: 71
+  evidence: pdf_outline
+- term_id: auto-0125
+  surface: 7.1 外形尺寸图
+  lang: zh-CN
+  first_page: 71
+  evidence: pdf_outline
+- term_id: auto-0126
+  surface: 7.2 技术规格表
+  lang: zh-CN
+  first_page: 72
+  evidence: pdf_outline
+- term_id: auto-0127
+  surface: 7.3 参考标准
+  lang: zh-CN
+  first_page: 73
+  evidence: pdf_outline
+- term_id: auto-0128
+  surface: 7.4 参数列表
+  lang: zh-CN
+  first_page: 74
+  evidence: pdf_outline
+- term_id: auto-0129
+  surface: 7.4.1 界面参数组
+  lang: zh-CN
+  first_page: 74
+  evidence: pdf_outline
+- term_id: auto-0130
+  surface: 7.4.2 常用参数组
+  lang: zh-CN
+  first_page: 75
+  evidence: pdf_outline
+- term_id: auto-0131
+  surface: 7.4.3 主输出参数组
+  lang: zh-CN
+  first_page: 76
+  evidence: pdf_outline
+- term_id: auto-0132
+  surface: 7.4.4 稳速参数组
+  lang: zh-CN
+  first_page: 77
+  evidence: pdf_outline
+- term_id: auto-0133
+  surface: 7.4.5 信号输入参数组
+  lang: zh-CN
+  first_page: 78
+  evidence: pdf_outline
+- term_id: auto-0134
+  surface: 7.4.6 控制输出参数组
+  lang: zh-CN
+  first_page: 79
+  evidence: pdf_outline
+- term_id: auto-0135
+  surface: 7.4.7 计数参数组
+  lang: zh-CN
+  first_page: 80
+  evidence: pdf_outline
+- term_id: auto-0136
+  surface: 7.4.8 通信参数组
+  lang: zh-CN
+  first_page: 81
+  evidence: pdf_outline
+- term_id: auto-0137
+  surface: 7.4.9 保存参数组
+  lang: zh-CN
+  first_page: 82
+  evidence: pdf_outline
+- term_id: auto-0138
+  surface: 7.4.10 监控参数组
+  lang: zh-CN
+  first_page: 83
+  evidence: pdf_outline
+- term_id: auto-0139
+  surface: 7.4.11 附表
+  lang: zh-CN
+  first_page: 84
+  evidence: pdf_outline
+- term_id: auto-0140
+  surface: 7.5 输入输出电路图
+  lang: zh-CN
+  first_page: 86
+  evidence: pdf_outline
+- term_id: auto-0141
+  surface: 7.6 故障代码
+  lang: zh-CN
+  first_page: 88
+  evidence: pdf_outline
+- term_id: auto-0142
+  surface: 7.7 警告代码
+  lang: zh-CN
+  first_page: 89
+  evidence: pdf_outline
+- term_id: auto-0143
+  surface: 第八章 产品质保信息
+  lang: zh-CN
+  first_page: 90
+  evidence: pdf_outline
+- term_id: auto-0144
+  surface: 8.1 质保期
+  lang: zh-CN
+  first_page: 90
+  evidence: pdf_outline
+- term_id: auto-0145
+  surface: 8.2 保修范围
+  lang: zh-CN
+  first_page: 90
+  evidence: pdf_outline
+- term_id: auto-0146
+  surface: 8.3 产品适用性
+  lang: zh-CN
+  first_page: 90
+  evidence: pdf_outline
+- term_id: auto-0147
+  surface: SDVC42
+  lang: zh-CN
+  first_page: 1
+  evidence: regex_product
+- term_id: auto-0148
+  surface: Modbus
+  lang: zh-CN
+  first_page: 14
+  evidence: regex_fieldbus
+- term_id: auto-0149
+  surface: RS485
+  lang: zh-CN
+  first_page: 14
+  evidence: regex_fieldbus
+- term_id: auto-0150
+  surface: SDVC311
+  lang: zh-CN
+  first_page: 68
+  evidence: regex_product

@@ -1,0 +1,175 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 38,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-07T17:55:53",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=38。\n\n【目录/书签上下文（节选）】\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯及按键说明（第 10 页）\n  - 1.3 外部部件说明（第 11 页）\n  - 1.4 接线端口说明（第 12 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 产品介绍（第 13 页）\n  - 2.1 产品简介（第 13 页）\n  - 2.2 产品性能提升（第 13 页）\n  - 2.3 产品现代/传统界面（第 14 页）\n- 第三章 安装及使用指南",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.071,\n        0.050,\n        0.930,\n        0.075\n      ],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.072,\n        0.163,\n        0.356,\n        0.187\n      ],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.117,\n        0.197,\n        0.919,\n        0.237\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.093,\n        0.261,\n        0.885,\n        0.399\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.091,\n        0.407,\n        0.354,\n        0.426\n      ],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [\n        0.092,\n        0.431,\n        0.906,\n        0.843\n      ],\n      \"confidence\": 0.97,\n      \"caption\": \"密码锁参数值遵循421码规则\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.091,\n        0.856,\n        0.907,\n        0.914\n      ],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.091,\n        0.926,\n        0.613,\n        0.941\n      ],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.071,\n        0.958,\n        0.930,\n        0.982\n      ],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5,\n    6,\n    7,\n    8\n  ],\n  \"notes\": \"本页为PDF渲染页，非扫描件；以文字说明和一张参数密码锁规则表为主。页面背景有浅色CUH水印，不属于主要说明内容。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.05,
+          0.93,
+          0.075
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.163,
+          0.356,
+          0.187
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.117,
+          0.197,
+          0.919,
+          0.237
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.093,
+          0.261,
+          0.885,
+          0.399
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.091,
+          0.407,
+          0.354,
+          0.426
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.092,
+          0.431,
+          0.906,
+          0.843
+        ],
+        "confidence": 0.97,
+        "caption": "密码锁参数值遵循421码规则",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.091,
+          0.856,
+          0.907,
+          0.914
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.091,
+          0.926,
+          0.613,
+          0.941
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.958,
+          0.93,
+          0.982
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "notes": "本页为PDF渲染页，非扫描件；以文字说明和一张参数密码锁规则表为主。页面背景有浅色CUH水印，不属于主要说明内容。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.071,\n        0.050,\n        0.930,\n        0.075\n      ],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.072,\n        0.163,\n        0.356,\n        0.187\n      ],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.117,\n        0.197,\n        0.919,\n        0.237\n      ],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.093,\n        0.261,\n        0.885,\n        0.399\n      ],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.091,\n        0.407,\n        0.354,\n        0.426\n      ],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [\n        0.092,\n        0.431,\n        0.906,\n        0.843\n      ],\n      \"confidence\": 0.97,\n      \"caption\": \"密码锁参数值遵循421码规则\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.091,\n        0.856,\n        0.907,\n        0.914\n      ],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [\n        0.091,\n        0.926,\n        0.613,\n        0.941\n      ],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.071,\n        0.958,\n        0.930,\n        0.982\n      ],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [\n    0,\n    1,\n    2,\n    3,\n    4,\n    5,\n    6,\n    7,\n    8\n  ],\n  \"notes\": \"本页为PDF渲染页，非扫描件；以文字说明和一张参数密码锁规则表为主。页面背景有浅色CUH水印，不属于主要说明内容。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780826140,
+    "id": "chatcmpl-Do4WCQcvYDRKJ7YbQRXdpJW1yjpZB",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1133,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 10,
+        "engine_ttft_ms": 720,
+        "engine_ttlt_ms": 11938,
+        "pre_inference_ms": 131,
+        "service_tbt_ms": 10,
+        "service_ttft_ms": 1299,
+        "service_ttlt_ms": 12477,
+        "total_duration_ms": 12353,
+        "user_visible_ttft_ms": 1167
+      },
+      "prompt_tokens": 3001,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4134
+    }
+  }
+}

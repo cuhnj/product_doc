@@ -1,0 +1,200 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 22,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-07T17:55:02",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=22。\n\n【目录/书签上下文（节选）】\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯及按键说明（第 10 页）\n  - 1.3 外部部件说明（第 11 页）\n  - 1.4 接线端口说明（第 12 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 产品介绍（第 13 页）\n  - 2.1 产品简介（第 13 页）\n  - 2.2 产品性能提升（第 13 页）\n  - 2.3 产品现代/传统界面（第 14 页）\n- 第三章 安装及使用指南",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.050, 0.933, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.160, 0.760, 0.188],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.203, 0.930, 0.265],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.276, 0.932, 0.586],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.500, 0.336, 0.845, 0.548],\n      \"confidence\": 0.95,\n      \"image_alt\": \"控制器面板示意图，数码屏显示 J 和 0.2，旁边标注“J 表示智能光电开延时”和“开延时指示灯”，手指指向右侧上下调节键。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.093, 0.563, 0.825, 0.584],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.602, 0.932, 0.902],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.500, 0.660, 0.845, 0.872],\n      \"confidence\": 0.95,\n      \"image_alt\": \"控制器面板示意图，数码屏显示 L 和 0.2，旁边标注“L 表示智能光电关延时”和“关延时指示灯”，手指指向右侧上下调节键。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.093, 0.884, 0.825, 0.905],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.916, 0.920, 0.952],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.958, 0.933, 0.982],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n  \"notes\": \"本页为带文本层的说明书页面，并非纯扫描件。页面以文字说明为主，包含两处控制器面板示意图，分别说明智能光电开延时 J 与关延时 L 的设置界面和指示灯位置。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.072,
+          0.05,
+          0.933,
+          0.075
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.16,
+          0.76,
+          0.188
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.203,
+          0.93,
+          0.265
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.276,
+          0.932,
+          0.586
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.5,
+          0.336,
+          0.845,
+          0.548
+        ],
+        "confidence": 0.95,
+        "image_alt": "控制器面板示意图，数码屏显示 J 和 0.2，旁边标注“J 表示智能光电开延时”和“开延时指示灯”，手指指向右侧上下调节键。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.093,
+          0.563,
+          0.825,
+          0.584
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.072,
+          0.602,
+          0.932,
+          0.902
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.5,
+          0.66,
+          0.845,
+          0.872
+        ],
+        "confidence": 0.95,
+        "image_alt": "控制器面板示意图，数码屏显示 L 和 0.2，旁边标注“L 表示智能光电关延时”和“关延时指示灯”，手指指向右侧上下调节键。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.093,
+          0.884,
+          0.825,
+          0.905
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.916,
+          0.92,
+          0.952
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.958,
+          0.933,
+          0.982
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "notes": "本页为带文本层的说明书页面，并非纯扫描件。页面以文字说明为主，包含两处控制器面板示意图，分别说明智能光电开延时 J 与关延时 L 的设置界面和指示灯位置。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.050, 0.933, 0.075],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.160, 0.760, 0.188],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.203, 0.930, 0.265],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.276, 0.932, 0.586],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.500, 0.336, 0.845, 0.548],\n      \"confidence\": 0.95,\n      \"image_alt\": \"控制器面板示意图，数码屏显示 J 和 0.2，旁边标注“J 表示智能光电开延时”和“开延时指示灯”，手指指向右侧上下调节键。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.093, 0.563, 0.825, 0.584],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.072, 0.602, 0.932, 0.902],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.500, 0.660, 0.845, 0.872],\n      \"confidence\": 0.95,\n      \"image_alt\": \"控制器面板示意图，数码屏显示 L 和 0.2，旁边标注“L 表示智能光电关延时”和“关延时指示灯”，手指指向右侧上下调节键。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.093, 0.884, 0.825, 0.905],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.916, 0.920, 0.952],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.958, 0.933, 0.982],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],\n  \"notes\": \"本页为带文本层的说明书页面，并非纯扫描件。页面以文字说明为主，包含两处控制器面板示意图，分别说明智能光电开延时 J 与关延时 L 的设置界面和指示灯位置。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780826088,
+    "id": "chatcmpl-Do4VM4hwQnRV7MADR13t4YoGREkAO",
+    "model": "gpt-5.5-2026-04-23",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1220,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 451,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 10,
+        "engine_ttft_ms": 577,
+        "engine_ttlt_ms": 12591,
+        "pre_inference_ms": 152,
+        "service_tbt_ms": 10,
+        "service_ttft_ms": 960,
+        "service_ttlt_ms": 12969,
+        "total_duration_ms": 12825,
+        "user_visible_ttft_ms": 808
+      },
+      "prompt_tokens": 2880,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4100
+    }
+  }
+}

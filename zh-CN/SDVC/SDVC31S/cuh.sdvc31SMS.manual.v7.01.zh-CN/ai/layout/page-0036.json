@@ -1,0 +1,158 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 36,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-07T17:36:56",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=36。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 6: 空白页（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯及按键说明（第 10 页）\n  - 1.3 外部部件说明（第 11 页）\n  - 1.4 接线端口说明（第 12 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 性能特点（第 13 页）\n- 第三章 安装及使用指南（第 15 页）\n  - 3.1 控制器使用条件（第 15 页）\n  - 3.",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.052, 0.930, 0.074],\n      \"confidence\": 0.90,\n      \"text\": \"页眉：左侧为“数字调频振动送料控制器”，右侧为“SDVC31 系列”，下方有横线\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.162, 0.280, 0.184],\n      \"confidence\": 0.98,\n      \"text\": \"5.8 加速指数\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.196, 0.925, 0.260],\n      \"confidence\": 0.96,\n      \"text\": \"说明控制器可通过牺牲输出波形的正弦特性达到一定程度的加速效果；进入加速状态时输出电流波形由正弦波变成三角波，加速指示灯点亮；可通过设置高级参数“加速指数 y”的参数值控制加速功能作用。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.277, 0.785, 0.297],\n      \"confidence\": 0.97,\n      \"text\": \"加速指数（y）：表示输出电压最大可以达到输入电压的百分比。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.310, 0.932, 0.620],\n      \"confidence\": 0.95,\n      \"image_alt\": \"带圆角边框的示意图，中间为 SDVC31-M 控制器面板，显示数值 150；左侧标注“y 表示加速指数”，右侧标注“默认值设置为150”；底部文字说明本系列控制器加速指数调节范围为 100～150，调整精度 1。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.073, 0.672, 0.905, 0.865],\n      \"confidence\": 0.94,\n      \"image_alt\": \"两幅电流随时间变化的波形示意图。左图为近似正弦波形，纵轴标注“电流”，横轴标注“时间”；右图为三角波形，纵轴标注“电流”，横轴标注“时间”。\",\n      \"caption\": \"加速指数设置为150示意图\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.952, 0.930, 0.975],\n      \"confidence\": 0.93,\n      \"text\": \"页脚：2026-03、-28-、SDVC31SMSCN_7.01，上方有横线\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页为 PDF 渲染页，文本层可识别，不像纯扫描件。页面以文字说明结合示意图为主，包含控制器参数设置示意和波形对比图；背景有淡色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.072,
+          0.052,
+          0.93,
+          0.074
+        ],
+        "confidence": 0.9,
+        "text": "页眉：左侧为“数字调频振动送料控制器”，右侧为“SDVC31 系列”，下方有横线",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.162,
+          0.28,
+          0.184
+        ],
+        "confidence": 0.98,
+        "text": "5.8 加速指数",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.196,
+          0.925,
+          0.26
+        ],
+        "confidence": 0.96,
+        "text": "说明控制器可通过牺牲输出波形的正弦特性达到一定程度的加速效果；进入加速状态时输出电流波形由正弦波变成三角波，加速指示灯点亮；可通过设置高级参数“加速指数 y”的参数值控制加速功能作用。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.277,
+          0.785,
+          0.297
+        ],
+        "confidence": 0.97,
+        "text": "加速指数（y）：表示输出电压最大可以达到输入电压的百分比。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.071,
+          0.31,
+          0.932,
+          0.62
+        ],
+        "confidence": 0.95,
+        "image_alt": "带圆角边框的示意图，中间为 SDVC31-M 控制器面板，显示数值 150；左侧标注“y 表示加速指数”，右侧标注“默认值设置为150”；底部文字说明本系列控制器加速指数调节范围为 100～150，调整精度 1。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.073,
+          0.672,
+          0.905,
+          0.865
+        ],
+        "confidence": 0.94,
+        "image_alt": "两幅电流随时间变化的波形示意图。左图为近似正弦波形，纵轴标注“电流”，横轴标注“时间”；右图为三角波形，纵轴标注“电流”，横轴标注“时间”。",
+        "caption": "加速指数设置为150示意图",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.073,
+          0.952,
+          0.93,
+          0.975
+        ],
+        "confidence": 0.93,
+        "text": "页脚：2026-03、-28-、SDVC31SMSCN_7.01，上方有横线",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "notes": "本页为 PDF 渲染页，文本层可识别，不像纯扫描件。页面以文字说明结合示意图为主，包含控制器参数设置示意和波形对比图；背景有淡色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.072, 0.052, 0.930, 0.074],\n      \"confidence\": 0.90,\n      \"text\": \"页眉：左侧为“数字调频振动送料控制器”，右侧为“SDVC31 系列”，下方有横线\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.162, 0.280, 0.184],\n      \"confidence\": 0.98,\n      \"text\": \"5.8 加速指数\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.196, 0.925, 0.260],\n      \"confidence\": 0.96,\n      \"text\": \"说明控制器可通过牺牲输出波形的正弦特性达到一定程度的加速效果；进入加速状态时输出电流波形由正弦波变成三角波，加速指示灯点亮；可通过设置高级参数“加速指数 y”的参数值控制加速功能作用。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.277, 0.785, 0.297],\n      \"confidence\": 0.97,\n      \"text\": \"加速指数（y）：表示输出电压最大可以达到输入电压的百分比。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.071, 0.310, 0.932, 0.620],\n      \"confidence\": 0.95,\n      \"image_alt\": \"带圆角边框的示意图，中间为 SDVC31-M 控制器面板，显示数值 150；左侧标注“y 表示加速指数”，右侧标注“默认值设置为150”；底部文字说明本系列控制器加速指数调节范围为 100～150，调整精度 1。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.073, 0.672, 0.905, 0.865],\n      \"confidence\": 0.94,\n      \"image_alt\": \"两幅电流随时间变化的波形示意图。左图为近似正弦波形，纵轴标注“电流”，横轴标注“时间”；右图为三角波形，纵轴标注“电流”，横轴标注“时间”。\",\n      \"caption\": \"加速指数设置为150示意图\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.952, 0.930, 0.975],\n      \"confidence\": 0.93,\n      \"text\": \"页脚：2026-03、-28-、SDVC31SMSCN_7.01，上方有横线\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页为 PDF 渲染页，文本层可识别，不像纯扫描件。页面以文字说明结合示意图为主，包含控制器参数设置示意和波形对比图；背景有淡色 CUH 水印。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780824999,
+    "id": "chatcmpl-Do4DnyeOyTkt9l6s3T6e83pLVOW8l",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1502,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 696,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 11,
+        "engine_ttft_ms": 401,
+        "engine_ttlt_ms": 16609,
+        "pre_inference_ms": 320,
+        "service_tbt_ms": 11,
+        "service_ttft_ms": 809,
+        "service_ttlt_ms": 17012,
+        "total_duration_ms": 16699,
+        "user_visible_ttft_ms": 490
+      },
+      "prompt_tokens": 2593,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4095
+    }
+  }
+}

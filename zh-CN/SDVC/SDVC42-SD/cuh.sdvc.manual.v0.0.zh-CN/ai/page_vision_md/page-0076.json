@@ -1,0 +1,61 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 76,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-07T17:51:40",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=76。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2.2 控",
+  "assistant_text": "{\n  \"page_markdown\": \"自动高频压电振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42-SD\\n\\n## 7.4.3 主输出参数组\\n\\n| 功能标签 | 参数名 | 显示参数 | 取值范围/枚举项 | 默认值 |\\n|---|---|---|---|---|\\n| P3.01 | 主输出逻辑 | 01.主逻辑 | 与，或，异或，RS | 或 |\\n| P3.02 | 主输出逻辑源一 | 02.主源1 | 见《7.4.11 附表》 | C料满 |\\n| P3.03 | 主输出逻辑源二 | 03.主源2 | 见《7.4.11 附表》 | E料满 |\\n| P3.04 | 主输出开延迟 | 04.主开延迟 | 0.0~99.9 s | 0.2 |\\n| P3.05 | 主输出关延迟 | 05.主关延迟 | 0.0~99.9 s | 0.2 |\\n| P3.06 | 主输出逻辑方向 | 06.主方向 | 常通，常断，开，关 | 常通 |\\n| P3.07 | 主输出模式 | 07.主模式 | 延迟，保持 | 延迟 |\\n| P3.08 | 开机状态 | 08.开机状态 | 开，关，保持 | 开 |\\n| P3.09 | 遥控源 | 09.遥控源 | 面板，20mA，1~5V，0~5V，0~10V，同步 | 面板 |\\n| P3.10 | 遥控系数 | 10.遥控系数 | 0.5~2.0 | 1.0 |\\n\\n2026-02　　　　　　　　　　　　　　　　　-66-　　　　　　　　　　　　　　　　　SDVC42SDSMSCN_3.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "自动高频压电振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42-SD\n\n## 7.4.3 主输出参数组\n\n| 功能标签 | 参数名 | 显示参数 | 取值范围/枚举项 | 默认值 |\n|---|---|---|---|---|\n| P3.01 | 主输出逻辑 | 01.主逻辑 | 与，或，异或，RS | 或 |\n| P3.02 | 主输出逻辑源一 | 02.主源1 | 见《7.4.11 附表》 | C料满 |\n| P3.03 | 主输出逻辑源二 | 03.主源2 | 见《7.4.11 附表》 | E料满 |\n| P3.04 | 主输出开延迟 | 04.主开延迟 | 0.0~99.9 s | 0.2 |\n| P3.05 | 主输出关延迟 | 05.主关延迟 | 0.0~99.9 s | 0.2 |\n| P3.06 | 主输出逻辑方向 | 06.主方向 | 常通，常断，开，关 | 常通 |\n| P3.07 | 主输出模式 | 07.主模式 | 延迟，保持 | 延迟 |\n| P3.08 | 开机状态 | 08.开机状态 | 开，关，保持 | 开 |\n| P3.09 | 遥控源 | 09.遥控源 | 面板，20mA，1~5V，0~5V，0~10V，同步 | 面板 |\n| P3.10 | 遥控系数 | 10.遥控系数 | 0.5~2.0 | 1.0 |\n\n2026-02　　　　　　　　　　　　　　　　　-66-　　　　　　　　　　　　　　　　　SDVC42SDSMSCN_3.01",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"page_markdown\": \"自动高频压电振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC42-SD\\n\\n## 7.4.3 主输出参数组\\n\\n| 功能标签 | 参数名 | 显示参数 | 取值范围/枚举项 | 默认值 |\\n|---|---|---|---|---|\\n| P3.01 | 主输出逻辑 | 01.主逻辑 | 与，或，异或，RS | 或 |\\n| P3.02 | 主输出逻辑源一 | 02.主源1 | 见《7.4.11 附表》 | C料满 |\\n| P3.03 | 主输出逻辑源二 | 03.主源2 | 见《7.4.11 附表》 | E料满 |\\n| P3.04 | 主输出开延迟 | 04.主开延迟 | 0.0~99.9 s | 0.2 |\\n| P3.05 | 主输出关延迟 | 05.主关延迟 | 0.0~99.9 s | 0.2 |\\n| P3.06 | 主输出逻辑方向 | 06.主方向 | 常通，常断，开，关 | 常通 |\\n| P3.07 | 主输出模式 | 07.主模式 | 延迟，保持 | 延迟 |\\n| P3.08 | 开机状态 | 08.开机状态 | 开，关，保持 | 开 |\\n| P3.09 | 遥控源 | 09.遥控源 | 面板，20mA，1~5V，0~5V，0~10V，同步 | 面板 |\\n| P3.10 | 遥控系数 | 10.遥控系数 | 0.5~2.0 | 1.0 |\\n\\n2026-02　　　　　　　　　　　　　　　　　-66-　　　　　　　　　　　　　　　　　SDVC42SDSMSCN_3.01\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780825886,
+    "id": "chatcmpl-Do4S6lkdQqn1kyxoWF9RtjTGpSaGV",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1498,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 9,
+        "engine_ttft_ms": 321,
+        "engine_ttlt_ms": 13595,
+        "pre_inference_ms": 119,
+        "service_tbt_ms": 9,
+        "service_ttft_ms": 553,
+        "service_ttlt_ms": 13824,
+        "total_duration_ms": 13712,
+        "user_visible_ttft_ms": 434
+      },
+      "prompt_tokens": 4299,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5797
+    }
+  }
+}

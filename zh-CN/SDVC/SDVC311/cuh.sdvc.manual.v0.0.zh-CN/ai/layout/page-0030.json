@@ -1,0 +1,152 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 30,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-07T17:55:21",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=30。\n\n【目录/书签上下文（节选）】\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯及按键说明（第 10 页）\n  - 1.3 外部部件说明（第 11 页）\n  - 1.4 接线端口说明（第 12 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 产品介绍（第 13 页）\n  - 2.1 产品简介（第 13 页）\n  - 2.2 产品性能提升（第 13 页）\n  - 2.3 产品现代/传统界面（第 14 页）\n- 第三章 安装及使用指南",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.050, 0.932, 0.074],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.161, 0.351, 0.187],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.194, 0.919, 0.292],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.302, 0.422, 0.324],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.073, 0.325, 0.932, 0.946],\n      \"confidence\": 0.95,\n      \"caption\": \"控制输出的接线方法\",\n      \"image_alt\": \"一个带圆角边框的接线说明区域，包含两组继电器与控制器端子排的连接示意。上半部分标题为“NPN输出的连接方式”，下半部分标题为“PNP或推挽输出的连接方式”。右侧端子排标有A1、A2、A3、B1、B2、B3、B4、C1、C2、C3、D1、D2，并按功能分组标注遥控调速、智能光电、料满停机、控制输出。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.089, 0.897, 0.912, 0.935],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.954, 0.920, 0.977],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页看起来是由PDF直接渲染的页面，含可提取文本层，并非单纯扫描件。页面主体为5.4“控制输出功能”和5.4.1接线方法，图示区域占比较大，包含NPN输出、PNP或推挽输出的继电器接线示意及底部注意说明。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.071,
+          0.05,
+          0.932,
+          0.074
+        ],
+        "confidence": 0.86,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.161,
+          0.351,
+          0.187
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.194,
+          0.919,
+          0.292
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.302,
+          0.422,
+          0.324
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.073,
+          0.325,
+          0.932,
+          0.946
+        ],
+        "confidence": 0.95,
+        "caption": "控制输出的接线方法",
+        "image_alt": "一个带圆角边框的接线说明区域，包含两组继电器与控制器端子排的连接示意。上半部分标题为“NPN输出的连接方式”，下半部分标题为“PNP或推挽输出的连接方式”。右侧端子排标有A1、A2、A3、B1、B2、B3、B4、C1、C2、C3、D1、D2，并按功能分组标注遥控调速、智能光电、料满停机、控制输出。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.089,
+          0.897,
+          0.912,
+          0.935
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.954,
+          0.92,
+          0.977
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "notes": "本页看起来是由PDF直接渲染的页面，含可提取文本层，并非单纯扫描件。页面主体为5.4“控制输出功能”和5.4.1接线方法，图示区域占比较大，包含NPN输出、PNP或推挽输出的继电器接线示意及底部注意说明。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.071, 0.050, 0.932, 0.074],\n      \"confidence\": 0.86\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.161, 0.351, 0.187],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.194, 0.919, 0.292],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.302, 0.422, 0.324],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.073, 0.325, 0.932, 0.946],\n      \"confidence\": 0.95,\n      \"caption\": \"控制输出的接线方法\",\n      \"image_alt\": \"一个带圆角边框的接线说明区域，包含两组继电器与控制器端子排的连接示意。上半部分标题为“NPN输出的连接方式”，下半部分标题为“PNP或推挽输出的连接方式”。右侧端子排标有A1、A2、A3、B1、B2、B3、B4、C1、C2、C3、D1、D2，并按功能分组标注遥控调速、智能光电、料满停机、控制输出。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.089, 0.897, 0.912, 0.935],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.954, 0.920, 0.977],\n      \"confidence\": 0.92\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6],\n  \"notes\": \"本页看起来是由PDF直接渲染的页面，含可提取文本层，并非单纯扫描件。页面主体为5.4“控制输出功能”和5.4.1接线方法，图示区域占比较大，包含NPN输出、PNP或推挽输出的继电器接线示意及底部注意说明。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780826110,
+    "id": "chatcmpl-Do4Viv4wWNIXLGfFk5r8ZuJASyGrk",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1003,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 393,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 10,
+        "engine_ttft_ms": 333,
+        "engine_ttlt_ms": 10573,
+        "pre_inference_ms": 147,
+        "service_tbt_ms": 10,
+        "service_ttft_ms": 582,
+        "service_ttlt_ms": 10789,
+        "total_duration_ms": 10649,
+        "user_visible_ttft_ms": 435
+      },
+      "prompt_tokens": 2682,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3685
+    }
+  }
+}

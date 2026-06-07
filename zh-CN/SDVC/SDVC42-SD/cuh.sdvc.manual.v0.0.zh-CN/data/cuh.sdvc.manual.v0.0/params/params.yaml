@@ -1,0 +1,4453 @@
+schema_version: 1
+doc_id: cuh.sdvc.manual.v0.0.zh-CN
+doc_key: cuh.sdvc.manual.v0.0
+lang: zh-CN
+generated_at: '2026-06-07 17:52:21'
+source:
+  data_index_yaml: index.yaml
+tables:
+- page: 3
+  layout_region_index: 3
+  table_md_path: tables/page-0003-r03.md
+  headers:
+  - UH C  危险
+  - C CUH UH CU CU 表示若不遵守该事项，将导致人员伤亡。
+- page: 27
+  layout_region_index: 5
+  table_md_path: tables/page-0027-r05.md
+  headers:
+  - 参数名
+  - C<br>含义
+- page: 30
+  layout_region_index: 12
+  table_md_path: tables/page-0030-r12.md
+  headers:
+  - CU 参数值
+  - CU H 对应型号
+- page: 37
+  layout_region_index: 1
+  table_md_path: tables/page-0037-r01.md
+  headers:
+  - H 遥控源
+  - H C 远程遥控信号
+- page: 40
+  layout_region_index: 9
+  table_md_path: tables/page-0040-r09.md
+  headers:
+  - H C 参数名
+  - H C CUH  CU 含义
+- page: 41
+  layout_region_index: 3
+  table_md_path: tables/page-0041-r03.md
+  headers:
+  - C CU 。信号流示意 参数名
+  - CUH H CU UH C 意图参考图4.5。 含义
+- page: 42
+  layout_region_index: 5
+  table_md_path: tables/page-0042-r05.md
+  headers:
+  - UH C 组进行设置。默 参数名
+  - C CUH H C CU 默认常通。 含义
+- page: 45
+  layout_region_index: 7
+  table_md_path: tables/page-0045-r07.md
+  headers:
+  - UH UH   用于设置 参数名
+  - UH C CUH H CU 置RS触发器端口优先级。默认同级。 含义
+- page: 46
+  layout_region_index: 6
+  table_md_path: tables/page-0046-r06.md
+  headers:
+  - 参数名
+  - H<br>含义
+- page: 46
+  layout_region_index: 10
+  table_md_path: tables/page-0046-r10.md
+  headers:
+  - CUH 参数保存到
+  - CUH H C C 到“用户1”、“用户2”、“用户3”中。
+- page: 49
+  layout_region_index: 3
+  table_md_path: tables/page-0049-r03.md
+  headers:
+  - UH  参数名
+  - CU UH 含义
+- page: 49
+  layout_region_index: 8
+  table_md_path: tables/page-0049-r08.md
+  headers:
+  - U UH 信端口/数字 参数名
+  - UH C CUH 字同步端口并入匹配电阻（120Ω）功能。 含义
+- page: 52
+  layout_region_index: 7
+  table_md_path: tables/page-0052-r07.md
+  headers:
+  - U UH 通信端口并 参数名
+  - UH C CUH 并入匹配电阻（120Ω）功能，无效或者有 含义
+- page: 56
+  layout_region_index: 3
+  table_md_path: tables/page-0056-r03.md
+  headers:
+  - 工作模式名称
+  - 电压控制方式
+  - 频率控制方式
+  - U<br>是否需要接入传感器
+- page: 58
+  layout_region_index: 3
+  table_md_path: tables/page-0058-r03.md
+  headers:
+  - 工作模式名称
+  - 电压模式
+  - 频率模式
+  - C<br>相位控制
+  - 是否需要接入传感器
+- page: 64
+  layout_region_index: 3
+  table_md_path: tables/page-0064-r03.md
+  headers:
+  - UH C   用户可以选择 ，遥控速度。
+  - H C CUH UH C C 择发送至同步网络上数据源，可选择手动电压，遥控电压，手动速
+- page: 71
+  layout_region_index: 5
+  table_md_path: tables/page-0071-r05.md
+  headers:
+  - H C 公差区间
+  - H C C 公差值
+- page: 72
+  layout_region_index: 2
+  table_md_path: tables/page-0072-r02.md
+  headers:
+  - UH C 7.2 技术规格表
+  - H C C 表
+  - C CU
+  - CUH
+  - UH H
+- page: 73
+  layout_region_index: 2
+  table_md_path: tables/page-0073-r02.md
+  headers:
+  - UH CUH CUH CU H CUH C 7.3 参考标准 自动高频压电振动送料控制器 SDVC42-SD
+  - Col2
+  - Col3
+  - Col4
+  - Col5
+  - Col6
+- page: 74
+  layout_region_index: 3
+  table_md_path: tables/page-0074-r03.md
+  headers:
+  - U<br>功能标签
+  - 参数名
+  - 显示参数
+  - 取值范围/枚举项
+  - 默认值
+- page: 75
+  layout_region_index: 2
+  table_md_path: tables/page-0075-r02.md
+  headers:
+  - UH 功能标签
+  - UH C 参数名
+  - C CU 显示参数
+  - CUH H C 取值范围/枚举项
+  - H C 默认值
+- page: 76
+  layout_region_index: 2
+  table_md_path: tables/page-0076-r02.md
+  headers:
+  - 功能标签
+  - 参数名
+  - 显示参数
+  - U<br>取值范围/枚举项
+  - 默认值
+- page: 77
+  layout_region_index: 2
+  table_md_path: tables/page-0077-r02.md
+  headers:
+  - UH 功能标签
+  - UH C 参数名
+  - C CU 显示参数
+  - CUH H C 取值范围/枚举项
+  - H C 默认值
+- page: 78
+  layout_region_index: 2
+  table_md_path: tables/page-0078-r02.md
+  headers:
+  - 功能标签
+  - 参数名
+  - 显示参数
+  - U<br>取值范围/枚举项
+  - 默认值
+- page: 79
+  layout_region_index: 2
+  table_md_path: tables/page-0079-r02.md
+  headers:
+  - 功能标签
+  - 参数名
+  - 显示参数
+  - U<br>取值范围/枚举项
+  - 默认值
+- page: 80
+  layout_region_index: 2
+  table_md_path: tables/page-0080-r02.md
+  headers:
+  - UH 功能标签
+  - UH C 参数名
+  - C CU 显示参数
+  - CUH H C 取值范围/枚举项
+  - H C 默认值
+- page: 81
+  layout_region_index: 2
+  table_md_path: tables/page-0081-r02.md
+  headers:
+  - UH 功能标签
+  - UH C 参数名
+  - C CU 显示参数
+  - CUH H C 取值范围/枚举项
+  - H C 默认值
+- page: 82
+  layout_region_index: 2
+  table_md_path: tables/page-0082-r02.md
+  headers:
+  - UH 功能标签
+  - UH C 参数名
+  - C CU 显示参数
+  - CUH H C 取值范围/枚举项
+  - H C 默认值
+- page: 83
+  layout_region_index: 2
+  table_md_path: tables/page-0083-r02.md
+  headers:
+  - UH 功能标签
+  - UH C 参数名
+  - C CU 显示参数
+  - CUH H C 取值范围/枚举项
+  - H C 默认值
+- page: 84
+  layout_region_index: 1
+  table_md_path: tables/page-0084-r01.md
+  headers:
+  - UH 功能标签
+  - UH C 参数名
+  - C CU 显示参数
+  - CUH H C 取值范围/枚举项
+  - H C 默认值
+- page: 85
+  layout_region_index: 3
+  table_md_path: tables/page-0085-r03.md
+  headers:
+  - UH C 信号源定
+  - H C C 定义列表如下：
+  - CUH
+- page: 85
+  layout_region_index: 5
+  table_md_path: tables/page-0085-r05.md
+  headers:
+  - C CUH 设备组网状态对照表如下
+  - Col2
+- page: 88
+  layout_region_index: 5
+  table_md_path: tables/page-0088-r05.md
+  headers:
+  - CU 故障代码
+  - U UH 码表
+  - UH
+  - CU H C
+- page: 89
+  layout_region_index: 2
+  table_md_path: tables/page-0089-r02.md
+  headers:
+  - U<br>警告代码
+  - 警告显示
+  - C<br>含义
+  - H<br>排除方法
+items:
+- name: <br>**警告**
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C  危险: <br>**警告**
+    C CUH UH CU CU 表示若不遵守该事项，将导致人员伤亡。: <br> <br> <br>表示若不遵守该事项，可能导致人员伤亡。
+  source_ref:
+    pdf_page: 3
+    layout_region_index: 3
+    table_md_path: tables/page-0003-r03.md
+- name: <br>**小心**
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C  危险: <br>**小心**
+    C CUH UH CU CU 表示若不遵守该事项，将导致人员伤亡。: <br> <br> <br>表示若不遵守该事项，可能导致人员遭受中度或轻微伤害。
+  source_ref:
+    pdf_page: 3
+    layout_region_index: 3
+    table_md_path: tables/page-0003-r03.md
+- name: <br>**注意**
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C  危险: <br>**注意**
+    C CUH UH CU CU 表示若不遵守该事项，将导致人员伤亡。: <br> <br> <br>表示若不遵守该事项，将导致本产品损坏及财产损失。
+  source_ref:
+    pdf_page: 3
+    layout_region_index: 3
+    table_md_path: tables/page-0003-r03.md
+- name: <br>**要点**<br>！
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C  危险: <br>**要点**<br>！
+    C CUH UH CU CU 表示若不遵守该事项，将导致人员伤亡。: <br> <br> <br><br>表示在使用过程中必须要遵守的注意事项和使用限制等。
+  source_ref:
+    pdf_page: 3
+    layout_region_index: 3
+    table_md_path: tables/page-0003-r03.md
+- name: <br><br>英文
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C<br>含义: <br><br> <br><br>英文界面
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 5
+    table_md_path: tables/page-0027-r05.md
+- name: <br><br>中文
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C<br>含义: <br><br> <br><br>中文界面
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 5
+    table_md_path: tables/page-0027-r05.md
+- name: <br><br>德文
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C<br>含义: <br><br> <br><br>德文界面
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 5
+    table_md_path: tables/page-0027-r05.md
+- name: <br> <br>16g
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU H 对应型号: <br> <br>SDVS20-1
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 12
+    table_md_path: tables/page-0030-r12.md
+- name: <br> <br>35g
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU H 对应型号: <br> <br>SDVS20-2
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 12
+    table_md_path: tables/page-0030-r12.md
+- name: <br> <br>50g
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU H 对应型号: <br> <br>SDVS20-3
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 12
+    table_md_path: tables/page-0030-r12.md
+- name: <br> <br>70g
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU H 对应型号: <br> <br>SDVS20-4
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 12
+    table_md_path: tables/page-0030-r12.md
+- name: <br> <br>8g
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU H 对应型号: <br> <br>SDVS203
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 12
+    table_md_path: tables/page-0030-r12.md
+- name: <br> <br>16g
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU H 对应型号: <br> <br>SDVS204
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 12
+    table_md_path: tables/page-0030-r12.md
+- name: <br> <br>32g
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU H 对应型号: <br> <br>SDVS205
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 12
+    table_md_path: tables/page-0030-r12.md
+- name: <br> <br>64g
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU H 对应型号: <br> <br>SDVS206
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 12
+    table_md_path: tables/page-0030-r12.md
+- name: <br> <br> <br>面板
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H 遥控源: <br> <br> <br>面板
+    H C 远程遥控信号: <br> <br>
+  source_ref:
+    pdf_page: 37
+    layout_region_index: 1
+    table_md_path: tables/page-0037-r01.md
+- name: U<br> <br> <br>20mA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H 遥控源: U<br> <br> <br>20mA
+    H C 远程遥控信号: <br> <br> <br> <br>小于2mA
+  source_ref:
+    pdf_page: 37
+    layout_region_index: 1
+    table_md_path: tables/page-0037-r01.md
+- name: U<br> <br> <br>20mA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H 遥控源: U<br> <br> <br>20mA
+    H C 远程遥控信号: <br> <br> <br> <br>2mA~4mA
+  source_ref:
+    pdf_page: 37
+    layout_region_index: 1
+    table_md_path: tables/page-0037-r01.md
+- name: U<br> <br> <br>20mA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H 遥控源: U<br> <br> <br>20mA
+    H C 远程遥控信号: <br> <br> <br> <br>4mA~20mA
+  source_ref:
+    pdf_page: 37
+    layout_region_index: 1
+    table_md_path: tables/page-0037-r01.md
+- name: <br> <br>1~5V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H 遥控源: <br> <br>1~5V
+    H C 远程遥控信号: <br> <br> <br>小于.5<br>0<br>V
+  source_ref:
+    pdf_page: 37
+    layout_region_index: 1
+    table_md_path: tables/page-0037-r01.md
+- name: <br> <br>1~5V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H 遥控源: <br> <br>1~5V
+    H C 远程遥控信号: <br> <br> <br>0.5V~1V
+  source_ref:
+    pdf_page: 37
+    layout_region_index: 1
+    table_md_path: tables/page-0037-r01.md
+- name: <br> <br>1~5V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H 遥控源: <br> <br>1~5V
+    H C 远程遥控信号: <br> <br> <br>1V~5V
+  source_ref:
+    pdf_page: 37
+    layout_region_index: 1
+    table_md_path: tables/page-0037-r01.md
+- name: <br> <br>0~5V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H 遥控源: <br> <br>0~5V
+    H C 远程遥控信号: <br> <br> <br>0V~5V
+  source_ref:
+    pdf_page: 37
+    layout_region_index: 1
+    table_md_path: tables/page-0037-r01.md
+- name: <br>0~10V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H 遥控源: <br>0~10V
+    H C 远程遥控信号: <br> <br>0V~10V
+  source_ref:
+    pdf_page: 37
+    layout_region_index: 1
+    table_md_path: tables/page-0037-r01.md
+- name: <br>同步
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H 遥控源: <br>同步
+    H C 远程遥控信号: <br> <br>数字同步
+  source_ref:
+    pdf_page: 37
+    layout_region_index: 1
+    table_md_path: tables/page-0037-r01.md
+- name: <br> <br>Auto
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH  CU 含义: <br> <br> <br><br>不管传感器类型如何，始终通过变化高低电平检测端口是否接入有效<br>信号，出厂默认值为自动识别
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 9
+    table_md_path: tables/page-0040-r09.md
+- name: <br> <br>NPN
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH  CU 含义: <br> <br> <br><br>NPN型传感器
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 9
+    table_md_path: tables/page-0040-r09.md
+- name: <br> <br>PNP
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH  CU 含义: <br> <br> <br><br>PNP型传感器
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 9
+    table_md_path: tables/page-0040-r09.md
+- name: <br> <br>Ato1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH  CU 含义: <br> <br> <br><br>传感器信号无效前一直通过变换高低电平检测端口是否有效，发现<br>有效信号后确定端口传感器类型且不再扫描
+  source_ref:
+    pdf_page: 40
+    layout_region_index: 9
+    table_md_path: tables/page-0040-r09.md
+- name: 常通
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H CU UH C 意图参考图4.5。 含义: <br><br>没有控制信号时，控制器处于运行状态（料满停机）
+  source_ref:
+    pdf_page: 41
+    layout_region_index: 3
+    table_md_path: tables/page-0041-r03.md
+- name: 常断
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H CU UH C 意图参考图4.5。 含义: <br><br>没有控制信号时，控制器处于停止状态（料空停机）
+  source_ref:
+    pdf_page: 41
+    layout_region_index: 3
+    table_md_path: tables/page-0041-r03.md
+- name: <br> <br>常通
+  symbol: null
+  range: null
+  default: <br> <br><br>没有控制信号时，控制器速度A和速度B无效
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 5
+    table_md_path: tables/page-0042-r05.md
+- name: <br>常断
+  symbol: null
+  range: null
+  default: <br> <br><br>没有控制信号时，控制器速度A和速度B有效
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 42
+    layout_region_index: 5
+    table_md_path: tables/page-0042-r05.md
+- name: <br>同级
+  symbol: null
+  range: null
+  default: <br>H<br>R口和S口具有相同的优先级，当R，S端口都有信号时，控制器报警告<br>“主RS错误”或者“控RS错误”
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 7
+    table_md_path: tables/page-0045-r07.md
+- name: <br>复位
+  symbol: null
+  range: null
+  default: <br> <br><br>复位优先，当R，S端口都有信号时，以R口信号为先，即复位信号优先
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 7
+    table_md_path: tables/page-0045-r07.md
+- name: <br>置位
+  symbol: null
+  range: null
+  default: <br> <br><br>置位优先，当R，S端口都有信号时，以S口信号为先，即置位信号优先
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 7
+    table_md_path: tables/page-0045-r07.md
+- name: <br>取反
+  symbol: null
+  range: null
+  default: <br> <br><br>当R，S端口都有信号时，将当前逻辑输出结果取反
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 45
+    layout_region_index: 7
+    table_md_path: tables/page-0045-r07.md
+- name: <br>无效
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>含义: <br> <br>无效
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 6
+    table_md_path: tables/page-0046-r06.md
+- name: <br>用户1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>含义: <br> <br>用户设定参数1
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 6
+    table_md_path: tables/page-0046-r06.md
+- name: <br>用户2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>含义: <br> <br>用户设定参数2
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 6
+    table_md_path: tables/page-0046-r06.md
+- name: <br>用户3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>含义: <br> <br>用户设定参数3
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 6
+    table_md_path: tables/page-0046-r06.md
+- name: <br> <br>参数名
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H C C 到“用户1”、“用户2”、“用户3”中。: <br> <br><br>含义
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 10
+    table_md_path: tables/page-0046-r10.md
+- name: <br> <br>无效
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H C C 到“用户1”、“用户2”、“用户3”中。: <br> <br><br>无效
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 10
+    table_md_path: tables/page-0046-r10.md
+- name: <br> <br>工作组
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H C C 到“用户1”、“用户2”、“用户3”中。: <br> <br><br>默认工作组
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 10
+    table_md_path: tables/page-0046-r10.md
+- name: <br> <br>用户1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H C C 到“用户1”、“用户2”、“用户3”中。: <br> <br><br>用户设定参数1
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 10
+    table_md_path: tables/page-0046-r10.md
+- name: <br>用户2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H C C 到“用户1”、“用户2”、“用户3”中。: <br><br>用户设定参数2
+  source_ref:
+    pdf_page: 46
+    layout_region_index: 10
+    table_md_path: tables/page-0046-r10.md
+- name: <br>0.3K
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH 含义: <br> <br>0.3 Kbps
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 3
+    table_md_path: tables/page-0049-r03.md
+- name: <br>1.2K
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH 含义: <br> <br>1.2 Kbps
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 3
+    table_md_path: tables/page-0049-r03.md
+- name: <br>2.4K
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH 含义: <br> <br>2.4 Kbps
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 3
+    table_md_path: tables/page-0049-r03.md
+- name: <br>9.6K
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH 含义: <br> <br>9.6 Kbps
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 3
+    table_md_path: tables/page-0049-r03.md
+- name: <br>19.2K
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH 含义: <br> <br>19.2 Kbps
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 3
+    table_md_path: tables/page-0049-r03.md
+- name: <br>57.6K
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH 含义: <br> <br>57.6 Kbps
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 3
+    table_md_path: tables/page-0049-r03.md
+- name: <br>115.2K
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH 含义: <br> <br><br>115.2 Kbps
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 3
+    table_md_path: tables/page-0049-r03.md
+- name: 无效
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 8
+    table_md_path: tables/page-0049-r08.md
+- name: 有效
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 49
+    layout_region_index: 8
+    table_md_path: tables/page-0049-r08.md
+- name: 无效
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 7
+    table_md_path: tables/page-0052-r07.md
+- name: 有效
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 52
+    layout_region_index: 7
+    table_md_path: tables/page-0052-r07.md
+- name: <br>全手动
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    电压控制方式: <br><br>手动
+    频率控制方式: <br><br>手动
+    U<br>是否需要接入传感器: 否
+  source_ref:
+    pdf_page: 56
+    layout_region_index: 3
+    table_md_path: tables/page-0056-r03.md
+- name: <br>全自动
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    电压控制方式: <br><br>自动
+    频率控制方式: <br><br>自动
+    U<br>是否需要接入传感器: 是
+  source_ref:
+    pdf_page: 56
+    layout_region_index: 3
+    table_md_path: tables/page-0056-r03.md
+- name: <br>电压自动
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    电压控制方式: <br><br>自动
+    频率控制方式: <br><br>手动
+    U<br>是否需要接入传感器: 是
+  source_ref:
+    pdf_page: 56
+    layout_region_index: 3
+    table_md_path: tables/page-0056-r03.md
+- name: <br>频率自动
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    电压控制方式: <br><br>手动
+    频率控制方式: <br><br>自动
+    U<br>是否需要接入传感器: 是
+  source_ref:
+    pdf_page: 56
+    layout_region_index: 3
+    table_md_path: tables/page-0056-r03.md
+- name: 自动电压自动相位
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    电压模式: <br>自动
+    频率模式: <br>同步振
+    C<br>相位控制: <br><br>自动
+    是否需要接入传感器: <br><br>是
+  source_ref:
+    pdf_page: 58
+    layout_region_index: 3
+    table_md_path: tables/page-0058-r03.md
+- name: 自动电压手动相位
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    电压模式: <br>自动
+    频率模式: <br>同步电
+    C<br>相位控制: <br><br>手动设定
+    是否需要接入传感器: <br><br>是
+  source_ref:
+    pdf_page: 58
+    layout_region_index: 3
+    table_md_path: tables/page-0058-r03.md
+- name: 手动电压自动相位
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    电压模式: <br>手动
+    频率模式: <br>同步振
+    C<br>相位控制: <br><br>自动
+    是否需要接入传感器: <br><br>是
+  source_ref:
+    pdf_page: 58
+    layout_region_index: 3
+    table_md_path: tables/page-0058-r03.md
+- name: 手动电压手动相位
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    电压模式: <br>手动
+    频率模式: <br>同步电
+    C<br>相位控制: <br><br>手动设定
+    是否需要接入传感器: <br><br>否
+  source_ref:
+    pdf_page: 58
+    layout_region_index: 3
+    table_md_path: tables/page-0058-r03.md
+- name: <br>参数名
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C   用户可以选择 ，遥控速度。: <br>参数名
+    H C CUH UH C C 择发送至同步网络上数据源，可选择手动电压，遥控电压，手动速: <br> <br>含义
+  source_ref:
+    pdf_page: 64
+    layout_region_index: 3
+    table_md_path: tables/page-0064-r03.md
+- name: <br>ManVol
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C   用户可以选择 ，遥控速度。: <br>ManVol
+    H C CUH UH C C 择发送至同步网络上数据源，可选择手动电压，遥控电压，手动速: <br> <br><br>手动电压，指用户面板设定的电压
+  source_ref:
+    pdf_page: 64
+    layout_region_index: 3
+    table_md_path: tables/page-0064-r03.md
+- name: <br>RemVol
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C   用户可以选择 ，遥控速度。: <br>RemVol
+    H C CUH UH C C 择发送至同步网络上数据源，可选择手动电压，遥控电压，手动速: <br> <br><br>遥控电压，指通过遥控调速端口调节的电压
+  source_ref:
+    pdf_page: 64
+    layout_region_index: 3
+    table_md_path: tables/page-0064-r03.md
+- name: <br>ManSpd
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C   用户可以选择 ，遥控速度。: <br>ManSpd
+    H C CUH UH C C 择发送至同步网络上数据源，可选择手动电压，遥控电压，手动速: <br> <br><br>手动速度，指用户面板设定的送料速度
+  source_ref:
+    pdf_page: 64
+    layout_region_index: 3
+    table_md_path: tables/page-0064-r03.md
+- name: <br>RemSpd
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C   用户可以选择 ，遥控速度。: <br>RemSpd
+    H C CUH UH C C 择发送至同步网络上数据源，可选择手动电压，遥控电压，手动速: <br> <br><br>遥控速度，指通过遥控调速端口调节的送料速度
+  source_ref:
+    pdf_page: 64
+    layout_region_index: 3
+    table_md_path: tables/page-0064-r03.md
+- name: <br><br>0~3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C 公差区间: <br><br>0~3
+    H C C 公差值: <br><br>±0.05
+  source_ref:
+    pdf_page: 71
+    layout_region_index: 5
+    table_md_path: tables/page-0071-r05.md
+- name: <br><br>3~10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C 公差区间: <br><br>3~10
+    H C C 公差值: <br><br>±0.1
+  source_ref:
+    pdf_page: 71
+    layout_region_index: 5
+    table_md_path: tables/page-0071-r05.md
+- name: <br><br>10~30
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C 公差区间: <br><br>10~30
+    H C C 公差值: <br><br>±0.15
+  source_ref:
+    pdf_page: 71
+    layout_region_index: 5
+    table_md_path: tables/page-0071-r05.md
+- name: <br><br>30~80
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C 公差区间: <br><br>30~80
+    H C C 公差值: <br><br>±0.2
+  source_ref:
+    pdf_page: 71
+    layout_region_index: 5
+    table_md_path: tables/page-0071-r05.md
+- name: <br><br>80~180
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C 公差区间: <br><br>80~180
+    H C C 公差值: <br><br>±0.3
+  source_ref:
+    pdf_page: 71
+    layout_region_index: 5
+    table_md_path: tables/page-0071-r05.md
+- name: <br><br>>180
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C 公差区间: <br><br>>180
+    H C C 公差值: <br><br>±0.5
+  source_ref:
+    pdf_page: 71
+    layout_region_index: 5
+    table_md_path: tables/page-0071-r05.md
+- name: <br> <br> <br>项目
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br>项目
+    H C C 表: <br> <br> <br>最小值
+    C CU: <br> <br> <br>典型值
+    CUH: <br> <br> <br>最大值
+    UH H: <br> <br> <br>单位
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br>输入电压
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br>输入电压
+    H C C 表: <br> <br> <br>85
+    C CU: <br> <br> <br>220
+    CUH: <br> <br> <br>250
+    UH H: <br> <br> <br>伏特（V）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br>输出电压调整范围
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br>输出电压调整范围
+    H C C 表: <br> <br> <br>0.0
+    C CU: <br> <br> <br>——
+    CUH: <br> <br> <br>50.0
+    UH H: <br> <br> <br>伏特（V）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br>电压调整精度
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br>电压调整精度
+    H C C 表: <br> <br> <br>0.1
+    C CU: <br> <br> <br>0.1
+    CUH: <br> <br> <br>0.1
+    UH H: <br> <br> <br>伏特（V）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br>稳压精度
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br>稳压精度
+    H C C 表: <br> <br> <br>0
+    C CU: <br> <br> <br>——
+    CUH: <br> <br> <br>10
+    UH H: <br> <br> <br>%
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br>输出电流调整范围
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br>输出电流调整范围
+    H C C 表: <br> <br> <br>0
+    C CU: <br> <br> <br>——
+    CUH: <br> <br> <br>600
+    UH H: <br> <br> <br>毫安（mA）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br>输出功率
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br>输出功率
+    H C C 表: <br> <br> <br>0
+    C CU: <br> <br> <br>——
+    CUH: <br> <br> <br>30
+    UH H: <br> <br> <br>伏安（VA）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br>输出频率
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br>输出频率
+    H C C 表: <br> <br> <br>40.0
+    C CU: <br> <br> <br>——
+    CUH: <br> <br> <br>999.9
+    UH H: <br> <br> <br>赫兹（Hz）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br> <br>频率调整精度
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br> <br>频率调整精度
+    H C C 表: <br> <br> <br> <br>0. 1
+    C CU: <br> <br> <br> <br>0. 1
+    CUH: <br> <br> <br> <br>0. 1
+    UH H: <br> <br> <br> <br>赫兹（Hz）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br> <br>输出电压波形
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br> <br>输出电压波形
+    H C C 表: <br> <br> <br> <br>正弦
+    C CU: <br> <br> <br> <br>正弦
+    CUH: <br> <br> <br> <br>正弦
+    UH H: <br> <br> <br>
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br> <br>缓启动时间
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br> <br>缓启动时间
+    H C C 表: <br> <br> <br> <br>0
+    C CU: <br> <br> <br> <br>——
+    CUH: <br> <br> <br> <br>40.0
+    UH H: <br> <br> <br> <br>秒（s）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br> <br>延迟时间范围
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br> <br>延迟时间范围
+    H C C 表: <br> <br> <br> <br>0.0
+    C CU: <br> <br> <br> <br>——
+    CUH: <br> <br> <br> <br>99.9
+    UH H: <br> <br> <br> <br>秒（s）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br> <br>延迟时间精度
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br> <br>延迟时间精度
+    H C C 表: <br> <br> <br> <br>0. 1
+    C CU: <br> <br> <br> <br>0. 1
+    CUH: <br> <br> <br> <br>0. 1
+    UH H: <br> <br> <br> <br>秒（s）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br> <br>过热保护温度
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br> <br>过热保护温度
+    H C C 表: <br> <br> <br> <br>60
+    C CU: <br> <br> <br> <br>65
+    CUH: <br> <br> <br> <br>65
+    UH H: <br> <br> <br> <br>摄氏度（℃）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br>同步通信
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br>同步通信
+    H C C 表: <br> <br> <br>CUHBus-DS®
+    C CU: <br> <br> <br>CUHBus-DS®
+    CUH: <br> <br> <br>CUHBus-DS®
+    UH H: <br> <br>
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br>数字通信
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br>数字通信
+    H C C 表: <br> <br> <br>RS485通信/数字同步通信
+    C CU: <br> <br> <br>RS485通信/数字同步通信
+    CUH: <br> <br> <br>RS485通信/数字同步通信
+    UH H: <br> <br>
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br>直流控制输出电流
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br>直流控制输出电流
+    H C C 表: <br> <br> <br>0
+    C CU: <br> <br> <br>——
+    CUH: <br> <br> <br>350
+    UH H: <br> <br> <br>毫安（mA）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br>直流控制输出电压
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br>直流控制输出电压
+    H C C 表: <br> <br> <br>22
+    C CU: <br> <br> <br> <br>24
+    CUH: <br> <br> <br> <br>26
+    UH H: <br> <br> <br> <br>伏特（V）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br>模拟控制信号
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br>模拟控制信号
+    H C C 表: <br> <br> <br> <br>1~5/0~5/0~10
+    C CU: <br> <br> <br> <br>1~5/0~5/0~10
+    CUH: <br> <br> <br> <br>1~5/0~5/0~10
+    UH H: <br> <br> <br> <br>伏特（V）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br>模拟控制信号
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br>模拟控制信号
+    H C C 表: <br> <br> <br> <br>4~20
+    C CU: <br> <br> <br> <br>4~20
+    CUH: <br> <br> <br> <br>4~20
+    UH H: <br> <br> <br> <br>毫安（mA）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br> <br>数字控制信号
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br> <br>数字控制信号
+    H C C 表: <br> <br> <br> <br>24
+    C CU: <br> <br> <br> <br>24
+    CUH: <br> <br> <br> <br>24
+    UH H: <br> <br> <br> <br>伏特（V）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br>调整方式
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br>调整方式
+    H C C 表: <br> <br> <br>7
+    C CU: <br> <br> <br>7
+    CUH: <br> <br> <br>7
+    UH H: <br> <br> <br>键（button）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br>空载功耗
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br>空载功耗
+    H C C 表: <br> <br>——
+    C CU: <br> <br> <br>——
+    CUH: <br> <br> <br>5
+    UH H: <br> <br> <br>瓦特（W）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br>显示方式
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br>显示方式
+    H C C 表: <br> <br> <br>128*128
+    C CU: <br> <br> <br>128*128
+    CUH: <br> <br> <br>128*128
+    UH H: <br> <br>
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br>防护等级
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br>防护等级
+    H C C 表: <br> <br> <br>IP20
+    C CU: <br> <br> <br>IP20
+    CUH: <br> <br> <br>IP20
+    UH H: <br> <br>
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br>工作环境温度
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br>工作环境温度
+    H C C 表: <br> <br>0
+    C CU: <br> <br> <br>25
+    CUH: <br> <br> <br>40
+    UH H: <br> <br> <br>摄氏度（℃）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br>工作环境湿度
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br>工作环境湿度
+    H C C 表: <br> <br>10
+    C CU: <br> <br> <br>60
+    CUH: <br> <br> <br>85
+    UH H: <br> <br> <br>相对湿度（%）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br>存储环境温度
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 7.2 技术规格表: <br> <br>存储环境温度
+    H C C 表: <br> <br>-20
+    C CU: <br> <br> <br>25
+    CUH: <br> <br> <br>65
+    UH H: <br> <br> <br>摄氏度（℃）
+  source_ref:
+    pdf_page: 72
+    layout_region_index: 2
+    table_md_path: tables/page-0072-r02.md
+- name: <br> <br><br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH CUH CUH CU H CUH C 7.3 参考标准 自动高频压电振动送料控制器 SDVC42-SD: <br> <br><br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+    Col2: <br> <br><br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+    Col3: <br> <br><br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+    Col4: <br> <br><br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+    Col5: <br> <br><br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+    Col6: <br> <br><br>极限参数：超过此指标将会造成严重损坏，必须严格遵守！
+  source_ref:
+    pdf_page: 73
+    layout_region_index: 2
+    table_md_path: tables/page-0073-r02.md
+- name: <br>项目
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH CUH CUH CU H CUH C 7.3 参考标准 自动高频压电振动送料控制器 SDVC42-SD: <br>项目
+    Col2: <br> <br>GB 标准
+    Col3: <br> <br>IEC 标准
+    Col4: <br><br>等级
+    Col5: <br><br>标准要求
+    Col6: <br><br>备注说明
+  source_ref:
+    pdf_page: 73
+    layout_region_index: 2
+    table_md_path: tables/page-0073-r02.md
+- name: <br>静电放电
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH CUH CUH CU H CUH C 7.3 参考标准 自动高频压电振动送料控制器 SDVC42-SD: <br>静电放电
+    Col2: H<br> <br>GB/T 17626.2-2006
+    Col3: <br> <br>IEC 61000-4-2:2001
+    Col4: <br><br>4
+    Col5: <br><br>±8 kV
+    Col6: <br><br>接触放电
+  source_ref:
+    pdf_page: 73
+    layout_region_index: 2
+    table_md_path: tables/page-0073-r02.md
+- name: <br>静电放电
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH CUH CUH CU H CUH C 7.3 参考标准 自动高频压电振动送料控制器 SDVC42-SD: <br>静电放电
+    Col2: H<br> <br>GB/T 17626.2-2006
+    Col3: <br> <br>IEC 61000-4-2:2001
+    Col4: <br><br>4
+    Col5: <br><br>±15 kV
+    Col6: <br><br>空气放电
+  source_ref:
+    pdf_page: 73
+    layout_region_index: 2
+    table_md_path: tables/page-0073-r02.md
+- name: <br>电快速瞬变<br>脉冲群
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH CUH CUH CU H CUH C 7.3 参考标准 自动高频压电振动送料控制器 SDVC42-SD: <br>电快速瞬变<br>脉冲群
+    Col2: <br> <br>GB/T 17626.4-2008
+    Col3: <br> <br>IEC 61000-4-4:2004
+    Col4: <br><br>4
+    Col5: <br><br>±4 kV
+    Col6: <br>
+  source_ref:
+    pdf_page: 73
+    layout_region_index: 2
+    table_md_path: tables/page-0073-r02.md
+- name: <br>直流电源纹<br>波抗扰度
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH CUH CUH CU H CUH C 7.3 参考标准 自动高频压电振动送料控制器 SDVC42-SD: <br>直流电源纹<br>波抗扰度
+    Col2: <br> <br>GB/T 17626.17-2005
+    Col3: <br> <br>IEC 61000-4-17:2002
+    Col4: <br><br>4
+    Col5: <br><br>15%
+    Col6: <br><br>评价 A
+  source_ref:
+    pdf_page: 73
+    layout_region_index: 2
+    table_md_path: tables/page-0073-r02.md
+- name: <br>P1.01
+  symbol: null
+  range: <br> <br> <br>参数组二~参数组十
+  default: <br>P2.01
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 74
+    layout_region_index: 3
+    table_md_path: tables/page-0074-r03.md
+- name: <br>P1.02
+  symbol: null
+  range: <br> <br> <br>参数组二~参数组十
+  default: <br>P10.05
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 74
+    layout_region_index: 3
+    table_md_path: tables/page-0074-r03.md
+- name: <br>P1.03
+  symbol: null
+  range: <br> <br> <br>参数组二~参数组十
+  default: <br>P2.02
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 74
+    layout_region_index: 3
+    table_md_path: tables/page-0074-r03.md
+- name: <br>P1.04
+  symbol: null
+  range: <br> <br> <br>参数组二~参数组十
+  default: <br>P2.03
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 74
+    layout_region_index: 3
+    table_md_path: tables/page-0074-r03.md
+- name: <br>P1.05
+  symbol: null
+  range: <br> <br> <br>参数组二~参数组十
+  default: null
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 74
+    layout_region_index: 3
+    table_md_path: tables/page-0074-r03.md
+- name: <br>P1.06
+  symbol: null
+  range: <br> <br> <br>参数组二~参数组十
+  default: null
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 74
+    layout_region_index: 3
+    table_md_path: tables/page-0074-r03.md
+- name: <br>P1.07
+  symbol: null
+  range: <br> <br> <br>参数组二~参数组十
+  default: null
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 74
+    layout_region_index: 3
+    table_md_path: tables/page-0074-r03.md
+- name: <br>P1.08
+  symbol: null
+  range: <br> <br> <br>参数组二~参数组十
+  default: null
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 74
+    layout_region_index: 3
+    table_md_path: tables/page-0074-r03.md
+- name: <br>P1.09
+  symbol: null
+  range: <br> <br> <br>参数组二~参数组十
+  default: null
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 74
+    layout_region_index: 3
+    table_md_path: tables/page-0074-r03.md
+- name: <br>P1.10
+  symbol: null
+  range: <br> <br> <br><br>参数组二~参数组十
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 74
+    layout_region_index: 3
+    table_md_path: tables/page-0074-r03.md
+- name: <br>P1.11
+  symbol: null
+  range: <br> <br> <br><br>参数组二~参数组十
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 74
+    layout_region_index: 3
+    table_md_path: tables/page-0074-r03.md
+- name: <br>P1.12
+  symbol: null
+  range: <br> <br> <br><br>参数组二~参数组十
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 74
+    layout_region_index: 3
+    table_md_path: tables/page-0074-r03.md
+- name: <br>P1.13
+  symbol: null
+  range: <br> <br> <br><br>参数组二~参数组十
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 74
+    layout_region_index: 3
+    table_md_path: tables/page-0074-r03.md
+- name: <br>P1.14
+  symbol: null
+  range: <br> <br> <br><br>参数组二~参数组十
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 74
+    layout_region_index: 3
+    table_md_path: tables/page-0074-r03.md
+- name: <br>P1.15
+  symbol: null
+  range: <br> <br> <br><br>参数组二~参数组十
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 74
+    layout_region_index: 3
+    table_md_path: tables/page-0074-r03.md
+- name: <br>P1.16
+  symbol: null
+  range: <br> <br> <br><br>参数组二~参数组十
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 74
+    layout_region_index: 3
+    table_md_path: tables/page-0074-r03.md
+- name: <br> <br>P2.01
+  symbol: null
+  range: <br> <br> <br>0~3200
+  default: <br> <br>50
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 75
+    layout_region_index: 2
+    table_md_path: tables/page-0075-r02.md
+- name: <br> <br>P2.02
+  symbol: null
+  range: <br> <br> <br>0.0~50.0 V
+  default: <br> <br>20.0
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 75
+    layout_region_index: 2
+    table_md_path: tables/page-0075-r02.md
+- name: <br> <br>P2.03
+  symbol: null
+  range: <br> <br> <br>40.0~999.9 Hz
+  default: <br> <br>50.0
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 75
+    layout_region_index: 2
+    table_md_path: tables/page-0075-r02.md
+- name: <br> <br>P2.04
+  symbol: null
+  range: <br> <br> <br>0.0~40.0 s
+  default: <br> <br>0.5
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 75
+    layout_region_index: 2
+    table_md_path: tables/page-0075-r02.md
+- name: <br> <br>P2.05
+  symbol: null
+  range: <br> <br> <br>0.0~40.0 s
+  default: <br> <br>0.5
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 75
+    layout_region_index: 2
+    table_md_path: tables/page-0075-r02.md
+- name: <br> <br>P2.06
+  symbol: null
+  range: <br> <br> <br>0.0~50.0 V
+  default: <br> <br>50.0
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 75
+    layout_region_index: 2
+    table_md_path: tables/page-0075-r02.md
+- name: <br> <br>P2.07
+  symbol: null
+  range: <br> <br> <br>0~600 mA
+  default: <br> <br>600
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 75
+    layout_region_index: 2
+    table_md_path: tables/page-0075-r02.md
+- name: <br> <br>P2.08
+  symbol: null
+  range: <br> <br> <br>40.0~999.9 Hz
+  default: <br> <br>999.9
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 75
+    layout_region_index: 2
+    table_md_path: tables/page-0075-r02.md
+- name: <br> <br>P2.09
+  symbol: null
+  range: <br> <br> <br>40.0~999.9 Hz
+  default: <br> <br>40.0
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 75
+    layout_region_index: 2
+    table_md_path: tables/page-0075-r02.md
+- name: <br>P2.10
+  symbol: null
+  range: <br> <br> <br>无效，有效
+  default: <br> <br>无效
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 75
+    layout_region_index: 2
+    table_md_path: tables/page-0075-r02.md
+- name: <br>P2.11
+  symbol: null
+  range: <br> <br> <br>0~3000
+  default: <br> <br>0
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 75
+    layout_region_index: 2
+    table_md_path: tables/page-0075-r02.md
+- name: <br>P2.12
+  symbol: null
+  range: <br> <br> <br>无效，音效1，音效2，音效3
+  default: <br> <br>无效
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 75
+    layout_region_index: 2
+    table_md_path: tables/page-0075-r02.md
+- name: <br>P2.13
+  symbol: null
+  range: <br> <br> <br><br>20~100
+  default: <br> <br><br>100
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 75
+    layout_region_index: 2
+    table_md_path: tables/page-0075-r02.md
+- name: <br>P2.14
+  symbol: null
+  range: <br> <br> <br><br>1~30 min，31(常亮)
+  default: <br> <br><br>5
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 75
+    layout_region_index: 2
+    table_md_path: tables/page-0075-r02.md
+- name: <br>P2.15
+  symbol: null
+  range: <br> <br> <br><br>英文，中文，德文
+  default: <br> <br><br>中文
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 75
+    layout_region_index: 2
+    table_md_path: tables/page-0075-r02.md
+- name: <br> <br>P3.01
+  symbol: null
+  range: <br> <br><br>与，或，异或，RS
+  default: <br><br>或
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 76
+    layout_region_index: 2
+    table_md_path: tables/page-0076-r02.md
+- name: <br> <br>P3.02
+  symbol: null
+  range: <br> <br><br>见《7.4.11 附表》
+  default: <br><br>C料满
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 76
+    layout_region_index: 2
+    table_md_path: tables/page-0076-r02.md
+- name: <br> <br>P3.03
+  symbol: null
+  range: <br> <br><br>见《7.4.11 附表》
+  default: <br><br>E料满
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 76
+    layout_region_index: 2
+    table_md_path: tables/page-0076-r02.md
+- name: <br> <br>P3.04
+  symbol: null
+  range: <br> <br><br>0.0~99.9 s
+  default: <br><br>0.2
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 76
+    layout_region_index: 2
+    table_md_path: tables/page-0076-r02.md
+- name: <br> <br>P3.05
+  symbol: null
+  range: <br> <br><br>0.0~99.9 s
+  default: <br><br>0.2
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 76
+    layout_region_index: 2
+    table_md_path: tables/page-0076-r02.md
+- name: <br> <br>P3.06
+  symbol: null
+  range: <br> <br><br>常通，常断，开，关
+  default: <br><br>常通
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 76
+    layout_region_index: 2
+    table_md_path: tables/page-0076-r02.md
+- name: <br> <br>P3.07
+  symbol: null
+  range: <br> <br><br>延迟，保持
+  default: <br><br>延迟
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 76
+    layout_region_index: 2
+    table_md_path: tables/page-0076-r02.md
+- name: <br> <br>P3.08
+  symbol: null
+  range: <br> <br><br>开，关，保持
+  default: <br><br>开
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 76
+    layout_region_index: 2
+    table_md_path: tables/page-0076-r02.md
+- name: <br> <br>P3.09
+  symbol: null
+  range: <br> <br><br>面板<br>20mA<br>1~5V<br>，<br>，<br>，0~5V，0~10V，同步
+  default: <br><br>面板
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 76
+    layout_region_index: 2
+    table_md_path: tables/page-0076-r02.md
+- name: <br>P3.10
+  symbol: null
+  range: <br> <br><br>0.5~2.0
+  default: <br><br>1.0
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 76
+    layout_region_index: 2
+    table_md_path: tables/page-0076-r02.md
+- name: <br> <br>P4.01
+  symbol: null
+  range: <br> <br> <br>40.0~999.9 Hz
+  default: <br> <br>100.0
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 77
+    layout_region_index: 2
+    table_md_path: tables/page-0077-r02.md
+- name: <br> <br>P4.02
+  symbol: null
+  range: <br> <br> <br>0.0~180.0 Hz
+  default: <br> <br>30.0
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 77
+    layout_region_index: 2
+    table_md_path: tables/page-0077-r02.md
+- name: <br> <br>P4.03
+  symbol: null
+  range: <br> <br> <br>0~2000
+  default: <br> <br>20
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 77
+    layout_region_index: 2
+    table_md_path: tables/page-0077-r02.md
+- name: <br> <br>P4.04
+  symbol: null
+  range: <br> <br> <br>0~9999
+  default: <br> <br>300
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 77
+    layout_region_index: 2
+    table_md_path: tables/page-0077-r02.md
+- name: <br> <br>P4.05
+  symbol: null
+  range: <br> <br> <br>0~9999
+  default: <br> <br>500
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 77
+    layout_region_index: 2
+    table_md_path: tables/page-0077-r02.md
+- name: <br> <br>P4.06
+  symbol: null
+  range: <br> <br> <br>-180~180 °
+  default: <br> <br>0
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 77
+    layout_region_index: 2
+    table_md_path: tables/page-0077-r02.md
+- name: <br> <br>P4.07
+  symbol: null
+  range: <br> <br> <br>0.0~30.0 V
+  default: <br> <br>20.0
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 77
+    layout_region_index: 2
+    table_md_path: tables/page-0077-r02.md
+- name: <br> <br>P4.08
+  symbol: null
+  range: <br> <br> <br>0~3200
+  default: <br> <br>200
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 77
+    layout_region_index: 2
+    table_md_path: tables/page-0077-r02.md
+- name: <br> <br>P4.09
+  symbol: null
+  range: <br> <br> <br>0~4000
+  default: <br> <br>3200
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 77
+    layout_region_index: 2
+    table_md_path: tables/page-0077-r02.md
+- name: <br>P4.10
+  symbol: null
+  range: <br> <br> <br>-180~180 °
+  default: <br> <br>0
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 77
+    layout_region_index: 2
+    table_md_path: tables/page-0077-r02.md
+- name: <br>P4.11
+  symbol: null
+  range: <br> <br> <br>手动，自动
+  default: <br> <br>自动
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 77
+    layout_region_index: 2
+    table_md_path: tables/page-0077-r02.md
+- name: <br>P4.12
+  symbol: null
+  range: <br> <br> <br><br>手动, 自动, 同步振 (频率同步相位同步振动传感器)<br>同步电 (频率同步, 相位同步主输出电流)<br>,
+  default: <br> <br><br>自动
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 77
+    layout_region_index: 2
+    table_md_path: tables/page-0077-r02.md
+- name: <br>P4.13
+  symbol: null
+  range: <br> <br> <br><br>无效, 振相位, 电相位(频率模式为手动或自动时, 该参数有效)
+  default: <br> <br><br>无效
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 77
+    layout_region_index: 2
+    table_md_path: tables/page-0077-r02.md
+- name: <br>P4.14
+  symbol: null
+  range: <br> <br> <br><br>20-1, 20-2, 20-3, 20-4, 203, 204, 205, 206
+  default: <br> <br><br>205
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 77
+    layout_region_index: 2
+    table_md_path: tables/page-0077-r02.md
+- name: <br>P4.15
+  symbol: null
+  range: <br> <br> <br><br>0~5
+  default: <br> <br><br>3
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 77
+    layout_region_index: 2
+    table_md_path: tables/page-0077-r02.md
+- name: <br> <br>P5.01
+  symbol: null
+  range: <br> <br><br>Auto, NPN, PNP, Ato1 (<br>)<br>自动识别1次
+  default: <br><br>Auto
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 78
+    layout_region_index: 2
+    table_md_path: tables/page-0078-r02.md
+- name: <br> <br>P5.02
+  symbol: null
+  range: <br> <br><br>常通，常断
+  default: <br><br>常通
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 78
+    layout_region_index: 2
+    table_md_path: tables/page-0078-r02.md
+- name: <br> <br>P5.03
+  symbol: null
+  range: <br> <br><br>0.0~99.9 s
+  default: <br><br>0.2
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 78
+    layout_region_index: 2
+    table_md_path: tables/page-0078-r02.md
+- name: <br> <br>P5.04
+  symbol: null
+  range: <br> <br><br>0.0~99.9 s
+  default: <br><br>0.2
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 78
+    layout_region_index: 2
+    table_md_path: tables/page-0078-r02.md
+- name: <br> <br>P5.05
+  symbol: null
+  range: <br> <br><br>常通，常断
+  default: <br><br>常通
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 78
+    layout_region_index: 2
+    table_md_path: tables/page-0078-r02.md
+- name: <br> <br>P5.06
+  symbol: null
+  range: <br> <br><br>0.0~99.9 s
+  default: <br><br>0.2
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 78
+    layout_region_index: 2
+    table_md_path: tables/page-0078-r02.md
+- name: <br> <br>P5.07
+  symbol: null
+  range: <br> <br><br>0.0~99.9 s
+  default: <br><br>0.2
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 78
+    layout_region_index: 2
+    table_md_path: tables/page-0078-r02.md
+- name: <br> <br>P5.08
+  symbol: null
+  range: <br> <br><br>常通，常断
+  default: <br><br>常通
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 78
+    layout_region_index: 2
+    table_md_path: tables/page-0078-r02.md
+- name: <br> <br>P5.09
+  symbol: null
+  range: <br> <br><br>0.0~99.9 s
+  default: <br><br>0.2
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 78
+    layout_region_index: 2
+    table_md_path: tables/page-0078-r02.md
+- name: <br>P5.10
+  symbol: null
+  range: <br> <br><br>0.0~99.9 s
+  default: <br><br>0.2
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 78
+    layout_region_index: 2
+    table_md_path: tables/page-0078-r02.md
+- name: <br>P5.11
+  symbol: null
+  range: <br> <br><br>常通，常断
+  default: <br><br>常通
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 78
+    layout_region_index: 2
+    table_md_path: tables/page-0078-r02.md
+- name: <br>P5.12
+  symbol: null
+  range: <br> <br><br>0.0~99.9 s
+  default: <br><br>0.2
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 78
+    layout_region_index: 2
+    table_md_path: tables/page-0078-r02.md
+- name: <br>P5.13
+  symbol: null
+  range: <br> <br><br>0.0~99.9 s
+  default: <br><br><br>0.2
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 78
+    layout_region_index: 2
+    table_md_path: tables/page-0078-r02.md
+- name: <br> <br>P6.01
+  symbol: null
+  range: <br> <br><br>与，或，异或，RS
+  default: <br><br>或
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 79
+    layout_region_index: 2
+    table_md_path: tables/page-0079-r02.md
+- name: <br> <br>P6.02
+  symbol: null
+  range: <br> <br><br>见《7.4.11 附表》
+  default: <br><br>C料满
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 79
+    layout_region_index: 2
+    table_md_path: tables/page-0079-r02.md
+- name: <br> <br>P6.03
+  symbol: null
+  range: <br> <br><br>见《7.4.11 附表》
+  default: <br><br>E料满
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 79
+    layout_region_index: 2
+    table_md_path: tables/page-0079-r02.md
+- name: <br> <br>P6.04
+  symbol: null
+  range: <br> <br><br>常通，常断，开，关
+  default: <br><br>常通
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 79
+    layout_region_index: 2
+    table_md_path: tables/page-0079-r02.md
+- name: <br> <br>P6.05
+  symbol: null
+  range: <br> <br><br>0.0~99.9 s
+  default: <br><br>0.2
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 79
+    layout_region_index: 2
+    table_md_path: tables/page-0079-r02.md
+- name: <br> <br>P6.06
+  symbol: null
+  range: <br> <br><br>0.0~99.9 s
+  default: <br><br>0.2
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 79
+    layout_region_index: 2
+    table_md_path: tables/page-0079-r02.md
+- name: <br> <br>P6.07
+  symbol: null
+  range: <br> <br><br>Ou_PNP,<br>NPN,<br>P&P (推挽)<br>Ou_<br>Ou_
+  default: <br><br>Ou_P&P
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 79
+    layout_region_index: 2
+    table_md_path: tables/page-0079-r02.md
+- name: <br> <br>P6.08
+  symbol: null
+  range: <br> <br><br>延迟，保持
+  default: <br><br>延迟
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 79
+    layout_region_index: 2
+    table_md_path: tables/page-0079-r02.md
+- name: <br>P7.01
+  symbol: null
+  range: <br> <br><br>0~9999
+  default: <br><br>10
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 80
+    layout_region_index: 2
+    table_md_path: tables/page-0080-r02.md
+- name: <br>P7.02
+  symbol: null
+  range: <br> <br><br>0~100 %
+  default: <br><br>50
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 80
+    layout_region_index: 2
+    table_md_path: tables/page-0080-r02.md
+- name: <br>P7.03
+  symbol: null
+  range: <br> <br><br>0~9999
+  default: <br><br>3
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 80
+    layout_region_index: 2
+    table_md_path: tables/page-0080-r02.md
+- name: <br>P7.04
+  symbol: null
+  range: <br> <br><br>0.0~999.9 s
+  default: <br><br>0.0
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 80
+    layout_region_index: 2
+    table_md_path: tables/page-0080-r02.md
+- name: <br>P7.05
+  symbol: null
+  range: <br> <br><br>无效，有效
+  default: <br><br>无效
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 80
+    layout_region_index: 2
+    table_md_path: tables/page-0080-r02.md
+- name: <br>P7.06
+  symbol: null
+  range: <br> <br><br>同级，复位，置位，取反
+  default: <br><br>同级
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 80
+    layout_region_index: 2
+    table_md_path: tables/page-0080-r02.md
+- name: <br> <br> <br> <br>P8.01
+  symbol: null
+  range: <br> <br> <br>ASCII，RTU
+  default: <br> <br>RTU
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br> <br>P8.02
+  symbol: null
+  range: <br> <br> <br>0.3, 1.2, 2.4, 9.6, 19.2, 57.6, 115.2 Kbps
+  default: <br> <br>115.2
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br> <br>P8.03
+  symbol: null
+  range: <br> <br> <br>1~31
+  default: <br> <br>1
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br> <br>P8.04
+  symbol: null
+  range: <br> <br> <br>无效，有效
+  default: <br> <br>无效
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br> <br>P8.05
+  symbol: null
+  range: <br> <br> <br>1~8
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br> <br>P8.06
+  symbol: null
+  range: <br> <br> <br>无效，有效
+  default: <br> <br>无效
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br> <br>P8.07
+  symbol: null
+  range: <br> <br> <br>1~8
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br> <br>P8.08
+  symbol: null
+  range: <br> <br> <br>1~8
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br> <br>P8.09
+  symbol: null
+  range: <br> <br> <br>1~8
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br>P8.10
+  symbol: null
+  range: <br> <br> <br>1~8
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br>P8.11
+  symbol: null
+  range: <br> <br> <br>1~16
+  default: <br> <br>5
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br>P8.12
+  symbol: null
+  range: <br> <br> <br>1~16
+  default: <br> <br>6
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br>P8.13
+  symbol: null
+  range: <br> <br> <br> <br>1~16
+  default: <br> <br> <br>5
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br>P8.14
+  symbol: null
+  range: <br> <br> <br> <br>1~16
+  default: <br> <br> <br>6
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br>P8.15
+  symbol: null
+  range: <br> <br> <br> <br>见《7.4.11 附表》
+  default: <br> <br> <br>0
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br>P8.16
+  symbol: null
+  range: <br> <br> <br> <br>见《7.4.11 附表》
+  default: <br> <br> <br>1
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br>P8.17
+  symbol: null
+  range: <br> <br> <br> <br>见《7.4.11 附表》
+  default: <br> <br> <br>A速度
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br>P8.18
+  symbol: null
+  range: <br> <br> <br> <br>见《7.4.11 附表》
+  default: <br> <br> <br>B速度
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br>P8.19
+  symbol: null
+  range: <br> <br> <br> <br>见《7.4.11 附表》
+  default: <br> <br> <br>C料满
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br> <br>P8.20
+  symbol: null
+  range: <br> <br> <br> <br>见《7.4.11 附表》
+  default: <br> <br> <br>E料满
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br>P8.21
+  symbol: null
+  range: <br> <br> <br>见《7.4.11 附表》
+  default: <br> <br> <br>计满
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br>P8.22
+  symbol: null
+  range: <br> <br> <br>见《7.4.11 附表》
+  default: <br> <br> <br>计减
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br>P8.23
+  symbol: null
+  range: <br> <br> <br>见《7.4.11 附表》
+  default: <br> <br> <br>D控出
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br>P8.24
+  symbol: null
+  range: <br> <br> <br>见《7.4.11 附表》
+  default: <br> <br> <br>警告
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br>P8.25
+  symbol: null
+  range: <br> <br> <br> <br>见《7.4.11 附表》
+  default: <br> <br> <br> <br>主
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br>P8.26
+  symbol: null
+  range: <br> <br> <br> <br>见《7.4.11 附表》
+  default: <br> <br> <br> <br>-A速度
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br>P8.27
+  symbol: null
+  range: <br> <br> <br> <br>见《7.4.11 附表》
+  default: <br> <br> <br> <br>-B速度
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br>P8.28
+  symbol: null
+  range: <br> <br> <br> <br>见《7.4.11 附表》
+  default: <br> <br> <br> <br>-C料满
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br>P8.29
+  symbol: null
+  range: <br> <br> <br> <br>见《7.4.11 附表》
+  default: <br> <br> <br> <br>-E料满
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br>P8.30
+  symbol: null
+  range: <br> <br> <br>见《7.4.11 附表》
+  default: <br> <br> <br>-计满
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br>P8.31
+  symbol: null
+  range: <br> <br> <br>在线，离线，拓展，替换
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br>P8.32
+  symbol: null
+  range: <br> <br> <br>1~8
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br>P8.33
+  symbol: null
+  range: <br> <br> <br>1~8
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br>P8.34
+  symbol: null
+  range: <br> <br> <br>1~8
+  default: <br> <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br>P8.35
+  symbol: null
+  range: <br> <br> <br>ManVol, RemVol, ManSpd, RemSpd
+  default: <br> <br> <br><br>ManVol
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 81
+    layout_region_index: 2
+    table_md_path: tables/page-0081-r02.md
+- name: <br> <br>P9.01
+  symbol: null
+  range: <br> <br><br>无效，用户1，用户2，用户3
+  default: <br><br>无效
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 82
+    layout_region_index: 2
+    table_md_path: tables/page-0082-r02.md
+- name: <br> <br>P9.02
+  symbol: null
+  range: <br> <br><br>无效，工作组，用户1，用户2，用户3
+  default: <br><br>无效
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 82
+    layout_region_index: 2
+    table_md_path: tables/page-0082-r02.md
+- name: <br> <br>P9.03
+  symbol: null
+  range: <br> <br><br>无效，工作组（默认工作组）
+  default: <br><br>无效
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 82
+    layout_region_index: 2
+    table_md_path: tables/page-0082-r02.md
+- name: <br> <br>P9.04
+  symbol: null
+  range: <br> <br><br>1~8
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 82
+    layout_region_index: 2
+    table_md_path: tables/page-0082-r02.md
+- name: <br> <br>P9.05
+  symbol: null
+  range: <br> <br><br>0~9999
+  default: <br><br>0
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 82
+    layout_region_index: 2
+    table_md_path: tables/page-0082-r02.md
+- name: <br> <br>P9.06
+  symbol: null
+  range: <br> <br><br>0~9999
+  default: <br><br>0
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 82
+    layout_region_index: 2
+    table_md_path: tables/page-0082-r02.md
+- name: <br> <br> <br> <br>P10.01
+  symbol: null
+  range: <br> <br> <br>0.0~50.0 V
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br> <br>P10.02
+  symbol: null
+  range: <br> <br> <br>40.0~999.9 Hz
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br> <br>P10.03
+  symbol: null
+  range: <br> <br> <br>0~4000
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br> <br>P10.04
+  symbol: null
+  range: <br> <br> <br>0.0~60.0 V
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br> <br>P10.05
+  symbol: null
+  range: <br> <br> <br>0~999 mA
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br> <br>P10.06
+  symbol: null
+  range: <br> <br> <br>0~999 mA
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br> <br>P10.07
+  symbol: null
+  range: <br> <br> <br>0.0~999.9 W
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br> <br>P10.08
+  symbol: null
+  range: <br> <br> <br>0.0~999.9 Var
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br> <br>P10.09
+  symbol: null
+  range: <br> <br> <br>-20.0~85.0 ℃
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br>P10.10
+  symbol: null
+  range: <br> <br> <br>0.000~9.999 uF
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br>P10.11
+  symbol: null
+  range: <br> <br> <br>0.0~999.9 Ω
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br>P10.12
+  symbol: null
+  range: <br> <br> <br>40.0~999.9 Hz
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br>P10.13
+  symbol: null
+  range: <br> <br> <br> <br>0~9999
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br>P10.14
+  symbol: null
+  range: <br> <br> <br> <br>0.0~100.0 %
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br>P10.15
+  symbol: null
+  range: <br> <br> <br> <br>0.0~100.0 %
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br>P10.16
+  symbol: null
+  range: <br> <br> <br> <br>0~1
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br>P10.17
+  symbol: null
+  range: <br> <br> <br> <br>0~1
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br>P10.18
+  symbol: null
+  range: <br> <br> <br> <br>0~1
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br>P10.19
+  symbol: null
+  range: <br> <br> <br> <br>0~1
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br> <br>P10.20
+  symbol: null
+  range: <br> <br> <br> <br>0~1
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br>P10.21
+  symbol: null
+  range: <br> <br> <br>0~1
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br>P10.22
+  symbol: null
+  range: <br> <br> <br>0.0~26.0 V
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br>P10.23
+  symbol: null
+  range: <br> <br> <br>0.0~26.0 V
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br>P10.24
+  symbol: null
+  range: <br> <br> <br>0.0~26.0 V
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br>P10.25
+  symbol: null
+  range: <br> <br> <br> <br>0.0~26.0 V
+  default: <br> <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br>P10.26
+  symbol: null
+  range: <br> <br> <br> <br>0.0~26.0 V
+  default: <br> <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br>P10.27
+  symbol: null
+  range: <br> <br> <br> <br>0.0~10.0 V
+  default: <br> <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br>P10.28
+  symbol: null
+  range: <br> <br> <br> <br>0.0~26.0 V
+  default: <br> <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br> <br>P10.29
+  symbol: null
+  range: <br> <br> <br> <br>0.0~6.0 V
+  default: <br> <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br>P10.30
+  symbol: null
+  range: <br> <br> <br>0.0~28.0 V
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br>P10.31
+  symbol: null
+  range: <br> <br> <br>0.0~86.0 V
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br>P10.32
+  symbol: null
+  range: <br> <br> <br>0.0~280.0 V
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br>P10.33
+  symbol: null
+  range: <br> <br> <br>-180~180 °
+  default: <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br>P10.34
+  symbol: null
+  range: <br> <br> <br><br>0~1
+  default: <br> <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br>P10.35
+  symbol: null
+  range: <br> <br> <br><br>0~64g
+  default: <br> <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br>P10.36
+  symbol: null
+  range: <br> <br> <br><br>1~8 台
+  default: <br> <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br>P10.37
+  symbol: null
+  range: <br> <br> <br><br>1~8 台
+  default: <br> <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br>P10.38
+  symbol: null
+  range: <br> <br> <br><br>0~3000
+  default: <br> <br> <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 83
+    layout_region_index: 2
+    table_md_path: tables/page-0083-r02.md
+- name: <br>P10.40
+  symbol: null
+  range: <br> <br><br>0~9999 um
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 84
+    layout_region_index: 1
+    table_md_path: tables/page-0084-r01.md
+- name: <br>P10.41
+  symbol: null
+  range: <br> <br><br>0~9999 um
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 84
+    layout_region_index: 1
+    table_md_path: tables/page-0084-r01.md
+- name: <br>P10.42
+  symbol: null
+  range: <br> <br><br>0~9999 um
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 84
+    layout_region_index: 1
+    table_md_path: tables/page-0084-r01.md
+- name: <br>P10.43
+  symbol: null
+  range: <br> <br><br>0~9999 um
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 84
+    layout_region_index: 1
+    table_md_path: tables/page-0084-r01.md
+- name: <br>P10.44
+  symbol: null
+  range: <br> <br><br>0~9999
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 84
+    layout_region_index: 1
+    table_md_path: tables/page-0084-r01.md
+- name: <br>P10.45
+  symbol: null
+  range: <br> <br><br>0~9999
+  default: <br>
+  unit: null
+  note: null
+  extra: null
+  source_ref:
+    pdf_page: 84
+    layout_region_index: 1
+    table_md_path: tables/page-0084-r01.md
+- name: <br>序号
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br>序号
+    H C C 定义列表如下：: <br>含义
+    CUH: <br>显示值
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br>0
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br>0
+    H C C 定义列表如下：: <br>0
+    CUH: <br>0
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br>1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br>1
+    H C C 定义列表如下：: <br>1
+    CUH: <br>1
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br> <br>2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br> <br>2
+    H C C 定义列表如下：: <br> <br>速度A口
+    CUH: <br> <br>A速度
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br> <br>3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br> <br>3
+    H C C 定义列表如下：: <br> <br>速度B口
+    CUH: <br> <br>B速度
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br> <br>4
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br> <br>4
+    H C C 定义列表如下：: <br> <br>料满输入C
+    CUH: <br> <br>C料满
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br> <br>5
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br> <br>5
+    H C C 定义列表如下：: <br> <br>料满输入E
+    CUH: <br> <br>E料满
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br> <br>6
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br> <br>6
+    H C C 定义列表如下：: <br> <br>计数满信号
+    CUH: <br> <br>计满
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br> <br>7
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br> <br>7
+    H C C 定义列表如下：: <br> <br>计数减速信号
+    CUH: <br> <br>计减
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br> <br>8
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br> <br>8
+    H C C 定义列表如下：: <br> <br>总线信号
+    CUH: <br> <br>总线
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br> <br>9
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br> <br>9
+    H C C 定义列表如下：: <br> <br>控制输出D口信号
+    CUH: <br> <br>D控出
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br> <br>10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br> <br>10
+    H C C 定义列表如下：: <br> <br>警告与故障
+    CUH: <br> <br>警告
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br> <br>11
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br> <br>11
+    H C C 定义列表如下：: <br> <br>主输出状态
+    CUH: <br> <br>主
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br> <br>12
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br> <br>12
+    H C C 定义列表如下：: <br> <br>反转速度A口
+    CUH: <br> <br>-A速度
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br> <br>13
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br> <br>13
+    H C C 定义列表如下：: <br> <br>反转速度B口
+    CUH: <br> <br>-B速度
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br> <br>14
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br> <br>14
+    H C C 定义列表如下：: <br> <br><br>反转料满输入C
+    CUH: <br> <br><br>-C料满
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br> <br>15
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br> <br>15
+    H C C 定义列表如下：: <br> <br><br>反转料满输入E
+    CUH: <br> <br><br>-E料满
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br>16
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br>16
+    H C C 定义列表如下：: <br><br>反转计数满信号
+    CUH: <br><br>-计满
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br>17
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br>17
+    H C C 定义列表如下：: <br><br>反转计数减速信号
+    CUH: <br><br>-计减
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br>18
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br>18
+    H C C 定义列表如下：: <br><br>反转总线信号
+    CUH: <br><br>-总线
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br>19
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br>19
+    H C C 定义列表如下：: <br><br>反转控制输出D口信号
+    CUH: <br><br>-D控出
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br>20
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br>20
+    H C C 定义列表如下：: <br><br>反转警告与故障
+    CUH: <br><br>-警告
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br>21
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C 信号源定: <br>21
+    H C C 定义列表如下：: <br><br>反转主输出状态
+    CUH: <br><br>-主
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 3
+    table_md_path: tables/page-0085-r03.md
+- name: <br>设备组网状态对照表
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C CUH 设备组网状态对照表如下: <br>设备组网状态对照表
+    Col2: <br>设备组网状态对照表
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 5
+    table_md_path: tables/page-0085-r05.md
+- name: <br>显示
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C CUH 设备组网状态对照表如下: <br>显示
+    Col2: <br>设备组网状态
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 5
+    table_md_path: tables/page-0085-r05.md
+- name: <br>A
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C CUH 设备组网状态对照表如下: <br>A
+    Col2: <br>网络设备均在线
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 5
+    table_md_path: tables/page-0085-r05.md
+- name: <br>B
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C CUH 设备组网状态对照表如下: <br>B
+    Col2: <br>至少有1台网络设备不在线
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 5
+    table_md_path: tables/page-0085-r05.md
+- name: <br>C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C CUH 设备组网状态对照表如下: <br>C
+    Col2: <br><br>本设备不是此网络中的设备
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 5
+    table_md_path: tables/page-0085-r05.md
+- name: <br>D
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C CUH 设备组网状态对照表如下: <br>D
+    Col2: <br><br>正在删除设备
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 5
+    table_md_path: tables/page-0085-r05.md
+- name: <br>E
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C CUH 设备组网状态对照表如下: <br>E
+    Col2: <br><br>正在拓展加入设备
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 5
+    table_md_path: tables/page-0085-r05.md
+- name: <br>F
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C CUH 设备组网状态对照表如下: <br>F
+    Col2: <br><br>竞争网络控制权
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 5
+    table_md_path: tables/page-0085-r05.md
+- name: <br>R
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C CUH 设备组网状态对照表如下: <br>R
+    Col2: <br><br>正在替换加入设备
+  source_ref:
+    pdf_page: 85
+    layout_region_index: 5
+    table_md_path: tables/page-0085-r05.md
+- name: <br> <br>故障代码
+  symbol: <br> <br>故障代码
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U UH 码表: <br> <br> <br>故障显示
+    UH: <br> <br> <br>含义
+    CU H C: <br> <br>排除方法
+  source_ref:
+    pdf_page: 88
+    layout_region_index: 5
+    table_md_path: tables/page-0088-r05.md
+- name: <br> <br>Error01
+  symbol: <br> <br>Error01
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U UH 码表: <br> <br> <br>短路
+    UH: <br> <br> <br>短路
+    CU H C: <br> <br>确认主输出线是否短路并重新接线
+  source_ref:
+    pdf_page: 88
+    layout_region_index: 5
+    table_md_path: tables/page-0088-r05.md
+- name: <br> <br>Er<br>02<br>ror
+  symbol: <br> <br>Er<br>02<br>ror
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U UH 码表: <br> <br> <br>过流
+    UH: <br> <br> <br>过流
+    CU H C: <br> <br>减小输出电压或者提高输出频率
+  source_ref:
+    pdf_page: 88
+    layout_region_index: 5
+    table_md_path: tables/page-0088-r05.md
+- name: <br> <br>Er<br>03<br>ror
+  symbol: <br> <br>Er<br>03<br>ror
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U UH 码表: <br> <br> <br>过热
+    UH: <br> <br> <br>过热
+    CU H C: <br> <br>把控制器置于通风良好散热的地方
+  source_ref:
+    pdf_page: 88
+    layout_region_index: 5
+    table_md_path: tables/page-0088-r05.md
+- name: <br> <br>Er<br>04<br>ror
+  symbol: <br> <br>Er<br>04<br>ror
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U UH 码表: <br> <br> <br>过冷
+    UH: <br> <br> <br>过冷
+    CU H C: <br> <br> <br>把控制器置于环境温度高于-20℃的地方
+  source_ref:
+    pdf_page: 88
+    layout_region_index: 5
+    table_md_path: tables/page-0088-r05.md
+- name: <br> <br>Er<br>05<br>ror
+  symbol: <br> <br>Er<br>05<br>ror
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U UH 码表: <br> <br> <br>通信错误
+    UH: <br> <br> <br>通信错误
+    CU H C: <br> <br> <br>联系公司技术支持
+  source_ref:
+    pdf_page: 88
+    layout_region_index: 5
+    table_md_path: tables/page-0088-r05.md
+- name: <br> <br>Er<br>06<br>ror
+  symbol: <br> <br>Er<br>06<br>ror
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U UH 码表: <br> <br> <br>温度错误
+    UH: <br> <br> <br>温度传感器错误
+    CU H C: <br> <br> <br>联系公司技术支持
+  source_ref:
+    pdf_page: 88
+    layout_region_index: 5
+    table_md_path: tables/page-0088-r05.md
+- name: <br> <br>Er<br>07<br>ror
+  symbol: <br> <br>Er<br>07<br>ror
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U UH 码表: <br> <br> <br>过压
+    UH: <br> <br> <br>过压
+    CU H C: <br> <br> <br>输入市电电压不能超过250V有效值
+  source_ref:
+    pdf_page: 88
+    layout_region_index: 5
+    table_md_path: tables/page-0088-r05.md
+- name: <br> <br>Er<br>08<br>ror
+  symbol: <br> <br>Er<br>08<br>ror
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U UH 码表: <br> <br> <br>欠压
+    UH: <br> <br> <br>欠压
+    CU H C: <br> <br> <br>输入市电电压不能低于85V有效值
+  source_ref:
+    pdf_page: 88
+    layout_region_index: 5
+    table_md_path: tables/page-0088-r05.md
+- name: <br> <br>Er<br>09<br>ror
+  symbol: <br> <br>Er<br>09<br>ror
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U UH 码表: <br> <br> <br>负载断开
+    UH: <br> <br> <br>负载断开
+    CU H C: <br> <br> <br>检查输出线是否正确连接到振动盘上
+  source_ref:
+    pdf_page: 88
+    layout_region_index: 5
+    table_md_path: tables/page-0088-r05.md
+- name: <br>Er<br>10<br>ror
+  symbol: <br>Er<br>10<br>ror
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U UH 码表: <br> <br>种子错误
+    UH: <br> <br>发送种子不成功
+    CU H C: <br> <br> <br>联系公司技术支持
+  source_ref:
+    pdf_page: 88
+    layout_region_index: 5
+    table_md_path: tables/page-0088-r05.md
+- name: <br>Er<br>11<br>ror
+  symbol: <br>Er<br>11<br>ror
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U UH 码表: <br> <br>离开错误
+    UH: <br> <br>指令离开boot执行不成功
+    CU H C: <br> <br> <br>联系公司技术支持
+  source_ref:
+    pdf_page: 88
+    layout_region_index: 5
+    table_md_path: tables/page-0088-r05.md
+- name: <br>Er<br>14<br>ror
+  symbol: <br>Er<br>14<br>ror
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U UH 码表: <br> <br>主错误
+    UH: <br> <br>CUHBus-DS®<br>2<br>及以上主机<br>总线有台
+    CU H C: <br> <br>U<br><br>1<br>2、新加入设备断电后，再连接CUHBus-DS®线到网络<br>设备中<br>、出现报警，设备设置离线再设置上线
+  source_ref:
+    pdf_page: 88
+    layout_region_index: 5
+    table_md_path: tables/page-0088-r05.md
+- name: <br>Er<br>15<br>ror
+  symbol: <br>Er<br>15<br>ror
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U UH 码表: <br> <br>总线错误
+    UH: <br> <br>总线错误
+    CU H C: <br> <br> <br><br>确认控制器<br>通信线是否正确连接，并正确组网<br>CUHBus-DS®
+  source_ref:
+    pdf_page: 88
+    layout_region_index: 5
+    table_md_path: tables/page-0088-r05.md
+- name: <br> <br>Warn01
+  symbol: <br> <br>Warn01
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    警告显示: <br> <br>输出饱和
+    C<br>含义: <br> <br> <br>输出饱和
+    H<br>排除方法: <br> <br> <br>降低输出电压
+  source_ref:
+    pdf_page: 89
+    layout_region_index: 2
+    table_md_path: tables/page-0089-r02.md
+- name: <br> <br>W<br>n02<br>ar
+  symbol: <br> <br>W<br>n02<br>ar
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    警告显示: <br> <br>计数减速
+    C<br>含义: <br> <br> <br>计数减速
+    H<br>排除方法: <br> <br> <br>计数减速状态
+  source_ref:
+    pdf_page: 89
+    layout_region_index: 2
+    table_md_path: tables/page-0089-r02.md
+- name: <br> <br>W<br>n03<br>ar
+  symbol: <br> <br>W<br>n03<br>ar
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    警告显示: <br> <br>计数结束
+    C<br>含义: <br> <br> <br>计数结束
+    H<br>排除方法: <br> <br> <br>计数结束状态
+  source_ref:
+    pdf_page: 89
+    layout_region_index: 2
+    table_md_path: tables/page-0089-r02.md
+- name: <br> <br>W<br>n04<br>ar
+  symbol: <br> <br>W<br>n04<br>ar
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    警告显示: <br> <br>频率过低
+    C<br>含义: <br> <br> <br>输出频率过低
+    H<br>排除方法: <br> <br> <br>增加频率偏移参数值
+  source_ref:
+    pdf_page: 89
+    layout_region_index: 2
+    table_md_path: tables/page-0089-r02.md
+- name: <br> <br>W<br>n05<br>ar
+  symbol: <br> <br>W<br>n05<br>ar
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    警告显示: <br> <br>频率过高
+    C<br>含义: <br> <br> <br>输出频率过高
+    H<br>排除方法: <br> <br> <br>增加频率偏移参数值
+  source_ref:
+    pdf_page: 89
+    layout_region_index: 2
+    table_md_path: tables/page-0089-r02.md
+- name: <br> <br>W<br>n06<br>ar
+  symbol: <br> <br>W<br>n06<br>ar
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    警告显示: <br> <br>缺料报警
+    C<br>含义: <br> <br> <br>缺料
+    H<br>排除方法: <br> <br> <br>降低缺料报警参数值，或向料盘添加物料
+  source_ref:
+    pdf_page: 89
+    layout_region_index: 2
+    table_md_path: tables/page-0089-r02.md
+- name: <br> <br>W<br>n07<br>ar
+  symbol: <br> <br>W<br>n07<br>ar
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    警告显示: <br> <br>D口过流
+    C<br>含义: <br> <br> <br>端口D输出过流
+    H<br>排除方法: <br> <br> <br>减小输出端口控制负载
+  source_ref:
+    pdf_page: 89
+    layout_region_index: 2
+    table_md_path: tables/page-0089-r02.md
+- name: <br> <br>W<br>n08<br>ar
+  symbol: <br> <br>W<br>n08<br>ar
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    警告显示: <br> <br>遥控欠压
+    C<br>含义: <br> <br> <br>遥控输入电压/电流过低
+    H<br>排除方法: <br> <br> <br> <br>增大遥控输入端电压或电流
+  source_ref:
+    pdf_page: 89
+    layout_region_index: 2
+    table_md_path: tables/page-0089-r02.md
+- name: <br> <br>W<br>n09<br>ar
+  symbol: <br> <br>W<br>n09<br>ar
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    警告显示: <br> <br>主RS错误
+    C<br>含义: <br> <br> <br>主输出RS逻辑错误
+    H<br>排除方法: <br> <br> <br> <br>当输出逻辑为RS触发器时, 主源1和主源2信号不可同时有效
+  source_ref:
+    pdf_page: 89
+    layout_region_index: 2
+    table_md_path: tables/page-0089-r02.md
+- name: <br> <br>W<br>n10<br>ar
+  symbol: <br> <br>W<br>n10<br>ar
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    警告显示: <br> <br>24V错误
+    C<br>含义: <br> <br> <br>24V错误
+    H<br>排除方法: <br> <br> <br> <br>不可将24V外部电源接入控制器输出端口
+  source_ref:
+    pdf_page: 89
+    layout_region_index: 2
+    table_md_path: tables/page-0089-r02.md
+- name: <br> <br>W<br>n11<br>ar
+  symbol: <br> <br>W<br>n11<br>ar
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    警告显示: <br> <br>5V错误
+    C<br>含义: <br> <br> <br>5V错误
+    H<br>排除方法: <br> <br> <br> <br>不可将5V外部电源接入控制器输出端口
+  source_ref:
+    pdf_page: 89
+    layout_region_index: 2
+    table_md_path: tables/page-0089-r02.md
+- name: <br> <br>W<br>n12<br>ar
+  symbol: <br> <br>W<br>n12<br>ar
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    警告显示: <br> <br>控RS错误
+    C<br>含义: <br> <br> <br>控制输出RS逻辑错误
+    H<br>排除方法: <br> <br> <br> <br>当D口逻辑为RS触发器时,<br>源1和<br>源2信号不可同时有效<br>D口<br>D口
+  source_ref:
+    pdf_page: 89
+    layout_region_index: 2
+    table_md_path: tables/page-0089-r02.md
+- name: <br> <br>W<br>n13<br>ar
+  symbol: <br> <br>W<br>n13<br>ar
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    警告显示: <br> <br>传感过载
+    C<br>含义: <br> <br> <br>加速度传感器过载
+    H<br>排除方法: <br> <br> <br> <br>更换合适量程的加速度传感器
+  source_ref:
+    pdf_page: 89
+    layout_region_index: 2
+    table_md_path: tables/page-0089-r02.md
+- name: <br>W<br>n14<br>ar
+  symbol: <br>W<br>n14<br>ar
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    警告显示: <br>传感故障
+    C<br>含义: <br> <br>加速度传感器故障
+    H<br>排除方法: <br> <br> <br>传感器已损坏，更换新传感器
+  source_ref:
+    pdf_page: 89
+    layout_region_index: 2
+    table_md_path: tables/page-0089-r02.md
+- name: <br>W<br>n15<br>ar
+  symbol: <br>W<br>n15<br>ar
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    警告显示: <br>保存错误
+    C<br>含义: <br> <br>保存参数错误
+    H<br>排除方法: <br> <br> <br>确认<br>通信线连接正常，是否已正确完成组网<br>CUHBus-DS®
+  source_ref:
+    pdf_page: 89
+    layout_region_index: 2
+    table_md_path: tables/page-0089-r02.md

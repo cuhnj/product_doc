@@ -1,0 +1,72 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 25,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-07T18:02:41",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=25。\n【目录/书签上下文（节选）】\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯及按键说明（第 10 页）\n  - 1.3 外部部件说明（第 11 页）\n  - 1.4 接线端口说明（第 12 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 产品介绍（第 13 页）\n  - 2.1 产品简介（第 13 页）\n  - 2.2 产品性能提升（第 13 页）\n  - 2.3 产品现代",
+  "assistant_text": "{\n  \"page_markdown\": \"数字调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC311 系列\\n\\n## 4.6 键盘锁定功能\\n\\n为了防止误操作，本机设定了键盘锁。这样当控制器各项参数设置好后，可以有效避免其他人的误动作影响本机正常工作。即使关机后重新开机，键盘锁状态依然保持上次关机时的状态。\\n\\n[[vcrop:25:0]]\\n\\n- 通过长按电源键（⏻）2秒可以锁定所有按键，此时面板上锁定指示灯点亮。\\n- 再次长按电源键（⏻）2秒可以解除锁定。\\n\\n> 键盘锁定状态不会因断电关机而消失。\\n\\n2026-03　　　　　　　　　　　　　　　　　-17-　　　　　　　　　　　　　　　SDVC311SMSCN_8.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [0.067, 0.308, 0.933, 0.702],\n      \"alt\": \"键盘锁定功能示意图：长按电源键锁定/解除锁定，箭头标示面板上的锁定指示灯，并提示键盘锁定状态不会因断电关机而消失。\",\n      \"reason\": \"该区域包含控制器面板示意图、锁定指示灯箭头标注和提示框，适合保留为位图以准确呈现图形信息。\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "数字调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC311 系列\n\n## 4.6 键盘锁定功能\n\n为了防止误操作，本机设定了键盘锁。这样当控制器各项参数设置好后，可以有效避免其他人的误动作影响本机正常工作。即使关机后重新开机，键盘锁状态依然保持上次关机时的状态。\n\n[[vcrop:25:0]]\n\n- 通过长按电源键（⏻）2秒可以锁定所有按键，此时面板上锁定指示灯点亮。\n- 再次长按电源键（⏻）2秒可以解除锁定。\n\n> 键盘锁定状态不会因断电关机而消失。\n\n2026-03　　　　　　　　　　　　　　　　　-17-　　　　　　　　　　　　　　　SDVC311SMSCN_8.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.067,
+        0.308,
+        0.933,
+        0.702
+      ],
+      "alt": "键盘锁定功能示意图：长按电源键锁定/解除锁定，箭头标示面板上的锁定指示灯，并提示键盘锁定状态不会因断电关机而消失。",
+      "reason": "该区域包含控制器面板示意图、锁定指示灯箭头标注和提示框，适合保留为位图以准确呈现图形信息。"
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"page_markdown\": \"数字调频振动送料控制器　　　　　　　　　　　　　　　　　　　　　　　　　SDVC311 系列\\n\\n## 4.6 键盘锁定功能\\n\\n为了防止误操作，本机设定了键盘锁。这样当控制器各项参数设置好后，可以有效避免其他人的误动作影响本机正常工作。即使关机后重新开机，键盘锁状态依然保持上次关机时的状态。\\n\\n[[vcrop:25:0]]\\n\\n- 通过长按电源键（⏻）2秒可以锁定所有按键，此时面板上锁定指示灯点亮。\\n- 再次长按电源键（⏻）2秒可以解除锁定。\\n\\n> 键盘锁定状态不会因断电关机而消失。\\n\\n2026-03　　　　　　　　　　　　　　　　　-17-　　　　　　　　　　　　　　　SDVC311SMSCN_8.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [0.067, 0.308, 0.933, 0.702],\n      \"alt\": \"键盘锁定功能示意图：长按电源键锁定/解除锁定，箭头标示面板上的锁定指示灯，并提示键盘锁定状态不会因断电关机而消失。\",\n      \"reason\": \"该区域包含控制器面板示意图、锁定指示灯箭头标注和提示框，适合保留为位图以准确呈现图形信息。\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780826548,
+    "id": "chatcmpl-Do4cm82CqHhyVMAspZojpqpBjM96q",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 881,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 12,
+        "engine_ttft_ms": 592,
+        "engine_ttlt_ms": 11137,
+        "pre_inference_ms": 141,
+        "service_tbt_ms": 12,
+        "service_ttft_ms": 1429,
+        "service_ttlt_ms": 11971,
+        "total_duration_ms": 11836,
+        "user_visible_ttft_ms": 1288
+      },
+      "prompt_tokens": 2785,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3666
+    }
+  }
+}

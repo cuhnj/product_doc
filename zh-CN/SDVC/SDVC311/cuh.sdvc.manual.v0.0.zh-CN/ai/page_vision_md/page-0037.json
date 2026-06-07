@@ -1,0 +1,82 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 37,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-07T18:03:27",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=37。\n【目录/书签上下文（节选）】\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯及按键说明（第 10 页）\n  - 1.3 外部部件说明（第 11 页）\n  - 1.4 接线端口说明（第 12 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 产品介绍（第 13 页）\n  - 2.1 产品简介（第 13 页）\n  - 2.2 产品性能提升（第 13 页）\n  - 2.3 产品现代",
+  "assistant_text": "{\n  \"page_markdown\": \"数字调频振动送料控制器　　　　　　　　　　　　　　　　　　　SDVC311 系列\\n\\n## 5.8 波形指数\\n\\n本控制器可以在最高效率-最大功率和最小噪音的性能间进行连续的平衡，以满足客户更高的需求。可通过设置高级参数“波形指数 r”的参数值来实现。\\n\\n[[vcrop:37:0]]\\n\\n本系列控制器的波形指数调节范围是0～100，调整精度1。\\n\\n> - 波形指数取值0时具有最高效率，弹簧受到的应力最小。\\n> - 取值为100时可以取得最大额定输出功率和最小噪音，但弹簧将会受到较大的应力。\\n\\n### 波形指数示意图\\n\\n[[vcrop:37:1]]\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.19,\n        0.275,\n        0.81,\n        0.49\n      ],\n      \"alt\": \"控制器面板示意图，显示高级参数 r 的波形指数，r=100，右侧标注默认值设置为100\",\n      \"reason\": \"设备面板与数码管显示属于复杂示意图，需保留原始视觉信息。\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.09,\n        0.725,\n        0.91,\n        0.9\n      ],\n      \"alt\": \"波形指数示意图，左侧 r=100 波形，右侧 r=0 波形，坐标轴为电流-时间\",\n      \"reason\": \"波形曲线图需要按原图保留线形和相对幅值。\"\n    }\n  ],\n  \"notes\": \"页面清晰，主要包含波形指数说明、控制器参数示意图和波形对比图。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "数字调频振动送料控制器　　　　　　　　　　　　　　　　　　　SDVC311 系列\n\n## 5.8 波形指数\n\n本控制器可以在最高效率-最大功率和最小噪音的性能间进行连续的平衡，以满足客户更高的需求。可通过设置高级参数“波形指数 r”的参数值来实现。\n\n[[vcrop:37:0]]\n\n本系列控制器的波形指数调节范围是0～100，调整精度1。\n\n> - 波形指数取值0时具有最高效率，弹簧受到的应力最小。\n> - 取值为100时可以取得最大额定输出功率和最小噪音，但弹簧将会受到较大的应力。\n\n### 波形指数示意图\n\n[[vcrop:37:1]]",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.19,
+        0.275,
+        0.81,
+        0.49
+      ],
+      "alt": "控制器面板示意图，显示高级参数 r 的波形指数，r=100，右侧标注默认值设置为100",
+      "reason": "设备面板与数码管显示属于复杂示意图，需保留原始视觉信息。"
+    },
+    {
+      "bbox_0_1": [
+        0.09,
+        0.725,
+        0.91,
+        0.9
+      ],
+      "alt": "波形指数示意图，左侧 r=100 波形，右侧 r=0 波形，坐标轴为电流-时间",
+      "reason": "波形曲线图需要按原图保留线形和相对幅值。"
+    }
+  ],
+  "notes": "页面清晰，主要包含波形指数说明、控制器参数示意图和波形对比图。",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"page_markdown\": \"数字调频振动送料控制器　　　　　　　　　　　　　　　　　　　SDVC311 系列\\n\\n## 5.8 波形指数\\n\\n本控制器可以在最高效率-最大功率和最小噪音的性能间进行连续的平衡，以满足客户更高的需求。可通过设置高级参数“波形指数 r”的参数值来实现。\\n\\n[[vcrop:37:0]]\\n\\n本系列控制器的波形指数调节范围是0～100，调整精度1。\\n\\n> - 波形指数取值0时具有最高效率，弹簧受到的应力最小。\\n> - 取值为100时可以取得最大额定输出功率和最小噪音，但弹簧将会受到较大的应力。\\n\\n### 波形指数示意图\\n\\n[[vcrop:37:1]]\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.19,\n        0.275,\n        0.81,\n        0.49\n      ],\n      \"alt\": \"控制器面板示意图，显示高级参数 r 的波形指数，r=100，右侧标注默认值设置为100\",\n      \"reason\": \"设备面板与数码管显示属于复杂示意图，需保留原始视觉信息。\"\n    },\n    {\n      \"bbox_0_1\": [\n        0.09,\n        0.725,\n        0.91,\n        0.9\n      ],\n      \"alt\": \"波形指数示意图，左侧 r=100 波形，右侧 r=0 波形，坐标轴为电流-时间\",\n      \"reason\": \"波形曲线图需要按原图保留线形和相对幅值。\"\n    }\n  ],\n  \"notes\": \"页面清晰，主要包含波形指数说明、控制器参数示意图和波形对比图。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780826587,
+    "id": "chatcmpl-Do4dPLHBENYUVZlgRnhK2pwhjnWlX",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1483,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 12,
+        "engine_ttft_ms": 632,
+        "engine_ttlt_ms": 18381,
+        "pre_inference_ms": 141,
+        "service_tbt_ms": 12,
+        "service_ttft_ms": 998,
+        "service_ttlt_ms": 18740,
+        "total_duration_ms": 18614,
+        "user_visible_ttft_ms": 857
+      },
+      "prompt_tokens": 2809,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4292
+    }
+  }
+}

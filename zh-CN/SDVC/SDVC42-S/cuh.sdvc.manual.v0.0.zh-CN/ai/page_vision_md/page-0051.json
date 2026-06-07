@@ -1,0 +1,57 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 51,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-06T00:54:58",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，doc_key=cuh.sdvc.manual.v0.0，lang=zh-CN，页码=51。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2.2 控",
+  "assistant_text": "{\n  \"page_markdown\": \"自动高频压电振动送料控制器　　　　　　　　　　　　　　　　SDVC42-S\\n\\n---\\n\\n## 4.9.1 设备组网\\n\\n本章节主要介绍多台控制器间快速组网，新控制器如何加入已组网络中以及如何删除网络内的控制器。\\n\\n### 4.9.1.1 设备组网\\n\\n单台控制器自己为一个网络，当控制器间 CUHBus-DS® 信号线正确连接并进行简单操作后便可实现多台设备组成一个新的数字同步通信网络。\\n\\n[[vcrop:51:0]]\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　-41-　　　　　　　　　　　　　　　SDVC42SSMSCN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.38,\n        0.32,\n        0.62,\n        0.89\n      ],\n      \"alt\": \"CUHBus-DS® 设备组网接线示意图：地址1、地址2、地址3、地址4控制器之间通过T1/T3端子连接\",\n      \"reason\": \"细线接线示意图，需保留原图以准确呈现端子与连线关系。\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "自动高频压电振动送料控制器　　　　　　　　　　　　　　　　SDVC42-S\n\n---\n\n## 4.9.1 设备组网\n\n本章节主要介绍多台控制器间快速组网，新控制器如何加入已组网络中以及如何删除网络内的控制器。\n\n### 4.9.1.1 设备组网\n\n单台控制器自己为一个网络，当控制器间 CUHBus-DS® 信号线正确连接并进行简单操作后便可实现多台设备组成一个新的数字同步通信网络。\n\n[[vcrop:51:0]]\n\n---\n\n2026-02　　　　　　　　　　　　　　　-41-　　　　　　　　　　　　　　　SDVC42SSMSCN_3.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.38,
+        0.32,
+        0.62,
+        0.89
+      ],
+      "alt": "CUHBus-DS® 设备组网接线示意图：地址1、地址2、地址3、地址4控制器之间通过T1/T3端子连接",
+      "reason": "细线接线示意图，需保留原图以准确呈现端子与连线关系。"
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "id": "chatcmpl-DnS6jDbA4yU5ynJzEAYcCQViM2QxK",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780678489,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"page_markdown\": \"自动高频压电振动送料控制器　　　　　　　　　　　　　　　　SDVC42-S\\n\\n---\\n\\n## 4.9.1 设备组网\\n\\n本章节主要介绍多台控制器间快速组网，新控制器如何加入已组网络中以及如何删除网络内的控制器。\\n\\n### 4.9.1.1 设备组网\\n\\n单台控制器自己为一个网络，当控制器间 CUHBus-DS® 信号线正确连接并进行简单操作后便可实现多台设备组成一个新的数字同步通信网络。\\n\\n[[vcrop:51:0]]\\n\\n---\\n\\n2026-02　　　　　　　　　　　　　　　-41-　　　　　　　　　　　　　　　SDVC42SSMSCN_3.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.38,\n        0.32,\n        0.62,\n        0.89\n      ],\n      \"alt\": \"CUHBus-DS® 设备组网接线示意图：地址1、地址2、地址3、地址4控制器之间通过T1/T3端子连接\",\n      \"reason\": \"细线接线示意图，需保留原图以准确呈现端子与连线关系。\"\n    }\n  ],\n  \"notes\": \"\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 4144,
+      "completion_tokens": 732,
+      "total_tokens": 4876,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 420,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

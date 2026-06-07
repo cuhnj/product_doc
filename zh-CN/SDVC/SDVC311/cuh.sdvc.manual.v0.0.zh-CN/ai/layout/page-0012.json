@@ -1,0 +1,142 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 12,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-07T17:54:40",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=12。\n\n【目录/书签上下文（节选）】\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯及按键说明（第 10 页）\n  - 1.3 外部部件说明（第 11 页）\n  - 1.4 接线端口说明（第 12 页）\n  - 1.5 控制器铭牌说明（第 12 页）\n- 第二章 产品介绍（第 13 页）\n  - 2.1 产品简介（第 13 页）\n  - 2.2 产品性能提升（第 13 页）\n  - 2.3 产品现代/传统界面（第 14 页）\n- 第三章 安装及使用指南",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.048, 0.93, 0.074],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.158, 0.33, 0.188],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.200, 0.93, 0.590],\n      \"confidence\": 0.95,\n      \"caption\": \"1.4 接线端口说明\",\n      \"image_alt\": \"接线端口示意图，左侧为 SDVC311-S、SDVC311-M 端子排，标注遥控调速、智能光电、料满停机、控制输出等端子；右侧为 SDVC311-XL 端子排，按 24V 电源、遥控调速、智能光电、料满停机、控制输出分组标注。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.624, 0.35, 0.654],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.658, 0.93, 0.946],\n      \"confidence\": 0.95,\n      \"caption\": \"1.5 控制器铭牌说明\",\n      \"image_alt\": \"控制器铭牌示意图，包含 CUH 标识、数字调频振动送料控制器名称、型号 SDVC311-M、输入电压范围、输出频率范围、最大输出电流、最大输出功率、限海拔说明、二维码、产品序列号、制造单位及地址，并用箭头标注产品型号、产品基本参数、制造单位及地址、产品序列号、生产日期等位置。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.958, 0.93, 0.984],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为可检索文本与矢量/嵌入图形混排的说明书页面，不像纯扫描件。页面以两幅结构示意图为主，分别说明接线端口和控制器铭牌。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.048,
+          0.93,
+          0.074
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.158,
+          0.33,
+          0.188
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.07,
+          0.2,
+          0.93,
+          0.59
+        ],
+        "confidence": 0.95,
+        "caption": "1.4 接线端口说明",
+        "image_alt": "接线端口示意图，左侧为 SDVC311-S、SDVC311-M 端子排，标注遥控调速、智能光电、料满停机、控制输出等端子；右侧为 SDVC311-XL 端子排，按 24V 电源、遥控调速、智能光电、料满停机、控制输出分组标注。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.624,
+          0.35,
+          0.654
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.07,
+          0.658,
+          0.93,
+          0.946
+        ],
+        "confidence": 0.95,
+        "caption": "1.5 控制器铭牌说明",
+        "image_alt": "控制器铭牌示意图，包含 CUH 标识、数字调频振动送料控制器名称、型号 SDVC311-M、输入电压范围、输出频率范围、最大输出电流、最大输出功率、限海拔说明、二维码、产品序列号、制造单位及地址，并用箭头标注产品型号、产品基本参数、制造单位及地址、产品序列号、生产日期等位置。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.958,
+          0.93,
+          0.984
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "本页为可检索文本与矢量/嵌入图形混排的说明书页面，不像纯扫描件。页面以两幅结构示意图为主，分别说明接线端口和控制器铭牌。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.048, 0.93, 0.074],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.158, 0.33, 0.188],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.200, 0.93, 0.590],\n      \"confidence\": 0.95,\n      \"caption\": \"1.4 接线端口说明\",\n      \"image_alt\": \"接线端口示意图，左侧为 SDVC311-S、SDVC311-M 端子排，标注遥控调速、智能光电、料满停机、控制输出等端子；右侧为 SDVC311-XL 端子排，按 24V 电源、遥控调速、智能光电、料满停机、控制输出分组标注。\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.624, 0.35, 0.654],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.07, 0.658, 0.93, 0.946],\n      \"confidence\": 0.95,\n      \"caption\": \"1.5 控制器铭牌说明\",\n      \"image_alt\": \"控制器铭牌示意图，包含 CUH 标识、数字调频振动送料控制器名称、型号 SDVC311-M、输入电压范围、输出频率范围、最大输出电流、最大输出功率、限海拔说明、二维码、产品序列号、制造单位及地址，并用箭头标注产品型号、产品基本参数、制造单位及地址、产品序列号、生产日期等位置。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.958, 0.93, 0.984],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为可检索文本与矢量/嵌入图形混排的说明书页面，不像纯扫描件。页面以两幅结构示意图为主，分别说明接线端口和控制器铭牌。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780826070,
+    "id": "chatcmpl-Do4V49anreoyPYq1OeFRgKLn0pkdh",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 867,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 253,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 10,
+        "engine_ttft_ms": 497,
+        "engine_ttlt_ms": 8866,
+        "pre_inference_ms": 135,
+        "service_tbt_ms": 10,
+        "service_ttft_ms": 865,
+        "service_ttlt_ms": 9231,
+        "total_duration_ms": 9104,
+        "user_visible_ttft_ms": 731
+      },
+      "prompt_tokens": 2766,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3633
+    }
+  }
+}

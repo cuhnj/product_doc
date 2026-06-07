@@ -1,0 +1,127 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 37,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-07T17:45:13",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=37。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2.2 控制器外观说明（第 15 页）\n  - 2.3 振动传感",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.052, 0.932, 0.078],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.073, 0.139, 0.931, 0.752],\n      \"confidence\": 0.98,\n      \"caption\": \"无显式表题；表格内容为“遥控源 / 远程遥控信号 / 输出电压/送料速度”的对应说明\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.794, 0.315, 0.821],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.825, 0.929, 0.946],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.973, 0.930, 0.996],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为可检索文本层与矢量/排版内容渲染，不像扫描件。页面以大表格为主，表格下方为小节“4.4.1.8 遥控系数”的说明文字；背景有淡色 CUH 水印，不属于主要阅读内容。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.052,
+          0.932,
+          0.078
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.073,
+          0.139,
+          0.931,
+          0.752
+        ],
+        "confidence": 0.98,
+        "caption": "无显式表题；表格内容为“遥控源 / 远程遥控信号 / 输出电压/送料速度”的对应说明",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.794,
+          0.315,
+          0.821
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.825,
+          0.929,
+          0.946
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.073,
+          0.973,
+          0.93,
+          0.996
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "本页为可检索文本层与矢量/排版内容渲染，不像扫描件。页面以大表格为主，表格下方为小节“4.4.1.8 遥控系数”的说明文字；背景有淡色 CUH 水印，不属于主要阅读内容。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.052, 0.932, 0.078],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.073, 0.139, 0.931, 0.752],\n      \"confidence\": 0.98,\n      \"caption\": \"无显式表题；表格内容为“遥控源 / 远程遥控信号 / 输出电压/送料速度”的对应说明\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.073, 0.794, 0.315, 0.821],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.825, 0.929, 0.946],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.073, 0.973, 0.930, 0.996],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为可检索文本层与矢量/排版内容渲染，不像扫描件。页面以大表格为主，表格下方为小节“4.4.1.8 遥控系数”的说明文字；背景有淡色 CUH 水印，不属于主要阅读内容。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780825502,
+    "id": "chatcmpl-Do4LuT0K6XjbltMdedod67rS9ZO2y",
+    "model": "gpt-5.5-2026-04-23",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 905,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 11,
+        "engine_ttft_ms": 328,
+        "engine_ttlt_ms": 10288,
+        "pre_inference_ms": 184,
+        "service_tbt_ms": 11,
+        "service_ttft_ms": 617,
+        "service_ttlt_ms": 10572,
+        "total_duration_ms": 10397,
+        "user_visible_ttft_ms": 433
+      },
+      "prompt_tokens": 4352,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5257
+    }
+  }
+}

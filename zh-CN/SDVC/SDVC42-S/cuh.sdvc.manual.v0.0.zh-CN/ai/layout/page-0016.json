@@ -1,0 +1,231 @@
+{
+  "doc_id": "cuh.sdvc.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 16,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-06T00:45:19",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc.manual.v0.0.zh-CN，页码=16。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与储存环境（第 5 页）\n- 7: 目录（第 7 页）\n- 8: 目录2（第 8 页）\n- 9: 目录3（第 9 页）\n- 10: 目录4（第 10 页）\n- 第一章 使用前须知（第 11 页）\n  - 1.1 检查包装内容（第 11 页）\n  - 1.2 控制器铭牌说明（第 12 页）\n  - 1.3 控制器使用条件（第 12 页）\n  - 1.4 说明书导读（第 13 页）\n- 第二章 产品介绍（第 14 页）\n  - 2.1 产品简介（第 14 页）\n  - 2.2 控制器外观说明（第 15 页）\n  - 2.3 振动传感",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.932, 0.075],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.133, 0.493, 0.164],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.082, 0.194, 0.690, 0.237],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.082, 0.257, 0.368, 0.307],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.640, 0.233, 0.925, 0.357],\n      \"confidence\": 0.95,\n      \"caption\": \"图 2.3.1\",\n      \"image_alt\": \"振动盘示意图，标注振动传感器安装位置1。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.082, 0.357, 0.540, 0.399],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.636, 0.382, 0.925, 0.502],\n      \"confidence\": 0.95,\n      \"caption\": \"图 2.3.2\",\n      \"image_alt\": \"振动盘内部安装示意图，标注振动传感器安装位置2。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.082, 0.450, 0.585, 0.519],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.315, 0.534, 0.625, 0.664],\n      \"confidence\": 0.95,\n      \"caption\": \"图 2.3.3\",\n      \"image_alt\": \"振动盘外侧支架安装示意图，标注振动传感器安装位置3。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.646, 0.535, 0.930, 0.655],\n      \"confidence\": 0.94,\n      \"caption\": \"图 2.3.4\",\n      \"image_alt\": \"振动传感器支架建议尺寸示意图，图中标有单位mm及尺寸标注。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.082, 0.706, 0.936, 0.778],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.140, 0.792, 0.470, 0.932],\n      \"confidence\": 0.95,\n      \"caption\": \"图 2.3.5\",\n      \"image_alt\": \"不推荐安装方式示意图，振动传感器位于可能受物料或料盘干扰的位置，并以叉号标示。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.515, 0.792, 0.890, 0.913],\n      \"confidence\": 0.95,\n      \"caption\": \"图 2.3.6\",\n      \"image_alt\": \"不推荐安装方式示意图，振动传感器安装在料盘侧部外伸位置，并以叉号标示。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.954, 0.932, 0.978],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],\n  \"notes\": \"本页为PDF渲染页，含可识别文本层，不像纯扫描件。页面属于第2章产品介绍中的“2.3 振动传感器安装指南”，图文混排，主体内容以振动传感器推荐与不推荐安装方式的线框示意图为主。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.052,
+          0.932,
+          0.075
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.072,
+          0.133,
+          0.493,
+          0.164
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.082,
+          0.194,
+          0.69,
+          0.237
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.082,
+          0.257,
+          0.368,
+          0.307
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.64,
+          0.233,
+          0.925,
+          0.357
+        ],
+        "confidence": 0.95,
+        "caption": "图 2.3.1",
+        "image_alt": "振动盘示意图，标注振动传感器安装位置1。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.082,
+          0.357,
+          0.54,
+          0.399
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.636,
+          0.382,
+          0.925,
+          0.502
+        ],
+        "confidence": 0.95,
+        "caption": "图 2.3.2",
+        "image_alt": "振动盘内部安装示意图，标注振动传感器安装位置2。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.082,
+          0.45,
+          0.585,
+          0.519
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.315,
+          0.534,
+          0.625,
+          0.664
+        ],
+        "confidence": 0.95,
+        "caption": "图 2.3.3",
+        "image_alt": "振动盘外侧支架安装示意图，标注振动传感器安装位置3。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.646,
+          0.535,
+          0.93,
+          0.655
+        ],
+        "confidence": 0.94,
+        "caption": "图 2.3.4",
+        "image_alt": "振动传感器支架建议尺寸示意图，图中标有单位mm及尺寸标注。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.082,
+          0.706,
+          0.936,
+          0.778
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.14,
+          0.792,
+          0.47,
+          0.932
+        ],
+        "confidence": 0.95,
+        "caption": "图 2.3.5",
+        "image_alt": "不推荐安装方式示意图，振动传感器位于可能受物料或料盘干扰的位置，并以叉号标示。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.515,
+          0.792,
+          0.89,
+          0.913
+        ],
+        "confidence": 0.95,
+        "caption": "图 2.3.6",
+        "image_alt": "不推荐安装方式示意图，振动传感器安装在料盘侧部外伸位置，并以叉号标示。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.954,
+          0.932,
+          0.978
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "notes": "本页为PDF渲染页，含可识别文本层，不像纯扫描件。页面属于第2章产品介绍中的“2.3 振动传感器安装指南”，图文混排，主体内容以振动传感器推荐与不推荐安装方式的线框示意图为主。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "id": "chatcmpl-DnRx9Cm3vjeHj8AmyVBmjT3h3YaQE",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "created": 1780677895,
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.052, 0.932, 0.075],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.072, 0.133, 0.493, 0.164],\n      \"confidence\": 0.98\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.082, 0.194, 0.690, 0.237],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.082, 0.257, 0.368, 0.307],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.640, 0.233, 0.925, 0.357],\n      \"confidence\": 0.95,\n      \"caption\": \"图 2.3.1\",\n      \"image_alt\": \"振动盘示意图，标注振动传感器安装位置1。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.082, 0.357, 0.540, 0.399],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.636, 0.382, 0.925, 0.502],\n      \"confidence\": 0.95,\n      \"caption\": \"图 2.3.2\",\n      \"image_alt\": \"振动盘内部安装示意图，标注振动传感器安装位置2。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.082, 0.450, 0.585, 0.519],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.315, 0.534, 0.625, 0.664],\n      \"confidence\": 0.95,\n      \"caption\": \"图 2.3.3\",\n      \"image_alt\": \"振动盘外侧支架安装示意图，标注振动传感器安装位置3。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.646, 0.535, 0.930, 0.655],\n      \"confidence\": 0.94,\n      \"caption\": \"图 2.3.4\",\n      \"image_alt\": \"振动传感器支架建议尺寸示意图，图中标有单位mm及尺寸标注。\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.082, 0.706, 0.936, 0.778],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.140, 0.792, 0.470, 0.932],\n      \"confidence\": 0.95,\n      \"caption\": \"图 2.3.5\",\n      \"image_alt\": \"不推荐安装方式示意图，振动传感器位于可能受物料或料盘干扰的位置，并以叉号标示。\"\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.515, 0.792, 0.890, 0.913],\n      \"confidence\": 0.95,\n      \"caption\": \"图 2.3.6\",\n      \"image_alt\": \"不推荐安装方式示意图，振动传感器安装在料盘侧部外伸位置，并以叉号标示。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.072, 0.954, 0.932, 0.978],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],\n  \"notes\": \"本页为PDF渲染页，含可识别文本层，不像纯扫描件。页面属于第2章产品介绍中的“2.3 振动传感器安装指南”，图文混排，主体内容以振动传感器推荐与不推荐安装方式的线框示意图为主。\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "service_tier": "default",
+    "usage": {
+      "prompt_tokens": 3975,
+      "completion_tokens": 2110,
+      "total_tokens": 6085,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}
