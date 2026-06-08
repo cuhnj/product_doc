@@ -1,0 +1,72 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v10.01.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v10.01",
+  "lang": "zh-CN",
+  "page_index": 25,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T00:55:59",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v10.01.zh-CN，doc_key=cuh.sdvc34.manual.v10.01，lang=zh-CN，页码=25。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 6: 目录（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯说明（第 10 页）\n  - 1.3 按键说明（第 12 页）\n  - 1.4 外部部件说明（第 12 页）\n  - 1.5 接线端口说明（第 13 页）\n  - 1.6 控制器铭牌说明（第 14 页）\n- 第二章 性能特点（第 15 页）\n ",
+  "assistant_text": "{\n  \"page_markdown\": \"智能调频振动送料控制器  \\nSDVC34 系列\\n\\n**恢复出厂设置：8.8.8.8.8.**\\n\\n本参数可以使用户快速将控制器设置为出厂默认状态。由于本控制器功能强大，有数量众多的控制参数可以由用户设定，对于初学者，可能在多次的设定修改后不能使控制器处于正常工作状态。使用该功能可以快速将调乱的参数状态恢复为出厂默认状态。\\n\\n> **注：恢复出厂默认设置的方法**\\n>\\n> - 同时长按 `功能` 和 ▲ 保持2秒，进入高级参数的调整状态。\\n> - 短按 `功能` 切换到恢复出厂设置参数8.8.8.8.8.。\\n> - 此时LED和指示灯都处于闪烁状态。\\n> - 按下 ▲ 并保持1秒，直至LED显示为-----。\\n> - 松开 ▲，此时已完成恢复出厂默认设置操作，LED显示U150。\\n\\n[[vcrop:25:0]]\\n\\n2026-03　　　　　　　　- 17 -　　　　　　　　SDVC34SMSCN_10.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.095,\n        0.512,\n        0.91,\n        0.735\n      ],\n      \"alt\": \"恢复出厂设置参数设定状态与设定完成的控制器显示示意图\",\n      \"reason\": \"包含控制器面板、LED显示、按键操作手势和标注线，属于复杂示意图，需保留位图。\"\n    }\n  ],\n  \"notes\": \"页面清晰；正文已转写，底部控制器操作示意图建议裁剪保留。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "智能调频振动送料控制器  \nSDVC34 系列\n\n**恢复出厂设置：8.8.8.8.8.**\n\n本参数可以使用户快速将控制器设置为出厂默认状态。由于本控制器功能强大，有数量众多的控制参数可以由用户设定，对于初学者，可能在多次的设定修改后不能使控制器处于正常工作状态。使用该功能可以快速将调乱的参数状态恢复为出厂默认状态。\n\n> **注：恢复出厂默认设置的方法**\n>\n> - 同时长按 `功能` 和 ▲ 保持2秒，进入高级参数的调整状态。\n> - 短按 `功能` 切换到恢复出厂设置参数8.8.8.8.8.。\n> - 此时LED和指示灯都处于闪烁状态。\n> - 按下 ▲ 并保持1秒，直至LED显示为-----。\n> - 松开 ▲，此时已完成恢复出厂默认设置操作，LED显示U150。\n\n[[vcrop:25:0]]\n\n2026-03　　　　　　　　- 17 -　　　　　　　　SDVC34SMSCN_10.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.095,
+        0.512,
+        0.91,
+        0.735
+      ],
+      "alt": "恢复出厂设置参数设定状态与设定完成的控制器显示示意图",
+      "reason": "包含控制器面板、LED显示、按键操作手势和标注线，属于复杂示意图，需保留位图。"
+    }
+  ],
+  "notes": "页面清晰；正文已转写，底部控制器操作示意图建议裁剪保留。",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"page_markdown\": \"智能调频振动送料控制器  \\nSDVC34 系列\\n\\n**恢复出厂设置：8.8.8.8.8.**\\n\\n本参数可以使用户快速将控制器设置为出厂默认状态。由于本控制器功能强大，有数量众多的控制参数可以由用户设定，对于初学者，可能在多次的设定修改后不能使控制器处于正常工作状态。使用该功能可以快速将调乱的参数状态恢复为出厂默认状态。\\n\\n> **注：恢复出厂默认设置的方法**\\n>\\n> - 同时长按 `功能` 和 ▲ 保持2秒，进入高级参数的调整状态。\\n> - 短按 `功能` 切换到恢复出厂设置参数8.8.8.8.8.。\\n> - 此时LED和指示灯都处于闪烁状态。\\n> - 按下 ▲ 并保持1秒，直至LED显示为-----。\\n> - 松开 ▲，此时已完成恢复出厂默认设置操作，LED显示U150。\\n\\n[[vcrop:25:0]]\\n\\n2026-03　　　　　　　　- 17 -　　　　　　　　SDVC34SMSCN_10.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.095,\n        0.512,\n        0.91,\n        0.735\n      ],\n      \"alt\": \"恢复出厂设置参数设定状态与设定完成的控制器显示示意图\",\n      \"reason\": \"包含控制器面板、LED显示、按键操作手势和标注线，属于复杂示意图，需保留位图。\"\n    }\n  ],\n  \"notes\": \"页面清晰；正文已转写，底部控制器操作示意图建议裁剪保留。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780851334,
+    "id": "chatcmpl-DoB4Y3hPeSRFQAJBftKnc8X0sHYLU",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1987,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1536,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 12,
+        "engine_ttft_ms": 505,
+        "engine_ttlt_ms": 24027,
+        "pre_inference_ms": 139,
+        "service_tbt_ms": 12,
+        "service_ttft_ms": 873,
+        "service_ttlt_ms": 24393,
+        "total_duration_ms": 24258,
+        "user_visible_ttft_ms": 735
+      },
+      "prompt_tokens": 3437,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5424
+    }
+  }
+}

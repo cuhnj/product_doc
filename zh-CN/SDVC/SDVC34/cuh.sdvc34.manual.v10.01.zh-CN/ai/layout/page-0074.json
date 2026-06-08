@@ -1,0 +1,116 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v10.01.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v10.01",
+  "lang": "zh-CN",
+  "page_index": 74,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T00:49:40",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v10.01.zh-CN，页码=74。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 6: 目录（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯说明（第 10 页）\n  - 1.3 按键说明（第 12 页）\n  - 1.4 外部部件说明（第 12 页）\n  - 1.5 接线端口说明（第 13 页）\n  - 1.6 控制器铭牌说明（第 14 页）\n- 第二章 性能特点（第 15 页）\n  - 2.1 性能总述（第 15 页）\n  - 2.2 选型指",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.05, 0.93, 0.08],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.13, 0.52, 0.16],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.10, 0.16, 0.90, 0.96],\n      \"confidence\": 0.96,\n      \"image_alt\": \"SDVC34-U 系列控制器的外形尺寸工程图，包含正面视图和底部/侧面接口视图，图中标注了多处安装孔、半径、宽度、高度及接口位置尺寸。\",\n      \"caption\": \"SDVC34-U 系列外形尺寸（单位：mm）\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.98, 0.93, 1.00],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3],\n  \"notes\": \"本页不是纯扫描件，呈现为带文本层/矢量线稿的说明书页面。页面以外形尺寸工程图为主，未见表格；页眉包含产品系列信息，页脚包含日期、页码和文档编号。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.05,
+          0.93,
+          0.08
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.13,
+          0.52,
+          0.16
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.1,
+          0.16,
+          0.9,
+          0.96
+        ],
+        "confidence": 0.96,
+        "image_alt": "SDVC34-U 系列控制器的外形尺寸工程图，包含正面视图和底部/侧面接口视图，图中标注了多处安装孔、半径、宽度、高度及接口位置尺寸。",
+        "caption": "SDVC34-U 系列外形尺寸（单位：mm）",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.98,
+          0.93,
+          1.0
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "notes": "本页不是纯扫描件，呈现为带文本层/矢量线稿的说明书页面。页面以外形尺寸工程图为主，未见表格；页眉包含产品系列信息，页脚包含日期、页码和文档编号。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.05, 0.93, 0.08],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.13, 0.52, 0.16],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.10, 0.16, 0.90, 0.96],\n      \"confidence\": 0.96,\n      \"image_alt\": \"SDVC34-U 系列控制器的外形尺寸工程图，包含正面视图和底部/侧面接口视图，图中标注了多处安装孔、半径、宽度、高度及接口位置尺寸。\",\n      \"caption\": \"SDVC34-U 系列外形尺寸（单位：mm）\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.98, 0.93, 1.00],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3],\n  \"notes\": \"本页不是纯扫描件，呈现为带文本层/矢量线稿的说明书页面。页面以外形尺寸工程图为主，未见表格；页眉包含产品系列信息，页脚包含日期、页码和文档编号。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780850968,
+    "id": "chatcmpl-DoAyezlwCBGzNMzqjgO6QP8lM9y4e",
+    "model": "gpt-5.5-2026-04-23",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 882,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 13,
+        "engine_ttft_ms": 325,
+        "engine_ttlt_ms": 11377,
+        "pre_inference_ms": 140,
+        "service_tbt_ms": 13,
+        "service_ttft_ms": 539,
+        "service_ttlt_ms": 11574,
+        "total_duration_ms": 11442,
+        "user_visible_ttft_ms": 399
+      },
+      "prompt_tokens": 3054,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3936
+    }
+  }
+}

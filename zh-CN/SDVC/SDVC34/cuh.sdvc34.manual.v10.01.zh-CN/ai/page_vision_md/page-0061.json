@@ -1,0 +1,61 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v10.01.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v10.01",
+  "lang": "zh-CN",
+  "page_index": 61,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T00:58:03",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v10.01.zh-CN，doc_key=cuh.sdvc34.manual.v10.01，lang=zh-CN，页码=61。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 6: 目录（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯说明（第 10 页）\n  - 1.3 按键说明（第 12 页）\n  - 1.4 外部部件说明（第 12 页）\n  - 1.5 接线端口说明（第 13 页）\n  - 1.6 控制器铭牌说明（第 14 页）\n- 第二章 性能特点（第 15 页）\n ",
+  "assistant_text": "{\"page_markdown\":\"## 6.3.3 主输出逻辑关系设定\\n\\n- 同时长按 **功能** 和 **▲** 保持2秒，进入高级参数的调整状态。\\n- 短按 **功能** 切换到主输出逻辑关系 **F4** 参数。\\n- 通过使用 **▲** 和 **▼** 调整参数值。\\n\\n出厂默认状态为“常通”。\\n\\n可选状态：\\n\\n- 常通\\n- 常断\\n- C控主，E控D\\n- C控D，E控主\\n\\n---\\n\\n- 主输出逻辑关系设置为**常通**，控制器主输出和控制输出相关联，同时受料满停机端口C和E的逻辑结果及开关键控制。\\n\\n- 主输出逻辑关系设置为**常断**，控制器主输出和控制输出不关联，主输出仅受开关键控制，控制输出受料满停机端口C和E的逻辑结果控制。\\n\\n- 主输出逻辑关系设置为**C控主，E控D**，控制器主输出受开关键和料满停机端口C信号控制，控制输出受料满停机端口E信号控制。\\n\\n- 主输出逻辑关系设置为**C控D，E控主**，控制器主输出受开关键和料满停机端口E信号控制，控制输出受料满停机端口C信号控制。\",\"crop_suggestions\":[],\"notes\":\"\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "## 6.3.3 主输出逻辑关系设定\n\n- 同时长按 **功能** 和 **▲** 保持2秒，进入高级参数的调整状态。\n- 短按 **功能** 切换到主输出逻辑关系 **F4** 参数。\n- 通过使用 **▲** 和 **▼** 调整参数值。\n\n出厂默认状态为“常通”。\n\n可选状态：\n\n- 常通\n- 常断\n- C控主，E控D\n- C控D，E控主\n\n---\n\n- 主输出逻辑关系设置为**常通**，控制器主输出和控制输出相关联，同时受料满停机端口C和E的逻辑结果及开关键控制。\n\n- 主输出逻辑关系设置为**常断**，控制器主输出和控制输出不关联，主输出仅受开关键控制，控制输出受料满停机端口C和E的逻辑结果控制。\n\n- 主输出逻辑关系设置为**C控主，E控D**，控制器主输出受开关键和料满停机端口C信号控制，控制输出受料满停机端口E信号控制。\n\n- 主输出逻辑关系设置为**C控D，E控主**，控制器主输出受开关键和料满停机端口E信号控制，控制输出受料满停机端口C信号控制。",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\"page_markdown\":\"## 6.3.3 主输出逻辑关系设定\\n\\n- 同时长按 **功能** 和 **▲** 保持2秒，进入高级参数的调整状态。\\n- 短按 **功能** 切换到主输出逻辑关系 **F4** 参数。\\n- 通过使用 **▲** 和 **▼** 调整参数值。\\n\\n出厂默认状态为“常通”。\\n\\n可选状态：\\n\\n- 常通\\n- 常断\\n- C控主，E控D\\n- C控D，E控主\\n\\n---\\n\\n- 主输出逻辑关系设置为**常通**，控制器主输出和控制输出相关联，同时受料满停机端口C和E的逻辑结果及开关键控制。\\n\\n- 主输出逻辑关系设置为**常断**，控制器主输出和控制输出不关联，主输出仅受开关键控制，控制输出受料满停机端口C和E的逻辑结果控制。\\n\\n- 主输出逻辑关系设置为**C控主，E控D**，控制器主输出受开关键和料满停机端口C信号控制，控制输出受料满停机端口E信号控制。\\n\\n- 主输出逻辑关系设置为**C控D，E控主**，控制器主输出受开关键和料满停机端口E信号控制，控制输出受料满停机端口C信号控制。\",\"crop_suggestions\":[],\"notes\":\"\"}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780851466,
+    "id": "chatcmpl-DoB6gMomwBazTn2wMpsoACYzMx45O",
+    "model": "gpt-5.5-2026-04-23",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1387,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 11,
+        "engine_ttft_ms": 635,
+        "engine_ttlt_ms": 16310,
+        "pre_inference_ms": 176,
+        "service_tbt_ms": 11,
+        "service_ttft_ms": 1047,
+        "service_ttlt_ms": 16715,
+        "total_duration_ms": 16548,
+        "user_visible_ttft_ms": 871
+      },
+      "prompt_tokens": 3506,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4893
+    }
+  }
+}

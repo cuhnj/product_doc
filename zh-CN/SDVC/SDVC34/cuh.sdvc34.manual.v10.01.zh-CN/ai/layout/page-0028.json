@@ -1,0 +1,326 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v10.01.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v10.01",
+  "lang": "zh-CN",
+  "page_index": 28,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T00:47:40",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v10.01.zh-CN，页码=28。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 6: 目录（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯说明（第 10 页）\n  - 1.3 按键说明（第 12 页）\n  - 1.4 外部部件说明（第 12 页）\n  - 1.5 接线端口说明（第 13 页）\n  - 1.6 控制器铭牌说明（第 14 页）\n- 第二章 性能特点（第 15 页）\n  - 2.1 性能总述（第 15 页）\n  - 2.2 选型指",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"text\": \"页眉：左侧“智能调频振动送料控制器”，右侧“SDVC34 系列”，下方有横线。\",\n      \"bbox_0_1\": [0.071, 0.050, 0.933, 0.074],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"频率自动调整系数：1F\",\n      \"bbox_0_1\": [0.071, 0.163, 0.292, 0.181],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"说明控制器通过 PID 算法自动调整输出频率，“1F”为频率积分参数；值越大调整越快，过大可能造成输出频率振荡。\",\n      \"bbox_0_1\": [0.071, 0.190, 0.919, 0.224],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"振幅自动调整系数：PA\",\n      \"bbox_0_1\": [0.071, 0.245, 0.316, 0.263],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"说明控制器通过 PID 控制自动调整输出电压，“PA”为速度比例参数；值越大调整越快，过大可能造成输出电压频繁振荡。\",\n      \"bbox_0_1\": [0.071, 0.271, 0.920, 0.305],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"振幅自动调整系数：1A\",\n      \"bbox_0_1\": [0.071, 0.326, 0.311, 0.345],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"说明“1A”为速度积分参数；值越大可更快调整输出电压并减小振荡幅度和次数，但过大反而会造成输出电压振荡幅度变大。\",\n      \"bbox_0_1\": [0.071, 0.353, 0.918, 0.405],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"送料速度显示：参数符号\",\n      \"bbox_0_1\": [0.071, 0.427, 0.236, 0.445],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"该参数用于显示当前送料速度，以帮助用户了解设备的工作情况，该参数不能调整。\",\n      \"bbox_0_1\": [0.114, 0.455, 0.844, 0.469],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"输出电压显示：G\",\n      \"bbox_0_1\": [0.071, 0.489, 0.244, 0.507],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"该参数用于显示当前输出电压，以帮助用户了解设备的工作情况，该参数不能调整。\",\n      \"bbox_0_1\": [0.114, 0.518, 0.844, 0.532],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"电压下限和频率下限：GL 和参数符号\",\n      \"bbox_0_1\": [0.071, 0.549, 0.388, 0.568],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"说明当相关参数设置为指定状态且控制器处于自动状态并正常工作时，输出电压低于 GL 设置下限或输出频率低于另一参数设置下限时，24V 控制输出有效；否则输出无效。并说明相关参数可自动保存，且可在 485 通讯中设置和读取。\",\n      \"bbox_0_1\": [0.071, 0.573, 0.924, 0.709],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"最大振幅指数：P\",\n      \"bbox_0_1\": [0.071, 0.735, 0.246, 0.753],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"该参数可限制设备能够承受的最大振动强度，以防止用户误操作而损坏设备。\",\n      \"bbox_0_1\": [0.114, 0.761, 0.764, 0.776],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"最大可设定送料速度：H\",\n      \"bbox_0_1\": [0.071, 0.795, 0.304, 0.813],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"说明可调送料速度范围为 0~H，设定该参数可限制最大可设定送料速度；远程速度控制时送料速度也受此参数影响。\",\n      \"bbox_0_1\": [0.071, 0.821, 0.919, 0.859],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"相位差：参数符号\",\n      \"bbox_0_1\": [0.071, 0.884, 0.196, 0.901],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"该参数可修改输出波形的相位，控制器出厂时相位默认为 0°。\",\n      \"bbox_0_1\": [0.114, 0.912, 0.671, 0.927],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"text\": \"页脚：左侧日期“2026-03”，中间页码“-20-”，右侧文档编号“SDVC34SMSCN_10.01”，上方有横线。\",\n      \"bbox_0_1\": [0.071, 0.954, 0.933, 0.976],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],\n  \"notes\": \"本页为文本型说明书页面，背景有浅色 CUH 水印；不是以图片为主的页面。未见表格、图示或流程图，主要内容为参数名称及其说明段落。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "text": "页眉：左侧“智能调频振动送料控制器”，右侧“SDVC34 系列”，下方有横线。",
+        "bbox_0_1": [
+          0.071,
+          0.05,
+          0.933,
+          0.074
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "text": "频率自动调整系数：1F",
+        "bbox_0_1": [
+          0.071,
+          0.163,
+          0.292,
+          0.181
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "text": "说明控制器通过 PID 算法自动调整输出频率，“1F”为频率积分参数；值越大调整越快，过大可能造成输出频率振荡。",
+        "bbox_0_1": [
+          0.071,
+          0.19,
+          0.919,
+          0.224
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "text": "振幅自动调整系数：PA",
+        "bbox_0_1": [
+          0.071,
+          0.245,
+          0.316,
+          0.263
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "text": "说明控制器通过 PID 控制自动调整输出电压，“PA”为速度比例参数；值越大调整越快，过大可能造成输出电压频繁振荡。",
+        "bbox_0_1": [
+          0.071,
+          0.271,
+          0.92,
+          0.305
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "text": "振幅自动调整系数：1A",
+        "bbox_0_1": [
+          0.071,
+          0.326,
+          0.311,
+          0.345
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "text": "说明“1A”为速度积分参数；值越大可更快调整输出电压并减小振荡幅度和次数，但过大反而会造成输出电压振荡幅度变大。",
+        "bbox_0_1": [
+          0.071,
+          0.353,
+          0.918,
+          0.405
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "text": "送料速度显示：参数符号",
+        "bbox_0_1": [
+          0.071,
+          0.427,
+          0.236,
+          0.445
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "text": "该参数用于显示当前送料速度，以帮助用户了解设备的工作情况，该参数不能调整。",
+        "bbox_0_1": [
+          0.114,
+          0.455,
+          0.844,
+          0.469
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "text": "输出电压显示：G",
+        "bbox_0_1": [
+          0.071,
+          0.489,
+          0.244,
+          0.507
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "text": "该参数用于显示当前输出电压，以帮助用户了解设备的工作情况，该参数不能调整。",
+        "bbox_0_1": [
+          0.114,
+          0.518,
+          0.844,
+          0.532
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "text": "电压下限和频率下限：GL 和参数符号",
+        "bbox_0_1": [
+          0.071,
+          0.549,
+          0.388,
+          0.568
+        ],
+        "confidence": 0.91,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "text": "说明当相关参数设置为指定状态且控制器处于自动状态并正常工作时，输出电压低于 GL 设置下限或输出频率低于另一参数设置下限时，24V 控制输出有效；否则输出无效。并说明相关参数可自动保存，且可在 485 通讯中设置和读取。",
+        "bbox_0_1": [
+          0.071,
+          0.573,
+          0.924,
+          0.709
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "text": "最大振幅指数：P",
+        "bbox_0_1": [
+          0.071,
+          0.735,
+          0.246,
+          0.753
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "text": "该参数可限制设备能够承受的最大振动强度，以防止用户误操作而损坏设备。",
+        "bbox_0_1": [
+          0.114,
+          0.761,
+          0.764,
+          0.776
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "text": "最大可设定送料速度：H",
+        "bbox_0_1": [
+          0.071,
+          0.795,
+          0.304,
+          0.813
+        ],
+        "confidence": 0.97,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "text": "说明可调送料速度范围为 0~H，设定该参数可限制最大可设定送料速度；远程速度控制时送料速度也受此参数影响。",
+        "bbox_0_1": [
+          0.071,
+          0.821,
+          0.919,
+          0.859
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "text": "相位差：参数符号",
+        "bbox_0_1": [
+          0.071,
+          0.884,
+          0.196,
+          0.901
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "text": "该参数可修改输出波形的相位，控制器出厂时相位默认为 0°。",
+        "bbox_0_1": [
+          0.114,
+          0.912,
+          0.671,
+          0.927
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "text": "页脚：左侧日期“2026-03”，中间页码“-20-”，右侧文档编号“SDVC34SMSCN_10.01”，上方有横线。",
+        "bbox_0_1": [
+          0.071,
+          0.954,
+          0.933,
+          0.976
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "notes": "本页为文本型说明书页面，背景有浅色 CUH 水印；不是以图片为主的页面。未见表格、图示或流程图，主要内容为参数名称及其说明段落。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"text\": \"页眉：左侧“智能调频振动送料控制器”，右侧“SDVC34 系列”，下方有横线。\",\n      \"bbox_0_1\": [0.071, 0.050, 0.933, 0.074],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"频率自动调整系数：1F\",\n      \"bbox_0_1\": [0.071, 0.163, 0.292, 0.181],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"说明控制器通过 PID 算法自动调整输出频率，“1F”为频率积分参数；值越大调整越快，过大可能造成输出频率振荡。\",\n      \"bbox_0_1\": [0.071, 0.190, 0.919, 0.224],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"振幅自动调整系数：PA\",\n      \"bbox_0_1\": [0.071, 0.245, 0.316, 0.263],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"说明控制器通过 PID 控制自动调整输出电压，“PA”为速度比例参数；值越大调整越快，过大可能造成输出电压频繁振荡。\",\n      \"bbox_0_1\": [0.071, 0.271, 0.920, 0.305],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"振幅自动调整系数：1A\",\n      \"bbox_0_1\": [0.071, 0.326, 0.311, 0.345],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"说明“1A”为速度积分参数；值越大可更快调整输出电压并减小振荡幅度和次数，但过大反而会造成输出电压振荡幅度变大。\",\n      \"bbox_0_1\": [0.071, 0.353, 0.918, 0.405],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"送料速度显示：参数符号\",\n      \"bbox_0_1\": [0.071, 0.427, 0.236, 0.445],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"该参数用于显示当前送料速度，以帮助用户了解设备的工作情况，该参数不能调整。\",\n      \"bbox_0_1\": [0.114, 0.455, 0.844, 0.469],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"输出电压显示：G\",\n      \"bbox_0_1\": [0.071, 0.489, 0.244, 0.507],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"该参数用于显示当前输出电压，以帮助用户了解设备的工作情况，该参数不能调整。\",\n      \"bbox_0_1\": [0.114, 0.518, 0.844, 0.532],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"电压下限和频率下限：GL 和参数符号\",\n      \"bbox_0_1\": [0.071, 0.549, 0.388, 0.568],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"说明当相关参数设置为指定状态且控制器处于自动状态并正常工作时，输出电压低于 GL 设置下限或输出频率低于另一参数设置下限时，24V 控制输出有效；否则输出无效。并说明相关参数可自动保存，且可在 485 通讯中设置和读取。\",\n      \"bbox_0_1\": [0.071, 0.573, 0.924, 0.709],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"最大振幅指数：P\",\n      \"bbox_0_1\": [0.071, 0.735, 0.246, 0.753],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"该参数可限制设备能够承受的最大振动强度，以防止用户误操作而损坏设备。\",\n      \"bbox_0_1\": [0.114, 0.761, 0.764, 0.776],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"最大可设定送料速度：H\",\n      \"bbox_0_1\": [0.071, 0.795, 0.304, 0.813],\n      \"confidence\": 0.97\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"说明可调送料速度范围为 0~H，设定该参数可限制最大可设定送料速度；远程速度控制时送料速度也受此参数影响。\",\n      \"bbox_0_1\": [0.071, 0.821, 0.919, 0.859],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"heading\",\n      \"text\": \"相位差：参数符号\",\n      \"bbox_0_1\": [0.071, 0.884, 0.196, 0.901],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"paragraph\",\n      \"text\": \"该参数可修改输出波形的相位，控制器出厂时相位默认为 0°。\",\n      \"bbox_0_1\": [0.114, 0.912, 0.671, 0.927],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"text\": \"页脚：左侧日期“2026-03”，中间页码“-20-”，右侧文档编号“SDVC34SMSCN_10.01”，上方有横线。\",\n      \"bbox_0_1\": [0.071, 0.954, 0.933, 0.976],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],\n  \"notes\": \"本页为文本型说明书页面，背景有浅色 CUH 水印；不是以图片为主的页面。未见表格、图示或流程图，主要内容为参数名称及其说明段落。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780850837,
+    "id": "chatcmpl-DoAwXbPhg4tAmCdvSfMoqTMgqFTQs",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 2382,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 698,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 9,
+        "engine_ttft_ms": 513,
+        "engine_ttlt_ms": 22087,
+        "pre_inference_ms": 137,
+        "service_tbt_ms": 9,
+        "service_ttft_ms": 913,
+        "service_ttlt_ms": 22444,
+        "total_duration_ms": 22316,
+        "user_visible_ttft_ms": 776
+      },
+      "prompt_tokens": 3479,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5861
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v10.01.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v10.01",
+  "lang": "zh-CN",
+  "page_index": 68,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T00:58:26",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v10.01.zh-CN，doc_key=cuh.sdvc34.manual.v10.01，lang=zh-CN，页码=68。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 6: 目录（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯说明（第 10 页）\n  - 1.3 按键说明（第 12 页）\n  - 1.4 外部部件说明（第 12 页）\n  - 1.5 接线端口说明（第 13 页）\n  - 1.6 控制器铭牌说明（第 14 页）\n- 第二章 性能特点（第 15 页）\n ",
+  "assistant_text": "{\n  \"page_markdown\": \"智能调频振动送料控制器  \\nSDVC34 系列\\n\\n「A为PNP时速度预置的接线方法\\n\\n[[vcrop:68:0]]\\n\\n## 预置速度的保存\\n\\n以速度1的保存为例，步骤如下：\\n\\n- 闭合K1，对应的速度A指示灯点亮，断开K2，对应的速度B指示灯熄灭。\\n- 为获得理想的送料速度  \\n  在手动模式下，调整输出电压 U 和输出频率 E。  \\n  在自动模式下，调整送料速度 A。  \\n  在半自动模式下，调整送料速度 A 和输出频率 E。\\n- 在控制器输出稳定后，同时按下 `下翻` 和 ▼ 保持2秒，此时LED屏幕上显示 SAVE说明速度1的相关参数已经被保存。\\n\\n## 预置速度的输出\\n\\n以速度1的输出为例，步骤如下：\\n\\n- 再次闭合K1，对应的速度A指示灯点亮，断开K2，对应的速度B指示灯熄灭。\\n- 控制器将迅速输出之前预置的速度1。\\n\\n2026-03  -60-  SDVC34SMSCN_10.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.12,\n        0.245,\n        0.86,\n        0.49\n      ],\n      \"alt\": \"A为PNP时速度预置的接线方法示意图\",\n      \"reason\": \"细线接线示意图，包含端子、开关K1/K2及信号线连接关系，需保留位图。\"\n    }\n  ],\n  \"notes\": \"页面清晰；按键小图标根据肉眼识别转写为“下翻”。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "智能调频振动送料控制器  \nSDVC34 系列\n\n「A为PNP时速度预置的接线方法\n\n[[vcrop:68:0]]\n\n## 预置速度的保存\n\n以速度1的保存为例，步骤如下：\n\n- 闭合K1，对应的速度A指示灯点亮，断开K2，对应的速度B指示灯熄灭。\n- 为获得理想的送料速度  \n  在手动模式下，调整输出电压 U 和输出频率 E。  \n  在自动模式下，调整送料速度 A。  \n  在半自动模式下，调整送料速度 A 和输出频率 E。\n- 在控制器输出稳定后，同时按下 `下翻` 和 ▼ 保持2秒，此时LED屏幕上显示 SAVE说明速度1的相关参数已经被保存。\n\n## 预置速度的输出\n\n以速度1的输出为例，步骤如下：\n\n- 再次闭合K1，对应的速度A指示灯点亮，断开K2，对应的速度B指示灯熄灭。\n- 控制器将迅速输出之前预置的速度1。\n\n2026-03  -60-  SDVC34SMSCN_10.01",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.12,
+        0.245,
+        0.86,
+        0.49
+      ],
+      "alt": "A为PNP时速度预置的接线方法示意图",
+      "reason": "细线接线示意图，包含端子、开关K1/K2及信号线连接关系，需保留位图。"
+    }
+  ],
+  "notes": "页面清晰；按键小图标根据肉眼识别转写为“下翻”。",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"page_markdown\": \"智能调频振动送料控制器  \\nSDVC34 系列\\n\\n「A为PNP时速度预置的接线方法\\n\\n[[vcrop:68:0]]\\n\\n## 预置速度的保存\\n\\n以速度1的保存为例，步骤如下：\\n\\n- 闭合K1，对应的速度A指示灯点亮，断开K2，对应的速度B指示灯熄灭。\\n- 为获得理想的送料速度  \\n  在手动模式下，调整输出电压 U 和输出频率 E。  \\n  在自动模式下，调整送料速度 A。  \\n  在半自动模式下，调整送料速度 A 和输出频率 E。\\n- 在控制器输出稳定后，同时按下 `下翻` 和 ▼ 保持2秒，此时LED屏幕上显示 SAVE说明速度1的相关参数已经被保存。\\n\\n## 预置速度的输出\\n\\n以速度1的输出为例，步骤如下：\\n\\n- 再次闭合K1，对应的速度A指示灯点亮，断开K2，对应的速度B指示灯熄灭。\\n- 控制器将迅速输出之前预置的速度1。\\n\\n2026-03  -60-  SDVC34SMSCN_10.01\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.12,\n        0.245,\n        0.86,\n        0.49\n      ],\n      \"alt\": \"A为PNP时速度预置的接线方法示意图\",\n      \"reason\": \"细线接线示意图，包含端子、开关K1/K2及信号线连接关系，需保留位图。\"\n    }\n  ],\n  \"notes\": \"页面清晰；按键小图标根据肉眼识别转写为“下翻”。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780851484,
+    "id": "chatcmpl-DoB6yyHSxpmlC0CiWQO2PB6HlCg6x",
+    "model": "gpt-5.5-2026-04-23",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1484,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 14,
+        "engine_ttft_ms": 304,
+        "engine_ttlt_ms": 21279,
+        "pre_inference_ms": 119,
+        "service_tbt_ms": 14,
+        "service_ttft_ms": 482,
+        "service_ttlt_ms": 21452,
+        "total_duration_ms": 21342,
+        "user_visible_ttft_ms": 364
+      },
+      "prompt_tokens": 3522,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5006
+    }
+  }
+}

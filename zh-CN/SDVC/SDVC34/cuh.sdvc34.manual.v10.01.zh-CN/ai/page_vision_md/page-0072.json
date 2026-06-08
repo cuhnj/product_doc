@@ -1,0 +1,72 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v10.01.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v10.01",
+  "lang": "zh-CN",
+  "page_index": 72,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T00:58:18",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v10.01.zh-CN，doc_key=cuh.sdvc34.manual.v10.01，lang=zh-CN，页码=72。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 6: 目录（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯说明（第 10 页）\n  - 1.3 按键说明（第 12 页）\n  - 1.4 外部部件说明（第 12 页）\n  - 1.5 接线端口说明（第 13 页）\n  - 1.6 控制器铭牌说明（第 14 页）\n- 第二章 性能特点（第 15 页）\n ",
+  "assistant_text": "{\n  \"page_markdown\": \"# 第八章 附录\\n\\n## 8.1 外形尺寸\\n\\nSDVC34-M 系列外形尺寸（单位：mm）\\n\\n[[vcrop:72:0]]\\n\\n| 公差区间 | 公差值 |\\n|---|---|\\n| 0~3 | ±0.05 |\\n| 3~10 | ±0.1 |\\n| 10~30 | ±0.15 |\\n| 30~80 | ±0.2 |\\n| 80~180 | ±0.3 |\\n| >180 | ±0.5 |\\n\\n本系列产品均适用此公差表。\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.105,\n        0.238,\n        0.895,\n        0.785\n      ],\n      \"alt\": \"SDVC34-M 系列外形尺寸图\",\n      \"reason\": \"外形尺寸为复杂线框机械尺寸图，包含多处尺寸标注、圆角和结构细节，适合以位图保留。\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "# 第八章 附录\n\n## 8.1 外形尺寸\n\nSDVC34-M 系列外形尺寸（单位：mm）\n\n[[vcrop:72:0]]\n\n| 公差区间 | 公差值 |\n|---|---|\n| 0~3 | ±0.05 |\n| 3~10 | ±0.1 |\n| 10~30 | ±0.15 |\n| 30~80 | ±0.2 |\n| 80~180 | ±0.3 |\n| >180 | ±0.5 |\n\n本系列产品均适用此公差表。",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.105,
+        0.238,
+        0.895,
+        0.785
+      ],
+      "alt": "SDVC34-M 系列外形尺寸图",
+      "reason": "外形尺寸为复杂线框机械尺寸图，包含多处尺寸标注、圆角和结构细节，适合以位图保留。"
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"page_markdown\": \"# 第八章 附录\\n\\n## 8.1 外形尺寸\\n\\nSDVC34-M 系列外形尺寸（单位：mm）\\n\\n[[vcrop:72:0]]\\n\\n| 公差区间 | 公差值 |\\n|---|---|\\n| 0~3 | ±0.05 |\\n| 3~10 | ±0.1 |\\n| 10~30 | ±0.15 |\\n| 30~80 | ±0.2 |\\n| 80~180 | ±0.3 |\\n| >180 | ±0.5 |\\n\\n本系列产品均适用此公差表。\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.105,\n        0.238,\n        0.895,\n        0.785\n      ],\n      \"alt\": \"SDVC34-M 系列外形尺寸图\",\n      \"reason\": \"外形尺寸为复杂线框机械尺寸图，包含多处尺寸标注、圆角和结构细节，适合以位图保留。\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780851487,
+    "id": "chatcmpl-DoB71QcoHTtEkopkcp6HDUj8OTFbV",
+    "model": "gpt-5.5-2026-04-23",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 760,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 488,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 13,
+        "engine_ttft_ms": 485,
+        "engine_ttlt_ms": 10206,
+        "pre_inference_ms": 125,
+        "service_tbt_ms": 13,
+        "service_ttft_ms": 845,
+        "service_ttlt_ms": 10560,
+        "total_duration_ms": 10447,
+        "user_visible_ttft_ms": 720
+      },
+      "prompt_tokens": 3369,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4129
+    }
+  }
+}

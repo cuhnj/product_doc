@@ -1,0 +1,235 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v10.01.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v10.01",
+  "lang": "zh-CN",
+  "page_index": 17,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T00:47:01",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v10.01.zh-CN，页码=17。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 6: 目录（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯说明（第 10 页）\n  - 1.3 按键说明（第 12 页）\n  - 1.4 外部部件说明（第 12 页）\n  - 1.5 接线端口说明（第 13 页）\n  - 1.6 控制器铭牌说明（第 14 页）\n- 第二章 性能特点（第 15 页）\n  - 2.1 性能总述（第 15 页）\n  - 2.2 选型指",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.07, 0.05, 0.93, 0.072],\n      \"confidence\": 0.86,\n      \"description\": \"页眉区域，左侧为产品名称，右侧为系列名称，下方有横线\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.25, 0.105, 0.75, 0.145],\n      \"confidence\": 0.98,\n      \"description\": \"第三章 安装及使用指南\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.12, 0.156, 0.89, 0.173],\n      \"confidence\": 0.96,\n      \"description\": \"本章节介绍产品使用所必须具备的条件以及如何正确进行安装与连接\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.19, 0.42, 0.212],\n      \"confidence\": 0.98,\n      \"description\": \"3.1 控制器使用条件\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.12, 0.225, 0.91, 0.29],\n      \"confidence\": 0.95,\n      \"description\": \"说明设备使用交流110/220V供电，并通过电源线三爪插头进行保护接地连接\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.296, 0.92, 0.338],\n      \"confidence\": 0.96,\n      \"description\": \"带黄色“警告”标识的提示：不可将控制器连接到380V交流电\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.349, 0.93, 0.39],\n      \"confidence\": 0.96,\n      \"description\": \"带黄色“警告”标识的提示：确保供电侧可靠接地\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.402, 0.92, 0.445],\n      \"confidence\": 0.95,\n      \"description\": \"带蓝色“注意”标识的提示：控制器长时间工作会发热，应安装在通风良好环境并远离振动源\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.454, 0.94, 0.53],\n      \"confidence\": 0.95,\n      \"description\": \"带蓝色“注意”标识的提示：输出无隔离环节，输出两极不可与保护接地连接，并要求电磁铁线圈与外壳之间具备绝缘能力\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.531, 0.91, 0.56],\n      \"confidence\": 0.95,\n      \"description\": \"带蓝色“注意”标识的提示：本产品用于驱动电磁铁，不可连接压电振动盘\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.582, 0.38, 0.606],\n      \"confidence\": 0.98,\n      \"description\": \"3.2 按键基本操作\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.07, 0.62, 0.93, 0.883],\n      \"confidence\": 0.94,\n      \"description\": \"按键基本操作的编号列表，包含短按、长按、常用参数调整、按键锁定、基本参数、高级参数、自动/同步参数界面进入与切换说明\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.928, 0.93, 0.95],\n      \"confidence\": 0.94,\n      \"description\": \"页脚区域，包含日期、页码“- 9 -”、文档编号，顶部有横线\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],\n  \"notes\": \"本页为可识别文本的说明书页面，不是以扫描图片为主；页面主要由章节标题、段落警告/注意提示和按键操作列表组成，无表格和独立图示。背景有浅色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.07,
+          0.05,
+          0.93,
+          0.072
+        ],
+        "confidence": 0.86,
+        "description": "页眉区域，左侧为产品名称，右侧为系列名称，下方有横线",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.25,
+          0.105,
+          0.75,
+          0.145
+        ],
+        "confidence": 0.98,
+        "description": "第三章 安装及使用指南",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.12,
+          0.156,
+          0.89,
+          0.173
+        ],
+        "confidence": 0.96,
+        "description": "本章节介绍产品使用所必须具备的条件以及如何正确进行安装与连接",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.19,
+          0.42,
+          0.212
+        ],
+        "confidence": 0.98,
+        "description": "3.1 控制器使用条件",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.12,
+          0.225,
+          0.91,
+          0.29
+        ],
+        "confidence": 0.95,
+        "description": "说明设备使用交流110/220V供电，并通过电源线三爪插头进行保护接地连接",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.296,
+          0.92,
+          0.338
+        ],
+        "confidence": 0.96,
+        "description": "带黄色“警告”标识的提示：不可将控制器连接到380V交流电",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.349,
+          0.93,
+          0.39
+        ],
+        "confidence": 0.96,
+        "description": "带黄色“警告”标识的提示：确保供电侧可靠接地",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.402,
+          0.92,
+          0.445
+        ],
+        "confidence": 0.95,
+        "description": "带蓝色“注意”标识的提示：控制器长时间工作会发热，应安装在通风良好环境并远离振动源",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.454,
+          0.94,
+          0.53
+        ],
+        "confidence": 0.95,
+        "description": "带蓝色“注意”标识的提示：输出无隔离环节，输出两极不可与保护接地连接，并要求电磁铁线圈与外壳之间具备绝缘能力",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.073,
+          0.531,
+          0.91,
+          0.56
+        ],
+        "confidence": 0.95,
+        "description": "带蓝色“注意”标识的提示：本产品用于驱动电磁铁，不可连接压电振动盘",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.07,
+          0.582,
+          0.38,
+          0.606
+        ],
+        "confidence": 0.98,
+        "description": "3.2 按键基本操作",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.07,
+          0.62,
+          0.93,
+          0.883
+        ],
+        "confidence": 0.94,
+        "description": "按键基本操作的编号列表，包含短按、长按、常用参数调整、按键锁定、基本参数、高级参数、自动/同步参数界面进入与切换说明",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.07,
+          0.928,
+          0.93,
+          0.95
+        ],
+        "confidence": 0.94,
+        "description": "页脚区域，包含日期、页码“- 9 -”、文档编号，顶部有横线",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "notes": "本页为可识别文本的说明书页面，不是以扫描图片为主；页面主要由章节标题、段落警告/注意提示和按键操作列表组成，无表格和独立图示。背景有浅色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.07, 0.05, 0.93, 0.072],\n      \"confidence\": 0.86,\n      \"description\": \"页眉区域，左侧为产品名称，右侧为系列名称，下方有横线\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.25, 0.105, 0.75, 0.145],\n      \"confidence\": 0.98,\n      \"description\": \"第三章 安装及使用指南\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.12, 0.156, 0.89, 0.173],\n      \"confidence\": 0.96,\n      \"description\": \"本章节介绍产品使用所必须具备的条件以及如何正确进行安装与连接\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.19, 0.42, 0.212],\n      \"confidence\": 0.98,\n      \"description\": \"3.1 控制器使用条件\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.12, 0.225, 0.91, 0.29],\n      \"confidence\": 0.95,\n      \"description\": \"说明设备使用交流110/220V供电，并通过电源线三爪插头进行保护接地连接\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.296, 0.92, 0.338],\n      \"confidence\": 0.96,\n      \"description\": \"带黄色“警告”标识的提示：不可将控制器连接到380V交流电\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.349, 0.93, 0.39],\n      \"confidence\": 0.96,\n      \"description\": \"带黄色“警告”标识的提示：确保供电侧可靠接地\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.402, 0.92, 0.445],\n      \"confidence\": 0.95,\n      \"description\": \"带蓝色“注意”标识的提示：控制器长时间工作会发热，应安装在通风良好环境并远离振动源\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.454, 0.94, 0.53],\n      \"confidence\": 0.95,\n      \"description\": \"带蓝色“注意”标识的提示：输出无隔离环节，输出两极不可与保护接地连接，并要求电磁铁线圈与外壳之间具备绝缘能力\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.073, 0.531, 0.91, 0.56],\n      \"confidence\": 0.95,\n      \"description\": \"带蓝色“注意”标识的提示：本产品用于驱动电磁铁，不可连接压电振动盘\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.07, 0.582, 0.38, 0.606],\n      \"confidence\": 0.98,\n      \"description\": \"3.2 按键基本操作\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.07, 0.62, 0.93, 0.883],\n      \"confidence\": 0.94,\n      \"description\": \"按键基本操作的编号列表，包含短按、长按、常用参数调整、按键锁定、基本参数、高级参数、自动/同步参数界面进入与切换说明\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.07, 0.928, 0.93, 0.95],\n      \"confidence\": 0.94,\n      \"description\": \"页脚区域，包含日期、页码“- 9 -”、文档编号，顶部有横线\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],\n  \"notes\": \"本页为可识别文本的说明书页面，不是以扫描图片为主；页面主要由章节标题、段落警告/注意提示和按键操作列表组成，无表格和独立图示。背景有浅色 CUH 水印。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780850797,
+    "id": "chatcmpl-DoAvtXixpBajrykXCwk54zYXmseoz",
+    "model": "gpt-5.5-2026-04-23",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 2150,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 11,
+        "engine_ttft_ms": 408,
+        "engine_ttlt_ms": 23149,
+        "pre_inference_ms": 163,
+        "service_tbt_ms": 11,
+        "service_ttft_ms": 626,
+        "service_ttlt_ms": 23360,
+        "total_duration_ms": 23206,
+        "user_visible_ttft_ms": 463
+      },
+      "prompt_tokens": 3539,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 5689
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v10.01.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v10.01",
+  "lang": "zh-CN",
+  "page_index": 11,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T00:46:39",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v10.01.zh-CN，页码=11。\n\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 6: 目录（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯说明（第 10 页）\n  - 1.3 按键说明（第 12 页）\n  - 1.4 外部部件说明（第 12 页）\n  - 1.5 接线端口说明（第 13 页）\n  - 1.6 控制器铭牌说明（第 14 页）\n- 第二章 性能特点（第 15 页）\n  - 2.1 性能总述（第 15 页）\n  - 2.2 选型指",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.073,\n        0.052,\n        0.933,\n        0.075\n      ],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.112,\n        0.204,\n        0.435,\n        0.225\n      ],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [\n        0.071,\n        0.191,\n        0.933,\n        0.914\n      ],\n      \"confidence\": 0.96,\n      \"caption\": \"具有通信和计数功能控制器的指示灯\",\n      \"image_alt\": \"一幅带圆角边框的控制器正面示意图，中央为SDVC34系列控制器外观，周围用引线标注各指示灯和显示屏含义。标注包括遥控指示灯、计数指示灯、复位指示灯、停止指示灯、LED显示屏、饱和指示灯、自动指示灯、同步指示灯、传感器指示灯、同步信号指示灯、通信指示灯等。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.960,\n        0.931,\n        0.982\n      ],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [\n    0,\n    1,\n    2,\n    3\n  ],\n  \"notes\": \"本页包含可识别文本层，不像纯扫描件。页面以图示说明为主，主体是控制器指示灯功能的 annotated figure；背景有淡色水印，页眉和页脚为固定版式信息。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.073,
+          0.052,
+          0.933,
+          0.075
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.112,
+          0.204,
+          0.435,
+          0.225
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.071,
+          0.191,
+          0.933,
+          0.914
+        ],
+        "confidence": 0.96,
+        "caption": "具有通信和计数功能控制器的指示灯",
+        "image_alt": "一幅带圆角边框的控制器正面示意图，中央为SDVC34系列控制器外观，周围用引线标注各指示灯和显示屏含义。标注包括遥控指示灯、计数指示灯、复位指示灯、停止指示灯、LED显示屏、饱和指示灯、自动指示灯、同步指示灯、传感器指示灯、同步信号指示灯、通信指示灯等。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.072,
+          0.96,
+          0.931,
+          0.982
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "notes": "本页包含可识别文本层，不像纯扫描件。页面以图示说明为主，主体是控制器指示灯功能的 annotated figure；背景有淡色水印，页眉和页脚为固定版式信息。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.073,\n        0.052,\n        0.933,\n        0.075\n      ],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [\n        0.112,\n        0.204,\n        0.435,\n        0.225\n      ],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [\n        0.071,\n        0.191,\n        0.933,\n        0.914\n      ],\n      \"confidence\": 0.96,\n      \"caption\": \"具有通信和计数功能控制器的指示灯\",\n      \"image_alt\": \"一幅带圆角边框的控制器正面示意图，中央为SDVC34系列控制器外观，周围用引线标注各指示灯和显示屏含义。标注包括遥控指示灯、计数指示灯、复位指示灯、停止指示灯、LED显示屏、饱和指示灯、自动指示灯、同步指示灯、传感器指示灯、同步信号指示灯、通信指示灯等。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [\n        0.072,\n        0.960,\n        0.931,\n        0.982\n      ],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [\n    0,\n    1,\n    2,\n    3\n  ],\n  \"notes\": \"本页包含可识别文本层，不像纯扫描件。页面以图示说明为主，主体是控制器指示灯功能的 annotated figure；背景有淡色水印，页眉和页脚为固定版式信息。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780850787,
+    "id": "chatcmpl-DoAvjfk7KxNTdE5rxi8UE6cM5ZmcM",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 969,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 11,
+        "engine_ttft_ms": 573,
+        "engine_ttlt_ms": 11052,
+        "pre_inference_ms": 143,
+        "service_tbt_ms": 11,
+        "service_ttft_ms": 959,
+        "service_ttlt_ms": 11433,
+        "total_duration_ms": 11301,
+        "user_visible_ttft_ms": 816
+      },
+      "prompt_tokens": 3204,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4173
+    }
+  }
+}

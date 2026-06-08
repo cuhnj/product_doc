@@ -1,0 +1,82 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v10.01.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v10.01",
+  "lang": "zh-CN",
+  "page_index": 36,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T00:56:22",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v10.01.zh-CN，doc_key=cuh.sdvc34.manual.v10.01，lang=zh-CN，页码=36。\n【目录/书签上下文（节选）】\n- 1: 封面（第 1 页）\n- 2: 封二版权与免责（第 2 页）\n- 3: 序言（第 3 页）\n- 4: 安全与预防措施（第 4 页）\n- 5: 工作与存储环境（第 5 页）\n- 6: 目录（第 6 页）\n- 7: 目录（第 7 页）\n- 8: 目录（第 8 页）\n- 第一章 使用前须知（第 9 页）\n  - 1.1 检查包装内容（第 9 页）\n  - 1.2 指示灯说明（第 10 页）\n  - 1.3 按键说明（第 12 页）\n  - 1.4 外部部件说明（第 12 页）\n  - 1.5 接线端口说明（第 13 页）\n  - 1.6 控制器铭牌说明（第 14 页）\n- 第二章 性能特点（第 15 页）\n ",
+  "assistant_text": "{\n  \"page_markdown\": \"### 5.3.3 半自动模式下送料速度的设定\\n\\n- 通过使用 `速度+` 和 `速度−` 可以对送料速度 A 的值进行调整。\\n\\n[[vcrop:36:0]]\\n\\n### 5.3.4 半自动模式下输出频率的设定\\n\\n- 按住 `功能` 保持2秒，进入基本参数的调整状态。\\n- 控制器进入输出频率 E 参数。\\n- 通过使用 ▲ 和 ▼ 可以对输出频率 E 的值进行调整。\\n\\n[[vcrop:36:1]]\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [0.70, 0.20, 0.87, 0.39],\n      \"alt\": \"半自动模式下送料速度设定的控制器按键示意图\",\n      \"reason\": \"右侧为控制器与手指操作示意，含细小面板文字和按键位置，需要保留位图。\"\n    },\n    {\n      \"bbox_0_1\": [0.69, 0.52, 0.87, 0.70],\n      \"alt\": \"半自动模式下输出频率设定的控制器按键示意图\",\n      \"reason\": \"右侧为控制器显示 E 50.0 与按键操作示意，含细小面板文字和按键位置，需要保留位图。\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "### 5.3.3 半自动模式下送料速度的设定\n\n- 通过使用 `速度+` 和 `速度−` 可以对送料速度 A 的值进行调整。\n\n[[vcrop:36:0]]\n\n### 5.3.4 半自动模式下输出频率的设定\n\n- 按住 `功能` 保持2秒，进入基本参数的调整状态。\n- 控制器进入输出频率 E 参数。\n- 通过使用 ▲ 和 ▼ 可以对输出频率 E 的值进行调整。\n\n[[vcrop:36:1]]",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.7,
+        0.2,
+        0.87,
+        0.39
+      ],
+      "alt": "半自动模式下送料速度设定的控制器按键示意图",
+      "reason": "右侧为控制器与手指操作示意，含细小面板文字和按键位置，需要保留位图。"
+    },
+    {
+      "bbox_0_1": [
+        0.69,
+        0.52,
+        0.87,
+        0.7
+      ],
+      "alt": "半自动模式下输出频率设定的控制器按键示意图",
+      "reason": "右侧为控制器显示 E 50.0 与按键操作示意，含细小面板文字和按键位置，需要保留位图。"
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"page_markdown\": \"### 5.3.3 半自动模式下送料速度的设定\\n\\n- 通过使用 `速度+` 和 `速度−` 可以对送料速度 A 的值进行调整。\\n\\n[[vcrop:36:0]]\\n\\n### 5.3.4 半自动模式下输出频率的设定\\n\\n- 按住 `功能` 保持2秒，进入基本参数的调整状态。\\n- 控制器进入输出频率 E 参数。\\n- 通过使用 ▲ 和 ▼ 可以对输出频率 E 的值进行调整。\\n\\n[[vcrop:36:1]]\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [0.70, 0.20, 0.87, 0.39],\n      \"alt\": \"半自动模式下送料速度设定的控制器按键示意图\",\n      \"reason\": \"右侧为控制器与手指操作示意，含细小面板文字和按键位置，需要保留位图。\"\n    },\n    {\n      \"bbox_0_1\": [0.69, 0.52, 0.87, 0.70],\n      \"alt\": \"半自动模式下输出频率设定的控制器按键示意图\",\n      \"reason\": \"右侧为控制器显示 E 50.0 与按键操作示意，含细小面板文字和按键位置，需要保留位图。\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780851372,
+    "id": "chatcmpl-DoB5Adk4ZNymQRXacS6NLRhtcU6ai",
+    "model": "gpt-5.5-2026-04-23",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 862,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 10,
+        "engine_ttft_ms": 542,
+        "engine_ttlt_ms": 9367,
+        "pre_inference_ms": 243,
+        "service_tbt_ms": 10,
+        "service_ttft_ms": 1052,
+        "service_ttlt_ms": 9872,
+        "total_duration_ms": 9638,
+        "user_visible_ttft_ms": 809
+      },
+      "prompt_tokens": 3311,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4173
+    }
+  }
+}
