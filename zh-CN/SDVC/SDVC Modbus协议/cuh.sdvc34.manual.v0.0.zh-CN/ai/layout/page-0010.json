@@ -1,0 +1,115 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 10,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:55:57",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=10。\n\n【目录/书签上下文（节选）】\n\n\n【文本层节选（可能为空或不完整）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n10 / 35\n\n此过程将被重复，直到执行八次轮班为止。在最后(8)次移位之后，下一个8 位字节将\n与寄存器的当前值独占，并且如上所述，该进程将重复进行八次移位。在应用了消息的所有\n字节之",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.151, 0.051, 0.852, 0.074],\n      \"confidence\": 0.82,\n      \"image_alt\": \"页眉区域，左侧为 CUH 标识，右侧有一条水平分隔线\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.151, 0.107, 0.854, 0.155],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.151, 0.200, 0.842, 0.231],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.482, 0.891, 0.520, 0.901],\n      \"confidence\": 0.98\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3],\n  \"notes\": \"本页为数字渲染页面，含可识别文本层和淡色重复水印；页面以文字说明为主，无表格或正文插图。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.151,
+          0.051,
+          0.852,
+          0.074
+        ],
+        "confidence": 0.82,
+        "image_alt": "页眉区域，左侧为 CUH 标识，右侧有一条水平分隔线",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.151,
+          0.107,
+          0.854,
+          0.155
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.151,
+          0.2,
+          0.842,
+          0.231
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.482,
+          0.891,
+          0.52,
+          0.901
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "notes": "本页为数字渲染页面，含可识别文本层和淡色重复水印；页面以文字说明为主，无表格或正文插图。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.151, 0.051, 0.852, 0.074],\n      \"confidence\": 0.82,\n      \"image_alt\": \"页眉区域，左侧为 CUH 标识，右侧有一条水平分隔线\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.151, 0.107, 0.854, 0.155],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.151, 0.200, 0.842, 0.231],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.482, 0.891, 0.520, 0.901],\n      \"confidence\": 0.98\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3],\n  \"notes\": \"本页为数字渲染页面，含可识别文本层和淡色重复水印；页面以文字说明为主，无表格或正文插图。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780908940,
+    "id": "chatcmpl-DoQ3gHwn1bW0CNJNWRbfTicJlBxzL",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 794,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 496,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 14,
+        "engine_ttft_ms": 4790,
+        "engine_ttlt_ms": 15976,
+        "pre_inference_ms": 123,
+        "service_tbt_ms": 14,
+        "service_ttft_ms": 5664,
+        "service_ttlt_ms": 16822,
+        "total_duration_ms": 16708,
+        "user_visible_ttft_ms": 5541
+      },
+      "prompt_tokens": 1491,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2285
+    }
+  }
+}

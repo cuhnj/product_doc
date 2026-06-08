@@ -1,0 +1,180 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 35,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:57:53",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=35。\n\n【目录/书签上下文（节选）】\n\n\n【文本层节选（可能为空或不完整）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n35 / 35\n\n参考资料： \n1. MODBUS APPLICATION PROTOCOL SPECIFICATION\n\nModbus_Application_Protocol_V1_1",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.145, 0.050, 0.245, 0.073],\n      \"confidence\": 0.83,\n      \"image_alt\": \"页眉左侧的 CUH 标识\"\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.145, 0.072, 0.852, 0.075],\n      \"confidence\": 0.72\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.145, 0.144, 0.225, 0.157],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.145, 0.165, 0.720, 0.236],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.480, 0.888, 0.526, 0.900],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页主要为参考资料列表，包含页眉标识与横线、正文参考文献条目及页脚页码。页面背景有较淡的重复 CUH 水印；文本层可提取但包含水印导致的重复字符。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.145,
+          0.05,
+          0.245,
+          0.073
+        ],
+        "confidence": 0.83,
+        "image_alt": "页眉左侧的 CUH 标识",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.145,
+          0.072,
+          0.852,
+          0.075
+        ],
+        "confidence": 0.72,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.145,
+          0.144,
+          0.225,
+          0.157
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.145,
+          0.165,
+          0.72,
+          0.236
+        ],
+        "confidence": 0.92,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.48,
+          0.888,
+          0.526,
+          0.9
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "本页主要为参考资料列表，包含页眉标识与横线、正文参考文献条目及页脚页码。页面背景有较淡的重复 CUH 水印；文本层可提取但包含水印导致的重复字符。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "content_filter_results": {
+          "hate": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "protected_material_code": {
+            "detected": false,
+            "filtered": false
+          },
+          "protected_material_text": {
+            "detected": false,
+            "filtered": false
+          },
+          "self_harm": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "sexual": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "violence": {
+            "filtered": false,
+            "severity": "safe"
+          }
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.145, 0.050, 0.245, 0.073],\n      \"confidence\": 0.83,\n      \"image_alt\": \"页眉左侧的 CUH 标识\"\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.145, 0.072, 0.852, 0.075],\n      \"confidence\": 0.72\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.145, 0.144, 0.225, 0.157],\n      \"confidence\": 0.90\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.145, 0.165, 0.720, 0.236],\n      \"confidence\": 0.92\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.480, 0.888, 0.526, 0.900],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页主要为参考资料列表，包含页眉标识与横线、正文参考文献条目及页脚页码。页面背景有较淡的重复 CUH 水印；文本层可提取但包含水印导致的重复字符。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909065,
+    "id": "chatcmpl-DoQ5hi0Yow5BTrn1G9BbvkU9nKH0w",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "prompt_filter_results": [
+      {
+        "prompt_index": 0,
+        "content_filter_results": {
+          "hate": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "jailbreak": {
+            "detected": false,
+            "filtered": false
+          },
+          "self_harm": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "sexual": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "violence": {
+            "filtered": false,
+            "severity": "safe"
+          }
+        }
+      }
+    ],
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 557,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 201,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 13,
+        "engine_ttft_ms": 325,
+        "engine_ttlt_ms": 7470,
+        "pre_inference_ms": 118,
+        "service_tbt_ms": 13,
+        "service_ttft_ms": 493,
+        "service_ttlt_ms": 7633,
+        "total_duration_ms": 7523,
+        "user_visible_ttft_ms": 375
+      },
+      "prompt_tokens": 1424,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 1981
+    }
+  }
+}

@@ -1,0 +1,289 @@
+name,symbol,range,default,unit,note,pdf_page,layout_region_index,table_md_path
+<br> <br>始,,,,,,6,7,tables/page-0006-r07.md
+<br>,,,,,,6,7,tables/page-0006-r07.md
+<br>字,,,,,,6,7,tables/page-0006-r07.md
+<br>符,,,,,,6,7,tables/page-0006-r07.md
+<br> <br>分布式输入,,,,,,12,3,tables/page-0012-r03.md
+<br> <br>线圈,,,,,,12,3,tables/page-0012-r03.md
+<br> <br>输入寄存器,,,,,,12,3,tables/page-0012-r03.md
+<br> <br>保持寄存器,,,,,,12,3,tables/page-0012-r03.md
+<br>数 <br>据 <br>访 <br>问,,,,,,15,3,tables/page-0015-r03.md
+<br> <br>01,,,,,,15,3,tables/page-0015-r03.md
+<br>,,,,,,15,3,tables/page-0015-r03.md
+<br> <br>15,,,,,,15,3,tables/page-0015-r03.md
+<br>,,,,,,15,3,tables/page-0015-r03.md
+<br> <br>03,,,,,,15,3,tables/page-0015-r03.md
+<br>,,,,,,15,3,tables/page-0015-r03.md
+<br> <br><br>16,,,,,,15,3,tables/page-0015-r03.md
+H<br> <br> <br> <br>0x00（1）,,,,,<br> <br> <br> <br>,15,7,tables/page-0015-r07.md
+H<br> <br> <br> <br>0x00（1）,,,,,<br> <br> <br> <br>,15,7,tables/page-0015-r07.md
+<br> <br> <br> <br>0x01（2）,,,,,<br>  U<br> <br> <br>1：输出饱和<br>0：输出未饱和,15,7,tables/page-0015-r07.md
+<br> <br> <br> <br>0x02（3）,,,,,<br> <br> <br> <br> <br>,15,7,tables/page-0015-r07.md
+<br> <br> <br> <br>0x02（3）,,,,,<br> <br> <br> <br> <br>,15,7,tables/page-0015-r07.md
+C<br> <br> <br>0x03（4）,,,,,<br> <br>  U<br> <br> <br>1：输出短路<br>0：输出未短路,15,7,tables/page-0015-r07.md
+<br> <br> <br>0x04（5）,,,,,<br> <br> <br> <br> <br>,15,7,tables/page-0015-r07.md
+<br> <br> <br>0x04（5）,,,,,<br> <br> <br> <br> <br>,15,7,tables/page-0015-r07.md
+<br> <br> <br>0x05（6）,,,,,<br> <br> <br> <br> <br>1：有错误<br>0：无错误,15,7,tables/page-0015-r07.md
+H<br> <br>0x06（7）,,,,,<br> <br> <br> <br>,15,7,tables/page-0015-r07.md
+H<br> <br>0x06（7）,,,,,<br> <br> <br> <br>,15,7,tables/page-0015-r07.md
+U<br> <br>0x07（8）,,,,,<br> <br>UH<br> <br>1：输入欠压<br>0：输入未欠压,15,7,tables/page-0015-r07.md
+<br>,,,,,<br> <br>,15,7,tables/page-0015-r07.md
+<br> <br>0x0B（12）,,,,,<br> <br> <br> <br> 1：有信号接入,15,7,tables/page-0015-r07.md
+H<br> <br> <br> <br>0x0C（13）,,,,,,16,1,tables/page-0016-r01.md
+H<br> <br> <br> <br>0x0C（13）,,,,,,16,1,tables/page-0016-r01.md
+U<br> <br> <br> <br> <br>0x0D（14）,,,,,,16,1,tables/page-0016-r01.md
+<br> <br> <br> <br>,,,,,,16,1,tables/page-0016-r01.md
+<br> <br> <br> <br> <br>0x0F（16）,,,,,,16,1,tables/page-0016-r01.md
+<br> <br> <br> <br>0x10（17）,,,,,,16,1,tables/page-0016-r01.md
+<br> <br> <br> <br>0x10（17）,,,,,,16,1,tables/page-0016-r01.md
+<br> <br> <br> <br>0x11（18）,,,,,,16,1,tables/page-0016-r01.md
+<br> <br> <br> <br>0x12（19）,,,,,,16,1,tables/page-0016-r01.md
+<br> <br> <br> <br>0x12（19）,,,,,,16,1,tables/page-0016-r01.md
+<br> <br> <br> <br>0x13（20）,,,,,,16,1,tables/page-0016-r01.md
+U<br> <br> <br>0x14（21）,,,,,,16,1,tables/page-0016-r01.md
+U<br> <br> <br>0x14（21）,,,,,,16,1,tables/page-0016-r01.md
+<br> <br> <br>0x15（22）,,,,,,16,1,tables/page-0016-r01.md
+<br> <br> <br>0x16（23）,,,,,,16,1,tables/page-0016-r01.md
+<br> <br> <br>0x16（23）,,,,,,16,1,tables/page-0016-r01.md
+<br> <br>0x17至0x1C,,,,,,16,1,tables/page-0016-r01.md
+H<br> <br>0x1D（30）,,,,,,16,1,tables/page-0016-r01.md
+H<br> <br>0x1D（30）,,,,,,16,1,tables/page-0016-r01.md
+<br> <br>0x1E（31）,,,,,,16,1,tables/page-0016-r01.md
+<br> <br>0x1F（32）,,,,,,16,1,tables/page-0016-r01.md
+<br> <br>0x1F（32）,,,,,,16,1,tables/page-0016-r01.md
+<br><br>功能码,,,,,,17,2,tables/page-0017-r02.md
+<br><br>字节数,,,,,,17,2,tables/page-0017-r02.md
+<br><br>状态位,,,,,,17,2,tables/page-0017-r02.md
+<br><br>1个字节,,,,,,17,4,tables/page-0017-r04.md
+<br><br>1个字节,,,,,,17,4,tables/page-0017-r04.md
+<br> <br> <br>（十六进制）,,,,,,17,6,tables/page-0017-r06.md
+<br> <br> <br>02,,,,,,17,6,tables/page-0017-r06.md
+<br> <br> <br>00,,,,,,17,6,tables/page-0017-r06.md
+<br> <br> <br>C4,,,,,,17,6,tables/page-0017-r06.md
+<br> <br> <br>00,,,,,,17,6,tables/page-0017-r06.md
+<br> <br> <br>16,,,,,,17,6,tables/page-0017-r06.md
+H C<br> <br> <br> <br> <br>0x00（1）,,,<br>  C<br> <br> <br> <br>开关标志（1）,,<br> <br> <br> <br> <br> <br><br><br><br> <br>,18,3,tables/page-0018-r03.md
+H C<br> <br> <br> <br> <br>0x00（1）,,,<br>  C<br> <br> <br> <br>开关标志（1）,,<br> <br> <br> <br> <br> <br><br><br><br> <br>,18,3,tables/page-0018-r03.md
+H C<br> <br> <br> <br> <br>0x00（1）,,,<br>  C<br> <br> <br> <br>开关标志（1）,,<br> <br> <br> <br> <br> <br><br><br><br> <br>,18,3,tables/page-0018-r03.md
+H C<br> <br> <br> <br> <br>0x00（1）,,,<br>  C<br> <br> <br> <br>开关标志（1）,,<br> <br> <br> <br> <br> <br><br><br><br> <br>,18,3,tables/page-0018-r03.md
+H C<br> <br> <br> <br> <br>0x00（1）,,,<br>  C<br> <br> <br> <br>开关标志（1）,,<br> <br> <br> <br> <br> <br><br><br><br> <br>,18,3,tables/page-0018-r03.md
+H C<br> <br> <br> <br> <br>0x00（1）,,,<br>  C<br> <br> <br> <br>开关标志（1）,,<br> <br> <br> <br> <br> <br><br><br><br> <br>,18,3,tables/page-0018-r03.md
+<br> <br> <br> <br> <br>0x01（2）,,,<br> <br> <br> <br> <br>锁定标志（0）,,<br> <br>  U<br> <br> <br> 1：锁定键盘<br>0：解锁键盘（每次开机后都为0）,18,3,tables/page-0018-r03.md
+<br> <br> <br> <br>0x02（3）,,,<br> <br> <br> <br><br>,,<br> <br> <br> <br> <br>,18,3,tables/page-0018-r03.md
+<br> <br> <br> <br>0x02（3）,,,<br> <br> <br> <br><br>,,<br> <br> <br> <br>标志（1）,18,3,tables/page-0018-r03.md
+C<br> <br> <br> <br> <br>0x03（4）,,,<br> CUH<br> <br> <br> <br>保存参数（0）,,<br> <br>  H CU<br>   CU<br> <br> 1：保存参数（使用通信设置的参数<br>不会自动保存，所以在每次设置好参<br>数后，必须使该位置1，以保存参数。<br>确保每次置位该标志的时间间隔在<br>150ms以上）<br>0：（保存参数后该位自动清零）,18,3,tables/page-0018-r03.md
+H<br> <br> <br> <br>0x05: 0x04,,,<br> <br> <br> <br>开机运行标志,,<br> <br> <br> <br> <br> <br>,18,3,tables/page-0018-r03.md
+H<br> <br> <br> <br>0x05: 0x04,,,<br> <br> <br> <br>开机运行标志,,<br> <br> <br> <br> <br> <br>,18,3,tables/page-0018-r03.md
+H<br> <br> <br> <br>0x05: 0x04,,,<br> <br> <br> <br>开机运行标志,,<br> <br> <br> <br> <br> <br>,18,3,tables/page-0018-r03.md
+<br> <br> <br> <br>0x06 :0x07,,,<br> <br> <br> <br>保留,,<br> <br> <br> <br>,18,3,tables/page-0018-r03.md
+<br> <br> <br> <br>0x08,,,<br> <br> <br> <br><br>,,<br> <br> <br> <br> <br>,18,3,tables/page-0018-r03.md
+<br> <br> <br> <br>0x08,,,<br> <br> <br> <br><br>,,<br> <br> <br> <br>方向,18,3,tables/page-0018-r03.md
+<br> <br> <br> <br>0x09,,,<br> <br> <br> <br>计数脉冲逻辑<br>方向,,<br> <br> <br>  U<br> <br>1:由低到高计数+1<br>0:由高到低计数+1,18,3,tables/page-0018-r03.md
+<br> <br> <br>0x0B:0x0A,,,<br> <br> <br><br> <br>,,<br> <br> <br> <br> <br>,18,3,tables/page-0018-r03.md
+<br> <br> <br>0x0B:0x0A,,,<br> <br> <br><br> <br>,,<br> <br> <br>号选择,18,3,tables/page-0018-r03.md
+<br> <br> <br>0x0B:0x0A,,,<br> <br> <br><br> <br>,,<br> <br> <br>（00）（ΓA）,18,3,tables/page-0018-r03.md
+<br>UH<br> <br>0x0D:0x0C,,,<br> C<br> <br>控制输出逻辑<br>选择<br>（00）（Γ8）,,<br> <br> CUH<br>H C<br> <br>00：‘控制输出’受‘主逻辑控制’<br>的控制<br>01：‘控制输出’受‘副逻辑控制’<br>的控制<br>11:副逻辑参数设置状态,18,3,tables/page-0018-r03.md
+<br> <br>0x0E（15）,,,<br> <br><br>,,<br> <br> <br>,18,3,tables/page-0018-r03.md
+<br> <br>0x0E（15）,,,<br> <br><br>,,<br> <br>标志（0）,18,3,tables/page-0018-r03.md
+<br> <br>0x0F（16）,,,<br> <br>智能光电逻辑,,<br> <br> <br> <br>1：光电传感器对接时输出启动,18,3,tables/page-0018-r03.md
+U<br> <br> <br> <br> <br>0x10（17）,,,,,,19,1,tables/page-0019-r01.md
+U<br> <br> <br> <br> <br>0x10（17）,,,,,,19,1,tables/page-0019-r01.md
+U<br> <br> <br> <br> <br>0x10（17）,,,,,,19,1,tables/page-0019-r01.md
+<br> <br> <br> <br> <br>0x11（18）,,,,,,19,1,tables/page-0019-r01.md
+H C<br> <br> <br> <br> <br>0x13：0x12,,,,,,19,1,tables/page-0019-r01.md
+H C<br> <br> <br> <br> <br>0x13：0x12,,,,,,19,1,tables/page-0019-r01.md
+H C<br> <br> <br> <br> <br>0x13：0x12,,,,,,19,1,tables/page-0019-r01.md
+H C<br> <br> <br> <br> <br>0x13：0x12,,,,,,19,1,tables/page-0019-r01.md
+H C<br> <br> <br> <br> <br>0x13：0x12,,,,,,19,1,tables/page-0019-r01.md
+H C<br> <br> <br> <br> <br>0x13：0x12,,,,,,19,1,tables/page-0019-r01.md
+<br> U<br> <br> <br> <br>0x14（21）,,,,,,19,1,tables/page-0019-r01.md
+<br> <br> <br> <br>0x15（22）,,,,,,19,1,tables/page-0019-r01.md
+<br> <br> <br> <br>0x15（22）,,,,,,19,1,tables/page-0019-r01.md
+<br> <br> <br> <br>0x17:0x16,,,,,,19,1,tables/page-0019-r01.md
+<br> <br> <br>,,,,,,19,1,tables/page-0019-r01.md
+H<br> <br> <br>0x1A:0x19,,,,,,19,1,tables/page-0019-r01.md
+<br> <br> <br>0x1C:0x1B,,,,,,19,1,tables/page-0019-r01.md
+<br> <br> <br>0x1C:0x1B,,,,,,19,1,tables/page-0019-r01.md
+<br> <br> <br>0x1C:0x1B,,,,,,19,1,tables/page-0019-r01.md
+<br> C<br> <br>0x1D（30）,,,,,,19,1,tables/page-0019-r01.md
+<br> <br>0x1E（31）,,,,,,19,1,tables/page-0019-r01.md
+<br> <br>0x1E（31）,,,,,,19,1,tables/page-0019-r01.md
+<br> <br>0x1E（31）,,,,,,19,1,tables/page-0019-r01.md
+<br> <br> <br>（十六进制）,<br> <br> <br>（十六进制）,,,,,20,9,tables/page-0020-r09.md
+<br> <br> <br>01,<br> <br> <br>01,,,,,20,9,tables/page-0020-r09.md
+<br> <br> <br>00,<br> <br> <br>00,,,,,20,9,tables/page-0020-r09.md
+<br> <br> <br>13,<br> <br> <br>13,,,,,20,9,tables/page-0020-r09.md
+<br> <br> <br>00,<br> <br> <br>00,,,,,20,9,tables/page-0020-r09.md
+<br> <br> <br>13,<br> <br> <br>13,,,,,20,9,tables/page-0020-r09.md
+<br><br>功能码,,,,,,21,3,tables/page-0021-r03.md
+<br><br>输出地址,,,,,,21,3,tables/page-0021-r03.md
+<br><br>输出值,,,,,,21,3,tables/page-0021-r03.md
+<br> <br>功能码,,,,,,21,4,tables/page-0021-r04.md
+<br> <br>输出地址,,,,,,21,4,tables/page-0021-r04.md
+<br> <br>输出值,,,,,,21,4,tables/page-0021-r04.md
+<br> <br> <br>请求,,,,,,21,6,tables/page-0021-r06.md
+<br> <br>域名,,,,,,21,6,tables/page-0021-r06.md
+<br> <br>功能,,,,,,21,6,tables/page-0021-r06.md
+<br> <br>输出地址Hi,,,,,,21,6,tables/page-0021-r06.md
+<br> <br>输出地址Lo,,,,,,21,6,tables/page-0021-r06.md
+<br> <br>输出值Hi,,,,,,21,6,tables/page-0021-r06.md
+<br> <br>输出值Lo,,,,,,21,6,tables/page-0021-r06.md
+<br> <br>1个字节,,,,,,22,3,tables/page-0022-r03.md
+<br> <br>2个字节,,,,,,22,3,tables/page-0022-r03.md
+<br> <br>2个字节,,,,,,22,3,tables/page-0022-r03.md
+<br> <br>1个字节,,,,,,22,3,tables/page-0022-r03.md
+<br> <br>N* ×1个字节,,,,,,22,3,tables/page-0022-r03.md
+<br> <br>1个字节,,,,,,22,5,tables/page-0022-r05.md
+<br> <br>2个字节,,,,,,22,5,tables/page-0022-r05.md
+<br> <br>2个字节,,,,,,22,5,tables/page-0022-r05.md
+<br> <br> <br>（十六进制）,,,,,,22,8,tables/page-0022-r08.md
+<br> <br> <br>0F,,,,,,22,8,tables/page-0022-r08.md
+<br> <br> <br>00,,,,,,22,8,tables/page-0022-r08.md
+<br> <br> <br>13,,,,,,22,8,tables/page-0022-r08.md
+<br> <br> <br>00,,,,,,22,8,tables/page-0022-r08.md
+<br> <br> <br>0A,,,,,,22,8,tables/page-0022-r08.md
+<br> <br> <br>02,,,,,,22,8,tables/page-0022-r08.md
+<br> <br> <br>CD,,,,,,22,8,tables/page-0022-r08.md
+<br> <br> <br>01,,,,,,22,8,tables/page-0022-r08.md
+H<br> <br> <br>地址<br>(序号),,,,,,24,3,tables/page-0024-r03.md
+<br> <br> <br>0x00（1）,,,,,,24,3,tables/page-0024-r03.md
+<br> <br> <br>0x00（1）,,,,,,24,3,tables/page-0024-r03.md
+<br> <br> <br>0x01（2）,,,,,,24,3,tables/page-0024-r03.md
+<br> C<br> <br>0x02（3）,,,,,,24,3,tables/page-0024-r03.md
+<br> C<br> <br>0x02（3）,,,,,,24,3,tables/page-0024-r03.md
+<br> C<br> <br>0x02（3）,,,,,,24,3,tables/page-0024-r03.md
+<br> C<br> <br>0x02（3）,,,,,,24,3,tables/page-0024-r03.md
+<br> C<br> <br>0x02（3）,,,,,,24,3,tables/page-0024-r03.md
+<br> <br>0x03（4）,,,,,,24,3,tables/page-0024-r03.md
+<br>0x04（5）,,,,,,24,3,tables/page-0024-r03.md
+<br>0x04（5）,,,,,,24,3,tables/page-0024-r03.md
+U<br>0x05(6),,,,,,24,3,tables/page-0024-r03.md
+<br>功能码,,,,,,24,4,tables/page-0024-r04.md
+<br>起始地址,,,,,,24,4,tables/page-0024-r04.md
+<br>寄存器数量,,,,,,24,4,tables/page-0024-r04.md
+<br> <br> <br>功能码,,,,,,24,5,tables/page-0024-r05.md
+<br> <br> <br>字节数,,,,,,24,5,tables/page-0024-r05.md
+<br> <br> <br>寄存器值,,,,,,24,5,tables/page-0024-r05.md
+<br>功能码,,,,,,24,6,tables/page-0024-r06.md
+<br>异常码,,,,,,24,6,tables/page-0024-r06.md
+<br> <br>域名,,,,,,25,1,tables/page-0025-r01.md
+<br> <br>功能,,,,,,25,1,tables/page-0025-r01.md
+<br> <br>起始地址Hi,,,,,,25,1,tables/page-0025-r01.md
+<br> <br>起始地址Lo,,,,,,25,1,tables/page-0025-r01.md
+<br> <br>输入寄存器数量Hi,,,,,,25,1,tables/page-0025-r01.md
+<br> <br>输入寄存器数量Lo,,,,,,25,1,tables/page-0025-r01.md
+<br> <br> <br> <br> <br>0x00（1）,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br> <br> <br>0x00（1）,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br> <br> <br>0x00（1）,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br> <br>0x01（2）,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br> <br>,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br> <br>0x03（4）,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br> <br>,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br> <br> <br>0x05（6）,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br> <br>,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br> <br> <br>0x07（8）,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br>,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br> <br>0x09<br>（10）,,,,,,26,3,tables/page-0026-r03.md
+<br> <br>,,,,,,26,3,tables/page-0026-r03.md
+<br> <br>,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br> <br>0x0B<br>（12）,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br>0x0C<br>（13）,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br>0x0C<br>（13）,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br>0x0C<br>（13）,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br>0x0C<br>（13）,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br>0x0D<br>（14）,,,,,,26,3,tables/page-0026-r03.md
+U<br> <br>0x0F<br>（16）,,,,,,26,3,tables/page-0026-r03.md
+<br> <br> <br>,,,,,,27,1,tables/page-0027-r01.md
+<br> <br> <br>,,,,,,27,1,tables/page-0027-r01.md
+<br> <br> <br> <br> <br>0x13<br>（20）,,,,,,27,1,tables/page-0027-r01.md
+<br> <br> <br> <br>,,,,,,27,1,tables/page-0027-r01.md
+<br> <br> <br> <br>,,,,,,27,1,tables/page-0027-r01.md
+<br> <br> <br> <br>0x15<br>（22）,,,,,,27,1,tables/page-0027-r01.md
+<br> <br> <br>,,,,,,27,1,tables/page-0027-r01.md
+<br> <br> <br>,,,,,,27,1,tables/page-0027-r01.md
+<br> <br> <br> <br> <br>0x17<br>（24）,,,,,,27,1,tables/page-0027-r01.md
+<br> <br> <br> <br>,,,,,,27,1,tables/page-0027-r01.md
+<br> <br> <br> <br>,,,,,,27,1,tables/page-0027-r01.md
+<br> <br> <br> <br>0x19<br>（26）,,,,,,27,1,tables/page-0027-r01.md
+C<br> <br> <br> <br> <br>0x1A<br>（27）,,,,,,27,1,tables/page-0027-r01.md
+C<br> <br> <br> <br> <br>0x1A<br>（27）,,,,,,27,1,tables/page-0027-r01.md
+C<br> <br> <br> <br> <br>0x1A<br>（27）,,,,,,27,1,tables/page-0027-r01.md
+C<br> <br> <br> <br> <br>0x1A<br>（27）,,,,,,27,1,tables/page-0027-r01.md
+<br> <br> <br> <br> <br>0x1B<br>（28）,,,,,,27,1,tables/page-0027-r01.md
+<br> <br>,,,,,,27,1,tables/page-0027-r01.md
+<br> <br>,,,,,,27,1,tables/page-0027-r01.md
+<br> <br> <br> <br>0x1D<br>（30）,,,,,,27,1,tables/page-0027-r01.md
+<br> <br>,,,,,,27,1,tables/page-0027-r01.md
+<br> <br>,,,,,,27,1,tables/page-0027-r01.md
+<br> <br> <br>0x1F<br>（32）,,,,,,27,1,tables/page-0027-r01.md
+<br>,,,,,,27,1,tables/page-0027-r01.md
+<br>,,,,,,27,1,tables/page-0027-r01.md
+<br> <br> <br>0x21<br>（34）,,,,,,27,1,tables/page-0027-r01.md
+U<br> <br>0x23<br>（36）,,,,,,27,1,tables/page-0027-r01.md
+<br> <br>0x25,,,,,,27,1,tables/page-0027-r01.md
+<br> <br> <br> <br>（38）,,,,,,28,1,tables/page-0028-r01.md
+<br> <br> <br>,,,,,,28,1,tables/page-0028-r01.md
+<br> <br> <br>,,,,,,28,1,tables/page-0028-r01.md
+U<br> <br> <br> <br>0x27<br>（40）,,,,,,28,1,tables/page-0028-r01.md
+<br> <br> <br>,,,,,,28,1,tables/page-0028-r01.md
+<br> <br> <br>,,,,,,28,1,tables/page-0028-r01.md
+<br> <br> <br> <br>0x29<br>（42）,,,,,,28,1,tables/page-0028-r01.md
+<br> <br>,,,,,,28,1,tables/page-0028-r01.md
+<br> <br>,,,,,,28,1,tables/page-0028-r01.md
+<br> <br> <br>0x2B<br>（44）,,,,,,28,1,tables/page-0028-r01.md
+<br> <br>,,,,,,28,1,tables/page-0028-r01.md
+<br> <br>,,,,,,28,1,tables/page-0028-r01.md
+<br> <br>0x2D<br>（46）,,,,,,28,1,tables/page-0028-r01.md
+<br>,,,,,,28,1,tables/page-0028-r01.md
+<br>,,,,,,28,1,tables/page-0028-r01.md
+<br> <br>0x2F<br>（48）,,,,,,28,1,tables/page-0028-r01.md
+<br>,,,,,,28,1,tables/page-0028-r01.md
+<br>,,,,,,28,1,tables/page-0028-r01.md
+<br>0x31<br>（50）,,,,,,28,1,tables/page-0028-r01.md
+<br> <br>功能码,,,,,,28,3,tables/page-0028-r03.md
+<br> <br>起始地址,,,,,,28,3,tables/page-0028-r03.md
+<br> <br>寄存器数量,,,,,,28,3,tables/page-0028-r03.md
+<br> <br>功能码,,,,,,28,4,tables/page-0028-r04.md
+<br> <br>字节数,,,,,,28,4,tables/page-0028-r04.md
+<br> <br>寄存器值,,,,,,28,4,tables/page-0028-r04.md
+<br><br>功能码,,,,,,28,6,tables/page-0028-r06.md
+<br><br>异常码,,,,,,28,6,tables/page-0028-r06.md
+<br> <br>起始地址高字节,,,,,,29,2,tables/page-0029-r02.md
+<br> <br>起始地址低字节,,,,,,29,2,tables/page-0029-r02.md
+<br> <br>寄存器编号高字节,,,,,,29,2,tables/page-0029-r02.md
+<br> <br>寄存器编号低字节,,,,,,29,2,tables/page-0029-r02.md
+<br>,,,,,,29,2,tables/page-0029-r02.md
+<br>,,,,,,29,2,tables/page-0029-r02.md
+<br>,,,,,,29,2,tables/page-0029-r02.md
+<br> <br> <br>1个字节,,,,,,30,3,tables/page-0030-r03.md
+<br> <br> <br>2个字节,,,,,,30,3,tables/page-0030-r03.md
+<br> <br> <br>2个字节,,,,,,30,3,tables/page-0030-r03.md
+<br>1个字节,,,,,,30,4,tables/page-0030-r04.md
+<br>2个字节,,,,,,30,4,tables/page-0030-r04.md
+<br>2个字节,,,,,,30,4,tables/page-0030-r04.md
+<br><br> <br>1个字节,,,,,,30,5,tables/page-0030-r05.md
+<br><br> <br>1个字节,,,,,,30,5,tables/page-0030-r05.md
+<br> <br>（十六进制）,,,,,,30,7,tables/page-0030-r07.md
+<br> <br>06,,,,,,30,7,tables/page-0030-r07.md
+<br> <br>00,,,,,,30,7,tables/page-0030-r07.md
+<br> <br>01,,,,,,30,7,tables/page-0030-r07.md
+<br> <br>00,,,,,,30,7,tables/page-0030-r07.md
+<br> <br>03,,,,,,30,7,tables/page-0030-r07.md
+<br> <br>功能码,,,,,,31,3,tables/page-0031-r03.md
+<br> <br>起始地址,,,,,,31,3,tables/page-0031-r03.md
+<br> <br>寄存器数量,,,,,,31,3,tables/page-0031-r03.md
+<br> <br>字节数,,,,,,31,3,tables/page-0031-r03.md
+<br> <br>寄存器值,,,,,,31,3,tables/page-0031-r03.md
+<br><br>功能码,,,,,,31,5,tables/page-0031-r05.md
+<br><br>起始地址,,,,,,31,5,tables/page-0031-r05.md
+<br> <br> <br>域名,,,,,,31,8,tables/page-0031-r08.md
+<br> <br> <br>功能,,,,,,31,8,tables/page-0031-r08.md
+<br> <br> <br>起始地址Hi,,,,,,31,8,tables/page-0031-r08.md
+<br> <br> <br>起始地址Lo,,,,,,31,8,tables/page-0031-r08.md
+<br> <br> <br>寄存器数量Hi,,,,,,31,8,tables/page-0031-r08.md
+<br> <br> <br>寄存器数量Lo,,,,,,31,8,tables/page-0031-r08.md
+<br> <br> <br>字节数,,,,,,31,8,tables/page-0031-r08.md
+<br> <br>寄存器值Hi,,,,,,31,8,tables/page-0031-r08.md
+<br> <br>寄存器值Lo,,,,,,31,8,tables/page-0031-r08.md
+<br> <br>寄存器值Hi,,,,,,31,8,tables/page-0031-r08.md
+<br> <br>寄存器值Lo,,,,,,31,8,tables/page-0031-r08.md

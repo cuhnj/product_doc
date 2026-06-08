@@ -1,0 +1,139 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 14,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:56:43",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=14。\n\n【目录/书签上下文（节选）】\n\n\n【文本层节选（可能为空或不完整）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n14 / 35\n\n5. Modbus 事务处理\n\n下列状态图描述了在服务器侧 MODBUS 事务处理的一般处理过程。\n\n一旦服务器处理请求，使用合适的 MODBUS服务器事务建立MODBU",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.151, 0.051, 0.852, 0.075],\n      \"confidence\": 0.78\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.151, 0.096, 0.389, 0.116],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.224, 0.141, 0.758, 0.157],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.168, 0.170, 0.843, 0.598],\n      \"confidence\": 0.95,\n      \"image_alt\": \"服务器侧 MODBUS 事务处理流程图：从“等待 MB 指示”开始，接收 MB 指示后依次确认操作码、数据地址、数据值并执行 MB 操作；有效分支继续处理并发送 Modbus 响应，无效分支分别指向异常码_1、异常码_2、异常码_3、异常码_4_5_6，最终发送 Modbus 异常响应。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.235, 0.606, 0.762, 0.718],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.482, 0.890, 0.526, 0.900],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页看起来是数字版 PDF 渲染，不是纯扫描件；页面中央以一张较大的 MODBUS 事务处理流程图为主，正文说明位于图前和图后，底部有页码。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.151,
+          0.051,
+          0.852,
+          0.075
+        ],
+        "confidence": 0.78,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.151,
+          0.096,
+          0.389,
+          0.116
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.224,
+          0.141,
+          0.758,
+          0.157
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.168,
+          0.17,
+          0.843,
+          0.598
+        ],
+        "confidence": 0.95,
+        "image_alt": "服务器侧 MODBUS 事务处理流程图：从“等待 MB 指示”开始，接收 MB 指示后依次确认操作码、数据地址、数据值并执行 MB 操作；有效分支继续处理并发送 Modbus 响应，无效分支分别指向异常码_1、异常码_2、异常码_3、异常码_4_5_6，最终发送 Modbus 异常响应。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.235,
+          0.606,
+          0.762,
+          0.718
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.482,
+          0.89,
+          0.526,
+          0.9
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "本页看起来是数字版 PDF 渲染，不是纯扫描件；页面中央以一张较大的 MODBUS 事务处理流程图为主，正文说明位于图前和图后，底部有页码。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.151, 0.051, 0.852, 0.075],\n      \"confidence\": 0.78\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.151, 0.096, 0.389, 0.116],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.224, 0.141, 0.758, 0.157],\n      \"confidence\": 0.93\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.168, 0.170, 0.843, 0.598],\n      \"confidence\": 0.95,\n      \"image_alt\": \"服务器侧 MODBUS 事务处理流程图：从“等待 MB 指示”开始，接收 MB 指示后依次确认操作码、数据地址、数据值并执行 MB 操作；有效分支继续处理并发送 Modbus 响应，无效分支分别指向异常码_1、异常码_2、异常码_3、异常码_4_5_6，最终发送 Modbus 异常响应。\",\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.235, 0.606, 0.762, 0.718],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.482, 0.890, 0.526, 0.900],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页看起来是数字版 PDF 渲染，不是纯扫描件；页面中央以一张较大的 MODBUS 事务处理流程图为主，正文说明位于图前和图后，底部有页码。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780908987,
+    "id": "chatcmpl-DoQ4RKQbRt9Y5FhwTedc8mXV1Qess",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1004,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 14,
+        "engine_ttft_ms": 548,
+        "engine_ttlt_ms": 14146,
+        "pre_inference_ms": 167,
+        "service_tbt_ms": 14,
+        "service_ttft_ms": 896,
+        "service_ttlt_ms": 14460,
+        "total_duration_ms": 14305,
+        "user_visible_ttft_ms": 729
+      },
+      "prompt_tokens": 1508,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2512
+    }
+  }
+}

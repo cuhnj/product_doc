@@ -1,0 +1,72 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 5,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:58:32",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=5。\n【目录/书签上下文（节选）】\n\n【文本层节选（可能为空或不完整；不得以文本层覆盖肉眼从图中读到的表格）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n5 / 35\n\n 在单播方式，响应超时必须设置到足够的长度以使任何子节点都能处理完请求并返回响",
+  "assistant_text": "{\n  \"page_markdown\": \"◆ 在单播方式，响应超时必须设置到足够的长度以使任何子节点都能处理完请求并返回响应。而广播转换延迟必须有足够的长度以使任何子节点都能处理完请求而可以接收新的请求。因此，转换延迟应该比响应超时要短。典型的响应超时在 9600bps 时从1秒到几秒，而转换延迟从100ms到200ms。\\n\\n◆ 帧错误包括：1)对每个字符的奇偶校验；2)对整个帧的冗余校验。由于本控制器没采用奇偶校验，所以只有帧的冗余校验错误。\\n\\n## 4. 从站状态图\\n\\n下图描述了子节点的状态特征：\\n\\n[[vcrop:5:0]]\\n\\n说明：\\n\\n◆ 状态“空闲”表示没有接收到请求。这是电源上电后的初始状态。\\n\\n◆ 当收到一个请求时，子节点在处理请求中要求的动作前先检验报文包。可能的错误有：非法地址，无该功能码，非法数据…… 当检测到错误时，必须向主节点发送应答，指明何种错误。\\n\\n◆ 当要求的动作完成后，单播报文要求必须格式化一个应答并发往主节点。\\n\\n◆ 如果子节点在接收到的帧中检测到错误，则没有响应返回到主节点。\\n\\n◆ 任何子节点均应该定义并管理Modbus 诊断计数器以提供诊断信息。通过使用Modbus诊断功能码，可以得到这些计数值。\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.185,\n        0.328,\n        0.915,\n        0.600\n      ],\n      \"alt\": \"子节点状态图\",\n      \"reason\": \"状态图包含多条细线箭头、流程框和红色标注，建议以位图保留完整视觉信息。\"\n    }\n  ],\n  \"notes\": \"页面文字清晰；状态图细节较多，已建议截图保留。\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "◆ 在单播方式，响应超时必须设置到足够的长度以使任何子节点都能处理完请求并返回响应。而广播转换延迟必须有足够的长度以使任何子节点都能处理完请求而可以接收新的请求。因此，转换延迟应该比响应超时要短。典型的响应超时在 9600bps 时从1秒到几秒，而转换延迟从100ms到200ms。\n\n◆ 帧错误包括：1)对每个字符的奇偶校验；2)对整个帧的冗余校验。由于本控制器没采用奇偶校验，所以只有帧的冗余校验错误。\n\n## 4. 从站状态图\n\n下图描述了子节点的状态特征：\n\n[[vcrop:5:0]]\n\n说明：\n\n◆ 状态“空闲”表示没有接收到请求。这是电源上电后的初始状态。\n\n◆ 当收到一个请求时，子节点在处理请求中要求的动作前先检验报文包。可能的错误有：非法地址，无该功能码，非法数据…… 当检测到错误时，必须向主节点发送应答，指明何种错误。\n\n◆ 当要求的动作完成后，单播报文要求必须格式化一个应答并发往主节点。\n\n◆ 如果子节点在接收到的帧中检测到错误，则没有响应返回到主节点。\n\n◆ 任何子节点均应该定义并管理Modbus 诊断计数器以提供诊断信息。通过使用Modbus诊断功能码，可以得到这些计数值。",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.185,
+        0.328,
+        0.915,
+        0.6
+      ],
+      "alt": "子节点状态图",
+      "reason": "状态图包含多条细线箭头、流程框和红色标注，建议以位图保留完整视觉信息。"
+    }
+  ],
+  "notes": "页面文字清晰；状态图细节较多，已建议截图保留。",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"page_markdown\": \"◆ 在单播方式，响应超时必须设置到足够的长度以使任何子节点都能处理完请求并返回响应。而广播转换延迟必须有足够的长度以使任何子节点都能处理完请求而可以接收新的请求。因此，转换延迟应该比响应超时要短。典型的响应超时在 9600bps 时从1秒到几秒，而转换延迟从100ms到200ms。\\n\\n◆ 帧错误包括：1)对每个字符的奇偶校验；2)对整个帧的冗余校验。由于本控制器没采用奇偶校验，所以只有帧的冗余校验错误。\\n\\n## 4. 从站状态图\\n\\n下图描述了子节点的状态特征：\\n\\n[[vcrop:5:0]]\\n\\n说明：\\n\\n◆ 状态“空闲”表示没有接收到请求。这是电源上电后的初始状态。\\n\\n◆ 当收到一个请求时，子节点在处理请求中要求的动作前先检验报文包。可能的错误有：非法地址，无该功能码，非法数据…… 当检测到错误时，必须向主节点发送应答，指明何种错误。\\n\\n◆ 当要求的动作完成后，单播报文要求必须格式化一个应答并发往主节点。\\n\\n◆ 如果子节点在接收到的帧中检测到错误，则没有响应返回到主节点。\\n\\n◆ 任何子节点均应该定义并管理Modbus 诊断计数器以提供诊断信息。通过使用Modbus诊断功能码，可以得到这些计数值。\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.185,\n        0.328,\n        0.915,\n        0.600\n      ],\n      \"alt\": \"子节点状态图\",\n      \"reason\": \"状态图包含多条细线箭头、流程框和红色标注，建议以位图保留完整视觉信息。\"\n    }\n  ],\n  \"notes\": \"页面文字清晰；状态图细节较多，已建议截图保留。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909090,
+    "id": "chatcmpl-DoQ667LmzWb2uHWCcVewSi89Zenki",
+    "model": "gpt-5.5-2026-04-23",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1478,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 966,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 14,
+        "engine_ttft_ms": 402,
+        "engine_ttlt_ms": 20705,
+        "pre_inference_ms": 125,
+        "service_tbt_ms": 14,
+        "service_ttft_ms": 594,
+        "service_ttlt_ms": 20892,
+        "total_duration_ms": 20778,
+        "user_visible_ttft_ms": 469
+      },
+      "prompt_tokens": 2002,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3480
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 35,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T17:01:09",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=35。\n【目录/书签上下文（节选）】\n\n【文本层节选（可能为空或不完整；不得以文本层覆盖肉眼从图中读到的表格）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n35 / 35\n\n参考资料： \n1. MODBUS APPLICATION PROTOCOL ",
+  "assistant_text": "{\"page_markdown\":\"CUH 创优虎®\\n\\n---\\n\\n参考资料：\\n\\n1. MODBUS APPLICATION PROTOCOL SPECIFICATION  \\n   Modbus_Application_Protocol_V1_1b.pdf\\n2. MODBUS over Serial Line Specification and Implementation Guide  \\n   Modbus_over_serial_line_V1_02.pdf\\n\\n35 / 35\",\"crop_suggestions\":[],\"notes\":\"页面主体内容清晰；背景有淡水印。\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "CUH 创优虎®\n\n---\n\n参考资料：\n\n1. MODBUS APPLICATION PROTOCOL SPECIFICATION  \n   Modbus_Application_Protocol_V1_1b.pdf\n2. MODBUS over Serial Line Specification and Implementation Guide  \n   Modbus_over_serial_line_V1_02.pdf\n\n35 / 35",
+  "crop_suggestions": [],
+  "notes": "页面主体内容清晰；背景有淡水印。",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\"page_markdown\":\"CUH 创优虎®\\n\\n---\\n\\n参考资料：\\n\\n1. MODBUS APPLICATION PROTOCOL SPECIFICATION  \\n   Modbus_Application_Protocol_V1_1b.pdf\\n2. MODBUS over Serial Line Specification and Implementation Guide  \\n   Modbus_over_serial_line_V1_02.pdf\\n\\n35 / 35\",\"crop_suggestions\":[],\"notes\":\"页面主体内容清晰；背景有淡水印。\"}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909229,
+    "id": "chatcmpl-DoQ8LE0URSAiKRVASRIXGLBGucNrF",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 624,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 15,
+        "engine_ttft_ms": 631,
+        "engine_ttlt_ms": 9781,
+        "pre_inference_ms": 110,
+        "service_tbt_ms": 15,
+        "service_ttft_ms": 970,
+        "service_ttlt_ms": 10115,
+        "total_duration_ms": 10013,
+        "user_visible_ttft_ms": 860
+      },
+      "prompt_tokens": 1690,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2314
+    }
+  }
+}

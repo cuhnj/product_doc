@@ -1,0 +1,61 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 25,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:59:41",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=25。\n【目录/书签上下文（节选）】\n\n【文本层节选（可能为空或不完整；不得以文本层覆盖肉眼从图中读到的表格）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n25 / 35\n\n请求 \n响应\n\n域名 \n（十六进制） \n域名 \n（十六进制）\n\n功能 \n04",
+  "assistant_text": "{\"page_markdown\":\"| 请求 |  | 响应 |  |\\n|---|---|---|---|\\n| 域名 | （十六进制） | 域名 | （十六进制） |\\n| 功能 | 04 | 功能 | 04 |\\n| 起始地址 Hi | 00 | 字节数 | 02 |\\n| 起始地址 Lo | 08 | 寄存器值 9Hi | 00 |\\n| 输入寄存器数量 Hi | 00 | 寄存器值 9Lo | 0A |\\n| 输入寄存器数量 Lo | 01 |  |  |\\n\\n将输入寄存器 9 的内容表示为两个十六进制字节值 `00 0A`，或十进制 `10`。\",\"crop_suggestions\":[],\"notes\":\"\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "| 请求 |  | 响应 |  |\n|---|---|---|---|\n| 域名 | （十六进制） | 域名 | （十六进制） |\n| 功能 | 04 | 功能 | 04 |\n| 起始地址 Hi | 00 | 字节数 | 02 |\n| 起始地址 Lo | 08 | 寄存器值 9Hi | 00 |\n| 输入寄存器数量 Hi | 00 | 寄存器值 9Lo | 0A |\n| 输入寄存器数量 Lo | 01 |  |  |\n\n将输入寄存器 9 的内容表示为两个十六进制字节值 `00 0A`，或十进制 `10`。",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\"page_markdown\":\"| 请求 |  | 响应 |  |\\n|---|---|---|---|\\n| 域名 | （十六进制） | 域名 | （十六进制） |\\n| 功能 | 04 | 功能 | 04 |\\n| 起始地址 Hi | 00 | 字节数 | 02 |\\n| 起始地址 Lo | 08 | 寄存器值 9Hi | 00 |\\n| 输入寄存器数量 Hi | 00 | 寄存器值 9Lo | 0A |\\n| 输入寄存器数量 Lo | 01 |  |  |\\n\\n将输入寄存器 9 的内容表示为两个十六进制字节值 `00 0A`，或十进制 `10`。\",\"crop_suggestions\":[],\"notes\":\"\"}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909171,
+    "id": "chatcmpl-DoQ7PHcXiN1WoDXVJXxgO8Da8E928",
+    "model": "gpt-5.5-2026-04-23",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 712,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 12,
+        "engine_ttft_ms": 279,
+        "engine_ttlt_ms": 9114,
+        "pre_inference_ms": 120,
+        "service_tbt_ms": 12,
+        "service_ttft_ms": 475,
+        "service_ttlt_ms": 9294,
+        "total_duration_ms": 9184,
+        "user_visible_ttft_ms": 355
+      },
+      "prompt_tokens": 1759,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2471
+    }
+  }
+}

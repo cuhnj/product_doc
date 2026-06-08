@@ -1,0 +1,187 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 34,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:58:00",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=34。\n\n【目录/书签上下文（节选）】\n\n\n【文本层节选（可能为空或不完整）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n34 / 35\n\n八、 循环冗余检查\n\n循环冗余检查（CRC）字段为两个字节，包含16 位二进制值。由发送设备计算CRC 值，\n发送设备将CRC 附加到消息中。 \n接收到的设备在接收消息期",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.151, 0.051, 0.851, 0.075],\n      \"confidence\": 0.82\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.151, 0.095, 0.393, 0.119],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.151, 0.140, 0.819, 0.207],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.151, 0.235, 0.819, 0.294],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.151, 0.310, 0.819, 0.381],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.151, 0.408, 0.819, 0.448],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.151, 0.475, 0.823, 0.656],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.151, 0.681, 0.819, 0.704],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.159, 0.727, 0.877, 0.845],\n      \"confidence\": 0.93,\n      \"image_alt\": \"CRC 字节传输顺序示意图：外框内包含消息字段格，依次标注 Addr、Func、Data Count、多个 Data、CRC Lo、CRC Hi；下方示例显示 CRC Lo 为 0x41，CRC Hi 为 0x12。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.481, 0.918, 0.532, 0.927],\n      \"confidence\": 0.98\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n  \"notes\": \"本页为带文本层的说明书页面，不像纯扫描件。页面以文字说明为主，底部有一幅 CRC 字节顺序示意图，页脚显示 34 / 35。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.151,
+          0.051,
+          0.851,
+          0.075
+        ],
+        "confidence": 0.82,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.151,
+          0.095,
+          0.393,
+          0.119
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.151,
+          0.14,
+          0.819,
+          0.207
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.151,
+          0.235,
+          0.819,
+          0.294
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.151,
+          0.31,
+          0.819,
+          0.381
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.151,
+          0.408,
+          0.819,
+          0.448
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.151,
+          0.475,
+          0.823,
+          0.656
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.151,
+          0.681,
+          0.819,
+          0.704
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.159,
+          0.727,
+          0.877,
+          0.845
+        ],
+        "confidence": 0.93,
+        "image_alt": "CRC 字节传输顺序示意图：外框内包含消息字段格，依次标注 Addr、Func、Data Count、多个 Data、CRC Lo、CRC Hi；下方示例显示 CRC Lo 为 0x41，CRC Hi 为 0x12。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.481,
+          0.918,
+          0.532,
+          0.927
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "notes": "本页为带文本层的说明书页面，不像纯扫描件。页面以文字说明为主，底部有一幅 CRC 字节顺序示意图，页脚显示 34 / 35。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.151, 0.051, 0.851, 0.075],\n      \"confidence\": 0.82\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.151, 0.095, 0.393, 0.119],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.151, 0.140, 0.819, 0.207],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.151, 0.235, 0.819, 0.294],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.151, 0.310, 0.819, 0.381],\n      \"confidence\": 0.95\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.151, 0.408, 0.819, 0.448],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.151, 0.475, 0.823, 0.656],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.151, 0.681, 0.819, 0.704],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.159, 0.727, 0.877, 0.845],\n      \"confidence\": 0.93,\n      \"image_alt\": \"CRC 字节传输顺序示意图：外框内包含消息字段格，依次标注 Addr、Func、Data Count、多个 Data、CRC Lo、CRC Hi；下方示例显示 CRC Lo 为 0x41，CRC Hi 为 0x12。\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.481, 0.918, 0.532, 0.927],\n      \"confidence\": 0.98\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n  \"notes\": \"本页为带文本层的说明书页面，不像纯扫描件。页面以文字说明为主，底部有一幅 CRC 字节顺序示意图，页脚显示 34 / 35。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909064,
+    "id": "chatcmpl-DoQ5gO9PotPPc1bQImoejtji1sA2c",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1165,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 12,
+        "engine_ttft_ms": 638,
+        "engine_ttlt_ms": 14616,
+        "pre_inference_ms": 138,
+        "service_tbt_ms": 12,
+        "service_ttft_ms": 1214,
+        "service_ttlt_ms": 15165,
+        "total_duration_ms": 15040,
+        "user_visible_ttft_ms": 1076
+      },
+      "prompt_tokens": 2012,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3177
+    }
+  }
+}

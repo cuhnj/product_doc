@@ -1,0 +1,127 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 26,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:57:06",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=26。\n\n【目录/书签上下文（节选）】\n\n\n【文本层节选（可能为空或不完整）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n26 / 35\n\nf) 03（0x03）读保持寄存器\n\n使用该功能码读取保持寄存器连续块的内容，从0（序号为1）开始寻址寄存器。 \n请求PDU的起始地址说明要读的寄存器起始位置。寄存器数量",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.150, 0.050, 0.852, 0.075],\n      \"confidence\": 0.72\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.151, 0.096, 0.535, 0.118],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.184, 0.139, 0.757, 0.246],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.250, 0.858, 0.904],\n      \"confidence\": 0.98,\n      \"caption\": \"每个地址对应的保持寄存器定义如下：\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.478, 0.916, 0.530, 0.930],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为数字版 PDF 渲染页，存在可提取文本层；页面主体为功能码 03（0x03）读保持寄存器的说明文字和一张寄存器定义表，背景有淡色 CUH 水印，不是以图片为主的扫描件。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.15,
+          0.05,
+          0.852,
+          0.075
+        ],
+        "confidence": 0.72,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.151,
+          0.096,
+          0.535,
+          0.118
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.184,
+          0.139,
+          0.757,
+          0.246
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.142,
+          0.25,
+          0.858,
+          0.904
+        ],
+        "confidence": 0.98,
+        "caption": "每个地址对应的保持寄存器定义如下：",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.478,
+          0.916,
+          0.53,
+          0.93
+        ],
+        "confidence": 0.93,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "本页为数字版 PDF 渲染页，存在可提取文本层；页面主体为功能码 03（0x03）读保持寄存器的说明文字和一张寄存器定义表，背景有淡色 CUH 水印，不是以图片为主的扫描件。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.150, 0.050, 0.852, 0.075],\n      \"confidence\": 0.72\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.151, 0.096, 0.535, 0.118],\n      \"confidence\": 0.96\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.184, 0.139, 0.757, 0.246],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.250, 0.858, 0.904],\n      \"confidence\": 0.98,\n      \"caption\": \"每个地址对应的保持寄存器定义如下：\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.478, 0.916, 0.530, 0.930],\n      \"confidence\": 0.93\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为数字版 PDF 渲染页，存在可提取文本层；页面主体为功能码 03（0x03）读保持寄存器的说明文字和一张寄存器定义表，背景有淡色 CUH 水印，不是以图片为主的扫描件。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909014,
+    "id": "chatcmpl-DoQ4sK6qhhH35YLtRPgeErxS3MSPD",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 793,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 425,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 13,
+        "engine_ttft_ms": 648,
+        "engine_ttlt_ms": 10864,
+        "pre_inference_ms": 166,
+        "service_tbt_ms": 13,
+        "service_ttft_ms": 1053,
+        "service_ttlt_ms": 11262,
+        "total_duration_ms": 11106,
+        "user_visible_ttft_ms": 886
+      },
+      "prompt_tokens": 2061,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2854
+    }
+  }
+}

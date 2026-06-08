@@ -1,0 +1,61 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 2,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:58:33",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=2。\n【目录/书签上下文（节选）】\n\n【文本层节选（可能为空或不完整；不得以文本层覆盖肉眼从图中读到的表格）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n2 / 35\n\n控制器Modbus通信协议\n\n一、 通信协议概述\n\n根据标准Modbus通信协议",
+  "assistant_text": "{\"page_markdown\":\"# 控制器Modbus通信协议\\n\\n## 一、 通信协议概述\\n\\n根据标准Modbus通信协议该文档描述了控制器所使用的Modbus协议细节，包括串行链路协议和应用层协议。\\n\\nModbus串行链路协议是一个主/从协议。该协议位于OSI模型的第二层。\\n\\n位于OSI模型第7层上的应用层报文传输协议，它提供了在不同类型总线或网络上的客户机和服务器之间的通信。\\n\\n应用层和数据链路层的对应关系为：客户机的功能由主节点提供，而服务器功能由子节点实现。\\n\\n本控制器物理层采用RS485协议，异步通讯模式，波特率为300bps~115200bps可调，并做为服务器（子节点）在总线上通信。\",\"crop_suggestions\":[],\"notes\":\"页面文字清晰，无需额外截图。\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "# 控制器Modbus通信协议\n\n## 一、 通信协议概述\n\n根据标准Modbus通信协议该文档描述了控制器所使用的Modbus协议细节，包括串行链路协议和应用层协议。\n\nModbus串行链路协议是一个主/从协议。该协议位于OSI模型的第二层。\n\n位于OSI模型第7层上的应用层报文传输协议，它提供了在不同类型总线或网络上的客户机和服务器之间的通信。\n\n应用层和数据链路层的对应关系为：客户机的功能由主节点提供，而服务器功能由子节点实现。\n\n本控制器物理层采用RS485协议，异步通讯模式，波特率为300bps~115200bps可调，并做为服务器（子节点）在总线上通信。",
+  "crop_suggestions": [],
+  "notes": "页面文字清晰，无需额外截图。",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\"page_markdown\":\"# 控制器Modbus通信协议\\n\\n## 一、 通信协议概述\\n\\n根据标准Modbus通信协议该文档描述了控制器所使用的Modbus协议细节，包括串行链路协议和应用层协议。\\n\\nModbus串行链路协议是一个主/从协议。该协议位于OSI模型的第二层。\\n\\n位于OSI模型第7层上的应用层报文传输协议，它提供了在不同类型总线或网络上的客户机和服务器之间的通信。\\n\\n应用层和数据链路层的对应关系为：客户机的功能由主节点提供，而服务器功能由子节点实现。\\n\\n本控制器物理层采用RS485协议，异步通讯模式，波特率为300bps~115200bps可调，并做为服务器（子节点）在总线上通信。\",\"crop_suggestions\":[],\"notes\":\"页面文字清晰，无需额外截图。\"}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909106,
+    "id": "chatcmpl-DoQ6MgcgOsGnrx861ODlvnyJsTjVp",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 574,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 353,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 10,
+        "engine_ttft_ms": 374,
+        "engine_ttlt_ms": 6241,
+        "pre_inference_ms": 130,
+        "service_tbt_ms": 10,
+        "service_ttft_ms": 580,
+        "service_ttlt_ms": 6452,
+        "total_duration_ms": 6325,
+        "user_visible_ttft_ms": 451
+      },
+      "prompt_tokens": 1820,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2394
+    }
+  }
+}

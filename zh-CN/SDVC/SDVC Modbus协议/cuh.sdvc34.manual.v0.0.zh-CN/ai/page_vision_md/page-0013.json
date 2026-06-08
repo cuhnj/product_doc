@@ -1,0 +1,72 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 13,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:59:00",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=13。\n【目录/书签上下文（节选）】\n\n【文本层节选（可能为空或不完整；不得以文本层覆盖肉眼从图中读到的表格）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n13 / 35\n\n4. MODBUS  寻址模式\n\nMODBUS应用协议精确定义了pdu寻址规",
+  "assistant_text": "{\"page_markdown\":\"## 4. MODBUS　寻址模式\\n\\nMODBUS应用协议精确定义了pdu寻址规则。\\n\\n在MODBUS pdu中，每个数据的地址从0到65535。它还明确的定义了由4个模块组成的MODBUS数据模型由数1从1到n的元素组成。\\n\\n在MODBUS数据模型中，数据块中的每个元素是编号从1到n。\\n\\n[[vcrop:13:0]]\",\"crop_suggestions\":[{\"bbox_0_1\":[0.189,0.225,0.883,0.612],\"alt\":\"MODBUS 数据模型与 MODBUS PDU 地址映射示意图\",\"reason\":\"该区域为含多色箭头、边框和标注的寻址映射示意图，使用位图保留版式与连线关系更准确。\"}],\"notes\":\"\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "## 4. MODBUS　寻址模式\n\nMODBUS应用协议精确定义了pdu寻址规则。\n\n在MODBUS pdu中，每个数据的地址从0到65535。它还明确的定义了由4个模块组成的MODBUS数据模型由数1从1到n的元素组成。\n\n在MODBUS数据模型中，数据块中的每个元素是编号从1到n。\n\n[[vcrop:13:0]]",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.189,
+        0.225,
+        0.883,
+        0.612
+      ],
+      "alt": "MODBUS 数据模型与 MODBUS PDU 地址映射示意图",
+      "reason": "该区域为含多色箭头、边框和标注的寻址映射示意图，使用位图保留版式与连线关系更准确。"
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\"page_markdown\":\"## 4. MODBUS　寻址模式\\n\\nMODBUS应用协议精确定义了pdu寻址规则。\\n\\n在MODBUS pdu中，每个数据的地址从0到65535。它还明确的定义了由4个模块组成的MODBUS数据模型由数1从1到n的元素组成。\\n\\n在MODBUS数据模型中，数据块中的每个元素是编号从1到n。\\n\\n[[vcrop:13:0]]\",\"crop_suggestions\":[{\"bbox_0_1\":[0.189,0.225,0.883,0.612],\"alt\":\"MODBUS 数据模型与 MODBUS PDU 地址映射示意图\",\"reason\":\"该区域为含多色箭头、边框和标注的寻址映射示意图，使用位图保留版式与连线关系更准确。\"}],\"notes\":\"\"}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909129,
+    "id": "chatcmpl-DoQ6j9rWmUHONOtMiOiGuDIDK2v3H",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 688,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 478,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 15,
+        "engine_ttft_ms": 466,
+        "engine_ttlt_ms": 10451,
+        "pre_inference_ms": 120,
+        "service_tbt_ms": 15,
+        "service_ttft_ms": 813,
+        "service_ttlt_ms": 10793,
+        "total_duration_ms": 10682,
+        "user_visible_ttft_ms": 692
+      },
+      "prompt_tokens": 1729,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2417
+    }
+  }
+}

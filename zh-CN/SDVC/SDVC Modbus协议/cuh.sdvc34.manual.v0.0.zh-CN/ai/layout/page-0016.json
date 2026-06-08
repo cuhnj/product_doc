@@ -1,0 +1,193 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 16,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:56:39",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=16。\n\n【目录/书签上下文（节选）】\n\n\n【文本层节选（可能为空或不完整）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n16 / 35\n\n0：无信号接入\n\n0x0C（13） \n速度预置B信号状态位 1：有信号接入\n\n0：无信号接入\n\n√\n\n0x0D（14） \n料满停机信号状态位 \n1：有信号接入 \n0：无信",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.151, 0.051, 0.249, 0.073],\n      \"confidence\": 0.82,\n      \"image_alt\": \"页眉处的 CUH 品牌标识\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.148, 0.086, 0.852, 0.643],\n      \"confidence\": 0.96,\n      \"caption\": \"状态位定义表的续页部分，列出 0x0C 至 0x1F 等地址、状态位名称、0/1 含义及适用项勾选\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.402, 0.647, 0.599, 0.661],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.216, 0.667, 0.789, 0.737],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.216, 0.741, 0.790, 0.860],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.481, 0.921, 0.529, 0.934],\n      \"confidence\": 0.98\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为可识别文本层的技术手册页面，不是纯扫描件。页面以表格为主，上半部分为状态位定义表的续表，下半部分为“状态位定义（离散量输入，只读）”的请求 PDU 与响应 PDU 说明文字。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.151,
+          0.051,
+          0.249,
+          0.073
+        ],
+        "confidence": 0.82,
+        "image_alt": "页眉处的 CUH 品牌标识",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.148,
+          0.086,
+          0.852,
+          0.643
+        ],
+        "confidence": 0.96,
+        "caption": "状态位定义表的续页部分，列出 0x0C 至 0x1F 等地址、状态位名称、0/1 含义及适用项勾选",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.402,
+          0.647,
+          0.599,
+          0.661
+        ],
+        "confidence": 0.9,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.216,
+          0.667,
+          0.789,
+          0.737
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.216,
+          0.741,
+          0.79,
+          0.86
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.481,
+          0.921,
+          0.529,
+          0.934
+        ],
+        "confidence": 0.98,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "本页为可识别文本层的技术手册页面，不是纯扫描件。页面以表格为主，上半部分为状态位定义表的续表，下半部分为“状态位定义（离散量输入，只读）”的请求 PDU 与响应 PDU 说明文字。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "content_filter_results": {
+          "hate": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "protected_material_code": {
+            "detected": false,
+            "filtered": false
+          },
+          "protected_material_text": {
+            "detected": false,
+            "filtered": false
+          },
+          "self_harm": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "sexual": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "violence": {
+            "filtered": false,
+            "severity": "safe"
+          }
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.151, 0.051, 0.249, 0.073],\n      \"confidence\": 0.82,\n      \"image_alt\": \"页眉处的 CUH 品牌标识\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.148, 0.086, 0.852, 0.643],\n      \"confidence\": 0.96,\n      \"caption\": \"状态位定义表的续页部分，列出 0x0C 至 0x1F 等地址、状态位名称、0/1 含义及适用项勾选\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.402, 0.647, 0.599, 0.661],\n      \"confidence\": 0.9\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.216, 0.667, 0.789, 0.737],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.216, 0.741, 0.790, 0.860],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.481, 0.921, 0.529, 0.934],\n      \"confidence\": 0.98\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5],\n  \"notes\": \"本页为可识别文本层的技术手册页面，不是纯扫描件。页面以表格为主，上半部分为状态位定义表的续表，下半部分为“状态位定义（离散量输入，只读）”的请求 PDU 与响应 PDU 说明文字。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780908982,
+    "id": "chatcmpl-DoQ4MLxkZ1thnBiVid3EaUGUbJk6d",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "prompt_filter_results": [
+      {
+        "prompt_index": 0,
+        "content_filter_results": {
+          "hate": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "jailbreak": {
+            "detected": false,
+            "filtered": false
+          },
+          "self_harm": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "sexual": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "violence": {
+            "filtered": false,
+            "severity": "safe"
+          }
+        }
+      }
+    ],
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 978,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 16,
+        "engine_ttft_ms": 379,
+        "engine_ttlt_ms": 16078,
+        "pre_inference_ms": 164,
+        "service_tbt_ms": 16,
+        "service_ttft_ms": 664,
+        "service_ttlt_ms": 16358,
+        "total_duration_ms": 16202,
+        "user_visible_ttft_ms": 500
+      },
+      "prompt_tokens": 2063,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3041
+    }
+  }
+}

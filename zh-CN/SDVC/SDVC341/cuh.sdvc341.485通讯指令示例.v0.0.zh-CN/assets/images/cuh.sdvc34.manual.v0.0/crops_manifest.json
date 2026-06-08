@@ -1,0 +1,28 @@
+[
+  {
+    "page_index": 1,
+    "crop_index": 0,
+    "type": "vision_crop",
+    "bbox_0_1": [
+      0.025,
+      0.006,
+      0.965,
+      0.905
+    ],
+    "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0001-vcrop-00.png",
+    "reason": "本页主体为超密集多列表格，渲染图中文字过小，需保留位图以避免误抄参数、RTU代码和ASCII代码。"
+  },
+  {
+    "page_index": 1,
+    "crop_index": 1,
+    "type": "vision_crop",
+    "bbox_0_1": [
+      0.035,
+      0.912,
+      0.965,
+      0.995
+    ],
+    "file": "assets/images/cuh.sdvc34.manual.v0.0/page-0001-vcrop-01.png",
+    "reason": "页底说明文字字号极小，截图中难以可靠辨认全部字符与校验码，需位图补充。"
+  }
+]

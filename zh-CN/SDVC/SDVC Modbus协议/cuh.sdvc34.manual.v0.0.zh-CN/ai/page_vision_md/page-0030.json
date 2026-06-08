@@ -1,0 +1,61 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 30,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T17:00:27",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=30。\n【目录/书签上下文（节选）】\n\n【文本层节选（可能为空或不完整；不得以文本层覆盖肉眼从图中读到的表格）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n30 / 35\n\ng) 06（0x06）写单个寄存器\n\n使用该功能码写单个保持寄存器。从0（序",
+  "assistant_text": "{\n  \"page_markdown\": \"## g) 06（0x06）写单个寄存器\\n\\n使用该功能码写单个保持寄存器。从0（序号为1）开始寻址寄存器。  \\n正常响应就是把请求PDU原样返回，在写入寄存器内容之后返回这个正常响应。  \\n广播模式不做响应。\\n\\n请求PDU\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x06 |\\n| 寄存器地址 | 2个字节 | 0x0000 至 0xFFFF |\\n| 寄存器值 | 2个字节 | 0x0000 至 0xFFFF |\\n\\n响应PDU\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x06 |\\n| 寄存器地址 | 2个字节 | 0x0000 至 0xFFFF |\\n| 寄存器值 | 2个字节 | 0x0000 至 0xFFFF |\\n\\n错误\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x86 |\\n| 异常码 | 1个字节 | 01、02、03、04 |\\n\\n这是一个请求将十六进制 0x0003 写入寄存器 2的实例：\\n\\n| 请求 |  | 响应 |  |\\n|---|---|---|---|\\n| 域名 | （十六进制） | 域名 | （十六进制） |\\n| 功能 | 06 | 功能 | 06 |\\n| 寄存器地址 Hi | 00 | 输出地址 Hi | 00 |\\n| 寄存器地址 Lo | 01 | 输出地址 Lo | 01 |\\n| 寄存器值 Hi | 00 | 输出值 Hi | 00 |\\n| 寄存器值 Lo | 03 | 输出值 Lo | 03 |\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "## g) 06（0x06）写单个寄存器\n\n使用该功能码写单个保持寄存器。从0（序号为1）开始寻址寄存器。  \n正常响应就是把请求PDU原样返回，在写入寄存器内容之后返回这个正常响应。  \n广播模式不做响应。\n\n请求PDU\n\n|  |  |  |\n|---|---|---|\n| 功能码 | 1个字节 | 0x06 |\n| 寄存器地址 | 2个字节 | 0x0000 至 0xFFFF |\n| 寄存器值 | 2个字节 | 0x0000 至 0xFFFF |\n\n响应PDU\n\n|  |  |  |\n|---|---|---|\n| 功能码 | 1个字节 | 0x06 |\n| 寄存器地址 | 2个字节 | 0x0000 至 0xFFFF |\n| 寄存器值 | 2个字节 | 0x0000 至 0xFFFF |\n\n错误\n\n|  |  |  |\n|---|---|---|\n| 功能码 | 1个字节 | 0x86 |\n| 异常码 | 1个字节 | 01、02、03、04 |\n\n这是一个请求将十六进制 0x0003 写入寄存器 2的实例：\n\n| 请求 |  | 响应 |  |\n|---|---|---|---|\n| 域名 | （十六进制） | 域名 | （十六进制） |\n| 功能 | 06 | 功能 | 06 |\n| 寄存器地址 Hi | 00 | 输出地址 Hi | 00 |\n| 寄存器地址 Lo | 01 | 输出地址 Lo | 01 |\n| 寄存器值 Hi | 00 | 输出值 Hi | 00 |\n| 寄存器值 Lo | 03 | 输出值 Lo | 03 |",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"page_markdown\": \"## g) 06（0x06）写单个寄存器\\n\\n使用该功能码写单个保持寄存器。从0（序号为1）开始寻址寄存器。  \\n正常响应就是把请求PDU原样返回，在写入寄存器内容之后返回这个正常响应。  \\n广播模式不做响应。\\n\\n请求PDU\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x06 |\\n| 寄存器地址 | 2个字节 | 0x0000 至 0xFFFF |\\n| 寄存器值 | 2个字节 | 0x0000 至 0xFFFF |\\n\\n响应PDU\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x06 |\\n| 寄存器地址 | 2个字节 | 0x0000 至 0xFFFF |\\n| 寄存器值 | 2个字节 | 0x0000 至 0xFFFF |\\n\\n错误\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x86 |\\n| 异常码 | 1个字节 | 01、02、03、04 |\\n\\n这是一个请求将十六进制 0x0003 写入寄存器 2的实例：\\n\\n| 请求 |  | 响应 |  |\\n|---|---|---|---|\\n| 域名 | （十六进制） | 域名 | （十六进制） |\\n| 功能 | 06 | 功能 | 06 |\\n| 寄存器地址 Hi | 00 | 输出地址 Hi | 00 |\\n| 寄存器地址 Lo | 01 | 输出地址 Lo | 01 |\\n| 寄存器值 Hi | 00 | 输出值 Hi | 00 |\\n| 寄存器值 Lo | 03 | 输出值 Lo | 03 |\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909215,
+    "id": "chatcmpl-DoQ87V4VgA0S1RRWC4EcQj06vy0CP",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 997,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 486,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 11,
+        "engine_ttft_ms": 484,
+        "engine_ttlt_ms": 11116,
+        "pre_inference_ms": 138,
+        "service_tbt_ms": 11,
+        "service_ttft_ms": 879,
+        "service_ttlt_ms": 11505,
+        "total_duration_ms": 11376,
+        "user_visible_ttft_ms": 741
+      },
+      "prompt_tokens": 1966,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2963
+    }
+  }
+}

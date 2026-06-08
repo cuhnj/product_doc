@@ -1,0 +1,61 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 31,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T17:00:26",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=31。\n【目录/书签上下文（节选）】\n\n【文本层节选（可能为空或不完整；不得以文本层覆盖肉眼从图中读到的表格）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n31 / 35\n\nh) 16（0x10）写多个寄存器\n\n可使用该功能码一次写连续的寄存器块。 ",
+  "assistant_text": "{\n  \"page_markdown\": \"### h) 16（0x10）写多个寄存器\\n\\n可使用该功能码一次写连续的寄存器块。  \\n起始地址表明该连续寄存器块的起始地址；每个寄存器分成2个字节，高字节先发送。\\n\\n正常响应返回**功能码、起始地址**和**被写入寄存器数量**。\\n\\n请求PDU\\n\\n| 功能码 | 1个字节 | 0x10 |\\n|---|---|---|\\n| 起始地址 | 2个字节 | 0x0000 至 0xFFFF |\\n| 寄存器数量 | 2个字节 | 0x0001至0x007B |\\n| 字节数 | 1个字节 | 2×N* |\\n| 寄存器值 | N*×2个字节 |  |\\n\\nN* = 寄存器数量\\n\\n响应PDU\\n\\n| 功能码 | 1个字节 | 0x10 |\\n|---|---|---|\\n| 起始地址 | 2个字节 | 0x0000 至 0xFFFF |\\n| 寄存器数量 | 2个字节 | 1至123（0x7B |\\n\\n错误\\n\\n| 功能码 | 1个字节 | 0x90 |\\n|---|---|---|\\n| 异常码 | 1个字节 | 01、02、03、04 |\\n\\n这是一个请求将0x000A 和0x0102 写入以2 开始的两个寄存器的实例：\\n\\n| 请求 |  | 响应 |  |\\n|---|---|---|---|\\n| 域名 | （十六进制） | 域名 | （十六进制） |\\n| 功能 | 10 | 功能 | 10 |\\n| 起始地址 Hi | 00 | 起始地址 Hi | 00 |\\n| 起始地址 Lo | 01 | 起始地址 Lo | 01 |\\n| 寄存器数量 Hi | 00 | 寄存器数量 Hi | 00 |\\n| 寄存器数量 Lo | 02 | 寄存器数量 Lo | 02 |\\n| 字节数 | 04 |  |  |\\n| 寄存器值 Hi | 00 |  |  |\\n| 寄存器值 Lo | 0A |  |  |\\n| 寄存器值 Hi | 01 |  |  |\\n| 寄存器值 Lo | 02 |  |  |\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "### h) 16（0x10）写多个寄存器\n\n可使用该功能码一次写连续的寄存器块。  \n起始地址表明该连续寄存器块的起始地址；每个寄存器分成2个字节，高字节先发送。\n\n正常响应返回**功能码、起始地址**和**被写入寄存器数量**。\n\n请求PDU\n\n| 功能码 | 1个字节 | 0x10 |\n|---|---|---|\n| 起始地址 | 2个字节 | 0x0000 至 0xFFFF |\n| 寄存器数量 | 2个字节 | 0x0001至0x007B |\n| 字节数 | 1个字节 | 2×N* |\n| 寄存器值 | N*×2个字节 |  |\n\nN* = 寄存器数量\n\n响应PDU\n\n| 功能码 | 1个字节 | 0x10 |\n|---|---|---|\n| 起始地址 | 2个字节 | 0x0000 至 0xFFFF |\n| 寄存器数量 | 2个字节 | 1至123（0x7B |\n\n错误\n\n| 功能码 | 1个字节 | 0x90 |\n|---|---|---|\n| 异常码 | 1个字节 | 01、02、03、04 |\n\n这是一个请求将0x000A 和0x0102 写入以2 开始的两个寄存器的实例：\n\n| 请求 |  | 响应 |  |\n|---|---|---|---|\n| 域名 | （十六进制） | 域名 | （十六进制） |\n| 功能 | 10 | 功能 | 10 |\n| 起始地址 Hi | 00 | 起始地址 Hi | 00 |\n| 起始地址 Lo | 01 | 起始地址 Lo | 01 |\n| 寄存器数量 Hi | 00 | 寄存器数量 Hi | 00 |\n| 寄存器数量 Lo | 02 | 寄存器数量 Lo | 02 |\n| 字节数 | 04 |  |  |\n| 寄存器值 Hi | 00 |  |  |\n| 寄存器值 Lo | 0A |  |  |\n| 寄存器值 Hi | 01 |  |  |\n| 寄存器值 Lo | 02 |  |  |",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"page_markdown\": \"### h) 16（0x10）写多个寄存器\\n\\n可使用该功能码一次写连续的寄存器块。  \\n起始地址表明该连续寄存器块的起始地址；每个寄存器分成2个字节，高字节先发送。\\n\\n正常响应返回**功能码、起始地址**和**被写入寄存器数量**。\\n\\n请求PDU\\n\\n| 功能码 | 1个字节 | 0x10 |\\n|---|---|---|\\n| 起始地址 | 2个字节 | 0x0000 至 0xFFFF |\\n| 寄存器数量 | 2个字节 | 0x0001至0x007B |\\n| 字节数 | 1个字节 | 2×N* |\\n| 寄存器值 | N*×2个字节 |  |\\n\\nN* = 寄存器数量\\n\\n响应PDU\\n\\n| 功能码 | 1个字节 | 0x10 |\\n|---|---|---|\\n| 起始地址 | 2个字节 | 0x0000 至 0xFFFF |\\n| 寄存器数量 | 2个字节 | 1至123（0x7B |\\n\\n错误\\n\\n| 功能码 | 1个字节 | 0x90 |\\n|---|---|---|\\n| 异常码 | 1个字节 | 01、02、03、04 |\\n\\n这是一个请求将0x000A 和0x0102 写入以2 开始的两个寄存器的实例：\\n\\n| 请求 |  | 响应 |  |\\n|---|---|---|---|\\n| 域名 | （十六进制） | 域名 | （十六进制） |\\n| 功能 | 10 | 功能 | 10 |\\n| 起始地址 Hi | 00 | 起始地址 Hi | 00 |\\n| 起始地址 Lo | 01 | 起始地址 Lo | 01 |\\n| 寄存器数量 Hi | 00 | 寄存器数量 Hi | 00 |\\n| 寄存器数量 Lo | 02 | 寄存器数量 Lo | 02 |\\n| 字节数 | 04 |  |  |\\n| 寄存器值 Hi | 00 |  |  |\\n| 寄存器值 Lo | 0A |  |  |\\n| 寄存器值 Hi | 01 |  |  |\\n| 寄存器值 Lo | 02 |  |  |\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909212,
+    "id": "chatcmpl-DoQ84ZFrxxtYFipOWsA4V0rSztJie",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1138,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 11,
+        "engine_ttft_ms": 681,
+        "engine_ttlt_ms": 12857,
+        "pre_inference_ms": 122,
+        "service_tbt_ms": 11,
+        "service_ttft_ms": 1034,
+        "service_ttlt_ms": 13205,
+        "total_duration_ms": 13092,
+        "user_visible_ttft_ms": 912
+      },
+      "prompt_tokens": 2055,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3193
+    }
+  }
+}

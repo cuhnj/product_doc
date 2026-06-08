@@ -1,0 +1,61 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 34,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T17:01:08",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=34。\n【目录/书签上下文（节选）】\n\n【文本层节选（可能为空或不完整；不得以文本层覆盖肉眼从图中读到的表格）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n34 / 35\n\n八、 循环冗余检查\n\n循环冗余检查（CRC）字段为两个字节，包含16 位二进",
+  "assistant_text": "{\n  \"page_markdown\": \"## 八、循环冗余检查\\n\\n循环冗余检查（CRC）字段为两个字节，包含 16 位二进制值。由发送设备计算 CRC 值，发送设备将 CRC 附加到消息中。\\n\\n接收到的设备在接收消息期间重新计算 CRC，并将计算值与它在 CRC 字段中接收到的实际值进行比较。如果这两个值不相等，就会导致错误。\\n\\n首先将 16 位寄存器预装到所有 1 位，然后一个进程开始将消息的连续 8 位字节应用于寄存器的当前内容。每个字符中只有 8 位数据用于生成 CRC。\\n\\n启动和停止位和奇偶位，不适用于 crc。\\n\\n在 CRC 生成期间，每个 8 位字符与寄存器内容异或。则结果在最低有效位（LSB）的方向上移位，零填充到最高有效位（MSB）位置。\\n\\n提取并检查 LSB。如果 LSB 为 1，则寄存器然后与预设的固定值进行异或运算。如果 LSB 是 0，则不进行异或操作。\\n\\n重复该过程直到已经执行 8 个移位。在最后（第八个）移位之后，下一个 8 位字符与寄存器的当前值异或运算，并且该过程重复 8 个以上的移位。\\n\\n在应用了消息的所有字符之后，寄存器的最终内容是 CRC 值。\\n\\n生成 CRC 的过程是：\\n\\n1. 用 FFFF 十六进制加载 16 位寄存器（全部为 1）。把这叫做 CRC 登记簿。\\n2. 独占或消息的前 8 位字节与 16 位 CRC 寄存器的低阶字节，将结果放入 CRC 寄存器。\\n3. 向右移动 CRC 寄存器 1 位（向 LSB），零填充 MSB. 提取并检查 LSB。\\n4. （如果 LSB 为 0）：重复步骤 3（另一个移位）。（如果 LSB 为 1）：异或 CRC 寄存器，具有多项式值 0xA001（1010000000000001）。\\n5. 重复步骤 3 和 4，直到已执行 8 个移位。完成此操作后，将处理完整的 8 位字节。\\n6. 对消息的下一个 8 位字节重复步骤 2 至 5。继续进行此操作，直到处理完所有字节。\\n7. CRC 寄存器的最终内容是 CRC 值。\\n8. 当 CRC 被置于消息中时，其上字节和下字节必须按如下所述交换：\\n\\n将 CRC 放入消息中，当消息中传输 16 位 CRC（两个 8 位字节）时，将首先传输低阶字节，然后是高阶字节。例如，如果 CRC 值为 1241 十六进制（0001 0010 0100 0001）：\\n\\n| Addr | Func | Data Count | Data | Data | Data | Data | CRC Lo | CRC Hi |\\n|---|---|---|---|---|---|---|---|---|\\n|  |  |  |  |  |  |  | 0x41 | 0x12 |\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "## 八、循环冗余检查\n\n循环冗余检查（CRC）字段为两个字节，包含 16 位二进制值。由发送设备计算 CRC 值，发送设备将 CRC 附加到消息中。\n\n接收到的设备在接收消息期间重新计算 CRC，并将计算值与它在 CRC 字段中接收到的实际值进行比较。如果这两个值不相等，就会导致错误。\n\n首先将 16 位寄存器预装到所有 1 位，然后一个进程开始将消息的连续 8 位字节应用于寄存器的当前内容。每个字符中只有 8 位数据用于生成 CRC。\n\n启动和停止位和奇偶位，不适用于 crc。\n\n在 CRC 生成期间，每个 8 位字符与寄存器内容异或。则结果在最低有效位（LSB）的方向上移位，零填充到最高有效位（MSB）位置。\n\n提取并检查 LSB。如果 LSB 为 1，则寄存器然后与预设的固定值进行异或运算。如果 LSB 是 0，则不进行异或操作。\n\n重复该过程直到已经执行 8 个移位。在最后（第八个）移位之后，下一个 8 位字符与寄存器的当前值异或运算，并且该过程重复 8 个以上的移位。\n\n在应用了消息的所有字符之后，寄存器的最终内容是 CRC 值。\n\n生成 CRC 的过程是：\n\n1. 用 FFFF 十六进制加载 16 位寄存器（全部为 1）。把这叫做 CRC 登记簿。\n2. 独占或消息的前 8 位字节与 16 位 CRC 寄存器的低阶字节，将结果放入 CRC 寄存器。\n3. 向右移动 CRC 寄存器 1 位（向 LSB），零填充 MSB. 提取并检查 LSB。\n4. （如果 LSB 为 0）：重复步骤 3（另一个移位）。（如果 LSB 为 1）：异或 CRC 寄存器，具有多项式值 0xA001（1010000000000001）。\n5. 重复步骤 3 和 4，直到已执行 8 个移位。完成此操作后，将处理完整的 8 位字节。\n6. 对消息的下一个 8 位字节重复步骤 2 至 5。继续进行此操作，直到处理完所有字节。\n7. CRC 寄存器的最终内容是 CRC 值。\n8. 当 CRC 被置于消息中时，其上字节和下字节必须按如下所述交换：\n\n将 CRC 放入消息中，当消息中传输 16 位 CRC（两个 8 位字节）时，将首先传输低阶字节，然后是高阶字节。例如，如果 CRC 值为 1241 十六进制（0001 0010 0100 0001）：\n\n| Addr | Func | Data Count | Data | Data | Data | Data | CRC Lo | CRC Hi |\n|---|---|---|---|---|---|---|---|---|\n|  |  |  |  |  |  |  | 0x41 | 0x12 |",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"page_markdown\": \"## 八、循环冗余检查\\n\\n循环冗余检查（CRC）字段为两个字节，包含 16 位二进制值。由发送设备计算 CRC 值，发送设备将 CRC 附加到消息中。\\n\\n接收到的设备在接收消息期间重新计算 CRC，并将计算值与它在 CRC 字段中接收到的实际值进行比较。如果这两个值不相等，就会导致错误。\\n\\n首先将 16 位寄存器预装到所有 1 位，然后一个进程开始将消息的连续 8 位字节应用于寄存器的当前内容。每个字符中只有 8 位数据用于生成 CRC。\\n\\n启动和停止位和奇偶位，不适用于 crc。\\n\\n在 CRC 生成期间，每个 8 位字符与寄存器内容异或。则结果在最低有效位（LSB）的方向上移位，零填充到最高有效位（MSB）位置。\\n\\n提取并检查 LSB。如果 LSB 为 1，则寄存器然后与预设的固定值进行异或运算。如果 LSB 是 0，则不进行异或操作。\\n\\n重复该过程直到已经执行 8 个移位。在最后（第八个）移位之后，下一个 8 位字符与寄存器的当前值异或运算，并且该过程重复 8 个以上的移位。\\n\\n在应用了消息的所有字符之后，寄存器的最终内容是 CRC 值。\\n\\n生成 CRC 的过程是：\\n\\n1. 用 FFFF 十六进制加载 16 位寄存器（全部为 1）。把这叫做 CRC 登记簿。\\n2. 独占或消息的前 8 位字节与 16 位 CRC 寄存器的低阶字节，将结果放入 CRC 寄存器。\\n3. 向右移动 CRC 寄存器 1 位（向 LSB），零填充 MSB. 提取并检查 LSB。\\n4. （如果 LSB 为 0）：重复步骤 3（另一个移位）。（如果 LSB 为 1）：异或 CRC 寄存器，具有多项式值 0xA001（1010000000000001）。\\n5. 重复步骤 3 和 4，直到已执行 8 个移位。完成此操作后，将处理完整的 8 位字节。\\n6. 对消息的下一个 8 位字节重复步骤 2 至 5。继续进行此操作，直到处理完所有字节。\\n7. CRC 寄存器的最终内容是 CRC 值。\\n8. 当 CRC 被置于消息中时，其上字节和下字节必须按如下所述交换：\\n\\n将 CRC 放入消息中，当消息中传输 16 位 CRC（两个 8 位字节）时，将首先传输低阶字节，然后是高阶字节。例如，如果 CRC 值为 1241 十六进制（0001 0010 0100 0001）：\\n\\n| Addr | Func | Data Count | Data | Data | Data | Data | CRC Lo | CRC Hi |\\n|---|---|---|---|---|---|---|---|---|\\n|  |  |  |  |  |  |  | 0x41 | 0x12 |\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909224,
+    "id": "chatcmpl-DoQ8GJgWXkeXKAPoszi6ZV5tT5LvI",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1294,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 10,
+        "engine_ttft_ms": 620,
+        "engine_ttlt_ms": 13778,
+        "pre_inference_ms": 169,
+        "service_tbt_ms": 10,
+        "service_ttft_ms": 1227,
+        "service_ttlt_ms": 14386,
+        "total_duration_ms": 14238,
+        "user_visible_ttft_ms": 1058
+      },
+      "prompt_tokens": 2278,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3572
+    }
+  }
+}

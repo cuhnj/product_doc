@@ -1,0 +1,61 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 11,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:59:12",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=11。\n【目录/书签上下文（节选）】\n\n【文本层节选（可能为空或不完整；不得以文本层覆盖肉眼从图中读到的表格）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n11 / 35\n\n五、 应用层协议\n\n1. 协议描述\n\nMODBUS应用层是OSI模型第7层上",
+  "assistant_text": "{\"page_markdown\":\"## 五、应用层协议\\n\\n### 1. 协议描述\\n\\nMODBUS应用层是OSI模型第7层上的应用层报文传输协议，它提供了在不同类型总线或网络上的客户机和服务器之间的通信。\\n\\n| 地址域 | 功能码 | 数据 | 差错校验 |\\n|---|---|---|---|\\n| ADU 的组成部分 | PDU 的组成部分 | PDU 的组成部分 | ADU 的组成部分 |\\n\\n**通用MODBUS帧**\\n\\n在客户机发起MODBUS事务处理时会创建一个MODBUS应用数据单元。其中功能码指示服务器执行哪种操作。MODBUS 协议规定了客户机启动一个请求时的帧格式。\\n\\n用一个字节编码 MODBUS 数据单元的功能码域。有效的功能码范围是：1-255（十进制）（128-255 为异常响应保留）。当从客户机向服务器设备发送报文时，功能码通知服务器执行哪种操作。功能码0为无效功能码。\\n\\n从客户机向服务器设备发送的报文数据域包括附加信息，服务器使用这个信息执行功能码定义的操作。这个域还包括离散项目和寄存器地址、处理的项目数量以及域中的实际数据字节数。\\n\\n在某种请求中，数据域可以是不存在的（0长度），在此情况下服务器不需要任何附加信息。功能码仅说明操作。\\n\\n如果在一个正确接收的MODBUS ADU中，不出现与请求MODBUS 功能有关的差错，那么服务器至客户机的响应数据域包括请求数据。如果出现与请求 MODBUS 功能有关的差错，那么域包括一个异常码，服务器应用能够使用这个域确定下一个执行的操作。\\n\\n### 2. 数据编码\\n\\nMODBUS 使用‘big-Endian’方式表示地址和数据项。这意味着当发送多个字节时，首先发送最高有效位。例如：\\n\\n| 寄存器大小 | 值 | 说明 |\\n|---|---|---|\\n| 16 - 比特 | 0x1234 | 发送的第一字节为 0x12 然后发送0x34 |\",\"crop_suggestions\":[],\"notes\":\"\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "## 五、应用层协议\n\n### 1. 协议描述\n\nMODBUS应用层是OSI模型第7层上的应用层报文传输协议，它提供了在不同类型总线或网络上的客户机和服务器之间的通信。\n\n| 地址域 | 功能码 | 数据 | 差错校验 |\n|---|---|---|---|\n| ADU 的组成部分 | PDU 的组成部分 | PDU 的组成部分 | ADU 的组成部分 |\n\n**通用MODBUS帧**\n\n在客户机发起MODBUS事务处理时会创建一个MODBUS应用数据单元。其中功能码指示服务器执行哪种操作。MODBUS 协议规定了客户机启动一个请求时的帧格式。\n\n用一个字节编码 MODBUS 数据单元的功能码域。有效的功能码范围是：1-255（十进制）（128-255 为异常响应保留）。当从客户机向服务器设备发送报文时，功能码通知服务器执行哪种操作。功能码0为无效功能码。\n\n从客户机向服务器设备发送的报文数据域包括附加信息，服务器使用这个信息执行功能码定义的操作。这个域还包括离散项目和寄存器地址、处理的项目数量以及域中的实际数据字节数。\n\n在某种请求中，数据域可以是不存在的（0长度），在此情况下服务器不需要任何附加信息。功能码仅说明操作。\n\n如果在一个正确接收的MODBUS ADU中，不出现与请求MODBUS 功能有关的差错，那么服务器至客户机的响应数据域包括请求数据。如果出现与请求 MODBUS 功能有关的差错，那么域包括一个异常码，服务器应用能够使用这个域确定下一个执行的操作。\n\n### 2. 数据编码\n\nMODBUS 使用‘big-Endian’方式表示地址和数据项。这意味着当发送多个字节时，首先发送最高有效位。例如：\n\n| 寄存器大小 | 值 | 说明 |\n|---|---|---|\n| 16 - 比特 | 0x1234 | 发送的第一字节为 0x12 然后发送0x34 |",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\"page_markdown\":\"## 五、应用层协议\\n\\n### 1. 协议描述\\n\\nMODBUS应用层是OSI模型第7层上的应用层报文传输协议，它提供了在不同类型总线或网络上的客户机和服务器之间的通信。\\n\\n| 地址域 | 功能码 | 数据 | 差错校验 |\\n|---|---|---|---|\\n| ADU 的组成部分 | PDU 的组成部分 | PDU 的组成部分 | ADU 的组成部分 |\\n\\n**通用MODBUS帧**\\n\\n在客户机发起MODBUS事务处理时会创建一个MODBUS应用数据单元。其中功能码指示服务器执行哪种操作。MODBUS 协议规定了客户机启动一个请求时的帧格式。\\n\\n用一个字节编码 MODBUS 数据单元的功能码域。有效的功能码范围是：1-255（十进制）（128-255 为异常响应保留）。当从客户机向服务器设备发送报文时，功能码通知服务器执行哪种操作。功能码0为无效功能码。\\n\\n从客户机向服务器设备发送的报文数据域包括附加信息，服务器使用这个信息执行功能码定义的操作。这个域还包括离散项目和寄存器地址、处理的项目数量以及域中的实际数据字节数。\\n\\n在某种请求中，数据域可以是不存在的（0长度），在此情况下服务器不需要任何附加信息。功能码仅说明操作。\\n\\n如果在一个正确接收的MODBUS ADU中，不出现与请求MODBUS 功能有关的差错，那么服务器至客户机的响应数据域包括请求数据。如果出现与请求 MODBUS 功能有关的差错，那么域包括一个异常码，服务器应用能够使用这个域确定下一个执行的操作。\\n\\n### 2. 数据编码\\n\\nMODBUS 使用‘big-Endian’方式表示地址和数据项。这意味着当发送多个字节时，首先发送最高有效位。例如：\\n\\n| 寄存器大小 | 值 | 说明 |\\n|---|---|---|\\n| 16 - 比特 | 0x1234 | 发送的第一字节为 0x12 然后发送0x34 |\",\"crop_suggestions\":[],\"notes\":\"\"}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909130,
+    "id": "chatcmpl-DoQ6k2IdLc1hsln1hnT5JCNKM3ryk",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1554,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 13,
+        "engine_ttft_ms": 640,
+        "engine_ttlt_ms": 20199,
+        "pre_inference_ms": 132,
+        "service_tbt_ms": 13,
+        "service_ttft_ms": 1047,
+        "service_ttlt_ms": 20601,
+        "total_duration_ms": 20615,
+        "user_visible_ttft_ms": 914
+      },
+      "prompt_tokens": 2058,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3612
+    }
+  }
+}

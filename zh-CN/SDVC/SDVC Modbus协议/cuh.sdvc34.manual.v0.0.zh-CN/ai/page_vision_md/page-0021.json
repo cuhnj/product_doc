@@ -1,0 +1,114 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 21,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:59:49",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=21。\n【目录/书签上下文（节选）】\n\n【文本层节选（可能为空或不完整；不得以文本层覆盖肉眼从图中读到的表格）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n21 / 35\n\nc) 05（0x05）写单个线圈\n\n使用该功能码写控制器的控制标志位。 \n由",
+  "assistant_text": "{\n  \"page_markdown\": \"### c) 05（0x05）写单个线圈\\n\\n使用该功能码写控制器的控制标志位。  \\n由“控制标志位定义表”可知每个位的含义。  \\n**输出地址**表示要写的控制标志位的地址。  \\n其中**输出值**为0xFF00将置相应位为1（ON），**输出值**为0x0000将清零（OFF）相应位。  \\n其它所有值均是非法的，并且对输出不起作用。\\n\\n正常响应就是把请求PDU原样返回，在写入控制状态之后返回这个正常响应。  \\n在广播模式时，不做响应。\\n\\n请求PDU\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x05 |\\n| 输出地址 | 2个字节 | 0x0000 至 0xFFFF |\\n| 输出值 | 2个字节 | 0x0000 或 0xFF00 |\\n\\n响应PDU\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x05 |\\n| 输出地址 | 2个字节 | 0x0000 至 0xFFFF |\\n| 输出值 | 2个字节 | 0x0000 或 0xFF00 |\\n\\n错误\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x85 |\\n| 异常码 | 1个字节 | 01、02、03、04 |\\n\\n这是一个请求写线圈173 为ON 的实例：\\n\\n| 请求 |  | 响应 |  |\\n|---|---|---|---|\\n| 域名 | （十六进制） | 域名 | （十六进制） |\\n| 功能 | 05 | 功能 | 05 |\\n| 输出地址 Hi | 00 | 输出地址 Hi | 00 |\\n| 输出地址 Lo | AC | 输出地址 Lo | AC |\\n| 输出值 Hi | FF | 输出值 Hi | FF |\\n| 输出值 Lo | 00 | 输出值 Lo | 00 |\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "### c) 05（0x05）写单个线圈\n\n使用该功能码写控制器的控制标志位。  \n由“控制标志位定义表”可知每个位的含义。  \n**输出地址**表示要写的控制标志位的地址。  \n其中**输出值**为0xFF00将置相应位为1（ON），**输出值**为0x0000将清零（OFF）相应位。  \n其它所有值均是非法的，并且对输出不起作用。\n\n正常响应就是把请求PDU原样返回，在写入控制状态之后返回这个正常响应。  \n在广播模式时，不做响应。\n\n请求PDU\n\n|  |  |  |\n|---|---|---|\n| 功能码 | 1个字节 | 0x05 |\n| 输出地址 | 2个字节 | 0x0000 至 0xFFFF |\n| 输出值 | 2个字节 | 0x0000 或 0xFF00 |\n\n响应PDU\n\n|  |  |  |\n|---|---|---|\n| 功能码 | 1个字节 | 0x05 |\n| 输出地址 | 2个字节 | 0x0000 至 0xFFFF |\n| 输出值 | 2个字节 | 0x0000 或 0xFF00 |\n\n错误\n\n|  |  |  |\n|---|---|---|\n| 功能码 | 1个字节 | 0x85 |\n| 异常码 | 1个字节 | 01、02、03、04 |\n\n这是一个请求写线圈173 为ON 的实例：\n\n| 请求 |  | 响应 |  |\n|---|---|---|---|\n| 域名 | （十六进制） | 域名 | （十六进制） |\n| 功能 | 05 | 功能 | 05 |\n| 输出地址 Hi | 00 | 输出地址 Hi | 00 |\n| 输出地址 Lo | AC | 输出地址 Lo | AC |\n| 输出值 Hi | FF | 输出值 Hi | FF |\n| 输出值 Lo | 00 | 输出值 Lo | 00 |",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "choices": [
+      {
+        "content_filter_results": {
+          "hate": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "protected_material_code": {
+            "detected": false,
+            "filtered": false
+          },
+          "protected_material_text": {
+            "detected": false,
+            "filtered": false
+          },
+          "self_harm": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "sexual": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "violence": {
+            "filtered": false,
+            "severity": "safe"
+          }
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"page_markdown\": \"### c) 05（0x05）写单个线圈\\n\\n使用该功能码写控制器的控制标志位。  \\n由“控制标志位定义表”可知每个位的含义。  \\n**输出地址**表示要写的控制标志位的地址。  \\n其中**输出值**为0xFF00将置相应位为1（ON），**输出值**为0x0000将清零（OFF）相应位。  \\n其它所有值均是非法的，并且对输出不起作用。\\n\\n正常响应就是把请求PDU原样返回，在写入控制状态之后返回这个正常响应。  \\n在广播模式时，不做响应。\\n\\n请求PDU\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x05 |\\n| 输出地址 | 2个字节 | 0x0000 至 0xFFFF |\\n| 输出值 | 2个字节 | 0x0000 或 0xFF00 |\\n\\n响应PDU\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x05 |\\n| 输出地址 | 2个字节 | 0x0000 至 0xFFFF |\\n| 输出值 | 2个字节 | 0x0000 或 0xFF00 |\\n\\n错误\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x85 |\\n| 异常码 | 1个字节 | 01、02、03、04 |\\n\\n这是一个请求写线圈173 为ON 的实例：\\n\\n| 请求 |  | 响应 |  |\\n|---|---|---|---|\\n| 域名 | （十六进制） | 域名 | （十六进制） |\\n| 功能 | 05 | 功能 | 05 |\\n| 输出地址 Hi | 00 | 输出地址 Hi | 00 |\\n| 输出地址 Lo | AC | 输出地址 Lo | AC |\\n| 输出值 Hi | FF | 输出值 Hi | FF |\\n| 输出值 Lo | 00 | 输出值 Lo | 00 |\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909175,
+    "id": "chatcmpl-DoQ7Tq2GLCA0zkvOgmdkXsCVO4Yo0",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "prompt_filter_results": [
+      {
+        "prompt_index": 0,
+        "content_filter_results": {
+          "hate": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "jailbreak": {
+            "detected": false,
+            "filtered": false
+          },
+          "self_harm": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "sexual": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "violence": {
+            "filtered": false,
+            "severity": "safe"
+          }
+        }
+      }
+    ],
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1068,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 12,
+        "engine_ttft_ms": 508,
+        "engine_ttlt_ms": 12942,
+        "pre_inference_ms": 100,
+        "service_tbt_ms": 12,
+        "service_ttft_ms": 848,
+        "service_ttlt_ms": 13278,
+        "total_duration_ms": 13184,
+        "user_visible_ttft_ms": 747
+      },
+      "prompt_tokens": 2008,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3076
+    }
+  }
+}

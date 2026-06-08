@@ -1,0 +1,170 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 21,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:57:10",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=21。\n\n【目录/书签上下文（节选）】\n\n\n【文本层节选（可能为空或不完整）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n21 / 35\n\nc) 05（0x05）写单个线圈\n\n使用该功能码写控制器的控制标志位。 \n由“控制标志位定义表”可知每个位的含义。 \n输出地址表示要写的控制标志位的地址。 \n其中输出值为",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.151, 0.052, 0.851, 0.077],\n      \"confidence\": 0.78,\n      \"image_alt\": \"页眉左侧 CUH 标志及横向分隔线\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.151, 0.099, 0.553, 0.119],\n      \"confidence\": 0.97,\n      \"text\": \"c) 05（0x05）写单个线圈\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.188, 0.145, 0.795, 0.273],\n      \"confidence\": 0.96,\n      \"text\": \"说明使用 0x05 功能码写控制器控制标志位、输出地址与输出值含义，以及正常响应和广播模式响应规则。\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.282, 0.858, 0.355],\n      \"confidence\": 0.97,\n      \"caption\": \"请求PDU\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.361, 0.858, 0.434],\n      \"confidence\": 0.97,\n      \"caption\": \"响应PDU\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.440, 0.858, 0.492],\n      \"confidence\": 0.97,\n      \"caption\": \"错误\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.513, 0.858, 0.670],\n      \"confidence\": 0.97,\n      \"caption\": \"这是一个请求写线圈173为ON的实例：请求/响应十六进制字段表\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.482, 0.916, 0.525, 0.926],\n      \"confidence\": 0.95,\n      \"text\": \"21 / 35\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页不是以图片为主的扫描页，文本层较完整；主要内容为功能码 05（0x05）写单个线圈的说明文字和多组 PDU/示例表格。页面背景有淡色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.151,
+          0.052,
+          0.851,
+          0.077
+        ],
+        "confidence": 0.78,
+        "image_alt": "页眉左侧 CUH 标志及横向分隔线",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.151,
+          0.099,
+          0.553,
+          0.119
+        ],
+        "confidence": 0.97,
+        "text": "c) 05（0x05）写单个线圈",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.188,
+          0.145,
+          0.795,
+          0.273
+        ],
+        "confidence": 0.96,
+        "text": "说明使用 0x05 功能码写控制器控制标志位、输出地址与输出值含义，以及正常响应和广播模式响应规则。",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.142,
+          0.282,
+          0.858,
+          0.355
+        ],
+        "confidence": 0.97,
+        "caption": "请求PDU",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.142,
+          0.361,
+          0.858,
+          0.434
+        ],
+        "confidence": 0.97,
+        "caption": "响应PDU",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.142,
+          0.44,
+          0.858,
+          0.492
+        ],
+        "confidence": 0.97,
+        "caption": "错误",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.142,
+          0.513,
+          0.858,
+          0.67
+        ],
+        "confidence": 0.97,
+        "caption": "这是一个请求写线圈173为ON的实例：请求/响应十六进制字段表",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.482,
+          0.916,
+          0.525,
+          0.926
+        ],
+        "confidence": 0.95,
+        "text": "21 / 35",
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "notes": "本页不是以图片为主的扫描页，文本层较完整；主要内容为功能码 05（0x05）写单个线圈的说明文字和多组 PDU/示例表格。页面背景有淡色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.151, 0.052, 0.851, 0.077],\n      \"confidence\": 0.78,\n      \"image_alt\": \"页眉左侧 CUH 标志及横向分隔线\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.151, 0.099, 0.553, 0.119],\n      \"confidence\": 0.97,\n      \"text\": \"c) 05（0x05）写单个线圈\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.188, 0.145, 0.795, 0.273],\n      \"confidence\": 0.96,\n      \"text\": \"说明使用 0x05 功能码写控制器控制标志位、输出地址与输出值含义，以及正常响应和广播模式响应规则。\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.282, 0.858, 0.355],\n      \"confidence\": 0.97,\n      \"caption\": \"请求PDU\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.361, 0.858, 0.434],\n      \"confidence\": 0.97,\n      \"caption\": \"响应PDU\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.440, 0.858, 0.492],\n      \"confidence\": 0.97,\n      \"caption\": \"错误\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.513, 0.858, 0.670],\n      \"confidence\": 0.97,\n      \"caption\": \"这是一个请求写线圈173为ON的实例：请求/响应十六进制字段表\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.482, 0.916, 0.525, 0.926],\n      \"confidence\": 0.95,\n      \"text\": \"21 / 35\"\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7],\n  \"notes\": \"本页不是以图片为主的扫描页，文本层较完整；主要内容为功能码 05（0x05）写单个线圈的说明文字和多组 PDU/示例表格。页面背景有淡色 CUH 水印。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909005,
+    "id": "chatcmpl-DoQ4jU5z7CgtNwYSME2vaBoIviYDy",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1667,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1024,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 14,
+        "engine_ttft_ms": 533,
+        "engine_ttlt_ms": 23893,
+        "pre_inference_ms": 116,
+        "service_tbt_ms": 14,
+        "service_ttft_ms": 881,
+        "service_ttlt_ms": 24234,
+        "total_duration_ms": 24129,
+        "user_visible_ttft_ms": 765
+      },
+      "prompt_tokens": 1742,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3409
+    }
+  }
+}

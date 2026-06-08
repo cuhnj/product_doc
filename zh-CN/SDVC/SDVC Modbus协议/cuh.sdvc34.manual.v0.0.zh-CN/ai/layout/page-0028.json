@@ -1,0 +1,192 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 28,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:57:26",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=28。\n\n【目录/书签上下文（节选）】\n\n\n【文本层节选（可能为空或不完整）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n28 / 35\n\n（38）\n\n0x26\n（39）\n\n最大计数限\n\n制\n\n1 \n【0,9999】 \n \n \n \n√\n\n0x27\n（40）\n\n末段速度 \n1% \n【0,100】\n\n0x28\n（",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.150, 0.050, 0.250, 0.070],\n      \"confidence\": 0.82,\n      \"image_alt\": \"页面左上角的 CUH 品牌标识\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.085, 0.857, 0.565],\n      \"confidence\": 0.95,\n      \"caption\": \"参数列表续表，包含地址 0x26 至 0x31 的参数项、单位/倍率、范围及标记列\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.432, 0.570, 0.600, 0.586],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.607, 0.857, 0.679],\n      \"confidence\": 0.94,\n      \"caption\": \"请求PDU：功能码、起始地址、寄存器数量\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.690, 0.857, 0.756],\n      \"confidence\": 0.94,\n      \"caption\": \"响应PDU：功能码、字节数、寄存器值\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.146, 0.760, 0.320, 0.774],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.790, 0.857, 0.832],\n      \"confidence\": 0.94,\n      \"caption\": \"错误：功能码与异常码\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.195, 0.855, 0.650, 0.871],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.869, 0.824, 0.908],\n      \"confidence\": 0.89,\n      \"caption\": \"读寄存器 108-110 的实例表开头，含请求与响应字段\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.470, 0.918, 0.530, 0.930],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n  \"notes\": \"本页为带文本层的说明书页面渲染图，不是纯扫描件。页面以表格为主，包含参数表续页、保持寄存器读写数据说明以及 PDU 请求/响应/错误格式表；背景有淡色 CUH 水印。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.15,
+          0.05,
+          0.25,
+          0.07
+        ],
+        "confidence": 0.82,
+        "image_alt": "页面左上角的 CUH 品牌标识",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.142,
+          0.085,
+          0.857,
+          0.565
+        ],
+        "confidence": 0.95,
+        "caption": "参数列表续表，包含地址 0x26 至 0x31 的参数项、单位/倍率、范围及标记列",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "heading",
+        "bbox_0_1": [
+          0.432,
+          0.57,
+          0.6,
+          0.586
+        ],
+        "confidence": 0.91,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.142,
+          0.607,
+          0.857,
+          0.679
+        ],
+        "confidence": 0.94,
+        "caption": "请求PDU：功能码、起始地址、寄存器数量",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.142,
+          0.69,
+          0.857,
+          0.756
+        ],
+        "confidence": 0.94,
+        "caption": "响应PDU：功能码、字节数、寄存器值",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.146,
+          0.76,
+          0.32,
+          0.774
+        ],
+        "confidence": 0.88,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.142,
+          0.79,
+          0.857,
+          0.832
+        ],
+        "confidence": 0.94,
+        "caption": "错误：功能码与异常码",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.195,
+          0.855,
+          0.65,
+          0.871
+        ],
+        "confidence": 0.91,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.142,
+          0.869,
+          0.824,
+          0.908
+        ],
+        "confidence": 0.89,
+        "caption": "读寄存器 108-110 的实例表开头，含请求与响应字段",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.47,
+          0.918,
+          0.53,
+          0.93
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "notes": "本页为带文本层的说明书页面渲染图，不是纯扫描件。页面以表格为主，包含参数表续页、保持寄存器读写数据说明以及 PDU 请求/响应/错误格式表；背景有淡色 CUH 水印。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.150, 0.050, 0.250, 0.070],\n      \"confidence\": 0.82,\n      \"image_alt\": \"页面左上角的 CUH 品牌标识\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.085, 0.857, 0.565],\n      \"confidence\": 0.95,\n      \"caption\": \"参数列表续表，包含地址 0x26 至 0x31 的参数项、单位/倍率、范围及标记列\"\n    },\n    {\n      \"type\": \"heading\",\n      \"bbox_0_1\": [0.432, 0.570, 0.600, 0.586],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.607, 0.857, 0.679],\n      \"confidence\": 0.94,\n      \"caption\": \"请求PDU：功能码、起始地址、寄存器数量\"\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.690, 0.857, 0.756],\n      \"confidence\": 0.94,\n      \"caption\": \"响应PDU：功能码、字节数、寄存器值\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.146, 0.760, 0.320, 0.774],\n      \"confidence\": 0.88\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.790, 0.857, 0.832],\n      \"confidence\": 0.94,\n      \"caption\": \"错误：功能码与异常码\"\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.195, 0.855, 0.650, 0.871],\n      \"confidence\": 0.91\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.142, 0.869, 0.824, 0.908],\n      \"confidence\": 0.89,\n      \"caption\": \"读寄存器 108-110 的实例表开头，含请求与响应字段\"\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.470, 0.918, 0.530, 0.930],\n      \"confidence\": 0.96\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],\n  \"notes\": \"本页为带文本层的说明书页面渲染图，不是纯扫描件。页面以表格为主，包含参数表续页、保持寄存器读写数据说明以及 PDU 请求/响应/错误格式表；背景有淡色 CUH 水印。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909032,
+    "id": "chatcmpl-DoQ5ABDokP0M93WwRXHR2yQzQlHH2",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1246,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 11,
+        "engine_ttft_ms": 449,
+        "engine_ttlt_ms": 14268,
+        "pre_inference_ms": 112,
+        "service_tbt_ms": 11,
+        "service_ttft_ms": 634,
+        "service_ttlt_ms": 14450,
+        "total_duration_ms": 14347,
+        "user_visible_ttft_ms": 522
+      },
+      "prompt_tokens": 1849,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3095
+    }
+  }
+}

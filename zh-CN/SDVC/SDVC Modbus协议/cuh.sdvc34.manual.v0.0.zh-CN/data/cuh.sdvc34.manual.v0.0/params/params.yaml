@@ -1,0 +1,6517 @@
+schema_version: 1
+doc_id: cuh.sdvc34.manual.v0.0.zh-CN
+doc_key: cuh.sdvc34.manual.v0.0
+lang: zh-CN
+generated_at: '2026-06-08 17:01:10'
+source:
+  data_index_yaml: index.yaml
+tables:
+- page: 6
+  layout_region_index: 7
+  table_md_path: tables/page-0006-r07.md
+  headers:
+  - 起
+  - Col2
+  - 地址
+  - Col4
+  - Col5
+  - Col6
+  - Col7
+  - Col8
+  - C<br>功能
+  - Col10
+  - Col11
+  - Col12
+  - Col13
+  - Col14
+  - H<br>数据1
+  - Col16
+  - …
+  - C<br>数据n
+  - Col19
+  - U<br>LRC
+  - Col21
+  - Col22
+  - Col23
+  - Col24
+  - Col25
+  - Col26
+- page: 12
+  layout_region_index: 3
+  table_md_path: tables/page-0012-r03.md
+  headers:
+  - CU UH C  主要列表
+  - H C CU 对象类型
+  - CUH H C 读写类型
+- page: 15
+  layout_region_index: 3
+  table_md_path: tables/page-0015-r03.md
+  headers:
+  - U<br>数<br>据<br>访<br>问<br>H
+  - Col2
+  - Col3
+  - Col4
+  - Col5
+  - Col6
+  - Col7
+  - Col8
+  - C<br>功能码（十进制）
+  - Col10
+  - Col11
+- page: 15
+  layout_region_index: 7
+  table_md_path: tables/page-0015-r07.md
+  headers:
+  - C<br>地址（序号）
+  - Col2
+  - Col3
+  - H<br>状态位<br>U
+  - Col5
+  - Col6
+  - C<br>说明
+  - Col8
+  - Col9
+  - U<br>SDVC<br>34MR<br>/41MR
+  - Col11
+  - Col12
+  - SDVC<br>34MRJ
+  - Col14
+  - Col15
+  - SDVC H<br>34XLR
+  - Col17
+  - Col18
+- page: 16
+  layout_region_index: 1
+  table_md_path: tables/page-0016-r01.md
+  headers:
+  - Col1
+  - Col2
+  - Col3
+  - C
+  - Col5
+  - Col6
+  - H<br>0：无信号接入
+  - Col8
+  - Col9
+  - Col10
+  - Col11
+  - Col12
+  - Col13
+  - Col14
+  - Col15
+  - Col16
+  - Col17
+  - Col18
+- page: 17
+  layout_region_index: 2
+  table_md_path: tables/page-0017-r02.md
+  headers:
+  - CUH H C 响应PDU
+  - H C CUH
+  - H  CU U
+- page: 17
+  layout_region_index: 4
+  table_md_path: tables/page-0017-r04.md
+  headers:
+  - H C UH CUH CU 1个字节 1个字节 N个字节 余数不等于0，那么：N = N+1
+  - H CUH C H CU 0x02 N* n=N 或 N+1
+- page: 17
+  layout_region_index: 6
+  table_md_path: tables/page-0017-r06.md
+  headers:
+  - H C CUH 散量输入197-218 的实例
+  - UH H CU 例： 响应
+  - CU UH
+- page: 18
+  layout_region_index: 3
+  table_md_path: tables/page-0018-r03.md
+  headers:
+  - C<br>地址（序号）
+  - H<br>状态位（默认<br>U<br>值）（显示符<br>号）
+  - Col3
+  - Col4
+  - U<br>说明 C
+  - Col6
+  - Col7
+  - SDVC<br>H<br>34MR<br>/41MR
+  - C<br>SDVC<br>34MRJ
+  - SDVC<br>34XLR
+- page: 19
+  layout_region_index: 1
+  table_md_path: tables/page-0019-r01.md
+  headers:
+  - Col1
+  - Col2
+  - Col3
+  - C<br>方向<br>（0）（Γ1）
+  - Col5
+  - Col6
+  - H<br>C<br>U<br>0：光电传感器对接时输出停止
+  - Col8
+  - Col9
+  - Col10
+  - Col11
+  - Col12
+  - Col13
+  - Col14
+  - Col15
+  - H
+  - Col17
+  - Col18
+- page: 20
+  layout_region_index: 9
+  table_md_path: tables/page-0020-r09.md
+  headers:
+  - CUH UH C 标志位20-38 的实例：
+  - H C CUH 响应
+- page: 21
+  layout_region_index: 3
+  table_md_path: tables/page-0021-r03.md
+  headers:
+  - H CU UH 请求PDU
+  - UH  CU
+  - CU UH C
+- page: 21
+  layout_region_index: 4
+  table_md_path: tables/page-0021-r04.md
+  headers:
+  - CUH C H CUH C 输出地址 输出值 响应PDU
+  - CUH CUH C H 2个字节 2个字节
+  - C H CUH UH 0x0000 至 0xFFFF 0x0000 或 0xFF00
+- page: 21
+  layout_region_index: 6
+  table_md_path: tables/page-0021-r06.md
+  headers:
+  - H  CU UH C 这是一个请求写线圈173 为ON 的实例：
+  - Col2
+  - H C CUH H C
+  - Col4
+- page: 22
+  layout_region_index: 3
+  table_md_path: tables/page-0022-r03.md
+  headers:
+  - H UH CU CU 充。 码、起始地址和写的输出数量。
+  - CUH C H CU
+- page: 22
+  layout_region_index: 5
+  table_md_path: tables/page-0022-r05.md
+  headers:
+  - C CUH UH 余数不等于0，那么：N = N+1
+  - UH C CUH
+- page: 22
+  layout_region_index: 8
+  table_md_path: tables/page-0022-r08.md
+  headers:
+  - CUH H C
+  - H CU U 响应
+  - UH C C
+- page: 24
+  layout_region_index: 3
+  table_md_path: tables/page-0024-r03.md
+  headers:
+  - H C C
+  - C CUH 每个地址对
+  - Col3
+  - Col4
+  - UH H 对应的输入
+  - H H C 入寄存器定义如下：
+  - C CUH ：
+  - Col8
+  - Col9
+  - UH
+  - C
+  - CU
+- page: 24
+  layout_region_index: 4
+  table_md_path: tables/page-0024-r04.md
+  headers:
+  - C CUH 请求PDU
+  - CU UH 输入寄存器（只读数据）
+  - UH C CUH ）
+- page: 24
+  layout_region_index: 5
+  table_md_path: tables/page-0024-r05.md
+  headers:
+  - C UH CUH CUH 功能码 起始地址 寄存器数量 响应PDU
+  - UH C H CUH 1个字节 2个字节 2个字节
+  - UH UH CU C 0x04 0x0000 至 0xFFFF 0x0001 至 0x007D
+- page: 24
+  layout_region_index: 6
+  table_md_path: tables/page-0024-r06.md
+  headers:
+  - U UH C C N* = 寄存器数量 错误
+  - CUH UH C
+  - H C CUH
+- page: 25
+  layout_region_index: 1
+  table_md_path: tables/page-0025-r01.md
+  headers:
+  - H H CU  请求
+  - CU UH C
+  - UH C CU 响应
+  - CUH UH C
+- page: 26
+  layout_region_index: 3
+  table_md_path: tables/page-0026-r03.md
+  headers:
+  - H<br>0x00（1）
+  - Col2
+  - Col3
+  - C<br>输出电压<br>H
+  - Col5
+  - Col6
+  - 1V
+  - Col8
+  - Col9
+  - H<br>【0，260】<br>U
+  - Col11
+  - Col12
+  - Col13
+  - 其最大可调
+  - Col15
+  - U<br>√ C
+  - Col17
+  - Col18
+  - √
+  - Col20
+  - Col21
+  - √
+  - Col23
+  - Col24
+- page: 27
+  layout_region_index: 1
+  table_md_path: tables/page-0027-r01.md
+  headers:
+  - 0x11<br>（18）
+  - Col2
+  - Col3
+  - C<br>光电阈值
+  - Col5
+  - Col6
+  - '1'
+  - H<br>U<br>【0，1000】
+  - C
+  - Col10
+  - Col11
+  - Col12
+  - √
+  - H
+- page: 28
+  layout_region_index: 1
+  table_md_path: tables/page-0028-r01.md
+  headers:
+  - UH
+  - Col2
+  - Col3
+  - CU
+  - Col5
+  - Col6
+  - CU UH
+  - UH C
+  - C CU
+  - CUH
+  - UH H
+- page: 28
+  layout_region_index: 3
+  table_md_path: tables/page-0028-r03.md
+  headers:
+  - CUH C UH CU 0x31 （50） 最小频率报 警值 0.  请求PDU
+  - CUH CUH C H .1HZ 【250,4000】  保持寄存器 (可读写数据
+- page: 28
+  layout_region_index: 4
+  table_md_path: tables/page-0028-r04.md
+  headers:
+  - C H CUH UH 寄存器数量 响应PDU
+  - UH C CUH 2个字节
+- page: 28
+  layout_region_index: 6
+  table_md_path: tables/page-0028-r06.md
+  headers:
+  - UH C H CUH C 字节数 寄存器值 N* = 寄存器数量 错误
+  - UH CUH C H C 1个字节 N* ×2 个字节
+- page: 29
+  layout_region_index: 2
+  table_md_path: tables/page-0029-r02.md
+  headers:
+  - UH H CU  功能
+  - CU UH 03
+  - UH C CU 功能
+  - CUH UH 03
+- page: 30
+  layout_region_index: 3
+  table_md_path: tables/page-0030-r03.md
+  headers:
+  - H C CUH PDU原样返回，在写入寄存器内容
+  - H H CU CU 容之后返回这个正常响应。
+- page: 30
+  layout_region_index: 4
+  table_md_path: tables/page-0030-r04.md
+  headers:
+  - H CUH CU CU 1个字节 2个字节 2个字节
+  - CUH C UH CU 0x06 0x0000 至 0xFFFF 0x0000 至 0xFFFF
+- page: 30
+  layout_region_index: 5
+  table_md_path: tables/page-0030-r05.md
+  headers:
+  - H CUH CU CUH CU H 1个字节 2个字节 2个字节 1个字节 2个字节 2个字节
+  - CUH C H CUH CU UH 0x06 0x0000 至 0xFFFF 0x0000 至 0xFFFF 0x06 0x0000 至 0xFFFF 0x0000
+    至 0xFFFF
+- page: 30
+  layout_region_index: 7
+  table_md_path: tables/page-0030-r07.md
+  headers:
+  - Col1
+  - UH C CUH CUH H CUH 0x0000 至 0xFFFF 0x86 01、02、03、04 寄存器 2的实例：
+  - Col3
+- page: 31
+  layout_region_index: 3
+  table_md_path: tables/page-0031-r03.md
+  headers:
+  - C CUH H 正常响应返回功能码 请求PDU
+  - H H CU U 码、起始地址和被写入寄存器数量
+  - UH C CU 量。
+- page: 31
+  layout_region_index: 5
+  table_md_path: tables/page-0031-r05.md
+  headers:
+  - CUH H CU C 寄存器值  N* = 寄存器数量 响应PDU
+  - CU CUH C H N*×2个字节
+  - C H CUH UH
+- page: 31
+  layout_region_index: 8
+  table_md_path: tables/page-0031-r08.md
+  headers:
+  - 请求
+  - Col2
+  - C<br>响应
+  - Col4
+items:
+- name: <br> <br>始
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    起: <br> <br>始
+    Col2: <br> <br>始
+    地址: <br> <br>始
+    Col4: <br> <br>始
+    Col5: <br> <br>始
+    Col6: <br> <br>始
+    Col7: <br> <br>始
+    Col8: <br> <br>始
+    Col10: <br> <br>始
+    Col11: <br> <br>始
+    Col12: <br> <br>始
+    Col13: <br> <br>始
+    Col14: <br> <br>始
+    H<br>数据1: <br> <br>始
+    Col16: <br> <br>始
+    …: <br> <br>始
+    C<br>数据n: <br> <br>始
+    Col19: <br> <br>始
+    U<br>LRC: <br> <br>始
+    Col21: <br> <br>始
+    Col22: <br> <br>始
+    Col23: <br> <br>始
+    Col24: <br> <br>始
+    Col25: <br> <br>始
+    Col26: <br> <br>始
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 7
+    table_md_path: tables/page-0006-r07.md
+- name: <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    起: <br> <br>始
+    Col2: <br> <br>始
+    Col4: <br>高
+    Col5: <br>
+    Col7: <br>低
+    Col8: <br>
+    Col10: <br> <br>高
+    Col11: <br> <br>
+    Col12: <br>
+    Col13: <br> <br>低
+    Col14: <br> <br>
+    H<br>数据1: <br> C<br> <br>高字节
+    Col16: <br> <br> 低字节
+    …: <br> <br>…
+    C<br>数据n: <br>H<br> 高字节
+    Col19: <br><br>  低字节
+    U<br>LRC: <br>
+    Col21: <br><br>高
+    Col22: <br><br>
+    Col23: <br>
+    Col24: <br><br>低
+    Col25: <br><br>
+    Col26: CR
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 7
+    table_md_path: tables/page-0006-r07.md
+- name: <br>字
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    起: <br> <br>始
+    Col2: <br> <br>始
+    Col4: <br>字
+    Col5: <br>字
+    Col6: <br>字
+    Col7: <br>字
+    Col8: <br>字
+    Col10: <br> <br>字
+    Col11: <br> <br>字
+    Col12: <br> <br>字
+    Col13: <br> <br>字
+    Col14: <br> <br>字
+    H<br>数据1: <br> <br>字
+    Col16: <br> <br>字
+    …: <br> <br>字
+    C<br>数据n: <br> <br>字
+    Col19: <br> <br>字
+    U<br>LRC: <br> <br>字
+    Col21: <br><br>字
+    Col22: <br><br>字
+    Col23: <br><br>字
+    Col24: <br><br>字
+    Col25: <br><br>字
+    Col26: <br><br>字
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 7
+    table_md_path: tables/page-0006-r07.md
+- name: <br>符
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    起: <br> <br>始
+    Col2: <br> <br>始
+    Col4: <br>符
+    Col5: <br>符
+    Col6: <br>符
+    Col7: <br>符
+    Col8: <br>符
+    Col10: <br> <br>符
+    Col11: <br> <br>符
+    Col12: <br> <br>符
+    Col13: <br> <br>符
+    Col14: <br> <br>符
+    H<br>数据1: <br> <br>符
+    Col16: <br> <br>符
+    …: <br> <br>符
+    C<br>数据n: <br> <br>符
+    Col19: <br> <br>符
+    U<br>LRC: <br> <br>符
+    Col21: <br><br>符
+    Col22: <br><br>符
+    Col23: <br><br>符
+    Col24: <br><br>符
+    Col25: <br><br>符
+    Col26: <br><br>符
+  source_ref:
+    pdf_page: 6
+    layout_region_index: 7
+    table_md_path: tables/page-0006-r07.md
+- name: <br> <br>分布式输入
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH C  主要列表: <br> <br>分布式输入
+    H C CU 对象类型: <br> <br>1 bit
+    CUH H C 读写类型: <br> <br>只读
+  source_ref:
+    pdf_page: 12
+    layout_region_index: 3
+    table_md_path: tables/page-0012-r03.md
+- name: <br> <br>线圈
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH C  主要列表: <br> <br>线圈
+    H C CU 对象类型: <br> <br>1 bit
+    CUH H C 读写类型: <br> <br>读写
+  source_ref:
+    pdf_page: 12
+    layout_region_index: 3
+    table_md_path: tables/page-0012-r03.md
+- name: <br> <br>输入寄存器
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH C  主要列表: <br> <br>输入寄存器
+    H C CU 对象类型: <br> <br>16 bit
+    CUH H C 读写类型: <br> <br>只读
+  source_ref:
+    pdf_page: 12
+    layout_region_index: 3
+    table_md_path: tables/page-0012-r03.md
+- name: <br> <br>保持寄存器
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH C  主要列表: <br> <br>保持寄存器
+    H C CU 对象类型: <br> <br>16 bit
+    CUH H C 读写类型: <br> <br>读写
+  source_ref:
+    pdf_page: 12
+    layout_region_index: 3
+    table_md_path: tables/page-0012-r03.md
+- name: <br>数 <br>据 <br>访 <br>问
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U<br>数<br>据<br>访<br>问<br>H: <br>数 <br>据 <br>访 <br>问
+    Col2: U<br> <br>比特访问
+    Col3: <br>
+    Col4: <br> <br> <br>物理离散量输入
+    Col5: <br>
+    Col6: <br> <br>
+    Col7: <br> <br>读离散量输入
+    Col8: <br>
+    Col10: <br>02
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 3
+    table_md_path: tables/page-0015-r03.md
+- name: <br> <br>01
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U<br>数<br>据<br>访<br>问<br>H: <br>数 <br>据 <br>访 <br>问
+    Col2: U<br> <br>比特访问
+    Col3: <br> C<br> <br>内部比特或物理线圈
+    Col4: <br> C<br> <br>内部比特或物理线圈
+    Col5: <br> C<br> <br>内部比特或物理线圈
+    Col6: <br> <br> <br>读线圈
+    Col7: <br> <br> <br>读线圈
+    Col8: <br> <br> <br>读线圈
+    Col10: <br> <br>01
+    Col11: <br> <br>01
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 3
+    table_md_path: tables/page-0015-r03.md
+- name: <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U<br>数<br>据<br>访<br>问<br>H: <br>数 <br>据 <br>访 <br>问
+    Col2: U<br> <br>比特访问
+    Col3: <br> C<br> <br>内部比特或物理线圈
+    Col4: <br> C<br> <br>内部比特或物理线圈
+    Col5: <br> C<br> <br>内部比特或物理线圈
+    Col6: <br>
+    Col7: <br> <br> <br>写单个线圈
+    Col8: <br>
+    Col10: <br> <br>05
+    Col11: <br>
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 3
+    table_md_path: tables/page-0015-r03.md
+- name: <br> <br>15
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U<br>数<br>据<br>访<br>问<br>H: <br>数 <br>据 <br>访 <br>问
+    Col2: U<br> <br>比特访问
+    Col3: <br> C<br> <br>内部比特或物理线圈
+    Col4: <br> C<br> <br>内部比特或物理线圈
+    Col5: <br> C<br> <br>内部比特或物理线圈
+    Col6: <br> <br> <br>写多个线圈
+    Col7: <br> <br> <br>写多个线圈
+    Col8: <br> <br> <br>写多个线圈
+    Col10: <br> <br>15
+    Col11: <br> <br>15
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 3
+    table_md_path: tables/page-0015-r03.md
+- name: <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U<br>数<br>据<br>访<br>问<br>H: <br>数 <br>据 <br>访 <br>问
+    Col2: <br> <br>16比特访问
+    Col3: <br>
+    Col4: <br> <br> <br>物理输入寄存器
+    Col5: <br>
+    Col6: <br> <br>
+    Col7: <br> <br> <br>读输入寄存器
+    Col8: <br> <br>
+    Col10: <br> <br>04
+    Col11: <br>
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 3
+    table_md_path: tables/page-0015-r03.md
+- name: <br> <br>03
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U<br>数<br>据<br>访<br>问<br>H: <br>数 <br>据 <br>访 <br>问
+    Col2: <br> <br>16比特访问
+    Col3: <br>U<br> <br>内部寄存器或物理输出寄存器
+    Col4: <br>U<br> <br>内部寄存器或物理输出寄存器
+    Col5: <br>U<br> <br>内部寄存器或物理输出寄存器
+    Col6: <br> <br> <br>读保持寄存器
+    Col7: <br> <br> <br>读保持寄存器
+    Col8: <br> <br> <br>读保持寄存器
+    Col10: <br> <br>03
+    Col11: <br> <br>03
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 3
+    table_md_path: tables/page-0015-r03.md
+- name: <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U<br>数<br>据<br>访<br>问<br>H: <br>数 <br>据 <br>访 <br>问
+    Col2: <br> <br>16比特访问
+    Col3: <br>U<br> <br>内部寄存器或物理输出寄存器
+    Col4: <br>U<br> <br>内部寄存器或物理输出寄存器
+    Col5: <br>U<br> <br>内部寄存器或物理输出寄存器
+    Col6: <br> <br>
+    Col7: <br> <br> <br>写单个寄存器
+    Col8: <br> <br>
+    Col10: <br> <br>06
+    Col11: <br>
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 3
+    table_md_path: tables/page-0015-r03.md
+- name: <br> <br><br>16
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U<br>数<br>据<br>访<br>问<br>H: <br>数 <br>据 <br>访 <br>问
+    Col2: <br> <br>16比特访问
+    Col3: <br>U<br> <br>内部寄存器或物理输出寄存器
+    Col4: <br>U<br> <br>内部寄存器或物理输出寄存器
+    Col5: <br>U<br> <br>内部寄存器或物理输出寄存器
+    Col6: <br> <br> <br>写多个寄存器
+    Col7: <br> <br> <br>写多个寄存器
+    Col8: <br> <br> <br>写多个寄存器
+    Col10: <br> <br><br>16
+    Col11: <br> <br><br>16
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 3
+    table_md_path: tables/page-0015-r03.md
+- name: H<br> <br> <br> <br>0x00（1）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br> <br>
+  extra:
+    C<br>地址（序号）: H<br> <br> <br> <br>0x00（1）
+    Col2: H<br> <br> <br> <br>0x00（1）
+    Col3: H<br> <br> <br> <br>0x00（1）
+    H<br>状态位<br>U: <br>  C<br> <br> <br>过流标志
+    Col5: <br>  C<br> <br> <br>过流标志
+    Col6: <br>  C<br> <br> <br>过流标志
+    Col8: <br> <br> <br>1：输出过流
+    Col9: <br>
+    U<br>SDVC<br>34MR<br>/41MR: <br> <br>√
+    Col11: <br> <br>√
+    Col12: <br> <br>√
+    SDVC<br>34MRJ: <br> <br>√
+    Col14: <br> <br>√
+    Col15: <br> <br>√
+    SDVC H<br>34XLR: <br>√
+    Col17: <br>√
+    Col18: <br>√
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 7
+    table_md_path: tables/page-0015-r07.md
+- name: H<br> <br> <br> <br>0x00（1）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br> <br>
+  extra:
+    C<br>地址（序号）: H<br> <br> <br> <br>0x00（1）
+    Col2: H<br> <br> <br> <br>0x00（1）
+    Col3: H<br> <br> <br> <br>0x00（1）
+    H<br>状态位<br>U: <br>  C<br> <br> <br>过流标志
+    Col5: <br>  C<br> <br> <br>过流标志
+    Col6: <br>  C<br> <br> <br>过流标志
+    Col8: <br> <br> <br>0：输出未过流
+    Col9: <br> <br> <br>0：输出未过流
+    U<br>SDVC<br>34MR<br>/41MR: <br> <br> <br>0：输出未过流
+    Col11: <br> <br> <br>0：输出未过流
+    Col12: <br> <br> <br>0：输出未过流
+    SDVC<br>34MRJ: <br> <br> <br>0：输出未过流
+    Col14: <br> <br> <br>0：输出未过流
+    Col15: <br> <br> <br>0：输出未过流
+    SDVC H<br>34XLR: <br> <br> <br>0：输出未过流
+    Col17: <br> <br> <br>0：输出未过流
+    Col18: <br> <br> <br>0：输出未过流
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 7
+    table_md_path: tables/page-0015-r07.md
+- name: <br> <br> <br> <br>0x01（2）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br>  U<br> <br> <br>1：输出饱和<br>0：输出未饱和
+  extra:
+    C<br>地址（序号）: <br> <br> <br> <br>0x01（2）
+    Col2: <br> <br> <br> <br>0x01（2）
+    Col3: <br> <br> <br> <br>0x01（2）
+    H<br>状态位<br>U: <br> <br> <br> <br> <br>饱和标志
+    Col5: <br> <br> <br> <br> <br>饱和标志
+    Col6: <br> <br> <br> <br> <br>饱和标志
+    Col8: <br>  U<br> <br> <br>1：输出饱和<br>0：输出未饱和
+    Col9: <br>  U<br> <br> <br>1：输出饱和<br>0：输出未饱和
+    U<br>SDVC<br>34MR<br>/41MR: <br> <br> <br>√
+    Col11: <br> <br> <br>√
+    Col12: <br> <br> <br>√
+    SDVC<br>34MRJ: <br> <br> <br>√
+    Col14: <br> <br> <br>√
+    Col15: <br> <br> <br>√
+    SDVC H<br>34XLR: <br> <br>√
+    Col17: <br> <br>√
+    Col18: <br> <br>√
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 7
+    table_md_path: tables/page-0015-r07.md
+- name: <br> <br> <br> <br>0x02（3）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br> <br> <br>
+  extra:
+    C<br>地址（序号）: <br> <br> <br> <br>0x02（3）
+    Col2: <br> <br> <br> <br>0x02（3）
+    Col3: <br> <br> <br> <br>0x02（3）
+    H<br>状态位<br>U: <br> <br> <br> <br> <br>过热标志
+    Col5: <br> <br> <br> <br> <br>过热标志
+    Col6: <br> <br> <br> <br> <br>过热标志
+    Col8: <br> <br> <br> <br>1：控制器过热
+    Col9: <br> <br>
+    U<br>SDVC<br>34MR<br>/41MR: <br> <br> <br>√
+    Col11: <br> <br> <br>√
+    Col12: <br> <br> <br>√
+    SDVC<br>34MRJ: <br> <br> <br>√
+    Col14: <br> <br> <br>√
+    Col15: <br> <br> <br>√
+    SDVC H<br>34XLR: <br> <br>√
+    Col17: <br> <br>√
+    Col18: <br> <br>√
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 7
+    table_md_path: tables/page-0015-r07.md
+- name: <br> <br> <br> <br>0x02（3）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br> <br> <br>
+  extra:
+    C<br>地址（序号）: <br> <br> <br> <br>0x02（3）
+    Col2: <br> <br> <br> <br>0x02（3）
+    Col3: <br> <br> <br> <br>0x02（3）
+    H<br>状态位<br>U: <br> <br> <br> <br> <br>过热标志
+    Col5: <br> <br> <br> <br> <br>过热标志
+    Col6: <br> <br> <br> <br> <br>过热标志
+    Col8: <br> <br> <br> <br>0：控制器未过热
+    Col9: <br> <br> <br> <br>0：控制器未过热
+    U<br>SDVC<br>34MR<br>/41MR: <br> <br> <br> <br>0：控制器未过热
+    Col11: <br> <br> <br> <br>0：控制器未过热
+    Col12: <br> <br> <br> <br>0：控制器未过热
+    SDVC<br>34MRJ: <br> <br> <br> <br>0：控制器未过热
+    Col14: <br> <br> <br> <br>0：控制器未过热
+    Col15: <br> <br> <br> <br>0：控制器未过热
+    SDVC H<br>34XLR: <br> <br> <br> <br>0：控制器未过热
+    Col17: <br> <br> <br> <br>0：控制器未过热
+    Col18: <br> <br> <br> <br>0：控制器未过热
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 7
+    table_md_path: tables/page-0015-r07.md
+- name: C<br> <br> <br>0x03（4）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br>  U<br> <br> <br>1：输出短路<br>0：输出未短路
+  extra:
+    C<br>地址（序号）: C<br> <br> <br>0x03（4）
+    Col2: C<br> <br> <br>0x03（4）
+    Col3: C<br> <br> <br>0x03（4）
+    H<br>状态位<br>U: <br> H<br> <br> <br>短路标志
+    Col5: <br> H<br> <br> <br>短路标志
+    Col6: <br> H<br> <br> <br>短路标志
+    Col8: <br> <br>  U<br> <br> <br>1：输出短路<br>0：输出未短路
+    Col9: <br> <br>  U<br> <br> <br>1：输出短路<br>0：输出未短路
+    U<br>SDVC<br>34MR<br>/41MR: <br> <br> <br> <br>√
+    Col11: <br> <br> <br> <br>√
+    Col12: <br> <br> <br> <br>√
+    SDVC<br>34MRJ: <br> <br> <br> <br>√
+    Col14: <br> <br> <br> <br>√
+    Col15: <br> <br> <br> <br>√
+    SDVC H<br>34XLR: <br> <br> <br>√
+    Col17: <br> <br> <br>√
+    Col18: <br> <br> <br>√
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 7
+    table_md_path: tables/page-0015-r07.md
+- name: <br> <br> <br>0x04（5）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br> <br> <br>
+  extra:
+    C<br>地址（序号）: <br> <br> <br>0x04（5）
+    Col2: <br> <br> <br>0x04（5）
+    Col3: <br> <br> <br>0x04（5）
+    H<br>状态位<br>U: <br> U<br> <br> <br>加速标志
+    Col5: <br> U<br> <br> <br>加速标志
+    Col6: <br> U<br> <br> <br>加速标志
+    Col8: <br> <br> <br> <br> <br>1：输出加速
+    Col9: <br> <br> <br>
+    U<br>SDVC<br>34MR<br>/41MR: <br> <br> <br> <br>√
+    Col11: <br> <br> <br> <br>√
+    Col12: <br> <br> <br> <br>√
+    SDVC<br>34MRJ: <br> <br> <br> <br>√
+    Col14: <br> <br> <br> <br>√
+    Col15: <br> <br> <br> <br>√
+    SDVC H<br>34XLR: <br> <br> <br>√
+    Col17: <br> <br> <br>√
+    Col18: <br> <br> <br>√
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 7
+    table_md_path: tables/page-0015-r07.md
+- name: <br> <br> <br>0x04（5）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br> <br> <br>
+  extra:
+    C<br>地址（序号）: <br> <br> <br>0x04（5）
+    Col2: <br> <br> <br>0x04（5）
+    Col3: <br> <br> <br>0x04（5）
+    H<br>状态位<br>U: <br> U<br> <br> <br>加速标志
+    Col5: <br> U<br> <br> <br>加速标志
+    Col6: <br> U<br> <br> <br>加速标志
+    Col8: <br> <br> <br> <br> <br>0：输出未加速
+    Col9: <br> <br> <br> <br> <br>0：输出未加速
+    U<br>SDVC<br>34MR<br>/41MR: <br> <br> <br> <br> <br>0：输出未加速
+    Col11: <br> <br> <br> <br> <br>0：输出未加速
+    Col12: <br> <br> <br> <br> <br>0：输出未加速
+    SDVC<br>34MRJ: <br> <br> <br> <br> <br>0：输出未加速
+    Col14: <br> <br> <br> <br> <br>0：输出未加速
+    Col15: <br> <br> <br> <br> <br>0：输出未加速
+    SDVC H<br>34XLR: <br> <br> <br> <br> <br>0：输出未加速
+    Col17: <br> <br> <br> <br> <br>0：输出未加速
+    Col18: <br> <br> <br> <br> <br>0：输出未加速
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 7
+    table_md_path: tables/page-0015-r07.md
+- name: <br> <br> <br>0x05（6）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br> <br> <br>1：有错误<br>0：无错误
+  extra:
+    C<br>地址（序号）: <br> <br> <br>0x05（6）
+    Col2: <br> <br> <br>0x05（6）
+    Col3: <br> <br> <br>0x05（6）
+    H<br>状态位<br>U: <br> <br> <br> <br>通信错误标志
+    Col5: <br> <br> <br> <br>通信错误标志
+    Col6: <br> <br> <br> <br>通信错误标志
+    Col8: <br> <br> <br> <br> <br>1：有错误<br>0：无错误
+    Col9: <br> <br> <br> <br> <br>1：有错误<br>0：无错误
+    U<br>SDVC<br>34MR<br>/41MR: <br> <br> <br> <br>√
+    Col11: <br> <br> <br> <br>√
+    Col12: <br> <br> <br> <br>√
+    SDVC<br>34MRJ: <br> <br> <br> <br>√
+    Col14: <br> <br> <br> <br>√
+    Col15: <br> <br> <br> <br>√
+    SDVC H<br>34XLR: <br> <br> <br>√
+    Col17: <br> <br> <br>√
+    Col18: <br> <br> <br>√
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 7
+    table_md_path: tables/page-0015-r07.md
+- name: H<br> <br>0x06（7）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br> <br>
+  extra:
+    C<br>地址（序号）: H<br> <br>0x06（7）
+    Col2: H<br> <br>0x06（7）
+    Col3: H<br> <br>0x06（7）
+    H<br>状态位<br>U: <br> <br> <br>开机延时标志
+    Col5: <br> <br> <br>开机延时标志
+    Col6: <br> <br> <br>开机延时标志
+    Col8: <br> <br> <br> <br>1：正在延时
+    Col9: <br> <br> <br>
+    U<br>SDVC<br>34MR<br>/41MR: <br> <br> <br> <br>√
+    Col11: <br> <br> <br> <br>√
+    Col12: <br> <br> <br> <br>√
+    SDVC<br>34MRJ: <br> <br> <br> <br>√
+    Col14: <br> <br> <br> <br>√
+    Col15: <br> <br> <br> <br>√
+    SDVC H<br>34XLR: <br> <br> <br>√
+    Col17: <br> <br> <br>√
+    Col18: <br> <br> <br>√
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 7
+    table_md_path: tables/page-0015-r07.md
+- name: H<br> <br>0x06（7）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br> <br>
+  extra:
+    C<br>地址（序号）: H<br> <br>0x06（7）
+    Col2: H<br> <br>0x06（7）
+    Col3: H<br> <br>0x06（7）
+    H<br>状态位<br>U: <br> <br> <br>开机延时标志
+    Col5: <br> <br> <br>开机延时标志
+    Col6: <br> <br> <br>开机延时标志
+    Col8: <br> <br> <br> <br>0：未延时
+    Col9: <br> <br> <br> <br>0：未延时
+    U<br>SDVC<br>34MR<br>/41MR: <br> <br> <br> <br>0：未延时
+    Col11: <br> <br> <br> <br>0：未延时
+    Col12: <br> <br> <br> <br>0：未延时
+    SDVC<br>34MRJ: <br> <br> <br> <br>0：未延时
+    Col14: <br> <br> <br> <br>0：未延时
+    Col15: <br> <br> <br> <br>0：未延时
+    SDVC H<br>34XLR: <br> <br> <br> <br>0：未延时
+    Col17: <br> <br> <br> <br>0：未延时
+    Col18: <br> <br> <br> <br>0：未延时
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 7
+    table_md_path: tables/page-0015-r07.md
+- name: U<br> <br>0x07（8）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br>UH<br> <br>1：输入欠压<br>0：输入未欠压
+  extra:
+    C<br>地址（序号）: U<br> <br>0x07（8）
+    Col2: U<br> <br>0x07（8）
+    Col3: U<br> <br>0x07（8）
+    H<br>状态位<br>U: <br> C<br> <br>输入欠压标志
+    Col5: <br> C<br> <br>输入欠压标志
+    Col6: <br> C<br> <br>输入欠压标志
+    Col8: <br> <br>UH<br> <br>1：输入欠压<br>0：输入未欠压
+    Col9: <br> <br>UH<br> <br>1：输入欠压<br>0：输入未欠压
+    U<br>SDVC<br>34MR<br>/41MR: <br> <br> <br> <br>√
+    Col11: <br> <br> <br> <br>√
+    Col12: <br> <br> <br> <br>√
+    SDVC<br>34MRJ: <br> <br> <br> <br><br>√
+    Col14: <br> <br> <br> <br><br>√
+    Col15: <br> <br> <br> <br><br>√
+    SDVC H<br>34XLR: <br> <br> <br><br>√
+    Col17: <br> <br> <br><br>√
+    Col18: <br> <br> <br><br>√
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 7
+    table_md_path: tables/page-0015-r07.md
+- name: <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br>
+  extra:
+    C<br>地址（序号）: <br>
+    Col2: <br> <br>0x08至0x0A
+    Col3: <br>
+    H<br>状态位<br>U: <br> <br>
+    Col5: <br> <br> <br>保留
+    Col6: <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    U<br>SDVC<br>34MR<br>/41MR: <br> <br> <br>
+    Col11: <br> <br> <br>
+    Col12: <br> <br> <br>
+    SDVC<br>34MRJ: <br> <br> <br>
+    Col14: <br> <br> <br>
+    Col15: <br> <br> <br>
+    SDVC H<br>34XLR: <br> <br> <br>
+    Col17: <br> <br> <br>
+    Col18: <br> <br> <br>
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 7
+    table_md_path: tables/page-0015-r07.md
+- name: <br> <br>0x0B（12）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: <br> <br> <br> <br> 1：有信号接入
+  extra:
+    C<br>地址（序号）: <br> <br>0x0B（12）
+    Col2: <br> <br>0x0B（12）
+    Col3: <br> <br>0x0B（12）
+    H<br>状态位<br>U: <br> <br> <br>速度预置A信号状态位
+    Col5: <br> <br> <br>速度预置A信号状态位
+    Col6: <br> <br> <br>速度预置A信号状态位
+    Col8: <br> <br> <br> <br> 1：有信号接入
+    Col9: <br> <br> <br> <br> 1：有信号接入
+    U<br>SDVC<br>34MR<br>/41MR: <br> <br> <br>
+    Col11: <br> <br> <br>
+    Col12: <br> <br> <br>
+    SDVC<br>34MRJ: <br> <br> <br> <br>
+    Col14: <br> <br> <br> <br>
+    Col15: <br> <br> <br> <br>
+    SDVC H<br>34XLR: <br> <br> <br><br>√
+    Col17: <br> <br> <br><br>√
+    Col18: <br> <br> <br><br>√
+  source_ref:
+    pdf_page: 15
+    layout_region_index: 7
+    table_md_path: tables/page-0015-r07.md
+- name: H<br> <br> <br> <br>0x0C（13）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br> <br> <br>0x0C（13）
+    Col2: H<br> <br> <br> <br>0x0C（13）
+    Col3: H<br> <br> <br> <br>0x0C（13）
+    C: <br> <br> <br> <br>速度预置B信号状态位
+    Col5: <br> <br> <br> <br>速度预置B信号状态位
+    Col6: <br> <br> <br> <br>速度预置B信号状态位
+    H<br>0：无信号接入: <br> <br> <br> <br>
+    Col8: <br> <br> <br> 1：有信号接入
+    Col9: <br>
+    Col10: <br>
+    Col11: <br>
+    Col12: <br>
+    Col13: <br>
+    Col14: <br>
+    Col15: <br>
+    Col16: <br>√
+    Col17: <br>√
+    Col18: <br>√
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: H<br> <br> <br> <br>0x0C（13）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br> <br> <br>0x0C（13）
+    Col2: H<br> <br> <br> <br>0x0C（13）
+    Col3: H<br> <br> <br> <br>0x0C（13）
+    C: <br> <br> <br> <br>速度预置B信号状态位
+    Col5: <br> <br> <br> <br>速度预置B信号状态位
+    Col6: <br> <br> <br> <br>速度预置B信号状态位
+    H<br>0：无信号接入: <br> <br> <br> <br>
+    Col8: <br> <br> <br>0：无信号接入
+    Col9: <br> <br> <br>0：无信号接入
+    Col10: <br> <br> <br>0：无信号接入
+    Col11: <br> <br> <br>0：无信号接入
+    Col12: <br> <br> <br>0：无信号接入
+    Col13: <br> <br> <br>0：无信号接入
+    Col14: <br> <br> <br>0：无信号接入
+    Col15: <br> <br> <br>0：无信号接入
+    Col16: <br> <br> <br>0：无信号接入
+    Col17: <br> <br> <br>0：无信号接入
+    Col18: <br> <br> <br>0：无信号接入
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: U<br> <br> <br> <br> <br>0x0D（14）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: U<br> <br> <br> <br> <br>0x0D（14）
+    Col2: U<br> <br> <br> <br> <br>0x0D（14）
+    Col3: U<br> <br> <br> <br> <br>0x0D（14）
+    C: <br>  C<br> <br> <br> <br>料满停机信号状态位
+    Col5: <br>  C<br> <br> <br> <br>料满停机信号状态位
+    Col6: <br>  C<br> <br> <br> <br>料满停机信号状态位
+    H<br>0：无信号接入: <br>   H<br> <br> <br>1：有信号接入<br>0：无信号接入
+    Col8: <br>   H<br> <br> <br>1：有信号接入<br>0：无信号接入
+    Col9: <br>   H<br> <br> <br>1：有信号接入<br>0：无信号接入
+    Col10: <br> <br>
+    Col11: <br> <br>
+    Col12: <br> <br>
+    Col13: <br> <br>
+    Col14: <br> <br>
+    Col15: <br> <br>
+    Col16: <br> <br>√
+    Col17: <br> <br>√
+    Col18: <br> <br>√
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: <br> <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br> <br>
+    Col2: <br> <br> <br> <br> <br>0x0E（15）
+    Col3: <br> <br> <br> <br>
+    C: <br> <br> <br> <br> <br>
+    Col5: <br> <br> <br> <br> <br>|<br> <br> <br>
+    Col6: <br> <br> <br>
+    H<br>0：无信号接入: <br> <br> <br>
+    Col8: <br> <br>
+    Col9: <br> <br>
+    Col10: <br> <br>
+    Col11: <br> <br>
+    Col12: <br> <br>
+    Col13: <br> <br>
+    Col14: <br>
+    Col15: <br>
+    Col16: <br>
+    Col17: <br>
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: <br> <br> <br> <br> <br>0x0F（16）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br> <br> <br>0x0F（16）
+    Col2: <br> <br> <br> <br> <br>0x0F（16）
+    Col3: <br> <br> <br> <br> <br>0x0F（16）
+    C: <br> <br> <br> <br> <br>料满停机2信号状态位
+    Col5: <br> <br> <br> <br> <br>料满停机2信号状态位
+    Col6: <br> <br> <br> <br> <br>料满停机2信号状态位
+    H<br>0：无信号接入: <br> <br> <br> <br> 1：有信号接入<br>0：无信号接入
+    Col8: <br> <br> <br> <br> 1：有信号接入<br>0：无信号接入
+    Col9: <br> <br> <br> <br> 1：有信号接入<br>0：无信号接入
+    Col10: <br> <br>
+    Col11: <br> <br>
+    Col12: <br> <br>
+    Col13: <br> <br>
+    Col14: <br> <br>
+    Col15: <br> <br>
+    Col16: <br> <br>√
+    Col17: <br> <br>√
+    Col18: <br> <br>√
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: <br> <br> <br> <br>0x10（17）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br> <br>0x10（17）
+    Col2: <br> <br> <br> <br>0x10（17）
+    Col3: <br> <br> <br> <br>0x10（17）
+    C: <br>  H<br> <br> <br>料满停机标志
+    Col5: <br>  H<br> <br> <br>料满停机标志
+    Col6: <br>  H<br> <br> <br>料满停机标志
+    H<br>0：无信号接入: <br> <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br>1：请求关闭输出
+    Col9: <br> <br>
+    Col10: <br> <br> <br>√
+    Col11: <br> <br> <br>√
+    Col12: <br> <br> <br>√
+    Col13: <br> <br> <br>√
+    Col14: <br> <br> <br>√
+    Col15: <br> <br> <br>√
+    Col16: <br> <br>√
+    Col17: <br> <br>√
+    Col18: <br> <br>√
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: <br> <br> <br> <br>0x10（17）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br> <br>0x10（17）
+    Col2: <br> <br> <br> <br>0x10（17）
+    Col3: <br> <br> <br> <br>0x10（17）
+    C: <br>  H<br> <br> <br>料满停机标志
+    Col5: <br>  H<br> <br> <br>料满停机标志
+    Col6: <br>  H<br> <br> <br>料满停机标志
+    H<br>0：无信号接入: <br> <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br>0：请求开启输出
+    Col9: <br> <br> <br> <br>0：请求开启输出
+    Col10: <br> <br> <br> <br>0：请求开启输出
+    Col11: <br> <br> <br> <br>0：请求开启输出
+    Col12: <br> <br> <br> <br>0：请求开启输出
+    Col13: <br> <br> <br> <br>0：请求开启输出
+    Col14: <br> <br> <br> <br>0：请求开启输出
+    Col15: <br> <br> <br> <br>0：请求开启输出
+    Col16: <br> <br> <br> <br>0：请求开启输出
+    Col17: <br> <br> <br> <br>0：请求开启输出
+    Col18: <br> <br> <br> <br>0：请求开启输出
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: <br> <br> <br> <br>0x11（18）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br> <br>0x11（18）
+    Col2: <br> <br> <br> <br>0x11（18）
+    Col3: <br> <br> <br> <br>0x11（18）
+    C: <br>  U<br> <br> <br>智能光电标志
+    Col5: <br>  U<br> <br> <br>智能光电标志
+    Col6: <br>  U<br> <br> <br>智能光电标志
+    H<br>0：无信号接入: <br> <br>   C<br> <br>1：请求关闭输出<br>0：请求开启输出
+    Col8: <br> <br>   C<br> <br>1：请求关闭输出<br>0：请求开启输出
+    Col9: <br> <br>   C<br> <br>1：请求关闭输出<br>0：请求开启输出
+    Col10: <br> <br>
+    Col11: <br> <br>
+    Col12: <br> <br>
+    Col13: <br> <br> <br>√
+    Col14: <br> <br> <br>√
+    Col15: <br> <br> <br>√
+    Col16: <br>
+    Col17: <br>
+    Col18: <br>
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: <br> <br> <br> <br>0x12（19）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br> <br>0x12（19）
+    Col2: <br> <br> <br> <br>0x12（19）
+    Col3: <br> <br> <br> <br>0x12（19）
+    C: <br>  C<br> <br> <br> <br>料满停机2标志
+    Col5: <br>  C<br> <br> <br> <br>料满停机2标志
+    Col6: <br>  C<br> <br> <br> <br>料满停机2标志
+    H<br>0：无信号接入: <br> <br> <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br> <br>1：请求关闭输出
+    Col9: <br> <br> <br>
+    Col10: <br> <br> <br>
+    Col11: <br> <br> <br>
+    Col12: <br> <br> <br>
+    Col13: <br> <br> <br>
+    Col14: <br> <br> <br>
+    Col15: <br> <br> <br>
+    Col16: <br> <br> <br>√
+    Col17: <br> <br> <br>√
+    Col18: <br> <br> <br>√
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: <br> <br> <br> <br>0x12（19）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br> <br>0x12（19）
+    Col2: <br> <br> <br> <br>0x12（19）
+    Col3: <br> <br> <br> <br>0x12（19）
+    C: <br>  C<br> <br> <br> <br>料满停机2标志
+    Col5: <br>  C<br> <br> <br> <br>料满停机2标志
+    Col6: <br>  C<br> <br> <br> <br>料满停机2标志
+    H<br>0：无信号接入: <br> <br> <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br> <br>0：请求开启输出
+    Col9: <br> <br> <br> <br> <br>0：请求开启输出
+    Col10: <br> <br> <br> <br> <br>0：请求开启输出
+    Col11: <br> <br> <br> <br> <br>0：请求开启输出
+    Col12: <br> <br> <br> <br> <br>0：请求开启输出
+    Col13: <br> <br> <br> <br> <br>0：请求开启输出
+    Col14: <br> <br> <br> <br> <br>0：请求开启输出
+    Col15: <br> <br> <br> <br> <br>0：请求开启输出
+    Col16: <br> <br> <br> <br> <br>0：请求开启输出
+    Col17: <br> <br> <br> <br> <br>0：请求开启输出
+    Col18: <br> <br> <br> <br> <br>0：请求开启输出
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: <br> <br> <br> <br>0x13（20）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br> <br>0x13（20）
+    Col2: <br> <br> <br> <br>0x13（20）
+    Col3: <br> <br> <br> <br>0x13（20）
+    C: <br> <br> <br> <br> <br>控制输出标志
+    Col5: <br> <br> <br> <br> <br>控制输出标志
+    Col6: <br> <br> <br> <br> <br>控制输出标志
+    H<br>0：无信号接入: <br> <br> <br> <br> <br>1：控制输出为开启状态<br>0：控制输出为关闭状态
+    Col8: <br> <br> <br> <br> <br>1：控制输出为开启状态<br>0：控制输出为关闭状态
+    Col9: <br> <br> <br> <br> <br>1：控制输出为开启状态<br>0：控制输出为关闭状态
+    Col10: <br> <br> <br> <br>√
+    Col11: <br> <br> <br> <br>√
+    Col12: <br> <br> <br> <br>√
+    Col13: <br> <br> <br> <br>√
+    Col14: <br> <br> <br> <br>√
+    Col15: <br> <br> <br> <br>√
+    Col16: <br> <br> <br>√
+    Col17: <br> <br> <br>√
+    Col18: <br> <br> <br>√
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: U<br> <br> <br>0x14（21）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: U<br> <br> <br>0x14（21）
+    Col2: U<br> <br> <br>0x14（21）
+    Col3: U<br> <br> <br>0x14（21）
+    C: <br> <br> <br> <br>遥控调速标志
+    Col5: <br> <br> <br> <br>遥控调速标志
+    Col6: <br> <br> <br> <br>遥控调速标志
+    H<br>0：无信号接入: <br> <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br>1：正在遥控调速
+    Col9: <br> <br> <br>
+    Col10: <br> <br> <br> <br>√
+    Col11: <br> <br> <br> <br>√
+    Col12: <br> <br> <br> <br>√
+    Col13: <br> <br> <br> <br>√
+    Col14: <br> <br> <br> <br>√
+    Col15: <br> <br> <br> <br>√
+    Col16: <br> <br> <br>√
+    Col17: <br> <br> <br>√
+    Col18: <br> <br> <br>√
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: U<br> <br> <br>0x14（21）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: U<br> <br> <br>0x14（21）
+    Col2: U<br> <br> <br>0x14（21）
+    Col3: U<br> <br> <br>0x14（21）
+    C: <br> <br> <br> <br>遥控调速标志
+    Col5: <br> <br> <br> <br>遥控调速标志
+    Col6: <br> <br> <br> <br>遥控调速标志
+    H<br>0：无信号接入: <br> <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br>0：未遥控调速
+    Col9: <br> <br> <br> <br>0：未遥控调速
+    Col10: <br> <br> <br> <br>0：未遥控调速
+    Col11: <br> <br> <br> <br>0：未遥控调速
+    Col12: <br> <br> <br> <br>0：未遥控调速
+    Col13: <br> <br> <br> <br>0：未遥控调速
+    Col14: <br> <br> <br> <br>0：未遥控调速
+    Col15: <br> <br> <br> <br>0：未遥控调速
+    Col16: <br> <br> <br> <br>0：未遥控调速
+    Col17: <br> <br> <br> <br>0：未遥控调速
+    Col18: <br> <br> <br> <br>0：未遥控调速
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: <br> <br> <br>0x15（22）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br>0x15（22）
+    Col2: <br> <br> <br>0x15（22）
+    Col3: <br> <br> <br>0x15（22）
+    C: <br> H<br> <br> <br>主输出状态
+    Col5: <br> H<br> <br> <br>主输出状态
+    Col6: <br> H<br> <br> <br>主输出状态
+    H<br>0：无信号接入: <br> <br>  C<br> <br> <br>1：主输出为开启状态<br>0：主输出为关闭状态
+    Col8: <br> <br>  C<br> <br> <br>1：主输出为开启状态<br>0：主输出为关闭状态
+    Col9: <br> <br>  C<br> <br> <br>1：主输出为开启状态<br>0：主输出为关闭状态
+    Col10: <br> <br> <br> <br> <br>√
+    Col11: <br> <br> <br> <br> <br>√
+    Col12: <br> <br> <br> <br> <br>√
+    Col13: <br> <br> <br> <br> <br>√
+    Col14: <br> <br> <br> <br> <br>√
+    Col15: <br> <br> <br> <br> <br>√
+    Col16: <br> <br> <br> <br>√
+    Col17: <br> <br> <br> <br>√
+    Col18: <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: <br> <br> <br>0x16（23）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br>0x16（23）
+    Col2: <br> <br> <br>0x16（23）
+    Col3: <br> <br> <br>0x16（23）
+    C: <br> U<br> <br> <br>保存参数状态
+    Col5: <br> U<br> <br> <br>保存参数状态
+    Col6: <br> U<br> <br> <br>保存参数状态
+    H<br>0：无信号接入: <br> <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br> <br>1：正在保存参数
+    Col9: <br> <br> <br> <br>
+    Col10: <br> <br> <br> <br> <br>√
+    Col11: <br> <br> <br> <br> <br>√
+    Col12: <br> <br> <br> <br> <br>√
+    Col13: <br> <br> <br> <br> <br>√
+    Col14: <br> <br> <br> <br> <br>√
+    Col15: <br> <br> <br> <br> <br>√
+    Col16: <br> <br> <br> <br>√
+    Col17: <br> <br> <br> <br>√
+    Col18: <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: <br> <br> <br>0x16（23）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br>0x16（23）
+    Col2: <br> <br> <br>0x16（23）
+    Col3: <br> <br> <br>0x16（23）
+    C: <br> U<br> <br> <br>保存参数状态
+    Col5: <br> U<br> <br> <br>保存参数状态
+    Col6: <br> U<br> <br> <br>保存参数状态
+    H<br>0：无信号接入: <br> <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br> <br>0：保存参数结束
+    Col9: <br> <br> <br> <br> <br>0：保存参数结束
+    Col10: <br> <br> <br> <br> <br>0：保存参数结束
+    Col11: <br> <br> <br> <br> <br>0：保存参数结束
+    Col12: <br> <br> <br> <br> <br>0：保存参数结束
+    Col13: <br> <br> <br> <br> <br>0：保存参数结束
+    Col14: <br> <br> <br> <br> <br>0：保存参数结束
+    Col15: <br> <br> <br> <br> <br>0：保存参数结束
+    Col16: <br> <br> <br> <br> <br>0：保存参数结束
+    Col17: <br> <br> <br> <br> <br>0：保存参数结束
+    Col18: <br> <br> <br> <br> <br>0：保存参数结束
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: <br> <br>0x17至0x1C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br>0x17至0x1C
+    Col2: <br> <br>0x17至0x1C
+    Col3: <br> <br>0x17至0x1C
+    C: <br> <br> <br>保留
+    Col5: <br> <br> <br>保留
+    Col6: <br> <br> <br>保留
+    H<br>0：无信号接入: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    Col10: <br> <br> <br>
+    Col11: <br> <br> <br>
+    Col12: <br> <br> <br>
+    Col13: <br> <br> <br>
+    Col14: <br> <br> <br>
+    Col15: <br> <br> <br>
+    Col16: <br> <br> <br>
+    Col17: <br> <br> <br>
+    Col18: <br> <br> <br>
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: H<br> <br>0x1D（30）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>0x1D（30）
+    Col2: H<br> <br>0x1D（30）
+    Col3: H<br> <br>0x1D（30）
+    C: <br> U<br> <br>料满停机标志（副）
+    Col5: <br> U<br> <br>料满停机标志（副）
+    Col6: <br> U<br> <br>料满停机标志（副）
+    H<br>0：无信号接入: <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br>1：请求关闭输出
+    Col9: <br> <br> <br>
+    Col10: <br> <br> <br> <br>√
+    Col11: <br> <br> <br> <br>√
+    Col12: <br> <br> <br> <br>√
+    Col13: <br> <br> <br> <br>√
+    Col14: <br> <br> <br> <br>√
+    Col15: <br> <br> <br> <br>√
+    Col16: <br> <br> <br> <br>√
+    Col17: <br> <br> <br> <br>√
+    Col18: <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: H<br> <br>0x1D（30）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br>0x1D（30）
+    Col2: H<br> <br>0x1D（30）
+    Col3: H<br> <br>0x1D（30）
+    C: <br> U<br> <br>料满停机标志（副）
+    Col5: <br> U<br> <br>料满停机标志（副）
+    Col6: <br> U<br> <br>料满停机标志（副）
+    H<br>0：无信号接入: <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br>0：请求开启输出
+    Col9: <br> <br> <br> <br>0：请求开启输出
+    Col10: <br> <br> <br> <br>0：请求开启输出
+    Col11: <br> <br> <br> <br>0：请求开启输出
+    Col12: <br> <br> <br> <br>0：请求开启输出
+    Col13: <br> <br> <br> <br>0：请求开启输出
+    Col14: <br> <br> <br> <br>0：请求开启输出
+    Col15: <br> <br> <br> <br>0：请求开启输出
+    Col16: <br> <br> <br> <br>0：请求开启输出
+    Col17: <br> <br> <br> <br>0：请求开启输出
+    Col18: <br> <br> <br> <br>0：请求开启输出
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: <br> <br>0x1E（31）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br>0x1E（31）
+    Col2: <br> <br>0x1E（31）
+    Col3: <br> <br>0x1E（31）
+    C: <br> C<br> <br>智能光电标志（副）
+    Col5: <br> C<br> <br>智能光电标志（副）
+    Col6: <br> C<br> <br>智能光电标志（副）
+    H<br>0：无信号接入: <br> <br>H<br> <br>1：请求关闭输出<br>0：请求开启输出
+    Col8: <br> <br>H<br> <br>1：请求关闭输出<br>0：请求开启输出
+    Col9: <br> <br>H<br> <br>1：请求关闭输出<br>0：请求开启输出
+    Col10: <br> <br> <br>
+    Col11: <br> <br> <br>
+    Col12: <br> <br> <br>
+    Col13: <br> <br> <br> <br><br>√
+    Col14: <br> <br> <br> <br><br>√
+    Col15: <br> <br> <br> <br><br>√
+    Col16: <br> <br> <br> <br>
+    Col17: <br> <br> <br> <br>
+    Col18: <br> <br> <br> <br>
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: <br> <br>0x1F（32）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br>0x1F（32）
+    Col2: <br> <br>0x1F（32）
+    Col3: <br> <br>0x1F（32）
+    C: <br> <br> <br>料满停机2标志（副）
+    Col5: <br> <br> <br>料满停机2标志（副）
+    Col6: <br> <br> <br>料满停机2标志（副）
+    H<br>0：无信号接入: <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br> 1：请求关闭输出
+    Col9: <br> <br> <br>
+    Col10: <br> <br> <br>
+    Col11: <br> <br> <br>
+    Col12: <br> <br> <br>
+    Col13: <br> <br> <br> <br>
+    Col14: <br> <br> <br> <br>
+    Col15: <br> <br> <br> <br>
+    Col16: <br> <br> <br> <br><br>√
+    Col17: <br> <br> <br> <br><br>√
+    Col18: <br> <br> <br> <br><br>√
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: <br> <br>0x1F（32）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br>0x1F（32）
+    Col2: <br> <br>0x1F（32）
+    Col3: <br> <br>0x1F（32）
+    C: <br> <br> <br>料满停机2标志（副）
+    Col5: <br> <br> <br>料满停机2标志（副）
+    Col6: <br> <br> <br>料满停机2标志（副）
+    H<br>0：无信号接入: <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br>0：请求开启输出
+    Col9: <br> <br> <br> <br>0：请求开启输出
+    Col10: <br> <br> <br> <br>0：请求开启输出
+    Col11: <br> <br> <br> <br>0：请求开启输出
+    Col12: <br> <br> <br> <br>0：请求开启输出
+    Col13: <br> <br> <br> <br>0：请求开启输出
+    Col14: <br> <br> <br> <br>0：请求开启输出
+    Col15: <br> <br> <br> <br>0：请求开启输出
+    Col16: <br> <br> <br> <br>0：请求开启输出
+    Col17: <br> <br> <br> <br>0：请求开启输出
+    Col18: <br> <br> <br> <br>0：请求开启输出
+  source_ref:
+    pdf_page: 16
+    layout_region_index: 1
+    table_md_path: tables/page-0016-r01.md
+- name: <br><br>功能码
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H C 响应PDU: <br><br>功能码
+    H C CUH: <br><br> <br>1个字节
+    H  CU U: <br><br>0x02
+  source_ref:
+    pdf_page: 17
+    layout_region_index: 2
+    table_md_path: tables/page-0017-r02.md
+- name: <br><br>字节数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H C 响应PDU: <br><br>字节数
+    H C CUH: <br><br> <br>1个字节
+    H  CU U: <br><br>N*
+  source_ref:
+    pdf_page: 17
+    layout_region_index: 2
+    table_md_path: tables/page-0017-r02.md
+- name: <br><br>状态位
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H C 响应PDU: <br><br>状态位
+    H C CUH: <br><br> <br>N个字节
+    H  CU U: <br><br>n=N 或 N+1
+  source_ref:
+    pdf_page: 17
+    layout_region_index: 2
+    table_md_path: tables/page-0017-r02.md
+- name: <br><br>1个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C UH CUH CU 1个字节 1个字节 N个字节 余数不等于0，那么：N = N+1: <br><br>1个字节
+    H CUH C H CU 0x02 N* n=N 或 N+1: <br>0x82
+  source_ref:
+    pdf_page: 17
+    layout_region_index: 4
+    table_md_path: tables/page-0017-r04.md
+- name: <br><br>1个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C UH CUH CU 1个字节 1个字节 N个字节 余数不等于0，那么：N = N+1: <br><br>1个字节
+    H CUH C H CU 0x02 N* n=N 或 N+1: <br>01、02、03、04
+  source_ref:
+    pdf_page: 17
+    layout_region_index: 4
+    table_md_path: tables/page-0017-r04.md
+- name: <br> <br> <br>（十六进制）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH 散量输入197-218 的实例: <br> <br> <br>（十六进制）
+    UH H CU 例： 响应: <br> <br> <br>域名
+    CU UH: <br> <br>（十六进制）
+  source_ref:
+    pdf_page: 17
+    layout_region_index: 6
+    table_md_path: tables/page-0017-r06.md
+- name: <br> <br> <br>02
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH 散量输入197-218 的实例: <br> <br> <br>02
+    UH H CU 例： 响应: <br> <br> <br>功能
+    CU UH: <br> <br>02
+  source_ref:
+    pdf_page: 17
+    layout_region_index: 6
+    table_md_path: tables/page-0017-r06.md
+- name: <br> <br> <br>00
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH 散量输入197-218 的实例: <br> <br> <br>00
+    UH H CU 例： 响应: <br> <br> <br>字节数
+    CU UH: <br> <br>03
+  source_ref:
+    pdf_page: 17
+    layout_region_index: 6
+    table_md_path: tables/page-0017-r06.md
+- name: <br> <br> <br>C4
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH 散量输入197-218 的实例: <br> <br> <br>C4
+    UH H CU 例： 响应: <br> <br> <br>输入状态204-197
+    CU UH: <br> <br>AC
+  source_ref:
+    pdf_page: 17
+    layout_region_index: 6
+    table_md_path: tables/page-0017-r06.md
+- name: <br> <br> <br>00
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH 散量输入197-218 的实例: <br> <br> <br>00
+    UH H CU 例： 响应: <br> <br> <br>输入状态212-205
+    CU UH: <br> <br><br>DB
+  source_ref:
+    pdf_page: 17
+    layout_region_index: 6
+    table_md_path: tables/page-0017-r06.md
+- name: <br> <br> <br>16
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH 散量输入197-218 的实例: <br> <br> <br>16
+    UH H CU 例： 响应: <br> <br> <br>输入状态218-213
+    CU UH: <br> <br><br>35
+  source_ref:
+    pdf_page: 17
+    layout_region_index: 6
+    table_md_path: tables/page-0017-r06.md
+- name: H C<br> <br> <br> <br> <br>0x00（1）
+  symbol: null
+  range: null
+  default: <br>  C<br> <br> <br> <br>开关标志（1）
+  unit: null
+  note: <br> <br> <br> <br> <br> <br><br><br><br> <br>
+  extra:
+    C<br>地址（序号）: H C<br> <br> <br> <br> <br>0x00（1）
+    Col3: <br>  C<br> <br> <br> <br>开关标志（1）
+    Col4: <br>  C<br> <br> <br> <br>开关标志（1）
+    Col6: <br> <br> <br> <br> 1：请求开启主输出（由于主输出的
+    Col7: <br> <br> <br>
+    SDVC<br>H<br>34MR<br>/41MR: <br>    U<br> <br>√
+    C<br>SDVC<br>34MRJ: <br>    H<br> <br>√
+    SDVC<br>34XLR: <br> <br>√
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: H C<br> <br> <br> <br> <br>0x00（1）
+  symbol: null
+  range: null
+  default: <br>  C<br> <br> <br> <br>开关标志（1）
+  unit: null
+  note: <br> <br> <br> <br> <br> <br><br><br><br> <br>
+  extra:
+    C<br>地址（序号）: H C<br> <br> <br> <br> <br>0x00（1）
+    Col3: <br>  C<br> <br> <br> <br>开关标志（1）
+    Col4: <br>  C<br> <br> <br> <br>开关标志（1）
+    Col6: <br> <br> <br> <br>是否开启受料满停机信号、控制器本
+    Col7: <br> <br> <br> <br>是否开启受料满停机信号、控制器本
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br>是否开启受料满停机信号、控制器本
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br>是否开启受料满停机信号、控制器本
+    SDVC<br>34XLR: <br> <br> <br> <br>是否开启受料满停机信号、控制器本
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: H C<br> <br> <br> <br> <br>0x00（1）
+  symbol: null
+  range: null
+  default: <br>  C<br> <br> <br> <br>开关标志（1）
+  unit: null
+  note: <br> <br> <br> <br> <br> <br><br><br><br> <br>
+  extra:
+    C<br>地址（序号）: H C<br> <br> <br> <br> <br>0x00（1）
+    Col3: <br>  C<br> <br> <br> <br>开关标志（1）
+    Col4: <br>  C<br> <br> <br> <br>开关标志（1）
+    Col6: <br> <br> <br> <br>身健康状态以及该开关标志的综合
+    Col7: <br> <br> <br> <br>身健康状态以及该开关标志的综合
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br>身健康状态以及该开关标志的综合
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br>身健康状态以及该开关标志的综合
+    SDVC<br>34XLR: <br> <br> <br> <br>身健康状态以及该开关标志的综合
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: H C<br> <br> <br> <br> <br>0x00（1）
+  symbol: null
+  range: null
+  default: <br>  C<br> <br> <br> <br>开关标志（1）
+  unit: null
+  note: <br> <br> <br> <br> <br> <br><br><br><br> <br>
+  extra:
+    C<br>地址（序号）: H C<br> <br> <br> <br> <br>0x00（1）
+    Col3: <br>  C<br> <br> <br> <br>开关标志（1）
+    Col4: <br>  C<br> <br> <br> <br>开关标志（1）
+    Col6: <br> <br> <br> <br>控制，所以只有在都允许输出时，主
+    Col7: <br> <br> <br> <br>控制，所以只有在都允许输出时，主
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br>控制，所以只有在都允许输出时，主
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br>控制，所以只有在都允许输出时，主
+    SDVC<br>34XLR: <br> <br> <br> <br>控制，所以只有在都允许输出时，主
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: H C<br> <br> <br> <br> <br>0x00（1）
+  symbol: null
+  range: null
+  default: <br>  C<br> <br> <br> <br>开关标志（1）
+  unit: null
+  note: <br> <br> <br> <br> <br> <br><br><br><br> <br>
+  extra:
+    C<br>地址（序号）: H C<br> <br> <br> <br> <br>0x00（1）
+    Col3: <br>  C<br> <br> <br> <br>开关标志（1）
+    Col4: <br>  C<br> <br> <br> <br>开关标志（1）
+    Col6: <br> <br> <br> <br> <br>输出才会开启）
+    Col7: <br> <br> <br> <br> <br>输出才会开启）
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br> <br>输出才会开启）
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br> <br>输出才会开启）
+    SDVC<br>34XLR: <br> <br> <br> <br> <br>输出才会开启）
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: H C<br> <br> <br> <br> <br>0x00（1）
+  symbol: null
+  range: null
+  default: <br>  C<br> <br> <br> <br>开关标志（1）
+  unit: null
+  note: <br> <br> <br> <br> <br> <br><br><br><br> <br>
+  extra:
+    C<br>地址（序号）: H C<br> <br> <br> <br> <br>0x00（1）
+    Col3: <br>  C<br> <br> <br> <br>开关标志（1）
+    Col4: <br>  C<br> <br> <br> <br>开关标志（1）
+    Col6: <br> <br> <br> <br> <br>0：关闭主输出（每次开机后都为1）
+    Col7: <br> <br> <br> <br> <br>0：关闭主输出（每次开机后都为1）
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br> <br>0：关闭主输出（每次开机后都为1）
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br> <br>0：关闭主输出（每次开机后都为1）
+    SDVC<br>34XLR: <br> <br> <br> <br> <br>0：关闭主输出（每次开机后都为1）
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: <br> <br> <br> <br> <br>0x01（2）
+  symbol: null
+  range: null
+  default: <br> <br> <br> <br> <br>锁定标志（0）
+  unit: null
+  note: <br> <br>  U<br> <br> <br> 1：锁定键盘<br>0：解锁键盘（每次开机后都为0）
+  extra:
+    C<br>地址（序号）: <br> <br> <br> <br> <br>0x01（2）
+    Col3: <br> <br> <br> <br> <br>锁定标志（0）
+    Col4: <br> <br> <br> <br> <br>锁定标志（0）
+    Col6: <br> <br>  U<br> <br> <br> 1：锁定键盘<br>0：解锁键盘（每次开机后都为0）
+    Col7: <br> <br>  U<br> <br> <br> 1：锁定键盘<br>0：解锁键盘（每次开机后都为0）
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br>√
+    C<br>SDVC<br>34MRJ: <br> <br> <br>√
+    SDVC<br>34XLR: <br> <br>√
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: <br> <br> <br> <br>0x02（3）
+  symbol: null
+  range: null
+  default: <br> <br> <br> <br><br>
+  unit: null
+  note: <br> <br> <br> <br> <br>
+  extra:
+    C<br>地址（序号）: <br> <br> <br> <br>0x02（3）
+    Col3: <br> <br> <br> <br>遥控调速使能
+    Col4: <br> <br> <br>
+    Col6: <br> <br> <br> <br>1：允许遥控调速输出电压
+    Col7: <br> <br>
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br>√
+    C<br>SDVC<br>34MRJ: <br> <br> <br>√
+    SDVC<br>34XLR: <br> <br>√
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: <br> <br> <br> <br>0x02（3）
+  symbol: null
+  range: null
+  default: <br> <br> <br> <br><br>
+  unit: null
+  note: <br> <br> <br> <br>标志（1）
+  extra:
+    C<br>地址（序号）: <br> <br> <br> <br>0x02（3）
+    Col3: <br> <br> <br> <br>标志（1）
+    Col4: <br> <br> <br> <br>标志（1）
+    Col6: <br> <br> <br> <br>0：禁止遥控调速输出电压
+    Col7: <br> <br> <br> <br>0：禁止遥控调速输出电压
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br>0：禁止遥控调速输出电压
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br>0：禁止遥控调速输出电压
+    SDVC<br>34XLR: <br> <br> <br> <br>0：禁止遥控调速输出电压
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: C<br> <br> <br> <br> <br>0x03（4）
+  symbol: null
+  range: null
+  default: <br> CUH<br> <br> <br> <br>保存参数（0）
+  unit: null
+  note: <br> <br>  H CU<br>   CU<br> <br> 1：保存参数（使用通信设置的参数<br>不会自动保存，所以在每次设置好参<br>数后，必须使该位置1，以保存参数。<br>确保每次置位该标志的时间间隔在<br>150ms以上）<br>0：（保存参数后该位自动清零）
+  extra:
+    C<br>地址（序号）: C<br> <br> <br> <br> <br>0x03（4）
+    Col3: <br> CUH<br> <br> <br> <br>保存参数（0）
+    Col4: <br> CUH<br> <br> <br> <br>保存参数（0）
+    Col6: <br> <br>  H CU<br>   CU<br> <br> 1：保存参数（使用通信设置的参数<br>不会自动保存，所以在每次设置好参<br>数后，必须使该位置1，以保存参数。<br>确保每次置位该标志的时间间隔在<br>150ms以上）<br>0：（保存参数后该位自动清零）
+    Col7: <br> <br>  H CU<br>   CU<br> <br> 1：保存参数（使用通信设置的参数<br>不会自动保存，所以在每次设置好参<br>数后，必须使该位置1，以保存参数。<br>确保每次置位该标志的时间间隔在<br>150ms以上）<br>0：（保存参数后该位自动清零）
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br>   H<br> <br>√
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br>√
+    SDVC<br>34XLR: <br> <br> <br>√
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: 'H<br> <br> <br> <br>0x05: 0x04'
+  symbol: null
+  range: null
+  default: <br> <br> <br> <br>开机运行标志
+  unit: null
+  note: <br> <br> <br> <br> <br> <br>
+  extra:
+    C<br>地址（序号）: 'H<br> <br> <br> <br>0x05: 0x04'
+    Col3: <br> <br> <br> <br>开机运行标志
+    Col4: <br> <br> <br> <br>开机运行标志
+    Col6: <br> <br> <br> <br> 2:跟随
+    Col7: <br> <br> <br> <br>
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br> <br>√
+    C<br>SDVC<br>34MRJ: <br> <br> <br>   U<br> <br>√
+    SDVC<br>34XLR: <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: 'H<br> <br> <br> <br>0x05: 0x04'
+  symbol: null
+  range: null
+  default: <br> <br> <br> <br>开机运行标志
+  unit: null
+  note: <br> <br> <br> <br> <br> <br>
+  extra:
+    C<br>地址（序号）: 'H<br> <br> <br> <br>0x05: 0x04'
+    Col3: <br> <br> <br> <br>开机运行标志
+    Col4: <br> <br> <br> <br>开机运行标志
+    Col6: <br> <br> <br> <br> <br>1：开机停止输出
+    Col7: <br> <br> <br> <br> <br>1：开机停止输出
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br> <br>1：开机停止输出
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br> <br>1：开机停止输出
+    SDVC<br>34XLR: <br> <br> <br> <br> <br>1：开机停止输出
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: 'H<br> <br> <br> <br>0x05: 0x04'
+  symbol: null
+  range: null
+  default: <br> <br> <br> <br>开机运行标志
+  unit: null
+  note: <br> <br> <br> <br> <br> <br>
+  extra:
+    C<br>地址（序号）: 'H<br> <br> <br> <br>0x05: 0x04'
+    Col3: <br> <br> <br> <br>开机运行标志
+    Col4: <br> <br> <br> <br>开机运行标志
+    Col6: <br> <br> <br> <br> <br>0：开机输出
+    Col7: <br> <br> <br> <br> <br>0：开机输出
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br> <br>0：开机输出
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br> <br>0：开机输出
+    SDVC<br>34XLR: <br> <br> <br> <br> <br>0：开机输出
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: <br> <br> <br> <br>0x06 :0x07
+  symbol: null
+  range: null
+  default: <br> <br> <br> <br>保留
+  unit: null
+  note: <br> <br> <br> <br>
+  extra:
+    C<br>地址（序号）: <br> <br> <br> <br>0x06 :0x07
+    Col3: <br> <br> <br> <br>保留
+    Col4: <br> <br> <br> <br>保留
+    Col6: <br> <br> <br> <br>
+    Col7: <br> <br> <br> <br>
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br>
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br>
+    SDVC<br>34XLR: <br> <br> <br>
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: <br> <br> <br> <br>0x08
+  symbol: null
+  range: null
+  default: <br> <br> <br> <br><br>
+  unit: null
+  note: <br> <br> <br> <br> <br>
+  extra:
+    C<br>地址（序号）: <br> <br> <br> <br>0x08
+    Col3: <br> <br> <br> <br>计数复位逻辑
+    Col4: <br> <br> <br>
+    Col6: <br> <br> <br> <br> <br>1:高电平使能计数
+    Col7: <br> <br> <br> <br>
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br>
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br>
+    SDVC<br>34XLR: <br> <br> <br>
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: <br> <br> <br> <br>0x08
+  symbol: null
+  range: null
+  default: <br> <br> <br> <br><br>
+  unit: null
+  note: <br> <br> <br> <br>方向
+  extra:
+    C<br>地址（序号）: <br> <br> <br> <br>0x08
+    Col3: <br> <br> <br> <br>方向
+    Col4: <br> <br> <br> <br>方向
+    Col6: <br> <br> <br> <br> <br>0:低电平使能计数
+    Col7: <br> <br> <br> <br> <br>0:低电平使能计数
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br> <br>0:低电平使能计数
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br> <br>0:低电平使能计数
+    SDVC<br>34XLR: <br> <br> <br> <br> <br>0:低电平使能计数
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: <br> <br> <br> <br>0x09
+  symbol: null
+  range: null
+  default: <br> <br> <br> <br>计数脉冲逻辑<br>方向
+  unit: null
+  note: <br> <br> <br>  U<br> <br>1:由低到高计数+1<br>0:由高到低计数+1
+  extra:
+    C<br>地址（序号）: <br> <br> <br> <br>0x09
+    Col3: <br> <br> <br> <br>计数脉冲逻辑<br>方向
+    Col4: <br> <br> <br> <br>计数脉冲逻辑<br>方向
+    Col6: <br> <br> <br>  U<br> <br>1:由低到高计数+1<br>0:由高到低计数+1
+    Col7: <br> <br> <br>  U<br> <br>1:由低到高计数+1<br>0:由高到低计数+1
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br>
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br>
+    SDVC<br>34XLR: <br> <br> <br>
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: <br> <br> <br>0x0B:0x0A
+  symbol: null
+  range: null
+  default: <br> <br> <br><br> <br>
+  unit: null
+  note: <br> <br> <br> <br> <br>
+  extra:
+    C<br>地址（序号）: <br> <br> <br>0x0B:0x0A
+    Col3: <br> <br> <br>开关传感器型
+    Col4: <br> <br> <br><br>
+    Col6: <br> <br> <br> <br> <br>00：自动，由控制器自己选择
+    Col7: <br> <br> <br> <br>
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br>
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br>
+    SDVC<br>34XLR: <br> <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: <br> <br> <br>0x0B:0x0A
+  symbol: null
+  range: null
+  default: <br> <br> <br><br> <br>
+  unit: null
+  note: <br> <br> <br>号选择
+  extra:
+    C<br>地址（序号）: <br> <br> <br>0x0B:0x0A
+    Col3: <br> <br> <br>号选择
+    Col4: <br> <br> <br>号选择
+    Col6: <br> <br> <br> <br> <br>01：NPN型传感器
+    Col7: <br> <br> <br> <br> <br>01：NPN型传感器
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br> <br>01：NPN型传感器
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br> <br>01：NPN型传感器
+    SDVC<br>34XLR: <br> <br> <br> <br> <br>01：NPN型传感器
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: <br> <br> <br>0x0B:0x0A
+  symbol: null
+  range: null
+  default: <br> <br> <br><br> <br>
+  unit: null
+  note: <br> <br> <br>（00）（ΓA）
+  extra:
+    C<br>地址（序号）: <br> <br> <br>0x0B:0x0A
+    Col3: <br> <br> <br>（00）（ΓA）
+    Col4: <br> <br> <br>（00）（ΓA）
+    Col6: <br> <br> <br> <br> <br>10：PNP型传感器
+    Col7: <br> <br> <br> <br> <br>10：PNP型传感器
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br> <br>10：PNP型传感器
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br> <br>10：PNP型传感器
+    SDVC<br>34XLR: <br> <br> <br> <br> <br>10：PNP型传感器
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: <br>UH<br> <br>0x0D:0x0C
+  symbol: null
+  range: null
+  default: <br> C<br> <br>控制输出逻辑<br>选择<br>（00）（Γ8）
+  unit: null
+  note: <br> <br> CUH<br>H C<br> <br>00：‘控制输出’受‘主逻辑控制’<br>的控制<br>01：‘控制输出’受‘副逻辑控制’<br>的控制<br>11:副逻辑参数设置状态
+  extra:
+    C<br>地址（序号）: <br>UH<br> <br>0x0D:0x0C
+    Col3: <br> C<br> <br>控制输出逻辑<br>选择<br>（00）（Γ8）
+    Col4: <br> C<br> <br>控制输出逻辑<br>选择<br>（00）（Γ8）
+    Col6: <br> <br> CUH<br>H C<br> <br>00：‘控制输出’受‘主逻辑控制’<br>的控制<br>01：‘控制输出’受‘副逻辑控制’<br>的控制<br>11:副逻辑参数设置状态
+    Col7: <br> <br> CUH<br>H C<br> <br>00：‘控制输出’受‘主逻辑控制’<br>的控制<br>01：‘控制输出’受‘副逻辑控制’<br>的控制<br>11:副逻辑参数设置状态
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br>
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br> U
+    SDVC<br>34XLR: <br> <br> <br> <br> H<br>√
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: <br> <br>0x0E（15）
+  symbol: null
+  range: null
+  default: <br> <br><br>
+  unit: null
+  note: <br> <br> <br>
+  extra:
+    C<br>地址（序号）: <br> <br>0x0E（15）
+    Col3: <br> <br>恢复出厂设置
+    Col4: <br>
+    Col6: <br> <br> <br> <br>1：恢复出厂设置
+    Col7: <br> <br> <br>
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br>√
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br><br>√
+    SDVC<br>34XLR: <br> <br> <br> <br><br>√
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: <br> <br>0x0E（15）
+  symbol: null
+  range: null
+  default: <br> <br><br>
+  unit: null
+  note: <br> <br>标志（0）
+  extra:
+    C<br>地址（序号）: <br> <br>0x0E（15）
+    Col3: <br> <br>标志（0）
+    Col4: <br> <br>标志（0）
+    Col6: <br> <br> <br> <br>0：（恢复出厂设置后自动清零）
+    Col7: <br> <br> <br> <br>0：（恢复出厂设置后自动清零）
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br> <br>0：（恢复出厂设置后自动清零）
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br>0：（恢复出厂设置后自动清零）
+    SDVC<br>34XLR: <br> <br> <br> <br>0：（恢复出厂设置后自动清零）
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: <br> <br>0x0F（16）
+  symbol: null
+  range: null
+  default: <br> <br>智能光电逻辑
+  unit: null
+  note: <br> <br> <br> <br>1：光电传感器对接时输出启动
+  extra:
+    C<br>地址（序号）: <br> <br>0x0F（16）
+    Col3: <br> <br>智能光电逻辑
+    Col4: <br> <br>智能光电逻辑
+    Col6: <br> <br> <br> <br>1：光电传感器对接时输出启动
+    Col7: <br> <br> <br> <br>1：光电传感器对接时输出启动
+    SDVC<br>H<br>34MR<br>/41MR: <br> <br> <br>
+    C<br>SDVC<br>34MRJ: <br> <br> <br> <br><br>√
+    SDVC<br>34XLR: <br> <br> <br> <br>
+  source_ref:
+    pdf_page: 18
+    layout_region_index: 3
+    table_md_path: tables/page-0018-r03.md
+- name: U<br> <br> <br> <br> <br>0x10（17）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: U<br> <br> <br> <br> <br>0x10（17）
+    Col2: U<br> <br> <br> <br> <br>0x10（17）
+    Col3: U<br> <br> <br> <br> <br>0x10（17）
+    C<br>方向<br>（0）（Γ1）: <br> <br> <br> <br> <br><br> <br>
+    Col5: <br> <br> <br> <br>料满停机逻辑
+    Col6: <br> <br> <br> <br>
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: C<br>   H<br> <br> <br>1：有料满停机信号时输出启动<br>0：有料满停机信号时输出停止
+    Col8: C<br>   H<br> <br> <br>1：有料满停机信号时输出启动<br>0：有料满停机信号时输出停止
+    Col9: C<br>   H<br> <br> <br>1：有料满停机信号时输出启动<br>0：有料满停机信号时输出停止
+    Col10: <br> <br> <br>√
+    Col11: <br> <br> <br>√
+    Col12: <br> <br> <br>√
+    Col13: <br> <br> <br>√
+    Col14: <br> <br> <br>√
+    Col15: <br> <br> <br>√
+    H: <br> <br>√
+    Col17: <br> <br>√
+    Col18: <br> <br>√
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: U<br> <br> <br> <br> <br>0x10（17）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: U<br> <br> <br> <br> <br>0x10（17）
+    Col2: U<br> <br> <br> <br> <br>0x10（17）
+    Col3: U<br> <br> <br> <br> <br>0x10（17）
+    C<br>方向<br>（0）（Γ1）: <br> <br> <br> <br> <br><br> <br>
+    Col5: <br> <br> <br> <br>方向
+    Col6: <br> <br> <br> <br>方向
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br> <br> <br>方向
+    Col8: <br> <br> <br> <br>方向
+    Col9: <br> <br> <br> <br>方向
+    Col10: <br> <br> <br> <br>方向
+    Col11: <br> <br> <br> <br>方向
+    Col12: <br> <br> <br> <br>方向
+    Col13: <br> <br> <br> <br>方向
+    Col14: <br> <br> <br> <br>方向
+    Col15: <br> <br> <br> <br>方向
+    H: <br> <br> <br> <br>方向
+    Col17: <br> <br> <br> <br>方向
+    Col18: <br> <br> <br> <br>方向
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: U<br> <br> <br> <br> <br>0x10（17）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: U<br> <br> <br> <br> <br>0x10（17）
+    Col2: U<br> <br> <br> <br> <br>0x10（17）
+    Col3: U<br> <br> <br> <br> <br>0x10（17）
+    C<br>方向<br>（0）（Γ1）: <br> <br> <br> <br> <br><br> <br>
+    Col5: <br> <br> <br> <br> <br>（0）（Γ2）
+    Col6: <br> <br> <br> <br> <br>（0）（Γ2）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br> <br> <br> <br>（0）（Γ2）
+    Col8: <br> <br> <br> <br> <br>（0）（Γ2）
+    Col9: <br> <br> <br> <br> <br>（0）（Γ2）
+    Col10: <br> <br> <br> <br> <br>（0）（Γ2）
+    Col11: <br> <br> <br> <br> <br>（0）（Γ2）
+    Col12: <br> <br> <br> <br> <br>（0）（Γ2）
+    Col13: <br> <br> <br> <br> <br>（0）（Γ2）
+    Col14: <br> <br> <br> <br> <br>（0）（Γ2）
+    Col15: <br> <br> <br> <br> <br>（0）（Γ2）
+    H: <br> <br> <br> <br> <br>（0）（Γ2）
+    Col17: <br> <br> <br> <br> <br>（0）（Γ2）
+    Col18: <br> <br> <br> <br> <br>（0）（Γ2）
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: <br> <br> <br> <br> <br>0x11（18）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br> <br> <br>0x11（18）
+    Col2: <br> <br> <br> <br> <br>0x11（18）
+    Col3: <br> <br> <br> <br> <br>0x11（18）
+    C<br>方向<br>（0）（Γ1）: <br> UH<br> <br> <br> <br>料满停机2逻<br>辑方向<br>（0）（Γ7）
+    Col5: <br> UH<br> <br> <br> <br>料满停机2逻<br>辑方向<br>（0）（Γ7）
+    Col6: <br> UH<br> <br> <br> <br>料满停机2逻<br>辑方向<br>（0）（Γ7）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br>   CU<br> <br> <br>1：有料满停机2信号时输出启动<br>0：有料满停机2信号时输出停止
+    Col8: <br>   CU<br> <br> <br>1：有料满停机2信号时输出启动<br>0：有料满停机2信号时输出停止
+    Col9: <br>   CU<br> <br> <br>1：有料满停机2信号时输出启动<br>0：有料满停机2信号时输出停止
+    Col10: <br> <br>
+    Col11: <br> <br>
+    Col12: <br> <br>
+    Col13: <br> <br>
+    Col14: <br> <br>
+    Col15: <br> <br>
+    H: <br> <br>√
+    Col17: <br> <br>√
+    Col18: <br> <br>√
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: H C<br> <br> <br> <br> <br>0x13：0x12
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: H C<br> <br> <br> <br> <br>0x13：0x12
+    Col2: H C<br> <br> <br> <br> <br>0x13：0x12
+    Col3: H C<br> <br> <br> <br> <br>0x13：0x12
+    C<br>方向<br>（0）（Γ1）: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    Col5: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    Col6: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br> <br> <br> <br><br> <br><br> <br><br>
+    Col8: <br> <br> <br> <br>2：控制输出状态由参数超限报警状
+    Col9: <br> <br> <br>
+    Col10: <br> <br>    U<br> <br>√
+    Col11: <br> <br>    U<br> <br>√
+    Col12: <br> <br>    U<br> <br>√
+    Col13: <br> <br>    H<br> <br>√
+    Col14: <br> <br>    H<br> <br>√
+    Col15: <br> <br>    H<br> <br>√
+    H: <br> <br> <br>√
+    Col17: <br> <br> <br>√
+    Col18: <br> <br> <br>√
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: H C<br> <br> <br> <br> <br>0x13：0x12
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: H C<br> <br> <br> <br> <br>0x13：0x12
+    Col2: H C<br> <br> <br> <br> <br>0x13：0x12
+    Col3: H C<br> <br> <br> <br> <br>0x13：0x12
+    C<br>方向<br>（0）（Γ1）: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    Col5: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    Col6: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br> <br> <br> <br><br> <br><br> <br><br>
+    Col8: <br> <br> <br> <br>态决定
+    Col9: <br> <br> <br> <br>态决定
+    Col10: <br> <br> <br> <br>态决定
+    Col11: <br> <br> <br> <br>态决定
+    Col12: <br> <br> <br> <br>态决定
+    Col13: <br> <br> <br> <br>态决定
+    Col14: <br> <br> <br> <br>态决定
+    Col15: <br> <br> <br> <br>态决定
+    H: <br> <br> <br> <br>态决定
+    Col17: <br> <br> <br> <br>态决定
+    Col18: <br> <br> <br> <br>态决定
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: H C<br> <br> <br> <br> <br>0x13：0x12
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: H C<br> <br> <br> <br> <br>0x13：0x12
+    Col2: H C<br> <br> <br> <br> <br>0x13：0x12
+    Col3: H C<br> <br> <br> <br> <br>0x13：0x12
+    C<br>方向<br>（0）（Γ1）: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    Col5: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    Col6: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br> <br> <br> <br><br> <br><br> <br><br>
+    Col8: <br> <br> <br> <br>1：控制输出状态位为关闭时‘控制
+    Col9: <br> <br> <br> <br>1：控制输出状态位为关闭时‘控制
+    Col10: <br> <br> <br> <br>1：控制输出状态位为关闭时‘控制
+    Col11: <br> <br> <br> <br>1：控制输出状态位为关闭时‘控制
+    Col12: <br> <br> <br> <br>1：控制输出状态位为关闭时‘控制
+    Col13: <br> <br> <br> <br>1：控制输出状态位为关闭时‘控制
+    Col14: <br> <br> <br> <br>1：控制输出状态位为关闭时‘控制
+    Col15: <br> <br> <br> <br>1：控制输出状态位为关闭时‘控制
+    H: <br> <br> <br> <br>1：控制输出状态位为关闭时‘控制
+    Col17: <br> <br> <br> <br>1：控制输出状态位为关闭时‘控制
+    Col18: <br> <br> <br> <br>1：控制输出状态位为关闭时‘控制
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: H C<br> <br> <br> <br> <br>0x13：0x12
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: H C<br> <br> <br> <br> <br>0x13：0x12
+    Col2: H C<br> <br> <br> <br> <br>0x13：0x12
+    Col3: H C<br> <br> <br> <br> <br>0x13：0x12
+    C<br>方向<br>（0）（Γ1）: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    Col5: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    Col6: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br> <br> <br> <br><br> <br><br> <br><br>
+    Col8: <br> <br> <br> <br>输出’关闭
+    Col9: <br> <br> <br> <br>输出’关闭
+    Col10: <br> <br> <br> <br>输出’关闭
+    Col11: <br> <br> <br> <br>输出’关闭
+    Col12: <br> <br> <br> <br>输出’关闭
+    Col13: <br> <br> <br> <br>输出’关闭
+    Col14: <br> <br> <br> <br>输出’关闭
+    Col15: <br> <br> <br> <br>输出’关闭
+    H: <br> <br> <br> <br>输出’关闭
+    Col17: <br> <br> <br> <br>输出’关闭
+    Col18: <br> <br> <br> <br>输出’关闭
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: H C<br> <br> <br> <br> <br>0x13：0x12
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: H C<br> <br> <br> <br> <br>0x13：0x12
+    Col2: H C<br> <br> <br> <br> <br>0x13：0x12
+    Col3: H C<br> <br> <br> <br> <br>0x13：0x12
+    C<br>方向<br>（0）（Γ1）: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    Col5: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    Col6: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br> <br> <br> <br><br> <br><br> <br><br>
+    Col8: <br> <br> <br> <br> <br>0：控制输出状态位为开启时‘控制
+    Col9: <br> <br> <br> <br> <br>0：控制输出状态位为开启时‘控制
+    Col10: <br> <br> <br> <br> <br>0：控制输出状态位为开启时‘控制
+    Col11: <br> <br> <br> <br> <br>0：控制输出状态位为开启时‘控制
+    Col12: <br> <br> <br> <br> <br>0：控制输出状态位为开启时‘控制
+    Col13: <br> <br> <br> <br> <br>0：控制输出状态位为开启时‘控制
+    Col14: <br> <br> <br> <br> <br>0：控制输出状态位为开启时‘控制
+    Col15: <br> <br> <br> <br> <br>0：控制输出状态位为开启时‘控制
+    H: <br> <br> <br> <br> <br>0：控制输出状态位为开启时‘控制
+    Col17: <br> <br> <br> <br> <br>0：控制输出状态位为开启时‘控制
+    Col18: <br> <br> <br> <br> <br>0：控制输出状态位为开启时‘控制
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: H C<br> <br> <br> <br> <br>0x13：0x12
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: H C<br> <br> <br> <br> <br>0x13：0x12
+    Col2: H C<br> <br> <br> <br> <br>0x13：0x12
+    Col3: H C<br> <br> <br> <br> <br>0x13：0x12
+    C<br>方向<br>（0）（Γ1）: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    Col5: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    Col6: <br>  C<br> <br> <br> <br>控制输出逻辑<br>方向<br>（0）（Γ3）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br> <br> <br> <br><br> <br><br> <br><br>
+    Col8: <br> <br> <br> <br> <br>输出’开启
+    Col9: <br> <br> <br> <br> <br>输出’开启
+    Col10: <br> <br> <br> <br> <br>输出’开启
+    Col11: <br> <br> <br> <br> <br>输出’开启
+    Col12: <br> <br> <br> <br> <br>输出’开启
+    Col13: <br> <br> <br> <br> <br>输出’开启
+    Col14: <br> <br> <br> <br> <br>输出’开启
+    Col15: <br> <br> <br> <br> <br>输出’开启
+    H: <br> <br> <br> <br> <br>输出’开启
+    Col17: <br> <br> <br> <br> <br>输出’开启
+    Col18: <br> <br> <br> <br> <br>输出’开启
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: <br> U<br> <br> <br> <br>0x14（21）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> U<br> <br> <br> <br>0x14（21）
+    Col2: <br> U<br> <br> <br> <br>0x14（21）
+    Col3: <br> U<br> <br> <br> <br>0x14（21）
+    C<br>方向<br>（0）（Γ1）: <br> H<br> <br> <br> <br>逻辑控制与主<br>输出分离标志<br>（0）（Γ4）
+    Col5: <br> H<br> <br> <br> <br>逻辑控制与主<br>输出分离标志<br>（0）（Γ4）
+    Col6: <br> H<br> <br> <br> <br>逻辑控制与主<br>输出分离标志<br>（0）（Γ4）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br>  CU<br>   H<br> <br>1：‘主输出’不受‘主逻辑控制’<br>的控制<br>0：‘主输出’受‘主逻辑控制’的<br>控制
+    Col8: <br> <br>  CU<br>   H<br> <br>1：‘主输出’不受‘主逻辑控制’<br>的控制<br>0：‘主输出’受‘主逻辑控制’的<br>控制
+    Col9: <br> <br>  CU<br>   H<br> <br>1：‘主输出’不受‘主逻辑控制’<br>的控制<br>0：‘主输出’受‘主逻辑控制’的<br>控制
+    Col10: <br> <br> <br> <br>√
+    Col11: <br> <br> <br> <br>√
+    Col12: <br> <br> <br> <br>√
+    Col13: <br> <br> <br> <br>√
+    Col14: <br> <br> <br> <br>√
+    Col15: <br> <br> <br> <br>√
+    H: <br> <br>    U<br>√
+    Col17: <br> <br>    U<br>√
+    Col18: <br> <br>    U<br>√
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: <br> <br> <br> <br>0x15（22）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br> <br>0x15（22）
+    Col2: <br> <br> <br> <br>0x15（22）
+    Col3: <br> <br> <br> <br>0x15（22）
+    C<br>方向<br>（0）（Γ1）: <br> <br> <br> <br> <br>
+    Col5: <br> <br> <br> <br>振幅调整方式
+    Col6: <br> <br> <br> <br> <br> <br>
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br> <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br>1：自动
+    Col9: <br> <br> <br> <br>
+    Col10: <br> <br> <br> <br>
+    Col11: <br> <br> <br> <br>
+    Col12: <br> <br> <br> <br>
+    Col13: <br> <br> <br> <br>
+    Col14: <br> <br> <br> <br>
+    Col15: <br> <br> <br> <br>
+    H: <br> <br> <br> <br>√
+    Col17: <br> <br> <br> <br>√
+    Col18: <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: <br> <br> <br> <br>0x15（22）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br> <br>0x15（22）
+    Col2: <br> <br> <br> <br>0x15（22）
+    Col3: <br> <br> <br> <br>0x15（22）
+    C<br>方向<br>（0）（Γ1）: <br> <br> <br> <br> <br>
+    Col5: <br> <br> <br> <br> <br>（1）（Γ5）
+    Col6: <br> <br> <br> <br> <br>（1）（Γ5）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br> <br> <br> <br>（1）（Γ5）
+    Col8: <br> <br> <br> <br> <br>0：手动
+    Col9: <br> <br> <br> <br> <br>0：手动
+    Col10: <br> <br> <br> <br> <br>0：手动
+    Col11: <br> <br> <br> <br> <br>0：手动
+    Col12: <br> <br> <br> <br> <br>0：手动
+    Col13: <br> <br> <br> <br> <br>0：手动
+    Col14: <br> <br> <br> <br> <br>0：手动
+    Col15: <br> <br> <br> <br> <br>0：手动
+    H: <br> <br> <br> <br> <br>0：手动
+    Col17: <br> <br> <br> <br> <br>0：手动
+    Col18: <br> <br> <br> <br> <br>0：手动
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: <br> <br> <br> <br>0x17:0x16
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br> <br>0x17:0x16
+    Col2: <br> <br> <br> <br>0x17:0x16
+    Col3: <br> <br> <br> <br>0x17:0x16
+    C<br>方向<br>（0）（Γ1）: <br> U<br> <br> <br> <br>频率调整方式<br>（00）（Γ6）
+    Col5: <br> U<br> <br> <br> <br>频率调整方式<br>（00）（Γ6）
+    Col6: <br> U<br> <br> <br> <br>频率调整方式<br>（00）（Γ6）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br>  H C<br> <br> <br>10：同步<br>01：手动<br>00：自动
+    Col8: <br> <br>  H C<br> <br> <br>10：同步<br>01：手动<br>00：自动
+    Col9: <br> <br>  H C<br> <br> <br>10：同步<br>01：手动<br>00：自动
+    Col10: <br> <br> <br> <br>
+    Col11: <br> <br> <br> <br>
+    Col12: <br> <br> <br> <br>
+    Col13: <br> <br> <br> <br>
+    Col14: <br> <br> <br> <br>
+    Col15: <br> <br> <br> <br>
+    H: <br> <br> <br> <br>√
+    Col17: <br> <br> <br> <br>√
+    Col18: <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br>
+    Col2: <br> <br> <br>0x18（25）
+    Col3: <br> <br> <br>
+    C<br>方向<br>（0）（Γ1）: <br> <br> <br>
+    Col5: <br> <br> <br> <br>保留
+    Col6: <br> <br> <br>
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    Col10: <br> <br> <br>
+    Col11: <br> <br> <br>
+    Col12: <br> <br> <br>
+    Col13: <br> <br> <br>
+    Col14: <br> <br> <br>
+    Col15: <br> <br> <br>
+    H: <br> <br> <br>
+    Col17: <br> <br> <br>
+    Col18: <br> <br> <br>
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: H<br> <br> <br>0x1A:0x19
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: H<br> <br> <br>0x1A:0x19
+    Col2: H<br> <br> <br>0x1A:0x19
+    Col3: H<br> <br> <br>0x1A:0x19
+    C<br>方向<br>（0）（Γ1）: <br> <br> <br> <br>逻辑关系<br>（1）（π）
+    Col5: <br> <br> <br> <br>逻辑关系<br>（1）（π）
+    Col6: <br> <br> <br> <br>逻辑关系<br>（1）（π）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br>  H<br> <br> <br>0：或<br>1：与<br>2：异或
+    Col8: <br> <br>  H<br> <br> <br>0：或<br>1：与<br>2：异或
+    Col9: <br> <br>  H<br> <br> <br>0：或<br>1：与<br>2：异或
+    Col10: <br> <br> <br> <br>
+    Col11: <br> <br> <br> <br>
+    Col12: <br> <br> <br> <br>
+    Col13: <br> <br> <br>  U<br> <br>√
+    Col14: <br> <br> <br>  U<br> <br>√
+    Col15: <br> <br> <br>  U<br> <br>√
+    H: <br> <br> <br> <br> <br>√
+    Col17: <br> <br> <br> <br> <br>√
+    Col18: <br> <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: <br> <br> <br>0x1C:0x1B
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br>0x1C:0x1B
+    Col2: <br> <br> <br>0x1C:0x1B
+    Col3: <br> <br> <br>0x1C:0x1B
+    C<br>方向<br>（0）（Γ1）: <br> H<br> <br> <br>逻辑关系（副）<br>（1）（π）
+    Col5: <br> H<br> <br> <br>逻辑关系（副）<br>（1）（π）
+    Col6: <br> H<br> <br> <br>逻辑关系（副）<br>（1）（π）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br> <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br> <br>0：或
+    Col9: <br> <br> <br> <br>
+    Col10: <br> <br> <br> <br>
+    Col11: <br> <br> <br> <br>
+    Col12: <br> <br> <br> <br>
+    Col13: <br> <br> <br> <br> <br>√
+    Col14: <br> <br> <br> <br> <br>√
+    Col15: <br> <br> <br> <br> <br>√
+    H: <br> <br> <br> <br> <br>√
+    Col17: <br> <br> <br> <br> <br>√
+    Col18: <br> <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: <br> <br> <br>0x1C:0x1B
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br>0x1C:0x1B
+    Col2: <br> <br> <br>0x1C:0x1B
+    Col3: <br> <br> <br>0x1C:0x1B
+    C<br>方向<br>（0）（Γ1）: <br> H<br> <br> <br>逻辑关系（副）<br>（1）（π）
+    Col5: <br> H<br> <br> <br>逻辑关系（副）<br>（1）（π）
+    Col6: <br> H<br> <br> <br>逻辑关系（副）<br>（1）（π）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br> <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br> <br>1：与
+    Col9: <br> <br> <br> <br> <br>1：与
+    Col10: <br> <br> <br> <br> <br>1：与
+    Col11: <br> <br> <br> <br> <br>1：与
+    Col12: <br> <br> <br> <br> <br>1：与
+    Col13: <br> <br> <br> <br> <br>1：与
+    Col14: <br> <br> <br> <br> <br>1：与
+    Col15: <br> <br> <br> <br> <br>1：与
+    H: <br> <br> <br> <br> <br>1：与
+    Col17: <br> <br> <br> <br> <br>1：与
+    Col18: <br> <br> <br> <br> <br>1：与
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: <br> <br> <br>0x1C:0x1B
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br> <br>0x1C:0x1B
+    Col2: <br> <br> <br>0x1C:0x1B
+    Col3: <br> <br> <br>0x1C:0x1B
+    C<br>方向<br>（0）（Γ1）: <br> H<br> <br> <br>逻辑关系（副）<br>（1）（π）
+    Col5: <br> H<br> <br> <br>逻辑关系（副）<br>（1）（π）
+    Col6: <br> H<br> <br> <br>逻辑关系（副）<br>（1）（π）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br> <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br> <br>2：异或
+    Col9: <br> <br> <br> <br> <br>2：异或
+    Col10: <br> <br> <br> <br> <br>2：异或
+    Col11: <br> <br> <br> <br> <br>2：异或
+    Col12: <br> <br> <br> <br> <br>2：异或
+    Col13: <br> <br> <br> <br> <br>2：异或
+    Col14: <br> <br> <br> <br> <br>2：异或
+    Col15: <br> <br> <br> <br> <br>2：异或
+    H: <br> <br> <br> <br> <br>2：异或
+    Col17: <br> <br> <br> <br> <br>2：异或
+    Col18: <br> <br> <br> <br> <br>2：异或
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: <br> C<br> <br>0x1D（30）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> C<br> <br>0x1D（30）
+    Col2: <br> C<br> <br>0x1D（30）
+    Col3: <br> C<br> <br>0x1D（30）
+    C<br>方向<br>（0）（Γ1）: <br> <br> <br> <br>智能光电逻辑<br>方向（副）<br>（0）（Γ1）
+    Col5: <br> <br> <br> <br>智能光电逻辑<br>方向（副）<br>（0）（Γ1）
+    Col6: <br> <br> <br> <br>智能光电逻辑<br>方向（副）<br>（0）（Γ1）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br> H<br> CU<br> <br>1：光电传感器对接时输出启动<br>0：光电传感器对接时输出停止
+    Col8: <br> <br> H<br> CU<br> <br>1：光电传感器对接时输出启动<br>0：光电传感器对接时输出停止
+    Col9: <br> <br> H<br> CU<br> <br>1：光电传感器对接时输出启动<br>0：光电传感器对接时输出停止
+    Col10: <br> <br> <br> <br> <br>
+    Col11: <br> <br> <br> <br> <br>
+    Col12: <br> <br> <br> <br> <br>
+    Col13: <br> <br> <br> <br> <br><br>√
+    Col14: <br> <br> <br> <br> <br><br>√
+    Col15: <br> <br> <br> <br> <br><br>√
+    H: <br> <br> <br> <br> <br>
+    Col17: <br> <br> <br> <br> <br>
+    Col18: <br> <br> <br> <br> <br>
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: <br> <br>0x1E（31）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br>0x1E（31）
+    Col2: <br> <br>0x1E（31）
+    Col3: <br> <br>0x1E（31）
+    C<br>方向<br>（0）（Γ1）: <br> <br><br> <br>
+    Col5: <br> <br> <br>料满停机逻辑
+    Col6: <br> <br> <br>
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br>H<br> <br>1：有料满停机信号时输出启动<br>0：有料满停机信号时输出停止
+    Col8: <br> <br>H<br> <br>1：有料满停机信号时输出启动<br>0：有料满停机信号时输出停止
+    Col9: <br> <br>H<br> <br>1：有料满停机信号时输出启动<br>0：有料满停机信号时输出停止
+    Col10: <br> <br> <br> U<br><br>√
+    Col11: <br> <br> <br> U<br><br>√
+    Col12: <br> <br> <br> U<br><br>√
+    Col13: <br> <br> <br> <br><br>√
+    Col14: <br> <br> <br> <br><br>√
+    Col15: <br> <br> <br> <br><br>√
+    H: <br> <br> <br> <br><br>√
+    Col17: <br> <br> <br> <br><br>√
+    Col18: <br> <br> <br> <br><br>√
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: <br> <br>0x1E（31）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br>0x1E（31）
+    Col2: <br> <br>0x1E（31）
+    Col3: <br> <br>0x1E（31）
+    C<br>方向<br>（0）（Γ1）: <br> <br><br> <br>
+    Col5: <br> <br> <br>方向（副）
+    Col6: <br> <br> <br>方向（副）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br> <br>方向（副）
+    Col8: <br> <br> <br>方向（副）
+    Col9: <br> <br> <br>方向（副）
+    Col10: <br> <br> <br>方向（副）
+    Col11: <br> <br> <br>方向（副）
+    Col12: <br> <br> <br>方向（副）
+    Col13: <br> <br> <br>方向（副）
+    Col14: <br> <br> <br>方向（副）
+    Col15: <br> <br> <br>方向（副）
+    H: <br> <br> <br>方向（副）
+    Col17: <br> <br> <br>方向（副）
+    Col18: <br> <br> <br>方向（副）
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: <br> <br>0x1E（31）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br>0x1E（31）
+    Col2: <br> <br>0x1E（31）
+    Col3: <br> <br>0x1E（31）
+    C<br>方向<br>（0）（Γ1）: <br> <br><br> <br>
+    Col5: <br> <br> <br>（0）（Γ2）
+    Col6: <br> <br> <br>（0）（Γ2）
+    H<br>C<br>U<br>0：光电传感器对接时输出停止: <br> <br> <br>（0）（Γ2）
+    Col8: <br> <br> <br>（0）（Γ2）
+    Col9: <br> <br> <br>（0）（Γ2）
+    Col10: <br> <br> <br>（0）（Γ2）
+    Col11: <br> <br> <br>（0）（Γ2）
+    Col12: <br> <br> <br>（0）（Γ2）
+    Col13: <br> <br> <br>（0）（Γ2）
+    Col14: <br> <br> <br>（0）（Γ2）
+    Col15: <br> <br> <br>（0）（Γ2）
+    H: <br> <br> <br>（0）（Γ2）
+    Col17: <br> <br> <br>（0）（Γ2）
+    Col18: <br> <br> <br>（0）（Γ2）
+  source_ref:
+    pdf_page: 19
+    layout_region_index: 1
+    table_md_path: tables/page-0019-r01.md
+- name: <br> <br> <br>（十六进制）
+  symbol: <br> <br> <br>（十六进制）
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH 响应: <br> <br> <br>域名
+  source_ref:
+    pdf_page: 20
+    layout_region_index: 9
+    table_md_path: tables/page-0020-r09.md
+- name: <br> <br> <br>01
+  symbol: <br> <br> <br>01
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH 响应: <br> <br> <br>功能
+  source_ref:
+    pdf_page: 20
+    layout_region_index: 9
+    table_md_path: tables/page-0020-r09.md
+- name: <br> <br> <br>00
+  symbol: <br> <br> <br>00
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH 响应: <br> <br> <br>字节数
+  source_ref:
+    pdf_page: 20
+    layout_region_index: 9
+    table_md_path: tables/page-0020-r09.md
+- name: <br> <br> <br>13
+  symbol: <br> <br> <br>13
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH 响应: <br> <br> <br>输出状态27-20
+  source_ref:
+    pdf_page: 20
+    layout_region_index: 9
+    table_md_path: tables/page-0020-r09.md
+- name: <br> <br> <br>00
+  symbol: <br> <br> <br>00
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH 响应: <br> <br> <br>输出状态35-28
+  source_ref:
+    pdf_page: 20
+    layout_region_index: 9
+    table_md_path: tables/page-0020-r09.md
+- name: <br> <br> <br>13
+  symbol: <br> <br> <br>13
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH 响应: <br> <br> <br>输出状态38-36
+  source_ref:
+    pdf_page: 20
+    layout_region_index: 9
+    table_md_path: tables/page-0020-r09.md
+- name: <br><br>功能码
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H CU UH 请求PDU: <br><br>功能码
+    UH  CU: <br>1个字节
+    CU UH C: <br> <br>0x05
+  source_ref:
+    pdf_page: 21
+    layout_region_index: 3
+    table_md_path: tables/page-0021-r03.md
+- name: <br><br>输出地址
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H CU UH 请求PDU: <br><br>输出地址
+    UH  CU: <br>2个字节
+    CU UH C: <br> <br><br>0x0000 至 0xFFFF
+  source_ref:
+    pdf_page: 21
+    layout_region_index: 3
+    table_md_path: tables/page-0021-r03.md
+- name: <br><br>输出值
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H CU UH 请求PDU: <br><br>输出值
+    UH  CU: <br>2个字节
+    CU UH C: <br> <br><br>0x0000 或 0xFF00
+  source_ref:
+    pdf_page: 21
+    layout_region_index: 3
+    table_md_path: tables/page-0021-r03.md
+- name: <br> <br>功能码
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH C H CUH C 输出地址 输出值 响应PDU: <br> <br>功能码
+    CUH CUH C H 2个字节 2个字节: <br> <br> <br>1个字节
+    C H CUH UH 0x0000 至 0xFFFF 0x0000 或 0xFF00: <br><br>0x05
+  source_ref:
+    pdf_page: 21
+    layout_region_index: 4
+    table_md_path: tables/page-0021-r04.md
+- name: <br> <br>输出地址
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH C H CUH C 输出地址 输出值 响应PDU: <br> <br>输出地址
+    CUH CUH C H 2个字节 2个字节: <br> <br> <br>2个字节
+    C H CUH UH 0x0000 至 0xFFFF 0x0000 或 0xFF00: <br><br>0x0000 至 0xFFFF
+  source_ref:
+    pdf_page: 21
+    layout_region_index: 4
+    table_md_path: tables/page-0021-r04.md
+- name: <br> <br>输出值
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH C H CUH C 输出地址 输出值 响应PDU: <br> <br>输出值
+    CUH CUH C H 2个字节 2个字节: <br> <br> <br>2个字节
+    C H CUH UH 0x0000 至 0xFFFF 0x0000 或 0xFF00: <br><br>0x0000 或 0xFF00
+  source_ref:
+    pdf_page: 21
+    layout_region_index: 4
+    table_md_path: tables/page-0021-r04.md
+- name: <br> <br> <br>请求
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H  CU UH C 这是一个请求写线圈173 为ON 的实例：: <br> <br> <br>请求
+    Col2: <br> <br> <br>请求
+    H C CUH H C: <br> <br>响应
+    Col4: <br> <br>响应
+  source_ref:
+    pdf_page: 21
+    layout_region_index: 6
+    table_md_path: tables/page-0021-r06.md
+- name: <br> <br>域名
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H  CU UH C 这是一个请求写线圈173 为ON 的实例：: <br> <br>域名
+    Col2: <br> <br>（十六进制）
+    H C CUH H C: <br> <br>域名
+    Col4: <br> <br>（十六进制）
+  source_ref:
+    pdf_page: 21
+    layout_region_index: 6
+    table_md_path: tables/page-0021-r06.md
+- name: <br> <br>功能
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H  CU UH C 这是一个请求写线圈173 为ON 的实例：: <br> <br>功能
+    Col2: <br> <br>05
+    H C CUH H C: <br> <br>功能
+    Col4: <br> <br><br>05
+  source_ref:
+    pdf_page: 21
+    layout_region_index: 6
+    table_md_path: tables/page-0021-r06.md
+- name: <br> <br>输出地址Hi
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H  CU UH C 这是一个请求写线圈173 为ON 的实例：: <br> <br>输出地址Hi
+    Col2: <br> <br>00
+    H C CUH H C: <br> <br>输出地址Hi
+    Col4: <br> <br><br>00
+  source_ref:
+    pdf_page: 21
+    layout_region_index: 6
+    table_md_path: tables/page-0021-r06.md
+- name: <br> <br>输出地址Lo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H  CU UH C 这是一个请求写线圈173 为ON 的实例：: <br> <br>输出地址Lo
+    Col2: <br> <br>AC
+    H C CUH H C: <br> <br>输出地址Lo
+    Col4: <br> <br><br>AC
+  source_ref:
+    pdf_page: 21
+    layout_region_index: 6
+    table_md_path: tables/page-0021-r06.md
+- name: <br> <br>输出值Hi
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H  CU UH C 这是一个请求写线圈173 为ON 的实例：: <br> <br>输出值Hi
+    Col2: <br> <br>FF
+    H C CUH H C: <br> <br>输出值Hi
+    Col4: <br> <br><br>FF
+  source_ref:
+    pdf_page: 21
+    layout_region_index: 6
+    table_md_path: tables/page-0021-r06.md
+- name: <br> <br>输出值Lo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H  CU UH C 这是一个请求写线圈173 为ON 的实例：: <br> <br>输出值Lo
+    Col2: <br> <br>00
+    H C CUH H C: <br> <br>输出值Lo
+    Col4: <br> <br><br>00
+  source_ref:
+    pdf_page: 21
+    layout_region_index: 6
+    table_md_path: tables/page-0021-r06.md
+- name: <br> <br>1个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H UH CU CU 充。 码、起始地址和写的输出数量。: <br> <br>1个字节
+    CUH C H CU: <br> <br>0x0F
+  source_ref:
+    pdf_page: 22
+    layout_region_index: 3
+    table_md_path: tables/page-0022-r03.md
+- name: <br> <br>2个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H UH CU CU 充。 码、起始地址和写的输出数量。: <br> <br>2个字节
+    CUH C H CU: <br> <br>0x0000 至 0xFFFF
+  source_ref:
+    pdf_page: 22
+    layout_region_index: 3
+    table_md_path: tables/page-0022-r03.md
+- name: <br> <br>2个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H UH CU CU 充。 码、起始地址和写的输出数量。: <br> <br>2个字节
+    CUH C H CU: <br> <br><br>0x0001 至 0x07B0
+  source_ref:
+    pdf_page: 22
+    layout_region_index: 3
+    table_md_path: tables/page-0022-r03.md
+- name: <br> <br>1个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H UH CU CU 充。 码、起始地址和写的输出数量。: <br> <br>1个字节
+    CUH C H CU: <br> <br><br>N*
+  source_ref:
+    pdf_page: 22
+    layout_region_index: 3
+    table_md_path: tables/page-0022-r03.md
+- name: <br> <br>N* ×1个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H UH CU CU 充。 码、起始地址和写的输出数量。: <br> <br>N* ×1个字节
+    CUH C H CU: <br> <br>
+  source_ref:
+    pdf_page: 22
+    layout_region_index: 3
+    table_md_path: tables/page-0022-r03.md
+- name: <br> <br>1个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C CUH UH 余数不等于0，那么：N = N+1: <br> <br>1个字节
+    UH C CUH: <br> <br>0x0F
+  source_ref:
+    pdf_page: 22
+    layout_region_index: 5
+    table_md_path: tables/page-0022-r05.md
+- name: <br> <br>2个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C CUH UH 余数不等于0，那么：N = N+1: <br> <br>2个字节
+    UH C CUH: <br> <br>0x0000至0xFFFF
+  source_ref:
+    pdf_page: 22
+    layout_region_index: 5
+    table_md_path: tables/page-0022-r05.md
+- name: <br> <br>2个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C CUH UH 余数不等于0，那么：N = N+1: <br> <br>2个字节
+    UH C CUH: <br> <br><br>0x0001 至 0x07B0
+  source_ref:
+    pdf_page: 22
+    layout_region_index: 5
+    table_md_path: tables/page-0022-r05.md
+- name: <br> <br> <br>（十六进制）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H C: <br> <br> <br>（十六进制）
+    H CU U 响应: <br> <br> <br>域名
+    UH C C: <br> <br>（十六进制）
+  source_ref:
+    pdf_page: 22
+    layout_region_index: 8
+    table_md_path: tables/page-0022-r08.md
+- name: <br> <br> <br>0F
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H C: <br> <br> <br>0F
+    H CU U 响应: <br> <br> <br>功能
+    UH C C: <br> <br>0F
+  source_ref:
+    pdf_page: 22
+    layout_region_index: 8
+    table_md_path: tables/page-0022-r08.md
+- name: <br> <br> <br>00
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H C: <br> <br> <br>00
+    H CU U 响应: <br> <br> <br>起始地址Hi
+    UH C C: <br> <br>00
+  source_ref:
+    pdf_page: 22
+    layout_region_index: 8
+    table_md_path: tables/page-0022-r08.md
+- name: <br> <br> <br>13
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H C: <br> <br> <br>13
+    H CU U 响应: <br> <br> <br>起始地址 Lo
+    UH C C: <br> <br>13
+  source_ref:
+    pdf_page: 22
+    layout_region_index: 8
+    table_md_path: tables/page-0022-r08.md
+- name: <br> <br> <br>00
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H C: <br> <br> <br>00
+    H CU U 响应: <br> <br> <br>输出数量 Hi
+    UH C C: <br> <br>00
+  source_ref:
+    pdf_page: 22
+    layout_region_index: 8
+    table_md_path: tables/page-0022-r08.md
+- name: <br> <br> <br>0A
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H C: <br> <br> <br>0A
+    H CU U 响应: <br> <br> <br>输出数量 Lo
+    UH C C: <br> <br>0A
+  source_ref:
+    pdf_page: 22
+    layout_region_index: 8
+    table_md_path: tables/page-0022-r08.md
+- name: <br> <br> <br>02
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H C: <br> <br> <br>02
+    H CU U 响应: <br> <br>
+    UH C C: <br> <br>
+  source_ref:
+    pdf_page: 22
+    layout_region_index: 8
+    table_md_path: tables/page-0022-r08.md
+- name: <br> <br> <br>CD
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H C: <br> <br> <br>CD
+    H CU U 响应: <br> <br>
+    UH C C: <br> <br>
+  source_ref:
+    pdf_page: 22
+    layout_region_index: 8
+    table_md_path: tables/page-0022-r08.md
+- name: <br> <br> <br>01
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H C: <br> <br> <br>01
+    H CU U 响应: <br> <br>
+    UH C C: <br> <br>
+  source_ref:
+    pdf_page: 22
+    layout_region_index: 8
+    table_md_path: tables/page-0022-r08.md
+- name: H<br> <br> <br>地址<br>(序号)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C C: H<br> <br> <br>地址<br>(序号)
+    C CUH 每个地址对: C<br> <br> <br> <br>数据
+    Col3: C<br> <br> <br> <br>数据
+    Col4: C<br> <br> <br> <br>数据
+    UH H 对应的输入: <br> <br> <br> <br>单位
+    H H C 入寄存器定义如下：: H<br> <br> <br> <br>范围
+    C CUH ：: <br>   CU<br> <br> <br>备注
+    Col8: <br>   CU<br> <br> <br>备注
+    Col9: <br>   CU<br> <br> <br>备注
+    UH: <br> <br> <br>SDVC<br>34MR<br>/41MR
+    C: H<br> <br>SDVC<br>34MR<br>J
+    CU: <br> <br>SDVC<br>34XL<br>R
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 3
+    table_md_path: tables/page-0024-r03.md
+- name: <br> <br> <br>0x00（1）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C C: <br> <br> <br>0x00（1）
+    C CUH 每个地址对: <br> <br> <br>
+    Col3: <br> <br> <br> <br>控制器温
+    Col4: <br> <br> <br>
+    UH H 对应的输入: <br> <br> <br> <br>0.1℃
+    H H C 入寄存器定义如下：: <br>  U<br> <br> <br>【-100，+850】
+    C CUH ：: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    UH: <br> <br> <br>√
+    C: <br> <br>√
+    CU: <br> <br>√
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 3
+    table_md_path: tables/page-0024-r03.md
+- name: <br> <br> <br>0x00（1）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C C: <br> <br> <br>0x00（1）
+    C CUH 每个地址对: <br> <br> <br>
+    Col3: <br> <br> <br> <br>度
+    Col4: <br> <br> <br> <br>度
+    UH H 对应的输入: <br> <br> <br> <br>度
+    H H C 入寄存器定义如下：: <br> <br> <br> <br>度
+    C CUH ：: <br> <br> <br> <br>度
+    Col8: <br> <br> <br> <br>度
+    Col9: <br> <br> <br> <br>度
+    UH: <br> <br> <br> <br>度
+    C: <br> <br> <br> <br>度
+    CU: <br> <br> <br> <br>度
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 3
+    table_md_path: tables/page-0024-r03.md
+- name: <br> <br> <br>0x01（2）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C C: <br> <br> <br>0x01（2）
+    C CUH 每个地址对: <br> H<br> <br> <br>遥控输入<br>AD值
+    Col3: <br> H<br> <br> <br>遥控输入<br>AD值
+    Col4: <br> H<br> <br> <br>遥控输入<br>AD值
+    UH H 对应的输入: <br> <br> <br> <br>1
+    H H C 入寄存器定义如下：: <br>  C<br> <br> <br>【0，1023】
+    C CUH ：: <br> <br>  H<br>
+    Col8: <br> <br>  H<br>
+    Col9: <br> <br>  H<br>
+    UH: <br> <br> <br>√
+    C: <br> <br>√
+    CU: <br> <br>√
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 3
+    table_md_path: tables/page-0024-r03.md
+- name: <br> C<br> <br>0x02（3）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C C: <br> C<br> <br>0x02（3）
+    C CUH 每个地址对: <br> <br> <br> <br>设备识别<br>码
+    Col3: <br> <br> <br> <br>设备识别<br>码
+    Col4: <br> <br> <br> <br>设备识别<br>码
+    UH H 对应的输入: <br> <br> UH<br> <br>1
+    H H C 入寄存器定义如下：: <br> <br> <br> <br>【0，65535】
+    C CUH ：: <br> <br> <br> <br> <br> <br><br><br>
+    Col8: <br> <br> <br> <br> <br>0：SDVC31S、M
+    Col9: <br> <br> <br> <br>
+    UH: <br> <br> H<br> <br>√
+    C: <br> <br> <br>√
+    CU: <br> <br> <br>√
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 3
+    table_md_path: tables/page-0024-r03.md
+- name: <br> C<br> <br>0x02（3）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C C: <br> C<br> <br>0x02（3）
+    C CUH 每个地址对: <br> <br> <br> <br>设备识别<br>码
+    Col3: <br> <br> <br> <br>设备识别<br>码
+    Col4: <br> <br> <br> <br>设备识别<br>码
+    UH H 对应的输入: <br> <br> UH<br> <br>1
+    H H C 入寄存器定义如下：: <br> <br> <br> <br>【0，65535】
+    C CUH ：: <br> <br> <br> <br> <br> <br><br><br>
+    Col8: <br> <br> <br> <br> <br>1：SDVC31L、XL
+    Col9: <br> <br> <br> <br> <br>1：SDVC31L、XL
+    UH: <br> <br> <br> <br> <br>1：SDVC31L、XL
+    C: <br> <br> <br> <br> <br>1：SDVC31L、XL
+    CU: <br> <br> <br> <br> <br>1：SDVC31L、XL
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 3
+    table_md_path: tables/page-0024-r03.md
+- name: <br> C<br> <br>0x02（3）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C C: <br> C<br> <br>0x02（3）
+    C CUH 每个地址对: <br> <br> <br> <br>设备识别<br>码
+    Col3: <br> <br> <br> <br>设备识别<br>码
+    Col4: <br> <br> <br> <br>设备识别<br>码
+    UH H 对应的输入: <br> <br> UH<br> <br>1
+    H H C 入寄存器定义如下：: <br> <br> <br> <br>【0，65535】
+    C CUH ：: <br> <br> <br> <br> <br> <br><br><br>
+    Col8: <br> <br> <br> <br> <br>2：SDVC34S、M、L、
+    Col9: <br> <br> <br> <br> <br>2：SDVC34S、M、L、
+    UH: <br> <br> <br> <br> <br>2：SDVC34S、M、L、
+    C: <br> <br> <br> <br> <br>2：SDVC34S、M、L、
+    CU: <br> <br> <br> <br> <br>2：SDVC34S、M、L、
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 3
+    table_md_path: tables/page-0024-r03.md
+- name: <br> C<br> <br>0x02（3）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C C: <br> C<br> <br>0x02（3）
+    C CUH 每个地址对: <br> <br> <br> <br>设备识别<br>码
+    Col3: <br> <br> <br> <br>设备识别<br>码
+    Col4: <br> <br> <br> <br>设备识别<br>码
+    UH H 对应的输入: <br> <br> UH<br> <br>1
+    H H C 入寄存器定义如下：: <br> <br> <br> <br>【0，65535】
+    C CUH ：: <br> <br> <br> <br> <br> <br><br><br>
+    Col8: <br> <br> <br> <br> <br>XL（485通信modbus
+    Col9: <br> <br> <br> <br> <br>XL（485通信modbus
+    UH: <br> <br> <br> <br> <br>XL（485通信modbus
+    C: <br> <br> <br> <br> <br>XL（485通信modbus
+    CU: <br> <br> <br> <br> <br>XL（485通信modbus
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 3
+    table_md_path: tables/page-0024-r03.md
+- name: <br> C<br> <br>0x02（3）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C C: <br> C<br> <br>0x02（3）
+    C CUH 每个地址对: <br> <br> <br> <br>设备识别<br>码
+    Col3: <br> <br> <br> <br>设备识别<br>码
+    Col4: <br> <br> <br> <br>设备识别<br>码
+    UH H 对应的输入: <br> <br> UH<br> <br>1
+    H H C 入寄存器定义如下：: <br> <br> <br> <br>【0，65535】
+    C CUH ：: <br> <br> <br> <br> <br> <br><br><br>
+    Col8: <br> <br> <br> <br> <br>协议标准版）
+    Col9: <br> <br> <br> <br> <br>协议标准版）
+    UH: <br> <br> <br> <br> <br>协议标准版）
+    C: <br> <br> <br> <br> <br>协议标准版）
+    CU: <br> <br> <br> <br> <br>协议标准版）
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 3
+    table_md_path: tables/page-0024-r03.md
+- name: <br> <br>0x03（4）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C C: <br> <br>0x03（4）
+    C CUH 每个地址对: <br> <br> <br>当前输出<br>电压
+    Col3: <br> <br> <br>当前输出<br>电压
+    Col4: <br> <br> <br>当前输出<br>电压
+    UH H 对应的输入: <br> <br> <br>1V
+    H H C 入寄存器定义如下：: <br> <br> H<br> <br>【0，260】
+    C CUH ：: <br> <br> <br> C<br>
+    Col8: <br> <br> <br> C<br>
+    Col9: <br> <br> <br> C<br>
+    UH: <br> <br> <br>
+    C: <br> <br>
+    CU: <br> <br> <br>√
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 3
+    table_md_path: tables/page-0024-r03.md
+- name: <br>0x04（5）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C C: <br>0x04（5）
+    C CUH 每个地址对: <br>
+    Col3: <br> <br>当前输出
+    Col4: <br>
+    UH H 对应的输入: <br> <br>0.1Hz
+    H H C 入寄存器定义如下：: <br> <br> <br>【250，4000】
+    C CUH ：: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    UH: <br> <br> <br> <br>
+    C: <br> <br> <br>
+    CU: <br> <br> <br><br>√
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 3
+    table_md_path: tables/page-0024-r03.md
+- name: <br>0x04（5）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C C: <br>0x04（5）
+    C CUH 每个地址对: <br>
+    Col3: <br> <br>频率
+    Col4: <br> <br>频率
+    UH H 对应的输入: <br> <br>频率
+    H H C 入寄存器定义如下：: <br> <br>频率
+    C CUH ：: <br> <br>频率
+    Col8: <br> <br>频率
+    Col9: <br> <br>频率
+    UH: <br> <br>频率
+    C: <br> <br>频率
+    CU: <br> <br>频率
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 3
+    table_md_path: tables/page-0024-r03.md
+- name: U<br>0x05(6)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C C: U<br>0x05(6)
+    C CUH 每个地址对: <br> <br>键盘密码<br>输入值
+    Col3: <br> <br>键盘密码<br>输入值
+    Col4: <br> <br>键盘密码<br>输入值
+    UH H 对应的输入: <br> <br>1
+    H H C 入寄存器定义如下：: <br> <br> <br>【0，999】
+    C CUH ：: <br> <br> <br>
+    Col8: <br> <br> <br>
+    Col9: <br> <br> <br>
+    UH: <br> <br> <br> <br>
+    C: <br> <br> <br>
+    CU: <br> <br> <br><br>√
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 3
+    table_md_path: tables/page-0024-r03.md
+- name: <br>功能码
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C CUH 请求PDU: <br>功能码
+    CU UH 输入寄存器（只读数据）: <br> <br>1个字节
+    UH C CUH ）: <br> <br>0x04
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 4
+    table_md_path: tables/page-0024-r04.md
+- name: <br>起始地址
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C CUH 请求PDU: <br>起始地址
+    CU UH 输入寄存器（只读数据）: <br> <br>2个字节
+    UH C CUH ）: <br> <br>0x0000 至 0xFFFF
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 4
+    table_md_path: tables/page-0024-r04.md
+- name: <br>寄存器数量
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C CUH 请求PDU: <br>寄存器数量
+    CU UH 输入寄存器（只读数据）: <br> <br>2个字节
+    UH C CUH ）: <br> <br><br>0x0001 至 0x007D
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 4
+    table_md_path: tables/page-0024-r04.md
+- name: <br> <br> <br>功能码
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C H CUH 1个字节 2个字节 2个字节: <br> <br> <br>1个字节
+    UH UH CU C 0x04 0x0000 至 0xFFFF 0x0001 至 0x007D: <br><br>0x04
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 5
+    table_md_path: tables/page-0024-r05.md
+- name: <br> <br> <br>字节数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C H CUH 1个字节 2个字节 2个字节: <br> <br> <br>1个字节
+    UH UH CU C 0x04 0x0000 至 0xFFFF 0x0001 至 0x007D: <br><br>2 × N*
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 5
+    table_md_path: tables/page-0024-r05.md
+- name: <br> <br> <br>寄存器值
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C H CUH 1个字节 2个字节 2个字节: <br> <br> <br>N* ×2 个字节
+    UH UH CU C 0x04 0x0000 至 0xFFFF 0x0001 至 0x007D: <br>
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 5
+    table_md_path: tables/page-0024-r05.md
+- name: <br>功能码
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U UH C C N* = 寄存器数量 错误: <br>功能码
+    CUH UH C: <br> <br>1个字节
+    H C CUH: <br><br>0x84
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 6
+    table_md_path: tables/page-0024-r06.md
+- name: <br>异常码
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    U UH C C N* = 寄存器数量 错误: <br>异常码
+    CUH UH C: <br> <br>1个字节
+    H C CUH: <br><br><br>01、02、03、04
+  source_ref:
+    pdf_page: 24
+    layout_region_index: 6
+    table_md_path: tables/page-0024-r06.md
+- name: <br> <br>域名
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H H CU  请求: <br> <br>域名
+    CU UH C: <br> <br> <br>（十六进制）
+    UH C CU 响应: <br> <br> <br>域名
+    CUH UH C: <br> <br>（十六进制）
+  source_ref:
+    pdf_page: 25
+    layout_region_index: 1
+    table_md_path: tables/page-0025-r01.md
+- name: <br> <br>功能
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H H CU  请求: <br> <br>功能
+    CU UH C: <br> <br> <br>04
+    UH C CU 响应: <br> <br> <br>功能
+    CUH UH C: <br> <br>04
+  source_ref:
+    pdf_page: 25
+    layout_region_index: 1
+    table_md_path: tables/page-0025-r01.md
+- name: <br> <br>起始地址Hi
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H H CU  请求: <br> <br>起始地址Hi
+    CU UH C: <br> <br> <br>00
+    UH C CU 响应: <br> <br> <br>字节数
+    CUH UH C: <br> <br>02
+  source_ref:
+    pdf_page: 25
+    layout_region_index: 1
+    table_md_path: tables/page-0025-r01.md
+- name: <br> <br>起始地址Lo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H H CU  请求: <br> <br>起始地址Lo
+    CU UH C: <br> <br> <br>08
+    UH C CU 响应: <br> <br> <br>寄存器值9Hi
+    CUH UH C: <br> <br>00
+  source_ref:
+    pdf_page: 25
+    layout_region_index: 1
+    table_md_path: tables/page-0025-r01.md
+- name: <br> <br>输入寄存器数量Hi
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H H CU  请求: <br> <br>输入寄存器数量Hi
+    CU UH C: <br> <br> <br>00
+    UH C CU 响应: <br> <br> <br>寄存器值9Lo
+    CUH UH C: <br> <br>0A
+  source_ref:
+    pdf_page: 25
+    layout_region_index: 1
+    table_md_path: tables/page-0025-r01.md
+- name: <br> <br>输入寄存器数量Lo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H H CU  请求: <br> <br>输入寄存器数量Lo
+    CU UH C: <br> <br> <br>01
+    UH C CU 响应: <br> <br>
+    CUH UH C: <br> <br>
+  source_ref:
+    pdf_page: 25
+    layout_region_index: 1
+    table_md_path: tables/page-0025-r01.md
+- name: <br> <br> <br> <br> <br>0x00（1）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br> <br> <br>0x00（1）
+    Col2: <br> <br> <br> <br> <br>0x00（1）
+    Col3: <br> <br> <br> <br> <br>0x00（1）
+    C<br>输出电压<br>H: <br> H C<br> <br> <br> <br>输出电压
+    Col5: <br> H C<br> <br> <br> <br>输出电压
+    Col6: <br> H C<br> <br> <br> <br>输出电压
+    1V: <br> <br> <br> <br>1V
+    Col8: <br> <br> <br> <br>1V
+    Col9: <br> <br> <br> <br>1V
+    H<br>【0，260】<br>U: <br>  UH<br> <br> <br>【0，260】
+    Col11: <br>  UH<br> <br> <br>【0，260】
+    Col12: <br>  UH<br> <br> <br>【0，260】
+    Col13: <br> <br>
+    其最大可调: <br> <br> <br>电压为
+    Col15: <br> <br> <br>电压为
+    U<br>√ C: <br> <br> <br>电压为
+    Col17: <br> <br> <br>电压为
+    Col18: <br> <br> <br>电压为
+    √: <br> <br> <br>电压为
+    Col20: <br> <br> <br>电压为
+    Col21: <br> <br> <br>电压为
+    Col23: <br> <br> <br>电压为
+    Col24: <br> <br> <br>电压为
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br> <br> <br>0x00（1）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br> <br> <br>0x00（1）
+    Col2: <br> <br> <br> <br> <br>0x00（1）
+    Col3: <br> <br> <br> <br> <br>0x00（1）
+    C<br>输出电压<br>H: <br> H C<br> <br> <br> <br>输出电压
+    Col5: <br> H C<br> <br> <br> <br>输出电压
+    Col6: <br> H C<br> <br> <br> <br>输出电压
+    1V: <br> <br> <br> <br>1V
+    Col8: <br> <br> <br> <br>1V
+    Col9: <br> <br> <br> <br>1V
+    H<br>【0，260】<br>U: <br>  UH<br> <br> <br>【0，260】
+    Col11: <br>  UH<br> <br> <br>【0，260】
+    Col12: <br>  UH<br> <br> <br>【0，260】
+    Col13: <br> <br>
+    其最大可调: <br> <br> <br>“最大输出
+    Col15: <br> <br> <br>“最大输出
+    U<br>√ C: <br> <br> <br>“最大输出
+    Col17: <br> <br> <br>“最大输出
+    Col18: <br> <br> <br>“最大输出
+    √: <br> <br> <br>“最大输出
+    Col20: <br> <br> <br>“最大输出
+    Col21: <br> <br> <br>“最大输出
+    Col23: <br> <br> <br>“最大输出
+    Col24: <br> <br> <br>“最大输出
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br> <br> <br>0x00（1）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br> <br> <br>0x00（1）
+    Col2: <br> <br> <br> <br> <br>0x00（1）
+    Col3: <br> <br> <br> <br> <br>0x00（1）
+    C<br>输出电压<br>H: <br> H C<br> <br> <br> <br>输出电压
+    Col5: <br> H C<br> <br> <br> <br>输出电压
+    Col6: <br> H C<br> <br> <br> <br>输出电压
+    1V: <br> <br> <br> <br>1V
+    Col8: <br> <br> <br> <br>1V
+    Col9: <br> <br> <br> <br>1V
+    H<br>【0，260】<br>U: <br>  UH<br> <br> <br>【0，260】
+    Col11: <br>  UH<br> <br> <br>【0，260】
+    Col12: <br>  UH<br> <br> <br>【0，260】
+    Col13: <br> <br>
+    其最大可调: <br> <br> <br>电压”
+    Col15: <br> <br> <br>电压”
+    U<br>√ C: <br> <br> <br>电压”
+    Col17: <br> <br> <br>电压”
+    Col18: <br> <br> <br>电压”
+    √: <br> <br> <br>电压”
+    Col20: <br> <br> <br>电压”
+    Col21: <br> <br> <br>电压”
+    Col23: <br> <br> <br>电压”
+    Col24: <br> <br> <br>电压”
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br> <br>0x01（2）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br> <br>0x01（2）
+    Col2: <br> <br> <br> <br>0x01（2）
+    Col3: <br> <br> <br> <br>0x01（2）
+    C<br>输出电压<br>H: <br> <br> <br> <br>输出频率
+    Col5: <br> <br> <br> <br>输出频率
+    Col6: <br> <br> <br> <br>输出频率
+    1V: <br> <br> <br> <br>0.1Hz
+    Col8: <br> <br> <br> <br>0.1Hz
+    Col9: <br> <br> <br> <br>0.1Hz
+    H<br>【0，260】<br>U: <br> <br> <br> <br>【250，4000】
+    Col11: <br> <br> <br> <br>【250，4000】
+    Col12: <br> <br> <br> <br>【250，4000】
+    Col13: <br> <br>
+    其最大可调: <br> <br>
+    Col15: <br> <br>
+    U<br>√ C: <br> <br> <br>√
+    Col17: <br> <br> <br>√
+    Col18: <br> <br> <br>√
+    √: <br> <br>√
+    Col20: <br> <br>√
+    Col21: <br> <br>√
+    Col23: <br> <br>√
+    Col24: <br> <br>√
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br> <br>
+    Col2: <br> <br> <br> <br>0x02（3
+    Col3: <br> <br> <br> <br>）
+    C<br>输出电压<br>H: <br> <br> <br>
+    Col5: <br> <br> <br> <br>开延时
+    Col6: <br> <br> <br>
+    1V: <br> <br> <br>
+    Col8: <br> <br> <br> <br>0.1秒
+    Col9: <br> <br> <br> <br>
+    H<br>【0，260】<br>U: <br> <br> <br>
+    Col11: <br> <br> <br> <br>【0，200】
+    Col12: <br> <br>
+    Col13: <br> <br>
+    其最大可调: <br> <br>
+    Col15: <br> <br>
+    U<br>√ C: <br> <br>
+    Col17: <br> <br> <br>√
+    Col18: <br>
+    √: <br>
+    Col20: <br> <br>√
+    Col21: <br>
+    Col23: <br> <br>√
+    Col24: <br>
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br> <br>0x03（4）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br> <br>0x03（4）
+    Col2: <br> <br> <br> <br>0x03（4）
+    Col3: <br> <br> <br> <br>0x03（4）
+    C<br>输出电压<br>H: <br> <br> <br> <br>关延时
+    Col5: <br> <br> <br> <br>关延时
+    Col6: <br> <br> <br> <br>关延时
+    1V: <br> <br> <br> <br>0.1秒
+    Col8: <br> <br> <br> <br>0.1秒
+    Col9: <br> <br> <br> <br>0.1秒
+    H<br>【0，260】<br>U: <br> <br> <br> <br>【0，200】
+    Col11: <br> <br> <br> <br>【0，200】
+    Col12: <br> <br> <br> <br>【0，200】
+    Col13: <br> <br>
+    其最大可调: <br> <br>
+    Col15: <br> <br>
+    U<br>√ C: <br> <br> <br>√
+    Col17: <br> <br> <br>√
+    Col18: <br> <br> <br>√
+    √: <br> <br>√
+    Col20: <br> <br>√
+    Col21: <br> <br>√
+    Col23: <br> <br>√
+    Col24: <br> <br>√
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br> <br>
+    Col2: <br> <br> <br> <br> <br>0x04（5
+    Col3: <br> <br> <br> <br> <br>）
+    C<br>输出电压<br>H: <br> <br> <br> <br>
+    Col5: <br> <br> <br> <br> <br>缓启动时间
+    Col6: <br> <br> <br> <br> <br>
+    1V: <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br> <br>0.1秒
+    Col9: <br> <br> <br> <br> <br>
+    H<br>【0，260】<br>U: <br> <br> <br> <br>
+    Col11: <br> <br> <br> <br> <br>【0，100】
+    Col12: <br> <br> <br>
+    Col13: <br> <br> <br>
+    其最大可调: <br> <br> <br>
+    Col15: <br> <br> <br>
+    U<br>√ C: <br> <br> <br>
+    Col17: <br> <br> <br> <br>√
+    Col18: <br> <br>
+    √: <br> <br>
+    Col20: <br> <br> <br>√
+    Col21: <br> <br>
+    Col23: <br> <br> <br>√
+    Col24: <br> <br>
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br> <br> <br>0x05（6）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br> <br> <br>0x05（6）
+    Col2: <br> <br> <br> <br> <br>0x05（6）
+    Col3: <br> <br> <br> <br> <br>0x05（6）
+    C<br>输出电压<br>H: <br> U<br> <br> <br> <br>最大输出电<br>压
+    Col5: <br> U<br> <br> <br> <br>最大输出电<br>压
+    Col6: <br> U<br> <br> <br> <br>最大输出电<br>压
+    1V: <br> <br> <br> <br> <br>1V
+    Col8: <br> <br> <br> <br> <br>1V
+    Col9: <br> <br> <br> <br> <br>1V
+    H<br>【0，260】<br>U: <br> <br> <br> <br> <br>【0，260】
+    Col11: <br> <br> <br> <br> <br>【0，260】
+    Col12: <br> <br> <br> <br> <br>【0，260】
+    Col13: <br> <br> <br>
+    其最大可调: <br> <br> <br>
+    Col15: <br> <br> <br>
+    U<br>√ C: <br> <br> <br> <br>√
+    Col17: <br> <br> <br> <br>√
+    Col18: <br> <br> <br> <br>√
+    √: <br> <br> <br>√
+    Col20: <br> <br> <br>√
+    Col21: <br> <br> <br>√
+    Col23: <br> <br> <br>√
+    Col24: <br> <br> <br>√
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br> <br>
+    Col2: <br> <br> <br> <br> <br>0x06（7
+    Col3: <br> <br> <br> <br> <br>）
+    C<br>输出电压<br>H: <br> <br> <br> <br>
+    Col5: <br> <br> <br> <br> <br>加速指数
+    Col6: <br> <br> <br> <br>
+    1V: <br> <br> <br> <br>
+    Col8: <br> <br> <br> <br> <br>1
+    Col9: <br> <br> <br> <br>
+    H<br>【0，260】<br>U: <br> <br> <br> <br>
+    Col11: <br> <br> <br> <br> <br>【100，150】
+    Col12: <br> <br> <br> <br>
+    Col13: <br> <br> <br>
+    其最大可调: <br> <br> <br>
+    Col15: <br> <br> <br>
+    U<br>√ C: <br> <br> <br>
+    Col17: <br> <br> <br> <br>√
+    Col18: <br> <br>
+    √: <br> <br>
+    Col20: <br> <br> <br>√
+    Col21: <br> <br>
+    Col23: <br> <br> <br>√
+    Col24: <br> <br>
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br> <br> <br>0x07（8）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br> <br> <br>0x07（8）
+    Col2: <br> <br> <br> <br> <br>0x07（8）
+    Col3: <br> <br> <br> <br> <br>0x07（8）
+    C<br>输出电压<br>H: <br> <br> <br> <br> <br>波形指数
+    Col5: <br> <br> <br> <br> <br>波形指数
+    Col6: <br> <br> <br> <br> <br>波形指数
+    1V: <br> <br> <br> <br> <br>1
+    Col8: <br> <br> <br> <br> <br>1
+    Col9: <br> <br> <br> <br> <br>1
+    H<br>【0，260】<br>U: <br> <br> <br> <br> <br>【0，100】
+    Col11: <br> <br> <br> <br> <br>【0，100】
+    Col12: <br> <br> <br> <br> <br>【0，100】
+    Col13: <br> <br> <br>
+    其最大可调: <br> <br> <br>
+    Col15: <br> <br> <br>
+    U<br>√ C: <br> <br> <br> <br>√
+    Col17: <br> <br> <br> <br>√
+    Col18: <br> <br> <br> <br>√
+    √: <br> <br> <br>√
+    Col20: <br> <br> <br>√
+    Col21: <br> <br> <br>√
+    Col23: <br> <br> <br>√
+    Col24: <br> <br> <br>√
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br>
+    Col2: <br> <br> <br> <br>0x08（9
+    Col3: <br> <br> <br> <br>）
+    C<br>输出电压<br>H: <br> <br> <br> <br>
+    Col5: <br> <br> <br> <br>开延时（副）
+    Col6: <br> <br> <br> <br>
+    1V: <br> <br> <br>
+    Col8: <br> <br> <br> <br>0.1秒
+    Col9: <br> <br> <br> <br>
+    H<br>【0，260】<br>U: <br> <br> <br>
+    Col11: <br> <br> <br> <br>【0，200】
+    Col12: <br> <br> <br>
+    Col13: <br> <br> <br>
+    其最大可调: <br> <br> <br>
+    Col15: <br> <br> <br>
+    U<br>√ C: <br> <br> <br>
+    Col17: <br> <br> <br> <br>√
+    Col18: <br> <br>
+    √: <br> <br>
+    Col20: <br> <br> <br>√
+    Col21: <br> <br>
+    Col23: <br> <br> <br>√
+    Col24: <br> <br>
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br> <br>0x09<br>（10）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br> <br>0x09<br>（10）
+    Col2: <br> <br> <br> <br>0x09<br>（10）
+    Col3: <br> <br> <br> <br>0x09<br>（10）
+    C<br>输出电压<br>H: <br> <br> <br> <br>关延时（副）
+    Col5: <br> <br> <br> <br>关延时（副）
+    Col6: <br> <br> <br> <br>关延时（副）
+    1V: <br> <br> <br> <br>0.1秒
+    Col8: <br> <br> <br> <br>0.1秒
+    Col9: <br> <br> <br> <br>0.1秒
+    H<br>【0，260】<br>U: <br> <br> <br> <br> <br>【0，200】
+    Col11: <br> <br> <br> <br> <br>【0，200】
+    Col12: <br> <br> <br> <br> <br>【0，200】
+    Col13: <br> <br> <br> <br>
+    其最大可调: <br> <br> <br> <br>
+    Col15: <br> <br> <br> <br>
+    U<br>√ C: <br> <br> <br> <br> <br>√
+    Col17: <br> <br> <br> <br> <br>√
+    Col18: <br> <br> <br> <br> <br>√
+    √: <br> <br> <br> <br>√
+    Col20: <br> <br> <br> <br>√
+    Col21: <br> <br> <br> <br>√
+    Col23: <br> <br> <br> <br>√
+    Col24: <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br>
+    Col2: <br> <br> <br> <br>0x0A
+    Col3: <br> <br> <br> <br>
+    C<br>输出电压<br>H: <br> H<br> <br> <br>键盘密码
+    Col5: <br> H<br> <br> <br>键盘密码
+    Col6: <br> H<br> <br> <br>键盘密码
+    1V: <br> <br> <br> <br>1
+    Col8: <br> <br> <br> <br>1
+    Col9: <br> <br> <br> <br>1
+    H<br>【0，260】<br>U: <br> <br>  U<br> <br> <br>【0，999】
+    Col11: <br> <br>  U<br> <br> <br>【0，999】
+    Col12: <br> <br>  U<br> <br> <br>【0，999】
+    Col13: <br> <br> <br> <br>
+    其最大可调: <br> <br> <br> <br>
+    Col15: <br> <br> <br> <br>
+    U<br>√ C: <br> <br> <br> <br> <br>√
+    Col17: <br> <br> <br> <br> <br>√
+    Col18: <br> <br> <br> <br> <br>√
+    √: <br> <br> <br> <br>√
+    Col20: <br> <br> <br> <br>√
+    Col21: <br> <br> <br> <br>√
+    Col23: <br> <br> <br> <br>√
+    Col24: <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br>
+    Col2: <br> <br> <br> <br>（11）
+    Col3: <br> <br> <br> <br>（11）
+    C<br>输出电压<br>H: <br> <br> <br> <br>（11）
+    Col5: <br> <br> <br> <br>（11）
+    Col6: <br> <br> <br> <br>（11）
+    1V: <br> <br> <br> <br>（11）
+    Col8: <br> <br> <br> <br>（11）
+    Col9: <br> <br> <br> <br>（11）
+    H<br>【0，260】<br>U: <br> <br> <br> <br>（11）
+    Col11: <br> <br> <br> <br>（11）
+    Col12: <br> <br> <br> <br>（11）
+    Col13: <br> <br> <br> <br>（11）
+    其最大可调: <br> <br> <br> <br>（11）
+    Col15: <br> <br> <br> <br>（11）
+    U<br>√ C: <br> <br> <br> <br>（11）
+    Col17: <br> <br> <br> <br>（11）
+    Col18: <br> <br> <br> <br>（11）
+    √: <br> <br> <br> <br>（11）
+    Col20: <br> <br> <br> <br>（11）
+    Col21: <br> <br> <br> <br>（11）
+    Col23: <br> <br> <br> <br>（11）
+    Col24: <br> <br> <br> <br>（11）
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br> <br>0x0B<br>（12）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br> <br>0x0B<br>（12）
+    Col2: <br> <br> <br> <br>0x0B<br>（12）
+    Col3: <br> <br> <br> <br>0x0B<br>（12）
+    C<br>输出电压<br>H: <br> <br> <br> <br>通信地址
+    Col5: <br> <br> <br> <br>通信地址
+    Col6: <br> <br> <br> <br>通信地址
+    1V: <br> <br> <br> <br>1
+    Col8: <br> <br> <br> <br>1
+    Col9: <br> <br> <br> <br>1
+    H<br>【0，260】<br>U: <br> <br> <br> <br> <br>【1，31】
+    Col11: <br> <br> <br> <br> <br>【1，31】
+    Col12: <br> <br> <br> <br> <br>【1，31】
+    Col13: <br> <br> <br> <br>
+    其最大可调: <br> <br> <br> <br>
+    Col15: <br> <br> <br> <br>
+    U<br>√ C: <br> <br> <br> <br> <br>√
+    Col17: <br> <br> <br> <br> <br>√
+    Col18: <br> <br> <br> <br> <br>√
+    √: <br> <br> <br> <br>√
+    Col20: <br> <br> <br> <br>√
+    Col21: <br> <br> <br> <br>√
+    Col23: <br> <br> <br> <br>√
+    Col24: <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br>0x0C<br>（13）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br>0x0C<br>（13）
+    Col2: <br> <br> <br>0x0C<br>（13）
+    Col3: <br> <br> <br>0x0C<br>（13）
+    C<br>输出电压<br>H: <br> U<br> <br>通信波特率
+    Col5: <br> U<br> <br>通信波特率
+    Col6: <br> U<br> <br>通信波特率
+    1V: <br> H<br> <br>0.1kbps
+    Col8: <br> H<br> <br>0.1kbps
+    Col9: <br> H<br> <br>0.1kbps
+    H<br>【0，260】<br>U: <br> <br>  C<br> <br>【3，1152】
+    Col11: <br> <br>  C<br> <br>【3，1152】
+    Col12: <br> <br>  C<br> <br>【3，1152】
+    Col13: <br> <br> <br> <br>
+    其最大可调: <br> <br> <br> <br>3，12，24，
+    Col15: <br> <br> <br> <br> <br>
+    U<br>√ C: <br> <br> <br> <br> <br>√
+    Col17: <br> <br> <br> <br> <br>√
+    Col18: <br> <br> <br> <br> <br>√
+    √: <br> <br> <br> <br> <br>√
+    Col20: <br> <br> <br> H<br> <br>√
+    Col21: <br> <br> <br> H<br> <br>√
+    Col23: <br> <br> <br> <br> <br>√
+    Col24: <br> <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br>0x0C<br>（13）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br>0x0C<br>（13）
+    Col2: <br> <br> <br>0x0C<br>（13）
+    Col3: <br> <br> <br>0x0C<br>（13）
+    C<br>输出电压<br>H: <br> U<br> <br>通信波特率
+    Col5: <br> U<br> <br>通信波特率
+    Col6: <br> U<br> <br>通信波特率
+    1V: <br> H<br> <br>0.1kbps
+    Col8: <br> H<br> <br>0.1kbps
+    Col9: <br> H<br> <br>0.1kbps
+    H<br>【0，260】<br>U: <br> <br>  C<br> <br>【3，1152】
+    Col11: <br> <br>  C<br> <br>【3，1152】
+    Col12: <br> <br>  C<br> <br>【3，1152】
+    Col13: <br> <br> <br> <br>
+    其最大可调: <br> <br> <br> <br> <br>96，
+    Col15: <br> <br> <br> <br> <br>96，
+    U<br>√ C: <br> <br> <br> <br> <br>96，
+    Col17: <br> <br> <br> <br> <br>96，
+    Col18: <br> <br> <br> <br> <br>96，
+    √: <br> <br> <br> <br> <br>96，
+    Col20: <br> <br> <br> <br> <br>96，
+    Col21: <br> <br> <br> <br> <br>96，
+    Col23: <br> <br> <br> <br> <br>96，
+    Col24: <br> <br> <br> <br> <br>96，
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br>0x0C<br>（13）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br>0x0C<br>（13）
+    Col2: <br> <br> <br>0x0C<br>（13）
+    Col3: <br> <br> <br>0x0C<br>（13）
+    C<br>输出电压<br>H: <br> U<br> <br>通信波特率
+    Col5: <br> U<br> <br>通信波特率
+    Col6: <br> U<br> <br>通信波特率
+    1V: <br> H<br> <br>0.1kbps
+    Col8: <br> H<br> <br>0.1kbps
+    Col9: <br> H<br> <br>0.1kbps
+    H<br>【0，260】<br>U: <br> <br>  C<br> <br>【3，1152】
+    Col11: <br> <br>  C<br> <br>【3，1152】
+    Col12: <br> <br>  C<br> <br>【3，1152】
+    Col13: <br> <br> <br> <br>
+    其最大可调: <br> <br> <br> <br> <br>192，576，
+    Col15: <br> <br> <br> <br> <br>192，576，
+    U<br>√ C: <br> <br> <br> <br> <br>192，576，
+    Col17: <br> <br> <br> <br> <br>192，576，
+    Col18: <br> <br> <br> <br> <br>192，576，
+    √: <br> <br> <br> <br> <br>192，576，
+    Col20: <br> <br> <br> <br> <br>192，576，
+    Col21: <br> <br> <br> <br> <br>192，576，
+    Col23: <br> <br> <br> <br> <br>192，576，
+    Col24: <br> <br> <br> <br> <br>192，576，
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br>0x0C<br>（13）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br>0x0C<br>（13）
+    Col2: <br> <br> <br>0x0C<br>（13）
+    Col3: <br> <br> <br>0x0C<br>（13）
+    C<br>输出电压<br>H: <br> U<br> <br>通信波特率
+    Col5: <br> U<br> <br>通信波特率
+    Col6: <br> U<br> <br>通信波特率
+    1V: <br> H<br> <br>0.1kbps
+    Col8: <br> H<br> <br>0.1kbps
+    Col9: <br> H<br> <br>0.1kbps
+    H<br>【0，260】<br>U: <br> <br>  C<br> <br>【3，1152】
+    Col11: <br> <br>  C<br> <br>【3，1152】
+    Col12: <br> <br>  C<br> <br>【3，1152】
+    Col13: <br> <br> <br> <br>
+    其最大可调: <br> <br> <br> <br> <br>1152
+    Col15: <br> <br> <br> <br> <br>1152
+    U<br>√ C: <br> <br> <br> <br> <br>1152
+    Col17: <br> <br> <br> <br> <br>1152
+    Col18: <br> <br> <br> <br> <br>1152
+    √: <br> <br> <br> <br> <br>1152
+    Col20: <br> <br> <br> <br> <br>1152
+    Col21: <br> <br> <br> <br> <br>1152
+    Col23: <br> <br> <br> <br> <br>1152
+    Col24: <br> <br> <br> <br> <br>1152
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br>0x0D<br>（14）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: <br> <br> <br>0x0D<br>（14）
+    Col2: <br> <br> <br>0x0D<br>（14）
+    Col3: <br> <br> <br>0x0D<br>（14）
+    C<br>输出电压<br>H: <br> C<br> <br>开延时2
+    Col5: <br> C<br> <br>开延时2
+    Col6: <br> C<br> <br>开延时2
+    1V: <br> <br> <br>0.1秒
+    Col8: <br> <br> <br>0.1秒
+    Col9: <br> <br> <br>0.1秒
+    H<br>【0，260】<br>U: <br> <br> H<br> <br>【0，200】
+    Col11: <br> <br> H<br> <br>【0，200】
+    Col12: <br> <br> H<br> <br>【0，200】
+    Col13: <br> <br> <br> <br>
+    其最大可调: <br> <br> <br> <br>
+    Col15: <br> <br> <br> <br>
+    U<br>√ C: <br> <br> <br> <br>
+    Col17: <br> <br> <br> <br>
+    Col18: <br> <br> <br> <br>
+    √: <br> <br> <br> <br> <br>√
+    Col20: <br> <br> <br> <br> <br>√
+    Col21: <br> <br> <br> <br> <br>√
+    Col23: <br> <br> <br> <br> <br>√
+    Col24: <br> <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: U<br> <br>0x0F<br>（16）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H<br>0x00（1）: U<br> <br>0x0F<br>（16）
+    Col2: U<br> <br>0x0F<br>（16）
+    Col3: U<br> <br>0x0F<br>（16）
+    C<br>输出电压<br>H: <br> <br>开延时2（副）
+    Col5: <br> <br>开延时2（副）
+    Col6: <br> <br>开延时2（副）
+    1V: <br> <br>0.1秒
+    Col8: <br> <br>0.1秒
+    Col9: <br> <br>0.1秒
+    H<br>【0，260】<br>U: <br> <br> <br>【0，200】
+    Col11: <br> <br> <br>【0，200】
+    Col12: <br> <br> <br>【0，200】
+    Col13: <br> <br> <br>
+    其最大可调: <br> <br> <br>
+    Col15: <br> <br> <br>
+    U<br>√ C: <br> <br> <br>
+    Col17: <br> <br> <br>
+    Col18: <br> <br> <br>
+    √: <br> <br> <br> <br><br>√
+    Col20: <br> <br> <br> <br><br>√
+    Col21: <br> <br> <br> <br><br>√
+    Col23: <br> <br> <br> <br><br>√
+    Col24: <br> <br> <br> <br><br>√
+  source_ref:
+    pdf_page: 26
+    layout_region_index: 3
+    table_md_path: tables/page-0026-r03.md
+- name: <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br> <br>
+    Col2: <br> <br> <br> <br>0x12
+    Col3: <br> <br> <br> <br>
+    C<br>光电阈值: <br> <br> <br> <br>送料速度
+    Col5: <br> <br> <br> <br>送料速度
+    Col6: <br> <br> <br> <br>送料速度
+    '1': <br> <br> <br>1
+    H<br>U<br>【0，1000】: <br> <br> <br>【0，3200】
+    C: <br>
+    Col10: <br>
+    Col11: <br>
+    Col12: <br>
+    √: <br>
+    H: <br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br> <br>
+    Col2: <br> <br> <br> <br>（19）
+    Col3: <br> <br> <br> <br>（19）
+    C<br>光电阈值: <br> <br> <br> <br>（19）
+    Col5: <br> <br> <br> <br>（19）
+    Col6: <br> <br> <br> <br>（19）
+    '1': <br> <br> <br> <br>（19）
+    H<br>U<br>【0，1000】: <br> <br> <br> <br>（19）
+    C: <br> <br> <br> <br>（19）
+    Col10: <br> <br> <br> <br>（19）
+    Col11: <br> <br> <br> <br>（19）
+    Col12: <br> <br> <br> <br>（19）
+    √: <br> <br> <br> <br>（19）
+    H: <br> <br> <br> <br>（19）
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br> <br> <br> <br>0x13<br>（20）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br> <br> <br> <br>0x13<br>（20）
+    Col2: <br> <br> <br> <br> <br>0x13<br>（20）
+    Col3: <br> <br> <br> <br> <br>0x13<br>（20）
+    C<br>光电阈值: <br> <br> <br> <br> <br>中心频率
+    Col5: <br> <br> <br> <br> <br>中心频率
+    Col6: <br> <br> <br> <br> <br>中心频率
+    '1': <br> <br> <br> <br>0.1Hz
+    H<br>U<br>【0，1000】: <br> <br> <br> <br>【250，4000】
+    C: <br> <br>
+    Col10: <br> <br>
+    Col11: <br> <br>
+    Col12: <br> <br>
+    √: <br> <br>
+    H: <br> <br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br> <br> <br>
+    Col2: <br> <br> <br> <br> <br>0x14
+    Col3: <br> <br> <br> <br> <br>
+    C<br>光电阈值: <br> <br> <br> <br>
+    Col5: <br> <br> <br> <br> <br>频率可调范
+    Col6: <br> <br> <br> <br>
+    '1': <br> <br> <br> <br>0.1Hz
+    H<br>U<br>【0，1000】: <br>   C<br> <br> <br>【0，1800】
+    C: <br> <br>
+    Col10: <br> <br>
+    Col11: <br> <br>
+    Col12: <br> <br>
+    √: <br> <br>
+    H: <br> <br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br> <br> <br>
+    Col2: <br> <br> <br> <br> <br>（21）
+    Col3: <br> <br> <br> <br> <br>（21）
+    C<br>光电阈值: <br> <br> <br> <br> <br>（21）
+    Col5: <br> <br> <br> <br> <br>围
+    Col6: <br> <br> <br> <br> <br>围
+    '1': <br> <br> <br> <br> <br>围
+    H<br>U<br>【0，1000】: <br> <br> <br> <br> <br>围
+    C: <br> <br> <br> <br> <br>围
+    Col10: <br> <br> <br> <br> <br>围
+    Col11: <br> <br> <br> <br> <br>围
+    Col12: <br> <br> <br> <br> <br>围
+    √: <br> <br> <br> <br> <br>围
+    H: <br> <br> <br> <br> <br>围
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br> <br> <br>0x15<br>（22）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br> <br> <br>0x15<br>（22）
+    Col2: <br> <br> <br> <br>0x15<br>（22）
+    Col3: <br> <br> <br> <br>0x15<br>（22）
+    C<br>光电阈值: <br> <br> <br> <br>频率调整参<br>数I
+    Col5: <br> <br> <br> <br>频率调整参<br>数I
+    Col6: <br> <br> <br> <br>频率调整参<br>数I
+    '1': <br> <br> <br> <br>1
+    H<br>U<br>【0，1000】: <br> <br> <br> <br>【0，200】
+    C: <br>   U<br>
+    Col10: <br>   U<br>
+    Col11: <br>   U<br>
+    Col12: <br> <br>
+    √: <br> <br>
+    H: <br> <br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br> <br>
+    Col2: <br> <br> <br> <br>0x16
+    Col3: <br> <br> <br> <br>
+    C<br>光电阈值: <br> <br> <br>
+    Col5: <br> <br> <br> <br>振幅调整参
+    Col6: <br> <br> <br>
+    '1': <br> <br> <br> <br>1
+    H<br>U<br>【0，1000】: <br> <br> <br> <br>【0，999】
+    C: <br> <br>
+    Col10: <br> <br>
+    Col11: <br> <br>
+    Col12: <br> <br>
+    √: <br> <br>
+    H: <br> <br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br> <br>
+    Col2: <br> <br> <br> <br>（23）
+    Col3: <br> <br> <br> <br>（23）
+    C<br>光电阈值: <br> <br> <br> <br>（23）
+    Col5: <br> <br> <br> <br>数P
+    Col6: <br> <br> <br> <br>数P
+    '1': <br> <br> <br> <br>数P
+    H<br>U<br>【0，1000】: <br> <br> <br> <br>数P
+    C: <br> <br> <br> <br>数P
+    Col10: <br> <br> <br> <br>数P
+    Col11: <br> <br> <br> <br>数P
+    Col12: <br> <br> <br> <br>数P
+    √: <br> <br> <br> <br>数P
+    H: <br> <br> <br> <br>数P
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br> <br> <br> <br>0x17<br>（24）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br> <br> <br> <br>0x17<br>（24）
+    Col2: <br> <br> <br> <br> <br>0x17<br>（24）
+    Col3: <br> <br> <br> <br> <br>0x17<br>（24）
+    C<br>光电阈值: <br> <br> <br> <br> <br>振幅调整参<br>数I
+    Col5: <br> <br> <br> <br> <br>振幅调整参<br>数I
+    Col6: <br> <br> <br> <br> <br>振幅调整参<br>数I
+    '1': <br> <br> <br> <br> <br>1
+    H<br>U<br>【0，1000】: <br> <br>  H<br> <br> <br>【0，999】
+    C: <br> <br> <br>
+    Col10: <br> <br> <br>
+    Col11: <br> <br> <br>
+    Col12: <br> <br> <br>
+    √: <br> <br> <br>
+    H: <br> <br> <br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br> <br> <br>
+    Col2: <br> <br> <br> <br> <br>0x18
+    Col3: <br> <br> <br> <br> <br>
+    C<br>光电阈值: <br> <br> <br> <br>
+    Col5: <br> <br> <br> <br> <br>最大振幅限
+    Col6: <br> <br> <br> <br>
+    '1': <br> <br> <br> <br> <br>1
+    H<br>U<br>【0，1000】: <br> <br>  U<br> <br> <br>【0，500】
+    C: <br> <br> <br>
+    Col10: <br> <br> <br>
+    Col11: <br> <br> <br>
+    Col12: <br> <br> <br>
+    √: <br> <br> <br>
+    H: <br> <br> <br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br> <br> <br>
+    Col2: <br> <br> <br> <br>（25）
+    Col3: <br> <br> <br> <br>（25）
+    C<br>光电阈值: <br> <br> <br> <br>（25）
+    Col5: <br> <br> <br> <br>定
+    Col6: <br> <br> <br> <br>定
+    '1': <br> <br> <br> <br>定
+    H<br>U<br>【0，1000】: <br> <br> <br> <br>定
+    C: <br> <br> <br> <br>定
+    Col10: <br> <br> <br> <br>定
+    Col11: <br> <br> <br> <br>定
+    Col12: <br> <br> <br> <br>定
+    √: <br> <br> <br> <br>定
+    H: <br> <br> <br> <br>定
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br> <br> <br>0x19<br>（26）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br> <br> <br>0x19<br>（26）
+    Col2: <br> <br> <br> <br>0x19<br>（26）
+    Col3: <br> <br> <br> <br>0x19<br>（26）
+    C<br>光电阈值: <br> <br> <br> <br>相位差
+    Col5: <br> <br> <br> <br>相位差
+    Col6: <br> <br> <br> <br>相位差
+    '1': <br> <br> <br> <br>1°
+    H<br>U<br>【0，1000】: <br> <br> <br> <br>【-180，180】
+    C: <br> <br>   H<br>
+    Col10: <br> <br>   H<br>
+    Col11: <br> <br>   H<br>
+    Col12: <br> <br> <br>
+    √: <br> <br> <br>
+    H: <br> <br> <br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: C<br> <br> <br> <br> <br>0x1A<br>（27）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: C<br> <br> <br> <br> <br>0x1A<br>（27）
+    Col2: C<br> <br> <br> <br> <br>0x1A<br>（27）
+    Col3: C<br> <br> <br> <br> <br>0x1A<br>（27）
+    C<br>光电阈值: <br> U<br> <br> <br> <br>最大搜频电<br>压
+    Col5: <br> U<br> <br> <br> <br>最大搜频电<br>压
+    Col6: <br> U<br> <br> <br> <br>最大搜频电<br>压
+    '1': <br> <br> <br> <br> <br>1V
+    H<br>U<br>【0，1000】: <br> <br>   C<br> <br> <br>【0，260】
+    C: <br> <br> <br> <br>
+    Col10: <br> <br> <br> <br>其最大可调
+    Col11: <br> <br> <br> <br>
+    Col12: <br> <br> <br>   H<br>
+    √: <br> <br> <br> <br>
+    H: <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: C<br> <br> <br> <br> <br>0x1A<br>（27）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: C<br> <br> <br> <br> <br>0x1A<br>（27）
+    Col2: C<br> <br> <br> <br> <br>0x1A<br>（27）
+    Col3: C<br> <br> <br> <br> <br>0x1A<br>（27）
+    C<br>光电阈值: <br> U<br> <br> <br> <br>最大搜频电<br>压
+    Col5: <br> U<br> <br> <br> <br>最大搜频电<br>压
+    Col6: <br> U<br> <br> <br> <br>最大搜频电<br>压
+    '1': <br> <br> <br> <br> <br>1V
+    H<br>U<br>【0，1000】: <br> <br>   C<br> <br> <br>【0，260】
+    C: <br> <br> <br> <br>
+    Col10: <br> <br> <br> <br> <br>电压为
+    Col11: <br> <br> <br> <br> <br>电压为
+    Col12: <br> <br> <br> <br> <br>电压为
+    √: <br> <br> <br> <br> <br>电压为
+    H: <br> <br> <br> <br> <br>电压为
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: C<br> <br> <br> <br> <br>0x1A<br>（27）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: C<br> <br> <br> <br> <br>0x1A<br>（27）
+    Col2: C<br> <br> <br> <br> <br>0x1A<br>（27）
+    Col3: C<br> <br> <br> <br> <br>0x1A<br>（27）
+    C<br>光电阈值: <br> U<br> <br> <br> <br>最大搜频电<br>压
+    Col5: <br> U<br> <br> <br> <br>最大搜频电<br>压
+    Col6: <br> U<br> <br> <br> <br>最大搜频电<br>压
+    '1': <br> <br> <br> <br> <br>1V
+    H<br>U<br>【0，1000】: <br> <br>   C<br> <br> <br>【0，260】
+    C: <br> <br> <br> <br>
+    Col10: <br> <br> <br> <br> <br>“最大输出
+    Col11: <br> <br> <br> <br> <br>“最大输出
+    Col12: <br> <br> <br> <br> <br>“最大输出
+    √: <br> <br> <br> <br> <br>“最大输出
+    H: <br> <br> <br> <br> <br>“最大输出
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: C<br> <br> <br> <br> <br>0x1A<br>（27）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: C<br> <br> <br> <br> <br>0x1A<br>（27）
+    Col2: C<br> <br> <br> <br> <br>0x1A<br>（27）
+    Col3: C<br> <br> <br> <br> <br>0x1A<br>（27）
+    C<br>光电阈值: <br> U<br> <br> <br> <br>最大搜频电<br>压
+    Col5: <br> U<br> <br> <br> <br>最大搜频电<br>压
+    Col6: <br> U<br> <br> <br> <br>最大搜频电<br>压
+    '1': <br> <br> <br> <br> <br>1V
+    H<br>U<br>【0，1000】: <br> <br>   C<br> <br> <br>【0，260】
+    C: <br> <br> <br> <br>
+    Col10: <br> <br> <br> <br> <br>电压”
+    Col11: <br> <br> <br> <br> <br>电压”
+    Col12: <br> <br> <br> <br> <br>电压”
+    √: <br> <br> <br> <br> <br>电压”
+    H: <br> <br> <br> <br> <br>电压”
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br> <br> <br> <br>0x1B<br>（28）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br> <br> <br> <br>0x1B<br>（28）
+    Col2: <br> <br> <br> <br> <br>0x1B<br>（28）
+    Col3: <br> <br> <br> <br> <br>0x1B<br>（28）
+    C<br>光电阈值: <br> <br> <br> <br> <br>送料速度加<br>减刻度
+    Col5: <br> <br> <br> <br> <br>送料速度加<br>减刻度
+    Col6: <br> <br> <br> <br> <br>送料速度加<br>减刻度
+    '1': <br> <br> <br> <br> <br>0.1秒
+    H<br>U<br>【0，1000】: <br> <br> <br> <br> <br>【1，10】
+    C: <br> <br> <br>   C<br>
+    Col10: <br> <br> <br>   C<br>
+    Col11: <br> <br> <br>   C<br>
+    Col12: <br> <br> <br> <br>
+    √: <br> <br> <br> <br>
+    H: <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br>
+    Col2: <br> <br> <br> <br>0x1C
+    Col3: <br> <br> <br> <br>
+    C<br>光电阈值: <br> <br> <br> <br>传感器型号
+    Col5: <br> <br> <br> <br>传感器型号
+    Col6: <br> <br> <br> <br>传感器型号
+    '1': <br> <br> <br> <br> <br>0.1秒
+    H<br>U<br>【0，1000】: <br> <br> <br> <br> <br>【1，4】
+    C: <br> <br> <br> <br>
+    Col10: <br> <br> <br> <br>
+    Col11: <br> <br> <br> <br>
+    Col12: <br> <br> <br> <br>
+    √: <br> <br> <br> <br>
+    H: <br> <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br>
+    Col2: <br> <br> <br> <br>（29）
+    Col3: <br> <br> <br> <br>（29）
+    C<br>光电阈值: <br> <br> <br> <br>（29）
+    Col5: <br> <br> <br> <br>（29）
+    Col6: <br> <br> <br> <br>（29）
+    '1': <br> <br> <br> <br>（29）
+    H<br>U<br>【0，1000】: <br> <br> <br> <br>（29）
+    C: <br> <br> <br> <br>（29）
+    Col10: <br> <br> <br> <br>（29）
+    Col11: <br> <br> <br> <br>（29）
+    Col12: <br> <br> <br> <br>（29）
+    √: <br> <br> <br> <br>（29）
+    H: <br> <br> <br> <br>（29）
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br> <br> <br>0x1D<br>（30）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br> <br> <br>0x1D<br>（30）
+    Col2: <br> <br> <br> <br>0x1D<br>（30）
+    Col3: <br> <br> <br> <br>0x1D<br>（30）
+    C<br>光电阈值: <br> <br> <br> <br>输出电压1
+    Col5: <br> <br> <br> <br>输出电压1
+    Col6: <br> <br> <br> <br>输出电压1
+    '1': <br> <br> <br> <br> <br>1V
+    H<br>U<br>【0，1000】: <br> <br>  U<br> <br> <br>【0，260】
+    C: <br> <br> <br> <br>
+    Col10: <br> <br> <br> <br>
+    Col11: <br> <br> <br> <br>
+    Col12: <br> <br> <br> <br>
+    √: <br> <br> <br> <br>
+    H: <br> <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br>
+    Col2: <br> <br> <br> <br>0x1E
+    Col3: <br> <br> <br> <br>
+    C<br>光电阈值: <br> H<br> <br> <br>输出频率1
+    Col5: <br> H<br> <br> <br>输出频率1
+    Col6: <br> H<br> <br> <br>输出频率1
+    '1': <br> <br> <br> <br> <br>0.1Hz
+    H<br>U<br>【0，1000】: <br> <br> <br> <br> <br>【250，4000】
+    C: <br> <br> <br> <br>
+    Col10: <br> <br> <br> <br>
+    Col11: <br> <br> <br> <br>
+    Col12: <br> <br> <br> <br>
+    √: <br> <br> <br> <br>
+    H: <br> <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br>
+    Col2: <br> <br> <br> <br>（31）
+    Col3: <br> <br> <br> <br>（31）
+    C<br>光电阈值: <br> <br> <br> <br>（31）
+    Col5: <br> <br> <br> <br>（31）
+    Col6: <br> <br> <br> <br>（31）
+    '1': <br> <br> <br> <br>（31）
+    H<br>U<br>【0，1000】: <br> <br> <br> <br>（31）
+    C: <br> <br> <br> <br>（31）
+    Col10: <br> <br> <br> <br>（31）
+    Col11: <br> <br> <br> <br>（31）
+    Col12: <br> <br> <br> <br>（31）
+    √: <br> <br> <br> <br>（31）
+    H: <br> <br> <br> <br>（31）
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br> <br>0x1F<br>（32）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br> <br>0x1F<br>（32）
+    Col2: <br> <br> <br>0x1F<br>（32）
+    Col3: <br> <br> <br>0x1F<br>（32）
+    C<br>光电阈值: <br> <br> <br>送料速度1
+    Col5: <br> <br> <br>送料速度1
+    Col6: <br> <br> <br>送料速度1
+    '1': <br> H<br> <br> <br>1
+    H<br>U<br>【0，1000】: <br> <br> <br> <br>【0，3200】
+    C: <br> <br>  U<br> <br>
+    Col10: <br> <br>  U<br> <br>
+    Col11: <br> <br>  U<br> <br>
+    Col12: <br> <br> <br> <br>
+    √: <br> <br> <br> <br>
+    H: <br> <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br>
+    Col2: <br> <br> <br>0x20
+    Col3: <br> <br> <br>
+    C<br>光电阈值: <br> <br> <br>输出电压2
+    Col5: <br> <br> <br>输出电压2
+    Col6: <br> <br> <br>输出电压2
+    '1': <br> <br> <br> <br>1V
+    H<br>U<br>【0，1000】: <br> <br> <br> <br>【0，260】
+    C: <br> <br> <br> <br>
+    Col10: <br> <br> <br> <br>
+    Col11: <br> <br> <br> <br>
+    Col12: <br> <br> <br> <br>
+    √: <br> <br> <br> <br>
+    H: <br> <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br>
+    Col2: <br> <br> <br>（33）
+    Col3: <br> <br> <br>（33）
+    C<br>光电阈值: <br> <br> <br>（33）
+    Col5: <br> <br> <br>（33）
+    Col6: <br> <br> <br>（33）
+    '1': <br> <br> <br>（33）
+    H<br>U<br>【0，1000】: <br> <br> <br>（33）
+    C: <br> <br> <br>（33）
+    Col10: <br> <br> <br>（33）
+    Col11: <br> <br> <br>（33）
+    Col12: <br> <br> <br>（33）
+    √: <br> <br> <br>（33）
+    H: <br> <br> <br>（33）
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br> <br>0x21<br>（34）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br> <br>0x21<br>（34）
+    Col2: <br> <br> <br>0x21<br>（34）
+    Col3: <br> <br> <br>0x21<br>（34）
+    C<br>光电阈值: <br> C<br> <br>输出频率2
+    Col5: <br> C<br> <br>输出频率2
+    Col6: <br> C<br> <br>输出频率2
+    '1': <br> <br> <br> <br>0.1Hz
+    H<br>U<br>【0，1000】: <br> <br> H<br> <br>【250，4000】
+    C: <br> <br> <br> <br>
+    Col10: <br> <br> <br> <br>
+    Col11: <br> <br> <br> <br>
+    Col12: <br> <br> <br> <br>
+    √: <br> <br> <br> <br>
+    H: <br> <br> <br> <br> <br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: U<br> <br>0x23<br>（36）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: U<br> <br>0x23<br>（36）
+    Col2: U<br> <br>0x23<br>（36）
+    Col3: U<br> <br>0x23<br>（36）
+    C<br>光电阈值: <br> <br>输出电压3
+    Col5: <br> <br>输出电压3
+    Col6: <br> <br>输出电压3
+    '1': <br> <br> <br>1V
+    H<br>U<br>【0，1000】: <br> <br> <br>【0，260】
+    C: <br> <br> <br>
+    Col10: <br> <br> <br>
+    Col11: <br> <br> <br>
+    Col12: <br> <br> <br>
+    √: <br> <br> <br> <br>
+    H: <br> <br> <br> <br><br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br>0x25
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    0x11<br>（18）: <br> <br>0x25
+    Col2: <br> <br>0x25
+    Col3: <br> <br>0x25
+    C<br>光电阈值: <br> <br>送料速度3
+    Col5: <br> <br>送料速度3
+    Col6: <br> <br>送料速度3
+    '1': <br> <br> <br>1
+    H<br>U<br>【0，1000】: <br> <br> <br>【0，3200】
+    C: <br> <br> <br>
+    Col10: <br> <br> <br>
+    Col11: <br> <br> <br>
+    Col12: <br> <br> <br>
+    √: <br> <br> <br> <br>
+    H: <br> <br> <br> <br><br>√
+  source_ref:
+    pdf_page: 27
+    layout_region_index: 1
+    table_md_path: tables/page-0027-r01.md
+- name: <br> <br> <br> <br>（38）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br> <br> <br> <br>（38）
+    Col2: <br> <br> <br> <br>（38）
+    Col3: <br> <br> <br> <br>（38）
+    CU: <br> <br> <br>
+    Col5: <br> <br> <br>
+    Col6: <br> <br> <br>
+    CU UH: <br> <br>
+    UH C: <br> <br>
+    C CU: <br>
+    CUH: <br>
+    UH H: <br>
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br> <br> <br>
+    Col2: <br> <br> <br> <br>0x26
+    Col3: <br> <br> <br> <br>
+    CU: <br> <br> <br>
+    Col5: <br> <br> <br> <br>最大计数限
+    Col6: <br> <br> <br>
+    CU UH: <br> <br> <br>1
+    UH C: <br> <br> <br>【0,9999】
+    C CU: <br>
+    CUH: <br>
+    UH H: <br>
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br> <br> <br>
+    Col2: <br> <br> <br> <br>（39）
+    Col3: <br> <br> <br> <br>（39）
+    CU: <br> <br> <br> <br>（39）
+    Col5: <br> <br> <br> <br>制
+    Col6: <br> <br> <br> <br>制
+    CU UH: <br> <br> <br> <br>制
+    UH C: <br> <br> <br> <br>制
+    C CU: <br> <br> <br> <br>制
+    CUH: <br> <br> <br> <br>制
+    UH H: <br> <br> <br> <br>制
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: U<br> <br> <br> <br>0x27<br>（40）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: U<br> <br> <br> <br>0x27<br>（40）
+    Col2: U<br> <br> <br> <br>0x27<br>（40）
+    Col3: U<br> <br> <br> <br>0x27<br>（40）
+    CU: <br> <br> <br> <br> <br>末段速度
+    Col5: <br> <br> <br> <br> <br>末段速度
+    Col6: <br> <br> <br> <br> <br>末段速度
+    CU UH: <br> <br> <br> <br>1%
+    UH C: <br> <br> <br> <br>【0,100】
+    C CU: <br> <br>
+    CUH: <br> <br>
+    UH H: <br> <br>
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br> <br> <br>
+    Col2: <br> <br> <br> <br>0x28
+    Col3: <br> <br> <br> <br>
+    CU: <br> <br> <br>
+    Col5: <br> <br> <br> <br> <br>计数末段数
+    Col6: <br> <br> <br> <br>
+    CU UH: <br> <br> <br> <br>1
+    UH C: <br>   C<br> <br> <br>【0,255】
+    C CU: <br> <br>
+    CUH: <br> <br>
+    UH H: <br> <br>
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br> <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br> <br> <br>
+    Col2: <br> <br> <br> <br>（41）
+    Col3: <br> <br> <br> <br>（41）
+    CU: <br> <br> <br> <br>（41）
+    Col5: <br> <br> <br> <br> <br>量
+    Col6: <br> <br> <br> <br> <br>量
+    CU UH: <br> <br> <br> <br> <br>量
+    UH C: <br> <br> <br> <br> <br>量
+    C CU: <br> <br> <br> <br> <br>量
+    CUH: <br> <br> <br> <br> <br>量
+    UH H: <br> <br> <br> <br> <br>量
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br> <br> <br> <br>0x29<br>（42）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br> <br> <br> <br>0x29<br>（42）
+    Col2: <br> <br> <br> <br>0x29<br>（42）
+    Col3: <br> <br> <br> <br>0x29<br>（42）
+    CU: <br> U<br> <br> <br> <br>抗抖时间
+    Col5: <br> U<br> <br> <br> <br>抗抖时间
+    Col6: <br> U<br> <br> <br> <br>抗抖时间
+    CU UH: <br> <br> <br> <br>1ms
+    UH C: <br> <br> <br> <br>【1,2000】
+    C CU: <br>   U<br>
+    CUH: <br> <br>
+    UH H: <br> <br>
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br> <br>
+    Col2: <br> <br> <br>0x2A
+    Col3: <br> <br> <br>
+    CU: <br> <br>
+    Col5: <br> <br> <br> <br>最大可设定
+    Col6: <br> <br> <br>
+    CU UH: <br> <br> <br> <br>1ms
+    UH C: <br> <br> <br> <br>【0,3200】
+    C CU: <br> <br>
+    CUH: <br> <br>
+    UH H: <br> <br>
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br> <br>
+    Col2: <br> <br> <br>（43）
+    Col3: <br> <br> <br>（43）
+    CU: <br> <br> <br>（43）
+    Col5: <br> <br> <br> <br>送料速度
+    Col6: <br> <br> <br> <br>送料速度
+    CU UH: <br> <br> <br> <br>送料速度
+    UH C: <br> <br> <br> <br>送料速度
+    C CU: <br> <br> <br> <br>送料速度
+    CUH: <br> <br> <br> <br>送料速度
+    UH H: <br> <br> <br> <br>送料速度
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br> <br> <br>0x2B<br>（44）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br> <br> <br>0x2B<br>（44）
+    Col2: <br> <br> <br>0x2B<br>（44）
+    Col3: <br> <br> <br>0x2B<br>（44）
+    CU: <br> <br> <br> <br>中心频率1
+    Col5: <br> <br> <br> <br>中心频率1
+    Col6: <br> <br> <br> <br>中心频率1
+    CU UH: <br> <br> <br> <br>0.1Hz
+    UH C: <br> <br>  H<br> <br> <br>【250,4000】
+    C CU: <br> <br> <br>
+    CUH: <br> <br> <br>
+    UH H: <br> <br> <br>
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br> <br>
+    Col2: <br> <br> <br>0x2C
+    Col3: <br> <br> <br>
+    CU: <br> <br> <br> <br>中心频率2
+    Col5: <br> <br> <br> <br>中心频率2
+    Col6: <br> <br> <br> <br>中心频率2
+    CU UH: <br> <br> <br> <br>0.1Hz
+    UH C: <br> <br>  U<br> <br> <br>【250,4000】
+    C CU: <br> <br> <br>
+    CUH: <br> <br> <br>
+    UH H: <br> <br> <br>
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br> <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br> <br>
+    Col2: <br> <br> <br>（45）
+    Col3: <br> <br> <br>（45）
+    CU: <br> <br> <br>（45）
+    Col5: <br> <br> <br>（45）
+    Col6: <br> <br> <br>（45）
+    CU UH: <br> <br> <br>（45）
+    UH C: <br> <br> <br>（45）
+    C CU: <br> <br> <br>（45）
+    CUH: <br> <br> <br>（45）
+    UH H: <br> <br> <br>（45）
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br> <br>0x2D<br>（46）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br> <br>0x2D<br>（46）
+    Col2: <br> <br>0x2D<br>（46）
+    Col3: <br> <br>0x2D<br>（46）
+    CU: <br> <br> <br>中心频率3
+    Col5: <br> <br> <br>中心频率3
+    Col6: <br> <br> <br>中心频率3
+    CU UH: <br> <br> <br>0.1Hz
+    UH C: <br> <br> <br> <br>【250,4000】
+    C CU: <br> <br> H<br>
+    CUH: <br> <br> <br>
+    UH H: <br> <br> <br>
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br>
+    Col2: <br> <br>0x2E
+    Col3: <br> <br>
+    CU: <br>
+    Col5: <br> <br> <br>搜频速度档
+    Col6: <br> <br>
+    CU UH: <br> <br> <br>0.1Hz
+    UH C: <br> <br> <br> <br>【1,5】
+    C CU: <br> <br> <br>
+    CUH: <br> <br> <br>
+    UH H: <br> <br> <br>
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br>
+    Col2: <br> <br>（47）
+    Col3: <br> <br>（47）
+    CU: <br> <br>（47）
+    Col5: <br> <br> <br>位
+    Col6: <br> <br> <br>位
+    CU UH: <br> <br> <br>位
+    UH C: <br> <br> <br>位
+    C CU: <br> <br> <br>位
+    CUH: <br> <br> <br>位
+    UH H: <br> <br> <br>位
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br> <br>0x2F<br>（48）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br> <br>0x2F<br>（48）
+    Col2: <br> <br>0x2F<br>（48）
+    Col3: <br> <br>0x2F<br>（48）
+    CU: <br> U<br> <br>计数满信号<br>清零时间
+    Col5: <br> U<br> <br>计数满信号<br>清零时间
+    Col6: <br> U<br> <br>计数满信号<br>清零时间
+    CU UH: <br> <br> <br>0.1S
+    UH C: <br> <br> <br> <br>【0,999】
+    C CU: <br> <br> <br> <br>
+    CUH: <br> <br> <br> <br>
+    UH H: <br> <br> <br> <br>
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br>
+    Col2: <br> <br>0x30
+    Col3: <br> <br>
+    CU: <br>
+    Col5: <br> <br> <br>最小电压报
+    Col6: <br> <br>
+    CU UH: <br> <br> <br>1V
+    UH C: <br> <br> <br> <br>【0,260】
+    C CU: <br> <br> <br> <br>
+    CUH: <br> <br> <br> <br>
+    UH H: <br> <br> <br> <br>
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br>
+    Col2: <br> <br>（49）
+    Col3: <br> <br>（49）
+    CU: <br> <br>（49）
+    Col5: <br> <br> <br>警值
+    Col6: <br> <br> <br>警值
+    CU UH: <br> <br> <br>警值
+    UH C: <br> <br> <br>警值
+    C CU: <br> <br> <br>警值
+    CUH: <br> <br> <br>警值
+    UH H: <br> <br> <br>警值
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br>0x31<br>（50）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH: <br>0x31<br>（50）
+    Col2: <br>0x31<br>（50）
+    Col3: <br>0x31<br>（50）
+    CU: <br> <br>最小频率报<br>警值
+    Col5: <br> <br>最小频率报<br>警值
+    Col6: <br> <br>最小频率报<br>警值
+    CU UH: <br> <br>0.1HZ
+    UH C: <br> <br> <br>【250,4000】
+    C CU: <br> <br>C<br>
+    CUH: <br> <br> <br>
+    UH H: <br> <br> <br>
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 1
+    table_md_path: tables/page-0028-r01.md
+- name: <br> <br>功能码
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH C UH CU 0x31 （50） 最小频率报 警值 0.  请求PDU: <br> <br>功能码
+    CUH CUH C H .1HZ 【250,4000】  保持寄存器 (可读写数据: <br> <br> <br>1个字节
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 3
+    table_md_path: tables/page-0028-r03.md
+- name: <br> <br>起始地址
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH C UH CU 0x31 （50） 最小频率报 警值 0.  请求PDU: <br> <br>起始地址
+    CUH CUH C H .1HZ 【250,4000】  保持寄存器 (可读写数据: <br> <br> <br>2个字节
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 3
+    table_md_path: tables/page-0028-r03.md
+- name: <br> <br>寄存器数量
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH C UH CU 0x31 （50） 最小频率报 警值 0.  请求PDU: <br> <br>寄存器数量
+    CUH CUH C H .1HZ 【250,4000】  保持寄存器 (可读写数据: <br> <br> <br>2个字节
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 3
+    table_md_path: tables/page-0028-r03.md
+- name: <br> <br>功能码
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C H CUH UH 寄存器数量 响应PDU: <br> <br>功能码
+    UH C CUH 2个字节: <br> <br> <br>1个字节
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 4
+    table_md_path: tables/page-0028-r04.md
+- name: <br> <br>字节数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C H CUH UH 寄存器数量 响应PDU: <br> <br>字节数
+    UH C CUH 2个字节: <br> <br> <br>1个字节
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 4
+    table_md_path: tables/page-0028-r04.md
+- name: <br> <br>寄存器值
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    C H CUH UH 寄存器数量 响应PDU: <br> <br>寄存器值
+    UH C CUH 2个字节: <br> <br> <br>N* ×2 个字节
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 4
+    table_md_path: tables/page-0028-r04.md
+- name: <br><br>功能码
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C H CUH C 字节数 寄存器值 N* = 寄存器数量 错误: <br><br>功能码
+    UH CUH C H C 1个字节 N* ×2 个字节: <br>1个字节
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 6
+    table_md_path: tables/page-0028-r06.md
+- name: <br><br>异常码
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    UH C H CUH C 字节数 寄存器值 N* = 寄存器数量 错误: <br><br>异常码
+    UH CUH C H C 1个字节 N* ×2 个字节: <br>1个字节
+  source_ref:
+    pdf_page: 28
+    layout_region_index: 6
+    table_md_path: tables/page-0028-r06.md
+- name: <br> <br>起始地址高字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH 03: <br> <br> <br>00
+    CUH UH 03: <br> <br>06
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 2
+    table_md_path: tables/page-0029-r02.md
+- name: <br> <br>起始地址低字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH 03: <br> <br> <br>6B
+    CUH UH 03: <br> <br>02
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 2
+    table_md_path: tables/page-0029-r02.md
+- name: <br> <br>寄存器编号高字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH 03: <br> <br> <br>00
+    CUH UH 03: <br> <br>2B
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 2
+    table_md_path: tables/page-0029-r02.md
+- name: <br> <br>寄存器编号低字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH 03: <br> <br> <br>03
+    CUH UH 03: <br> <br>00
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 2
+    table_md_path: tables/page-0029-r02.md
+- name: <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH 03: <br> <br>
+    CUH UH 03: <br> <br>00
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 2
+    table_md_path: tables/page-0029-r02.md
+- name: <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH 03: <br> <br>
+    CUH UH 03: <br> <br><br>00
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 2
+    table_md_path: tables/page-0029-r02.md
+- name: <br>
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CU UH 03: <br> <br>
+    CUH UH 03: <br> <br><br>64
+  source_ref:
+    pdf_page: 29
+    layout_region_index: 2
+    table_md_path: tables/page-0029-r02.md
+- name: <br> <br> <br>1个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH PDU原样返回，在写入寄存器内容: <br> <br> <br>1个字节
+    H H CU CU 容之后返回这个正常响应。: <br><br>0x06
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 3
+    table_md_path: tables/page-0030-r03.md
+- name: <br> <br> <br>2个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH PDU原样返回，在写入寄存器内容: <br> <br> <br>2个字节
+    H H CU CU 容之后返回这个正常响应。: <br><br>0x0000 至 0xFFFF
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 3
+    table_md_path: tables/page-0030-r03.md
+- name: <br> <br> <br>2个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H C CUH PDU原样返回，在写入寄存器内容: <br> <br> <br>2个字节
+    H H CU CU 容之后返回这个正常响应。: <br><br>0x0000 至 0xFFFF
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 3
+    table_md_path: tables/page-0030-r03.md
+- name: <br>1个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H CUH CU CU 1个字节 2个字节 2个字节: <br>1个字节
+    CUH C UH CU 0x06 0x0000 至 0xFFFF 0x0000 至 0xFFFF: <br> <br>0x06
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 4
+    table_md_path: tables/page-0030-r04.md
+- name: <br>2个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H CUH CU CU 1个字节 2个字节 2个字节: <br>2个字节
+    CUH C UH CU 0x06 0x0000 至 0xFFFF 0x0000 至 0xFFFF: <br> <br><br>0x0000 至 0xFFFF
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 4
+    table_md_path: tables/page-0030-r04.md
+- name: <br>2个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H CUH CU CU 1个字节 2个字节 2个字节: <br>2个字节
+    CUH C UH CU 0x06 0x0000 至 0xFFFF 0x0000 至 0xFFFF: <br> <br><br>0x0000 至 0xFFFF
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 4
+    table_md_path: tables/page-0030-r04.md
+- name: <br><br> <br>1个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H CUH CU CUH CU H 1个字节 2个字节 2个字节 1个字节 2个字节 2个字节: <br><br> <br>1个字节
+    CUH C H CUH CU UH 0x06 0x0000 至 0xFFFF 0x0000 至 0xFFFF 0x06 0x0000 至 0xFFFF 0x0000 至 0xFFFF: <br><br>0x86
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 5
+    table_md_path: tables/page-0030-r05.md
+- name: <br><br> <br>1个字节
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H CUH CU CUH CU H 1个字节 2个字节 2个字节 1个字节 2个字节 2个字节: <br><br> <br>1个字节
+    CUH C H CUH CU UH 0x06 0x0000 至 0xFFFF 0x0000 至 0xFFFF 0x06 0x0000 至 0xFFFF 0x0000 至 0xFFFF: <br><br>01、02、03、04
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 5
+    table_md_path: tables/page-0030-r05.md
+- name: <br> <br>（十六进制）
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br>（十六进制）
+    UH C CUH CUH H CUH 0x0000 至 0xFFFF 0x86 01、02、03、04 寄存器 2的实例：: <br> <br> <br>域名
+    Col3: <br> <br>（十六进制）
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 7
+    table_md_path: tables/page-0030-r07.md
+- name: <br> <br>06
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br>06
+    UH C CUH CUH H CUH 0x0000 至 0xFFFF 0x86 01、02、03、04 寄存器 2的实例：: <br> <br> <br>功能
+    Col3: <br> <br>06
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 7
+    table_md_path: tables/page-0030-r07.md
+- name: <br> <br>00
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br>00
+    UH C CUH CUH H CUH 0x0000 至 0xFFFF 0x86 01、02、03、04 寄存器 2的实例：: <br> <br> <br>输出地址Hi
+    Col3: <br> <br>00
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 7
+    table_md_path: tables/page-0030-r07.md
+- name: <br> <br>01
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br>01
+    UH C CUH CUH H CUH 0x0000 至 0xFFFF 0x86 01、02、03、04 寄存器 2的实例：: <br> <br> <br>输出地址Lo
+    Col3: <br> <br>01
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 7
+    table_md_path: tables/page-0030-r07.md
+- name: <br> <br>00
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br>00
+    UH C CUH CUH H CUH 0x0000 至 0xFFFF 0x86 01、02、03、04 寄存器 2的实例：: <br> <br> <br>输出值Hi
+    Col3: <br> <br>00
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 7
+    table_md_path: tables/page-0030-r07.md
+- name: <br> <br>03
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Col1: <br> <br>03
+    UH C CUH CUH H CUH 0x0000 至 0xFFFF 0x86 01、02、03、04 寄存器 2的实例：: <br> <br> <br>输出值Lo
+    Col3: <br> <br><br>03
+  source_ref:
+    pdf_page: 30
+    layout_region_index: 7
+    table_md_path: tables/page-0030-r07.md
+- name: <br> <br>功能码
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H H CU U 码、起始地址和被写入寄存器数量: <br> <br>1个字节
+    UH C CU 量。: <br> <br>0x10
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 3
+    table_md_path: tables/page-0031-r03.md
+- name: <br> <br>起始地址
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H H CU U 码、起始地址和被写入寄存器数量: <br> <br>2个字节
+    UH C CU 量。: <br> <br>0x0000 至 0xFFFF
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 3
+    table_md_path: tables/page-0031-r03.md
+- name: <br> <br>寄存器数量
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H H CU U 码、起始地址和被写入寄存器数量: <br> <br>2个字节
+    UH C CU 量。: <br> <br>0x0001至0x007B
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 3
+    table_md_path: tables/page-0031-r03.md
+- name: <br> <br>字节数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H H CU U 码、起始地址和被写入寄存器数量: <br> <br>1个字节
+    UH C CU 量。: <br> <br>2×N*
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 3
+    table_md_path: tables/page-0031-r03.md
+- name: <br> <br>寄存器值
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    H H CU U 码、起始地址和被写入寄存器数量: <br> <br>N*×2个字节
+    UH C CU 量。: <br> <br>
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 3
+    table_md_path: tables/page-0031-r03.md
+- name: <br><br>功能码
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H CU C 寄存器值  N* = 寄存器数量 响应PDU: <br><br>功能码
+    CU CUH C H N*×2个字节: <br><br> <br>1个字节
+    C H CUH UH: <br><br>0x10
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 5
+    table_md_path: tables/page-0031-r05.md
+- name: <br><br>起始地址
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    CUH H CU C 寄存器值  N* = 寄存器数量 响应PDU: <br><br>起始地址
+    CU CUH C H N*×2个字节: <br><br> <br>2个字节
+    C H CUH UH: <br><br>0x0000 至 0xFFFF
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 5
+    table_md_path: tables/page-0031-r05.md
+- name: <br> <br> <br>域名
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    请求: <br> <br> <br>域名
+    Col2: <br> <br> <br>（十六进制）
+    C<br>响应: <br> <br>域名
+    Col4: <br> <br>（十六进制）
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 8
+    table_md_path: tables/page-0031-r08.md
+- name: <br> <br> <br>功能
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    请求: <br> <br> <br>功能
+    Col2: <br> <br> <br>10
+    C<br>响应: <br> <br> <br>功能
+    Col4: <br> <br> <br>10
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 8
+    table_md_path: tables/page-0031-r08.md
+- name: <br> <br> <br>起始地址Hi
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    请求: <br> <br> <br>起始地址Hi
+    Col2: <br> <br> <br>00
+    C<br>响应: <br> <br> <br>起始地址Hi
+    Col4: <br> <br> <br>00
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 8
+    table_md_path: tables/page-0031-r08.md
+- name: <br> <br> <br>起始地址Lo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    请求: <br> <br> <br>起始地址Lo
+    Col2: <br> <br> <br>01
+    C<br>响应: <br> <br> <br>起始地址Lo
+    Col4: <br> <br> <br>01
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 8
+    table_md_path: tables/page-0031-r08.md
+- name: <br> <br> <br>寄存器数量Hi
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    请求: <br> <br> <br>寄存器数量Hi
+    Col2: <br> <br> <br>00
+    C<br>响应: <br> <br> <br>寄存器数量Hi
+    Col4: <br> <br> <br>00
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 8
+    table_md_path: tables/page-0031-r08.md
+- name: <br> <br> <br>寄存器数量Lo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    请求: <br> <br> <br>寄存器数量Lo
+    Col2: <br> <br> <br>02
+    C<br>响应: <br> <br> <br>寄存器数量Lo
+    Col4: <br> <br> <br>02
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 8
+    table_md_path: tables/page-0031-r08.md
+- name: <br> <br> <br>字节数
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    请求: <br> <br> <br>字节数
+    Col2: <br> <br> <br>04
+    C<br>响应: <br> <br>
+    Col4: <br> <br>
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 8
+    table_md_path: tables/page-0031-r08.md
+- name: <br> <br>寄存器值Hi
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    请求: <br> <br>寄存器值Hi
+    Col2: <br> <br> <br>00
+    C<br>响应: <br> <br>
+    Col4: <br> <br>
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 8
+    table_md_path: tables/page-0031-r08.md
+- name: <br> <br>寄存器值Lo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    请求: <br> <br>寄存器值Lo
+    Col2: <br> <br> <br>0A
+    C<br>响应: <br> <br>
+    Col4: <br> <br> <br>
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 8
+    table_md_path: tables/page-0031-r08.md
+- name: <br> <br>寄存器值Hi
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    请求: <br> <br>寄存器值Hi
+    Col2: <br> <br> <br>01
+    C<br>响应: <br> <br>
+    Col4: <br> <br> <br>
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 8
+    table_md_path: tables/page-0031-r08.md
+- name: <br> <br>寄存器值Lo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    请求: <br> <br>寄存器值Lo
+    Col2: <br> <br> <br>02
+    C<br>响应: <br> <br>
+    Col4: <br> <br> <br>
+  source_ref:
+    pdf_page: 31
+    layout_region_index: 8
+    table_md_path: tables/page-0031-r08.md

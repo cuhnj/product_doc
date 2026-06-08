@@ -1,0 +1,180 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 29,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:57:26",
+  "prompt_head": "你是工业说明书与自动化设备文档的结构分析助手。下面给出某一页 PDF 渲染图对应的上下文（页码、目录片段、可选文本层节选）。\n请只做客观描述与结构标注，不要编造手册中未出现的数据或参数值。\n\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，页码=29。\n\n【目录/书签上下文（节选）】\n\n\n【文本层节选（可能为空或不完整）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n29 / 35\n\n功能 \n03 \n功能 \n03\n\n起始地址高字节 \n00 \n字节数 \n06\n\n起始地址低字节 \n6B \n寄存器值Hi（108） \n02\n\n寄存器编号高字节 \n00 \n寄存器",
+  "assistant_text": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.151, 0.050, 0.247, 0.073],\n      \"confidence\": 0.82,\n      \"image_alt\": \"页面左上角的 CUH 品牌标识\"\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.141, 0.073, 0.852, 0.075],\n      \"confidence\": 0.7\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.141, 0.086, 0.824, 0.239],\n      \"confidence\": 0.96,\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.186, 0.244, 0.815, 0.273],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.482, 0.889, 0.526, 0.901],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为文本型 PDF 渲染页，包含可识别文本层；页面主体是一个通信数据示例表格及其说明文字，不是以图片为主。背景有较淡的重复 CUH 水印，页脚居中显示“29 / 35”。\"\n}",
+  "layout_parse_ok": true,
+  "layout_json": {
+    "regions": [
+      {
+        "type": "figure",
+        "bbox_0_1": [
+          0.151,
+          0.05,
+          0.247,
+          0.073
+        ],
+        "confidence": 0.82,
+        "image_alt": "页面左上角的 CUH 品牌标识",
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "unknown",
+        "bbox_0_1": [
+          0.141,
+          0.073,
+          0.852,
+          0.075
+        ],
+        "confidence": 0.7,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "table",
+        "bbox_0_1": [
+          0.141,
+          0.086,
+          0.824,
+          0.239
+        ],
+        "confidence": 0.96,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "paragraph",
+        "bbox_0_1": [
+          0.186,
+          0.244,
+          0.815,
+          0.273
+        ],
+        "confidence": 0.94,
+        "bbox_parse_ok": true
+      },
+      {
+        "type": "footer",
+        "bbox_0_1": [
+          0.482,
+          0.889,
+          0.526,
+          0.901
+        ],
+        "confidence": 0.95,
+        "bbox_parse_ok": true
+      }
+    ],
+    "reading_order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "本页为文本型 PDF 渲染页，包含可识别文本层；页面主体是一个通信数据示例表格及其说明文字，不是以图片为主。背景有较淡的重复 CUH 水印，页脚居中显示“29 / 35”。",
+    "bbox_schema": "xyxy_0_1"
+  },
+  "raw": {
+    "choices": [
+      {
+        "content_filter_results": {
+          "hate": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "protected_material_code": {
+            "detected": false,
+            "filtered": false
+          },
+          "protected_material_text": {
+            "detected": false,
+            "filtered": false
+          },
+          "self_harm": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "sexual": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "violence": {
+            "filtered": false,
+            "severity": "safe"
+          }
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"regions\": [\n    {\n      \"type\": \"figure\",\n      \"bbox_0_1\": [0.151, 0.050, 0.247, 0.073],\n      \"confidence\": 0.82,\n      \"image_alt\": \"页面左上角的 CUH 品牌标识\"\n    },\n    {\n      \"type\": \"unknown\",\n      \"bbox_0_1\": [0.141, 0.073, 0.852, 0.075],\n      \"confidence\": 0.7\n    },\n    {\n      \"type\": \"table\",\n      \"bbox_0_1\": [0.141, 0.086, 0.824, 0.239],\n      \"confidence\": 0.96,\n      \"caption\": null\n    },\n    {\n      \"type\": \"paragraph\",\n      \"bbox_0_1\": [0.186, 0.244, 0.815, 0.273],\n      \"confidence\": 0.94\n    },\n    {\n      \"type\": \"footer\",\n      \"bbox_0_1\": [0.482, 0.889, 0.526, 0.901],\n      \"confidence\": 0.95\n    }\n  ],\n  \"reading_order\": [0, 1, 2, 3, 4],\n  \"notes\": \"本页为文本型 PDF 渲染页，包含可识别文本层；页面主体是一个通信数据示例表格及其说明文字，不是以图片为主。背景有较淡的重复 CUH 水印，页脚居中显示“29 / 35”。\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909035,
+    "id": "chatcmpl-DoQ5DeCnEwvfMaiMYojuaJOlAhQ8J",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "prompt_filter_results": [
+      {
+        "prompt_index": 0,
+        "content_filter_results": {
+          "hate": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "jailbreak": {
+            "detected": false,
+            "filtered": false
+          },
+          "self_harm": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "sexual": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "violence": {
+            "filtered": false,
+            "severity": "safe"
+          }
+        }
+      }
+    ],
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 655,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 285,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 15,
+        "engine_ttft_ms": 474,
+        "engine_ttlt_ms": 10407,
+        "pre_inference_ms": 122,
+        "service_tbt_ms": 15,
+        "service_ttft_ms": 668,
+        "service_ttlt_ms": 10618,
+        "total_duration_ms": 10508,
+        "user_visible_ttft_ms": 546
+      },
+      "prompt_tokens": 1568,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2223
+    }
+  }
+}

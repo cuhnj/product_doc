@@ -1,0 +1,114 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 24,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T17:00:04",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=24。\n【目录/书签上下文（节选）】\n\n【文本层节选（可能为空或不完整；不得以文本层覆盖肉眼从图中读到的表格）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n24 / 35\n\ne) 04（0x04）读输入寄存器\n\n使用该功能码读取输入寄存器连续块的内容",
+  "assistant_text": "{\"page_markdown\":\"### e) 04（0x04）读输入寄存器\\n\\n使用该功能码读取输入寄存器连续块的内容，从0（序号为1）开始寻址寄存器。请求PDU的起始地址说明要读的寄存器起始位置。寄存器数量说明要读的从起始地址开始的连续的寄存器个数。\\n\\n响应报文中的每个寄存器数据有两字节。第一个字节包括高位比特，第二个字节包括低位比特。\\n\\n每个地址对应的输入寄存器定义如下：\\n\\n| 地址<br>（序号） | 数据 | 单位 | 范围 | 备注 | SDVC<br>34MR<br>/41MR | SDVC<br>34MR<br>J | SDVC<br>34XL<br>R |\\n|---|---|---|---|---|---|---|---|\\n| 0x00（1） | 控制器温度 | 0.1℃ | 【-100，+850】 |  | √ | √ | √ |\\n| 0x01（2） | 遥控输入AD值 | 1 | 【0，1023】 |  | √ | √ | √ |\\n| 0x02（3） | 设备识别码 | 1 | 【0，65535】 | 0： SDVC31S、M<br>1： SDVC31L、XL<br>2： SDVC34S、M、L、XL（485通信modbus协议标准版） | √ | √ | √ |\\n| 0x03（4） | 当前输出电压 | 1V | 【0，260】 |  |  |  | √ |\\n| 0x04（5） | 当前输出频率 | 0.1Hz | 【250，4000】 |  |  |  | √ |\\n| 0x05(6) | 键盘密码输入值 | 1 | 【0，999】 |  |  |  | √ |\\n\\n输入寄存器（只读数据）\\n\\n请求PDU\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x04 |\\n| 起始地址 | 2个字节 | 0x0000 至 0xFFFF |\\n| 寄存器数量 | 2个字节 | 0x0001 至 0x007D |\\n\\n响应PDU\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x04 |\\n| 字节数 | 1个字节 | 2 × N* |\\n| 寄存器值 | N* ×2 个字节 |  |\\n\\nN* = 寄存器数量\\n\\n错误\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x84 |\\n| 异常码 | 1个字节 | 01、02、03、04 |\\n\\n这是一个请求读输入寄存器9 的实例：\",\"crop_suggestions\":[],\"notes\":\"页面清晰，无需额外截图。\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "### e) 04（0x04）读输入寄存器\n\n使用该功能码读取输入寄存器连续块的内容，从0（序号为1）开始寻址寄存器。请求PDU的起始地址说明要读的寄存器起始位置。寄存器数量说明要读的从起始地址开始的连续的寄存器个数。\n\n响应报文中的每个寄存器数据有两字节。第一个字节包括高位比特，第二个字节包括低位比特。\n\n每个地址对应的输入寄存器定义如下：\n\n| 地址<br>（序号） | 数据 | 单位 | 范围 | 备注 | SDVC<br>34MR<br>/41MR | SDVC<br>34MR<br>J | SDVC<br>34XL<br>R |\n|---|---|---|---|---|---|---|---|\n| 0x00（1） | 控制器温度 | 0.1℃ | 【-100，+850】 |  | √ | √ | √ |\n| 0x01（2） | 遥控输入AD值 | 1 | 【0，1023】 |  | √ | √ | √ |\n| 0x02（3） | 设备识别码 | 1 | 【0，65535】 | 0： SDVC31S、M<br>1： SDVC31L、XL<br>2： SDVC34S、M、L、XL（485通信modbus协议标准版） | √ | √ | √ |\n| 0x03（4） | 当前输出电压 | 1V | 【0，260】 |  |  |  | √ |\n| 0x04（5） | 当前输出频率 | 0.1Hz | 【250，4000】 |  |  |  | √ |\n| 0x05(6) | 键盘密码输入值 | 1 | 【0，999】 |  |  |  | √ |\n\n输入寄存器（只读数据）\n\n请求PDU\n\n|  |  |  |\n|---|---|---|\n| 功能码 | 1个字节 | 0x04 |\n| 起始地址 | 2个字节 | 0x0000 至 0xFFFF |\n| 寄存器数量 | 2个字节 | 0x0001 至 0x007D |\n\n响应PDU\n\n|  |  |  |\n|---|---|---|\n| 功能码 | 1个字节 | 0x04 |\n| 字节数 | 1个字节 | 2 × N* |\n| 寄存器值 | N* ×2 个字节 |  |\n\nN* = 寄存器数量\n\n错误\n\n|  |  |  |\n|---|---|---|\n| 功能码 | 1个字节 | 0x84 |\n| 异常码 | 1个字节 | 01、02、03、04 |\n\n这是一个请求读输入寄存器9 的实例：",
+  "crop_suggestions": [],
+  "notes": "页面清晰，无需额外截图。",
+  "raw": {
+    "choices": [
+      {
+        "content_filter_results": {
+          "hate": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "protected_material_code": {
+            "detected": false,
+            "filtered": false
+          },
+          "protected_material_text": {
+            "detected": false,
+            "filtered": false
+          },
+          "self_harm": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "sexual": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "violence": {
+            "filtered": false,
+            "severity": "safe"
+          }
+        },
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\"page_markdown\":\"### e) 04（0x04）读输入寄存器\\n\\n使用该功能码读取输入寄存器连续块的内容，从0（序号为1）开始寻址寄存器。请求PDU的起始地址说明要读的寄存器起始位置。寄存器数量说明要读的从起始地址开始的连续的寄存器个数。\\n\\n响应报文中的每个寄存器数据有两字节。第一个字节包括高位比特，第二个字节包括低位比特。\\n\\n每个地址对应的输入寄存器定义如下：\\n\\n| 地址<br>（序号） | 数据 | 单位 | 范围 | 备注 | SDVC<br>34MR<br>/41MR | SDVC<br>34MR<br>J | SDVC<br>34XL<br>R |\\n|---|---|---|---|---|---|---|---|\\n| 0x00（1） | 控制器温度 | 0.1℃ | 【-100，+850】 |  | √ | √ | √ |\\n| 0x01（2） | 遥控输入AD值 | 1 | 【0，1023】 |  | √ | √ | √ |\\n| 0x02（3） | 设备识别码 | 1 | 【0，65535】 | 0： SDVC31S、M<br>1： SDVC31L、XL<br>2： SDVC34S、M、L、XL（485通信modbus协议标准版） | √ | √ | √ |\\n| 0x03（4） | 当前输出电压 | 1V | 【0，260】 |  |  |  | √ |\\n| 0x04（5） | 当前输出频率 | 0.1Hz | 【250，4000】 |  |  |  | √ |\\n| 0x05(6) | 键盘密码输入值 | 1 | 【0，999】 |  |  |  | √ |\\n\\n输入寄存器（只读数据）\\n\\n请求PDU\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x04 |\\n| 起始地址 | 2个字节 | 0x0000 至 0xFFFF |\\n| 寄存器数量 | 2个字节 | 0x0001 至 0x007D |\\n\\n响应PDU\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x04 |\\n| 字节数 | 1个字节 | 2 × N* |\\n| 寄存器值 | N* ×2 个字节 |  |\\n\\nN* = 寄存器数量\\n\\n错误\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x84 |\\n| 异常码 | 1个字节 | 01、02、03、04 |\\n\\n这是一个请求读输入寄存器9 的实例：\",\"crop_suggestions\":[],\"notes\":\"页面清晰，无需额外截图。\"}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909187,
+    "id": "chatcmpl-DoQ7f3RAO6qjPDNkxGw8M1ejyIxKf",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "prompt_filter_results": [
+      {
+        "prompt_index": 0,
+        "content_filter_results": {
+          "hate": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "jailbreak": {
+            "detected": false,
+            "filtered": false
+          },
+          "self_harm": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "sexual": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "violence": {
+            "filtered": false,
+            "severity": "safe"
+          }
+        }
+      }
+    ],
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1680,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 923,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 10,
+        "engine_ttft_ms": 281,
+        "engine_ttlt_ms": 16747,
+        "pre_inference_ms": 136,
+        "service_tbt_ms": 10,
+        "service_ttft_ms": 477,
+        "service_ttlt_ms": 16965,
+        "total_duration_ms": 16848,
+        "user_visible_ttft_ms": 341
+      },
+      "prompt_tokens": 2181,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3861
+    }
+  }
+}

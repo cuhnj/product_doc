@@ -1,0 +1,61 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 29,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T17:00:23",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=29。\n【目录/书签上下文（节选）】\n\n【文本层节选（可能为空或不完整；不得以文本层覆盖肉眼从图中读到的表格）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n29 / 35\n\n功能 \n03 \n功能 \n03\n\n起始地址高字节 \n00 \n字节数 \n06\n\n",
+  "assistant_text": "{\n  \"page_markdown\": \"|  |  |  |  |\\n|---|---|---|---|\\n| 功能 | 03 | 功能 | 03 |\\n| 起始地址高字节 | 00 | 字节数 | 06 |\\n| 起始地址低字节 | 6B | 寄存器值 Hi（108） | 02 |\\n| 寄存器编号高字节 | 00 | 寄存器值 Lo（108） | 2B |\\n| 寄存器编号低字节 | 03 | 寄存器值 Hi（109） | 00 |\\n|  |  | 寄存器值 Lo（109） | 00 |\\n|  |  | 寄存器值 Hi（110） | 00 |\\n|  |  | 寄存器值 Lo（110） | 64 |\\n\\n将寄存器108的内容表示为两个十六进制字节值0x02 0x2B，或十进制555。将寄存器109-110的内容分别表示为十六进制0x00 0x00 和0x00 0x64，或十进制 0 和100。\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "|  |  |  |  |\n|---|---|---|---|\n| 功能 | 03 | 功能 | 03 |\n| 起始地址高字节 | 00 | 字节数 | 06 |\n| 起始地址低字节 | 6B | 寄存器值 Hi（108） | 02 |\n| 寄存器编号高字节 | 00 | 寄存器值 Lo（108） | 2B |\n| 寄存器编号低字节 | 03 | 寄存器值 Hi（109） | 00 |\n|  |  | 寄存器值 Lo（109） | 00 |\n|  |  | 寄存器值 Hi（110） | 00 |\n|  |  | 寄存器值 Lo（110） | 64 |\n\n将寄存器108的内容表示为两个十六进制字节值0x02 0x2B，或十进制555。将寄存器109-110的内容分别表示为十六进制0x00 0x00 和0x00 0x64，或十进制 0 和100。",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"page_markdown\": \"|  |  |  |  |\\n|---|---|---|---|\\n| 功能 | 03 | 功能 | 03 |\\n| 起始地址高字节 | 00 | 字节数 | 06 |\\n| 起始地址低字节 | 6B | 寄存器值 Hi（108） | 02 |\\n| 寄存器编号高字节 | 00 | 寄存器值 Lo（108） | 2B |\\n| 寄存器编号低字节 | 03 | 寄存器值 Hi（109） | 00 |\\n|  |  | 寄存器值 Lo（109） | 00 |\\n|  |  | 寄存器值 Hi（110） | 00 |\\n|  |  | 寄存器值 Lo（110） | 64 |\\n\\n将寄存器108的内容表示为两个十六进制字节值0x02 0x2B，或十进制555。将寄存器109-110的内容分别表示为十六进制0x00 0x00 和0x00 0x64，或十进制 0 和100。\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909204,
+    "id": "chatcmpl-DoQ7w8AHlH6lMu3V5jXhwTVIz2wK2",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 807,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 11,
+        "engine_ttft_ms": 9264,
+        "engine_ttlt_ms": 18128,
+        "pre_inference_ms": 99,
+        "service_tbt_ms": 11,
+        "service_ttft_ms": 9446,
+        "service_ttlt_ms": 18308,
+        "total_duration_ms": 18216,
+        "user_visible_ttft_ms": 9348
+      },
+      "prompt_tokens": 1834,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2641
+    }
+  }
+}

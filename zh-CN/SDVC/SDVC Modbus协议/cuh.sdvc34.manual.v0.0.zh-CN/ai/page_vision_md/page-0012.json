@@ -1,0 +1,72 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 12,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:59:07",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=12。\n【目录/书签上下文（节选）】\n\n【文本层节选（可能为空或不完整；不得以文本层覆盖肉眼从图中读到的表格）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n12 / 35\n\n3. MODBUS  数据类型\n\nMODBUS有一系列的基本模型 \n其中4个",
+  "assistant_text": "{\n  \"page_markdown\": \"## 3. MODBUS 数据类型\\n\\nMODBUS有一系列的基本模型  \\n其中4个主要的模式如下表\\n\\n| 主要列表 | 对象类型 | 读写类型 | 描述 |\\n|---|---|---|---|\\n| 分布式输入 | 1 bit | 只读 | I/O系统的状态 |\\n| 线圈 | 1 bit | 读写 | 应用程序可修改 |\\n| 输入寄存器 | 16 bit | 只读 | I/O系统的状态 |\\n| 保持寄存器 | 16 bit | 读写 | 应用程序可修改 |\\n\\n示例：具有4个独立块的设备  \\n下面的示例显示了设备中数据和模拟，输入和输出的数据组织结构。由于不同块的数据不相关，所以每个区块是分开的\\n\\n[[vcrop:12:0]]\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.216,\n        0.384,\n        0.766,\n        0.716\n      ],\n      \"alt\": \"具有4个独立块的MODBUS设备数据组织结构示意图\",\n      \"reason\": \"包含彩色区域、箭头、分区框和多处标注，作为示意图以截图保留更准确。\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "## 3. MODBUS 数据类型\n\nMODBUS有一系列的基本模型  \n其中4个主要的模式如下表\n\n| 主要列表 | 对象类型 | 读写类型 | 描述 |\n|---|---|---|---|\n| 分布式输入 | 1 bit | 只读 | I/O系统的状态 |\n| 线圈 | 1 bit | 读写 | 应用程序可修改 |\n| 输入寄存器 | 16 bit | 只读 | I/O系统的状态 |\n| 保持寄存器 | 16 bit | 读写 | 应用程序可修改 |\n\n示例：具有4个独立块的设备  \n下面的示例显示了设备中数据和模拟，输入和输出的数据组织结构。由于不同块的数据不相关，所以每个区块是分开的\n\n[[vcrop:12:0]]",
+  "crop_suggestions": [
+    {
+      "bbox_0_1": [
+        0.216,
+        0.384,
+        0.766,
+        0.716
+      ],
+      "alt": "具有4个独立块的MODBUS设备数据组织结构示意图",
+      "reason": "包含彩色区域、箭头、分区框和多处标注，作为示意图以截图保留更准确。"
+    }
+  ],
+  "notes": "",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"page_markdown\": \"## 3. MODBUS 数据类型\\n\\nMODBUS有一系列的基本模型  \\n其中4个主要的模式如下表\\n\\n| 主要列表 | 对象类型 | 读写类型 | 描述 |\\n|---|---|---|---|\\n| 分布式输入 | 1 bit | 只读 | I/O系统的状态 |\\n| 线圈 | 1 bit | 读写 | 应用程序可修改 |\\n| 输入寄存器 | 16 bit | 只读 | I/O系统的状态 |\\n| 保持寄存器 | 16 bit | 读写 | 应用程序可修改 |\\n\\n示例：具有4个独立块的设备  \\n下面的示例显示了设备中数据和模拟，输入和输出的数据组织结构。由于不同块的数据不相关，所以每个区块是分开的\\n\\n[[vcrop:12:0]]\",\n  \"crop_suggestions\": [\n    {\n      \"bbox_0_1\": [\n        0.216,\n        0.384,\n        0.766,\n        0.716\n      ],\n      \"alt\": \"具有4个独立块的MODBUS设备数据组织结构示意图\",\n      \"reason\": \"包含彩色区域、箭头、分区框和多处标注，作为示意图以截图保留更准确。\"\n    }\n  ],\n  \"notes\": \"\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909138,
+    "id": "chatcmpl-DoQ6s657DEb4UsxcOZTeTiixmm4pV",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 757,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 427,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 12,
+        "engine_ttft_ms": 308,
+        "engine_ttlt_ms": 9242,
+        "pre_inference_ms": 176,
+        "service_tbt_ms": 12,
+        "service_ttft_ms": 561,
+        "service_ttlt_ms": 9489,
+        "total_duration_ms": 9328,
+        "user_visible_ttft_ms": 386
+      },
+      "prompt_tokens": 1789,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 2546
+    }
+  }
+}

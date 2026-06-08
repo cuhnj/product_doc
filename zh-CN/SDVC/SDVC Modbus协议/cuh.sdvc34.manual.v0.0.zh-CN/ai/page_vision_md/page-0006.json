@@ -1,0 +1,61 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 6,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:58:56",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=6。\n【目录/书签上下文（节选）】\n\n【文本层节选（可能为空或不完整；不得以文本层覆盖肉眼从图中读到的表格）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n6 / 35\n\n三、 ASCII 传输模式\n\n控制器采用ASCII的传输模式， 报文中的每个 8",
+  "assistant_text": "{\"page_markdown\":\"## 三、ASCII 传输模式\\n\\n控制器采用ASCII的传输模式，报文中的每个 8 位子节以两个 ASCII 字符发送。  \\n例：字节 0x5B 会被编码为两个字符：0x35 和 0x42（ASCII编码 0x35 =“5”，0x42 =“B”）。\\n\\nASCII 模式每个字节（10位）的格式为：  \\n编码系统：十六进制，ASCII 字符 0-9，A-F。  \\n报文中每个ASCII 字符含有1 个十六进制字符\\n\\nBits per Byte：\\n\\n- 1 起始位\\n- 7 数据位，首先发送最低有效位\\n- （无奇偶校验）\\n- 2 停止位\\n\\n**无奇偶校验**\\n\\n| 起始 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 停止 | 停止 |\\n|---|---|---|---|---|---|---|---|---|---|\\n\\n帧检验域：纵向冗余校验（LRC - Longitudinal Redundancy Checking），对整个帧进行校验。\\n\\n### 1. Modbus ASCII 报文帧\\n\\n报文帧的地址域含有两个字符。  \\n在 ASCII 模式，报文用特殊的字符区分帧起始和帧结束。一个报文必须以一个“冒号”（：）（ASCII十六进制 3A）起始，以“回车-换行”（CR LF）对（ASCII 十六进制 0D 和 0A）结束。\\n\\n对于所有的域，允许传送的字符为十六进制 0-9，A-F（ASCII 编码）。设备连续的监视总线上的“冒号”字符。当收到这个字符后，每个设备解码后续的字符一直到检测到“回车-换行”对，表示帧结束。\\n\\n报文中字符间的时间间隔可以达一秒。如果有更大的间隔，则接受设备认为发生了错误，不做响应。  \\n典型的报文帧如下所示（十六进制表示）：\\n\\n| 起始 | 地址 | 地址 | 功能 | 功能 | 数据1 | 数据1 | ... | 数据n | 数据n | LRC | LRC | 结束 | 结束 |\\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\\n| ： | 高字符 | 低字符 | 高字符 | 低字符 | 高字节 | 低字节 | ... | 高字节 | 低字节 | 高字符 | 低字符 | CR | LF |\\n| 3A | 35 | 42 | 35 | 42 | 35 | 42 | ... | 35 | 42 | 35 | 42 | 0D | 0A |\\n\\n其中数据n的长度范围为0到2*252字符\",\"crop_suggestions\":[],\"notes\":\"\"}",
+  "vision_parse_ok": true,
+  "page_markdown": "## 三、ASCII 传输模式\n\n控制器采用ASCII的传输模式，报文中的每个 8 位子节以两个 ASCII 字符发送。  \n例：字节 0x5B 会被编码为两个字符：0x35 和 0x42（ASCII编码 0x35 =“5”，0x42 =“B”）。\n\nASCII 模式每个字节（10位）的格式为：  \n编码系统：十六进制，ASCII 字符 0-9，A-F。  \n报文中每个ASCII 字符含有1 个十六进制字符\n\nBits per Byte：\n\n- 1 起始位\n- 7 数据位，首先发送最低有效位\n- （无奇偶校验）\n- 2 停止位\n\n**无奇偶校验**\n\n| 起始 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 停止 | 停止 |\n|---|---|---|---|---|---|---|---|---|---|\n\n帧检验域：纵向冗余校验（LRC - Longitudinal Redundancy Checking），对整个帧进行校验。\n\n### 1. Modbus ASCII 报文帧\n\n报文帧的地址域含有两个字符。  \n在 ASCII 模式，报文用特殊的字符区分帧起始和帧结束。一个报文必须以一个“冒号”（：）（ASCII十六进制 3A）起始，以“回车-换行”（CR LF）对（ASCII 十六进制 0D 和 0A）结束。\n\n对于所有的域，允许传送的字符为十六进制 0-9，A-F（ASCII 编码）。设备连续的监视总线上的“冒号”字符。当收到这个字符后，每个设备解码后续的字符一直到检测到“回车-换行”对，表示帧结束。\n\n报文中字符间的时间间隔可以达一秒。如果有更大的间隔，则接受设备认为发生了错误，不做响应。  \n典型的报文帧如下所示（十六进制表示）：\n\n| 起始 | 地址 | 地址 | 功能 | 功能 | 数据1 | 数据1 | ... | 数据n | 数据n | LRC | LRC | 结束 | 结束 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| ： | 高字符 | 低字符 | 高字符 | 低字符 | 高字节 | 低字节 | ... | 高字节 | 低字节 | 高字符 | 低字符 | CR | LF |\n| 3A | 35 | 42 | 35 | 42 | 35 | 42 | ... | 35 | 42 | 35 | 42 | 0D | 0A |\n\n其中数据n的长度范围为0到2*252字符",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\"page_markdown\":\"## 三、ASCII 传输模式\\n\\n控制器采用ASCII的传输模式，报文中的每个 8 位子节以两个 ASCII 字符发送。  \\n例：字节 0x5B 会被编码为两个字符：0x35 和 0x42（ASCII编码 0x35 =“5”，0x42 =“B”）。\\n\\nASCII 模式每个字节（10位）的格式为：  \\n编码系统：十六进制，ASCII 字符 0-9，A-F。  \\n报文中每个ASCII 字符含有1 个十六进制字符\\n\\nBits per Byte：\\n\\n- 1 起始位\\n- 7 数据位，首先发送最低有效位\\n- （无奇偶校验）\\n- 2 停止位\\n\\n**无奇偶校验**\\n\\n| 起始 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 停止 | 停止 |\\n|---|---|---|---|---|---|---|---|---|---|\\n\\n帧检验域：纵向冗余校验（LRC - Longitudinal Redundancy Checking），对整个帧进行校验。\\n\\n### 1. Modbus ASCII 报文帧\\n\\n报文帧的地址域含有两个字符。  \\n在 ASCII 模式，报文用特殊的字符区分帧起始和帧结束。一个报文必须以一个“冒号”（：）（ASCII十六进制 3A）起始，以“回车-换行”（CR LF）对（ASCII 十六进制 0D 和 0A）结束。\\n\\n对于所有的域，允许传送的字符为十六进制 0-9，A-F（ASCII 编码）。设备连续的监视总线上的“冒号”字符。当收到这个字符后，每个设备解码后续的字符一直到检测到“回车-换行”对，表示帧结束。\\n\\n报文中字符间的时间间隔可以达一秒。如果有更大的间隔，则接受设备认为发生了错误，不做响应。  \\n典型的报文帧如下所示（十六进制表示）：\\n\\n| 起始 | 地址 | 地址 | 功能 | 功能 | 数据1 | 数据1 | ... | 数据n | 数据n | LRC | LRC | 结束 | 结束 |\\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\\n| ： | 高字符 | 低字符 | 高字符 | 低字符 | 高字节 | 低字节 | ... | 高字节 | 低字节 | 高字符 | 低字符 | CR | LF |\\n| 3A | 35 | 42 | 35 | 42 | 35 | 42 | ... | 35 | 42 | 35 | 42 | 0D | 0A |\\n\\n其中数据n的长度范围为0到2*252字符\",\"crop_suggestions\":[],\"notes\":\"\"}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909111,
+    "id": "chatcmpl-DoQ6RUE6kcj8Pu2JAgMwDewxsNaDT",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 2274,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1536,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 11,
+        "engine_ttft_ms": 381,
+        "engine_ttlt_ms": 24341,
+        "pre_inference_ms": 137,
+        "service_tbt_ms": 11,
+        "service_ttft_ms": 602,
+        "service_ttlt_ms": 24558,
+        "total_duration_ms": 24434,
+        "user_visible_ttft_ms": 465
+      },
+      "prompt_tokens": 2200,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 4474
+    }
+  }
+}

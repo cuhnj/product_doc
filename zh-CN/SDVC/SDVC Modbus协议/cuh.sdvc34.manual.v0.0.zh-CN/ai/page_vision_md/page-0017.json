@@ -1,0 +1,61 @@
+{
+  "doc_id": "cuh.sdvc34.manual.v0.0.zh-CN",
+  "doc_key": "cuh.sdvc34.manual.v0.0",
+  "lang": "zh-CN",
+  "page_index": 17,
+  "model": "gpt-5.5",
+  "created_at": "2026-06-08T16:59:25",
+  "prompt_head": "你是工业说明书与自动化设备文档的转写助手。下面是一整页 PDF 的渲染图及上下文。请把本页视觉上应呈现的内容转写为 GitHub Flavored Markdown。\n文档：doc_id=cuh.sdvc34.manual.v0.0.zh-CN，doc_key=cuh.sdvc34.manual.v0.0，lang=zh-CN，页码=17。\n【目录/书签上下文（节选）】\n\n【文本层节选（可能为空或不完整；不得以文本层覆盖肉眼从图中读到的表格）】\nCUH\nH CUH CU\nCUH CUH CUH C\nUH CUH CUH CUH CUH\nCUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CUH CUH CUH\nH CUH CUH CUH CUH CUH CUH CU\nCUH CUH CUH CUH CUH CUH CUH\nUH CUH CUH CUH CUH CUH C\nCUH CUH CUH CUH CU\nH CUH CUH CUH\nCUH CUH C\nH CUH\n\n17 / 35\n\n请求PDU\n\n功能码 \n1个字节 \n0x02\n\n起始地址 \n2个字节 \n0x",
+  "assistant_text": "{\n  \"page_markdown\": \"请求PDU\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x02 |\\n| 起始地址 | 2个字节 | 0x0000 至 0xFFFF |\\n| 状态位数量 | 2个字节 | 1 至 2000（0x7D0） |\\n\\n响应PDU\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x02 |\\n| 字节数 | 1个字节 | N* |\\n| 状态位 | N个字节 | n=N 或 N+1 |\\n\\nN* =状态位数量/8，如果余数不等于0，那么：N = N+1\\n\\n错误\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x82 |\\n| 异常码 | 1个字节 | 01、02、03、04 |\\n\\n这是一个请求读取离散量输入197-218 的实例：\\n\\n| 请求 |  | 响应 |  |\\n|---|---|---|---|\\n| 域名 | （十六进制） | 域名 | （十六进制） |\\n| 功能 | 02 | 功能 | 02 |\\n| 起始地址 Hi | 00 | 字节数 | 03 |\\n| 起始地址 Lo | C4 | 输入状态204-197 | AC |\\n| 输出数量 Hi | 00 | 输入状态212-205 | DB |\\n| 输出数量 Lo | 16 | 输入状态218-213 | 35 |\\n\\n将离散量输入状态204-197表示为十六进制字节值AC，或二进制1010 1100。输入204是这个字节的MSB，输入197 是这个字节的 LSB。\\n\\n将离散量输入状态218-213表示为十六进制字节值35，或二进制0011 0101。输入218位于左侧第3 比特，输入213 是LSB。\\n\\n注：用零填充2个剩余比特（一直到高位端）。\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+  "vision_parse_ok": true,
+  "page_markdown": "请求PDU\n\n|  |  |  |\n|---|---|---|\n| 功能码 | 1个字节 | 0x02 |\n| 起始地址 | 2个字节 | 0x0000 至 0xFFFF |\n| 状态位数量 | 2个字节 | 1 至 2000（0x7D0） |\n\n响应PDU\n\n|  |  |  |\n|---|---|---|\n| 功能码 | 1个字节 | 0x02 |\n| 字节数 | 1个字节 | N* |\n| 状态位 | N个字节 | n=N 或 N+1 |\n\nN* =状态位数量/8，如果余数不等于0，那么：N = N+1\n\n错误\n\n|  |  |  |\n|---|---|---|\n| 功能码 | 1个字节 | 0x82 |\n| 异常码 | 1个字节 | 01、02、03、04 |\n\n这是一个请求读取离散量输入197-218 的实例：\n\n| 请求 |  | 响应 |  |\n|---|---|---|---|\n| 域名 | （十六进制） | 域名 | （十六进制） |\n| 功能 | 02 | 功能 | 02 |\n| 起始地址 Hi | 00 | 字节数 | 03 |\n| 起始地址 Lo | C4 | 输入状态204-197 | AC |\n| 输出数量 Hi | 00 | 输入状态212-205 | DB |\n| 输出数量 Lo | 16 | 输入状态218-213 | 35 |\n\n将离散量输入状态204-197表示为十六进制字节值AC，或二进制1010 1100。输入204是这个字节的MSB，输入197 是这个字节的 LSB。\n\n将离散量输入状态218-213表示为十六进制字节值35，或二进制0011 0101。输入218位于左侧第3 比特，输入213 是LSB。\n\n注：用零填充2个剩余比特（一直到高位端）。",
+  "crop_suggestions": [],
+  "notes": "",
+  "raw": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "annotations": [],
+          "content": "{\n  \"page_markdown\": \"请求PDU\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x02 |\\n| 起始地址 | 2个字节 | 0x0000 至 0xFFFF |\\n| 状态位数量 | 2个字节 | 1 至 2000（0x7D0） |\\n\\n响应PDU\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x02 |\\n| 字节数 | 1个字节 | N* |\\n| 状态位 | N个字节 | n=N 或 N+1 |\\n\\nN* =状态位数量/8，如果余数不等于0，那么：N = N+1\\n\\n错误\\n\\n|  |  |  |\\n|---|---|---|\\n| 功能码 | 1个字节 | 0x82 |\\n| 异常码 | 1个字节 | 01、02、03、04 |\\n\\n这是一个请求读取离散量输入197-218 的实例：\\n\\n| 请求 |  | 响应 |  |\\n|---|---|---|---|\\n| 域名 | （十六进制） | 域名 | （十六进制） |\\n| 功能 | 02 | 功能 | 02 |\\n| 起始地址 Hi | 00 | 字节数 | 03 |\\n| 起始地址 Lo | C4 | 输入状态204-197 | AC |\\n| 输出数量 Hi | 00 | 输入状态212-205 | DB |\\n| 输出数量 Lo | 16 | 输入状态218-213 | 35 |\\n\\n将离散量输入状态204-197表示为十六进制字节值AC，或二进制1010 1100。输入204是这个字节的MSB，输入197 是这个字节的 LSB。\\n\\n将离散量输入状态218-213表示为十六进制字节值35，或二进制0011 0101。输入218位于左侧第3 比特，输入213 是LSB。\\n\\n注：用零填充2个剩余比特（一直到高位端）。\",\n  \"crop_suggestions\": [],\n  \"notes\": \"\"\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1780909153,
+    "id": "chatcmpl-DoQ77bEMYiXq7x1oPiZj7uuwl4Hgk",
+    "model": "gpt-5.5-2026-04-24",
+    "object": "chat.completion",
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 1056,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 11,
+        "engine_ttft_ms": 383,
+        "engine_ttlt_ms": 11647,
+        "pre_inference_ms": 109,
+        "service_tbt_ms": 11,
+        "service_ttft_ms": 576,
+        "service_ttlt_ms": 11837,
+        "total_duration_ms": 11736,
+        "user_visible_ttft_ms": 467
+      },
+      "prompt_tokens": 2014,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "total_tokens": 3070
+    }
+  }
+}
