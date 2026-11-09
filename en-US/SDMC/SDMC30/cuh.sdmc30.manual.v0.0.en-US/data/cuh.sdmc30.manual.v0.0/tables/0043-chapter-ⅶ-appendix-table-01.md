@@ -1,0 +1,20 @@
+<!-- publish-data-sidecar: section=43 heading='7.3 Error Code' role=generic source_md=doc.md -->
+
+| Error Code | Meaning | Occurrence Conditions | Controller Response | Troubleshooting Methods |
+|---|---|---|---|---|
+| Er01 | Main output short circuit | Short circuit output phase-to-phase or phase-to-PE | Stop the main output, short press ON/OFF button to clear. | ◆ Short-circuit the output switch or switch off the output switch twice, then power on again. |
+| Er02H | Motor electronics overheating | Motor exceeds electrical power overheating threshold | Stop and automatic restart or run at decrease power rating according to Power Derating Factor setting. | ◆ Appropriately reduce the motor operating frequency setting. |
+| Er02P | Motor power exceeds limit | The output power exceeds the power excess coefficient | Stop and automatic restart or run at decrease power rating according to Power Derating Factor setting. | ◆ Appropriately reduce the motor operating frequency setting. |
+| Er03L | Undercooling | The controller temperature is lower than -20°C | Stop the main output.<br>The output is automatically started when the temperature returns to normal. | ◆ Avoid activating the controller in extremely cold temperatures. |
+| Er03H | Overheat | The controller temperature is higher than 65°C | Stop the main output.<br>The output is automatically started when the temperature returns to normal. | ◆ Install this controller in a well-ventilated environment. |
+| Er04L | Undervoltage | The average bus voltage is lower than 77V | Stop the main output.<br>The output is automatically restored when the power supply voltage is normal. | ◆ Make sure the input voltage is between 85V~250V. |
+| Er04H | Overvoltage | The average bus voltage is higher than 390V | Stop the main output.<br>The output is automatically restored when the power supply voltage is normal. | ◆ Make sure the input voltage is between 85V~250V. |
+| Er05 | Internal communication abnormality | No response received from the power board for 2 consecutive seconds | Stop the main output.<br>Automatically eliminated when communication is restored | ◆ Make sure that the 24V power port is not connected to any external power supply or contact our technical support. |
+| Er06 | Temperature sensor abnormality | Unable to read temperature | Stop the main output and try to read the temperature for 2 seconds. | ◆ Contact our technical support. |
+| Er07d/P | run/fault output port short circuit | Output current exceeds 350mA or short circuit | Run/fault output off within 5ms,<br>Try restarting the output after 2 seconds. | ◆ Make sure the load is not short-circuited and the current does not exceed 350mA |
+| Er10 | 24V output short circuit | The output 24V is short-circuited or over-current over 700mA | Stop the 24V output and power on again to restart the output. | ◆ Make sure the 24V output is not shorted or the output exceeds 700mA. |
+| Er11 | 5V output abnormality | 5V output exceeds ±10% range | The remote speed control fails, it can be automatically resumed | ◆ Make sure the 5V output has not been shorted or connected to an external voltage. |
+| Er12 | 24V voltage abnormality | Check whether the internal 24V voltage between 22~26V | Control output port gives high impedance, it can be automatically resumed | ◆ Make sure that the 24V power output port or control output port is not connected to any external power supply |
+| Er13 | Input Missing Phase<br>(3-phase input models only) | The three-phase power input is out of phase | Stop the main output | ◆ Power off to eliminate the lack of phase of the input and then power it back on. |
+| Er14 | Output Missing phase | Output phase current unbalance of more than 50% | Stop the main output | ◆ Power-off eliminates the lack of phase of the output and then power it back on. |
+| Er15 | Forward and reverse conflicts | Forward and reverse signals are given at the same time | The main output is stopped, it will be automatically resumed after the conflict is removed | ◆ Make sure that the forward and reverse signals are not given at the same time. |
