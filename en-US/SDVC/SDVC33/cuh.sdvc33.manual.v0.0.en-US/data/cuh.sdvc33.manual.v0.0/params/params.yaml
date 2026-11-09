@@ -1,0 +1,2096 @@
+schema_version: 1
+doc_id: cuh.sdvc33.manual.v0.0.en-US
+doc_key: cuh.sdvc33.manual.v0.0
+lang: en-US
+generated_at: '2026-11-09 16:25:41'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 1
+  heading_path: &id002
+  - （文首）
+  table_md_path: tables/0001-文首-table-01.md
+  headers:
+  - Symbol
+  - Description
+- section_index: 6
+  heading_path: &id003
+  - Chapter Ⅰ Before Use
+  - 1.3 Wiring Ports Explanation
+  table_md_path: tables/0006-chapter-ⅰ-before-use-table-01.md
+  headers:
+  - Function
+  - Channel A
+  - Description
+  - Channel B
+  - Function
+- section_index: 33
+  heading_path: &id004
+  - Chapter Ⅲ Installation Guide
+  - 5.4.2 Control Output Signal Source and Logic Diagram
+  table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+  headers:
+  - Signal Source
+  - Implication
+- section_index: 43
+  heading_path: &id005
+  - Chapter Ⅵ Technical Specifications
+  - 6.1 Dimensions
+  table_md_path: tables/0043-chapter-ⅵ-technical-specifications-table-01.md
+  headers:
+  - Dimensions range
+  - tolerance
+- section_index: 44
+  heading_path: &id006
+  - Chapter Ⅵ Technical Specifications
+  - 6.2 Technical Specifications
+  table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+  headers:
+  - Item
+  - Min
+  - Typical
+  - Max
+  - Unit
+  - Note
+- section_index: 45
+  heading_path: &id007
+  - Chapter Ⅵ Technical Specifications
+  - 6.3 Reference Standard
+  table_md_path: tables/0045-chapter-ⅵ-technical-specifications-table-01.md
+  headers:
+  - Item
+  - GB Standard
+  - IEC Standard
+  - Grade
+  - Standard Requirement
+  - Note
+- section_index: 46
+  heading_path: &id001
+  - Chapter Ⅵ Technical Specifications
+  - Chapter Ⅶ Appendix
+  table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+  headers:
+  - Parameter group / Operation
+  - Definition
+  - Symbol
+  - Symbol Image
+  - Range
+  - Default
+- section_index: 46
+  heading_path: *id001
+  table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-02.md
+  headers:
+  - Parameter
+  - Definition
+  - Symbol
+  - Symbol Image
+  - Range
+  - Default
+- section_index: 46
+  heading_path: *id001
+  table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-03.md
+  headers:
+  - col_1
+  - Definition
+  - Symbol
+  - Symbol Image
+  - Range
+  - Default
+- section_index: 48
+  heading_path: &id008
+  - Chapter Ⅵ Technical Specifications
+  - 7.3 Troubleshooting Suggestions and Error Explanations
+  table_md_path: tables/0048-chapter-ⅵ-technical-specifications-table-01.md
+  headers:
+  - Error Code
+  - Definition (Phenomenon)
+  - Troubleshooting Methods
+items:
+- name: ⚠ Danger
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Symbol: ⚠ Danger
+    Description: Non-observance of this item will result in personal injury or death.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id002
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ⚠ Warn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Symbol: ⚠ Warn
+    Description: Non-observance of this item may result in personal injury or death.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id002
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ⚠ Careful
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Symbol: ⚠ Careful
+    Description: Non-observance of this item may result in moderate or minor injury
+      to persons.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id002
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Notice
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Symbol: Notice
+    Description: Non-observance of this item will result in damage to the product
+      and property damage.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id002
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ❗ Essential
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Symbol: ❗ Essential
+    Description: Indicates precautions and usage restrictions that must be observed
+      during use.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id002
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Function: Speed Ctrl
+    Channel A: A1
+    Description: RGND
+    Channel B: A1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 6
+    heading_path: *id003
+    heading_title: 1.3 Wiring Ports Explanation
+    table_role: generic
+    table_md_path: tables/0006-chapter-ⅰ-before-use-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Function: Speed Ctrl
+    Channel A: A2
+    Description: Input
+    Channel B: A2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 6
+    heading_path: *id003
+    heading_title: 1.3 Wiring Ports Explanation
+    table_role: generic
+    table_md_path: tables/0006-chapter-ⅰ-before-use-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Function: Speed Ctrl
+    Channel A: A3
+    Description: 5V out
+    Channel B: A3
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 6
+    heading_path: *id003
+    heading_title: 1.3 Wiring Ports Explanation
+    table_role: generic
+    table_md_path: tables/0006-chapter-ⅰ-before-use-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Function: Photosensor
+    Channel A: B1
+    Description: GND
+    Channel B: B1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 6
+    heading_path: *id003
+    heading_title: 1.3 Wiring Ports Explanation
+    table_role: generic
+    table_md_path: tables/0006-chapter-ⅰ-before-use-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Function: Photosensor
+    Channel A: B2
+    Description: RX
+    Channel B: B2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 6
+    heading_path: *id003
+    heading_title: 1.3 Wiring Ports Explanation
+    table_role: generic
+    table_md_path: tables/0006-chapter-ⅰ-before-use-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Function: Photosensor
+    Channel A: B3
+    Description: GND
+    Channel B: B3
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 6
+    heading_path: *id003
+    heading_title: 1.3 Wiring Ports Explanation
+    table_role: generic
+    table_md_path: tables/0006-chapter-ⅰ-before-use-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Function: Photosensor
+    Channel A: B4
+    Description: TX
+    Channel B: B4
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 6
+    heading_path: *id003
+    heading_title: 1.3 Wiring Ports Explanation
+    table_role: generic
+    table_md_path: tables/0006-chapter-ⅰ-before-use-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Function: Sensor
+    Channel A: C1
+    Description: GND
+    Channel B: C1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 6
+    heading_path: *id003
+    heading_title: 1.3 Wiring Ports Explanation
+    table_role: generic
+    table_md_path: tables/0006-chapter-ⅰ-before-use-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Function: Sensor
+    Channel A: C2
+    Description: Input
+    Channel B: C2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 6
+    heading_path: *id003
+    heading_title: 1.3 Wiring Ports Explanation
+    table_role: generic
+    table_md_path: tables/0006-chapter-ⅰ-before-use-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Function: Sensor
+    Channel A: C3
+    Description: 24V out
+    Channel B: C3
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 6
+    heading_path: *id003
+    heading_title: 1.3 Wiring Ports Explanation
+    table_role: generic
+    table_md_path: tables/0006-chapter-ⅰ-before-use-table-01.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Function: Ctrl Out
+    Channel A: D3
+    Description: GND
+    Channel B: D3
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 6
+    heading_path: *id003
+    heading_title: 1.3 Wiring Ports Explanation
+    table_role: generic
+    table_md_path: tables/0006-chapter-ⅰ-before-use-table-01.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Function: Ctrl Out
+    Channel A: D1
+    Description: Output
+    Channel B: D1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 6
+    heading_path: *id003
+    heading_title: 1.3 Wiring Ports Explanation
+    table_role: generic
+    table_md_path: tables/0006-chapter-ⅰ-before-use-table-01.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Function: Ctrl Out
+    Channel A: D2
+    Description: 24V out
+    Channel B: D2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 6
+    heading_path: *id003
+    heading_title: 1.3 Wiring Ports Explanation
+    table_role: generic
+    table_md_path: tables/0006-chapter-ⅰ-before-use-table-01.md
+- name: '0'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: '0'
+    Implication: invalid signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: '1'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: '1'
+    Implication: valid signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: Ab
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: Ab
+    Implication: Intelligent photoelectric sensing port signal of channel A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: -Ab
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -Ab
+    Implication: Intelligent photoelectric sensing port signal of channel A is inverted
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: Ac
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: Ac
+    Implication: Switch sensor port signal of channel A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: -Ac
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -Ac
+    Implication: Switch sensor port signal of channel A is inverted
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: Ad
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: Ad
+    Implication: Control output port signal of channel A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: -Ad
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -Ad
+    Implication: Control output port signal of channel A is inverted
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: Aq
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: Aq
+    Implication: Main power output port signal of channel A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: -Aq
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -Aq
+    Implication: Main power output port signal of channel A is inverted
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: bb
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: bb
+    Implication: Intelligent photoelectric sensing port signal of channel B
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: -bb
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -bb
+    Implication: Intelligent photoelectric sensing port signal of channel B is inverted
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: bc
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: bc
+    Implication: Switch sensor port signal of channel B
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: -bc
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -bc
+    Implication: Switch sensor port signal of channel B is inverted
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: bd
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: bd
+    Implication: Control output port signal of channel B
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: -bd
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -bd
+    Implication: Control output port signal of channel B is inverted
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: bq
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: bq
+    Implication: Main power output port signal of channel B
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: -bq
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -bq
+    Implication: Main power output port signal of channel B is inverted
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id004
+    heading_title: 5.4.2 Control Output Signal Source and Logic Diagram
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅲ-installation-guide-table-01.md
+- name: 0~3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Dimensions range: 0~3
+    tolerance: ±0.05
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id005
+    heading_title: 6.1 Dimensions
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅵ-technical-specifications-table-01.md
+- name: 3~10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Dimensions range: 3~10
+    tolerance: ±0.1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id005
+    heading_title: 6.1 Dimensions
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅵ-technical-specifications-table-01.md
+- name: 10~30
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Dimensions range: 10~30
+    tolerance: ±0.15
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id005
+    heading_title: 6.1 Dimensions
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅵ-technical-specifications-table-01.md
+- name: 30~80
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Dimensions range: 30~80
+    tolerance: ±0.2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id005
+    heading_title: 6.1 Dimensions
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅵ-technical-specifications-table-01.md
+- name: 80~180
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Dimensions range: 80~180
+    tolerance: ±0.3
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id005
+    heading_title: 6.1 Dimensions
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅵ-technical-specifications-table-01.md
+- name: '>180'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Dimensions range: '>180'
+    tolerance: ±0.5
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id005
+    heading_title: 6.1 Dimensions
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅵ-technical-specifications-table-01.md
+- name: Input Voltage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Input Voltage
+    Min: '85'
+    Typical: '220'
+    Max: '250'
+    Unit: V
+    Note: AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Adjustable Output Voltage Range
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Adjustable Output Voltage Range
+    Min: '0'
+    Typical: ——
+    Max: '260'
+    Unit: V
+    Note: Lower than 150% of Input Voltage
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Voltage Adjustment Accuracy
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Voltage Adjustment Accuracy
+    Typical: '1'
+    Unit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Voltage Regulation Accuracy
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Voltage Regulation Accuracy
+    Min: '0'
+    Typical: ——
+    Max: '10'
+    Unit: '%'
+    Note: ΔVout/ΔVin
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Adjustable Output Current Range
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Adjustable Output Current Range
+    Min: '0'
+    Typical: ——
+    Max: '3.5'
+    Unit: A
+    Note: The combined current can be distributed arbitrarily.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Output Power
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Power
+    Min: '0'
+    Typical: ——
+    Max: '770'
+    Unit: VA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Output Frequency
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Frequency
+    Min: '5.0'
+    Typical: ——
+    Max: '999.9'
+    Unit: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Frequency Adjustment Accuracy
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Frequency Adjustment Accuracy
+    Typical: '0.1'
+    Unit: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Output Waveform
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Waveform
+    Typical: Sine
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Soft Start Time
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Soft Start Time
+    Min: '0'
+    Typical: ——
+    Max: '10'
+    Unit: s
+    Note: 'Default value: 0.5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: On/Off Delay Time Range
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: On/Off Delay Time Range
+    Min: '0'
+    Typical: ——
+    Max: '99.9'
+    Unit: s
+    Note: 'Default value: 0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: On/Off Delay Time Accuracy
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: On/Off Delay Time Accuracy
+    Typical: '0.1'
+    Unit: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Overheat Protection Trigger Temperature
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Overheat Protection Trigger Temperature
+    Min: ——
+    Typical: '65'
+    Max: ——
+    Unit: °C
+    Note: 60°C return to normal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: DC Control Output Current
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: DC Control Output Current
+    Min: '0'
+    Typical: ——
+    Max: '350'
+    Unit: mA
+    Note: Both channels A & B are supported
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: 24V Output Current
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: 24V Output Current
+    Min: ——
+    Typical: ——
+    Max: '700'
+    Unit: mA
+    Note: Channel A & B output sum
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: DC Control Output Voltage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: DC Control Output Voltage
+    Min: '22'
+    Typical: '24'
+    Max: '26'
+    Unit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Analog Control Signal
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Analog Control Signal
+    Typical: 4~20/1~5
+    Unit: mA/V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Digital Control Signal
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Digital Control Signal
+    Typical: '24'
+    Unit: V
+    Note: Switching Signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Adjustment Method
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Adjustment Method
+    Typical: '6'
+    Unit: Button
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Standby Power Consumption
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Standby Power Consumption
+    Min: ——
+    Typical: '3'
+    Max: ——
+    Unit: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Display Method
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Display Method
+    Typical: '5'
+    Unit: Digit
+    Note: LED
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Weight
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Weight
+    Typical: '850'
+    Unit: g
+    Note: Without Accessory
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Dimensions
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Dimensions
+    Typical: 190*61.8*94.5 ( L*W*H )
+    Unit: mm
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Ingress Protection Level
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Ingress Protection Level
+    Typical: IP20
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Ambient Temperature
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Ambient Temperature
+    Min: '0'
+    Typical: '25'
+    Max: '40'
+    Unit: °C
+    Note: No Condensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Ambient Humidity
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Ambient Humidity
+    Min: '10'
+    Typical: '60'
+    Max: '85'
+    Unit: '%'
+    Note: No Condensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Storage Ambient Temperature
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Storage Ambient Temperature
+    Min: '-20'
+    Typical: '25'
+    Max: '85'
+    Unit: °C
+    Note: No Condensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Applicable Altitude
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Applicable Altitude
+    Typical: <2000
+    Unit: m
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id006
+    heading_title: 6.2 Technical Specifications
+    table_role: generic
+    table_md_path: tables/0044-chapter-ⅵ-technical-specifications-table-01.md
+- name: Electrostatic Discharge
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Electrostatic Discharge
+    GB Standard: GB/T 17626.2-2006
+    IEC Standard: IEC 61000-4-2:2001
+    Grade: '4'
+    Standard Requirement: ±8 kV
+    Note: Contact Discharge
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id007
+    heading_title: 6.3 Reference Standard
+    table_role: generic
+    table_md_path: tables/0045-chapter-ⅵ-technical-specifications-table-01.md
+- name: Electrical Fast Transient Test
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Electrical Fast Transient Test
+    GB Standard: GB/T 17626.4-2008
+    IEC Standard: IEC 61000-4-4:2004
+    Grade: '4'
+    Standard Requirement: ±4 kV
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id007
+    heading_title: 6.3 Reference Standard
+    table_role: generic
+    table_md_path: tables/0045-chapter-ⅵ-technical-specifications-table-01.md
+- name: DC Power Line Wave Immunity
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: DC Power Line Wave Immunity
+    GB Standard: GB/T 17626.17-2005
+    IEC Standard: IEC 61000-4-17:2002
+    Grade: '4'
+    Standard Requirement: 15%
+    Note: Rating A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id007
+    heading_title: 6.3 Reference Standard
+    table_role: generic
+    table_md_path: tables/0045-chapter-ⅵ-technical-specifications-table-01.md
+- name: Standby parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Standby parameter
+    Definition: Output Voltage
+    Symbol: U
+    Symbol Image: '![Output Voltage 数码管符号 U](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-00.png)'
+    Range: 0~260 V
+    Default: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Basic Parameter<br>Long press A/B
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Basic Parameter<br>Long press A/B
+    Definition: Output Frequency
+    Symbol: E
+    Symbol Image: '![Output Frequency 数码管符号 E](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-01.png)'
+    Range: 5.0~999.9 Hz
+    Default: '50.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Basic Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Basic Parameter
+    Definition: On Delay of the Intelligent Photoelectric Sensor
+    Symbol: J
+    Symbol Image: '![On Delay of the Intelligent Photoelectric Sensor 数码管符号 J](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-02.png)'
+    Range: 0.0~99.9 s
+    Default: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Basic Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Basic Parameter
+    Definition: Off Delay of the Intelligent Photoelectric Sensor
+    Symbol: L
+    Symbol Image: '![Off Delay of the Intelligent Photoelectric Sensor 数码管符号 L](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-03.png)'
+    Range: 0.0~99.9 s
+    Default: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Basic Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Basic Parameter
+    Definition: Soft Startup
+    Symbol: t
+    Symbol Image: '![Soft Startup 数码管符号 t](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-04.png)'
+    Range: 0.0~10.0 s
+    Default: '0.5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Basic Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Basic Parameter
+    Definition: Breaking cycles/Soft Shutdown
+    Symbol: d
+    Symbol Image: '![Breaking cycles/Soft Shutdown 数码管符号](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-05.png)'
+    Range: -10~0 cycle (number of breaking cycles)<br>0.0~10.0 s (Soft Shutdown)
+    Default: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Advanced Parameter<br>Long press A/B and ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Advanced Parameter<br>Long press A/B and ▲
+    Definition: Intelligent photoelectric sensor sensitivity
+    Symbol: P
+    Symbol Image: '![Intelligent photoelectric sensor sensitivity 数码管符号 P](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-06.png)'
+    Range: nPn, PnP, 2~1000
+    Default: '80'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Advanced Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Advanced Parameter
+    Definition: Port C Sensor Type
+    Symbol: ΓA
+    Symbol Image: '![Port C Sensor Type 数码管符号](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-07.png)'
+    Range: nPn, PnP<br>ut1 (Single scan), ut0 (Continuous scan)
+    Default: ut0
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Advanced Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Advanced Parameter
+    Definition: On Delay of Port C
+    Symbol: J-
+    Symbol Image: '![On Delay of Port C 数码管符号 J-](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-08.png)'
+    Range: 0.0~99.9 s
+    Default: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Advanced Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Advanced Parameter
+    Definition: Off Delay of Port C
+    Symbol: L-
+    Symbol Image: '![Off Delay of Port C 数码管符号 L-](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-09.png)'
+    Range: 0.0~99.9 s
+    Default: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Advanced Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Advanced Parameter
+    Definition: The first signal source of Control Port D
+    Symbol: E.d
+    Symbol Image: '![The first signal source of Control Port D 数码管符号 E.d](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-10.png)'
+    Range: 0, 1, Ab, -Ab, Ac, -Ac, Ad, -Ad, Aq, -Aq,<br>bb, -bb, bc, -bc, bd, -bd,
+      bq, -bq
+    Default: 'A: 0<br>B: 0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Advanced Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Advanced Parameter
+    Definition: The second signal source of Control Port D
+    Symbol: Ed
+    Symbol Image: '![The second signal source of Control Port D 数码管符号 Ed](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-11.png)'
+    Range: 0, 1, Ab, -Ab, Ac, -Ac, Ad, -Ad, Aq, -Aq,<br>bb, -bb, bc, -bc, bd, -bd,
+      bq, -bq
+    Default: 'A: Aq<br>B: bq'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Advanced Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Advanced Parameter
+    Definition: Logic operation of signal sources of Control Port D
+    Symbol: ∩d
+    Symbol Image: '![Logic operation of signal sources of Control Port D 数码管符号](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-12.png)'
+    Range: And, or, Hor, rS
+    Default: or
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Advanced Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Advanced Parameter
+    Definition: On Delay of Port D
+    Symbol: Jd
+    Symbol Image: '![On Delay of Port D 数码管符号 Jd](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-13.png)'
+    Range: 0.0~99.9 s
+    Default: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Advanced Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Advanced Parameter
+    Definition: Off Delay of Port D
+    Symbol: Ld
+    Symbol Image: '![Off Delay of Port D 数码管符号 Ld](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-14.png)'
+    Range: 0.0~99.9 s
+    Default: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Advanced Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Advanced Parameter
+    Definition: Output Mode of Port D
+    Symbol: Fd
+    Symbol Image: '![Output Mode of Port D 数码管符号 Fd](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-15.png)'
+    Range: dLy (Delay Mode), HLd (Hold Mode)
+    Default: dLy
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Advanced Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Advanced Parameter
+    Definition: Logic direction of Port D
+    Symbol: ɔd
+    Symbol Image: '![Logic direction of Port D 数码管符号](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-16.png)'
+    Range: '--- (Same phase), -⁻- (Reverse)<br>on (Normal Open), oFF (Normal Close)<br>![Logic
+      direction of Port D：同相、反相段码图示及常开、常闭范围](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-21.png)'
+    Default: '---'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Advanced Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Advanced Parameter
+    Definition: Control Output Type
+    Symbol: Γd
+    Symbol Image: '![Control Output Type 数码管符号](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-17.png)'
+    Range: nPn, PnP, PSP (Push & Pull)
+    Default: nPn
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Advanced Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Advanced Parameter
+    Definition: The first signal source of Main output
+    Symbol: E.q
+    Symbol Image: '![The first signal source of Main output 数码管符号 E.q](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-18.png)'
+    Range: 0, 1, Ab, -Ab, Ac, -Ac, Ad, -Ad, Aq, -Aq,<br>bb, -bb, bc, -bc, bd, -bd,
+      bq, -bq
+    Default: 'A: Ab<br>B: bb'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Advanced Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Advanced Parameter
+    Definition: The second signal source of Main output
+    Symbol: Eq
+    Symbol Image: '![The second signal source of Main output 数码管符号 Eq](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-19.png)'
+    Range: 0, 1, Ab, -Ab, Ac, -Ac, Ad, -Ad, Aq, -Aq,<br>bb, -bb, bc, -bc, bd, -bd,
+      bq, -bq
+    Default: 'A: Ac<br>B: bc'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Advanced Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter group / Operation: Advanced Parameter
+    Definition: Logic operation of signal sources of Main output
+    Symbol: ∩q
+    Symbol Image: '![Logic operation of signal sources of Main output 数码管符号](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-20.png)'
+    Range: And, or, Hor, rS
+    Default: or
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-01.md
+- name: Advanced Parameter<br>Long press A/B and ▲
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Advanced Parameter<br>Long press A/B and ▲
+    Definition: On Delay of Main output
+    Symbol: J9
+    Symbol Image: '![On Delay of Main output 数码管符号](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-00.png)'
+    Range: 0.0~99.9 s
+    Default: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-02.md
+- name: Monitoring Parameter<br>Long press A/B and ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Monitoring Parameter<br>Long press A/B and ▼
+    Definition: Output Current
+    Symbol: AC
+    Symbol Image: '![Output Current 数码管符号](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-12.png)'
+    Range: 0.00~3.50 A
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-02.md
+- name: Joint Parameter<br><br>Long press<br>▲ and ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Joint Parameter<br><br>Long press<br>▲ and ▼
+    Definition: B combined with A <sup>#</sup>
+    Symbol: Cb
+    Symbol Image: '![Cb 数码管符号](assets/images/cuh.sdvc33.manual.v0.0/page-0042-vcrop-00.png)'
+    Range: Ind (independent), trF (B frequency tracking A), trU (B voltage tracking
+      A), trA (B voltage frequency both tracking A)
+    Default: Ind
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id001
+    heading_title: Chapter Ⅶ Appendix
+    table_role: generic
+    table_md_path: tables/0046-chapter-ⅵ-technical-specifications-table-03.md
+- name: Er01A/Er01b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er01A/Er01b
+    Definition (Phenomenon): Channel A/B short circuit<br>(Both channels stop outputs)
+    Troubleshooting Methods: ◆ Make sure the load is not short-circuit, then try to
+      restart output of the controller by press Output ON/OFF Button two times or
+      repower the controller.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 48
+    heading_path: *id008
+    heading_title: 7.3 Troubleshooting Suggestions and Error Explanations
+    table_role: generic
+    table_md_path: tables/0048-chapter-ⅵ-technical-specifications-table-01.md
+- name: Er02
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er02
+    Definition (Phenomenon): Channel AB combined overcurrent<br>(Both channels pause
+      output, after 2s restart)
+    Troubleshooting Methods: ◆ Reduce output voltage appropriately, then restart the
+      output.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 48
+    heading_path: *id008
+    heading_title: 7.3 Troubleshooting Suggestions and Error Explanations
+    table_role: generic
+    table_md_path: tables/0048-chapter-ⅵ-technical-specifications-table-01.md
+- name: Er02A/Er02b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er02A/Er02b
+    Definition (Phenomenon): Channel A/B individual overcurrent<br>(Overcurrent channel
+      stops output, 2s restart)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 48
+    heading_path: *id008
+    heading_title: 7.3 Troubleshooting Suggestions and Error Explanations
+    table_role: generic
+    table_md_path: tables/0048-chapter-ⅵ-technical-specifications-table-01.md
+- name: Er02A./Er02b.
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er02A./Er02b.
+    Definition (Phenomenon): Channel A/B individual overcurrent reaches the set maximum
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 48
+    heading_path: *id008
+    heading_title: 7.3 Troubleshooting Suggestions and Error Explanations
+    table_role: generic
+    table_md_path: tables/0048-chapter-ⅵ-technical-specifications-table-01.md
+- name: Er03
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er03
+    Definition (Phenomenon): Overheating or undercooling<br>(Both channels stop output,
+      automatic recovery at -20℃~60℃)
+    Troubleshooting Methods: ◆ Install the controller in a well-ventilated environment
+      or avoid extreme cold.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 48
+    heading_path: *id008
+    heading_title: 7.3 Troubleshooting Suggestions and Error Explanations
+    table_role: generic
+    table_md_path: tables/0048-chapter-ⅵ-technical-specifications-table-01.md
+- name: Er041/Er042
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er041/Er042
+    Definition (Phenomenon): Power supply under/over voltage<br>(Both channels stop
+      output, automatic recovery)
+    Troubleshooting Methods: ◆ Make sure input voltage between AC 85~250Vac.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 48
+    heading_path: *id008
+    heading_title: 7.3 Troubleshooting Suggestions and Error Explanations
+    table_role: generic
+    table_md_path: tables/0048-chapter-ⅵ-technical-specifications-table-01.md
+- name: Er05
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er05
+    Definition (Phenomenon): Internal communication abnormal<br>(Both channels stop
+      output)
+    Troubleshooting Methods: ◆ Make sure no extern power supply connect to the 24V
+      power port or contact our technical support.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 48
+    heading_path: *id008
+    heading_title: 7.3 Troubleshooting Suggestions and Error Explanations
+    table_role: generic
+    table_md_path: tables/0048-chapter-ⅵ-technical-specifications-table-01.md
+- name: Er06
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er06
+    Definition (Phenomenon): Temperature sensor abnormal<br>(Both channels stop output)
+    Troubleshooting Methods: ◆ Make sure the work temperature not under -20℃ or contact
+      our technical support.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 48
+    heading_path: *id008
+    heading_title: 7.3 Troubleshooting Suggestions and Error Explanations
+    table_role: generic
+    table_md_path: tables/0048-chapter-ⅵ-technical-specifications-table-01.md
+- name: Er07A/Er07b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er07A/Er07b
+    Definition (Phenomenon): Channel A/B Port D port short circuit<br>(Channel A/B
+      control output stops, 2s try to restart)
+    Troubleshooting Methods: ◆ Make sure the load of Port D is not short-circuit and
+      the current does not exceed 350mA.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 48
+    heading_path: *id008
+    heading_title: 7.3 Troubleshooting Suggestions and Error Explanations
+    table_role: generic
+    table_md_path: tables/0048-chapter-ⅵ-technical-specifications-table-01.md
+- name: Er10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er10
+    Definition (Phenomenon): 24V power output abnormal<br>(Turn off the 24V output,
+      2s try to restart)
+    Troubleshooting Methods: ◆ Make sure 24V port is not short-circuit and the current
+      does not exceed 700mA.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 48
+    heading_path: *id008
+    heading_title: 7.3 Troubleshooting Suggestions and Error Explanations
+    table_role: generic
+    table_md_path: tables/0048-chapter-ⅵ-technical-specifications-table-01.md
+- name: Er11
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er11
+    Definition (Phenomenon): 5V power output abnormal<br>(The speed control function
+      is temporarily closed, and the automatic restart is restored)
+    Troubleshooting Methods: ◆ Make sure the 5V power of Port A is not short-circuit
+      or not connected to external power voltage more than 5V.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 48
+    heading_path: *id008
+    heading_title: 7.3 Troubleshooting Suggestions and Error Explanations
+    table_role: generic
+    table_md_path: tables/0048-chapter-ⅵ-technical-specifications-table-01.md
+- name: Er12
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er12
+    Definition (Phenomenon): 24V power supply voltage abnormal<br>(Both channels stop
+      output, control output high impedance, automatic recovery)
+    Troubleshooting Methods: ◆ Make sure no extern power supply connect to the 24V
+      power port.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 48
+    heading_path: *id008
+    heading_title: 7.3 Troubleshooting Suggestions and Error Explanations
+    table_role: generic
+    table_md_path: tables/0048-chapter-ⅵ-technical-specifications-table-01.md

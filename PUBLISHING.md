@@ -179,87 +179,96 @@ cuh.<产品小写型号>.manual.<主版本>.<语言>
 
 ### 4.1 基本约定
 
-- **分支**：`draft` 为协作草稿分支（未审内容）；`main` 为已审核发布基线，**只承接已审说明书资料包**。大改版可使用特性分支，合并前自检目录命名与 `doc.md` 头信息。
-- **提交信息**：简明说明变更范围（如「新增 SDVC34 中文版 v0.1」「修正 zh-CN/SDVC/SDVC34 某章节笔误」）。
+- **分支**：
+  - `draft`：协作草稿分支（未审内容）；只推内部协作 remote（如 `cuh_codeup`）。
+  - `main`：已审核发布基线，**只承接已审说明书资料包**；内容须经发布分支的合并请求审批后合入。
+  - `release/...`：短期发布分支，从当前 `main` 检出，只放入本批待发布路径，用于发起合并请求；合入 `main` 后可删除。
+- **提交信息**：简明说明变更范围（如「发布：SDVC34 英文版说明书 v0.0」「修正 zh-CN/SDVC/SDVC34 某章节笔误」）。
 - **大文件**：若 PDF、高清图体积较大，需遵守公司 Git LFS 或大文件策略；本仓库 `.gitignore` 已排除常见日志、虚拟环境、密钥与临时目录，新增类型大文件前请先确认是否应纳入 Git 或改用制品库。
 - **敏感信息**：禁止将密钥、内网绝对路径中的账号信息、未公开报价等写入仓库；`config.ini`、`.env` 等已在忽略列表中，亦勿强行提交。
 - **分叉同步**：与同事在同一分支产生 ahead/behind 时，优先 `git pull --rebase`（本地提交少时历史更干净）；冲突解决后再推送。
+- **对外同步**：合入内部 `main` 后，由**云效 CI 工作流**自动推送到公开 GitHub 仓库。相关人员**不必、也不应**在本地添加 GitHub remote，或手动 `git push` 到 GitHub。
 
-### 4.2 添加「已发布」远程代码库
+### 4.2 远程与分支约定
 
-协作草稿与对外/已审发布建议拆到不同 remote。例如将 GitHub 上的已发布库挂到本地（remote 名可用 `github` 或 `published`，下文以 `github` 为例）：
-
-```bash
-git remote add github git@github.com:Nanjing-CUH-Science-Technology-Co-Ltd/product_doc.git
-git remote -v
-```
-
-说明：
-
-- 仅添加 remote **不会**改变现有 `cuh_codeup` / `cuhgitlab` 等协作源。
-- 推送时务必**显式指定** remote 与分支，避免把 `draft` 误推到已发布库。
-- 可选：限制该 remote 默认只推 `main`（降低误推风险）：
-
-```bash
-git config remote.github.push refs/heads/main:refs/heads/main
-```
-
-真正防误推仍建议在 GitHub 侧开启分支保护（禁止强制推送、要求 PR 等）。
-
-### 4.3 远程与分支约定
+日常协作与发布只使用内部 remote（示例名 `cuh_codeup`；亦可能有 `cuhgitlab` 等）。推送时务必**显式指定** remote 与分支。
 
 | 远程（示例名） | 分支 | 用途 |
 |----------------|------|------|
 | `cuh_codeup`（或内部 GitLab） | `draft` | 多人协作草稿、未审内容 |
-| `cuh_codeup`（或内部 GitLab） | `main` | 内部已审基线（与对外发布内容一致） |
-| **`github`（已发布库）** | **`main`** | **只承接已审核发布的说明书文档** |
+| `cuh_codeup`（或内部 GitLab） | `release/...` | 本批待发布内容；用于发起合并请求 |
+| `cuh_codeup`（或内部 GitLab） | `main` | 内部已审发布基线；合入后由云效 CI 同步至公开 GitHub |
 
 推送示例：
 
 ```bash
-# 只推发布分支到已发布库
-git push github main
+# 推送发布分支（供合并请求）
+git push -u cuh_codeup HEAD
 
-# 不要：git push github draft
-# 不要：git push --all github
+# 不要：将整条 draft 直接合并进 main（会带入未审内容）
+# 不要：在本地添加 github remote，或手动 push 到 GitHub（由云效 CI 负责）
 ```
 
-### 4.4 发布流程（推荐）
+### 4.3 发布流程（推荐：发布分支 + 合并请求）
 
-1. 在 `draft` 上完成校对与审核，确认某本/某批资料包可发布。
-2. 切换到 `main`，**只检出已审目录**（不要整库把草稿一并带入）。
-3. 更新根目录 `README.md` 产品目录索引（如有新增型号或语言）后提交；本文件维护规范与历史变更记录。
-4. 推送到已发布远程（及内部 `main`，按团队需要）。
+**原则**：永远以当前 `main` 为基线新开发布分支；用 `git checkout draft -- <路径>` **只带入本批已审路径**；通过合并请求审批后再合入内部 `main`。不要把整条 `draft` 直接合并到 `main`——平台上的合并请求比较的是整枝差异，无法「只勾选某几个文件」。对外公开库由云效 CI 在 `main` 更新后自动同步，人工侧到合入内部 `main` 即止。
+
+1. 在 `draft` 上完成校对与审核，确认某本/某批资料包（及需要同步的 `README.md` / 本文件）可发布。
+2. 从最新 `main` 创建发布分支（命名建议：`release/<简述>`，如 `release/en-us-sdvc`、`release/readme-publishing-sdmc30`）。
+3. 仅从 `draft` 检出已审路径；用 `git status` / `git diff --cached --stat` 确认暂存区没有其它草稿。
+4. 若本批涉及新产品或升版：同步更新根目录 `README.md` 产品目录索引，并在本文件「历史维护记录」追加说明；`README.md` 自身变更记入其文末变更说明。
+5. 提交并推送发布分支，在云效 CodeUp（或内部 GitLab）创建**源分支 = 发布分支、目标分支 = `main`** 的合并请求，审批通过后合并。
+6. 合入后可拉取最新 `main` 核对，并删除本地/远程发布分支。公开 GitHub 由 CI 同步，无需人工推送。
 
 ```bash
+# 1. 从已发布基线开发布分支
+git fetch cuh_codeup
 git checkout main
-# 从 draft 检出已审资料包，例如：
-git checkout draft -- en-US/SDVC/SDVC34/cuh.sdvc34.manual.v0.0.en-US/
-# 视需要同步更新 README 产品目录后：
-git add -A
-git commit -m "发布：SDVC34 英文版说明书 v0.0"
-git push github main
-# 若内部 CodeUp/GitLab 的 main 也需同步发布态：
-git push cuh_codeup main
+git pull cuh_codeup main
+git checkout -b release/en-us-sdvc34
+
+# 2. 只从 draft 带入指定路径（可一次多个文件/目录）
+git checkout draft -- \
+  en-US/SDVC/SDVC34/cuh.sdvc34.manual.v0.0.en-US/ \
+  README.md \
+  PUBLISHING.md
+
+# 3. 确认暂存区只有本批内容
+git status
+git diff --cached --stat
+
+# 4. 提交并推送发布分支
+git commit -m "$(cat <<'EOF'
+发布：SDVC34 英文版说明书 v0.0
+
+EOF
+)"
+git push -u cuh_codeup HEAD
+
+# 5. 在云效 CodeUp 开合并请求：release/en-us-sdvc34 → main
+#    审批通过并合并后（可选清理）：
+
+git checkout main
+git pull cuh_codeup main
+git push cuh_codeup --delete release/en-us-sdvc34   # 可选：删除已合入的发布分支
+git branch -d release/en-us-sdvc34
+# 公开 GitHub 由云效 CI 自动同步，此处不要手动 push
 ```
 
-首次向空的 GitHub 仓库推送：
+整族目录亦可一次检出（仍须事先在 `draft` 上全部审完），例如：
 
 ```bash
-git push -u github main
+git checkout draft -- en-US/SDVC/
 ```
 
-若远程已有 README/License 等初始提交，先 `git fetch github`，再按情况 merge 或处理 unrelated histories，**避免直接强推覆盖**。
+### 4.4 落地方式（本仓库采用）
 
-### 4.5 落地方式 A：沿用 `main`（本仓库采用）
-
-沿用现有 `main` 作为唯一发布分支，职责清晰、操作简单：
-
-- **`draft`**：日常协作与未审内容；**只推**内部协作 remote（如 `cuh_codeup`），**永不推** `github`。
-- **`main`**：只放已审资料包（历史上曾清空未审内容以符合该角色）；GitHub 的 `main` 与本地 / `cuh_codeup` 的 `main` 对齐。
-- 发布时用「从 `draft` 选择性 `checkout` 已审路径 → 提交到 `main` → `git push github main`」，避免草稿提交历史与未审文件进入已发布库。
-
-说明：若未来需要「GitHub 上完全看不到任何草稿提交历史」，可再评估 orphan/`release` 分支等重建发布历史方案；当前默认以本方式 A 为准，够用且与现有分支习惯一致。
+- **`draft`**：日常协作与未审内容；只推内部协作 remote；不整枝合并进 `main`。
+- **`release/...`**：从 `main` 拉出的短期发布分支；只含本批已审路径；用于合并请求评审。
+- **`main`**：唯一长期发布基线，只放已审资料包（内部 CodeUp）。
+- **取数方式**：始终用「`git checkout draft -- <已审路径>`」，避免草稿提交历史与未审文件进入已发布库。
+- **合入方式**：发布分支 → 合并请求 → 内部 `main`。
+- **对外同步**：云效 CI 工作流将内部 `main` 推送到公开 GitHub；协作人员无需配置或操作 GitHub remote。
 
 ---
 
@@ -278,6 +287,8 @@ git push -u github main
 
 | 日期 | 说明 |
 |------|------|
+| 2026-11-09 | 删除本地添加/推送 GitHub remote 的操作说明：对外同步改由云效 CI 在内部 `main` 更新后自动完成；相关人员只维护 CodeUp 侧 `draft` / `release/...` / `main`。 |
+| 2026-11-09 | 发布流程改为「从 `main` 新开 `release/...` 分支 → 仅 `checkout draft --` 已审路径 → 合并请求审批合入 `main`」；同步修订 Git 协作各小节，明确禁止整枝合并 `draft`→`main`。 |
 | 2026-11-09 | 将原 README 中的目录约定、命名规范、`doc.md` 规范、Git 协作与发布流程及历史维护记录迁入本文件；对外 `README.md` 改为公司/产品介绍与产品手册对齐的说明书索引。 |
 | 2026-10-09 | 扩充「四、Git 与协作约定」：补充已发布远程添加方式、`draft`/`main` 与多 remote 约定、推荐发布流程，以及落地方式 A（沿用 `main` 只承接已审说明书）。 |
 | 2026-05-19 | 初版：定义四级目录结构、资料包命名、`doc.md` 编写与 Git 协作约定。 |
