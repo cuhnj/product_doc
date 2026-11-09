@@ -1,0 +1,9 @@
+<!-- publish-data-sidecar: section=2 heading='Preface' role=generic source_md=doc.md -->
+
+|  |  |
+|---|---|
+| ⚠ Danger | Non-observance of this item will result in personal injury or death. |
+| ⚠ Warn | Non-observance of this item may result in personal injury or death. |
+| ⚠ Careful | Non-observance of this item may result in moderate or minor injury to persons. |
+| Notice | Non-observance of this item will result in damage to the product and property damage. |
+| ❗ Essential | Indicates precautions and usage restrictions that must be observed during use. |

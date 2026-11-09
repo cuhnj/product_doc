@@ -1,0 +1,100 @@
+schema_version: 1
+doc_id: cuh.sdmc30.manual.v0.0.en-US
+doc_key: cuh.sdmc30.manual.v0.0
+lang: en-US
+generated_at: '2026-11-09 03:42:21'
+source_md_basename: doc.md
+export_pipeline: chunks-from-publish
+exports:
+- kind: publish_md_table
+  section_index: 2
+  heading_path:
+  - Preface
+  heading_title: Preface
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0002-preface-table-01.md
+  chars: 473
+- kind: publish_md_table
+  section_index: 8
+  heading_path:
+  - Chapter Ⅰ Before Use
+  - 1.4 Signal Ports Description
+  heading_title: 1.4 Signal Ports Description
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0008-chapter-ⅰ-before-use-table-01.md
+  chars: 598
+- kind: publish_md_table
+  section_index: 35
+  heading_path:
+  - Chapter Ⅲ Installation Guide
+  - 5.10.2 Signal Source and Logic Diagram of Running Output/Fault Output
+  heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault Output
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+  chars: 924
+- kind: publish_md_table
+  section_index: 40
+  heading_path: &id001
+  - Chapter IV Technical Specifications
+  heading_title: Chapter IV Technical Specifications
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0040-chapter-iv-technical-specifications-table-01.md
+  chars: 143
+- kind: publish_md_table
+  section_index: 40
+  heading_path: *id001
+  heading_title: Chapter IV Technical Specifications
+  table_role: generic
+  table_index_in_section: 2
+  relative_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+  chars: 1491
+- kind: publish_md_table
+  section_index: 41
+  heading_path: &id002
+  - Chapter Ⅶ Appendix
+  - 7.1 Parameter Table
+  heading_title: 7.1 Parameter Table
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+  chars: 5713
+- kind: publish_md_table
+  section_index: 41
+  heading_path: *id002
+  heading_title: 7.1 Parameter Table
+  table_role: generic
+  table_index_in_section: 2
+  relative_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+  chars: 5407
+- kind: publish_md_table
+  section_index: 41
+  heading_path: *id002
+  heading_title: 7.1 Parameter Table
+  table_role: generic
+  table_index_in_section: 3
+  relative_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+  chars: 3799
+- kind: publish_md_table
+  section_index: 42
+  heading_path:
+  - Chapter Ⅶ Appendix
+  - 7.2 Input and Output Circuit Diagrams
+  heading_title: 7.2 Input and Output Circuit Diagrams
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0042-chapter-ⅶ-appendix-table-01.md
+  chars: 107
+- kind: publish_md_table
+  section_index: 43
+  heading_path:
+  - Chapter Ⅶ Appendix
+  - 7.3 Error Code
+  heading_title: 7.3 Error Code
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0043-chapter-ⅶ-appendix-table-01.md
+  chars: 3996

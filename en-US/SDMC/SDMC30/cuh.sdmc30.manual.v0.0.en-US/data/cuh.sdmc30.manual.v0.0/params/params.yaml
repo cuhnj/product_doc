@@ -1,0 +1,3163 @@
+schema_version: 1
+doc_id: cuh.sdmc30.manual.v0.0.en-US
+doc_key: cuh.sdmc30.manual.v0.0
+lang: en-US
+generated_at: '2026-11-09 03:42:21'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 2
+  heading_path: &id003
+  - Preface
+  table_md_path: tables/0002-preface-table-01.md
+  headers:
+  - col_1
+  - col_2
+- section_index: 8
+  heading_path: &id004
+  - Chapter Ⅰ Before Use
+  - 1.4 Signal Ports Description
+  table_md_path: tables/0008-chapter-ⅰ-before-use-table-01.md
+  headers:
+  - Function
+  - Pin
+  - Definition
+  - Definition
+  - Pin
+  - Function
+- section_index: 35
+  heading_path: &id005
+  - Chapter Ⅲ Installation Guide
+  - 5.10.2 Signal Source and Logic Diagram of Running Output/Fault Output
+  table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+  headers:
+  - Signal Source
+  - Meaning
+- section_index: 40
+  heading_path: &id001
+  - Chapter IV Technical Specifications
+  table_md_path: tables/0040-chapter-iv-technical-specifications-table-01.md
+  headers:
+  - Dimensions range
+  - tolerance
+- section_index: 40
+  heading_path: *id001
+  table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+  headers:
+  - Item
+  - Min
+  - Typical
+  - Max
+  - Unit
+  - Note
+- section_index: 41
+  heading_path: &id002
+  - Chapter Ⅶ Appendix
+  - 7.1 Parameter Table
+  table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+  headers:
+  - Parameter
+  - Definition
+  - Symbol
+  - symbol image
+  - Range
+  - Default
+- section_index: 41
+  heading_path: *id002
+  table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+  headers:
+  - Definition
+  - Symbol
+  - symbol image
+  - Range
+  - Default
+- section_index: 41
+  heading_path: *id002
+  table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+  headers:
+  - col_1
+  - Definition
+  - Symbol
+  - symbol image
+  - Range
+  - Default
+- section_index: 42
+  heading_path: &id006
+  - Chapter Ⅶ Appendix
+  - 7.2 Input and Output Circuit Diagrams
+  table_md_path: tables/0042-chapter-ⅶ-appendix-table-01.md
+  headers:
+  - Port
+  - Function
+- section_index: 43
+  heading_path: &id007
+  - Chapter Ⅶ Appendix
+  - 7.3 Error Code
+  table_md_path: tables/0043-chapter-ⅶ-appendix-table-01.md
+  headers:
+  - Error Code
+  - Meaning
+  - Occurrence Conditions
+  - Controller Response
+  - Troubleshooting Methods
+items:
+- name: ⚠ Danger
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Danger
+    col_2: Non-observance of this item will result in personal injury or death.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id003
+    heading_title: Preface
+    table_role: generic
+    table_md_path: tables/0002-preface-table-01.md
+- name: ⚠ Warn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Warn
+    col_2: Non-observance of this item may result in personal injury or death.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id003
+    heading_title: Preface
+    table_role: generic
+    table_md_path: tables/0002-preface-table-01.md
+- name: ⚠ Careful
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Careful
+    col_2: Non-observance of this item may result in moderate or minor injury to persons.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id003
+    heading_title: Preface
+    table_role: generic
+    table_md_path: tables/0002-preface-table-01.md
+- name: Notice
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Notice
+    col_2: Non-observance of this item will result in damage to the product and property
+      damage.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id003
+    heading_title: Preface
+    table_role: generic
+    table_md_path: tables/0002-preface-table-01.md
+- name: ❗ Essential
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ❗ Essential
+    col_2: Indicates precautions and usage restrictions that must be observed during
+      use.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id003
+    heading_title: Preface
+    table_role: generic
+    table_md_path: tables/0002-preface-table-01.md
+- name: Run Reverse
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Function: Run Reverse
+    Pin: E1
+    Definition: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id004
+    heading_title: 1.4 Signal Ports Description
+    table_role: generic
+    table_md_path: tables/0008-chapter-ⅰ-before-use-table-01.md
+- name: Speed A/B
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Function: Speed A/B
+    Pin: G1
+    Definition: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id004
+    heading_title: 1.4 Signal Ports Description
+    table_role: generic
+    table_md_path: tables/0008-chapter-ⅰ-before-use-table-01.md
+- name: Emergency Stop
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Function: Emergency Stop
+    Pin: M1
+    Definition: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id004
+    heading_title: 1.4 Signal Ports Description
+    table_role: generic
+    table_md_path: tables/0008-chapter-ⅰ-before-use-table-01.md
+- name: Fault Output
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Function: Fault Output
+    Pin: P3
+    Definition: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id004
+    heading_title: 1.4 Signal Ports Description
+    table_role: generic
+    table_md_path: tables/0008-chapter-ⅰ-before-use-table-01.md
+- name: '0'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: '0'
+    Meaning: Invalid signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: '1'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: '1'
+    Meaning: Valid signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: b
+    Meaning: Intelligent photoelectric port signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: -b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -b
+    Meaning: Intelligent photoelectric port signal inversion
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: C
+    Meaning: Forward running port signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: -C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -C
+    Meaning: Forward running port signal inversion
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: E
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: E
+    Meaning: Reverse running port signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: -E
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -E
+    Meaning: Reverse running port signal inversion
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: SA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: SA
+    Meaning: Speed A port signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: -SA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -SA
+    Meaning: Speed A port signal inversion
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: Sb
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: Sb
+    Meaning: Speed B port signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: -Sb
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -Sb
+    Meaning: Speed B port signal inversion
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: ES
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: ES
+    Meaning: Emergency stop port signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: -ES
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -ES
+    Meaning: Emergency stop port signal inversion
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: od
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: od
+    Meaning: Run output port signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: -od
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -od
+    Meaning: Run output port signal inversion
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: oP
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: oP
+    Meaning: Fault output port signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: -oP
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -oP
+    Meaning: Fault output port signal inversion
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: oq
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: oq
+    Meaning: Motor output signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: -oq
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -oq
+    Meaning: Motor output signal inversion
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: Er
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: Er
+    Meaning: Any fault signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: -Er
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -Er
+    Meaning: Any fault signal inversion
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: Ar
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: Ar
+    Meaning: Any warning signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: -Ar
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal Source: -Ar
+    Meaning: Any warning signal inversion
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.10.2 Signal Source and Logic Diagram of Running Output/Fault
+      Output
+    table_role: generic
+    table_md_path: tables/0035-chapter-ⅲ-installation-guide-table-01.md
+- name: 0~3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Dimensions range: 0~3
+    tolerance: ±0.05
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-01.md
+- name: 3~10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Dimensions range: 3~10
+    tolerance: ±0.1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-01.md
+- name: 10~30
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Dimensions range: 10~30
+    tolerance: ±0.15
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-01.md
+- name: 30~80
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Dimensions range: 30~80
+    tolerance: ±0.2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-01.md
+- name: 80~180
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Dimensions range: 80~180
+    tolerance: ±0.3
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-01.md
+- name: '>180'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Dimensions range: '>180'
+    tolerance: ±0.5
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-01.md
+- name: Input Voltage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Input Voltage
+    Min: '85'
+    Typical: '220'
+    Max: '250'
+    Unit: V
+    Note: 50/60Hz AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Output Line Voltage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Line Voltage
+    Min: '0'
+    Typical: '200'
+    Max: '220'
+    Unit: Vrmn
+    Note: Rectified average
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: RMS Input Current
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: RMS Input Current
+    Min: ——
+    Typical: ——
+    Max: '2.8'
+    Unit: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Input Current Peak
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Input Current Peak
+    Min: ——
+    Typical: ——
+    Max: '8.0'
+    Unit: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Output Current Adjustment Range
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Current Adjustment Range
+    Min: '0'
+    Typical: ——
+    Max: '1.6'
+    Unit: A
+    Note: Rectified average
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Output Capacity
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Capacity
+    Min: '0'
+    Typical: ——
+    Max: '600'
+    Unit: VA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Output Frequency
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Frequency
+    Min: '2.0'
+    Typical: ——
+    Max: '120.0'
+    Unit: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Frequency Adjustment Accuracy
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Frequency Adjustment Accuracy
+    Typical: '0.1'
+    Unit: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Output Waveform
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Waveform
+    Typical: Vector Sine
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Applicable Motor Power
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Applicable Motor Power
+    Min: ——
+    Typical: ——
+    Max: '0.2'
+    Unit: kW
+    Note: 1/4HP
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Overheat Protection Trigger Temperature
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Overheat Protection Trigger Temperature
+    Min: ——
+    Typical: '65'
+    Max: ——
+    Unit: °C
+    Note: 60°C return to normal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: DC Control Output Current
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: DC Control Output Current
+    Min: '0'
+    Typical: ——
+    Max: '350'
+    Unit: mA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: 24V Output Current
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: 24V Output Current
+    Min: ——
+    Typical: ——
+    Max: '700'
+    Unit: mA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: DC Control Output Voltage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: DC Control Output Voltage
+    Min: '22'
+    Typical: '24'
+    Max: '26'
+    Unit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Analog Control Signal
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Analog Control Signal
+    Typical: 4~20 / 1~5、0~5、0~10
+    Unit: mA / V
+    Note: Controlled by parameter A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Digital Control Signal
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Digital Control Signal
+    Typical: '24'
+    Unit: V
+    Note: Switching Signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Adjustment Method
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Adjustment Method
+    Typical: '6'
+    Unit: Button
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Standby Power Consumption
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Standby Power Consumption
+    Min: ——
+    Typical: '3'
+    Max: ——
+    Unit: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Display Method
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Display Method
+    Typical: '5'
+    Unit: Digit
+    Note: LED
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Weight
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Weight
+    Typical: '830'
+    Unit: g
+    Note: Without Accessory
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Dimensions
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Dimensions
+    Typical: 190*61.8*94.5 ( L*W*H )
+    Unit: mm
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Ingress Protection Level
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Ingress Protection Level
+    Typical: IP20
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Ambient Temperature
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Ambient Temperature
+    Min: '-10'
+    Typical: '25'
+    Max: '40'
+    Unit: °C
+    Note: No Condensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Ambient Humidity
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Ambient Humidity
+    Min: '10'
+    Typical: '60'
+    Max: '85'
+    Unit: '%'
+    Note: No Condensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Storage Ambient Temperature
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Storage Ambient Temperature
+    Min: '-20'
+    Typical: '25'
+    Max: '85'
+    Unit: °C
+    Note: No Condensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Applicable Altitude
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Applicable Altitude
+    Typical: <2000
+    Unit: m
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id001
+    heading_title: Chapter IV Technical Specifications
+    table_role: generic
+    table_md_path: tables/0040-chapter-iv-technical-specifications-table-02.md
+- name: Standby Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Standby Parameter
+    Definition: Set Frequency
+    Symbol: F
+    symbol image: '![Set Frequency 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-00.png)'
+    Range: 2.0~120.0 (Hz) (limited by r and y)
+    Default: '50.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter — Long press ⚙
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter — Long press ⚙
+    Definition: Forward Start/Stop Control Source 1
+    Symbol: F1
+    symbol image: '![Forward Start/Stop Control Source 1 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-01.png)'
+    Range: 0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES, od, -od, oP, -oP
+    Default: C
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Forward Start/Stop Control Source 2
+    Symbol: F2
+    symbol image: '![Forward Start/Stop Control Source 2 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-02.png)'
+    Range: 0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES, od, -od, oP, -oP
+    Default: -b
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Forward Start/Stop Logic Relationship
+    Symbol: FA
+    symbol image: '![Forward Start/Stop Logic Relationship 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-03.png)'
+    Range: And, or, Xor, rS
+    Default: And
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Reverse Control Source 1
+    Symbol: A1
+    symbol image: '![Reverse Control Source 1 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-04.png)'
+    Range: 0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES, od, -od, oP, -oP
+    Default: E
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Reverse Control Source 2
+    Symbol: A2
+    symbol image: '![Reverse Control Source 2 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-05.png)'
+    Range: 0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES, od, -od, oP, -oP
+    Default: -b
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Reverse Logic Relationship
+    Symbol: AA
+    symbol image: '![Reverse Logic Relationship 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-06.png)'
+    Range: And, or, Xor, rS
+    Default: And
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Forward and Reverse Control Mode
+    Symbol: Fr
+    symbol image: '![Forward and Reverse Control Mode 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-07.png)'
+    Range: 0 (Forward control source is used to start and stop forward rotation, and
+      reverse control source is used to control reverse rotation start and stop)<br>1
+      (Forward control source is used to control start and stop, reverse control source
+      is used to control forward and reverse)
+    Default: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Emergency Stop Source
+    Symbol: Eq
+    symbol image: '![Emergency Stop Source 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-08.png)'
+    Range: 0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES, od, -od, oP, -oP,
+      oq, -oq, Er, -Er, Ar, -Ar
+    Default: ES
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Emergency Stop Type
+    Symbol: Sq
+    symbol image: '![Emergency Stop Type 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-09.png)'
+    Range: 'Sto: Safe torque off, Sbc: Safety brake control,<br>SS1: Category 1 safety
+      stop　(Note1)'
+    Default: Sto
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Soft Start Time
+    Symbol: t
+    symbol image: '![Soft Start Time 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-10.png)'
+    Range: 0.0~99.9 (s)
+    Default: '10.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Soft Closing Time
+    Symbol: d
+    symbol image: '![Soft Closing Time 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-11.png)'
+    Range: 'DC Braking Time: -0.0~-99.9 (s)<br>Soft Closing Time: 0.0~99.9 (s)'
+    Default: '10.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Maximum Frequency
+    Symbol: y
+    symbol image: '![Maximum Frequency 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-12.png)'
+    Range: 2.0~120.0 (Hz)
+    Default: '50.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Rated Frequency
+    Symbol: b
+    symbol image: '![Rated Frequency 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-13.png)'
+    Range: 45.0~65.0 (Hz)
+    Default: '50.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Rated Voltage
+    Symbol: h
+    symbol image: '![Rated Voltage 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-14.png)'
+    Range: 70~220 (Vrmn)
+    Default: '200'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Intermediate Frequency
+    Symbol: n
+    symbol image: '![Intermediate Frequency 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-15.png)'
+    Range: r~b (Hz)
+    Default: '10.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Intermediate Voltage
+    Symbol: o
+    symbol image: '![Intermediate Voltage 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-16.png)'
+    Range: u~h (Vrmn)
+    Default: '40'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Lowest Frequency
+    Symbol: r
+    symbol image: '![Lowest Frequency 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-17.png)'
+    Range: 2.0~n (Hz)
+    Default: '2.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Lowest Voltage
+    Symbol: u
+    symbol image: '![Lowest Voltage 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-18.png)'
+    Range: 0~o (Vrmn)
+    Default: '8'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Motor Rated Electrical Power
+    Symbol: Pn
+    symbol image: '![Motor Rated Electrical Power 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-19.png)'
+    Range: 0.01~0.20 (kW)
+    Default: '0.20'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Power Excess Factor
+    Symbol: rc
+    symbol image: '![Power Excess Factor 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-20.png)'
+    Range: 100~150 (%)
+    Default: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Braking Current Coefficient
+    Symbol: cb
+    symbol image: '![Braking Current Coefficient 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-21.png)'
+    Range: 10~150 (%)
+    Default: '100'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Electric Power Overheating Threshold
+    Symbol: oL
+    symbol image: '![Electric Power Overheating Threshold 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-22.png)'
+    Range: '0~90 (times*seconds)<br>Remarks: If the rated electric power of the motor
+      is exceeded and does not exceed the upper limit of the motor power, if the integral
+      per second exceeds this setting, it will enter the electronic overheating protection
+      state.'
+    Default: '30'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Power Derating Factor
+    Symbol: rL
+    symbol image: '![Power Derating Factor 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-23.png)'
+    Range: 0~90(%)<br>0 means shutdown,<br>90 means reducing to 90% of rated power.
+    Default: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Rotation Direction Exchange (Note2)
+    Symbol: Ph
+    symbol image: '![Rotation Direction Exchange 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-24.png)'
+    Range: 'Abc: standard direction, Acb: direction exchange,<br>A.b.c.: Reversal
+      of the standard direction is forbidden (only forward),<br>A.c.b.: Direction
+      swapping prohibits forward rotation (only reversal)'
+    Default: AbC
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Motor Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameter: Motor Parameter
+    Definition: Power On Running Status
+    Symbol: PS
+    symbol image: '![Power On Running Status 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-25.png)'
+    Range: 'run: run, stp: stop, FoL: save the last time'
+    Default: FoL
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-01.md
+- name: Intelligent Photoelectric Sensitivity
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Intelligent Photoelectric Sensitivity
+    Symbol: P
+    symbol image: '![Intelligent Photoelectric Sensitivity 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-00.png)'
+    Range: nPn, PnP, 2~1000
+    Default: nPn
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Intelligent Photoelectric On Delay
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Intelligent Photoelectric On Delay
+    Symbol: J
+    symbol image: '![Intelligent Photoelectric On Delay 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-01.png)'
+    Range: 0.0~99.9 (s)
+    Default: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Intelligent Photoelectric Off Delay
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Intelligent Photoelectric Off Delay
+    Symbol: L
+    symbol image: '![Intelligent Photoelectric Off Delay 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-02.png)'
+    Range: 0.0~99.9 (s)
+    Default: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Switch Sensor Type
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Switch Sensor Type
+    Symbol: rA
+    symbol image: '![Switch Sensor Type 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-03.png)'
+    Range: 'nPn, PnP, Ut1: Single scan, Ut0: Continuous scan'
+    Default: Ut0
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Forward Running On Delay
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Forward Running On Delay
+    Symbol: JC
+    symbol image: '![Forward Running On Delay 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-04.png)'
+    Range: 0.0~99.9 (s)
+    Default: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Forward Running Off Delay
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Forward Running Off Delay
+    Symbol: LC
+    symbol image: '![Forward Running Off Delay 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-05.png)'
+    Range: 0.0~99.9 (s)
+    Default: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Reverse Running On Delay
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Reverse Running On Delay
+    Symbol: JE
+    symbol image: '![Reverse Running On Delay 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-06.png)'
+    Range: 0.0~99.9 (s)
+    Default: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Reverse Running Off Delay
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Reverse Running Off Delay
+    Symbol: LE
+    symbol image: '![Reverse Running Off Delay 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-07.png)'
+    Range: 0.0~99.9 (s)
+    Default: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Speed A/B On Delay
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Speed A/B On Delay
+    Symbol: JG
+    symbol image: '![Speed A/B On Delay 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-08.png)'
+    Range: 0.0~99.9 (s)
+    Default: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Speed A/B Off Delay
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Speed A/B Off Delay
+    Symbol: LG
+    symbol image: '![Speed A/B Off Delay 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-09.png)'
+    Range: 0.0~99.9 (s)
+    Default: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Emergency Stop On Delay
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Emergency Stop On Delay
+    Symbol: JJ
+    symbol image: '![Emergency Stop On Delay 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-10.png)'
+    Range: 0.0~99.9 (s)
+    Default: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Emergency Stop Off Delay
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Emergency Stop Off Delay
+    Symbol: LL
+    symbol image: '![Emergency Stop Off Delay 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-11.png)'
+    Range: 0.0~99.9 (s)
+    Default: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Speed Preset Source 1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Speed Preset Source 1
+    Symbol: S1
+    symbol image: '![Speed Preset Source 1 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-12.png)'
+    Range: 0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES, od, -od, oP, -oP,
+      oq, -oq, Er, -Er, Ar, -Ar
+    Default: SA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Speed Preset Source 2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Speed Preset Source 2
+    Symbol: S2
+    symbol image: '![Speed Preset Source 2 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-13.png)'
+    Range: 0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES, od, -od, oP, -oP,
+      oq, -oq, Er, -Er, Ar, -Ar
+    Default: Sb
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Run Output Signal Source 1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Run Output Signal Source 1
+    Symbol: Ed
+    symbol image: '![Run Output Signal Source 1 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-14.png)'
+    Range: 0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES, od, -od, oP, -oP,
+      oq, -oq, Er, -Er, Ar, -Ar
+    Default: oq
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Run Output Signal Source 2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Run Output Signal Source 2
+    Symbol: td
+    symbol image: '![Run Output Signal Source 2 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-15.png)'
+    Range: 0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES, od, -od, oP, -oP,
+      oq, -oq, Er, -Er, Ar, -Ar
+    Default: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Run Output Logic Relationship
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Run Output Logic Relationship
+    Symbol: Ad
+    symbol image: '![Run Output Logic Relationship 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-16.png)'
+    Range: And, or, Xor, rS
+    Default: or
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Run Output On Delay
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Run Output On Delay
+    Symbol: Jd
+    symbol image: '![Run Output On Delay 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-17.png)'
+    Range: 0.0~99.9 (s)
+    Default: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Run Output Off Delay
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Run Output Off Delay
+    Symbol: Ld
+    symbol image: '![Run Output Off Delay 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-18.png)'
+    Range: 0.0~99.9 (s)
+    Default: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Run Output Mode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Run Output Mode
+    Symbol: Fd
+    symbol image: '![Run Output Mode 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-19.png)'
+    Range: dLy (delay mode), HLd (hold mode)
+    Default: dLy
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Run Output Logic Direction
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Run Output Logic Direction
+    Symbol: Sd
+    symbol image: '![Run Output Logic Direction 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-20.png)'
+    Range: '`---` Inphase, `-﹉-` inverted,<br>on (normally open), oFF (normally close)'
+    Default: '`---`'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Run Output Type
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Run Output Type
+    Symbol: rd
+    symbol image: '![Run Output Type 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-21.png)'
+    Range: nPn, PnP, PSP (push-pull)
+    Default: nPn
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Fault Output Signal Source 1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Fault Output Signal Source 1
+    Symbol: EP
+    symbol image: '![Fault Output Signal Source 1 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-22.png)'
+    Range: 0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES, od, -od, oP, -oP,
+      oq, -oq, Er, -Er, Ar, -Ar
+    Default: Er<br>(error signal)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Fault Output Signal Source 2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Fault Output Signal Source 2
+    Symbol: 2P
+    symbol image: '![Fault Output Signal Source 2 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-23.png)'
+    Range: 0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES, od, -od, oP, -oP,
+      oq, -oq, Er, -Er, Ar, -Ar
+    Default: Ar<br>(warn signal)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Fault Output Logic Relationship
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Fault Output Logic Relationship
+    Symbol: AP
+    symbol image: '![Fault Output Logic Relationship 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-24.png)'
+    Range: And, or, Xor, rS
+    Default: or
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Fault Output On Delay
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Fault Output On Delay
+    Symbol: JP
+    symbol image: '![Fault Output On Delay 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-25.png)'
+    Range: 0.0~99.9 (s)
+    Default: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Fault Output Off Delay
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Fault Output Off Delay
+    Symbol: LP
+    symbol image: '![Fault Output Off Delay 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-26.png)'
+    Range: 0.0~99.9 (s)
+    Default: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Fault Output Mode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Fault Output Mode
+    Symbol: FP
+    symbol image: '![Fault Output Mode 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-27.png)'
+    Range: dLy (delay mode), HLd (hold mode)
+    Default: dLy
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Fault Output Logic Direction
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Fault Output Logic Direction
+    Symbol: SP
+    symbol image: '![Fault Output Logic Direction 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-28.png)'
+    Range: '`---` Inphase, `-﹉-` inverted,<br>on (normally open), oFF (normally close)'
+    Default: '`---`'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Fault Output Type
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Fault Output Type
+    Symbol: rP
+    symbol image: '![Fault Output Type 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0048-vcrop-29.png)'
+    Range: nPn, PnP, PSP (push-pull)
+    Default: nPn
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-02.md
+- name: Port Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Port Parameter
+    Definition: Remote Control Source
+    Symbol: A
+    symbol image: '![Remote Control Source 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-00.png)'
+    Range: Pad (controlled by buttons), 1-5V, 0-5V, 0-10
+    Default: 1-5V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Port Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Port Parameter
+    Definition: Remote Control Coefficient
+    Symbol: r
+    symbol image: '![Remote Control Coefficient 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-01.png)'
+    Range: 0.50~2.00
+    Default: '1.00'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Port Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Port Parameter
+    Definition: Panel Brightness
+    Symbol: LEd
+    symbol image: '![Panel Brightness 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-02.png)'
+    Range: 1~32
+    Default: '16'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Port Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Port Parameter
+    Definition: Default Settings Restore
+    Symbol: 8.8.8.8.8.
+    symbol image: '![Default Settings Restore 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-03.png)'
+    Range: ——
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter<br>Long press ⚙ and ▼
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter<br>Long press ⚙ and ▼
+    Definition: controller Temperature
+    Symbol: C
+    symbol image: '![controller Temperature 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-04.png)'
+    Range: -20.0~85.0 (℃)
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter
+    Definition: Output Frequency
+    Symbol: E
+    symbol image: '![Output Frequency 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-05.png)'
+    Range: 2.0~120.0 (Hz)
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter
+    Definition: System Active Power<br>(controller + motor)
+    Symbol: qP
+    symbol image: '![System Active Power 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-06.png)'
+    Range: 0.00~0.40 (kW)
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter
+    Definition: Bus Current
+    Symbol: AC
+    symbol image: '![Bus Current 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-07.png)'
+    Range: 0.00~3.50 (A)
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter
+    Definition: Output Voltage
+    Symbol: dU
+    symbol image: '![Output Voltage 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-08.png)'
+    Range: 0~250 (V)
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter
+    Definition: Bus Voltage
+    Symbol: PU
+    symbol image: '![Bus Voltage 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-09.png)'
+    Range: 0~400 (V)
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter
+    Definition: 24V Output Voltage
+    Symbol: nU
+    symbol image: '![24V Output Voltage 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-10.png)'
+    Range: 0.0~28.0 (V)
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter
+    Definition: Remote Control Port Voltage
+    Symbol: AU
+    symbol image: '![Remote Control Port Voltage 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-11.png)'
+    Range: 0.0~10.0 (V)
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter
+    Definition: Intelligent Photoelectric Signal Voltage
+    Symbol: bU
+    symbol image: '![Intelligent Photoelectric Signal Voltage 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-12.png)'
+    Range: 0~999
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter
+    Definition: Forward Signal Voltage
+    Symbol: tU
+    symbol image: '![Forward Signal Voltage 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-13.png)'
+    Range: 0.0~28.0 (V)
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter
+    Definition: Run Output Port Voltage
+    Symbol: dU
+    symbol image: '![Run Output Port Voltage 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-14.png)'
+    Range: 0.0~28.0 (V)
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter
+    Definition: Invert Signal Voltage
+    Symbol: EU
+    symbol image: '![Invert Signal Voltage 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-15.png)'
+    Range: 0.0~28.0 (V)
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter
+    Definition: Speed A Port Voltage
+    Symbol: SA
+    symbol image: '![Speed A Port Voltage 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-16.png)'
+    Range: 0.0~28.0 (V)
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter
+    Definition: Speed B Port Voltage
+    Symbol: Sb
+    symbol image: '![Speed B Port Voltage 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-17.png)'
+    Range: 0.0~28.0 (V)
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter
+    Definition: Emergency Stop Port Voltage
+    Symbol: SU
+    symbol image: '![Emergency Stop Port Voltage 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-18.png)'
+    Range: 0.0~28.0 (V)
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter
+    Definition: Fault Output Port Voltage
+    Symbol: FU
+    symbol image: '![Fault Output Port Voltage 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-19.png)'
+    Range: 0.0~28.0 (V)
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter
+    Definition: Control Board Version
+    Symbol: uc
+    symbol image: '![Control Board Version 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-20.png)'
+    Range: ——
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: Monitoring Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Monitoring Parameter
+    Definition: Power Board Version
+    Symbol: uq
+    symbol image: '![Power Board Version 数码管符号](assets/images/cuh.sdmc30.manual.v0.0/page-0049-vcrop-21.png)'
+    Range: ——
+    Default: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id002
+    heading_title: 7.1 Parameter Table
+    table_role: generic
+    table_md_path: tables/0041-chapter-ⅶ-appendix-table-03.md
+- name: C3/E3/M3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Port: C3/E3/M3
+    Function: 24V Output
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id006
+    heading_title: 7.2 Input and Output Circuit Diagrams
+    table_role: generic
+    table_md_path: tables/0042-chapter-ⅶ-appendix-table-01.md
+- name: C2/E2/M2/G2/G4
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Port: C2/E2/M2/G2/G4
+    Function: Input
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id006
+    heading_title: 7.2 Input and Output Circuit Diagrams
+    table_role: generic
+    table_md_path: tables/0042-chapter-ⅶ-appendix-table-01.md
+- name: C1/E1/M1/G1/G3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Port: C1/E1/M1/G1/G3
+    Function: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id006
+    heading_title: 7.2 Input and Output Circuit Diagrams
+    table_role: generic
+    table_md_path: tables/0042-chapter-ⅶ-appendix-table-01.md
+- name: Er01
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er01
+    Meaning: Main output short circuit
+    Occurrence Conditions: Short circuit output phase-to-phase or phase-to-PE
+    Controller Response: Stop the main output, short press ON/OFF button to clear.
+    Troubleshooting Methods: ◆ Short-circuit the output switch or switch off the output
+      switch twice, then power on again.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id007
+    heading_title: 7.3 Error Code
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅶ-appendix-table-01.md
+- name: Er02H
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er02H
+    Meaning: Motor electronics overheating
+    Occurrence Conditions: Motor exceeds electrical power overheating threshold
+    Controller Response: Stop and automatic restart or run at decrease power rating
+      according to Power Derating Factor setting.
+    Troubleshooting Methods: ◆ Appropriately reduce the motor operating frequency
+      setting.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id007
+    heading_title: 7.3 Error Code
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅶ-appendix-table-01.md
+- name: Er02P
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er02P
+    Meaning: Motor power exceeds limit
+    Occurrence Conditions: The output power exceeds the power excess coefficient
+    Controller Response: Stop and automatic restart or run at decrease power rating
+      according to Power Derating Factor setting.
+    Troubleshooting Methods: ◆ Appropriately reduce the motor operating frequency
+      setting.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id007
+    heading_title: 7.3 Error Code
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅶ-appendix-table-01.md
+- name: Er03L
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er03L
+    Meaning: Undercooling
+    Occurrence Conditions: The controller temperature is lower than -20°C
+    Controller Response: Stop the main output.<br>The output is automatically started
+      when the temperature returns to normal.
+    Troubleshooting Methods: ◆ Avoid activating the controller in extremely cold temperatures.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id007
+    heading_title: 7.3 Error Code
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅶ-appendix-table-01.md
+- name: Er03H
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er03H
+    Meaning: Overheat
+    Occurrence Conditions: The controller temperature is higher than 65°C
+    Controller Response: Stop the main output.<br>The output is automatically started
+      when the temperature returns to normal.
+    Troubleshooting Methods: ◆ Install this controller in a well-ventilated environment.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id007
+    heading_title: 7.3 Error Code
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅶ-appendix-table-01.md
+- name: Er04L
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er04L
+    Meaning: Undervoltage
+    Occurrence Conditions: The average bus voltage is lower than 77V
+    Controller Response: Stop the main output.<br>The output is automatically restored
+      when the power supply voltage is normal.
+    Troubleshooting Methods: ◆ Make sure the input voltage is between 85V~250V.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id007
+    heading_title: 7.3 Error Code
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅶ-appendix-table-01.md
+- name: Er04H
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er04H
+    Meaning: Overvoltage
+    Occurrence Conditions: The average bus voltage is higher than 390V
+    Controller Response: Stop the main output.<br>The output is automatically restored
+      when the power supply voltage is normal.
+    Troubleshooting Methods: ◆ Make sure the input voltage is between 85V~250V.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id007
+    heading_title: 7.3 Error Code
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅶ-appendix-table-01.md
+- name: Er05
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er05
+    Meaning: Internal communication abnormality
+    Occurrence Conditions: No response received from the power board for 2 consecutive
+      seconds
+    Controller Response: Stop the main output.<br>Automatically eliminated when communication
+      is restored
+    Troubleshooting Methods: ◆ Make sure that the 24V power port is not connected
+      to any external power supply or contact our technical support.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id007
+    heading_title: 7.3 Error Code
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅶ-appendix-table-01.md
+- name: Er06
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er06
+    Meaning: Temperature sensor abnormality
+    Occurrence Conditions: Unable to read temperature
+    Controller Response: Stop the main output and try to read the temperature for
+      2 seconds.
+    Troubleshooting Methods: ◆ Contact our technical support.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id007
+    heading_title: 7.3 Error Code
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅶ-appendix-table-01.md
+- name: Er07d/P
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er07d/P
+    Meaning: run/fault output port short circuit
+    Occurrence Conditions: Output current exceeds 350mA or short circuit
+    Controller Response: Run/fault output off within 5ms,<br>Try restarting the output
+      after 2 seconds.
+    Troubleshooting Methods: ◆ Make sure the load is not short-circuited and the current
+      does not exceed 350mA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id007
+    heading_title: 7.3 Error Code
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅶ-appendix-table-01.md
+- name: Er10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er10
+    Meaning: 24V output short circuit
+    Occurrence Conditions: The output 24V is short-circuited or over-current over
+      700mA
+    Controller Response: Stop the 24V output and power on again to restart the output.
+    Troubleshooting Methods: ◆ Make sure the 24V output is not shorted or the output
+      exceeds 700mA.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id007
+    heading_title: 7.3 Error Code
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅶ-appendix-table-01.md
+- name: Er11
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er11
+    Meaning: 5V output abnormality
+    Occurrence Conditions: 5V output exceeds ±10% range
+    Controller Response: The remote speed control fails, it can be automatically resumed
+    Troubleshooting Methods: ◆ Make sure the 5V output has not been shorted or connected
+      to an external voltage.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id007
+    heading_title: 7.3 Error Code
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅶ-appendix-table-01.md
+- name: Er12
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er12
+    Meaning: 24V voltage abnormality
+    Occurrence Conditions: Check whether the internal 24V voltage between 22~26V
+    Controller Response: Control output port gives high impedance, it can be automatically
+      resumed
+    Troubleshooting Methods: ◆ Make sure that the 24V power output port or control
+      output port is not connected to any external power supply
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id007
+    heading_title: 7.3 Error Code
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅶ-appendix-table-01.md
+- name: Er13
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er13
+    Meaning: Input Missing Phase<br>(3-phase input models only)
+    Occurrence Conditions: The three-phase power input is out of phase
+    Controller Response: Stop the main output
+    Troubleshooting Methods: ◆ Power off to eliminate the lack of phase of the input
+      and then power it back on.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id007
+    heading_title: 7.3 Error Code
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅶ-appendix-table-01.md
+- name: Er14
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er14
+    Meaning: Output Missing phase
+    Occurrence Conditions: Output phase current unbalance of more than 50%
+    Controller Response: Stop the main output
+    Troubleshooting Methods: ◆ Power-off eliminates the lack of phase of the output
+      and then power it back on.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id007
+    heading_title: 7.3 Error Code
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅶ-appendix-table-01.md
+- name: Er15
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Error Code: Er15
+    Meaning: Forward and reverse conflicts
+    Occurrence Conditions: Forward and reverse signals are given at the same time
+    Controller Response: The main output is stopped, it will be automatically resumed
+      after the conflict is removed
+    Troubleshooting Methods: ◆ Make sure that the forward and reverse signals are
+      not given at the same time.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id007
+    heading_title: 7.3 Error Code
+    table_role: generic
+    table_md_path: tables/0043-chapter-ⅶ-appendix-table-01.md
