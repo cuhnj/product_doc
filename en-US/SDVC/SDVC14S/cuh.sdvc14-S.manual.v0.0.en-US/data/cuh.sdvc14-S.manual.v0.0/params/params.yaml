@@ -1,0 +1,266 @@
+schema_version: 1
+doc_id: cuh.sdvc14-S.manual.v0.0.en-US
+doc_key: cuh.sdvc14-S.manual.v0.0
+lang: en-US
+generated_at: '2026-11-09 16:19:53'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 2
+  heading_path: &id001
+  - Variable Voltage Digital Control Module for Vibratory Feeder
+  table_md_path: tables/0002-variable-voltage-digital-control-module-for-vibr-table-01.md
+  headers:
+  - Item
+  - 'Range: Min'
+  - 'Range: Typical'
+  - 'Range: Max'
+  - Unit
+  - Description
+items:
+- name: Input Voltage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Input Voltage
+    'Range: Min': '150'
+    'Range: Typical': '220'
+    'Range: Max': '260'
+    Unit: V
+    Description: AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variable Voltage Digital Control Module for Vibratory Feeder
+    table_role: generic
+    table_md_path: tables/0002-variable-voltage-digital-control-module-for-vibr-table-01.md
+- name: Adjustable Output Voltage Range
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Adjustable Output Voltage Range
+    'Range: Min': '35'
+    'Range: Typical': ——
+    'Range: Max': Vin-10
+    Unit: V
+    Description: Half Wave
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variable Voltage Digital Control Module for Vibratory Feeder
+    table_role: generic
+    table_md_path: tables/0002-variable-voltage-digital-control-module-for-vibr-table-01.md
+- name: Response Time of Voltage Regulation
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Response Time of Voltage Regulation
+    'Range: Min': '0'
+    'Range: Typical': '0.01'
+    'Range: Max': '0.02'
+    Unit: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variable Voltage Digital Control Module for Vibratory Feeder
+    table_role: generic
+    table_md_path: tables/0002-variable-voltage-digital-control-module-for-vibr-table-01.md
+- name: Adjustable Output Current Range
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Adjustable Output Current Range
+    'Range: Min': '0.1'
+    'Range: Typical': ——
+    'Range: Max': '4'
+    Unit: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variable Voltage Digital Control Module for Vibratory Feeder
+    table_role: generic
+    table_md_path: tables/0002-variable-voltage-digital-control-module-for-vibr-table-01.md
+- name: Output Power
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Power
+    'Range: Min': '22'
+    'Range: Typical': ——
+    'Range: Max': '880'
+    Unit: VA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variable Voltage Digital Control Module for Vibratory Feeder
+    table_role: generic
+    table_md_path: tables/0002-variable-voltage-digital-control-module-for-vibr-table-01.md
+- name: Output Frequency
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Frequency
+    'Range: Min': '45'
+    'Range: Typical': 50/60
+    'Range: Max': '65'
+    Unit: Hz
+    Description: Half Wave
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variable Voltage Digital Control Module for Vibratory Feeder
+    table_role: generic
+    table_md_path: tables/0002-variable-voltage-digital-control-module-for-vibr-table-01.md
+- name: Output Waveform
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Waveform
+    'Range: Typical': Phase cut sine
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variable Voltage Digital Control Module for Vibratory Feeder
+    table_role: generic
+    table_md_path: tables/0002-variable-voltage-digital-control-module-for-vibr-table-01.md
+- name: Soft Start Time
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Soft Start Time
+    'Range: Min': '0.5'
+    'Range: Typical': '0.65'
+    'Range: Max': '0.7'
+    Unit: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variable Voltage Digital Control Module for Vibratory Feeder
+    table_role: generic
+    table_md_path: tables/0002-variable-voltage-digital-control-module-for-vibr-table-01.md
+- name: Overheat Protection Trigger Temperature
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Overheat Protection Trigger Temperature
+    'Range: Min': '58'
+    'Range: Typical': '60'
+    'Range: Max': '66'
+    Unit: ℃
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variable Voltage Digital Control Module for Vibratory Feeder
+    table_role: generic
+    table_md_path: tables/0002-variable-voltage-digital-control-module-for-vibr-table-01.md
+- name: Remote On/Off Control Voltage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Remote On/Off Control Voltage
+    'Range: Min': '5'
+    'Range: Typical': ——
+    'Range: Max': '24'
+    Unit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variable Voltage Digital Control Module for Vibratory Feeder
+    table_role: generic
+    table_md_path: tables/0002-variable-voltage-digital-control-module-for-vibr-table-01.md
+- name: Fuse Capacity
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Fuse Capacity
+    'Range: Typical': '6.3'
+    Unit: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variable Voltage Digital Control Module for Vibratory Feeder
+    table_role: generic
+    table_md_path: tables/0002-variable-voltage-digital-control-module-for-vibr-table-01.md
+- name: Ambient Temperature
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Ambient Temperature
+    'Range: Min': '0'
+    'Range: Typical': '25'
+    'Range: Max': '40'
+    Unit: ℃
+    Description: No Condensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variable Voltage Digital Control Module for Vibratory Feeder
+    table_role: generic
+    table_md_path: tables/0002-variable-voltage-digital-control-module-for-vibr-table-01.md
+- name: Ambient Humidity
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Ambient Humidity
+    'Range: Min': '10'
+    'Range: Typical': '60'
+    'Range: Max': '85'
+    Unit: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variable Voltage Digital Control Module for Vibratory Feeder
+    table_role: generic
+    table_md_path: tables/0002-variable-voltage-digital-control-module-for-vibr-table-01.md

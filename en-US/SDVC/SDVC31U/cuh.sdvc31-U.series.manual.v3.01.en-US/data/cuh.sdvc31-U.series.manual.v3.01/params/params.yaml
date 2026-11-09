@@ -1,0 +1,1491 @@
+schema_version: 1
+doc_id: cuh.sdvc31-U.series.manual.v3.01.en-US
+doc_key: cuh.sdvc31-U.series.manual.v3.01
+lang: en-US
+generated_at: '2026-11-09 16:24:13'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 7
+  heading_path: &id001
+  - Chapter III Components Description
+  table_md_path: tables/0007-chapter-iii-components-description-table-01.md
+  headers:
+  - Item
+  - Description
+- section_index: 7
+  heading_path: *id001
+  table_md_path: tables/0007-chapter-iii-components-description-table-02.md
+  headers:
+  - Model
+  - Current
+- section_index: 22
+  heading_path: &id002
+  - Chapter V Sensors and Signal Control
+  - 5.2 Using Method of the NPN Switch Sensor
+  table_md_path: tables/0022-chapter-v-sensors-and-signal-control-table-01.md
+  headers:
+  - Terminal
+  - Wire
+- section_index: 23
+  heading_path: &id003
+  - Chapter V Sensors and Signal Control
+  - 5.2.4 Connection method of the Optical Fiber Counter-radiation Sensor
+  table_md_path: tables/0023-chapter-v-sensors-and-signal-control-table-01.md
+  headers:
+  - Terminal
+  - Annotation
+- section_index: 35
+  heading_path: &id004
+  - Appendix
+  - 'Appendix C: Signal Interface Definition'
+  table_md_path: tables/0035-appendix-table-01.md
+  headers:
+  - Terminal
+  - Definition
+- section_index: 36
+  heading_path: &id005
+  - Appendix
+  - '**Appendix D:** LED Displayed Characters Definition'
+  table_md_path: tables/0036-appendix-table-01.md
+  headers:
+  - Controller
+  - Displayed Character
+  - Symbol Image
+- section_index: 37
+  heading_path: &id006
+  - Appendix
+  - 'Appendix E: Electrical Specification'
+  table_md_path: tables/0037-appendix-table-01.md
+  headers:
+  - Item
+  - Range Min
+  - Range Typical
+  - Range Max
+  - Unit
+  - Description
+- section_index: 38
+  heading_path: &id007
+  - Appendix
+  - 'Appendix F: Trouble Shooting Tips and Error Explanations'
+  table_md_path: tables/0038-appendix-table-01.md
+  headers:
+  - No.
+  - Problem / display
+  - Symbol Image
+  - Trouble Shooting Tips and Error Explanations
+items:
+- name: Output Voltage Indicator
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Voltage Indicator
+    Description: The indicator lights up as the controller enters Output Voltage Adjusting
+      status.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapter III Components Description
+    table_role: generic
+    table_md_path: tables/0007-chapter-iii-components-description-table-01.md
+- name: Output Frequency Indicator
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Frequency Indicator
+    Description: The indicator lights up as the controller enters Output Frequency
+      Adjusting status.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapter III Components Description
+    table_role: generic
+    table_md_path: tables/0007-chapter-iii-components-description-table-01.md
+- name: Startup Delay Indicator
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Startup Delay Indicator
+    Description: The indicator lights up as the controller enters Startup Delay Time
+      adjusting status.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapter III Components Description
+    table_role: generic
+    table_md_path: tables/0007-chapter-iii-components-description-table-01.md
+- name: Shutdown Delay Indicator
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Shutdown Delay Indicator
+    Description: The indicator lights up as the controller enters Shutdown Delay Time
+      Adjusting status.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapter III Components Description
+    table_role: generic
+    table_md_path: tables/0007-chapter-iii-components-description-table-01.md
+- name: Soft Startup Indicator
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Soft Startup Indicator
+    Description: The indicator lights up as the controller enters Soft Startup Time
+      Adjusting status.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapter III Components Description
+    table_role: generic
+    table_md_path: tables/0007-chapter-iii-components-description-table-01.md
+- name: Output Voltage Increasing Button & Output Voltage Decreasing Button
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Voltage Increasing Button & Output Voltage Decreasing Button
+    Description: Output Voltage can be changed by these two buttons. When the Keypad
+      Locking function is on, these two buttons lose efficacy.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapter III Components Description
+    table_role: generic
+    table_md_path: tables/0007-chapter-iii-components-description-table-01.md
+- name: Advanced Parameter Increasing Button &Advanced Parameter Decreasing Button
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Advanced Parameter Increasing Button &Advanced Parameter Decreasing Button
+    Description: Advanced parameters can be adjusted by these two buttons.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapter III Components Description
+    table_role: generic
+    table_md_path: tables/0007-chapter-iii-components-description-table-01.md
+- name: FUNC Button
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: FUNC Button
+    Description: Shift advanced parameters by pressing this button.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapter III Components Description
+    table_role: generic
+    table_md_path: tables/0007-chapter-iii-components-description-table-01.md
+- name: Soft Power Switch Button
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Soft Power Switch Button
+    Description: Startup or shutdown output of the controller by pressing this button.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapter III Components Description
+    table_role: generic
+    table_md_path: tables/0007-chapter-iii-components-description-table-01.md
+- name: SDVC31-S
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Model: SDVC31-S
+    Current: 1.5A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapter III Components Description
+    table_role: generic
+    table_md_path: tables/0007-chapter-iii-components-description-table-02.md
+- name: SDVC31-M
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Model: SDVC31-M
+    Current: 3A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapter III Components Description
+    table_role: generic
+    table_md_path: tables/0007-chapter-iii-components-description-table-02.md
+- name: SDVC31-L
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Model: SDVC31-L
+    Current: 4.5A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapter III Components Description
+    table_role: generic
+    table_md_path: tables/0007-chapter-iii-components-description-table-02.md
+- name: SDVC31-XL
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Model: SDVC31-XL
+    Current: 6.0A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapter III Components Description
+    table_role: generic
+    table_md_path: tables/0007-chapter-iii-components-description-table-02.md
+- name: SDVC31-U
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Model: SDVC31-U
+    Current: 10A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapter III Components Description
+    table_role: generic
+    table_md_path: tables/0007-chapter-iii-components-description-table-02.md
+- name: SDVC31-XU
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Model: SDVC31-XU
+    Current: 20A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapter III Components Description
+    table_role: generic
+    table_md_path: tables/0007-chapter-iii-components-description-table-02.md
+- name: C1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: C1
+    Wire: Ground Wire
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id002
+    heading_title: 5.2 Using Method of the NPN Switch Sensor
+    table_role: generic
+    table_md_path: tables/0022-chapter-v-sensors-and-signal-control-table-01.md
+- name: C2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: C2
+    Wire: Signal Wire
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id002
+    heading_title: 5.2 Using Method of the NPN Switch Sensor
+    table_role: generic
+    table_md_path: tables/0022-chapter-v-sensors-and-signal-control-table-01.md
+- name: C3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: C3
+    Wire: +24V Output
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id002
+    heading_title: 5.2 Using Method of the NPN Switch Sensor
+    table_role: generic
+    table_md_path: tables/0022-chapter-v-sensors-and-signal-control-table-01.md
+- name: C1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: C1
+    Annotation: Ground Wire
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 23
+    heading_path: *id003
+    heading_title: 5.2.4 Connection method of the Optical Fiber Counter-radiation
+      Sensor
+    table_role: generic
+    table_md_path: tables/0023-chapter-v-sensors-and-signal-control-table-01.md
+- name: C2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: C2
+    Annotation: Signal Wire
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 23
+    heading_path: *id003
+    heading_title: 5.2.4 Connection method of the Optical Fiber Counter-radiation
+      Sensor
+    table_role: generic
+    table_md_path: tables/0023-chapter-v-sensors-and-signal-control-table-01.md
+- name: C3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: C3
+    Annotation: +24V Output
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 23
+    heading_path: *id003
+    heading_title: 5.2.4 Connection method of the Optical Fiber Counter-radiation
+      Sensor
+    table_role: generic
+    table_md_path: tables/0023-chapter-v-sensors-and-signal-control-table-01.md
+- name: A1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: A1
+    Definition: Ground Wire of the Remote Speed Control
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Appendix C: Signal Interface Definition'
+    table_role: generic
+    table_md_path: tables/0035-appendix-table-01.md
+- name: A2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: A2
+    Definition: Remote Speed Control Input
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Appendix C: Signal Interface Definition'
+    table_role: generic
+    table_md_path: tables/0035-appendix-table-01.md
+- name: A3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: A3
+    Definition: Remote Speed Control Power Supply
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Appendix C: Signal Interface Definition'
+    table_role: generic
+    table_md_path: tables/0035-appendix-table-01.md
+- name: B1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: B1
+    Definition: Ground
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Appendix C: Signal Interface Definition'
+    table_role: generic
+    table_md_path: tables/0035-appendix-table-01.md
+- name: B2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: B2
+    Definition: Intelligent Photoelectric Sensor Signal In
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Appendix C: Signal Interface Definition'
+    table_role: generic
+    table_md_path: tables/0035-appendix-table-01.md
+- name: B3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: B3
+    Definition: Ground
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Appendix C: Signal Interface Definition'
+    table_role: generic
+    table_md_path: tables/0035-appendix-table-01.md
+- name: B4
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: B4
+    Definition: Intelligent Photoelectric Sensor Signal Out
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Appendix C: Signal Interface Definition'
+    table_role: generic
+    table_md_path: tables/0035-appendix-table-01.md
+- name: C1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: C1
+    Definition: +24V GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Appendix C: Signal Interface Definition'
+    table_role: generic
+    table_md_path: tables/0035-appendix-table-01.md
+- name: C2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: C2
+    Definition: NPN Switch Sensor Signal In
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Appendix C: Signal Interface Definition'
+    table_role: generic
+    table_md_path: tables/0035-appendix-table-01.md
+- name: C3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: C3
+    Definition: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Appendix C: Signal Interface Definition'
+    table_role: generic
+    table_md_path: tables/0035-appendix-table-01.md
+- name: D1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: D1
+    Definition: Controlling Output
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Appendix C: Signal Interface Definition'
+    table_role: generic
+    table_md_path: tables/0035-appendix-table-01.md
+- name: D2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Terminal: D2
+    Definition: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Appendix C: Signal Interface Definition'
+    table_role: generic
+    table_md_path: tables/0035-appendix-table-01.md
+- name: '`U`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`U`'
+    Displayed Character: Output Voltage
+    Symbol Image: '![Seven-segment Symbol: U](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Appendix D:** LED Displayed Characters Definition'
+    table_role: generic
+    table_md_path: tables/0036-appendix-table-01.md
+- name: '`F`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`F`'
+    Displayed Character: Output Frequency
+    Symbol Image: '![Seven-segment Symbol: F](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Appendix D:** LED Displayed Characters Definition'
+    table_role: generic
+    table_md_path: tables/0036-appendix-table-01.md
+- name: '`d`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`d`'
+    Displayed Character: Startup Delay Time of the Intelligent Photoelectric Sensor
+    Symbol Image: '![Seven-segment Symbol: d](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Appendix D:** LED Displayed Characters Definition'
+    table_role: generic
+    table_md_path: tables/0036-appendix-table-01.md
+- name: '`C`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`C`'
+    Displayed Character: Shutdown Delay Time of the Intelligent Photoelectric Sensor
+    Symbol Image: '![Seven-segment Symbol: C](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-03.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Appendix D:** LED Displayed Characters Definition'
+    table_role: generic
+    table_md_path: tables/0036-appendix-table-01.md
+- name: '`E`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`E`'
+    Displayed Character: Soft Startup
+    Symbol Image: '![Seven-segment Symbol: E](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-04.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Appendix D:** LED Displayed Characters Definition'
+    table_role: generic
+    table_md_path: tables/0036-appendix-table-01.md
+- name: '`U-`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`U-`'
+    Displayed Character: Shutdown D
+    Symbol Image: '![Seven-segment Symbol: U-](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-05.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Appendix D:** LED Displayed Characters Definition'
+    table_role: generic
+    table_md_path: tables/0036-appendix-table-01.md
+- name: '`d-`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`d-`'
+    Displayed Character: Startup Delay Time of the NPN Switch Sensor
+    Symbol Image: '![Seven-segment Symbol: d-](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-06.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Appendix D:** LED Displayed Characters Definition'
+    table_role: generic
+    table_md_path: tables/0036-appendix-table-01.md
+- name: '`r1`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`r1`'
+    Displayed Character: Logical Relation of the Intelligent Photoelectric Sensor
+    Symbol Image: '![Seven-segment Symbol: r1](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-07.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Appendix D:** LED Displayed Characters Definition'
+    table_role: generic
+    table_md_path: tables/0036-appendix-table-01.md
+- name: '`r2`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`r2`'
+    Displayed Character: Logical Relation of the NPN Switch Sensor
+    Symbol Image: '![Seven-segment Symbol: r2](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-08.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Appendix D:** LED Displayed Characters Definition'
+    table_role: generic
+    table_md_path: tables/0036-appendix-table-01.md
+- name: '`r3`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`r3`'
+    Displayed Character: Logical Relation of the Controlling Output
+    Symbol Image: '![Seven-segment Symbol: r3](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-09.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Appendix D:** LED Displayed Characters Definition'
+    table_role: generic
+    table_md_path: tables/0036-appendix-table-01.md
+- name: '`n`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`n`'
+    Displayed Character: Logical relation of the Control Signal
+    Symbol Image: '![Seven-segment Symbol: n](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-10.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Appendix D:** LED Displayed Characters Definition'
+    table_role: generic
+    table_md_path: tables/0036-appendix-table-01.md
+- name: '`H`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`H`'
+    Displayed Character: Maximum Output Voltage
+    Symbol Image: '![Seven-segment Symbol: H](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-11.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Appendix D:** LED Displayed Characters Definition'
+    table_role: generic
+    table_md_path: tables/0036-appendix-table-01.md
+- name: '`A`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`A`'
+    Displayed Character: Acceleration Index
+    Symbol Image: '![Seven-segment Symbol: A](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-12.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Appendix D:** LED Displayed Characters Definition'
+    table_role: generic
+    table_md_path: tables/0036-appendix-table-01.md
+- name: '`P`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`P`'
+    Displayed Character: Waveform Index
+    Symbol Image: '![Seven-segment Symbol: P](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-13.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Appendix D:** LED Displayed Characters Definition'
+    table_role: generic
+    table_md_path: tables/0036-appendix-table-01.md
+- name: '`88888`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`88888`'
+    Displayed Character: Default Settings Restore
+    Symbol Image: '![Seven-segment Symbol: 88888](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-14.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Appendix D:** LED Displayed Characters Definition'
+    table_role: generic
+    table_md_path: tables/0036-appendix-table-01.md
+- name: Input Voltage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Input Voltage
+    Range Min: '85'
+    Range Typical: '220'
+    Range Max: '250'
+    Unit: V
+    Description: AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Adjustable Output<br>Voltage Range
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Adjustable Output<br>Voltage Range
+    Range Min: '0'
+    Range Typical: ——
+    Range Max: '250'
+    Unit: V
+    Description: Lower than 150% of<br>Input Voltage
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Voltage Adjustment<br>Accuracy
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Voltage Adjustment<br>Accuracy
+    Range Typical: '1'
+    Unit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Voltage Regulation<br>Accuracy
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Voltage Regulation<br>Accuracy
+    Range Min: '0'
+    Range Typical: ——
+    Range Max: '10'
+    Unit: '%'
+    Description: ΔVout/ΔVin
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Response Time of<br>Voltage Regulation
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Response Time of<br>Voltage Regulation
+    Range Min: '0.0025'
+    Range Typical: ——
+    Range Max: '0.025'
+    Unit: s
+    Description: 1/10 of the period of<br>output voltage
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Adjustable Output<br>Current Range
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Adjustable Output<br>Current Range
+    Range Min: '0'
+    Range Typical: ——
+    Range Max: '1.5'
+    Unit: A
+    Description: SDVC31-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Output Power
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Power
+    Range Min: '0'
+    Range Typical: ——
+    Range Max: '330'
+    Unit: VA
+    Description: SDVC31-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Output Frequency
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Frequency
+    Range Min: '40'
+    Range Typical: ——
+    Range Max: '400'
+    Unit: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Frequency Adjustment<br>Accuracy
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Frequency Adjustment<br>Accuracy
+    Range Typical: '0.1'
+    Unit: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Output Waveform
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Waveform
+    Range Typical: sine
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Soft Start Time
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Soft Start Time
+    Range Min: '0'
+    Range Typical: ——
+    Range Max: '10'
+    Unit: s
+    Description: Factory Default<br>Value:0.5
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: On/Off Delay Time<br>Range
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: On/Off Delay Time<br>Range
+    Range Min: '0'
+    Range Typical: ——
+    Range Max: '20'
+    Unit: s
+    Description: Factory Default<br>Value:0.2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: On/Off Delay Time<br>Accuracy
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: On/Off Delay Time<br>Accuracy
+    Range Typical: '0.1'
+    Unit: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Overheat Protection<br>Trigger Temperature
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Overheat Protection<br>Trigger Temperature
+    Range Min: '58'
+    Range Typical: '60'
+    Range Max: '66'
+    Unit: ℃
+    Description: SDVC31-SM
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: DC Control Output<br>Voltage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: DC Control Output<br>Voltage
+    Range Min: '22'
+    Range Typical: '24'
+    Range Max: '26'
+    Unit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: DC Control Output<br>Current
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: DC Control Output<br>Current
+    Range Min: '0'
+    Range Typical: ——
+    Range Max: '200'
+    Unit: mA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Analog Control Signal
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Analog Control Signal
+    Range Typical: 1-5
+    Unit: V
+    Description: Remote speed<br>Control Voltage
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Digital Control Signal
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Digital Control Signal
+    Range Typical: '24'
+    Unit: V
+    Description: Switching Signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Adjustment Method
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Adjustment Method
+    Range Typical: '6'
+    Unit: Button
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Standby Power<br>Consumption
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Standby Power<br>Consumption
+    Range Min: ——
+    Range Typical: '3'
+    Range Max: ——
+    Unit: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Display Method
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Display Method
+    Range Typical: '5'
+    Unit: Digit
+    Description: LED Digital Tubes
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Ambient Temperature
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Ambient Temperature
+    Range Min: '0'
+    Range Typical: '25'
+    Range Max: '40'
+    Unit: ℃
+    Description: No Condensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: Ambient Humidity
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Ambient Humidity
+    Range Min: '10'
+    Range Typical: '60'
+    Range Max: '85'
+    Unit: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Appendix E: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0037-appendix-table-01.md
+- name: '1'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    No.: '1'
+    Problem / display: No display after<br>power on
+    Trouble Shooting Tips and Error Explanations: ◆ Make sure the power outlet is
+      live<br>◆ Make sure the Input Power Cable is reliably connected to the power
+      outlet
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Appendix F: Trouble Shooting Tips and Error Explanations'
+    table_role: generic
+    table_md_path: tables/0038-appendix-table-01.md
+- name: '2'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    No.: '2'
+    Problem / display: Displays normally<br>but no output
+    Trouble Shooting Tips and Error Explanations: ◆ Make sure the Input Power Cable
+      and Output Power Cable are firmly connected<br>◆ Make sure the Output Voltage
+      parameter value is not too small<br>◆ Make sure the controller is not stopped
+      by the control signal<br>◆ Make sure the controller is not stopped by the parameters
+      that are set as normal off
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Appendix F: Trouble Shooting Tips and Error Explanations'
+    table_role: generic
+    table_md_path: tables/0038-appendix-table-01.md
+- name: '3'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    No.: '3'
+    Problem / display: Control signal<br>loses effectiveness
+    Trouble Shooting Tips and Error Explanations: ◆ Make sure the control signal is
+      correctly inputted<br>◆ Make sure the ground wire of the control signal is correctly
+      connected to the controller<br>◆ Make sure the Logical Relation of the control
+      signal is set correctly as you expectation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Appendix F: Trouble Shooting Tips and Error Explanations'
+    table_role: generic
+    table_md_path: tables/0038-appendix-table-01.md
+- name: '4'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    No.: '4'
+    Problem / display: Beat phenomena
+    Trouble Shooting Tips and Error Explanations: ◆ Avoid vibration coupling among
+      the vibrators<br>◆ Heighten the resonant frequency of the vibrators
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Appendix F: Trouble Shooting Tips and Error Explanations'
+    table_role: generic
+    table_md_path: tables/0038-appendix-table-01.md
+- name: '5'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    No.: '5'
+    Problem / display: Displays normally,<br>no output, but sound<br>can be heard
+    Trouble Shooting Tips and Error Explanations: ◆ Adjust all parameters as this
+      book instructed
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Appendix F: Trouble Shooting Tips and Error Explanations'
+    table_role: generic
+    table_md_path: tables/0038-appendix-table-01.md
+- name: '6'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    No.: '6'
+    Problem / display: Err01
+    Symbol Image: '![Seven-segment display symbol Err01](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-00.png)'
+    Trouble Shooting Tips and Error Explanations: ◆ Output in short-circuit, Make
+      sure the Output Power Cable and the coil are not shorted out
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Appendix F: Trouble Shooting Tips and Error Explanations'
+    table_role: generic
+    table_md_path: tables/0038-appendix-table-01.md
+- name: '7'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    No.: '7'
+    Problem / display: Err02
+    Symbol Image: '![Seven-segment display symbol Err02](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-01.png)'
+    Trouble Shooting Tips and Error Explanations: ◆ Output Over current, Reduce the
+      Output Voltage value and make sure the armature gap is not too big
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Appendix F: Trouble Shooting Tips and Error Explanations'
+    table_role: generic
+    table_md_path: tables/0038-appendix-table-01.md
+- name: '8'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    No.: '8'
+    Problem / display: Err03
+    Symbol Image: '![Seven-segment display symbol Err03](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-02.png)'
+    Trouble Shooting Tips and Error Explanations: ◆ Overheat, Place the controller
+      in well ventilated environment
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Appendix F: Trouble Shooting Tips and Error Explanations'
+    table_role: generic
+    table_md_path: tables/0038-appendix-table-01.md
+- name: '9'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    No.: '9'
+    Problem / display: Err04
+    Symbol Image: '![Seven-segment display symbol Err04](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-03.png)'
+    Trouble Shooting Tips and Error Explanations: ◆ Reserved, please contact us
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Appendix F: Trouble Shooting Tips and Error Explanations'
+    table_role: generic
+    table_md_path: tables/0038-appendix-table-01.md
+- name: '10'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    No.: '10'
+    Problem / display: Err05
+    Symbol Image: '![Seven-segment display symbol Err05](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-04.png)'
+    Trouble Shooting Tips and Error Explanations: ◆ Reserved, please contact us
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Appendix F: Trouble Shooting Tips and Error Explanations'
+    table_role: generic
+    table_md_path: tables/0038-appendix-table-01.md

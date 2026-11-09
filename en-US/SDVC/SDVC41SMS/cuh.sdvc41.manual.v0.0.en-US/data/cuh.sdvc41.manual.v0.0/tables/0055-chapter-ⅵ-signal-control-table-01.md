@@ -1,0 +1,15 @@
+<!-- publish-data-sidecar: section=55 heading='Appendix D: Troubleshooting Suggestions and Error Explanations' role=generic source_md=doc.md -->
+
+| Fault Phenomenon | Troubleshooting Suggestions | symbol image |
+|---|---|---|
+| No display on LED screen after power on startup | ● Make sure the mains jack is live.<br>● Make sure the Input Power Cable is reliably connected. | |
+| LED screen displays normally but vibratory feeder has no output or sound | ● Make sure the Output Power Cable is reliably connected.<br>● Make sure Output Voltage is not too low.<br>● Make sure the controller is not stopped by the ON/OFF button when the Stop Indicator is on.<br>● Make sure the controller is not stopped by the ON/OFF control signal when the Stop Indicator is on.<br>● Make sure the controller is not stopped by parameters Γ2 or Γ7 setting when the Stop Indicator is on.<br>● Reset the controller. | |
+| ON/OFF Control does not work | ● Make sure ON/OFF Control Signal is correctly connected to the controller.<br>● Make sure parameters Γ2, Γ7 and Π are set correctly as you control expectation.<br>● Reset the controller. | |
+| Beat Effect | ● Connect Sync Signal Wire between the controllers and set the Slave Controller to Sync Mode. | |
+| LED screen displays normally, sounds can be heard from the vibratory feeder, but no output | ● Make sure Output Frequency is not far away from resonant frequency of the vibratory feeder.<br>● Reset the controller. | |
+| LED screen displays Err01 | **Short-Circuit Protection**<br>● Make sure the Output Power Cable and the vibrator electromagnet are not short circuited.<br>● Disconnect the Output Power Cable from the controller and turn on the power switch again.<br>If Err01 is still displayed on the LED screen, contact us for repair. | ![七段数码管显示 Err01](assets/images/cuh.sdvc41.manual.v0.0/page-0057-vcrop-00.png) |
+| LED screen displays Err02 | **Overcurrent Protection**<br>● Reduce Output Voltage of the controller.<br>● Make sure armature gap of the vibrator electromagnet is not too big. | ![七段数码管显示 Err02](assets/images/cuh.sdvc41.manual.v0.0/page-0057-vcrop-01.png) |
+| LED screen displays Err03 | **Overheat Protection**<br>● Place the controller in a well ventilated environment. | ![七段数码管显示 Err03](assets/images/cuh.sdvc41.manual.v0.0/page-0057-vcrop-02.png) |
+| LED screen displays Err04 | ● Reserved, contact us for repair. | ![七段数码管显示 Err04](assets/images/cuh.sdvc41.manual.v0.0/page-0057-vcrop-03.png) |
+| LED screen displays Err05 | ● Reserved, contact us for repair. | ![七段数码管显示 Err05](assets/images/cuh.sdvc41.manual.v0.0/page-0057-vcrop-04.png) |
+| LED screen displays Err06 | ● Reserved, contact us for repair. | ![七段数码管显示 Err06](assets/images/cuh.sdvc41.manual.v0.0/page-0057-vcrop-05.png) |

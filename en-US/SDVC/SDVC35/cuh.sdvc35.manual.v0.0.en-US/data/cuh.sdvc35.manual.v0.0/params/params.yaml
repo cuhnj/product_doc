@@ -1,0 +1,4701 @@
+schema_version: 1
+doc_id: cuh.sdvc35.manual.v0.0.en-US
+doc_key: cuh.sdvc35.manual.v0.0
+lang: en-US
+generated_at: '2026-11-09 16:27:03'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 5
+  heading_path: &id001
+  - Chapter Ⅱ Installation Guide
+  - 2.1.2 Terminal Description
+  table_md_path: tables/0005-chapter-ⅱ-installation-guide-table-01.md
+  headers:
+  - PE
+  - PC
+  - PH
+  - PA
+- section_index: 5
+  heading_path: *id001
+  table_md_path: tables/0005-chapter-ⅱ-installation-guide-table-02.md
+  headers:
+  - PPL
+  - PPH
+  - PDL
+  - PDH
+  - PF
+- section_index: 12
+  heading_path: &id005
+  - Chapter Ⅱ Installation Guide
+  - Chapter Ⅲ HMI Description
+  table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+  headers:
+  - Item
+  - Description
+- section_index: 13
+  heading_path: &id006
+  - Chapter Ⅱ Installation Guide
+  - 3.2 Password Input Interface
+  table_md_path: tables/0013-chapter-ⅱ-installation-guide-table-01.md
+  headers:
+  - Controlled object
+  - Password 2
+  - Password 1
+- section_index: 31
+  heading_path: &id007
+  - Chapter Ⅳ Function Description
+  - 4.5 Remote Speed Control
+  table_md_path: tables/0031-chapter-ⅳ-function-description-table-01.md
+  headers:
+  - The type of Remote control signal
+  - Remote control signal
+  - Output Voltage/Feeding Speed
+- section_index: 32
+  heading_path: &id008
+  - Chapter Ⅳ Function Description
+  - 4.6 Main Mode
+  table_md_path: tables/0032-chapter-ⅳ-function-description-table-01.md
+  headers:
+  - The Main Mode
+  - Voltage Mode
+  - Frequency Mode
+  - Vibration sensor Connected
+- section_index: 33
+  heading_path: &id009
+  - Chapter Ⅳ Function Description
+  - 4.6.2 Fully Automation Mode
+  table_md_path: tables/0033-chapter-ⅳ-function-description-table-01.md
+  headers:
+  - Technical value
+  - Vibration sensor Type
+  - Accelaration of X/Y/Z direction
+- section_index: 37
+  heading_path: &id010
+  - Chapter Ⅳ Function Description
+  - The wiring method of Sync Mode between Master and Slaver controllers
+  table_md_path: tables/0037-chapter-ⅳ-function-description-table-01.md
+  headers:
+  - Sync Mode
+  - Voltage Mode
+  - Frequency Mode
+  - Phase Control
+  - Vibration sensor Connected
+- section_index: 50
+  heading_path: &id002
+  - Chapter Ⅳ Function Description
+  - 'Appendix B: Electrical Ports Description'
+  table_md_path: tables/0050-chapter-ⅳ-function-description-table-01.md
+  headers:
+  - Sensor
+  - col_2
+  - col_3
+  - Sensor
+  - col_5
+  - col_6
+  - Sync
+  - col_8
+  - col_9
+  - col_10
+  - Speed Ctrl
+  - col_12
+  - col_13
+- section_index: 50
+  heading_path: *id002
+  table_md_path: tables/0050-chapter-ⅳ-function-description-table-02.md
+  headers:
+  - Ctrl Out
+  - col_2
+  - col_3
+  - Ctrl Out
+  - col_5
+  - col_6
+  - RS485
+  - col_8
+- section_index: 51
+  heading_path: &id011
+  - Chapter Ⅳ Function Description
+  - 'Appendix C: Electrical Specification'
+  table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+  headers:
+  - Item
+  - 'Range: Min'
+  - 'Range: Typical'
+  - 'Range: Max'
+  - Unit
+  - Note
+- section_index: 52
+  heading_path: &id012
+  - Chapter Ⅳ Function Description
+  - 'Absolute Parameters:'
+  table_md_path: tables/0052-chapter-ⅳ-function-description-table-01.md
+  headers:
+  - Item
+  - GB Standard
+  - IEC Standard
+  - Standard Requirement
+  - Reached Level of CUH Product
+  - Note
+- section_index: 53
+  heading_path: &id013
+  - Chapter Ⅳ Function Description
+  - 'Appendix D: Troubleshooting Suggestions and Error Explanation'
+  table_md_path: tables/0053-chapter-ⅳ-function-description-table-01.md
+  headers:
+  - col_1
+  - Fault Phenomenon
+  - Troubleshooting Suggestions
+- section_index: 54
+  heading_path: &id014
+  - Chapter Ⅳ Function Description
+  - 'Appendix E: Warning and Error Description and Troubleshooting Suggestions'
+  table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+  headers:
+  - Fault Display
+  - Fault Type
+  - Troubleshooting Suggestions
+- section_index: 55
+  heading_path: &id003
+  - Chapter Ⅳ Function Description
+  - 'Appendix F: Run State and Network Card Type Description'
+  table_md_path: tables/0055-chapter-ⅳ-function-description-table-01.md
+  headers:
+  - State of the controller display
+  - State Type
+  - Description
+- section_index: 55
+  heading_path: *id003
+  table_md_path: tables/0055-chapter-ⅳ-function-description-table-02.md
+  headers:
+  - State of the controller display
+  - State Type
+  - Description
+- section_index: 61
+  heading_path: &id004
+  - Chapter Ⅳ Function Description
+  - 'Appendix H: Parameters Table'
+  table_md_path: tables/0061-chapter-ⅳ-function-description-table-01.md
+  headers:
+  - The name of Parameters Group
+  - Description
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-chapter-ⅳ-function-description-table-02.md
+  headers:
+  - Item
+  - Min
+  - Default
+  - Max
+  - Unit/Enum
+  - Description
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-chapter-ⅳ-function-description-table-03.md
+  headers:
+  - Item
+  - Min
+  - Default
+  - Max
+  - Unit/Enum
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+  headers:
+  - Item
+  - Min
+  - Default
+  - Max
+  - Unit/Enum
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-chapter-ⅳ-function-description-table-05.md
+  headers:
+  - Item
+  - Min
+  - Default
+  - Max
+  - Unit/Enum
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-chapter-ⅳ-function-description-table-06.md
+  headers:
+  - Item
+  - Min
+  - Default
+  - Max
+  - Unit/Enum
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-chapter-ⅳ-function-description-table-07.md
+  headers:
+  - Item
+  - Min
+  - Default
+  - Max
+  - Unit/Enum
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-chapter-ⅳ-function-description-table-08.md
+  headers:
+  - Item
+  - Min
+  - Default
+  - Max
+  - Unit/Enum
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-chapter-ⅳ-function-description-table-09.md
+  headers:
+  - Item
+  - Min
+  - Default
+  - Max
+  - Unit/Enum
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-chapter-ⅳ-function-description-table-10.md
+  headers:
+  - Item
+  - Min
+  - Default
+  - Max
+  - Unit/Enum
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+  headers:
+  - Item
+  - Min
+  - Max
+  - Unit
+  - Description
+items:
+- name: Port E Indicator
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    PE: Port E Indicator
+    PC: Port C Indicator
+    PH: Sync Indicator
+    PA: Remote Indicator
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 5
+    heading_path: *id001
+    heading_title: 2.1.2 Terminal Description
+    table_role: generic
+    table_md_path: tables/0005-chapter-ⅱ-installation-guide-table-01.md
+- name: Low Level Indicator
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    PPL: Low Level Indicator
+    PPH: High Level Indicator
+    PDL: Low Level Indicator
+    PDH: High Level Indicator
+    PF: Communication Indicator
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 5
+    heading_path: *id001
+    heading_title: 2.1.2 Terminal Description
+    table_role: generic
+    table_md_path: tables/0005-chapter-ⅱ-installation-guide-table-02.md
+- name: UsrV
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: UsrV
+    Description: Output Voltage
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: UsrF
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: UsrF
+    Description: Output Frequency
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: UsrS
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: UsrS
+    Description: Feeding Speed
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: Cout
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Cout
+    Description: Current Count Value
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: PCUp
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PCUp
+    Description: Port C Up Delay
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: PCDn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PCDn
+    Description: Port C Down Delay
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: PEUp
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PEUp
+    Description: Port E Up Delay
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: PEDn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PEDn
+    Description: Port E Down Delay
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: PDUp
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PDUp
+    Description: Port D Up Delay
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: PDDn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PDDn
+    Description: Port D Down Delay
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: PPUp
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PPUp
+    Description: Port P Up Delay
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: PPDn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PPDn
+    Description: Port P Down Delay
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: MaUp
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: MaUp
+    Description: Main Control Up Delay
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: MaDn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: MaDn
+    Description: Main Control Down Delay
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: BusV
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: BusV
+    Description: Power Bus Voltage
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: CurE
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: CurE
+    Description: Output Current RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: CurM
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: CurM
+    Description: Max Output Current
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: PwrA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PwrA
+    Description: Active power
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: PwrR
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PwrR
+    Description: Reactive power
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: Temp
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Temp
+    Description: Temperature
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: SynF
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: SynF
+    Description: The frequency of external synchronic signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: Remo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Remo
+    Description: Remot Input Voltage
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: PCV
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PCV
+    Description: Port C Input Voltage
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: PEV
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PEV
+    Description: Port E Input Voltage
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: PDV
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PDV
+    Description: Port D Output Voltage
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: PPV
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PPV
+    Description: Port P Output Voltage
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: Chapter Ⅲ HMI Description
+    table_role: generic
+    table_md_path: tables/0012-chapter-ⅱ-installation-guide-table-01.md
+- name: ON/OFF button
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controlled object: ON/OFF button
+    Password 2: ○
+    Password 1: ○
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id006
+    heading_title: 3.2 Password Input Interface
+    table_role: generic
+    table_md_path: tables/0013-chapter-ⅱ-installation-guide-table-01.md
+- name: Standby interface
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controlled object: Standby interface
+    Password 2: ○
+    Password 1: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id006
+    heading_title: 3.2 Password Input Interface
+    table_role: generic
+    table_md_path: tables/0013-chapter-ⅱ-installation-guide-table-01.md
+- name: Function Group 1 and Function Group 9
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controlled object: Function Group 1 and Function Group 9
+    Password 2: √
+    Password 1: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id006
+    heading_title: 3.2 Password Input Interface
+    table_role: generic
+    table_md_path: tables/0013-chapter-ⅱ-installation-guide-table-01.md
+- name: Others Function Group
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controlled object: Others Function Group
+    Password 2: ×
+    Password 1: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id006
+    heading_title: 3.2 Password Input Interface
+    table_role: generic
+    table_md_path: tables/0013-chapter-ⅱ-installation-guide-table-01.md
+- name: Explanation
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controlled object: Explanation
+    Password 2: when it is no permission, ON/OFF button and parameters of standby
+      interface can be operated.<br><br>when it is permission, the parameters of Function
+      Group 1 and Function Group 9, ON/OFF button and parameters of standby interface
+      can be operated.
+    Password 1: when it is no permission, ON/OFF button can be operated.<br><br>when
+      it is permission, all the function can be operated.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id006
+    heading_title: 3.2 Password Input Interface
+    table_role: generic
+    table_md_path: tables/0013-chapter-ⅱ-installation-guide-table-01.md
+- name: Panel
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The type of Remote control signal: Panel
+    Output Voltage/Feeding Speed: Output Voltage and Feeding speed are not controlled
+      by Remote Control Signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id007
+    heading_title: 4.5 Remote Speed Control
+    table_role: generic
+    table_md_path: tables/0031-chapter-ⅳ-function-description-table-01.md
+- name: 20mA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The type of Remote control signal: 20mA
+    Remote control signal: <2mA
+    Output Voltage/Feeding Speed: When the Voltage Mode is Manual, Output Voltage
+      = 0<br>When the Voltage Mode is Auto,Feeding Speed = 0<br>LCD display the error
+      information "<2mA Err"
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id007
+    heading_title: 4.5 Remote Speed Control
+    table_role: generic
+    table_md_path: tables/0031-chapter-ⅳ-function-description-table-01.md
+- name: 1~5V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The type of Remote control signal: 1~5V
+    Remote control signal: <0.5V
+    Output Voltage/Feeding Speed: Output Voltage = 0, Feeding Speed = 0<br>LCD display
+      the error information "<0.5V Err"
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id007
+    heading_title: 4.5 Remote Speed Control
+    table_role: generic
+    table_md_path: tables/0031-chapter-ⅳ-function-description-table-01.md
+- name: 0~5V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The type of Remote control signal: 0~5V
+    Remote control signal: 0V~5V
+    Output Voltage/Feeding Speed: proportional controlled by Remote Control Signal
+      (0%~100%)<br>When the Voltage Mode is Manual, Output Voltage = Input Voltage/5
+      × Max Output Voltage<br>When the Voltage Mode is Auto, Feeding Speed = Input
+      Voltage/5 ×Max Feeding Speed
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id007
+    heading_title: 4.5 Remote Speed Control
+    table_role: generic
+    table_md_path: tables/0031-chapter-ⅳ-function-description-table-01.md
+- name: 0~10V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The type of Remote control signal: 0~10V
+    Remote control signal: 0V~10V
+    Output Voltage/Feeding Speed: proportional controlled by Remote Control Signal
+      (0%~100%)<br>When the Voltage Mode is Manual, Output Voltage = Input Voltage/10
+      × Max Output Voltage<br>When the Voltage Mode is Auto, Feeding Speed = Input
+      Voltage/10 ×Max Feeding Speed
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id007
+    heading_title: 4.5 Remote Speed Control
+    table_role: generic
+    table_md_path: tables/0031-chapter-ⅳ-function-description-table-01.md
+- name: Meter (Potentiometer)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The type of Remote control signal: Meter (Potentiometer)
+    Remote control signal: Divider Ratio of Potentiometer <4%
+    Output Voltage/Feeding Speed: Output Voltage = 0, Feeding Speed = 0
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id007
+    heading_title: 4.5 Remote Speed Control
+    table_role: generic
+    table_md_path: tables/0031-chapter-ⅳ-function-description-table-01.md
+- name: Fully Manual mode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The Main Mode: Fully Manual mode
+    Voltage Mode: Manual
+    Frequency Mode: Manual
+    Vibration sensor Connected: 'No'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id008
+    heading_title: 4.6 Main Mode
+    table_role: generic
+    table_md_path: tables/0032-chapter-ⅳ-function-description-table-01.md
+- name: Fully Automation mode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The Main Mode: Fully Automation mode
+    Voltage Mode: Automatic
+    Frequency Mode: Automatic
+    Vibration sensor Connected: 'Yes'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id008
+    heading_title: 4.6 Main Mode
+    table_role: generic
+    table_md_path: tables/0032-chapter-ⅳ-function-description-table-01.md
+- name: Voltage Semi-automation mode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The Main Mode: Voltage Semi-automation mode
+    Voltage Mode: Automatic
+    Frequency Mode: Manual
+    Vibration sensor Connected: 'Yes'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id008
+    heading_title: 4.6 Main Mode
+    table_role: generic
+    table_md_path: tables/0032-chapter-ⅳ-function-description-table-01.md
+- name: Frequency Semi-automation mode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The Main Mode: Frequency Semi-automation mode
+    Voltage Mode: Manual
+    Frequency Mode: Automatic
+    Vibration sensor Connected: 'Yes'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id008
+    heading_title: 4.6 Main Mode
+    table_role: generic
+    table_md_path: tables/0032-chapter-ⅳ-function-description-table-01.md
+- name: 16g
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Technical value: 16g
+    Vibration sensor Type: SDVS20-1
+    Accelaration of X/Y/Z direction: 16g/16g/16g
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id009
+    heading_title: 4.6.2 Fully Automation Mode
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅳ-function-description-table-01.md
+- name: 35g
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Technical value: 35g
+    Vibration sensor Type: SDVS20-2
+    Accelaration of X/Y/Z direction: 35g/35g/-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id009
+    heading_title: 4.6.2 Fully Automation Mode
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅳ-function-description-table-01.md
+- name: 50g
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Technical value: 50g
+    Vibration sensor Type: SDVS20-3
+    Accelaration of X/Y/Z direction: 50g/50g/-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id009
+    heading_title: 4.6.2 Fully Automation Mode
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅳ-function-description-table-01.md
+- name: 70g
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Technical value: 70g
+    Vibration sensor Type: SDVS20-4
+    Accelaration of X/Y/Z direction: 70g/70g/-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id009
+    heading_title: 4.6.2 Fully Automation Mode
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅳ-function-description-table-01.md
+- name: Auto
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Technical value: Auto
+    Vibration sensor Type: None
+    Accelaration of X/Y/Z direction: None
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id009
+    heading_title: 4.6.2 Fully Automation Mode
+    table_role: generic
+    table_md_path: tables/0033-chapter-ⅳ-function-description-table-01.md
+- name: Auto-Voltage and Auto-phase Mode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Sync Mode: Auto-Voltage and Auto-phase Mode
+    Voltage Mode: Manual
+    Frequency Mode: Slave C
+    Phase Control: Manual
+    Vibration sensor Connected: 'Yes'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id010
+    heading_title: The wiring method of Sync Mode between Master and Slaver controllers
+    table_role: generic
+    table_md_path: tables/0037-chapter-ⅳ-function-description-table-01.md
+- name: Auto-Voltage and Manual-phase Mode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Sync Mode: Auto-Voltage and Manual-phase Mode
+    Voltage Mode: Manual
+    Frequency Mode: Slave M
+    Phase Control: Automatic
+    Vibration sensor Connected: 'Yes'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id010
+    heading_title: The wiring method of Sync Mode between Master and Slaver controllers
+    table_role: generic
+    table_md_path: tables/0037-chapter-ⅳ-function-description-table-01.md
+- name: Manual-Voltage and Auto-phase Mode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Sync Mode: Manual-Voltage and Auto-phase Mode
+    Voltage Mode: Automatic
+    Frequency Mode: Slave C
+    Phase Control: Manual
+    Vibration sensor Connected: 'Yes'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id010
+    heading_title: The wiring method of Sync Mode between Master and Slaver controllers
+    table_role: generic
+    table_md_path: tables/0037-chapter-ⅳ-function-description-table-01.md
+- name: Manual-Voltage and Manual-phase Mode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Sync Mode: Manual-Voltage and Manual-phase Mode
+    Voltage Mode: Automatic
+    Frequency Mode: Slave M
+    Phase Control: Automatic
+    Vibration sensor Connected: 'No'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id010
+    heading_title: The wiring method of Sync Mode between Master and Slaver controllers
+    table_role: generic
+    table_md_path: tables/0037-chapter-ⅳ-function-description-table-01.md
+- name: PortC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Sensor: PortC
+    Sync: PortH
+    Speed Ctrl: PortA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 50
+    heading_path: *id002
+    heading_title: 'Appendix B: Electrical Ports Description'
+    table_role: generic
+    table_md_path: tables/0050-chapter-ⅳ-function-description-table-01.md
+- name: C1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Sensor: C1
+    col_2: E2
+    col_3: E3
+    col_5: C2
+    col_6: C3
+    Sync: H4
+    col_8: H3
+    col_9: H1
+    col_10: H2
+    Speed Ctrl: A4
+    col_12: A5
+    col_13: A3
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 50
+    heading_path: *id002
+    heading_title: 'Appendix B: Electrical Ports Description'
+    table_role: generic
+    table_md_path: tables/0050-chapter-ⅳ-function-description-table-01.md
+- name: GND
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Sensor: GND
+    col_2: Input
+    col_3: +24V
+    col_5: Input
+    col_6: +24V
+    Sync: Sync Out+
+    col_8: Sync Out-
+    col_9: Sync In-
+    col_10: Sync In+
+    Speed Ctrl: GND
+    col_12: Input
+    col_13: +5V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 50
+    heading_path: *id002
+    heading_title: 'Appendix B: Electrical Ports Description'
+    table_role: generic
+    table_md_path: tables/0050-chapter-ⅳ-function-description-table-01.md
+- name: PortD
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Ctrl Out: PortD
+    RS485: PortF
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 50
+    heading_path: *id002
+    heading_title: 'Appendix B: Electrical Ports Description'
+    table_role: generic
+    table_md_path: tables/0050-chapter-ⅳ-function-description-table-02.md
+- name: D3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Ctrl Out: D3
+    col_2: P1
+    col_3: P2
+    col_5: D1
+    col_6: D2
+    RS485: F4
+    col_8: F2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 50
+    heading_path: *id002
+    heading_title: 'Appendix B: Electrical Ports Description'
+    table_role: generic
+    table_md_path: tables/0050-chapter-ⅳ-function-description-table-02.md
+- name: GND
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Ctrl Out: GND
+    col_2: Output
+    col_3: +24V
+    col_5: Output
+    col_6: +24V
+    RS485: B-
+    col_8: A+
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 50
+    heading_path: *id002
+    heading_title: 'Appendix B: Electrical Ports Description'
+    table_role: generic
+    table_md_path: tables/0050-chapter-ⅳ-function-description-table-02.md
+- name: Input Voltage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Input Voltage
+    'Range: Min': '85'
+    'Range: Typical': '220'
+    'Range: Max': '250'
+    Unit: V
+    Note: AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Adjustable Output Voltage Range
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Adjustable Output Voltage Range
+    'Range: Min': '0'
+    'Range: Typical': ——
+    'Range: Max': '260'
+    Unit: V
+    Note: Lower than 150% of Input Voltage
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Voltage Adjustment Accuracy
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Voltage Adjustment Accuracy
+    'Range: Typical': '1'
+    Unit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Voltage Regulation Accuracy
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Voltage Regulation Accuracy
+    'Range: Min': '0'
+    'Range: Typical': ——
+    'Range: Max': '10'
+    Unit: '%'
+    Note: ΔVout/ΔVin
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Response Time of Voltage Regulation
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Response Time of Voltage Regulation
+    'Range: Typical': Real Time
+    Unit: s
+    Note: Voltage regulation for each waveform
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Adjustable Output Current Range
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Adjustable Output Current Range
+    'Range: Min': '0'
+    'Range: Typical': ——
+    'Range: Max': '3'
+    Unit: A
+    Note: SDVC35-MRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Adjustable Output Current Range
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Adjustable Output Current Range
+    'Range: Min': '0'
+    'Range: Typical': ——
+    'Range: Max': '4.5'
+    Unit: A
+    Note: SDVC35-LRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Output Power
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Power
+    'Range: Min': '0'
+    'Range: Typical': ——
+    'Range: Max': '660'
+    Unit: VA
+    Note: SDVC35-MRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Output Power
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Power
+    'Range: Min': '0'
+    'Range: Typical': ——
+    'Range: Max': '990'
+    Unit: VA
+    Note: SDVC35-LRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Output Frequency
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Frequency
+    'Range: Min': '25'
+    'Range: Typical': ——
+    'Range: Max': '400'
+    Unit: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Frequency Adjustment Accuracy
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Frequency Adjustment Accuracy
+    'Range: Typical': '0.1'
+    Unit: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Output Waveform
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Output Waveform
+    'Range: Typical': Sine
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Soft Start Time
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Soft Start Time
+    'Range: Min': '0'
+    'Range: Typical': ——
+    'Range: Max': '10'
+    Unit: s
+    Note: 'Default value: 0.5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: On/Off Delay Time Range
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: On/Off Delay Time Range
+    'Range: Min': '0'
+    'Range: Typical': ——
+    'Range: Max': '20'
+    Unit: s
+    Note: 'Default value: 0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: On/Off Delay Time Accuracy
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: On/Off Delay Time Accuracy
+    'Range: Typical': '0.1'
+    Unit: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Overheat Protection Trigger Temperature
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Overheat Protection Trigger Temperature
+    'Range: Min': '60'
+    'Range: Typical': '65'
+    'Range: Max': '65'
+    Unit: °C
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Digital Communication
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Digital Communication
+    'Range: Typical': ModBUS485 Communication
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Digital Communication
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Digital Communication
+    'Range: Typical': EtherCat
+    Note: Optional one
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Digital Communication
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Digital Communication
+    'Range: Typical': Profinet
+    Note: Optional one
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: DC Control Output Current
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: DC Control Output Current
+    'Range: Min': '0'
+    'Range: Typical': ——
+    'Range: Max': '200'
+    Unit: mA
+    Note: Dual 24V Output
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: DC Control Output Voltage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: DC Control Output Voltage
+    'Range: Min': '22'
+    'Range: Typical': '24'
+    'Range: Max': '26'
+    Unit: V
+    Note: Dual 24V Output
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Analog Control Signal
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Analog Control Signal
+    'Range: Typical': 4~20
+    Unit: mA
+    Note: 1 current channel remote speed control
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Analog Control Signal
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Analog Control Signal
+    'Range: Typical': 1~5/0~5/0~10
+    Unit: V
+    Note: 3 voltage channel remote speed control
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Digital Control Signal
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Digital Control Signal
+    'Range: Typical': '24'
+    Unit: V
+    Note: Switching Signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Adjustment Method
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Adjustment Method
+    'Range: Typical': 1 Button+1 rotary encoder
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Standby Power Consumption
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Standby Power Consumption
+    'Range: Min': ——
+    'Range: Typical': ——
+    'Range: Max': '3'
+    Unit: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Display Method
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Display Method
+    'Range: Typical': 128*64
+    Note: OLED Matrix Display
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Ambient Temperature
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Ambient Temperature
+    'Range: Min': '0'
+    'Range: Typical': '25'
+    'Range: Max': '40'
+    Unit: °C
+    Note: No Condensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Ambient Humidity
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Ambient Humidity
+    'Range: Min': '10'
+    'Range: Typical': '60'
+    'Range: Max': '85'
+    Unit: '%'
+    Note: No Condensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Storage Ambient Temperature
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Storage Ambient Temperature
+    'Range: Min': '-20'
+    'Range: Typical': '25'
+    'Range: Max': '65'
+    Unit: °C
+    Note: No Condensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'Appendix C: Electrical Specification'
+    table_role: generic
+    table_md_path: tables/0051-chapter-ⅳ-function-description-table-01.md
+- name: Electrostatic Discharge
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Electrostatic Discharge
+    GB Standard: GB/T 17626.2-2006
+    IEC Standard: IEC 61000-4-2:2001
+    Standard Requirement: 4 kV
+    Reached Level of CUH Product: ±8 kV
+    Note: Contact Discharge
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 52
+    heading_path: *id012
+    heading_title: 'Absolute Parameters:'
+    table_role: generic
+    table_md_path: tables/0052-chapter-ⅳ-function-description-table-01.md
+- name: Electrical Fast Transient Test
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Electrical Fast Transient Test
+    GB Standard: GB/T 17626.4-2008
+    IEC Standard: IEC 61000-4-4:2004
+    Standard Requirement: 2 kV
+    Reached Level of CUH Product: ±4 kV
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 52
+    heading_path: *id012
+    heading_title: 'Absolute Parameters:'
+    table_role: generic
+    table_md_path: tables/0052-chapter-ⅳ-function-description-table-01.md
+- name: Electrical Surge
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Electrical Surge
+    GB Standard: GB/T 17626.5-2008
+    IEC Standard: IEC 61000-4-5:2005
+    Standard Requirement: 1 kV
+    Reached Level of CUH Product: ±4 kV
+    Note: Line-Line Couple
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 52
+    heading_path: *id012
+    heading_title: 'Absolute Parameters:'
+    table_role: generic
+    table_md_path: tables/0052-chapter-ⅳ-function-description-table-01.md
+- name: '1'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: '1'
+    Fault Phenomenon: No display after power on
+    Troubleshooting Suggestions: • Make sure the power outlet is live<br>• Make sure
+      the Input power Cable is reliably connected to the power outlet
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 53
+    heading_path: *id013
+    heading_title: 'Appendix D: Troubleshooting Suggestions and Error Explanation'
+    table_role: generic
+    table_md_path: tables/0053-chapter-ⅳ-function-description-table-01.md
+- name: '2'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: '2'
+    Fault Phenomenon: Display normally, but no output
+    Troubleshooting Suggestions: • Make sure the output voltage is not small<br>•
+      Make sure the run state of the controller is not “Man” controlled by press the
+      “ON/OFF” button on panel<br>• Make sure the run state of the controller is not
+      “STP” controlled by the Port C/E<br>• Make sure the run state of the controller
+      is not “STP” controlled by the Logical Direction parameter of Port C/E<br>•
+      Reset the controller by Default Setting Restoration adjusted in Function Group
+      8
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 53
+    heading_path: *id013
+    heading_title: 'Appendix D: Troubleshooting Suggestions and Error Explanation'
+    table_role: generic
+    table_md_path: tables/0053-chapter-ⅳ-function-description-table-01.md
+- name: '3'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: '3'
+    Fault Phenomenon: The Port C/E cannot work normally
+    Troubleshooting Suggestions: • Make sure the ON/OFF control signal wire is connected
+      correctly to the Port C/E<br>• Make sure all the parameters of Port C/E which
+      you have adjusted are correct<br>• Reset the controller by Default Setting Restoration
+      adjusted in Function Group 8
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 53
+    heading_path: *id013
+    heading_title: 'Appendix D: Troubleshooting Suggestions and Error Explanation'
+    table_role: generic
+    table_md_path: tables/0053-chapter-ⅳ-function-description-table-01.md
+- name: '4'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: '4'
+    Fault Phenomenon: Beat Effect
+    Troubleshooting Suggestions: • Connect the Sync Signal Wire between the controllers
+      and set the slave controller to sync mode
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 53
+    heading_path: *id013
+    heading_title: 'Appendix D: Troubleshooting Suggestions and Error Explanation'
+    table_role: generic
+    table_md_path: tables/0053-chapter-ⅳ-function-description-table-01.md
+- name: '5'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: '5'
+    Fault Phenomenon: Display normally, sounds can be heard from the vibratory feeder
+      but no output
+    Troubleshooting Suggestions: • Make sure Output Frequency is not far away from
+      resonant frequency of the vibratory feeder<br>• Reset the controller by Default
+      Setting Restoration adjusted in Function Group 8
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 53
+    heading_path: *id013
+    heading_title: 'Appendix D: Troubleshooting Suggestions and Error Explanation'
+    table_role: generic
+    table_md_path: tables/0053-chapter-ⅳ-function-description-table-01.md
+- name: 24VErr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: 24VErr
+    Fault Type: Internal 24V Power Error
+    Troubleshooting Suggestions: Internal 24V Power of the controller failure, please
+      contact us for repair
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: 5VErr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: 5VErr
+    Fault Type: Internal 5V Power Error
+    Troubleshooting Suggestions: Internal 5V Power of the controller failure, please
+      contact us for repair
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: <2mA Err
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: <2mA Err
+    Fault Type: The Input Current of Remote Control Signal is too low to Port A
+    Troubleshooting Suggestions: The Input Current of Remote Control Signal is too
+      low to Port A, so make it is greater than 2mA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: <0.5V Err
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: <0.5V Err
+    Fault Type: The Input Voltage of Remote Control Signal is too low to Port A
+    Troubleshooting Suggestions: The Input Voltage of Remote Control Signal is too
+      low to Port A, so make it is greater than 0.5V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: CommErr(1~5)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: CommErr(1~5)
+    Fault Type: Communication Error
+    Troubleshooting Suggestions: Please contact us for repair
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: decline
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: decline
+    Fault Type: Counting deceleration
+    Troubleshooting Suggestions: When the count number reaches the "End Count" that
+      you set, the output voltage (or Feeding Speed) decreases
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: EEPErr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: EEPErr
+    Fault Type: Saving Preset Parameters Error
+    Troubleshooting Suggestions: Please contact us for repair
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: FrqncyHi
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: FrqncyHi
+    Fault Type: Sync Reference Frequency is too high
+    Troubleshooting Suggestions: Input Frequency of Sync Signal of slave controller
+      is greater than 400Hz<br>Make sure the frequency of sync signal is from 25 Hz
+      to 400 Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: FrqncyLo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: FrqncyLo
+    Fault Type: Sync Reference Frequency is too low
+    Troubleshooting Suggestions: Input Frequency of Sync Signal of slave controller
+      is less than 25Hz<br>Make sure the frequency of sync signal is from 25 Hz to
+      400 Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: OverHot
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: OverHot
+    Fault Type: OverHeat
+    Troubleshooting Suggestions: Internal temperature of the controller exceeds 65℃<br>Make
+      sure the controller work at well-ventilated environment
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: OverLoad
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: OverLoad
+    Fault Type: OverLoad of vibration sensor
+    Troubleshooting Suggestions: Vibration sensor has detected the acceleration exceeds
+      its absolute amplitude value
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: OvrCurrt
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: OvrCurrt
+    Fault Type: OverCurrent
+    Troubleshooting Suggestions: Output Current of controller exceeds 3A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: OvrVoltg
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: OvrVoltg
+    Fault Type: OverVoltage
+    Troubleshooting Suggestions: Output Voltage of controller exceeds 260V<br>Make
+      sure the input voltage range is from 85V to 260V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: PortDErr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: PortDErr
+    Fault Type: Port D Error
+    Troubleshooting Suggestions: Output Voltage Deviation of Port D exceeds 3V<br>Make
+      sure the load power of Port D does not exceed 4.8W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: PortPErr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: PortPErr
+    Fault Type: Port P Error
+    Troubleshooting Suggestions: Output Voltage Deviation of Port P exceeds 3V<br>Make
+      sure the load power of Port P does not exceed 4.8W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: Saturate
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: Saturate
+    Fault Type: Output Saturation
+    Troubleshooting Suggestions: When Output Voltage of the controller is greater
+      than Input Voltage, the controller enters the saturation state
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: Save
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: Save
+    Fault Type: Saving Preset Parameters
+    Troubleshooting Suggestions: After Automatic Resonant Frequency Search operation,
+      its related parameters are saved successfully
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: SenorErr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: SenorErr
+    Fault Type: Vibration Sensor Fault
+    Troubleshooting Suggestions: The vibration sensor signal is abnormal, please contact
+      us for repair
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: SenTypEr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: SenTypEr
+    Fault Type: Vibration Sensor Type Error
+    Troubleshooting Suggestions: The type of vibration sensor connected to the controller
+      is mismatched with the "vibration sensor type" parameter set in the controller
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: Short
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: Short
+    Fault Type: Short-circuit
+    Troubleshooting Suggestions: Output of the controller is short-circuit, Make sure
+      the output terminal is not short-circuit
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: SynchErr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: SynchErr
+    Fault Type: Sync Signal Error
+    Troubleshooting Suggestions: Sync signal wire is not connected to the slave controller<br>Make
+      sure the sync signal wire is connected correctly to the controller
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: UndrVolt
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: UndrVolt
+    Fault Type: UnderVoltage
+    Troubleshooting Suggestions: Input Voltage of the controller is less than 85V.<br>Make
+      sure the input voltage range is from 85V to 260V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: UpgradeSlv
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fault Display: UpgradeSlv
+    Fault Type: Firmware Update
+    Troubleshooting Suggestions: The firmware is updating, the controller go back
+      to normal after the update
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'Appendix E: Warning and Error Description and Troubleshooting
+      Suggestions'
+    table_role: generic
+    table_md_path: tables/0054-chapter-ⅳ-function-description-table-01.md
+- name: RUN
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    State of the controller display: RUN
+    State Type: The controller is Run
+    Description: Output of the controller is valid
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'Appendix F: Run State and Network Card Type Description'
+    table_role: generic
+    table_md_path: tables/0055-chapter-ⅳ-function-description-table-01.md
+- name: MAN
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    State of the controller display: MAN
+    State Type: The controller is stopped
+    Description: Short press the “ON/OFF” button to switch the Run/Stop state of output
+      of the controller
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'Appendix F: Run State and Network Card Type Description'
+    table_role: generic
+    table_md_path: tables/0055-chapter-ⅳ-function-description-table-01.md
+- name: CND
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    State of the controller display: CND
+    State Type: The count process is finished to stop the controller
+    Description: When the count process is finished, the output of controller is stopped
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'Appendix F: Run State and Network Card Type Description'
+    table_role: generic
+    table_md_path: tables/0055-chapter-ⅳ-function-description-table-01.md
+- name: RMT
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    State of the controller display: RMT
+    State Type: Stop the output of the controller remotely
+    Description: Stop the output of the controller remotely by RS485 or Ethernet communication
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'Appendix F: Run State and Network Card Type Description'
+    table_role: generic
+    table_md_path: tables/0055-chapter-ⅳ-function-description-table-01.md
+- name: STP
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    State of the controller display: STP
+    State Type: Port C/E to stop output of the controller
+    Description: Stop output of the controller by Digital Input Port C/E
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'Appendix F: Run State and Network Card Type Description'
+    table_role: generic
+    table_md_path: tables/0055-chapter-ⅳ-function-description-table-01.md
+- name: Lok
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    State of the controller display: Lok
+    State Type: Keypad lock
+    Description: The On/OFF button and Encoding is disable and long press the Encoding
+      Switch to unlock keypad
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'Appendix F: Run State and Network Card Type Description'
+    table_role: generic
+    table_md_path: tables/0055-chapter-ⅳ-function-description-table-01.md
+- name: ERR
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    State of the controller display: ERR
+    State Type: Stop output of the controller caused by count fault
+    Description: When the value of "Main Logic" is "Count", if the clear and count
+      up operation occur simultaneously in counting process, the output of controller
+      is stopped
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'Appendix F: Run State and Network Card Type Description'
+    table_role: generic
+    table_md_path: tables/0055-chapter-ⅳ-function-description-table-01.md
+- name: Wit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    State of the controller display: Wit
+    State Type: No network card is connected
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'Appendix F: Run State and Network Card Type Description'
+    table_role: generic
+    table_md_path: tables/0055-chapter-ⅳ-function-description-table-02.md
+- name: Cat
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    State of the controller display: Cat
+    State Type: EtherCat network card is connected
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'Appendix F: Run State and Network Card Type Description'
+    table_role: generic
+    table_md_path: tables/0055-chapter-ⅳ-function-description-table-02.md
+- name: Pro
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    State of the controller display: Pro
+    State Type: Profinet network card is connected
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'Appendix F: Run State and Network Card Type Description'
+    table_role: generic
+    table_md_path: tables/0055-chapter-ⅳ-function-description-table-02.md
+- name: Function Group 0
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The name of Parameters Group: Function Group 0
+    Description: The items could be selected to display on Standby Interface
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-01.md
+- name: Function Group 1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The name of Parameters Group: Function Group 1
+    Description: Basic parameters
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-01.md
+- name: Function Group 2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The name of Parameters Group: Function Group 2
+    Description: Parameters of Main output control
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-01.md
+- name: Function Group 3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The name of Parameters Group: Function Group 3
+    Description: Parameters of Auto/sync function
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-01.md
+- name: Function Group 4
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The name of Parameters Group: Function Group 4
+    Description: Parameters of Port C control
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-01.md
+- name: Function Group 5
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The name of Parameters Group: Function Group 5
+    Description: Parameters of Port E control
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-01.md
+- name: Function Group 6
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The name of Parameters Group: Function Group 6
+    Description: Parameters of Port D control
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-01.md
+- name: Function Group 7
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The name of Parameters Group: Function Group 7
+    Description: Parameters of Port P control
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-01.md
+- name: Function Group 8
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The name of Parameters Group: Function Group 8
+    Description: Advanced parameters
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-01.md
+- name: Function Group 9
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    The name of Parameters Group: Function Group 9
+    Description: Parameters of controller Run status
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-01.md
+- name: MonitPart1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: MonitPart1
+    Min: ——
+    Default: None
+    Max: ——
+    Unit/Enum: None
+    Description: The corresponding LCD row display blank in standby interface
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-02.md
+- name: MonitPart2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: MonitPart2
+    Min: ——
+    Default: UsrV
+    Max: ——
+    Unit/Enum: The same as MonitPart1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-02.md
+- name: MonitPart3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: MonitPart3
+    Min: ——
+    Default: UsrF
+    Max: ——
+    Unit/Enum: The same as MonitPart1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-02.md
+- name: User_Speed
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: User_Speed
+    Min: '0'
+    Default: '200'
+    Max: '3200'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-03.md
+- name: Usr_Voltag
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Usr_Voltag
+    Min: '0'
+    Default: '150'
+    Max: '260'
+    Unit/Enum: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-03.md
+- name: Usr_Frqncy
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Usr_Frqncy
+    Min: '25.0'
+    Default: '50.0'
+    Max: '400.0'
+    Unit/Enum: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-03.md
+- name: TotalCount
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: TotalCount
+    Min: '1'
+    Default: '1'
+    Max: '9999'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-03.md
+- name: Clear Time
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Clear Time
+    Min: '0'
+    Default: '0'
+    Max: '999.9'
+    Unit/Enum: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-03.md
+- name: AutoSerch_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AutoSerch_
+    Min: ——
+    Default: Idle
+    Max: ——
+    Unit/Enum: Idle<br>Start
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-03.md
+- name: PassWord2_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PassWord2_
+    Min: '0'
+    Default: '0'
+    Max: '9999'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-03.md
+- name: Language
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Language
+    Min: ——
+    Default: Englsh
+    Max: ——
+    Unit/Enum: Englsh<br>中文<br>dt
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-03.md
+- name: SoftStart_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: SoftStart_
+    Min: '0'
+    Default: '0.2'
+    Max: '9.9'
+    Unit/Enum: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+- name: SoftStop__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: SoftStop__
+    Min: '0'
+    Default: '0.2'
+    Max: '9.9'
+    Unit/Enum: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+- name: MainUpDely
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: MainUpDely
+    Min: '0'
+    Default: '0.2'
+    Max: '9999'
+    Unit/Enum: 0.1s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+- name: MainDwnDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: MainDwnDly
+    Min: '0'
+    Default: '0.2'
+    Max: '9999'
+    Unit/Enum: 0.1s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+- name: MainLogic_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: MainLogic_
+    Min: ——
+    Default: AND
+    Max: ——
+    Unit/Enum: PortC<br>PortE<br>AND<br>OR<br>XOR<br>Count
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+- name: MainDir___
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: MainDir___
+    Min: ——
+    Default: Const
+    Max: ——
+    Unit/Enum: Const<br>Revrs
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+- name: MainCtrl__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: MainCtrl__
+    Min: ——
+    Default: 'On'
+    Max: ——
+    Unit/Enum: On<br>Off
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+- name: MainSrc___
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: MainSrc___
+    Min: ——
+    Default: Local
+    Max: ——
+    Unit/Enum: Local<br>Remot
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+- name: PowrOnStat
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PowrOnStat
+    Min: ——
+    Default: 'On'
+    Max: ——
+    Unit/Enum: On<br>Off<br>Keep
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+- name: PrcntTrmnl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PrcntTrmnl
+    Min: '0'
+    Default: '50'
+    Max: '100'
+    Unit/Enum: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+- name: CountAhead
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: CountAhead
+    Min: '0'
+    Default: '0'
+    Max: '9999'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+- name: CtrlSource
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: CtrlSource
+    Min: ——
+    Default: Panel
+    Max: ——
+    Unit/Enum: Panel<br>20mA<br>1~5V<br>0~5V<br>0~10V<br>Meter
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+- name: AccelrIndx
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AccelrIndx
+    Min: '100'
+    Default: '100'
+    Max: '150'
+    Unit/Enum: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+- name: MaxVoltage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: MaxVoltage
+    Min: '0'
+    Default: '150.0'
+    Max: '260.0'
+    Unit/Enum: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+- name: WavFomIndx
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: WavFomIndx
+    Min: '50'
+    Default: '100'
+    Max: '100'
+    Unit/Enum: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+- name: CmpnstCurt
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: CmpnstCurt
+    Min: ——
+    Default: Valid
+    Max: ——
+    Unit/Enum: Valid<br>None
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+- name: DCCurrent
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: DCCurrent
+    Min: '0'
+    Default: '0.1'
+    Max: '3'
+    Unit/Enum: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-04.md
+- name: AtoFCenter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AtoFCenter
+    Min: '25.0'
+    Default: '100.0'
+    Max: '400.0'
+    Unit/Enum: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-05.md
+- name: AtoFRange_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AtoFRange_
+    Min: '0'
+    Default: '30.0'
+    Max: '180.0'
+    Unit/Enum: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-05.md
+- name: VoltagMode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: VoltagMode
+    Min: ——
+    Default: Auto
+    Max: ——
+    Unit/Enum: Manul<br>Auto
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-05.md
+- name: FrqncyMode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: FrqncyMode
+    Min: ——
+    Default: Auto
+    Max: ——
+    Unit/Enum: Manul<br>Auto<br>SlavC<br>SlavM
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-05.md
+- name: AtoFIntgrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AtoFIntgrl
+    Min: '0'
+    Default: '20'
+    Max: '2000'
+    Unit/Enum: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-05.md
+- name: AtoAIntgrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AtoAIntgrl
+    Min: '0'
+    Default: '400'
+    Max: '9999'
+    Unit/Enum: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-05.md
+- name: AtoAProptn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AtoAProptn
+    Min: '0'
+    Default: '500'
+    Max: '9999'
+    Unit/Enum: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-05.md
+- name: AtoSnsrTyp
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AtoSnsrTyp
+    Min: 16g
+    Default: 16g
+    Max: 70g
+    Unit/Enum: 16g<br>35g<br>50g<br>70g<br>Auto
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-05.md
+- name: AtoSrhVMax
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AtoSrhVMax
+    Min: '0'
+    Default: '100.0'
+    Max: '260.0'
+    Unit/Enum: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-05.md
+- name: AtoSnsrMax
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AtoSnsrMax
+    Min: '0'
+    Default: '100'
+    Max: '100'
+    Unit/Enum: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-05.md
+- name: AtoSpedMax
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AtoSpedMax
+    Min: '0'
+    Default: '3200'
+    Max: '4000'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-05.md
+- name: AutoPhase_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AutoPhase_
+    Min: '-180'
+    Default: '0'
+    Max: '180'
+    Unit/Enum: °
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-05.md
+- name: UserPhase_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: UserPhase_
+    Min: '-180'
+    Default: '0'
+    Max: '180'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-05.md
+- name: Measure
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Measure
+    Min: ——
+    Default: None
+    Max: ——
+    Unit/Enum: None<br>Valid
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-05.md
+- name: PortCUpDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortCUpDly
+    Min: '0'
+    Default: '0.002'
+    Max: '9.999'
+    Unit/Enum: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-06.md
+- name: PortCDnDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortCDnDly
+    Min: '0'
+    Default: '0.002'
+    Max: '9.999'
+    Unit/Enum: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-06.md
+- name: PortCDir__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortCDir__
+    Min: ——
+    Default: Const
+    Max: ——
+    Unit/Enum: Const
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-06.md
+- name: PortCType_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortCType_
+    Min: ——
+    Default: Auto
+    Max: ——
+    Unit/Enum: NPN
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-06.md
+- name: PortEUpDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortEUpDly
+    Min: '0'
+    Default: '0.002'
+    Max: '9.999'
+    Unit/Enum: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-07.md
+- name: PortEDnDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortEDnDly
+    Min: '0'
+    Default: '0.002'
+    Max: '9.999'
+    Unit/Enum: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-07.md
+- name: PortEDir__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortEDir__
+    Min: ——
+    Default: Const
+    Max: ——
+    Unit/Enum: Const
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-07.md
+- name: PortEType__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortEType__
+    Min: ——
+    Default: Auto
+    Max: ——
+    Unit/Enum: NPN
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-07.md
+- name: PortDUpDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortDUpDly
+    Min: '0'
+    Default: '0.0'
+    Max: '999.9'
+    Unit/Enum: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-08.md
+- name: PortDDnDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortDDnDly
+    Min: '0'
+    Default: '0.0'
+    Max: '999.9'
+    Unit/Enum: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-08.md
+- name: PortDDir__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortDDir__
+    Min: ——
+    Default: Const
+    Max: ——
+    Unit/Enum: Const
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-08.md
+- name: PortDLogic
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortDLogic
+    Min: ——
+    Default: Error
+    Max: ——
+    Unit/Enum: Error
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-08.md
+- name: PortDCtrl_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortDCtrl_
+    Min: ——
+    Default: 'On'
+    Max: ——
+    Unit/Enum: 'On'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-08.md
+- name: PortDSrc__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortDSrc__
+    Min: ——
+    Default: Local
+    Max: ——
+    Unit/Enum: Local
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-08.md
+- name: PortDType_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortDType_
+    Min: ——
+    Default: Ps&Pu
+    Max: ——
+    Unit/Enum: NPN
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-08.md
+- name: PortPUpDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortPUpDly
+    Min: '0'
+    Default: '0.0'
+    Max: '999.9'
+    Unit/Enum: 0.1s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-09.md
+- name: PortPDnDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortPDnDly
+    Min: '0'
+    Default: '0.0'
+    Max: '999.9'
+    Unit/Enum: 0.1s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-09.md
+- name: PortPDir__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortPDir__
+    Min: ——
+    Default: Const
+    Max: ——
+    Unit/Enum: Const
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-09.md
+- name: PortPLogic
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortPLogic
+    Min: ——
+    Default: Error
+    Max: ——
+    Unit/Enum: Error
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-09.md
+- name: PortPCtrl_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortPCtrl_
+    Min: ——
+    Default: 'On'
+    Max: ——
+    Unit/Enum: 'On'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-09.md
+- name: PortPSrc__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortPSrc__
+    Min: ——
+    Default: Local
+    Max: ——
+    Unit/Enum: Local
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-09.md
+- name: PortPType_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortPType_
+    Min: ——
+    Default: Ps&Pu
+    Max: ——
+    Unit/Enum: NPN
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-09.md
+- name: Slave_ID
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Slave_ID
+    Min: '1'
+    Default: '1'
+    Max: '31'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-10.md
+- name: Baud_Rate
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Baud_Rate
+    Min: 0.3K
+    Default: 115.2 K
+    Max: 115.2 K
+    Unit/Enum: 0.3 Kbps
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-10.md
+- name: ReadALLFrm
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: ReadALLFrm
+    Min: ——
+    Default: None
+    Max: ——
+    Unit/Enum: None
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-10.md
+- name: SavedALLTo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: SavedALLTo
+    Min: ——
+    Default: None
+    Max: ——
+    Unit/Enum: None
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-10.md
+- name: RestorALL
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: RestorALL
+    Min: ——
+    Default: None
+    Max: ——
+    Unit/Enum: None
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-10.md
+- name: PassWord1_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PassWord1_
+    Min: '0'
+    Default: '0'
+    Max: '9999'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-10.md
+- name: BusVoltage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: BusVoltage
+    Min: '0'
+    Max: '380.0'
+    Unit: V
+    Description: Bus Voltage（Average Value）
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: Speed_Now_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Speed_Now_
+    Min: '0'
+    Max: '4000'
+    Unit: '1'
+    Description: Real test
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: VoltagOut_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: VoltagOut_
+    Min: '0'
+    Max: '260.0'
+    Unit: V
+    Description: Average value of rectification
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: AtoVltgOut
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AtoVltgOut
+    Min: '0'
+    Max: '260.0'
+    Unit: V
+    Description: Automatic calculation of output voltage
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: SynchrFrqy
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: SynchrFrqy
+    Min: '25.0'
+    Max: '400.0'
+    Unit: Hz
+    Description: The frequency of external synchronic Signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: AtoFrqyOut
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AtoFrqyOut
+    Min: '25.0'
+    Max: '400.0'
+    Unit: Hz
+    Description: Automatic output frequency
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: EffectCurt
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: EffectCurt
+    Min: '0'
+    Max: '9.999'
+    Unit: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: CurrentMax
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: CurrentMax
+    Min: '0'
+    Max: '9.999'
+    Unit: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: AtoPhasRem
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AtoPhasRem
+    Min: '-180'
+    Max: '180'
+    Unit: °
+    Description: Auto phase remnant
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: MainOutPut
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: MainOutPut
+    Min: '0'
+    Max: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: RemotInput
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: RemotInput
+    Min: '0'
+    Max: '10.0'
+    Unit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: 5V_Power_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: 5V_Power_
+    Min: '0'
+    Max: '6.0'
+    Unit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: PortC_____
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortC_____
+    Min: '0'
+    Max: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: PortCInput
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortCInput
+    Min: '0'
+    Max: '26.0'
+    Unit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: PortE_____
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortE_____
+    Min: '0'
+    Max: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: PortEInput
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortEInput
+    Min: '0'
+    Max: '26.0'
+    Unit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: PortD_____
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortD_____
+    Min: '0'
+    Max: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: PortD_Out_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortD_Out_
+    Min: '0'
+    Max: '26.0'
+    Unit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: PortP_____
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortP_____
+    Min: '0'
+    Max: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: PortP_Out_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PortP_Out_
+    Min: '0'
+    Max: '26.0'
+    Unit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: 24V_Power_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: 24V_Power_
+    Min: '0'
+    Max: '26.0'
+    Unit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: PowrAvtive
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PowrAvtive
+    Min: '0'
+    Max: '9999'
+    Unit: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: PowrReactv
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: PowrReactv
+    Min: '0'
+    Max: '9999'
+    Unit: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: Temperatur
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Temperatur
+    Min: '0'
+    Max: '85.0'
+    Unit: °C
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: Inductance
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Inductance
+    Min: '0'
+    Max: '9.999'
+    Unit: H
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: Resistance
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Resistance
+    Min: '0'
+    Max: '9999'
+    Unit: Ω
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: Saturatn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Saturatn
+    Min: '0'
+    Max: '9.999'
+    Unit: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: AtoSnsrVld
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AtoSnsrVld
+    Min: ——
+    Max: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: AtoSnsrOvr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AtoSnsrOvr
+    Min: ——
+    Max: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: AtoDistrtn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: AtoDistrtn
+    Min: '0'
+    Max: '100'
+    Unit: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: CountNumbr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: CountNumbr
+    Min: '0'
+    Max: '9999'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: Flag______
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: Flag______
+    Min: '0'
+    Max: FFFF
+    Description: HEX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: FwVrsnMain
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: FwVrsnMain
+    Min: '0'
+    Max: '9999'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md
+- name: FwVrsnSlav
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Item: FwVrsnSlav
+    Min: '0'
+    Max: '9999'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'Appendix H: Parameters Table'
+    table_role: generic
+    table_md_path: tables/0061-chapter-ⅳ-function-description-table-11.md

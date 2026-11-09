@@ -1,0 +1,77 @@
+{
+  "doc_id": "cuh.sdvc14-S.manual.v0.0.en-US",
+  "source_md_basename": "doc.md",
+  "generated_at": "2026-11-09 16:19:53",
+  "chunk_count": 2,
+  "output_file": "ai/chunks/cuh.sdvc14-S.manual.v0.0.en-US.publish.jsonl",
+  "purged_paths": [
+    "ai/chunks/cuh.sdvc.manual.v0.0.zh-CN.body.jsonl",
+    "ai/chunks/cuh.sdvc.manual.v0.0.zh-CN.jsonl",
+    "ai/layout/page-0006.json",
+    "ai/layout/page-0005.json",
+    "ai/layout/page-0004.json",
+    "ai/layout/page-0003.json",
+    "ai/layout/page-0002.json",
+    "ai/layout/page-0001.json",
+    "ai/page_vision_md/page-0006.json",
+    "ai/page_vision_md/page-0005.json",
+    "ai/page_vision_md/page-0004.json",
+    "ai/page_vision_md/page-0003.json",
+    "ai/page_vision_md/page-0002.json",
+    "ai/page_vision_md/page-0001.json",
+    "report.json",
+    "quality.json",
+    "data/cuh.sdvc.manual.v0.0"
+  ],
+  "asset_refs_in_md": [
+    "assets/images/cuh.sdvc14-S.manual.v0.0/page-0001-vcrop-00.png",
+    "assets/images/cuh.sdvc14-S.manual.v0.0/page-0002-vcrop-00.png",
+    "assets/images/cuh.sdvc14-S.manual.v0.0/page-0003-vcrop-00.png",
+    "assets/images/cuh.sdvc14-S.manual.v0.0/page-0004-vcrop-00.png",
+    "assets/images/cuh.sdvc14-S.manual.v0.0/page-0004-vcrop-01.png",
+    "assets/images/cuh.sdvc14-S.manual.v0.0/page-0044-vcrop-00.png"
+  ],
+  "split_strategy": "adaptive",
+  "split_level": 1,
+  "max_chars": 4500,
+  "resplit_level": 2,
+  "base_section_count": 2,
+  "resplit_parent_count": 0,
+  "resplit_child_total": 0,
+  "final_section_count": 2,
+  "data_sidecar": {
+    "files_written": 1,
+    "exports_count": 1,
+    "sections_with_tables": 1,
+    "spec_tables": 0,
+    "feature_matrix_tables": 0,
+    "generic_tables": 1,
+    "skipped_short": 0
+  },
+  "params_sidecar": {
+    "tables_used": 1,
+    "items_written": 13,
+    "skipped_no_index": 0,
+    "skipped_no_exports": 0,
+    "skipped_parse_failed": 0
+  },
+  "path_align": {
+    "enabled": true,
+    "renamed_image_dirs": [
+      {
+        "from": "assets/images/cuh.sdvc.manual.v0.0",
+        "to": "assets/images/cuh.sdvc14-S.manual.v0.0"
+      }
+    ],
+    "rewritten_md_refs": 6,
+    "rewritten_crops_manifest_refs": 5,
+    "renamed_bundle_dir": {
+      "from": "/Users/wangle/Documents/创优产品说明书/en-US/SDVC/SDVC14S/cuh.sdvc14S.SMS.文档发布单页版.v0.0.en-US",
+      "to": "/Users/wangle/Documents/创优产品说明书/en-US/SDVC/SDVC14S/cuh.sdvc14-S.manual.v0.0.en-US"
+    },
+    "stripped_markers": [
+      "orphan:data-params-summary:begin",
+      "orphan:ai-body-draft:end"
+    ]
+  }
+}
