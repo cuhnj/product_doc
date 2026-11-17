@@ -1,0 +1,2524 @@
+schema_version: 1
+doc_id: cuh.sdvc311.sms.manual.v7.01.de-DE
+doc_key: cuh.sdvc311.sms.manual.v7.01
+lang: de-DE
+generated_at: '2026-11-18 01:20:20'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 1
+  heading_path: &id003
+  - （文首）
+  table_md_path: tables/0001-文首-table-01.md
+  headers:
+  - col_1
+  - col_2
+- section_index: 8
+  heading_path: &id001
+  - Kapitel Ⅰ Vor der Verwendung
+  - 1.4 Erläuterung der Anschlussklemmen
+  table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-01.md
+  headers:
+  - Klemmengruppe
+  - Klemme
+  - Beschreibung
+- section_index: 8
+  heading_path: *id001
+  table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-02.md
+  headers:
+  - Klemmengruppe
+  - Klemme
+  - Beschreibung
+- section_index: 28
+  heading_path: &id004
+  - Kapitel Ⅴ Beschreibung der erweiterten Funktionen
+  - 5.4.2 Signalquellen und Logikdiagramm des Steuerausgangs
+  table_md_path: tables/0028-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+  headers:
+  - Signalquelle
+  - Bedeutung
+- section_index: 37
+  heading_path: &id005
+  - Kapitel Ⅴ Beschreibung der erweiterten Funktionen
+  - 5.9 Parameter-Passwortsperrfunktion
+  table_md_path: tables/0037-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+  headers:
+  - Sperrparameter
+  - Wellenformindex
+  - Beschleunigungsindex
+  - Begrenzung der maximalen Ausgangsspannung
+  - Logikverknüpfung der Signalquellen des Hauptausgangs
+  - Die zweite Signalquelle des Hauptausgangs
+  - Die erste Signalquelle des Hauptausgangs
+  - Logikverknüpfung der Signalquellen von Steuerport D
+  - Die zweite Signalquelle von Steuerport D
+  - Die erste Signalquelle von Steuerport D
+  - Sensortyp von Port C
+  - Bremszyklen/Sanftabschaltung
+  - Ausgangsfrequenz
+- section_index: 40
+  heading_path: &id006
+  - Kapitel Ⅴ Beschreibung der erweiterten Funktionen
+  - Kapitel Ⅵ Technische Daten
+  table_md_path: tables/0040-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+  headers:
+  - Maßbereich
+  - Toleranz
+- section_index: 41
+  heading_path: &id007
+  - Kapitel Ⅴ Beschreibung der erweiterten Funktionen
+  - 6.2 Technische Daten
+  table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+  headers:
+  - Element
+  - Min.
+  - Typ.
+  - Max.
+  - Einheit
+  - Anmerkung
+- section_index: 42
+  heading_path: &id008
+  - Kapitel Ⅴ Beschreibung der erweiterten Funktionen
+  - 6.3 Referenznorm
+  table_md_path: tables/0042-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+  headers:
+  - Element
+  - GB-Norm
+  - IEC-Norm
+  - Grad
+  - Normanforderung
+  - Anmerkung
+- section_index: 43
+  heading_path: &id002
+  - Kapitel Ⅶ Anhang
+  - 7.1 Parametertabelle
+  table_md_path: tables/0043-kapitel-ⅶ-anhang-table-01.md
+  headers:
+  - Kategorie
+  - Definition
+  - Symbol
+  - Symbolbild
+  - Bereich
+  - Standardwert
+- section_index: 43
+  heading_path: *id002
+  table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+  headers:
+  - col_1
+  - Definition
+  - Symbol
+  - Symbolbild
+  - Bereich
+  - Standardwert
+- section_index: 45
+  heading_path: &id009
+  - Kapitel Ⅶ Anhang
+  - 7.3 Fehlerbehebungsvorschläge und Fehlererläuterungen
+  table_md_path: tables/0045-kapitel-ⅶ-anhang-table-01.md
+  headers:
+  - Fehlercode
+  - Definition
+  - Fehlerbehebungsmethoden
+  - Symbolbild
+items:
+- name: ⚠ Gefahr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Gefahr
+    col_2: Nichtbeachtung dieses Punktes führt zu Personenschäden oder Tod.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ⚠ Warnung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Warnung
+    col_2: Nichtbeachtung dieses Punktes kann zu Personenschäden oder Tod führen.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ⚠ Vorsicht
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Vorsicht
+    col_2: Nichtbeachtung dieses Punktes kann zu mittleren oder leichten Personenschäden
+      führen.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Hinweis
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Hinweis
+    col_2: Nichtbeachtung dieses Punktes führt zu Produktschäden und Sachschäden.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ❗ Zwingend
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ❗ Zwingend
+    col_2: Weist auf Vorsichtsmaßnahmen und Nutzungseinschränkungen hin, die während
+      der Verwendung unbedingt zu beachten sind.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Drehzahlsteuerung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Drehzahlsteuerung
+    Klemme: A1
+    Beschreibung: RGND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-01.md
+- name: Drehzahlsteuerung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Drehzahlsteuerung
+    Klemme: A2
+    Beschreibung: Eingang
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-01.md
+- name: Drehzahlsteuerung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Drehzahlsteuerung
+    Klemme: A3
+    Beschreibung: 5V-Ausgang
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Photosensor
+    Klemme: B1
+    Beschreibung: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Photosensor
+    Klemme: B2
+    Beschreibung: RX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Photosensor
+    Klemme: B3
+    Beschreibung: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Photosensor
+    Klemme: B4
+    Beschreibung: TX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Sensor
+    Klemme: C1
+    Beschreibung: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Sensor
+    Klemme: C2
+    Beschreibung: Eingang
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Sensor
+    Klemme: C3
+    Beschreibung: 24V-Ausgang
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-01.md
+- name: Steuerausgang
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Steuerausgang
+    Klemme: D1
+    Beschreibung: Ausgang
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-01.md
+- name: Steuerausgang
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Steuerausgang
+    Klemme: D2
+    Beschreibung: 24V-Ausgang
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-01.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: 24V DC
+    Klemme: I1
+    Beschreibung: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-02.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: 24V DC
+    Klemme: I2
+    Beschreibung: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-02.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: 24V DC
+    Klemme: I1
+    Beschreibung: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-02.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: 24V DC
+    Klemme: I2
+    Beschreibung: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-02.md
+- name: Drehzahlsteuerung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Drehzahlsteuerung
+    Klemme: A1
+    Beschreibung: RGND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-02.md
+- name: Drehzahlsteuerung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Drehzahlsteuerung
+    Klemme: A2
+    Beschreibung: Eingang
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-02.md
+- name: Drehzahlsteuerung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Drehzahlsteuerung
+    Klemme: A3
+    Beschreibung: 5V-Ausgang
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-02.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Photosensor
+    Klemme: B1
+    Beschreibung: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-02.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Photosensor
+    Klemme: B2
+    Beschreibung: RX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-02.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Photosensor
+    Klemme: B3
+    Beschreibung: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-02.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Photosensor
+    Klemme: B4
+    Beschreibung: TX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-02.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Sensor
+    Klemme: C1
+    Beschreibung: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-02.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Sensor
+    Klemme: C2
+    Beschreibung: Eingang
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-02.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Sensor
+    Klemme: C3
+    Beschreibung: 24V-Ausgang
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-02.md
+- name: Steuerausgang
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Steuerausgang
+    Klemme: D1
+    Beschreibung: Ausgang
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-02.md
+- name: Steuerausgang
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemmengruppe: Steuerausgang
+    Klemme: D2
+    Beschreibung: 24V-Ausgang
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Erläuterung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0008-kapitel-ⅰ-vor-der-verwendung-table-02.md
+- name: '0'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signalquelle: '0'
+    Bedeutung: ungültiges Signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Signalquellen und Logikdiagramm des Steuerausgangs
+    table_role: generic
+    table_md_path: tables/0028-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: '1'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signalquelle: '1'
+    Bedeutung: gültiges Signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Signalquellen und Logikdiagramm des Steuerausgangs
+    table_role: generic
+    table_md_path: tables/0028-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signalquelle: b
+    Bedeutung: Signal des intelligenten photoelektrischen Sensoranschlusses
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Signalquellen und Logikdiagramm des Steuerausgangs
+    table_role: generic
+    table_md_path: tables/0028-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: -b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signalquelle: -b
+    Bedeutung: Signal des intelligenten photoelektrischen Sensoranschlusses ist invertiert
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Signalquellen und Logikdiagramm des Steuerausgangs
+    table_role: generic
+    table_md_path: tables/0028-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signalquelle: C
+    Bedeutung: Signal des Schaltsensoranschlusses
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Signalquellen und Logikdiagramm des Steuerausgangs
+    table_role: generic
+    table_md_path: tables/0028-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: -C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signalquelle: -C
+    Bedeutung: Signal des Schaltsensoranschlusses ist invertiert
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Signalquellen und Logikdiagramm des Steuerausgangs
+    table_role: generic
+    table_md_path: tables/0028-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: od
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signalquelle: od
+    Bedeutung: Signal des Steuerausgangsanschlusses
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Signalquellen und Logikdiagramm des Steuerausgangs
+    table_role: generic
+    table_md_path: tables/0028-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: -od
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signalquelle: -od
+    Bedeutung: Signal des Steuerausgangsanschlusses ist invertiert
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Signalquellen und Logikdiagramm des Steuerausgangs
+    table_role: generic
+    table_md_path: tables/0028-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: oq
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signalquelle: oq
+    Bedeutung: Signal des Hauptleistungsausgangsanschlusses
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Signalquellen und Logikdiagramm des Steuerausgangs
+    table_role: generic
+    table_md_path: tables/0028-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: -oq
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signalquelle: -oq
+    Bedeutung: Signal des Hauptleistungsausgangsanschlusses ist invertiert
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Signalquellen und Logikdiagramm des Steuerausgangs
+    table_role: generic
+    table_md_path: tables/0028-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: '1: Gesperrt'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Sperrparameter: '1: Gesperrt'
+    Wellenformindex: '1'
+    Beschleunigungsindex: '1'
+    Begrenzung der maximalen Ausgangsspannung: '1'
+    Logikverknüpfung der Signalquellen des Hauptausgangs: '1'
+    Die zweite Signalquelle des Hauptausgangs: '1'
+    Die erste Signalquelle des Hauptausgangs: '1'
+    Logikverknüpfung der Signalquellen von Steuerport D: '1'
+    Die zweite Signalquelle von Steuerport D: '1'
+    Die erste Signalquelle von Steuerport D: '1'
+    Sensortyp von Port C: '1'
+    Bremszyklen/Sanftabschaltung: '1'
+    Ausgangsfrequenz: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 Parameter-Passwortsperrfunktion
+    table_role: generic
+    table_md_path: tables/0037-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: '0: Entsperrt'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Sperrparameter: '0: Entsperrt'
+    Wellenformindex: '0'
+    Beschleunigungsindex: '0'
+    Begrenzung der maximalen Ausgangsspannung: '0'
+    Logikverknüpfung der Signalquellen des Hauptausgangs: '0'
+    Die zweite Signalquelle des Hauptausgangs: '0'
+    Die erste Signalquelle des Hauptausgangs: '0'
+    Logikverknüpfung der Signalquellen von Steuerport D: '0'
+    Die zweite Signalquelle von Steuerport D: '0'
+    Die erste Signalquelle von Steuerport D: '0'
+    Sensortyp von Port C: '0'
+    Bremszyklen/Sanftabschaltung: '0'
+    Ausgangsfrequenz: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 Parameter-Passwortsperrfunktion
+    table_role: generic
+    table_md_path: tables/0037-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Multiplikationsfaktor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Sperrparameter: Multiplikationsfaktor
+    Wellenformindex: '4'
+    Beschleunigungsindex: '2'
+    Begrenzung der maximalen Ausgangsspannung: '1'
+    Logikverknüpfung der Signalquellen des Hauptausgangs: '4'
+    Die zweite Signalquelle des Hauptausgangs: '2'
+    Die erste Signalquelle des Hauptausgangs: '1'
+    Logikverknüpfung der Signalquellen von Steuerport D: '4'
+    Die zweite Signalquelle von Steuerport D: '2'
+    Die erste Signalquelle von Steuerport D: '1'
+    Sensortyp von Port C: '4'
+    Bremszyklen/Sanftabschaltung: '2'
+    Ausgangsfrequenz: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 Parameter-Passwortsperrfunktion
+    table_role: generic
+    table_md_path: tables/0037-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Wertebereich des Passwortwerts (Summierung)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Sperrparameter: Wertebereich des Passwortwerts (Summierung)
+    Wellenformindex: 0~7 (1. Stelle des Passwortwerts)
+    Logikverknüpfung der Signalquellen des Hauptausgangs: 0~7 (2. Stelle des Passwortwerts)
+    Logikverknüpfung der Signalquellen von Steuerport D: 0~7 (3. Stelle des Passwortwerts)
+    Sensortyp von Port C: 0~7 (4. Stelle des Passwortwerts)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 Parameter-Passwortsperrfunktion
+    table_role: generic
+    table_md_path: tables/0037-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Beispiel 1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Sperrparameter: Beispiel 1
+    Wellenformindex: '0'
+    Beschleunigungsindex: '0'
+    Begrenzung der maximalen Ausgangsspannung: '0'
+    Logikverknüpfung der Signalquellen des Hauptausgangs: '0'
+    Die zweite Signalquelle des Hauptausgangs: '0'
+    Die erste Signalquelle des Hauptausgangs: '0'
+    Logikverknüpfung der Signalquellen von Steuerport D: '0'
+    Die zweite Signalquelle von Steuerport D: '0'
+    Die erste Signalquelle von Steuerport D: '0'
+    Sensortyp von Port C: '0'
+    Bremszyklen/Sanftabschaltung: '0'
+    Ausgangsfrequenz: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 Parameter-Passwortsperrfunktion
+    table_role: generic
+    table_md_path: tables/0037-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Beispiel 2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Sperrparameter: Beispiel 2
+    Wellenformindex: '1'
+    Beschleunigungsindex: '0'
+    Begrenzung der maximalen Ausgangsspannung: '0'
+    Logikverknüpfung der Signalquellen des Hauptausgangs: '0'
+    Die zweite Signalquelle des Hauptausgangs: '0'
+    Die erste Signalquelle des Hauptausgangs: '1'
+    Logikverknüpfung der Signalquellen von Steuerport D: '0'
+    Die zweite Signalquelle von Steuerport D: '0'
+    Die erste Signalquelle von Steuerport D: '0'
+    Sensortyp von Port C: '0'
+    Bremszyklen/Sanftabschaltung: '0'
+    Ausgangsfrequenz: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 Parameter-Passwortsperrfunktion
+    table_role: generic
+    table_md_path: tables/0037-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Beispiel 3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Sperrparameter: Beispiel 3
+    Wellenformindex: '0'
+    Beschleunigungsindex: '0'
+    Begrenzung der maximalen Ausgangsspannung: '0'
+    Logikverknüpfung der Signalquellen des Hauptausgangs: '0'
+    Die zweite Signalquelle des Hauptausgangs: '0'
+    Die erste Signalquelle des Hauptausgangs: '0'
+    Logikverknüpfung der Signalquellen von Steuerport D: '0'
+    Die zweite Signalquelle von Steuerport D: '0'
+    Die erste Signalquelle von Steuerport D: '0'
+    Sensortyp von Port C: '1'
+    Bremszyklen/Sanftabschaltung: '1'
+    Ausgangsfrequenz: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 Parameter-Passwortsperrfunktion
+    table_role: generic
+    table_md_path: tables/0037-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: 0~3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Maßbereich: 0~3
+    Toleranz: ±0.05
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: Kapitel Ⅵ Technische Daten
+    table_role: generic
+    table_md_path: tables/0040-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: 3~10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Maßbereich: 3~10
+    Toleranz: ±0.1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: Kapitel Ⅵ Technische Daten
+    table_role: generic
+    table_md_path: tables/0040-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: 10~30
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Maßbereich: 10~30
+    Toleranz: ±0.15
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: Kapitel Ⅵ Technische Daten
+    table_role: generic
+    table_md_path: tables/0040-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: 30~80
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Maßbereich: 30~80
+    Toleranz: ±0.2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: Kapitel Ⅵ Technische Daten
+    table_role: generic
+    table_md_path: tables/0040-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: 80~180
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Maßbereich: 80~180
+    Toleranz: ±0.3
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: Kapitel Ⅵ Technische Daten
+    table_role: generic
+    table_md_path: tables/0040-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: '>180'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Maßbereich: '>180'
+    Toleranz: ±0.5
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: Kapitel Ⅵ Technische Daten
+    table_role: generic
+    table_md_path: tables/0040-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Eingangsspannung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Eingangsspannung
+    Min.: '85'
+    Typ.: '220'
+    Max.: '250'
+    Einheit: V
+    Anmerkung: AC-Effektivwert
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Einstellbarer Ausgangsspannungsbereich
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Einstellbarer Ausgangsspannungsbereich
+    Min.: '0'
+    Typ.: ——
+    Max.: '260'
+    Einheit: V
+    Anmerkung: Niedriger als 150% der Eingangsspannung
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Spannungseinstellgenauigkeit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Spannungseinstellgenauigkeit
+    Typ.: '1'
+    Einheit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Spannungsregelgenauigkeit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Spannungsregelgenauigkeit
+    Min.: '0'
+    Typ.: ——
+    Max.: '10'
+    Einheit: '%'
+    Anmerkung: ΔVout/ΔVin
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Einstellbarer Ausgangsstrombereich
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Einstellbarer Ausgangsstrombereich
+    Min.: '0'
+    Typ.: ——
+    Max.: '1.5'
+    Einheit: A
+    Anmerkung: SDVC311-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Einstellbarer Ausgangsstrombereich
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Einstellbarer Ausgangsstrombereich
+    Min.: '0'
+    Typ.: ——
+    Max.: '3.0'
+    Einheit: A
+    Anmerkung: SDVC311-M
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Einstellbarer Ausgangsstrombereich
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Einstellbarer Ausgangsstrombereich
+    Min.: '0'
+    Typ.: ——
+    Max.: '4.5'
+    Einheit: A
+    Anmerkung: SDVC311-L
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Einstellbarer Ausgangsstrombereich
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Einstellbarer Ausgangsstrombereich
+    Min.: '0'
+    Typ.: ——
+    Max.: '6.0'
+    Einheit: A
+    Anmerkung: SDVC311-XL
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Ausgangsleistung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Ausgangsleistung
+    Min.: '0'
+    Typ.: ——
+    Max.: '330'
+    Einheit: VA
+    Anmerkung: SDVC311-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Ausgangsleistung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Ausgangsleistung
+    Min.: '0'
+    Typ.: ——
+    Max.: '660'
+    Einheit: VA
+    Anmerkung: SDVC311-M
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Ausgangsleistung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Ausgangsleistung
+    Min.: '0'
+    Typ.: ——
+    Max.: '990'
+    Einheit: VA
+    Anmerkung: SDVC311-L
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Ausgangsleistung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Ausgangsleistung
+    Min.: '0'
+    Typ.: ——
+    Max.: '1320'
+    Einheit: VA
+    Anmerkung: SDVC311-XL
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Ausgangsfrequenz
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Ausgangsfrequenz
+    Min.: '5.0'
+    Typ.: ——
+    Max.: '400.0'
+    Einheit: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Frequenzeinstellgenauigkeit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Frequenzeinstellgenauigkeit
+    Typ.: '0.1'
+    Einheit: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Ausgangswellenform
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Ausgangswellenform
+    Typ.: Sinus
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Sanftanlaufzeit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Sanftanlaufzeit
+    Min.: '0'
+    Typ.: ——
+    Max.: '10.0'
+    Einheit: s
+    Anmerkung: 'Standardwert: 0.5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Bereich der Ein-/Ausschaltverzögerung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Bereich der Ein-/Ausschaltverzögerung
+    Min.: '0'
+    Typ.: ——
+    Max.: '99.9'
+    Einheit: s
+    Anmerkung: 'Standardwert: 0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Genauigkeit der Ein-/Ausschaltverzögerung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Genauigkeit der Ein-/Ausschaltverzögerung
+    Typ.: '0.1'
+    Einheit: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Auslösetemperatur des Überhitzungsschutzes
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Auslösetemperatur des Überhitzungsschutzes
+    Min.: '58'
+    Typ.: '60'
+    Max.: '66'
+    Einheit: °C
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: DC-Steuerausgangsstrom
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: DC-Steuerausgangsstrom
+    Min.: '0'
+    Typ.: ——
+    Max.: '400'
+    Einheit: mA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: DC-Steuerausgangsspannung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: DC-Steuerausgangsspannung
+    Min.: '22'
+    Typ.: '24'
+    Max.: '26'
+    Einheit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Analoges Steuersignal
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Analoges Steuersignal
+    Typ.: 1~5/4~20
+    Einheit: V/mA
+    Anmerkung: Signal der Fernsteuerung der Drehzahl
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Digitales Steuersignal
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Digitales Steuersignal
+    Typ.: '24'
+    Einheit: V
+    Anmerkung: Schaltsignal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Einstellmethode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Einstellmethode
+    Typ.: '6'
+    Einheit: Taste
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Leistungsaufnahme im Bereitschaftszustand
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Leistungsaufnahme im Bereitschaftszustand
+    Min.: ——
+    Typ.: '3'
+    Max.: ——
+    Einheit: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Anzeigemethode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Anzeigemethode
+    Typ.: '5'
+    Einheit: Ziffer
+    Anmerkung: LED
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Umgebungstemperatur
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Umgebungstemperatur
+    Min.: '0'
+    Typ.: '25'
+    Max.: '40'
+    Einheit: °C
+    Anmerkung: Ohne Kondensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Umgebungsfeuchtigkeit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Umgebungsfeuchtigkeit
+    Min.: '10'
+    Typ.: '60'
+    Max.: '85'
+    Einheit: '%'
+    Anmerkung: Ohne Kondensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Lagerumgebungstemperatur
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Lagerumgebungstemperatur
+    Min.: '-20'
+    Typ.: '25'
+    Max.: '65'
+    Einheit: °C
+    Anmerkung: Ohne Kondensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Technische Daten
+    table_role: generic
+    table_md_path: tables/0041-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Elektrostatische Entladung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Elektrostatische Entladung
+    GB-Norm: GB/T 17626.2-2006
+    IEC-Norm: IEC 61000-4-2:2001
+    Grad: '4'
+    Normanforderung: ±8 kV
+    Anmerkung: Kontaktentladung
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id008
+    heading_title: 6.3 Referenznorm
+    table_role: generic
+    table_md_path: tables/0042-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Test der schnellen transienten Störgrößen
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Test der schnellen transienten Störgrößen
+    GB-Norm: GB/T 17626.4-2008
+    IEC-Norm: IEC 61000-4-4:2004
+    Grad: '4'
+    Normanforderung: ±4 kV
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id008
+    heading_title: 6.3 Referenznorm
+    table_role: generic
+    table_md_path: tables/0042-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Störfestigkeit der DC-Stromversorgungsleitung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Störfestigkeit der DC-Stromversorgungsleitung
+    GB-Norm: GB/T 17626.17-2005
+    IEC-Norm: IEC 61000-4-17:2002
+    Grad: '4'
+    Normanforderung: 15%
+    Anmerkung: Bewertung A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id008
+    heading_title: 6.3 Referenznorm
+    table_role: generic
+    table_md_path: tables/0042-kapitel-ⅴ-beschreibung-der-erweiterten-funktione-table-01.md
+- name: Allgemeiner Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Kategorie: Allgemeiner Parameter
+    Definition: Ausgangsspannung
+    Symbol: U
+    Symbolbild: '![Segmentanzeigesymbol U der Ausgangsspannung](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0045-vcrop-00.png)'
+    Bereich: 0~260 V
+    Standardwert: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-01.md
+- name: Grundparameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Kategorie: Grundparameter
+    Definition: Ausgangsfrequenz *
+    Symbol: E
+    Symbolbild: '![Segmentanzeigesymbol E der Ausgangsfrequenz](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0045-vcrop-01.png)'
+    Bereich: 5.0~400.0 Hz
+    Standardwert: '50.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-01.md
+- name: Erweiterter Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Kategorie: Erweiterter Parameter
+    Definition: Empfindlichkeit des intelligenten photoelektrischen Sensors
+    Symbol: P
+    Symbolbild: '![Segmentanzeigesymbol P der Sensorempfindlichkeit](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0045-vcrop-07.png)'
+    Bereich: PnP, nPn, 2~1000
+    Standardwert: '80'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-01.md
+- name: Erweiterter Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Erweiterter Parameter
+    Definition: Ausschaltverzögerung von Port D
+    Symbol: Ld
+    Symbolbild: '![Segmentanzeigesymbol Ausschaltverzögerung von Port D](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-00.png)'
+    Bereich: 0.0~99.9 s
+    Standardwert: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Erweiterter Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Erweiterter Parameter
+    Definition: Ausgangsmodus von Port D
+    Symbol: Fd
+    Symbolbild: '![Segmentanzeigesymbol Ausgangsmodus von Port D](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-01.png)'
+    Bereich: dLy (Verzögerungsmodus), HLd (Haltemodus)<br>Fn1 periodischer Signalausgabemodus
+      1<br>Fn2 periodischer Signalausgabemodus 2
+    Standardwert: dLy
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Erweiterter Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Erweiterter Parameter
+    Definition: Logische Richtung von Port D
+    Symbol: Sd
+    Symbolbild: '![Segmentanzeigesymbol Logische Richtung von Port D](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-02.png)'
+    Bereich: '--- (Gleiche Phase), -⁻- (Umgekehrt)<br>on (immer aktiv), oFF (immer
+      inaktiv)'
+    Standardwert: '---'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Erweiterter Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Erweiterter Parameter
+    Definition: Steuerausgangstyp
+    Symbol: Cd
+    Symbolbild: '![Segmentanzeigesymbol Steuerausgangstyp](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-03.png)'
+    Bereich: nPn, PnP, PSP (Push & Pull)
+    Standardwert: nPn
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Erweiterter Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Erweiterter Parameter
+    Definition: Begrenzung der maximalen Ausgangsspannung *
+    Symbol: h
+    Symbolbild: '![Segmentanzeigesymbol Begrenzung der maximalen Ausgangsspannung](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-04.png)'
+    Bereich: 0~260 V
+    Standardwert: '260'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Erweiterter Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Erweiterter Parameter
+    Definition: Untere Frequenzgrenze
+    Symbol: E
+    Symbolbild: '![Segmentanzeigesymbol Untere Frequenzgrenze](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-05.png)'
+    Bereich: 5.0~400.0 Hz
+    Standardwert: '40.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Erweiterter Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Erweiterter Parameter
+    Definition: Beschleunigungsindex *
+    Symbol: g
+    Symbolbild: '![Segmentanzeigesymbol Beschleunigungsindex](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-06.png)'
+    Bereich: 100~150
+    Standardwert: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Erweiterter Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Erweiterter Parameter
+    Definition: Wellenformindex *
+    Symbol: r
+    Symbolbild: '![Segmentanzeigesymbol Wellenformindex](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-07.png)'
+    Bereich: 0~100
+    Standardwert: '100'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Erweiterter Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Erweiterter Parameter
+    Definition: Parameterbereich der Funktion zur Deaktivierung der Parameteranpassung
+    Symbol: Spezielles 7-Segment-Symbol mit Dezimalpunkt (siehe Abbildung)
+    Symbolbild: '![Spezielles 7-Segment-Symbol mit Dezimalpunkt für den Parameterbereich
+      der Funktion zur Deaktivierung der Parameteranpassung](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-08.png)'
+    Bereich: 0~9999
+    Standardwert: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Erweiterter Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Erweiterter Parameter
+    Definition: Sperre der Funktion zur Deaktivierung der Parameteranpassung
+    Symbol: Spezielles 7-Segment-Symbol (siehe Abbildung)
+    Symbolbild: '![Spezielles 7-Segment-Symbol für die Sperre der Funktion zur Deaktivierung
+      der Parameteranpassung](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-09.png)'
+    Bereich: 0~9999
+    Standardwert: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Erweiterter Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Erweiterter Parameter
+    Definition: Wiederherstellung der Standardeinstellung
+    Symbol: '88888'
+    Symbolbild: '![Symbol der vollständig leuchtenden Segmente für die Wiederherstellung
+      der Standardeinstellung](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-10.png)'
+    Bereich: Wird in Verbindung mit dem Parameter Pin verwendet
+    Standardwert: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Erweiterter Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Erweiterter Parameter
+    Definition: Rückkehr in den Fabrikmodus
+    Symbol: Pin
+    Symbolbild: '![Segmentanzeigesymbol Rückkehr in den Fabrikmodus](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-11.png)'
+    Bereich: '0 : Arbeitsparametergruppe auf Benutzerparametergruppe wiederherstellen<br>5
+      : Arbeitsparametergruppe in Benutzerparametergruppe speichern<br>35: Arbeitsparametergruppe
+      auf CUH-Werkswert wiederherstellen<br>55: Arbeitsparametergruppe und Benutzerparametergruppe
+      auf CUH-Werkswert wiederherstellen'
+    Standardwert: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Überwachungsparameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Überwachungsparameter
+    Definition: Temperatur
+    Symbol: C
+    Symbolbild: '![Segmentanzeigesymbol Temperatur](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-12.png)'
+    Bereich: -20~85 °C
+    Standardwert: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Überwachungsparameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Überwachungsparameter
+    Definition: Interne Busspannung
+    Symbol: PU
+    Symbolbild: '![Segmentanzeigesymbol Interne Busspannung](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-13.png)'
+    Bereich: 0~400 V
+    Standardwert: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Überwachungsparameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Überwachungsparameter
+    Definition: Bus-Welligkeitsspannung
+    Symbol: rU
+    Symbolbild: '![Segmentanzeigesymbol Bus-Welligkeitsspannung](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-14.png)'
+    Bereich: 0~200 V
+    Standardwert: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Überwachungsparameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Überwachungsparameter
+    Definition: Ausgangsstrom
+    Symbol: AC
+    Symbolbild: '![Segmentanzeigesymbol Ausgangsstrom](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-15.png)'
+    Bereich: 0.00~1.60 A -SDVC31S/SDVC311S<br>0.00~3.20 A -SDVC31M/SDVC311M
+    Standardwert: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Überwachungsparameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Überwachungsparameter
+    Definition: Signalspannung von Port A
+    Symbol: AU
+    Symbolbild: '![Segmentanzeigesymbol Signalspannung von Port A](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-16.png)'
+    Bereich: 0.00~5.00 V
+    Standardwert: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Überwachungsparameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Überwachungsparameter
+    Definition: Signalspannung von Port B
+    Symbol: bU
+    Symbolbild: '![Segmentanzeigesymbol Signalspannung von Port B](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-17.png)'
+    Bereich: 0~999
+    Standardwert: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Überwachungsparameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Überwachungsparameter
+    Definition: Signalspannung von Port C
+    Symbol: cU
+    Symbolbild: '![Segmentanzeigesymbol Signalspannung von Port C](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-18.png)'
+    Bereich: 0.0~28.0 V
+    Standardwert: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Überwachungsparameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Überwachungsparameter
+    Definition: Signalspannung von Port D
+    Symbol: dU
+    Symbolbild: '![Segmentanzeigesymbol Signalspannung von Port D](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-19.png)'
+    Bereich: 0.0~28.0 V
+    Standardwert: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Überwachungsparameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Überwachungsparameter
+    Definition: Echtzeitspannung des 24V-Anschlusses
+    Symbol: nU
+    Symbolbild: '![Segmentanzeigesymbol Echtzeitspannung des 24V-Anschlusses](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-20.png)'
+    Bereich: 0.0~28.0 V
+    Standardwert: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Überwachungsparameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Überwachungsparameter
+    Definition: Softwareversion der Steuerplatine
+    Symbol: uc
+    Symbolbild: '![Segmentanzeigesymbol Softwareversion der Steuerplatine](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-21.png)'
+    Bereich: ——
+    Standardwert: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Überwachungsparameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Überwachungsparameter
+    Definition: Softwareversion der Leistungsplatine
+    Symbol: uP
+    Symbolbild: '![Segmentanzeigesymbol Softwareversion der Leistungsplatine](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-22.png)'
+    Bereich: ——
+    Standardwert: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Parametertabelle
+    table_role: generic
+    table_md_path: tables/0043-kapitel-ⅶ-anhang-table-02.md
+- name: Keine Anzeige nach dem Einschalten
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlercode: Keine Anzeige nach dem Einschalten
+    Fehlerbehebungsmethoden: Stellen Sie sicher, dass die Steckdose stromführend ist<br>Stellen
+      Sie sicher, dass das Eingangsnetzkabel zuverlässig mit der Steckdose verbunden
+      ist?
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Fehlerbehebungsvorschläge und Fehlererläuterungen
+    table_role: generic
+    table_md_path: tables/0045-kapitel-ⅶ-anhang-table-01.md
+- name: Anzeige normal, aber kein Ausgang
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlercode: Anzeige normal, aber kein Ausgang
+    Fehlerbehebungsmethoden: Stellen Sie sicher, dass das Ausgangskabel zuverlässig
+      mit dem Vibrator verbunden ist.<br>Stellen Sie sicher, dass die Ausgangsspannung
+      nicht zu klein ist.<br>Stellen Sie sicher, dass die Stoppanzeige nicht leuchtet.<br>Bitte
+      prüfen Sie, ob der Parameter Normal Close eingestellt wurde, wodurch der Reglerausgang
+      gestoppt wird.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Fehlerbehebungsvorschläge und Fehlererläuterungen
+    table_role: generic
+    table_md_path: tables/0045-kapitel-ⅶ-anhang-table-01.md
+- name: Steuersignal verliert seine Wirkung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlercode: Steuersignal verliert seine Wirkung
+    Fehlerbehebungsmethoden: Stellen Sie sicher, dass das Steuersignal korrekt eingegeben
+      wird.<br>Stellen Sie sicher, dass die Masseleitung des Steuersignals korrekt
+      mit dem Regler verbunden ist.<br>Stellen Sie sicher, dass die logische Verknüpfung
+      der Steuersignale korrekt nach Ihren Erwartungen eingestellt ist.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Fehlerbehebungsvorschläge und Fehlererläuterungen
+    table_role: generic
+    table_md_path: tables/0045-kapitel-ⅶ-anhang-table-01.md
+- name: Schwebungsphänomene
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlercode: Schwebungsphänomene
+    Fehlerbehebungsmethoden: Vermeiden Sie die Schwingungskopplung zwischen den Vibratoren.<br>Erhöhen
+      Sie die Resonanzfrequenz der Vibratoren.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Fehlerbehebungsvorschläge und Fehlererläuterungen
+    table_role: generic
+    table_md_path: tables/0045-kapitel-ⅶ-anhang-table-01.md
+- name: Anzeige normal, kein Ausgang, aber Geräusche sind hörbar
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlercode: Anzeige normal, kein Ausgang, aber Geräusche sind hörbar
+    Fehlerbehebungsmethoden: Stellen Sie alle Parameter wie in diesem Handbuch beschrieben
+      ein.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Fehlerbehebungsvorschläge und Fehlererläuterungen
+    table_role: generic
+    table_md_path: tables/0045-kapitel-ⅶ-anhang-table-01.md
+- name: Err01
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlercode: Err01
+    Definition: Kurzschluss
+    Fehlerbehebungsmethoden: Stellen Sie sicher, dass die Last nicht kurzgeschlossen
+      ist, und versuchen Sie dann, den Ausgang des Reglers durch zweimaliges Drücken
+      der Ausgangs-EIN/AUS-Taste oder durch erneutes Einschalten des Reglers neu zu
+      starten.
+    Symbolbild: '![Err01 7-Segment-Anzeige](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Fehlerbehebungsvorschläge und Fehlererläuterungen
+    table_role: generic
+    table_md_path: tables/0045-kapitel-ⅶ-anhang-table-01.md
+- name: Err02
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlercode: Err02
+    Definition: Überstrom
+    Fehlerbehebungsmethoden: Reduzieren Sie die Ausgangsspannung entsprechend und
+      starten Sie dann den Ausgang neu.
+    Symbolbild: '![Err02 7-Segment-Anzeige](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Fehlerbehebungsvorschläge und Fehlererläuterungen
+    table_role: generic
+    table_md_path: tables/0045-kapitel-ⅶ-anhang-table-01.md
+- name: Err03
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlercode: Err03
+    Definition: Überhitzung
+    Fehlerbehebungsmethoden: Installieren Sie den Regler in einer gut belüfteten Umgebung.
+    Symbolbild: '![Err03 7-Segment-Anzeige](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Fehlerbehebungsvorschläge und Fehlererläuterungen
+    table_role: generic
+    table_md_path: tables/0045-kapitel-ⅶ-anhang-table-01.md
+- name: Err04
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlercode: Err04
+    Definition: Über- oder Unterspannung
+    Fehlerbehebungsmethoden: Stellen Sie sicher, dass die Eingangsspannung zwischen
+      AC 85~250Vac liegt.
+    Symbolbild: '![Err04 7-Segment-Anzeige](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-03.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Fehlerbehebungsvorschläge und Fehlererläuterungen
+    table_role: generic
+    table_md_path: tables/0045-kapitel-ⅶ-anhang-table-01.md
+- name: Err05
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlercode: Err05
+    Definition: Interne Kommunikation abnormal
+    Fehlerbehebungsmethoden: Stellen Sie sicher, dass keine externe Stromversorgung
+      am 24V-Stromanschluss angeschlossen ist, oder kontaktieren Sie unseren technischen
+      Support.
+    Symbolbild: '![Err05 7-Segment-Anzeige](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-04.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Fehlerbehebungsvorschläge und Fehlererläuterungen
+    table_role: generic
+    table_md_path: tables/0045-kapitel-ⅶ-anhang-table-01.md
+- name: Err06
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlercode: Err06
+    Definition: Temperatursensor abnormal
+    Fehlerbehebungsmethoden: Stellen Sie sicher, dass die Arbeitstemperatur nicht
+      unter -20℃ liegt, oder kontaktieren Sie unseren technischen Support.
+    Symbolbild: '![Err06 7-Segment-Anzeige](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-05.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Fehlerbehebungsvorschläge und Fehlererläuterungen
+    table_role: generic
+    table_md_path: tables/0045-kapitel-ⅶ-anhang-table-01.md
+- name: Err07
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlercode: Err07
+    Definition: Kurzschlussschutz von Port D
+    Fehlerbehebungsmethoden: Stellen Sie sicher, dass die Last von Port D nicht kurzgeschlossen
+      ist und der Strom 400mA nicht überschreitet, und versuchen Sie dann, den Ausgang
+      von Port D neu zu starten.
+    Symbolbild: '![Err07 7-Segment-Anzeige](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-06.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Fehlerbehebungsvorschläge und Fehlererläuterungen
+    table_role: generic
+    table_md_path: tables/0045-kapitel-ⅶ-anhang-table-01.md
+- name: Err10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlercode: Err10
+    Definition: 24V-Stromausgang abnormal
+    Fehlerbehebungsmethoden: Stellen Sie sicher, dass der 24V-Anschluss nicht kurzgeschlossen
+      ist und der Strom 400mA nicht überschreitet.
+    Symbolbild: '![Err10 7-Segment-Anzeige](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-07.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Fehlerbehebungsvorschläge und Fehlererläuterungen
+    table_role: generic
+    table_md_path: tables/0045-kapitel-ⅶ-anhang-table-01.md
+- name: Err11
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlercode: Err11
+    Definition: 5V-Stromausgang von Port A abnormal
+    Fehlerbehebungsmethoden: Stellen Sie sicher, dass die 5V-Stromversorgung von Port
+      A nicht kurzgeschlossen ist oder keine externe Stromspannung über 5V angeschlossen
+      ist.
+    Symbolbild: '![Err11 7-Segment-Anzeige](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-08.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Fehlerbehebungsvorschläge und Fehlererläuterungen
+    table_role: generic
+    table_md_path: tables/0045-kapitel-ⅶ-anhang-table-01.md

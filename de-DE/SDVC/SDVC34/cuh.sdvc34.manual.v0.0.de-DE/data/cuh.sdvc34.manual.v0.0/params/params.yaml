@@ -1,0 +1,5433 @@
+schema_version: 1
+doc_id: cuh.sdvc34.manual.v0.0.de-DE
+doc_key: cuh.sdvc34.manual.v0.0
+lang: de-DE
+generated_at: '2026-11-18 01:17:58'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 1
+  heading_path: &id009
+  - （文首）
+  table_md_path: tables/0001-文首-table-01.md
+  headers:
+  - col_1
+  - col_2
+- section_index: 10
+  heading_path: &id010
+  - Kapitel I Anweisungen vor dem Gebrauch
+  - 1.5 Erklärung der Anschlussklemmen
+  table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+  headers:
+  - Funktion
+  - Port
+  - Signal
+- section_index: 13
+  heading_path: &id001
+  - Kapitel I Anweisungen vor dem Gebrauch
+  - 2.2 Auswahlhilfe
+  table_md_path: tables/0013-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+  headers:
+  - Controller-Modell
+  - Leistung (VA)
+  - Funktion
+- section_index: 13
+  heading_path: *id001
+  table_md_path: tables/0013-kapitel-i-anweisungen-vor-dem-gebrauch-table-02.md
+  headers:
+  - Funktion
+  - Allgemein
+  - Zählung
+  - RS485
+  - RS485 & Zählung
+- section_index: 17
+  heading_path: &id011
+  - Kapitel Ⅳ Parametereinstellung
+  - 4.1 Allgemeine Parameter
+  table_md_path: tables/0017-kapitel-ⅳ-parametereinstellung-table-01.md
+  headers:
+  - col_1
+  - Definition
+  - Symbol
+  - Symbolbild
+  - Bereich
+  - Standardwert
+- section_index: 18
+  heading_path: &id012
+  - Kapitel Ⅳ Parametereinstellung
+  - 4.2 Grundparameter
+  table_md_path: tables/0018-kapitel-ⅳ-parametereinstellung-table-01.md
+  headers:
+  - col_1
+  - Definition
+  - Symbol
+  - Symbolbild
+  - Bereich
+  - Standardwert
+- section_index: 19
+  heading_path: &id002
+  - Kapitel Ⅳ Parametereinstellung
+  - 4.3 Erweiterte Parameter
+  table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+  headers:
+  - Definition
+  - Symbol
+  - Symbolbild
+  - Bereich
+  - Standardwert
+- section_index: 19
+  heading_path: *id002
+  table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-02.md
+  headers:
+  - Definition
+  - Symbol
+  - Symbolbild
+  - Bereich
+  - Standardwert
+- section_index: 22
+  heading_path: &id013
+  - Kapitel Ⅳ Parametereinstellung
+  - 4.4 Auto-/Sync-Parameter
+  table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+  headers:
+  - Definition
+  - Symbol
+  - Symbolbild
+  - Bereich
+  - Standardwert
+- section_index: 27
+  heading_path: &id014
+  - Kapitel Ⅳ Parametereinstellung
+  - 'Vibrationssensor-Nummer: ├'
+  table_md_path: tables/0027-kapitel-ⅳ-parametereinstellung-table-01.md
+  headers:
+  - Parameterwert
+  - Entsprechendes Modell
+  - Spezifikation<br>Beschleunigung X-Achse/Y-Achse/Z-Achse
+- section_index: 28
+  heading_path: &id003
+  - KapitelⅤ Betriebsart
+  - 5.1 Manueller Modus
+  table_md_path: tables/0028-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 28
+  heading_path: *id003
+  table_md_path: tables/0028-kapitelⅴ-betriebsart-table-02.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 29
+  heading_path: &id015
+  - KapitelⅤ Betriebsart
+  - 5.1.1 Einstellung der Ausgangsspannung im manuellen Modus
+  table_md_path: tables/0029-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 30
+  heading_path: &id016
+  - KapitelⅤ Betriebsart
+  - 5.1.2 Einstellung der Ausgangsfrequenz im manuellen Modus
+  table_md_path: tables/0030-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 31
+  heading_path: &id004
+  - KapitelⅤ Betriebsart
+  - 5.2 Auto-Modus
+  table_md_path: tables/0031-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 31
+  heading_path: *id004
+  table_md_path: tables/0031-kapitelⅴ-betriebsart-table-02.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+- section_index: 32
+  heading_path: &id017
+  - KapitelⅤ Betriebsart
+  - 5.2.1.2 Installationsanleitung des Vibrationssensors
+  table_md_path: tables/0032-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 33
+  heading_path: &id018
+  - KapitelⅤ Betriebsart
+  - 5.2.2 Einstellung der Fördergeschwindigkeit im Auto-Modus
+  table_md_path: tables/0033-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 34
+  heading_path: &id019
+  - KapitelⅤ Betriebsart
+  - 5.2.3 Automatische Frequenzmessung im Auto-Modus
+  table_md_path: tables/0034-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 35
+  heading_path: &id005
+  - KapitelⅤ Betriebsart
+  - 5.3 Halbautomatischer Modus
+  table_md_path: tables/0035-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 35
+  heading_path: *id005
+  table_md_path: tables/0035-kapitelⅴ-betriebsart-table-02.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 36
+  heading_path: &id006
+  - KapitelⅤ Betriebsart
+  - 5.4 Sync-Modus
+  table_md_path: tables/0036-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 36
+  heading_path: *id006
+  table_md_path: tables/0036-kapitelⅴ-betriebsart-table-02.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 37
+  heading_path: &id020
+  - KapitelⅤ Betriebsart
+  - 5.4.1 Anschlussmethode des Sync-Signalkabels
+  table_md_path: tables/0037-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 38
+  heading_path: &id007
+  - KapitelⅤ Betriebsart
+  - 5.4.2 Anwendungen des Sync-Modus
+  table_md_path: tables/0038-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 38
+  heading_path: *id007
+  table_md_path: tables/0038-kapitelⅴ-betriebsart-table-02.md
+  headers:
+  - Controller
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 38
+  heading_path: *id007
+  table_md_path: tables/0038-kapitelⅴ-betriebsart-table-03.md
+  headers:
+  - Controller
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 38
+  heading_path: *id007
+  table_md_path: tables/0038-kapitelⅴ-betriebsart-table-04.md
+  headers:
+  - Controller
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 38
+  heading_path: *id007
+  table_md_path: tables/0038-kapitelⅴ-betriebsart-table-05.md
+  headers:
+  - Controller
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 38
+  heading_path: *id007
+  table_md_path: tables/0038-kapitelⅴ-betriebsart-table-06.md
+  headers:
+  - Controller
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 38
+  heading_path: *id007
+  table_md_path: tables/0038-kapitelⅴ-betriebsart-table-07.md
+  headers:
+  - Controller
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 39
+  heading_path: &id021
+  - KapitelⅤ Betriebsart
+  - 5.5 Zählmodus
+  table_md_path: tables/0039-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 40
+  heading_path: &id022
+  - KapitelⅤ Betriebsart
+  - 5.5.1 Verwendungsmethode
+  table_md_path: tables/0040-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 41
+  heading_path: &id023
+  - KapitelⅤ Betriebsart
+  - 5.5.2 Anschlussmethode
+  table_md_path: tables/0041-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 42
+  heading_path: &id024
+  - KapitelⅤ Betriebsart
+  - 5.5.3 Logikrichtung des Zählpulses
+  table_md_path: tables/0042-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 43
+  heading_path: &id025
+  - KapitelⅤ Betriebsart
+  - 5.5.4 Logikrichtung des Zähl-Reset
+  table_md_path: tables/0043-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 44
+  heading_path: &id026
+  - KapitelⅤ Betriebsart
+  - 5.5.5 Erklärung der Zählparameter
+  table_md_path: tables/0044-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 45
+  heading_path: &id027
+  - KapitelⅤ Betriebsart
+  - 'Geschwindigkeitsprozentsatz der Zählungsenden: u'
+  table_md_path: tables/0045-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 46
+  heading_path: &id028
+  - KapitelⅤ Betriebsart
+  - 'Zähl-Anti-Jitter-Zeit: J'
+  table_md_path: tables/0046-kapitelⅴ-betriebsart-table-01.md
+  headers:
+  - Betriebsart
+  - Ausgangsspannung U — Einstellmethode
+  - Ausgangsspannung U — Γ5-Einstellung
+  - Ausgangsfrequenz E — Einstellmethode
+  - Ausgangsfrequenz E — Γ6-Einstellung
+  - Symbolbild
+- section_index: 61
+  heading_path: &id029
+  - Kapitel Ⅵ Signalsteuerung
+  - Anschlussmethode der SPS für die Fernsteuerung der Geschwindigkeit
+  table_md_path: tables/0061-kapitel-ⅵ-signalsteuerung-table-01.md
+  headers:
+  - Signal der Fernsteuerung der Geschwindigkeit
+  - Ausgangsspannung U/Fördergeschwindigkeit A
+- section_index: 65
+  heading_path: &id030
+  - Kapitel Ⅵ Signalsteuerung
+  - 6.6 Speichern und Ausgeben voreingestellter Geschwindigkeiten
+  table_md_path: tables/0065-kapitel-ⅵ-signalsteuerung-table-01.md
+  headers:
+  - Voreingestellte Geschwindigkeit
+  - G1- & G2-Ports — Speed A-Anzeige
+  - G1- & G2-Ports — Schalter 1
+  - G3- & G4-Ports — Speed B-Anzeige
+  - G3- & G4-Ports — Schalter 2
+- section_index: 69
+  heading_path: &id031
+  - Kapitel Ⅶ Sicherheitsfunktionen
+  - Kapitel Ⅷ Anhang
+  table_md_path: tables/0069-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+  headers:
+  - Abmessungsbereich
+  - Toleranz
+- section_index: 75
+  heading_path: &id032
+  - Kapitel Ⅶ Sicherheitsfunktionen
+  - 8.3 Technische Spezifikationen
+  table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+  headers:
+  - Element
+  - Min
+  - Typisch
+  - Max
+  - Einheit
+  - Hinweis
+- section_index: 76
+  heading_path: &id008
+  - Kapitel Ⅶ Sicherheitsfunktionen
+  - 8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen
+  table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+  headers:
+  - Fehlerphänomen
+  - Vorschläge zur Fehlerbehebung
+  - Symbolbild
+- section_index: 76
+  heading_path: *id008
+  table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-02.md
+  headers:
+  - Fehlerphänomen
+  - Symbolbild
+  - Vorschläge zur Fehlerbehebung
+items:
+- name: ⚠ Gefahr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Gefahr
+    col_2: Die Nichtbeachtung dieses Punktes führt zu Personenschäden oder zum Tod.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id009
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ⚠ Warnung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Warnung
+    col_2: Die Nichtbeachtung dieses Punktes kann zu Personenschäden oder zum Tod
+      führen.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id009
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ⚠ Vorsicht
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Vorsicht
+    col_2: Die Nichtbeachtung dieses Punktes kann zu leichten oder mittelschweren
+      Personenschäden führen.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id009
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Hinweis
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Hinweis
+    col_2: Die Nichtbeachtung dieses Punktes führt zu Produkt- und Sachschäden.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id009
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ❗ Zwingend
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ❗ Zwingend
+    col_2: Zeigt Vorsichtsmaßnahmen und Nutzungsbeschränkungen an, die während der
+      Verwendung unbedingt beachtet werden müssen.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id009
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Speed Ctrl
+    Port: A1
+    Signal: RGND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Speed Ctrl
+    Port: A2
+    Signal: Input
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Speed Ctrl
+    Port: A3
+    Signal: +5V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Speed Ctrl
+    Port: A4
+    Signal: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Sensor
+    Port: C1
+    Signal: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Sensor
+    Port: C2
+    Signal: Input
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Sensor
+    Port: C3
+    Signal: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Ctrl Out
+    Port: D1
+    Signal: Output
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Ctrl Out
+    Port: D2
+    Signal: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Sensor Ⅱ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Sensor Ⅱ
+    Port: E1
+    Signal: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Sensor Ⅱ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Sensor Ⅱ
+    Port: E2
+    Signal: Input
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Sensor Ⅱ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Sensor Ⅱ
+    Port: E3
+    Signal: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: RS 485
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: RS 485
+    Port: F2
+    Signal: A+
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: RS 485
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: RS 485
+    Port: F3
+    Signal: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: RS 485
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: RS 485
+    Port: F4
+    Signal: B-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Preset
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Preset
+    Port: G1
+    Signal: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Preset
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Preset
+    Port: G2
+    Signal: PSet A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Preset
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Preset
+    Port: G4
+    Signal: Pset B
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Preset
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Preset
+    Port: G5
+    Signal: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Sync
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Sync
+    Port: H1
+    Signal: Sync In-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Sync
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Sync
+    Port: H2
+    Signal: Sync In+
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Sync
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Sync
+    Port: H3
+    Signal: Sync Out-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: Sync
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Sync
+    Port: H4
+    Signal: Sync Out+
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Erklärung der Anschlussklemmen
+    table_role: generic
+    table_md_path: tables/0010-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: SDVC34-MR
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller-Modell: SDVC34-MR
+    Leistung (VA): '660'
+    Funktion: RS485
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Auswahlhilfe
+    table_role: generic
+    table_md_path: tables/0013-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: SDVC34-MRJ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller-Modell: SDVC34-MRJ
+    Leistung (VA): '660'
+    Funktion: RS485 & Zählung
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Auswahlhilfe
+    table_role: generic
+    table_md_path: tables/0013-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: SDVC34-XLR
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller-Modell: SDVC34-XLR
+    Leistung (VA): '1320'
+    Funktion: RS485
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Auswahlhilfe
+    table_role: generic
+    table_md_path: tables/0013-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: SDVC34-XLRJ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller-Modell: SDVC34-XLRJ
+    Leistung (VA): '1320'
+    Funktion: RS485 & Zählung
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Auswahlhilfe
+    table_role: generic
+    table_md_path: tables/0013-kapitel-i-anweisungen-vor-dem-gebrauch-table-01.md
+- name: EIN/AUS-Steuerung der C-Ports
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: EIN/AUS-Steuerung der C-Ports
+    Allgemein: √
+    Zählung: √
+    RS485: √
+    RS485 & Zählung: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Auswahlhilfe
+    table_role: generic
+    table_md_path: tables/0013-kapitel-i-anweisungen-vor-dem-gebrauch-table-02.md
+- name: Fernsteuerung der Geschwindigkeit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Fernsteuerung der Geschwindigkeit
+    Allgemein: √
+    Zählung: √
+    RS485: √
+    RS485 & Zählung: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Auswahlhilfe
+    table_role: generic
+    table_md_path: tables/0013-kapitel-i-anweisungen-vor-dem-gebrauch-table-02.md
+- name: Steuerausgang
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Steuerausgang
+    Allgemein: √
+    Zählung: √
+    RS485: √
+    RS485 & Zählung: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Auswahlhilfe
+    table_role: generic
+    table_md_path: tables/0013-kapitel-i-anweisungen-vor-dem-gebrauch-table-02.md
+- name: Voreingestellte Geschwindigkeiten
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Voreingestellte Geschwindigkeiten
+    Allgemein: √
+    RS485: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Auswahlhilfe
+    table_role: generic
+    table_md_path: tables/0013-kapitel-i-anweisungen-vor-dem-gebrauch-table-02.md
+- name: Zählung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Zählung
+    Zählung: √
+    RS485 & Zählung: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Auswahlhilfe
+    table_role: generic
+    table_md_path: tables/0013-kapitel-i-anweisungen-vor-dem-gebrauch-table-02.md
+- name: EIN/AUS-Steuerung der E-Ports
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: EIN/AUS-Steuerung der E-Ports
+    RS485: √
+    RS485 & Zählung: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Auswahlhilfe
+    table_role: generic
+    table_md_path: tables/0013-kapitel-i-anweisungen-vor-dem-gebrauch-table-02.md
+- name: Synchronisation
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Synchronisation
+    RS485: √
+    RS485 & Zählung: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Auswahlhilfe
+    table_role: generic
+    table_md_path: tables/0013-kapitel-i-anweisungen-vor-dem-gebrauch-table-02.md
+- name: RS 485
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: RS 485
+    RS485: √
+    RS485 & Zählung: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Auswahlhilfe
+    table_role: generic
+    table_md_path: tables/0013-kapitel-i-anweisungen-vor-dem-gebrauch-table-02.md
+- name: Vibrationssensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Funktion: Vibrationssensor
+    Allgemein: √
+    Zählung: √
+    RS485: √
+    RS485 & Zählung: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Auswahlhilfe
+    table_role: generic
+    table_md_path: tables/0013-kapitel-i-anweisungen-vor-dem-gebrauch-table-02.md
+- name: Allgemeine Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Allgemeine Parameter
+    Definition: Ausgangsspannung
+    Symbol: U
+    Symbolbild: '![Segmentanzeige-Symbol U für Ausgangsspannung](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-01.png)'
+    Bereich: 0~250 (V)
+    Standardwert: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id011
+    heading_title: 4.1 Allgemeine Parameter
+    table_role: generic
+    table_md_path: tables/0017-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Allgemeine Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Allgemeine Parameter
+    Definition: Fördergeschwindigkeit
+    Symbol: A
+    Symbolbild: '![Segmentanzeige-Symbol A für Fördergeschwindigkeit](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-02.png)'
+    Bereich: 0~3200
+    Standardwert: '200'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id011
+    heading_title: 4.1 Allgemeine Parameter
+    table_role: generic
+    table_md_path: tables/0017-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Allgemeine Parameter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Allgemeine Parameter
+    Definition: Tastatursperre
+    Symbol: a
+    Symbolbild: '![Segmentanzeige-Symbol für Tastatursperre](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-03.png)'
+    Bereich: ——
+    Standardwert: Aktueller Spannungswert/<br>Aktuelle Fördergeschwindigkeit
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id011
+    heading_title: 4.1 Allgemeine Parameter
+    table_role: generic
+    table_md_path: tables/0017-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Grundparameter<br>Langes Drücken von `FUNC`
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Grundparameter<br>Langes Drücken von `FUNC`
+    Definition: Ausgangsfrequenz
+    Symbol: E
+    Symbolbild: '![Segmentanzeige-Symbol E für Ausgangsfrequenz](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-05.png)'
+    Bereich: 25.0~400.0 (Hz)
+    Standardwert: '50.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 18
+    heading_path: *id012
+    heading_title: 4.2 Grundparameter
+    table_role: generic
+    table_md_path: tables/0018-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Grundparameter<br>Langes Drücken von `FUNC`
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Grundparameter<br>Langes Drücken von `FUNC`
+    Definition: EIN-Verzögerung der C-Ports
+    Symbol: J
+    Symbolbild: '![Segmentanzeige-Symbol J für EIN-Verzögerung der C-Ports](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-06.png)'
+    Bereich: 0.0~99.9 (s)
+    Standardwert: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 18
+    heading_path: *id012
+    heading_title: 4.2 Grundparameter
+    table_role: generic
+    table_md_path: tables/0018-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Grundparameter<br>Langes Drücken von `FUNC`
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Grundparameter<br>Langes Drücken von `FUNC`
+    Definition: AUS-Verzögerung der C-Ports
+    Symbol: L
+    Symbolbild: '![Segmentanzeige-Symbol L für AUS-Verzögerung der C-Ports](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-07.png)'
+    Bereich: 0.0~99.9 (s)
+    Standardwert: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 18
+    heading_path: *id012
+    heading_title: 4.2 Grundparameter
+    table_role: generic
+    table_md_path: tables/0018-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Grundparameter<br>Langes Drücken von `FUNC`
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Grundparameter<br>Langes Drücken von `FUNC`
+    Definition: Sanftanlaufzeit
+    Symbol: t
+    Symbolbild: '![Segmentanzeige-Symbol t für Sanftanlaufzeit](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-08.png)'
+    Bereich: 0.0~10.0 (s)
+    Standardwert: '0.5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 18
+    heading_path: *id012
+    heading_title: 4.2 Grundparameter
+    table_role: generic
+    table_md_path: tables/0018-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Grundparameter<br>Langes Drücken von `FUNC`
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Grundparameter<br>Langes Drücken von `FUNC`
+    Definition: Maximales Zähllimit<br>(Controller mit Zählfunktion, Suffix J)
+    Symbol: '3'
+    Symbolbild: '![Segmentanzeige-Symbol 3 für maximales Zähllimit](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-09.png)'
+    Bereich: 0~9999
+    Standardwert: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 18
+    heading_path: *id012
+    heading_title: 4.2 Grundparameter
+    table_role: generic
+    table_md_path: tables/0018-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: EIN-Verzögerung des E-Ports
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: EIN-Verzögerung des E-Ports
+    Symbol: J-
+    Symbolbild: '![EIN-Verzögerung des E-Ports：Segmentanzeige-Symbol, Bereich und
+      Standardwert](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-01.png)'
+    Bereich: 0.0~99.9 (s)
+    Standardwert: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: AUS-Verzögerung des E-Ports
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: AUS-Verzögerung des E-Ports
+    Symbol: L-
+    Symbolbild: '![AUS-Verzögerung des E-Ports：Segmentanzeige-Symbol, Bereich und
+      Standardwert](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-02.png)'
+    Bereich: 0.0~99.9 (s)
+    Standardwert: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: EIN-Verzögerung des D-Ports
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: EIN-Verzögerung des D-Ports
+    Symbol: Jd
+    Symbolbild: '![EIN-Verzögerung des D-Ports：Segmentanzeige-Symbol, Bereich und
+      Standardwert](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-03.png)'
+    Bereich: 0.0~99.9 (s)
+    Standardwert: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: AUS-Verzögerung des D-Ports
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: AUS-Verzögerung des D-Ports
+    Symbol: Ld
+    Symbolbild: '![AUS-Verzögerung des D-Ports：Segmentanzeige-Symbol, Bereich und
+      Standardwert](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-04.png)'
+    Bereich: 0.0~99.9 (s)
+    Standardwert: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Typ des D-Ports
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Typ des D-Ports
+    Symbol: rd
+    Symbolbild: '![Typ des D-Ports：Segmentanzeige-Symbol, Bereich und Standardwert](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-05.png)'
+    Bereich: nPn, PnP, PSP (Gegentakt)
+    Standardwert: nPn
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Logische Verknüpfung des C-Ports
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Logische Verknüpfung des C-Ports
+    Symbol: F2
+    Symbolbild: '![Logische Verknüpfung des C-Ports：Parametersymbol und Anzeigesymbole
+      für positive/negative Logik](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-06.png)'
+    Bereich: Positive Logik, Negative Logik
+    Standardwert: Positive Logik
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Logische Verknüpfung des E-Ports
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Logische Verknüpfung des E-Ports
+    Symbol: F1
+    Symbolbild: '![Logische Verknüpfung des E-Ports：Parametersymbol und Anzeigesymbole
+      für positive/negative Logik](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-07.png)'
+    Bereich: Positive Logik, Negative Logik
+    Standardwert: Positive Logik
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Logische Verknüpfung des Steuerausgangs
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Logische Verknüpfung des Steuerausgangs
+    Symbol: F3
+    Symbolbild: '![Logische Verknüpfung des Steuerausgangs：Parametersymbol, Logikoptionen
+      und Standardanzeige](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-08.png)'
+    Bereich: Positive Logik, Negative Logik,<br>Steuerung durch Alarmsignal
+    Standardwert: Positive Logik
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Logikoperation des Hauptausgangs
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Logikoperation des Hauptausgangs
+    Symbol: F4
+    Symbolbild: '![Logikoperation des Hauptausgangs：Parametersymbol, vier Logikoptionen
+      und Standardanzeige](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-09.png)'
+    Bereich: Positive Logik, Negative Logik,<br>Hauptausgang wird von Port C gesteuert,
+      Port D wird von Port E gesteuert<br>Hauptausgang wird von Port E gesteuert,
+      Port D wird von Port C gesteuert
+    Standardwert: Positive Logik
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Logikoperation des Steuerausgangs
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Logikoperation des Steuerausgangs
+    Symbol: F8
+    Symbolbild: '![Logikoperation des Steuerausgangs：Parametersymbol, Logikoptionen
+      und Standardanzeige](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-10.png)'
+    Bereich: Hauptlogik, Zweite Logikgruppe
+    Standardwert: Hauptlogik
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Schaltsensor-Typ<br>(Controller mit RS485-Funktion, Suffix R)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Schaltsensor-Typ<br>(Controller mit RS485-Funktion, Suffix R)
+    Symbol: FA
+    Symbolbild: '![Schaltsensor-Typ (Suffix R)：Segmentanzeige-Symbol, Bereich und
+      Standardwert](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-11.png)'
+    Bereich: Uto, nPn, PnP
+    Standardwert: Uto
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Schaltsensor-Typ<br>(Controller mit Zählfunktion, Suffix J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Schaltsensor-Typ<br>(Controller mit Zählfunktion, Suffix J)
+    Symbol: FA
+    Symbolbild: '![Schaltsensor-Typ (Suffix J)：Segmentanzeige-Symbol, Bereich und
+      Standardwert](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-12.png)'
+    Bereich: nPn, PnP
+    Standardwert: nPn
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Logische Verknüpfung von Port C und E
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Logische Verknüpfung von Port C und E
+    Symbol: ∩
+    Symbolbild: '![Logische Verknüpfung von Port C und E：Parametersymbol, And/or/Xor-Grafiken
+      und Standardanzeige](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-13.png)'
+    Bereich: And, or, Xor
+    Standardwert: And
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Logikrichtung des Zählpulses<br>(Controller mit Zählfunktion, Suffix J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Logikrichtung des Zählpulses<br>(Controller mit Zählfunktion, Suffix
+      J)
+    Symbol: Fb
+    Symbolbild: '![Logikrichtung des Zählpulses：Parametersymbol, fallende und steigende
+      Flanke und Standardanzeige](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-14.png)'
+    Bereich: Fallende Flanke, Steigende Flanke
+    Standardwert: Fallende Flanke
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Logikrichtung des Zähl-Reset<br>(Controller mit Zählfunktion, Suffix J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Logikrichtung des Zähl-Reset<br>(Controller mit Zählfunktion, Suffix
+      J)
+    Symbol: FC
+    Symbolbild: '![Logikrichtung des Zähl-Reset：Parametersymbol, fallende und steigende
+      Flanke und Standardanzeige](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-15.png)'
+    Bereich: Fallende Flanke, Steigende Flanke
+    Standardwert: Fallende Flanke
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Geschwindigkeitsprozentsatz am Zählende<br>(Controller mit Zählfunktion, Suffix
+    J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Geschwindigkeitsprozentsatz am Zählende<br>(Controller mit Zählfunktion,
+      Suffix J)
+    Symbol: u
+    Symbolbild: '![Geschwindigkeitsprozentsatz am Zählende：Segmentanzeige-Symbol,
+      Bereich und Standardwert](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-16.png)'
+    Bereich: 0~100
+    Standardwert: '30'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Anzahl der Zählenden<br>(Controller mit Zählfunktion, Suffix J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Anzahl der Zählenden<br>(Controller mit Zählfunktion, Suffix J)
+    Symbol: n
+    Symbolbild: '![Anzahl der Zählenden：Segmentanzeige-Symbol, Bereich und Standardwert](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-17.png)'
+    Bereich: 0~255
+    Standardwert: '3'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Zähl-Anti-Jitter-Zeit<br>(Controller mit Zählfunktion, Suffix J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Zähl-Anti-Jitter-Zeit<br>(Controller mit Zählfunktion, Suffix J)
+    Symbol: U
+    Symbolbild: '![Zähl-Anti-Jitter-Zeit：Segmentanzeige-Symbol, Bereich und Standardwert](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-18.png)'
+    Bereich: 0.001~2.000 (s)
+    Standardwert: '0.010'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Maximal einstellbare Ausgangsspannung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Maximal einstellbare Ausgangsspannung
+    Symbol: h
+    Symbolbild: '![Segmentanzeige-Symbol für maximal einstellbare Ausgangsspannung](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-00.png)'
+    Bereich: 0~250 (V)
+    Standardwert: '250'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-02.md
+- name: Untere Grenze der Ausgangsfrequenz
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Untere Grenze der Ausgangsfrequenz
+    Symbol: e
+    Symbolbild: '![Segmentanzeige-Symbol für untere Grenze der Ausgangsfrequenz](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-01.png)'
+    Bereich: 25.0~390.0 (Hz)
+    Standardwert: '40.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-02.md
+- name: Beschleunigungsindex
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Beschleunigungsindex
+    Symbol: y
+    Symbolbild: '![Segmentanzeige-Symbol für Beschleunigungsindex](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-02.png)'
+    Bereich: 100~150 %
+    Standardwert: '120'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-02.md
+- name: Wellenformindex
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Wellenformindex
+    Symbol: r
+    Symbolbild: '![Segmentanzeige-Symbol für Wellenformindex](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-03.png)'
+    Bereich: 0~100
+    Standardwert: '100'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-02.md
+- name: Temperaturanzeige
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Temperaturanzeige
+    Symbol: C
+    Symbolbild: '![Segmentanzeige-Symbol für Temperaturanzeige](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-04.png)'
+    Bereich: -10.0~80.0 (°C)
+    Standardwert: Aktuelle Temperatur
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-02.md
+- name: Kommunikationsprotokoll
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Kommunikationsprotokoll
+    Symbol: P
+    Symbolbild: '![Segmentanzeige-Symbol für Kommunikationsprotokoll](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-05.png)'
+    Bereich: ASC, rtu
+    Standardwert: rtu
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-02.md
+- name: Kommunikationsadresse
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Kommunikationsadresse
+    Symbol: Siehe Symbolbild
+    Symbolbild: '![Segmentanzeige-Symbol für Kommunikationsadresse](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-06.png)'
+    Bereich: 1~31
+    Standardwert: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-02.md
+- name: Kommunikations-Baudrate
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Kommunikations-Baudrate
+    Symbol: d
+    Symbolbild: '![Segmentanzeige-Symbol für Kommunikations-Baudrate](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-07.png)'
+    Bereich: 0.3~115.2 kbps
+    Standardwert: '9.6'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-02.md
+- name: Parametersperr-Passwort
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Parametersperr-Passwort
+    Symbol: q-
+    Symbolbild: '![Segmentanzeige-Symbol für Parametersperr-Passwort](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-08.png)'
+    Bereich: 0~999
+    Standardwert: '- - -'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-02.md
+- name: Einschaltstatus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Einschaltstatus
+    Symbol: rd
+    Symbolbild: '![Segmentanzeige-Symbol für Einschaltstatus](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-09.png)'
+    Bereich: Run, Stop, Follow before power off<br>![Einschaltstatus：Segmentanzeige-Grafiken
+      für Run, Stop und Follow before power off](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-13.png)
+    Standardwert: '- - -<br>![Die drei unteren Querstriche des Standardwerts für den
+      Einschaltstatus](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-14.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-02.md
+- name: Softwareversion
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Softwareversion
+    Symbol: Ur
+    Symbolbild: '![Segmentanzeige-Symbol für Softwareversion](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-10.png)'
+    Bereich: ——
+    Standardwert: Aktuelle Version
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-02.md
+- name: Automatische Rücksetzzeit nach Zählerabschluss<br>(Controller mit Zählfunktion,
+    Suffix J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Automatische Rücksetzzeit nach Zählerabschluss<br>(Controller mit
+      Zählfunktion, Suffix J)
+    Symbol: rE
+    Symbolbild: '![Segmentanzeige-Symbol für automatische Rücksetzzeit nach Zählerabschluss](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-11.png)'
+    Bereich: 0.0~99.9 (s)
+    Standardwert: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-02.md
+- name: Controller-Reset
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Controller-Reset
+    Symbol: 8.8.8.8.8.
+    Symbolbild: '![Vollständig beleuchtetes Segmentanzeige-Symbol für Controller-Reset](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-12.png)'
+    Bereich: ——
+    Standardwert: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Erweiterte Parameter
+    table_role: generic
+    table_md_path: tables/0019-kapitel-ⅳ-parametereinstellung-table-02.md
+- name: Mittelfrequenz
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Mittelfrequenz
+    Symbol: F
+    Symbolbild: '![Segmentanzeige-Symbol für Mittelfrequenz](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-01.png)'
+    Bereich: 25.0~400.0 (Hz)
+    Standardwert: '100.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Maximaler Offset bei Auto-FM
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Maximaler Offset bei Auto-FM
+    Symbol: n
+    Symbolbild: '![Segmentanzeige-Symbol für maximalen Offset bei Auto-FM](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-02.png)'
+    Bereich: 0.0~180.0 (Hz)
+    Standardwert: '30.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Ausgangsspannungs-Einstellmethode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Ausgangsspannungs-Einstellmethode
+    Symbol: FS
+    Symbolbild: '![Segmentanzeige-Symbol für Ausgangsspannungs-Einstellmethode](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-03.png)'
+    Bereich: Auto, Manual（entsprechende Symbole siehe Abbildung） ![Anzeigesymbole
+      für die Ausgangsspannungs-Einstellmethoden Auto und Manual](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-19.png)
+    Standardwert: '- - -'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Ausgangsfrequenz-Einstellmethode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Ausgangsfrequenz-Einstellmethode
+    Symbol: FG
+    Symbolbild: '![Segmentanzeige-Symbol für Ausgangsfrequenz-Einstellmethode](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-04.png)'
+    Bereich: Auto, Manual, Sync（entsprechende Symbole siehe Abbildung） ![Anzeigesymbole
+      für die Ausgangsfrequenz-Einstellmethoden Auto, Manual und Sync](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-20.png)
+    Standardwert: '- - -'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Ausgangsfrequenz-Auto-Einstellindex
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Ausgangsfrequenz-Auto-Einstellindex
+    Symbol: iF
+    Symbolbild: '![Segmentanzeige-Symbol für Ausgangsfrequenz-Auto-Einstellindex](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-05.png)'
+    Bereich: 0~200
+    Standardwert: '20'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Amplituden-Auto-Einstellindex
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Amplituden-Auto-Einstellindex
+    Symbol: PA
+    Symbolbild: '![Amplituden-Auto-Einstellindex, Standardwert 60, Segmentanzeige-Symbol](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-06.png)'
+    Bereich: 0~999
+    Standardwert: '60'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Amplituden-Auto-Einstellindex
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Amplituden-Auto-Einstellindex
+    Symbol: iA
+    Symbolbild: '![Amplituden-Auto-Einstellindex, Standardwert 50, Segmentanzeige-Symbol](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-07.png)'
+    Bereich: 0~999
+    Standardwert: '50'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Fördergeschwindigkeitsanzeige
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Fördergeschwindigkeitsanzeige
+    Symbol: U
+    Symbolbild: '![Segmentanzeige-Symbol für Fördergeschwindigkeitsanzeige](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-08.png)'
+    Bereich: 0~H
+    Standardwert: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Ausgangsspannungsanzeige
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Ausgangsspannungsanzeige
+    Symbol: G
+    Symbolbild: '![Segmentanzeige-Symbol für Ausgangsspannungsanzeige](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-09.png)'
+    Bereich: 0~h (V)
+    Standardwert: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Untere Spannungsgrenze
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Untere Spannungsgrenze
+    Symbol: GL
+    Symbolbild: '![Segmentanzeige-Symbol für untere Spannungsgrenze](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-10.png)'
+    Bereich: 0~250 (V)
+    Standardwert: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Untere Frequenzgrenze
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Untere Frequenzgrenze
+    Symbol: e
+    Symbolbild: '![Segmentanzeige-Symbol für untere Frequenzgrenze](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-11.png)'
+    Bereich: 25.0~400.0 (Hz)
+    Standardwert: '40.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Maximaler Amplitudenindex
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Maximaler Amplitudenindex
+    Symbol: P
+    Symbolbild: '![Segmentanzeige-Symbol für maximalen Amplitudenindex](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-12.png)'
+    Bereich: 0~500
+    Standardwert: '500'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Maximal einstellbare Fördergeschwindigkeit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Maximal einstellbare Fördergeschwindigkeit
+    Symbol: H
+    Symbolbild: '![Segmentanzeige-Symbol für maximal einstellbare Fördergeschwindigkeit](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-13.png)'
+    Bereich: 0~3200
+    Standardwert: '1500'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Phasendifferenz
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Phasendifferenz
+    Symbol: Y
+    Symbolbild: '![Segmentanzeige-Symbol für Phasendifferenz](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-14.png)'
+    Bereich: -180~180 °
+    Standardwert: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Maximale Ausgangsspannung beim automatischen Frequenzmessprozess
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Maximale Ausgangsspannung beim automatischen Frequenzmessprozess
+    Symbol: b
+    Symbolbild: '![Segmentanzeige-Symbol für maximale Ausgangsspannung beim automatischen
+      Frequenzmessprozess](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-15.png)'
+    Bereich: 0~250 (V)
+    Standardwert: '100'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Frequenzsuchgeschwindigkeit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Frequenzsuchgeschwindigkeit
+    Symbol: SP
+    Symbolbild: '![Segmentanzeige-Symbol für Frequenzsuchgeschwindigkeit](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-16.png)'
+    Bereich: 1~7
+    Standardwert: '5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Minimale Einstellstufe der Fördergeschwindigkeit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Minimale Einstellstufe der Fördergeschwindigkeit
+    Symbol: c
+    Symbolbild: '![Segmentanzeige-Symbol für minimale Einstellstufe der Fördergeschwindigkeit](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-17.png)'
+    Bereich: 1~10
+    Standardwert: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Vibrationssensor-Nummer
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definition: Vibrationssensor-Nummer
+    Symbol: t
+    Symbolbild: '![Segmentanzeige-Symbol für Vibrationssensor-Nummer](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-18.png)'
+    Bereich: 0, 1, 2, 3, 4, 203, 204, 205, 206
+    Standardwert: '205'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Auto-/Sync-Parameter
+    table_role: generic
+    table_md_path: tables/0022-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: '1'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameterwert: '1'
+    Entsprechendes Modell: SDVS20-1
+    Spezifikation<br>Beschleunigung X-Achse/Y-Achse/Z-Achse: 16g/16g/16g
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id014
+    heading_title: 'Vibrationssensor-Nummer: ├'
+    table_role: generic
+    table_md_path: tables/0027-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: '2'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameterwert: '2'
+    Entsprechendes Modell: SDVS20-2
+    Spezifikation<br>Beschleunigung X-Achse/Y-Achse/Z-Achse: 35g/35g/——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id014
+    heading_title: 'Vibrationssensor-Nummer: ├'
+    table_role: generic
+    table_md_path: tables/0027-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: '3'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameterwert: '3'
+    Entsprechendes Modell: SDVS20-3
+    Spezifikation<br>Beschleunigung X-Achse/Y-Achse/Z-Achse: 50g/50g/——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id014
+    heading_title: 'Vibrationssensor-Nummer: ├'
+    table_role: generic
+    table_md_path: tables/0027-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: '4'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameterwert: '4'
+    Entsprechendes Modell: SDVS20-4
+    Spezifikation<br>Beschleunigung X-Achse/Y-Achse/Z-Achse: 70g/70g/——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id014
+    heading_title: 'Vibrationssensor-Nummer: ├'
+    table_role: generic
+    table_md_path: tables/0027-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: '203'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameterwert: '203'
+    Entsprechendes Modell: SDVS203
+    Spezifikation<br>Beschleunigung X-Achse/Y-Achse/Z-Achse: 8g/8g/8g
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id014
+    heading_title: 'Vibrationssensor-Nummer: ├'
+    table_role: generic
+    table_md_path: tables/0027-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: '204'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameterwert: '204'
+    Entsprechendes Modell: SDVS204
+    Spezifikation<br>Beschleunigung X-Achse/Y-Achse/Z-Achse: 16g/16g/16g
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id014
+    heading_title: 'Vibrationssensor-Nummer: ├'
+    table_role: generic
+    table_md_path: tables/0027-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: '205'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameterwert: '205'
+    Entsprechendes Modell: SDVS205
+    Spezifikation<br>Beschleunigung X-Achse/Y-Achse/Z-Achse: 32g/32g/32g
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id014
+    heading_title: 'Vibrationssensor-Nummer: ├'
+    table_role: generic
+    table_md_path: tables/0027-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: '206'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Parameterwert: '206'
+    Entsprechendes Modell: SDVS206
+    Spezifikation<br>Beschleunigung X-Achse/Y-Achse/Z-Achse: 64g/64g/64g
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id014
+    heading_title: 'Vibrationssensor-Nummer: ├'
+    table_role: generic
+    table_md_path: tables/0027-kapitel-ⅳ-parametereinstellung-table-01.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id003
+    heading_title: 5.1 Manueller Modus
+    table_role: generic
+    table_md_path: tables/0028-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id003
+    heading_title: 5.1 Manueller Modus
+    table_role: generic
+    table_md_path: tables/0028-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id003
+    heading_title: 5.1 Manueller Modus
+    table_role: generic
+    table_md_path: tables/0028-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id003
+    heading_title: 5.1 Manueller Modus
+    table_role: generic
+    table_md_path: tables/0028-kapitelⅴ-betriebsart-table-01.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus in der Tabelle 5.1](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-03.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id003
+    heading_title: 5.1 Manueller Modus
+    table_role: generic
+    table_md_path: tables/0028-kapitelⅴ-betriebsart-table-02.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 29
+    heading_path: *id015
+    heading_title: 5.1.1 Einstellung der Ausgangsspannung im manuellen Modus
+    table_role: generic
+    table_md_path: tables/0029-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 29
+    heading_path: *id015
+    heading_title: 5.1.1 Einstellung der Ausgangsspannung im manuellen Modus
+    table_role: generic
+    table_md_path: tables/0029-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 29
+    heading_path: *id015
+    heading_title: 5.1.1 Einstellung der Ausgangsspannung im manuellen Modus
+    table_role: generic
+    table_md_path: tables/0029-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 29
+    heading_path: *id015
+    heading_title: 5.1.1 Einstellung der Ausgangsspannung im manuellen Modus
+    table_role: generic
+    table_md_path: tables/0029-kapitelⅴ-betriebsart-table-01.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 30
+    heading_path: *id016
+    heading_title: 5.1.2 Einstellung der Ausgangsfrequenz im manuellen Modus
+    table_role: generic
+    table_md_path: tables/0030-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 30
+    heading_path: *id016
+    heading_title: 5.1.2 Einstellung der Ausgangsfrequenz im manuellen Modus
+    table_role: generic
+    table_md_path: tables/0030-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 30
+    heading_path: *id016
+    heading_title: 5.1.2 Einstellung der Ausgangsfrequenz im manuellen Modus
+    table_role: generic
+    table_md_path: tables/0030-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 30
+    heading_path: *id016
+    heading_title: 5.1.2 Einstellung der Ausgangsfrequenz im manuellen Modus
+    table_role: generic
+    table_md_path: tables/0030-kapitelⅴ-betriebsart-table-01.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id004
+    heading_title: 5.2 Auto-Modus
+    table_role: generic
+    table_md_path: tables/0031-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id004
+    heading_title: 5.2 Auto-Modus
+    table_role: generic
+    table_md_path: tables/0031-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id004
+    heading_title: 5.2 Auto-Modus
+    table_role: generic
+    table_md_path: tables/0031-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id004
+    heading_title: 5.2 Auto-Modus
+    table_role: generic
+    table_md_path: tables/0031-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '- - -'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '- - -'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id004
+    heading_title: 5.2 Auto-Modus
+    table_role: generic
+    table_md_path: tables/0031-kapitelⅴ-betriebsart-table-02.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id017
+    heading_title: 5.2.1.2 Installationsanleitung des Vibrationssensors
+    table_role: generic
+    table_md_path: tables/0032-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id017
+    heading_title: 5.2.1.2 Installationsanleitung des Vibrationssensors
+    table_role: generic
+    table_md_path: tables/0032-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id017
+    heading_title: 5.2.1.2 Installationsanleitung des Vibrationssensors
+    table_role: generic
+    table_md_path: tables/0032-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id017
+    heading_title: 5.2.1.2 Installationsanleitung des Vibrationssensors
+    table_role: generic
+    table_md_path: tables/0032-kapitelⅴ-betriebsart-table-01.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id018
+    heading_title: 5.2.2 Einstellung der Fördergeschwindigkeit im Auto-Modus
+    table_role: generic
+    table_md_path: tables/0033-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id018
+    heading_title: 5.2.2 Einstellung der Fördergeschwindigkeit im Auto-Modus
+    table_role: generic
+    table_md_path: tables/0033-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id018
+    heading_title: 5.2.2 Einstellung der Fördergeschwindigkeit im Auto-Modus
+    table_role: generic
+    table_md_path: tables/0033-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id018
+    heading_title: 5.2.2 Einstellung der Fördergeschwindigkeit im Auto-Modus
+    table_role: generic
+    table_md_path: tables/0033-kapitelⅴ-betriebsart-table-01.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 34
+    heading_path: *id019
+    heading_title: 5.2.3 Automatische Frequenzmessung im Auto-Modus
+    table_role: generic
+    table_md_path: tables/0034-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 34
+    heading_path: *id019
+    heading_title: 5.2.3 Automatische Frequenzmessung im Auto-Modus
+    table_role: generic
+    table_md_path: tables/0034-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 34
+    heading_path: *id019
+    heading_title: 5.2.3 Automatische Frequenzmessung im Auto-Modus
+    table_role: generic
+    table_md_path: tables/0034-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 34
+    heading_path: *id019
+    heading_title: 5.2.3 Automatische Frequenzmessung im Auto-Modus
+    table_role: generic
+    table_md_path: tables/0034-kapitelⅴ-betriebsart-table-01.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.3 Halbautomatischer Modus
+    table_role: generic
+    table_md_path: tables/0035-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.3 Halbautomatischer Modus
+    table_role: generic
+    table_md_path: tables/0035-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.3 Halbautomatischer Modus
+    table_role: generic
+    table_md_path: tables/0035-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.3 Halbautomatischer Modus
+    table_role: generic
+    table_md_path: tables/0035-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`---`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_-_`'
+    Symbolbild: 'Γ5: ![Segmentanzeige-Symbol für Γ5: drei mittige Segmentbalken](assets/images/cuh.sdvc34.manual.v0.0/page-0035-vcrop-00.png)
+      Γ6: ![Segmentanzeige-Symbol für Γ6: äußere Balken niedrig, mittlerer Balken
+      hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0035-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.3 Halbautomatischer Modus
+    table_role: generic
+    table_md_path: tables/0035-kapitelⅴ-betriebsart-table-02.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id006
+    heading_title: 5.4 Sync-Modus
+    table_role: generic
+    table_md_path: tables/0036-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id006
+    heading_title: 5.4 Sync-Modus
+    table_role: generic
+    table_md_path: tables/0036-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id006
+    heading_title: 5.4 Sync-Modus
+    table_role: generic
+    table_md_path: tables/0036-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id006
+    heading_title: 5.4 Sync-Modus
+    table_role: generic
+    table_md_path: tables/0036-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: Zwei Symboleinstellungen (siehe Bild, mit
+      „oder“ verbunden)
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: Siehe Bild
+    Symbolbild: 'Γ5: ![Γ5-Einstellung：zwei Segmentanzeige-Balkenkombinationen, mit
+      „oder“ verbunden](assets/images/cuh.sdvc34.manual.v0.0/page-0037-vcrop-00.png)；Γ6:
+      ![Segmentanzeige-Symbol für Γ6-Einstellung](assets/images/cuh.sdvc34.manual.v0.0/page-0037-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id006
+    heading_title: 5.4 Sync-Modus
+    table_role: generic
+    table_md_path: tables/0036-kapitelⅴ-betriebsart-table-02.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id020
+    heading_title: 5.4.1 Anschlussmethode des Sync-Signalkabels
+    table_role: generic
+    table_md_path: tables/0037-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id020
+    heading_title: 5.4.1 Anschlussmethode des Sync-Signalkabels
+    table_role: generic
+    table_md_path: tables/0037-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id020
+    heading_title: 5.4.1 Anschlussmethode des Sync-Signalkabels
+    table_role: generic
+    table_md_path: tables/0037-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id020
+    heading_title: 5.4.1 Anschlussmethode des Sync-Signalkabels
+    table_role: generic
+    table_md_path: tables/0037-kapitelⅴ-betriebsart-table-01.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Anwendungen des Sync-Modus
+    table_role: generic
+    table_md_path: tables/0038-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Anwendungen des Sync-Modus
+    table_role: generic
+    table_md_path: tables/0038-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Anwendungen des Sync-Modus
+    table_role: generic
+    table_md_path: tables/0038-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Anwendungen des Sync-Modus
+    table_role: generic
+    table_md_path: tables/0038-kapitelⅴ-betriebsart-table-01.md
+- name: Master-Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: Master-Controller
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: Siehe Symbolbild
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: Siehe Symbolbild
+    Symbolbild: Γ5：![Segmentanzeige-Symbol für die Γ5-Einstellung des Master-Controllers](assets/images/cuh.sdvc34.manual.v0.0/page-0039-vcrop-00.png)；Γ6：![Segmentanzeige-Symbol
+      für die Γ6-Einstellung des Master-Controllers](assets/images/cuh.sdvc34.manual.v0.0/page-0039-vcrop-01.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Anwendungen des Sync-Modus
+    table_role: generic
+    table_md_path: tables/0038-kapitelⅴ-betriebsart-table-02.md
+- name: Slave-Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: Slave-Controller
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: Siehe Symbolbild
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: Siehe Symbolbild
+    Symbolbild: Γ5：![Segmentanzeige-Symbol für die Γ5-Einstellung des Slave-Controllers](assets/images/cuh.sdvc34.manual.v0.0/page-0039-vcrop-02.png)；Γ6：![Segmentanzeige-Symbol
+      für die Γ6-Einstellung des Slave-Controllers](assets/images/cuh.sdvc34.manual.v0.0/page-0039-vcrop-03.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Anwendungen des Sync-Modus
+    table_role: generic
+    table_md_path: tables/0038-kapitelⅴ-betriebsart-table-02.md
+- name: Master-Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: Master-Controller
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: — — —
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: — — —
+    Symbolbild: 'Γ5, Γ6：![Segmentanzeige-Symbol: drei nebeneinanderliegende Segmentbalken](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Anwendungen des Sync-Modus
+    table_role: generic
+    table_md_path: tables/0038-kapitelⅴ-betriebsart-table-03.md
+- name: Slave-Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: Slave-Controller
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: Siehe Symbolbild
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: Siehe Symbolbild
+    Symbolbild: 'Γ5：![Segmentanzeige-Symbol: äußere Balken niedrig, mittlerer Balken
+      hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-01.png)；Γ6：![Segmentanzeige-Symbol:
+      außen je zwei Balken, mittig drei Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Anwendungen des Sync-Modus
+    table_role: generic
+    table_md_path: tables/0038-kapitelⅴ-betriebsart-table-03.md
+- name: Master-Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: Master-Controller
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: — — —
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: Siehe Symbolbild
+    Symbolbild: 'Γ5：![Segmentanzeige-Symbol: drei gleich hohe kurze Segmentbalken](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-00.png)；Γ6：![Segmentanzeige-Symbol:
+      äußere Balken niedrig, mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Anwendungen des Sync-Modus
+    table_role: generic
+    table_md_path: tables/0038-kapitelⅴ-betriebsart-table-04.md
+- name: Slave-Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: Slave-Controller
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: Siehe Symbolbild
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: Siehe Symbolbild
+    Symbolbild: 'Γ5：![Segmentanzeige-Symbol: äußere Balken niedrig, mittlerer Balken
+      hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-01.png)；Γ6：![Segmentanzeige-Symbol
+      für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Anwendungen des Sync-Modus
+    table_role: generic
+    table_md_path: tables/0038-kapitelⅴ-betriebsart-table-04.md
+- name: Master-Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: Master-Controller
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: Siehe Γ5-Bild in der rechten Spalte
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: Siehe Γ6-Bild in der rechten Spalte
+    Symbolbild: Γ5：![Segmentanzeige-Symbol für die Γ5-Einstellung des Master-Controllers](assets/images/cuh.sdvc34.manual.v0.0/page-0041-vcrop-00.png)<br>Γ6：![Segmentanzeige-Symbol
+      für die Γ6-Einstellung des Master-Controllers](assets/images/cuh.sdvc34.manual.v0.0/page-0041-vcrop-01.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Anwendungen des Sync-Modus
+    table_role: generic
+    table_md_path: tables/0038-kapitelⅴ-betriebsart-table-05.md
+- name: Slave-Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: Slave-Controller
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: Siehe Γ5-Bild in der rechten Spalte
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: Siehe Γ6-Bild in der rechten Spalte
+    Symbolbild: Γ5：![Segmentanzeige-Symbol für die Γ5-Einstellung des Slave-Controllers](assets/images/cuh.sdvc34.manual.v0.0/page-0041-vcrop-02.png)<br>Γ6：![Segmentanzeige-Symbol
+      für die Γ6-Einstellung des Slave-Controllers](assets/images/cuh.sdvc34.manual.v0.0/page-0041-vcrop-03.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Anwendungen des Sync-Modus
+    table_role: generic
+    table_md_path: tables/0038-kapitelⅴ-betriebsart-table-05.md
+- name: Master-Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: Master-Controller
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '---'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '---'
+    Symbolbild: Γ5, Γ6：![Segmentanzeige-Symbol：---](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-00.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Anwendungen des Sync-Modus
+    table_role: generic
+    table_md_path: tables/0038-kapitelⅴ-betriebsart-table-06.md
+- name: Slave-Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: Slave-Controller
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '---'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: Siehe Symbolbild
+    Symbolbild: Γ5：![Segmentanzeige-Symbol：---](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-00.png)；Γ6：![Segmentanzeige-Symbol
+      für die Γ6-Einstellung des Slave-Controllers](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-01.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Anwendungen des Sync-Modus
+    table_role: generic
+    table_md_path: tables/0038-kapitelⅴ-betriebsart-table-06.md
+- name: Master-Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: Master-Controller
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '---'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: Siehe Symbolbild
+    Symbolbild: Γ5：![Segmentanzeige-Symbol：---](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-00.png)；Γ6：![Segmentanzeige-Symbol
+      für die Γ6-Einstellung des Master-Controllers von Sub-Pattern 6](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-02.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Anwendungen des Sync-Modus
+    table_role: generic
+    table_md_path: tables/0038-kapitelⅴ-betriebsart-table-07.md
+- name: Slave-Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: Slave-Controller
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '---'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: Siehe Symbolbild
+    Symbolbild: Γ5：![Segmentanzeige-Symbol：---](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-00.png)；Γ6：![Segmentanzeige-Symbol
+      für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-01.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Anwendungen des Sync-Modus
+    table_role: generic
+    table_md_path: tables/0038-kapitelⅴ-betriebsart-table-07.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id021
+    heading_title: 5.5 Zählmodus
+    table_role: generic
+    table_md_path: tables/0039-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id021
+    heading_title: 5.5 Zählmodus
+    table_role: generic
+    table_md_path: tables/0039-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id021
+    heading_title: 5.5 Zählmodus
+    table_role: generic
+    table_md_path: tables/0039-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id021
+    heading_title: 5.5 Zählmodus
+    table_role: generic
+    table_md_path: tables/0039-kapitelⅴ-betriebsart-table-01.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id022
+    heading_title: 5.5.1 Verwendungsmethode
+    table_role: generic
+    table_md_path: tables/0040-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id022
+    heading_title: 5.5.1 Verwendungsmethode
+    table_role: generic
+    table_md_path: tables/0040-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id022
+    heading_title: 5.5.1 Verwendungsmethode
+    table_role: generic
+    table_md_path: tables/0040-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id022
+    heading_title: 5.5.1 Verwendungsmethode
+    table_role: generic
+    table_md_path: tables/0040-kapitelⅴ-betriebsart-table-01.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id023
+    heading_title: 5.5.2 Anschlussmethode
+    table_role: generic
+    table_md_path: tables/0041-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id023
+    heading_title: 5.5.2 Anschlussmethode
+    table_role: generic
+    table_md_path: tables/0041-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id023
+    heading_title: 5.5.2 Anschlussmethode
+    table_role: generic
+    table_md_path: tables/0041-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id023
+    heading_title: 5.5.2 Anschlussmethode
+    table_role: generic
+    table_md_path: tables/0041-kapitelⅴ-betriebsart-table-01.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id024
+    heading_title: 5.5.3 Logikrichtung des Zählpulses
+    table_role: generic
+    table_md_path: tables/0042-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id024
+    heading_title: 5.5.3 Logikrichtung des Zählpulses
+    table_role: generic
+    table_md_path: tables/0042-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id024
+    heading_title: 5.5.3 Logikrichtung des Zählpulses
+    table_role: generic
+    table_md_path: tables/0042-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id024
+    heading_title: 5.5.3 Logikrichtung des Zählpulses
+    table_role: generic
+    table_md_path: tables/0042-kapitelⅴ-betriebsart-table-01.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id025
+    heading_title: 5.5.4 Logikrichtung des Zähl-Reset
+    table_role: generic
+    table_md_path: tables/0043-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id025
+    heading_title: 5.5.4 Logikrichtung des Zähl-Reset
+    table_role: generic
+    table_md_path: tables/0043-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id025
+    heading_title: 5.5.4 Logikrichtung des Zähl-Reset
+    table_role: generic
+    table_md_path: tables/0043-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id025
+    heading_title: 5.5.4 Logikrichtung des Zähl-Reset
+    table_role: generic
+    table_md_path: tables/0043-kapitelⅴ-betriebsart-table-01.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id026
+    heading_title: 5.5.5 Erklärung der Zählparameter
+    table_role: generic
+    table_md_path: tables/0044-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id026
+    heading_title: 5.5.5 Erklärung der Zählparameter
+    table_role: generic
+    table_md_path: tables/0044-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id026
+    heading_title: 5.5.5 Erklärung der Zählparameter
+    table_role: generic
+    table_md_path: tables/0044-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id026
+    heading_title: 5.5.5 Erklärung der Zählparameter
+    table_role: generic
+    table_md_path: tables/0044-kapitelⅴ-betriebsart-table-01.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id027
+    heading_title: 'Geschwindigkeitsprozentsatz der Zählungsenden: u'
+    table_role: generic
+    table_md_path: tables/0045-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id027
+    heading_title: 'Geschwindigkeitsprozentsatz der Zählungsenden: u'
+    table_role: generic
+    table_md_path: tables/0045-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id027
+    heading_title: 'Geschwindigkeitsprozentsatz der Zählungsenden: u'
+    table_role: generic
+    table_md_path: tables/0045-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id027
+    heading_title: 'Geschwindigkeitsprozentsatz der Zählungsenden: u'
+    table_role: generic
+    table_md_path: tables/0045-kapitelⅴ-betriebsart-table-01.md
+- name: Manueller Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Manueller Modus
+    Ausgangsspannung U — Einstellmethode: Manuell
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id028
+    heading_title: 'Zähl-Anti-Jitter-Zeit: J'
+    table_role: generic
+    table_md_path: tables/0046-kapitelⅴ-betriebsart-table-01.md
+- name: Auto-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Auto-Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Auto
+    Ausgangsfrequenz E — Γ6-Einstellung: '`- - -`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id028
+    heading_title: 'Zähl-Anti-Jitter-Zeit: J'
+    table_role: generic
+    table_md_path: tables/0046-kapitelⅴ-betriebsart-table-01.md
+- name: Halbautomatischer Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Halbautomatischer Modus
+    Ausgangsspannung U — Einstellmethode: Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Manuell
+    Ausgangsfrequenz E — Γ6-Einstellung: '`_ - _`'
+    Symbolbild: '![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer
+      Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id028
+    heading_title: 'Zähl-Anti-Jitter-Zeit: J'
+    table_role: generic
+    table_md_path: tables/0046-kapitelⅴ-betriebsart-table-01.md
+- name: Sync-Modus
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Betriebsart: Sync-Modus
+    Ausgangsspannung U — Einstellmethode: Manuell oder Auto
+    Ausgangsspannung U — Γ5-Einstellung: '`_ - _` oder `- - -`'
+    Ausgangsfrequenz E — Einstellmethode: Automatische Synchronisation mit dem Master-Controller
+    Ausgangsfrequenz E — Γ6-Einstellung: '![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Symbolbild: '![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig,
+      mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id028
+    heading_title: 'Zähl-Anti-Jitter-Zeit: J'
+    table_role: generic
+    table_md_path: tables/0046-kapitelⅴ-betriebsart-table-01.md
+- name: weniger als 0.5V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal der Fernsteuerung der Geschwindigkeit: weniger als 0.5V
+    Ausgangsspannung U/Fördergeschwindigkeit A: Gesteuert durch die Tasten Vol+ und
+      Vol-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id029
+    heading_title: Anschlussmethode der SPS für die Fernsteuerung der Geschwindigkeit
+    table_role: generic
+    table_md_path: tables/0061-kapitel-ⅵ-signalsteuerung-table-01.md
+- name: 0.5V~1V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal der Fernsteuerung der Geschwindigkeit: 0.5V~1V
+    Ausgangsspannung U/Fördergeschwindigkeit A: Ausgangsspannung U=20V/Fördergeschwindigkeit
+      A=0<br>Gesteuert durch das Signal der Fernsteuerung der Geschwindigkeit
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id029
+    heading_title: Anschlussmethode der SPS für die Fernsteuerung der Geschwindigkeit
+    table_role: generic
+    table_md_path: tables/0061-kapitel-ⅵ-signalsteuerung-table-01.md
+- name: 1~5V/4~20mA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Signal der Fernsteuerung der Geschwindigkeit: 1~5V/4~20mA
+    Ausgangsspannung U/Fördergeschwindigkeit A: Ausgangsspannung U/Fördergeschwindigkeit
+      A wird linear<br>durch das Signal der Fernsteuerung der Geschwindigkeit gesteuert
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id029
+    heading_title: Anschlussmethode der SPS für die Fernsteuerung der Geschwindigkeit
+    table_role: generic
+    table_md_path: tables/0061-kapitel-ⅵ-signalsteuerung-table-01.md
+- name: Geschwindigkeit 1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Voreingestellte Geschwindigkeit: Geschwindigkeit 1
+    G1- & G2-Ports — Speed A-Anzeige: EIN
+    G1- & G2-Ports — Schalter 1: Geschlossen
+    G3- & G4-Ports — Speed B-Anzeige: AUS
+    G3- & G4-Ports — Schalter 2: Offen
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 65
+    heading_path: *id030
+    heading_title: 6.6 Speichern und Ausgeben voreingestellter Geschwindigkeiten
+    table_role: generic
+    table_md_path: tables/0065-kapitel-ⅵ-signalsteuerung-table-01.md
+- name: Geschwindigkeit 2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Voreingestellte Geschwindigkeit: Geschwindigkeit 2
+    G1- & G2-Ports — Speed A-Anzeige: AUS
+    G1- & G2-Ports — Schalter 1: Offen
+    G3- & G4-Ports — Speed B-Anzeige: EIN
+    G3- & G4-Ports — Schalter 2: Geschlossen
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 65
+    heading_path: *id030
+    heading_title: 6.6 Speichern und Ausgeben voreingestellter Geschwindigkeiten
+    table_role: generic
+    table_md_path: tables/0065-kapitel-ⅵ-signalsteuerung-table-01.md
+- name: Geschwindigkeit 3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Voreingestellte Geschwindigkeit: Geschwindigkeit 3
+    G1- & G2-Ports — Speed A-Anzeige: EIN
+    G1- & G2-Ports — Schalter 1: Geschlossen
+    G3- & G4-Ports — Speed B-Anzeige: EIN
+    G3- & G4-Ports — Schalter 2: Geschlossen
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 65
+    heading_path: *id030
+    heading_title: 6.6 Speichern und Ausgeben voreingestellter Geschwindigkeiten
+    table_role: generic
+    table_md_path: tables/0065-kapitel-ⅵ-signalsteuerung-table-01.md
+- name: Geschwindigkeit 4
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Voreingestellte Geschwindigkeit: Geschwindigkeit 4
+    G1- & G2-Ports — Speed A-Anzeige: AUS
+    G1- & G2-Ports — Schalter 1: Offen
+    G3- & G4-Ports — Speed B-Anzeige: AUS
+    G3- & G4-Ports — Schalter 2: Offen
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 65
+    heading_path: *id030
+    heading_title: 6.6 Speichern und Ausgeben voreingestellter Geschwindigkeiten
+    table_role: generic
+    table_md_path: tables/0065-kapitel-ⅵ-signalsteuerung-table-01.md
+- name: 0~3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Abmessungsbereich: 0~3
+    Toleranz: ±0.05
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 69
+    heading_path: *id031
+    heading_title: Kapitel Ⅷ Anhang
+    table_role: generic
+    table_md_path: tables/0069-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: 3~10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Abmessungsbereich: 3~10
+    Toleranz: ±0.1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 69
+    heading_path: *id031
+    heading_title: Kapitel Ⅷ Anhang
+    table_role: generic
+    table_md_path: tables/0069-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: 10~30
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Abmessungsbereich: 10~30
+    Toleranz: ±0.15
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 69
+    heading_path: *id031
+    heading_title: Kapitel Ⅷ Anhang
+    table_role: generic
+    table_md_path: tables/0069-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: 30~80
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Abmessungsbereich: 30~80
+    Toleranz: ±0.2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 69
+    heading_path: *id031
+    heading_title: Kapitel Ⅷ Anhang
+    table_role: generic
+    table_md_path: tables/0069-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: 80~180
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Abmessungsbereich: 80~180
+    Toleranz: ±0.3
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 69
+    heading_path: *id031
+    heading_title: Kapitel Ⅷ Anhang
+    table_role: generic
+    table_md_path: tables/0069-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: '>180'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Abmessungsbereich: '>180'
+    Toleranz: ±0.5
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 69
+    heading_path: *id031
+    heading_title: Kapitel Ⅷ Anhang
+    table_role: generic
+    table_md_path: tables/0069-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Eingangsspannung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Eingangsspannung
+    Min: '85'
+    Typisch: '220'
+    Max: '250'
+    Einheit: V
+    Hinweis: AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Einstellbarer Ausgangsspannungsbereich
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Einstellbarer Ausgangsspannungsbereich
+    Min: '0'
+    Typisch: ——
+    Max: '250'
+    Einheit: V
+    Hinweis: Niedriger als 150 % der Eingangsspannung
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Einstellgenauigkeit der Spannung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Einstellgenauigkeit der Spannung
+    Typisch: '1'
+    Einheit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Genauigkeit der Spannungsregelung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Genauigkeit der Spannungsregelung
+    Min: '0'
+    Typisch: ——
+    Max: '10'
+    Einheit: '%'
+    Hinweis: ΔVout/ΔVin
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Einstellbarer Ausgangsstrombereich
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Einstellbarer Ausgangsstrombereich
+    Min: '0'
+    Typisch: ——
+    Max: '3'
+    Einheit: A
+    Hinweis: SDVC34-MR/MRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Einstellbarer Ausgangsstrombereich
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Einstellbarer Ausgangsstrombereich
+    Min: '0'
+    Typisch: ——
+    Max: '6'
+    Einheit: A
+    Hinweis: SDVC34-XLR/XLRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Ausgangsleistung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Ausgangsleistung
+    Min: '0'
+    Typisch: ——
+    Max: '660'
+    Einheit: VA
+    Hinweis: SDVC34-MR/MRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Ausgangsleistung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Ausgangsleistung
+    Min: '0'
+    Typisch: ——
+    Max: '1320'
+    Einheit: VA
+    Hinweis: SDVC34-XLR/XLRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Ausgangsfrequenz
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Ausgangsfrequenz
+    Min: '25'
+    Typisch: ——
+    Max: '400'
+    Einheit: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Einstellgenauigkeit der Frequenz
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Einstellgenauigkeit der Frequenz
+    Typisch: '0.1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Ausgangswellenform
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Ausgangswellenform
+    Typisch: Sinus
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Sanftanlaufzeit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Sanftanlaufzeit
+    Min: '0'
+    Typisch: ——
+    Max: '10'
+    Einheit: s
+    Hinweis: 'Standardwert: 0.5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Bereich der Ein-/Ausschaltverzögerung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Bereich der Ein-/Ausschaltverzögerung
+    Min: '0'
+    Typisch: ——
+    Max: '99.9'
+    Einheit: s
+    Hinweis: 'Standardwert: 0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Genauigkeit der Ein-/Ausschaltverzögerung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Genauigkeit der Ein-/Ausschaltverzögerung
+    Typisch: '0.1'
+    Einheit: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Auslösetemperatur des Überhitzungsschutzes
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Auslösetemperatur des Überhitzungsschutzes
+    Min: '60'
+    Typisch: '65'
+    Max: '65'
+    Einheit: °C
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Digitale Kommunikation
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Digitale Kommunikation
+    Typisch: ModBus 485
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: DC-Steuerausgangsspannung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: DC-Steuerausgangsspannung
+    Min: '22'
+    Typisch: '24'
+    Max: '26'
+    Einheit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: DC-Steuerausgangsstrom
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: DC-Steuerausgangsstrom
+    Min: '0'
+    Typisch: ——
+    Max: '350'
+    Einheit: mA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Analoges Steuersignal
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Analoges Steuersignal
+    Typisch: 1~5/ 4~20
+    Einheit: V/ mA
+    Hinweis: Fernsteuerung der Geschwindigkeit
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Digitales Steuersignal
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Digitales Steuersignal
+    Typisch: '24'
+    Einheit: V
+    Hinweis: Schaltsignal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Einstellmethode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Einstellmethode
+    Typisch: '6'
+    Einheit: Tasten
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Leistungsaufnahme im Standby
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Leistungsaufnahme im Standby
+    Min: ——
+    Typisch: '5'
+    Max: ——
+    Einheit: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Anzeigemethode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Anzeigemethode
+    Typisch: '5'
+    Einheit: Ziffern
+    Hinweis: LED
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Umgebungstemperatur
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Umgebungstemperatur
+    Min: '0'
+    Typisch: '25'
+    Max: '40'
+    Einheit: °C
+    Hinweis: Keine Kondensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Umgebungsfeuchtigkeit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Umgebungsfeuchtigkeit
+    Min: '10'
+    Typisch: '60'
+    Max: '85'
+    Einheit: '%'
+    Hinweis: Keine Kondensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Umgebungstemperatur bei Lagerung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Element: Umgebungstemperatur bei Lagerung
+    Min: '-20'
+    Typisch: '25'
+    Max: '65'
+    Einheit: °C
+    Hinweis: Keine Kondensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Technische Spezifikationen
+    table_role: generic
+    table_md_path: tables/0075-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Keine Anzeige auf dem LED-Bildschirm nach dem Einschalten
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlerphänomen: Keine Anzeige auf dem LED-Bildschirm nach dem Einschalten
+    Vorschläge zur Fehlerbehebung: ◆ Stellen Sie sicher, dass die Netzsteckdose Strom
+      führt.<br>◆ Stellen Sie sicher, dass das Eingangsleistungskabel zuverlässig
+      angeschlossen ist.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen
+    table_role: generic
+    table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: LED-Bildschirm zeigt normal an, aber der Vibrationsförderer hat keine Ausgabe
+    oder kein Geräusch
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlerphänomen: LED-Bildschirm zeigt normal an, aber der Vibrationsförderer hat
+      keine Ausgabe oder kein Geräusch
+    Vorschläge zur Fehlerbehebung: ◆ Stellen Sie sicher, dass das Ausgangsleistungskabel
+      zuverlässig angeschlossen ist.<br>◆ Stellen Sie sicher, dass die Ausgangsspannung
+      nicht zu niedrig ist.<br>◆ Stellen Sie sicher, dass der Controller nicht durch
+      die EIN/AUS-Taste gestoppt wurde, wenn die Stopp-Anzeige leuchtet.<br>◆ Stellen
+      Sie sicher, dass der Controller nicht durch die Einstellung von Parameter Γ2
+      oder Γ7 gestoppt wurde, wenn die Stopp-Anzeige leuchtet.<br>◆ Setzen Sie den
+      Controller zurück.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen
+    table_role: generic
+    table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: EIN/AUS-Steuerung funktioniert nicht
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlerphänomen: EIN/AUS-Steuerung funktioniert nicht
+    Vorschläge zur Fehlerbehebung: ◆ Stellen Sie sicher, dass das EIN/AUS-Steuersignal
+      korrekt am Controller angeschlossen ist.<br>◆ Stellen Sie sicher, dass die Parameter
+      Γ2, Γ7 und Π entsprechend Ihrer Steuerungserwartung korrekt eingestellt sind.<br>◆
+      Setzen Sie den Controller zurück.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen
+    table_role: generic
+    table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Schwebungseffekt
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlerphänomen: Schwebungseffekt
+    Vorschläge zur Fehlerbehebung: ◆ Verbinden Sie das Sync-Signalkabel zwischen den
+      Controllern und stellen Sie den Slave-Controller auf Sync-Modus ein.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen
+    table_role: generic
+    table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: LED-Bildschirm zeigt normal an, Geräusche sind vom Vibrationsförderer zu hören,
+    aber keine Ausgabe
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlerphänomen: LED-Bildschirm zeigt normal an, Geräusche sind vom Vibrationsförderer
+      zu hören, aber keine Ausgabe
+    Vorschläge zur Fehlerbehebung: ◆ Stellen Sie sicher, dass die Ausgangsfrequenz
+      nicht weit von der Resonanzfrequenz des Vibrationsförderers entfernt ist.<br>◆
+      Setzen Sie den Controller zurück.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen
+    table_role: generic
+    table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Err01
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlerphänomen: Err01
+    Vorschläge zur Fehlerbehebung: '**Kurzschlussschutz**<br>◆ Stellen Sie sicher,
+      dass das Ausgangsleistungskabel und der Vibrator-Elektromagnet nicht kurzgeschlossen
+      sind.<br>◆ Trennen Sie das Ausgangsleistungskabel vom Controller und schalten
+      Sie den Netzschalter erneut ein. Wenn Err01 weiterhin angezeigt wird, kontaktieren
+      Sie uns für eine Reparatur.'
+    Symbolbild: '![Segmentanzeige zeigt Err01](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen
+    table_role: generic
+    table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Err02
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlerphänomen: Err02
+    Vorschläge zur Fehlerbehebung: '**Überstromschutz**<br>◆ Reduzieren Sie die Ausgangsspannung
+      des Controllers.<br>◆ Stellen Sie sicher, dass der Ankerspalt des Vibrator-Elektromagneten
+      nicht zu groß ist.'
+    Symbolbild: '![Segmentanzeige zeigt Err02](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen
+    table_role: generic
+    table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Err03
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlerphänomen: Err03
+    Vorschläge zur Fehlerbehebung: '**Überhitzungsschutz**<br>◆ Stellen Sie den Controller
+      an einen gut belüfteten Ort.'
+    Symbolbild: '![Segmentanzeige zeigt Err03](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen
+    table_role: generic
+    table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Err04
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlerphänomen: Err04
+    Vorschläge zur Fehlerbehebung: ◆ Reserviert, kontaktieren Sie uns für eine Reparatur.
+    Symbolbild: '![Segmentanzeige zeigt Err04](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-03.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen
+    table_role: generic
+    table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Err05
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlerphänomen: Err05
+    Vorschläge zur Fehlerbehebung: ◆ Interne Kommunikation abnormal, kontaktieren
+      Sie uns für eine Reparatur.
+    Symbolbild: '![Segmentanzeige zeigt Err05](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-04.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen
+    table_role: generic
+    table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Err06
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlerphänomen: Err06
+    Vorschläge zur Fehlerbehebung: ◆ Temperatursensor abnormal, kontaktieren Sie uns
+      für eine Reparatur.
+    Symbolbild: '![Segmentanzeige zeigt Err06](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-05.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen
+    table_role: generic
+    table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Err07
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlerphänomen: Err07
+    Vorschläge zur Fehlerbehebung: '**Kurzschlussschutz von Port D**<br>◆ Stellen
+      Sie sicher, dass die Last von Port D nicht kurzgeschlossen ist und der Strom
+      350mA nicht überschreitet'
+    Symbolbild: '![Segmentanzeige zeigt Err07](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-06.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen
+    table_role: generic
+    table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Err08
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlerphänomen: Err08
+    Vorschläge zur Fehlerbehebung: ◆ Sync-Signal-Fehler, kontaktieren Sie uns für
+      eine Reparatur.
+    Symbolbild: '![Segmentanzeige zeigt Err08](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-07.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen
+    table_role: generic
+    table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-01.md
+- name: Err09
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlerphänomen: Err09
+    Symbolbild: '![Segmentanzeige zeigt Err09](assets/images/cuh.sdvc34.manual.v0.0/page-0080-vcrop-00.png)'
+    Vorschläge zur Fehlerbehebung: Vibrationssensor-Typ-Fehler<br>◆ Der Typ des an
+      den Controller angeschlossenen Vibrationssensors stimmt nicht mit dem im Controller
+      eingestellten Parameter "Vibrationssensor-Typ ![Segmentanzeige-Symbol für den
+      Parameter Vibrationssensor-Typ](assets/images/cuh.sdvc34.manual.v0.0/page-0080-vcrop-03.png)"
+      überein.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen
+    table_role: generic
+    table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-02.md
+- name: Err10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlerphänomen: Err10
+    Symbolbild: '![Segmentanzeige zeigt Err10](assets/images/cuh.sdvc34.manual.v0.0/page-0080-vcrop-01.png)'
+    Vorschläge zur Fehlerbehebung: 24V-Ausgang abnormal<br>◆ Schließen Sie keine externe
+      Stromversorgung an den 24V-Ausgang an.<br>◆ Stellen Sie sicher, dass der 24V-Laststrom
+      350mA nicht überschreitet.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen
+    table_role: generic
+    table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-02.md
+- name: Err11
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fehlerphänomen: Err11
+    Symbolbild: '![Segmentanzeige zeigt Err11](assets/images/cuh.sdvc34.manual.v0.0/page-0080-vcrop-02.png)'
+    Vorschläge zur Fehlerbehebung: 5V-Ausgang von Port A abnormal<br>◆ Schließen Sie
+      keine externe Stromversorgung an den 5V-Ausgang an.<br>◆ Schließen Sie den 5V-Ausgang
+      nicht gegen GND kurz.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen
+    table_role: generic
+    table_md_path: tables/0076-kapitel-ⅶ-sicherheitsfunktionen-table-02.md

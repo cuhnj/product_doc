@@ -1,0 +1,568 @@
+schema_version: 1
+doc_id: cuh.sdvc42-S.manual.v0.0.de-DE
+doc_key: cuh.sdvc42-S.manual.v0.0
+lang: de-DE
+generated_at: '2026-11-18 01:20:03'
+source_md_basename: doc.md
+export_pipeline: chunks-from-publish
+exports:
+- kind: publish_md_table
+  section_index: 3
+  heading_path:
+  - Vorwort
+  heading_title: Vorwort
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0003-vorwort-table-01.md
+  chars: 543
+- kind: publish_md_table
+  section_index: 8
+  heading_path:
+  - Kapitel Ⅰ Hinweise vor der Inbetriebnahme
+  heading_title: Kapitel Ⅰ Hinweise vor der Inbetriebnahme
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0008-kapitel-ⅰ-hinweise-vor-der-inbetriebnahme-table-01.md
+  chars: 152
+- kind: publish_md_table
+  section_index: 10
+  heading_path: &id001
+  - Kapitel Ⅱ Produkteinführung
+  - 2.2 Tastenfeld und I/O-Anschlüsse
+  heading_title: 2.2 Tastenfeld und I/O-Anschlüsse
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0010-kapitel-ⅱ-produkteinführung-table-01.md
+  chars: 521
+- kind: publish_md_table
+  section_index: 10
+  heading_path: *id001
+  heading_title: 2.2 Tastenfeld und I/O-Anschlüsse
+  table_role: generic
+  table_index_in_section: 2
+  relative_path: tables/0010-kapitel-ⅱ-produkteinführung-table-02.md
+  chars: 232
+- kind: publish_md_table
+  section_index: 12
+  heading_path:
+  - Kapitel Ⅱ Produkteinführung
+  - 2.4 Beschreibung der Startseitenparameter
+  heading_title: 2.4 Beschreibung der Startseitenparameter
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0012-kapitel-ⅱ-produkteinführung-table-01.md
+  chars: 965
+- kind: publish_md_table
+  section_index: 13
+  heading_path:
+  - Kapitel Ⅱ Produkteinführung
+  - 2.5 Definition der Signalsteueranschlüsse
+  heading_title: 2.5 Definition der Signalsteueranschlüsse
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0013-kapitel-ⅱ-produkteinführung-table-01.md
+  chars: 891
+- kind: publish_md_table
+  section_index: 17
+  heading_path:
+  - Kapitel Ⅲ Stromverkabelung und Grundbedienung
+  - 3.2 Grundbedienung
+  heading_title: 3.2 Grundbedienung
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0017-kapitel-ⅲ-stromverkabelung-und-grundbedienung-table-01.md
+  chars: 699
+- kind: publish_md_table
+  section_index: 18
+  heading_path: &id002
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.1 Allgemeine Parametereinstellungen
+  heading_title: 4.1 Allgemeine Parametereinstellungen
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0018-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 271
+- kind: publish_md_table
+  section_index: 18
+  heading_path: *id002
+  heading_title: 4.1 Allgemeine Parametereinstellungen
+  table_role: generic
+  table_index_in_section: 2
+  relative_path: tables/0018-kapitel-iv-detaillierte-funktionsbeschreibung-table-02.md
+  chars: 138
+- kind: publish_md_table
+  section_index: 21
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.3.11 Ausgangsspannungs-Steuerungsmodus
+  heading_title: 4.3.11 Ausgangsspannungs-Steuerungsmodus
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0021-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 516
+- kind: publish_md_table
+  section_index: 22
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.3.12 Ausgangsfrequenz-Steuerungsmodus
+  heading_title: 4.3.12 Ausgangsfrequenz-Steuerungsmodus
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0022-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 561
+- kind: publish_md_table
+  section_index: 23
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.3.13 Synchronisationsquelle
+  heading_title: 4.3.13 Synchronisationsquelle
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0023-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 173
+- kind: publish_md_table
+  section_index: 24
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.3.14 Vibrationssensor-Typ
+  heading_title: 4.3.14 Vibrationssensor-Typ
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0024-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 327
+- kind: publish_md_table
+  section_index: 27
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.4.1.2 Hauptlogik
+  heading_title: 4.4.1.2 Hauptlogik
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0027-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 383
+- kind: publish_md_table
+  section_index: 28
+  heading_path: &id003
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.4.1.3 Hauptrichtung
+  heading_title: 4.4.1.3 Hauptrichtung
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0028-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 385
+- kind: publish_md_table
+  section_index: 28
+  heading_path: *id003
+  heading_title: 4.4.1.3 Hauptrichtung
+  table_role: generic
+  table_index_in_section: 2
+  relative_path: tables/0028-kapitel-iv-detaillierte-funktionsbeschreibung-table-02.md
+  chars: 425
+- kind: publish_md_table
+  section_index: 29
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.4.1.6 Einschaltzustand
+  heading_title: 4.4.1.6 Einschaltzustand
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0029-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 339
+- kind: publish_md_table
+  section_index: 30
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.4.1.7 Fernsteuerungsquelle
+  heading_title: 4.4.1.7 Fernsteuerungsquelle
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0030-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 2442
+- kind: publish_md_table
+  section_index: 32
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.4.2.1 D-Port-Typ
+  heading_title: 4.4.2.1 D-Port-Typ
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0032-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 533
+- kind: publish_md_table
+  section_index: 33
+  heading_path: &id004
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.5 Signalsteuerung
+  heading_title: 4.5 Signalsteuerung
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0033-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 496
+- kind: publish_md_table
+  section_index: 33
+  heading_path: *id004
+  heading_title: 4.5 Signalsteuerung
+  table_role: generic
+  table_index_in_section: 2
+  relative_path: tables/0033-kapitel-iv-detaillierte-funktionsbeschreibung-table-02.md
+  chars: 272
+- kind: publish_md_table
+  section_index: 34
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.5.4 Geschwindigkeit A Logik/Geschwindigkeit B Logik
+  heading_title: 4.5.4 Geschwindigkeit A Logik/Geschwindigkeit B Logik
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0034-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 262
+- kind: publish_md_table
+  section_index: 36
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.6 Materialzählung
+  heading_title: 4.6 Materialzählung
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0036-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 229
+- kind: publish_md_table
+  section_index: 41
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.6.6 RS-Priorität
+  heading_title: 4.6.6 RS-Priorität
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0041-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 636
+- kind: publish_md_table
+  section_index: 42
+  heading_path: &id005
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.7 Einstellungen speichern
+  heading_title: 4.7 Einstellungen speichern
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0042-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 184
+- kind: publish_md_table
+  section_index: 42
+  heading_path: *id005
+  heading_title: 4.7 Einstellungen speichern
+  table_role: generic
+  table_index_in_section: 2
+  relative_path: tables/0042-kapitel-iv-detaillierte-funktionsbeschreibung-table-02.md
+  chars: 218
+- kind: publish_md_table
+  section_index: 42
+  heading_path: *id005
+  heading_title: 4.7 Einstellungen speichern
+  table_role: generic
+  table_index_in_section: 3
+  relative_path: tables/0042-kapitel-iv-detaillierte-funktionsbeschreibung-table-03.md
+  chars: 203
+- kind: publish_md_table
+  section_index: 43
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.8 RS485-Kommunikation
+  heading_title: 4.8 RS485-Kommunikation
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0043-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 88
+- kind: publish_md_table
+  section_index: 44
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.8.2 Baudrate
+  heading_title: 4.8.2 Baudrate
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0044-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 183
+- kind: publish_md_table
+  section_index: 46
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.8.4 Portwiderstand/Synchronwiderstand
+  heading_title: 4.8.4 Portwiderstand/Synchronwiderstand
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0046-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 132
+- kind: publish_md_table
+  section_index: 48
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.9.1 Gerätevernetzung
+  heading_title: 4.9.1 Gerätevernetzung
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0048-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 132
+- kind: publish_md_table
+  section_index: 51
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - Hauptmodus
+  heading_title: Hauptmodus
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0051-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 304
+- kind: publish_md_table
+  section_index: 52
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - Slave-Modus
+  heading_title: Slave-Modus
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0052-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 435
+- kind: publish_md_table
+  section_index: 56
+  heading_path:
+  - Kapitel IV Detaillierte Funktionsbeschreibung
+  - 4.9.5 Fernsteuerungsdaten
+  heading_title: 4.9.5 Fernsteuerungsdaten
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0056-kapitel-iv-detaillierte-funktionsbeschreibung-table-01.md
+  chars: 503
+- kind: publish_md_table
+  section_index: 64
+  heading_path:
+  - Kapitel Ⅶ Anhang
+  - 7.1 Abmessungen
+  heading_title: 7.1 Abmessungen
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0064-kapitel-ⅶ-anhang-table-01.md
+  chars: 143
+- kind: publish_md_table
+  section_index: 65
+  heading_path:
+  - Kapitel Ⅶ Anhang
+  - 7.2 Technische Spezifikationen
+  heading_title: 7.2 Technische Spezifikationen
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0065-kapitel-ⅶ-anhang-table-01.md
+  chars: 1624
+- kind: publish_md_table
+  section_index: 66
+  heading_path:
+  - Kapitel Ⅶ Anhang
+  - 7.3 Referenzstandard
+  heading_title: 7.3 Referenzstandard
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0066-kapitel-ⅶ-anhang-table-01.md
+  chars: 467
+- kind: publish_md_table
+  section_index: 67
+  heading_path:
+  - Kapitel Ⅶ Anhang
+  - 7.4 Parameterliste
+  heading_title: 7.4 Parameterliste
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0067-kapitel-ⅶ-anhang-table-01.md
+  chars: 1548
+- kind: publish_md_table
+  section_index: 68
+  heading_path:
+  - Kapitel Ⅶ Anhang
+  - 7.4.2 Allgemeine Parametergruppe
+  heading_title: 7.4.2 Allgemeine Parametergruppe
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0068-kapitel-ⅶ-anhang-table-01.md
+  chars: 1151
+- kind: publish_md_table
+  section_index: 69
+  heading_path:
+  - Kapitel Ⅶ Anhang
+  - 7.4.3 Hauptausgangs-Parametergruppe
+  heading_title: 7.4.3 Hauptausgangs-Parametergruppe
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0069-kapitel-ⅶ-anhang-table-01.md
+  chars: 914
+- kind: publish_md_table
+  section_index: 70
+  heading_path:
+  - Kapitel Ⅶ Anhang
+  - 7.4.4 Konstantgeschwindigkeits-Parametergruppe
+  heading_title: 7.4.4 Konstantgeschwindigkeits-Parametergruppe
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0070-kapitel-ⅶ-anhang-table-01.md
+  chars: 1311
+- kind: publish_md_table
+  section_index: 71
+  heading_path:
+  - Kapitel Ⅶ Anhang
+  - 7.4.5 Signaleingangs-Parametergruppe
+  heading_title: 7.4.5 Signaleingangs-Parametergruppe
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0071-kapitel-ⅶ-anhang-table-01.md
+  chars: 1100
+- kind: publish_md_table
+  section_index: 72
+  heading_path:
+  - Kapitel Ⅶ Anhang
+  - 7.4.6 DC-Steuerungsausgangs-Parametergruppe
+  heading_title: 7.4.6 DC-Steuerungsausgangs-Parametergruppe
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0072-kapitel-ⅶ-anhang-table-01.md
+  chars: 733
+- kind: publish_md_table
+  section_index: 73
+  heading_path:
+  - Kapitel Ⅶ Anhang
+  - 7.4.7 Zähl-Parametergruppe
+  heading_title: 7.4.7 Zähl-Parametergruppe
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0073-kapitel-ⅶ-anhang-table-01.md
+  chars: 500
+- kind: publish_md_table
+  section_index: 74
+  heading_path:
+  - Kapitel Ⅶ Anhang
+  - 7.4.8 Kommunikations-Parametergruppe
+  heading_title: 7.4.8 Kommunikations-Parametergruppe
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0074-kapitel-ⅶ-anhang-table-01.md
+  chars: 3381
+- kind: publish_md_table
+  section_index: 75
+  heading_path:
+  - Kapitel Ⅶ Anhang
+  - 7.4.9 Speicher-Parametergruppe
+  heading_title: 7.4.9 Speicher-Parametergruppe
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0075-kapitel-ⅶ-anhang-table-01.md
+  chars: 662
+- kind: publish_md_table
+  section_index: 76
+  heading_path: &id006
+  - Kapitel Ⅶ Anhang
+  - 7.4.10 Überwachungs-Parametergruppe
+  heading_title: 7.4.10 Überwachungs-Parametergruppe
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0076-kapitel-ⅶ-anhang-table-01.md
+  chars: 2657
+- kind: publish_md_table
+  section_index: 76
+  heading_path: *id006
+  heading_title: 7.4.10 Überwachungs-Parametergruppe
+  table_role: generic
+  table_index_in_section: 2
+  relative_path: tables/0076-kapitel-ⅶ-anhang-table-02.md
+  chars: 452
+- kind: publish_md_table
+  section_index: 77
+  heading_path: &id007
+  - Kapitel Ⅶ Anhang
+  - 7.4.11 Anhangsliste
+  heading_title: 7.4.11 Anhangsliste
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0077-kapitel-ⅶ-anhang-table-01.md
+  chars: 878
+- kind: publish_md_table
+  section_index: 77
+  heading_path: *id007
+  heading_title: 7.4.11 Anhangsliste
+  table_role: generic
+  table_index_in_section: 2
+  relative_path: tables/0077-kapitel-ⅶ-anhang-table-02.md
+  chars: 379
+- kind: publish_md_table
+  section_index: 78
+  heading_path: &id008
+  - Kapitel Ⅶ Anhang
+  - 7.5 Ein- und Ausgangsschaltpläne
+  heading_title: 7.5 Ein- und Ausgangsschaltpläne
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0078-kapitel-ⅶ-anhang-table-01.md
+  chars: 78
+- kind: publish_md_table
+  section_index: 78
+  heading_path: *id008
+  heading_title: 7.5 Ein- und Ausgangsschaltpläne
+  table_role: generic
+  table_index_in_section: 2
+  relative_path: tables/0078-kapitel-ⅶ-anhang-table-02.md
+  chars: 84
+- kind: publish_md_table
+  section_index: 78
+  heading_path: *id008
+  heading_title: 7.5 Ein- und Ausgangsschaltpläne
+  table_role: generic
+  table_index_in_section: 3
+  relative_path: tables/0078-kapitel-ⅶ-anhang-table-03.md
+  chars: 84
+- kind: publish_md_table
+  section_index: 78
+  heading_path: *id008
+  heading_title: 7.5 Ein- und Ausgangsschaltpläne
+  table_role: generic
+  table_index_in_section: 4
+  relative_path: tables/0078-kapitel-ⅶ-anhang-table-04.md
+  chars: 85
+- kind: publish_md_table
+  section_index: 78
+  heading_path: *id008
+  heading_title: 7.5 Ein- und Ausgangsschaltpläne
+  table_role: generic
+  table_index_in_section: 5
+  relative_path: tables/0078-kapitel-ⅶ-anhang-table-05.md
+  chars: 69
+- kind: publish_md_table
+  section_index: 78
+  heading_path: *id008
+  heading_title: 7.5 Ein- und Ausgangsschaltpläne
+  table_role: generic
+  table_index_in_section: 6
+  relative_path: tables/0078-kapitel-ⅶ-anhang-table-06.md
+  chars: 109
+- kind: publish_md_table
+  section_index: 78
+  heading_path: *id008
+  heading_title: 7.5 Ein- und Ausgangsschaltpläne
+  table_role: generic
+  table_index_in_section: 7
+  relative_path: tables/0078-kapitel-ⅶ-anhang-table-07.md
+  chars: 75
+- kind: publish_md_table
+  section_index: 79
+  heading_path:
+  - Kapitel Ⅶ Anhang
+  - 7.6 Fehlercode
+  heading_title: 7.6 Fehlercode
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0079-kapitel-ⅶ-anhang-table-01.md
+  chars: 1995
+- kind: publish_md_table
+  section_index: 80
+  heading_path:
+  - Kapitel Ⅶ Anhang
+  - 7.7 Warnungscode
+  heading_title: 7.7 Warnungscode
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0080-kapitel-ⅶ-anhang-table-01.md
+  chars: 1881

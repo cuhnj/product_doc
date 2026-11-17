@@ -1,0 +1,9 @@
+<!-- publish-data-sidecar: section=54 heading='Anhang D: Vorschläge zur Fehlerbehebung und Fehlererklärung' role=generic source_md=doc.md -->
+
+| | Fehlerphänomen | Vorschläge zur Fehlerbehebung |
+|---|---|---|
+| 1 | Keine Anzeige nach dem Einschalten | • Stellen Sie sicher, dass die Steckdose stromführend ist<br>• Stellen Sie sicher, dass das Eingangsleistungskabel zuverlässig mit der Steckdose verbunden ist |
+| 2 | Normale Anzeige, aber kein Ausgang | • Stellen Sie sicher, dass die Ausgangsspannung nicht zu klein ist<br>• Stellen Sie sicher, dass der Betriebszustand des Controllers nicht “Man” ist, der durch Drücken der “ON/OFF”-Taste am Bedienfeld gesteuert wird<br>• Stellen Sie sicher, dass der Betriebszustand des Controllers nicht “STP” ist, der durch Port C/E gesteuert wird<br>• Stellen Sie sicher, dass der Betriebszustand des Controllers nicht “STP” ist, der durch den logischen Richtungsparameter von Port C/E gesteuert wird<br>• Setzen Sie den Controller durch die in Funktionsgruppe 8 eingestellte Wiederherstellung der Werkseinstellungen zurück |
+| 3 | Port C/E kann nicht normal arbeiten | • Stellen Sie sicher, dass das EIN/AUS-Steuersignalkabel korrekt an Port C/E angeschlossen ist<br>• Stellen Sie sicher, dass alle von Ihnen angepassten Parameter von Port C/E korrekt sind<br>• Setzen Sie den Controller durch die in Funktionsgruppe 8 eingestellte Wiederherstellung der Werkseinstellungen zurück |
+| 4 | Schwebungseffekt | • Verbinden Sie das Sync-Signalkabel zwischen den Controllern und stellen Sie den Slave-Controller auf den Sync-Modus ein |
+| 5 | Normale Anzeige, Geräusche vom Vibrationsförderer hörbar, aber kein Ausgang | • Stellen Sie sicher, dass die Ausgangsfrequenz nicht weit von der Resonanzfrequenz des Vibrationsförderers entfernt ist<br>• Setzen Sie den Controller durch die in Funktionsgruppe 8 eingestellte Wiederherstellung der Werkseinstellungen zurück |

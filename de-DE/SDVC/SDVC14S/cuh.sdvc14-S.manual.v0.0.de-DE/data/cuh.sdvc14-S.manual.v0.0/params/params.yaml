@@ -1,0 +1,266 @@
+schema_version: 1
+doc_id: cuh.sdvc14-S.manual.v0.0.de-DE
+doc_key: cuh.sdvc14-S.manual.v0.0
+lang: de-DE
+generated_at: '2026-11-18 01:15:43'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 2
+  heading_path: &id001
+  - Variables digitales Spannungsregelmodul für Schwingförderer
+  table_md_path: tables/0002-variables-digitales-spannungsregelmodul-für-schw-table-01.md
+  headers:
+  - Punkt
+  - 'Bereich: Min'
+  - 'Bereich: Typisch'
+  - 'Bereich: Max'
+  - Einheit
+  - Beschreibung
+items:
+- name: Eingangsspannung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Punkt: Eingangsspannung
+    'Bereich: Min': '150'
+    'Bereich: Typisch': '220'
+    'Bereich: Max': '260'
+    Einheit: V
+    Beschreibung: AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variables digitales Spannungsregelmodul für Schwingförderer
+    table_role: generic
+    table_md_path: tables/0002-variables-digitales-spannungsregelmodul-für-schw-table-01.md
+- name: Einstellbarer Ausgangsspannungsbereich
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Punkt: Einstellbarer Ausgangsspannungsbereich
+    'Bereich: Min': '35'
+    'Bereich: Typisch': ——
+    'Bereich: Max': Vin-10
+    Einheit: V
+    Beschreibung: Halbwelle
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variables digitales Spannungsregelmodul für Schwingförderer
+    table_role: generic
+    table_md_path: tables/0002-variables-digitales-spannungsregelmodul-für-schw-table-01.md
+- name: Ansprechzeit der Spannungsregelung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Punkt: Ansprechzeit der Spannungsregelung
+    'Bereich: Min': '0'
+    'Bereich: Typisch': '0.01'
+    'Bereich: Max': '0.02'
+    Einheit: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variables digitales Spannungsregelmodul für Schwingförderer
+    table_role: generic
+    table_md_path: tables/0002-variables-digitales-spannungsregelmodul-für-schw-table-01.md
+- name: Einstellbarer Ausgangsstrombereich
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Punkt: Einstellbarer Ausgangsstrombereich
+    'Bereich: Min': '0.1'
+    'Bereich: Typisch': ——
+    'Bereich: Max': '4'
+    Einheit: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variables digitales Spannungsregelmodul für Schwingförderer
+    table_role: generic
+    table_md_path: tables/0002-variables-digitales-spannungsregelmodul-für-schw-table-01.md
+- name: Ausgangsleistung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Punkt: Ausgangsleistung
+    'Bereich: Min': '22'
+    'Bereich: Typisch': ——
+    'Bereich: Max': '880'
+    Einheit: VA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variables digitales Spannungsregelmodul für Schwingförderer
+    table_role: generic
+    table_md_path: tables/0002-variables-digitales-spannungsregelmodul-für-schw-table-01.md
+- name: Ausgangsfrequenz
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Punkt: Ausgangsfrequenz
+    'Bereich: Min': '45'
+    'Bereich: Typisch': 50/60
+    'Bereich: Max': '65'
+    Einheit: Hz
+    Beschreibung: Halbwelle
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variables digitales Spannungsregelmodul für Schwingförderer
+    table_role: generic
+    table_md_path: tables/0002-variables-digitales-spannungsregelmodul-für-schw-table-01.md
+- name: Ausgangswellenform
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Punkt: Ausgangswellenform
+    'Bereich: Typisch': Phasenanschnitt-Sinus
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variables digitales Spannungsregelmodul für Schwingförderer
+    table_role: generic
+    table_md_path: tables/0002-variables-digitales-spannungsregelmodul-für-schw-table-01.md
+- name: Sanftanlaufzeit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Punkt: Sanftanlaufzeit
+    'Bereich: Min': '0.5'
+    'Bereich: Typisch': '0.65'
+    'Bereich: Max': '0.7'
+    Einheit: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variables digitales Spannungsregelmodul für Schwingförderer
+    table_role: generic
+    table_md_path: tables/0002-variables-digitales-spannungsregelmodul-für-schw-table-01.md
+- name: Auslösetemperatur des Überhitzungsschutzes
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Punkt: Auslösetemperatur des Überhitzungsschutzes
+    'Bereich: Min': '58'
+    'Bereich: Typisch': '60'
+    'Bereich: Max': '66'
+    Einheit: ℃
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variables digitales Spannungsregelmodul für Schwingförderer
+    table_role: generic
+    table_md_path: tables/0002-variables-digitales-spannungsregelmodul-für-schw-table-01.md
+- name: Spannung der Fern-Ein/Aus-Steuerung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Punkt: Spannung der Fern-Ein/Aus-Steuerung
+    'Bereich: Min': '5'
+    'Bereich: Typisch': ——
+    'Bereich: Max': '24'
+    Einheit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variables digitales Spannungsregelmodul für Schwingförderer
+    table_role: generic
+    table_md_path: tables/0002-variables-digitales-spannungsregelmodul-für-schw-table-01.md
+- name: Sicherungskapazität
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Punkt: Sicherungskapazität
+    'Bereich: Typisch': '6.3'
+    Einheit: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variables digitales Spannungsregelmodul für Schwingförderer
+    table_role: generic
+    table_md_path: tables/0002-variables-digitales-spannungsregelmodul-für-schw-table-01.md
+- name: Umgebungstemperatur
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Punkt: Umgebungstemperatur
+    'Bereich: Min': '0'
+    'Bereich: Typisch': '25'
+    'Bereich: Max': '40'
+    Einheit: ℃
+    Beschreibung: Ohne Kondensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variables digitales Spannungsregelmodul für Schwingförderer
+    table_role: generic
+    table_md_path: tables/0002-variables-digitales-spannungsregelmodul-für-schw-table-01.md
+- name: Umgebungsfeuchtigkeit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Punkt: Umgebungsfeuchtigkeit
+    'Bereich: Min': '10'
+    'Bereich: Typisch': '60'
+    'Bereich: Max': '85'
+    Einheit: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Variables digitales Spannungsregelmodul für Schwingförderer
+    table_role: generic
+    table_md_path: tables/0002-variables-digitales-spannungsregelmodul-für-schw-table-01.md

@@ -1,0 +1,1496 @@
+schema_version: 1
+doc_id: cuh.sdvc31-U.series.manual.v3.01.de-DE
+doc_key: cuh.sdvc31-U.series.manual.v3.01
+lang: de-DE
+generated_at: '2026-11-18 01:17:06'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 7
+  heading_path: &id001
+  - Kapitel III Beschreibung der Komponenten
+  table_md_path: tables/0007-kapitel-iii-beschreibung-der-komponenten-table-01.md
+  headers:
+  - Position
+  - Beschreibung
+- section_index: 7
+  heading_path: *id001
+  table_md_path: tables/0007-kapitel-iii-beschreibung-der-komponenten-table-02.md
+  headers:
+  - Modell
+  - Strom
+- section_index: 22
+  heading_path: &id002
+  - Kapitel V Sensoren und Signalsteuerung
+  - 5.2 Verwendungsmethode des NPN-Schaltsensors
+  table_md_path: tables/0022-kapitel-v-sensoren-und-signalsteuerung-table-01.md
+  headers:
+  - Klemme
+  - Draht
+- section_index: 23
+  heading_path: &id003
+  - Kapitel V Sensoren und Signalsteuerung
+  - 5.2.4 Anschlussmethode des optischen Lichtwellenleiter-Gegenspannungssensors
+  table_md_path: tables/0023-kapitel-v-sensoren-und-signalsteuerung-table-01.md
+  headers:
+  - Klemme
+  - Beschriftung
+- section_index: 35
+  heading_path: &id004
+  - Anhang
+  - 'Anhang C: Definition der Signalschnittstelle'
+  table_md_path: tables/0035-anhang-table-01.md
+  headers:
+  - Klemme
+  - Definition
+- section_index: 36
+  heading_path: &id005
+  - Anhang
+  - '**Anhang D:** Definition der LED-Anzeigeelemente'
+  table_md_path: tables/0036-anhang-table-01.md
+  headers:
+  - Controller
+  - Angezeigtes Zeichen
+  - Symbolbild
+- section_index: 37
+  heading_path: &id006
+  - Anhang
+  - 'Anhang E: Elektrische Spezifikation'
+  table_md_path: tables/0037-anhang-table-01.md
+  headers:
+  - Position
+  - Minimum
+  - Typisch
+  - Maximum
+  - Einheit
+  - Beschreibung
+- section_index: 38
+  heading_path: &id007
+  - Anhang
+  - 'Anhang F: Tipps zur Fehlerbehebung und Fehlererläuterungen'
+  table_md_path: tables/0038-anhang-table-01.md
+  headers:
+  - Nr.
+  - Problem / Anzeige
+  - Symbolbild
+  - Tipps zur Fehlerbehebung und Fehlererläuterungen
+items:
+- name: Ausgangsspannungsindikator
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Ausgangsspannungsindikator
+    Beschreibung: Die Anzeige leuchtet auf, wenn der Controller in den Ausgangsspannungseinstellstatus
+      wechselt.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Kapitel III Beschreibung der Komponenten
+    table_role: generic
+    table_md_path: tables/0007-kapitel-iii-beschreibung-der-komponenten-table-01.md
+- name: Ausgangsfrequenzindikator
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Ausgangsfrequenzindikator
+    Beschreibung: Die Anzeige leuchtet auf, wenn der Controller in den Ausgangsfrequenzeinstellstatus
+      wechselt.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Kapitel III Beschreibung der Komponenten
+    table_role: generic
+    table_md_path: tables/0007-kapitel-iii-beschreibung-der-komponenten-table-01.md
+- name: Anlaufverzögerungsindikator
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Anlaufverzögerungsindikator
+    Beschreibung: Die Anzeige leuchtet auf, wenn der Controller in den Einstellstatus
+      der Anlaufverzögerungszeit wechselt.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Kapitel III Beschreibung der Komponenten
+    table_role: generic
+    table_md_path: tables/0007-kapitel-iii-beschreibung-der-komponenten-table-01.md
+- name: Abschaltverzögerungsindikator
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Abschaltverzögerungsindikator
+    Beschreibung: Die Anzeige leuchtet auf, wenn der Controller in den Einstellstatus
+      der Abschaltverzögerungszeit wechselt.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Kapitel III Beschreibung der Komponenten
+    table_role: generic
+    table_md_path: tables/0007-kapitel-iii-beschreibung-der-komponenten-table-01.md
+- name: Sanftanlauf-Indikator
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Sanftanlauf-Indikator
+    Beschreibung: Die Anzeige leuchtet auf, wenn der Controller in den Einstellstatus
+      der Sanftanlaufzeit wechselt.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Kapitel III Beschreibung der Komponenten
+    table_role: generic
+    table_md_path: tables/0007-kapitel-iii-beschreibung-der-komponenten-table-01.md
+- name: Taste Ausgangsspannung erhöhen & Taste Ausgangsspannung verringern
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Taste Ausgangsspannung erhöhen & Taste Ausgangsspannung verringern
+    Beschreibung: Die Ausgangsspannung kann mit diesen beiden Tasten geändert werden.
+      Wenn die Tastatursperre aktiviert ist, sind diese beiden Tasten wirkungslos.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Kapitel III Beschreibung der Komponenten
+    table_role: generic
+    table_md_path: tables/0007-kapitel-iii-beschreibung-der-komponenten-table-01.md
+- name: Taste Erweiterte Parameter erhöhen & Taste Erweiterte Parameter verringern
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Taste Erweiterte Parameter erhöhen & Taste Erweiterte Parameter verringern
+    Beschreibung: Erweiterte Parameter können mit diesen beiden Tasten angepasst werden.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Kapitel III Beschreibung der Komponenten
+    table_role: generic
+    table_md_path: tables/0007-kapitel-iii-beschreibung-der-komponenten-table-01.md
+- name: FUNC-Taste
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: FUNC-Taste
+    Beschreibung: Wechseln Sie erweiterte Parameter durch Drücken dieser Taste.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Kapitel III Beschreibung der Komponenten
+    table_role: generic
+    table_md_path: tables/0007-kapitel-iii-beschreibung-der-komponenten-table-01.md
+- name: Soft-Power-Schaltertaste
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Soft-Power-Schaltertaste
+    Beschreibung: Starten oder stoppen Sie die Ausgabe des Controllers durch Drücken
+      dieser Taste.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Kapitel III Beschreibung der Komponenten
+    table_role: generic
+    table_md_path: tables/0007-kapitel-iii-beschreibung-der-komponenten-table-01.md
+- name: SDVC31-S
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modell: SDVC31-S
+    Strom: 1,5 A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Kapitel III Beschreibung der Komponenten
+    table_role: generic
+    table_md_path: tables/0007-kapitel-iii-beschreibung-der-komponenten-table-02.md
+- name: SDVC31-M
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modell: SDVC31-M
+    Strom: 3 A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Kapitel III Beschreibung der Komponenten
+    table_role: generic
+    table_md_path: tables/0007-kapitel-iii-beschreibung-der-komponenten-table-02.md
+- name: SDVC31-L
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modell: SDVC31-L
+    Strom: 4,5 A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Kapitel III Beschreibung der Komponenten
+    table_role: generic
+    table_md_path: tables/0007-kapitel-iii-beschreibung-der-komponenten-table-02.md
+- name: SDVC31-XL
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modell: SDVC31-XL
+    Strom: 6,0 A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Kapitel III Beschreibung der Komponenten
+    table_role: generic
+    table_md_path: tables/0007-kapitel-iii-beschreibung-der-komponenten-table-02.md
+- name: SDVC31-U
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modell: SDVC31-U
+    Strom: 10 A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Kapitel III Beschreibung der Komponenten
+    table_role: generic
+    table_md_path: tables/0007-kapitel-iii-beschreibung-der-komponenten-table-02.md
+- name: SDVC31-XU
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modell: SDVC31-XU
+    Strom: 20 A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Kapitel III Beschreibung der Komponenten
+    table_role: generic
+    table_md_path: tables/0007-kapitel-iii-beschreibung-der-komponenten-table-02.md
+- name: C1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: C1
+    Draht: Erdungsdraht
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id002
+    heading_title: 5.2 Verwendungsmethode des NPN-Schaltsensors
+    table_role: generic
+    table_md_path: tables/0022-kapitel-v-sensoren-und-signalsteuerung-table-01.md
+- name: C2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: C2
+    Draht: Signaldraht
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id002
+    heading_title: 5.2 Verwendungsmethode des NPN-Schaltsensors
+    table_role: generic
+    table_md_path: tables/0022-kapitel-v-sensoren-und-signalsteuerung-table-01.md
+- name: C3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: C3
+    Draht: +24 V-Ausgang
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id002
+    heading_title: 5.2 Verwendungsmethode des NPN-Schaltsensors
+    table_role: generic
+    table_md_path: tables/0022-kapitel-v-sensoren-und-signalsteuerung-table-01.md
+- name: C1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: C1
+    Beschriftung: Erdungsdraht
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 23
+    heading_path: *id003
+    heading_title: 5.2.4 Anschlussmethode des optischen Lichtwellenleiter-Gegenspannungssensors
+    table_role: generic
+    table_md_path: tables/0023-kapitel-v-sensoren-und-signalsteuerung-table-01.md
+- name: C2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: C2
+    Beschriftung: Signaldraht
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 23
+    heading_path: *id003
+    heading_title: 5.2.4 Anschlussmethode des optischen Lichtwellenleiter-Gegenspannungssensors
+    table_role: generic
+    table_md_path: tables/0023-kapitel-v-sensoren-und-signalsteuerung-table-01.md
+- name: C3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: C3
+    Beschriftung: +24 V-Ausgang
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 23
+    heading_path: *id003
+    heading_title: 5.2.4 Anschlussmethode des optischen Lichtwellenleiter-Gegenspannungssensors
+    table_role: generic
+    table_md_path: tables/0023-kapitel-v-sensoren-und-signalsteuerung-table-01.md
+- name: A1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: A1
+    Definition: Erdungsdraht der Fern-Geschwindigkeitsregelung
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Anhang C: Definition der Signalschnittstelle'
+    table_role: generic
+    table_md_path: tables/0035-anhang-table-01.md
+- name: A2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: A2
+    Definition: Eingang der Fern-Geschwindigkeitsregelung
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Anhang C: Definition der Signalschnittstelle'
+    table_role: generic
+    table_md_path: tables/0035-anhang-table-01.md
+- name: A3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: A3
+    Definition: Stromversorgung der Fern-Geschwindigkeitsregelung
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Anhang C: Definition der Signalschnittstelle'
+    table_role: generic
+    table_md_path: tables/0035-anhang-table-01.md
+- name: B1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: B1
+    Definition: Masse
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Anhang C: Definition der Signalschnittstelle'
+    table_role: generic
+    table_md_path: tables/0035-anhang-table-01.md
+- name: B2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: B2
+    Definition: Signaleingang des intelligenten photoelektrischen Sensors
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Anhang C: Definition der Signalschnittstelle'
+    table_role: generic
+    table_md_path: tables/0035-anhang-table-01.md
+- name: B3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: B3
+    Definition: Masse
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Anhang C: Definition der Signalschnittstelle'
+    table_role: generic
+    table_md_path: tables/0035-anhang-table-01.md
+- name: B4
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: B4
+    Definition: Signalausgang des intelligenten photoelektrischen Sensors
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Anhang C: Definition der Signalschnittstelle'
+    table_role: generic
+    table_md_path: tables/0035-anhang-table-01.md
+- name: C1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: C1
+    Definition: +24 V GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Anhang C: Definition der Signalschnittstelle'
+    table_role: generic
+    table_md_path: tables/0035-anhang-table-01.md
+- name: C2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: C2
+    Definition: Signaleingang des NPN-Schaltsensors
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Anhang C: Definition der Signalschnittstelle'
+    table_role: generic
+    table_md_path: tables/0035-anhang-table-01.md
+- name: C3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: C3
+    Definition: +24 V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Anhang C: Definition der Signalschnittstelle'
+    table_role: generic
+    table_md_path: tables/0035-anhang-table-01.md
+- name: D1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: D1
+    Definition: Steuerausgang
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Anhang C: Definition der Signalschnittstelle'
+    table_role: generic
+    table_md_path: tables/0035-anhang-table-01.md
+- name: D2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Klemme: D2
+    Definition: +24 V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Anhang C: Definition der Signalschnittstelle'
+    table_role: generic
+    table_md_path: tables/0035-anhang-table-01.md
+- name: '`U`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`U`'
+    Angezeigtes Zeichen: Ausgangsspannung
+    Symbolbild: '![Siebensegment-Symbol: U](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Anhang D:** Definition der LED-Anzeigeelemente'
+    table_role: generic
+    table_md_path: tables/0036-anhang-table-01.md
+- name: '`F`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`F`'
+    Angezeigtes Zeichen: Ausgangsfrequenz
+    Symbolbild: '![Siebensegment-Symbol: F](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Anhang D:** Definition der LED-Anzeigeelemente'
+    table_role: generic
+    table_md_path: tables/0036-anhang-table-01.md
+- name: '`d`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`d`'
+    Angezeigtes Zeichen: Anlaufverzögerungszeit des intelligenten photoelektrischen
+      Sensors
+    Symbolbild: '![Siebensegment-Symbol: d](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Anhang D:** Definition der LED-Anzeigeelemente'
+    table_role: generic
+    table_md_path: tables/0036-anhang-table-01.md
+- name: '`C`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`C`'
+    Angezeigtes Zeichen: Abschaltverzögerungszeit des intelligenten photoelektrischen
+      Sensors
+    Symbolbild: '![Siebensegment-Symbol: C](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-03.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Anhang D:** Definition der LED-Anzeigeelemente'
+    table_role: generic
+    table_md_path: tables/0036-anhang-table-01.md
+- name: '`E`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`E`'
+    Angezeigtes Zeichen: Sanftanlauf
+    Symbolbild: '![Siebensegment-Symbol: E](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-04.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Anhang D:** Definition der LED-Anzeigeelemente'
+    table_role: generic
+    table_md_path: tables/0036-anhang-table-01.md
+- name: '`U-`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`U-`'
+    Angezeigtes Zeichen: Abschaltverzögerung
+    Symbolbild: '![Siebensegment-Symbol: U-](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-05.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Anhang D:** Definition der LED-Anzeigeelemente'
+    table_role: generic
+    table_md_path: tables/0036-anhang-table-01.md
+- name: '`d-`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`d-`'
+    Angezeigtes Zeichen: Anlaufverzögerungszeit des NPN-Schaltsensors
+    Symbolbild: '![Siebensegment-Symbol: d-](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-06.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Anhang D:** Definition der LED-Anzeigeelemente'
+    table_role: generic
+    table_md_path: tables/0036-anhang-table-01.md
+- name: '`r1`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`r1`'
+    Angezeigtes Zeichen: Logische Beziehung des intelligenten photoelektrischen Sensors
+    Symbolbild: '![Siebensegment-Symbol: r1](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-07.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Anhang D:** Definition der LED-Anzeigeelemente'
+    table_role: generic
+    table_md_path: tables/0036-anhang-table-01.md
+- name: '`r2`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`r2`'
+    Angezeigtes Zeichen: Logische Beziehung des NPN-Schaltsensors
+    Symbolbild: '![Siebensegment-Symbol: r2](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-08.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Anhang D:** Definition der LED-Anzeigeelemente'
+    table_role: generic
+    table_md_path: tables/0036-anhang-table-01.md
+- name: '`r3`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`r3`'
+    Angezeigtes Zeichen: Logische Beziehung des Steuerausgangs
+    Symbolbild: '![Siebensegment-Symbol: r3](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-09.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Anhang D:** Definition der LED-Anzeigeelemente'
+    table_role: generic
+    table_md_path: tables/0036-anhang-table-01.md
+- name: '`n`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`n`'
+    Angezeigtes Zeichen: Logische Beziehung des Steuersignals
+    Symbolbild: '![Siebensegment-Symbol: n](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-10.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Anhang D:** Definition der LED-Anzeigeelemente'
+    table_role: generic
+    table_md_path: tables/0036-anhang-table-01.md
+- name: '`H`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`H`'
+    Angezeigtes Zeichen: Maximale Ausgangsspannung
+    Symbolbild: '![Siebensegment-Symbol: H](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-11.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Anhang D:** Definition der LED-Anzeigeelemente'
+    table_role: generic
+    table_md_path: tables/0036-anhang-table-01.md
+- name: '`A`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`A`'
+    Angezeigtes Zeichen: Beschleunigungsindex
+    Symbolbild: '![Siebensegment-Symbol: A](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-12.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Anhang D:** Definition der LED-Anzeigeelemente'
+    table_role: generic
+    table_md_path: tables/0036-anhang-table-01.md
+- name: '`P`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`P`'
+    Angezeigtes Zeichen: Wellenformindex
+    Symbolbild: '![Siebensegment-Symbol: P](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-13.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Anhang D:** Definition der LED-Anzeigeelemente'
+    table_role: generic
+    table_md_path: tables/0036-anhang-table-01.md
+- name: '`88888`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controller: '`88888`'
+    Angezeigtes Zeichen: Wiederherstellung der Werkseinstellungen
+    Symbolbild: '![Siebensegment-Symbol: 88888](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-14.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Anhang D:** Definition der LED-Anzeigeelemente'
+    table_role: generic
+    table_md_path: tables/0036-anhang-table-01.md
+- name: Eingangsspannung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Eingangsspannung
+    Minimum: '85'
+    Typisch: '220'
+    Maximum: '250'
+    Einheit: V
+    Beschreibung: AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Einstellbarer Ausgangs-<br>spannungsbereich
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Einstellbarer Ausgangs-<br>spannungsbereich
+    Minimum: '0'
+    Typisch: ——
+    Maximum: '250'
+    Einheit: V
+    Beschreibung: Unter 150 % der<br>Eingangsspannung
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Genauigkeit der Spannungs-<br>einstellung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Genauigkeit der Spannungs-<br>einstellung
+    Typisch: '1'
+    Einheit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Genauigkeit der Spannungs-<br>regelung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Genauigkeit der Spannungs-<br>regelung
+    Minimum: '0'
+    Typisch: ——
+    Maximum: '10'
+    Einheit: '%'
+    Beschreibung: ΔVout/ΔVin
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Ansprechzeit der Spannungs-<br>regelung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Ansprechzeit der Spannungs-<br>regelung
+    Minimum: '0.0025'
+    Typisch: ——
+    Maximum: '0.025'
+    Einheit: s
+    Beschreibung: 1/10 der Periode der<br>Ausgangsspannung
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Einstellbarer Ausgangs-<br>strombereich
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Einstellbarer Ausgangs-<br>strombereich
+    Minimum: '0'
+    Typisch: ——
+    Maximum: '1.5'
+    Einheit: A
+    Beschreibung: SDVC31-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Ausgangsleistung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Ausgangsleistung
+    Minimum: '0'
+    Typisch: ——
+    Maximum: '330'
+    Einheit: VA
+    Beschreibung: SDVC31-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Ausgangsfrequenz
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Ausgangsfrequenz
+    Minimum: '40'
+    Typisch: ——
+    Maximum: '400'
+    Einheit: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Genauigkeit der Frequenz-<br>einstellung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Genauigkeit der Frequenz-<br>einstellung
+    Typisch: '0.1'
+    Einheit: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Ausgangswellenform
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Ausgangswellenform
+    Typisch: Sinus
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Sanftanlaufzeit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Sanftanlaufzeit
+    Minimum: '0'
+    Typisch: ——
+    Maximum: '10'
+    Einheit: s
+    Beschreibung: 'Werkseitiger Standard-<br>wert: 0,5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Ein-/Ausschaltverzögerungs-<br>zeitbereich
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Ein-/Ausschaltverzögerungs-<br>zeitbereich
+    Minimum: '0'
+    Typisch: ——
+    Maximum: '20'
+    Einheit: s
+    Beschreibung: 'Werkseitiger Standard-<br>wert: 0,2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Genauigkeit der Ein-/Aus-<br>schaltverzögerungszeit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Genauigkeit der Ein-/Aus-<br>schaltverzögerungszeit
+    Typisch: '0.1'
+    Einheit: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Auslösetemperatur des Über-<br>hitzungsschutzes
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Auslösetemperatur des Über-<br>hitzungsschutzes
+    Minimum: '58'
+    Typisch: '60'
+    Maximum: '66'
+    Einheit: ℃
+    Beschreibung: SDVC31-SM
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: DC-Steuerausgangs-<br>spannung
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: DC-Steuerausgangs-<br>spannung
+    Minimum: '22'
+    Typisch: '24'
+    Maximum: '26'
+    Einheit: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: DC-Steuerausgangs-<br>strom
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: DC-Steuerausgangs-<br>strom
+    Minimum: '0'
+    Typisch: ——
+    Maximum: '200'
+    Einheit: mA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Analoges Steuersignal
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Analoges Steuersignal
+    Typisch: 1-5
+    Einheit: V
+    Beschreibung: Fern-Geschwindigkeits-<br>regelspannung
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Digitales Steuersignal
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Digitales Steuersignal
+    Typisch: '24'
+    Einheit: V
+    Beschreibung: Schaltsignal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Einstellmethode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Einstellmethode
+    Typisch: '6'
+    Einheit: Taste
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Standby-Leistungs-<br>aufnahme
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Standby-Leistungs-<br>aufnahme
+    Minimum: ——
+    Typisch: '3'
+    Maximum: ——
+    Einheit: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Anzeigemethode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Anzeigemethode
+    Typisch: '5'
+    Einheit: Stelle
+    Beschreibung: LED-Siebensegmentanzeigen
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Umgebungstemperatur
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Umgebungstemperatur
+    Minimum: '0'
+    Typisch: '25'
+    Maximum: '40'
+    Einheit: ℃
+    Beschreibung: Keine Kondensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: Umgebungsfeuchtigkeit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Position: Umgebungsfeuchtigkeit
+    Minimum: '10'
+    Typisch: '60'
+    Maximum: '85'
+    Einheit: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Anhang E: Elektrische Spezifikation'
+    table_role: generic
+    table_md_path: tables/0037-anhang-table-01.md
+- name: '1'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Nr.: '1'
+    Problem / Anzeige: Keine Anzeige nach<br>Einschalten
+    Tipps zur Fehlerbehebung und Fehlererläuterungen: ◆ Stellen Sie sicher, dass die
+      Steckdose stromführend ist<br>◆ Stellen Sie sicher, dass das Netzkabel zuverlässig
+      mit der Steckdose verbunden ist
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Anhang F: Tipps zur Fehlerbehebung und Fehlererläuterungen'
+    table_role: generic
+    table_md_path: tables/0038-anhang-table-01.md
+- name: '2'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Nr.: '2'
+    Problem / Anzeige: Zeigt normal an,<br>aber keine Ausgabe
+    Tipps zur Fehlerbehebung und Fehlererläuterungen: ◆ Stellen Sie sicher, dass Netzkabel
+      und Ausgangskabel fest angeschlossen sind<br>◆ Stellen Sie sicher, dass der
+      Ausgangsspannungsparameterwert nicht zu klein ist<br>◆ Stellen Sie sicher, dass
+      der Controller nicht durch das Steuersignal gestoppt wurde<br>◆ Stellen Sie
+      sicher, dass der Controller nicht durch Parameter gestoppt wurde, die als normal
+      ausgeschaltet eingestellt sind
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Anhang F: Tipps zur Fehlerbehebung und Fehlererläuterungen'
+    table_role: generic
+    table_md_path: tables/0038-anhang-table-01.md
+- name: '3'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Nr.: '3'
+    Problem / Anzeige: Steuersignal<br>verliert seine Wirkung
+    Tipps zur Fehlerbehebung und Fehlererläuterungen: ◆ Stellen Sie sicher, dass das
+      Steuersignal korrekt eingegeben wird<br>◆ Stellen Sie sicher, dass der Erdungsdraht
+      des Steuersignals korrekt mit dem Controller verbunden ist<br>◆ Stellen Sie
+      sicher, dass die logische Beziehung des Steuersignals wie erwartet korrekt eingestellt
+      ist
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Anhang F: Tipps zur Fehlerbehebung und Fehlererläuterungen'
+    table_role: generic
+    table_md_path: tables/0038-anhang-table-01.md
+- name: '4'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Nr.: '4'
+    Problem / Anzeige: Schlagen (Beat-Phänomen)
+    Tipps zur Fehlerbehebung und Fehlererläuterungen: ◆ Vermeiden Sie Schwingungskopplung
+      zwischen den Vibratoren<br>◆ Erhöhen Sie die Resonanzfrequenz der Vibratoren
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Anhang F: Tipps zur Fehlerbehebung und Fehlererläuterungen'
+    table_role: generic
+    table_md_path: tables/0038-anhang-table-01.md
+- name: '5'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Nr.: '5'
+    Problem / Anzeige: Zeigt normal an,<br>keine Ausgabe, aber<br>Geräusch ist hörbar
+    Tipps zur Fehlerbehebung und Fehlererläuterungen: ◆ Stellen Sie alle Parameter
+      wie in diesem Buch beschrieben ein
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Anhang F: Tipps zur Fehlerbehebung und Fehlererläuterungen'
+    table_role: generic
+    table_md_path: tables/0038-anhang-table-01.md
+- name: '6'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Nr.: '6'
+    Problem / Anzeige: Err01
+    Symbolbild: '![Siebensegment-Anzeigeelement Err01](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-00.png)'
+    Tipps zur Fehlerbehebung und Fehlererläuterungen: ◆ Ausgang kurzgeschlossen, stellen
+      Sie sicher, dass das Ausgangskabel und die Spule nicht kurzgeschlossen sind
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Anhang F: Tipps zur Fehlerbehebung und Fehlererläuterungen'
+    table_role: generic
+    table_md_path: tables/0038-anhang-table-01.md
+- name: '7'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Nr.: '7'
+    Problem / Anzeige: Err02
+    Symbolbild: '![Siebensegment-Anzeigeelement Err02](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-01.png)'
+    Tipps zur Fehlerbehebung und Fehlererläuterungen: ◆ Ausgangsstrom zu hoch, verringern
+      Sie den Ausgangsspannungswert und stellen Sie sicher, dass der Ankerluftspalt
+      nicht zu groß ist
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Anhang F: Tipps zur Fehlerbehebung und Fehlererläuterungen'
+    table_role: generic
+    table_md_path: tables/0038-anhang-table-01.md
+- name: '8'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Nr.: '8'
+    Problem / Anzeige: Err03
+    Symbolbild: '![Siebensegment-Anzeigeelement Err03](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-02.png)'
+    Tipps zur Fehlerbehebung und Fehlererläuterungen: ◆ Überhitzung, platzieren Sie
+      den Controller in einer gut belüfteten Umgebung
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Anhang F: Tipps zur Fehlerbehebung und Fehlererläuterungen'
+    table_role: generic
+    table_md_path: tables/0038-anhang-table-01.md
+- name: '9'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Nr.: '9'
+    Problem / Anzeige: Err04
+    Symbolbild: '![Siebensegment-Anzeigeelement Err04](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-03.png)'
+    Tipps zur Fehlerbehebung und Fehlererläuterungen: ◆ Reserviert, bitte kontaktieren
+      Sie uns
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Anhang F: Tipps zur Fehlerbehebung und Fehlererläuterungen'
+    table_role: generic
+    table_md_path: tables/0038-anhang-table-01.md
+- name: '10'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Nr.: '10'
+    Problem / Anzeige: Err05
+    Symbolbild: '![Siebensegment-Anzeigeelement Err05](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-04.png)'
+    Tipps zur Fehlerbehebung und Fehlererläuterungen: ◆ Reserviert, bitte kontaktieren
+      Sie uns
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Anhang F: Tipps zur Fehlerbehebung und Fehlererläuterungen'
+    table_role: generic
+    table_md_path: tables/0038-anhang-table-01.md

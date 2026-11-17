@@ -1,0 +1,21 @@
+<!-- publish-data-sidecar: section=44 heading='7.4 Parametertabelle' role=generic source_md=doc.md -->
+
+| | Definition | Symbol | Segment-Anzeigesymbol | Bereich | Standard |
+|---|---|---|---|---|---|
+| Allgemeiner Parameter | Ausgangsspannung | U | ![Ausgangsspannung: Segment-Symbol U](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-00.png) | 0~250 V | 150 |
+| Basisparameter | Ausgangsfrequenz | E | ![Ausgangsfrequenz: Segment-Symbol E](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-01.png) | FULL，HALF | FULL |
+| Basisparameter | Einschaltverzögerung des intelligenten fotoelektrischen Sensors | J | ![Einschaltverzögerung des intelligenten fotoelektrischen Sensors: J](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-02.png) | 0.0~9.9 s | 0.2 |
+| Basisparameter | Ausschaltverzögerung des intelligenten fotoelektrischen Sensors | L | ![Ausschaltverzögerung des intelligenten fotoelektrischen Sensors: L](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-03.png) | 0.0~9.9 s | 0.2 |
+| Basisparameter | Sanftanlauf | t | ![Sanftanlauf: t](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-04.png) | 0.0~9.9 s | 1.0 |
+| Erweiterter Parameter | Einschaltverzögerung des NPN-Schaltsensors | J- | ![Einschaltverzögerung NPN: J mit mittlerem Strich](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-05.png) | 0.0~9.9 s | ---<br>wie J |
+| Erweiterter Parameter | Ausschaltverzögerung des NPN-Schaltsensors | L- | ![Ausschaltverzögerung NPN: L mit mittlerem Strich](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-06.png) | 0.0~9.9 s | ---<br>wie L |
+| Erweiterter Parameter | Einschaltverzögerung des zweiten NPN-Schaltsensors | J_ | ![Einschaltverzögerung zweiter NPN: J mit unterem Strich](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-07.png) | 0.0~9.9 s | ---<br>wie J |
+| Erweiterter Parameter | Ausschaltverzögerung des zweiten NPN-Schaltsensors | L_ | ![Ausschaltverzögerung zweiter NPN: L mit unterem Strich](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-08.png) | 0.0~9.9 s | ---<br>wie L |
+| Erweiterter Parameter | Logikrichtung des intelligenten fotoelektrischen Sensors | F1 | ![Logikrichtung des intelligenten fotoelektrischen Sensors: F1](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-09.png) | Normal Close, Normal Open<br>![Normal Close und Normal Open mit zugehörigen Segmentkombinationen](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-17.png) | ___ |
+| Erweiterter Parameter | Logikrichtung des NPN-Schaltsensors | F2 | ![Logikrichtung des NPN-Schaltsensors: F2](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-10.png) | Normal Close, Normal Open<br>[[vcrop:41:17]] | ___ |
+| Erweiterter Parameter | Logikrichtung des Steuerausgangs | F3 | ![Logikrichtung des Steuerausgangs: F3](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-11.png) | Normal Close, Normal Open<br>[[vcrop:41:17]] | ___ |
+| Erweiterter Parameter | Logikrichtung des zweiten NPN-Schaltsensors | F4 | ![Logikrichtung des zweiten NPN-Schaltsensors: F4](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-12.png) | Normal Close, Normal Open<br>[[vcrop:41:17]] | ___ |
+| Erweiterter Parameter | Logische Verknüpfung der Steuersignale | A | ![Logische Verknüpfung der Steuersignale: A](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-13.png) | or, And, Hor<br>![or, And, Hor mit zugehörigen Segmentkombinationen](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-18.png) | ![Segmentkombination des Standardwerts der logischen Verknüpfung](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-19.png) |
+| Erweiterter Parameter | Maximale Ausgangsspannung | h | ![Maximale Ausgangsspannung: h](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-14.png) | 0~250 V | 220 |
+| Erweiterter Parameter | Empfindlichkeit des intelligenten fotoelektrischen Sensors | P | ![Empfindlichkeit des intelligenten fotoelektrischen Sensors: P](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-15.png) | 0~1000 | 80 |
+| Erweiterter Parameter | Wiederherstellen der Werkseinstellungen | 8.8.8.8.8. | ![Wiederherstellen der Werkseinstellungen: alle Segmente und Dezimalpunkte leuchten](assets/images/cuh.sdvc21-S.manual.v0.0/page-0041-vcrop-16.png) | —— | —— |
