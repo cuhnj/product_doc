@@ -56,6 +56,7 @@ Source: CUH Product Catalog V8.01 (company overview sections). Full catalog link
 | 泰文 | th-TH |
 | 西班牙文 | es-ES |
 | 法文 | fr-FR |
+| 韩文 | ko-KR |
 
 ### 产品手册 / Product Catalog
 
@@ -85,13 +86,13 @@ Source: CUH Product Catalog V8.01 (company overview sections). Full catalog link
 - **SDVC301-S、SDVC301-M 数字调频振动送料控制器** [中文](zh-CN/SDVC/SDVC301&302/cuh.sdvc.manual.v6.01.zh-CN/doc.md)
 - **SDVC302-S、SDVC302-M数字调频振动送料控制器** [中文](zh-CN/SDVC/SDVC301&302/cuh.sdvc.manual.v6.01.zh-CN/doc.md)
 - **SDVC31-S、SDVC31-M数字调频振动送料控制器** [中文](zh-CN/SDVC/SDVC31S/cuh.sdvc31SMS.manual.v2.01.zh-CN/doc.md)
-- **SDVC311-S、SDVC311-M 数字调频振动送料控制器** [中文](zh-CN/SDVC/SDVC31S/cuh.sdvc31SMS.manual.v7.01.zh-CN/doc.md) [英文](en-US/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.en-US/doc.md) [德文](de-DE/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.de-DE/doc.md) [泰文](th-TH/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.th-TH/doc.md) [西班牙文](es-ES/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.es-ES/doc.md) [法文](fr-FR/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.fr-FR/doc.md)
-- **SDVC31-L、SDVC31-XL 数字调频振动送料控制器** [中文](zh-CN/SDVC/SDVC31S/cuh.sdvc31SMS.manual.v2.01.zh-CN/doc.md) [英文](en-US/SDVC/SDVC31/cuh.sdvc311.manual.v0.0.en-US/doc.md) [德文](de-DE/SDVC/SDVC31/cuh.sdvc311.sms.manual.v0.0.de-DE/doc.md) [泰文](th-TH/SDVC/SDVC31/cuh.sdvc311.sms.manual.v0.0.th-TH/doc.md) [西班牙文](es-ES/SDVC/SDVC31/cuh.sdvc311.sms.manual.v0.0.es-ES/doc.md) [法文](fr-FR/SDVC/SDVC31/cuh.sdvc311.sms.manual.v0.0.fr-FR/doc.md)
-- **SDVC311-XL 数字调频振动送料控制器** [中文](zh-CN/SDVC/SDVC31S/cuh.sdvc31SMS.manual.v7.01.zh-CN/doc.md) [英文](en-US/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.en-US/doc.md) [德文](de-DE/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.de-DE/doc.md) [泰文](th-TH/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.th-TH/doc.md) [西班牙文](es-ES/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.es-ES/doc.md) [法文](fr-FR/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.fr-FR/doc.md)
+- **SDVC311-S、SDVC311-M 数字调频振动送料控制器** [中文](zh-CN/SDVC/SDVC31S/cuh.sdvc31SMS.manual.v7.01.zh-CN/doc.md) [英文](en-US/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.en-US/doc.md) [德文](de-DE/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.de-DE/doc.md) [泰文](th-TH/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.th-TH/doc.md) [西班牙文](es-ES/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.es-ES/doc.md) [法文](fr-FR/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.fr-FR/doc.md) [韩文](ko-KR/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.ko-KR/doc.md)
+- **SDVC31-L、SDVC31-XL 数字调频振动送料控制器** [中文](zh-CN/SDVC/SDVC31S/cuh.sdvc31SMS.manual.v2.01.zh-CN/doc.md) [英文](en-US/SDVC/SDVC31/cuh.sdvc311.manual.v0.0.en-US/doc.md) [德文](de-DE/SDVC/SDVC31/cuh.sdvc311.sms.manual.v0.0.de-DE/doc.md) [泰文](th-TH/SDVC/SDVC31/cuh.sdvc311.sms.manual.v0.0.th-TH/doc.md) [西班牙文](es-ES/SDVC/SDVC31/cuh.sdvc311.sms.manual.v0.0.es-ES/doc.md) [法文](fr-FR/SDVC/SDVC31/cuh.sdvc311.sms.manual.v0.0.fr-FR/doc.md) [韩文](ko-KR/SDVC/SDVC31/cuh.sdvc311.manual.v0.0.ko-KR/doc.md)
+- **SDVC311-XL 数字调频振动送料控制器** [中文](zh-CN/SDVC/SDVC31S/cuh.sdvc31SMS.manual.v7.01.zh-CN/doc.md) [英文](en-US/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.en-US/doc.md) [德文](de-DE/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.de-DE/doc.md) [泰文](th-TH/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.th-TH/doc.md) [西班牙文](es-ES/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.es-ES/doc.md) [法文](fr-FR/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.fr-FR/doc.md) [韩文](ko-KR/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.ko-KR/doc.md)
 - **SDVC31-XLP 数字调频振动送料控制器** [中文](zh-CN/SDVC/SDVC31S/cuh.sdvc31SMS.manual.v2.01.zh-CN/doc.md)
 - **SDVC31-U 数字调频振动送料控制器** [英文](en-US/SDVC/SDVC31U/cuh.sdvc31-U.series.manual.v3.01.en-US/doc.md) [德文](de-DE/SDVC/SDVC31U/cuh.sdvc31.series.manual.v3.01.de-DE/doc.md) [泰文](th-TH/SDVC/SDVC31U/cuh.sdvc31.series.manual.v3.01.th-TH/doc.md) [西班牙文](es-ES/SDVC/SDVC31U/cuh.sdvc31.series.manual.v3.01.es-ES/doc.md) [法文](fr-FR/SDVC/SDVC31U/cuh.sdvc31.series.manual.v3.01.fr-FR/doc.md)
 - **SDVC31-UP 数字调频振动送料控制器** _(待补充 / TBD)_
-- **SDVC33-M 双路数字调频振动送料控制器** [中文](zh-CN/SDVC/SDVC33S/cuh.sdvc.manual.v3.01.zh-CN/doc.md) [英文](en-US/SDVC/SDVC33/cuh.sdvc33.manual.v0.0.en-US/doc.md) [德文](de-DE/SDVC/SDVC33/cuh.sdvc33.sms.manual.v0.0.de-DE/doc.md) [泰文](th-TH/SDVC/SDVC33/cuh.sdvc33.sms.manual.v0.0.th-TH/doc.md) [西班牙文](es-ES/SDVC/SDVC33/cuh.sdvc33.sms.manual.v0.0.es-ES/doc.md) [法文](fr-FR/SDVC/SDVC33/cuh.sdvc33.sms.manual.v0.0.fr-FR/doc.md)
+- **SDVC33-M 双路数字调频振动送料控制器** [中文](zh-CN/SDVC/SDVC33S/cuh.sdvc.manual.v3.01.zh-CN/doc.md) [英文](en-US/SDVC/SDVC33/cuh.sdvc33.manual.v0.0.en-US/doc.md) [德文](de-DE/SDVC/SDVC33/cuh.sdvc33.sms.manual.v0.0.de-DE/doc.md) [泰文](th-TH/SDVC/SDVC33/cuh.sdvc33.sms.manual.v0.0.th-TH/doc.md) [西班牙文](es-ES/SDVC/SDVC33/cuh.sdvc33.sms.manual.v0.0.es-ES/doc.md) [法文](fr-FR/SDVC/SDVC33/cuh.sdvc33.sms.manual.v0.0.fr-FR/doc.md) [韩文](ko-KR/SDVC/SDVC33/cuh.sdvc33.manual.v0.0.ko-KR/doc.md)
 - **SDVC333-SG 三路数字调频振动送料控制器** _(待补充 / TBD)_
 
 ### 智能调频振动送料控制器 / Intelligent Frequency Controllers
@@ -154,5 +155,6 @@ Source: CUH Product Catalog V8.01 (company overview sections). Full catalog link
 
 | 日期 | 说明 |
 |------|------|
+| 2026-11-18 | 新增韩文（ko-KR）语言标签；为 SDVC311-S/M、SDVC311-XL、SDVC31-L/XL、SDVC33-M 增加韩文说明书链接（对齐现有多语言资料包）。 |
 | 2026-11-09 | 按 `en-US/SDVC` 最新资料包目录，更新 SDVC 系列英文说明书索引链接（含 SDVC11/14S/21/21P/31/31U/33/34/35/40S/402S/41/42 等）。 |
 | 2026-11-09 | 对外 README 重构：写入公司介绍与产品介绍（摘自产品手册 V8.01）；按产品手册型号重建说明书目录并链接现有正式资料包；发布规范与历史维护记录迁至 `PUBLISHING.md`。 |
