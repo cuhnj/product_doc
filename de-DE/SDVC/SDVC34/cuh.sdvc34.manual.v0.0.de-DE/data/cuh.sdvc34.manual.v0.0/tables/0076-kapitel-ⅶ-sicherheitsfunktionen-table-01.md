@@ -1,0 +1,17 @@
+<!-- publish-data-sidecar: section=76 heading='8.4 Vorschläge zur Fehlerbehebung und Fehlererklärungen' role=generic source_md=doc.md -->
+
+| Fehlerphänomen | Vorschläge zur Fehlerbehebung | Symbolbild |
+|---|---|---|
+| Keine Anzeige auf dem LED-Bildschirm nach dem Einschalten | ◆ Stellen Sie sicher, dass die Netzsteckdose Strom führt.<br>◆ Stellen Sie sicher, dass das Eingangsleistungskabel zuverlässig angeschlossen ist. | |
+| LED-Bildschirm zeigt normal an, aber der Vibrationsförderer hat keine Ausgabe oder kein Geräusch | ◆ Stellen Sie sicher, dass das Ausgangsleistungskabel zuverlässig angeschlossen ist.<br>◆ Stellen Sie sicher, dass die Ausgangsspannung nicht zu niedrig ist.<br>◆ Stellen Sie sicher, dass der Controller nicht durch die EIN/AUS-Taste gestoppt wurde, wenn die Stopp-Anzeige leuchtet.<br>◆ Stellen Sie sicher, dass der Controller nicht durch die Einstellung von Parameter Γ2 oder Γ7 gestoppt wurde, wenn die Stopp-Anzeige leuchtet.<br>◆ Setzen Sie den Controller zurück. | |
+| EIN/AUS-Steuerung funktioniert nicht | ◆ Stellen Sie sicher, dass das EIN/AUS-Steuersignal korrekt am Controller angeschlossen ist.<br>◆ Stellen Sie sicher, dass die Parameter Γ2, Γ7 und Π entsprechend Ihrer Steuerungserwartung korrekt eingestellt sind.<br>◆ Setzen Sie den Controller zurück. | |
+| Schwebungseffekt | ◆ Verbinden Sie das Sync-Signalkabel zwischen den Controllern und stellen Sie den Slave-Controller auf Sync-Modus ein. | |
+| LED-Bildschirm zeigt normal an, Geräusche sind vom Vibrationsförderer zu hören, aber keine Ausgabe | ◆ Stellen Sie sicher, dass die Ausgangsfrequenz nicht weit von der Resonanzfrequenz des Vibrationsförderers entfernt ist.<br>◆ Setzen Sie den Controller zurück. | |
+| Err01 | **Kurzschlussschutz**<br>◆ Stellen Sie sicher, dass das Ausgangsleistungskabel und der Vibrator-Elektromagnet nicht kurzgeschlossen sind.<br>◆ Trennen Sie das Ausgangsleistungskabel vom Controller und schalten Sie den Netzschalter erneut ein. Wenn Err01 weiterhin angezeigt wird, kontaktieren Sie uns für eine Reparatur. | ![Segmentanzeige zeigt Err01](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-00.png) |
+| Err02 | **Überstromschutz**<br>◆ Reduzieren Sie die Ausgangsspannung des Controllers.<br>◆ Stellen Sie sicher, dass der Ankerspalt des Vibrator-Elektromagneten nicht zu groß ist. | ![Segmentanzeige zeigt Err02](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-01.png) |
+| Err03 | **Überhitzungsschutz**<br>◆ Stellen Sie den Controller an einen gut belüfteten Ort. | ![Segmentanzeige zeigt Err03](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-02.png) |
+| Err04 | ◆ Reserviert, kontaktieren Sie uns für eine Reparatur. | ![Segmentanzeige zeigt Err04](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-03.png) |
+| Err05 | ◆ Interne Kommunikation abnormal, kontaktieren Sie uns für eine Reparatur. | ![Segmentanzeige zeigt Err05](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-04.png) |
+| Err06 | ◆ Temperatursensor abnormal, kontaktieren Sie uns für eine Reparatur. | ![Segmentanzeige zeigt Err06](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-05.png) |
+| Err07 | **Kurzschlussschutz von Port D**<br>◆ Stellen Sie sicher, dass die Last von Port D nicht kurzgeschlossen ist und der Strom 350mA nicht überschreitet | ![Segmentanzeige zeigt Err07](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-06.png) |
+| Err08 | ◆ Sync-Signal-Fehler, kontaktieren Sie uns für eine Reparatur. | ![Segmentanzeige zeigt Err08](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-07.png) |

@@ -1,0 +1,8 @@
+<!-- publish-data-sidecar: section=43 heading='5.5.4 Logikrichtung des Zähl-Reset' role=generic source_md=doc.md -->
+
+| Betriebsart | Ausgangsspannung U — Einstellmethode | Ausgangsspannung U — Γ5-Einstellung | Ausgangsfrequenz E — Einstellmethode | Ausgangsfrequenz E — Γ6-Einstellung | Symbolbild |
+|---|---|---|---|---|---|
+| Manueller Modus | Manuell | `_ - _` | Manuell | `_ - _` | ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png) |
+| Auto-Modus | Auto | `- - -` | Auto | `- - -` | ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png) |
+| Halbautomatischer Modus | Auto | `- - -` | Manuell | `_ - _` | ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png) / ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png) |
+| Sync-Modus | Manuell oder Auto | `_ - _` oder `- - -` | Automatische Synchronisation mit dem Master-Controller | ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png) | ![Segmentanzeige-Symbol für manuellen Modus: äußere Balken niedrig, mittlerer Balken hoch](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png) / ![Segmentanzeige-Symbol für Auto-Modus: drei gleich hohe kurze Balken](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png) / ![Segmentanzeige-Symbol für Γ6 im Sync-Modus](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png) |

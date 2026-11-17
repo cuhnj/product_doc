@@ -1,0 +1,18 @@
+<!-- publish-data-sidecar: section=43 heading='7.3 Fehlerbehebungsvorschläge und Fehlererläuterungen' role=generic source_md=doc.md -->
+
+| Fehlercode | Definition | Fehlerbehebungsmethoden | Symbolbild |
+|---|---|---|---|
+| Keine Anzeige nach dem Einschalten | | Stellen Sie sicher, dass die Netzsteckdose unter Spannung steht<br>Stellen Sie sicher, dass das Netzkabel zuverlässig mit der Netzsteckdose verbunden ist? | |
+| Normale Anzeige, aber keine Ausgabe | | Stellen Sie sicher, dass das Ausgangskabel zuverlässig mit dem Vibrator verbunden ist.<br>Stellen Sie sicher, dass die Ausgangsspannung nicht zu niedrig ist.<br>Stellen Sie sicher, dass die Stoppanzeige nicht leuchtet.<br>Bitte prüfen Sie, ob Normal geschlossen des Parameters eingestellt wurde, wodurch die Reglerausgabe stoppt. | |
+| Steuersignal verliert seine Wirkung | | Stellen Sie sicher, dass das Steuersignal korrekt eingespeist wird.<br>Stellen Sie sicher, dass die Masseleitung des Steuersignals korrekt mit dem Regler verbunden ist.<br>Stellen Sie sicher, dass die logische Beziehung der Steuersignale wie erwartet korrekt eingestellt ist. | |
+| Schlagphänomene | | Vermeiden Sie Vibrationskopplung zwischen den Vibratoren.<br>Erhöhen Sie die Resonanzfrequenz der Vibratoren. | |
+| Normale Anzeige, keine Ausgabe, aber Geräusche sind hörbar | | Stellen Sie alle Parameter wie in diesem Buch beschrieben ein. | |
+| Err01 | Kurzschluss | Stellen Sie sicher, dass die Last nicht kurzgeschlossen ist, und versuchen Sie dann, die Ausgabe des Reglers durch zweimaliges Drücken der Ausgangs-Ein-/Ausschalttaste neu zu starten oder den Regler neu einzuschalten. | ![Err01-Symbolbild](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-00.png) |
+| Err02 | Überstrom | Verringern Sie die Ausgangsspannung entsprechend und starten Sie dann die Ausgabe neu. | ![Err02-Symbolbild](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-01.png) |
+| Err03 | Überhitzung | Installieren Sie den Regler in einer gut belüfteten Umgebung. | ![Err03-Symbolbild](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-02.png) |
+| Err04 | Über- oder Unterspannung | Stellen Sie sicher, dass die Eingangsspannung zwischen AC 85~250Vac liegt. | ![Err04-Symbolbild](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-03.png) |
+| Err05 | Interne Kommunikation anomal | Stellen Sie sicher, dass keine externe Stromversorgung an den 24V-Stromanschluss angeschlossen ist, oder wenden Sie sich an unseren technischen Support. | ![Err05-Symbolbild](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-04.png) |
+| Err06 | Temperatursensor anomal | Stellen Sie sicher, dass die Arbeitstemperatur nicht unter -20℃ liegt, oder wenden Sie sich an unseren technischen Support. | ![Err06-Symbolbild](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-05.png) |
+| Err07 | Kurzschlussschutz des Anschlusses D | Stellen Sie sicher, dass die Last des Anschlusses D nicht kurzgeschlossen ist und der Strom 400mA nicht überschreitet, und versuchen Sie dann, die Ausgabe des Anschlusses D neu zu starten. | ![Err07-Symbolbild](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-06.png) |
+| Err10 | 24V-Leistungsausgang anomal | Stellen Sie sicher, dass der 24V-Anschluss nicht kurzgeschlossen ist und der Strom 400mA nicht überschreitet. | ![Err10-Symbolbild](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-07.png) |
+| Err11 | 5V-Leistungsausgang des Anschlusses A anomal | Stellen Sie sicher, dass die 5V-Stromversorgung des Anschlusses A nicht kurzgeschlossen und nicht mit einer externen Spannung über 5V verbunden ist. | ![Err11-Symbolbild](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-08.png) |

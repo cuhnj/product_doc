@@ -1,0 +1,30 @@
+<!-- publish-data-sidecar: section=41 heading='7.1 Parametertabelle' role=generic source_md=doc.md -->
+
+| Parameter | Definition | Symbol | Anzeigesymbol | Bereich | Werkseinstellung |
+|---|---|---|---|---|---|
+| Bereitschaftsparameter | Sollfrequenz | F | ![Anzeigesymbol Sollfrequenz](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-00.png) | 2,0~120,0 (Hz) (begrenzt durch r und y) | 50,0 |
+| Motorparameter — ⚙ lange drücken | Vorwärts-Start/Stopp-Steuerquelle 1 | F1 | ![Anzeigesymbol Vorwärts-Start/Stopp-Steuerquelle 1](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-01.png) | 0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES, od, -od, oP, -oP | C |
+| Motorparameter | Vorwärts-Start/Stopp-Steuerquelle 2 | F2 | ![Anzeigesymbol Vorwärts-Start/Stopp-Steuerquelle 2](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-02.png) | 0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES, od, -od, oP, -oP | -b |
+| Motorparameter | Logische Verknüpfung Vorwärts-Start/Stopp | FA | ![Anzeigesymbol Logische Verknüpfung Vorwärts-Start/Stopp](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-03.png) | And, or, Xor, rS | And |
+| Motorparameter | Rückwärts-Steuerquelle 1 | A1 | ![Anzeigesymbol Rückwärts-Steuerquelle 1](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-04.png) | 0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES, od, -od, oP, -oP | E |
+| Motorparameter | Rückwärts-Steuerquelle 2 | A2 | ![Anzeigesymbol Rückwärts-Steuerquelle 2](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-05.png) | 0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES, od, -od, oP, -oP | -b |
+| Motorparameter | Logische Verknüpfung Rückwärts | AA | ![Anzeigesymbol Logische Verknüpfung Rückwärts](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-06.png) | And, or, Xor, rS | And |
+| Motorparameter | Vorwärts-/Rückwärts-Steuermodus | Fr | ![Anzeigesymbol Vorwärts-/Rückwärts-Steuermodus](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-07.png) | 0 (Die Vorwärts-Steuerquelle dient zum Starten und Stoppen des Vorwärtslaufs, die Rückwärts-Steuerquelle zum Starten und Stoppen des Rückwärtslaufs)<br>1 (Die Vorwärts-Steuerquelle dient zum Steuern von Start und Stopp, die Rückwärts-Steuerquelle zur Steuerung von Vorwärts und Rückwärts) | 0 |
+| Motorparameter | Not-Halt-Quelle | Eq | ![Anzeigesymbol Not-Halt-Quelle](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-08.png) | 0, 1, b, -b, C, -C, E, -E, SA, -SA, Sb, -Sb, ES, -ES, od, -od, oP, -oP, oq, -oq, Er, -Er, Ar, -Ar | ES |
+| Motorparameter | Not-Halt-Typ | Sq | ![Anzeigesymbol Not-Halt-Typ](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-09.png) | Sto: sicheres Momentabschalten, Sbc: Sicherheitsbremssteuerung,<br>SS1: Sicherheitsstopp Kategorie 1　(Hinweis 1) | Sto |
+| Motorparameter | Sanftanlaufzeit | t | ![Anzeigesymbol Sanftanlaufzeit](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-10.png) | 0,0~99,9 (s) | 10,0 |
+| Motorparameter | Sanftauslaufzeit | d | ![Anzeigesymbol Sanftauslaufzeit](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-11.png) | Gleichstrombremszeit: -0,0~-99,9 (s)<br>Sanftauslaufzeit: 0,0~99,9 (s) | 10,0 |
+| Motorparameter | Maximalfrequenz | y | ![Anzeigesymbol Maximalfrequenz](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-12.png) | 2,0~120,0 (Hz) | 50,0 |
+| Motorparameter | Nennfrequenz | b | ![Anzeigesymbol Nennfrequenz](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-13.png) | 45,0~65,0 (Hz) | 50,0 |
+| Motorparameter | Nennspannung | h | ![Anzeigesymbol Nennspannung](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-14.png) | 70~220 (Vrmn) | 200 |
+| Motorparameter | Zwischenfrequenz | n | ![Anzeigesymbol Zwischenfrequenz](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-15.png) | r~b (Hz) | 10,0 |
+| Motorparameter | Zwischenspannung | o | ![Anzeigesymbol Zwischenspannung](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-16.png) | u~h (Vrmn) | 40 |
+| Motorparameter | Minimalfrequenz | r | ![Anzeigesymbol Minimalfrequenz](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-17.png) | 2,0~n (Hz) | 2,0 |
+| Motorparameter | Minimalspannung | u | ![Anzeigesymbol Minimalspannung](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-18.png) | 0~o (Vrmn) | 8 |
+| Motorparameter | Elektrische Nennleistung des Motors | Pn | ![Anzeigesymbol Elektrische Nennleistung des Motors](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-19.png) | 0,01~0,20 (kW) | 0,20 |
+| Motorparameter | Leistungsüberschreitungsfaktor | rc | ![Anzeigesymbol Leistungsüberschreitungsfaktor](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-20.png) | 100~150 (%) | 150 |
+| Motorparameter | Bremsstromkoeffizient | cb | ![Anzeigesymbol Bremsstromkoeffizient](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-21.png) | 10~150 (%) | 100 |
+| Motorparameter | Überhitzungsschwelle der elektrischen Leistung | oL | ![Anzeigesymbol Überhitzungsschwelle der elektrischen Leistung](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-22.png) | 0~90 (Mal*Sekunden)<br>Anmerkung: Wird die elektrische Nennleistung des Motors überschritten, ohne die obere Motorleistungsgrenze zu überschreiten, und übersteigt das Integral pro Sekunden diese Einstellung, wird der elektronische Überhitzungsschutz aktiviert. | 30 |
+| Motorparameter | Leistungsdämpfungsfaktor | rL | ![Anzeigesymbol Leistungsdämpfungsfaktor](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-23.png) | 0~90 (%)<br>0 bedeutet Abschaltung,<br>90 bedeutet Reduzierung auf 90 % der Nennleistung. | 0 |
+| Motorparameter | Drehrichtungswechsel (Hinweis 2) | Ph | ![Anzeigesymbol Drehrichtungswechsel](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-24.png) | Abc: Standardrichtung, Acb: Richtungstausch,<br>A.b.c.: Rückwärtslauf bei Standardrichtung untersagt (nur Vorwärtslauf),<br>A.c.b.: Richtungstausch, Vorwärtslauf untersagt (nur Rückwärtslauf) | AbC |
+| Motorparameter | Einschalt-Betriebszustand | PS | ![Anzeigesymbol Einschalt-Betriebszustand](assets/images/cuh.sdmc30.manual.v0.0/page-0047-vcrop-25.png) | run: Lauf, stp: Stopp, FoL: letzten Zustand speichern | FoL |

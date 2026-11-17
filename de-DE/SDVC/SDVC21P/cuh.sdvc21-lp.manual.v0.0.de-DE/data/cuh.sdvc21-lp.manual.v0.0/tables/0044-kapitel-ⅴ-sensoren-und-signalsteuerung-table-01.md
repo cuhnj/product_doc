@@ -1,0 +1,10 @@
+<!-- publish-data-sidecar: section=44 heading='Anhang F: Tipps zur Fehlerbehebung und Fehlererklärungen' role=generic source_md=doc.md -->
+
+| | | | Symbolbild |
+|---|---|---|---|
+| 1 | Keine Anzeige nach dem Einschalten | ➔Stellen Sie sicher, dass die Steckdose Spannung führt<br>➔Stellen Sie sicher, dass das Eingangsleistungskabel zuverlässig mit der Steckdose verbunden ist | |
+| 2 | Anzeige normal, aber kein Ausgang | ➔Stellen Sie sicher, dass das Eingangsleistungskabel und das Ausgangsleistungskabel fest verbunden sind<br>➔Stellen Sie sicher, dass der Wert des Parameters Ausgangsspannung nicht zu klein ist<br>➔Stellen Sie sicher, dass der Regler nicht durch das Steuersignal gestoppt wird<br>➔Stellen Sie sicher, dass der Regler nicht durch Parameter gestoppt wird, die als Normal Aus eingestellt sind | |
+| 3 | Steuersignal verliert seine Wirkung | ➔Stellen Sie sicher, dass das Steuersignal korrekt eingegeben wird<br>➔Stellen Sie sicher, dass die Masseleitung des Steuersignals korrekt mit dem Regler verbunden ist<br>➔Stellen Sie sicher, dass die logische Beziehung des Steuersignals korrekt nach Ihren Erwartungen eingestellt ist | |
+| 4 | Anzeige normal, kein Ausgang, aber ein Geräusch ist hörbar | ➔Stellen Sie alle Parameter wie in diesem Handbuch beschrieben ein | |
+| 5 | Err2 | ➔Ausgangsüberstrom. Stellen Sie sicher, dass die Spezifikationen des Vibrators die Grenzen des Reglers nicht überschreiten.<br>➔Ausgang im Kurzschluss. Stellen Sie sicher, dass das Ausgangsleistungskabel und der Luftfahrtstecker des Ausgangs nicht kurzgeschlossen sind.<br>➔Stellen Sie sicher, dass das Ausgangsleistungskabel zuverlässig zwischen Regler und Vibrator verbunden ist.<br>➔Stellen Sie sicher, dass der Regler zuverlässig geerdet ist. | ![Err2 7-Segment-Anzeige](assets/images/cuh.sdvc21-lp.manual.v0.0/page-0042-vcrop-00.png) |
+| 6 | Err3 | ➔Überhitzung. Platzieren Sie den Regler in einer gut belüfteten Umgebung | ![Err3 7-Segment-Anzeige](assets/images/cuh.sdvc21-lp.manual.v0.0/page-0042-vcrop-01.png) |

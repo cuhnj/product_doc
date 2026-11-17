@@ -1,0 +1,100 @@
+schema_version: 1
+doc_id: cuh.sdmc30.manual.v0.0.de-DE
+doc_key: cuh.sdmc30.manual.v0.0
+lang: de-DE
+generated_at: '2026-11-18 01:14:56'
+source_md_basename: doc.md
+export_pipeline: chunks-from-publish
+exports:
+- kind: publish_md_table
+  section_index: 2
+  heading_path:
+  - Vorwort
+  heading_title: Vorwort
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0002-vorwort-table-01.md
+  chars: 523
+- kind: publish_md_table
+  section_index: 8
+  heading_path:
+  - Kapitel Ⅰ Vor der Inbetriebnahme
+  - 1.4 Beschreibung der Signalanschlüsse
+  heading_title: 1.4 Beschreibung der Signalanschlüsse
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0008-kapitel-ⅰ-vor-der-inbetriebnahme-table-01.md
+  chars: 614
+- kind: publish_md_table
+  section_index: 35
+  heading_path:
+  - Kapitel Ⅲ Installationsanleitung
+  - 5.10.2 Signalquelle und Logikdiagramm von Laufausgang/Störungsausgang
+  heading_title: 5.10.2 Signalquelle und Logikdiagramm von Laufausgang/Störungsausgang
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0035-kapitel-ⅲ-installationsanleitung-table-01.md
+  chars: 1164
+- kind: publish_md_table
+  section_index: 40
+  heading_path: &id001
+  - Kapitel Ⅵ Technische Daten
+  heading_title: Kapitel Ⅵ Technische Daten
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0040-kapitel-ⅵ-technische-daten-table-01.md
+  chars: 139
+- kind: publish_md_table
+  section_index: 40
+  heading_path: *id001
+  heading_title: Kapitel Ⅵ Technische Daten
+  table_role: generic
+  table_index_in_section: 2
+  relative_path: tables/0040-kapitel-ⅵ-technische-daten-table-02.md
+  chars: 1546
+- kind: publish_md_table
+  section_index: 41
+  heading_path: &id002
+  - Kapitel Ⅶ Anhang
+  - 7.1 Parametertabelle
+  heading_title: 7.1 Parametertabelle
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0041-kapitel-ⅶ-anhang-table-01.md
+  chars: 5989
+- kind: publish_md_table
+  section_index: 41
+  heading_path: *id002
+  heading_title: 7.1 Parametertabelle
+  table_role: generic
+  table_index_in_section: 2
+  relative_path: tables/0041-kapitel-ⅶ-anhang-table-02.md
+  chars: 6189
+- kind: publish_md_table
+  section_index: 41
+  heading_path: *id002
+  heading_title: 7.1 Parametertabelle
+  table_role: generic
+  table_index_in_section: 3
+  relative_path: tables/0041-kapitel-ⅶ-anhang-table-03.md
+  chars: 4172
+- kind: publish_md_table
+  section_index: 42
+  heading_path:
+  - Kapitel Ⅶ Anhang
+  - 7.2 Ein- und Ausgangs-Schaltbilder
+  heading_title: 7.2 Ein- und Ausgangs-Schaltbilder
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0042-kapitel-ⅶ-anhang-table-01.md
+  chars: 115
+- kind: publish_md_table
+  section_index: 43
+  heading_path:
+  - Kapitel Ⅶ Anhang
+  - 7.3 Fehlercodes
+  heading_title: 7.3 Fehlercodes
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0043-kapitel-ⅶ-anhang-table-01.md
+  chars: 4434
