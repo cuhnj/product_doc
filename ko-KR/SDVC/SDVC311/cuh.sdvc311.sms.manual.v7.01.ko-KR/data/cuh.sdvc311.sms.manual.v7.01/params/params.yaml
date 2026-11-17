@@ -1,0 +1,2508 @@
+schema_version: 1
+doc_id: cuh.sdvc311.sms.manual.v7.01.ko-KR
+doc_key: cuh.sdvc311.sms.manual.v7.01
+lang: ko-KR
+generated_at: '2026-11-18 00:47:23'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 1
+  heading_path: &id003
+  - （文首）
+  table_md_path: tables/0001-文首-table-01.md
+  headers:
+  - col_1
+  - col_2
+- section_index: 8
+  heading_path: &id001
+  - 제Ⅰ장 사용 전
+  - 1.4 배선 포트 설명
+  table_md_path: tables/0008-제ⅰ장-사용-전-table-01.md
+  headers:
+  - 포트 그룹
+  - 단자
+  - 설명
+- section_index: 8
+  heading_path: *id001
+  table_md_path: tables/0008-제ⅰ장-사용-전-table-02.md
+  headers:
+  - 포트 그룹
+  - 단자
+  - 설명
+- section_index: 28
+  heading_path: &id004
+  - 제Ⅴ장 고급 기능 설명
+  - 5.4.2 제어 출력 신호원 및 논리 다이어그램
+  table_md_path: tables/0028-제ⅴ장-고급-기능-설명-table-01.md
+  headers:
+  - 신호원
+  - 의미
+- section_index: 37
+  heading_path: &id005
+  - 제Ⅴ장 고급 기능 설명
+  - 5.9 파라미터 암호 잠금 기능
+  table_md_path: tables/0037-제ⅴ장-고급-기능-설명-table-01.md
+  headers:
+  - 잠금 파라미터
+  - 파형 지수
+  - 가속 지수
+  - 최대 출력 전압 제한
+  - 메인 출력 신호원 논리 연산
+  - 메인 출력 제2 신호원
+  - 메인 출력 제1 신호원
+  - 제어 포트 D 신호원 논리 연산
+  - 제어 포트 D 제2 신호원
+  - 제어 포트 D 제1 신호원
+  - 포트 C 센서 유형
+  - 제동 사이클/소프트 정지
+  - 출력 주파수
+- section_index: 40
+  heading_path: &id006
+  - 제Ⅴ장 고급 기능 설명
+  - 제Ⅵ장 기술 사양
+  table_md_path: tables/0040-제ⅴ장-고급-기능-설명-table-01.md
+  headers:
+  - 치수 범위
+  - 공차
+- section_index: 41
+  heading_path: &id007
+  - 제Ⅴ장 고급 기능 설명
+  - 6.2 기술 사양
+  table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+  headers:
+  - 항목
+  - 최소
+  - 전형
+  - 최대
+  - 단위
+  - 비고
+- section_index: 42
+  heading_path: &id008
+  - 제Ⅴ장 고급 기능 설명
+  - 6.3 참조 규격
+  table_md_path: tables/0042-제ⅴ장-고급-기능-설명-table-01.md
+  headers:
+  - 항목
+  - GB 규격
+  - IEC 규격
+  - 등급
+  - 규격 요구
+  - 비고
+- section_index: 43
+  heading_path: &id002
+  - 제Ⅶ장 부록
+  - 7.1 파라미터 표
+  table_md_path: tables/0043-제ⅶ장-부록-table-01.md
+  headers:
+  - 카테고리
+  - 정의
+  - 기호
+  - 기호 이미지
+  - 범위
+  - 기본값
+- section_index: 43
+  heading_path: *id002
+  table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+  headers:
+  - col_1
+  - 정의
+  - 기호
+  - 기호 이미지
+  - 범위
+  - 기본값
+- section_index: 45
+  heading_path: &id009
+  - 제Ⅶ장 부록
+  - 7.3 고장 해결 권고 및 오류 설명
+  table_md_path: tables/0045-제ⅶ장-부록-table-01.md
+  headers:
+  - 오류 코드
+  - 정의
+  - 고장 해결 방법
+  - 기호 이미지
+items:
+- name: ⚠ 위험
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ 위험
+    col_2: 본 항목을 준수하지 않으면 신체 손상 또는 사망에 이를 수 있습니다.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ⚠ 경고
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ 경고
+    col_2: 본 항목을 준수하지 않으면 신체 손상 또는 사망에 이를 수 있습니다.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ⚠ 주의
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ 주의
+    col_2: 본 항목을 준수하지 않으면 신체가 중등도 또는 경미하게 부상할 수 있습니다.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Notice
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Notice
+    col_2: 본 항목을 준수하지 않으면 제품 손상 및 재산 피해가 발생합니다.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ❗ 필수
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ❗ 필수
+    col_2: 사용 중 반드시 준수해야 하는 주의 사항과 사용 제한을 나타냅니다.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: 속도 제어
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 속도 제어
+    단자: A1
+    설명: RGND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-01.md
+- name: 속도 제어
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 속도 제어
+    단자: A2
+    설명: 입력
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-01.md
+- name: 속도 제어
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 속도 제어
+    단자: A3
+    설명: +5V 출력
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-01.md
+- name: 광전 센서
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 광전 센서
+    단자: B1
+    설명: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-01.md
+- name: 광전 센서
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 광전 센서
+    단자: B2
+    설명: RX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-01.md
+- name: 광전 센서
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 광전 센서
+    단자: B3
+    설명: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-01.md
+- name: 광전 센서
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 광전 센서
+    단자: B4
+    설명: TX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-01.md
+- name: 센서
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 센서
+    단자: C1
+    설명: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-01.md
+- name: 센서
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 센서
+    단자: C2
+    설명: 입력
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-01.md
+- name: 센서
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 센서
+    단자: C3
+    설명: +24V 출력
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-01.md
+- name: 제어 출력
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 제어 출력
+    단자: D1
+    설명: 출력
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-01.md
+- name: 제어 출력
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 제어 출력
+    단자: D2
+    설명: +24V 출력
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-01.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 24V DC
+    단자: I1
+    설명: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-02.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 24V DC
+    단자: I2
+    설명: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-02.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 24V DC
+    단자: I1
+    설명: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-02.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 24V DC
+    단자: I2
+    설명: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-02.md
+- name: 속도 제어
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 속도 제어
+    단자: A1
+    설명: RGND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-02.md
+- name: 속도 제어
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 속도 제어
+    단자: A2
+    설명: 입력
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-02.md
+- name: 속도 제어
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 속도 제어
+    단자: A3
+    설명: +5V 출력
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-02.md
+- name: 광전 센서
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 광전 센서
+    단자: B1
+    설명: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-02.md
+- name: 광전 센서
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 광전 센서
+    단자: B2
+    설명: RX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-02.md
+- name: 광전 센서
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 광전 센서
+    단자: B3
+    설명: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-02.md
+- name: 광전 센서
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 광전 센서
+    단자: B4
+    설명: TX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-02.md
+- name: 센서
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 센서
+    단자: C1
+    설명: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-02.md
+- name: 센서
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 센서
+    단자: C2
+    설명: 입력
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-02.md
+- name: 센서
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 센서
+    단자: C3
+    설명: +24V 출력
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-02.md
+- name: 제어 출력
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 제어 출력
+    단자: D1
+    설명: 출력
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-02.md
+- name: 제어 출력
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    포트 그룹: 제어 출력
+    단자: D2
+    설명: +24V 출력
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 배선 포트 설명
+    table_role: generic
+    table_md_path: tables/0008-제ⅰ장-사용-전-table-02.md
+- name: '0'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    신호원: '0'
+    의미: 무효 신호
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 제어 출력 신호원 및 논리 다이어그램
+    table_role: generic
+    table_md_path: tables/0028-제ⅴ장-고급-기능-설명-table-01.md
+- name: '1'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    신호원: '1'
+    의미: 유효 신호
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 제어 출력 신호원 및 논리 다이어그램
+    table_role: generic
+    table_md_path: tables/0028-제ⅴ장-고급-기능-설명-table-01.md
+- name: b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    신호원: b
+    의미: 지능형 광전 감지 포트 신호
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 제어 출력 신호원 및 논리 다이어그램
+    table_role: generic
+    table_md_path: tables/0028-제ⅴ장-고급-기능-설명-table-01.md
+- name: -b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    신호원: -b
+    의미: 지능형 광전 감지 포트 신호 반전
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 제어 출력 신호원 및 논리 다이어그램
+    table_role: generic
+    table_md_path: tables/0028-제ⅴ장-고급-기능-설명-table-01.md
+- name: C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    신호원: C
+    의미: 스위치 센서 포트 신호
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 제어 출력 신호원 및 논리 다이어그램
+    table_role: generic
+    table_md_path: tables/0028-제ⅴ장-고급-기능-설명-table-01.md
+- name: -C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    신호원: -C
+    의미: 스위치 센서 포트 신호 반전
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 제어 출력 신호원 및 논리 다이어그램
+    table_role: generic
+    table_md_path: tables/0028-제ⅴ장-고급-기능-설명-table-01.md
+- name: od
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    신호원: od
+    의미: 제어 출력 포트 신호
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 제어 출력 신호원 및 논리 다이어그램
+    table_role: generic
+    table_md_path: tables/0028-제ⅴ장-고급-기능-설명-table-01.md
+- name: -od
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    신호원: -od
+    의미: 제어 출력 포트 신호 반전
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 제어 출력 신호원 및 논리 다이어그램
+    table_role: generic
+    table_md_path: tables/0028-제ⅴ장-고급-기능-설명-table-01.md
+- name: oq
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    신호원: oq
+    의미: 메인 전원 출력 포트 신호
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 제어 출력 신호원 및 논리 다이어그램
+    table_role: generic
+    table_md_path: tables/0028-제ⅴ장-고급-기능-설명-table-01.md
+- name: -oq
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    신호원: -oq
+    의미: 메인 전원 출력 포트 신호 반전
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 제어 출력 신호원 및 논리 다이어그램
+    table_role: generic
+    table_md_path: tables/0028-제ⅴ장-고급-기능-설명-table-01.md
+- name: '1: 잠김'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    잠금 파라미터: '1: 잠김'
+    파형 지수: '1'
+    가속 지수: '1'
+    최대 출력 전압 제한: '1'
+    메인 출력 신호원 논리 연산: '1'
+    메인 출력 제2 신호원: '1'
+    메인 출력 제1 신호원: '1'
+    제어 포트 D 신호원 논리 연산: '1'
+    제어 포트 D 제2 신호원: '1'
+    제어 포트 D 제1 신호원: '1'
+    포트 C 센서 유형: '1'
+    제동 사이클/소프트 정지: '1'
+    출력 주파수: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 파라미터 암호 잠금 기능
+    table_role: generic
+    table_md_path: tables/0037-제ⅴ장-고급-기능-설명-table-01.md
+- name: '0: 잠금 해제'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    잠금 파라미터: '0: 잠금 해제'
+    파형 지수: '0'
+    가속 지수: '0'
+    최대 출력 전압 제한: '0'
+    메인 출력 신호원 논리 연산: '0'
+    메인 출력 제2 신호원: '0'
+    메인 출력 제1 신호원: '0'
+    제어 포트 D 신호원 논리 연산: '0'
+    제어 포트 D 제2 신호원: '0'
+    제어 포트 D 제1 신호원: '0'
+    포트 C 센서 유형: '0'
+    제동 사이클/소프트 정지: '0'
+    출력 주파수: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 파라미터 암호 잠금 기능
+    table_role: generic
+    table_md_path: tables/0037-제ⅴ장-고급-기능-설명-table-01.md
+- name: 곱셈 인자
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    잠금 파라미터: 곱셈 인자
+    파형 지수: '4'
+    가속 지수: '2'
+    최대 출력 전압 제한: '1'
+    메인 출력 신호원 논리 연산: '4'
+    메인 출력 제2 신호원: '2'
+    메인 출력 제1 신호원: '1'
+    제어 포트 D 신호원 논리 연산: '4'
+    제어 포트 D 제2 신호원: '2'
+    제어 포트 D 제1 신호원: '1'
+    포트 C 센서 유형: '4'
+    제동 사이클/소프트 정지: '2'
+    출력 주파수: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 파라미터 암호 잠금 기능
+    table_role: generic
+    table_md_path: tables/0037-제ⅴ장-고급-기능-설명-table-01.md
+- name: 암호 값 범위(합산)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    잠금 파라미터: 암호 값 범위(합산)
+    파형 지수: 0~7 (암호 값 1자리)
+    메인 출력 신호원 논리 연산: 0~7 (암호 값 2자리)
+    제어 포트 D 신호원 논리 연산: 0~7 (암호 값 3자리)
+    포트 C 센서 유형: 0~7 (암호 값 4자리)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 파라미터 암호 잠금 기능
+    table_role: generic
+    table_md_path: tables/0037-제ⅴ장-고급-기능-설명-table-01.md
+- name: 예시 1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    잠금 파라미터: 예시 1
+    파형 지수: '0'
+    가속 지수: '0'
+    최대 출력 전압 제한: '0'
+    메인 출력 신호원 논리 연산: '0'
+    메인 출력 제2 신호원: '0'
+    메인 출력 제1 신호원: '0'
+    제어 포트 D 신호원 논리 연산: '0'
+    제어 포트 D 제2 신호원: '0'
+    제어 포트 D 제1 신호원: '0'
+    포트 C 센서 유형: '0'
+    제동 사이클/소프트 정지: '0'
+    출력 주파수: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 파라미터 암호 잠금 기능
+    table_role: generic
+    table_md_path: tables/0037-제ⅴ장-고급-기능-설명-table-01.md
+- name: 예시 2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    잠금 파라미터: 예시 2
+    파형 지수: '1'
+    가속 지수: '0'
+    최대 출력 전압 제한: '0'
+    메인 출력 신호원 논리 연산: '0'
+    메인 출력 제2 신호원: '0'
+    메인 출력 제1 신호원: '1'
+    제어 포트 D 신호원 논리 연산: '0'
+    제어 포트 D 제2 신호원: '0'
+    제어 포트 D 제1 신호원: '0'
+    포트 C 센서 유형: '0'
+    제동 사이클/소프트 정지: '0'
+    출력 주파수: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 파라미터 암호 잠금 기능
+    table_role: generic
+    table_md_path: tables/0037-제ⅴ장-고급-기능-설명-table-01.md
+- name: 예시 3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    잠금 파라미터: 예시 3
+    파형 지수: '0'
+    가속 지수: '0'
+    최대 출력 전압 제한: '0'
+    메인 출력 신호원 논리 연산: '0'
+    메인 출력 제2 신호원: '0'
+    메인 출력 제1 신호원: '0'
+    제어 포트 D 신호원 논리 연산: '0'
+    제어 포트 D 제2 신호원: '0'
+    제어 포트 D 제1 신호원: '0'
+    포트 C 센서 유형: '1'
+    제동 사이클/소프트 정지: '1'
+    출력 주파수: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 파라미터 암호 잠금 기능
+    table_role: generic
+    table_md_path: tables/0037-제ⅴ장-고급-기능-설명-table-01.md
+- name: 0~3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    치수 범위: 0~3
+    공차: ±0.05
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: 제Ⅵ장 기술 사양
+    table_role: generic
+    table_md_path: tables/0040-제ⅴ장-고급-기능-설명-table-01.md
+- name: 3~10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    치수 범위: 3~10
+    공차: ±0.1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: 제Ⅵ장 기술 사양
+    table_role: generic
+    table_md_path: tables/0040-제ⅴ장-고급-기능-설명-table-01.md
+- name: 10~30
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    치수 범위: 10~30
+    공차: ±0.15
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: 제Ⅵ장 기술 사양
+    table_role: generic
+    table_md_path: tables/0040-제ⅴ장-고급-기능-설명-table-01.md
+- name: 30~80
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    치수 범위: 30~80
+    공차: ±0.2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: 제Ⅵ장 기술 사양
+    table_role: generic
+    table_md_path: tables/0040-제ⅴ장-고급-기능-설명-table-01.md
+- name: 80~180
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    치수 범위: 80~180
+    공차: ±0.3
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: 제Ⅵ장 기술 사양
+    table_role: generic
+    table_md_path: tables/0040-제ⅴ장-고급-기능-설명-table-01.md
+- name: '>180'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    치수 범위: '>180'
+    공차: ±0.5
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: 제Ⅵ장 기술 사양
+    table_role: generic
+    table_md_path: tables/0040-제ⅴ장-고급-기능-설명-table-01.md
+- name: 입력 전압
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 입력 전압
+    최소: '85'
+    전형: '220'
+    최대: '250'
+    단위: V
+    비고: AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 출력 전압 조정 가능 범위
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 출력 전압 조정 가능 범위
+    최소: '0'
+    전형: ——
+    최대: '260'
+    단위: V
+    비고: 입력 전압의 150% 미만
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 전압 조정 정밀도
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 전압 조정 정밀도
+    전형: '1'
+    단위: V
+    _extra_col_7: ''
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 전압 안정도 정밀도
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 전압 안정도 정밀도
+    최소: '0'
+    전형: ——
+    최대: '10'
+    단위: '%'
+    비고: ΔVout/ΔVin
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 출력 전류 조정 가능 범위
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 출력 전류 조정 가능 범위
+    최소: '0'
+    전형: ——
+    최대: '1.5'
+    단위: A
+    비고: SDVC311-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 출력 전류 조정 가능 범위
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 출력 전류 조정 가능 범위
+    최소: '0'
+    전형: ——
+    최대: '3.0'
+    단위: A
+    비고: SDVC311-M
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 출력 전류 조정 가능 범위
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 출력 전류 조정 가능 범위
+    최소: '0'
+    전형: ——
+    최대: '4.5'
+    단위: A
+    비고: SDVC311-L
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 출력 전류 조정 가능 범위
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 출력 전류 조정 가능 범위
+    최소: '0'
+    전형: ——
+    최대: '6.0'
+    단위: A
+    비고: SDVC311-XL
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 출력 용량
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 출력 용량
+    최소: '0'
+    전형: ——
+    최대: '330'
+    단위: VA
+    비고: SDVC311-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 출력 용량
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 출력 용량
+    최소: '0'
+    전형: ——
+    최대: '660'
+    단위: VA
+    비고: SDVC311-M
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 출력 용량
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 출력 용량
+    최소: '0'
+    전형: ——
+    최대: '990'
+    단위: VA
+    비고: SDVC311-L
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 출력 용량
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 출력 용량
+    최소: '0'
+    전형: ——
+    최대: '1320'
+    단위: VA
+    비고: SDVC311-XL
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 출력 주파수
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 출력 주파수
+    최소: '5.0'
+    전형: ——
+    최대: '400.0'
+    단위: Hz
+    _extra_col_7: ''
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 주파수 조정 정밀도
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 주파수 조정 정밀도
+    전형: '0.1'
+    단위: Hz
+    _extra_col_7: ''
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 출력 파형
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 출력 파형
+    전형: 정현파
+    _extra_col_7: ''
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 소프트 시작 시간
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 소프트 시작 시간
+    최소: '0'
+    전형: ——
+    최대: '10.0'
+    단위: s
+    비고: '기본값: 0.5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: ON/OFF 지연 시간 범위
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: ON/OFF 지연 시간 범위
+    최소: '0'
+    전형: ——
+    최대: '99.9'
+    단위: s
+    비고: '기본값: 0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: ON/OFF 지연 시간 정밀도
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: ON/OFF 지연 시간 정밀도
+    전형: '0.1'
+    단위: s
+    _extra_col_7: ''
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 과열 보호 트리거 온도
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 과열 보호 트리거 온도
+    최소: '58'
+    전형: '60'
+    최대: '66'
+    단위: °C
+    _extra_col_7: ''
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: DC 제어 출력 전류
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: DC 제어 출력 전류
+    최소: '0'
+    전형: ——
+    최대: '400'
+    단위: mA
+    _extra_col_7: ''
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: DC 제어 출력 전압
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: DC 제어 출력 전압
+    최소: '22'
+    전형: '24'
+    최대: '26'
+    단위: V
+    _extra_col_7: ''
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 아날로그 제어 신호
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 아날로그 제어 신호
+    전형: 1~5/4~20
+    단위: V/mA
+    비고: 원거리 속도 제어 신호
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 디지털 제어 신호
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 디지털 제어 신호
+    전형: '24'
+    단위: V
+    비고: 스위칭 신호
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 조정 방법
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 조정 방법
+    전형: '6'
+    단위: 버튼
+    _extra_col_7: ''
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 대기 전력을
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 대기 전력을
+    최소: ——
+    전형: '3'
+    최대: ——
+    단위: W
+    _extra_col_7: ''
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 표시 방법
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 표시 방법
+    전형: '5'
+    단위: 자리
+    비고: LED
+    _extra_col_7: ''
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 환경 온도
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 환경 온도
+    최소: '0'
+    전형: '25'
+    최대: '40'
+    단위: °C
+    비고: 결로 없음
+    _extra_col_7: ''
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 환경 습도
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 환경 습도
+    최소: '10'
+    전형: '60'
+    최대: '85'
+    단위: '%'
+    비고: 결로 없음
+    _extra_col_7: ''
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 보관 환경 온도
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 보관 환경 온도
+    최소: '-20'
+    전형: '25'
+    최대: '65'
+    단위: °C
+    비고: 결로 없음
+    _extra_col_7: ''
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 기술 사양
+    table_role: generic
+    table_md_path: tables/0041-제ⅴ장-고급-기능-설명-table-01.md
+- name: 정전기 방전
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 정전기 방전
+    GB 규격: GB/T 17626.2-2006
+    IEC 규격: IEC 61000-4-2:2001
+    등급: '4'
+    규격 요구: ±8 kV
+    비고: 접촉 방전
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id008
+    heading_title: 6.3 참조 규격
+    table_role: generic
+    table_md_path: tables/0042-제ⅴ장-고급-기능-설명-table-01.md
+- name: 전기적 빠른 과도 시험
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: 전기적 빠른 과도 시험
+    GB 규격: GB/T 17626.4-2008
+    IEC 규격: IEC 61000-4-4:2004
+    등급: '4'
+    규격 요구: ±4 kV
+    _extra_col_7: ''
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id008
+    heading_title: 6.3 참조 규격
+    table_role: generic
+    table_md_path: tables/0042-제ⅴ장-고급-기능-설명-table-01.md
+- name: DC 전원선 파형 내성
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    항목: DC 전원선 파형 내성
+    GB 규격: GB/T 17626.17-2005
+    IEC 규격: IEC 61000-4-17:2002
+    등급: '4'
+    규격 요구: 15%
+    비고: 등급 A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id008
+    heading_title: 6.3 참조 규격
+    table_role: generic
+    table_md_path: tables/0042-제ⅴ장-고급-기능-설명-table-01.md
+- name: 일반 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    카테고리: 일반 파라미터
+    정의: 출력 전압
+    기호: U
+    기호 이미지: '![출력 전압 세그먼트 기호 U](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0045-vcrop-00.png)'
+    범위: 0~260 V
+    기본값: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-01.md
+- name: 기본 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    카테고리: 기본 파라미터
+    정의: 출력 주파수 *
+    기호: E
+    기호 이미지: '![출력 주파수 세그먼트 기호 E](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0045-vcrop-01.png)'
+    범위: 5.0~400.0 Hz
+    기본값: '50.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-01.md
+- name: 고급 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    카테고리: 고급 파라미터
+    정의: 지능형 광전 센서 감도
+    기호: P
+    기호 이미지: '![센서 감도 세그먼트 기호 P](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0045-vcrop-07.png)'
+    범위: PnP, nPn, 2~1000
+    기본값: '80'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-01.md
+- name: 고급 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 고급 파라미터
+    정의: 포트 D OFF 지연
+    기호: Ld
+    기호 이미지: '![포트 D OFF 지연 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-00.png)'
+    범위: 0.0~99.9 s
+    기본값: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 고급 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 고급 파라미터
+    정의: 포트 D 출력 모드
+    기호: Fd
+    기호 이미지: '![포트 D 출력 모드 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-01.png)'
+    범위: dLy (지연 모드), HLd (홀드 모드)<br>Fn1 주기 신호 출력 모드 1<br>Fn2 주기 신호 출력 모드 2
+    기본값: dLy
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 고급 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 고급 파라미터
+    정의: 포트 D 논리 방향
+    기호: Sd
+    기호 이미지: '![포트 D 논리 방향 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-02.png)'
+    범위: '--- (동기), -⁻- (반전)<br>on (항상 활성), oFF (항상 비활성)'
+    기본값: '---'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 고급 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 고급 파라미터
+    정의: 제어 출력 유형
+    기호: Cd
+    기호 이미지: '![제어 출력 유형 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-03.png)'
+    범위: nPn, PnP, PSP (Push & Pull)
+    기본값: nPn
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 고급 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 고급 파라미터
+    정의: 최대 출력 전압 제한 *
+    기호: h
+    기호 이미지: '![최대 출력 전압 제한 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-04.png)'
+    범위: 0~260 V
+    기본값: '260'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 고급 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 고급 파라미터
+    정의: 주파수 하한
+    기호: E
+    기호 이미지: '![주파수 하한 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-05.png)'
+    범위: 5.0~400.0 Hz
+    기본값: '40.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 고급 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 고급 파라미터
+    정의: 가속 지수 *
+    기호: g
+    기호 이미지: '![가속 지수 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-06.png)'
+    범위: 100~150
+    기본값: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 고급 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 고급 파라미터
+    정의: 파형 지수 *
+    기호: r
+    기호 이미지: '![파형 지수 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-07.png)'
+    범위: 0~100
+    기본값: '100'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 고급 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 고급 파라미터
+    정의: 조정 불가 기능 파라미터 범위
+    기호: 소수점 포함 특수 7세그먼트 기호(그림 참조)
+    기호 이미지: '![조정 불가 기능 파라미터 범위 소수점 포함 특수 7세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-08.png)'
+    범위: 0~9999
+    기본값: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 고급 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 고급 파라미터
+    정의: 조정 불가 파라미터 기능 잠금
+    기호: 특수 7세그먼트 기호(그림 참조)
+    기호 이미지: '![조정 불가 파라미터 기능 잠금 특수 7세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-09.png)'
+    범위: 0~9999
+    기본값: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 고급 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 고급 파라미터
+    정의: 기본 설정 복원
+    기호: '88888'
+    기호 이미지: '![기본 설정 복원 전세그먼트 점등 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-10.png)'
+    범위: 파라미터 Pin과 병용
+    기본값: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 고급 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 고급 파라미터
+    정의: 공장 모드 복귀
+    기호: Pin
+    기호 이미지: '![공장 모드 복귀 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-11.png)'
+    범위: '0 : 작동 파라미터 그룹을 사용자 파라미터 그룹으로 복원<br>5 : 작동 파라미터 그룹을 사용자 파라미터 그룹에 저장<br>35:
+      작동 파라미터 그룹을 CUH 공장값으로 복원<br>55: 작동 파라미터 그룹과 사용자 파라미터 그룹을 CUH 공장값으로 복원'
+    기본값: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 모니터링 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 모니터링 파라미터
+    정의: 온도
+    기호: C
+    기호 이미지: '![온도 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-12.png)'
+    범위: -20~85 °C
+    기본값: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 모니터링 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 모니터링 파라미터
+    정의: 내부 버스 전압
+    기호: PU
+    기호 이미지: '![내부 버스 전압 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-13.png)'
+    범위: 0~400 V
+    기본값: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 모니터링 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 모니터링 파라미터
+    정의: 버스 리플 전압
+    기호: rU
+    기호 이미지: '![버스 리플 전압 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-14.png)'
+    범위: 0~200 V
+    기본값: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 모니터링 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 모니터링 파라미터
+    정의: 출력 전류
+    기호: AC
+    기호 이미지: '![출력 전류 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-15.png)'
+    범위: 0.00~1.60 A -SDVC31S/SDVC311S<br>0.00~3.20 A -SDVC31M/SDVC311M
+    기본값: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 모니터링 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 모니터링 파라미터
+    정의: 포트 A 신호 전압
+    기호: AU
+    기호 이미지: '![포트 A 신호 전압 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-16.png)'
+    범위: 0.00~5.00 V
+    기본값: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 모니터링 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 모니터링 파라미터
+    정의: 포트 B 신호 전압
+    기호: bU
+    기호 이미지: '![포트 B 신호 전압 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-17.png)'
+    범위: 0~999
+    기본값: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 모니터링 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 모니터링 파라미터
+    정의: 포트 C 신호 전압
+    기호: cU
+    기호 이미지: '![포트 C 신호 전압 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-18.png)'
+    범위: 0.0~28.0 V
+    기본값: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 모니터링 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 모니터링 파라미터
+    정의: 포트 D 신호 전압
+    기호: dU
+    기호 이미지: '![포트 D 신호 전압 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-19.png)'
+    범위: 0.0~28.0 V
+    기본값: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 모니터링 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 모니터링 파라미터
+    정의: 24V 포트 실시간 전압
+    기호: nU
+    기호 이미지: '![24V 포트 실시간 전압 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-20.png)'
+    범위: 0.0~28.0 V
+    기본값: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 모니터링 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 모니터링 파라미터
+    정의: 제어 보드 소프트웨어 버전
+    기호: uc
+    기호 이미지: '![제어 보드 소프트웨어 버전 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-21.png)'
+    범위: ——
+    기본값: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 모니터링 파라미터
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: 모니터링 파라미터
+    정의: 전원 보드 소프트웨어 버전
+    기호: uP
+    기호 이미지: '![전원 보드 소프트웨어 버전 세그먼트 기호](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-22.png)'
+    범위: ——
+    기본값: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 파라미터 표
+    table_role: generic
+    table_md_path: tables/0043-제ⅶ장-부록-table-02.md
+- name: 전원 투입 후 표시 없음
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    오류 코드: 전원 투입 후 표시 없음
+    고장 해결 방법: 전원 콘센트에 전기가 들어오는지 확인<br>입력 전원 코드가 전원 콘센트에 확실하게 연결되었는지 확인?
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 고장 해결 권고 및 오류 설명
+    table_role: generic
+    table_md_path: tables/0045-제ⅶ장-부록-table-01.md
+- name: 표시는 정상이나 출력 없음
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    오류 코드: 표시는 정상이나 출력 없음
+    고장 해결 방법: 출력 케이블이 진동기에 확실하게 연결되었는지 확인.<br>출력 전압이 작지 않은지 확인.<br>정지 표시등이 켜지지 않았는지
+      확인.<br>파라미터 Normal Close가 설정되어 컨트롤러 출력이 정지되었는지 확인하십시오.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 고장 해결 권고 및 오류 설명
+    table_role: generic
+    table_md_path: tables/0045-제ⅶ장-부록-table-01.md
+- name: 제어 신호 무력화
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    오류 코드: 제어 신호 무력화
+    고장 해결 방법: 제어 신호가 올바르게 입력되었는지 확인.<br>제어 신호의 접지선이 컨트롤러에 올바르게 연결되었는지 확인.<br>제어 신호의
+      논리적 관계가 예상대로 올바르게 설정되었는지 확인.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 고장 해결 권고 및 오류 설명
+    table_role: generic
+    table_md_path: tables/0045-제ⅶ장-부록-table-01.md
+- name: 비트 현상
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    오류 코드: 비트 현상
+    고장 해결 방법: 진동기 간의 진동 결합을 피하십시오.<br>진동기의 공진 주파수를 높이십시오.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 고장 해결 권고 및 오류 설명
+    table_role: generic
+    table_md_path: tables/0045-제ⅶ장-부록-table-01.md
+- name: 표시는 정상이나 출력 없음, 소리는 들림
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    오류 코드: 표시는 정상이나 출력 없음, 소리는 들림
+    고장 해결 방법: 본 설명서가 지시하는 대로 모든 파라미터를 조정하십시오.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 고장 해결 권고 및 오류 설명
+    table_role: generic
+    table_md_path: tables/0045-제ⅶ장-부록-table-01.md
+- name: Err01
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    오류 코드: Err01
+    정의: 단락
+    고장 해결 방법: 부하가 단락이 아닌지 확인한 후, 출력 ON/OFF 버튼을 두 번 누르거나 컨트롤러를 재투전하여 출력 재시동을 시도하십시오.
+    기호 이미지: '![Err01 7세그먼트 표시](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 고장 해결 권고 및 오류 설명
+    table_role: generic
+    table_md_path: tables/0045-제ⅶ장-부록-table-01.md
+- name: Err02
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    오류 코드: Err02
+    정의: 과전류
+    고장 해결 방법: 출력 전압을 적절히 낮춘 후 출력을 재시동하십시오.
+    기호 이미지: '![Err02 7세그먼트 표시](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 고장 해결 권고 및 오류 설명
+    table_role: generic
+    table_md_path: tables/0045-제ⅶ장-부록-table-01.md
+- name: Err03
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    오류 코드: Err03
+    정의: 과열
+    고장 해결 방법: 컨트롤러를 환기가 잘 되는 환경에 설치하십시오.
+    기호 이미지: '![Err03 7세그먼트 표시](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 고장 해결 권고 및 오류 설명
+    table_role: generic
+    table_md_path: tables/0045-제ⅶ장-부록-table-01.md
+- name: Err04
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    오류 코드: Err04
+    정의: 과전압 또는 저전압
+    고장 해결 방법: 입력 전압이 AC 85~250Vac 사이인지 확인하십시오.
+    기호 이미지: '![Err04 7세그먼트 표시](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-03.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 고장 해결 권고 및 오류 설명
+    table_role: generic
+    table_md_path: tables/0045-제ⅶ장-부록-table-01.md
+- name: Err05
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    오류 코드: Err05
+    정의: 내부 통신 이상
+    고장 해결 방법: 24V 전원 포트에 외부 전원 공급이 연결되지 않았는지 확인하거나 당사의 기술 지원에 연락하십시오.
+    기호 이미지: '![Err05 7세그먼트 표시](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-04.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 고장 해결 권고 및 오류 설명
+    table_role: generic
+    table_md_path: tables/0045-제ⅶ장-부록-table-01.md
+- name: Err06
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    오류 코드: Err06
+    정의: 온도 센서 이상
+    고장 해결 방법: 작업 온도가 -20℃ 이하가 아닌지 확인하거나 당사의 기술 지원에 연락하십시오.
+    기호 이미지: '![Err06 7세그먼트 표시](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-05.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 고장 해결 권고 및 오류 설명
+    table_role: generic
+    table_md_path: tables/0045-제ⅶ장-부록-table-01.md
+- name: Err07
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    오류 코드: Err07
+    정의: 포트 D 단락 보호
+    고장 해결 방법: 포트 D 부하가 단락이 아니고 전류가 400mA를 초과하지 않는지 확인한 후, 포트 D 출력 재시동을 시도하십시오.
+    기호 이미지: '![Err07 7세그먼트 표시](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-06.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 고장 해결 권고 및 오류 설명
+    table_role: generic
+    table_md_path: tables/0045-제ⅶ장-부록-table-01.md
+- name: Err10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    오류 코드: Err10
+    정의: 24V 전원 출력 이상
+    고장 해결 방법: 24V 포트가 단락이 아니고 전류가 400mA를 초과하지 않는지 확인하십시오.
+    기호 이미지: '![Err10 7세그먼트 표시](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-07.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 고장 해결 권고 및 오류 설명
+    table_role: generic
+    table_md_path: tables/0045-제ⅶ장-부록-table-01.md
+- name: Err11
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    오류 코드: Err11
+    정의: 포트 A 5V 전원 출력 이상
+    고장 해결 방법: 포트 A의 5V 전원이 단락이 아니거나 5V를 초과하는 외부 전원 전압에 연결되지 않았는지 확인하십시오.
+    기호 이미지: '![Err11 7세그먼트 표시](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-08.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 고장 해결 권고 및 오류 설명
+    table_role: generic
+    table_md_path: tables/0045-제ⅶ장-부록-table-01.md
