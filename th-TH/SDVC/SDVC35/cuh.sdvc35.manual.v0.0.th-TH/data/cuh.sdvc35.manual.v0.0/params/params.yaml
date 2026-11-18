@@ -1,0 +1,4653 @@
+schema_version: 1
+doc_id: cuh.sdvc35.manual.v0.0.th-TH
+doc_key: cuh.sdvc35.manual.v0.0
+lang: th-TH
+generated_at: '2026-11-18 12:15:52'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 5
+  heading_path: &id001
+  - บทที่ Ⅱ คู่มือการติดตั้ง
+  - 2.1.2 คำอธิบายขั้วต่อ
+  table_md_path: tables/0005-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+  headers:
+  - PE
+  - PC
+  - PH
+  - PA
+- section_index: 5
+  heading_path: *id001
+  table_md_path: tables/0005-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-02.md
+  headers:
+  - PPL
+  - PPH
+  - PDL
+  - PDH
+  - PF
+- section_index: 12
+  heading_path: &id005
+  - บทที่ Ⅱ คู่มือการติดตั้ง
+  - บทที่ Ⅲ คำอธิบาย HMI
+  table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+  headers:
+  - รายการ
+  - คำอธิบาย
+- section_index: 13
+  heading_path: &id006
+  - บทที่ Ⅱ คู่มือการติดตั้ง
+  - 3.2 อินเทอร์เฟซป้อนรหัสผ่าน
+  table_md_path: tables/0013-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+  headers:
+  - วัตถุที่ถูกควบคุม
+  - รหัสผ่าน 2
+  - รหัสผ่าน 1
+- section_index: 31
+  heading_path: &id007
+  - บทที่ Ⅳ คำอธิบายฟังก์ชัน
+  - 4.5 การควบคุมความเร็วระยะไกล
+  table_md_path: tables/0031-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+  headers:
+  - ประเภทสัญญาณควบคุมระยะไกล
+  - สัญญาณควบคุมระยะไกล
+  - แรงดันเอาต์พุต/ความเร็วป้อน
+- section_index: 32
+  heading_path: &id008
+  - บทที่ Ⅳ คำอธิบายฟังก์ชัน
+  - 4.6 โหมดหลัก
+  table_md_path: tables/0032-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+  headers:
+  - โหมดหลัก
+  - โหมดแรงดันไฟฟ้า
+  - โหมดความถี่
+  - เชื่อมต่อเซ็นเซอร์สั่นสะเทือน
+- section_index: 33
+  heading_path: &id009
+  - บทที่ Ⅳ คำอธิบายฟังก์ชัน
+  - 4.6.2 โหมดอัตโนมัติเต็มรูปแบบ
+  table_md_path: tables/0033-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+  headers:
+  - ค่าทางเทคนิค
+  - ประเภทเซ็นเซอร์สั่นสะเทือน
+  - ความเร่งของทิศทาง X/Y/Z
+- section_index: 37
+  heading_path: &id010
+  - บทที่ Ⅳ คำอธิบายฟังก์ชัน
+  - วิธีการเดินสายของโหมดซิงค์ระหว่างตัวควบคุมหลักและตัวควบคุมทาส
+  table_md_path: tables/0037-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+  headers:
+  - โหมดซิงค์
+  - โหมดแรงดันไฟฟ้า
+  - โหมดความถี่
+  - การควบคุมเฟส
+  - เชื่อมต่อเซ็นเซอร์สั่นสะเทือน
+- section_index: 50
+  heading_path: &id002
+  - บทที่ Ⅳ คำอธิบายฟังก์ชัน
+  - 'ภาคผนวก B: คำอธิบายพอร์ตการเชื่อมต่อทางไฟฟ้า'
+  table_md_path: tables/0050-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+  headers:
+  - Sensor
+  - col_2
+  - col_3
+  - Sensor
+  - col_5
+  - col_6
+  - Sync
+  - col_8
+  - col_9
+  - col_10
+  - Speed Ctrl
+  - col_12
+  - col_13
+- section_index: 50
+  heading_path: *id002
+  table_md_path: tables/0050-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-02.md
+  headers:
+  - Ctrl Out
+  - col_2
+  - col_3
+  - Ctrl Out
+  - col_5
+  - col_6
+  - RS485
+  - col_8
+  - col_9
+- section_index: 51
+  heading_path: &id011
+  - บทที่ Ⅳ คำอธิบายฟังก์ชัน
+  - 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+  table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+  headers:
+  - รายการ
+  - 'ช่วง: ต่ำสุด'
+  - 'ช่วง: ทั่วไป'
+  - 'ช่วง: สูงสุด'
+  - หน่วย
+  - หมายเหตุ
+- section_index: 52
+  heading_path: &id012
+  - บทที่ Ⅳ คำอธิบายฟังก์ชัน
+  - 'พารามิเตอร์สัมบูรณ์:'
+  table_md_path: tables/0052-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+  headers:
+  - รายการ
+  - มาตรฐาน GB
+  - มาตรฐาน IEC
+  - ข้อกำหนดมาตรฐาน
+  - ระดับที่ผลิตภัณฑ์ CUH ทำได้
+  - หมายเหตุ
+- section_index: 53
+  heading_path: &id013
+  - บทที่ Ⅳ คำอธิบายฟังก์ชัน
+  - 'ภาคผนวก D: ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด'
+  table_md_path: tables/0053-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+  headers:
+  - col_1
+  - อาการข้อผิดพลาด
+  - ข้อเสนอแนะการแก้ไขปัญหา
+- section_index: 54
+  heading_path: &id014
+  - บทที่ Ⅳ คำอธิบายฟังก์ชัน
+  - 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+  table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+  headers:
+  - การแสดงข้อผิดพลาด
+  - ประเภทข้อผิดพลาด
+  - ข้อเสนอแนะการแก้ไขปัญหา
+- section_index: 55
+  heading_path: &id003
+  - บทที่ Ⅳ คำอธิบายฟังก์ชัน
+  - 'ภาคผนวก F: คำอธิบายสถานะการทำงานและประเภทการ์ดเครือข่าย'
+  table_md_path: tables/0055-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+  headers:
+  - การแสดงสถานะของตัวควบคุม
+  - ประเภทสถานะ
+  - คำอธิบาย
+- section_index: 55
+  heading_path: *id003
+  table_md_path: tables/0055-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-02.md
+  headers:
+  - การแสดงสถานะของตัวควบคุม
+  - ประเภทสถานะ
+  - คำอธิบาย
+- section_index: 61
+  heading_path: &id004
+  - บทที่ Ⅳ คำอธิบายฟังก์ชัน
+  - 'ภาคผนวก H: ตารางพารามิเตอร์'
+  table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+  headers:
+  - ชื่อกลุ่มพารามิเตอร์
+  - คำอธิบาย
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-02.md
+  headers:
+  - รายการ
+  - ต่ำสุด
+  - ค่าเริ่มต้น
+  - สูงสุด
+  - หน่วย/ค่าตัวเลือก
+  - คำอธิบาย
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-03.md
+  headers:
+  - รายการ
+  - ต่ำสุด
+  - ค่าเริ่มต้น
+  - สูงสุด
+  - หน่วย/ค่าตัวเลือก
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+  headers:
+  - รายการ
+  - ต่ำสุด
+  - ค่าเริ่มต้น
+  - สูงสุด
+  - หน่วย/ค่าตัวเลือก
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-05.md
+  headers:
+  - รายการ
+  - ต่ำสุด
+  - ค่าเริ่มต้น
+  - สูงสุด
+  - หน่วย/ค่าตัวเลือก
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-06.md
+  headers:
+  - รายการ
+  - ต่ำสุด
+  - ค่าเริ่มต้น
+  - สูงสุด
+  - หน่วย/ค่าตัวเลือก
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-07.md
+  headers:
+  - รายการ
+  - ต่ำสุด
+  - ค่าเริ่มต้น
+  - สูงสุด
+  - หน่วย/ค่าตัวเลือก
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-08.md
+  headers:
+  - รายการ
+  - ต่ำสุด
+  - ค่าเริ่มต้น
+  - สูงสุด
+  - หน่วย/ค่าตัวเลือก
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-09.md
+  headers:
+  - รายการ
+  - ต่ำสุด
+  - ค่าเริ่มต้น
+  - สูงสุด
+  - หน่วย/ค่าตัวเลือก
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-10.md
+  headers:
+  - รายการ
+  - ต่ำสุด
+  - ค่าเริ่มต้น
+  - สูงสุด
+  - หน่วย/ค่าตัวเลือก
+- section_index: 61
+  heading_path: *id004
+  table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+  headers:
+  - รายการ
+  - ต่ำสุด
+  - สูงสุด
+  - หน่วย
+  - คำอธิบาย
+items:
+- name: ไฟแสดงพอร์ต E
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    PE: ไฟแสดงพอร์ต E
+    PC: ไฟแสดงพอร์ต C
+    PH: ไฟแสดงซิงค์
+    PA: ไฟแสดงรีโมท
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 5
+    heading_path: *id001
+    heading_title: 2.1.2 คำอธิบายขั้วต่อ
+    table_role: generic
+    table_md_path: tables/0005-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: ไฟแสดงระดับต่ำ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    PPL: ไฟแสดงระดับต่ำ
+    PPH: ไฟแสดงระดับสูง
+    PDL: ไฟแสดงระดับต่ำ
+    PDH: ไฟแสดงระดับสูง
+    PF: ไฟแสดงการสื่อสาร
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 5
+    heading_path: *id001
+    heading_title: 2.1.2 คำอธิบายขั้วต่อ
+    table_role: generic
+    table_md_path: tables/0005-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-02.md
+- name: UsrV
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: UsrV
+    คำอธิบาย: แรงดันเอาต์พุต
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: UsrF
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: UsrF
+    คำอธิบาย: ความถี่เอาต์พุต
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: UsrS
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: UsrS
+    คำอธิบาย: ความเร็วป้อน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: Cout
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: Cout
+    คำอธิบาย: ค่าที่นับปัจจุบัน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: PCUp
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PCUp
+    คำอธิบาย: เวลาหน่วงเปิดของพอร์ต C
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: PCDn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PCDn
+    คำอธิบาย: เวลาหน่วงปิดของพอร์ต C
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: PEUp
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PEUp
+    คำอธิบาย: เวลาหน่วงเปิดของพอร์ต E
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: PEDn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PEDn
+    คำอธิบาย: เวลาหน่วงปิดของพอร์ต E
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: PDUp
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PDUp
+    คำอธิบาย: เวลาหน่วงเปิดของพอร์ต D
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: PDDn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PDDn
+    คำอธิบาย: เวลาหน่วงปิดของพอร์ต D
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: PPUp
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PPUp
+    คำอธิบาย: เวลาหน่วงเปิดของพอร์ต P
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: PPDn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PPDn
+    คำอธิบาย: เวลาหน่วงปิดของพอร์ต P
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: MaUp
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: MaUp
+    คำอธิบาย: เวลาหน่วงเปิดของการควบคุมหลัก
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: MaDn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: MaDn
+    คำอธิบาย: เวลาหน่วงปิดของการควบคุมหลัก
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: BusV
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: BusV
+    คำอธิบาย: แรงดันบัสกำลังไฟ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: CurE
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: CurE
+    คำอธิบาย: ค่าประสิทธิผลของกระแสเอาต์พุต
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: CurM
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: CurM
+    คำอธิบาย: กระแสเอาต์พุตสูงสุด
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: PwrA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PwrA
+    คำอธิบาย: กำลังไฟฟ้าจริง
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: PwrR
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PwrR
+    คำอธิบาย: กำลังไฟฟ้ารีแอกทีฟ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: Temp
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: Temp
+    คำอธิบาย: อุณหภูมิ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: SynF
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: SynF
+    คำอธิบาย: ความถี่ของสัญญาณซิงค์ภายนอก
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: Remo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: Remo
+    คำอธิบาย: แรงดันอินพุตรีโมท
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: PCV
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PCV
+    คำอธิบาย: แรงดันอินพุตพอร์ต C
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: PEV
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PEV
+    คำอธิบาย: แรงดันอินพุตพอร์ต E
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: PDV
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PDV
+    คำอธิบาย: แรงดันเอาต์พุตพอร์ต D
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: PPV
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PPV
+    คำอธิบาย: แรงดันเอาต์พุตพอร์ต P
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 12
+    heading_path: *id005
+    heading_title: บทที่ Ⅲ คำอธิบาย HMI
+    table_role: generic
+    table_md_path: tables/0012-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: ปุ่มเปิด/ปิด
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    วัตถุที่ถูกควบคุม: ปุ่มเปิด/ปิด
+    รหัสผ่าน 2: ○
+    รหัสผ่าน 1: ○
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id006
+    heading_title: 3.2 อินเทอร์เฟซป้อนรหัสผ่าน
+    table_role: generic
+    table_md_path: tables/0013-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: อินเทอร์เฟซสแตนด์บาย
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    วัตถุที่ถูกควบคุม: อินเทอร์เฟซสแตนด์บาย
+    รหัสผ่าน 2: ○
+    รหัสผ่าน 1: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id006
+    heading_title: 3.2 อินเทอร์เฟซป้อนรหัสผ่าน
+    table_role: generic
+    table_md_path: tables/0013-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: กลุ่มฟังก์ชัน 1 และกลุ่มฟังก์ชัน 9
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    วัตถุที่ถูกควบคุม: กลุ่มฟังก์ชัน 1 และกลุ่มฟังก์ชัน 9
+    รหัสผ่าน 2: √
+    รหัสผ่าน 1: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id006
+    heading_title: 3.2 อินเทอร์เฟซป้อนรหัสผ่าน
+    table_role: generic
+    table_md_path: tables/0013-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: กลุ่มฟังก์ชันอื่น ๆ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    วัตถุที่ถูกควบคุม: กลุ่มฟังก์ชันอื่น ๆ
+    รหัสผ่าน 2: ×
+    รหัสผ่าน 1: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id006
+    heading_title: 3.2 อินเทอร์เฟซป้อนรหัสผ่าน
+    table_role: generic
+    table_md_path: tables/0013-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: คำอธิบาย
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    วัตถุที่ถูกควบคุม: คำอธิบาย
+    รหัสผ่าน 2: เมื่อไม่มีสิทธิ์ สามารถใช้งานปุ่มเปิด/ปิดและพารามิเตอร์ของอินเทอร์เฟซสแตนด์บายได้<br><br>เมื่อมีสิทธิ์
+      สามารถใช้งานพารามิเตอร์ของกลุ่มฟังก์ชัน 1 และกลุ่มฟังก์ชัน 9 ปุ่มเปิด/ปิด และพารามิเตอร์ของอินเทอร์เฟซสแตนด์บายได้
+    รหัสผ่าน 1: เมื่อไม่มีสิทธิ์ สามารถใช้งานปุ่มเปิด/ปิดได้<br><br>เมื่อมีสิทธิ์
+      สามารถใช้งานฟังก์ชันทั้งหมดได้
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id006
+    heading_title: 3.2 อินเทอร์เฟซป้อนรหัสผ่าน
+    table_role: generic
+    table_md_path: tables/0013-บทท-ⅱ-ค-ม-อการต-ดต-ง-table-01.md
+- name: Panel
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ประเภทสัญญาณควบคุมระยะไกล: Panel
+    แรงดันเอาต์พุต/ความเร็วป้อน: แรงดันเอาต์พุตและความเร็วป้อนไม่ถูกควบคุมโดยสัญญาณควบคุมระยะไกล
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id007
+    heading_title: 4.5 การควบคุมความเร็วระยะไกล
+    table_role: generic
+    table_md_path: tables/0031-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: 20mA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ประเภทสัญญาณควบคุมระยะไกล: 20mA
+    สัญญาณควบคุมระยะไกล: <2mA
+    แรงดันเอาต์พุต/ความเร็วป้อน: เมื่อโหมดแรงดันไฟฟ้าเป็น Manual แรงดันเอาต์พุต =
+      0<br>เมื่อโหมดแรงดันไฟฟ้าเป็น Auto ความเร็วป้อน = 0<br>LCD แสดงข้อมูลข้อผิดพลาด
+      "<2mA Err"
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id007
+    heading_title: 4.5 การควบคุมความเร็วระยะไกล
+    table_role: generic
+    table_md_path: tables/0031-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: 1~5V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ประเภทสัญญาณควบคุมระยะไกล: 1~5V
+    สัญญาณควบคุมระยะไกล: <0.5V
+    แรงดันเอาต์พุต/ความเร็วป้อน: แรงดันเอาต์พุต = 0, ความเร็วป้อน = 0<br>LCD แสดงข้อมูลข้อผิดพลาด
+      "<0.5V Err"
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id007
+    heading_title: 4.5 การควบคุมความเร็วระยะไกล
+    table_role: generic
+    table_md_path: tables/0031-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: 0~5V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ประเภทสัญญาณควบคุมระยะไกล: 0~5V
+    สัญญาณควบคุมระยะไกล: 0V~5V
+    แรงดันเอาต์พุต/ความเร็วป้อน: ควบคุมแบบสัดส่วนโดยสัญญาณควบคุมระยะไกล (0%~100%)<br>เมื่อโหมดแรงดันไฟฟ้าเป็น
+      Manual แรงดันเอาต์พุต = แรงดันอินพุต/5 × แรงดันเอาต์พุตสูงสุด<br>เมื่อโหมดแรงดันไฟฟ้าเป็น
+      Auto ความเร็วป้อน = แรงดันอินพุต/5 ×ความเร็วป้อนสูงสุด
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id007
+    heading_title: 4.5 การควบคุมความเร็วระยะไกล
+    table_role: generic
+    table_md_path: tables/0031-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: 0~10V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ประเภทสัญญาณควบคุมระยะไกล: 0~10V
+    สัญญาณควบคุมระยะไกล: 0V~10V
+    แรงดันเอาต์พุต/ความเร็วป้อน: ควบคุมแบบสัดส่วนโดยสัญญาณควบคุมระยะไกล (0%~100%)<br>เมื่อโหมดแรงดันไฟฟ้าเป็น
+      Manual แรงดันเอาต์พุต = แรงดันอินพุต/10 × แรงดันเอาต์พุตสูงสุด<br>เมื่อโหมดแรงดันไฟฟ้าเป็น
+      Auto ความเร็วป้อน = แรงดันอินพุต/10 ×ความเร็วป้อนสูงสุด
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id007
+    heading_title: 4.5 การควบคุมความเร็วระยะไกล
+    table_role: generic
+    table_md_path: tables/0031-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: Meter (โพเทนชิออมิเตอร์)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ประเภทสัญญาณควบคุมระยะไกล: Meter (โพเทนชิออมิเตอร์)
+    สัญญาณควบคุมระยะไกล: อัตราการแบ่งแรงดันของโพเทนชิออมิเตอร์ <4%
+    แรงดันเอาต์พุต/ความเร็วป้อน: แรงดันเอาต์พุต = 0, ความเร็วป้อน = 0
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id007
+    heading_title: 4.5 การควบคุมความเร็วระยะไกล
+    table_role: generic
+    table_md_path: tables/0031-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: โหมดแมนนวลเต็มรูปแบบ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดหลัก: โหมดแมนนวลเต็มรูปแบบ
+    โหมดแรงดันไฟฟ้า: Manual
+    โหมดความถี่: Manual
+    เชื่อมต่อเซ็นเซอร์สั่นสะเทือน: ไม่
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id008
+    heading_title: 4.6 โหมดหลัก
+    table_role: generic
+    table_md_path: tables/0032-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: โหมดอัตโนมัติเต็มรูปแบบ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดหลัก: โหมดอัตโนมัติเต็มรูปแบบ
+    โหมดแรงดันไฟฟ้า: Automatic
+    โหมดความถี่: Automatic
+    เชื่อมต่อเซ็นเซอร์สั่นสะเทือน: ใช่
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id008
+    heading_title: 4.6 โหมดหลัก
+    table_role: generic
+    table_md_path: tables/0032-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: โหมดกึ่งอัตโนมัติแรงดันไฟฟ้า
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดหลัก: โหมดกึ่งอัตโนมัติแรงดันไฟฟ้า
+    โหมดแรงดันไฟฟ้า: Automatic
+    โหมดความถี่: Manual
+    เชื่อมต่อเซ็นเซอร์สั่นสะเทือน: ใช่
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id008
+    heading_title: 4.6 โหมดหลัก
+    table_role: generic
+    table_md_path: tables/0032-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: โหมดกึ่งอัตโนมัติความถี่
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดหลัก: โหมดกึ่งอัตโนมัติความถี่
+    โหมดแรงดันไฟฟ้า: Manual
+    โหมดความถี่: Automatic
+    เชื่อมต่อเซ็นเซอร์สั่นสะเทือน: ใช่
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id008
+    heading_title: 4.6 โหมดหลัก
+    table_role: generic
+    table_md_path: tables/0032-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: 16g
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ค่าทางเทคนิค: 16g
+    ประเภทเซ็นเซอร์สั่นสะเทือน: SDVS20-1
+    ความเร่งของทิศทาง X/Y/Z: 16g/16g/16g
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id009
+    heading_title: 4.6.2 โหมดอัตโนมัติเต็มรูปแบบ
+    table_role: generic
+    table_md_path: tables/0033-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: 35g
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ค่าทางเทคนิค: 35g
+    ประเภทเซ็นเซอร์สั่นสะเทือน: SDVS20-2
+    ความเร่งของทิศทาง X/Y/Z: 35g/35g/-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id009
+    heading_title: 4.6.2 โหมดอัตโนมัติเต็มรูปแบบ
+    table_role: generic
+    table_md_path: tables/0033-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: 50g
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ค่าทางเทคนิค: 50g
+    ประเภทเซ็นเซอร์สั่นสะเทือน: SDVS20-3
+    ความเร่งของทิศทาง X/Y/Z: 50g/50g/-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id009
+    heading_title: 4.6.2 โหมดอัตโนมัติเต็มรูปแบบ
+    table_role: generic
+    table_md_path: tables/0033-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: 70g
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ค่าทางเทคนิค: 70g
+    ประเภทเซ็นเซอร์สั่นสะเทือน: SDVS20-4
+    ความเร่งของทิศทาง X/Y/Z: 70g/70g/-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id009
+    heading_title: 4.6.2 โหมดอัตโนมัติเต็มรูปแบบ
+    table_role: generic
+    table_md_path: tables/0033-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: Auto
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ค่าทางเทคนิค: Auto
+    ประเภทเซ็นเซอร์สั่นสะเทือน: ไม่มี
+    ความเร่งของทิศทาง X/Y/Z: ไม่มี
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id009
+    heading_title: 4.6.2 โหมดอัตโนมัติเต็มรูปแบบ
+    table_role: generic
+    table_md_path: tables/0033-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: โหมดแรงดันอัตโนมัติและเฟสอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดซิงค์: โหมดแรงดันอัตโนมัติและเฟสอัตโนมัติ
+    โหมดแรงดันไฟฟ้า: Manual
+    โหมดความถี่: Slave C
+    การควบคุมเฟส: Manual
+    เชื่อมต่อเซ็นเซอร์สั่นสะเทือน: ใช่
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id010
+    heading_title: วิธีการเดินสายของโหมดซิงค์ระหว่างตัวควบคุมหลักและตัวควบคุมทาส
+    table_role: generic
+    table_md_path: tables/0037-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: โหมดแรงดันอัตโนมัติและเฟสแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดซิงค์: โหมดแรงดันอัตโนมัติและเฟสแมนนวล
+    โหมดแรงดันไฟฟ้า: Manual
+    โหมดความถี่: Slave M
+    การควบคุมเฟส: Automatic
+    เชื่อมต่อเซ็นเซอร์สั่นสะเทือน: ใช่
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id010
+    heading_title: วิธีการเดินสายของโหมดซิงค์ระหว่างตัวควบคุมหลักและตัวควบคุมทาส
+    table_role: generic
+    table_md_path: tables/0037-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: โหมดแรงดันแมนนวลและเฟสอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดซิงค์: โหมดแรงดันแมนนวลและเฟสอัตโนมัติ
+    โหมดแรงดันไฟฟ้า: Automatic
+    โหมดความถี่: Slave C
+    การควบคุมเฟส: Manual
+    เชื่อมต่อเซ็นเซอร์สั่นสะเทือน: ใช่
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id010
+    heading_title: วิธีการเดินสายของโหมดซิงค์ระหว่างตัวควบคุมหลักและตัวควบคุมทาส
+    table_role: generic
+    table_md_path: tables/0037-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: โหมดแรงดันแมนนวลและเฟสแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดซิงค์: โหมดแรงดันแมนนวลและเฟสแมนนวล
+    โหมดแรงดันไฟฟ้า: Automatic
+    โหมดความถี่: Slave M
+    การควบคุมเฟส: Automatic
+    เชื่อมต่อเซ็นเซอร์สั่นสะเทือน: ไม่
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id010
+    heading_title: วิธีการเดินสายของโหมดซิงค์ระหว่างตัวควบคุมหลักและตัวควบคุมทาส
+    table_role: generic
+    table_md_path: tables/0037-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: PortC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Sensor: PortC
+    Sync: PortH
+    Speed Ctrl: PortA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 50
+    heading_path: *id002
+    heading_title: 'ภาคผนวก B: คำอธิบายพอร์ตการเชื่อมต่อทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0050-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: C1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Sensor: C1
+    col_2: E2
+    col_3: E3
+    col_5: C2
+    col_6: C3
+    Sync: H4
+    col_8: H3
+    col_9: H1
+    col_10: H2
+    Speed Ctrl: A4
+    col_12: A5
+    col_13: A3
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 50
+    heading_path: *id002
+    heading_title: 'ภาคผนวก B: คำอธิบายพอร์ตการเชื่อมต่อทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0050-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: GND
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Sensor: GND
+    col_2: Input
+    col_3: +24V
+    col_5: Input
+    col_6: +24V
+    Sync: Sync Out+
+    col_8: Sync Out-
+    col_9: Sync In-
+    col_10: Sync In+
+    Speed Ctrl: GND
+    col_12: Input
+    col_13: +5V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 50
+    heading_path: *id002
+    heading_title: 'ภาคผนวก B: คำอธิบายพอร์ตการเชื่อมต่อทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0050-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: PortD
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Ctrl Out: PortD
+    RS485: PortF
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 50
+    heading_path: *id002
+    heading_title: 'ภาคผนวก B: คำอธิบายพอร์ตการเชื่อมต่อทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0050-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-02.md
+- name: D3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Ctrl Out: D3
+    col_2: P1
+    col_3: P2
+    col_5: D1
+    col_6: D2
+    RS485: F4
+    col_8: F2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 50
+    heading_path: *id002
+    heading_title: 'ภาคผนวก B: คำอธิบายพอร์ตการเชื่อมต่อทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0050-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-02.md
+- name: GND
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Ctrl Out: GND
+    col_2: Output
+    col_3: +24V
+    col_5: Output
+    col_6: +24V
+    RS485: B-
+    col_8: A+
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 50
+    heading_path: *id002
+    heading_title: 'ภาคผนวก B: คำอธิบายพอร์ตการเชื่อมต่อทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0050-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-02.md
+- name: แรงดันอินพุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: แรงดันอินพุต
+    'ช่วง: ต่ำสุด': '85'
+    'ช่วง: ทั่วไป': '220'
+    'ช่วง: สูงสุด': '250'
+    หน่วย: V
+    หมายเหตุ: AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: ช่วงแรงดันเอาต์พุตที่ปรับได้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงแรงดันเอาต์พุตที่ปรับได้
+    'ช่วง: ต่ำสุด': '0'
+    'ช่วง: ทั่วไป': ——
+    'ช่วง: สูงสุด': '260'
+    หน่วย: V
+    หมายเหตุ: ต่ำกว่า 150% ของแรงดันอินพุต
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: ความแม่นยำการปรับแรงดัน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความแม่นยำการปรับแรงดัน
+    'ช่วง: ทั่วไป': '1'
+    หน่วย: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: ความแม่นยำการควบคุมแรงดัน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความแม่นยำการควบคุมแรงดัน
+    'ช่วง: ต่ำสุด': '0'
+    'ช่วง: ทั่วไป': ——
+    'ช่วง: สูงสุด': '10'
+    หน่วย: '%'
+    หมายเหตุ: ΔVout/ΔVin
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: เวลาตอบสนองของการควบคุมแรงดัน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: เวลาตอบสนองของการควบคุมแรงดัน
+    'ช่วง: ทั่วไป': เรียลไทม์
+    หน่วย: s
+    หมายเหตุ: การควบคุมแรงดันสำหรับแต่ละรูปคลื่น
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: ช่วงกระแสเอาต์พุตที่ปรับได้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงกระแสเอาต์พุตที่ปรับได้
+    'ช่วง: ต่ำสุด': '0'
+    'ช่วง: ทั่วไป': ——
+    'ช่วง: สูงสุด': '3'
+    หน่วย: A
+    หมายเหตุ: SDVC35-MRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: ช่วงกระแสเอาต์พุตที่ปรับได้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงกระแสเอาต์พุตที่ปรับได้
+    'ช่วง: ต่ำสุด': '0'
+    'ช่วง: ทั่วไป': ——
+    'ช่วง: สูงสุด': '4.5'
+    หน่วย: A
+    หมายเหตุ: SDVC35-LRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: กำลังเอาต์พุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: กำลังเอาต์พุต
+    'ช่วง: ต่ำสุด': '0'
+    'ช่วง: ทั่วไป': ——
+    'ช่วง: สูงสุด': '660'
+    หน่วย: VA
+    หมายเหตุ: SDVC35-MRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: กำลังเอาต์พุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: กำลังเอาต์พุต
+    'ช่วง: ต่ำสุด': '0'
+    'ช่วง: ทั่วไป': ——
+    'ช่วง: สูงสุด': '990'
+    หน่วย: VA
+    หมายเหตุ: SDVC35-LRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: ความถี่เอาต์พุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความถี่เอาต์พุต
+    'ช่วง: ต่ำสุด': '25'
+    'ช่วง: ทั่วไป': ——
+    'ช่วง: สูงสุด': '400'
+    หน่วย: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: ความแม่นยำการปรับความถี่
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความแม่นยำการปรับความถี่
+    'ช่วง: ทั่วไป': '0.1'
+    หน่วย: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: รูปคลื่นเอาต์พุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: รูปคลื่นเอาต์พุต
+    'ช่วง: ทั่วไป': ไซน์
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: เวลาเริ่มต้นแบบนุ่มนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: เวลาเริ่มต้นแบบนุ่มนวล
+    'ช่วง: ต่ำสุด': '0'
+    'ช่วง: ทั่วไป': ——
+    'ช่วง: สูงสุด': '10'
+    หน่วย: s
+    หมายเหตุ: 'ค่าเริ่มต้น: 0.5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: ช่วงเวลาหน่วงเปิด/ปิด
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงเวลาหน่วงเปิด/ปิด
+    'ช่วง: ต่ำสุด': '0'
+    'ช่วง: ทั่วไป': ——
+    'ช่วง: สูงสุด': '20'
+    หน่วย: s
+    หมายเหตุ: 'ค่าเริ่มต้น: 0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: ความแม่นยำเวลาหน่วงเปิด/ปิด
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความแม่นยำเวลาหน่วงเปิด/ปิด
+    'ช่วง: ทั่วไป': '0.1'
+    หน่วย: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: อุณหภูมิทริกเกอร์การป้องกันความร้อนสูงเกิน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: อุณหภูมิทริกเกอร์การป้องกันความร้อนสูงเกิน
+    'ช่วง: ต่ำสุด': '60'
+    'ช่วง: ทั่วไป': '65'
+    'ช่วง: สูงสุด': '65'
+    หน่วย: °C
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: การสื่อสารดิจิทัล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: การสื่อสารดิจิทัล
+    'ช่วง: ทั่วไป': การสื่อสาร ModBUS485
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: การสื่อสารดิจิทัล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: การสื่อสารดิจิทัล
+    'ช่วง: ทั่วไป': EtherCat
+    หมายเหตุ: เลือกได้อย่างใดอย่างหนึ่ง
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: การสื่อสารดิจิทัล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: การสื่อสารดิจิทัล
+    'ช่วง: ทั่วไป': Profinet
+    หมายเหตุ: เลือกได้อย่างใดอย่างหนึ่ง
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: กระแสเอาต์พุตควบคุม DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: กระแสเอาต์พุตควบคุม DC
+    'ช่วง: ต่ำสุด': '0'
+    'ช่วง: ทั่วไป': ——
+    'ช่วง: สูงสุด': '200'
+    หน่วย: mA
+    หมายเหตุ: เอาต์พุต 24V คู่
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: แรงดันเอาต์พุตควบคุม DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: แรงดันเอาต์พุตควบคุม DC
+    'ช่วง: ต่ำสุด': '22'
+    'ช่วง: ทั่วไป': '24'
+    'ช่วง: สูงสุด': '26'
+    หน่วย: V
+    หมายเหตุ: เอาต์พุต 24V คู่
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: สัญญาณควบคุมแอนะล็อก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: สัญญาณควบคุมแอนะล็อก
+    'ช่วง: ทั่วไป': 4~20
+    หน่วย: mA
+    หมายเหตุ: ช่องสัญญาณกระแส 1 ช่องสำหรับการควบคุมความเร็วระยะไกล
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: สัญญาณควบคุมแอนะล็อก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: สัญญาณควบคุมแอนะล็อก
+    'ช่วง: ทั่วไป': 1~5/0~5/0~10
+    หน่วย: V
+    หมายเหตุ: ช่องสัญญาณแรงดัน 3 ช่องสำหรับการควบคุมความเร็วระยะไกล
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: สัญญาณควบคุมดิจิทัล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: สัญญาณควบคุมดิจิทัล
+    'ช่วง: ทั่วไป': '24'
+    หน่วย: V
+    หมายเหตุ: สัญญาณสวิตช์
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: วิธีการปรับ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: วิธีการปรับ
+    'ช่วง: ทั่วไป': ปุ่ม 1 ปุ่ม + ตัวเข้ารหัสแบบหมุน 1 ตัว
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: การใช้พลังงานในโหมดสแตนด์บาย
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: การใช้พลังงานในโหมดสแตนด์บาย
+    'ช่วง: ต่ำสุด': ——
+    'ช่วง: ทั่วไป': ——
+    'ช่วง: สูงสุด': '3'
+    หน่วย: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: วิธีการแสดงผล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: วิธีการแสดงผล
+    'ช่วง: ทั่วไป': 128*64
+    หมายเหตุ: จอแสดงผลแบบเมทริกซ์ OLED
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: อุณหภูมิโดยรอบ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: อุณหภูมิโดยรอบ
+    'ช่วง: ต่ำสุด': '0'
+    'ช่วง: ทั่วไป': '25'
+    'ช่วง: สูงสุด': '40'
+    หน่วย: °C
+    หมายเหตุ: ไม่มีการควบแน่น
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: ความชื้นโดยรอบ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความชื้นโดยรอบ
+    'ช่วง: ต่ำสุด': '10'
+    'ช่วง: ทั่วไป': '60'
+    'ช่วง: สูงสุด': '85'
+    หน่วย: '%'
+    หมายเหตุ: ไม่มีการควบแน่น
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: อุณหภูมิโดยรอบในการจัดเก็บ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: อุณหภูมิโดยรอบในการจัดเก็บ
+    'ช่วง: ต่ำสุด': '-20'
+    'ช่วง: ทั่วไป': '25'
+    'ช่วง: สูงสุด': '65'
+    หน่วย: °C
+    หมายเหตุ: ไม่มีการควบแน่น
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 51
+    heading_path: *id011
+    heading_title: 'ภาคผนวก C: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0051-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: การคายประจุไฟฟ้าสถิต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: การคายประจุไฟฟ้าสถิต
+    มาตรฐาน GB: GB/T 17626.2-2006
+    มาตรฐาน IEC: IEC 61000-4-2:2001
+    ข้อกำหนดมาตรฐาน: 4 kV
+    ระดับที่ผลิตภัณฑ์ CUH ทำได้: ±8 kV
+    หมายเหตุ: การคายประจุแบบสัมผัส
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 52
+    heading_path: *id012
+    heading_title: 'พารามิเตอร์สัมบูรณ์:'
+    table_role: generic
+    table_md_path: tables/0052-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: การทดสอบทรานเซียนต์เร็วทางไฟฟ้า
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: การทดสอบทรานเซียนต์เร็วทางไฟฟ้า
+    มาตรฐาน GB: GB/T 17626.4-2008
+    มาตรฐาน IEC: IEC 61000-4-4:2004
+    ข้อกำหนดมาตรฐาน: 2 kV
+    ระดับที่ผลิตภัณฑ์ CUH ทำได้: ±4 kV
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 52
+    heading_path: *id012
+    heading_title: 'พารามิเตอร์สัมบูรณ์:'
+    table_role: generic
+    table_md_path: tables/0052-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: เซิร์จทางไฟฟ้า
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: เซิร์จทางไฟฟ้า
+    มาตรฐาน GB: GB/T 17626.5-2008
+    มาตรฐาน IEC: IEC 61000-4-5:2005
+    ข้อกำหนดมาตรฐาน: 1 kV
+    ระดับที่ผลิตภัณฑ์ CUH ทำได้: ±4 kV
+    หมายเหตุ: การคัปปลิงแบบไลน์-ไลน์
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 52
+    heading_path: *id012
+    heading_title: 'พารามิเตอร์สัมบูรณ์:'
+    table_role: generic
+    table_md_path: tables/0052-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: '1'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: '1'
+    อาการข้อผิดพลาด: ไม่แสดงผลหลังจากเปิดเครื่อง
+    ข้อเสนอแนะการแก้ไขปัญหา: • ตรวจสอบให้แน่ใจว่าปลั๊กไฟมีกระแสไฟฟ้า<br>• ตรวจสอบให้แน่ใจว่าสายไฟกำลังอินพุตเชื่อมต่อกับปลั๊กไฟอย่างน่าเชื่อถือ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 53
+    heading_path: *id013
+    heading_title: 'ภาคผนวก D: ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด'
+    table_role: generic
+    table_md_path: tables/0053-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: '2'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: '2'
+    อาการข้อผิดพลาด: แสดงผลปกติ แต่ไม่มีเอาต์พุต
+    ข้อเสนอแนะการแก้ไขปัญหา: • ตรวจสอบให้แน่ใจว่าแรงดันเอาต์พุตไม่เล็กเกินไป<br>•
+      ตรวจสอบให้แน่ใจว่าสถานะการทำงานของตัวควบคุมไม่ใช่ “Man” ที่ควบคุมโดยการกดปุ่ม
+      “ON/OFF” บนแผงควบคุม<br>• ตรวจสอบให้แน่ใจว่าสถานะการทำงานของตัวควบคุมไม่ใช่
+      “STP” ที่ควบคุมโดยพอร์ต C/E<br>• ตรวจสอบให้แน่ใจว่าสถานะการทำงานของตัวควบคุมไม่ใช่
+      “STP” ที่ควบคุมโดยพารามิเตอร์ทิศทางตรรกะของพอร์ต C/E<br>• รีเซ็ตตัวควบคุมโดยการคืนค่าการตั้งค่าเริ่มต้นซึ่งปรับในกลุ่มฟังก์ชัน
+      8
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 53
+    heading_path: *id013
+    heading_title: 'ภาคผนวก D: ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด'
+    table_role: generic
+    table_md_path: tables/0053-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: '3'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: '3'
+    อาการข้อผิดพลาด: พอร์ต C/E ไม่สามารถทำงานได้ตามปกติ
+    ข้อเสนอแนะการแก้ไขปัญหา: • ตรวจสอบให้แน่ใจว่าสายสัญญาณควบคุมเปิด/ปิดเชื่อมต่อกับพอร์ต
+      C/E อย่างถูกต้อง<br>• ตรวจสอบให้แน่ใจว่าพารามิเตอร์ทั้งหมดของพอร์ต C/E ที่คุณปรับนั้นถูกต้อง<br>•
+      รีเซ็ตตัวควบคุมโดยการคืนค่าการตั้งค่าเริ่มต้นซึ่งปรับในกลุ่มฟังก์ชัน 8
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 53
+    heading_path: *id013
+    heading_title: 'ภาคผนวก D: ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด'
+    table_role: generic
+    table_md_path: tables/0053-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: '4'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: '4'
+    อาการข้อผิดพลาด: ปรากฏการณ์บีต
+    ข้อเสนอแนะการแก้ไขปัญหา: • เชื่อมต่อสายสัญญาณซิงค์ระหว่างตัวควบคุมและตั้งค่าตัวควบคุมทาสเป็นโหมดซิงค์
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 53
+    heading_path: *id013
+    heading_title: 'ภาคผนวก D: ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด'
+    table_role: generic
+    table_md_path: tables/0053-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: '5'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: '5'
+    อาการข้อผิดพลาด: แสดงผลปกติ ได้ยินเสียงจากเครื่องป้อนวัสดุแบบสั่นสะเทือนแต่ไม่มีเอาต์พุต
+    ข้อเสนอแนะการแก้ไขปัญหา: • ตรวจสอบให้แน่ใจว่าความถี่เอาต์พุตไม่ห่างจากความถี่เรโซแนนซ์ของเครื่องป้อนวัสดุแบบสั่นสะเทือนมากนัก<br>•
+      รีเซ็ตตัวควบคุมโดยการคืนค่าการตั้งค่าเริ่มต้นซึ่งปรับในกลุ่มฟังก์ชัน 8
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 53
+    heading_path: *id013
+    heading_title: 'ภาคผนวก D: ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด'
+    table_role: generic
+    table_md_path: tables/0053-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: 24VErr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: 24VErr
+    ประเภทข้อผิดพลาด: ข้อผิดพลาดแหล่งจ่ายไฟ 24V ภายใน
+    ข้อเสนอแนะการแก้ไขปัญหา: แหล่งจ่ายไฟ 24V ภายในของตัวควบคุมเสียหาย โปรดติดต่อเราเพื่อซ่อมแซม
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: 5VErr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: 5VErr
+    ประเภทข้อผิดพลาด: ข้อผิดพลาดแหล่งจ่ายไฟ 5V ภายใน
+    ข้อเสนอแนะการแก้ไขปัญหา: แหล่งจ่ายไฟ 5V ภายในของตัวควบคุมเสียหาย โปรดติดต่อเราเพื่อซ่อมแซม
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: <2mA Err
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: <2mA Err
+    ประเภทข้อผิดพลาด: กระแสอินพุตของสัญญาณควบคุมระยะไกลต่ำเกินไปสำหรับพอร์ต A
+    ข้อเสนอแนะการแก้ไขปัญหา: กระแสอินพุตของสัญญาณควบคุมระยะไกลต่ำเกินไปสำหรับพอร์ต
+      A ดังนั้นควรทำให้มากกว่า 2mA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: <0.5V Err
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: <0.5V Err
+    ประเภทข้อผิดพลาด: แรงดันอินพุตของสัญญาณควบคุมระยะไกลต่ำเกินไปสำหรับพอร์ต A
+    ข้อเสนอแนะการแก้ไขปัญหา: แรงดันอินพุตของสัญญาณควบคุมระยะไกลต่ำเกินไปสำหรับพอร์ต
+      A ดังนั้นควรทำให้มากกว่า 0.5V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: CommErr(1~5)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: CommErr(1~5)
+    ประเภทข้อผิดพลาด: ข้อผิดพลาดการสื่อสาร
+    ข้อเสนอแนะการแก้ไขปัญหา: โปรดติดต่อเราเพื่อซ่อมแซม
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: decline
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: decline
+    ประเภทข้อผิดพลาด: การลดความเร็วการนับ
+    ข้อเสนอแนะการแก้ไขปัญหา: เมื่อจำนวนที่นับถึง "End Count" ที่คุณตั้งไว้ แรงดันเอาต์พุต
+      (หรือความเร็วป้อน) จะลดลง
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: EEPErr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: EEPErr
+    ประเภทข้อผิดพลาด: ข้อผิดพลาดการบันทึกพารามิเตอร์ที่ตั้งไว้ล่วงหน้า
+    ข้อเสนอแนะการแก้ไขปัญหา: โปรดติดต่อเราเพื่อซ่อมแซม
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: FrqncyHi
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: FrqncyHi
+    ประเภทข้อผิดพลาด: ความถี่อ้างอิงซิงค์สูงเกินไป
+    ข้อเสนอแนะการแก้ไขปัญหา: ความถี่อินพุตของสัญญาณซิงค์ของตัวควบคุมทาสมากกว่า 400Hz<br>ตรวจสอบให้แน่ใจว่าความถี่ของสัญญาณซิงค์อยู่ระหว่าง
+      25 Hz ถึง 400 Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: FrqncyLo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: FrqncyLo
+    ประเภทข้อผิดพลาด: ความถี่อ้างอิงซิงค์ต่ำเกินไป
+    ข้อเสนอแนะการแก้ไขปัญหา: ความถี่อินพุตของสัญญาณซิงค์ของตัวควบคุมทาสน้อยกว่า 25Hz<br>ตรวจสอบให้แน่ใจว่าความถี่ของสัญญาณซิงค์อยู่ระหว่าง
+      25 Hz ถึง 400 Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: OverHot
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: OverHot
+    ประเภทข้อผิดพลาด: ความร้อนสูงเกิน
+    ข้อเสนอแนะการแก้ไขปัญหา: อุณหภูมิภายในของตัวควบคุมเกิน 65℃<br>ตรวจสอบให้แน่ใจว่าตัวควบคุมทำงานในสภาพแวดล้อมที่มีการระบายอากาศดี
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: OverLoad
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: OverLoad
+    ประเภทข้อผิดพลาด: โหลดเกินของเซ็นเซอร์สั่นสะเทือน
+    ข้อเสนอแนะการแก้ไขปัญหา: เซ็นเซอร์สั่นสะเทือนตรวจพบว่าความเร่งเกินค่าแอมพลิจูดสัมบูรณ์ของมัน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: OvrCurrt
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: OvrCurrt
+    ประเภทข้อผิดพลาด: กระแสเกิน
+    ข้อเสนอแนะการแก้ไขปัญหา: กระแสเอาต์พุตของตัวควบคุมเกิน 3A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: OvrVoltg
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: OvrVoltg
+    ประเภทข้อผิดพลาด: แรงดันเกิน
+    ข้อเสนอแนะการแก้ไขปัญหา: แรงดันเอาต์พุตของตัวควบคุมเกิน 260V<br>ตรวจสอบให้แน่ใจว่าช่วงแรงดันอินพุตอยู่ระหว่าง
+      85V ถึง 260V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: PortDErr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: PortDErr
+    ประเภทข้อผิดพลาด: ข้อผิดพลาดพอร์ต D
+    ข้อเสนอแนะการแก้ไขปัญหา: ความเบี่ยงเบนแรงดันเอาต์พุตของพอร์ต D เกิน 3V<br>ตรวจสอบให้แน่ใจว่ากำลังโหลดของพอร์ต
+      D ไม่เกิน 4.8W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: PortPErr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: PortPErr
+    ประเภทข้อผิดพลาด: ข้อผิดพลาดพอร์ต P
+    ข้อเสนอแนะการแก้ไขปัญหา: ความเบี่ยงเบนแรงดันเอาต์พุตของพอร์ต P เกิน 3V<br>ตรวจสอบให้แน่ใจว่ากำลังโหลดของพอร์ต
+      P ไม่เกิน 4.8W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: Saturate
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: Saturate
+    ประเภทข้อผิดพลาด: เอาต์พุตอิ่มตัว
+    ข้อเสนอแนะการแก้ไขปัญหา: เมื่อแรงดันเอาต์พุตของตัวควบคุมมากกว่าแรงดันอินพุต ตัวควบคุมจะเข้าสู่สถานะอิ่มตัว
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: Save
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: Save
+    ประเภทข้อผิดพลาด: การบันทึกพารามิเตอร์ที่ตั้งไว้ล่วงหน้า
+    ข้อเสนอแนะการแก้ไขปัญหา: หลังจากกระบวนการค้นหาความถี่เรโซแนนซ์อัตโนมัติ พารามิเตอร์ที่เกี่ยวข้องถูกบันทึกสำเร็จ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: SenorErr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: SenorErr
+    ประเภทข้อผิดพลาด: เซ็นเซอร์สั่นสะเทือนผิดปกติ
+    ข้อเสนอแนะการแก้ไขปัญหา: สัญญาณเซ็นเซอร์สั่นสะเทือนผิดปกติ โปรดติดต่อเราเพื่อซ่อมแซม
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: SenTypEr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: SenTypEr
+    ประเภทข้อผิดพลาด: ข้อผิดพลาดประเภทเซ็นเซอร์สั่นสะเทือน
+    ข้อเสนอแนะการแก้ไขปัญหา: ประเภทของเซ็นเซอร์สั่นสะเทือนที่เชื่อมต่อกับตัวควบคุมไม่ตรงกับพารามิเตอร์
+      "ประเภทเซ็นเซอร์สั่นสะเทือน" ที่ตั้งไว้ในตัวควบคุม
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: Short
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: Short
+    ประเภทข้อผิดพลาด: การลัดวงจร
+    ข้อเสนอแนะการแก้ไขปัญหา: เอาต์พุตของตัวควบคุมลัดวงจร ตรวจสอบให้แน่ใจว่าขั้วต่อเอาต์พุตไม่ลัดวงจร
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: SynchErr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: SynchErr
+    ประเภทข้อผิดพลาด: ข้อผิดพลาดสัญญาณซิงค์
+    ข้อเสนอแนะการแก้ไขปัญหา: สายสัญญาณซิงค์ไม่ได้เชื่อมต่อกับตัวควบคุมทาส<br>ตรวจสอบให้แน่ใจว่าสายสัญญาณซิงค์เชื่อมต่อกับตัวควบคุมอย่างถูกต้อง
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: UndrVolt
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: UndrVolt
+    ประเภทข้อผิดพลาด: แรงดันต่ำ
+    ข้อเสนอแนะการแก้ไขปัญหา: แรงดันอินพุตของตัวควบคุมน้อยกว่า 85V.<br>ตรวจสอบให้แน่ใจว่าช่วงแรงดันอินพุตอยู่ระหว่าง
+      85V ถึง 260V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: UpgradeSlv
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงข้อผิดพลาด: UpgradeSlv
+    ประเภทข้อผิดพลาด: การอัปเดตเฟิร์มแวร์
+    ข้อเสนอแนะการแก้ไขปัญหา: กำลังอัปเดตเฟิร์มแวร์ ตัวควบคุมจะกลับสู่ปกติหลังการอัปเดต
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 54
+    heading_path: *id014
+    heading_title: 'ภาคผนวก E: คำอธิบายคำเตือนและข้อผิดพลาดและข้อเสนอแนะการแก้ไขปัญหา'
+    table_role: generic
+    table_md_path: tables/0054-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: RUN
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงสถานะของตัวควบคุม: RUN
+    ประเภทสถานะ: ตัวควบคุมกำลังทำงาน
+    คำอธิบาย: เอาต์พุตของตัวควบคุมถูกต้อง
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'ภาคผนวก F: คำอธิบายสถานะการทำงานและประเภทการ์ดเครือข่าย'
+    table_role: generic
+    table_md_path: tables/0055-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: MAN
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงสถานะของตัวควบคุม: MAN
+    ประเภทสถานะ: ตัวควบคุมถูกหยุด
+    คำอธิบาย: กดปุ่ม “ON/OFF” สั้น ๆ เพื่อสลับสถานะทำงาน/หยุดของเอาต์พุตตัวควบคุม
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'ภาคผนวก F: คำอธิบายสถานะการทำงานและประเภทการ์ดเครือข่าย'
+    table_role: generic
+    table_md_path: tables/0055-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: CND
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงสถานะของตัวควบคุม: CND
+    ประเภทสถานะ: กระบวนการนับเสร็จสิ้นเพื่อหยุดตัวควบคุม
+    คำอธิบาย: เมื่อกระบวนการนับเสร็จสิ้น เอาต์พุตของตัวควบคุมจะถูกหยุด
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'ภาคผนวก F: คำอธิบายสถานะการทำงานและประเภทการ์ดเครือข่าย'
+    table_role: generic
+    table_md_path: tables/0055-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: RMT
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงสถานะของตัวควบคุม: RMT
+    ประเภทสถานะ: หยุดเอาต์พุตของตัวควบคุมจากระยะไกล
+    คำอธิบาย: หยุดเอาต์พุตของตัวควบคุมจากระยะไกลผ่านการสื่อสาร RS485 หรืออีเทอร์เน็ต
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'ภาคผนวก F: คำอธิบายสถานะการทำงานและประเภทการ์ดเครือข่าย'
+    table_role: generic
+    table_md_path: tables/0055-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: STP
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงสถานะของตัวควบคุม: STP
+    ประเภทสถานะ: พอร์ต C/E หยุดเอาต์พุตของตัวควบคุม
+    คำอธิบาย: หยุดเอาต์พุตของตัวควบคุมโดยพอร์ตอินพุตดิจิทัล C/E
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'ภาคผนวก F: คำอธิบายสถานะการทำงานและประเภทการ์ดเครือข่าย'
+    table_role: generic
+    table_md_path: tables/0055-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: Lok
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงสถานะของตัวควบคุม: Lok
+    ประเภทสถานะ: ล็อกคีย์แพด
+    คำอธิบาย: ปุ่มเปิด/ปิดและสวิตช์แบบเข้ารหัสถูกปิดใช้งาน และกดสวิตช์แบบเข้ารหัสค้างไว้เพื่อปลดล็อกคีย์แพด
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'ภาคผนวก F: คำอธิบายสถานะการทำงานและประเภทการ์ดเครือข่าย'
+    table_role: generic
+    table_md_path: tables/0055-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: ERR
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงสถานะของตัวควบคุม: ERR
+    ประเภทสถานะ: หยุดเอาต์พุตของตัวควบคุมเนื่องจากการนับผิดพลาด
+    คำอธิบาย: เมื่อค่า "Main Logic" เป็น "Count" หากการล้างค่าและการนับขึ้นเกิดขึ้นพร้อมกันในกระบวนการนับ
+      เอาต์พุตของตัวควบคุมจะถูกหยุด
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'ภาคผนวก F: คำอธิบายสถานะการทำงานและประเภทการ์ดเครือข่าย'
+    table_role: generic
+    table_md_path: tables/0055-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: Wit
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงสถานะของตัวควบคุม: Wit
+    ประเภทสถานะ: ไม่ได้เชื่อมต่อการ์ดเครือข่าย
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'ภาคผนวก F: คำอธิบายสถานะการทำงานและประเภทการ์ดเครือข่าย'
+    table_role: generic
+    table_md_path: tables/0055-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-02.md
+- name: Cat
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงสถานะของตัวควบคุม: Cat
+    ประเภทสถานะ: เชื่อมต่อการ์ดเครือข่าย EtherCat
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'ภาคผนวก F: คำอธิบายสถานะการทำงานและประเภทการ์ดเครือข่าย'
+    table_role: generic
+    table_md_path: tables/0055-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-02.md
+- name: Pro
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    การแสดงสถานะของตัวควบคุม: Pro
+    ประเภทสถานะ: เชื่อมต่อการ์ดเครือข่าย Profinet
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 55
+    heading_path: *id003
+    heading_title: 'ภาคผนวก F: คำอธิบายสถานะการทำงานและประเภทการ์ดเครือข่าย'
+    table_role: generic
+    table_md_path: tables/0055-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-02.md
+- name: กลุ่มฟังก์ชัน 0
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ชื่อกลุ่มพารามิเตอร์: กลุ่มฟังก์ชัน 0
+    คำอธิบาย: รายการที่สามารถเลือกแสดงบนอินเทอร์เฟซสแตนด์บาย
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: กลุ่มฟังก์ชัน 1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ชื่อกลุ่มพารามิเตอร์: กลุ่มฟังก์ชัน 1
+    คำอธิบาย: พารามิเตอร์พื้นฐาน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: กลุ่มฟังก์ชัน 2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ชื่อกลุ่มพารามิเตอร์: กลุ่มฟังก์ชัน 2
+    คำอธิบาย: พารามิเตอร์ของการควบคุมเอาต์พุตหลัก
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: กลุ่มฟังก์ชัน 3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ชื่อกลุ่มพารามิเตอร์: กลุ่มฟังก์ชัน 3
+    คำอธิบาย: พารามิเตอร์ของฟังก์ชันอัตโนมัติ/ซิงค์
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: กลุ่มฟังก์ชัน 4
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ชื่อกลุ่มพารามิเตอร์: กลุ่มฟังก์ชัน 4
+    คำอธิบาย: พารามิเตอร์ของการควบคุมพอร์ต C
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: กลุ่มฟังก์ชัน 5
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ชื่อกลุ่มพารามิเตอร์: กลุ่มฟังก์ชัน 5
+    คำอธิบาย: พารามิเตอร์ของการควบคุมพอร์ต E
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: กลุ่มฟังก์ชัน 6
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ชื่อกลุ่มพารามิเตอร์: กลุ่มฟังก์ชัน 6
+    คำอธิบาย: พารามิเตอร์ของการควบคุมพอร์ต D
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: กลุ่มฟังก์ชัน 7
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ชื่อกลุ่มพารามิเตอร์: กลุ่มฟังก์ชัน 7
+    คำอธิบาย: พารามิเตอร์ของการควบคุมพอร์ต P
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: กลุ่มฟังก์ชัน 8
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ชื่อกลุ่มพารามิเตอร์: กลุ่มฟังก์ชัน 8
+    คำอธิบาย: พารามิเตอร์ขั้นสูง
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: กลุ่มฟังก์ชัน 9
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ชื่อกลุ่มพารามิเตอร์: กลุ่มฟังก์ชัน 9
+    คำอธิบาย: พารามิเตอร์ของสถานะการทำงานของตัวควบคุม
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-01.md
+- name: MonitPart1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: MonitPart1
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: None
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: None
+    คำอธิบาย: แถว LCD ที่สอดคล้องกันจะแสดงเป็นช่องว่างบนอินเทอร์เฟซสแตนด์บาย
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-02.md
+- name: MonitPart2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: MonitPart2
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: UsrV
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: เหมือนกับ MonitPart1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-02.md
+- name: MonitPart3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: MonitPart3
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: UsrF
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: เหมือนกับ MonitPart1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-02.md
+- name: User_Speed
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: User_Speed
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '200'
+    สูงสุด: '3200'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-03.md
+- name: Usr_Voltag
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: Usr_Voltag
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '150'
+    สูงสุด: '260'
+    หน่วย/ค่าตัวเลือก: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-03.md
+- name: Usr_Frqncy
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: Usr_Frqncy
+    ต่ำสุด: '25.0'
+    ค่าเริ่มต้น: '50.0'
+    สูงสุด: '400.0'
+    หน่วย/ค่าตัวเลือก: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-03.md
+- name: TotalCount
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: TotalCount
+    ต่ำสุด: '1'
+    ค่าเริ่มต้น: '1'
+    สูงสุด: '9999'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-03.md
+- name: Clear Time
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: Clear Time
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '0'
+    สูงสุด: '999.9'
+    หน่วย/ค่าตัวเลือก: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-03.md
+- name: AutoSerch_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AutoSerch_
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Idle
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: Idle<br>Start
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-03.md
+- name: PassWord2_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PassWord2_
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '0'
+    สูงสุด: '9999'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-03.md
+- name: Language
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: Language
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Englsh
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: Englsh<br>中文<br>dt
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-03.md
+- name: SoftStart_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: SoftStart_
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '0.2'
+    สูงสุด: '9.9'
+    หน่วย/ค่าตัวเลือก: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+- name: SoftStop__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: SoftStop__
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '0.2'
+    สูงสุด: '9.9'
+    หน่วย/ค่าตัวเลือก: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+- name: MainUpDely
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: MainUpDely
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '0.2'
+    สูงสุด: '9999'
+    หน่วย/ค่าตัวเลือก: 0.1s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+- name: MainDwnDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: MainDwnDly
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '0.2'
+    สูงสุด: '9999'
+    หน่วย/ค่าตัวเลือก: 0.1s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+- name: MainLogic_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: MainLogic_
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: AND
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: PortC<br>PortE<br>AND<br>OR<br>XOR<br>Count
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+- name: MainDir___
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: MainDir___
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Const
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: Const<br>Revrs
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+- name: MainCtrl__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: MainCtrl__
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: 'On'
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: On<br>Off
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+- name: MainSrc___
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: MainSrc___
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Local
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: Local<br>Remot
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+- name: PowrOnStat
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PowrOnStat
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: 'On'
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: On<br>Off<br>Keep
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+- name: PrcntTrmnl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PrcntTrmnl
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '50'
+    สูงสุด: '100'
+    หน่วย/ค่าตัวเลือก: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+- name: CountAhead
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: CountAhead
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '0'
+    สูงสุด: '9999'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+- name: CtrlSource
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: CtrlSource
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Panel
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: Panel<br>20mA<br>1~5V<br>0~5V<br>0~10V<br>Meter
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+- name: AccelrIndx
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AccelrIndx
+    ต่ำสุด: '100'
+    ค่าเริ่มต้น: '100'
+    สูงสุด: '150'
+    หน่วย/ค่าตัวเลือก: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+- name: MaxVoltage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: MaxVoltage
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '150.0'
+    สูงสุด: '260.0'
+    หน่วย/ค่าตัวเลือก: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+- name: WavFomIndx
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: WavFomIndx
+    ต่ำสุด: '50'
+    ค่าเริ่มต้น: '100'
+    สูงสุด: '100'
+    หน่วย/ค่าตัวเลือก: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+- name: CmpnstCurt
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: CmpnstCurt
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Valid
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: Valid<br>None
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+- name: DCCurrent
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: DCCurrent
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '0.1'
+    สูงสุด: '3'
+    หน่วย/ค่าตัวเลือก: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-04.md
+- name: AtoFCenter
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AtoFCenter
+    ต่ำสุด: '25.0'
+    ค่าเริ่มต้น: '100.0'
+    สูงสุด: '400.0'
+    หน่วย/ค่าตัวเลือก: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-05.md
+- name: AtoFRange_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AtoFRange_
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '30.0'
+    สูงสุด: '180.0'
+    หน่วย/ค่าตัวเลือก: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-05.md
+- name: VoltagMode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: VoltagMode
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Auto
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: Manul<br>Auto
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-05.md
+- name: FrqncyMode
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: FrqncyMode
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Auto
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: Manul<br>Auto<br>SlavC<br>SlavM
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-05.md
+- name: AtoFIntgrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AtoFIntgrl
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '20'
+    สูงสุด: '2000'
+    หน่วย/ค่าตัวเลือก: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-05.md
+- name: AtoAIntgrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AtoAIntgrl
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '400'
+    สูงสุด: '9999'
+    หน่วย/ค่าตัวเลือก: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-05.md
+- name: AtoAProptn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AtoAProptn
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '500'
+    สูงสุด: '9999'
+    หน่วย/ค่าตัวเลือก: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-05.md
+- name: AtoSnsrTyp
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AtoSnsrTyp
+    ต่ำสุด: 16g
+    ค่าเริ่มต้น: 16g
+    สูงสุด: 70g
+    หน่วย/ค่าตัวเลือก: 16g<br>35g<br>50g<br>70g<br>Auto
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-05.md
+- name: AtoSrhVMax
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AtoSrhVMax
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '100.0'
+    สูงสุด: '260.0'
+    หน่วย/ค่าตัวเลือก: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-05.md
+- name: AtoSnsrMax
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AtoSnsrMax
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '100'
+    สูงสุด: '100'
+    หน่วย/ค่าตัวเลือก: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-05.md
+- name: AtoSpedMax
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AtoSpedMax
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '3200'
+    สูงสุด: '4000'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-05.md
+- name: AutoPhase_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AutoPhase_
+    ต่ำสุด: '-180'
+    ค่าเริ่มต้น: '0'
+    สูงสุด: '180'
+    หน่วย/ค่าตัวเลือก: °
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-05.md
+- name: UserPhase_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: UserPhase_
+    ต่ำสุด: '-180'
+    ค่าเริ่มต้น: '0'
+    สูงสุด: '180'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-05.md
+- name: Measure
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: Measure
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: None
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: None<br>Valid
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-05.md
+- name: PortCUpDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortCUpDly
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '0.002'
+    สูงสุด: '9.999'
+    หน่วย/ค่าตัวเลือก: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-06.md
+- name: PortCDnDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortCDnDly
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '0.002'
+    สูงสุด: '9.999'
+    หน่วย/ค่าตัวเลือก: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-06.md
+- name: PortCDir__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortCDir__
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Const
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: Const
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-06.md
+- name: PortCType_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortCType_
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Auto
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: NPN
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-06.md
+- name: PortEUpDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortEUpDly
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '0.002'
+    สูงสุด: '9.999'
+    หน่วย/ค่าตัวเลือก: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-07.md
+- name: PortEDnDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortEDnDly
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '0.002'
+    สูงสุด: '9.999'
+    หน่วย/ค่าตัวเลือก: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-07.md
+- name: PortEDir__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortEDir__
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Const
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: Const
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-07.md
+- name: PortEType__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortEType__
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Auto
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: NPN
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-07.md
+- name: PortDUpDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortDUpDly
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '0.0'
+    สูงสุด: '999.9'
+    หน่วย/ค่าตัวเลือก: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-08.md
+- name: PortDDnDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortDDnDly
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '0.0'
+    สูงสุด: '999.9'
+    หน่วย/ค่าตัวเลือก: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-08.md
+- name: PortDDir__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortDDir__
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Const
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: Const
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-08.md
+- name: PortDLogic
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortDLogic
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Error
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: Error
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-08.md
+- name: PortDCtrl_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortDCtrl_
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: 'On'
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: 'On'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-08.md
+- name: PortDSrc__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortDSrc__
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Local
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: Local
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-08.md
+- name: PortDType_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortDType_
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Ps&Pu
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: NPN
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-08.md
+- name: PortPUpDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortPUpDly
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '0.0'
+    สูงสุด: '999.9'
+    หน่วย/ค่าตัวเลือก: 0.1s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-09.md
+- name: PortPDnDly
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortPDnDly
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '0.0'
+    สูงสุด: '999.9'
+    หน่วย/ค่าตัวเลือก: 0.1s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-09.md
+- name: PortPDir__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortPDir__
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Const
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: Const
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-09.md
+- name: PortPLogic
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortPLogic
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Error
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: Error
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-09.md
+- name: PortPCtrl_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortPCtrl_
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: 'On'
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: 'On'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-09.md
+- name: PortPSrc__
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortPSrc__
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Local
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: Local
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-09.md
+- name: PortPType_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortPType_
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: Ps&Pu
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: NPN
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-09.md
+- name: Slave_ID
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: Slave_ID
+    ต่ำสุด: '1'
+    ค่าเริ่มต้น: '1'
+    สูงสุด: '31'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-10.md
+- name: Baud_Rate
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: Baud_Rate
+    ต่ำสุด: 0.3K
+    ค่าเริ่มต้น: 115.2 K
+    สูงสุด: 115.2 K
+    หน่วย/ค่าตัวเลือก: 0.3 Kbps
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-10.md
+- name: ReadALLFrm
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ReadALLFrm
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: None
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: None
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-10.md
+- name: SavedALLTo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: SavedALLTo
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: None
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: None
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-10.md
+- name: RestorALL
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: RestorALL
+    ต่ำสุด: ——
+    ค่าเริ่มต้น: None
+    สูงสุด: ——
+    หน่วย/ค่าตัวเลือก: None
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-10.md
+- name: PassWord1_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PassWord1_
+    ต่ำสุด: '0'
+    ค่าเริ่มต้น: '0'
+    สูงสุด: '9999'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-10.md
+- name: BusVoltage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: BusVoltage
+    ต่ำสุด: '0'
+    สูงสุด: '380.0'
+    หน่วย: V
+    คำอธิบาย: แรงดันบัส (ค่าเฉลี่ย)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: Speed_Now_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: Speed_Now_
+    ต่ำสุด: '0'
+    สูงสุด: '4000'
+    หน่วย: '1'
+    คำอธิบาย: ค่าที่วัดได้จริง
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: VoltagOut_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: VoltagOut_
+    ต่ำสุด: '0'
+    สูงสุด: '260.0'
+    หน่วย: V
+    คำอธิบาย: ค่าเฉลี่ยของการเรียงกระแส
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: AtoVltgOut
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AtoVltgOut
+    ต่ำสุด: '0'
+    สูงสุด: '260.0'
+    หน่วย: V
+    คำอธิบาย: การคำนวณแรงดันเอาต์พุตอัตโนมัติ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: SynchrFrqy
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: SynchrFrqy
+    ต่ำสุด: '25.0'
+    สูงสุด: '400.0'
+    หน่วย: Hz
+    คำอธิบาย: ความถี่ของสัญญาณซิงค์ภายนอก
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: AtoFrqyOut
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AtoFrqyOut
+    ต่ำสุด: '25.0'
+    สูงสุด: '400.0'
+    หน่วย: Hz
+    คำอธิบาย: ความถี่เอาต์พุตอัตโนมัติ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: EffectCurt
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: EffectCurt
+    ต่ำสุด: '0'
+    สูงสุด: '9.999'
+    หน่วย: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: CurrentMax
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: CurrentMax
+    ต่ำสุด: '0'
+    สูงสุด: '9.999'
+    หน่วย: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: AtoPhasRem
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AtoPhasRem
+    ต่ำสุด: '-180'
+    สูงสุด: '180'
+    หน่วย: °
+    คำอธิบาย: ค่าเฟสคงเหลืออัตโนมัติ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: MainOutPut
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: MainOutPut
+    ต่ำสุด: '0'
+    สูงสุด: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: RemotInput
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: RemotInput
+    ต่ำสุด: '0'
+    สูงสุด: '10.0'
+    หน่วย: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: 5V_Power_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: 5V_Power_
+    ต่ำสุด: '0'
+    สูงสุด: '6.0'
+    หน่วย: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: PortC_____
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortC_____
+    ต่ำสุด: '0'
+    สูงสุด: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: PortCInput
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortCInput
+    ต่ำสุด: '0'
+    สูงสุด: '26.0'
+    หน่วย: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: PortE_____
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortE_____
+    ต่ำสุด: '0'
+    สูงสุด: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: PortEInput
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortEInput
+    ต่ำสุด: '0'
+    สูงสุด: '26.0'
+    หน่วย: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: PortD_____
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortD_____
+    ต่ำสุด: '0'
+    สูงสุด: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: PortD_Out_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortD_Out_
+    ต่ำสุด: '0'
+    สูงสุด: '26.0'
+    หน่วย: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: PortP_____
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortP_____
+    ต่ำสุด: '0'
+    สูงสุด: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: PortP_Out_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PortP_Out_
+    ต่ำสุด: '0'
+    สูงสุด: '26.0'
+    หน่วย: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: 24V_Power_
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: 24V_Power_
+    ต่ำสุด: '0'
+    สูงสุด: '26.0'
+    หน่วย: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: PowrAvtive
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PowrAvtive
+    ต่ำสุด: '0'
+    สูงสุด: '9999'
+    หน่วย: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: PowrReactv
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: PowrReactv
+    ต่ำสุด: '0'
+    สูงสุด: '9999'
+    หน่วย: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: Temperatur
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: Temperatur
+    ต่ำสุด: '0'
+    สูงสุด: '85.0'
+    หน่วย: °C
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: Inductance
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: Inductance
+    ต่ำสุด: '0'
+    สูงสุด: '9.999'
+    หน่วย: H
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: Resistance
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: Resistance
+    ต่ำสุด: '0'
+    สูงสุด: '9999'
+    หน่วย: Ω
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: Saturatn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: Saturatn
+    ต่ำสุด: '0'
+    สูงสุด: '9.999'
+    หน่วย: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: AtoSnsrVld
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AtoSnsrVld
+    ต่ำสุด: ——
+    สูงสุด: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: AtoSnsrOvr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AtoSnsrOvr
+    ต่ำสุด: ——
+    สูงสุด: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: AtoDistrtn
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: AtoDistrtn
+    ต่ำสุด: '0'
+    สูงสุด: '100'
+    หน่วย: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: CountNumbr
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: CountNumbr
+    ต่ำสุด: '0'
+    สูงสุด: '9999'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: Flag______
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: Flag______
+    ต่ำสุด: '0'
+    สูงสุด: FFFF
+    คำอธิบาย: HEX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: FwVrsnMain
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: FwVrsnMain
+    ต่ำสุด: '0'
+    สูงสุด: '9999'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md
+- name: FwVrsnSlav
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: FwVrsnSlav
+    ต่ำสุด: '0'
+    สูงสุด: '9999'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id004
+    heading_title: 'ภาคผนวก H: ตารางพารามิเตอร์'
+    table_role: generic
+    table_md_path: tables/0061-บทท-ⅳ-คำอธ-บายฟ-งก-ช-น-table-11.md

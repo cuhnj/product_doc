@@ -287,6 +287,7 @@ git checkout draft -- en-US/SDVC/
 
 | 日期 | 说明 |
 |------|------|
+| 2026-11-18 | 同步根目录 `README.md` 泰语索引：`th-TH` 侧资料包已按产品级命名重命名（如 `cuh.sdvc11-M.manual…`、`cuh.sdvc21-S.manual…`、`cuh.sdvc21-lp.manual…`、`cuh.sdvc31-U.series…`、`cuh.sdvc402-S.SMS…`、`cuh.sdvc42-S/42-SD.manual…` 等），索引链接已全部对齐。 |
 | 2026-11-18 | 同步根目录 `README.md` 法语索引：`fr-FR` 侧资料包已按产品级命名重命名（如 `cuh.sdvc11-M.manual…`、`cuh.sdvc21-S.manual…`、`cuh.sdvc21-lp.manual…`、`cuh.sdvc31-U.series…`、`cuh.sdvc402-S.SMS…`、`cuh.sdvc42-S/42-SD.manual…` 等），索引链接已全部对齐。 |
 | 2026-11-18 | 同步根目录 `README.md` 西语索引：`es-ES` 侧 SDVC402-S / SDVC42-S / SDVC42-SD 资料包已按产品级命名重命名（`cuh.sdvc402-S.SMS…`、`cuh.sdvc42-S.manual…`、`cuh.sdvc42-SD.manual…`），索引链接已对齐。 |
 | 2026-11-18 | 根目录 `README.md` 已实施多语言改造并定稿：顶栏「Language / 语言选择」锚点 + 中/英/德/泰/西/法/韩七语并列大段；每段仅挂本语言说明书链接（缺失写待补充）；西语包已部分产品级重命名的路径已对齐；本文件不翻译；Changelog 文末中英双语；临时「多语言改造计划」章节已删除。 |
