@@ -1,0 +1,2128 @@
+schema_version: 1
+doc_id: cuh.sdvc311.manual.v0.0.es-ES
+doc_key: cuh.sdvc311.manual.v0.0
+lang: es-ES
+generated_at: '2026-11-18 11:38:30'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 2
+  heading_path: &id002
+  - Prefacio
+  table_md_path: tables/0002-prefacio-table-01.md
+  headers:
+  - col_1
+  - col_2
+- section_index: 8
+  heading_path: &id001
+  - Capítulo Ⅰ Antes de comenzar
+  - 1.4 Explicación de los puertos de cableado
+  table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-01.md
+  headers:
+  - Puerto de cableado
+  - Terminal
+  - Descripción
+- section_index: 8
+  heading_path: *id001
+  table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-02.md
+  headers:
+  - Puerto de cableado
+  - Terminal
+  - Descripción
+- section_index: 9
+  heading_path: &id003
+  - Capítulo Ⅰ Antes de comenzar
+  - 1.5 Explicación de la placa de características
+  table_md_path: tables/0009-capítulo-ⅰ-antes-de-comenzar-table-01.md
+  headers:
+  - Elemento de la placa de características
+  - Contenido
+- section_index: 38
+  heading_path: &id004
+  - Capítulo Ⅴ Descripción de las funciones avanzadas
+  - Capítulo Ⅵ Especificaciones técnicas
+  table_md_path: tables/0038-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+  headers:
+  - Rango de dimensiones
+  - Tolerancia
+- section_index: 39
+  heading_path: &id005
+  - Capítulo Ⅴ Descripción de las funciones avanzadas
+  - 6.2 Especificaciones técnicas
+  table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+  headers:
+  - Elemento
+  - Mín
+  - Típico
+  - Máx
+  - Unidad
+  - Nota
+- section_index: 40
+  heading_path: &id006
+  - Capítulo Ⅴ Descripción de las funciones avanzadas
+  - 6.3 Norma de referencia
+  table_md_path: tables/0040-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+  headers:
+  - Elemento
+  - Norma GB
+  - Norma IEC
+  - Grado
+  - Requisito de la norma
+  - Nota
+- section_index: 41
+  heading_path: &id007
+  - Capítulo Ⅶ Apéndice
+  - 7.1 Tabla de parámetros
+  table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+  headers:
+  - col_1
+  - Definición
+  - Símbolo
+  - Imagen del símbolo
+  - Rango
+  - Predeterminado
+- section_index: 43
+  heading_path: &id008
+  - Capítulo Ⅶ Apéndice
+  - 7.3 Sugerencias de solución de problemas y explicaciones de errores
+  table_md_path: tables/0043-capítulo-ⅶ-apéndice-table-01.md
+  headers:
+  - Código de error
+  - Definición
+  - Métodos de solución de problemas
+  - Imagen del símbolo
+items:
+- name: ⚠ Peligro
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Peligro
+    col_2: La inobservancia de este punto<br>provocará lesiones personales o la muerte.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id002
+    heading_title: Prefacio
+    table_role: generic
+    table_md_path: tables/0002-prefacio-table-01.md
+- name: ⚠ Advertencia
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Advertencia
+    col_2: La inobservancia de este punto<br>puede provocar lesiones personales o
+      la muerte.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id002
+    heading_title: Prefacio
+    table_role: generic
+    table_md_path: tables/0002-prefacio-table-01.md
+- name: ⚠ Precaución
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Precaución
+    col_2: La inobservancia de este punto<br>puede provocar lesiones moderadas o leves
+      a las personas.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id002
+    heading_title: Prefacio
+    table_role: generic
+    table_md_path: tables/0002-prefacio-table-01.md
+- name: Aviso
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Aviso
+    col_2: La inobservancia de este punto<br>provocará daños al producto y daños materiales.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id002
+    heading_title: Prefacio
+    table_role: generic
+    table_md_path: tables/0002-prefacio-table-01.md
+- name: ❗ Obligatorio
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ❗ Obligatorio
+    col_2: Indica las precauciones y restricciones de uso que deben observarse durante
+      el uso.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id002
+    heading_title: Prefacio
+    table_role: generic
+    table_md_path: tables/0002-prefacio-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Speed Ctrl
+    Terminal: A1
+    Descripción: RGND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Speed Ctrl
+    Terminal: A2
+    Descripción: Entrada
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Speed Ctrl
+    Terminal: A3
+    Descripción: Salida 5V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Photosensor
+    Terminal: B1
+    Descripción: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Photosensor
+    Terminal: B2
+    Descripción: RX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Photosensor
+    Terminal: B3
+    Descripción: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Photosensor
+    Terminal: B4
+    Descripción: TX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Sensor
+    Terminal: C1
+    Descripción: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Sensor
+    Terminal: C2
+    Descripción: Entrada
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Sensor
+    Terminal: C3
+    Descripción: Salida 24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-01.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Ctrl Out
+    Terminal: D1
+    Descripción: Salida
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-01.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Ctrl Out
+    Terminal: D2
+    Descripción: Salida 24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-01.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: 24V DC
+    Terminal: I1
+    Descripción: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-02.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: 24V DC
+    Terminal: I2
+    Descripción: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-02.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: 24V DC
+    Terminal: I1
+    Descripción: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-02.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: 24V DC
+    Terminal: I2
+    Descripción: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-02.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Speed Ctrl
+    Terminal: A1
+    Descripción: RGND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-02.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Speed Ctrl
+    Terminal: A2
+    Descripción: Entrada
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-02.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Speed Ctrl
+    Terminal: A3
+    Descripción: Salida 5V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-02.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Photosensor
+    Terminal: B1
+    Descripción: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-02.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Photosensor
+    Terminal: B2
+    Descripción: RX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-02.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Photosensor
+    Terminal: B3
+    Descripción: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-02.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Photosensor
+    Terminal: B4
+    Descripción: TX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-02.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Sensor
+    Terminal: C1
+    Descripción: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-02.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Sensor
+    Terminal: C2
+    Descripción: Entrada
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-02.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Sensor
+    Terminal: C3
+    Descripción: Salida 24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-02.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Ctrl Out
+    Terminal: D1
+    Descripción: Salida
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-02.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Puerto de cableado: Ctrl Out
+    Terminal: D2
+    Descripción: Salida 24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0008-capítulo-ⅰ-antes-de-comenzar-table-02.md
+- name: Modelo de producto
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento de la placa de características: Modelo de producto
+    Contenido: 'Modelo: SDVC31-M'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 9
+    heading_path: *id003
+    heading_title: 1.5 Explicación de la placa de características
+    table_role: generic
+    table_md_path: tables/0009-capítulo-ⅰ-antes-de-comenzar-table-01.md
+- name: Especificaciones
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento de la placa de características: Especificaciones
+    Contenido: 'Rango de tensión de entrada: 85～250VAC<br>Rango de frecuencia de salida:
+      40.0～400.0Hz<br>Corriente de salida máxima: 3.0A<br>Potencia de salida máxima:
+      660VA<br>Para uso a una altitud de 2000 m o inferior'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 9
+    heading_path: *id003
+    heading_title: 1.5 Explicación de la placa de características
+    table_role: generic
+    table_md_path: tables/0009-capítulo-ⅰ-antes-de-comenzar-table-01.md
+- name: Fabricante y dirección
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento de la placa de características: Fabricante y dirección
+    Contenido: Nanjing CUH Science & Technology Co.,Ltd<br>Add.:Building 2, Xueyan
+      Tech Park, Tuscity, No.9 Zhineng Rd, Jiangning, Nanjing, China
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 9
+    heading_path: *id003
+    heading_title: 1.5 Explicación de la placa de características
+    table_role: generic
+    table_md_path: tables/0009-capítulo-ⅰ-antes-de-comenzar-table-01.md
+- name: Número de serie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento de la placa de características: Número de serie
+    Contenido: INS01-202111026db6-010067032BF
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 9
+    heading_path: *id003
+    heading_title: 1.5 Explicación de la placa de características
+    table_role: generic
+    table_md_path: tables/0009-capítulo-ⅰ-antes-de-comenzar-table-01.md
+- name: 0~3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Rango de dimensiones: 0~3
+    Tolerancia: ±0.05
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id004
+    heading_title: Capítulo Ⅵ Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0038-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: 3~10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Rango de dimensiones: 3~10
+    Tolerancia: ±0.1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id004
+    heading_title: Capítulo Ⅵ Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0038-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: 10~30
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Rango de dimensiones: 10~30
+    Tolerancia: ±0.15
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id004
+    heading_title: Capítulo Ⅵ Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0038-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: 30~80
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Rango de dimensiones: 30~80
+    Tolerancia: ±0.2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id004
+    heading_title: Capítulo Ⅵ Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0038-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: 80~180
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Rango de dimensiones: 80~180
+    Tolerancia: ±0.3
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id004
+    heading_title: Capítulo Ⅵ Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0038-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: '>180'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Rango de dimensiones: '>180'
+    Tolerancia: ±0.5
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id004
+    heading_title: Capítulo Ⅵ Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0038-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Tensión de entrada
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Tensión de entrada
+    Mín: '85'
+    Típico: '220'
+    Máx: '250'
+    Unidad: V
+    Nota: AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Rango de tensión de salida ajustable
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Rango de tensión de salida ajustable
+    Mín: '0'
+    Típico: ——
+    Máx: '260'
+    Unidad: V
+    Nota: Inferior al 150% de la tensión de entrada
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Precisión de ajuste de tensión
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Precisión de ajuste de tensión
+    Típico: '1'
+    Unidad: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Precisión de regulación de tensión
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Precisión de regulación de tensión
+    Mín: '0'
+    Típico: ——
+    Máx: '10'
+    Unidad: '%'
+    Nota: ΔVout/ΔVin
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Rango de corriente de salida ajustable
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Rango de corriente de salida ajustable
+    Mín: '0'
+    Típico: ——
+    Máx: '1.5'
+    Unidad: A
+    Nota: SDVC31-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Rango de corriente de salida ajustable
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Rango de corriente de salida ajustable
+    Mín: '0'
+    Típico: ——
+    Máx: '3.0'
+    Unidad: A
+    Nota: SDVC31-M
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Rango de corriente de salida ajustable
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Rango de corriente de salida ajustable
+    Mín: '0'
+    Típico: ——
+    Máx: '4.5'
+    Unidad: A
+    Nota: SDVC31-L
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Rango de corriente de salida ajustable
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Rango de corriente de salida ajustable
+    Mín: '0'
+    Típico: ——
+    Máx: '6.0'
+    Unidad: A
+    Nota: SDVC31-XL
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Potencia de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Potencia de salida
+    Mín: '0'
+    Típico: ——
+    Máx: '330'
+    Unidad: VA
+    Nota: SDVC31-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Potencia de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Potencia de salida
+    Mín: '0'
+    Típico: ——
+    Máx: '660'
+    Unidad: VA
+    Nota: SDVC31-M
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Potencia de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Potencia de salida
+    Mín: '0'
+    Típico: ——
+    Máx: '990'
+    Unidad: VA
+    Nota: SDVC31-L
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Potencia de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Potencia de salida
+    Mín: '0'
+    Típico: ——
+    Máx: '1320'
+    Unidad: VA
+    Nota: SDVC31-XL
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Frecuencia de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Frecuencia de salida
+    Mín: '40.0'
+    Típico: ——
+    Máx: '400.0'
+    Unidad: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Precisión de ajuste de frecuencia
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Precisión de ajuste de frecuencia
+    Típico: '0.1'
+    Unidad: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Forma de onda de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Forma de onda de salida
+    Típico: Senoidal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Tiempo de arranque suave
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Tiempo de arranque suave
+    Mín: '0'
+    Típico: ——
+    Máx: '10.0'
+    Unidad: s
+    Nota: 'Valor predeterminado: 0.5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Rango de tiempo de retardo de conexión/desconexión
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Rango de tiempo de retardo de conexión/desconexión
+    Mín: '0'
+    Típico: ——
+    Máx: '20.0'
+    Unidad: s
+    Nota: 'Valor predeterminado: 0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Precisión del tiempo de retardo de conexión/desconexión
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Precisión del tiempo de retardo de conexión/desconexión
+    Típico: '0.1'
+    Unidad: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Temperatura de activación de la protección contra sobrecalentamiento
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Temperatura de activación de la protección contra sobrecalentamiento
+    Mín: '58'
+    Típico: '60'
+    Máx: '66'
+    Unidad: °C
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Corriente de salida de control de CC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Corriente de salida de control de CC
+    Mín: '0'
+    Típico: ——
+    Máx: '400'
+    Unidad: mA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Tensión de salida de control de CC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Tensión de salida de control de CC
+    Mín: '22'
+    Típico: '24'
+    Máx: '26'
+    Unidad: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Señal de control analógica
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Señal de control analógica
+    Típico: 1~5/4~20
+    Unidad: V/mA
+    Nota: Señal de control de velocidad remoto
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Señal de control digital
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Señal de control digital
+    Típico: '24'
+    Unidad: V
+    Nota: Señal de conmutación
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Método de ajuste
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Método de ajuste
+    Típico: '6'
+    Unidad: Botón
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Consumo de energía en espera
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Consumo de energía en espera
+    Mín: ——
+    Típico: '3'
+    Máx: ——
+    Unidad: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Método de visualización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Método de visualización
+    Típico: '5'
+    Unidad: Dígito
+    Nota: LED
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Temperatura ambiente
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Temperatura ambiente
+    Mín: '0'
+    Típico: '25'
+    Máx: '40'
+    Unidad: °C
+    Nota: Sin condensación
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Humedad ambiente
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Humedad ambiente
+    Mín: '10'
+    Típico: '60'
+    Máx: '85'
+    Unidad: '%'
+    Nota: Sin condensación
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Temperatura ambiente de almacenamiento
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Temperatura ambiente de almacenamiento
+    Mín: '-20'
+    Típico: '25'
+    Máx: '65'
+    Unidad: °C
+    Nota: Sin condensación
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id005
+    heading_title: 6.2 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0039-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Descarga electrostática
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Descarga electrostática
+    Norma GB: GB/T 17626.2-2006
+    Norma IEC: IEC 61000-4-2:2001
+    Grado: '4'
+    Requisito de la norma: ±8 kV
+    Nota: Descarga por contacto
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: 6.3 Norma de referencia
+    table_role: generic
+    table_md_path: tables/0040-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Ensayo de transitorios eléctricos rápidos
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Ensayo de transitorios eléctricos rápidos
+    Norma GB: GB/T 17626.4-2008
+    Norma IEC: IEC 61000-4-4:2004
+    Grado: '4'
+    Requisito de la norma: ±4 kV
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: 6.3 Norma de referencia
+    table_role: generic
+    table_md_path: tables/0040-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Inmunidad a ondulación de la línea de alimentación de CC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Inmunidad a ondulación de la línea de alimentación de CC
+    Norma GB: GB/T 17626.17-2005
+    Norma IEC: IEC 61000-4-17:2002
+    Grado: '4'
+    Requisito de la norma: 15%
+    Nota: Clasificación A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: 6.3 Norma de referencia
+    table_role: generic
+    table_md_path: tables/0040-capítulo-ⅴ-descripción-de-las-funciones-avanzada-table-01.md
+- name: Parámetro común
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro común
+    Definición: Tensión de salida
+    Símbolo: U
+    Imagen del símbolo: '![U symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-00.png)'
+    Rango: 0~260 V
+    Predeterminado: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro básico
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro básico
+    Definición: Frecuencia de salida
+    Símbolo: E
+    Imagen del símbolo: '![E symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-01.png)'
+    Rango: 40.0~400.0 Hz
+    Predeterminado: '50.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro básico
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro básico
+    Definición: Retardo de conexión del sensor fotoeléctrico inteligente
+    Símbolo: J
+    Imagen del símbolo: '![J symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-02.png)'
+    Rango: 0.0~20.0 s
+    Predeterminado: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro básico
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro básico
+    Definición: Retardo de desconexión del sensor fotoeléctrico inteligente
+    Símbolo: L
+    Imagen del símbolo: '![L symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-03.png)'
+    Rango: 0.0~20.0 s
+    Predeterminado: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro básico
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro básico
+    Definición: Arranque suave
+    Símbolo: t
+    Imagen del símbolo: '![t symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-04.png)'
+    Rango: 0.0~10.0 s
+    Predeterminado: '0.5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro avanzado
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro avanzado
+    Definición: Retardo de desconexión del sensor de conmutación NPN
+    Símbolo: L-
+    Imagen del símbolo: '![L- symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-05.png)'
+    Rango: 0.0~20.0 s
+    Predeterminado: L----<br>igual que L
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro avanzado
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro avanzado
+    Definición: Retardo de conexión del sensor de conmutación NPN
+    Símbolo: J-
+    Imagen del símbolo: '![J- symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-06.png)'
+    Rango: 0.0~20.0 s
+    Predeterminado: J----<br>igual que J
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro avanzado
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro avanzado
+    Definición: Dirección lógica del sensor fotoeléctrico inteligente
+    Símbolo: F1
+    Imagen del símbolo: '![F1 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-07.png)'
+    Rango: Normal Close ![Normal Close / Related symbol with three lower horizontal
+      lines](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-21.png), Normal
+      Open ![Normal Open / Separate symbol with lower-upper-lower horizontal segments](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-22.png)
+    Predeterminado: '![Normal Close / Related symbol](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-21.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro avanzado
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro avanzado
+    Definición: Dirección lógica del sensor de conmutación
+    Símbolo: F2
+    Imagen del símbolo: '![F2 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-08.png)'
+    Rango: Normal Close ![Normal Close / Related symbol](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-21.png),
+      Normal Open ![Normal Open / Separate symbol](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-22.png)
+    Predeterminado: '![Normal Close / Related symbol](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-21.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro avanzado
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro avanzado
+    Definición: Dirección lógica de la salida de control
+    Símbolo: F3
+    Imagen del símbolo: '![F3 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-09.png)'
+    Rango: Normal Close ![Normal Close / Related symbol](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-21.png),
+      Normal Open ![Normal Open / Separate symbol](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-22.png)
+    Predeterminado: '![Normal Close / Related symbol](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-21.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro avanzado
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro avanzado
+    Definición: Parámetro de separación de la salida principal y la salida de control
+    Símbolo: F4
+    Imagen del símbolo: '![F4 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-10.png)'
+    Rango: Relacionado ![Normal Close / Related symbol](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-21.png),
+      la salida principal se controla mediante el puerto C,<br>el puerto D se controla
+      mediante el puerto B ![And logical relation symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-24.png)<br>Separado
+      ![Normal Open / Separate symbol](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-22.png),
+      la salida principal se controla mediante el puerto B,<br>el puerto D se controla
+      mediante el puerto C ![And symbol](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-24.png)
+    Predeterminado: '![Normal Close / Related symbol](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-21.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro avanzado
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro avanzado
+    Definición: Relación lógica de la señal de control
+    Símbolo: n
+    Imagen del símbolo: '![n symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-11.png)'
+    Rango: or ![or logical relation symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-23.png),
+      And ![And symbol](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-24.png),
+      Xor ![Xor logical relation symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-25.png)
+    Predeterminado: '![And symbol](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-24.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro avanzado
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro avanzado
+    Definición: Tensión de salida máxima
+    Símbolo: H
+    Imagen del símbolo: '![H symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-12.png)'
+    Rango: 0~260 V
+    Predeterminado: '260'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro avanzado
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro avanzado
+    Definición: Índice de aceleración
+    Símbolo: y
+    Imagen del símbolo: '![y symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-13.png)'
+    Rango: 100~150
+    Predeterminado: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro avanzado
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro avanzado
+    Definición: Índice de forma de onda
+    Símbolo: r
+    Imagen del símbolo: '![r symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-14.png)'
+    Rango: 0~100
+    Predeterminado: '100'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro avanzado
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro avanzado
+    Definición: Sensibilidad del sensor fotoeléctrico inteligente
+    Símbolo: P
+    Imagen del símbolo: '![P symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-15.png)'
+    Rango: 0~1000
+    Predeterminado: '80'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro avanzado
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro avanzado
+    Definición: Tipo de sensor del puerto C
+    Símbolo: FA
+    Imagen del símbolo: '![FA symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-16.png)'
+    Rango: nPn, PnP<br>ut1 (escaneo único), ut0 (escaneo continuo)
+    Predeterminado: nPn
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro avanzado
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro avanzado
+    Definición: Temperatura
+    Símbolo: C
+    Imagen del símbolo: '![C symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-17.png)'
+    Rango: -20~85 °C
+    Predeterminado: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro avanzado
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro avanzado
+    Definición: Límite inferior de frecuencia
+    Símbolo: e
+    Imagen del símbolo: '![e symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-18.png)'
+    Rango: 40.0~400.0 Hz
+    Predeterminado: '40.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro avanzado
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro avanzado
+    Definición: Restauración de la configuración predeterminada
+    Símbolo: 8.8.8.8.8.
+    Imagen del símbolo: '![Default Settings Restore all-lit symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-19.png)'
+    Rango: Se utiliza junto con el parámetro Pin
+    Predeterminado: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Parámetro avanzado
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetro avanzado
+    Definición: Reanudación del modo de fábrica
+    Símbolo: Pin
+    Imagen del símbolo: '![Pin symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0044-vcrop-20.png)'
+    Rango: '0 : Restaurar el grupo de parámetros de trabajo al grupo de parámetros
+      de usuario<br>5 : Guardar el grupo de parámetros de trabajo en el grupo de parámetros
+      de usuario<br>35: Restaurar el grupo de parámetros de trabajo al valor de fábrica
+      de CUH<br>55: Restaurar el grupo de parámetros de trabajo y el grupo de parámetros
+      de usuario al valor de fábrica de CUH'
+    Predeterminado: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 7.1 Tabla de parámetros
+    table_role: generic
+    table_md_path: tables/0041-capítulo-ⅶ-apéndice-table-01.md
+- name: Sin visualización tras encender
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Código de error: Sin visualización tras encender
+    Métodos de solución de problemas: Asegúrese de que la toma de corriente tenga
+      tensión<br>¿Está el cable de alimentación de entrada conectado de forma fiable
+      a la toma de corriente?
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id008
+    heading_title: 7.3 Sugerencias de solución de problemas y explicaciones de errores
+    table_role: generic
+    table_md_path: tables/0043-capítulo-ⅶ-apéndice-table-01.md
+- name: Visualización normal, pero sin salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Código de error: Visualización normal, pero sin salida
+    Métodos de solución de problemas: Asegúrese de que el cable de salida esté conectado
+      de forma fiable al vibrador.<br>Asegúrese de que la tensión de salida no sea
+      pequeña.<br>Asegúrese de que el indicador de parada no esté encendido.<br>Compruebe
+      si se ha configurado Normal Close del parámetro, lo que provoca que la salida
+      del controlador se detenga.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id008
+    heading_title: 7.3 Sugerencias de solución de problemas y explicaciones de errores
+    table_role: generic
+    table_md_path: tables/0043-capítulo-ⅶ-apéndice-table-01.md
+- name: La señal de control pierde efectividad
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Código de error: La señal de control pierde efectividad
+    Métodos de solución de problemas: Asegúrese de que la señal de control se introduzca
+      correctamente.<br>Asegúrese de que el cable de tierra de la señal de control
+      esté conectado correctamente al controlador.<br>Asegúrese de que la relación
+      lógica de las señales de control esté configurada correctamente según lo esperado.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id008
+    heading_title: 7.3 Sugerencias de solución de problemas y explicaciones de errores
+    table_role: generic
+    table_md_path: tables/0043-capítulo-ⅶ-apéndice-table-01.md
+- name: Fenómenos de batido
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Código de error: Fenómenos de batido
+    Métodos de solución de problemas: Evite el acoplamiento de vibraciones entre los
+      vibradores.<br>Aumente la frecuencia de resonancia de los vibradores.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id008
+    heading_title: 7.3 Sugerencias de solución de problemas y explicaciones de errores
+    table_role: generic
+    table_md_path: tables/0043-capítulo-ⅶ-apéndice-table-01.md
+- name: Visualización normal, sin salida, pero se oye sonido
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Código de error: Visualización normal, sin salida, pero se oye sonido
+    Métodos de solución de problemas: Ajuste todos los parámetros según lo indicado
+      en este manual.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id008
+    heading_title: 7.3 Sugerencias de solución de problemas y explicaciones de errores
+    table_role: generic
+    table_md_path: tables/0043-capítulo-ⅶ-apéndice-table-01.md
+- name: Err01
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Código de error: Err01
+    Definición: Cortocircuito
+    Métodos de solución de problemas: Asegúrese de que la carga no esté en cortocircuito;
+      a continuación, intente reiniciar la salida del controlador pulsando el botón
+      de salida ON/OFF dos veces o vuelva a alimentar el controlador.
+    Imagen del símbolo: '![Err01 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id008
+    heading_title: 7.3 Sugerencias de solución de problemas y explicaciones de errores
+    table_role: generic
+    table_md_path: tables/0043-capítulo-ⅶ-apéndice-table-01.md
+- name: Err02
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Código de error: Err02
+    Definición: Sobrecorriente
+    Métodos de solución de problemas: Reduzca la tensión de salida adecuadamente y,
+      a continuación, reinicie la salida.
+    Imagen del símbolo: '![Err02 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id008
+    heading_title: 7.3 Sugerencias de solución de problemas y explicaciones de errores
+    table_role: generic
+    table_md_path: tables/0043-capítulo-ⅶ-apéndice-table-01.md
+- name: Err03
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Código de error: Err03
+    Definición: Sobrecalentamiento
+    Métodos de solución de problemas: Instale el controlador en un entorno bien ventilado.
+    Imagen del símbolo: '![Err03 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id008
+    heading_title: 7.3 Sugerencias de solución de problemas y explicaciones de errores
+    table_role: generic
+    table_md_path: tables/0043-capítulo-ⅶ-apéndice-table-01.md
+- name: Err04
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Código de error: Err04
+    Definición: Sobretensión o subtensión
+    Métodos de solución de problemas: Asegúrese de que la tensión de entrada esté
+      entre AC 85~250Vac.
+    Imagen del símbolo: '![Err04 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-03.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id008
+    heading_title: 7.3 Sugerencias de solución de problemas y explicaciones de errores
+    table_role: generic
+    table_md_path: tables/0043-capítulo-ⅶ-apéndice-table-01.md
+- name: Err05
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Código de error: Err05
+    Definición: Comunicación interna anómala
+    Métodos de solución de problemas: Asegúrese de que no haya ninguna fuente de alimentación
+      externa conectada al puerto de alimentación de 24V o póngase en contacto con
+      nuestro soporte técnico.
+    Imagen del símbolo: '![Err05 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-04.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id008
+    heading_title: 7.3 Sugerencias de solución de problemas y explicaciones de errores
+    table_role: generic
+    table_md_path: tables/0043-capítulo-ⅶ-apéndice-table-01.md
+- name: Err06
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Código de error: Err06
+    Definición: Sensor de temperatura anómalo
+    Métodos de solución de problemas: Asegúrese de que la temperatura de trabajo no
+      sea inferior a -20℃ o póngase en contacto con nuestro soporte técnico.
+    Imagen del símbolo: '![Err06 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-05.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id008
+    heading_title: 7.3 Sugerencias de solución de problemas y explicaciones de errores
+    table_role: generic
+    table_md_path: tables/0043-capítulo-ⅶ-apéndice-table-01.md
+- name: Err07
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Código de error: Err07
+    Definición: Protección contra cortocircuitos del puerto D
+    Métodos de solución de problemas: Asegúrese de que la carga del puerto D no esté
+      en cortocircuito y que la corriente no supere 400mA; a continuación, intente
+      reiniciar la salida del puerto D.
+    Imagen del símbolo: '![Err07 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-06.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id008
+    heading_title: 7.3 Sugerencias de solución de problemas y explicaciones de errores
+    table_role: generic
+    table_md_path: tables/0043-capítulo-ⅶ-apéndice-table-01.md
+- name: Err10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Código de error: Err10
+    Definición: Salida de alimentación de 24V anómala
+    Métodos de solución de problemas: Asegúrese de que el puerto de 24V no esté en
+      cortocircuito y que la corriente no supere 400mA.
+    Imagen del símbolo: '![Err10 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-07.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id008
+    heading_title: 7.3 Sugerencias de solución de problemas y explicaciones de errores
+    table_role: generic
+    table_md_path: tables/0043-capítulo-ⅶ-apéndice-table-01.md
+- name: Err11
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Código de error: Err11
+    Definición: Salida de alimentación de 5V del puerto A anómala
+    Métodos de solución de problemas: Asegúrese de que la alimentación de 5V del puerto
+      A no esté en cortocircuito ni conectada a una tensión de alimentación externa
+      superior a 5V.
+    Imagen del símbolo: '![Err11 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-08.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id008
+    heading_title: 7.3 Sugerencias de solución de problemas y explicaciones de errores
+    table_role: generic
+    table_md_path: tables/0043-capítulo-ⅶ-apéndice-table-01.md

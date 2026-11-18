@@ -1,0 +1,5328 @@
+schema_version: 1
+doc_id: cuh.sdvc34.manual.v0.0.es-ES
+doc_key: cuh.sdvc34.manual.v0.0
+lang: es-ES
+generated_at: '2026-11-18 11:39:33'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 1
+  heading_path: &id009
+  - （文首）
+  table_md_path: tables/0001-文首-table-01.md
+  headers:
+  - col_1
+  - col_2
+- section_index: 10
+  heading_path: &id010
+  - Capítulo Ⅰ Instrucciones previas al uso
+  - 1.5 Explicación de los puertos de cableado
+  table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+  headers:
+  - Función
+  - Puerto
+  - Señal
+- section_index: 13
+  heading_path: &id001
+  - Capítulo Ⅰ Instrucciones previas al uso
+  - 2.2 Guía de selección
+  table_md_path: tables/0013-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+  headers:
+  - Modelo de controlador
+  - Potencia (VA)
+  - Función
+- section_index: 13
+  heading_path: *id001
+  table_md_path: tables/0013-capítulo-ⅰ-instrucciones-previas-al-uso-table-02.md
+  headers:
+  - Función
+  - Común
+  - Conteo
+  - RS485
+  - RS485 y conteo
+- section_index: 17
+  heading_path: &id011
+  - Capítulo Ⅳ Ajuste de parámetros
+  - 4.1 Parámetros comunes
+  table_md_path: tables/0017-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+  headers:
+  - col_1
+  - Definición
+  - Símbolo
+  - Imagen del símbolo
+  - Rango
+  - Predeterminado
+- section_index: 18
+  heading_path: &id012
+  - Capítulo Ⅳ Ajuste de parámetros
+  - 4.2 Parámetros básicos
+  table_md_path: tables/0018-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+  headers:
+  - col_1
+  - Definición
+  - Símbolo
+  - Imagen del símbolo
+  - Rango
+  - Predeterminado
+- section_index: 19
+  heading_path: &id002
+  - Capítulo Ⅳ Ajuste de parámetros
+  - 4.3 Parámetros avanzados
+  table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+  headers:
+  - Definición
+  - Símbolo
+  - Imagen del símbolo
+  - Rango
+  - Predeterminado
+- section_index: 19
+  heading_path: *id002
+  table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-02.md
+  headers:
+  - Definición
+  - Símbolo
+  - Imagen del símbolo
+  - Rango
+  - Predeterminado
+- section_index: 22
+  heading_path: &id013
+  - Capítulo Ⅳ Ajuste de parámetros
+  - 4.4 Parámetros de Auto/Sincronización
+  table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+  headers:
+  - Definición
+  - Símbolo
+  - Imagen del símbolo
+  - Rango
+  - Predeterminado
+- section_index: 27
+  heading_path: &id014
+  - Capítulo Ⅳ Ajuste de parámetros
+  - 'Número de sensor de vibración: ├'
+  table_md_path: tables/0027-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+  headers:
+  - Valor del parámetro
+  - Modelo correspondiente
+  - Especificación<br>Aceleración eje X/eje Y/eje Z
+- section_index: 28
+  heading_path: &id003
+  - CapítuloⅤ Modo de funcionamiento
+  - 5.1 Modo manual
+  table_md_path: tables/0028-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 28
+  heading_path: *id003
+  table_md_path: tables/0028-capítuloⅴ-modo-de-funcionamiento-table-02.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 29
+  heading_path: &id015
+  - CapítuloⅤ Modo de funcionamiento
+  - 5.1.1 Ajuste de la tensión de salida en modo manual
+  table_md_path: tables/0029-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 30
+  heading_path: &id016
+  - CapítuloⅤ Modo de funcionamiento
+  - 5.1.2 Ajuste de la frecuencia de salida en modo manual
+  table_md_path: tables/0030-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 31
+  heading_path: &id004
+  - CapítuloⅤ Modo de funcionamiento
+  - 5.2 Modo automático
+  table_md_path: tables/0031-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 31
+  heading_path: *id004
+  table_md_path: tables/0031-capítuloⅴ-modo-de-funcionamiento-table-02.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+- section_index: 32
+  heading_path: &id017
+  - CapítuloⅤ Modo de funcionamiento
+  - 5.2.1.2 Guía de instalación del sensor de vibración
+  table_md_path: tables/0032-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 33
+  heading_path: &id018
+  - CapítuloⅤ Modo de funcionamiento
+  - 5.2.2 Ajuste de la velocidad de alimentación en modo automático
+  table_md_path: tables/0033-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 34
+  heading_path: &id019
+  - CapítuloⅤ Modo de funcionamiento
+  - 5.2.3 Medición automática de frecuencia en modo automático
+  table_md_path: tables/0034-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 35
+  heading_path: &id005
+  - CapítuloⅤ Modo de funcionamiento
+  - 5.3 Modo semiautomático
+  table_md_path: tables/0035-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 35
+  heading_path: *id005
+  table_md_path: tables/0035-capítuloⅴ-modo-de-funcionamiento-table-02.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 36
+  heading_path: &id006
+  - CapítuloⅤ Modo de funcionamiento
+  - 5.4 Modo de sincronización
+  table_md_path: tables/0036-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 36
+  heading_path: *id006
+  table_md_path: tables/0036-capítuloⅴ-modo-de-funcionamiento-table-02.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 37
+  heading_path: &id020
+  - CapítuloⅤ Modo de funcionamiento
+  - 5.4.1 Método de conexión del cable de señal de sincronización
+  table_md_path: tables/0037-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 38
+  heading_path: &id007
+  - CapítuloⅤ Modo de funcionamiento
+  - 5.4.2 Aplicaciones del modo de sincronización
+  table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 38
+  heading_path: *id007
+  table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-02.md
+  headers:
+  - Controlador
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 38
+  heading_path: *id007
+  table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-03.md
+  headers:
+  - Controlador
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 38
+  heading_path: *id007
+  table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-04.md
+  headers:
+  - Controlador
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 38
+  heading_path: *id007
+  table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-05.md
+  headers:
+  - Controlador
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 38
+  heading_path: *id007
+  table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-06.md
+  headers:
+  - Controlador
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 38
+  heading_path: *id007
+  table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-07.md
+  headers:
+  - Controlador
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 39
+  heading_path: &id021
+  - CapítuloⅤ Modo de funcionamiento
+  - 5.5 Modo de conteo
+  table_md_path: tables/0039-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 40
+  heading_path: &id022
+  - CapítuloⅤ Modo de funcionamiento
+  - 5.5.1 Método de uso
+  table_md_path: tables/0040-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 41
+  heading_path: &id023
+  - CapítuloⅤ Modo de funcionamiento
+  - 5.5.2 Método de conexión
+  table_md_path: tables/0041-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 42
+  heading_path: &id024
+  - CapítuloⅤ Modo de funcionamiento
+  - 5.5.3 Dirección lógica del pulso de conteo
+  table_md_path: tables/0042-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 43
+  heading_path: &id025
+  - CapítuloⅤ Modo de funcionamiento
+  - 5.5.4 Dirección lógica del reinicio de conteo
+  table_md_path: tables/0043-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 44
+  heading_path: &id026
+  - CapítuloⅤ Modo de funcionamiento
+  - 5.5.5 Explicación de los parámetros de conteo
+  table_md_path: tables/0044-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 45
+  heading_path: &id027
+  - CapítuloⅤ Modo de funcionamiento
+  - 'Porcentaje de velocidad al finalizar el conteo: u'
+  table_md_path: tables/0045-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 46
+  heading_path: &id028
+  - CapítuloⅤ Modo de funcionamiento
+  - 'Tiempo antirrebote de conteo: J'
+  table_md_path: tables/0046-capítuloⅴ-modo-de-funcionamiento-table-01.md
+  headers:
+  - Modo de funcionamiento
+  - Tensión de salida U — Método de ajuste
+  - Tensión de salida U — Ajuste de Γ5
+  - Frecuencia de salida E — Método de ajuste
+  - Frecuencia de salida E — Ajuste de Γ6
+  - Imagen del símbolo
+- section_index: 61
+  heading_path: &id029
+  - Capítulo Ⅵ Control de señales
+  - Método de conexión del PLC de control de velocidad remoto
+  table_md_path: tables/0061-capítulo-ⅵ-control-de-señales-table-01.md
+  headers:
+  - Señal de control de velocidad remoto
+  - Tensión de salida U/velocidad de alimentación A
+- section_index: 65
+  heading_path: &id030
+  - Capítulo Ⅵ Control de señales
+  - 6.6 Almacenamiento y salida de velocidades preajustadas
+  table_md_path: tables/0065-capítulo-ⅵ-control-de-señales-table-01.md
+  headers:
+  - Velocidad preajustada
+  - Puertos G1 y G2 — Indicador de velocidad A
+  - Puertos G1 y G2 — Interruptor 1
+  - Puertos G3 y G4 — Indicador de velocidad B
+  - Puertos G3 y G4 — Interruptor 2
+- section_index: 69
+  heading_path: &id031
+  - Capítulo Ⅶ Funciones de seguridad
+  - Capítulo Ⅷ Apéndice
+  table_md_path: tables/0069-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+  headers:
+  - Rango de dimensiones
+  - tolerancia
+- section_index: 75
+  heading_path: &id032
+  - Capítulo Ⅶ Funciones de seguridad
+  - 8.3 Especificaciones técnicas
+  table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+  headers:
+  - Elemento
+  - Mín.
+  - Típico
+  - Máx.
+  - Unidad
+  - Nota
+- section_index: 76
+  heading_path: &id008
+  - Capítulo Ⅶ Funciones de seguridad
+  - 8.4 Sugerencias de solución de problemas y explicación de errores
+  table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+  headers:
+  - Fenómeno de fallo
+  - Sugerencias de solución de problemas
+  - Imagen del símbolo
+- section_index: 76
+  heading_path: *id008
+  table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-02.md
+  headers:
+  - Fenómeno de fallo
+  - Imagen del símbolo
+  - Sugerencias de solución de problemas
+items:
+- name: ⚠ Peligro
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Peligro
+    col_2: El incumplimiento de este punto provocará lesiones personales o la muerte.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id009
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ⚠ Advertencia
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Advertencia
+    col_2: El incumplimiento de este punto puede provocar lesiones personales o la
+      muerte.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id009
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ⚠ Precaución
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Precaución
+    col_2: El incumplimiento de este punto puede provocar lesiones moderadas o leves
+      a las personas.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id009
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Aviso
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Aviso
+    col_2: El incumplimiento de este punto provocará daños al producto y daños materiales.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id009
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ❗ Obligatorio
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ❗ Obligatorio
+    col_2: Indica las precauciones y restricciones de uso que deben observarse durante
+      el uso.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id009
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Speed Ctrl
+    Puerto: A1
+    Señal: RGND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Speed Ctrl
+    Puerto: A2
+    Señal: Input
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Speed Ctrl
+    Puerto: A3
+    Señal: +5V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Speed Ctrl
+    Puerto: A4
+    Señal: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Sensor
+    Puerto: C1
+    Señal: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Sensor
+    Puerto: C2
+    Señal: Input
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Sensor
+    Puerto: C3
+    Señal: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Ctrl Out
+    Puerto: D1
+    Señal: Output
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Ctrl Out
+    Puerto: D2
+    Señal: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Sensor Ⅱ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Sensor Ⅱ
+    Puerto: E1
+    Señal: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Sensor Ⅱ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Sensor Ⅱ
+    Puerto: E2
+    Señal: Input
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Sensor Ⅱ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Sensor Ⅱ
+    Puerto: E3
+    Señal: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: RS 485
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: RS 485
+    Puerto: F2
+    Señal: A+
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: RS 485
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: RS 485
+    Puerto: F3
+    Señal: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: RS 485
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: RS 485
+    Puerto: F4
+    Señal: B-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Preset
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Preset
+    Puerto: G1
+    Señal: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Preset
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Preset
+    Puerto: G2
+    Señal: PSet A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Preset
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Preset
+    Puerto: G4
+    Señal: Pset B
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Preset
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Preset
+    Puerto: G5
+    Señal: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Sync
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Sync
+    Puerto: H1
+    Señal: Sync In-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Sync
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Sync
+    Puerto: H2
+    Señal: Sync In+
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Sync
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Sync
+    Puerto: H3
+    Señal: Sync Out-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Sync
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Sync
+    Puerto: H4
+    Señal: Sync Out+
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 Explicación de los puertos de cableado
+    table_role: generic
+    table_md_path: tables/0010-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: SDVC34-MR
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modelo de controlador: SDVC34-MR
+    Potencia (VA): '660'
+    Función: RS485
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Guía de selección
+    table_role: generic
+    table_md_path: tables/0013-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: SDVC34-MRJ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modelo de controlador: SDVC34-MRJ
+    Potencia (VA): '660'
+    Función: RS485 y conteo
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Guía de selección
+    table_role: generic
+    table_md_path: tables/0013-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: SDVC34-XLR
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modelo de controlador: SDVC34-XLR
+    Potencia (VA): '1320'
+    Función: RS485
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Guía de selección
+    table_role: generic
+    table_md_path: tables/0013-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: SDVC34-XLRJ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modelo de controlador: SDVC34-XLRJ
+    Potencia (VA): '1320'
+    Función: RS485 y conteo
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Guía de selección
+    table_role: generic
+    table_md_path: tables/0013-capítulo-ⅰ-instrucciones-previas-al-uso-table-01.md
+- name: Control ON/OFF de los puertos C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Control ON/OFF de los puertos C
+    Común: √
+    Conteo: √
+    RS485: √
+    RS485 y conteo: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Guía de selección
+    table_role: generic
+    table_md_path: tables/0013-capítulo-ⅰ-instrucciones-previas-al-uso-table-02.md
+- name: Control de velocidad remoto
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Control de velocidad remoto
+    Común: √
+    Conteo: √
+    RS485: √
+    RS485 y conteo: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Guía de selección
+    table_role: generic
+    table_md_path: tables/0013-capítulo-ⅰ-instrucciones-previas-al-uso-table-02.md
+- name: Salida de control
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Salida de control
+    Común: √
+    Conteo: √
+    RS485: √
+    RS485 y conteo: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Guía de selección
+    table_role: generic
+    table_md_path: tables/0013-capítulo-ⅰ-instrucciones-previas-al-uso-table-02.md
+- name: Velocidades preajustadas
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Velocidades preajustadas
+    Común: √
+    RS485: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Guía de selección
+    table_role: generic
+    table_md_path: tables/0013-capítulo-ⅰ-instrucciones-previas-al-uso-table-02.md
+- name: Conteo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Conteo
+    Conteo: √
+    RS485 y conteo: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Guía de selección
+    table_role: generic
+    table_md_path: tables/0013-capítulo-ⅰ-instrucciones-previas-al-uso-table-02.md
+- name: Control ON/OFF de los puertos E
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Control ON/OFF de los puertos E
+    RS485: √
+    RS485 y conteo: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Guía de selección
+    table_role: generic
+    table_md_path: tables/0013-capítulo-ⅰ-instrucciones-previas-al-uso-table-02.md
+- name: Sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Sincronización
+    RS485: √
+    RS485 y conteo: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Guía de selección
+    table_role: generic
+    table_md_path: tables/0013-capítulo-ⅰ-instrucciones-previas-al-uso-table-02.md
+- name: RS 485
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: RS 485
+    RS485: √
+    RS485 y conteo: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Guía de selección
+    table_role: generic
+    table_md_path: tables/0013-capítulo-ⅰ-instrucciones-previas-al-uso-table-02.md
+- name: Sensor de vibración
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Función: Sensor de vibración
+    Común: √
+    Conteo: √
+    RS485: √
+    RS485 y conteo: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 Guía de selección
+    table_role: generic
+    table_md_path: tables/0013-capítulo-ⅰ-instrucciones-previas-al-uso-table-02.md
+- name: Parámetros comunes
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetros comunes
+    Definición: Tensión de salida
+    Símbolo: U
+    Imagen del símbolo: '![Output Voltage 数码管符号 U](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-01.png)'
+    Rango: 0~250 (V)
+    Predeterminado: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id011
+    heading_title: 4.1 Parámetros comunes
+    table_role: generic
+    table_md_path: tables/0017-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Parámetros comunes
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetros comunes
+    Definición: Velocidad de alimentación
+    Símbolo: A
+    Imagen del símbolo: '![Feed Speed 数码管符号 A](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-02.png)'
+    Rango: 0~3200
+    Predeterminado: '200'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id011
+    heading_title: 4.1 Parámetros comunes
+    table_role: generic
+    table_md_path: tables/0017-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Parámetros comunes
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetros comunes
+    Definición: Bloqueo del teclado
+    Símbolo: a
+    Imagen del símbolo: '![Keypad Lock 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-03.png)'
+    Rango: ——
+    Predeterminado: Valor de tensión actual/<br>Velocidad de alimentación actual
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id011
+    heading_title: 4.1 Parámetros comunes
+    table_role: generic
+    table_md_path: tables/0017-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Parámetros básicos<br>Mantenga pulsado `FUNC`
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetros básicos<br>Mantenga pulsado `FUNC`
+    Definición: Frecuencia de salida
+    Símbolo: E
+    Imagen del símbolo: '![Output Frequency 数码管符号 E](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-05.png)'
+    Rango: 25.0~400.0 (Hz)
+    Predeterminado: '50.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 18
+    heading_path: *id012
+    heading_title: 4.2 Parámetros básicos
+    table_role: generic
+    table_md_path: tables/0018-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Parámetros básicos<br>Mantenga pulsado `FUNC`
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetros básicos<br>Mantenga pulsado `FUNC`
+    Definición: Retardo de conexión de los puertos C
+    Símbolo: J
+    Imagen del símbolo: '![C Ports On Delay 数码管符号 J](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-06.png)'
+    Rango: 0.0~99.9 (s)
+    Predeterminado: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 18
+    heading_path: *id012
+    heading_title: 4.2 Parámetros básicos
+    table_role: generic
+    table_md_path: tables/0018-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Parámetros básicos<br>Mantenga pulsado `FUNC`
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetros básicos<br>Mantenga pulsado `FUNC`
+    Definición: Retardo de desconexión de los puertos C
+    Símbolo: L
+    Imagen del símbolo: '![C Ports Off Delay 数码管符号 L](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-07.png)'
+    Rango: 0.0~99.9 (s)
+    Predeterminado: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 18
+    heading_path: *id012
+    heading_title: 4.2 Parámetros básicos
+    table_role: generic
+    table_md_path: tables/0018-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Parámetros básicos<br>Mantenga pulsado `FUNC`
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetros básicos<br>Mantenga pulsado `FUNC`
+    Definición: Tiempo de arranque suave
+    Símbolo: t
+    Imagen del símbolo: '![Soft Startup Time 数码管符号 t](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-08.png)'
+    Rango: 0.0~10.0 (s)
+    Predeterminado: '0.5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 18
+    heading_path: *id012
+    heading_title: 4.2 Parámetros básicos
+    table_role: generic
+    table_md_path: tables/0018-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Parámetros básicos<br>Mantenga pulsado `FUNC`
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Parámetros básicos<br>Mantenga pulsado `FUNC`
+    Definición: Límite máximo de conteo<br>(Controlador con función de conteo, sufijo
+      J)
+    Símbolo: '3'
+    Imagen del símbolo: '![Maximum count limit 数码管符号 3](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-09.png)'
+    Rango: 0~9999
+    Predeterminado: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 18
+    heading_path: *id012
+    heading_title: 4.2 Parámetros básicos
+    table_role: generic
+    table_md_path: tables/0018-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Retardo de conexión del puerto E
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Retardo de conexión del puerto E
+    Símbolo: J-
+    Imagen del símbolo: '![Port E On Delay：数码管符号、范围及默认值](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-01.png)'
+    Rango: 0.0~99.9 (s)
+    Predeterminado: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Retardo de desconexión del puerto E
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Retardo de desconexión del puerto E
+    Símbolo: L-
+    Imagen del símbolo: '![Port E Off Delay：数码管符号、范围及默认值](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-02.png)'
+    Rango: 0.0~99.9 (s)
+    Predeterminado: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Retardo de conexión del puerto D
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Retardo de conexión del puerto D
+    Símbolo: Jd
+    Imagen del símbolo: '![Port D On Delay：数码管符号、范围及默认值](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-03.png)'
+    Rango: 0.0~99.9 (s)
+    Predeterminado: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Retardo de desconexión del puerto D
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Retardo de desconexión del puerto D
+    Símbolo: Ld
+    Imagen del símbolo: '![Port D Off Delay：数码管符号、范围及默认值](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-04.png)'
+    Rango: 0.0~99.9 (s)
+    Predeterminado: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Tipo de puerto D
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Tipo de puerto D
+    Símbolo: rd
+    Imagen del símbolo: '![Port D Type：数码管符号、范围及默认值](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-05.png)'
+    Rango: nPn, PnP, PSP (push-pull)
+    Predeterminado: nPn
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Relación lógica del puerto C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Relación lógica del puerto C
+    Símbolo: F2
+    Imagen del símbolo: '![Port C Logical Relation：参数符号及正负逻辑显示符号](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-06.png)'
+    Rango: Lógica positiva, Lógica negativa
+    Predeterminado: Lógica positiva
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Relación lógica del puerto E
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Relación lógica del puerto E
+    Símbolo: F1
+    Imagen del símbolo: '![Port E Logical Relation：参数符号及正负逻辑显示符号](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-07.png)'
+    Rango: Lógica positiva, Lógica negativa
+    Predeterminado: Lógica positiva
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Relación lógica de la salida de control
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Relación lógica de la salida de control
+    Símbolo: F3
+    Imagen del símbolo: '![Ctrl Out Logical Relation：参数符号、逻辑选项及默认显示](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-08.png)'
+    Rango: Lógica positiva, Lógica negativa,<br>Control por la señal de alarma
+    Predeterminado: Lógica positiva
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Operación lógica de la salida principal
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Operación lógica de la salida principal
+    Símbolo: F4
+    Imagen del símbolo: '![Logic Operation of Main Output：参数符号、四种逻辑选项及默认显示](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-09.png)'
+    Rango: Lógica positiva, Lógica negativa,<br>La salida principal es controlada
+      por el puerto C, el puerto D es controlado por el puerto E<br>La salida principal
+      es controlada por el puerto E, el puerto D es controlado por el puerto C
+    Predeterminado: Lógica positiva
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Operación lógica de la salida de control
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Operación lógica de la salida de control
+    Símbolo: F8
+    Imagen del símbolo: '![Logic Operation of Ctrl Output：参数符号、逻辑选项及默认显示](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-10.png)'
+    Rango: Lógica principal, El segundo grupo de lógica
+    Predeterminado: Lógica principal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Tipo de sensor de conmutación<br>(Controlador con función RS485, sufijo R)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Tipo de sensor de conmutación<br>(Controlador con función RS485, sufijo
+      R)
+    Símbolo: FA
+    Imagen del símbolo: '![Switch Sensor Type（R suffix）：数码管符号、范围及默认值](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-11.png)'
+    Rango: Uto, nPn, PnP
+    Predeterminado: Uto
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Tipo de sensor de conmutación<br>(Controlador con función de conteo, sufijo
+    J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Tipo de sensor de conmutación<br>(Controlador con función de conteo,
+      sufijo J)
+    Símbolo: FA
+    Imagen del símbolo: '![Switch Sensor Type（J suffix）：数码管符号、范围及默认值](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-12.png)'
+    Rango: nPn, PnP
+    Predeterminado: nPn
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Relación lógica de los puertos C y E
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Relación lógica de los puertos C y E
+    Símbolo: ∩
+    Imagen del símbolo: '![Logic Relation of Port C and E：参数符号、And/or/Xor 图形及默认显示](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-13.png)'
+    Rango: And, or, Xor
+    Predeterminado: And
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Dirección lógica del pulso de conteo<br>(Controlador con función de conteo,
+    sufijo J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Dirección lógica del pulso de conteo<br>(Controlador con función de
+      conteo, sufijo J)
+    Símbolo: Fb
+    Imagen del símbolo: '![Count Pulse Logic Direction：参数符号、下降沿和上升沿图形及默认显示](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-14.png)'
+    Rango: Flanco descendente, Flanco ascendente
+    Predeterminado: Flanco descendente
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Dirección lógica del reinicio de conteo<br>(Controlador con función de conteo,
+    sufijo J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Dirección lógica del reinicio de conteo<br>(Controlador con función
+      de conteo, sufijo J)
+    Símbolo: FC
+    Imagen del símbolo: '![Count Reset Logic Direction：参数符号、下降沿和上升沿图形及默认显示](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-15.png)'
+    Rango: Flanco descendente, Flanco ascendente
+    Predeterminado: Flanco descendente
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Porcentaje de velocidad al finalizar el conteo<br>(Controlador con función
+    de conteo, sufijo J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Porcentaje de velocidad al finalizar el conteo<br>(Controlador con
+      función de conteo, sufijo J)
+    Símbolo: u
+    Imagen del símbolo: '![Speed Percent of Count Ends：数码管符号、范围及默认值](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-16.png)'
+    Rango: 0~100
+    Predeterminado: '30'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Número de conteo al final<br>(Controlador con función de conteo, sufijo J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Número de conteo al final<br>(Controlador con función de conteo, sufijo
+      J)
+    Símbolo: n
+    Imagen del símbolo: '![Count Number of Ends：数码管符号、范围及默认值](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-17.png)'
+    Rango: 0~255
+    Predeterminado: '3'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Tiempo antirrebote de conteo<br>(Controlador con función de conteo, sufijo
+    J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Tiempo antirrebote de conteo<br>(Controlador con función de conteo,
+      sufijo J)
+    Símbolo: U
+    Imagen del símbolo: '![Count Anti-jitter Time：数码管符号、范围及默认值](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-18.png)'
+    Rango: 0.001~2.000 (s)
+    Predeterminado: '0.010'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Tensión de salida máxima ajustable
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Tensión de salida máxima ajustable
+    Símbolo: h
+    Imagen del símbolo: '![Max Adjustable Output Voltage 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-00.png)'
+    Rango: 0~250 (V)
+    Predeterminado: '250'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-02.md
+- name: Límite inferior de frecuencia de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Límite inferior de frecuencia de salida
+    Símbolo: e
+    Imagen del símbolo: '![Output Frequency Lower Limit 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-01.png)'
+    Rango: 25.0~390.0 (Hz)
+    Predeterminado: '40.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-02.md
+- name: Índice de aceleración
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Índice de aceleración
+    Símbolo: y
+    Imagen del símbolo: '![Acceleration Index 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-02.png)'
+    Rango: 100~150 %
+    Predeterminado: '120'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-02.md
+- name: Índice de forma de onda
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Índice de forma de onda
+    Símbolo: r
+    Imagen del símbolo: '![Waveform Index 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-03.png)'
+    Rango: 0~100
+    Predeterminado: '100'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-02.md
+- name: Visualización de temperatura
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Visualización de temperatura
+    Símbolo: C
+    Imagen del símbolo: '![Temperature Display 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-04.png)'
+    Rango: -10.0~80.0 (°C)
+    Predeterminado: Temperatura actual
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-02.md
+- name: Protocolo de comunicación
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Protocolo de comunicación
+    Símbolo: P
+    Imagen del símbolo: '![Communication Protocol 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-05.png)'
+    Rango: ASC, rtu
+    Predeterminado: rtu
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-02.md
+- name: Dirección de comunicación
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Dirección de comunicación
+    Símbolo: Ver imagen del símbolo
+    Imagen del símbolo: '![Communication Address 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-06.png)'
+    Rango: 1~31
+    Predeterminado: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-02.md
+- name: Velocidad en baudios de comunicación
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Velocidad en baudios de comunicación
+    Símbolo: d
+    Imagen del símbolo: '![Communication Baud Rate 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-07.png)'
+    Rango: 0.3~115.2 kbps
+    Predeterminado: '9.6'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-02.md
+- name: Contraseña de bloqueo de parámetros
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Contraseña de bloqueo de parámetros
+    Símbolo: q-
+    Imagen del símbolo: '![Parameter Lock Password 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-08.png)'
+    Rango: 0~999
+    Predeterminado: '- - -'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-02.md
+- name: Estado de funcionamiento tras el encendido
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Estado de funcionamiento tras el encendido
+    Símbolo: rd
+    Imagen del símbolo: '![Power On Status 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-09.png)'
+    Rango: Run, Stop, Seguir antes del apagado<br>![Power On Status：Run、Stop、Follow
+      before power off 对应的段码图形](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-13.png)
+    Predeterminado: '- - -<br>![Power On Status 默认值的三个下横段](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-14.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-02.md
+- name: Versión de software
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Versión de software
+    Símbolo: Ur
+    Imagen del símbolo: '![Software Version 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-10.png)'
+    Rango: ——
+    Predeterminado: Versión actual
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-02.md
+- name: Tiempo de reinicio automático de conteo tras llenarse el contador<br>(Controlador
+    con función de conteo, sufijo J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Tiempo de reinicio automático de conteo tras llenarse el contador<br>(Controlador
+      con función de conteo, sufijo J)
+    Símbolo: rE
+    Imagen del símbolo: '![Count Auto Reset Time After Counter Filled 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-11.png)'
+    Rango: 0.0~99.9 (s)
+    Predeterminado: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-02.md
+- name: Restablecimiento del controlador
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Restablecimiento del controlador
+    Símbolo: 8.8.8.8.8.
+    Imagen del símbolo: '![Controller Reset 全段点亮符号](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-12.png)'
+    Rango: ——
+    Predeterminado: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 19
+    heading_path: *id002
+    heading_title: 4.3 Parámetros avanzados
+    table_role: generic
+    table_md_path: tables/0019-capítulo-ⅳ-ajuste-de-parámetros-table-02.md
+- name: Frecuencia central
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Frecuencia central
+    Símbolo: F
+    Imagen del símbolo: '![Centre Frequency 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-01.png)'
+    Rango: 25.0~400.0 (Hz)
+    Predeterminado: '100.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Desviación máxima en FM automática
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Desviación máxima en FM automática
+    Símbolo: n
+    Imagen del símbolo: '![Max Offset in Auto FM 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-02.png)'
+    Rango: 0.0~180.0 (Hz)
+    Predeterminado: '30.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Método de ajuste de la tensión de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Método de ajuste de la tensión de salida
+    Símbolo: FS
+    Imagen del símbolo: '![Output Voltage Adjustment Method 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-03.png)'
+    Rango: Auto, Manual (símbolo correspondiente, ver la figura) ![输出电压调整方式的 Auto、Manual
+      对应显示符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-19.png)
+    Predeterminado: '- - -'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Método de ajuste de la frecuencia de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Método de ajuste de la frecuencia de salida
+    Símbolo: FG
+    Imagen del símbolo: '![Output Frequency Adjustment Method 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-04.png)'
+    Rango: Auto, Manual, Sync (símbolo correspondiente, ver la figura) ![输出频率调整方式的
+      Auto、Manual、Sync 对应显示符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-20.png)
+    Predeterminado: '- - -'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Índice de ajuste automático de la frecuencia de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Índice de ajuste automático de la frecuencia de salida
+    Símbolo: iF
+    Imagen del símbolo: '![Output Frequency Auto Adjustment Index 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-05.png)'
+    Rango: 0~200
+    Predeterminado: '20'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Índice de ajuste automático de amplitud
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Índice de ajuste automático de amplitud
+    Símbolo: PA
+    Imagen del símbolo: '![Amplitude Auto Adjustment Index，默认值 60，数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-06.png)'
+    Rango: 0~999
+    Predeterminado: '60'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Índice de ajuste automático de amplitud
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Índice de ajuste automático de amplitud
+    Símbolo: iA
+    Imagen del símbolo: '![Amplitude Auto Adjustment Index，默认值 50，数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-07.png)'
+    Rango: 0~999
+    Predeterminado: '50'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Visualización de la velocidad de alimentación
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Visualización de la velocidad de alimentación
+    Símbolo: U
+    Imagen del símbolo: '![Feed Speed Display 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-08.png)'
+    Rango: 0~H
+    Predeterminado: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Visualización de la tensión de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Visualización de la tensión de salida
+    Símbolo: G
+    Imagen del símbolo: '![Output Voltage Display 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-09.png)'
+    Rango: 0~h (V)
+    Predeterminado: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Límite inferior de tensión
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Límite inferior de tensión
+    Símbolo: GL
+    Imagen del símbolo: '![Lower Limit of Voltage 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-10.png)'
+    Rango: 0~250 (V)
+    Predeterminado: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Límite inferior de frecuencia
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Límite inferior de frecuencia
+    Símbolo: e
+    Imagen del símbolo: '![Lower Limit of Frequency 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-11.png)'
+    Rango: 25.0~400.0 (Hz)
+    Predeterminado: '40.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Índice de amplitud máxima
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Índice de amplitud máxima
+    Símbolo: P
+    Imagen del símbolo: '![Max Amplitude Index 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-12.png)'
+    Rango: 0~500
+    Predeterminado: '500'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Velocidad de alimentación máxima ajustable
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Velocidad de alimentación máxima ajustable
+    Símbolo: H
+    Imagen del símbolo: '![Max Adjustable Feed Speed 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-13.png)'
+    Rango: 0~3200
+    Predeterminado: '1500'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Diferencia de fase
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Diferencia de fase
+    Símbolo: Y
+    Imagen del símbolo: '![Phase Difference 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-14.png)'
+    Rango: -180~180 °
+    Predeterminado: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Tensión de salida máxima en el proceso de medición automática de frecuencia
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Tensión de salida máxima en el proceso de medición automática de frecuencia
+    Símbolo: b
+    Imagen del símbolo: '![Max Output Voltage in Auto Frequency Measuring Process
+      数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-15.png)'
+    Rango: 0~250 (V)
+    Predeterminado: '100'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Velocidad de búsqueda de frecuencia
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Velocidad de búsqueda de frecuencia
+    Símbolo: SP
+    Imagen del símbolo: '![Frequency Searching Speed 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-16.png)'
+    Rango: 1~7
+    Predeterminado: '5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Volumen mínimo de ajuste de la velocidad de alimentación
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Volumen mínimo de ajuste de la velocidad de alimentación
+    Símbolo: c
+    Imagen del símbolo: '![Feed Speed Min Adjustment Volume 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-17.png)'
+    Rango: 1~10
+    Predeterminado: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Número del sensor de vibración
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Definición: Número del sensor de vibración
+    Símbolo: t
+    Imagen del símbolo: '![Vibration Sensor Number 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-18.png)'
+    Rango: 0, 1, 2, 3, 4, 203, 204, 205, 206
+    Predeterminado: '205'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id013
+    heading_title: 4.4 Parámetros de Auto/Sincronización
+    table_role: generic
+    table_md_path: tables/0022-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: '1'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Valor del parámetro: '1'
+    Modelo correspondiente: SDVS20-1
+    Especificación<br>Aceleración eje X/eje Y/eje Z: 16g/16g/16g
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id014
+    heading_title: 'Número de sensor de vibración: ├'
+    table_role: generic
+    table_md_path: tables/0027-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: '2'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Valor del parámetro: '2'
+    Modelo correspondiente: SDVS20-2
+    Especificación<br>Aceleración eje X/eje Y/eje Z: 35g/35g/——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id014
+    heading_title: 'Número de sensor de vibración: ├'
+    table_role: generic
+    table_md_path: tables/0027-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: '3'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Valor del parámetro: '3'
+    Modelo correspondiente: SDVS20-3
+    Especificación<br>Aceleración eje X/eje Y/eje Z: 50g/50g/——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id014
+    heading_title: 'Número de sensor de vibración: ├'
+    table_role: generic
+    table_md_path: tables/0027-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: '4'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Valor del parámetro: '4'
+    Modelo correspondiente: SDVS20-4
+    Especificación<br>Aceleración eje X/eje Y/eje Z: 70g/70g/——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id014
+    heading_title: 'Número de sensor de vibración: ├'
+    table_role: generic
+    table_md_path: tables/0027-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: '203'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Valor del parámetro: '203'
+    Modelo correspondiente: SDVS203
+    Especificación<br>Aceleración eje X/eje Y/eje Z: 8g/8g/8g
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id014
+    heading_title: 'Número de sensor de vibración: ├'
+    table_role: generic
+    table_md_path: tables/0027-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: '204'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Valor del parámetro: '204'
+    Modelo correspondiente: SDVS204
+    Especificación<br>Aceleración eje X/eje Y/eje Z: 16g/16g/16g
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id014
+    heading_title: 'Número de sensor de vibración: ├'
+    table_role: generic
+    table_md_path: tables/0027-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: '205'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Valor del parámetro: '205'
+    Modelo correspondiente: SDVS205
+    Especificación<br>Aceleración eje X/eje Y/eje Z: 32g/32g/32g
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id014
+    heading_title: 'Número de sensor de vibración: ├'
+    table_role: generic
+    table_md_path: tables/0027-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: '206'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Valor del parámetro: '206'
+    Modelo correspondiente: SDVS206
+    Especificación<br>Aceleración eje X/eje Y/eje Z: 64g/64g/64g
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id014
+    heading_title: 'Número de sensor de vibración: ├'
+    table_role: generic
+    table_md_path: tables/0027-capítulo-ⅳ-ajuste-de-parámetros-table-01.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id003
+    heading_title: 5.1 Modo manual
+    table_role: generic
+    table_md_path: tables/0028-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id003
+    heading_title: 5.1 Modo manual
+    table_role: generic
+    table_md_path: tables/0028-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id003
+    heading_title: 5.1 Modo manual
+    table_role: generic
+    table_md_path: tables/0028-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id003
+    heading_title: 5.1 Modo manual
+    table_role: generic
+    table_md_path: tables/0028-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![5.1表格中的手动模式设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-03.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id003
+    heading_title: 5.1 Modo manual
+    table_role: generic
+    table_md_path: tables/0028-capítuloⅴ-modo-de-funcionamiento-table-02.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 29
+    heading_path: *id015
+    heading_title: 5.1.1 Ajuste de la tensión de salida en modo manual
+    table_role: generic
+    table_md_path: tables/0029-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 29
+    heading_path: *id015
+    heading_title: 5.1.1 Ajuste de la tensión de salida en modo manual
+    table_role: generic
+    table_md_path: tables/0029-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 29
+    heading_path: *id015
+    heading_title: 5.1.1 Ajuste de la tensión de salida en modo manual
+    table_role: generic
+    table_md_path: tables/0029-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 29
+    heading_path: *id015
+    heading_title: 5.1.1 Ajuste de la tensión de salida en modo manual
+    table_role: generic
+    table_md_path: tables/0029-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 30
+    heading_path: *id016
+    heading_title: 5.1.2 Ajuste de la frecuencia de salida en modo manual
+    table_role: generic
+    table_md_path: tables/0030-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 30
+    heading_path: *id016
+    heading_title: 5.1.2 Ajuste de la frecuencia de salida en modo manual
+    table_role: generic
+    table_md_path: tables/0030-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 30
+    heading_path: *id016
+    heading_title: 5.1.2 Ajuste de la frecuencia de salida en modo manual
+    table_role: generic
+    table_md_path: tables/0030-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 30
+    heading_path: *id016
+    heading_title: 5.1.2 Ajuste de la frecuencia de salida en modo manual
+    table_role: generic
+    table_md_path: tables/0030-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id004
+    heading_title: 5.2 Modo automático
+    table_role: generic
+    table_md_path: tables/0031-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id004
+    heading_title: 5.2 Modo automático
+    table_role: generic
+    table_md_path: tables/0031-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id004
+    heading_title: 5.2 Modo automático
+    table_role: generic
+    table_md_path: tables/0031-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id004
+    heading_title: 5.2 Modo automático
+    table_role: generic
+    table_md_path: tables/0031-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '- - -'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '- - -'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id004
+    heading_title: 5.2 Modo automático
+    table_role: generic
+    table_md_path: tables/0031-capítuloⅴ-modo-de-funcionamiento-table-02.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id017
+    heading_title: 5.2.1.2 Guía de instalación del sensor de vibración
+    table_role: generic
+    table_md_path: tables/0032-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id017
+    heading_title: 5.2.1.2 Guía de instalación del sensor de vibración
+    table_role: generic
+    table_md_path: tables/0032-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id017
+    heading_title: 5.2.1.2 Guía de instalación del sensor de vibración
+    table_role: generic
+    table_md_path: tables/0032-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id017
+    heading_title: 5.2.1.2 Guía de instalación del sensor de vibración
+    table_role: generic
+    table_md_path: tables/0032-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id018
+    heading_title: 5.2.2 Ajuste de la velocidad de alimentación en modo automático
+    table_role: generic
+    table_md_path: tables/0033-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id018
+    heading_title: 5.2.2 Ajuste de la velocidad de alimentación en modo automático
+    table_role: generic
+    table_md_path: tables/0033-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id018
+    heading_title: 5.2.2 Ajuste de la velocidad de alimentación en modo automático
+    table_role: generic
+    table_md_path: tables/0033-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id018
+    heading_title: 5.2.2 Ajuste de la velocidad de alimentación en modo automático
+    table_role: generic
+    table_md_path: tables/0033-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 34
+    heading_path: *id019
+    heading_title: 5.2.3 Medición automática de frecuencia en modo automático
+    table_role: generic
+    table_md_path: tables/0034-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 34
+    heading_path: *id019
+    heading_title: 5.2.3 Medición automática de frecuencia en modo automático
+    table_role: generic
+    table_md_path: tables/0034-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 34
+    heading_path: *id019
+    heading_title: 5.2.3 Medición automática de frecuencia en modo automático
+    table_role: generic
+    table_md_path: tables/0034-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 34
+    heading_path: *id019
+    heading_title: 5.2.3 Medición automática de frecuencia en modo automático
+    table_role: generic
+    table_md_path: tables/0034-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.3 Modo semiautomático
+    table_role: generic
+    table_md_path: tables/0035-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.3 Modo semiautomático
+    table_role: generic
+    table_md_path: tables/0035-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.3 Modo semiautomático
+    table_role: generic
+    table_md_path: tables/0035-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.3 Modo semiautomático
+    table_role: generic
+    table_md_path: tables/0035-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`---`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_-_`'
+    Imagen del símbolo: 'Γ5: ![Γ5 Setting：三条居中的数码管横段](assets/images/cuh.sdvc34.manual.v0.0/page-0035-vcrop-00.png)
+      Γ6: ![Γ6 Setting：两侧低、中间高的数码管横段](assets/images/cuh.sdvc34.manual.v0.0/page-0035-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id005
+    heading_title: 5.3 Modo semiautomático
+    table_role: generic
+    table_md_path: tables/0035-capítuloⅴ-modo-de-funcionamiento-table-02.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id006
+    heading_title: 5.4 Modo de sincronización
+    table_role: generic
+    table_md_path: tables/0036-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id006
+    heading_title: 5.4 Modo de sincronización
+    table_role: generic
+    table_md_path: tables/0036-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id006
+    heading_title: 5.4 Modo de sincronización
+    table_role: generic
+    table_md_path: tables/0036-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id006
+    heading_title: 5.4 Modo de sincronización
+    table_role: generic
+    table_md_path: tables/0036-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: Dos ajustes de símbolo (ver imagen, unidos
+      por "o")
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: Ver imagen
+    Imagen del símbolo: 'Γ5: ![Γ5 Setting：两种数码管横段组合，以 or 连接](assets/images/cuh.sdvc34.manual.v0.0/page-0037-vcrop-00.png)；Γ6:
+      ![Γ6 Setting 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0037-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id006
+    heading_title: 5.4 Modo de sincronización
+    table_role: generic
+    table_md_path: tables/0036-capítuloⅴ-modo-de-funcionamiento-table-02.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id020
+    heading_title: 5.4.1 Método de conexión del cable de señal de sincronización
+    table_role: generic
+    table_md_path: tables/0037-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id020
+    heading_title: 5.4.1 Método de conexión del cable de señal de sincronización
+    table_role: generic
+    table_md_path: tables/0037-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id020
+    heading_title: 5.4.1 Método de conexión del cable de señal de sincronización
+    table_role: generic
+    table_md_path: tables/0037-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id020
+    heading_title: 5.4.1 Método de conexión del cable de señal de sincronización
+    table_role: generic
+    table_md_path: tables/0037-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Aplicaciones del modo de sincronización
+    table_role: generic
+    table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Aplicaciones del modo de sincronización
+    table_role: generic
+    table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Aplicaciones del modo de sincronización
+    table_role: generic
+    table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Aplicaciones del modo de sincronización
+    table_role: generic
+    table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Controlador maestro
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controlador: Controlador maestro
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: Ver imagen del símbolo
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: Ver imagen del símbolo
+    Imagen del símbolo: Γ5：![Master Controller 的 Γ5 Setting 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0039-vcrop-00.png)；Γ6：![Master
+      Controller 的 Γ6 Setting 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0039-vcrop-01.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Aplicaciones del modo de sincronización
+    table_role: generic
+    table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-02.md
+- name: Controlador esclavo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controlador: Controlador esclavo
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: Ver imagen del símbolo
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: Ver imagen del símbolo
+    Imagen del símbolo: Γ5：![Slave Controller 的 Γ5 Setting 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0039-vcrop-02.png)；Γ6：![Slave
+      Controller 的 Γ6 Setting 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0039-vcrop-03.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Aplicaciones del modo de sincronización
+    table_role: generic
+    table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-02.md
+- name: Controlador maestro
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controlador: Controlador maestro
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: — — —
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: — — —
+    Imagen del símbolo: Γ5、Γ6：![三个并列的数码管横段符号](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-00.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Aplicaciones del modo de sincronización
+    table_role: generic
+    table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-03.md
+- name: Controlador esclavo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controlador: Controlador esclavo
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: Ver imagen del símbolo
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: Ver imagen del símbolo
+    Imagen del símbolo: Γ5：![两侧横段较低、中央横段较高的数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-01.png)；Γ6：![两侧各两条横段、中央三条横段的数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-02.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Aplicaciones del modo de sincronización
+    table_role: generic
+    table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-03.md
+- name: Controlador maestro
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controlador: Controlador maestro
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: — — —
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: Ver imagen del símbolo
+    Imagen del símbolo: Γ5：[[vcrop:40:0]]；Γ6：[[vcrop:40:1]]
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Aplicaciones del modo de sincronización
+    table_role: generic
+    table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-04.md
+- name: Controlador esclavo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controlador: Controlador esclavo
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: Ver imagen del símbolo
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: Ver imagen del símbolo
+    Imagen del símbolo: Γ5：[[vcrop:40:1]]；Γ6：[[vcrop:40:2]]
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Aplicaciones del modo de sincronización
+    table_role: generic
+    table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-04.md
+- name: Controlador maestro
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controlador: Controlador maestro
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: Ver imagen de Γ5 en la columna derecha
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: Ver imagen de Γ6 en la columna derecha
+    Imagen del símbolo: Γ5：![Master Controller 的 Γ5 Setting 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0041-vcrop-00.png)<br>Γ6：![Master
+      Controller 的 Γ6 Setting 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0041-vcrop-01.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Aplicaciones del modo de sincronización
+    table_role: generic
+    table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-05.md
+- name: Controlador esclavo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controlador: Controlador esclavo
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: Ver imagen de Γ5 en la columna derecha
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: Ver imagen de Γ6 en la columna derecha
+    Imagen del símbolo: Γ5：![Slave Controller 的 Γ5 Setting 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0041-vcrop-02.png)<br>Γ6：![Slave
+      Controller 的 Γ6 Setting 数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0041-vcrop-03.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Aplicaciones del modo de sincronización
+    table_role: generic
+    table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-05.md
+- name: Controlador maestro
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controlador: Controlador maestro
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '---'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '---'
+    Imagen del símbolo: Γ5、Γ6：![数码管符号：---](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-00.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Aplicaciones del modo de sincronización
+    table_role: generic
+    table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-06.md
+- name: Controlador esclavo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controlador: Controlador esclavo
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '---'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: Ver imagen del símbolo
+    Imagen del símbolo: Γ5：[[vcrop:42:0]]；Γ6：![从控制器 Γ6 Setting 的数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-01.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Aplicaciones del modo de sincronización
+    table_role: generic
+    table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-06.md
+- name: Controlador maestro
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controlador: Controlador maestro
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '---'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: Ver imagen del símbolo
+    Imagen del símbolo: Γ5：[[vcrop:42:0]]；Γ6：![Sub-Pattern 6 主控制器 Γ6 Setting 的数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-02.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Aplicaciones del modo de sincronización
+    table_role: generic
+    table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-07.md
+- name: Controlador esclavo
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Controlador: Controlador esclavo
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '---'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: Ver imagen del símbolo
+    Imagen del símbolo: Γ5：[[vcrop:42:0]]；Γ6：[[vcrop:42:1]]
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 5.4.2 Aplicaciones del modo de sincronización
+    table_role: generic
+    table_md_path: tables/0038-capítuloⅴ-modo-de-funcionamiento-table-07.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id021
+    heading_title: 5.5 Modo de conteo
+    table_role: generic
+    table_md_path: tables/0039-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id021
+    heading_title: 5.5 Modo de conteo
+    table_role: generic
+    table_md_path: tables/0039-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id021
+    heading_title: 5.5 Modo de conteo
+    table_role: generic
+    table_md_path: tables/0039-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id021
+    heading_title: 5.5 Modo de conteo
+    table_role: generic
+    table_md_path: tables/0039-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id022
+    heading_title: 5.5.1 Método de uso
+    table_role: generic
+    table_md_path: tables/0040-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id022
+    heading_title: 5.5.1 Método de uso
+    table_role: generic
+    table_md_path: tables/0040-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id022
+    heading_title: 5.5.1 Método de uso
+    table_role: generic
+    table_md_path: tables/0040-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id022
+    heading_title: 5.5.1 Método de uso
+    table_role: generic
+    table_md_path: tables/0040-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id023
+    heading_title: 5.5.2 Método de conexión
+    table_role: generic
+    table_md_path: tables/0041-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id023
+    heading_title: 5.5.2 Método de conexión
+    table_role: generic
+    table_md_path: tables/0041-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id023
+    heading_title: 5.5.2 Método de conexión
+    table_role: generic
+    table_md_path: tables/0041-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id023
+    heading_title: 5.5.2 Método de conexión
+    table_role: generic
+    table_md_path: tables/0041-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id024
+    heading_title: 5.5.3 Dirección lógica del pulso de conteo
+    table_role: generic
+    table_md_path: tables/0042-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id024
+    heading_title: 5.5.3 Dirección lógica del pulso de conteo
+    table_role: generic
+    table_md_path: tables/0042-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id024
+    heading_title: 5.5.3 Dirección lógica del pulso de conteo
+    table_role: generic
+    table_md_path: tables/0042-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id024
+    heading_title: 5.5.3 Dirección lógica del pulso de conteo
+    table_role: generic
+    table_md_path: tables/0042-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id025
+    heading_title: 5.5.4 Dirección lógica del reinicio de conteo
+    table_role: generic
+    table_md_path: tables/0043-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id025
+    heading_title: 5.5.4 Dirección lógica del reinicio de conteo
+    table_role: generic
+    table_md_path: tables/0043-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id025
+    heading_title: 5.5.4 Dirección lógica del reinicio de conteo
+    table_role: generic
+    table_md_path: tables/0043-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id025
+    heading_title: 5.5.4 Dirección lógica del reinicio de conteo
+    table_role: generic
+    table_md_path: tables/0043-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id026
+    heading_title: 5.5.5 Explicación de los parámetros de conteo
+    table_role: generic
+    table_md_path: tables/0044-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id026
+    heading_title: 5.5.5 Explicación de los parámetros de conteo
+    table_role: generic
+    table_md_path: tables/0044-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id026
+    heading_title: 5.5.5 Explicación de los parámetros de conteo
+    table_role: generic
+    table_md_path: tables/0044-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id026
+    heading_title: 5.5.5 Explicación de los parámetros de conteo
+    table_role: generic
+    table_md_path: tables/0044-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id027
+    heading_title: 'Porcentaje de velocidad al finalizar el conteo: u'
+    table_role: generic
+    table_md_path: tables/0045-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id027
+    heading_title: 'Porcentaje de velocidad al finalizar el conteo: u'
+    table_role: generic
+    table_md_path: tables/0045-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id027
+    heading_title: 'Porcentaje de velocidad al finalizar el conteo: u'
+    table_role: generic
+    table_md_path: tables/0045-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id027
+    heading_title: 'Porcentaje de velocidad al finalizar el conteo: u'
+    table_role: generic
+    table_md_path: tables/0045-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo manual
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo manual
+    Tensión de salida U — Método de ajuste: Manual
+    Tensión de salida U — Ajuste de Γ5: '`_ - _`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '![手动模式设定符号：两侧短横线低，中间短横线高](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id028
+    heading_title: 'Tiempo antirrebote de conteo: J'
+    table_role: generic
+    table_md_path: tables/0046-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo automático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo automático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Auto
+    Frecuencia de salida E — Ajuste de Γ6: '`- - -`'
+    Imagen del símbolo: '![自动模式设定符号：三条同高短横线](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id028
+    heading_title: 'Tiempo antirrebote de conteo: J'
+    table_role: generic
+    table_md_path: tables/0046-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo semiautomático
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo semiautomático
+    Tensión de salida U — Método de ajuste: Auto
+    Tensión de salida U — Ajuste de Γ5: '`- - -`'
+    Frecuencia de salida E — Método de ajuste: Manual
+    Frecuencia de salida E — Ajuste de Γ6: '`_ - _`'
+    Imagen del símbolo: '[[vcrop:30:1]] / [[vcrop:30:0]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id028
+    heading_title: 'Tiempo antirrebote de conteo: J'
+    table_role: generic
+    table_md_path: tables/0046-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Modo de sincronización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modo de funcionamiento: Modo de sincronización
+    Tensión de salida U — Método de ajuste: Manual o Auto
+    Tensión de salida U — Ajuste de Γ5: '`_ - _` o `- - -`'
+    Frecuencia de salida E — Método de ajuste: Sincronización automática con el controlador
+      maestro
+    Frecuencia de salida E — Ajuste de Γ6: '![同步模式Γ6设定数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    Imagen del símbolo: '[[vcrop:30:0]] / [[vcrop:30:1]] / [[vcrop:30:2]]'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 46
+    heading_path: *id028
+    heading_title: 'Tiempo antirrebote de conteo: J'
+    table_role: generic
+    table_md_path: tables/0046-capítuloⅴ-modo-de-funcionamiento-table-01.md
+- name: Menos de 0.5V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Señal de control de velocidad remoto: Menos de 0.5V
+    Tensión de salida U/velocidad de alimentación A: Controlado por los botones Vol+
+      y Vol-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id029
+    heading_title: Método de conexión del PLC de control de velocidad remoto
+    table_role: generic
+    table_md_path: tables/0061-capítulo-ⅵ-control-de-señales-table-01.md
+- name: 0.5V~1V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Señal de control de velocidad remoto: 0.5V~1V
+    Tensión de salida U/velocidad de alimentación A: Tensión de salida U=20V/velocidad
+      de alimentación A=0<br>Controlado por la señal de control de velocidad remoto
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id029
+    heading_title: Método de conexión del PLC de control de velocidad remoto
+    table_role: generic
+    table_md_path: tables/0061-capítulo-ⅵ-control-de-señales-table-01.md
+- name: 1~5V/4~20mA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Señal de control de velocidad remoto: 1~5V/4~20mA
+    Tensión de salida U/velocidad de alimentación A: La tensión de salida U/velocidad
+      de alimentación A se controla linealmente<br>mediante la señal de control de
+      velocidad remoto
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 61
+    heading_path: *id029
+    heading_title: Método de conexión del PLC de control de velocidad remoto
+    table_role: generic
+    table_md_path: tables/0061-capítulo-ⅵ-control-de-señales-table-01.md
+- name: Velocidad 1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Velocidad preajustada: Velocidad 1
+    Puertos G1 y G2 — Indicador de velocidad A: 'ON'
+    Puertos G1 y G2 — Interruptor 1: Cerrado
+    Puertos G3 y G4 — Indicador de velocidad B: 'OFF'
+    Puertos G3 y G4 — Interruptor 2: Abierto
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 65
+    heading_path: *id030
+    heading_title: 6.6 Almacenamiento y salida de velocidades preajustadas
+    table_role: generic
+    table_md_path: tables/0065-capítulo-ⅵ-control-de-señales-table-01.md
+- name: Velocidad 2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Velocidad preajustada: Velocidad 2
+    Puertos G1 y G2 — Indicador de velocidad A: 'OFF'
+    Puertos G1 y G2 — Interruptor 1: Abierto
+    Puertos G3 y G4 — Indicador de velocidad B: 'ON'
+    Puertos G3 y G4 — Interruptor 2: Cerrado
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 65
+    heading_path: *id030
+    heading_title: 6.6 Almacenamiento y salida de velocidades preajustadas
+    table_role: generic
+    table_md_path: tables/0065-capítulo-ⅵ-control-de-señales-table-01.md
+- name: Velocidad 3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Velocidad preajustada: Velocidad 3
+    Puertos G1 y G2 — Indicador de velocidad A: 'ON'
+    Puertos G1 y G2 — Interruptor 1: Cerrado
+    Puertos G3 y G4 — Indicador de velocidad B: 'ON'
+    Puertos G3 y G4 — Interruptor 2: Cerrado
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 65
+    heading_path: *id030
+    heading_title: 6.6 Almacenamiento y salida de velocidades preajustadas
+    table_role: generic
+    table_md_path: tables/0065-capítulo-ⅵ-control-de-señales-table-01.md
+- name: Velocidad 4
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Velocidad preajustada: Velocidad 4
+    Puertos G1 y G2 — Indicador de velocidad A: 'OFF'
+    Puertos G1 y G2 — Interruptor 1: Abierto
+    Puertos G3 y G4 — Indicador de velocidad B: 'OFF'
+    Puertos G3 y G4 — Interruptor 2: Abierto
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 65
+    heading_path: *id030
+    heading_title: 6.6 Almacenamiento y salida de velocidades preajustadas
+    table_role: generic
+    table_md_path: tables/0065-capítulo-ⅵ-control-de-señales-table-01.md
+- name: 0~3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Rango de dimensiones: 0~3
+    tolerancia: ±0.05
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 69
+    heading_path: *id031
+    heading_title: Capítulo Ⅷ Apéndice
+    table_role: generic
+    table_md_path: tables/0069-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: 3~10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Rango de dimensiones: 3~10
+    tolerancia: ±0.1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 69
+    heading_path: *id031
+    heading_title: Capítulo Ⅷ Apéndice
+    table_role: generic
+    table_md_path: tables/0069-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: 10~30
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Rango de dimensiones: 10~30
+    tolerancia: ±0.15
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 69
+    heading_path: *id031
+    heading_title: Capítulo Ⅷ Apéndice
+    table_role: generic
+    table_md_path: tables/0069-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: 30~80
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Rango de dimensiones: 30~80
+    tolerancia: ±0.2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 69
+    heading_path: *id031
+    heading_title: Capítulo Ⅷ Apéndice
+    table_role: generic
+    table_md_path: tables/0069-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: 80~180
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Rango de dimensiones: 80~180
+    tolerancia: ±0.3
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 69
+    heading_path: *id031
+    heading_title: Capítulo Ⅷ Apéndice
+    table_role: generic
+    table_md_path: tables/0069-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: '>180'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Rango de dimensiones: '>180'
+    tolerancia: ±0.5
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 69
+    heading_path: *id031
+    heading_title: Capítulo Ⅷ Apéndice
+    table_role: generic
+    table_md_path: tables/0069-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Tensión de entrada
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Tensión de entrada
+    Mín.: '85'
+    Típico: '220'
+    Máx.: '250'
+    Unidad: V
+    Nota: CA RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Rango de tensión de salida ajustable
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Rango de tensión de salida ajustable
+    Mín.: '0'
+    Típico: ——
+    Máx.: '250'
+    Unidad: V
+    Nota: Inferior al 150% de la tensión de entrada
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Precisión de ajuste de tensión
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Precisión de ajuste de tensión
+    Típico: '1'
+    Unidad: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Precisión de regulación de tensión
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Precisión de regulación de tensión
+    Mín.: '0'
+    Típico: ——
+    Máx.: '10'
+    Unidad: '%'
+    Nota: ΔVout/ΔVin
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Rango de corriente de salida ajustable
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Rango de corriente de salida ajustable
+    Mín.: '0'
+    Típico: ——
+    Máx.: '3'
+    Unidad: A
+    Nota: SDVC34-MR/MRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Rango de corriente de salida ajustable
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Rango de corriente de salida ajustable
+    Mín.: '0'
+    Típico: ——
+    Máx.: '6'
+    Unidad: A
+    Nota: SDVC34-XLR/XLRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Potencia de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Potencia de salida
+    Mín.: '0'
+    Típico: ——
+    Máx.: '660'
+    Unidad: VA
+    Nota: SDVC34-MR/MRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Potencia de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Potencia de salida
+    Mín.: '0'
+    Típico: ——
+    Máx.: '1320'
+    Unidad: VA
+    Nota: SDVC34-XLR/XLRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Frecuencia de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Frecuencia de salida
+    Mín.: '25'
+    Típico: ——
+    Máx.: '400'
+    Unidad: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Precisión de ajuste de frecuencia
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Precisión de ajuste de frecuencia
+    Típico: '0.1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Forma de onda de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Forma de onda de salida
+    Típico: Senoidal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Tiempo de arranque suave
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Tiempo de arranque suave
+    Mín.: '0'
+    Típico: ——
+    Máx.: '10'
+    Unidad: s
+    Nota: 'Valor predeterminado: 0.5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Rango de tiempo de retardo de conexión/desconexión
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Rango de tiempo de retardo de conexión/desconexión
+    Mín.: '0'
+    Típico: ——
+    Máx.: '99.9'
+    Unidad: s
+    Nota: 'Valor predeterminado: 0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Precisión del tiempo de retardo de conexión/desconexión
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Precisión del tiempo de retardo de conexión/desconexión
+    Típico: '0.1'
+    Unidad: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Temperatura de activación de la protección contra sobrecalentamiento
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Temperatura de activación de la protección contra sobrecalentamiento
+    Mín.: '60'
+    Típico: '65'
+    Máx.: '65'
+    Unidad: °C
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Comunicación digital
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Comunicación digital
+    Típico: ModBus 485
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Tensión de salida de control CC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Tensión de salida de control CC
+    Mín.: '22'
+    Típico: '24'
+    Máx.: '26'
+    Unidad: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Corriente de salida de control CC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Corriente de salida de control CC
+    Mín.: '0'
+    Típico: ——
+    Máx.: '350'
+    Unidad: mA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Señal de control analógica
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Señal de control analógica
+    Típico: 1~5/ 4~20
+    Unidad: V/ mA
+    Nota: Control de velocidad remoto
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Señal de control digital
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Señal de control digital
+    Típico: '24'
+    Unidad: V
+    Nota: Señal de conmutación
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Método de ajuste
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Método de ajuste
+    Típico: '6'
+    Unidad: Botón
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Consumo de energía en espera
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Consumo de energía en espera
+    Mín.: ——
+    Típico: '5'
+    Máx.: ——
+    Unidad: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Método de visualización
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Método de visualización
+    Típico: '5'
+    Unidad: Dígito
+    Nota: LED
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Temperatura ambiente
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Temperatura ambiente
+    Mín.: '0'
+    Típico: '25'
+    Máx.: '40'
+    Unidad: °C
+    Nota: Sin condensación
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Humedad ambiente
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Humedad ambiente
+    Mín.: '10'
+    Típico: '60'
+    Máx.: '85'
+    Unidad: '%'
+    Nota: Sin condensación
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Temperatura ambiente de almacenamiento
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Temperatura ambiente de almacenamiento
+    Mín.: '-20'
+    Típico: '25'
+    Máx.: '65'
+    Unidad: °C
+    Nota: Sin condensación
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 75
+    heading_path: *id032
+    heading_title: 8.3 Especificaciones técnicas
+    table_role: generic
+    table_md_path: tables/0075-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: No hay visualización en la pantalla LED después del arranque
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fenómeno de fallo: No hay visualización en la pantalla LED después del arranque
+    Sugerencias de solución de problemas: ◆ Asegúrese de que la toma de red tenga
+      corriente.<br>◆ Asegúrese de que el cable de alimentación de entrada esté conectado
+      de forma fiable.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Sugerencias de solución de problemas y explicación de errores
+    table_role: generic
+    table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: La pantalla LED muestra normalmente, pero el alimentador vibratorio no tiene
+    salida ni sonido
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fenómeno de fallo: La pantalla LED muestra normalmente, pero el alimentador vibratorio
+      no tiene salida ni sonido
+    Sugerencias de solución de problemas: ◆ Asegúrese de que el cable de alimentación
+      de salida esté conectado de forma fiable.<br>◆ Asegúrese de que la tensión de
+      salida no sea demasiado baja.<br>◆ Asegúrese de que el controlador no esté detenido
+      por el botón ON/OFF cuando el indicador de parada esté encendido.<br>◆ Asegúrese
+      de que el controlador no esté detenido por el ajuste de los parámetros Γ2 o
+      Γ7 cuando el indicador de parada esté encendido.<br>◆ Restablezca el controlador.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Sugerencias de solución de problemas y explicación de errores
+    table_role: generic
+    table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: El control ON/OFF no funciona
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fenómeno de fallo: El control ON/OFF no funciona
+    Sugerencias de solución de problemas: ◆ Asegúrese de que la señal de control ON/OFF
+      esté conectada correctamente al controlador.<br>◆ Asegúrese de que los parámetros
+      Γ2, Γ7 y Π estén ajustados correctamente según su expectativa de control.<br>◆
+      Restablezca el controlador.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Sugerencias de solución de problemas y explicación de errores
+    table_role: generic
+    table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Efecto de batido
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fenómeno de fallo: Efecto de batido
+    Sugerencias de solución de problemas: ◆ Conecte el cable de señal de sincronización
+      entre los controladores y ajuste el controlador esclavo al modo de sincronización.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Sugerencias de solución de problemas y explicación de errores
+    table_role: generic
+    table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: La pantalla LED muestra normalmente, se pueden oír sonidos del alimentador
+    vibratorio, pero no hay salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fenómeno de fallo: La pantalla LED muestra normalmente, se pueden oír sonidos
+      del alimentador vibratorio, pero no hay salida
+    Sugerencias de solución de problemas: ◆ Asegúrese de que la frecuencia de salida
+      no esté muy alejada de la frecuencia de resonancia del alimentador vibratorio.<br>◆
+      Restablezca el controlador.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Sugerencias de solución de problemas y explicación de errores
+    table_role: generic
+    table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Err01
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fenómeno de fallo: Err01
+    Sugerencias de solución de problemas: '**Protección contra cortocircuitos**<br>◆
+      Asegúrese de que el cable de alimentación de salida y el electroimán del vibrador
+      no estén en cortocircuito.<br>◆ Desconecte el cable de alimentación de salida
+      del controlador y encienda el interruptor de alimentación de nuevo. Si todavía
+      se muestra Err01, póngase en contacto con nosotros para la reparación.'
+    Imagen del símbolo: '![数码管显示 Err01](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Sugerencias de solución de problemas y explicación de errores
+    table_role: generic
+    table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Err02
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fenómeno de fallo: Err02
+    Sugerencias de solución de problemas: '**Protección contra sobrecorriente**<br>◆
+      Reduzca la tensión de salida del controlador.<br>◆ Asegúrese de que el entrehierro
+      de la armadura del electroimán del vibrador no sea demasiado grande.'
+    Imagen del símbolo: '![数码管显示 Err02](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Sugerencias de solución de problemas y explicación de errores
+    table_role: generic
+    table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Err03
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fenómeno de fallo: Err03
+    Sugerencias de solución de problemas: '**Protección contra sobrecalentamiento**<br>◆
+      Coloque el controlador en un entorno bien ventilado.'
+    Imagen del símbolo: '![数码管显示 Err03](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Sugerencias de solución de problemas y explicación de errores
+    table_role: generic
+    table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Err04
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fenómeno de fallo: Err04
+    Sugerencias de solución de problemas: ◆ Reservado, póngase en contacto con nosotros
+      para la reparación.
+    Imagen del símbolo: '![数码管显示 Err04](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-03.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Sugerencias de solución de problemas y explicación de errores
+    table_role: generic
+    table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Err05
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fenómeno de fallo: Err05
+    Sugerencias de solución de problemas: ◆ Comunicación interna anormal, póngase
+      en contacto con nosotros para la reparación.
+    Imagen del símbolo: '![数码管显示 Err05](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-04.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Sugerencias de solución de problemas y explicación de errores
+    table_role: generic
+    table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Err06
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fenómeno de fallo: Err06
+    Sugerencias de solución de problemas: ◆ Sensor de temperatura anormal, póngase
+      en contacto con nosotros para la reparación.
+    Imagen del símbolo: '![数码管显示 Err06](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-05.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Sugerencias de solución de problemas y explicación de errores
+    table_role: generic
+    table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Err07
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fenómeno de fallo: Err07
+    Sugerencias de solución de problemas: '**Protección contra cortocircuitos del
+      puerto D**<br>◆ Asegúrese de que la carga del puerto D no esté en cortocircuito
+      y que la corriente no supere los 350mA'
+    Imagen del símbolo: '![数码管显示 Err07](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-06.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Sugerencias de solución de problemas y explicación de errores
+    table_role: generic
+    table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Err08
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fenómeno de fallo: Err08
+    Sugerencias de solución de problemas: ◆ Error de señal de sincronización, póngase
+      en contacto con nosotros para la reparación.
+    Imagen del símbolo: '![数码管显示 Err08](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-07.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Sugerencias de solución de problemas y explicación de errores
+    table_role: generic
+    table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-01.md
+- name: Err09
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fenómeno de fallo: Err09
+    Imagen del símbolo: '![数码管显示 Err09](assets/images/cuh.sdvc34.manual.v0.0/page-0080-vcrop-00.png)'
+    Sugerencias de solución de problemas: Error de tipo de sensor de vibración<br>◆
+      El tipo de sensor de vibración conectado al controlador no coincide con el parámetro
+      "tipo de sensor de vibración ![vibration sensor type 参数的数码管符号](assets/images/cuh.sdvc34.manual.v0.0/page-0080-vcrop-03.png)"
+      establecido en el controlador.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Sugerencias de solución de problemas y explicación de errores
+    table_role: generic
+    table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-02.md
+- name: Err10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fenómeno de fallo: Err10
+    Imagen del símbolo: '![数码管显示 Err10](assets/images/cuh.sdvc34.manual.v0.0/page-0080-vcrop-01.png)'
+    Sugerencias de solución de problemas: Salida de alimentación de 24V anormal<br>◆
+      No aplique una fuente de alimentación externa a la salida de alimentación de
+      24V.<br>◆ Asegúrese de que la corriente de carga de 24V no supere los 350mA.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Sugerencias de solución de problemas y explicación de errores
+    table_role: generic
+    table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-02.md
+- name: Err11
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Fenómeno de fallo: Err11
+    Imagen del símbolo: '![数码管显示 Err11](assets/images/cuh.sdvc34.manual.v0.0/page-0080-vcrop-02.png)'
+    Sugerencias de solución de problemas: Salida de alimentación de 5V del puerto
+      A anormal<br>◆ No aplique una fuente de alimentación externa a la salida de
+      alimentación de 5V.<br>◆ No cortocircuite la salida de 5V con GND.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 76
+    heading_path: *id008
+    heading_title: 8.4 Sugerencias de solución de problemas y explicación de errores
+    table_role: generic
+    table_md_path: tables/0076-capítulo-ⅶ-funciones-de-seguridad-table-02.md

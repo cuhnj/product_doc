@@ -1,0 +1,17 @@
+<!-- publish-data-sidecar: section=76 heading='8.4 Sugerencias de solución de problemas y explicación de errores' role=generic source_md=doc.md -->
+
+| Fenómeno de fallo | Sugerencias de solución de problemas | Imagen del símbolo |
+|---|---|---|
+| No hay visualización en la pantalla LED después del arranque | ◆ Asegúrese de que la toma de red tenga corriente.<br>◆ Asegúrese de que el cable de alimentación de entrada esté conectado de forma fiable. | |
+| La pantalla LED muestra normalmente, pero el alimentador vibratorio no tiene salida ni sonido | ◆ Asegúrese de que el cable de alimentación de salida esté conectado de forma fiable.<br>◆ Asegúrese de que la tensión de salida no sea demasiado baja.<br>◆ Asegúrese de que el controlador no esté detenido por el botón ON/OFF cuando el indicador de parada esté encendido.<br>◆ Asegúrese de que el controlador no esté detenido por el ajuste de los parámetros Γ2 o Γ7 cuando el indicador de parada esté encendido.<br>◆ Restablezca el controlador. | |
+| El control ON/OFF no funciona | ◆ Asegúrese de que la señal de control ON/OFF esté conectada correctamente al controlador.<br>◆ Asegúrese de que los parámetros Γ2, Γ7 y Π estén ajustados correctamente según su expectativa de control.<br>◆ Restablezca el controlador. | |
+| Efecto de batido | ◆ Conecte el cable de señal de sincronización entre los controladores y ajuste el controlador esclavo al modo de sincronización. | |
+| La pantalla LED muestra normalmente, se pueden oír sonidos del alimentador vibratorio, pero no hay salida | ◆ Asegúrese de que la frecuencia de salida no esté muy alejada de la frecuencia de resonancia del alimentador vibratorio.<br>◆ Restablezca el controlador. | |
+| Err01 | **Protección contra cortocircuitos**<br>◆ Asegúrese de que el cable de alimentación de salida y el electroimán del vibrador no estén en cortocircuito.<br>◆ Desconecte el cable de alimentación de salida del controlador y encienda el interruptor de alimentación de nuevo. Si todavía se muestra Err01, póngase en contacto con nosotros para la reparación. | ![数码管显示 Err01](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-00.png) |
+| Err02 | **Protección contra sobrecorriente**<br>◆ Reduzca la tensión de salida del controlador.<br>◆ Asegúrese de que el entrehierro de la armadura del electroimán del vibrador no sea demasiado grande. | ![数码管显示 Err02](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-01.png) |
+| Err03 | **Protección contra sobrecalentamiento**<br>◆ Coloque el controlador en un entorno bien ventilado. | ![数码管显示 Err03](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-02.png) |
+| Err04 | ◆ Reservado, póngase en contacto con nosotros para la reparación. | ![数码管显示 Err04](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-03.png) |
+| Err05 | ◆ Comunicación interna anormal, póngase en contacto con nosotros para la reparación. | ![数码管显示 Err05](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-04.png) |
+| Err06 | ◆ Sensor de temperatura anormal, póngase en contacto con nosotros para la reparación. | ![数码管显示 Err06](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-05.png) |
+| Err07 | **Protección contra cortocircuitos del puerto D**<br>◆ Asegúrese de que la carga del puerto D no esté en cortocircuito y que la corriente no supere los 350mA | ![数码管显示 Err07](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-06.png) |
+| Err08 | ◆ Error de señal de sincronización, póngase en contacto con nosotros para la reparación. | ![数码管显示 Err08](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-07.png) |

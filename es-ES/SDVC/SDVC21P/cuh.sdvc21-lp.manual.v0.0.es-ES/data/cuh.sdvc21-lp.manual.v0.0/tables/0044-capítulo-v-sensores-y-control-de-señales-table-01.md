@@ -1,0 +1,10 @@
+<!-- publish-data-sidecar: section=44 heading='Apéndice F: Consejos de solución de problemas y explicación de errores' role=generic source_md=doc.md -->
+
+| | | | Imagen del símbolo |
+|---|---|---|---|
+| 1 | Sin visualización tras el encendido | ➔Asegúrese de que la toma de corriente tenga electricidad<br>➔Asegúrese de que el cable de entrada de potencia esté conectado de forma fiable a la toma de corriente | |
+| 2 | Visualiza con normalidad, pero sin salida | ➔Asegúrese de que el cable de entrada de potencia y el cable de salida de potencia estén firmemente conectados<br>➔Asegúrese de que el valor del parámetro de tensión de salida no sea demasiado pequeño<br>➔Asegúrese de que el controlador no esté detenido por la señal de control<br>➔Asegúrese de que el controlador no esté detenido por parámetros ajustados como apagado normal | |
+| 3 | La señal de control pierde su eficacia | ➔Asegúrese de que la señal de control se introduzca correctamente<br>➔Asegúrese de que el cable de tierra de la señal de control esté conectado correctamente al controlador<br>➔Asegúrese de que la relación lógica de la señal de control esté ajustada correctamente según sus expectativas | |
+| 4 | Visualiza con normalidad, sin salida, pero se oye un sonido | ➔Ajuste todos los parámetros como se indica en este manual | |
+| 5 | Err2 | ➔Sobrecorriente de salida. Asegúrese de que las especificaciones del vibrador no superen los límites del controlador.<br>➔Salida en cortocircuito. Asegúrese de que el cable de salida de potencia y el conector de aviación de salida de potencia no estén en cortocircuito.<br>➔Asegúrese de que el cable de salida de potencia esté conectado de forma fiable entre el controlador y el vibrador.<br>➔Asegúrese de que el controlador esté conectado a tierra de forma fiable. | ![Err2 7-segment display](assets/images/cuh.sdvc21-lp.manual.v0.0/page-0042-vcrop-00.png) |
+| 6 | Err3 | ➔Sobrecalentamiento. Coloque el controlador en un entorno bien ventilado | ![Err3 7-segment display](assets/images/cuh.sdvc21-lp.manual.v0.0/page-0042-vcrop-01.png) |

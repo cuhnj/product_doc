@@ -1,0 +1,25 @@
+<!-- publish-data-sidecar: section=46 heading='Capítulo Ⅶ Apéndice' role=generic source_md=doc.md -->
+
+| Grupo de parámetros / Operación | Definición | Símbolo | Imagen del símbolo | Rango | Valor predeterminado |
+|---|---|---|---|---|---|
+| Parámetro de espera | Tensión de salida | U | ![Output Voltage 数码管符号 U](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-00.png) | 0~260 V | 150 |
+| Parámetro básico<br>Mantenga pulsado A/B | Frecuencia de salida | E | ![Output Frequency 数码管符号 E](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-01.png) | 5.0~999.9 Hz | 50.0 |
+| Parámetro básico | Retardo de conexión del sensor fotoeléctrico inteligente | J | ![On Delay of the Intelligent Photoelectric Sensor 数码管符号 J](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-02.png) | 0.0~99.9 s | 0.2 |
+| Parámetro básico | Retardo de desconexión del sensor fotoeléctrico inteligente | L | ![Off Delay of the Intelligent Photoelectric Sensor 数码管符号 L](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-03.png) | 0.0~99.9 s | 0.2 |
+| Parámetro básico | Arranque suave | t | ![Soft Startup 数码管符号 t](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-04.png) | 0.0~10.0 s | 0.5 |
+| Parámetro básico | Ciclos de frenado/Parada suave | d | ![Breaking cycles/Soft Shutdown 数码管符号](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-05.png) | -10~0 ciclo (número de ciclos de frenado)<br>0.0~10.0 s (Parada suave) | 0.0 |
+| Parámetro avanzado<br>Mantenga pulsados A/B y ▲ | Sensibilidad del sensor fotoeléctrico inteligente | P | ![Intelligent photoelectric sensor sensitivity 数码管符号 P](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-06.png) | nPn, PnP, 2~1000 | 80 |
+| Parámetro avanzado | Tipo de sensor del puerto C | ΓA | ![Port C Sensor Type 数码管符号](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-07.png) | nPn, PnP<br>ut1 (Escaneo único), ut0 (Escaneo continuo) | ut0 |
+| Parámetro avanzado | Retardo de conexión del puerto C | J- | ![On Delay of Port C 数码管符号 J-](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-08.png) | 0.0~99.9 s | 0.2 |
+| Parámetro avanzado | Retardo de desconexión del puerto C | L- | ![Off Delay of Port C 数码管符号 L-](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-09.png) | 0.0~99.9 s | 0.2 |
+| Parámetro avanzado | La primera fuente de señal del puerto de control D | E.d | ![The first signal source of Control Port D 数码管符号 E.d](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-10.png) | 0, 1, Ab, -Ab, Ac, -Ac, Ad, -Ad, Aq, -Aq,<br>bb, -bb, bc, -bc, bd, -bd, bq, -bq | A: 0<br>B: 0 |
+| Parámetro avanzado | La segunda fuente de señal del puerto de control D | Ed | ![The second signal source of Control Port D 数码管符号 Ed](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-11.png) | 0, 1, Ab, -Ab, Ac, -Ac, Ad, -Ad, Aq, -Aq,<br>bb, -bb, bc, -bc, bd, -bd, bq, -bq | A: Aq<br>B: bq |
+| Parámetro avanzado | Operación lógica de las fuentes de señal del puerto de control D | ∩d | ![Logic operation of signal sources of Control Port D 数码管符号](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-12.png) | And, or, Hor, rS | or |
+| Parámetro avanzado | Retardo de conexión del puerto D | Jd | ![On Delay of Port D 数码管符号 Jd](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-13.png) | 0.0~99.9 s | 0.0 |
+| Parámetro avanzado | Retardo de desconexión del puerto D | Ld | ![Off Delay of Port D 数码管符号 Ld](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-14.png) | 0.0~99.9 s | 0.0 |
+| Parámetro avanzado | Modo de salida del puerto D | Fd | ![Output Mode of Port D 数码管符号 Fd](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-15.png) | dLy (Modo de retardo), HLd (Modo de retención) | dLy |
+| Parámetro avanzado | Dirección lógica del puerto D | ɔd | ![Logic direction of Port D 数码管符号](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-16.png) | --- (Misma fase), -⁻- (Inversa)<br>on (Normal Open), oFF (Normal Close)<br>![Logic direction of Port D：同相、反相段码图示及常开、常闭范围](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-21.png) | --- |
+| Parámetro avanzado | Tipo de salida de control | Γd | ![Control Output Type 数码管符号](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-17.png) | nPn, PnP, PSP (Push & Pull) | nPn |
+| Parámetro avanzado | La primera fuente de señal de la salida principal | E.q | ![The first signal source of Main output 数码管符号 E.q](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-18.png) | 0, 1, Ab, -Ab, Ac, -Ac, Ad, -Ad, Aq, -Aq,<br>bb, -bb, bc, -bc, bd, -bd, bq, -bq | A: Ab<br>B: bb |
+| Parámetro avanzado | La segunda fuente de señal de la salida principal | Eq | ![The second signal source of Main output 数码管符号 Eq](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-19.png) | 0, 1, Ab, -Ab, Ac, -Ac, Ad, -Ad, Aq, -Aq,<br>bb, -bb, bc, -bc, bd, -bd, bq, -bq | A: Ac<br>B: bc |
+| Parámetro avanzado | Operación lógica de las fuentes de señal de la salida principal | ∩q | ![Logic operation of signal sources of Main output 数码管符号](assets/images/cuh.sdvc33.manual.v0.0/page-0040-vcrop-20.png) | And, or, Hor, rS | or |
