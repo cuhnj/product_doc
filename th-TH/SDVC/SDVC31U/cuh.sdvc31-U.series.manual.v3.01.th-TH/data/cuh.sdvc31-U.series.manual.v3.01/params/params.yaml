@@ -1,0 +1,1475 @@
+schema_version: 1
+doc_id: cuh.sdvc31-U.series.manual.v3.01.th-TH
+doc_key: cuh.sdvc31-U.series.manual.v3.01
+lang: th-TH
+generated_at: '2026-11-18 12:14:43'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 7
+  heading_path: &id001
+  - บทที่ Ⅲ คำอธิบายส่วนประกอบ
+  table_md_path: tables/0007-บทท-ⅲ-คำอธ-บายส-วนประกอบ-table-01.md
+  headers:
+  - รายการ
+  - คำอธิบาย
+- section_index: 7
+  heading_path: *id001
+  table_md_path: tables/0007-บทท-ⅲ-คำอธ-บายส-วนประกอบ-table-02.md
+  headers:
+  - รุ่น
+  - กระแส
+- section_index: 22
+  heading_path: &id002
+  - บทที่ Ⅴ เซ็นเซอร์และการควบคุมสัญญาณ
+  - 5.2 วิธีการใช้งานเซ็นเซอร์สวิตช์ NPN
+  table_md_path: tables/0022-บทท-ⅴ-เซ-นเซอร-และการควบค-มส-ญญาณ-table-01.md
+  headers:
+  - ขั้วต่อ
+  - สาย
+- section_index: 23
+  heading_path: &id003
+  - บทที่ Ⅴ เซ็นเซอร์และการควบคุมสัญญาณ
+  - 5.2.4 วิธีการต่อเซ็นเซอร์รังสีสะท้อนใยแก้วนำแสง
+  table_md_path: tables/0023-บทท-ⅴ-เซ-นเซอร-และการควบค-มส-ญญาณ-table-01.md
+  headers:
+  - ขั้วต่อ
+  - คำอธิบาย
+- section_index: 35
+  heading_path: &id004
+  - ภาคผนวก
+  - 'ภาคผนวก C: นิยามอินเทอร์เฟซสัญญาณ'
+  table_md_path: tables/0035-ภาคผนวก-table-01.md
+  headers:
+  - ขั้วต่อ
+  - นิยาม
+- section_index: 36
+  heading_path: &id005
+  - ภาคผนวก
+  - '**ภาคผนวก D:** นิยามอักขระแสดงผล LED'
+  table_md_path: tables/0036-ภาคผนวก-table-01.md
+  headers:
+  - ตัวควบคุม
+  - อักขระแสดงผล
+  - ภาพสัญลักษณ์
+- section_index: 37
+  heading_path: &id006
+  - ภาคผนวก
+  - 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+  table_md_path: tables/0037-ภาคผนวก-table-01.md
+  headers:
+  - รายการ
+  - ต่ำสุด
+  - ปกติ
+  - สูงสุด
+  - หน่วย
+  - คำอธิบาย
+- section_index: 38
+  heading_path: &id007
+  - ภาคผนวก
+  - 'ภาคผนวก F: เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด'
+  table_md_path: tables/0038-ภาคผนวก-table-01.md
+  headers:
+  - ลำดับ
+  - ปัญหา / การแสดงผล
+  - ภาพสัญลักษณ์
+  - เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+items:
+- name: ตัวบ่งชี้แรงดันไฟฟ้าขาออก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ตัวบ่งชี้แรงดันไฟฟ้าขาออก
+    คำอธิบาย: ตัวบ่งชี้สว่างขึ้นเมื่อตัวควบคุมเข้าสู่สถานะปรับแรงดันไฟฟ้าขาออก
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: บทที่ Ⅲ คำอธิบายส่วนประกอบ
+    table_role: generic
+    table_md_path: tables/0007-บทท-ⅲ-คำอธ-บายส-วนประกอบ-table-01.md
+- name: ตัวบ่งชี้ความถี่ขาออก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ตัวบ่งชี้ความถี่ขาออก
+    คำอธิบาย: ตัวบ่งชี้สว่างขึ้นเมื่อตัวควบคุมเข้าสู่สถานะปรับความถี่ขาออก
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: บทที่ Ⅲ คำอธิบายส่วนประกอบ
+    table_role: generic
+    table_md_path: tables/0007-บทท-ⅲ-คำอธ-บายส-วนประกอบ-table-01.md
+- name: ตัวบ่งชี้การหน่วงเวลาสตาร์ท
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ตัวบ่งชี้การหน่วงเวลาสตาร์ท
+    คำอธิบาย: ตัวบ่งชี้สว่างขึ้นเมื่อตัวควบคุมเข้าสู่สถานะปรับเวลาหน่วงเวลาสตาร์ท
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: บทที่ Ⅲ คำอธิบายส่วนประกอบ
+    table_role: generic
+    table_md_path: tables/0007-บทท-ⅲ-คำอธ-บายส-วนประกอบ-table-01.md
+- name: ตัวบ่งชี้การหน่วงเวลาปิด
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ตัวบ่งชี้การหน่วงเวลาปิด
+    คำอธิบาย: ตัวบ่งชี้สว่างขึ้นเมื่อตัวควบคุมเข้าสู่สถานะปรับเวลาหน่วงเวลาปิด
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: บทที่ Ⅲ คำอธิบายส่วนประกอบ
+    table_role: generic
+    table_md_path: tables/0007-บทท-ⅲ-คำอธ-บายส-วนประกอบ-table-01.md
+- name: ตัวบ่งชี้การสตาร์ทนุ่มนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ตัวบ่งชี้การสตาร์ทนุ่มนวล
+    คำอธิบาย: ตัวบ่งชี้สว่างขึ้นเมื่อตัวควบคุมเข้าสู่สถานะปรับเวลาสตาร์ทนุ่มนวล
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: บทที่ Ⅲ คำอธิบายส่วนประกอบ
+    table_role: generic
+    table_md_path: tables/0007-บทท-ⅲ-คำอธ-บายส-วนประกอบ-table-01.md
+- name: ปุ่มเพิ่มแรงดันไฟฟ้าขาออก & ปุ่มลดแรงดันไฟฟ้าขาออก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ปุ่มเพิ่มแรงดันไฟฟ้าขาออก & ปุ่มลดแรงดันไฟฟ้าขาออก
+    คำอธิบาย: สามารถเปลี่ยนแรงดันไฟฟ้าขาออกได้ด้วยปุ่มสองปุ่มนี้ เมื่อฟังก์ันการล็อกแป้นพิมพ์เปิดอยู่
+      ปุ่มสองปุ่มนี้จะไม่มีผล
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: บทที่ Ⅲ คำอธิบายส่วนประกอบ
+    table_role: generic
+    table_md_path: tables/0007-บทท-ⅲ-คำอธ-บายส-วนประกอบ-table-01.md
+- name: ปุ่มเพิ่มพารามิเตอร์ขั้นสูง & ปุ่มลดพารามิเตอร์ขั้นสูง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ปุ่มเพิ่มพารามิเตอร์ขั้นสูง & ปุ่มลดพารามิเตอร์ขั้นสูง
+    คำอธิบาย: สามารถปรับพารามิเตอร์ขั้นสูงได้ด้วยปุ่มสองปุ่มนี้
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: บทที่ Ⅲ คำอธิบายส่วนประกอบ
+    table_role: generic
+    table_md_path: tables/0007-บทท-ⅲ-คำอธ-บายส-วนประกอบ-table-01.md
+- name: ปุ่ม FUNC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ปุ่ม FUNC
+    คำอธิบาย: สลับพารามิเตอร์ขั้นสูงโดยกดปุ่มนี้
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: บทที่ Ⅲ คำอธิบายส่วนประกอบ
+    table_role: generic
+    table_md_path: tables/0007-บทท-ⅲ-คำอธ-บายส-วนประกอบ-table-01.md
+- name: ปุ่มสวิตช์เปิด-ปิดแบบสัมผัส
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ปุ่มสวิตช์เปิด-ปิดแบบสัมผัส
+    คำอธิบาย: เริ่มหรือปิดเอาต์พุตของตัวควบคุมโดยกดปุ่มนี้
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: บทที่ Ⅲ คำอธิบายส่วนประกอบ
+    table_role: generic
+    table_md_path: tables/0007-บทท-ⅲ-คำอธ-บายส-วนประกอบ-table-01.md
+- name: SDVC31-S
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รุ่น: SDVC31-S
+    กระแส: 1.5A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: บทที่ Ⅲ คำอธิบายส่วนประกอบ
+    table_role: generic
+    table_md_path: tables/0007-บทท-ⅲ-คำอธ-บายส-วนประกอบ-table-02.md
+- name: SDVC31-M
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รุ่น: SDVC31-M
+    กระแส: 3A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: บทที่ Ⅲ คำอธิบายส่วนประกอบ
+    table_role: generic
+    table_md_path: tables/0007-บทท-ⅲ-คำอธ-บายส-วนประกอบ-table-02.md
+- name: SDVC31-L
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รุ่น: SDVC31-L
+    กระแส: 4.5A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: บทที่ Ⅲ คำอธิบายส่วนประกอบ
+    table_role: generic
+    table_md_path: tables/0007-บทท-ⅲ-คำอธ-บายส-วนประกอบ-table-02.md
+- name: SDVC31-XL
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รุ่น: SDVC31-XL
+    กระแส: 6.0A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: บทที่ Ⅲ คำอธิบายส่วนประกอบ
+    table_role: generic
+    table_md_path: tables/0007-บทท-ⅲ-คำอธ-บายส-วนประกอบ-table-02.md
+- name: SDVC31-U
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รุ่น: SDVC31-U
+    กระแส: 10A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: บทที่ Ⅲ คำอธิบายส่วนประกอบ
+    table_role: generic
+    table_md_path: tables/0007-บทท-ⅲ-คำอธ-บายส-วนประกอบ-table-02.md
+- name: SDVC31-XU
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รุ่น: SDVC31-XU
+    กระแส: 20A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: บทที่ Ⅲ คำอธิบายส่วนประกอบ
+    table_role: generic
+    table_md_path: tables/0007-บทท-ⅲ-คำอธ-บายส-วนประกอบ-table-02.md
+- name: C1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: C1
+    สาย: สายดิน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id002
+    heading_title: 5.2 วิธีการใช้งานเซ็นเซอร์สวิตช์ NPN
+    table_role: generic
+    table_md_path: tables/0022-บทท-ⅴ-เซ-นเซอร-และการควบค-มส-ญญาณ-table-01.md
+- name: C2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: C2
+    สาย: สายสัญญาณ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id002
+    heading_title: 5.2 วิธีการใช้งานเซ็นเซอร์สวิตช์ NPN
+    table_role: generic
+    table_md_path: tables/0022-บทท-ⅴ-เซ-นเซอร-และการควบค-มส-ญญาณ-table-01.md
+- name: C3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: C3
+    สาย: เอาต์พุต +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id002
+    heading_title: 5.2 วิธีการใช้งานเซ็นเซอร์สวิตช์ NPN
+    table_role: generic
+    table_md_path: tables/0022-บทท-ⅴ-เซ-นเซอร-และการควบค-มส-ญญาณ-table-01.md
+- name: C1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: C1
+    คำอธิบาย: สายดิน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 23
+    heading_path: *id003
+    heading_title: 5.2.4 วิธีการต่อเซ็นเซอร์รังสีสะท้อนใยแก้วนำแสง
+    table_role: generic
+    table_md_path: tables/0023-บทท-ⅴ-เซ-นเซอร-และการควบค-มส-ญญาณ-table-01.md
+- name: C2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: C2
+    คำอธิบาย: สายสัญญาณ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 23
+    heading_path: *id003
+    heading_title: 5.2.4 วิธีการต่อเซ็นเซอร์รังสีสะท้อนใยแก้วนำแสง
+    table_role: generic
+    table_md_path: tables/0023-บทท-ⅴ-เซ-นเซอร-และการควบค-มส-ญญาณ-table-01.md
+- name: C3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: C3
+    คำอธิบาย: เอาต์พุต +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 23
+    heading_path: *id003
+    heading_title: 5.2.4 วิธีการต่อเซ็นเซอร์รังสีสะท้อนใยแก้วนำแสง
+    table_role: generic
+    table_md_path: tables/0023-บทท-ⅴ-เซ-นเซอร-และการควบค-มส-ญญาณ-table-01.md
+- name: A1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: A1
+    นิยาม: สายดินของการควบคุมความเร็วระยะไกล
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'ภาคผนวก C: นิยามอินเทอร์เฟซสัญญาณ'
+    table_role: generic
+    table_md_path: tables/0035-ภาคผนวก-table-01.md
+- name: A2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: A2
+    นิยาม: อินพุตการควบคุมความเร็วระยะไกล
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'ภาคผนวก C: นิยามอินเทอร์เฟซสัญญาณ'
+    table_role: generic
+    table_md_path: tables/0035-ภาคผนวก-table-01.md
+- name: A3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: A3
+    นิยาม: แหล่งจ่ายไฟการควบคุมความเร็วระยะไกล
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'ภาคผนวก C: นิยามอินเทอร์เฟซสัญญาณ'
+    table_role: generic
+    table_md_path: tables/0035-ภาคผนวก-table-01.md
+- name: B1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: B1
+    นิยาม: ดิน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'ภาคผนวก C: นิยามอินเทอร์เฟซสัญญาณ'
+    table_role: generic
+    table_md_path: tables/0035-ภาคผนวก-table-01.md
+- name: B2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: B2
+    นิยาม: อินพุตสัญญาณเซ็นเซอร์โฟโตอิเล็กทริกอัจฉริยะ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'ภาคผนวก C: นิยามอินเทอร์เฟซสัญญาณ'
+    table_role: generic
+    table_md_path: tables/0035-ภาคผนวก-table-01.md
+- name: B3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: B3
+    นิยาม: ดิน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'ภาคผนวก C: นิยามอินเทอร์เฟซสัญญาณ'
+    table_role: generic
+    table_md_path: tables/0035-ภาคผนวก-table-01.md
+- name: B4
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: B4
+    นิยาม: เอาต์พุตสัญญาณเซ็นเซอร์โฟโตอิเล็กทริกอัจฉริยะ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'ภาคผนวก C: นิยามอินเทอร์เฟซสัญญาณ'
+    table_role: generic
+    table_md_path: tables/0035-ภาคผนวก-table-01.md
+- name: C1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: C1
+    นิยาม: +24V GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'ภาคผนวก C: นิยามอินเทอร์เฟซสัญญาณ'
+    table_role: generic
+    table_md_path: tables/0035-ภาคผนวก-table-01.md
+- name: C2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: C2
+    นิยาม: อินพุตสัญญาณเซ็นเซอร์สวิตช์ NPN
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'ภาคผนวก C: นิยามอินเทอร์เฟซสัญญาณ'
+    table_role: generic
+    table_md_path: tables/0035-ภาคผนวก-table-01.md
+- name: C3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: C3
+    นิยาม: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'ภาคผนวก C: นิยามอินเทอร์เฟซสัญญาณ'
+    table_role: generic
+    table_md_path: tables/0035-ภาคผนวก-table-01.md
+- name: D1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: D1
+    นิยาม: เอาต์พุตควบคุม
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'ภาคผนวก C: นิยามอินเทอร์เฟซสัญญาณ'
+    table_role: generic
+    table_md_path: tables/0035-ภาคผนวก-table-01.md
+- name: D2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ขั้วต่อ: D2
+    นิยาม: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'ภาคผนวก C: นิยามอินเทอร์เฟซสัญญาณ'
+    table_role: generic
+    table_md_path: tables/0035-ภาคผนวก-table-01.md
+- name: '`U`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: '`U`'
+    อักขระแสดงผล: แรงดันไฟฟ้าขาออก
+    ภาพสัญลักษณ์: '![สัญลักษณ์เซ็กเมนต์เจ็ด: U](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**ภาคผนวก D:** นิยามอักขระแสดงผล LED'
+    table_role: generic
+    table_md_path: tables/0036-ภาคผนวก-table-01.md
+- name: '`F`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: '`F`'
+    อักขระแสดงผล: ความถี่ขาออก
+    ภาพสัญลักษณ์: '![สัญลักษณ์เซ็กเมนต์เจ็ด: F](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**ภาคผนวก D:** นิยามอักขระแสดงผล LED'
+    table_role: generic
+    table_md_path: tables/0036-ภาคผนวก-table-01.md
+- name: '`d`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: '`d`'
+    อักขระแสดงผล: เวลาหน่วงเวลาสตาร์ทของเซ็นเซอร์โฟโตอิเล็กทริกอัจฉริยะ
+    ภาพสัญลักษณ์: '![สัญลักษณ์เซ็กเมนต์เจ็ด: d](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**ภาคผนวก D:** นิยามอักขระแสดงผล LED'
+    table_role: generic
+    table_md_path: tables/0036-ภาคผนวก-table-01.md
+- name: '`C`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: '`C`'
+    อักขระแสดงผล: เวลาหน่วงเวลาปิดของเซ็นเซอร์โฟโตอิเล็กทริกอัจฉริยะ
+    ภาพสัญลักษณ์: '![สัญลักษณ์เซ็กเมนต์เจ็ด: C](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-03.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**ภาคผนวก D:** นิยามอักขระแสดงผล LED'
+    table_role: generic
+    table_md_path: tables/0036-ภาคผนวก-table-01.md
+- name: '`E`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: '`E`'
+    อักขระแสดงผล: การสตาร์ทนุ่มนวล
+    ภาพสัญลักษณ์: '![สัญลักษณ์เซ็กเมนต์เจ็ด: E](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-04.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**ภาคผนวก D:** นิยามอักขระแสดงผล LED'
+    table_role: generic
+    table_md_path: tables/0036-ภาคผนวก-table-01.md
+- name: '`U-`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: '`U-`'
+    อักขระแสดงผล: การหน่วงเวลาปิด
+    ภาพสัญลักษณ์: '![สัญลักษณ์เซ็กเมนต์เจ็ด: U-](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-05.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**ภาคผนวก D:** นิยามอักขระแสดงผล LED'
+    table_role: generic
+    table_md_path: tables/0036-ภาคผนวก-table-01.md
+- name: '`d-`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: '`d-`'
+    อักขระแสดงผล: เวลาหน่วงเวลาสตาร์ทของเซ็นเซอร์สวิตช์ NPN
+    ภาพสัญลักษณ์: '![สัญลักษณ์เซ็กเมนต์เจ็ด: d-](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-06.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**ภาคผนวก D:** นิยามอักขระแสดงผล LED'
+    table_role: generic
+    table_md_path: tables/0036-ภาคผนวก-table-01.md
+- name: '`r1`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: '`r1`'
+    อักขระแสดงผล: ความสัมพันธ์เชิงตรรกะของเซ็นเซอร์โฟโตอิเล็กทริกอัจฉริยะ
+    ภาพสัญลักษณ์: '![สัญลักษณ์เซ็กเมนต์เจ็ด: r1](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-07.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**ภาคผนวก D:** นิยามอักขระแสดงผล LED'
+    table_role: generic
+    table_md_path: tables/0036-ภาคผนวก-table-01.md
+- name: '`r2`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: '`r2`'
+    อักขระแสดงผล: ความสัมพันธ์เชิงตรรกะของเซ็นเซอร์สวิตช์ NPN
+    ภาพสัญลักษณ์: '![สัญลักษณ์เซ็กเมนต์เจ็ด: r2](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-08.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**ภาคผนวก D:** นิยามอักขระแสดงผล LED'
+    table_role: generic
+    table_md_path: tables/0036-ภาคผนวก-table-01.md
+- name: '`r3`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: '`r3`'
+    อักขระแสดงผล: ความสัมพันธ์เชิงตรรกะของเอาต์พุตควบคุม
+    ภาพสัญลักษณ์: '![สัญลักษณ์เซ็กเมนต์เจ็ด: r3](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-09.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**ภาคผนวก D:** นิยามอักขระแสดงผล LED'
+    table_role: generic
+    table_md_path: tables/0036-ภาคผนวก-table-01.md
+- name: '`n`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: '`n`'
+    อักขระแสดงผล: ความสัมพันธ์เชิงตรรกะของสัญญาณควบคุม
+    ภาพสัญลักษณ์: '![สัญลักษณ์เซ็กเมนต์เจ็ด: n](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-10.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**ภาคผนวก D:** นิยามอักขระแสดงผล LED'
+    table_role: generic
+    table_md_path: tables/0036-ภาคผนวก-table-01.md
+- name: '`H`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: '`H`'
+    อักขระแสดงผล: แรงดันไฟฟ้าขาออกสูงสุด
+    ภาพสัญลักษณ์: '![สัญลักษณ์เซ็กเมนต์เจ็ด: H](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-11.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**ภาคผนวก D:** นิยามอักขระแสดงผล LED'
+    table_role: generic
+    table_md_path: tables/0036-ภาคผนวก-table-01.md
+- name: '`A`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: '`A`'
+    อักขระแสดงผล: ดัชนีการเร่งความเร็ว
+    ภาพสัญลักษณ์: '![สัญลักษณ์เซ็กเมนต์เจ็ด: A](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-12.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**ภาคผนวก D:** นิยามอักขระแสดงผล LED'
+    table_role: generic
+    table_md_path: tables/0036-ภาคผนวก-table-01.md
+- name: '`P`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: '`P`'
+    อักขระแสดงผล: ดัชนีรูปคลื่น
+    ภาพสัญลักษณ์: '![สัญลักษณ์เซ็กเมนต์เจ็ด: P](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-13.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**ภาคผนวก D:** นิยามอักขระแสดงผล LED'
+    table_role: generic
+    table_md_path: tables/0036-ภาคผนวก-table-01.md
+- name: '`88888`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: '`88888`'
+    อักขระแสดงผล: คืนค่ากำหนดเริ่มต้น
+    ภาพสัญลักษณ์: '![สัญลักษณ์เซ็กเมนต์เจ็ด: 88888](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-14.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**ภาคผนวก D:** นิยามอักขระแสดงผล LED'
+    table_role: generic
+    table_md_path: tables/0036-ภาคผนวก-table-01.md
+- name: แรงดันไฟฟ้าเข้า
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: แรงดันไฟฟ้าเข้า
+    ต่ำสุด: '85'
+    ปกติ: '220'
+    สูงสุด: '250'
+    หน่วย: V
+    คำอธิบาย: AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: ช่วงแรงดันไฟฟ้าขาออก<br>ที่ปรับได้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงแรงดันไฟฟ้าขาออก<br>ที่ปรับได้
+    ต่ำสุด: '0'
+    ปกติ: ——
+    สูงสุด: '250'
+    หน่วย: V
+    คำอธิบาย: ต่ำกว่า 150% ของ<br>แรงดันไฟฟ้าเข้า
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: ความแม่นยำการปรับ<br>แรงดันไฟฟ้า
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความแม่นยำการปรับ<br>แรงดันไฟฟ้า
+    ปกติ: '1'
+    หน่วย: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: ความแม่นยำการควบคุม<br>แรงดันไฟฟ้า
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความแม่นยำการควบคุม<br>แรงดันไฟฟ้า
+    ต่ำสุด: '0'
+    ปกติ: ——
+    สูงสุด: '10'
+    หน่วย: '%'
+    คำอธิบาย: ΔVout/ΔVin
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: เวลาตอบสนองการควบคุม<br>แรงดันไฟฟ้า
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: เวลาตอบสนองการควบคุม<br>แรงดันไฟฟ้า
+    ต่ำสุด: '0.0025'
+    ปกติ: ——
+    สูงสุด: '0.025'
+    หน่วย: s
+    คำอธิบาย: 1/10 ของคาบของ<br>แรงดันไฟฟ้าขาออก
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: ช่วงกระแสขาออก<br>ที่ปรับได้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงกระแสขาออก<br>ที่ปรับได้
+    ต่ำสุด: '0'
+    ปกติ: ——
+    สูงสุด: '1.5'
+    หน่วย: A
+    คำอธิบาย: SDVC31-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: กำลังไฟฟ้าขาออก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: กำลังไฟฟ้าขาออก
+    ต่ำสุด: '0'
+    ปกติ: ——
+    สูงสุด: '330'
+    หน่วย: VA
+    คำอธิบาย: SDVC31-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: ความถี่ขาออก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความถี่ขาออก
+    ต่ำสุด: '40'
+    ปกติ: ——
+    สูงสุด: '400'
+    หน่วย: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: ความแม่นยำการปรับ<br>ความถี่
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความแม่นยำการปรับ<br>ความถี่
+    ปกติ: '0.1'
+    หน่วย: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: รูปคลื่นขาออก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: รูปคลื่นขาออก
+    ปกติ: ไซน์
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: เวลาสตาร์ทนุ่มนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: เวลาสตาร์ทนุ่มนวล
+    ต่ำสุด: '0'
+    ปกติ: ——
+    สูงสุด: '10'
+    หน่วย: s
+    คำอธิบาย: ค่าเริ่มต้นจากโรงงาน<br>0.5
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: ช่วงเวลาหน่วงเปิด/ปิด
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงเวลาหน่วงเปิด/ปิด
+    ต่ำสุด: '0'
+    ปกติ: ——
+    สูงสุด: '20'
+    หน่วย: s
+    คำอธิบาย: ค่าเริ่มต้นจากโรงงาน<br>0.2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: ความแม่นยำเวลาหน่วง<br>เปิด/ปิด
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความแม่นยำเวลาหน่วง<br>เปิด/ปิด
+    ปกติ: '0.1'
+    หน่วย: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: อุณหภูมิทำงานของการป้องกัน<br>ความร้อนสูงเกิน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: อุณหภูมิทำงานของการป้องกัน<br>ความร้อนสูงเกิน
+    ต่ำสุด: '58'
+    ปกติ: '60'
+    สูงสุด: '66'
+    หน่วย: ℃
+    คำอธิบาย: SDVC31-SM
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: แรงดันไฟฟ้าเอาต์พุตควบคุม<br>DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: แรงดันไฟฟ้าเอาต์พุตควบคุม<br>DC
+    ต่ำสุด: '22'
+    ปกติ: '24'
+    สูงสุด: '26'
+    หน่วย: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: กระแสเอาต์พุตควบคุม<br>DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: กระแสเอาต์พุตควบคุม<br>DC
+    ต่ำสุด: '0'
+    ปกติ: ——
+    สูงสุด: '200'
+    หน่วย: mA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: สัญญาณควบคุมอนาล็อก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: สัญญาณควบคุมอนาล็อก
+    ปกติ: 1-5
+    หน่วย: V
+    คำอธิบาย: แรงดันการควบคุม<br>ความเร็วระยะไกล
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: สัญญาณควบคุมดิจิทัล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: สัญญาณควบคุมดิจิทัล
+    ปกติ: '24'
+    หน่วย: V
+    คำอธิบาย: สัญญาณสวิตชิง
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: วิธีการปรับ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: วิธีการปรับ
+    ปกติ: '6'
+    หน่วย: ปุ่ม
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: การใช้พลังงานสแตนด์บาย
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: การใช้พลังงานสแตนด์บาย
+    ต่ำสุด: ——
+    ปกติ: '3'
+    สูงสุด: ——
+    หน่วย: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: วิธีการแสดงผล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: วิธีการแสดงผล
+    ปกติ: '5'
+    หน่วย: หลัก
+    คำอธิบาย: หลอดแสดงตัวเลข LED
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: อุณหภูมิแวดล้อม
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: อุณหภูมิแวดล้อม
+    ต่ำสุด: '0'
+    ปกติ: '25'
+    สูงสุด: '40'
+    หน่วย: ℃
+    คำอธิบาย: ไม่มีการควบแน่น
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: ความชื้นแวดล้อม
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความชื้นแวดล้อม
+    ต่ำสุด: '10'
+    ปกติ: '60'
+    สูงสุด: '85'
+    หน่วย: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'ภาคผนวก E: ข้อมูลจำเพาะทางไฟฟ้า'
+    table_role: generic
+    table_md_path: tables/0037-ภาคผนวก-table-01.md
+- name: '1'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ลำดับ: '1'
+    ปัญหา / การแสดงผล: ไม่มีการแสดงผลหลัง<br>เปิดเครื่อง
+    เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด: ◆ ตรวจสอบให้แน่ใจว่าเต้ารับไฟฟ้ามีกระแส<br>◆
+      ตรวจสอบให้แน่ใจว่าสายไฟเข้าเชื่อมต่อกับเต้ารับไฟฟ้าอย่างเชื่อถือได้
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'ภาคผนวก F: เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด'
+    table_role: generic
+    table_md_path: tables/0038-ภาคผนวก-table-01.md
+- name: '2'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ลำดับ: '2'
+    ปัญหา / การแสดงผล: แสดงผลปกติ<br>แต่ไม่มีเอาต์พุต
+    เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด: ◆ ตรวจสอบให้แน่ใจว่าสายไฟเข้าและสายไฟเอาต์พุตเชื่อมต่อแน่น<br>◆
+      ตรวจสอบให้แน่ใจว่าค่าพารามิเตอร์แรงดันไฟฟ้าขาออกไม่เล็กเกินไป<br>◆ ตรวจสอบให้แน่ใจว่าตัวควบคุมไม่ได้ถูกหยุดโดยสัญญาณควบคุม<br>◆
+      ตรวจสอบให้แน่ใจว่าตัวควบคุมไม่ได้ถูกหยุดโดยพารามิเตอร์ที่ตั้งเป็นการปิดปกติ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'ภาคผนวก F: เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด'
+    table_role: generic
+    table_md_path: tables/0038-ภาคผนวก-table-01.md
+- name: '3'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ลำดับ: '3'
+    ปัญหา / การแสดงผล: สัญญาณควบคุม<br>สูญเสียประสิทธิภาพ
+    เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด: ◆ ตรวจสอบให้แน่ใจว่าสัญญาณควบคุมถูกป้อนเข้าอย่างถูกต้อง<br>◆
+      ตรวจสอบให้แน่ใจว่าสายดินของสัญญาณควบคุมเชื่อมต่อกับตัวควบคุมอย่างถูกต้อง<br>◆
+      ตรวจสอบให้แน่ใจว่าความสัมพันธ์เชิงตรรกะของสัญญาณควบคุมตั้งค่าถูกต้องตามที่คุณต้องการ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'ภาคผนวก F: เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด'
+    table_role: generic
+    table_md_path: tables/0038-ภาคผนวก-table-01.md
+- name: '4'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ลำดับ: '4'
+    ปัญหา / การแสดงผล: ปรากฏการณ์เต้น (Beat)
+    เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด: ◆ หลีกเลี่ยงการสั่นสะเทือนส่งผ่านระหว่างตัวสั่น<br>◆
+      เพิ่มความถี่เสียงสะท้อนของตัวสั่น
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'ภาคผนวก F: เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด'
+    table_role: generic
+    table_md_path: tables/0038-ภาคผนวก-table-01.md
+- name: '5'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ลำดับ: '5'
+    ปัญหา / การแสดงผล: แสดงผลปกติ<br>ไม่มีเอาต์พุต แต่<br>ได้ยินเสียง
+    เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด: ◆ ปรับพารามิเตอร์ทั้งหมดตามที่คู่มือเล่มนี้แนะนำ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'ภาคผนวก F: เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด'
+    table_role: generic
+    table_md_path: tables/0038-ภาคผนวก-table-01.md
+- name: '6'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ลำดับ: '6'
+    ปัญหา / การแสดงผล: Err01
+    ภาพสัญลักษณ์: '![สัญลักษณ์การแสดงผลเซ็กเมนต์เจ็ด Err01](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-00.png)'
+    เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด: ◆ เอาต์พุตลัดวงจร ตรวจสอบให้แน่ใจว่าสายไฟเอาต์พุตและขดลวดไม่ลัดวงจร
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'ภาคผนวก F: เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด'
+    table_role: generic
+    table_md_path: tables/0038-ภาคผนวก-table-01.md
+- name: '7'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ลำดับ: '7'
+    ปัญหา / การแสดงผล: Err02
+    ภาพสัญลักษณ์: '![สัญลักษณ์การแสดงผลเซ็กเมนต์เจ็ด Err02](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-01.png)'
+    เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด: ◆ กระแสขาออกเกิน ลดค่าแรงดันไฟฟ้าขาออกและตรวจสอบให้แน่ใจว่าช่องว่างอาร์เมเจอร์ไม่ใหญ่เกินไป
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'ภาคผนวก F: เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด'
+    table_role: generic
+    table_md_path: tables/0038-ภาคผนวก-table-01.md
+- name: '8'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ลำดับ: '8'
+    ปัญหา / การแสดงผล: Err03
+    ภาพสัญลักษณ์: '![สัญลักษณ์การแสดงผลเซ็กเมนต์เจ็ด Err03](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-02.png)'
+    เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด: ◆ ความร้อนสูงเกิน วางตัวควบคุมในสภาพแวดล้อมที่ระบายอากาศได้ดี
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'ภาคผนวก F: เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด'
+    table_role: generic
+    table_md_path: tables/0038-ภาคผนวก-table-01.md
+- name: '9'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ลำดับ: '9'
+    ปัญหา / การแสดงผล: Err04
+    ภาพสัญลักษณ์: '![สัญลักษณ์การแสดงผลเซ็กเมนต์เจ็ด Err04](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-03.png)'
+    เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด: ◆ สงวนไว้ กรุณาติดต่อเรา
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'ภาคผนวก F: เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด'
+    table_role: generic
+    table_md_path: tables/0038-ภาคผนวก-table-01.md
+- name: '10'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ลำดับ: '10'
+    ปัญหา / การแสดงผล: Err05
+    ภาพสัญลักษณ์: '![สัญลักษณ์การแสดงผลเซ็กเมนต์เจ็ด Err05](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-04.png)'
+    เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด: ◆ สงวนไว้ กรุณาติดต่อเรา
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'ภาคผนวก F: เคล็ดลับการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด'
+    table_role: generic
+    table_md_path: tables/0038-ภาคผนวก-table-01.md

@@ -1,0 +1,2498 @@
+schema_version: 1
+doc_id: cuh.sdvc311.sms.manual.v7.01.th-TH
+doc_key: cuh.sdvc311.sms.manual.v7.01
+lang: th-TH
+generated_at: '2026-11-18 12:17:30'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 1
+  heading_path: &id003
+  - （文首）
+  table_md_path: tables/0001-文首-table-01.md
+  headers:
+  - col_1
+  - col_2
+- section_index: 8
+  heading_path: &id001
+  - บทที่ Ⅰ ก่อนการใช้งาน
+  - 1.4 คำอธิบายพอร์ตการเดินสาย
+  table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-01.md
+  headers:
+  - กลุ่มพอร์ต
+  - เทอร์มินัล
+  - คำอธิบาย
+- section_index: 8
+  heading_path: *id001
+  table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-02.md
+  headers:
+  - กลุ่มพอร์ต
+  - เทอร์มินัล
+  - คำอธิบาย
+- section_index: 28
+  heading_path: &id004
+  - บทที่ Ⅴ คำอธิบายฟังก์ชันขั้นสูง
+  - 5.4.2 แหล่งสัญญาณและแผนผังลอจิกของเอาต์พุตควบคุม
+  table_md_path: tables/0028-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+  headers:
+  - แหล่งสัญญาณ
+  - ความหมาย
+- section_index: 37
+  heading_path: &id005
+  - บทที่ Ⅴ คำอธิบายฟังก์ชันขั้นสูง
+  - 5.9 ฟังก์ชันล็อกพารามิเตอร์ด้วยรหัสผ่าน
+  table_md_path: tables/0037-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+  headers:
+  - พารามิเตอร์ล็อก
+  - ดัชนีรูปคลื่น
+  - ดัชนีการเร่งความเร็ว
+  - ขีดจำกัดแรงดันไฟฟ้าขาออกสูงสุด
+  - การดำเนินการทางลอจิกของแหล่งสัญญาณของเอาต์พุตหลัก
+  - แหล่งสัญญาณที่สองของเอาต์พุตหลัก
+  - แหล่งสัญญาณแรกของเอาต์พุตหลัก
+  - การดำเนินการทางลอจิกของแหล่งสัญญาณของพอร์ตควบคุม D
+  - แหล่งสัญญาณที่สองของพอร์ตควบคุม D
+  - แหล่งสัญญาณแรกของพอร์ตควบคุม D
+  - ประเภทเซ็นเซอร์พอร์ต C
+  - รอบการเบรก/การปิดแบบนุ่มนวล
+  - ความถี่ขาออก
+- section_index: 40
+  heading_path: &id006
+  - บทที่ Ⅴ คำอธิบายฟังก์ชันขั้นสูง
+  - บทที่ Ⅵ ข้อกำหนดทางเทคนิค
+  table_md_path: tables/0040-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+  headers:
+  - ช่วงมิติ
+  - ค่าเผื่อความคลาดเคลื่อน
+- section_index: 41
+  heading_path: &id007
+  - บทที่ Ⅴ คำอธิบายฟังก์ชันขั้นสูง
+  - 6.2 ข้อกำหนดทางเทคนิค
+  table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+  headers:
+  - รายการ
+  - ต่ำสุด
+  - ทั่วไป
+  - สูงสุด
+  - หน่วย
+  - หมายเหตุ
+- section_index: 42
+  heading_path: &id008
+  - บทที่ Ⅴ คำอธิบายฟังก์ชันขั้นสูง
+  - 6.3 มาตรฐานอ้างอิง
+  table_md_path: tables/0042-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+  headers:
+  - รายการ
+  - มาตรฐาน GB
+  - มาตรฐาน IEC
+  - ระดับ
+  - ข้อกำหนดมาตรฐาน
+  - หมายเหตุ
+- section_index: 43
+  heading_path: &id002
+  - บทที่ Ⅶ ภาคผนวก
+  - 7.1 ตารางพารามิเตอร์
+  table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-01.md
+  headers:
+  - หมวดหมู่
+  - คำจำกัดความ
+  - สัญลักษณ์
+  - ภาพสัญลักษณ์
+  - ช่วง
+  - ค่าเริ่มต้น
+- section_index: 43
+  heading_path: *id002
+  table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+  headers:
+  - col_1
+  - คำจำกัดความ
+  - สัญลักษณ์
+  - ภาพสัญลักษณ์
+  - ช่วง
+  - ค่าเริ่มต้น
+- section_index: 45
+  heading_path: &id009
+  - บทที่ Ⅶ ภาคผนวก
+  - 7.3 คำแนะนำในการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+  table_md_path: tables/0045-บทท-ⅶ-ภาคผนวก-table-01.md
+  headers:
+  - รหัสข้อผิดพลาด
+  - คำจำกัดความ
+  - วิธีการแก้ไขปัญหา
+  - ภาพสัญลักษณ์
+items:
+- name: ⚠ อันตราย
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ อันตราย
+    col_2: การไม่ปฏิบัติตามรายการนี้จะส่งผลให้เกิดการบาดเจ็บของบุคคลหรือเสียชีวิต
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ⚠ คำเตือน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ คำเตือน
+    col_2: การไม่ปฏิบัติตามรายการนี้อาจส่งผลให้เกิดการบาดเจ็บของบุคคลหรือเสียชีวิต
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ⚠ ข้อควรระวัง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ ข้อควรระวัง
+    col_2: การไม่ปฏิบัติตามรายการนี้อาจส่งผลให้เกิดการบาดเจ็บระดับปานกลางหรือเล็กน้อยต่อบุคคล
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ข้อสังเกต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ข้อสังเกต
+    col_2: การไม่ปฏิบัติตามรายการนี้จะส่งผลให้เกิดความเสียหายต่อผลิตภัณฑ์และทรัพย์สิน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ❗ จำเป็น
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ❗ จำเป็น
+    col_2: ระบุข้อควรระวังและข้อจำกัดในการใช้งานที่ต้องปฏิบัติตามระหว่างการใช้งาน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Speed Ctrl
+    เทอร์มินัล: A1
+    คำอธิบาย: RGND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Speed Ctrl
+    เทอร์มินัล: A2
+    คำอธิบาย: Input
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Speed Ctrl
+    เทอร์มินัล: A3
+    คำอธิบาย: 5V out
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Photosensor
+    เทอร์มินัล: B1
+    คำอธิบาย: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Photosensor
+    เทอร์มินัล: B2
+    คำอธิบาย: RX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Photosensor
+    เทอร์มินัล: B3
+    คำอธิบาย: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Photosensor
+    เทอร์มินัล: B4
+    คำอธิบาย: TX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Sensor
+    เทอร์มินัล: C1
+    คำอธิบาย: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Sensor
+    เทอร์มินัล: C2
+    คำอธิบาย: Input
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Sensor
+    เทอร์มินัล: C3
+    คำอธิบาย: 24V out
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-01.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Ctrl Out
+    เทอร์มินัล: D1
+    คำอธิบาย: Output
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-01.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Ctrl Out
+    เทอร์มินัล: D2
+    คำอธิบาย: 24V out
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-01.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: 24V DC
+    เทอร์มินัล: I1
+    คำอธิบาย: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-02.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: 24V DC
+    เทอร์มินัล: I2
+    คำอธิบาย: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-02.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: 24V DC
+    เทอร์มินัล: I1
+    คำอธิบาย: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-02.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: 24V DC
+    เทอร์มินัล: I2
+    คำอธิบาย: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-02.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Speed Ctrl
+    เทอร์มินัล: A1
+    คำอธิบาย: RGND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-02.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Speed Ctrl
+    เทอร์มินัล: A2
+    คำอธิบาย: Input
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-02.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Speed Ctrl
+    เทอร์มินัล: A3
+    คำอธิบาย: 5V out
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-02.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Photosensor
+    เทอร์มินัล: B1
+    คำอธิบาย: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-02.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Photosensor
+    เทอร์มินัล: B2
+    คำอธิบาย: RX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-02.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Photosensor
+    เทอร์มินัล: B3
+    คำอธิบาย: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-02.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Photosensor
+    เทอร์มินัล: B4
+    คำอธิบาย: TX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-02.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Sensor
+    เทอร์มินัล: C1
+    คำอธิบาย: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-02.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Sensor
+    เทอร์มินัล: C2
+    คำอธิบาย: Input
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-02.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Sensor
+    เทอร์มินัล: C3
+    คำอธิบาย: 24V out
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-02.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Ctrl Out
+    เทอร์มินัล: D1
+    คำอธิบาย: Output
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-02.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    กลุ่มพอร์ต: Ctrl Out
+    เทอร์มินัล: D2
+    คำอธิบาย: 24V out
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 คำอธิบายพอร์ตการเดินสาย
+    table_role: generic
+    table_md_path: tables/0008-บทท-ⅰ-ก-อนการใช-งาน-table-02.md
+- name: '0'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    แหล่งสัญญาณ: '0'
+    ความหมาย: สัญญาณไม่ถูกต้อง
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 แหล่งสัญญาณและแผนผังลอจิกของเอาต์พุตควบคุม
+    table_role: generic
+    table_md_path: tables/0028-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: '1'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    แหล่งสัญญาณ: '1'
+    ความหมาย: สัญญาณถูกต้อง
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 แหล่งสัญญาณและแผนผังลอจิกของเอาต์พุตควบคุม
+    table_role: generic
+    table_md_path: tables/0028-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    แหล่งสัญญาณ: b
+    ความหมาย: สัญญาณพอร์ตตรวจจับโฟโตอิเล็กทริกอัจฉริยะ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 แหล่งสัญญาณและแผนผังลอจิกของเอาต์พุตควบคุม
+    table_role: generic
+    table_md_path: tables/0028-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: -b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    แหล่งสัญญาณ: -b
+    ความหมาย: สัญญาณพอร์ตตรวจจับโฟโตอิเล็กทริกอัจฉริยะถูกกลับด้าน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 แหล่งสัญญาณและแผนผังลอจิกของเอาต์พุตควบคุม
+    table_role: generic
+    table_md_path: tables/0028-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    แหล่งสัญญาณ: C
+    ความหมาย: สัญญาณพอร์ตเซ็นเซอร์สวิตช์
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 แหล่งสัญญาณและแผนผังลอจิกของเอาต์พุตควบคุม
+    table_role: generic
+    table_md_path: tables/0028-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: -C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    แหล่งสัญญาณ: -C
+    ความหมาย: สัญญาณพอร์ตเซ็นเซอร์สวิตช์ถูกกลับด้าน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 แหล่งสัญญาณและแผนผังลอจิกของเอาต์พุตควบคุม
+    table_role: generic
+    table_md_path: tables/0028-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: od
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    แหล่งสัญญาณ: od
+    ความหมาย: สัญญาณพอร์ตเอาต์พุตควบคุม
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 แหล่งสัญญาณและแผนผังลอจิกของเอาต์พุตควบคุม
+    table_role: generic
+    table_md_path: tables/0028-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: -od
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    แหล่งสัญญาณ: -od
+    ความหมาย: สัญญาณพอร์ตเอาต์พุตควบคุมถูกกลับด้าน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 แหล่งสัญญาณและแผนผังลอจิกของเอาต์พุตควบคุม
+    table_role: generic
+    table_md_path: tables/0028-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: oq
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    แหล่งสัญญาณ: oq
+    ความหมาย: สัญญาณพอร์ตเอาต์พุตกำลังหลัก
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 แหล่งสัญญาณและแผนผังลอจิกของเอาต์พุตควบคุม
+    table_role: generic
+    table_md_path: tables/0028-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: -oq
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    แหล่งสัญญาณ: -oq
+    ความหมาย: สัญญาณพอร์ตเอาต์พุตกำลังหลักถูกกลับด้าน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 แหล่งสัญญาณและแผนผังลอจิกของเอาต์พุตควบคุม
+    table_role: generic
+    table_md_path: tables/0028-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: '1: ล็อก'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    พารามิเตอร์ล็อก: '1: ล็อก'
+    ดัชนีรูปคลื่น: '1'
+    ดัชนีการเร่งความเร็ว: '1'
+    ขีดจำกัดแรงดันไฟฟ้าขาออกสูงสุด: '1'
+    การดำเนินการทางลอจิกของแหล่งสัญญาณของเอาต์พุตหลัก: '1'
+    แหล่งสัญญาณที่สองของเอาต์พุตหลัก: '1'
+    แหล่งสัญญาณแรกของเอาต์พุตหลัก: '1'
+    การดำเนินการทางลอจิกของแหล่งสัญญาณของพอร์ตควบคุม D: '1'
+    แหล่งสัญญาณที่สองของพอร์ตควบคุม D: '1'
+    แหล่งสัญญาณแรกของพอร์ตควบคุม D: '1'
+    ประเภทเซ็นเซอร์พอร์ต C: '1'
+    รอบการเบรก/การปิดแบบนุ่มนวล: '1'
+    ความถี่ขาออก: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 ฟังก์ชันล็อกพารามิเตอร์ด้วยรหัสผ่าน
+    table_role: generic
+    table_md_path: tables/0037-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: '0: ปลดล็อก'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    พารามิเตอร์ล็อก: '0: ปลดล็อก'
+    ดัชนีรูปคลื่น: '0'
+    ดัชนีการเร่งความเร็ว: '0'
+    ขีดจำกัดแรงดันไฟฟ้าขาออกสูงสุด: '0'
+    การดำเนินการทางลอจิกของแหล่งสัญญาณของเอาต์พุตหลัก: '0'
+    แหล่งสัญญาณที่สองของเอาต์พุตหลัก: '0'
+    แหล่งสัญญาณแรกของเอาต์พุตหลัก: '0'
+    การดำเนินการทางลอจิกของแหล่งสัญญาณของพอร์ตควบคุม D: '0'
+    แหล่งสัญญาณที่สองของพอร์ตควบคุม D: '0'
+    แหล่งสัญญาณแรกของพอร์ตควบคุม D: '0'
+    ประเภทเซ็นเซอร์พอร์ต C: '0'
+    รอบการเบรก/การปิดแบบนุ่มนวล: '0'
+    ความถี่ขาออก: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 ฟังก์ชันล็อกพารามิเตอร์ด้วยรหัสผ่าน
+    table_role: generic
+    table_md_path: tables/0037-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ตัวคูณ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    พารามิเตอร์ล็อก: ตัวคูณ
+    ดัชนีรูปคลื่น: '4'
+    ดัชนีการเร่งความเร็ว: '2'
+    ขีดจำกัดแรงดันไฟฟ้าขาออกสูงสุด: '1'
+    การดำเนินการทางลอจิกของแหล่งสัญญาณของเอาต์พุตหลัก: '4'
+    แหล่งสัญญาณที่สองของเอาต์พุตหลัก: '2'
+    แหล่งสัญญาณแรกของเอาต์พุตหลัก: '1'
+    การดำเนินการทางลอจิกของแหล่งสัญญาณของพอร์ตควบคุม D: '4'
+    แหล่งสัญญาณที่สองของพอร์ตควบคุม D: '2'
+    แหล่งสัญญาณแรกของพอร์ตควบคุม D: '1'
+    ประเภทเซ็นเซอร์พอร์ต C: '4'
+    รอบการเบรก/การปิดแบบนุ่มนวล: '2'
+    ความถี่ขาออก: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 ฟังก์ชันล็อกพารามิเตอร์ด้วยรหัสผ่าน
+    table_role: generic
+    table_md_path: tables/0037-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ช่วงค่ารหัสผ่าน (การรวม)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    พารามิเตอร์ล็อก: ช่วงค่ารหัสผ่าน (การรวม)
+    ดัชนีรูปคลื่น: 0~7 (หลักที่ 1 ของค่ารหัสผ่าน)
+    การดำเนินการทางลอจิกของแหล่งสัญญาณของเอาต์พุตหลัก: 0~7 (หลักที่ 2 ของค่ารหัสผ่าน)
+    การดำเนินการทางลอจิกของแหล่งสัญญาณของพอร์ตควบคุม D: 0~7 (หลักที่ 3 ของค่ารหัสผ่าน)
+    ประเภทเซ็นเซอร์พอร์ต C: 0~7 (หลักที่ 4 ของค่ารหัสผ่าน)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 ฟังก์ชันล็อกพารามิเตอร์ด้วยรหัสผ่าน
+    table_role: generic
+    table_md_path: tables/0037-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ตัวอย่าง 1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    พารามิเตอร์ล็อก: ตัวอย่าง 1
+    ดัชนีรูปคลื่น: '0'
+    ดัชนีการเร่งความเร็ว: '0'
+    ขีดจำกัดแรงดันไฟฟ้าขาออกสูงสุด: '0'
+    การดำเนินการทางลอจิกของแหล่งสัญญาณของเอาต์พุตหลัก: '0'
+    แหล่งสัญญาณที่สองของเอาต์พุตหลัก: '0'
+    แหล่งสัญญาณแรกของเอาต์พุตหลัก: '0'
+    การดำเนินการทางลอจิกของแหล่งสัญญาณของพอร์ตควบคุม D: '0'
+    แหล่งสัญญาณที่สองของพอร์ตควบคุม D: '0'
+    แหล่งสัญญาณแรกของพอร์ตควบคุม D: '0'
+    ประเภทเซ็นเซอร์พอร์ต C: '0'
+    รอบการเบรก/การปิดแบบนุ่มนวล: '0'
+    ความถี่ขาออก: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 ฟังก์ชันล็อกพารามิเตอร์ด้วยรหัสผ่าน
+    table_role: generic
+    table_md_path: tables/0037-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ตัวอย่าง 2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    พารามิเตอร์ล็อก: ตัวอย่าง 2
+    ดัชนีรูปคลื่น: '1'
+    ดัชนีการเร่งความเร็ว: '0'
+    ขีดจำกัดแรงดันไฟฟ้าขาออกสูงสุด: '0'
+    การดำเนินการทางลอจิกของแหล่งสัญญาณของเอาต์พุตหลัก: '0'
+    แหล่งสัญญาณที่สองของเอาต์พุตหลัก: '0'
+    แหล่งสัญญาณแรกของเอาต์พุตหลัก: '1'
+    การดำเนินการทางลอจิกของแหล่งสัญญาณของพอร์ตควบคุม D: '0'
+    แหล่งสัญญาณที่สองของพอร์ตควบคุม D: '0'
+    แหล่งสัญญาณแรกของพอร์ตควบคุม D: '0'
+    ประเภทเซ็นเซอร์พอร์ต C: '0'
+    รอบการเบรก/การปิดแบบนุ่มนวล: '0'
+    ความถี่ขาออก: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 ฟังก์ชันล็อกพารามิเตอร์ด้วยรหัสผ่าน
+    table_role: generic
+    table_md_path: tables/0037-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ตัวอย่าง 3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    พารามิเตอร์ล็อก: ตัวอย่าง 3
+    ดัชนีรูปคลื่น: '0'
+    ดัชนีการเร่งความเร็ว: '0'
+    ขีดจำกัดแรงดันไฟฟ้าขาออกสูงสุด: '0'
+    การดำเนินการทางลอจิกของแหล่งสัญญาณของเอาต์พุตหลัก: '0'
+    แหล่งสัญญาณที่สองของเอาต์พุตหลัก: '0'
+    แหล่งสัญญาณแรกของเอาต์พุตหลัก: '0'
+    การดำเนินการทางลอจิกของแหล่งสัญญาณของพอร์ตควบคุม D: '0'
+    แหล่งสัญญาณที่สองของพอร์ตควบคุม D: '0'
+    แหล่งสัญญาณแรกของพอร์ตควบคุม D: '0'
+    ประเภทเซ็นเซอร์พอร์ต C: '1'
+    รอบการเบรก/การปิดแบบนุ่มนวล: '1'
+    ความถี่ขาออก: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 ฟังก์ชันล็อกพารามิเตอร์ด้วยรหัสผ่าน
+    table_role: generic
+    table_md_path: tables/0037-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: 0~3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ช่วงมิติ: 0~3
+    ค่าเผื่อความคลาดเคลื่อน: ±0.05
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: บทที่ Ⅵ ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0040-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: 3~10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ช่วงมิติ: 3~10
+    ค่าเผื่อความคลาดเคลื่อน: ±0.1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: บทที่ Ⅵ ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0040-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: 10~30
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ช่วงมิติ: 10~30
+    ค่าเผื่อความคลาดเคลื่อน: ±0.15
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: บทที่ Ⅵ ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0040-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: 30~80
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ช่วงมิติ: 30~80
+    ค่าเผื่อความคลาดเคลื่อน: ±0.2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: บทที่ Ⅵ ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0040-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: 80~180
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ช่วงมิติ: 80~180
+    ค่าเผื่อความคลาดเคลื่อน: ±0.3
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: บทที่ Ⅵ ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0040-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: '>180'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ช่วงมิติ: '>180'
+    ค่าเผื่อความคลาดเคลื่อน: ±0.5
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: บทที่ Ⅵ ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0040-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: แรงดันไฟฟ้าขาเข้า
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: แรงดันไฟฟ้าขาเข้า
+    ต่ำสุด: '85'
+    ทั่วไป: '220'
+    สูงสุด: '250'
+    หน่วย: V
+    หมายเหตุ: AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ช่วงแรงดันไฟฟ้าขาออกที่ปรับได้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงแรงดันไฟฟ้าขาออกที่ปรับได้
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '260'
+    หน่วย: V
+    หมายเหตุ: ต่ำกว่า 150% ของแรงดันไฟฟ้าขาเข้า
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ความแม่นยำในการปรับแรงดันไฟฟ้า
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความแม่นยำในการปรับแรงดันไฟฟ้า
+    ทั่วไป: '1'
+    หน่วย: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ความแม่นยำในการรักษาเสถียรภาพแรงดันไฟฟ้า
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความแม่นยำในการรักษาเสถียรภาพแรงดันไฟฟ้า
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '10'
+    หน่วย: '%'
+    หมายเหตุ: ΔVout/ΔVin
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ช่วงกระแสขาออกที่ปรับได้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงกระแสขาออกที่ปรับได้
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '1.5'
+    หน่วย: A
+    หมายเหตุ: SDVC311-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ช่วงกระแสขาออกที่ปรับได้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงกระแสขาออกที่ปรับได้
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '3.0'
+    หน่วย: A
+    หมายเหตุ: SDVC311-M
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ช่วงกระแสขาออกที่ปรับได้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงกระแสขาออกที่ปรับได้
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '4.5'
+    หน่วย: A
+    หมายเหตุ: SDVC311-L
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ช่วงกระแสขาออกที่ปรับได้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงกระแสขาออกที่ปรับได้
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '6.0'
+    หน่วย: A
+    หมายเหตุ: SDVC311-XL
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: กำลังขาออก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: กำลังขาออก
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '330'
+    หน่วย: VA
+    หมายเหตุ: SDVC311-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: กำลังขาออก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: กำลังขาออก
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '660'
+    หน่วย: VA
+    หมายเหตุ: SDVC311-M
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: กำลังขาออก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: กำลังขาออก
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '990'
+    หน่วย: VA
+    หมายเหตุ: SDVC311-L
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: กำลังขาออก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: กำลังขาออก
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '1320'
+    หน่วย: VA
+    หมายเหตุ: SDVC311-XL
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ความถี่ขาออก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความถี่ขาออก
+    ต่ำสุด: '5.0'
+    ทั่วไป: ——
+    สูงสุด: '400.0'
+    หน่วย: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ความแม่นยำในการปรับความถี่
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความแม่นยำในการปรับความถี่
+    ทั่วไป: '0.1'
+    หน่วย: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: รูปคลื่นขาออก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: รูปคลื่นขาออก
+    ทั่วไป: ไซน์
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: เวลาสตาร์ทแบบนุ่มนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: เวลาสตาร์ทแบบนุ่มนวล
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '10.0'
+    หน่วย: s
+    หมายเหตุ: 'ค่าเริ่มต้น: 0.5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ช่วงเวลาหน่วงเปิด/ปิด
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงเวลาหน่วงเปิด/ปิด
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '99.9'
+    หน่วย: s
+    หมายเหตุ: 'ค่าเริ่มต้น: 0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ความแม่นยำของเวลาหน่วงเปิด/ปิด
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความแม่นยำของเวลาหน่วงเปิด/ปิด
+    ทั่วไป: '0.1'
+    หน่วย: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: อุณหภูมิทริกเกอร์การป้องกันความร้อนเกิน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: อุณหภูมิทริกเกอร์การป้องกันความร้อนเกิน
+    ต่ำสุด: '58'
+    ทั่วไป: '60'
+    สูงสุด: '66'
+    หน่วย: °C
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: กระแสเอาต์พุตควบคุม DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: กระแสเอาต์พุตควบคุม DC
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '400'
+    หน่วย: mA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: แรงดันเอาต์พุตควบคุม DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: แรงดันเอาต์พุตควบคุม DC
+    ต่ำสุด: '22'
+    ทั่วไป: '24'
+    สูงสุด: '26'
+    หน่วย: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: สัญญาณควบคุมแบบแอนะล็อก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: สัญญาณควบคุมแบบแอนะล็อก
+    ทั่วไป: 1~5/4~20
+    หน่วย: V/mA
+    หมายเหตุ: สัญญาณควบคุมความเร็วระยะไกล
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: สัญญาณควบคุมแบบดิจิทัล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: สัญญาณควบคุมแบบดิจิทัล
+    ทั่วไป: '24'
+    หน่วย: V
+    หมายเหตุ: สัญญาณสวิตช์
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: วิธีการปรับ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: วิธีการปรับ
+    ทั่วไป: '6'
+    หน่วย: ปุ่ม
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: การใช้พลังงานในโหมดสแตนด์บาย
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: การใช้พลังงานในโหมดสแตนด์บาย
+    ต่ำสุด: ——
+    ทั่วไป: '3'
+    สูงสุด: ——
+    หน่วย: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: วิธีการแสดงผล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: วิธีการแสดงผล
+    ทั่วไป: '5'
+    หน่วย: หลัก
+    หมายเหตุ: LED
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: อุณหภูมิแวดล้อม
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: อุณหภูมิแวดล้อม
+    ต่ำสุด: '0'
+    ทั่วไป: '25'
+    สูงสุด: '40'
+    หน่วย: °C
+    หมายเหตุ: ไม่มีการควบแน่น
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ความชื้นแวดล้อม
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความชื้นแวดล้อม
+    ต่ำสุด: '10'
+    ทั่วไป: '60'
+    สูงสุด: '85'
+    หน่วย: '%'
+    หมายเหตุ: ไม่มีการควบแน่น
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: อุณหภูมิแวดล้อมในการจัดเก็บ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: อุณหภูมิแวดล้อมในการจัดเก็บ
+    ต่ำสุด: '-20'
+    ทั่วไป: '25'
+    สูงสุด: '65'
+    หน่วย: °C
+    หมายเหตุ: ไม่มีการควบแน่น
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 ข้อกำหนดทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: การคายประจุไฟฟ้าสถิต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: การคายประจุไฟฟ้าสถิต
+    มาตรฐาน GB: GB/T 17626.2-2006
+    มาตรฐาน IEC: IEC 61000-4-2:2001
+    ระดับ: '4'
+    ข้อกำหนดมาตรฐาน: ±8 kV
+    หมายเหตุ: การคายประจุแบบสัมผัส
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id008
+    heading_title: 6.3 มาตรฐานอ้างอิง
+    table_role: generic
+    table_md_path: tables/0042-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: การทดสอบทรานเซียนต์เร็วทางไฟฟ้า
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: การทดสอบทรานเซียนต์เร็วทางไฟฟ้า
+    มาตรฐาน GB: GB/T 17626.4-2008
+    มาตรฐาน IEC: IEC 61000-4-4:2004
+    ระดับ: '4'
+    ข้อกำหนดมาตรฐาน: ±4 kV
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id008
+    heading_title: 6.3 มาตรฐานอ้างอิง
+    table_role: generic
+    table_md_path: tables/0042-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: ความต้านทานระลอกคลื่นบนสายจ่ายไฟ DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความต้านทานระลอกคลื่นบนสายจ่ายไฟ DC
+    มาตรฐาน GB: GB/T 17626.17-2005
+    มาตรฐาน IEC: IEC 61000-4-17:2002
+    ระดับ: '4'
+    ข้อกำหนดมาตรฐาน: 15%
+    หมายเหตุ: ระดับ A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id008
+    heading_title: 6.3 มาตรฐานอ้างอิง
+    table_role: generic
+    table_md_path: tables/0042-บทท-ⅴ-คำอธ-บายฟ-งก-ช-นข-นส-ง-table-01.md
+- name: พารามิเตอร์ทั่วไป
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    หมวดหมู่: พารามิเตอร์ทั่วไป
+    คำจำกัดความ: แรงดันไฟฟ้าขาออก
+    สัญลักษณ์: U
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของแรงดันไฟฟ้าขาออก U](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0045-vcrop-00.png)'
+    ช่วง: 0~260 V
+    ค่าเริ่มต้น: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-01.md
+- name: พารามิเตอร์พื้นฐาน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    หมวดหมู่: พารามิเตอร์พื้นฐาน
+    คำจำกัดความ: ความถี่ขาออก *
+    สัญลักษณ์: E
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของความถี่ขาออก E](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0045-vcrop-01.png)'
+    ช่วง: 5.0~400.0 Hz
+    ค่าเริ่มต้น: '50.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-01.md
+- name: พารามิเตอร์ขั้นสูง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    หมวดหมู่: พารามิเตอร์ขั้นสูง
+    คำจำกัดความ: ความไวของเซ็นเซอร์โฟโตอิเล็กทริกอัจฉริยะ
+    สัญลักษณ์: P
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของความไวของเซ็นเซอร์ P](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0045-vcrop-07.png)'
+    ช่วง: PnP, nPn, 2~1000
+    ค่าเริ่มต้น: '80'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-01.md
+- name: พารามิเตอร์ขั้นสูง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ขั้นสูง
+    คำจำกัดความ: การหน่วงปิดของพอร์ต D
+    สัญลักษณ์: Ld
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของการหน่วงปิดของพอร์ต D](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-00.png)'
+    ช่วง: 0.0~99.9 s
+    ค่าเริ่มต้น: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ขั้นสูง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ขั้นสูง
+    คำจำกัดความ: โหมดเอาต์พุตของพอร์ต D
+    สัญลักษณ์: Fd
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของโหมดเอาต์พุตของพอร์ต D](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-01.png)'
+    ช่วง: dLy (โหมดหน่วง), HLd (โหมดคงค้าง)<br>Fn1 โหมดส่งสัญญาณแบบคาบ 1<br>Fn2 โหมดส่งสัญญาณแบบคาบ
+      2
+    ค่าเริ่มต้น: dLy
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ขั้นสูง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ขั้นสูง
+    คำจำกัดความ: ทิศทางลอจิกของพอร์ต D
+    สัญลักษณ์: Sd
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของทิศทางลอจิกของพอร์ต D](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-02.png)'
+    ช่วง: '--- (เฟสเดียวกัน), -⁻- (กลับเฟส)<br>on (ทำงานตลอดเวลา), oFF (ไม่ทำงานตลอดเวลา)'
+    ค่าเริ่มต้น: '---'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ขั้นสูง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ขั้นสูง
+    คำจำกัดความ: ประเภทเอาต์พุตควบคุม
+    สัญลักษณ์: Cd
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของประเภทเอาต์พุตควบคุม](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-03.png)'
+    ช่วง: nPn, PnP, PSP (พุช-พูล)
+    ค่าเริ่มต้น: nPn
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ขั้นสูง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ขั้นสูง
+    คำจำกัดความ: ขีดจำกัดแรงดันไฟฟ้าขาออกสูงสุด *
+    สัญลักษณ์: h
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของขีดจำกัดแรงดันไฟฟ้าขาออกสูงสุด](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-04.png)'
+    ช่วง: 0~260 V
+    ค่าเริ่มต้น: '260'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ขั้นสูง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ขั้นสูง
+    คำจำกัดความ: ขีดจำกัดความถี่ต่ำสุด
+    สัญลักษณ์: E
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของขีดจำกัดความถี่ต่ำสุด](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-05.png)'
+    ช่วง: 5.0~400.0 Hz
+    ค่าเริ่มต้น: '40.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ขั้นสูง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ขั้นสูง
+    คำจำกัดความ: ดัชนีการเร่งความเร็ว *
+    สัญลักษณ์: g
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของดัชนีการเร่งความเร็ว](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-06.png)'
+    ช่วง: 100~150
+    ค่าเริ่มต้น: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ขั้นสูง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ขั้นสูง
+    คำจำกัดความ: ดัชนีรูปคลื่น *
+    สัญลักษณ์: r
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของดัชนีรูปคลื่น](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-07.png)'
+    ช่วง: 0~100
+    ค่าเริ่มต้น: '100'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ขั้นสูง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ขั้นสูง
+    คำจำกัดความ: ช่วงพารามิเตอร์ของฟังก์ชันปิดการปรับพารามิเตอร์
+    สัญลักษณ์: สัญลักษณ์แสดงผลเจ็ดส่วนแบบพิเศษที่มีจุดทศนิยม (ดูรูป)
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนแบบพิเศษที่มีจุดทศนิยมของช่วงพารามิเตอร์ของฟังก์ชันปิดการปรับพารามิเตอร์](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-08.png)'
+    ช่วง: 0~9999
+    ค่าเริ่มต้น: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ขั้นสูง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ขั้นสูง
+    คำจำกัดความ: การล็อกของฟังก์ชันปิดการปรับพารามิเตอร์
+    สัญลักษณ์: สัญลักษณ์แสดงผลเจ็ดส่วนแบบพิเศษ (ดูรูป)
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนแบบพิเศษของการล็อกของฟังก์ชันปิดการปรับพารามิเตอร์](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-09.png)'
+    ช่วง: 0~9999
+    ค่าเริ่มต้น: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ขั้นสูง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ขั้นสูง
+    คำจำกัดความ: การคืนค่าการตั้งค่าเริ่มต้น
+    สัญลักษณ์: '88888'
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนที่ติดสว่างทั้งหมดของการคืนค่าการตั้งค่าเริ่มต้น](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-10.png)'
+    ช่วง: ใช้ร่วมกับพารามิเตอร์ Pin
+    ค่าเริ่มต้น: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ขั้นสูง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ขั้นสูง
+    คำจำกัดความ: โหมดคืนค่าโรงงาน
+    สัญลักษณ์: Pin
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของโหมดคืนค่าโรงงาน](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-11.png)'
+    ช่วง: '0 : คืนค่ากลุ่มพารามิเตอร์การทำงานกลับเป็นกลุ่มพารามิเตอร์ผู้ใช้<br>5 :
+      บันทึกกลุ่มพารามิเตอร์การทำงานลงในกลุ่มพารามิเตอร์ผู้ใช้<br>35: คืนค่ากลุ่มพารามิเตอร์การทำงานกลับเป็นค่าโรงงานของ
+      CUH<br>55: คืนค่ากลุ่มพารามิเตอร์การทำงานและกลุ่มพารามิเตอร์ผู้ใช้กลับเป็นค่าโรงงานของ
+      CUH'
+    ค่าเริ่มต้น: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ตรวจสอบ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ตรวจสอบ
+    คำจำกัดความ: อุณหภูมิ
+    สัญลักษณ์: C
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของอุณหภูมิ](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-12.png)'
+    ช่วง: -20~85 °C
+    ค่าเริ่มต้น: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ตรวจสอบ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ตรวจสอบ
+    คำจำกัดความ: แรงดันบัสภายใน
+    สัญลักษณ์: PU
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของแรงดันบัสภายใน](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-13.png)'
+    ช่วง: 0~400 V
+    ค่าเริ่มต้น: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ตรวจสอบ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ตรวจสอบ
+    คำจำกัดความ: แรงดันระลอกคลื่นของบัส
+    สัญลักษณ์: rU
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของแรงดันระลอกคลื่นของบัส](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-14.png)'
+    ช่วง: 0~200 V
+    ค่าเริ่มต้น: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ตรวจสอบ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ตรวจสอบ
+    คำจำกัดความ: กระแสขาออก
+    สัญลักษณ์: AC
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของกระแสขาออก](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-15.png)'
+    ช่วง: 0.00~1.60 A -SDVC31S/SDVC311S<br>0.00~3.20 A -SDVC31M/SDVC311M
+    ค่าเริ่มต้น: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ตรวจสอบ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ตรวจสอบ
+    คำจำกัดความ: แรงดันสัญญาณของพอร์ต A
+    สัญลักษณ์: AU
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของแรงดันสัญญาณของพอร์ต A](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-16.png)'
+    ช่วง: 0.00~5.00 V
+    ค่าเริ่มต้น: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ตรวจสอบ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ตรวจสอบ
+    คำจำกัดความ: แรงดันสัญญาณของพอร์ต B
+    สัญลักษณ์: bU
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของแรงดันสัญญาณของพอร์ต B](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-17.png)'
+    ช่วง: 0~999
+    ค่าเริ่มต้น: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ตรวจสอบ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ตรวจสอบ
+    คำจำกัดความ: แรงดันสัญญาณของพอร์ต C
+    สัญลักษณ์: cU
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของแรงดันสัญญาณของพอร์ต C](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-18.png)'
+    ช่วง: 0.0~28.0 V
+    ค่าเริ่มต้น: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ตรวจสอบ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ตรวจสอบ
+    คำจำกัดความ: แรงดันสัญญาณของพอร์ต D
+    สัญลักษณ์: dU
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของแรงดันสัญญาณของพอร์ต D](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-19.png)'
+    ช่วง: 0.0~28.0 V
+    ค่าเริ่มต้น: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ตรวจสอบ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ตรวจสอบ
+    คำจำกัดความ: แรงดันไฟฟ้าแบบเรียลไทม์ของพอร์ต 24V
+    สัญลักษณ์: nU
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของแรงดันไฟฟ้าแบบเรียลไทม์ของพอร์ต 24V](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-20.png)'
+    ช่วง: 0.0~28.0 V
+    ค่าเริ่มต้น: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ตรวจสอบ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ตรวจสอบ
+    คำจำกัดความ: เวอร์ชันซอฟต์แวร์ของบอร์ดควบคุม
+    สัญลักษณ์: uc
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของเวอร์ชันซอฟต์แวร์ของบอร์ดควบคุม](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-21.png)'
+    ช่วง: ——
+    ค่าเริ่มต้น: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: พารามิเตอร์ตรวจสอบ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ตรวจสอบ
+    คำจำกัดความ: เวอร์ชันซอฟต์แวร์ของบอร์ดจ่ายกำลัง
+    สัญลักษณ์: uP
+    ภาพสัญลักษณ์: '![สัญลักษณ์แสดงผลเจ็ดส่วนของเวอร์ชันซอฟต์แวร์ของบอร์ดจ่ายกำลัง](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-22.png)'
+    ช่วง: ——
+    ค่าเริ่มต้น: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 ตารางพารามิเตอร์
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅶ-ภาคผนวก-table-02.md
+- name: ไม่มีจอแสดงผลหลังเปิดเครื่อง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รหัสข้อผิดพลาด: ไม่มีจอแสดงผลหลังเปิดเครื่อง
+    วิธีการแก้ไขปัญหา: ตรวจสอบว่าปลั๊กไฟมีไฟฟ้า<br>ตรวจสอบว่าสายไฟขาเข้าเชื่อมต่อกับปลั๊กไฟอย่างแน่นหนาหรือไม่
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 คำแนะนำในการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0045-บทท-ⅶ-ภาคผนวก-table-01.md
+- name: จอแสดงผลปกติ แต่ไม่มีเอาต์พุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รหัสข้อผิดพลาด: จอแสดงผลปกติ แต่ไม่มีเอาต์พุต
+    วิธีการแก้ไขปัญหา: ตรวจสอบว่าสายไฟขาออกเชื่อมต่อกับเครื่องสั่นอย่างแน่นหนา<br>ตรวจสอบว่าแรงดันไฟฟ้าขาออกไม่น้อยเกินไป<br>ตรวจสอบว่าไฟแสดงการหยุดไม่ติดสว่าง<br>โปรดตรวจสอบว่ามีการตั้งค่า
+      Normal Close ของพารามิเตอร์หรือไม่ ซึ่งทำให้เอาต์พุตของตัวควบคุมหยุดลง
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 คำแนะนำในการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0045-บทท-ⅶ-ภาคผนวก-table-01.md
+- name: สัญญาณควบคุมไม่ทำงาน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รหัสข้อผิดพลาด: สัญญาณควบคุมไม่ทำงาน
+    วิธีการแก้ไขปัญหา: ตรวจสอบว่าอินพุตสัญญาณควบคุมถูกต้อง<br>ตรวจสอบว่าสายดินของสัญญาณควบคุมเชื่อมต่อกับตัวควบคุมอย่างถูกต้อง<br>ตรวจสอบว่าความสัมพันธ์ทางลอจิกของสัญญาณควบคุมตั้งค่าไว้ตรงตามที่คาดหวังอย่างถูกต้อง
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 คำแนะนำในการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0045-บทท-ⅶ-ภาคผนวก-table-01.md
+- name: ปรากฏการณ์บีต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รหัสข้อผิดพลาด: ปรากฏการณ์บีต
+    วิธีการแก้ไขปัญหา: หลีกเลี่ยงการเชื่อมต่อการสั่นสะเทือนระหว่างเครื่องสั่น<br>เพิ่มความถี่เรโซแนนซ์ของเครื่องสั่น
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 คำแนะนำในการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0045-บทท-ⅶ-ภาคผนวก-table-01.md
+- name: จอแสดงผลปกติ ไม่มีเอาต์พุต แต่ได้ยินเสียง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รหัสข้อผิดพลาด: จอแสดงผลปกติ ไม่มีเอาต์พุต แต่ได้ยินเสียง
+    วิธีการแก้ไขปัญหา: ปรับพารามิเตอร์ทั้งหมดตามคำแนะนำในคู่มือนี้
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 คำแนะนำในการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0045-บทท-ⅶ-ภาคผนวก-table-01.md
+- name: Err01
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รหัสข้อผิดพลาด: Err01
+    คำจำกัดความ: ไฟฟ้าลัดวงจร
+    วิธีการแก้ไขปัญหา: ตรวจสอบว่าโหลดไม่ได้ลัดวงจร จากนั้นลองรีสตาร์ทเอาต์พุตของตัวควบคุมโดยกดปุ่มเปิด/ปิดสองครั้งหรือเปิดเครื่องใหม่
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดส่วนแสดง Err01](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 คำแนะนำในการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0045-บทท-ⅶ-ภาคผนวก-table-01.md
+- name: Err02
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รหัสข้อผิดพลาด: Err02
+    คำจำกัดความ: กระแสเกิน
+    วิธีการแก้ไขปัญหา: ลดแรงดันไฟฟ้าขาออกลงอย่างเหมาะสม จากนั้นรีสตาร์ทเอาต์พุต
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดส่วนแสดง Err02](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 คำแนะนำในการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0045-บทท-ⅶ-ภาคผนวก-table-01.md
+- name: Err03
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รหัสข้อผิดพลาด: Err03
+    คำจำกัดความ: ความร้อนเกิน
+    วิธีการแก้ไขปัญหา: ติดตั้งตัวควบคุมในสภาพแวดล้อมที่มีการระบายอากาศดี
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดส่วนแสดง Err03](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 คำแนะนำในการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0045-บทท-ⅶ-ภาคผนวก-table-01.md
+- name: Err04
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รหัสข้อผิดพลาด: Err04
+    คำจำกัดความ: แรงดันไฟฟ้าเกินหรือต่ำเกิน
+    วิธีการแก้ไขปัญหา: ตรวจสอบว่าแรงดันไฟฟ้าขาเข้าอยู่ระหว่าง AC 85~250Vac
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดส่วนแสดง Err04](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-03.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 คำแนะนำในการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0045-บทท-ⅶ-ภาคผนวก-table-01.md
+- name: Err05
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รหัสข้อผิดพลาด: Err05
+    คำจำกัดความ: การสื่อสารภายในผิดปกติ
+    วิธีการแก้ไขปัญหา: ตรวจสอบว่าไม่มีแหล่งจ่ายไฟภายนอกเชื่อมต่อกับพอร์ตจ่ายไฟ 24V
+      หรือติดต่อฝ่ายสนับสนุนทางเทคนิคของเรา
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดส่วนแสดง Err05](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-04.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 คำแนะนำในการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0045-บทท-ⅶ-ภาคผนวก-table-01.md
+- name: Err06
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รหัสข้อผิดพลาด: Err06
+    คำจำกัดความ: เซ็นเซอร์อุณหภูมิผิดปกติ
+    วิธีการแก้ไขปัญหา: ตรวจสอบว่าอุณหภูมิการทำงานไม่ต่ำกว่า -20℃ หรือติดต่อฝ่ายสนับสนุนทางเทคนิคของเรา
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดส่วนแสดง Err06](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-05.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 คำแนะนำในการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0045-บทท-ⅶ-ภาคผนวก-table-01.md
+- name: Err07
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รหัสข้อผิดพลาด: Err07
+    คำจำกัดความ: การป้องกันไฟฟ้าลัดวงจรของพอร์ต D
+    วิธีการแก้ไขปัญหา: ตรวจสอบว่าโหลดของพอร์ต D ไม่ได้ลัดวงจรและกระแสไม่เกิน 400mA
+      จากนั้นลองรีสตาร์ทเอาต์พุตของพอร์ต D
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดส่วนแสดง Err07](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-06.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 คำแนะนำในการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0045-บทท-ⅶ-ภาคผนวก-table-01.md
+- name: Err10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รหัสข้อผิดพลาด: Err10
+    คำจำกัดความ: เอาต์พุตจ่ายไฟ 24V ผิดปกติ
+    วิธีการแก้ไขปัญหา: ตรวจสอบว่าพอร์ต 24V ไม่ได้ลัดวงจรและกระแสไม่เกิน 400mA
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดส่วนแสดง Err10](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-07.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 คำแนะนำในการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0045-บทท-ⅶ-ภาคผนวก-table-01.md
+- name: Err11
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รหัสข้อผิดพลาด: Err11
+    คำจำกัดความ: เอาต์พุตจ่ายไฟ 5V ของพอร์ต A ผิดปกติ
+    วิธีการแก้ไขปัญหา: ตรวจสอบว่าไฟ 5V ของพอร์ต A ไม่ได้ลัดวงจรหรือไม่ได้เชื่อมต่อกับแหล่งจ่ายแรงดันไฟฟ้าภายนอกที่มากกว่า
+      5V
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดส่วนแสดง Err11](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-08.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 คำแนะนำในการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0045-บทท-ⅶ-ภาคผนวก-table-01.md

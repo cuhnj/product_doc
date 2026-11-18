@@ -1,0 +1,266 @@
+schema_version: 1
+doc_id: cuh.sdvc14-S.manual.v0.0.th-TH
+doc_key: cuh.sdvc14-S.manual.v0.0
+lang: th-TH
+generated_at: '2026-11-18 12:13:51'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 2
+  heading_path: &id001
+  - โมดูลควบคุมแรงดันดิจิทัลแบบปรับค่าได้สำหรับเครื่องป้อนวัสดุแบบสั่นสะเทือน
+  table_md_path: tables/0002-โมด-ลควบค-มแรงด-นด-จ-ท-ลแบบปร-บค-าได-สำหร-บเคร-อ-table-01.md
+  headers:
+  - รายการ
+  - 'ช่วง: ต่ำสุด'
+  - 'ช่วง: ทั่วไป'
+  - 'ช่วง: สูงสุด'
+  - หน่วย
+  - คำอธิบาย
+items:
+- name: แรงดันอินพุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: แรงดันอินพุต
+    'ช่วง: ต่ำสุด': '150'
+    'ช่วง: ทั่วไป': '220'
+    'ช่วง: สูงสุด': '260'
+    หน่วย: V
+    คำอธิบาย: AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: โมดูลควบคุมแรงดันดิจิทัลแบบปรับค่าได้สำหรับเครื่องป้อนวัสดุแบบสั่นสะเทือน
+    table_role: generic
+    table_md_path: tables/0002-โมด-ลควบค-มแรงด-นด-จ-ท-ลแบบปร-บค-าได-สำหร-บเคร-อ-table-01.md
+- name: ช่วงแรงดันเอาต์พุตที่ปรับได้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงแรงดันเอาต์พุตที่ปรับได้
+    'ช่วง: ต่ำสุด': '35'
+    'ช่วง: ทั่วไป': ——
+    'ช่วง: สูงสุด': Vin-10
+    หน่วย: V
+    คำอธิบาย: ครึ่งคลื่น
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: โมดูลควบคุมแรงดันดิจิทัลแบบปรับค่าได้สำหรับเครื่องป้อนวัสดุแบบสั่นสะเทือน
+    table_role: generic
+    table_md_path: tables/0002-โมด-ลควบค-มแรงด-นด-จ-ท-ลแบบปร-บค-าได-สำหร-บเคร-อ-table-01.md
+- name: เวลาตอบสนองของการควบคุมแรงดัน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: เวลาตอบสนองของการควบคุมแรงดัน
+    'ช่วง: ต่ำสุด': '0'
+    'ช่วง: ทั่วไป': '0.01'
+    'ช่วง: สูงสุด': '0.02'
+    หน่วย: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: โมดูลควบคุมแรงดันดิจิทัลแบบปรับค่าได้สำหรับเครื่องป้อนวัสดุแบบสั่นสะเทือน
+    table_role: generic
+    table_md_path: tables/0002-โมด-ลควบค-มแรงด-นด-จ-ท-ลแบบปร-บค-าได-สำหร-บเคร-อ-table-01.md
+- name: ช่วงกระแสเอาต์พุตที่ปรับได้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงกระแสเอาต์พุตที่ปรับได้
+    'ช่วง: ต่ำสุด': '0.1'
+    'ช่วง: ทั่วไป': ——
+    'ช่วง: สูงสุด': '4'
+    หน่วย: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: โมดูลควบคุมแรงดันดิจิทัลแบบปรับค่าได้สำหรับเครื่องป้อนวัสดุแบบสั่นสะเทือน
+    table_role: generic
+    table_md_path: tables/0002-โมด-ลควบค-มแรงด-นด-จ-ท-ลแบบปร-บค-าได-สำหร-บเคร-อ-table-01.md
+- name: กำลังเอาต์พุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: กำลังเอาต์พุต
+    'ช่วง: ต่ำสุด': '22'
+    'ช่วง: ทั่วไป': ——
+    'ช่วง: สูงสุด': '880'
+    หน่วย: VA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: โมดูลควบคุมแรงดันดิจิทัลแบบปรับค่าได้สำหรับเครื่องป้อนวัสดุแบบสั่นสะเทือน
+    table_role: generic
+    table_md_path: tables/0002-โมด-ลควบค-มแรงด-นด-จ-ท-ลแบบปร-บค-าได-สำหร-บเคร-อ-table-01.md
+- name: ความถี่เอาต์พุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความถี่เอาต์พุต
+    'ช่วง: ต่ำสุด': '45'
+    'ช่วง: ทั่วไป': 50/60
+    'ช่วง: สูงสุด': '65'
+    หน่วย: Hz
+    คำอธิบาย: ครึ่งคลื่น
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: โมดูลควบคุมแรงดันดิจิทัลแบบปรับค่าได้สำหรับเครื่องป้อนวัสดุแบบสั่นสะเทือน
+    table_role: generic
+    table_md_path: tables/0002-โมด-ลควบค-มแรงด-นด-จ-ท-ลแบบปร-บค-าได-สำหร-บเคร-อ-table-01.md
+- name: รูปคลื่นเอาต์พุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: รูปคลื่นเอาต์พุต
+    'ช่วง: ทั่วไป': ไซน์ตัดเฟส
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: โมดูลควบคุมแรงดันดิจิทัลแบบปรับค่าได้สำหรับเครื่องป้อนวัสดุแบบสั่นสะเทือน
+    table_role: generic
+    table_md_path: tables/0002-โมด-ลควบค-มแรงด-นด-จ-ท-ลแบบปร-บค-าได-สำหร-บเคร-อ-table-01.md
+- name: เวลาสตาร์ทแบบนุ่มนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: เวลาสตาร์ทแบบนุ่มนวล
+    'ช่วง: ต่ำสุด': '0.5'
+    'ช่วง: ทั่วไป': '0.65'
+    'ช่วง: สูงสุด': '0.7'
+    หน่วย: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: โมดูลควบคุมแรงดันดิจิทัลแบบปรับค่าได้สำหรับเครื่องป้อนวัสดุแบบสั่นสะเทือน
+    table_role: generic
+    table_md_path: tables/0002-โมด-ลควบค-มแรงด-นด-จ-ท-ลแบบปร-บค-าได-สำหร-บเคร-อ-table-01.md
+- name: อุณหภูมิที่กระตุ้นการป้องกันความร้อนเกิน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: อุณหภูมิที่กระตุ้นการป้องกันความร้อนเกิน
+    'ช่วง: ต่ำสุด': '58'
+    'ช่วง: ทั่วไป': '60'
+    'ช่วง: สูงสุด': '66'
+    หน่วย: ℃
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: โมดูลควบคุมแรงดันดิจิทัลแบบปรับค่าได้สำหรับเครื่องป้อนวัสดุแบบสั่นสะเทือน
+    table_role: generic
+    table_md_path: tables/0002-โมด-ลควบค-มแรงด-นด-จ-ท-ลแบบปร-บค-าได-สำหร-บเคร-อ-table-01.md
+- name: แรงดันควบคุมเปิด/ปิดจากระยะไกล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: แรงดันควบคุมเปิด/ปิดจากระยะไกล
+    'ช่วง: ต่ำสุด': '5'
+    'ช่วง: ทั่วไป': ——
+    'ช่วง: สูงสุด': '24'
+    หน่วย: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: โมดูลควบคุมแรงดันดิจิทัลแบบปรับค่าได้สำหรับเครื่องป้อนวัสดุแบบสั่นสะเทือน
+    table_role: generic
+    table_md_path: tables/0002-โมด-ลควบค-มแรงด-นด-จ-ท-ลแบบปร-บค-าได-สำหร-บเคร-อ-table-01.md
+- name: ความจุฟิวส์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความจุฟิวส์
+    'ช่วง: ทั่วไป': '6.3'
+    หน่วย: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: โมดูลควบคุมแรงดันดิจิทัลแบบปรับค่าได้สำหรับเครื่องป้อนวัสดุแบบสั่นสะเทือน
+    table_role: generic
+    table_md_path: tables/0002-โมด-ลควบค-มแรงด-นด-จ-ท-ลแบบปร-บค-าได-สำหร-บเคร-อ-table-01.md
+- name: อุณหภูมิแวดล้อม
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: อุณหภูมิแวดล้อม
+    'ช่วง: ต่ำสุด': '0'
+    'ช่วง: ทั่วไป': '25'
+    'ช่วง: สูงสุด': '40'
+    หน่วย: ℃
+    คำอธิบาย: ไม่มีการควบแน่น
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: โมดูลควบคุมแรงดันดิจิทัลแบบปรับค่าได้สำหรับเครื่องป้อนวัสดุแบบสั่นสะเทือน
+    table_role: generic
+    table_md_path: tables/0002-โมด-ลควบค-มแรงด-นด-จ-ท-ลแบบปร-บค-าได-สำหร-บเคร-อ-table-01.md
+- name: ความชื้นแวดล้อม
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความชื้นแวดล้อม
+    'ช่วง: ต่ำสุด': '10'
+    'ช่วง: ทั่วไป': '60'
+    'ช่วง: สูงสุด': '85'
+    หน่วย: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: โมดูลควบคุมแรงดันดิจิทัลแบบปรับค่าได้สำหรับเครื่องป้อนวัสดุแบบสั่นสะเทือน
+    table_role: generic
+    table_md_path: tables/0002-โมด-ลควบค-มแรงด-นด-จ-ท-ลแบบปร-บค-าได-สำหร-บเคร-อ-table-01.md

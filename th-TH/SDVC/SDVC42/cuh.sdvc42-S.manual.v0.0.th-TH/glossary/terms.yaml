@@ -1,0 +1,200 @@
+schema: cuh.glossary.candidates.v1
+doc_id: cuh.sdvc42SSMS.manual.v0.0.th-TH
+doc_key: cuh.sdvc.manual.v0.0
+lang: th-TH
+source_pdf: /Users/wangle/Documents/Python开发/说明书转换/典型文档/20260227_69_SDVC42-S_SMS-EN_3_01_user_manual.pdf
+generated_at: '2026-06-04 12:07:56'
+note: ไฟล์นี้เป็นผู้สมัครศัพท์เทคนิคที่รวบรวมโดยเครื่องมือแปลง_heuristic_ ไม่ใช่ฉบับสรุปท้ายของ glossary/terms.yaml ระดับบริษัท；หลังตรวจสอบแล้วให้รวมเข้าตารางหลัก
+terms:
+- term_id: auto-0001
+  surface: คำประกาศลิขสิทธิ์ & ข้อสงวนสิทธิ์
+  source_surface: Copyright Statement&Disclaimer
+  lang: th-TH
+  first_page: 2
+  evidence: pdf_outline
+- term_id: auto-0002
+  surface: คำนำ
+  source_surface: Preface
+  lang: th-TH
+  first_page: 3
+  evidence: pdf_outline
+- term_id: auto-0003
+  surface: ความปลอดภัยและข้อควรระวัง
+  source_surface: Safety and Precautions
+  lang: th-TH
+  first_page: 4
+  evidence: pdf_outline
+- term_id: auto-0004
+  surface: สภาพแวดล้อมการใช้งานและการจัดเก็บ
+  source_surface: Operating and Storage Environment
+  lang: th-TH
+  first_page: 5
+  evidence: pdf_outline
+- term_id: auto-0005
+  surface: สารบัญ
+  source_surface: Contents
+  lang: th-TH
+  first_page: 7
+  evidence: pdf_outline
+- term_id: auto-0009
+  surface: บทที่ Ⅰ คำแนะนำก่อนใช้งาน
+  source_surface: Chapter ⅠInstructions Before Use
+  lang: th-TH
+  first_page: 11
+  evidence: pdf_outline
+- term_id: auto-0014
+  surface: บทที่ Ⅱ แนะนำผลิตภัณฑ์
+  source_surface: Chapter Ⅱ Product Introduction
+  lang: th-TH
+  first_page: 14
+  evidence: pdf_outline
+- term_id: auto-0023
+  surface: บทที่ Ⅲ การต่อสายไฟและการทำงานพื้นฐาน
+  source_surface: Chapter Ⅲ Power Wiring and Basic Operation
+  lang: th-TH
+  first_page: 19
+  evidence: pdf_outline
+- term_id: auto-0026
+  surface: บทที่ Ⅳ คำอธิบายฟังก์ชันโดยละเอียด
+  source_surface: Chapter Ⅳ Detailed Function Introduction
+  lang: th-TH
+  first_page: 23
+  evidence: pdf_outline
+- term_id: auto-0028
+  surface: 4.1.1 แรงดันไฟฟ้า
+  source_surface: 4.1.1 Voltage
+  lang: th-TH
+  first_page: 24
+  evidence: pdf_outline
+- term_id: auto-0029
+  surface: 4.1.2 ความถี่
+  source_surface: 4.1.2 Frequency
+  lang: th-TH
+  first_page: 24
+  evidence: pdf_outline
+- term_id: auto-0030
+  surface: 4.1.3 ความเร็วการป้อน
+  source_surface: 4.1.3 Feeding Speed
+  lang: th-TH
+  first_page: 25
+  evidence: pdf_outline
+- term_id: auto-0031
+  surface: 4.1.4 เวลาเริ่มต้นนุ่ม/เวลาหยุดนุ่ม
+  source_surface: 4.1.4 Soft Start Time/Soft Stop Time
+  lang: th-TH
+  first_page: 25
+  evidence: pdf_outline
+- term_id: auto-0043
+  surface: 4.2 การค้นหาความถี่เรโซแนนซ์อัตโนมัติ
+  source_surface: 4.2 Automatic Resonant Frequency Search
+  lang: th-TH
+  first_page: 27
+  evidence: pdf_outline
+- term_id: auto-0045
+  surface: 4.3 ความเร็วการป้อนคงที่
+  source_surface: 4.3 Constant Feed Speed
+  lang: th-TH
+  first_page: 28
+  evidence: pdf_outline
+- term_id: auto-0061
+  surface: 4.4 พารามิเตอร์เอาต์พุต
+  source_surface: 4.4 Output Parameters
+  lang: th-TH
+  first_page: 31
+  evidence: pdf_outline
+- term_id: auto-0064
+  surface: 4.5 การควบคุมสัญญาณ
+  source_surface: 4.5 Signal Control
+  lang: th-TH
+  first_page: 40
+  evidence: pdf_outline
+- term_id: auto-0075
+  surface: 4.6 การนับจำนวนวัสดุ
+  source_surface: 4.6 Material Quantity Counting
+  lang: th-TH
+  first_page: 43
+  evidence: pdf_outline
+- term_id: auto-0083
+  surface: 4.7 บันทึกการตั้งค่า
+  source_surface: 4.7 Save Settings
+  lang: th-TH
+  first_page: 46
+  evidence: pdf_outline
+- term_id: auto-0090
+  surface: 4.8 การสื่อสาร RS485
+  source_surface: 4.8 RS485 Communication
+  lang: th-TH
+  first_page: 48
+  evidence: pdf_outline
+- term_id: auto-0096
+  surface: 4.9 การเชื่อมต่อเครือข่าย CUHBus-DS®
+  source_surface: 4.9 CUHBus-DS® Networking
+  lang: th-TH
+  first_page: 50
+  evidence: pdf_outline
+- term_id: auto-0105
+  surface: บทที่ Ⅴ การใช้งานทั่วไป
+  source_surface: Chapter Ⅴ Typical Applications
+  lang: th-TH
+  first_page: 66
+  evidence: pdf_outline
+- term_id: auto-0110
+  surface: บทที่ Ⅵ คำถามที่พบบ่อย
+  source_surface: Chapter Ⅵ Frequently Asked Questions
+  lang: th-TH
+  first_page: 69
+  evidence: pdf_outline
+- term_id: auto-0122
+  surface: บทที่ Ⅶ ภาคผนวก
+  source_surface: Chapter Ⅶ Appendix
+  lang: th-TH
+  first_page: 71
+  evidence: pdf_outline
+- term_id: auto-0126
+  surface: 7.4 รายการพารามิเตอร์
+  source_surface: 7.4 Parameter List
+  lang: th-TH
+  first_page: 74
+  evidence: pdf_outline
+- term_id: auto-0139
+  surface: 7.6 รหัสข้อผิดพลาด
+  source_surface: 7.6 Error Code
+  lang: th-TH
+  first_page: 88
+  evidence: pdf_outline
+- term_id: auto-0140
+  surface: 7.7 รหัสคำเตือน
+  source_surface: 7.7 Warning Code
+  lang: th-TH
+  first_page: 89
+  evidence: pdf_outline
+- term_id: auto-0141
+  surface: บทที่ Ⅷ ข้อมูลการรับประกันผลิตภัณฑ์
+  source_surface: Chapter Ⅷ Product Warranty Information
+  lang: th-TH
+  first_page: 90
+  evidence: pdf_outline
+- term_id: auto-0145
+  surface: SDVC42-S
+  source_surface: SDVC42-S
+  lang: th-TH
+  first_page: 1
+  evidence: regex_product
+- term_id: auto-0146
+  surface: RS485
+  source_surface: RS485
+  lang: th-TH
+  first_page: 9
+  evidence: regex_fieldbus
+- term_id: auto-0147
+  surface: Modbus
+  source_surface: Modbus
+  lang: th-TH
+  first_page: 14
+  evidence: regex_fieldbus
+- term_id: auto-0148
+  surface: SDVC311
+  source_surface: SDVC311
+  lang: th-TH
+  first_page: 68
+  evidence: regex_product

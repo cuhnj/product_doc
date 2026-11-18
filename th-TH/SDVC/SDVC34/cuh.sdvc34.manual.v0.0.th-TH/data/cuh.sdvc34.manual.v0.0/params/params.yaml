@@ -1,0 +1,5336 @@
+schema_version: 1
+doc_id: cuh.sdvc34.manual.v0.0.th-TH
+doc_key: cuh.sdvc34.manual.v0.0
+lang: th-TH
+generated_at: '2026-11-18 12:15:23'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 1
+  heading_path: &id009
+  - （文首）
+  table_md_path: tables/0001-文首-table-01.md
+  headers:
+  - col_1
+  - col_2
+- section_index: 10
+  heading_path: &id010
+  - บทที่ I คำแนะนำก่อนการใช้งาน
+  - 1.5 คำอธิบายพอร์ตการต่อสาย
+  table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+  headers:
+  - ฟังก์ชัน
+  - พอร์ต
+  - สัญญาณ
+- section_index: 13
+  heading_path: &id001
+  - บทที่ I คำแนะนำก่อนการใช้งาน
+  - 2.2 คู่มือการเลือก
+  table_md_path: tables/0013-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+  headers:
+  - รุ่นตัวควบคุม
+  - กำลัง (VA)
+  - ฟังก์ชัน
+- section_index: 13
+  heading_path: *id001
+  table_md_path: tables/0013-บทท-i-คำแนะนำก-อนการใช-งาน-table-02.md
+  headers:
+  - ฟังก์ชัน
+  - ทั่วไป
+  - การนับ
+  - RS485
+  - RS485 และการนับ
+- section_index: 15
+  heading_path: &id011
+  - บทที่ Ⅳ การปรับพารามิเตอร์
+  - 4.1 พารามิเตอร์ทั่วไป
+  table_md_path: tables/0015-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+  headers:
+  - col_1
+  - คำจำกัดความ
+  - สัญลักษณ์
+  - ภาพสัญลักษณ์
+  - ช่วงค่า
+  - ค่าเริ่มต้น
+- section_index: 16
+  heading_path: &id012
+  - บทที่ Ⅳ การปรับพารามิเตอร์
+  - 4.2 พารามิเตอร์พื้นฐาน
+  table_md_path: tables/0016-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+  headers:
+  - col_1
+  - คำจำกัดความ
+  - สัญลักษณ์
+  - ภาพสัญลักษณ์
+  - ช่วงค่า
+  - ค่าเริ่มต้น
+- section_index: 17
+  heading_path: &id002
+  - บทที่ Ⅳ การปรับพารามิเตอร์
+  - 4.3 พารามิเตอร์ขั้นสูง
+  table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+  headers:
+  - คำจำกัดความ
+  - สัญลักษณ์
+  - ภาพสัญลักษณ์
+  - ช่วงค่า
+  - ค่าเริ่มต้น
+- section_index: 17
+  heading_path: *id002
+  table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-02.md
+  headers:
+  - คำจำกัดความ
+  - สัญลักษณ์
+  - ภาพสัญลักษณ์
+  - ช่วงค่า
+  - ค่าเริ่มต้น
+- section_index: 20
+  heading_path: &id013
+  - บทที่ Ⅳ การปรับพารามิเตอร์
+  - 4.4 พารามิเตอร์ออโต้/ซิงค์
+  table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+  headers:
+  - คำจำกัดความ
+  - สัญลักษณ์
+  - ภาพสัญลักษณ์
+  - ช่วงค่า
+  - ค่าเริ่มต้น
+- section_index: 25
+  heading_path: &id014
+  - บทที่ Ⅳ การปรับพารามิเตอร์
+  - 'หมายเลขเซ็นเซอร์สั่นสะเทือน: ├'
+  table_md_path: tables/0025-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+  headers:
+  - ค่าพารามิเตอร์
+  - รุ่นที่สอดคล้อง
+  - ข้อมูลจำเพาะ<br>ความเร่งแกน X/แกน Y/แกน Z
+- section_index: 26
+  heading_path: &id003
+  - บทที่Ⅴ โหมดการทำงาน
+  - 5.1 โหมดแมนนวล
+  table_md_path: tables/0026-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 26
+  heading_path: *id003
+  table_md_path: tables/0026-บทท-ⅴ-โหมดการทำงาน-table-02.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 27
+  heading_path: &id015
+  - บทที่Ⅴ โหมดการทำงาน
+  - 5.1.1 การปรับแรงดันเอาต์พุตในโหมดแมนนวล
+  table_md_path: tables/0027-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 28
+  heading_path: &id016
+  - บทที่Ⅴ โหมดการทำงาน
+  - 5.1.2 การปรับความถี่เอาต์พุตในโหมดแมนนวล
+  table_md_path: tables/0028-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 29
+  heading_path: &id004
+  - บทที่Ⅴ โหมดการทำงาน
+  - 5.2 โหมดออโต้
+  table_md_path: tables/0029-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 29
+  heading_path: *id004
+  table_md_path: tables/0029-บทท-ⅴ-โหมดการทำงาน-table-02.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+- section_index: 30
+  heading_path: &id017
+  - บทที่Ⅴ โหมดการทำงาน
+  - 5.2.1.2 คำแนะนำการติดตั้งเซ็นเซอร์สั่นสะเทือน
+  table_md_path: tables/0030-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 31
+  heading_path: &id018
+  - บทที่Ⅴ โหมดการทำงาน
+  - 5.2.2 การปรับความเร็วป้อนในโหมดออโต้
+  table_md_path: tables/0031-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 32
+  heading_path: &id019
+  - บทที่Ⅴ โหมดการทำงาน
+  - 5.2.3 การวัดความถี่อัตโนมัติในโหมดออโต้
+  table_md_path: tables/0032-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 33
+  heading_path: &id005
+  - บทที่Ⅴ โหมดการทำงาน
+  - 5.3 โหมดกึ่งอัตโนมัติ
+  table_md_path: tables/0033-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 33
+  heading_path: *id005
+  table_md_path: tables/0033-บทท-ⅴ-โหมดการทำงาน-table-02.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 34
+  heading_path: &id006
+  - บทที่Ⅴ โหมดการทำงาน
+  - 5.4 โหมดซิงค์
+  table_md_path: tables/0034-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 34
+  heading_path: *id006
+  table_md_path: tables/0034-บทท-ⅴ-โหมดการทำงาน-table-02.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 35
+  heading_path: &id020
+  - บทที่Ⅴ โหมดการทำงาน
+  - 5.4.1 วิธีการเชื่อมต่อสายสัญญาณซิงค์
+  table_md_path: tables/0035-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 36
+  heading_path: &id007
+  - บทที่Ⅴ โหมดการทำงาน
+  - 5.4.2 การประยุกต์ใช้โหมดซิงค์
+  table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 36
+  heading_path: *id007
+  table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-02.md
+  headers:
+  - ตัวควบคุม
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 36
+  heading_path: *id007
+  table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-03.md
+  headers:
+  - ตัวควบคุม
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 36
+  heading_path: *id007
+  table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-04.md
+  headers:
+  - ตัวควบคุม
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 36
+  heading_path: *id007
+  table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-05.md
+  headers:
+  - ตัวควบคุม
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 36
+  heading_path: *id007
+  table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-06.md
+  headers:
+  - ตัวควบคุม
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 36
+  heading_path: *id007
+  table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-07.md
+  headers:
+  - ตัวควบคุม
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 37
+  heading_path: &id021
+  - บทที่Ⅴ โหมดการทำงาน
+  - 5.5 โหมดการนับ
+  table_md_path: tables/0037-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 38
+  heading_path: &id022
+  - บทที่Ⅴ โหมดการทำงาน
+  - 5.5.1 วิธีการใช้งาน
+  table_md_path: tables/0038-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 39
+  heading_path: &id023
+  - บทที่Ⅴ โหมดการทำงาน
+  - 5.5.2 วิธีการเชื่อมต่อ
+  table_md_path: tables/0039-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 40
+  heading_path: &id024
+  - บทที่Ⅴ โหมดการทำงาน
+  - 5.5.3 ทิศทางลอจิกของพัลส์นับ
+  table_md_path: tables/0040-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 41
+  heading_path: &id025
+  - บทที่Ⅴ โหมดการทำงาน
+  - 5.5.4 ทิศทางลอจิกของการรีเซ็ตการนับ
+  table_md_path: tables/0041-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 42
+  heading_path: &id026
+  - บทที่Ⅴ โหมดการทำงาน
+  - 5.5.5 คำอธิบายพารามิเตอร์การนับ
+  table_md_path: tables/0042-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 43
+  heading_path: &id027
+  - บทที่Ⅴ โหมดการทำงาน
+  - 'เปอร์เซ็นต์ความเร็วของการสิ้นสุดการนับ: u'
+  table_md_path: tables/0043-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 44
+  heading_path: &id028
+  - บทที่Ⅴ โหมดการทำงาน
+  - 'เวลาต้านการสั่นของการนับ: J'
+  table_md_path: tables/0044-บทท-ⅴ-โหมดการทำงาน-table-01.md
+  headers:
+  - โหมดการทำงาน
+  - แรงดันเอาต์พุต U — วิธีการปรับ
+  - แรงดันเอาต์พุต U — การตั้งค่า Γ5
+  - ความถี่เอาต์พุต E — วิธีการปรับ
+  - ความถี่เอาต์พุต E — การตั้งค่า Γ6
+  - ภาพสัญลักษณ์
+- section_index: 59
+  heading_path: &id029
+  - บทที่ Ⅵ การควบคุมสัญญาณ
+  - วิธีการเชื่อมต่อ PLC ควบคุมความเร็วระยะไกล
+  table_md_path: tables/0059-บทท-ⅵ-การควบค-มส-ญญาณ-table-01.md
+  headers:
+  - สัญญาณควบคุมความเร็วระยะไกล
+  - แรงดันเอาต์พุต U/ความเร็วป้อน A
+- section_index: 63
+  heading_path: &id030
+  - บทที่ Ⅵ การควบคุมสัญญาณ
+  - 6.6 การบันทึกและเอาต์พุตความเร็วที่ตั้งไว้ล่วงหน้า
+  table_md_path: tables/0063-บทท-ⅵ-การควบค-มส-ญญาณ-table-01.md
+  headers:
+  - ความเร็วที่ตั้งไว้ล่วงหน้า
+  - พอร์ต G1 & G2 — ไฟแสดงสถานะความเร็ว A
+  - พอร์ต G1 & G2 — สวิตช์ 1
+  - พอร์ต G3 & G4 — ไฟแสดงสถานะความเร็ว B
+  - พอร์ต G3 & G4 — สวิตช์ 2
+- section_index: 67
+  heading_path: &id031
+  - บทที่ Ⅶ ฟังก์ชันความปลอดภัย
+  - บทที่ Ⅷ ภาคผนวก
+  table_md_path: tables/0067-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+  headers:
+  - ช่วงขนาดมิติ
+  - ค่าเผื่อความคลาดเคลื่อน
+- section_index: 73
+  heading_path: &id032
+  - บทที่ Ⅶ ฟังก์ชันความปลอดภัย
+  - 8.3 ข้อมูลจำเพาะทางเทคนิค
+  table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+  headers:
+  - รายการ
+  - ต่ำสุด
+  - ทั่วไป
+  - สูงสุด
+  - หน่วย
+  - หมายเหตุ
+- section_index: 74
+  heading_path: &id008
+  - บทที่ Ⅶ ฟังก์ชันความปลอดภัย
+  - 8.4 ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+  table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+  headers:
+  - อาการเสีย
+  - ข้อเสนอแนะการแก้ไขปัญหา
+  - ภาพสัญลักษณ์
+- section_index: 74
+  heading_path: *id008
+  table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-02.md
+  headers:
+  - อาการเสีย
+  - ภาพสัญลักษณ์
+  - ข้อเสนอแนะการแก้ไขปัญหา
+items:
+- name: ⚠ อันตราย
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ อันตราย
+    col_2: การไม่ปฏิบัติตามข้อนี้จะทำให้เกิดการบาดเจ็บต่อบุคคลหรือเสียชีวิต
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id009
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ⚠ คำเตือน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ คำเตือน
+    col_2: การไม่ปฏิบัติตามข้อนี้อาจทำให้เกิดการบาดเจ็บต่อบุคคลหรือเสียชีวิต
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id009
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ⚠ ข้อควรระวัง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ ข้อควรระวัง
+    col_2: การไม่ปฏิบัติตามข้อนี้อาจทำให้เกิดการบาดเจ็บระดับปานกลางหรือเล็กน้อยต่อบุคคล
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id009
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ข้อสังเกต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ข้อสังเกต
+    col_2: การไม่ปฏิบัติตามข้อนี้จะทำให้เกิดความเสียหายต่อผลิตภัณฑ์และทรัพย์สิน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id009
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ❗ จำเป็น
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ❗ จำเป็น
+    col_2: ระบุข้อควรระวังและข้อจำกัดการใช้งานที่ต้องปฏิบัติตามระหว่างการใช้งาน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id009
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Speed Ctrl
+    พอร์ต: A1
+    สัญญาณ: RGND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Speed Ctrl
+    พอร์ต: A2
+    สัญญาณ: Input
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Speed Ctrl
+    พอร์ต: A3
+    สัญญาณ: +5V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Speed Ctrl
+    พอร์ต: A4
+    สัญญาณ: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Sensor
+    พอร์ต: C1
+    สัญญาณ: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Sensor
+    พอร์ต: C2
+    สัญญาณ: Input
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Sensor
+    พอร์ต: C3
+    สัญญาณ: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Ctrl Out
+    พอร์ต: D1
+    สัญญาณ: Output
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Ctrl Out
+    พอร์ต: D2
+    สัญญาณ: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Sensor Ⅱ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Sensor Ⅱ
+    พอร์ต: E1
+    สัญญาณ: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Sensor Ⅱ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Sensor Ⅱ
+    พอร์ต: E2
+    สัญญาณ: Input
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Sensor Ⅱ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Sensor Ⅱ
+    พอร์ต: E3
+    สัญญาณ: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: RS 485
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: RS 485
+    พอร์ต: F2
+    สัญญาณ: A+
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: RS 485
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: RS 485
+    พอร์ต: F3
+    สัญญาณ: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: RS 485
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: RS 485
+    พอร์ต: F4
+    สัญญาณ: B-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Preset
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Preset
+    พอร์ต: G1
+    สัญญาณ: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Preset
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Preset
+    พอร์ต: G2
+    สัญญาณ: PSet A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Preset
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Preset
+    พอร์ต: G4
+    สัญญาณ: Pset B
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Preset
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Preset
+    พอร์ต: G5
+    สัญญาณ: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Sync
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Sync
+    พอร์ต: H1
+    สัญญาณ: Sync In-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Sync
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Sync
+    พอร์ต: H2
+    สัญญาณ: Sync In+
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Sync
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Sync
+    พอร์ต: H3
+    สัญญาณ: Sync Out-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: Sync
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: Sync
+    พอร์ต: H4
+    สัญญาณ: Sync Out+
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 10
+    heading_path: *id010
+    heading_title: 1.5 คำอธิบายพอร์ตการต่อสาย
+    table_role: generic
+    table_md_path: tables/0010-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: SDVC34-MR
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รุ่นตัวควบคุม: SDVC34-MR
+    กำลัง (VA): '660'
+    ฟังก์ชัน: RS485
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 คู่มือการเลือก
+    table_role: generic
+    table_md_path: tables/0013-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: SDVC34-MRJ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รุ่นตัวควบคุม: SDVC34-MRJ
+    กำลัง (VA): '660'
+    ฟังก์ชัน: RS485 และการนับ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 คู่มือการเลือก
+    table_role: generic
+    table_md_path: tables/0013-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: SDVC34-XLR
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รุ่นตัวควบคุม: SDVC34-XLR
+    กำลัง (VA): '1320'
+    ฟังก์ชัน: RS485
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 คู่มือการเลือก
+    table_role: generic
+    table_md_path: tables/0013-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: SDVC34-XLRJ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รุ่นตัวควบคุม: SDVC34-XLRJ
+    กำลัง (VA): '1320'
+    ฟังก์ชัน: RS485 และการนับ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 คู่มือการเลือก
+    table_role: generic
+    table_md_path: tables/0013-บทท-i-คำแนะนำก-อนการใช-งาน-table-01.md
+- name: การควบคุมเปิด/ปิดของพอร์ต C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: การควบคุมเปิด/ปิดของพอร์ต C
+    ทั่วไป: √
+    การนับ: √
+    RS485: √
+    RS485 และการนับ: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 คู่มือการเลือก
+    table_role: generic
+    table_md_path: tables/0013-บทท-i-คำแนะนำก-อนการใช-งาน-table-02.md
+- name: การควบคุมความเร็วระยะไกล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: การควบคุมความเร็วระยะไกล
+    ทั่วไป: √
+    การนับ: √
+    RS485: √
+    RS485 และการนับ: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 คู่มือการเลือก
+    table_role: generic
+    table_md_path: tables/0013-บทท-i-คำแนะนำก-อนการใช-งาน-table-02.md
+- name: เอาต์พุตควบคุม
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: เอาต์พุตควบคุม
+    ทั่วไป: √
+    การนับ: √
+    RS485: √
+    RS485 และการนับ: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 คู่มือการเลือก
+    table_role: generic
+    table_md_path: tables/0013-บทท-i-คำแนะนำก-อนการใช-งาน-table-02.md
+- name: ความเร็วที่ตั้งไว้ล่วงหน้า
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: ความเร็วที่ตั้งไว้ล่วงหน้า
+    ทั่วไป: √
+    RS485: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 คู่มือการเลือก
+    table_role: generic
+    table_md_path: tables/0013-บทท-i-คำแนะนำก-อนการใช-งาน-table-02.md
+- name: การนับ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: การนับ
+    การนับ: √
+    RS485 และการนับ: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 คู่มือการเลือก
+    table_role: generic
+    table_md_path: tables/0013-บทท-i-คำแนะนำก-อนการใช-งาน-table-02.md
+- name: การควบคุมเปิด/ปิดของพอร์ต E
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: การควบคุมเปิด/ปิดของพอร์ต E
+    RS485: √
+    RS485 และการนับ: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 คู่มือการเลือก
+    table_role: generic
+    table_md_path: tables/0013-บทท-i-คำแนะนำก-อนการใช-งาน-table-02.md
+- name: การซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: การซิงค์
+    RS485: √
+    RS485 และการนับ: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 คู่มือการเลือก
+    table_role: generic
+    table_md_path: tables/0013-บทท-i-คำแนะนำก-อนการใช-งาน-table-02.md
+- name: RS 485
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: RS 485
+    RS485: √
+    RS485 และการนับ: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 คู่มือการเลือก
+    table_role: generic
+    table_md_path: tables/0013-บทท-i-คำแนะนำก-อนการใช-งาน-table-02.md
+- name: เซ็นเซอร์สั่นสะเทือน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ฟังก์ชัน: เซ็นเซอร์สั่นสะเทือน
+    ทั่วไป: √
+    การนับ: √
+    RS485: √
+    RS485 และการนับ: √
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 13
+    heading_path: *id001
+    heading_title: 2.2 คู่มือการเลือก
+    table_role: generic
+    table_md_path: tables/0013-บทท-i-คำแนะนำก-อนการใช-งาน-table-02.md
+- name: พารามิเตอร์ทั่วไป
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ทั่วไป
+    คำจำกัดความ: แรงดันเอาต์พุต
+    สัญลักษณ์: U
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผล U สำหรับแรงดันเอาต์พุต](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-01.png)'
+    ช่วงค่า: 0~250 (V)
+    ค่าเริ่มต้น: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 15
+    heading_path: *id011
+    heading_title: 4.1 พารามิเตอร์ทั่วไป
+    table_role: generic
+    table_md_path: tables/0015-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: พารามิเตอร์ทั่วไป
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ทั่วไป
+    คำจำกัดความ: ความเร็วป้อน
+    สัญลักษณ์: A
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผล A สำหรับความเร็วป้อน](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-02.png)'
+    ช่วงค่า: 0~3200
+    ค่าเริ่มต้น: '200'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 15
+    heading_path: *id011
+    heading_title: 4.1 พารามิเตอร์ทั่วไป
+    table_role: generic
+    table_md_path: tables/0015-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: พารามิเตอร์ทั่วไป
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์ทั่วไป
+    คำจำกัดความ: การล็อกแผงควบคุม
+    สัญลักษณ์: a
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับการล็อกแผงควบคุม](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-03.png)'
+    ช่วงค่า: ——
+    ค่าเริ่มต้น: ค่าแรงดันปัจจุบัน/<br>ความเร็วป้อนปัจจุบัน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 15
+    heading_path: *id011
+    heading_title: 4.1 พารามิเตอร์ทั่วไป
+    table_role: generic
+    table_md_path: tables/0015-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: พารามิเตอร์พื้นฐาน<br>กด `FUNC` ค้างไว้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์พื้นฐาน<br>กด `FUNC` ค้างไว้
+    คำจำกัดความ: ความถี่เอาต์พุต
+    สัญลักษณ์: E
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผล E สำหรับความถี่เอาต์พุต](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-05.png)'
+    ช่วงค่า: 25.0~400.0 (Hz)
+    ค่าเริ่มต้น: '50.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 16
+    heading_path: *id012
+    heading_title: 4.2 พารามิเตอร์พื้นฐาน
+    table_role: generic
+    table_md_path: tables/0016-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: พารามิเตอร์พื้นฐาน<br>กด `FUNC` ค้างไว้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์พื้นฐาน<br>กด `FUNC` ค้างไว้
+    คำจำกัดความ: เวลาหน่วงเปิดของพอร์ต C
+    สัญลักษณ์: J
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผล J สำหรับเวลาหน่วงเปิดของพอร์ต C](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-06.png)'
+    ช่วงค่า: 0.0~99.9 (s)
+    ค่าเริ่มต้น: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 16
+    heading_path: *id012
+    heading_title: 4.2 พารามิเตอร์พื้นฐาน
+    table_role: generic
+    table_md_path: tables/0016-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: พารามิเตอร์พื้นฐาน<br>กด `FUNC` ค้างไว้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์พื้นฐาน<br>กด `FUNC` ค้างไว้
+    คำจำกัดความ: เวลาหน่วงปิดของพอร์ต C
+    สัญลักษณ์: L
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผล L สำหรับเวลาหน่วงปิดของพอร์ต C](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-07.png)'
+    ช่วงค่า: 0.0~99.9 (s)
+    ค่าเริ่มต้น: '0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 16
+    heading_path: *id012
+    heading_title: 4.2 พารามิเตอร์พื้นฐาน
+    table_role: generic
+    table_md_path: tables/0016-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: พารามิเตอร์พื้นฐาน<br>กด `FUNC` ค้างไว้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์พื้นฐาน<br>กด `FUNC` ค้างไว้
+    คำจำกัดความ: เวลาสตาร์ทแบบนุ่มนวล
+    สัญลักษณ์: t
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผล t สำหรับเวลาสตาร์ทแบบนุ่มนวล](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-08.png)'
+    ช่วงค่า: 0.0~10.0 (s)
+    ค่าเริ่มต้น: '0.5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 16
+    heading_path: *id012
+    heading_title: 4.2 พารามิเตอร์พื้นฐาน
+    table_role: generic
+    table_md_path: tables/0016-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: พารามิเตอร์พื้นฐาน<br>กด `FUNC` ค้างไว้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: พารามิเตอร์พื้นฐาน<br>กด `FUNC` ค้างไว้
+    คำจำกัดความ: ขีดจำกัดการนับสูงสุด<br>(ตัวควบคุมที่มีฟังก์ชันการนับ ส่วนต่อท้าย
+      J)
+    สัญลักษณ์: '3'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผล 3 สำหรับขีดจำกัดการนับสูงสุด](assets/images/cuh.sdvc34.manual.v0.0/page-0020-vcrop-09.png)'
+    ช่วงค่า: 0~9999
+    ค่าเริ่มต้น: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 16
+    heading_path: *id012
+    heading_title: 4.2 พารามิเตอร์พื้นฐาน
+    table_role: generic
+    table_md_path: tables/0016-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: เวลาหน่วงเปิดของพอร์ต E
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: เวลาหน่วงเปิดของพอร์ต E
+    สัญลักษณ์: J-
+    ภาพสัญลักษณ์: '![เวลาหน่วงเปิดของพอร์ต E：สัญลักษณ์จอแสดงผล ช่วงค่า และค่าเริ่มต้น](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-01.png)'
+    ช่วงค่า: 0.0~99.9 (s)
+    ค่าเริ่มต้น: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: เวลาหน่วงปิดของพอร์ต E
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: เวลาหน่วงปิดของพอร์ต E
+    สัญลักษณ์: L-
+    ภาพสัญลักษณ์: '![เวลาหน่วงปิดของพอร์ต E：สัญลักษณ์จอแสดงผล ช่วงค่า และค่าเริ่มต้น](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-02.png)'
+    ช่วงค่า: 0.0~99.9 (s)
+    ค่าเริ่มต้น: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: เวลาหน่วงเปิดของพอร์ต D
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: เวลาหน่วงเปิดของพอร์ต D
+    สัญลักษณ์: Jd
+    ภาพสัญลักษณ์: '![เวลาหน่วงเปิดของพอร์ต D：สัญลักษณ์จอแสดงผล ช่วงค่า และค่าเริ่มต้น](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-03.png)'
+    ช่วงค่า: 0.0~99.9 (s)
+    ค่าเริ่มต้น: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: เวลาหน่วงปิดของพอร์ต D
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: เวลาหน่วงปิดของพอร์ต D
+    สัญลักษณ์: Ld
+    ภาพสัญลักษณ์: '![เวลาหน่วงปิดของพอร์ต D：สัญลักษณ์จอแสดงผล ช่วงค่า และค่าเริ่มต้น](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-04.png)'
+    ช่วงค่า: 0.0~99.9 (s)
+    ค่าเริ่มต้น: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ประเภทพอร์ต D
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ประเภทพอร์ต D
+    สัญลักษณ์: rd
+    ภาพสัญลักษณ์: '![ประเภทพอร์ต D：สัญลักษณ์จอแสดงผล ช่วงค่า และค่าเริ่มต้น](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-05.png)'
+    ช่วงค่า: nPn, PnP, PSP (พุช-พูล)
+    ค่าเริ่มต้น: nPn
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ความสัมพันธ์ทางลอจิกของพอร์ต C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ความสัมพันธ์ทางลอจิกของพอร์ต C
+    สัญลักษณ์: F2
+    ภาพสัญลักษณ์: '![ความสัมพันธ์ทางลอจิกของพอร์ต C：สัญลักษณ์พารามิเตอร์และสัญลักษณ์แสดงลอจิกบวก/ลบ](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-06.png)'
+    ช่วงค่า: ลอจิกบวก, ลอจิกกลบ
+    ค่าเริ่มต้น: ลอจิกบวก
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ความสัมพันธ์ทางลอจิกของพอร์ต E
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ความสัมพันธ์ทางลอจิกของพอร์ต E
+    สัญลักษณ์: F1
+    ภาพสัญลักษณ์: '![ความสัมพันธ์ทางลอจิกของพอร์ต E：สัญลักษณ์พารามิเตอร์และสัญลักษณ์แสดงลอจิกบวก/ลบ](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-07.png)'
+    ช่วงค่า: ลอจิกบวก, ลอจิกกลบ
+    ค่าเริ่มต้น: ลอจิกบวก
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ความสัมพันธ์ทางลอจิกของเอาต์พุตควบคุม
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ความสัมพันธ์ทางลอจิกของเอาต์พุตควบคุม
+    สัญลักษณ์: F3
+    ภาพสัญลักษณ์: '![ความสัมพันธ์ทางลอจิกของเอาต์พุตควบคุม：สัญลักษณ์พารามิเตอร์ ตัวเลือกลอจิก
+      และการแสดงค่าเริ่มต้น](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-08.png)'
+    ช่วงค่า: ลอจิกบวก, ลอจิกกลบ,<br>ควบคุมด้วยสัญญาณเตือน
+    ค่าเริ่มต้น: ลอจิกบวก
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: การดำเนินการทางลอจิกของเอาต์พุตหลัก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: การดำเนินการทางลอจิกของเอาต์พุตหลัก
+    สัญลักษณ์: F4
+    ภาพสัญลักษณ์: '![การดำเนินการทางลอจิกของเอาต์พุตหลัก：สัญลักษณ์พารามิเตอร์ ตัวเลือกลอจิกสี่แบบ
+      และการแสดงค่าเริ่มต้น](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-09.png)'
+    ช่วงค่า: ลอจิกบวก, ลอจิกกลบ,<br>เอาต์พุตหลักถูกควบคุมโดยพอร์ต C พอร์ต D ถูกควบคุมโดยพอร์ต
+      E<br>เอาต์พุตหลักถูกควบคุมโดยพอร์ต E พอร์ต D ถูกควบคุมโดยพอร์ต C
+    ค่าเริ่มต้น: ลอจิกบวก
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: การดำเนินการทางลอจิกของเอาต์พุตควบคุม
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: การดำเนินการทางลอจิกของเอาต์พุตควบคุม
+    สัญลักษณ์: F8
+    ภาพสัญลักษณ์: '![การดำเนินการทางลอจิกของเอาต์พุตควบคุม：สัญลักษณ์พารามิเตอร์ ตัวเลือกลอจิก
+      และการแสดงค่าเริ่มต้น](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-10.png)'
+    ช่วงค่า: ลอจิกหลัก, กลุ่มลอจิกชุดที่สอง
+    ค่าเริ่มต้น: ลอจิกหลัก
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ประเภทเซ็นเซอร์สวิตช์<br>(ตัวควบคุมที่มีฟังก์ชัน RS485 ส่วนต่อท้าย R)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ประเภทเซ็นเซอร์สวิตช์<br>(ตัวควบคุมที่มีฟังก์ชัน RS485 ส่วนต่อท้าย
+      R)
+    สัญลักษณ์: FA
+    ภาพสัญลักษณ์: '![ประเภทเซ็นเซอร์สวิตช์ (ส่วนต่อท้าย R)：สัญลักษณ์จอแสดงผล ช่วงค่า
+      และค่าเริ่มต้น](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-11.png)'
+    ช่วงค่า: Uto, nPn, PnP
+    ค่าเริ่มต้น: Uto
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ประเภทเซ็นเซอร์สวิตช์<br>(ตัวควบคุมที่มีฟังก์ชันการนับ ส่วนต่อท้าย J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ประเภทเซ็นเซอร์สวิตช์<br>(ตัวควบคุมที่มีฟังก์ชันการนับ ส่วนต่อท้าย
+      J)
+    สัญลักษณ์: FA
+    ภาพสัญลักษณ์: '![ประเภทเซ็นเซอร์สวิตช์ (ส่วนต่อท้าย J)：สัญลักษณ์จอแสดงผล ช่วงค่า
+      และค่าเริ่มต้น](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-12.png)'
+    ช่วงค่า: nPn, PnP
+    ค่าเริ่มต้น: nPn
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ความสัมพันธ์ทางลอจิกของพอร์ต C และ E
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ความสัมพันธ์ทางลอจิกของพอร์ต C และ E
+    สัญลักษณ์: ∩
+    ภาพสัญลักษณ์: '![ความสัมพันธ์ทางลอจิกของพอร์ต C และ E：สัญลักษณ์พารามิเตอร์ กราฟิก
+      And/or/Xor และการแสดงค่าเริ่มต้น](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-13.png)'
+    ช่วงค่า: And, or, Xor
+    ค่าเริ่มต้น: And
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ทิศทางลอจิกของพัลส์นับ<br>(ตัวควบคุมที่มีฟังก์ชันการนับ ส่วนต่อท้าย J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ทิศทางลอจิกของพัลส์นับ<br>(ตัวควบคุมที่มีฟังก์ชันการนับ ส่วนต่อท้าย
+      J)
+    สัญลักษณ์: Fb
+    ภาพสัญลักษณ์: '![ทิศทางลอจิกของพัลส์นับ：สัญลักษณ์พารามิเตอร์ กราฟิกขอบตกและขอบขึ้น
+      และการแสดงค่าเริ่มต้น](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-14.png)'
+    ช่วงค่า: ขอบตก, ขอบขึ้น
+    ค่าเริ่มต้น: ขอบตก
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ทิศทางลอจิกของการรีเซ็ตการนับ<br>(ตัวควบคุมที่มีฟังก์ชันการนับ ส่วนต่อท้าย
+    J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ทิศทางลอจิกของการรีเซ็ตการนับ<br>(ตัวควบคุมที่มีฟังก์ชันการนับ ส่วนต่อท้าย
+      J)
+    สัญลักษณ์: FC
+    ภาพสัญลักษณ์: '![ทิศทางลอจิกของการรีเซ็ตการนับ：สัญลักษณ์พารามิเตอร์ กราฟิกขอบตกและขอบขึ้น
+      และการแสดงค่าเริ่มต้น](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-15.png)'
+    ช่วงค่า: ขอบตก, ขอบขึ้น
+    ค่าเริ่มต้น: ขอบตก
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: เปอร์เซ็นต์ความเร็วเมื่อสิ้นสุดการนับ<br>(ตัวควบคุมที่มีฟังก์ชันการนับ ส่วนต่อท้าย
+    J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: เปอร์เซ็นต์ความเร็วเมื่อสิ้นสุดการนับ<br>(ตัวควบคุมที่มีฟังก์ชันการนับ
+      ส่วนต่อท้าย J)
+    สัญลักษณ์: u
+    ภาพสัญลักษณ์: '![เปอร์เซ็นต์ความเร็วเมื่อสิ้นสุดการนับ：สัญลักษณ์จอแสดงผล ช่วงค่า
+      และค่าเริ่มต้น](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-16.png)'
+    ช่วงค่า: 0~100
+    ค่าเริ่มต้น: '30'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: จำนวนครั้งสิ้นสุดการนับ<br>(ตัวควบคุมที่มีฟังก์ชันการนับ ส่วนต่อท้าย J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: จำนวนครั้งสิ้นสุดการนับ<br>(ตัวควบคุมที่มีฟังก์ชันการนับ ส่วนต่อท้าย
+      J)
+    สัญลักษณ์: n
+    ภาพสัญลักษณ์: '![จำนวนครั้งสิ้นสุดการนับ：สัญลักษณ์จอแสดงผล ช่วงค่า และค่าเริ่มต้น](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-17.png)'
+    ช่วงค่า: 0~255
+    ค่าเริ่มต้น: '3'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: เวลากันสั่นสะเทือนของการนับ<br>(ตัวควบคุมที่มีฟังก์ชันการนับ ส่วนต่อท้าย J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: เวลากันสั่นสะเทือนของการนับ<br>(ตัวควบคุมที่มีฟังก์ชันการนับ ส่วนต่อท้าย
+      J)
+    สัญลักษณ์: U
+    ภาพสัญลักษณ์: '![เวลากันสั่นสะเทือนของการนับ：สัญลักษณ์จอแสดงผล ช่วงค่า และค่าเริ่มต้น](assets/images/cuh.sdvc34.manual.v0.0/page-0021-vcrop-18.png)'
+    ช่วงค่า: 0.001~2.000 (s)
+    ค่าเริ่มต้น: '0.010'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: แรงดันเอาต์พุตสูงสุดที่ปรับได้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: แรงดันเอาต์พุตสูงสุดที่ปรับได้
+    สัญลักษณ์: h
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับแรงดันเอาต์พุตสูงสุดที่ปรับได้](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-00.png)'
+    ช่วงค่า: 0~250 (V)
+    ค่าเริ่มต้น: '250'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-02.md
+- name: ขีดจำกัดล่างของความถี่เอาต์พุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ขีดจำกัดล่างของความถี่เอาต์พุต
+    สัญลักษณ์: e
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับขีดจำกัดล่างของความถี่เอาต์พุต](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-01.png)'
+    ช่วงค่า: 25.0~390.0 (Hz)
+    ค่าเริ่มต้น: '40.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-02.md
+- name: ดัชนีการเร่งความเร็ว
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ดัชนีการเร่งความเร็ว
+    สัญลักษณ์: y
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับดัชนีการเร่งความเร็ว](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-02.png)'
+    ช่วงค่า: 100~150 %
+    ค่าเริ่มต้น: '120'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-02.md
+- name: ดัชนีรูปคลื่น
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ดัชนีรูปคลื่น
+    สัญลักษณ์: r
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับดัชนีรูปคลื่น](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-03.png)'
+    ช่วงค่า: 0~100
+    ค่าเริ่มต้น: '100'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-02.md
+- name: การแสดงอุณหภูมิ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: การแสดงอุณหภูมิ
+    สัญลักษณ์: C
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับการแสดงอุณหภูมิ](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-04.png)'
+    ช่วงค่า: -10.0~80.0 (°C)
+    ค่าเริ่มต้น: อุณหภูมิปัจจุบัน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-02.md
+- name: โปรโตคอลการสื่อสาร
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: โปรโตคอลการสื่อสาร
+    สัญลักษณ์: P
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโปรโตคอลการสื่อสาร](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-05.png)'
+    ช่วงค่า: ASC, rtu
+    ค่าเริ่มต้น: rtu
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-02.md
+- name: ที่อยู่การสื่อสาร
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ที่อยู่การสื่อสาร
+    สัญลักษณ์: ดูภาพสัญลักษณ์
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับที่อยู่การสื่อสาร](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-06.png)'
+    ช่วงค่า: 1~31
+    ค่าเริ่มต้น: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-02.md
+- name: อัตราบอดการสื่อสาร
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: อัตราบอดการสื่อสาร
+    สัญลักษณ์: d
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับอัตราบอดการสื่อสาร](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-07.png)'
+    ช่วงค่า: 0.3~115.2 kbps
+    ค่าเริ่มต้น: '9.6'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-02.md
+- name: รหัสผ่านล็อกพารามิเตอร์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: รหัสผ่านล็อกพารามิเตอร์
+    สัญลักษณ์: q-
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับรหัสผ่านล็อกพารามิเตอร์](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-08.png)'
+    ช่วงค่า: 0~999
+    ค่าเริ่มต้น: '- - -'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-02.md
+- name: สถานะเมื่อเปิดเครื่อง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: สถานะเมื่อเปิดเครื่อง
+    สัญลักษณ์: rd
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับสถานะเมื่อเปิดเครื่อง](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-09.png)'
+    ช่วงค่า: Run, Stop, Follow before power off<br>![สถานะเมื่อเปิดเครื่อง：กราฟิกจอแสดงผลสำหรับ
+      Run, Stop และ Follow before power off](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-13.png)
+    ค่าเริ่มต้น: '- - -<br>![ขีดล่างสามขีดของค่าเริ่มต้นสถานะเมื่อเปิดเครื่อง](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-14.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-02.md
+- name: เวอร์ชันซอฟต์แวร์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: เวอร์ชันซอฟต์แวร์
+    สัญลักษณ์: Ur
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับเวอร์ชันซอฟต์แวร์](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-10.png)'
+    ช่วงค่า: ——
+    ค่าเริ่มต้น: เวอร์ชันปัจจุบัน
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-02.md
+- name: เวลารีเซ็ตอัตโนมัติหลังตัวนับเต็ม<br>(ตัวควบคุมที่มีฟังก์ชันการนับ ส่วนต่อท้าย
+    J)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: เวลารีเซ็ตอัตโนมัติหลังตัวนับเต็ม<br>(ตัวควบคุมที่มีฟังก์ชันการนับ
+      ส่วนต่อท้าย J)
+    สัญลักษณ์: rE
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับเวลารีเซ็ตอัตโนมัติหลังตัวนับเต็ม](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-11.png)'
+    ช่วงค่า: 0.0~99.9 (s)
+    ค่าเริ่มต้น: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-02.md
+- name: การรีเซ็ตตัวควบคุม
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: การรีเซ็ตตัวควบคุม
+    สัญลักษณ์: 8.8.8.8.8.
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลติดสว่างทั้งหมดสำหรับการรีเซ็ตตัวควบคุม](assets/images/cuh.sdvc34.manual.v0.0/page-0022-vcrop-12.png)'
+    ช่วงค่า: ——
+    ค่าเริ่มต้น: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 17
+    heading_path: *id002
+    heading_title: 4.3 พารามิเตอร์ขั้นสูง
+    table_role: generic
+    table_md_path: tables/0017-บทท-ⅳ-การปร-บพาราม-เตอร-table-02.md
+- name: ความถี่กลาง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ความถี่กลาง
+    สัญลักษณ์: F
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับความถี่กลาง](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-01.png)'
+    ช่วงค่า: 25.0~400.0 (Hz)
+    ค่าเริ่มต้น: '100.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ออฟเซ็ตสูงสุดใน Auto FM
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ออฟเซ็ตสูงสุดใน Auto FM
+    สัญลักษณ์: n
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับออฟเซ็ตสูงสุดใน Auto FM](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-02.png)'
+    ช่วงค่า: 0.0~180.0 (Hz)
+    ค่าเริ่มต้น: '30.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: วิธีการปรับแรงดันเอาต์พุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: วิธีการปรับแรงดันเอาต์พุต
+    สัญลักษณ์: FS
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับวิธีการปรับแรงดันเอาต์พุต](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-03.png)'
+    ช่วงค่า: Auto, Manual（ดูสัญลักษณ์ในภาพ） ![สัญลักษณ์แสดงผลสำหรับวิธีการปรับแรงดันเอาต์พุตแบบ
+      Auto และ Manual](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-19.png)
+    ค่าเริ่มต้น: '- - -'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: วิธีการปรับความถี่เอาต์พุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: วิธีการปรับความถี่เอาต์พุต
+    สัญลักษณ์: FG
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับวิธีการปรับความถี่เอาต์พุต](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-04.png)'
+    ช่วงค่า: Auto, Manual, Sync（ดูสัญลักษณ์ในภาพ） ![สัญลักษณ์แสดงผลสำหรับวิธีการปรับความถี่เอาต์พุตแบบ
+      Auto, Manual และ Sync](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-20.png)
+    ค่าเริ่มต้น: '- - -'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ดัชนีการปรับความถี่เอาต์พุตอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ดัชนีการปรับความถี่เอาต์พุตอัตโนมัติ
+    สัญลักษณ์: iF
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับดัชนีการปรับความถี่เอาต์พุตอัตโนมัติ](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-05.png)'
+    ช่วงค่า: 0~200
+    ค่าเริ่มต้น: '20'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ดัชนีการปรับแอมพลิจูดอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ดัชนีการปรับแอมพลิจูดอัตโนมัติ
+    สัญลักษณ์: PA
+    ภาพสัญลักษณ์: '![ดัชนีการปรับแอมพลิจูดอัตโนมัติ ค่าเริ่มต้น 60 สัญลักษณ์จอแสดงผล](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-06.png)'
+    ช่วงค่า: 0~999
+    ค่าเริ่มต้น: '60'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ดัชนีการปรับแอมพลิจูดอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ดัชนีการปรับแอมพลิจูดอัตโนมัติ
+    สัญลักษณ์: iA
+    ภาพสัญลักษณ์: '![ดัชนีการปรับแอมพลิจูดอัตโนมัติ ค่าเริ่มต้น 50 สัญลักษณ์จอแสดงผล](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-07.png)'
+    ช่วงค่า: 0~999
+    ค่าเริ่มต้น: '50'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: การแสดงความเร็วป้อน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: การแสดงความเร็วป้อน
+    สัญลักษณ์: U
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับการแสดงความเร็วป้อน](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-08.png)'
+    ช่วงค่า: 0~H
+    ค่าเริ่มต้น: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: การแสดงแรงดันเอาต์พุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: การแสดงแรงดันเอาต์พุต
+    สัญลักษณ์: G
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับการแสดงแรงดันเอาต์พุต](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-09.png)'
+    ช่วงค่า: 0~h (V)
+    ค่าเริ่มต้น: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ขีดจำกัดล่างของแรงดัน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ขีดจำกัดล่างของแรงดัน
+    สัญลักษณ์: GL
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับขีดจำกัดล่างของแรงดัน](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-10.png)'
+    ช่วงค่า: 0~250 (V)
+    ค่าเริ่มต้น: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ขีดจำกัดล่างของความถี่
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ขีดจำกัดล่างของความถี่
+    สัญลักษณ์: e
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับขีดจำกัดล่างของความถี่](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-11.png)'
+    ช่วงค่า: 25.0~400.0 (Hz)
+    ค่าเริ่มต้น: '40.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ดัชนีแอมพลิจูดสูงสุด
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ดัชนีแอมพลิจูดสูงสุด
+    สัญลักษณ์: P
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับดัชนีแอมพลิจูดสูงสุด](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-12.png)'
+    ช่วงค่า: 0~500
+    ค่าเริ่มต้น: '500'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ความเร็วป้อนสูงสุดที่ปรับได้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ความเร็วป้อนสูงสุดที่ปรับได้
+    สัญลักษณ์: H
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับความเร็วป้อนสูงสุดที่ปรับได้](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-13.png)'
+    ช่วงค่า: 0~3200
+    ค่าเริ่มต้น: '1500'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ความต่างเฟส
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ความต่างเฟส
+    สัญลักษณ์: Y
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับความต่างเฟส](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-14.png)'
+    ช่วงค่า: -180~180 °
+    ค่าเริ่มต้น: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: แรงดันเอาต์พุตสูงสุดในกระบวนการวัดความถี่อัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: แรงดันเอาต์พุตสูงสุดในกระบวนการวัดความถี่อัตโนมัติ
+    สัญลักษณ์: b
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับแรงดันเอาต์พุตสูงสุดในกระบวนการวัดความถี่อัตโนมัติ](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-15.png)'
+    ช่วงค่า: 0~250 (V)
+    ค่าเริ่มต้น: '100'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ความเร็วการค้นหาความถี่
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ความเร็วการค้นหาความถี่
+    สัญลักษณ์: SP
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับความเร็วการค้นหาความถี่](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-16.png)'
+    ช่วงค่า: 1~7
+    ค่าเริ่มต้น: '5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: ปริมาณการปรับความเร็วป้อนขั้นต่ำ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: ปริมาณการปรับความเร็วป้อนขั้นต่ำ
+    สัญลักษณ์: c
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับปริมาณการปรับความเร็วป้อนขั้นต่ำ](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-17.png)'
+    ช่วงค่า: 1~10
+    ค่าเริ่มต้น: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: หมายเลขเซ็นเซอร์สั่นสะเทือน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    คำจำกัดความ: หมายเลขเซ็นเซอร์สั่นสะเทือน
+    สัญลักษณ์: t
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับหมายเลขเซ็นเซอร์สั่นสะเทือน](assets/images/cuh.sdvc34.manual.v0.0/page-0026-vcrop-18.png)'
+    ช่วงค่า: 0, 1, 2, 3, 4, 203, 204, 205, 206
+    ค่าเริ่มต้น: '205'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 20
+    heading_path: *id013
+    heading_title: 4.4 พารามิเตอร์ออโต้/ซิงค์
+    table_role: generic
+    table_md_path: tables/0020-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: '1'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ค่าพารามิเตอร์: '1'
+    รุ่นที่สอดคล้อง: SDVS20-1
+    ข้อมูลจำเพาะ<br>ความเร่งแกน X/แกน Y/แกน Z: 16g/16g/16g
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 25
+    heading_path: *id014
+    heading_title: 'หมายเลขเซ็นเซอร์สั่นสะเทือน: ├'
+    table_role: generic
+    table_md_path: tables/0025-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: '2'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ค่าพารามิเตอร์: '2'
+    รุ่นที่สอดคล้อง: SDVS20-2
+    ข้อมูลจำเพาะ<br>ความเร่งแกน X/แกน Y/แกน Z: 35g/35g/——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 25
+    heading_path: *id014
+    heading_title: 'หมายเลขเซ็นเซอร์สั่นสะเทือน: ├'
+    table_role: generic
+    table_md_path: tables/0025-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: '3'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ค่าพารามิเตอร์: '3'
+    รุ่นที่สอดคล้อง: SDVS20-3
+    ข้อมูลจำเพาะ<br>ความเร่งแกน X/แกน Y/แกน Z: 50g/50g/——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 25
+    heading_path: *id014
+    heading_title: 'หมายเลขเซ็นเซอร์สั่นสะเทือน: ├'
+    table_role: generic
+    table_md_path: tables/0025-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: '4'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ค่าพารามิเตอร์: '4'
+    รุ่นที่สอดคล้อง: SDVS20-4
+    ข้อมูลจำเพาะ<br>ความเร่งแกน X/แกน Y/แกน Z: 70g/70g/——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 25
+    heading_path: *id014
+    heading_title: 'หมายเลขเซ็นเซอร์สั่นสะเทือน: ├'
+    table_role: generic
+    table_md_path: tables/0025-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: '203'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ค่าพารามิเตอร์: '203'
+    รุ่นที่สอดคล้อง: SDVS203
+    ข้อมูลจำเพาะ<br>ความเร่งแกน X/แกน Y/แกน Z: 8g/8g/8g
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 25
+    heading_path: *id014
+    heading_title: 'หมายเลขเซ็นเซอร์สั่นสะเทือน: ├'
+    table_role: generic
+    table_md_path: tables/0025-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: '204'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ค่าพารามิเตอร์: '204'
+    รุ่นที่สอดคล้อง: SDVS204
+    ข้อมูลจำเพาะ<br>ความเร่งแกน X/แกน Y/แกน Z: 16g/16g/16g
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 25
+    heading_path: *id014
+    heading_title: 'หมายเลขเซ็นเซอร์สั่นสะเทือน: ├'
+    table_role: generic
+    table_md_path: tables/0025-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: '205'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ค่าพารามิเตอร์: '205'
+    รุ่นที่สอดคล้อง: SDVS205
+    ข้อมูลจำเพาะ<br>ความเร่งแกน X/แกน Y/แกน Z: 32g/32g/32g
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 25
+    heading_path: *id014
+    heading_title: 'หมายเลขเซ็นเซอร์สั่นสะเทือน: ├'
+    table_role: generic
+    table_md_path: tables/0025-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: '206'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ค่าพารามิเตอร์: '206'
+    รุ่นที่สอดคล้อง: SDVS206
+    ข้อมูลจำเพาะ<br>ความเร่งแกน X/แกน Y/แกน Z: 64g/64g/64g
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 25
+    heading_path: *id014
+    heading_title: 'หมายเลขเซ็นเซอร์สั่นสะเทือน: ├'
+    table_role: generic
+    table_md_path: tables/0025-บทท-ⅳ-การปร-บพาราม-เตอร-table-01.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 26
+    heading_path: *id003
+    heading_title: 5.1 โหมดแมนนวล
+    table_role: generic
+    table_md_path: tables/0026-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 26
+    heading_path: *id003
+    heading_title: 5.1 โหมดแมนนวล
+    table_role: generic
+    table_md_path: tables/0026-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 26
+    heading_path: *id003
+    heading_title: 5.1 โหมดแมนนวล
+    table_role: generic
+    table_md_path: tables/0026-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 26
+    heading_path: *id003
+    heading_title: 5.1 โหมดแมนนวล
+    table_role: generic
+    table_md_path: tables/0026-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวลในตาราง 5.1](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-03.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 26
+    heading_path: *id003
+    heading_title: 5.1 โหมดแมนนวล
+    table_role: generic
+    table_md_path: tables/0026-บทท-ⅴ-โหมดการทำงาน-table-02.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id015
+    heading_title: 5.1.1 การปรับแรงดันเอาต์พุตในโหมดแมนนวล
+    table_role: generic
+    table_md_path: tables/0027-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id015
+    heading_title: 5.1.1 การปรับแรงดันเอาต์พุตในโหมดแมนนวล
+    table_role: generic
+    table_md_path: tables/0027-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id015
+    heading_title: 5.1.1 การปรับแรงดันเอาต์พุตในโหมดแมนนวล
+    table_role: generic
+    table_md_path: tables/0027-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 27
+    heading_path: *id015
+    heading_title: 5.1.1 การปรับแรงดันเอาต์พุตในโหมดแมนนวล
+    table_role: generic
+    table_md_path: tables/0027-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id016
+    heading_title: 5.1.2 การปรับความถี่เอาต์พุตในโหมดแมนนวล
+    table_role: generic
+    table_md_path: tables/0028-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id016
+    heading_title: 5.1.2 การปรับความถี่เอาต์พุตในโหมดแมนนวล
+    table_role: generic
+    table_md_path: tables/0028-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id016
+    heading_title: 5.1.2 การปรับความถี่เอาต์พุตในโหมดแมนนวล
+    table_role: generic
+    table_md_path: tables/0028-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id016
+    heading_title: 5.1.2 การปรับความถี่เอาต์พุตในโหมดแมนนวล
+    table_role: generic
+    table_md_path: tables/0028-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 29
+    heading_path: *id004
+    heading_title: 5.2 โหมดออโต้
+    table_role: generic
+    table_md_path: tables/0029-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 29
+    heading_path: *id004
+    heading_title: 5.2 โหมดออโต้
+    table_role: generic
+    table_md_path: tables/0029-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 29
+    heading_path: *id004
+    heading_title: 5.2 โหมดออโต้
+    table_role: generic
+    table_md_path: tables/0029-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 29
+    heading_path: *id004
+    heading_title: 5.2 โหมดออโต้
+    table_role: generic
+    table_md_path: tables/0029-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '- - -'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '- - -'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 29
+    heading_path: *id004
+    heading_title: 5.2 โหมดออโต้
+    table_role: generic
+    table_md_path: tables/0029-บทท-ⅴ-โหมดการทำงาน-table-02.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 30
+    heading_path: *id017
+    heading_title: 5.2.1.2 คำแนะนำการติดตั้งเซ็นเซอร์สั่นสะเทือน
+    table_role: generic
+    table_md_path: tables/0030-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 30
+    heading_path: *id017
+    heading_title: 5.2.1.2 คำแนะนำการติดตั้งเซ็นเซอร์สั่นสะเทือน
+    table_role: generic
+    table_md_path: tables/0030-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 30
+    heading_path: *id017
+    heading_title: 5.2.1.2 คำแนะนำการติดตั้งเซ็นเซอร์สั่นสะเทือน
+    table_role: generic
+    table_md_path: tables/0030-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 30
+    heading_path: *id017
+    heading_title: 5.2.1.2 คำแนะนำการติดตั้งเซ็นเซอร์สั่นสะเทือน
+    table_role: generic
+    table_md_path: tables/0030-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id018
+    heading_title: 5.2.2 การปรับความเร็วป้อนในโหมดออโต้
+    table_role: generic
+    table_md_path: tables/0031-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id018
+    heading_title: 5.2.2 การปรับความเร็วป้อนในโหมดออโต้
+    table_role: generic
+    table_md_path: tables/0031-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id018
+    heading_title: 5.2.2 การปรับความเร็วป้อนในโหมดออโต้
+    table_role: generic
+    table_md_path: tables/0031-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 31
+    heading_path: *id018
+    heading_title: 5.2.2 การปรับความเร็วป้อนในโหมดออโต้
+    table_role: generic
+    table_md_path: tables/0031-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id019
+    heading_title: 5.2.3 การวัดความถี่อัตโนมัติในโหมดออโต้
+    table_role: generic
+    table_md_path: tables/0032-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id019
+    heading_title: 5.2.3 การวัดความถี่อัตโนมัติในโหมดออโต้
+    table_role: generic
+    table_md_path: tables/0032-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id019
+    heading_title: 5.2.3 การวัดความถี่อัตโนมัติในโหมดออโต้
+    table_role: generic
+    table_md_path: tables/0032-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 32
+    heading_path: *id019
+    heading_title: 5.2.3 การวัดความถี่อัตโนมัติในโหมดออโต้
+    table_role: generic
+    table_md_path: tables/0032-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id005
+    heading_title: 5.3 โหมดกึ่งอัตโนมัติ
+    table_role: generic
+    table_md_path: tables/0033-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id005
+    heading_title: 5.3 โหมดกึ่งอัตโนมัติ
+    table_role: generic
+    table_md_path: tables/0033-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id005
+    heading_title: 5.3 โหมดกึ่งอัตโนมัติ
+    table_role: generic
+    table_md_path: tables/0033-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id005
+    heading_title: 5.3 โหมดกึ่งอัตโนมัติ
+    table_role: generic
+    table_md_path: tables/0033-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`---`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_-_`'
+    ภาพสัญลักษณ์: 'Γ5: ![สัญลักษณ์จอแสดงผลสำหรับ Γ5: ขีดสั้นสามขีดอยู่ตรงกลาง](assets/images/cuh.sdvc34.manual.v0.0/page-0035-vcrop-00.png)
+      Γ6: ![สัญลักษณ์จอแสดงผลสำหรับ Γ6: ขีดสองข้างต่ำ ขีดกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0035-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 33
+    heading_path: *id005
+    heading_title: 5.3 โหมดกึ่งอัตโนมัติ
+    table_role: generic
+    table_md_path: tables/0033-บทท-ⅴ-โหมดการทำงาน-table-02.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 34
+    heading_path: *id006
+    heading_title: 5.4 โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0034-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 34
+    heading_path: *id006
+    heading_title: 5.4 โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0034-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 34
+    heading_path: *id006
+    heading_title: 5.4 โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0034-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 34
+    heading_path: *id006
+    heading_title: 5.4 โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0034-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: ด้วยตนเองหรืออัตโนมัติ
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: การตั้งค่าสัญลักษณ์สองแบบ (ดูภาพ เชื่อมด้วย
+      "หรือ")
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: ดูภาพ
+    ภาพสัญลักษณ์: 'Γ5: ![การตั้งค่า Γ5：การรวมแถบจอแสดงผลสองแบบ เชื่อมด้วย "หรือ"](assets/images/cuh.sdvc34.manual.v0.0/page-0037-vcrop-00.png)；Γ6:
+      ![สัญลักษณ์จอแสดงผลการตั้งค่า Γ6](assets/images/cuh.sdvc34.manual.v0.0/page-0037-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 34
+    heading_path: *id006
+    heading_title: 5.4 โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0034-บทท-ⅴ-โหมดการทำงาน-table-02.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id020
+    heading_title: 5.4.1 วิธีการเชื่อมต่อสายสัญญาณซิงค์
+    table_role: generic
+    table_md_path: tables/0035-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id020
+    heading_title: 5.4.1 วิธีการเชื่อมต่อสายสัญญาณซิงค์
+    table_role: generic
+    table_md_path: tables/0035-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id020
+    heading_title: 5.4.1 วิธีการเชื่อมต่อสายสัญญาณซิงค์
+    table_role: generic
+    table_md_path: tables/0035-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id020
+    heading_title: 5.4.1 วิธีการเชื่อมต่อสายสัญญาณซิงค์
+    table_role: generic
+    table_md_path: tables/0035-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id007
+    heading_title: 5.4.2 การประยุกต์ใช้โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id007
+    heading_title: 5.4.2 การประยุกต์ใช้โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id007
+    heading_title: 5.4.2 การประยุกต์ใช้โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id007
+    heading_title: 5.4.2 การประยุกต์ใช้โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: Master Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: Master Controller
+    แรงดันเอาต์พุต U — วิธีการปรับ: ด้วยตนเอง
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: ดูภาพสัญลักษณ์
+    ความถี่เอาต์พุต E — วิธีการปรับ: ด้วยตนเอง
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: ดูภาพสัญลักษณ์
+    ภาพสัญลักษณ์: Γ5：![สัญลักษณ์จอแสดงผลการตั้งค่า Γ5 ของ Master Controller](assets/images/cuh.sdvc34.manual.v0.0/page-0039-vcrop-00.png)；Γ6：![สัญลักษณ์จอแสดงผลการตั้งค่า
+      Γ6 ของ Master Controller](assets/images/cuh.sdvc34.manual.v0.0/page-0039-vcrop-01.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id007
+    heading_title: 5.4.2 การประยุกต์ใช้โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-02.md
+- name: Slave Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: Slave Controller
+    แรงดันเอาต์พุต U — วิธีการปรับ: ด้วยตนเอง
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: ดูภาพสัญลักษณ์
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: ดูภาพสัญลักษณ์
+    ภาพสัญลักษณ์: Γ5：![สัญลักษณ์จอแสดงผลการตั้งค่า Γ5 ของ Slave Controller](assets/images/cuh.sdvc34.manual.v0.0/page-0039-vcrop-02.png)；Γ6：![สัญลักษณ์จอแสดงผลการตั้งค่า
+      Γ6 ของ Slave Controller](assets/images/cuh.sdvc34.manual.v0.0/page-0039-vcrop-03.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id007
+    heading_title: 5.4.2 การประยุกต์ใช้โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-02.md
+- name: Master Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: Master Controller
+    แรงดันเอาต์พุต U — วิธีการปรับ: อัตโนมัติ
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: — — —
+    ความถี่เอาต์พุต E — วิธีการปรับ: อัตโนมัติ
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: — — —
+    ภาพสัญลักษณ์: Γ5, Γ6：![สัญลักษณ์จอแสดงผลสามแถบวางเรียงเคียงกัน](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-00.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id007
+    heading_title: 5.4.2 การประยุกต์ใช้โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-03.md
+- name: Slave Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: Slave Controller
+    แรงดันเอาต์พุต U — วิธีการปรับ: ด้วยตนเอง
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: ดูภาพสัญลักษณ์
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: ดูภาพสัญลักษณ์
+    ภาพสัญลักษณ์: Γ5：![สัญลักษณ์จอแสดงผลแถบด้านข้างต่ำกว่าและแถบกลางสูงกว่า](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-01.png)；Γ6：![สัญลักษณ์จอแสดงผลด้านข้างมีอย่างละสองแถบและตรงกลางมีสามแถบ](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-02.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id007
+    heading_title: 5.4.2 การประยุกต์ใช้โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-03.md
+- name: Master Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: Master Controller
+    แรงดันเอาต์พุต U — วิธีการปรับ: อัตโนมัติ
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: — — —
+    ความถี่เอาต์พุต E — วิธีการปรับ: ด้วยตนเอง
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: ดูภาพสัญลักษณ์
+    ภาพสัญลักษณ์: Γ5：![สัญลักษณ์จอแสดงผลแถบสั้นสามแถบสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-00.png)；Γ6：![สัญลักษณ์จอแสดงผลแถบด้านข้างต่ำกว่าและแถบกลางสูงกว่า](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-01.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id007
+    heading_title: 5.4.2 การประยุกต์ใช้โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-04.md
+- name: Slave Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: Slave Controller
+    แรงดันเอาต์พุต U — วิธีการปรับ: ด้วยตนเอง
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: ดูภาพสัญลักษณ์
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: ดูภาพสัญลักษณ์
+    ภาพสัญลักษณ์: Γ5：![สัญลักษณ์จอแสดงผลแถบด้านข้างต่ำกว่าและแถบกลางสูงกว่า](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-01.png)；Γ6：![สัญลักษณ์จอแสดงผลการตั้งค่า
+      Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0040-vcrop-02.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id007
+    heading_title: 5.4.2 การประยุกต์ใช้โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-04.md
+- name: Master Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: Master Controller
+    แรงดันเอาต์พุต U — วิธีการปรับ: ด้วยตนเอง
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: ดูภาพ Γ5 ในคอลัมน์ด้านขวา
+    ความถี่เอาต์พุต E — วิธีการปรับ: ด้วยตนเอง
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: ดูภาพ Γ6 ในคอลัมน์ด้านขวา
+    ภาพสัญลักษณ์: Γ5：![สัญลักษณ์จอแสดงผลการตั้งค่า Γ5 ของ Master Controller](assets/images/cuh.sdvc34.manual.v0.0/page-0041-vcrop-00.png)<br>Γ6：![สัญลักษณ์จอแสดงผลการตั้งค่า
+      Γ6 ของ Master Controller](assets/images/cuh.sdvc34.manual.v0.0/page-0041-vcrop-01.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id007
+    heading_title: 5.4.2 การประยุกต์ใช้โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-05.md
+- name: Slave Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: Slave Controller
+    แรงดันเอาต์พุต U — วิธีการปรับ: อัตโนมัติ
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: ดูภาพ Γ5 ในคอลัมน์ด้านขวา
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: ดูภาพ Γ6 ในคอลัมน์ด้านขวา
+    ภาพสัญลักษณ์: Γ5：![สัญลักษณ์จอแสดงผลการตั้งค่า Γ5 ของ Slave Controller](assets/images/cuh.sdvc34.manual.v0.0/page-0041-vcrop-02.png)<br>Γ6：![สัญลักษณ์จอแสดงผลการตั้งค่า
+      Γ6 ของ Slave Controller](assets/images/cuh.sdvc34.manual.v0.0/page-0041-vcrop-03.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id007
+    heading_title: 5.4.2 การประยุกต์ใช้โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-05.md
+- name: Master Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: Master Controller
+    แรงดันเอาต์พุต U — วิธีการปรับ: อัตโนมัติ
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '---'
+    ความถี่เอาต์พุต E — วิธีการปรับ: อัตโนมัติ
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '---'
+    ภาพสัญลักษณ์: Γ5, Γ6：![สัญลักษณ์จอแสดงผล：---](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-00.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id007
+    heading_title: 5.4.2 การประยุกต์ใช้โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-06.md
+- name: Slave Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: Slave Controller
+    แรงดันเอาต์พุต U — วิธีการปรับ: อัตโนมัติ
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '---'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: ดูภาพสัญลักษณ์
+    ภาพสัญลักษณ์: Γ5：![สัญลักษณ์จอแสดงผล：---](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-00.png)；Γ6：![สัญลักษณ์จอแสดงผลการตั้งค่า
+      Γ6 ของ Slave Controller](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-01.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id007
+    heading_title: 5.4.2 การประยุกต์ใช้โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-06.md
+- name: Master Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: Master Controller
+    แรงดันเอาต์พุต U — วิธีการปรับ: อัตโนมัติ
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '---'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ด้วยตนเอง
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: ดูภาพสัญลักษณ์
+    ภาพสัญลักษณ์: Γ5：![สัญลักษณ์จอแสดงผล：---](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-00.png)；Γ6：![สัญลักษณ์จอแสดงผลการตั้งค่า
+      Γ6 ของ Master Controller ใน Sub-Pattern 6](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-02.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id007
+    heading_title: 5.4.2 การประยุกต์ใช้โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-07.md
+- name: Slave Controller
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ตัวควบคุม: Slave Controller
+    แรงดันเอาต์พุต U — วิธีการปรับ: อัตโนมัติ
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '---'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: ดูภาพสัญลักษณ์
+    ภาพสัญลักษณ์: Γ5：![สัญลักษณ์จอแสดงผล：---](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-00.png)；Γ6：![สัญลักษณ์จอแสดงผลการตั้งค่า
+      Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0042-vcrop-01.png)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id007
+    heading_title: 5.4.2 การประยุกต์ใช้โหมดซิงค์
+    table_role: generic
+    table_md_path: tables/0036-บทท-ⅴ-โหมดการทำงาน-table-07.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id021
+    heading_title: 5.5 โหมดการนับ
+    table_role: generic
+    table_md_path: tables/0037-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id021
+    heading_title: 5.5 โหมดการนับ
+    table_role: generic
+    table_md_path: tables/0037-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id021
+    heading_title: 5.5 โหมดการนับ
+    table_role: generic
+    table_md_path: tables/0037-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id021
+    heading_title: 5.5 โหมดการนับ
+    table_role: generic
+    table_md_path: tables/0037-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id022
+    heading_title: 5.5.1 วิธีการใช้งาน
+    table_role: generic
+    table_md_path: tables/0038-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id022
+    heading_title: 5.5.1 วิธีการใช้งาน
+    table_role: generic
+    table_md_path: tables/0038-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id022
+    heading_title: 5.5.1 วิธีการใช้งาน
+    table_role: generic
+    table_md_path: tables/0038-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id022
+    heading_title: 5.5.1 วิธีการใช้งาน
+    table_role: generic
+    table_md_path: tables/0038-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id023
+    heading_title: 5.5.2 วิธีการเชื่อมต่อ
+    table_role: generic
+    table_md_path: tables/0039-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id023
+    heading_title: 5.5.2 วิธีการเชื่อมต่อ
+    table_role: generic
+    table_md_path: tables/0039-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id023
+    heading_title: 5.5.2 วิธีการเชื่อมต่อ
+    table_role: generic
+    table_md_path: tables/0039-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 39
+    heading_path: *id023
+    heading_title: 5.5.2 วิธีการเชื่อมต่อ
+    table_role: generic
+    table_md_path: tables/0039-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id024
+    heading_title: 5.5.3 ทิศทางลอจิกของพัลส์นับ
+    table_role: generic
+    table_md_path: tables/0040-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id024
+    heading_title: 5.5.3 ทิศทางลอจิกของพัลส์นับ
+    table_role: generic
+    table_md_path: tables/0040-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id024
+    heading_title: 5.5.3 ทิศทางลอจิกของพัลส์นับ
+    table_role: generic
+    table_md_path: tables/0040-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id024
+    heading_title: 5.5.3 ทิศทางลอจิกของพัลส์นับ
+    table_role: generic
+    table_md_path: tables/0040-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id025
+    heading_title: 5.5.4 ทิศทางลอจิกของการรีเซ็ตการนับ
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id025
+    heading_title: 5.5.4 ทิศทางลอจิกของการรีเซ็ตการนับ
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id025
+    heading_title: 5.5.4 ทิศทางลอจิกของการรีเซ็ตการนับ
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id025
+    heading_title: 5.5.4 ทิศทางลอจิกของการรีเซ็ตการนับ
+    table_role: generic
+    table_md_path: tables/0041-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id026
+    heading_title: 5.5.5 คำอธิบายพารามิเตอร์การนับ
+    table_role: generic
+    table_md_path: tables/0042-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id026
+    heading_title: 5.5.5 คำอธิบายพารามิเตอร์การนับ
+    table_role: generic
+    table_md_path: tables/0042-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id026
+    heading_title: 5.5.5 คำอธิบายพารามิเตอร์การนับ
+    table_role: generic
+    table_md_path: tables/0042-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id026
+    heading_title: 5.5.5 คำอธิบายพารามิเตอร์การนับ
+    table_role: generic
+    table_md_path: tables/0042-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id027
+    heading_title: 'เปอร์เซ็นต์ความเร็วของการสิ้นสุดการนับ: u'
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id027
+    heading_title: 'เปอร์เซ็นต์ความเร็วของการสิ้นสุดการนับ: u'
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id027
+    heading_title: 'เปอร์เซ็นต์ความเร็วของการสิ้นสุดการนับ: u'
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id027
+    heading_title: 'เปอร์เซ็นต์ความเร็วของการสิ้นสุดการนับ: u'
+    table_role: generic
+    table_md_path: tables/0043-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดแมนนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดแมนนวล
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวล
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id028
+    heading_title: 'เวลาต้านการสั่นของการนับ: J'
+    table_role: generic
+    table_md_path: tables/0044-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดออโต้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดออโต้
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ออโต้
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`- - -`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id028
+    heading_title: 'เวลาต้านการสั่นของการนับ: J'
+    table_role: generic
+    table_md_path: tables/0044-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดกึ่งอัตโนมัติ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดกึ่งอัตโนมัติ
+    แรงดันเอาต์พุต U — วิธีการปรับ: ออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: แมนนวล
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '`_ - _`'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id028
+    heading_title: 'เวลาต้านการสั่นของการนับ: J'
+    table_role: generic
+    table_md_path: tables/0044-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: โหมดซิงค์
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    โหมดการทำงาน: โหมดซิงค์
+    แรงดันเอาต์พุต U — วิธีการปรับ: แมนนวลหรือออโต้
+    แรงดันเอาต์พุต U — การตั้งค่า Γ5: '`_ - _` หรือ `- - -`'
+    ความถี่เอาต์พุต E — วิธีการปรับ: ซิงค์อัตโนมัติกับ Master Controller
+    ความถี่เอาต์พุต E — การตั้งค่า Γ6: '![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+    ภาพสัญลักษณ์: '![สัญลักษณ์จอแสดงผลสำหรับโหมดแมนนวล: ขีดสั้นสองข้างต่ำ ขีดสั้นกลางสูง](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับโหมดออโต้: ขีดสั้นสามขีดสูงเท่ากัน](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png)
+      / ![สัญลักษณ์จอแสดงผลสำหรับ Γ6 ในโหมดซิงค์](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 44
+    heading_path: *id028
+    heading_title: 'เวลาต้านการสั่นของการนับ: J'
+    table_role: generic
+    table_md_path: tables/0044-บทท-ⅴ-โหมดการทำงาน-table-01.md
+- name: น้อยกว่า 0.5V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    สัญญาณควบคุมความเร็วระยะไกล: น้อยกว่า 0.5V
+    แรงดันเอาต์พุต U/ความเร็วป้อน A: ควบคุมด้วยปุ่ม Vol+ และ Vol-
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 59
+    heading_path: *id029
+    heading_title: วิธีการเชื่อมต่อ PLC ควบคุมความเร็วระยะไกล
+    table_role: generic
+    table_md_path: tables/0059-บทท-ⅵ-การควบค-มส-ญญาณ-table-01.md
+- name: 0.5V~1V
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    สัญญาณควบคุมความเร็วระยะไกล: 0.5V~1V
+    แรงดันเอาต์พุต U/ความเร็วป้อน A: แรงดันเอาต์พุต U=20V/ความเร็วป้อน A=0<br>ควบคุมด้วยสัญญาณควบคุมความเร็วระยะไกล
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 59
+    heading_path: *id029
+    heading_title: วิธีการเชื่อมต่อ PLC ควบคุมความเร็วระยะไกล
+    table_role: generic
+    table_md_path: tables/0059-บทท-ⅵ-การควบค-มส-ญญาณ-table-01.md
+- name: 1~5V/4~20mA
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    สัญญาณควบคุมความเร็วระยะไกล: 1~5V/4~20mA
+    แรงดันเอาต์พุต U/ความเร็วป้อน A: แรงดันเอาต์พุต U/ความเร็วป้อน A ถูกควบคุม<br>เชิงเส้นด้วยสัญญาณควบคุมความเร็วระยะไกล
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 59
+    heading_path: *id029
+    heading_title: วิธีการเชื่อมต่อ PLC ควบคุมความเร็วระยะไกล
+    table_role: generic
+    table_md_path: tables/0059-บทท-ⅵ-การควบค-มส-ญญาณ-table-01.md
+- name: ความเร็ว 1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ความเร็วที่ตั้งไว้ล่วงหน้า: ความเร็ว 1
+    พอร์ต G1 & G2 — ไฟแสดงสถานะความเร็ว A: เปิด
+    พอร์ต G1 & G2 — สวิตช์ 1: ปิดวงจร
+    พอร์ต G3 & G4 — ไฟแสดงสถานะความเร็ว B: ปิด
+    พอร์ต G3 & G4 — สวิตช์ 2: เปิดวงจร
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 63
+    heading_path: *id030
+    heading_title: 6.6 การบันทึกและเอาต์พุตความเร็วที่ตั้งไว้ล่วงหน้า
+    table_role: generic
+    table_md_path: tables/0063-บทท-ⅵ-การควบค-มส-ญญาณ-table-01.md
+- name: ความเร็ว 2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ความเร็วที่ตั้งไว้ล่วงหน้า: ความเร็ว 2
+    พอร์ต G1 & G2 — ไฟแสดงสถานะความเร็ว A: ปิด
+    พอร์ต G1 & G2 — สวิตช์ 1: เปิดวงจร
+    พอร์ต G3 & G4 — ไฟแสดงสถานะความเร็ว B: เปิด
+    พอร์ต G3 & G4 — สวิตช์ 2: ปิดวงจร
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 63
+    heading_path: *id030
+    heading_title: 6.6 การบันทึกและเอาต์พุตความเร็วที่ตั้งไว้ล่วงหน้า
+    table_role: generic
+    table_md_path: tables/0063-บทท-ⅵ-การควบค-มส-ญญาณ-table-01.md
+- name: ความเร็ว 3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ความเร็วที่ตั้งไว้ล่วงหน้า: ความเร็ว 3
+    พอร์ต G1 & G2 — ไฟแสดงสถานะความเร็ว A: เปิด
+    พอร์ต G1 & G2 — สวิตช์ 1: ปิดวงจร
+    พอร์ต G3 & G4 — ไฟแสดงสถานะความเร็ว B: เปิด
+    พอร์ต G3 & G4 — สวิตช์ 2: ปิดวงจร
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 63
+    heading_path: *id030
+    heading_title: 6.6 การบันทึกและเอาต์พุตความเร็วที่ตั้งไว้ล่วงหน้า
+    table_role: generic
+    table_md_path: tables/0063-บทท-ⅵ-การควบค-มส-ญญาณ-table-01.md
+- name: ความเร็ว 4
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ความเร็วที่ตั้งไว้ล่วงหน้า: ความเร็ว 4
+    พอร์ต G1 & G2 — ไฟแสดงสถานะความเร็ว A: ปิด
+    พอร์ต G1 & G2 — สวิตช์ 1: เปิดวงจร
+    พอร์ต G3 & G4 — ไฟแสดงสถานะความเร็ว B: ปิด
+    พอร์ต G3 & G4 — สวิตช์ 2: เปิดวงจร
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 63
+    heading_path: *id030
+    heading_title: 6.6 การบันทึกและเอาต์พุตความเร็วที่ตั้งไว้ล่วงหน้า
+    table_role: generic
+    table_md_path: tables/0063-บทท-ⅵ-การควบค-มส-ญญาณ-table-01.md
+- name: 0~3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ช่วงขนาดมิติ: 0~3
+    ค่าเผื่อความคลาดเคลื่อน: ±0.05
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 67
+    heading_path: *id031
+    heading_title: บทที่ Ⅷ ภาคผนวก
+    table_role: generic
+    table_md_path: tables/0067-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: 3~10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ช่วงขนาดมิติ: 3~10
+    ค่าเผื่อความคลาดเคลื่อน: ±0.1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 67
+    heading_path: *id031
+    heading_title: บทที่ Ⅷ ภาคผนวก
+    table_role: generic
+    table_md_path: tables/0067-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: 10~30
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ช่วงขนาดมิติ: 10~30
+    ค่าเผื่อความคลาดเคลื่อน: ±0.15
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 67
+    heading_path: *id031
+    heading_title: บทที่ Ⅷ ภาคผนวก
+    table_role: generic
+    table_md_path: tables/0067-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: 30~80
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ช่วงขนาดมิติ: 30~80
+    ค่าเผื่อความคลาดเคลื่อน: ±0.2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 67
+    heading_path: *id031
+    heading_title: บทที่ Ⅷ ภาคผนวก
+    table_role: generic
+    table_md_path: tables/0067-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: 80~180
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ช่วงขนาดมิติ: 80~180
+    ค่าเผื่อความคลาดเคลื่อน: ±0.3
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 67
+    heading_path: *id031
+    heading_title: บทที่ Ⅷ ภาคผนวก
+    table_role: generic
+    table_md_path: tables/0067-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: '>180'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    ช่วงขนาดมิติ: '>180'
+    ค่าเผื่อความคลาดเคลื่อน: ±0.5
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 67
+    heading_path: *id031
+    heading_title: บทที่ Ⅷ ภาคผนวก
+    table_role: generic
+    table_md_path: tables/0067-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: แรงดันอินพุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: แรงดันอินพุต
+    ต่ำสุด: '85'
+    ทั่วไป: '220'
+    สูงสุด: '250'
+    หน่วย: V
+    หมายเหตุ: AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: ช่วงแรงดันเอาต์พุตที่ปรับได้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงแรงดันเอาต์พุตที่ปรับได้
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '250'
+    หน่วย: V
+    หมายเหตุ: ต่ำกว่า 150% ของแรงดันอินพุต
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: ความแม่นยำในการปรับแรงดัน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความแม่นยำในการปรับแรงดัน
+    ทั่วไป: '1'
+    หน่วย: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: ความแม่นยำในการควบคุมแรงดัน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความแม่นยำในการควบคุมแรงดัน
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '10'
+    หน่วย: '%'
+    หมายเหตุ: ΔVout/ΔVin
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: ช่วงกระแสเอาต์พุตที่ปรับได้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงกระแสเอาต์พุตที่ปรับได้
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '3'
+    หน่วย: A
+    หมายเหตุ: SDVC34-MR/MRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: ช่วงกระแสเอาต์พุตที่ปรับได้
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงกระแสเอาต์พุตที่ปรับได้
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '6'
+    หน่วย: A
+    หมายเหตุ: SDVC34-XLR/XLRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: กำลังเอาต์พุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: กำลังเอาต์พุต
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '660'
+    หน่วย: VA
+    หมายเหตุ: SDVC34-MR/MRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: กำลังเอาต์พุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: กำลังเอาต์พุต
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '1320'
+    หน่วย: VA
+    หมายเหตุ: SDVC34-XLR/XLRJ
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: ความถี่เอาต์พุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความถี่เอาต์พุต
+    ต่ำสุด: '25'
+    ทั่วไป: ——
+    สูงสุด: '400'
+    หน่วย: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: ความแม่นยำในการปรับความถี่
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความแม่นยำในการปรับความถี่
+    ทั่วไป: '0.1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: รูปคลื่นเอาต์พุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: รูปคลื่นเอาต์พุต
+    ทั่วไป: ไซน์
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: เวลาสตาร์ทแบบนุ่มนวล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: เวลาสตาร์ทแบบนุ่มนวล
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '10'
+    หน่วย: s
+    หมายเหตุ: 'ค่าเริ่มต้น: 0.5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: ช่วงเวลาหน่วงเปิด/ปิด
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ช่วงเวลาหน่วงเปิด/ปิด
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '99.9'
+    หน่วย: s
+    หมายเหตุ: 'ค่าเริ่มต้น: 0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: ความแม่นยำของเวลาหน่วงเปิด/ปิด
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความแม่นยำของเวลาหน่วงเปิด/ปิด
+    ทั่วไป: '0.1'
+    หน่วย: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: อุณหภูมิทริกเกอร์การป้องกันความร้อนเกิน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: อุณหภูมิทริกเกอร์การป้องกันความร้อนเกิน
+    ต่ำสุด: '60'
+    ทั่วไป: '65'
+    สูงสุด: '65'
+    หน่วย: °C
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: การสื่อสารดิจิทัล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: การสื่อสารดิจิทัล
+    ทั่วไป: ModBus 485
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: แรงดันเอาต์พุตควบคุม DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: แรงดันเอาต์พุตควบคุม DC
+    ต่ำสุด: '22'
+    ทั่วไป: '24'
+    สูงสุด: '26'
+    หน่วย: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: กระแสเอาต์พุตควบคุม DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: กระแสเอาต์พุตควบคุม DC
+    ต่ำสุด: '0'
+    ทั่วไป: ——
+    สูงสุด: '350'
+    หน่วย: mA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: สัญญาณควบคุมแอนะล็อก
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: สัญญาณควบคุมแอนะล็อก
+    ทั่วไป: 1~5/ 4~20
+    หน่วย: V/ mA
+    หมายเหตุ: การควบคุมความเร็วระยะไกล
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: สัญญาณควบคุมดิจิทัล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: สัญญาณควบคุมดิจิทัล
+    ทั่วไป: '24'
+    หน่วย: V
+    หมายเหตุ: สัญญาณสวิตช์
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: วิธีการปรับ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: วิธีการปรับ
+    ทั่วไป: '6'
+    หน่วย: ปุ่มกด
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: การใช้พลังงานในโหมดสแตนด์บาย
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: การใช้พลังงานในโหมดสแตนด์บาย
+    ต่ำสุด: ——
+    ทั่วไป: '5'
+    สูงสุด: ——
+    หน่วย: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: วิธีการแสดงผล
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: วิธีการแสดงผล
+    ทั่วไป: '5'
+    หน่วย: หลัก
+    หมายเหตุ: LED
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: อุณหภูมิแวดล้อม
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: อุณหภูมิแวดล้อม
+    ต่ำสุด: '0'
+    ทั่วไป: '25'
+    สูงสุด: '40'
+    หน่วย: °C
+    หมายเหตุ: ไม่มีการควบแน่น
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: ความชื้นแวดล้อม
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: ความชื้นแวดล้อม
+    ต่ำสุด: '10'
+    ทั่วไป: '60'
+    สูงสุด: '85'
+    หน่วย: '%'
+    หมายเหตุ: ไม่มีการควบแน่น
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: อุณหภูมิแวดล้อมในการจัดเก็บ
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    รายการ: อุณหภูมิแวดล้อมในการจัดเก็บ
+    ต่ำสุด: '-20'
+    ทั่วไป: '25'
+    สูงสุด: '65'
+    หน่วย: °C
+    หมายเหตุ: ไม่มีการควบแน่น
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 73
+    heading_path: *id032
+    heading_title: 8.3 ข้อมูลจำเพาะทางเทคนิค
+    table_role: generic
+    table_md_path: tables/0073-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: จอ LED ไม่แสดงผลหลังจากเปิดเครื่อง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    อาการเสีย: จอ LED ไม่แสดงผลหลังจากเปิดเครื่อง
+    ข้อเสนอแนะการแก้ไขปัญหา: ◆ ตรวจสอบให้แน่ใจว่าเต้ารับไฟเมนมีกระแสไฟฟ้า<br>◆ ตรวจสอบให้แน่ใจว่าสายไฟอินพุตเชื่อมต่ออย่างแน่นหนา
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 74
+    heading_path: *id008
+    heading_title: 8.4 ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: จอ LED แสดงผลปกติ แต่เครื่องป้อนวัสดุแบบสั่นสะเทือนไม่มีเอาต์พุตหรือเสียง
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    อาการเสีย: จอ LED แสดงผลปกติ แต่เครื่องป้อนวัสดุแบบสั่นสะเทือนไม่มีเอาต์พุตหรือเสียง
+    ข้อเสนอแนะการแก้ไขปัญหา: ◆ ตรวจสอบให้แน่ใจว่าสายไฟเอาต์พุตเชื่อมต่ออย่างแน่นหนา<br>◆
+      ตรวจสอบให้แน่ใจว่าแรงดันเอาต์พุตไม่ต่ำเกินไป<br>◆ ตรวจสอบให้แน่ใจว่าตัวควบคุมไม่ได้ถูกหยุดโดยปุ่ม
+      ON/OFF เมื่อไฟแสดงการหยุดติดสว่าง<br>◆ ตรวจสอบให้แน่ใจว่าตัวควบคุมไม่ได้ถูกหยุดโดยการตั้งค่าพารามิเตอร์
+      Γ2 หรือ Γ7 เมื่อไฟแสดงการหยุดติดสว่าง<br>◆ รีเซ็ตตัวควบคุม
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 74
+    heading_path: *id008
+    heading_title: 8.4 ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: การควบคุมเปิด/ปิดไม่ทำงาน
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    อาการเสีย: การควบคุมเปิด/ปิดไม่ทำงาน
+    ข้อเสนอแนะการแก้ไขปัญหา: ◆ ตรวจสอบให้แน่ใจว่าสัญญาณควบคุมเปิด/ปิดเชื่อมต่อกับตัวควบคุมอย่างถูกต้อง<br>◆
+      ตรวจสอบให้แน่ใจว่าพารามิเตอร์ Γ2, Γ7 และ Π ถูกตั้งค่าอย่างถูกต้องตามความต้องการในการควบคุมของคุณ<br>◆
+      รีเซ็ตตัวควบคุม
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 74
+    heading_path: *id008
+    heading_title: 8.4 ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: ปรากฏการณ์บีต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    อาการเสีย: ปรากฏการณ์บีต
+    ข้อเสนอแนะการแก้ไขปัญหา: ◆ เชื่อมต่อสายสัญญาณซิงค์ระหว่างตัวควบคุมและตั้งค่าตัวควบคุมทาสเป็นโหมดซิงค์
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 74
+    heading_path: *id008
+    heading_title: 8.4 ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: จอ LED แสดงผลปกติ ได้ยินเสียงจากเครื่องป้อนวัสดุแบบสั่นสะเทือน แต่ไม่มีเอาต์พุต
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    อาการเสีย: จอ LED แสดงผลปกติ ได้ยินเสียงจากเครื่องป้อนวัสดุแบบสั่นสะเทือน แต่ไม่มีเอาต์พุต
+    ข้อเสนอแนะการแก้ไขปัญหา: ◆ ตรวจสอบให้แน่ใจว่าความถี่เอาต์พุตไม่ห่างจากความถี่เรโซแนนซ์ของเครื่องป้อนวัสดุแบบสั่นสะเทือนมากนัก<br>◆
+      รีเซ็ตตัวควบคุม
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 74
+    heading_path: *id008
+    heading_title: 8.4 ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: Err01
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    อาการเสีย: Err01
+    ข้อเสนอแนะการแก้ไขปัญหา: '**การป้องกันการลัดวงจร**<br>◆ ตรวจสอบให้แน่ใจว่าสายไฟเอาต์พุตและขดลวดแม่เหล็กไฟฟ้าของเครื่องสั่นไม่ลัดวงจร<br>◆
+      ถอดสายไฟเอาต์พุตออกจากตัวควบคุมแล้วเปิดสวิตช์ไฟอีกครั้ง หากยังคงแสดง Err01 โปรดติดต่อเราเพื่อซ่อมแซม'
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดเซกเมนต์แสดง Err01](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 74
+    heading_path: *id008
+    heading_title: 8.4 ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: Err02
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    อาการเสีย: Err02
+    ข้อเสนอแนะการแก้ไขปัญหา: '**การป้องกันกระแสเกิน**<br>◆ ลดแรงดันเอาต์พุตของตัวควบคุม<br>◆
+      ตรวจสอบให้แน่ใจว่าช่องว่างกระดองของขดลวดแม่เหล็กไฟฟ้าของเครื่องสั่นไม่ใหญ่เกินไป'
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดเซกเมนต์แสดง Err02](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 74
+    heading_path: *id008
+    heading_title: 8.4 ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: Err03
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    อาการเสีย: Err03
+    ข้อเสนอแนะการแก้ไขปัญหา: '**การป้องกันความร้อนเกิน**<br>◆ วางตัวควบคุมในสภาพแวดล้อมที่มีการระบายอากาศดี'
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดเซกเมนต์แสดง Err03](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 74
+    heading_path: *id008
+    heading_title: 8.4 ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: Err04
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    อาการเสีย: Err04
+    ข้อเสนอแนะการแก้ไขปัญหา: ◆ สงวนไว้ โปรดติดต่อเราเพื่อซ่อมแซม
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดเซกเมนต์แสดง Err04](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-03.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 74
+    heading_path: *id008
+    heading_title: 8.4 ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: Err05
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    อาการเสีย: Err05
+    ข้อเสนอแนะการแก้ไขปัญหา: ◆ การสื่อสารภายในผิดปกติ โปรดติดต่อเราเพื่อซ่อมแซม
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดเซกเมนต์แสดง Err05](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-04.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 74
+    heading_path: *id008
+    heading_title: 8.4 ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: Err06
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    อาการเสีย: Err06
+    ข้อเสนอแนะการแก้ไขปัญหา: ◆ เซ็นเซอร์วัดอุณหภูมิผิดปกติ โปรดติดต่อเราเพื่อซ่อมแซม
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดเซกเมนต์แสดง Err06](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-05.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 74
+    heading_path: *id008
+    heading_title: 8.4 ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: Err07
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    อาการเสีย: Err07
+    ข้อเสนอแนะการแก้ไขปัญหา: '**การป้องกันการลัดวงจรของพอร์ต D**<br>◆ ตรวจสอบให้แน่ใจว่าโหลดของพอร์ต
+      D ไม่ลัดวงจรและกระแสไม่เกิน 350mA'
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดเซกเมนต์แสดง Err07](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-06.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 74
+    heading_path: *id008
+    heading_title: 8.4 ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: Err08
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    อาการเสีย: Err08
+    ข้อเสนอแนะการแก้ไขปัญหา: ◆ สัญญาณซิงค์ผิดพลาด โปรดติดต่อเราเพื่อซ่อมแซม
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดเซกเมนต์แสดง Err08](assets/images/cuh.sdvc34.manual.v0.0/page-0079-vcrop-07.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 74
+    heading_path: *id008
+    heading_title: 8.4 ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-01.md
+- name: Err09
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    อาการเสีย: Err09
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดเซกเมนต์แสดง Err09](assets/images/cuh.sdvc34.manual.v0.0/page-0080-vcrop-00.png)'
+    ข้อเสนอแนะการแก้ไขปัญหา: ข้อผิดพลาดประเภทเซ็นเซอร์สั่นสะเทือน<br>◆ ประเภทของเซ็นเซอร์สั่นสะเทือนที่เชื่อมต่อกับตัวควบคุมไม่ตรงกับพารามิเตอร์
+      "ประเภทเซ็นเซอร์สั่นสะเทือน ![สัญลักษณ์จอแสดงผลพารามิเตอร์ประเภทเซ็นเซอร์สั่นสะเทือน](assets/images/cuh.sdvc34.manual.v0.0/page-0080-vcrop-03.png)"
+      ที่ตั้งค่าไว้ในตัวควบคุม
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 74
+    heading_path: *id008
+    heading_title: 8.4 ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-02.md
+- name: Err10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    อาการเสีย: Err10
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดเซกเมนต์แสดง Err10](assets/images/cuh.sdvc34.manual.v0.0/page-0080-vcrop-01.png)'
+    ข้อเสนอแนะการแก้ไขปัญหา: เอาต์พุต 24V ผิดปกติ<br>◆ ห้ามเชื่อมต่อแหล่งจ่ายไฟภายนอกเข้ากับเอาต์พุต
+      24V<br>◆ ตรวจสอบให้แน่ใจว่ากระแสโหลด 24V ไม่เกิน 350mA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 74
+    heading_path: *id008
+    heading_title: 8.4 ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-02.md
+- name: Err11
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    อาการเสีย: Err11
+    ภาพสัญลักษณ์: '![จอแสดงผลเจ็ดเซกเมนต์แสดง Err11](assets/images/cuh.sdvc34.manual.v0.0/page-0080-vcrop-02.png)'
+    ข้อเสนอแนะการแก้ไขปัญหา: เอาต์พุต 5V ของพอร์ต A ผิดปกติ<br>◆ ห้ามเชื่อมต่อแหล่งจ่ายไฟภายนอกเข้ากับเอาต์พุต
+      5V<br>◆ ห้ามลัดวงจรเอาต์พุต 5V กับ GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 74
+    heading_path: *id008
+    heading_title: 8.4 ข้อเสนอแนะการแก้ไขปัญหาและคำอธิบายข้อผิดพลาด
+    table_role: generic
+    table_md_path: tables/0074-บทท-ⅶ-ฟ-งก-ช-นความปลอดภ-ย-table-02.md
