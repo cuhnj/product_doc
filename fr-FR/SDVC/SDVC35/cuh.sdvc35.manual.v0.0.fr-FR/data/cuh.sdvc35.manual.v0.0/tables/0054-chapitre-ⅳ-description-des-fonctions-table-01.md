@@ -1,0 +1,9 @@
+<!-- publish-data-sidecar: section=54 heading='Annexe D : Suggestions de dépannage et explication des erreurs' role=generic source_md=doc.md -->
+
+| | Phénomène de panne | Suggestions de dépannage |
+|---|---|---|
+| 1 | Aucun affichage après la mise sous tension | • Assurez-vous que la prise d'alimentation est alimentée<br>• Assurez-vous que le câble d'alimentation d'entrée est correctement raccordé à la prise d'alimentation |
+| 2 | Affichage normal, mais aucune sortie | • Assurez-vous que la tension de sortie n'est pas trop faible<br>• Assurez-vous que l'état de fonctionnement du contrôleur n'est pas « Man », commandé par l'appui sur le bouton « ON/OFF » du panneau<br>• Assurez-vous que l'état de fonctionnement du contrôleur n'est pas « STP », commandé par les ports C/E<br>• Assurez-vous que l'état de fonctionnement du contrôleur n'est pas « STP », commandé par le paramètre de sens logique des ports C/E<br>• Réinitialisez le contrôleur par la restauration des réglages par défaut réglée dans le groupe de fonctions 8 |
+| 3 | Les ports C/E ne fonctionnent pas normalement | • Assurez-vous que le fil du signal de commande ON/OFF est correctement raccordé aux ports C/E<br>• Assurez-vous que tous les paramètres des ports C/E que vous avez réglés sont corrects<br>• Réinitialisez le contrôleur par la restauration des réglages par défaut réglée dans le groupe de fonctions 8 |
+| 4 | Effet de battement | • Raccordez le fil de signal de synchronisation entre les contrôleurs et réglez le contrôleur esclave en mode Sync |
+| 5 | Affichage normal, des sons sont audibles depuis l'alimentateur vibrant mais aucune sortie | • Assurez-vous que la fréquence de sortie n'est pas trop éloignée de la fréquence de résonance de l'alimentateur vibrant<br>• Réinitialisez le contrôleur par la restauration des réglages par défaut réglée dans le groupe de fonctions 8 |

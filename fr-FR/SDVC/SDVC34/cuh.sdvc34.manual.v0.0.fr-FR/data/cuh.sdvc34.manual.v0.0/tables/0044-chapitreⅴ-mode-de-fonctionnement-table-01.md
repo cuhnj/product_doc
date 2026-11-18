@@ -1,0 +1,8 @@
+<!-- publish-data-sidecar: section=44 heading='5.5.5 Explication des paramètres de comptage' role=generic source_md=doc.md -->
+
+| Mode de fonctionnement | Tension de sortie U — Méthode de réglage | Tension de sortie U — Réglage Γ5 | Fréquence de sortie E — Méthode de réglage | Fréquence de sortie E — Réglage Γ6 | Image du symbole |
+|---|---|---|---|---|---|
+| Mode manuel | Manuel | `_ - _` | Manuel | `_ - _` | ![Symbole de réglage du mode manuel : deux tirets bas et un tiret haut](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png) |
+| Mode Auto | Auto | `- - -` | Auto | `- - -` | ![Symbole de réglage du mode Auto : trois tirets courts de même hauteur](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png) |
+| Mode semi-automatique | Auto | `- - -` | Manuel | `_ - _` | ![Symbole à sept segments pour le mode Auto : trois tirets courts de même hauteur](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png) / ![Symbole à sept segments pour le mode manuel : deux tirets bas et un tiret haut](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png) |
+| Mode Sync | Manuel ou Auto | `_ - _` ou `- - -` | Synchronisation automatique avec le contrôleur maître | ![Symbole à sept segments du réglage Γ6 en mode Sync](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png) | ![Symbole à sept segments pour le mode manuel : deux tirets bas et un tiret haut](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-00.png) / ![Symbole à sept segments pour le mode Auto : trois tirets courts de même hauteur](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-01.png) / ![Symbole à sept segments du réglage Γ6 en mode Sync](assets/images/cuh.sdvc34.manual.v0.0/page-0030-vcrop-02.png) |

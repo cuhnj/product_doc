@@ -1,0 +1,26 @@
+<!-- publish-data-sidecar: section=46 heading='Chapitre Ⅶ Annexe' role=generic source_md=doc.md -->
+
+| Paramètre | Définition | Symbole | Image du symbole | Plage | Valeur par défaut |
+|---|---|---|---|---|---|
+| Paramètre avancé<br>Appui long sur A/B et ▲ | Retard d'enclenchement de la sortie principale | J9 | ![Symbole à sept segments J9 pour le retard d'enclenchement de la sortie principale](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-00.png) | 0.0~99.9 s | 0.0 |
+| | Retard de déclenchement de la sortie principale | L9 | ![Symbole à sept segments L9 pour le retard de déclenchement de la sortie principale](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-01.png) | 0.0~99.9 s | 0.0 |
+| | Mode de sortie de la sortie principale | F9 | ![Symbole à sept segments F9 pour le mode de sortie de la sortie principale](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-02.png) | dLy (mode temporisé), HLd (mode maintenu) | dLy |
+| | Direction logique de la sortie principale | Ↄ9 | ![Symbole à sept segments pour la direction logique de la sortie principale](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-03.png) | ![Marques de segments en phase et en opposition de phase : trois tirets courts de même hauteur (en phase), deux tirets bas et un tiret haut (en opposition de phase)](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-22.png)<br>on (normalement ouvert), oFF (normalement fermé) | ![Valeur par défaut de la direction logique de la sortie principale : deux tirets bas et un tiret haut](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-23.png) |
+| | Limitation de la tension de sortie maximale | h | ![Symbole à sept segments h pour la limitation de la tension de sortie maximale](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-04.png) | 0~260 V | 260 |
+| | Courant de protection contre les surintensités | bc | ![Symbole à sept segments bc pour le courant de protection contre les surintensités](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-05.png) | 0.5~3.5 A | 3.5 |
+| | Indice d'accélération | y | ![Symbole à sept segments y pour l'indice d'accélération](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-06.png) | 100~150 | 150 |
+| | Indice de forme d'onde | r | ![Symbole à sept segments r pour l'indice de forme d'onde](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-07.png) | 0~100 | 100 |
+| | Source du contrôle de vitesse à distance | cS | ![Symbole à sept segments cS pour la source du contrôle de vitesse à distance](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-08.png) | AA (port A de A), bA (port A de B) | A: AA<br>B: bA |
+| | Coefficient du contrôle de vitesse à distance | c | ![Symbole à sept segments c pour le coefficient du contrôle de vitesse à distance](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-09.png) | 0.5~2.0 | 1.0 |
+| | Luminosité d'affichage du panneau | LEd | ![Symbole à sept segments LEd pour la luminosité d'affichage du panneau](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-10.png) | 1~32 | 16 |
+| | Restauration des réglages par défaut du canal actuel | 8.8.8.8.A.<br>8.8.8.8.b. | ![Affichage à sept segments sur deux lignes pour la restauration des réglages par défaut du canal actuel](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-11.png) | —— | —— |
+| Paramètre de surveillance<br>Appui long sur A/B et ▼ | Courant de sortie | AC | ![Symbole à sept segments AC pour le courant de sortie](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-12.png) | 0.00~3.50 A | —— |
+| | Tension du signal du port A | AU | ![Symbole à sept segments AU pour la tension du signal du port A](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-13.png) | 0.00~5.00 V | —— |
+| | Tension du signal du port B | bU | ![Symbole à sept segments bU pour la tension du signal du port B](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-14.png) | 0.00~5.00 V | —— |
+| | Tension du signal du port C | cU | ![Symbole à sept segments cU pour la tension du signal du port C](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-15.png) | 0.0~28.0 V | —— |
+| | Tension de sortie du port D | dU | ![Symbole à sept segments dU pour la tension de sortie du port D](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-16.png) | 0.0~28.0 V | —— |
+| | Affichage de la température <sup>#</sup> | C | ![Symbole à sept segments C pour l'affichage de la température](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-17.png) | -20.0~85.0 ℃ | —— |
+| | Tension du bus interne <sup>#</sup> | PU | ![Symbole à sept segments PU pour la tension du bus interne](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-18.png) | 0~400 V | —— |
+| | Tension en temps réel du port 24V <sup>#</sup> | nU | ![Symbole à sept segments nU pour la tension en temps réel du port 24V](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-19.png) | 0.0~28.0 V | —— |
+| | Version logicielle de la carte de contrôle <sup>#</sup> | uc | ![Symbole à sept segments uc pour la version logicielle de la carte de contrôle](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-20.png) | —— | —— |
+| | Version logicielle de la carte de puissance <sup>#</sup> | u9 | ![Symbole à sept segments u9 pour la version logicielle de la carte de puissance](assets/images/cuh.sdvc33.manual.v0.0/page-0041-vcrop-21.png) | —— | —— |
