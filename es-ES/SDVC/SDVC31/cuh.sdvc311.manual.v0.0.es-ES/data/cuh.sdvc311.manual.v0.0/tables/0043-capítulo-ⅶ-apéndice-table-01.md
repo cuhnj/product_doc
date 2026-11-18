@@ -1,0 +1,18 @@
+<!-- publish-data-sidecar: section=43 heading='7.3 Sugerencias de solución de problemas y explicaciones de errores' role=generic source_md=doc.md -->
+
+| Código de error | Definición | Métodos de solución de problemas | Imagen del símbolo |
+|---|---|---|---|
+| Sin visualización tras encender | | Asegúrese de que la toma de corriente tenga tensión<br>¿Está el cable de alimentación de entrada conectado de forma fiable a la toma de corriente? | |
+| Visualización normal, pero sin salida | | Asegúrese de que el cable de salida esté conectado de forma fiable al vibrador.<br>Asegúrese de que la tensión de salida no sea pequeña.<br>Asegúrese de que el indicador de parada no esté encendido.<br>Compruebe si se ha configurado Normal Close del parámetro, lo que provoca que la salida del controlador se detenga. | |
+| La señal de control pierde efectividad | | Asegúrese de que la señal de control se introduzca correctamente.<br>Asegúrese de que el cable de tierra de la señal de control esté conectado correctamente al controlador.<br>Asegúrese de que la relación lógica de las señales de control esté configurada correctamente según lo esperado. | |
+| Fenómenos de batido | | Evite el acoplamiento de vibraciones entre los vibradores.<br>Aumente la frecuencia de resonancia de los vibradores. | |
+| Visualización normal, sin salida, pero se oye sonido | | Ajuste todos los parámetros según lo indicado en este manual. | |
+| Err01 | Cortocircuito | Asegúrese de que la carga no esté en cortocircuito; a continuación, intente reiniciar la salida del controlador pulsando el botón de salida ON/OFF dos veces o vuelva a alimentar el controlador. | ![Err01 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-00.png) |
+| Err02 | Sobrecorriente | Reduzca la tensión de salida adecuadamente y, a continuación, reinicie la salida. | ![Err02 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-01.png) |
+| Err03 | Sobrecalentamiento | Instale el controlador en un entorno bien ventilado. | ![Err03 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-02.png) |
+| Err04 | Sobretensión o subtensión | Asegúrese de que la tensión de entrada esté entre AC 85~250Vac. | ![Err04 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-03.png) |
+| Err05 | Comunicación interna anómala | Asegúrese de que no haya ninguna fuente de alimentación externa conectada al puerto de alimentación de 24V o póngase en contacto con nuestro soporte técnico. | ![Err05 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-04.png) |
+| Err06 | Sensor de temperatura anómalo | Asegúrese de que la temperatura de trabajo no sea inferior a -20℃ o póngase en contacto con nuestro soporte técnico. | ![Err06 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-05.png) |
+| Err07 | Protección contra cortocircuitos del puerto D | Asegúrese de que la carga del puerto D no esté en cortocircuito y que la corriente no supere 400mA; a continuación, intente reiniciar la salida del puerto D. | ![Err07 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-06.png) |
+| Err10 | Salida de alimentación de 24V anómala | Asegúrese de que el puerto de 24V no esté en cortocircuito y que la corriente no supere 400mA. | ![Err10 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-07.png) |
+| Err11 | Salida de alimentación de 5V del puerto A anómala | Asegúrese de que la alimentación de 5V del puerto A no esté en cortocircuito ni conectada a una tensión de alimentación externa superior a 5V. | ![Err11 symbol image](assets/images/cuh.sdvc311.manual.v0.0/page-0046-vcrop-08.png) |

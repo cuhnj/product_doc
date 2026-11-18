@@ -1,0 +1,9 @@
+<!-- publish-data-sidecar: section=54 heading='Apéndice D: Sugerencias de solución de problemas y explicación de errores' role=generic source_md=doc.md -->
+
+| | Fenómeno de falla | Sugerencias de solución de problemas |
+|---|---|---|
+| 1 | Sin visualización después de encender | • Asegúrese de que la toma de corriente tenga tensión<br>• Asegúrese de que el cable de entrada de potencia esté conectado de forma fiable a la toma de corriente |
+| 2 | Visualización normal, pero sin salida | • Asegúrese de que la tensión de salida no sea pequeña<br>• Asegúrese de que el estado de funcionamiento del controlador no sea “Man”, controlado mediante la pulsación del botón “ON/OFF” del panel<br>• Asegúrese de que el estado de funcionamiento del controlador no sea “STP”, controlado por el puerto C/E<br>• Asegúrese de que el estado de funcionamiento del controlador no sea “STP”, controlado por el parámetro de dirección lógica del puerto C/E<br>• Restablezca el controlador mediante la restauración de los ajustes de fábrica ajustada en el Grupo de funciones 8 |
+| 3 | El puerto C/E no puede funcionar normalmente | • Asegúrese de que el cable de señal de control ON/OFF esté conectado correctamente al puerto C/E<br>• Asegúrese de que todos los parámetros del puerto C/E que ha ajustado sean correctos<br>• Restablezca el controlador mediante la restauración de los ajustes de fábrica ajustada en el Grupo de funciones 8 |
+| 4 | Fenómeno de batido | • Conecte el cable de señal de sincronización entre los controladores y ajuste el controlador esclavo en modo de sincronización |
+| 5 | Visualización normal, se oyen sonidos del alimentador vibratorio pero sin salida | • Asegúrese de que la frecuencia de salida no esté muy alejada de la frecuencia de resonancia del alimentador vibratorio<br>• Restablezca el controlador mediante la restauración de los ajustes de fábrica ajustada en el Grupo de funciones 8 |

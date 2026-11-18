@@ -1,0 +1,288 @@
+schema_version: 1
+doc_id: cuh.sdvc11-M.manual.v0.0.es-ES
+doc_key: cuh.sdvc11-M.manual.v0.0
+lang: es-ES
+generated_at: '2026-11-18 11:36:59'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 1
+  heading_path: &id001
+  - （文首）
+  table_md_path: tables/0001-文首-table-01.md
+  headers:
+  - Elemento
+  - 'Rango: Mín'
+  - 'Rango: Típico'
+  - 'Rango: Máx'
+  - Unidad
+  - Descripción
+items:
+- name: Tensión de entrada
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Tensión de entrada
+    'Rango: Mín': '150'
+    'Rango: Típico': '220'
+    'Rango: Máx': '260'
+    Unidad: V
+    Descripción: AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id001
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Rango ajustable de tensión de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Rango ajustable de tensión de salida
+    'Rango: Mín': '35'
+    'Rango: Típico': ——
+    'Rango: Máx': Vin-10
+    Unidad: V
+    Descripción: Media onda
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id001
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Rango ajustable de tensión de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Rango ajustable de tensión de salida
+    'Rango: Mín': '45'
+    'Rango: Típico': ——
+    'Rango: Máx': Vin-5
+    Unidad: V
+    Descripción: Onda completa
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id001
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Tiempo de respuesta de la regulación de tensión
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Tiempo de respuesta de la regulación de tensión
+    'Rango: Mín': '0'
+    'Rango: Típico': '0.01'
+    'Rango: Máx': '0.02'
+    Unidad: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id001
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Rango ajustable de corriente de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Rango ajustable de corriente de salida
+    'Rango: Mín': '0.1'
+    'Rango: Típico': ——
+    'Rango: Máx': '5'
+    Unidad: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id001
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Potencia de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Potencia de salida
+    'Rango: Mín': '22'
+    'Rango: Típico': ——
+    'Rango: Máx': '1100'
+    Unidad: VA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id001
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Frecuencia de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Frecuencia de salida
+    'Rango: Mín': '45'
+    'Rango: Típico': 50/60
+    'Rango: Máx': '65'
+    Unidad: Hz
+    Descripción: Media onda
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id001
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Frecuencia de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Frecuencia de salida
+    'Rango: Mín': '90'
+    'Rango: Típico': 100/120
+    'Rango: Máx': '130'
+    Unidad: Hz
+    Descripción: Onda completa
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id001
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Forma de onda de salida
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Forma de onda de salida
+    'Rango: Típico': Seno recortado en fase
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id001
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Tiempo de arranque suave
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Tiempo de arranque suave
+    'Rango: Mín': '0.5'
+    'Rango: Típico': '0.65'
+    'Rango: Máx': '0.7'
+    Unidad: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id001
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Temperatura de activación de la protección contra sobrecalentamiento
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Temperatura de activación de la protección contra sobrecalentamiento
+    'Rango: Mín': '58'
+    'Rango: Típico': '60'
+    'Rango: Máx': '66'
+    Unidad: °C
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id001
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Capacidad del fusible
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Capacidad del fusible
+    'Rango: Típico': '6.3'
+    Unidad: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id001
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Temperatura ambiente
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Temperatura ambiente
+    'Rango: Mín': '0'
+    'Rango: Típico': '25'
+    'Rango: Máx': '40'
+    Unidad: °C
+    Descripción: Sin condensación
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id001
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Humedad ambiente
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Elemento: Humedad ambiente
+    'Rango: Mín': '10'
+    'Rango: Típico': '60'
+    'Rango: Máx': '85'
+    Unidad: '%'
+    Descripción: Sin condensación
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id001
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md

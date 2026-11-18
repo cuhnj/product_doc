@@ -287,6 +287,9 @@ git checkout draft -- en-US/SDVC/
 
 | 日期 | 说明 |
 |------|------|
+| 2026-11-18 | 同步根目录 `README.md` 西语索引：`es-ES` 侧 SDVC402-S / SDVC42-S / SDVC42-SD 资料包已按产品级命名重命名（`cuh.sdvc402-S.SMS…`、`cuh.sdvc42-S.manual…`、`cuh.sdvc42-SD.manual…`），索引链接已对齐。 |
+| 2026-11-18 | 根目录 `README.md` 已实施多语言改造并定稿：顶栏「Language / 语言选择」锚点 + 中/英/德/泰/西/法/韩七语并列大段；每段仅挂本语言说明书链接（缺失写待补充）；西语包已部分产品级重命名的路径已对齐；本文件不翻译；Changelog 文末中英双语；临时「多语言改造计划」章节已删除。 |
+| 2026-11-18 | 同步根目录 `README.md` 德文索引：`de-DE` 侧资料包已按产品级命名重命名（如 `cuh.sdvc11-M.manual…`、`cuh.sdvc21-S.manual…`、`cuh.sdvc21-lp.manual…`、`cuh.sdvc31-U.series…`、`cuh.sdvc402-S.SMS…`、`cuh.sdvc42-S/42-SD.manual…` 等），索引链接已全部对齐；泰/西/法语包目录名暂未改动，对应链接保持原路径。 |
 | 2026-11-09 | 删除本地添加/推送 GitHub remote 的操作说明：对外同步改由云效 CI 在内部 `main` 更新后自动完成；相关人员只维护 CodeUp 侧 `draft` / `release/...` / `main`。 |
 | 2026-11-09 | 发布流程改为「从 `main` 新开 `release/...` 分支 → 仅 `checkout draft --` 已审路径 → 合并请求审批合入 `main`」；同步修订 Git 协作各小节，明确禁止整枝合并 `draft`→`main`。 |
 | 2026-11-09 | 将原 README 中的目录约定、命名规范、`doc.md` 规范、Git 协作与发布流程及历史维护记录迁入本文件；对外 `README.md` 改为公司/产品介绍与产品手册对齐的说明书索引。 |
