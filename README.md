@@ -591,16 +591,16 @@ La liste des modèles suit le catalogue V8.01. Les liens pointent uniquement ver
 
 - **Série SDVC10 Contrôleur de tension pour alimentateur vibrant** _(À compléter)_
 - **SDVC11-S Contrôleur numérique à tension variable pour alimentateur vibrant** _(À compléter)_
-- **SDVC11-M Contrôleur numérique à tension variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC11/cuh.sdvc11M.SMS.文档发布单页版.v0.0.fr-FR/doc.md)
-- **SDVC14-S Module de commande numérique à tension variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC14S/cuh.sdvc14S.SMS.文档发布单页版.v0.0.fr-FR/doc.md)
+- **SDVC11-M Contrôleur numérique à tension variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC11/cuh.sdvc11-M.manual.v0.0.fr-FR/doc.md)
+- **SDVC14-S Module de commande numérique à tension variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC14S/cuh.sdvc14-S.manual.v0.0.fr-FR/doc.md)
 - **SDVC20-S Contrôleur numérique à tension variable pour alimentateur vibrant** _(À compléter)_
 - **SDVC20-L Contrôleur numérique à tension variable pour alimentateur vibrant** _(À compléter)_
 - **SDVC20-XL Contrôleur numérique à tension variable pour alimentateur vibrant** _(À compléter)_
 - **SDVC201-L Contrôleur numérique à tension variable pour alimentateur vibrant** _(À compléter)_
 - **SDVC20-U Contrôleur numérique à tension variable pour alimentateur vibrant** _(À compléter)_
-- **SDVC21-S Contrôleur numérique à tension variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC21/cuh.sdvc.manual.v0.0.fr-FR/doc.md)
-- **SDVC21-LP Contrôleur numérique à tension variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC21P/cuh.sdvc21p.sms.manual.v0.0.fr-FR/doc.md)
-- **SDVC21-XLP Contrôleur numérique à tension variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC21P/cuh.sdvc21p.sms.manual.v0.0.fr-FR/doc.md)
+- **SDVC21-S Contrôleur numérique à tension variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC21/cuh.sdvc21-S.manual.v0.0.fr-FR/doc.md)
+- **SDVC21-LP Contrôleur numérique à tension variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC21P/cuh.sdvc21-lp.manual.v0.0.fr-FR/doc.md)
+- **SDVC21-XLP Contrôleur numérique à tension variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC21P/cuh.sdvc21-lp.manual.v0.0.fr-FR/doc.md)
 - **SDVC212-L Contrôleur numérique mono-canal à tension variable pour alimentateur vibrant** _(À compléter)_
 - **SDVC222-XL Contrôleur numérique bi-canal à tension variable pour alimentateur vibrant** _(À compléter)_
 - **SDVC232-XL Contrôleur numérique tri-canal à tension variable pour alimentateur vibrant** _(À compléter)_
@@ -612,30 +612,30 @@ La liste des modèles suit le catalogue V8.01. Les liens pointent uniquement ver
 - **SDVC302-S, SDVC302-M Contrôleur numérique de fréquence variable pour alimentateur vibrant** _(À compléter)_
 - **SDVC31-S, SDVC31-M Contrôleur numérique de fréquence variable pour alimentateur vibrant** _(À compléter)_
 - **SDVC311-S, SDVC311-M Contrôleur numérique de fréquence variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.fr-FR/doc.md)
-- **SDVC31-L, SDVC31-XL Contrôleur numérique de fréquence variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC31/cuh.sdvc311.sms.manual.v0.0.fr-FR/doc.md)
+- **SDVC31-L, SDVC31-XL Contrôleur numérique de fréquence variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC31/cuh.sdvc311.manual.v0.0.fr-FR/doc.md)
 - **SDVC311-XL Contrôleur numérique de fréquence variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC311/cuh.sdvc311.sms.manual.v7.01.fr-FR/doc.md)
 - **SDVC31-XLP Contrôleur numérique de fréquence variable pour alimentateur vibrant** _(À compléter)_
-- **SDVC31-U Contrôleur numérique de fréquence variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC31U/cuh.sdvc31.series.manual.v3.01.fr-FR/doc.md)
+- **SDVC31-U Contrôleur numérique de fréquence variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC31U/cuh.sdvc31-U.series.manual.v3.01.fr-FR/doc.md)
 - **SDVC31-UP Contrôleur numérique de fréquence variable pour alimentateur vibrant** _(À compléter)_
-- **SDVC33-M Contrôleur numérique bi-canal de fréquence variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC33/cuh.sdvc33.sms.manual.v0.0.fr-FR/doc.md)
+- **SDVC33-M Contrôleur numérique bi-canal de fréquence variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC33/cuh.sdvc33.manual.v0.0.fr-FR/doc.md)
 - **SDVC333-SG Contrôleur numérique tri-canal de fréquence variable pour alimentateur vibrant** _(À compléter)_
 
 ### Contrôleurs intelligents de fréquence
 
-- **SDVC34-M Série Contrôleur intelligent à fréquence variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC34/cuh.sdvc34.sms.manual.v0.0.fr-FR/doc.md)
-- **SDVC34-XL Série Contrôleur intelligent à fréquence variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC34/cuh.sdvc34.sms.manual.v0.0.fr-FR/doc.md)
-- **SDVC34-UR, SDVC34-XU Contrôleur intelligent à fréquence variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC34/cuh.sdvc34.sms.manual.v0.0.fr-FR/doc.md)
+- **SDVC34-M Série Contrôleur intelligent à fréquence variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC34/cuh.sdvc34.manual.v0.0.fr-FR/doc.md)
+- **SDVC34-XL Série Contrôleur intelligent à fréquence variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC34/cuh.sdvc34.manual.v0.0.fr-FR/doc.md)
+- **SDVC34-UR, SDVC34-XU Contrôleur intelligent à fréquence variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC34/cuh.sdvc34.manual.v0.0.fr-FR/doc.md)
 - **SDVC341-M Régulateur automatique de fréquence pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC34/cuh.sdvc341.manual.v0.0.fr-FR/doc.md)
-- **SDVC35 Série Contrôleur intelligent à fréquence variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC35/cuh.sdvc35.sms.manual.v0.0.fr-FR/doc.md)
+- **SDVC35 Série Contrôleur intelligent à fréquence variable pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC35/cuh.sdvc35.manual.v0.0.fr-FR/doc.md)
 
 ### Contrôleurs piézoélectriques
 
 - **SDVC40-S Contrôleur numérique à fréquence variable pour alimentateur vibrant piézoélectrique** [Manuel](fr-FR/SDVC/SDVC40S/cuh.sdvc40.manual.v0.0.fr-FR/doc.md)
 - **SDVC40-XS Série Contrôleur numérique multi-canaux à fréquence variable pour alimentateur vibrant piézoélectrique** _(À compléter)_
-- **SDVC402-S Contrôleur numérique à fréquence variable pour alimentateur vibrant piézoélectrique** [Manuel](fr-FR/SDVC/SDVC402S/cuh.sdvc402S.SMS.manual.v0.0.fr-FR/doc.md)
-- **SDVC41-M Contrôleur intelligent à fréquence variable pour alimentateur vibrant piézoélectrique** [Manuel](fr-FR/SDVC/SDVC41SMS/cuh.sdvc41SMS.manual.v0.0.fr-FR/doc.md)
-- **SDVC42-S Contrôleur piézoélectrique automatique à haute fréquence pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC42/cuh.sdvc42SSMS.manual.v0.0.fr-FR/doc.md)
-- **SDVC42-SD Contrôleur piézoélectrique automatique à haute fréquence pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC42/cuh.sdvc42SD.manual.v0.0.fr-FR/doc.md)
+- **SDVC402-S Contrôleur numérique à fréquence variable pour alimentateur vibrant piézoélectrique** [Manuel](fr-FR/SDVC/SDVC402S/cuh.sdvc402-S.SMS.manual.v0.0.fr-FR/doc.md)
+- **SDVC41-M Contrôleur intelligent à fréquence variable pour alimentateur vibrant piézoélectrique** [Manuel](fr-FR/SDVC/SDVC41SMS/cuh.sdvc41.manual.v0.0.fr-FR/doc.md)
+- **SDVC42-S Contrôleur piézoélectrique automatique à haute fréquence pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC42/cuh.sdvc42-S.manual.v0.0.fr-FR/doc.md)
+- **SDVC42-SD Contrôleur piézoélectrique automatique à haute fréquence pour alimentateur vibrant** [Manuel](fr-FR/SDVC/SDVC42/cuh.sdvc42-SD.manual.v0.0.fr-FR/doc.md)
 
 ### Contrôleurs flexibles et basse tension
 
@@ -789,6 +789,7 @@ Records changes to this README only. Package-level history: [`PUBLISHING.md`](./
 
 | 日期 Date | 中文 | English |
 |------|------|---------|
+| 2026-11-18 | 按 `fr-FR` 最新资料包目录名，更新法文说明书链接（SDVC11-M / 14-S / 21-S / 21-LP·XLP / 31 / 31-U / 33 / 34 / 35 / 402-S / 41 / 42-S / 42-SD）。 | Updated French manual links to match renamed `fr-FR` packages (SDVC11-M / 14-S / 21-S / 21-LP·XLP / 31 / 31-U / 33 / 34 / 35 / 402-S / 41 / 42-S / 42-SD). |
 | 2026-11-18 | 按 `es-ES` 最新资料包目录名，更新西语说明书链接（SDVC402-S、SDVC42-S、SDVC42-SD）。 | Updated Spanish manual links to match renamed `es-ES` packages (SDVC402-S, SDVC42-S, SDVC42-SD). |
 | 2026-11-18 | 重构为顶栏语言锚点 + 中/英/德/泰/西/法/韩七语并列段落；每段仅挂本语言说明书链接；文末 Changelog 中英双语；删除「多语言改造计划」临时章节。 | Restructured into a top language switcher and seven parallel language sections (zh/en/de/th/es/fr/ko); each section links only to manuals in that language; bilingual changelog at the end; removed the temporary multilingual-refactor plan section. |
 | 2026-11-18 | 按 `de-DE` 最新资料包目录名更新德文索引链接。 | Updated German index links to match renamed `de-DE` packages. |

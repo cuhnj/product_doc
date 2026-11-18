@@ -1,0 +1,27 @@
+<!-- publish-data-sidecar: section=43 heading='7.1 Table des paramètres' role=generic source_md=doc.md -->
+
+| | Définition | Symbole | Image du symbole | Plage | Valeur par défaut |
+|---|---|---|---|---|---|
+| Paramètre avancé | Retard de déclenchement du port D | Ld | ![Off Delay of Port D segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-00.png) | 0.0~99.9 s | 0.0 |
+| Paramètre avancé | Mode de sortie du port D | Fd | ![Output Mode of Port D segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-01.png) | dLy (Mode temporisé), HLd (Mode maintenu)<br>Fn1 mode de sortie de signal périodique 1<br>Fn2 mode de sortie de signal périodique 2 | dLy |
+| Paramètre avancé | Direction logique du port D | Sd | ![Logic direction of Port D segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-02.png) | --- (Même phase), -⁻- (Inversé)<br>on (toujours actif), oFF (toujours inactif) | --- |
+| Paramètre avancé | Type de sortie de contrôle | Cd | ![Control Output Type segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-03.png) | nPn, PnP, PSP (Push & Pull) | nPn |
+| Paramètre avancé | Limitation de la tension de sortie maximale \* | h | ![Maximum output voltage limit segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-04.png) | 0~260 V | 260 |
+| Paramètre avancé | Limite inférieure de fréquence | E | ![Lower Limit of Frequency segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-05.png) | 5.0~400.0 Hz | 40.0 |
+| Paramètre avancé | Indice d'accélération \* | g | ![Acceleration Index segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-06.png) | 100~150 | 150 |
+| Paramètre avancé | Indice de forme d'onde \* | r | ![Waveform Index segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-07.png) | 0~100 | 100 |
+| Paramètre avancé | Plage du paramètre de la fonction d'interdiction de réglage | Symbole spécial à 7 segments avec point décimal (voir figure) | ![Parameter Range of Disable Adjustment function special 7-segment symbol with decimal point](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-08.png) | 0~9999 | 0 |
+| Paramètre avancé | Verrouillage de la fonction d'interdiction de réglage des paramètres | Symbole spécial à 7 segments (voir figure) | ![Lock of Disable Parameter Adjustment function special 7-segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-09.png) | 0~9999 | 0 |
+| Paramètre avancé | Restauration des réglages par défaut | 88888 | ![Default Setting Restoration all-segments-lit symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-10.png) | À utiliser en combinaison avec le paramètre Pin | —— |
+| Paramètre avancé | Reprise du mode d'usine | Pin | ![Resume Factory Mode segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-11.png) | 0 : Restaure le groupe de paramètres de travail sur le groupe de paramètres utilisateur<br>5 : Enregistre le groupe de paramètres de travail dans le groupe de paramètres utilisateur<br>35 : Restaure le groupe de paramètres de travail sur les valeurs d'usine de CUH<br>55 : Restaure le groupe de paramètres de travail et le groupe de paramètres utilisateur sur les valeurs d'usine de CUH | 0 |
+| Paramètre de surveillance | Température | C | ![Temperature segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-12.png) | -20~85 °C | —— |
+| Paramètre de surveillance | Tension interne du bus | PU | ![Internal Bus Voltage segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-13.png) | 0~400 V | —— |
+| Paramètre de surveillance | Tension d'ondulation du bus | rU | ![Bus Ripple Voltage segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-14.png) | 0~200 V | —— |
+| Paramètre de surveillance | Courant de sortie | AC | ![Output Current segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-15.png) | 0.00~1.60 A -SDVC31S/SDVC311S<br>0.00~3.20 A -SDVC31M/SDVC311M | —— |
+| Paramètre de surveillance | Tension du signal du port A | AU | ![Signal Voltage of Port A segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-16.png) | 0.00~5.00 V | —— |
+| Paramètre de surveillance | Tension du signal du port B | bU | ![Signal Voltage of Port B segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-17.png) | 0~999 | —— |
+| Paramètre de surveillance | Tension du signal du port C | cU | ![Signal Voltage of Port C segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-18.png) | 0.0~28.0 V | —— |
+| Paramètre de surveillance | Tension du signal du port D | dU | ![Signal Voltage of Port D segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-19.png) | 0.0~28.0 V | —— |
+| Paramètre de surveillance | Tension en temps réel du port 24V | nU | ![Real time voltage of 24V Port segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-20.png) | 0.0~28.0 V | —— |
+| Paramètre de surveillance | Version du logiciel de la carte de contrôle | uc | ![Control board software version segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-21.png) | —— | —— |
+| Paramètre de surveillance | Version du logiciel de la carte de puissance | uP | ![Power board software version segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-22.png) | —— | —— |

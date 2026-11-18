@@ -1,0 +1,279 @@
+schema_version: 1
+doc_id: cuh.sdvc14-S.manual.v0.0.fr-FR
+doc_key: cuh.sdvc14-S.manual.v0.0
+lang: fr-FR
+generated_at: '2026-11-18 11:58:10'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 2
+  heading_path: &id001
+  - Module de commande numérique à tension variable pour alimentateur vibrant
+  table_md_path: tables/0002-module-de-commande-numérique-à-tension-variable--table-01.md
+  headers:
+  - Élément
+  - 'Plage : Min'
+  - 'Plage : Typique'
+  - 'Plage : Max'
+  - Unité
+  - Description
+items:
+- name: Tension d'entrée
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Tension d'entrée
+    'Plage : Min': '150'
+    'Plage : Typique': '220'
+    'Plage : Max': '260'
+    Unité: V
+    Description: AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Module de commande numérique à tension variable pour alimentateur
+      vibrant
+    table_role: generic
+    table_md_path: tables/0002-module-de-commande-numérique-à-tension-variable--table-01.md
+- name: Plage ajustable de tension de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Plage ajustable de tension de sortie
+    'Plage : Min': '35'
+    'Plage : Typique': ——
+    'Plage : Max': Vin-10
+    Unité: V
+    Description: Demi-onde
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Module de commande numérique à tension variable pour alimentateur
+      vibrant
+    table_role: generic
+    table_md_path: tables/0002-module-de-commande-numérique-à-tension-variable--table-01.md
+- name: Temps de réponse de la régulation de tension
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Temps de réponse de la régulation de tension
+    'Plage : Min': '0'
+    'Plage : Typique': '0.01'
+    'Plage : Max': '0.02'
+    Unité: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Module de commande numérique à tension variable pour alimentateur
+      vibrant
+    table_role: generic
+    table_md_path: tables/0002-module-de-commande-numérique-à-tension-variable--table-01.md
+- name: Plage ajustable de courant de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Plage ajustable de courant de sortie
+    'Plage : Min': '0.1'
+    'Plage : Typique': ——
+    'Plage : Max': '4'
+    Unité: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Module de commande numérique à tension variable pour alimentateur
+      vibrant
+    table_role: generic
+    table_md_path: tables/0002-module-de-commande-numérique-à-tension-variable--table-01.md
+- name: Puissance de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Puissance de sortie
+    'Plage : Min': '22'
+    'Plage : Typique': ——
+    'Plage : Max': '880'
+    Unité: VA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Module de commande numérique à tension variable pour alimentateur
+      vibrant
+    table_role: generic
+    table_md_path: tables/0002-module-de-commande-numérique-à-tension-variable--table-01.md
+- name: Fréquence de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Fréquence de sortie
+    'Plage : Min': '45'
+    'Plage : Typique': 50/60
+    'Plage : Max': '65'
+    Unité: Hz
+    Description: Demi-onde
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Module de commande numérique à tension variable pour alimentateur
+      vibrant
+    table_role: generic
+    table_md_path: tables/0002-module-de-commande-numérique-à-tension-variable--table-01.md
+- name: Forme d'onde de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Forme d'onde de sortie
+    'Plage : Typique': Sinus découpé en phase
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Module de commande numérique à tension variable pour alimentateur
+      vibrant
+    table_role: generic
+    table_md_path: tables/0002-module-de-commande-numérique-à-tension-variable--table-01.md
+- name: Temps de démarrage progressif
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Temps de démarrage progressif
+    'Plage : Min': '0.5'
+    'Plage : Typique': '0.65'
+    'Plage : Max': '0.7'
+    Unité: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Module de commande numérique à tension variable pour alimentateur
+      vibrant
+    table_role: generic
+    table_md_path: tables/0002-module-de-commande-numérique-à-tension-variable--table-01.md
+- name: Température de déclenchement de la protection contre la surchauffe
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Température de déclenchement de la protection contre la surchauffe
+    'Plage : Min': '58'
+    'Plage : Typique': '60'
+    'Plage : Max': '66'
+    Unité: ℃
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Module de commande numérique à tension variable pour alimentateur
+      vibrant
+    table_role: generic
+    table_md_path: tables/0002-module-de-commande-numérique-à-tension-variable--table-01.md
+- name: Tension de commande marche/arrêt à distance
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Tension de commande marche/arrêt à distance
+    'Plage : Min': '5'
+    'Plage : Typique': ——
+    'Plage : Max': '24'
+    Unité: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Module de commande numérique à tension variable pour alimentateur
+      vibrant
+    table_role: generic
+    table_md_path: tables/0002-module-de-commande-numérique-à-tension-variable--table-01.md
+- name: Capacité du fusible
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Capacité du fusible
+    'Plage : Typique': '6.3'
+    Unité: A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Module de commande numérique à tension variable pour alimentateur
+      vibrant
+    table_role: generic
+    table_md_path: tables/0002-module-de-commande-numérique-à-tension-variable--table-01.md
+- name: Température ambiante
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Température ambiante
+    'Plage : Min': '0'
+    'Plage : Typique': '25'
+    'Plage : Max': '40'
+    Unité: ℃
+    Description: Sans condensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Module de commande numérique à tension variable pour alimentateur
+      vibrant
+    table_role: generic
+    table_md_path: tables/0002-module-de-commande-numérique-à-tension-variable--table-01.md
+- name: Humidité ambiante
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Humidité ambiante
+    'Plage : Min': '10'
+    'Plage : Typique': '60'
+    'Plage : Max': '85'
+    Unité: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 2
+    heading_path: *id001
+    heading_title: Module de commande numérique à tension variable pour alimentateur
+      vibrant
+    table_role: generic
+    table_md_path: tables/0002-module-de-commande-numérique-à-tension-variable--table-01.md

@@ -1,0 +1,2524 @@
+schema_version: 1
+doc_id: cuh.sdvc311.sms.manual.v7.01.fr-FR
+doc_key: cuh.sdvc311.sms.manual.v7.01
+lang: fr-FR
+generated_at: '2026-11-18 12:01:26'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 1
+  heading_path: &id003
+  - （文首）
+  table_md_path: tables/0001-文首-table-01.md
+  headers:
+  - col_1
+  - col_2
+- section_index: 8
+  heading_path: &id001
+  - Chapitre Ⅰ Avant utilisation
+  - 1.4 Description des ports de câblage
+  table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-01.md
+  headers:
+  - Groupe de ports
+  - Borne
+  - Description
+- section_index: 8
+  heading_path: *id001
+  table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-02.md
+  headers:
+  - Groupe de ports
+  - Borne
+  - Description
+- section_index: 28
+  heading_path: &id004
+  - Chapitre Ⅴ Description des fonctions avancées
+  - 5.4.2 Sources de signaux et diagramme logique de la sortie de contrôle
+  table_md_path: tables/0028-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+  headers:
+  - Source de signal
+  - Signification
+- section_index: 37
+  heading_path: &id005
+  - Chapitre Ⅴ Description des fonctions avancées
+  - 5.9 Fonction de verrouillage par mot de passe des paramètres
+  table_md_path: tables/0037-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+  headers:
+  - Paramètre verrouillé
+  - Indice de forme d'onde
+  - Indice d'accélération
+  - Limitation de la tension de sortie maximale
+  - Opération logique des sources de signaux de la sortie principale
+  - Seconde source de signal de la sortie principale
+  - Première source de signal de la sortie principale
+  - Opération logique des sources de signaux du port de contrôle D
+  - Seconde source de signal du port de contrôle D
+  - Première source de signal du port de contrôle D
+  - Type de capteur du port C
+  - Cycles de freinage/Arrêt progressif
+  - Fréquence de sortie
+- section_index: 40
+  heading_path: &id006
+  - Chapitre Ⅴ Description des fonctions avancées
+  - Chapitre Ⅵ Caractéristiques techniques
+  table_md_path: tables/0040-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+  headers:
+  - Plage de dimensions
+  - tolérance
+- section_index: 41
+  heading_path: &id007
+  - Chapitre Ⅴ Description des fonctions avancées
+  - 6.2 Caractéristiques techniques
+  table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+  headers:
+  - Élément
+  - Min
+  - Typique
+  - Max
+  - Unité
+  - Remarque
+- section_index: 42
+  heading_path: &id008
+  - Chapitre Ⅴ Description des fonctions avancées
+  - 6.3 Norme de référence
+  table_md_path: tables/0042-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+  headers:
+  - Élément
+  - Norme GB
+  - Norme IEC
+  - Degré
+  - Exigence de la norme
+  - Remarque
+- section_index: 43
+  heading_path: &id002
+  - Chapitre Ⅶ Annexe
+  - 7.1 Table des paramètres
+  table_md_path: tables/0043-chapitre-ⅶ-annexe-table-01.md
+  headers:
+  - Catégorie
+  - Définition
+  - Symbole
+  - Image du symbole
+  - Plage
+  - Valeur par défaut
+- section_index: 43
+  heading_path: *id002
+  table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+  headers:
+  - col_1
+  - Définition
+  - Symbole
+  - Image du symbole
+  - Plage
+  - Valeur par défaut
+- section_index: 45
+  heading_path: &id009
+  - Chapitre Ⅶ Annexe
+  - 7.3 Suggestions de dépannage et explications des erreurs
+  table_md_path: tables/0045-chapitre-ⅶ-annexe-table-01.md
+  headers:
+  - Code d'erreur
+  - Définition
+  - Méthodes de dépannage
+  - Image du symbole
+items:
+- name: ⚠ Danger
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Danger
+    col_2: Le non-respect de cette consigne entraînera des blessures corporelles ou
+      la mort.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ⚠ Avertissement
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Avertissement
+    col_2: Le non-respect de cette consigne peut entraîner des blessures corporelles
+      ou la mort.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ⚠ Attention
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ⚠ Attention
+    col_2: Le non-respect de cette consigne peut entraîner des blessures modérées
+      ou légères.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Avis
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Avis
+    col_2: Le non-respect de cette consigne entraînera des dommages au produit et
+      des dommages matériels.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: ❗ Obligatoire
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: ❗ Obligatoire
+    col_2: Indique les précautions et restrictions d'utilisation à observer impérativement
+      pendant l'utilisation.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 1
+    heading_path: *id003
+    heading_title: ''
+    table_role: generic
+    table_md_path: tables/0001-文首-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Speed Ctrl
+    Borne: A1
+    Description: RGND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Speed Ctrl
+    Borne: A2
+    Description: Entrée
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-01.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Speed Ctrl
+    Borne: A3
+    Description: Sortie 5V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Photosensor
+    Borne: B1
+    Description: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Photosensor
+    Borne: B2
+    Description: RX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Photosensor
+    Borne: B3
+    Description: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-01.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Photosensor
+    Borne: B4
+    Description: TX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Sensor
+    Borne: C1
+    Description: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Sensor
+    Borne: C2
+    Description: Entrée
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-01.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Sensor
+    Borne: C3
+    Description: Sortie 24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-01.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Ctrl Out
+    Borne: D1
+    Description: Sortie
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-01.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Ctrl Out
+    Borne: D2
+    Description: Sortie 24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-01.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: 24V DC
+    Borne: I1
+    Description: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-02.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: 24V DC
+    Borne: I2
+    Description: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-02.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: 24V DC
+    Borne: I1
+    Description: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-02.md
+- name: 24V DC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: 24V DC
+    Borne: I2
+    Description: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-02.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Speed Ctrl
+    Borne: A1
+    Description: RGND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-02.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Speed Ctrl
+    Borne: A2
+    Description: Entrée
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-02.md
+- name: Speed Ctrl
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Speed Ctrl
+    Borne: A3
+    Description: Sortie 5V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-02.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Photosensor
+    Borne: B1
+    Description: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-02.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Photosensor
+    Borne: B2
+    Description: RX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-02.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Photosensor
+    Borne: B3
+    Description: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-02.md
+- name: Photosensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Photosensor
+    Borne: B4
+    Description: TX
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-02.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Sensor
+    Borne: C1
+    Description: GND
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-02.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Sensor
+    Borne: C2
+    Description: Entrée
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-02.md
+- name: Sensor
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Sensor
+    Borne: C3
+    Description: Sortie 24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-02.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Ctrl Out
+    Borne: D1
+    Description: Sortie
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-02.md
+- name: Ctrl Out
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Groupe de ports: Ctrl Out
+    Borne: D2
+    Description: Sortie 24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 8
+    heading_path: *id001
+    heading_title: 1.4 Description des ports de câblage
+    table_role: generic
+    table_md_path: tables/0008-chapitre-ⅰ-avant-utilisation-table-02.md
+- name: '0'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Source de signal: '0'
+    Signification: signal invalide
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Sources de signaux et diagramme logique de la sortie de contrôle
+    table_role: generic
+    table_md_path: tables/0028-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: '1'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Source de signal: '1'
+    Signification: signal valide
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Sources de signaux et diagramme logique de la sortie de contrôle
+    table_role: generic
+    table_md_path: tables/0028-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Source de signal: b
+    Signification: Signal du port de détection photoélectrique intelligente
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Sources de signaux et diagramme logique de la sortie de contrôle
+    table_role: generic
+    table_md_path: tables/0028-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: -b
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Source de signal: -b
+    Signification: Signal du port de détection photoélectrique intelligente inversé
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Sources de signaux et diagramme logique de la sortie de contrôle
+    table_role: generic
+    table_md_path: tables/0028-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Source de signal: C
+    Signification: Signal du port de capteur de commutation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Sources de signaux et diagramme logique de la sortie de contrôle
+    table_role: generic
+    table_md_path: tables/0028-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: -C
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Source de signal: -C
+    Signification: Signal du port de capteur de commutation inversé
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Sources de signaux et diagramme logique de la sortie de contrôle
+    table_role: generic
+    table_md_path: tables/0028-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: od
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Source de signal: od
+    Signification: Signal du port de sortie de contrôle
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Sources de signaux et diagramme logique de la sortie de contrôle
+    table_role: generic
+    table_md_path: tables/0028-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: -od
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Source de signal: -od
+    Signification: Signal du port de sortie de contrôle inversé
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Sources de signaux et diagramme logique de la sortie de contrôle
+    table_role: generic
+    table_md_path: tables/0028-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: oq
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Source de signal: oq
+    Signification: Signal du port de sortie de puissance principale
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Sources de signaux et diagramme logique de la sortie de contrôle
+    table_role: generic
+    table_md_path: tables/0028-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: -oq
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Source de signal: -oq
+    Signification: Signal du port de sortie de puissance principale inversé
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 28
+    heading_path: *id004
+    heading_title: 5.4.2 Sources de signaux et diagramme logique de la sortie de contrôle
+    table_role: generic
+    table_md_path: tables/0028-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: '1 : Verrouillé'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Paramètre verrouillé: '1 : Verrouillé'
+    Indice de forme d'onde: '1'
+    Indice d'accélération: '1'
+    Limitation de la tension de sortie maximale: '1'
+    Opération logique des sources de signaux de la sortie principale: '1'
+    Seconde source de signal de la sortie principale: '1'
+    Première source de signal de la sortie principale: '1'
+    Opération logique des sources de signaux du port de contrôle D: '1'
+    Seconde source de signal du port de contrôle D: '1'
+    Première source de signal du port de contrôle D: '1'
+    Type de capteur du port C: '1'
+    Cycles de freinage/Arrêt progressif: '1'
+    Fréquence de sortie: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 Fonction de verrouillage par mot de passe des paramètres
+    table_role: generic
+    table_md_path: tables/0037-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: '0 : Déverrouillé'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Paramètre verrouillé: '0 : Déverrouillé'
+    Indice de forme d'onde: '0'
+    Indice d'accélération: '0'
+    Limitation de la tension de sortie maximale: '0'
+    Opération logique des sources de signaux de la sortie principale: '0'
+    Seconde source de signal de la sortie principale: '0'
+    Première source de signal de la sortie principale: '0'
+    Opération logique des sources de signaux du port de contrôle D: '0'
+    Seconde source de signal du port de contrôle D: '0'
+    Première source de signal du port de contrôle D: '0'
+    Type de capteur du port C: '0'
+    Cycles de freinage/Arrêt progressif: '0'
+    Fréquence de sortie: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 Fonction de verrouillage par mot de passe des paramètres
+    table_role: generic
+    table_md_path: tables/0037-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Facteur de multiplication
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Paramètre verrouillé: Facteur de multiplication
+    Indice de forme d'onde: '4'
+    Indice d'accélération: '2'
+    Limitation de la tension de sortie maximale: '1'
+    Opération logique des sources de signaux de la sortie principale: '4'
+    Seconde source de signal de la sortie principale: '2'
+    Première source de signal de la sortie principale: '1'
+    Opération logique des sources de signaux du port de contrôle D: '4'
+    Seconde source de signal du port de contrôle D: '2'
+    Première source de signal du port de contrôle D: '1'
+    Type de capteur du port C: '4'
+    Cycles de freinage/Arrêt progressif: '2'
+    Fréquence de sortie: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 Fonction de verrouillage par mot de passe des paramètres
+    table_role: generic
+    table_md_path: tables/0037-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Plage de la valeur du mot de passe (somme)
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Paramètre verrouillé: Plage de la valeur du mot de passe (somme)
+    Indice de forme d'onde: 0~7 (1er chiffre de la valeur du mot de passe)
+    Opération logique des sources de signaux de la sortie principale: 0~7 (2e chiffre
+      de la valeur du mot de passe)
+    Opération logique des sources de signaux du port de contrôle D: 0~7 (3e chiffre
+      de la valeur du mot de passe)
+    Type de capteur du port C: 0~7 (4e chiffre de la valeur du mot de passe)
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 Fonction de verrouillage par mot de passe des paramètres
+    table_role: generic
+    table_md_path: tables/0037-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Exemple 1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Paramètre verrouillé: Exemple 1
+    Indice de forme d'onde: '0'
+    Indice d'accélération: '0'
+    Limitation de la tension de sortie maximale: '0'
+    Opération logique des sources de signaux de la sortie principale: '0'
+    Seconde source de signal de la sortie principale: '0'
+    Première source de signal de la sortie principale: '0'
+    Opération logique des sources de signaux du port de contrôle D: '0'
+    Seconde source de signal du port de contrôle D: '0'
+    Première source de signal du port de contrôle D: '0'
+    Type de capteur du port C: '0'
+    Cycles de freinage/Arrêt progressif: '0'
+    Fréquence de sortie: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 Fonction de verrouillage par mot de passe des paramètres
+    table_role: generic
+    table_md_path: tables/0037-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Exemple 2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Paramètre verrouillé: Exemple 2
+    Indice de forme d'onde: '1'
+    Indice d'accélération: '0'
+    Limitation de la tension de sortie maximale: '0'
+    Opération logique des sources de signaux de la sortie principale: '0'
+    Seconde source de signal de la sortie principale: '0'
+    Première source de signal de la sortie principale: '1'
+    Opération logique des sources de signaux du port de contrôle D: '0'
+    Seconde source de signal du port de contrôle D: '0'
+    Première source de signal du port de contrôle D: '0'
+    Type de capteur du port C: '0'
+    Cycles de freinage/Arrêt progressif: '0'
+    Fréquence de sortie: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 Fonction de verrouillage par mot de passe des paramètres
+    table_role: generic
+    table_md_path: tables/0037-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Exemple 3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Paramètre verrouillé: Exemple 3
+    Indice de forme d'onde: '0'
+    Indice d'accélération: '0'
+    Limitation de la tension de sortie maximale: '0'
+    Opération logique des sources de signaux de la sortie principale: '0'
+    Seconde source de signal de la sortie principale: '0'
+    Première source de signal de la sortie principale: '0'
+    Opération logique des sources de signaux du port de contrôle D: '0'
+    Seconde source de signal du port de contrôle D: '0'
+    Première source de signal du port de contrôle D: '0'
+    Type de capteur du port C: '1'
+    Cycles de freinage/Arrêt progressif: '1'
+    Fréquence de sortie: '1'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id005
+    heading_title: 5.9 Fonction de verrouillage par mot de passe des paramètres
+    table_role: generic
+    table_md_path: tables/0037-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: 0~3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Plage de dimensions: 0~3
+    tolérance: ±0.05
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: Chapitre Ⅵ Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0040-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: 3~10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Plage de dimensions: 3~10
+    tolérance: ±0.1
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: Chapitre Ⅵ Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0040-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: 10~30
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Plage de dimensions: 10~30
+    tolérance: ±0.15
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: Chapitre Ⅵ Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0040-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: 30~80
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Plage de dimensions: 30~80
+    tolérance: ±0.2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: Chapitre Ⅵ Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0040-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: 80~180
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Plage de dimensions: 80~180
+    tolérance: ±0.3
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: Chapitre Ⅵ Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0040-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: '>180'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Plage de dimensions: '>180'
+    tolérance: ±0.5
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 40
+    heading_path: *id006
+    heading_title: Chapitre Ⅵ Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0040-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Tension d'entrée
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Tension d'entrée
+    Min: '85'
+    Typique: '220'
+    Max: '250'
+    Unité: V
+    Remarque: Valeur efficace CA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Plage de tension de sortie réglable
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Plage de tension de sortie réglable
+    Min: '0'
+    Typique: ——
+    Max: '260'
+    Unité: V
+    Remarque: Inférieure à 150 % de la tension d'entrée
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Précision de réglage de la tension
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Précision de réglage de la tension
+    Typique: '1'
+    Unité: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Précision de stabilisation de la tension
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Précision de stabilisation de la tension
+    Min: '0'
+    Typique: ——
+    Max: '10'
+    Unité: '%'
+    Remarque: ΔVout/ΔVin
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Plage de courant de sortie réglable
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Plage de courant de sortie réglable
+    Min: '0'
+    Typique: ——
+    Max: '1.5'
+    Unité: A
+    Remarque: SDVC311-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Plage de courant de sortie réglable
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Plage de courant de sortie réglable
+    Min: '0'
+    Typique: ——
+    Max: '3.0'
+    Unité: A
+    Remarque: SDVC311-M
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Plage de courant de sortie réglable
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Plage de courant de sortie réglable
+    Min: '0'
+    Typique: ——
+    Max: '4.5'
+    Unité: A
+    Remarque: SDVC311-L
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Plage de courant de sortie réglable
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Plage de courant de sortie réglable
+    Min: '0'
+    Typique: ——
+    Max: '6.0'
+    Unité: A
+    Remarque: SDVC311-XL
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Puissance de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Puissance de sortie
+    Min: '0'
+    Typique: ——
+    Max: '330'
+    Unité: VA
+    Remarque: SDVC311-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Puissance de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Puissance de sortie
+    Min: '0'
+    Typique: ——
+    Max: '660'
+    Unité: VA
+    Remarque: SDVC311-M
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Puissance de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Puissance de sortie
+    Min: '0'
+    Typique: ——
+    Max: '990'
+    Unité: VA
+    Remarque: SDVC311-L
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Puissance de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Puissance de sortie
+    Min: '0'
+    Typique: ——
+    Max: '1320'
+    Unité: VA
+    Remarque: SDVC311-XL
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Fréquence de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Fréquence de sortie
+    Min: '5.0'
+    Typique: ——
+    Max: '400.0'
+    Unité: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Précision de réglage de la fréquence
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Précision de réglage de la fréquence
+    Typique: '0.1'
+    Unité: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Forme d'onde de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Forme d'onde de sortie
+    Typique: Sine
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Temps de démarrage progressif
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Temps de démarrage progressif
+    Min: '0'
+    Typique: ——
+    Max: '10.0'
+    Unité: s
+    Remarque: 'Valeur par défaut : 0.5'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Plage du temps de retard d'enclenchement/déclenchement
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Plage du temps de retard d'enclenchement/déclenchement
+    Min: '0'
+    Typique: ——
+    Max: '99.9'
+    Unité: s
+    Remarque: 'Valeur par défaut : 0.2'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Précision du temps de retard d'enclenchement/déclenchement
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Précision du temps de retard d'enclenchement/déclenchement
+    Typique: '0.1'
+    Unité: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Température de déclenchement de la protection contre la surchauffe
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Température de déclenchement de la protection contre la surchauffe
+    Min: '58'
+    Typique: '60'
+    Max: '66'
+    Unité: °C
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Courant de sortie de contrôle CC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Courant de sortie de contrôle CC
+    Min: '0'
+    Typique: ——
+    Max: '400'
+    Unité: mA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Tension de sortie de contrôle CC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Tension de sortie de contrôle CC
+    Min: '22'
+    Typique: '24'
+    Max: '26'
+    Unité: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Signal de commande analogique
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Signal de commande analogique
+    Typique: 1~5/4~20
+    Unité: V/mA
+    Remarque: Signal de contrôle de vitesse à distance
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Signal de commande numérique
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Signal de commande numérique
+    Typique: '24'
+    Unité: V
+    Remarque: Signal de commutation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Méthode de réglage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Méthode de réglage
+    Typique: '6'
+    Unité: Bouton
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Consommation en veille
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Consommation en veille
+    Min: ——
+    Typique: '3'
+    Max: ——
+    Unité: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Méthode d'affichage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Méthode d'affichage
+    Typique: '5'
+    Unité: Chiffre
+    Remarque: LED
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Température ambiante
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Température ambiante
+    Min: '0'
+    Typique: '25'
+    Max: '40'
+    Unité: °C
+    Remarque: Sans condensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Humidité ambiante
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Humidité ambiante
+    Min: '10'
+    Typique: '60'
+    Max: '85'
+    Unité: '%'
+    Remarque: Sans condensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Température ambiante de stockage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Température ambiante de stockage
+    Min: '-20'
+    Typique: '25'
+    Max: '65'
+    Unité: °C
+    Remarque: Sans condensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 41
+    heading_path: *id007
+    heading_title: 6.2 Caractéristiques techniques
+    table_role: generic
+    table_md_path: tables/0041-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Décharge électrostatique
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Décharge électrostatique
+    Norme GB: GB/T 17626.2-2006
+    Norme IEC: IEC 61000-4-2:2001
+    Degré: '4'
+    Exigence de la norme: ±8 kV
+    Remarque: Décharge par contact
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id008
+    heading_title: 6.3 Norme de référence
+    table_role: generic
+    table_md_path: tables/0042-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Test de transitoire électrique rapide
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Test de transitoire électrique rapide
+    Norme GB: GB/T 17626.4-2008
+    Norme IEC: IEC 61000-4-4:2004
+    Degré: '4'
+    Exigence de la norme: ±4 kV
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id008
+    heading_title: 6.3 Norme de référence
+    table_role: generic
+    table_md_path: tables/0042-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Immunité aux ondulations de la ligne d'alimentation CC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Immunité aux ondulations de la ligne d'alimentation CC
+    Norme GB: GB/T 17626.17-2005
+    Norme IEC: IEC 61000-4-17:2002
+    Degré: '4'
+    Exigence de la norme: 15 %
+    Remarque: Degré A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 42
+    heading_path: *id008
+    heading_title: 6.3 Norme de référence
+    table_role: generic
+    table_md_path: tables/0042-chapitre-ⅴ-description-des-fonctions-avancées-table-01.md
+- name: Paramètre commun
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Catégorie: Paramètre commun
+    Définition: Tension de sortie
+    Symbole: U
+    Image du symbole: '![Output Voltage segment symbol U](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0045-vcrop-00.png)'
+    Plage: 0~260 V
+    Valeur par défaut: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-01.md
+- name: Paramètre de base
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Catégorie: Paramètre de base
+    Définition: Fréquence de sortie *
+    Symbole: E
+    Image du symbole: '![Output Frequency segment symbol E](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0045-vcrop-01.png)'
+    Plage: 5.0~400.0 Hz
+    Valeur par défaut: '50.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-01.md
+- name: Paramètre avancé
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Catégorie: Paramètre avancé
+    Définition: Sensibilité du capteur photoélectrique intelligent
+    Symbole: P
+    Image du symbole: '![Sensor sensitivity segment symbol P](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0045-vcrop-07.png)'
+    Plage: PnP, nPn, 2~1000
+    Valeur par défaut: '80'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-01.md
+- name: Paramètre avancé
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre avancé
+    Définition: Retard de déclenchement du port D
+    Symbole: Ld
+    Image du symbole: '![Off Delay of Port D segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-00.png)'
+    Plage: 0.0~99.9 s
+    Valeur par défaut: '0.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre avancé
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre avancé
+    Définition: Mode de sortie du port D
+    Symbole: Fd
+    Image du symbole: '![Output Mode of Port D segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-01.png)'
+    Plage: dLy (Mode temporisé), HLd (Mode maintenu)<br>Fn1 mode de sortie de signal
+      périodique 1<br>Fn2 mode de sortie de signal périodique 2
+    Valeur par défaut: dLy
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre avancé
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre avancé
+    Définition: Direction logique du port D
+    Symbole: Sd
+    Image du symbole: '![Logic direction of Port D segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-02.png)'
+    Plage: '--- (Même phase), -⁻- (Inversé)<br>on (toujours actif), oFF (toujours
+      inactif)'
+    Valeur par défaut: '---'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre avancé
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre avancé
+    Définition: Type de sortie de contrôle
+    Symbole: Cd
+    Image du symbole: '![Control Output Type segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-03.png)'
+    Plage: nPn, PnP, PSP (Push & Pull)
+    Valeur par défaut: nPn
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre avancé
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre avancé
+    Définition: Limitation de la tension de sortie maximale *
+    Symbole: h
+    Image du symbole: '![Maximum output voltage limit segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-04.png)'
+    Plage: 0~260 V
+    Valeur par défaut: '260'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre avancé
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre avancé
+    Définition: Limite inférieure de fréquence
+    Symbole: E
+    Image du symbole: '![Lower Limit of Frequency segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-05.png)'
+    Plage: 5.0~400.0 Hz
+    Valeur par défaut: '40.0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre avancé
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre avancé
+    Définition: Indice d'accélération *
+    Symbole: g
+    Image du symbole: '![Acceleration Index segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-06.png)'
+    Plage: 100~150
+    Valeur par défaut: '150'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre avancé
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre avancé
+    Définition: Indice de forme d'onde *
+    Symbole: r
+    Image du symbole: '![Waveform Index segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-07.png)'
+    Plage: 0~100
+    Valeur par défaut: '100'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre avancé
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre avancé
+    Définition: Plage du paramètre de la fonction d'interdiction de réglage
+    Symbole: Symbole spécial à 7 segments avec point décimal (voir figure)
+    Image du symbole: '![Parameter Range of Disable Adjustment function special 7-segment
+      symbol with decimal point](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-08.png)'
+    Plage: 0~9999
+    Valeur par défaut: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre avancé
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre avancé
+    Définition: Verrouillage de la fonction d'interdiction de réglage des paramètres
+    Symbole: Symbole spécial à 7 segments (voir figure)
+    Image du symbole: '![Lock of Disable Parameter Adjustment function special 7-segment
+      symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-09.png)'
+    Plage: 0~9999
+    Valeur par défaut: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre avancé
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre avancé
+    Définition: Restauration des réglages par défaut
+    Symbole: '88888'
+    Image du symbole: '![Default Setting Restoration all-segments-lit symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-10.png)'
+    Plage: À utiliser en combinaison avec le paramètre Pin
+    Valeur par défaut: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre avancé
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre avancé
+    Définition: Reprise du mode d'usine
+    Symbole: Pin
+    Image du symbole: '![Resume Factory Mode segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-11.png)'
+    Plage: '0 : Restaure le groupe de paramètres de travail sur le groupe de paramètres
+      utilisateur<br>5 : Enregistre le groupe de paramètres de travail dans le groupe
+      de paramètres utilisateur<br>35 : Restaure le groupe de paramètres de travail
+      sur les valeurs d''usine de CUH<br>55 : Restaure le groupe de paramètres de
+      travail et le groupe de paramètres utilisateur sur les valeurs d''usine de CUH'
+    Valeur par défaut: '0'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre de surveillance
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre de surveillance
+    Définition: Température
+    Symbole: C
+    Image du symbole: '![Temperature segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-12.png)'
+    Plage: -20~85 °C
+    Valeur par défaut: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre de surveillance
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre de surveillance
+    Définition: Tension interne du bus
+    Symbole: PU
+    Image du symbole: '![Internal Bus Voltage segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-13.png)'
+    Plage: 0~400 V
+    Valeur par défaut: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre de surveillance
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre de surveillance
+    Définition: Tension d'ondulation du bus
+    Symbole: rU
+    Image du symbole: '![Bus Ripple Voltage segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-14.png)'
+    Plage: 0~200 V
+    Valeur par défaut: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre de surveillance
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre de surveillance
+    Définition: Courant de sortie
+    Symbole: AC
+    Image du symbole: '![Output Current segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-15.png)'
+    Plage: 0.00~1.60 A -SDVC31S/SDVC311S<br>0.00~3.20 A -SDVC31M/SDVC311M
+    Valeur par défaut: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre de surveillance
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre de surveillance
+    Définition: Tension du signal du port A
+    Symbole: AU
+    Image du symbole: '![Signal Voltage of Port A segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-16.png)'
+    Plage: 0.00~5.00 V
+    Valeur par défaut: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre de surveillance
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre de surveillance
+    Définition: Tension du signal du port B
+    Symbole: bU
+    Image du symbole: '![Signal Voltage of Port B segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-17.png)'
+    Plage: 0~999
+    Valeur par défaut: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre de surveillance
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre de surveillance
+    Définition: Tension du signal du port C
+    Symbole: cU
+    Image du symbole: '![Signal Voltage of Port C segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-18.png)'
+    Plage: 0.0~28.0 V
+    Valeur par défaut: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre de surveillance
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre de surveillance
+    Définition: Tension du signal du port D
+    Symbole: dU
+    Image du symbole: '![Signal Voltage of Port D segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-19.png)'
+    Plage: 0.0~28.0 V
+    Valeur par défaut: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre de surveillance
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre de surveillance
+    Définition: Tension en temps réel du port 24V
+    Symbole: nU
+    Image du symbole: '![Real time voltage of 24V Port segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-20.png)'
+    Plage: 0.0~28.0 V
+    Valeur par défaut: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre de surveillance
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre de surveillance
+    Définition: Version du logiciel de la carte de contrôle
+    Symbole: uc
+    Image du symbole: '![Control board software version segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-21.png)'
+    Plage: ——
+    Valeur par défaut: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Paramètre de surveillance
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    col_1: Paramètre de surveillance
+    Définition: Version du logiciel de la carte de puissance
+    Symbole: uP
+    Image du symbole: '![Power board software version segment symbol](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0046-vcrop-22.png)'
+    Plage: ——
+    Valeur par défaut: ——
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 43
+    heading_path: *id002
+    heading_title: 7.1 Table des paramètres
+    table_role: generic
+    table_md_path: tables/0043-chapitre-ⅶ-annexe-table-02.md
+- name: Pas d'affichage après la mise sous tension
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Code d'erreur: Pas d'affichage après la mise sous tension
+    Méthodes de dépannage: Vérifiez que la prise de courant est sous tension<br>Vérifiez
+      que le cordon d'alimentation d'entrée est correctement raccordé à la prise de
+      courant ?
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Suggestions de dépannage et explications des erreurs
+    table_role: generic
+    table_md_path: tables/0045-chapitre-ⅶ-annexe-table-01.md
+- name: Affichage normal, mais pas de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Code d'erreur: Affichage normal, mais pas de sortie
+    Méthodes de dépannage: Vérifiez que le câble de sortie est correctement raccordé
+      au vibreur.<br>Vérifiez que la tension de sortie n'est pas trop faible.<br>Vérifiez
+      que l'indicateur d'arrêt n'est pas allumé.<br>Vérifiez si le paramètre Normal
+      Close a été réglé, provoquant l'arrêt de la sortie du contrôleur.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Suggestions de dépannage et explications des erreurs
+    table_role: generic
+    table_md_path: tables/0045-chapitre-ⅶ-annexe-table-01.md
+- name: Perte d'efficacité du signal de commande
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Code d'erreur: Perte d'efficacité du signal de commande
+    Méthodes de dépannage: Vérifiez que le signal de commande est correctement entré.<br>Vérifiez
+      que le fil de terre du signal de commande est correctement raccordé au contrôleur.<br>Vérifiez
+      que la relation logique des signaux de commande est réglée conformément à vos
+      attentes.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Suggestions de dépannage et explications des erreurs
+    table_role: generic
+    table_md_path: tables/0045-chapitre-ⅶ-annexe-table-01.md
+- name: Phénomène de battement
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Code d'erreur: Phénomène de battement
+    Méthodes de dépannage: Évitez le couplage de vibration entre les vibreurs.<br>Augmentez
+      la fréquence de résonance des vibreurs.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Suggestions de dépannage et explications des erreurs
+    table_role: generic
+    table_md_path: tables/0045-chapitre-ⅶ-annexe-table-01.md
+- name: Affichage normal, pas de sortie, mais un son est audible
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Code d'erreur: Affichage normal, pas de sortie, mais un son est audible
+    Méthodes de dépannage: Réglez tous les paramètres comme indiqué dans ce manuel.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Suggestions de dépannage et explications des erreurs
+    table_role: generic
+    table_md_path: tables/0045-chapitre-ⅶ-annexe-table-01.md
+- name: Err01
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Code d'erreur: Err01
+    Définition: Court-circuit
+    Méthodes de dépannage: Vérifiez que la charge n'est pas en court-circuit, puis
+      tentez de redémarrer la sortie du contrôleur en appuyant deux fois sur le bouton
+      ON/OFF de sortie ou en réinitialisant le contrôleur.
+    Image du symbole: '![Err01 7-segment display](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Suggestions de dépannage et explications des erreurs
+    table_role: generic
+    table_md_path: tables/0045-chapitre-ⅶ-annexe-table-01.md
+- name: Err02
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Code d'erreur: Err02
+    Définition: Surintensité
+    Méthodes de dépannage: Réduisez convenablement la tension de sortie, puis redémarrez
+      la sortie.
+    Image du symbole: '![Err02 7-segment display](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Suggestions de dépannage et explications des erreurs
+    table_role: generic
+    table_md_path: tables/0045-chapitre-ⅶ-annexe-table-01.md
+- name: Err03
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Code d'erreur: Err03
+    Définition: Surchauffe
+    Méthodes de dépannage: Installez le contrôleur dans un environnement bien ventilé.
+    Image du symbole: '![Err03 7-segment display](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Suggestions de dépannage et explications des erreurs
+    table_role: generic
+    table_md_path: tables/0045-chapitre-ⅶ-annexe-table-01.md
+- name: Err04
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Code d'erreur: Err04
+    Définition: Surtension ou sous-tension
+    Méthodes de dépannage: Vérifiez que la tension d'entrée est comprise entre 85~250
+      Vca.
+    Image du symbole: '![Err04 7-segment display](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-03.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Suggestions de dépannage et explications des erreurs
+    table_role: generic
+    table_md_path: tables/0045-chapitre-ⅶ-annexe-table-01.md
+- name: Err05
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Code d'erreur: Err05
+    Définition: Anomalie de communication interne
+    Méthodes de dépannage: Vérifiez qu'aucune alimentation externe n'est raccordée
+      au port d'alimentation 24V ou contactez notre support technique.
+    Image du symbole: '![Err05 7-segment display](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-04.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Suggestions de dépannage et explications des erreurs
+    table_role: generic
+    table_md_path: tables/0045-chapitre-ⅶ-annexe-table-01.md
+- name: Err06
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Code d'erreur: Err06
+    Définition: Anomalie du capteur de température
+    Méthodes de dépannage: Vérifiez que la température de fonctionnement n'est pas
+      inférieure à -20℃ ou contactez notre support technique.
+    Image du symbole: '![Err06 7-segment display](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-05.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Suggestions de dépannage et explications des erreurs
+    table_role: generic
+    table_md_path: tables/0045-chapitre-ⅶ-annexe-table-01.md
+- name: Err07
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Code d'erreur: Err07
+    Définition: Protection contre les courts-circuits du port D
+    Méthodes de dépannage: Vérifiez que la charge du port D n'est pas en court-circuit
+      et que le courant ne dépasse pas 400mA, puis tentez de redémarrer la sortie
+      du port D.
+    Image du symbole: '![Err07 7-segment display](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-06.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Suggestions de dépannage et explications des erreurs
+    table_role: generic
+    table_md_path: tables/0045-chapitre-ⅶ-annexe-table-01.md
+- name: Err10
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Code d'erreur: Err10
+    Définition: Anomalie de la sortie d'alimentation 24V
+    Méthodes de dépannage: Vérifiez que le port 24V n'est pas en court-circuit et
+      que le courant ne dépasse pas 400mA.
+    Image du symbole: '![Err10 7-segment display](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-07.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Suggestions de dépannage et explications des erreurs
+    table_role: generic
+    table_md_path: tables/0045-chapitre-ⅶ-annexe-table-01.md
+- name: Err11
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Code d'erreur: Err11
+    Définition: Anomalie de la sortie d'alimentation 5V du port A
+    Méthodes de dépannage: Vérifiez que l'alimentation 5V du port A n'est pas en court-circuit
+      ou raccordée à une tension externe supérieure à 5V.
+    Image du symbole: '![Err11 7-segment display](assets/images/cuh.sdvc311.sms.manual.v7.01/page-0048-vcrop-08.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 45
+    heading_path: *id009
+    heading_title: 7.3 Suggestions de dépannage et explications des erreurs
+    table_role: generic
+    table_md_path: tables/0045-chapitre-ⅶ-annexe-table-01.md

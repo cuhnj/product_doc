@@ -1,0 +1,10 @@
+<!-- publish-data-sidecar: section=46 heading='Chapitre Ⅶ Annexe' role=generic source_md=doc.md -->
+
+|  | Définition | Symbole | Image du symbole | Plage | Valeur par défaut |
+|---|---|---|---|---|---|
+| Paramètre conjoint<br><br>Appui long<br>▲ et ▼ | B combiné avec A <sup>#</sup> | Cb | ![Symbole à sept segments Cb pour B combiné avec A](assets/images/cuh.sdvc33.manual.v0.0/page-0042-vcrop-00.png) | Ind (indépendant), trF (B suit la fréquence de A), trU (B suit la tension de A), trA (B suit la tension et la fréquence de A) | Ind |
+|  | <sup>#</sup> | Y | ![Symbole à sept segments du paramètre d'angle](assets/images/cuh.sdvc33.manual.v0.0/page-0042-vcrop-01.png) | -180~180 ° | 0 |
+|  | Mode de contrôle du bouton Marche/Arrêt <sup>#</sup> | OF | ![Symbole à sept segments OF pour le mode de contrôle du bouton Marche/Arrêt](assets/images/cuh.sdvc33.manual.v0.0/page-0042-vcrop-02.png) | Ind (indépendant), Cob (combiné) | Ind |
+|  | Sauvegarde des paramètres utilisateur <sup>#</sup> | SP | ![Symbole à sept segments SP pour la sauvegarde des paramètres utilisateur](assets/images/cuh.sdvc33.manual.v0.0/page-0042-vcrop-03.png) | uP1 (sauvegarde du groupe utilisateur 1) | uP1 |
+|  | Restauration des paramètres utilisateur <sup>#</sup> | rP | ![Symbole à sept segments rP pour la restauration des paramètres utilisateur](assets/images/cuh.sdvc33.manual.v0.0/page-0042-vcrop-04.png) | 1Ab (le groupe utilisateur 1 restaure les groupes A et B), 1bA (restauration croisée des groupes A et B par le groupe utilisateur 1), 1A0 (le groupe utilisateur 1 restaure uniquement le groupe A), 10A (le groupe utilisateur 1 restaure uniquement le groupe A de manière croisée), 1b0 (le groupe utilisateur 1 restaure uniquement le groupe B), 10b (le groupe utilisateur 1 restaure uniquement le groupe B de manière croisée) | 1Ab |
+|  | Restauration des réglages par défaut <sup>#</sup> | 8.8.8.8.8. | ![Symbole à sept segments entièrement allumé pour la restauration des réglages par défaut](assets/images/cuh.sdvc33.manual.v0.0/page-0042-vcrop-05.png) | —— | —— |

@@ -1,0 +1,1501 @@
+schema_version: 1
+doc_id: cuh.sdvc31-U.series.manual.v3.01.fr-FR
+doc_key: cuh.sdvc31-U.series.manual.v3.01
+lang: fr-FR
+generated_at: '2026-11-18 11:59:11'
+source:
+  data_index_yaml: index.yaml
+tables:
+- section_index: 7
+  heading_path: &id001
+  - Chapitre Ⅲ Description des composants
+  table_md_path: tables/0007-chapitre-ⅲ-description-des-composants-table-01.md
+  headers:
+  - Élément
+  - Description
+- section_index: 7
+  heading_path: *id001
+  table_md_path: tables/0007-chapitre-ⅲ-description-des-composants-table-02.md
+  headers:
+  - Modèle
+  - Courant
+- section_index: 22
+  heading_path: &id002
+  - Chapitre Ⅴ Capteurs et contrôle par signal
+  - 5.2 Méthode d'utilisation du capteur de commutation NPN
+  table_md_path: tables/0022-chapitre-ⅴ-capteurs-et-contrôle-par-signal-table-01.md
+  headers:
+  - Borne
+  - Fil
+- section_index: 23
+  heading_path: &id003
+  - Chapitre Ⅴ Capteurs et contrôle par signal
+  - 5.2.4 Méthode de raccordement du capteur à fibre optique à contre-rayonnement
+  table_md_path: tables/0023-chapitre-ⅴ-capteurs-et-contrôle-par-signal-table-01.md
+  headers:
+  - Borne
+  - Annotation
+- section_index: 35
+  heading_path: &id004
+  - Annexe
+  - 'Annexe C : Définition de l''interface de signaux'
+  table_md_path: tables/0035-annexe-table-01.md
+  headers:
+  - Borne
+  - Définition
+- section_index: 36
+  heading_path: &id005
+  - Annexe
+  - '**Annexe D :** Définition des caractères affichés sur le LED'
+  table_md_path: tables/0036-annexe-table-01.md
+  headers:
+  - Contrôleur
+  - Caractère affiché
+  - Image du symbole
+- section_index: 37
+  heading_path: &id006
+  - Annexe
+  - 'Annexe E : Caractéristiques électriques'
+  table_md_path: tables/0037-annexe-table-01.md
+  headers:
+  - Élément
+  - Plage Min
+  - Plage Typique
+  - Plage Max
+  - Unité
+  - Description
+- section_index: 38
+  heading_path: &id007
+  - Annexe
+  - 'Annexe F : Conseils de dépannage et explications des erreurs'
+  table_md_path: tables/0038-annexe-table-01.md
+  headers:
+  - N°
+  - Problème / affichage
+  - Image du symbole
+  - Conseils de dépannage et explications des erreurs
+items:
+- name: Indicateur de tension de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Indicateur de tension de sortie
+    Description: L'indicateur s'allume lorsque le contrôleur entre dans le statut
+      de réglage de la tension de sortie.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapitre Ⅲ Description des composants
+    table_role: generic
+    table_md_path: tables/0007-chapitre-ⅲ-description-des-composants-table-01.md
+- name: Indicateur de fréquence de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Indicateur de fréquence de sortie
+    Description: L'indicateur s'allume lorsque le contrôleur entre dans le statut
+      de réglage de la fréquence de sortie.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapitre Ⅲ Description des composants
+    table_role: generic
+    table_md_path: tables/0007-chapitre-ⅲ-description-des-composants-table-01.md
+- name: Indicateur de retard d'enclenchement
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Indicateur de retard d'enclenchement
+    Description: L'indicateur s'allume lorsque le contrôleur entre dans le statut
+      de réglage du temps de retard d'enclenchement.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapitre Ⅲ Description des composants
+    table_role: generic
+    table_md_path: tables/0007-chapitre-ⅲ-description-des-composants-table-01.md
+- name: Indicateur de retard de déclenchement
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Indicateur de retard de déclenchement
+    Description: L'indicateur s'allume lorsque le contrôleur entre dans le statut
+      de réglage du temps de retard de déclenchement.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapitre Ⅲ Description des composants
+    table_role: generic
+    table_md_path: tables/0007-chapitre-ⅲ-description-des-composants-table-01.md
+- name: Indicateur de démarrage progressif
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Indicateur de démarrage progressif
+    Description: L'indicateur s'allume lorsque le contrôleur entre dans le statut
+      de réglage du temps de démarrage progressif.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapitre Ⅲ Description des composants
+    table_role: generic
+    table_md_path: tables/0007-chapitre-ⅲ-description-des-composants-table-01.md
+- name: Bouton d'augmentation de la tension de sortie & bouton de diminution de la
+    tension de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Bouton d'augmentation de la tension de sortie & bouton de diminution
+      de la tension de sortie
+    Description: La tension de sortie peut être modifiée à l'aide de ces deux boutons.
+      Lorsque la fonction de verrouillage du clavier est activée, ces deux boutons
+      deviennent inopérants.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapitre Ⅲ Description des composants
+    table_role: generic
+    table_md_path: tables/0007-chapitre-ⅲ-description-des-composants-table-01.md
+- name: Bouton d'augmentation des paramètres avancés &bouton de diminution des paramètres
+    avancés
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Bouton d'augmentation des paramètres avancés &bouton de diminution des
+      paramètres avancés
+    Description: Les paramètres avancés peuvent être réglés à l'aide de ces deux boutons.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapitre Ⅲ Description des composants
+    table_role: generic
+    table_md_path: tables/0007-chapitre-ⅲ-description-des-composants-table-01.md
+- name: Bouton FUNC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Bouton FUNC
+    Description: Permet de faire défiler les paramètres avancés en appuyant sur ce
+      bouton.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapitre Ⅲ Description des composants
+    table_role: generic
+    table_md_path: tables/0007-chapitre-ⅲ-description-des-composants-table-01.md
+- name: Bouton de mise sous/hors tension
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Bouton de mise sous/hors tension
+    Description: Permet d'activer ou de couper la sortie du contrôleur en appuyant
+      sur ce bouton.
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapitre Ⅲ Description des composants
+    table_role: generic
+    table_md_path: tables/0007-chapitre-ⅲ-description-des-composants-table-01.md
+- name: SDVC31-S
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modèle: SDVC31-S
+    Courant: 1.5A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapitre Ⅲ Description des composants
+    table_role: generic
+    table_md_path: tables/0007-chapitre-ⅲ-description-des-composants-table-02.md
+- name: SDVC31-M
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modèle: SDVC31-M
+    Courant: 3A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapitre Ⅲ Description des composants
+    table_role: generic
+    table_md_path: tables/0007-chapitre-ⅲ-description-des-composants-table-02.md
+- name: SDVC31-L
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modèle: SDVC31-L
+    Courant: 4.5A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapitre Ⅲ Description des composants
+    table_role: generic
+    table_md_path: tables/0007-chapitre-ⅲ-description-des-composants-table-02.md
+- name: SDVC31-XL
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modèle: SDVC31-XL
+    Courant: 6.0A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapitre Ⅲ Description des composants
+    table_role: generic
+    table_md_path: tables/0007-chapitre-ⅲ-description-des-composants-table-02.md
+- name: SDVC31-U
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modèle: SDVC31-U
+    Courant: 10A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapitre Ⅲ Description des composants
+    table_role: generic
+    table_md_path: tables/0007-chapitre-ⅲ-description-des-composants-table-02.md
+- name: SDVC31-XU
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Modèle: SDVC31-XU
+    Courant: 20A
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 7
+    heading_path: *id001
+    heading_title: Chapitre Ⅲ Description des composants
+    table_role: generic
+    table_md_path: tables/0007-chapitre-ⅲ-description-des-composants-table-02.md
+- name: C1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: C1
+    Fil: Fil de terre
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id002
+    heading_title: 5.2 Méthode d'utilisation du capteur de commutation NPN
+    table_role: generic
+    table_md_path: tables/0022-chapitre-ⅴ-capteurs-et-contrôle-par-signal-table-01.md
+- name: C2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: C2
+    Fil: Fil de signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id002
+    heading_title: 5.2 Méthode d'utilisation du capteur de commutation NPN
+    table_role: generic
+    table_md_path: tables/0022-chapitre-ⅴ-capteurs-et-contrôle-par-signal-table-01.md
+- name: C3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: C3
+    Fil: Sortie +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 22
+    heading_path: *id002
+    heading_title: 5.2 Méthode d'utilisation du capteur de commutation NPN
+    table_role: generic
+    table_md_path: tables/0022-chapitre-ⅴ-capteurs-et-contrôle-par-signal-table-01.md
+- name: C1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: C1
+    Annotation: Fil de terre
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 23
+    heading_path: *id003
+    heading_title: 5.2.4 Méthode de raccordement du capteur à fibre optique à contre-rayonnement
+    table_role: generic
+    table_md_path: tables/0023-chapitre-ⅴ-capteurs-et-contrôle-par-signal-table-01.md
+- name: C2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: C2
+    Annotation: Fil de signal
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 23
+    heading_path: *id003
+    heading_title: 5.2.4 Méthode de raccordement du capteur à fibre optique à contre-rayonnement
+    table_role: generic
+    table_md_path: tables/0023-chapitre-ⅴ-capteurs-et-contrôle-par-signal-table-01.md
+- name: C3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: C3
+    Annotation: Sortie +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 23
+    heading_path: *id003
+    heading_title: 5.2.4 Méthode de raccordement du capteur à fibre optique à contre-rayonnement
+    table_role: generic
+    table_md_path: tables/0023-chapitre-ⅴ-capteurs-et-contrôle-par-signal-table-01.md
+- name: A1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: A1
+    Définition: Fil de terre du contrôle de vitesse à distance
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Annexe C : Définition de l''interface de signaux'
+    table_role: generic
+    table_md_path: tables/0035-annexe-table-01.md
+- name: A2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: A2
+    Définition: Entrée du contrôle de vitesse à distance
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Annexe C : Définition de l''interface de signaux'
+    table_role: generic
+    table_md_path: tables/0035-annexe-table-01.md
+- name: A3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: A3
+    Définition: Alimentation du contrôle de vitesse à distance
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Annexe C : Définition de l''interface de signaux'
+    table_role: generic
+    table_md_path: tables/0035-annexe-table-01.md
+- name: B1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: B1
+    Définition: Terre
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Annexe C : Définition de l''interface de signaux'
+    table_role: generic
+    table_md_path: tables/0035-annexe-table-01.md
+- name: B2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: B2
+    Définition: Entrée de signal du capteur photoélectrique intelligent
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Annexe C : Définition de l''interface de signaux'
+    table_role: generic
+    table_md_path: tables/0035-annexe-table-01.md
+- name: B3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: B3
+    Définition: Terre
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Annexe C : Définition de l''interface de signaux'
+    table_role: generic
+    table_md_path: tables/0035-annexe-table-01.md
+- name: B4
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: B4
+    Définition: Sortie de signal du capteur photoélectrique intelligent
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Annexe C : Définition de l''interface de signaux'
+    table_role: generic
+    table_md_path: tables/0035-annexe-table-01.md
+- name: C1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: C1
+    Définition: GND +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Annexe C : Définition de l''interface de signaux'
+    table_role: generic
+    table_md_path: tables/0035-annexe-table-01.md
+- name: C2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: C2
+    Définition: Entrée de signal du capteur de commutation NPN
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Annexe C : Définition de l''interface de signaux'
+    table_role: generic
+    table_md_path: tables/0035-annexe-table-01.md
+- name: C3
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: C3
+    Définition: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Annexe C : Définition de l''interface de signaux'
+    table_role: generic
+    table_md_path: tables/0035-annexe-table-01.md
+- name: D1
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: D1
+    Définition: Sortie de contrôle
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Annexe C : Définition de l''interface de signaux'
+    table_role: generic
+    table_md_path: tables/0035-annexe-table-01.md
+- name: D2
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Borne: D2
+    Définition: +24V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 35
+    heading_path: *id004
+    heading_title: 'Annexe C : Définition de l''interface de signaux'
+    table_role: generic
+    table_md_path: tables/0035-annexe-table-01.md
+- name: '`U`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Contrôleur: '`U`'
+    Caractère affiché: Tension de sortie
+    Image du symbole: '![Seven-segment Symbol: U](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-00.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Annexe D :** Définition des caractères affichés sur le LED'
+    table_role: generic
+    table_md_path: tables/0036-annexe-table-01.md
+- name: '`F`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Contrôleur: '`F`'
+    Caractère affiché: Fréquence de sortie
+    Image du symbole: '![Seven-segment Symbol: F](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-01.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Annexe D :** Définition des caractères affichés sur le LED'
+    table_role: generic
+    table_md_path: tables/0036-annexe-table-01.md
+- name: '`d`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Contrôleur: '`d`'
+    Caractère affiché: Temps de retard d'enclenchement du capteur photoélectrique
+      intelligent
+    Image du symbole: '![Seven-segment Symbol: d](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-02.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Annexe D :** Définition des caractères affichés sur le LED'
+    table_role: generic
+    table_md_path: tables/0036-annexe-table-01.md
+- name: '`C`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Contrôleur: '`C`'
+    Caractère affiché: Temps de retard de déclenchement du capteur photoélectrique
+      intelligent
+    Image du symbole: '![Seven-segment Symbol: C](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-03.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Annexe D :** Définition des caractères affichés sur le LED'
+    table_role: generic
+    table_md_path: tables/0036-annexe-table-01.md
+- name: '`E`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Contrôleur: '`E`'
+    Caractère affiché: Démarrage progressif
+    Image du symbole: '![Seven-segment Symbol: E](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-04.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Annexe D :** Définition des caractères affichés sur le LED'
+    table_role: generic
+    table_md_path: tables/0036-annexe-table-01.md
+- name: '`U-`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Contrôleur: '`U-`'
+    Caractère affiché: Arrêt D
+    Image du symbole: '![Seven-segment Symbol: U-](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-05.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Annexe D :** Définition des caractères affichés sur le LED'
+    table_role: generic
+    table_md_path: tables/0036-annexe-table-01.md
+- name: '`d-`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Contrôleur: '`d-`'
+    Caractère affiché: Temps de retard d'enclenchement du capteur de commutation NPN
+    Image du symbole: '![Seven-segment Symbol: d-](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-06.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Annexe D :** Définition des caractères affichés sur le LED'
+    table_role: generic
+    table_md_path: tables/0036-annexe-table-01.md
+- name: '`r1`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Contrôleur: '`r1`'
+    Caractère affiché: Relation logique du capteur photoélectrique intelligent
+    Image du symbole: '![Seven-segment Symbol: r1](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-07.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Annexe D :** Définition des caractères affichés sur le LED'
+    table_role: generic
+    table_md_path: tables/0036-annexe-table-01.md
+- name: '`r2`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Contrôleur: '`r2`'
+    Caractère affiché: Relation logique du capteur de commutation NPN
+    Image du symbole: '![Seven-segment Symbol: r2](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-08.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Annexe D :** Définition des caractères affichés sur le LED'
+    table_role: generic
+    table_md_path: tables/0036-annexe-table-01.md
+- name: '`r3`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Contrôleur: '`r3`'
+    Caractère affiché: Relation logique de la sortie de contrôle
+    Image du symbole: '![Seven-segment Symbol: r3](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-09.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Annexe D :** Définition des caractères affichés sur le LED'
+    table_role: generic
+    table_md_path: tables/0036-annexe-table-01.md
+- name: '`n`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Contrôleur: '`n`'
+    Caractère affiché: Relation logique du signal de contrôle
+    Image du symbole: '![Seven-segment Symbol: n](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-10.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Annexe D :** Définition des caractères affichés sur le LED'
+    table_role: generic
+    table_md_path: tables/0036-annexe-table-01.md
+- name: '`H`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Contrôleur: '`H`'
+    Caractère affiché: Tension de sortie maximale
+    Image du symbole: '![Seven-segment Symbol: H](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-11.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Annexe D :** Définition des caractères affichés sur le LED'
+    table_role: generic
+    table_md_path: tables/0036-annexe-table-01.md
+- name: '`A`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Contrôleur: '`A`'
+    Caractère affiché: Indice d'accélération
+    Image du symbole: '![Seven-segment Symbol: A](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-12.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Annexe D :** Définition des caractères affichés sur le LED'
+    table_role: generic
+    table_md_path: tables/0036-annexe-table-01.md
+- name: '`P`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Contrôleur: '`P`'
+    Caractère affiché: Indice de forme d'onde
+    Image du symbole: '![Seven-segment Symbol: P](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-13.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Annexe D :** Définition des caractères affichés sur le LED'
+    table_role: generic
+    table_md_path: tables/0036-annexe-table-01.md
+- name: '`88888`'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Contrôleur: '`88888`'
+    Caractère affiché: Restauration des réglages par défaut
+    Image du symbole: '![Seven-segment Symbol: 88888](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0044-vcrop-14.png)'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 36
+    heading_path: *id005
+    heading_title: '**Annexe D :** Définition des caractères affichés sur le LED'
+    table_role: generic
+    table_md_path: tables/0036-annexe-table-01.md
+- name: Tension d'entrée
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Tension d'entrée
+    Plage Min: '85'
+    Plage Typique: '220'
+    Plage Max: '250'
+    Unité: V
+    Description: AC RMS
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Plage de tension<br>de sortie réglable
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Plage de tension<br>de sortie réglable
+    Plage Min: '0'
+    Plage Typique: ——
+    Plage Max: '250'
+    Unité: V
+    Description: Inférieure à 150% de la<br>tension d'entrée
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Précision du réglage<br>de la tension
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Précision du réglage<br>de la tension
+    Plage Typique: '1'
+    Unité: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Précision de la régulation<br>de la tension
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Précision de la régulation<br>de la tension
+    Plage Min: '0'
+    Plage Typique: ——
+    Plage Max: '10'
+    Unité: '%'
+    Description: ΔVout/ΔVin
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Temps de réponse de la<br>régulation de la tension
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Temps de réponse de la<br>régulation de la tension
+    Plage Min: '0.0025'
+    Plage Typique: ——
+    Plage Max: '0.025'
+    Unité: s
+    Description: 1/10 de la période de la<br>tension de sortie
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Plage de courant<br>de sortie réglable
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Plage de courant<br>de sortie réglable
+    Plage Min: '0'
+    Plage Typique: ——
+    Plage Max: '1.5'
+    Unité: A
+    Description: SDVC31-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Puissance de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Puissance de sortie
+    Plage Min: '0'
+    Plage Typique: ——
+    Plage Max: '330'
+    Unité: VA
+    Description: SDVC31-S
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Fréquence de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Fréquence de sortie
+    Plage Min: '40'
+    Plage Typique: ——
+    Plage Max: '400'
+    Unité: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Précision du réglage<br>de la fréquence
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Précision du réglage<br>de la fréquence
+    Plage Typique: '0.1'
+    Unité: Hz
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Forme d'onde de sortie
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Forme d'onde de sortie
+    Plage Typique: sine
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Temps de démarrage progressif
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Temps de démarrage progressif
+    Plage Min: '0'
+    Plage Typique: ——
+    Plage Max: '10'
+    Unité: s
+    Description: Valeur par défaut<br>d'usine :0.5
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Plage du temps de retard<br>d'enclenchement/déclenchement
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Plage du temps de retard<br>d'enclenchement/déclenchement
+    Plage Min: '0'
+    Plage Typique: ——
+    Plage Max: '20'
+    Unité: s
+    Description: Valeur par défaut<br>d'usine :0.2
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Précision du temps de retard<br>d'enclenchement/déclenchement
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Précision du temps de retard<br>d'enclenchement/déclenchement
+    Plage Typique: '0.1'
+    Unité: s
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Température de déclenchement de la<br>protection contre la surchauffe
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Température de déclenchement de la<br>protection contre la surchauffe
+    Plage Min: '58'
+    Plage Typique: '60'
+    Plage Max: '66'
+    Unité: ℃
+    Description: SDVC31-SM
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Tension de sortie de<br>contrôle CC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Tension de sortie de<br>contrôle CC
+    Plage Min: '22'
+    Plage Typique: '24'
+    Plage Max: '26'
+    Unité: V
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Courant de sortie de<br>contrôle CC
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Courant de sortie de<br>contrôle CC
+    Plage Min: '0'
+    Plage Typique: ——
+    Plage Max: '200'
+    Unité: mA
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Signal de contrôle analogique
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Signal de contrôle analogique
+    Plage Typique: 1-5
+    Unité: V
+    Description: Tension de contrôle<br>de vitesse à distance
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Signal de contrôle numérique
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Signal de contrôle numérique
+    Plage Typique: '24'
+    Unité: V
+    Description: Signal de commutation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Méthode de réglage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Méthode de réglage
+    Plage Typique: '6'
+    Unité: Bouton
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Consommation en<br>veille
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Consommation en<br>veille
+    Plage Min: ——
+    Plage Typique: '3'
+    Plage Max: ——
+    Unité: W
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Méthode d'affichage
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Méthode d'affichage
+    Plage Typique: '5'
+    Unité: Chiffre
+    Description: Tubes numériques LED
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Température ambiante
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Température ambiante
+    Plage Min: '0'
+    Plage Typique: '25'
+    Plage Max: '40'
+    Unité: ℃
+    Description: Pas de condensation
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: Humidité ambiante
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    Élément: Humidité ambiante
+    Plage Min: '10'
+    Plage Typique: '60'
+    Plage Max: '85'
+    Unité: '%'
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 37
+    heading_path: *id006
+    heading_title: 'Annexe E : Caractéristiques électriques'
+    table_role: generic
+    table_md_path: tables/0037-annexe-table-01.md
+- name: '1'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    N°: '1'
+    Problème / affichage: Pas d'affichage après<br>la mise sous tension
+    Conseils de dépannage et explications des erreurs: ◆ Assurez-vous que la prise
+      de courant est sous tension<br>◆ Assurez-vous que le câble d'alimentation d'entrée
+      est correctement raccordé à la prise de courant
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Annexe F : Conseils de dépannage et explications des erreurs'
+    table_role: generic
+    table_md_path: tables/0038-annexe-table-01.md
+- name: '2'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    N°: '2'
+    Problème / affichage: Affichage normal<br>mais pas de sortie
+    Conseils de dépannage et explications des erreurs: ◆ Assurez-vous que le câble
+      d'alimentation d'entrée et le câble d'alimentation de sortie sont fermement
+      raccordés<br>◆ Assurez-vous que la valeur du paramètre de tension de sortie
+      n'est pas trop faible<br>◆ Assurez-vous que le contrôleur n'est pas arrêté par
+      le signal de contrôle<br>◆ Assurez-vous que le contrôleur n'est pas arrêté par
+      des paramètres réglés sur normal off
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Annexe F : Conseils de dépannage et explications des erreurs'
+    table_role: generic
+    table_md_path: tables/0038-annexe-table-01.md
+- name: '3'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    N°: '3'
+    Problème / affichage: Le signal de contrôle<br>devient inopérant
+    Conseils de dépannage et explications des erreurs: ◆ Assurez-vous que le signal
+      de contrôle est correctement entré<br>◆ Assurez-vous que le fil de terre du
+      signal de contrôle est correctement raccordé au contrôleur<br>◆ Assurez-vous
+      que la relation logique du signal de contrôle est réglée correctement selon
+      vos attentes
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Annexe F : Conseils de dépannage et explications des erreurs'
+    table_role: generic
+    table_md_path: tables/0038-annexe-table-01.md
+- name: '4'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    N°: '4'
+    Problème / affichage: Phénomène de battement
+    Conseils de dépannage et explications des erreurs: ◆ Évitez le couplage de vibration
+      entre les vibrateurs<br>◆ Augmentez la fréquence de résonance des vibrateurs
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Annexe F : Conseils de dépannage et explications des erreurs'
+    table_role: generic
+    table_md_path: tables/0038-annexe-table-01.md
+- name: '5'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    N°: '5'
+    Problème / affichage: Affichage normal,<br>pas de sortie, mais un son<br>est audible
+    Conseils de dépannage et explications des erreurs: ◆ Réglez tous les paramètres
+      comme indiqué dans ce manuel
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Annexe F : Conseils de dépannage et explications des erreurs'
+    table_role: generic
+    table_md_path: tables/0038-annexe-table-01.md
+- name: '6'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    N°: '6'
+    Problème / affichage: Err01
+    Image du symbole: '![Seven-segment display symbol Err01](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-00.png)'
+    Conseils de dépannage et explications des erreurs: ◆ Sortie en court-circuit,
+      assurez-vous que le câble d'alimentation de sortie et la bobine ne sont pas
+      en court-circuit
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Annexe F : Conseils de dépannage et explications des erreurs'
+    table_role: generic
+    table_md_path: tables/0038-annexe-table-01.md
+- name: '7'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    N°: '7'
+    Problème / affichage: Err02
+    Image du symbole: '![Seven-segment display symbol Err02](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-01.png)'
+    Conseils de dépannage et explications des erreurs: ◆ Surintensité de sortie, réduisez
+      la valeur de la tension de sortie et assurez-vous que l'entrefer de l'armature
+      n'est pas trop grand
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Annexe F : Conseils de dépannage et explications des erreurs'
+    table_role: generic
+    table_md_path: tables/0038-annexe-table-01.md
+- name: '8'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    N°: '8'
+    Problème / affichage: Err03
+    Image du symbole: '![Seven-segment display symbol Err03](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-02.png)'
+    Conseils de dépannage et explications des erreurs: ◆ Surchauffe, placez le contrôleur
+      dans un environnement bien ventilé
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Annexe F : Conseils de dépannage et explications des erreurs'
+    table_role: generic
+    table_md_path: tables/0038-annexe-table-01.md
+- name: '9'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    N°: '9'
+    Problème / affichage: Err04
+    Image du symbole: '![Seven-segment display symbol Err04](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-03.png)'
+    Conseils de dépannage et explications des erreurs: ◆ Réservé, veuillez nous contacter
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Annexe F : Conseils de dépannage et explications des erreurs'
+    table_role: generic
+    table_md_path: tables/0038-annexe-table-01.md
+- name: '10'
+  symbol: null
+  range: null
+  default: null
+  unit: null
+  note: null
+  extra:
+    N°: '10'
+    Problème / affichage: Err05
+    Image du symbole: '![Seven-segment display symbol Err05](assets/images/cuh.sdvc31-U.series.manual.v3.01/page-0046-vcrop-04.png)'
+    Conseils de dépannage et explications des erreurs: ◆ Réservé, veuillez nous contacter
+  source_ref:
+    kind: publish_md_section_table
+    section_index: 38
+    heading_path: *id007
+    heading_title: 'Annexe F : Conseils de dépannage et explications des erreurs'
+    table_role: generic
+    table_md_path: tables/0038-annexe-table-01.md

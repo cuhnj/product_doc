@@ -1,0 +1,47 @@
+schema_version: 1
+doc_id: cuh.sdvc40.manual.v0.0.fr-FR
+doc_key: cuh.sdvc40.manual.v0.0
+lang: fr-FR
+generated_at: '2026-11-18 12:00:26'
+source_md_basename: doc.md
+export_pipeline: chunks-from-publish
+exports:
+- kind: publish_md_table
+  section_index: 4
+  heading_path:
+  - Sommaire
+  heading_title: Sommaire
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0004-sommaire-table-01.md
+  chars: 2476
+- kind: publish_md_table
+  section_index: 37
+  heading_path:
+  - Annexe
+  - 'Annexe D : Tableau des fonctions'
+  heading_title: 'Annexe D : Tableau des fonctions'
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0037-annexe-table-01.md
+  chars: 2053
+- kind: publish_md_table
+  section_index: 38
+  heading_path:
+  - Annexe
+  - 'Annexe E : Spécifications électriques'
+  heading_title: 'Annexe E : Spécifications électriques'
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0038-annexe-table-01.md
+  chars: 1914
+- kind: publish_md_table
+  section_index: 39
+  heading_path:
+  - Annexe
+  - 'Annexe F : Conseils de dépannage et explications des erreurs'
+  heading_title: 'Annexe F : Conseils de dépannage et explications des erreurs'
+  table_role: generic
+  table_index_in_section: 1
+  relative_path: tables/0039-annexe-table-01.md
+  chars: 2277
